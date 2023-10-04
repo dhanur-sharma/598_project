@@ -18,23 +18,26 @@ together.Models.start(config.MODEL)
 df = read_file(config.FILE_PATH)
 
 stories = df['story']
-stories = stories[:config.NUMBER_OF_STORIES]
-print(stories)
+stories = stories[config.STORY_START:config.NUMBER_OF_STORIES]
+# print(stories)
 # print(len(stories))
 # exit()
 outputs = []
 
 instruction = config.INSTRUCTION
 for i, story in enumerate(stories):
-    print(story)
+    # print(story)
     prompt = instruction + str(story)
     summary_output = together.Complete.create(
                         prompt = prompt, 
                         model = config.MODEL, 
                         max_tokens = 256,
-                        temperature = 0.7, # default value
-                        top_k = 50, # default value
-                        top_p = 0.7, # default value
+                        # temperature = 0.7, # default value
+                        temperature = 0.8, # default value
+                        # top_k = 50, # default value
+                        top_k = 60, # default value
+                        # top_p = 0.7, # default value
+                        top_p = 0.8, # default value
                         repetition_penalty = 1, # default value
                         stop = ['<human>', '\n\n']
                         )
