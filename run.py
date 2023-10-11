@@ -23,9 +23,9 @@ stories = stories[config.STORY_START:config.NUMBER_OF_STORIES]
 # print(len(stories))
 # exit()
 outputs = []
-
+i = config.STORY_START
 instruction = config.INSTRUCTION
-for i, story in enumerate(stories):
+for story in stories:
     # print(story)
     prompt = instruction + str(story)
     summary_output = together.Complete.create(
@@ -41,14 +41,16 @@ for i, story in enumerate(stories):
                         repetition_penalty = 1, # default value
                         stop = ['<human>', '\n\n']
                         )
-    json_object = json.dumps(outputs, indent=4)
+    json_object = json.dumps(summary_output, indent=4)
     outfile = open(f'./outputs/output_{i}.json', 'w+')
     outfile.write(json_object)
     outfile.close()
     outputs.append(summary_output)
+    print(f'Story {i} summarized and saved.')
+    i+=1
 
 print('*'*100)
-pprint(outputs)
+# pprint(outputs)
 
 # save outputs
 # json_object = json.dumps(outputs, indent=4)
@@ -61,7 +63,7 @@ for out in outputs:
     output_strings.append(out['output']['choices'][0]['text'])
 
 print('*'*100)
-print(output_strings)
+# print(output_strings)
 end_time = time.time()
 
 print('Time taken:', end_time - start_time)
