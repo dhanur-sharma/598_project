@@ -4,19 +4,32 @@ FILE_PATH = "/common/home/ds1987/598_project/598_project/data/hcV3-stories.csv"
 INSTRUCTION = "Summarize the following story in first person: "
 
 
-# MODEL = 'togethercomputer/llama-2-7b-chat'
+MODEL = 'togethercomputer/llama-2-7b-chat'
 # MODEL = 'togethercomputer/llama-2-13b-chat'
-MODEL = 'Austism/chronos-hermes-13b'
+# MODEL = 'Austism/chronos-hermes-13b'
+# MODEL = 'togethercomputer/GPT-NeoXT-Chat-Base-20B'
 
-# MODEL = 'huggyllama/llama-7b'
+
+# STORY_START = 0
+# STORY_START = 3
+# STORY_START = 10
+STORY_START = 1583
 
 
+# NUMBER_OF_STORIES = 3
+# NUMBER_OF_STORIES = 10
+NUMBER_OF_STORIES = 6854 # default value - contains all stories
+
+
+"""
+chronos-hermes-13b
 # STORY_START = 0
 # STORY_START = 2691
 STORY_START = 5626
 
 NUMBER_OF_STORIES = 6854 # default value - contains all stories
 
+"""
 
 """
 13b

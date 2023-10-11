@@ -39,7 +39,7 @@ for story in stories:
                         # top_p = 0.7, # default value
                         top_p = 0.8, # default value
                         repetition_penalty = 1, # default value
-                        stop = ['<human>', '\n\n']
+                        # stop = ['<human>', '\n\n']
                         )
     json_object = json.dumps(summary_output, indent=4)
     outfile = open(f'./outputs/output_{i}.json', 'w+')
