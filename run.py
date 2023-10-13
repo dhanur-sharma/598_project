@@ -31,14 +31,14 @@ for story in stories:
     summary_output = together.Complete.create(
                         prompt = prompt, 
                         model = config.MODEL, 
-                        max_tokens = 256,
+                        max_tokens = config.MAX_TOKENS,
                         # temperature = 0.7, # default value
-                        temperature = 0.8, # default value
+                        temperature = config.TEMPERATURE,
                         # top_k = 50, # default value
-                        top_k = 60, # default value
+                        top_k = config.TOP_K,
                         # top_p = 0.7, # default value
-                        top_p = 0.8, # default value
-                        repetition_penalty = 1, # default value
+                        top_p = config.TOP_P,
+                        repetition_penalty = config.REPETITION_PENALTY,
                         # stop = ['<human>', '\n\n']
                         )
     json_object = json.dumps(summary_output, indent=4)
@@ -75,5 +75,5 @@ print('Time taken:', end_time - start_time)
 # together.Models.stop("togethercomputer/llama-2-7b-chat")
 together.Models.stop(config.MODEL)
 
-# check which models have started or stopped
-together.Models.instances()
+# # check which models have started or stopped
+# together.Models.instances()

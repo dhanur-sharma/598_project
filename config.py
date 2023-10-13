@@ -1,7 +1,8 @@
 FILE_PATH = "/common/home/ds1987/598_project/598_project/data/hcV3-stories.csv"
 
 # INSTRUCTION = "Summarize the following story in 3 sentences. Don't output anything but the summary generated. Write it in first person. : "
-INSTRUCTION = "Summarize the following story in first person: "
+# INSTRUCTION = "Summarize the following story in first person: "
+INSTRUCTION = "Summarize the following story in first person in 1-3 sentences: "
 
 
 MODEL = 'togethercomputer/llama-2-7b-chat'
@@ -9,17 +10,37 @@ MODEL = 'togethercomputer/llama-2-7b-chat'
 # MODEL = 'Austism/chronos-hermes-13b'
 # MODEL = 'togethercomputer/GPT-NeoXT-Chat-Base-20B'
 
+# MODEL_PARAMETERS
+MAX_TOKENS = 256
+TEMPERATURE = 0.8
+TOP_K = 60
+TOP_P = 0.8
+REPETITION_PENALTY = 1
 
-# STORY_START = 0
+
+STORY_START = 0
 # STORY_START = 3
 # STORY_START = 10
-STORY_START = 1583
+# STORY_START = 1583
+
+
+# NUMBER_OF_STORIES = 3
+NUMBER_OF_STORIES = 10
+# NUMBER_OF_STORIES = 6854 # default value - contains all stories
+
+
+"""7b removed stop
+
+STORY_START = 0
+# STORY_START = 3
+# STORY_START = 10
+# STORY_START = 1583
 
 
 # NUMBER_OF_STORIES = 3
 # NUMBER_OF_STORIES = 10
 NUMBER_OF_STORIES = 6854 # default value - contains all stories
-
+"""
 
 """
 chronos-hermes-13b
