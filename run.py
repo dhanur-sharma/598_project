@@ -12,8 +12,13 @@ def read_file(file_path):
 
 together.api_key = "8459dc8088636ae70d85686b1e180015de1828643fcca4ae3c39567e5d640852"
 
+# pprint(together.Models.list())
+# with open('temp/models.json', 'w+') as f:
+#     json.dump(together.Models.list(), f, indent=4)
+# exit()
 # start the vm for the model
 together.Models.start(config.MODEL)
+print(f'Model {config.MODEL} started.')
 
 df = read_file(config.FILE_PATH)
 
@@ -74,6 +79,7 @@ print('Time taken:', end_time - start_time)
 # stop
 # together.Models.stop("togethercomputer/llama-2-7b-chat")
 together.Models.stop(config.MODEL)
+print(f'Model {config.MODEL} stopped.')
 
 # # check which models have started or stopped
 # together.Models.instances()

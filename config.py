@@ -5,10 +5,11 @@ FILE_PATH = "/common/home/ds1987/598_project/598_project/data/hcV3-stories.csv"
 INSTRUCTION = "Summarize the following story in first person in 1-3 sentences: "
 
 
-MODEL = 'togethercomputer/llama-2-7b-chat'
+# MODEL = 'togethercomputer/llama-2-7b-chat'
 # MODEL = 'togethercomputer/llama-2-13b-chat'
 # MODEL = 'Austism/chronos-hermes-13b'
 # MODEL = 'togethercomputer/GPT-NeoXT-Chat-Base-20B'
+MODEL = 'togethercomputer/llama-2-70b'
 
 # MODEL_PARAMETERS
 MAX_TOKENS = 256
@@ -24,9 +25,10 @@ STORY_START = 0
 # STORY_START = 1583
 
 
-# NUMBER_OF_STORIES = 3
-NUMBER_OF_STORIES = 10
+NUMBER_OF_STORIES = 3
+# NUMBER_OF_STORIES = 10
 # NUMBER_OF_STORIES = 6854 # default value - contains all stories
+
 
 
 """7b removed stop

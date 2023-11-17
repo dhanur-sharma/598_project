@@ -33404,3 +33404,19 @@ Traceback (most recent call last):
   File "/common/home/ds1987/.local/lib/python3.10/site-packages/together/complete.py", line 77, in create
     raise together.InstanceError(model=model)
 together.error.InstanceError: No running instances for togethercomputer/llama-2-13b-chat. You can start an instance by navigating to the Together Playground at api.together.ai
+[31;1m11-10-2023 11:22:26 - together.models - CRITICAL - Response error raised: 404 Client Error: Not Found for url: https://api.together.xyz/instances/start?model=togethercomputer/llama-2-70b (models.py:88)[0m
+Traceback (most recent call last):
+  File "/common/home/ds1987/.local/lib/python3.10/site-packages/together/models.py", line 86, in start
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.together.xyz/instances/start?model=togethercomputer/llama-2-70b
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/common/home/ds1987/598_project/598_project/run.py", line 16, in <module>
+    together.Models.start(config.MODEL)
+  File "/common/home/ds1987/.local/lib/python3.10/site-packages/together/models.py", line 89, in start
+    raise together.ResponseError(e)
+together.error.ResponseError: 404 Client Error: Not Found for url: https://api.together.xyz/instances/start?model=togethercomputer/llama-2-70b
