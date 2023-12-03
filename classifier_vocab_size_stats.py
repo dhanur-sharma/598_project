@@ -16,8 +16,11 @@ def read_and_print_min_max_with_filter(file_path, column_name, filter_column, fi
         # Calculate and print the min and max values of the specified column
         min_value = filtered_df[column_name].min()
         max_value = filtered_df[column_name].max()
+        mean_value = filtered_df[column_name].mean()
         print(f"\nMinimum value in column '{column_name}': {min_value}")
         print(f"Maximum value in column '{column_name}': {max_value}")
+        print(f"Mean value in column '{column_name}': {mean_value}")
+        print(f"Standard deviation in column '{column_name}': {filtered_df[column_name].std()}")
     else:
         print(f"\nNo rows after applying the filter.")
 

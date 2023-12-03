@@ -24,14 +24,14 @@ def read_and_print_min_max_with_filter(file_path, column_name, filter_column, fi
     else:
         print(f"\nNo rows after applying the filter.")
 
-# Specify the file paths for your CSV files
-file_path1 = './data/train_stratify_avg_sentence_length.csv'
-file_path2 = './data/test_stratify_avg_sentence_length.csv'
+file_path1 = './data/train_stratify_burstiness.csv'
+file_path2 = './data/test_stratify_burstiness.csv'
+
 
 # Read and print min/max values with the filter for the first file
-read_and_print_min_max_with_filter(file_path1, 'avg_sentence_length', 'label', 1)
-read_and_print_min_max_with_filter(file_path1, 'avg_sentence_length', 'label', 2)
+read_and_print_min_max_with_filter(file_path1, 'burstiness', 'label', 1)
+read_and_print_min_max_with_filter(file_path1, 'burstiness', 'label', 2)
 
 # Read and print min/max values with the filter for the second file
-read_and_print_min_max_with_filter(file_path2, 'avg_sentence_length', 'label', 1)
-read_and_print_min_max_with_filter(file_path2, 'avg_sentence_length', 'label', 2)
+read_and_print_min_max_with_filter(file_path2, 'burstiness', 'label', 1)
+read_and_print_min_max_with_filter(file_path2, 'burstiness', 'label', 2)

@@ -27,9 +27,6 @@ def read_and_print_min_max_with_filter(file_path, column_name, filter_column, fi
 file_path1 = './data/train_stratify_avg_word_length.csv'
 file_path2 = './data/test_stratify_avg_word_length.csv'
 
-# Specify the column for which you want to find min and max values
-# column_name = 'your_column_name'
-
 # Read and print min/max values with the filter for the first file
 read_and_print_min_max_with_filter(file_path1, 'avg_word_length', 'label', 1)
 read_and_print_min_max_with_filter(file_path1, 'avg_word_length', 'label', 2)

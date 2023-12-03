@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Read the CSV file into a pandas dataframe
-file_path = './data/combined_70b.csv'  # Update this with the path to your CSV file
+file_path = './data/combined_70b.csv'
 df = pd.read_csv(file_path)
 
 # print(df.head())
