@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago I was spending the evening at a cat rescue that I founded.  It was calm and quiet and I was giving the 40 cats some well needed quality time.  The sky suddenly became very dark and the tornado sirens just outside the door started going off. I was in a panic. I realized I had to get all 40 cats to safety in the basement.  I ran up and down the stairs with cats,placing them into rooms in the basement, some had to go down in carriers because they were ill.  Cats hide when tornado sirens go off.  I was exhausted and scared.  Updates showed that the tornado was getting closer to us but I was still missing about 10 cats.  It was horrible, as I cried, I had to make the choice of what cats to leave upstairs.  I took as many as I could  and went  into the basement until it passed. I cried the entire time. All I could think about was the cats that I had to leave upstairs.  I wanted to go get them. When it was over, the building was very damaged, but all cats were fine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago I was spending the evening at a cat rescue that I founded.  It was calm and quiet and I was giving the 40 cats some well needed quality time.  The sky suddenly became very dark and the tornado sirens just outside the door started going off. I was in a panic. I realized I had to get all 40 cats to safety in the basement.  I ran up and down the stairs with cats,placing them into rooms in the basement, some had to go down in carriers because they were ill.  Cats hide when tornado sirens go off.  I was exhausted and scared.  Updates showed that the tornado was getting closer to us but I was still missing about 10 cats.  It was horrible, as I cried, I had to make the choice of what cats to leave upstairs.  I took as many as I could  and went  into the basement until it passed. I cried the entire time. All I could think about was the cats that I had to leave upstairs.  I wanted to go get them. When it was over, the building was very damaged, but all cats were fine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so relieved, but I knew that I had to find the missing cats.  I was devastated to find that 3 of them had not survived. I am still grieving but I am also grateful that all of the other cats are safe.\n\n"
+            }
+        ],
+        "request_id": "811bd86f8a1c188d-EWR"
+    }
+}

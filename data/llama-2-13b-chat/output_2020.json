@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We met in a coffee shop.  I was behind her in line.  She had the most beautiful red hair flowing down her back.  She was ordering a mocha latte, which happens to be my favorite.  As she was turning around from the counter she bumped into me.  She looked up at me and blushed.  My heart burst.  She had such an easy smile, and porcelain skin.  She apologized and I said I would forgive her if she would just come join me with her latte.  She agreed, and we had the most interesting conversation, which led to us making a date for dinner that same week.  It became obviously that we were both very interested in the other and we have been inseparable since.  Her spirit is a beautiful as she is on the outside.  My family adores her and her family loves me as well.  Even though it seems a bit rushed to most outsiders, we plan to be married in the spring.  Sometimes you just know what's right by how it feels.  We can't wait any longer to continue our lives together as husband and wife."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We met in a coffee shop.  I was behind her in line.  She had the most beautiful red hair flowing down her back.  She was ordering a mocha latte, which happens to be my favorite.  As she was turning around from the counter she bumped into me.  She looked up at me and blushed.  My heart burst.  She had such an easy smile, and porcelain skin.  She apologized and I said I would forgive her if she would just come join me with her latte.  She agreed, and we had the most interesting conversation, which led to us making a date for dinner that same week.  It became obviously that we were both very interested in the other and we have been inseparable since.  Her spirit is a beautiful as she is on the outside.  My family adores her and her family loves me as well.  Even though it seems a bit rushed to most outsiders, we plan to be married in the spring.  Sometimes you just know what's right by how it feels.  We can't wait any longer to continue our lives together as husband and wife.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaedfbc990c80-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I decided that it was time to give myself a break from my busy work schedule and hop on a plane for a vacation. I'm currently single and my friends don't have the flexibility of schedule that I do so I had to take this trip solo. Because I live in the south I decided to fly somewhere more temperate to escape the pounding heat I get to suffer through in the summertime. Seattle was my destination, as I've never been to the Pacific Northwest. Traveling alone can be a bit daunting. You're solely responsible for all your arrangements, itinerary, and transportation. The trip to the airport was a bit lonely because my most recent trip was with an ex of mine whom I traveled with frequently. I found myself reflecting on that relationship and our struggles during transit. Along with the lonely feelings I had while making my way on this trip was a profound feeling of smallness. I felt very much just like another piece of cargo; screened, packed up, put on a conveyer, and shipped. The constant goings and comings of an airport can make one feel quite small when alone, adrift in a sea of strangers trying their best to keep their cool in the face of the complications of travel. A woman next to me in the terminal nearly had a breakdown when she learned her flight had been delayed. It was quite the scene. Though I don't often worry about the safety of air travel, it definitely occurred to me that should my plane crash(as unlikely as that was to happen) I would just be another name on a manifest of souls lost to mechanical malfunction or ill-tempered weather. It's a shitty feeling to think that you're just another face in a crowd and mass transit sure has a way of making you feel exactly that way. Ultimately I got to my destination and had a fine time. Being a tourist in another town is freeing in a way, because you're not beholden to certain local customs. You're forgiven for asking questions, being lost, meandering about in public spaces, and generally being curious when you'd otherwise be expected to be getting on with your life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I decided that it was time to give myself a break from my busy work schedule and hop on a plane for a vacation. I'm currently single and my friends don't have the flexibility of schedule that I do so I had to take this trip solo. Because I live in the south I decided to fly somewhere more temperate to escape the pounding heat I get to suffer through in the summertime. Seattle was my destination, as I've never been to the Pacific Northwest. Traveling alone can be a bit daunting. You're solely responsible for all your arrangements, itinerary, and transportation. The trip to the airport was a bit lonely because my most recent trip was with an ex of mine whom I traveled with frequently. I found myself reflecting on that relationship and our struggles during transit. Along with the lonely feelings I had while making my way on this trip was a profound feeling of smallness. I felt very much just like another piece of cargo; screened, packed up, put on a conveyer, and shipped. The constant goings and comings of an airport can make one feel quite small when alone, adrift in a sea of strangers trying their best to keep their cool in the face of the complications of travel. A woman next to me in the terminal nearly had a breakdown when she learned her flight had been delayed. It was quite the scene. Though I don't often worry about the safety of air travel, it definitely occurred to me that should my plane crash(as unlikely as that was to happen) I would just be another name on a manifest of souls lost to mechanical malfunction or ill-tempered weather. It's a shitty feeling to think that you're just another face in a crowd and mass transit sure has a way of making you feel exactly that way. Ultimately I got to my destination and had a fine time. Being a tourist in another town is freeing in a way, because you're not beholden to certain local customs. You're forgiven for asking questions, being lost, meandering about in public spaces, and generally being curious when you'd otherwise be expected to be getting on with your life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "When you're alone in a new place you have the freedom to do whatever the hell you want. You can simply be. And in that freedom I found a sense of peace."
+            }
+        ],
+        "request_id": "811f3f277c36431a-EWR"
+    }
+}

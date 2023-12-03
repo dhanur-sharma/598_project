@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been two weeks now, that John has not been feeling well.  It started as small stomach pains, and we just thought that he ate something that did not agree with him. He changed his diet a little, and the pains went away for a few days, but then they came back with the vengeance. Of course, John refused to listen to me and make a doctor's appointment. Two days ago the pains were so bad that he could not take it anymore. I made the appointment for him right then and there. I am afraid though that his regular doctor is just not knowledgeable enough.  I have already started researching specialists in gastroenterology. The most surprising thing, is that John is still capable of eating large amounts of food, even with all that pain. He says that he is very hungry. That gives me hope, because if this was something extremely serious, I would think that he would not be as hungry. I am trying to get him to understand that he might have to change his diet because of this, but he just scoffs at me. We will see what the doctors have to say.  I just hope that he will not require some kind of surgery.  All this is making me lose sleep."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been two weeks now, that John has not been feeling well.  It started as small stomach pains, and we just thought that he ate something that did not agree with him. He changed his diet a little, and the pains went away for a few days, but then they came back with the vengeance. Of course, John refused to listen to me and make a doctor's appointment. Two days ago the pains were so bad that he could not take it anymore. I made the appointment for him right then and there. I am afraid though that his regular doctor is just not knowledgeable enough.  I have already started researching specialists in gastroenterology. The most surprising thing, is that John is still capable of eating large amounts of food, even with all that pain. He says that he is very hungry. That gives me hope, because if this was something extremely serious, I would think that he would not be as hungry. I am trying to get him to understand that he might have to change his diet because of this, but he just scoffs at me. We will see what the doctors have to say.  I just hope that he will not require some kind of surgery.  All this is making me lose sleep.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2d75aee44387-EWR"
+    }
+}

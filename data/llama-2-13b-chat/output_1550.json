@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, my dog died in the hot July. The dog died by my other dog. The other dog was crying. I hugged the other dog and we both shared a cry. I remember the good times with my dog. I remember going to the park. I threw the ball towards the soccer field. The dog got a soccer ball one time by mistake. I had to kick it back to the players. I remember he loved eating peanut butter. I would sometimes put some on his dog food. He loved it but he had to drink water afterwards. It was funny seeing him smack. This was a great time. The dog had a great life. I hope he is resting in dog heaven. He was a good boy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, my dog died in the hot July. The dog died by my other dog. The other dog was crying. I hugged the other dog and we both shared a cry. I remember the good times with my dog. I remember going to the park. I threw the ball towards the soccer field. The dog got a soccer ball one time by mistake. I had to kick it back to the players. I remember he loved eating peanut butter. I would sometimes put some on his dog food. He loved it but he had to drink water afterwards. It was funny seeing him smack. This was a great time. The dog had a great life. I hope he is resting in dog heaven. He was a good boy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea6b91b0e4238-EWR"
+    }
+}

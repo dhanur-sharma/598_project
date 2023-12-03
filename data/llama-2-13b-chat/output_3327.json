@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Jenni and DJ bought a house together, so Jenni put her house up for sale. That meant I had to move. It was very difficult to find a new place to live. I had a very limited budget, and also have a dog.  Rentals are very expensive in the city I live in.  I ended up finding a basement apartment to move into, with room mates living upstairs. I really didn't want room mates, but had to take what I could afford. It has turned out to be ok, even though I do not want room mates. They allowed me to have my dog, and that was very, very important to me.  I was able to find enough people to help me move all of my stuff. It only took about 3 hours to move all of the boxes into the apartment, and a couple days to unpack. It was nice to have a space that has more room than my old space. There is a great yard for my dog, and she loves it. My favorite thing is having my own kitchen, finally. It's nice to be able to cook what I want, whenever I want."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Jenni and DJ bought a house together, so Jenni put her house up for sale. That meant I had to move. It was very difficult to find a new place to live. I had a very limited budget, and also have a dog.  Rentals are very expensive in the city I live in.  I ended up finding a basement apartment to move into, with room mates living upstairs. I really didn't want room mates, but had to take what I could afford. It has turned out to be ok, even though I do not want room mates. They allowed me to have my dog, and that was very, very important to me.  I was able to find enough people to help me move all of my stuff. It only took about 3 hours to move all of the boxes into the apartment, and a couple days to unpack. It was nice to have a space that has more room than my old space. There is a great yard for my dog, and she loves it. My favorite thing is having my own kitchen, finally. It's nice to be able to cook what I want, whenever I want.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I really didn't want to move, but I'm happy that I did.\n\n"
+            }
+        ],
+        "request_id": "811ec8de180318b1-EWR"
+    }
+}

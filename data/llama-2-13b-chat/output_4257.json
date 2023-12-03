@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this year I decided it was time to start taking antidepressants to help deal with the chronic depression and anxiety I'd been suffering from for the past few years. I went to the doctor and was prescribed Sertraline. The medication helped with the anxiety immediately. I continued on the course prescribed by my doctor: continue taking the Sertraline and increase the dose at regular weekly intervals. I began taking the smallest dose, 25 milligrams. In the following weeks I upped the dose to 50mg, then 100mg, then 150mg. After several days on the 150mg dose, I began feeling somewhat ill with stomach problems and a bit of increased anxiety. I was informed enough to know that these were symptoms of a potentially dangerous condition known as seratonin syndrome which is caused by elevated levels of seratonin in one's system. I immediately reduced my dosage of the Sertraline to 100mg. Knowing that I had another follow-up appointment with my doctor several days later I assumed that my seratonin levels would drop by the time of the appointment and then we could discuss weaning myself off of the Sertraline. In the time leading up to the appointment my seratonin levels continued to spike though, and while the negative symptoms were increasing (hyperactivity, shakiness, muscle tremors) the spike also triggered a breakthrough in my depression that was so powerful I can only equate it to what one might call a \"spiritual\" awakening. I went to my docotr's appointment as planned. I explained the situation and events and was put on an accelerated plan to get off of the medication. It took several days to come down from the seratonin syndrome, but after that I still felt the positive effects of the breakthrough. With the weight of the depression lifted I've been able to devote more energy to self-care activities such as going to the gym and meditation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this year I decided it was time to start taking antidepressants to help deal with the chronic depression and anxiety I'd been suffering from for the past few years. I went to the doctor and was prescribed Sertraline. The medication helped with the anxiety immediately. I continued on the course prescribed by my doctor: continue taking the Sertraline and increase the dose at regular weekly intervals. I began taking the smallest dose, 25 milligrams. In the following weeks I upped the dose to 50mg, then 100mg, then 150mg. After several days on the 150mg dose, I began feeling somewhat ill with stomach problems and a bit of increased anxiety. I was informed enough to know that these were symptoms of a potentially dangerous condition known as seratonin syndrome which is caused by elevated levels of seratonin in one's system. I immediately reduced my dosage of the Sertraline to 100mg. Knowing that I had another follow-up appointment with my doctor several days later I assumed that my seratonin levels would drop by the time of the appointment and then we could discuss weaning myself off of the Sertraline. In the time leading up to the appointment my seratonin levels continued to spike though, and while the negative symptoms were increasing (hyperactivity, shakiness, muscle tremors) the spike also triggered a breakthrough in my depression that was so powerful I can only equate it to what one might call a \"spiritual\" awakening. I went to my docotr's appointment as planned. I explained the situation and events and was put on an accelerated plan to get off of the medication. It took several days to come down from the seratonin syndrome, but after that I still felt the positive effects of the breakthrough. With the weight of the depression lifted I've been able to devote more energy to self-care activities such as going to the gym and meditation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, the experience was very surreal, and the negative effects were not worth the breakthrough I experienced.\n\n"
+            }
+        ],
+        "request_id": "811bd3115c078c2d-EWR"
+    }
+}

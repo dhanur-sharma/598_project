@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June my family and I went on a cruise. One of the ports of call was Honduras. All of us got frozen alcoholic beverages at a outside bar near the beach. It was very hot that day, but we hand palm tree cover. Three of us got lounge chairs and placed our stuff down. We lathered up with sunblock. We rented a float because I am not a strong swimmer. We proceeded to get into the ocean with a float and our drinks. I only had one and a half drinks. 3 of us out of the group got violently sick, hallucinated, and blacked out parts of the day. We believe we were drugged with a date rape drug. I also heard several other people outside our group who were also on the cruise got sick as well. Luckily we all made it back to the ship safely. I heard some countries get you sick and send you to the hospital so they can make money off you. The next morning we were completely fine and our appetites returned to normal. That does not happen when you are simply drunk."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June my family and I went on a cruise. One of the ports of call was Honduras. All of us got frozen alcoholic beverages at a outside bar near the beach. It was very hot that day, but we hand palm tree cover. Three of us got lounge chairs and placed our stuff down. We lathered up with sunblock. We rented a float because I am not a strong swimmer. We proceeded to get into the ocean with a float and our drinks. I only had one and a half drinks. 3 of us out of the group got violently sick, hallucinated, and blacked out parts of the day. We believe we were drugged with a date rape drug. I also heard several other people outside our group who were also on the cruise got sick as well. Luckily we all made it back to the ship safely. I heard some countries get you sick and send you to the hospital so they can make money off you. The next morning we were completely fine and our appetites returned to normal. That does not happen when you are simply drunk.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The authorities were notified. We were never contacted again.\n\n"
+            }
+        ],
+        "request_id": "811e98b9ae1a4373-EWR"
+    }
+}

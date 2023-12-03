@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I work at the local library. A customer came in and sat at one of our computers. He was a tall African American guy. After a while, he stood at my desk and wanted help. He took me to his computer and showed me what he was working on. He was in Microsoft Word and was writing a huge, convoluted resume. It was seriously close to five pages long. He may have used a template or something because he was not able to format the thing the way he wanted to. I explained to him that it was beyond the scope of what I could help him with and showed him a few resources where he might be able to look up the answers. He yelled, STOP and used my name. He accused me of not helping him and hiding the people that could help him. Dinally another patron stepped in to try to help him. When he comes in now I try to avoid him. I told my boss about him and he said I was in the right. People are just assholes, I guess."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I work at the local library. A customer came in and sat at one of our computers. He was a tall African American guy. After a while, he stood at my desk and wanted help. He took me to his computer and showed me what he was working on. He was in Microsoft Word and was writing a huge, convoluted resume. It was seriously close to five pages long. He may have used a template or something because he was not able to format the thing the way he wanted to. I explained to him that it was beyond the scope of what I could help him with and showed him a few resources where he might be able to look up the answers. He yelled, STOP and used my name. He accused me of not helping him and hiding the people that could help him. Dinally another patron stepped in to try to help him. When he comes in now I try to avoid him. I told my boss about him and he said I was in the right. People are just assholes, I guess.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb04e9c4d5e7e-EWR"
+    }
+}

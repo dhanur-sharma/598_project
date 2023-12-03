@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went down to visit my daughter. She lived roughly an hour away but she was my daughter, I loved spending time with her. The neighborhood was having an outdoor concert for some local groups and I thought it would be fun to spend time with her. Bonding. At that moment I heard someone call my name, I found it odd since most people don't remember me. I awkwardly played along in the conversation. Slowly, I was reminded of who he was in relation to me, even if I didn't pick it up fully. We went to high school together. He was in my circle of friends, we weren't really popular or unpopular. Just present. I seemed to be the defacto leader due to being the most outspoken of the group. It was actually nice speaking to him and we caught up on the things that have happened to use and the group in general over the years. We decided to exchange numbers. Hearing about the different paths our lives had taken was very interesting. I was glad I had my daughter though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went down to visit my daughter. She lived roughly an hour away but she was my daughter, I loved spending time with her. The neighborhood was having an outdoor concert for some local groups and I thought it would be fun to spend time with her. Bonding. At that moment I heard someone call my name, I found it odd since most people don't remember me. I awkwardly played along in the conversation. Slowly, I was reminded of who he was in relation to me, even if I didn't pick it up fully. We went to high school together. He was in my circle of friends, we weren't really popular or unpopular. Just present. I seemed to be the defacto leader due to being the most outspoken of the group. It was actually nice speaking to him and we caught up on the things that have happened to use and the group in general over the years. We decided to exchange numbers. Hearing about the different paths our lives had taken was very interesting. I was glad I had my daughter though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It made me feel old, but also good to have someone to share memories with. I had to head back home after a bit but I was happy to have had that encounter. It reminded me of a time long past and I enjoyed it."
+            }
+        ],
+        "request_id": "811eae8c4a234343-EWR"
+    }
+}

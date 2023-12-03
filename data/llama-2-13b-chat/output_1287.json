@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is a story about my first hike to a high peak mountain in the Adirondacks. The mountain is named Cascade.  Growing up in Long Island my parents were not particularly active. We never went biking or hiking or did any outside activities. Now at 55+ I have begun to be more active. I have a cousin who is an avid hiker. As such we met up in the Adirondacks at Cascade mountain. We parked the car and hiked up the mountain. It took a few hours to get to  the top. I was not actually sure if I could  do the hike since I never did one before that high. It was beautiful. We stayed awhile and ate. Then it took a few hours to hike down.  The hike down was actually harder to do. I live in Albany New York so 8t is only a few hours drive to the mountain from home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is a story about my first hike to a high peak mountain in the Adirondacks. The mountain is named Cascade.  Growing up in Long Island my parents were not particularly active. We never went biking or hiking or did any outside activities. Now at 55+ I have begun to be more active. I have a cousin who is an avid hiker. As such we met up in the Adirondacks at Cascade mountain. We parked the car and hiked up the mountain. It took a few hours to get to  the top. I was not actually sure if I could  do the hike since I never did one before that high. It was beautiful. We stayed awhile and ate. Then it took a few hours to hike down.  The hike down was actually harder to do. I live in Albany New York so 8t is only a few hours drive to the mountain from home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was very proud of myself to have completed the hike. \n\n"
+            }
+        ],
+        "request_id": "811ea1c4dd9e42b1-EWR"
+    }
+}

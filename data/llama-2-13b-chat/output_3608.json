@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been a crazy year. Reflecting back, I feel I've changed for the better. A year ago, I was discovering my brother's cancer diagnosis and doing soul searching. I treated him so horribly when he was sick, I was a real asshole. He deserved to have a supportive sister, not someone telling him he's making it all up and using his sickness as an excuse. I was so hard on him for so long, I wasn't sure he'd even forgive me... I wouldn't. We worked on our relationship and I supported him like I should have. It came up that he needed a bone marrow match. I immediately sent off my swabs, but it took almost 2 months to hear back. We were a match. We underwent the process and the doctor says I helped saved my brothers life. He has a real fighting chance now. We sobbed together. Reflecting on this year, I really got my act together. And as bad as it may sound, my brother's illness was instrumental to me going down the right path... and I'll be thankful to him for the rest of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been a crazy year. Reflecting back, I feel I've changed for the better. A year ago, I was discovering my brother's cancer diagnosis and doing soul searching. I treated him so horribly when he was sick, I was a real asshole. He deserved to have a supportive sister, not someone telling him he's making it all up and using his sickness as an excuse. I was so hard on him for so long, I wasn't sure he'd even forgive me... I wouldn't. We worked on our relationship and I supported him like I should have. It came up that he needed a bone marrow match. I immediately sent off my swabs, but it took almost 2 months to hear back. We were a match. We underwent the process and the doctor says I helped saved my brothers life. He has a real fighting chance now. We sobbed together. Reflecting on this year, I really got my act together. And as bad as it may sound, my brother's illness was instrumental to me going down the right path... and I'll be thankful to him for the rest of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ecd02b87b4228-EWR"
+    }
+}

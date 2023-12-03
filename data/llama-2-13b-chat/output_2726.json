@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Journal, Today is a day where i lost a best friend of mine. We knew each other since high school and i thought that we would never separate. Unfortunately, they passed away due to drunk driving. They drove into a intersection with high speed and hit a pole. His body was ejected immediately on impact  his family was stunned by the news as they should. I was studying when I found out the news. It was disturbing to say the least because I knew him personally. Everyone in our circle was devastated. We thought to ourselves that is only we were there we could have prevented it from happening. It took us a while to understand that i was out of our control. We miss him greatly though. Kind person and ver fun to be with. We have to stick together for his family . This will be a rocky road ahead. We as a family will remain close. This is what he would've wanted."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Journal, Today is a day where i lost a best friend of mine. We knew each other since high school and i thought that we would never separate. Unfortunately, they passed away due to drunk driving. They drove into a intersection with high speed and hit a pole. His body was ejected immediately on impact  his family was stunned by the news as they should. I was studying when I found out the news. It was disturbing to say the least because I knew him personally. Everyone in our circle was devastated. We thought to ourselves that is only we were there we could have prevented it from happening. It took us a while to understand that i was out of our control. We miss him greatly though. Kind person and ver fun to be with. We have to stick together for his family . This will be a rocky road ahead. We as a family will remain close. This is what he would've wanted.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will remember him forever as the best friend that i ever had. I will never forget his laugh and his smile. I wish he was here today. I wish we could have prevented this. I know that he is in a better place and that he is watching over us. I will always love him. Sincerely, Your friend."
+            }
+        ],
+        "request_id": "811ebc6bc8cbc42f-EWR"
+    }
+}

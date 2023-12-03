@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went on a work trip. We stayed over 2 days to vacation. Due to our past, some conversations got very uncomfortable, to the point where we weren\u2019t talking at times. It has put a strain on us being cordial, which hasn\u2019t stopped since the trip. We\u2019ve been friends over 10 years, but it seems to me that it\u2019s over now. We talk at work as needed, but not much beyond that. I really wish it was resolveable, but I don\u2019t think it is. She seems to be taking it better than I am, so at least one of us is relatively unscathed by it all. One hurt is bad enough, 2 is horrible. I would love a chance to go back and fix it, but that\u2019s only wishful thinking. She\u2019s gone her way. I\u2019m stuck in my old ways. I can\u2019t see it improving. It\u2019s a mistake that will hurt forever.  If she\u2019s happy though, I can work on feeling better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went on a work trip. We stayed over 2 days to vacation. Due to our past, some conversations got very uncomfortable, to the point where we weren\u2019t talking at times. It has put a strain on us being cordial, which hasn\u2019t stopped since the trip. We\u2019ve been friends over 10 years, but it seems to me that it\u2019s over now. We talk at work as needed, but not much beyond that. I really wish it was resolveable, but I don\u2019t think it is. She seems to be taking it better than I am, so at least one of us is relatively unscathed by it all. One hurt is bad enough, 2 is horrible. I would love a chance to go back and fix it, but that\u2019s only wishful thinking. She\u2019s gone her way. I\u2019m stuck in my old ways. I can\u2019t see it improving. It\u2019s a mistake that will hurt forever.  If she\u2019s happy though, I can work on feeling better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea69a9d6f8c87-EWR"
+    }
+}

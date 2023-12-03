@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I drove up to Chicago for my first baseball game. It was a long drive, but worth it. When we got there, we found our seats and went for snacks. We got all the classic baseball snacks. We got hot dogs, popcorn, peanuts and large drinks in a souvenir cup. We had really good seats, and could see the players faces. A foul ball was hit up near us, but went a couple seat back from us. We sand and cheered, it was a lot of fun. After the game, we decided to see what else there was to do in chicago. We found a nice dance club, which people had good things to say about. We went dancing and had a few drinks. We stayed up pretty late and ended up getting a hotel in downtown Chicago. The entire experience was really fun and I would love to do it again. We are already planning our next trip to Chicago, maybe to go to a museum or head to another baseball game. I'm glad my first baseball game was in such a great city."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I drove up to Chicago for my first baseball game. It was a long drive, but worth it. When we got there, we found our seats and went for snacks. We got all the classic baseball snacks. We got hot dogs, popcorn, peanuts and large drinks in a souvenir cup. We had really good seats, and could see the players faces. A foul ball was hit up near us, but went a couple seat back from us. We sand and cheered, it was a lot of fun. After the game, we decided to see what else there was to do in chicago. We found a nice dance club, which people had good things to say about. We went dancing and had a few drinks. We stayed up pretty late and ended up getting a hotel in downtown Chicago. The entire experience was really fun and I would love to do it again. We are already planning our next trip to Chicago, maybe to go to a museum or head to another baseball game. I'm glad my first baseball game was in such a great city.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8fa3acb4c333-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About four months ago my oldest cat started to act strange. She didn't eat as much as she normally would. She didn't play as much as she used to. She didn't even interact with me or any of the other cats as she normally would. So I figured she was either sick or depressed but cats don't get depressed. I assumed she had some type of sickness going on. She had all of her recent shots and just came from a vet check about a month ago. I still ended up taking her to the vet just to see what may be going on so I wanted to get her checked up on. After waiting for a few hours the veternarian told me that my cat had a caught a disease that was going around in the neighborhood. I was in shock because none of the other cats had gotten sick only this one. The vet told me that my cat could pass away within a few weeks. There wasn't any cures at the time if there had been I would have definitely tried to get one for my cat. A few weeks had passed by and my cat had finally passed away. Myself and all the other cats were extremely sad about the situation. Although it doesn't seem like it may happen I am not worried about my other cats getting sick."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About four months ago my oldest cat started to act strange. She didn't eat as much as she normally would. She didn't play as much as she used to. She didn't even interact with me or any of the other cats as she normally would. So I figured she was either sick or depressed but cats don't get depressed. I assumed she had some type of sickness going on. She had all of her recent shots and just came from a vet check about a month ago. I still ended up taking her to the vet just to see what may be going on so I wanted to get her checked up on. After waiting for a few hours the veternarian told me that my cat had a caught a disease that was going around in the neighborhood. I was in shock because none of the other cats had gotten sick only this one. The vet told me that my cat could pass away within a few weeks. There wasn't any cures at the time if there had been I would have definitely tried to get one for my cat. A few weeks had passed by and my cat had finally passed away. Myself and all the other cats were extremely sad about the situation. Although it doesn't seem like it may happen I am not worried about my other cats getting sick.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know I will be taking them to the vet just to make sure they are healthy."
+            }
+        ],
+        "request_id": "811bda95beffc45c-EWR"
+    }
+}

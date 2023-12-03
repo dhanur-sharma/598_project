@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My 18 month old son had a medical problem with his toe. We had to go to urgent care that night because it was literally blue and swollen. The doctor let us know after a very short moment of looking at it that it was nothing to worry about. The problem is called cellulitis, it was a minor infection and they put him on some antibiotics. The amoxicillin they put him on worked fine for almost seven days and the infection completely cleared up. On the last day of the antibiotic we noticed he was breaking out with bumps all over his face and we soon realized after looking over his body, he had hives everywhere and they were literally forming right before out eyes. I was so panicked and called his doctor right away. When we talked to him he told us it could be an allergic reaction but still wanted to see us right away. So we go to the doctor, the whole way there I am so worried he will have the type of allergic reaction that causes his throat to close or even worse, kill him. But once we got there the doctor made alot of sense out of it all. He asked if any of us was allergic to any medicine and I remembered that I am allergic to penicillin. I just didn't realize my allergy would be hereditary and I also didn't put together that amoxicillin was a type of penicillin. I was so relieved that it all made sense. The doctor let us know that his toe was healed so he wouldn't have to be put on a different antibiotic but he would need to take the antihistamine multiple times a day. I was so happy that he was going to be alright and didn't have some sort of strange condition."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My 18 month old son had a medical problem with his toe. We had to go to urgent care that night because it was literally blue and swollen. The doctor let us know after a very short moment of looking at it that it was nothing to worry about. The problem is called cellulitis, it was a minor infection and they put him on some antibiotics. The amoxicillin they put him on worked fine for almost seven days and the infection completely cleared up. On the last day of the antibiotic we noticed he was breaking out with bumps all over his face and we soon realized after looking over his body, he had hives everywhere and they were literally forming right before out eyes. I was so panicked and called his doctor right away. When we talked to him he told us it could be an allergic reaction but still wanted to see us right away. So we go to the doctor, the whole way there I am so worried he will have the type of allergic reaction that causes his throat to close or even worse, kill him. But once we got there the doctor made alot of sense out of it all. He asked if any of us was allergic to any medicine and I remembered that I am allergic to penicillin. I just didn't realize my allergy would be hereditary and I also didn't put together that amoxicillin was a type of penicillin. I was so relieved that it all made sense. The doctor let us know that his toe was healed so he wouldn't have to be put on a different antibiotic but he would need to take the antihistamine multiple times a day. I was so happy that he was going to be alright and didn't have some sort of strange condition.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The whole experience was scary but I was so relieved that we got it figured out and my son is okay.\n\n"
+            }
+        ],
+        "request_id": "811eaf432cc29e02-EWR"
+    }
+}

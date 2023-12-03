@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My hobby is to play guitar. I have attended guitar classes in my childhood days. It is my most favorite hobby. My family and friends would love my music. Two months ago, one day my friend came to home. He was seemed to be little tensed. I asked him for the reason. He said that his lover had a secret crush with another person. While talking he became more tensed. Suddenly he looked around and broke my guitar in anger. I was stunned for a moment. I don't know what to do at that time. I consoled him and made him to go to his home. I was upset for many days and did not play guitar. Knowing this my father bought me a new guitar two days back. Now I started to play it again. I feel happy now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My hobby is to play guitar. I have attended guitar classes in my childhood days. It is my most favorite hobby. My family and friends would love my music. Two months ago, one day my friend came to home. He was seemed to be little tensed. I asked him for the reason. He said that his lover had a secret crush with another person. While talking he became more tensed. Suddenly he looked around and broke my guitar in anger. I was stunned for a moment. I don't know what to do at that time. I consoled him and made him to go to his home. I was upset for many days and did not play guitar. Knowing this my father bought me a new guitar two days back. Now I started to play it again. I feel happy now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec2b76f2818c8-EWR"
+    }
+}

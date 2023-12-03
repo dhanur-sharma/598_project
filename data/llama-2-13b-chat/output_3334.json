@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother's wedding was almost a year ago in September. He got married for the first time at 48 years old. My brother is mentally ill and suffers from Schizo Effective disorder. Only two years before he was almost living on the street. The event of his wedding meant so much to the entire family. The fact that he overcame his obstacles, was taking medication regularly and met and was marrying a wonderful woman was cause of celebration for all of us. I felt so honored to be there and to be the one who put his boutineer on. My daughter was also one of the flower girls even though she was fourteen at the time. She and the bride's niece were together wearing matching blue maxi dresses and headpieces of baby's breath that made them look like angels. My daughter was suffering from OSFED (otherwise specified eating disorder) at the time and was struggling that day. It was still a wonderful day. Both my brother and his bride are devout Catholics and had a full mass. I haven't been at a mass for a long time because I left the Catholic Church when I was 18. However, the mass was beautiful. Despite it's length, it was still wonderful. Afterward, a friend of my brother's lent him the use of his large house for the reception. It was a potluck reception and very simple but also very nice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother's wedding was almost a year ago in September. He got married for the first time at 48 years old. My brother is mentally ill and suffers from Schizo Effective disorder. Only two years before he was almost living on the street. The event of his wedding meant so much to the entire family. The fact that he overcame his obstacles, was taking medication regularly and met and was marrying a wonderful woman was cause of celebration for all of us. I felt so honored to be there and to be the one who put his boutineer on. My daughter was also one of the flower girls even though she was fourteen at the time. She and the bride's niece were together wearing matching blue maxi dresses and headpieces of baby's breath that made them look like angels. My daughter was suffering from OSFED (otherwise specified eating disorder) at the time and was struggling that day. It was still a wonderful day. Both my brother and his bride are devout Catholics and had a full mass. I haven't been at a mass for a long time because I left the Catholic Church when I was 18. However, the mass was beautiful. Despite it's length, it was still wonderful. Afterward, a friend of my brother's lent him the use of his large house for the reception. It was a potluck reception and very simple but also very nice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The food was delicious. It was great to see my brother happy and to see the two of them together. It was a very joyous occasion and one that I will always remember."
+            }
+        ],
+        "request_id": "811ec90329b84250-EWR"
+    }
+}

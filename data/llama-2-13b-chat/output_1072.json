@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three weeks ago. That's when it happened. I have been working on this big project. It was my first as a Program Specialist. But things just didn't go as planned. I don't think this was my fault. There were things out of my control. I tried to reel us back in as best as  I could. but sometimes expectations exceed reality. We were running a course that I just could not seem to correct. Management wanted us to make changes. We explored those changes in the workgroup. But it seems those changes just are not feesible. We tried coming at it a different way, but this ship was doomed. It was a good reminder to everyone involved that sometimes we need to manage our expectations."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three weeks ago. That's when it happened. I have been working on this big project. It was my first as a Program Specialist. But things just didn't go as planned. I don't think this was my fault. There were things out of my control. I tried to reel us back in as best as  I could. but sometimes expectations exceed reality. We were running a course that I just could not seem to correct. Management wanted us to make changes. We explored those changes in the workgroup. But it seems those changes just are not feesible. We tried coming at it a different way, but this ship was doomed. It was a good reminder to everyone involved that sometimes we need to manage our expectations.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a good lesson to learn. I wish I could say that this was the only time I had to deal with this, but it is not. But I have learned a lot and have become a better Program Specialist because of it."
+            }
+        ],
+        "request_id": "811e9d599f2d0cd5-EWR"
+    }
+}

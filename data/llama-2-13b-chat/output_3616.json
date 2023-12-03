@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a sunny Alaskan day in the brooks range.  I saddled up 12 dogs and headed out on a training run.  My training runs with the dogs were between 5-10 miles because that\u2019s what I typically took the guests on.  The sun was so bright the snow was a perfect texture for the dogs to get some speed.  We took off fast and ran Ahead of pace majority of the run.  I decided to take A break at one of my favorite spots where the trail meets the river.  As I looked out to my amazement I saw a baby moose struggling through the snow.  A minute later I spotted the mom moose not far behind.  I sat very calm and still so the dogs didn\u2019t get alarmed. Next, I heard a strange sound I hadn\u2019t heard before.  As I looked out I saw something trotting through the woods, not far from the moose.  To my surprise it was a lynx.  Lynx are a pretty rare sight as they are very sneaky.  I noticed another lynx not far behind the first one, it was an amazing sight.  Before the dogs noticed I gave the call and we took off.  We continued the rest of the trail fast with a smile."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a sunny Alaskan day in the brooks range.  I saddled up 12 dogs and headed out on a training run.  My training runs with the dogs were between 5-10 miles because that\u2019s what I typically took the guests on.  The sun was so bright the snow was a perfect texture for the dogs to get some speed.  We took off fast and ran Ahead of pace majority of the run.  I decided to take A break at one of my favorite spots where the trail meets the river.  As I looked out to my amazement I saw a baby moose struggling through the snow.  A minute later I spotted the mom moose not far behind.  I sat very calm and still so the dogs didn\u2019t get alarmed. Next, I heard a strange sound I hadn\u2019t heard before.  As I looked out I saw something trotting through the woods, not far from the moose.  To my surprise it was a lynx.  Lynx are a pretty rare sight as they are very sneaky.  I noticed another lynx not far behind the first one, it was an amazing sight.  Before the dogs noticed I gave the call and we took off.  We continued the rest of the trail fast with a smile.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I couldn\u2019t believe my luck to see such an amazing rare sight.  I am so grateful to be able to share this amazing experience with my guests.\n\n"
+            }
+        ],
+        "request_id": "811ecd2e6d6043f9-EWR"
+    }
+}

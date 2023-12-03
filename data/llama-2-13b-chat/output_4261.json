@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, I'm never smoking marijuana again! Last week when I was on vacation in Indonesia, Jessie convinced me to smoke with him. I told him no because I don't do drugs. Also, I don't even know where he got the marijuana from. Anyways.. he eventually convinced me to try  it.  Honestly, it was the worst experience ever.  I tried to sleep it off but I was wide awake. I eventually decided to go on a jog to a nearby shop for snacks... BIGGEST MISTAKE EVER! I wasn't even halfway there when this creep in front of a rundown motel grabs my arm mid-jog. He kept pointing at a room window where there were a couple girls in the window that looked to be about thirteen or fourteen years. I was so disgusted. I yanked my arm away and ran all the way back to the hotel. I locked the hotel door and stayed locked in the room until the vacation was over. I won't be coming back here anytime soon. Thinking back I probably should've called the cops on that creep. Anyways... remember to say no to drugs! This was my first and only encounter with drugs."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, I'm never smoking marijuana again! Last week when I was on vacation in Indonesia, Jessie convinced me to smoke with him. I told him no because I don't do drugs. Also, I don't even know where he got the marijuana from. Anyways.. he eventually convinced me to try  it.  Honestly, it was the worst experience ever.  I tried to sleep it off but I was wide awake. I eventually decided to go on a jog to a nearby shop for snacks... BIGGEST MISTAKE EVER! I wasn't even halfway there when this creep in front of a rundown motel grabs my arm mid-jog. He kept pointing at a room window where there were a couple girls in the window that looked to be about thirteen or fourteen years. I was so disgusted. I yanked my arm away and ran all the way back to the hotel. I locked the hotel door and stayed locked in the room until the vacation was over. I won't be coming back here anytime soon. Thinking back I probably should've called the cops on that creep. Anyways... remember to say no to drugs! This was my first and only encounter with drugs.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm never doing it again. Signed, [Your Name]"
+            }
+        ],
+        "request_id": "811bd32238234332-EWR"
+    }
+}

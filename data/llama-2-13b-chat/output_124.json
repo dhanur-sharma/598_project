@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About four months ago, my wife and I sold our first family home. We have a large family. It is my wife and I plus five children. Our oldest daughter started asking us about having her own room. Although we loved that house, we knew it was time to get something bigger. Luckily, we sold it after being on the market for only three days. We found a house with more bedrooms quickly, and the whole process was as smooth as it could have been. However, it is bittersweet looking back on everything. That house was very special to me. I did a lot of work on it. I saw my children grow and learn and love there. We made so many good memories. We charted how our children grew on a closet door (which is probably still there). It was a wonderful house while it lasted, but things happen and we had to let it go. As of today, I can still remember every little nook and cranny of that place. After all, it has only been a few months. However, it is sad to think these memories will eventually fade. I love our new house, but that first one will always hold a special place in my heart."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About four months ago, my wife and I sold our first family home. We have a large family. It is my wife and I plus five children. Our oldest daughter started asking us about having her own room. Although we loved that house, we knew it was time to get something bigger. Luckily, we sold it after being on the market for only three days. We found a house with more bedrooms quickly, and the whole process was as smooth as it could have been. However, it is bittersweet looking back on everything. That house was very special to me. I did a lot of work on it. I saw my children grow and learn and love there. We made so many good memories. We charted how our children grew on a closet door (which is probably still there). It was a wonderful house while it lasted, but things happen and we had to let it go. As of today, I can still remember every little nook and cranny of that place. After all, it has only been a few months. However, it is sad to think these memories will eventually fade. I love our new house, but that first one will always hold a special place in my heart.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8bf4cf5d42af-EWR"
+    }
+}

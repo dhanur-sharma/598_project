@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: i was in my work. when i am working in my office i got a call from my partner, that my mother was admitted to hospital. he said that she have some ill. i felt very bad. i immediately got permission from my office. so i went to the hospital very fast. my partner said that my mother was in serious condition. i felt very bad. i became very sad. doctor said my mother heart attack. there is 99% blockage in the tube which carry blood to the heart. i felt very bad. i was completely blank. i was crying at that day. i said to doctor that please save my mother. i will spend money. they give more treatment to mother. my mother was saved and she is fine now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: i was in my work. when i am working in my office i got a call from my partner, that my mother was admitted to hospital. he said that she have some ill. i felt very bad. i immediately got permission from my office. so i went to the hospital very fast. my partner said that my mother was in serious condition. i felt very bad. i became very sad. doctor said my mother heart attack. there is 99% blockage in the tube which carry blood to the heart. i felt very bad. i was completely blank. i was crying at that day. i said to doctor that please save my mother. i will spend money. they give more treatment to mother. my mother was saved and she is fine now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb6179bb40f47-EWR"
+    }
+}

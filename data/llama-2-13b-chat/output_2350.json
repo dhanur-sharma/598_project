@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My dog recently passed away. I was so sad to let him go. He was quite old and had been trying to bury himself. I took him to the vet and the vet put him down. I cried a lot about it. It was a very difficult time. He had grown up with my boys and was such a good dog.  I still miss him even though 2 months have gone by. It's been hard to be without him. I have 2 other dogs and they still walk around looking for him too. He was the leader of the pack. I remember how he used to take the other dogs for a walk every morning. He would get them up and let them eat, then he would amble outside. When he got sick, I would look for him under the house. All he wanted was to lay down and be left alone. It was hard for all of us. I miss his stupid face. He was a good dog."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My dog recently passed away. I was so sad to let him go. He was quite old and had been trying to bury himself. I took him to the vet and the vet put him down. I cried a lot about it. It was a very difficult time. He had grown up with my boys and was such a good dog.  I still miss him even though 2 months have gone by. It's been hard to be without him. I have 2 other dogs and they still walk around looking for him too. He was the leader of the pack. I remember how he used to take the other dogs for a walk every morning. He would get them up and let them eat, then he would amble outside. When he got sick, I would look for him under the house. All he wanted was to lay down and be left alone. It was hard for all of us. I miss his stupid face. He was a good dog.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb50e0a40195d-EWR"
+    }
+}

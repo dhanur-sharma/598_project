@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A half a year ago, I had an accident. I was riding my bike. I crossed the street but somebody ran a red light. I'm glad I had my helmet on or I would of died. I broke a leg over the accident. I had to be rushed to the hospital. It was a very painful ordeal to go through. I got a cast. The doctor said not to walk for a few months. I had to watch old television shows in the hospital. The food in the hospital wasn't too bad. I had some meat loaf with mashed potatoes. The bill for the hospital was a little high but my insurance covered it. I realized the importance of helmets. I will being only biking in the park from now on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A half a year ago, I had an accident. I was riding my bike. I crossed the street but somebody ran a red light. I'm glad I had my helmet on or I would of died. I broke a leg over the accident. I had to be rushed to the hospital. It was a very painful ordeal to go through. I got a cast. The doctor said not to walk for a few months. I had to watch old television shows in the hospital. The food in the hospital wasn't too bad. I had some meat loaf with mashed potatoes. The bill for the hospital was a little high but my insurance covered it. I realized the importance of helmets. I will being only biking in the park from now on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I learned my lesson the hard way.\n\n"
+            }
+        ],
+        "request_id": "811bdda9ac2d439f-EWR"
+    }
+}

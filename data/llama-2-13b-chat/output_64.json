@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I got a scary phone call. My mother had fallen. I flew back home to meet her. She had gotten a stroke. She was sent to hospice care. It was a painful day that day. She died in the room. I had a big cry and needed to punch a wall to get the anger out of me. I remembered the good times with my mom. I remembered my first day of school. She gave me a big lunch to eat that day. I remembered my graduation from college. She gave me the same lunch as a gag and a cruise. I remember her always cooking good food. I loved the cooking and I will never enjoy that again. I hope she is resting well now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I got a scary phone call. My mother had fallen. I flew back home to meet her. She had gotten a stroke. She was sent to hospice care. It was a painful day that day. She died in the room. I had a big cry and needed to punch a wall to get the anger out of me. I remembered the good times with my mom. I remembered my first day of school. She gave me a big lunch to eat that day. I remembered my graduation from college. She gave me the same lunch as a gag and a cruise. I remember her always cooking good food. I loved the cooking and I will never enjoy that again. I hope she is resting well now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8abf9c2ac3ee-EWR"
+    }
+}

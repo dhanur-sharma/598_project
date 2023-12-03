@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago, I was  surprised with a graduation party that was thrown for me by my family.  I saw all my family and friends.   There was a DJ, and it was catered by my favorite eatery.  There was a pile of gifts, which was very unexpected.  Everyone was dancing and there was karaoke for a couple hours.  It was so funny to see some of my friends singing after having a few \"adult\" beverages.  My sister blew everyone away though!  When it was my turn, I was a little shy to start with, but once I started, I forgot about everyone watching and I really let loose.  Everyone clapped and cheered for everyone. Afterward, there was a lot of dancing.  The party lasted well into the night. Some family members came in from out of town and so they spent the night.  When everyone else left, we stayed up and talked for a while longer before going to bed. I worked hard to graduate ad it was so nice of everyone to come and help me celebrate this milestone in my life.  I feel so blessed and loved and I love to look back at that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago, I was  surprised with a graduation party that was thrown for me by my family.  I saw all my family and friends.   There was a DJ, and it was catered by my favorite eatery.  There was a pile of gifts, which was very unexpected.  Everyone was dancing and there was karaoke for a couple hours.  It was so funny to see some of my friends singing after having a few \"adult\" beverages.  My sister blew everyone away though!  When it was my turn, I was a little shy to start with, but once I started, I forgot about everyone watching and I really let loose.  Everyone clapped and cheered for everyone. Afterward, there was a lot of dancing.  The party lasted well into the night. Some family members came in from out of town and so they spent the night.  When everyone else left, we stayed up and talked for a while longer before going to bed. I worked hard to graduate ad it was so nice of everyone to come and help me celebrate this milestone in my life.  I feel so blessed and loved and I love to look back at that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was truly a special day."
+            }
+        ],
+        "request_id": "811ea113785d4232-EWR"
+    }
+}

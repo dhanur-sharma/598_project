@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This summer, I was able to take an entire month off of working and take a vacation. I took my 2 boys, ages 7 and 8, to California to stay with my parents, their grandparents. We spent entire days going to the beach. After the beach, we sometimes went straight to the pool.  The only other thing we did was eat on those days.  It was so very, very relaxing!  We visited some local attractions, like Knottsberry Farm. The weather was never too hot, so being outside was not burdensome. We hiked up to the Hollywood sign.  My kids were not impressed by that though. Grandma and Grandpa took the boys shopping for clothes, games and toys. Since they don't live very close, spoiling grandchildren was very much a common thing during our stay. My kids were able to play most days with their cousins from two of my sisters.  We all live in different states, so this opportunity has never been before. Lots of good memories were made by the constant playing and being together!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This summer, I was able to take an entire month off of working and take a vacation. I took my 2 boys, ages 7 and 8, to California to stay with my parents, their grandparents. We spent entire days going to the beach. After the beach, we sometimes went straight to the pool.  The only other thing we did was eat on those days.  It was so very, very relaxing!  We visited some local attractions, like Knottsberry Farm. The weather was never too hot, so being outside was not burdensome. We hiked up to the Hollywood sign.  My kids were not impressed by that though. Grandma and Grandpa took the boys shopping for clothes, games and toys. Since they don't live very close, spoiling grandchildren was very much a common thing during our stay. My kids were able to play most days with their cousins from two of my sisters.  We all live in different states, so this opportunity has never been before. Lots of good memories were made by the constant playing and being together!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed2ef09c141de-EWR"
+    }
+}

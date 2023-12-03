@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Today was awful. My friend text me about her new born baby. I had been suspicious lately because she had not contacted me to come see the baby since the baby shower. She was not posting on social media either. Than out of nowhere she text me that her child has a rare blood disease that only occurs in 1 out of 20,000 new borns. Skin to skin contact of the child results in horrible lesions and infections. She will never be able to work or have a normal life. I still feel almost in shock. Nothing like this has ever happened to someone I love. I want to be there for her but I have no idea how. I am trying to figure out a positive action I could take but nothing is coming to my mind. I really feel she wants to be left alone. It's odd but I think she just needs to be with the child and I will be there for her when things cool down and she at least has come to grips of her future somewhat. Her future and life are completely shattered. She has to start all over again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Today was awful. My friend text me about her new born baby. I had been suspicious lately because she had not contacted me to come see the baby since the baby shower. She was not posting on social media either. Than out of nowhere she text me that her child has a rare blood disease that only occurs in 1 out of 20,000 new borns. Skin to skin contact of the child results in horrible lesions and infections. She will never be able to work or have a normal life. I still feel almost in shock. Nothing like this has ever happened to someone I love. I want to be there for her but I have no idea how. I am trying to figure out a positive action I could take but nothing is coming to my mind. I really feel she wants to be left alone. It's odd but I think she just needs to be with the child and I will be there for her when things cool down and she at least has come to grips of her future somewhat. Her future and life are completely shattered. She has to start all over again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's just so sad."
+            }
+        ],
+        "request_id": "811ea4590aa942b1-EWR"
+    }
+}

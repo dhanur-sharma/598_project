@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One day after leaving work at around 2 pm I went ahead to go grocery shopping. Before I went grocery shopping I made sure to check that my computer and flash drive was in my back seat I couldn't remember if. I had brought it down with me from the office. There was some important work I had to finish and documents that I needed to go over and sign. It was there so I didnt have to worry much. Now I am at the grocery store getting things from my list. Then I remembered that I left my windows down and doors unlocked and it was raining. I instantly thought my stuff would be stolenor get wet. I had planned to come back to the car when I remembered that I did leave it unlocked. I was already in line with all my groceries waiting to pay. The angle I standing I wasn't able to see my car from the store. Soon as everything was rung up and paid for I tried to hurry and get to my car. Everything looked normal from afar but when I got there I realized it was gone. My computer and flash drive were stolen from me. However I was able to contact my insurance company and was compenstated for what was taken."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One day after leaving work at around 2 pm I went ahead to go grocery shopping. Before I went grocery shopping I made sure to check that my computer and flash drive was in my back seat I couldn't remember if. I had brought it down with me from the office. There was some important work I had to finish and documents that I needed to go over and sign. It was there so I didnt have to worry much. Now I am at the grocery store getting things from my list. Then I remembered that I left my windows down and doors unlocked and it was raining. I instantly thought my stuff would be stolenor get wet. I had planned to come back to the car when I remembered that I did leave it unlocked. I was already in line with all my groceries waiting to pay. The angle I standing I wasn't able to see my car from the store. Soon as everything was rung up and paid for I tried to hurry and get to my car. Everything looked normal from afar but when I got there I realized it was gone. My computer and flash drive were stolen from me. However I was able to contact my insurance company and was compenstated for what was taken.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had backups of all my files but was still upset that this happened to me. I was very careful with my things and I had to learn from this experience to be more vigilant. I had to go to work without my computer and had to do my work on my phone."
+            }
+        ],
+        "request_id": "811bd18f7a1b5e62-EWR"
+    }
+}

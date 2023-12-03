@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My favorite uncle took over as the family patriarch after my father died at an early age.  He not only took care of his children but also watched over his nieces and nephews.  He helped me become a better father and husband.  My son look on his as a surrogate grandfather.  My siblings and cousins had similar feelings. We came together from several states to celebrate this milestone birthday.  It was wonderful to catch up with everyone.  I hadn't seen one cousin in decades.  Although we hadn't been together much, we quickly reconnected.  We met new family members and shared memories.  It was especially nice to pay a tribute to this uncle. We stayed in a ranch house for several days so we had lots of time to visit.  We had a wonderful time. It was remarkable because of the instant reconnection.  We cooked meals together and made more memories."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My favorite uncle took over as the family patriarch after my father died at an early age.  He not only took care of his children but also watched over his nieces and nephews.  He helped me become a better father and husband.  My son look on his as a surrogate grandfather.  My siblings and cousins had similar feelings. We came together from several states to celebrate this milestone birthday.  It was wonderful to catch up with everyone.  I hadn't seen one cousin in decades.  Although we hadn't been together much, we quickly reconnected.  We met new family members and shared memories.  It was especially nice to pay a tribute to this uncle. We stayed in a ranch house for several days so we had lots of time to visit.  We had a wonderful time. It was remarkable because of the instant reconnection.  We cooked meals together and made more memories.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We also visited our uncle's favorite places.  We took pictures and reminisced about our childhood.  It was a weekend of love, laughter, and joy.  We will always cherish the memories of this special weekend."
+            }
+        ],
+        "request_id": "811ec6bd5e1f19cf-EWR"
+    }
+}

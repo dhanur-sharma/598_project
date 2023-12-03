@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always had issues with anxiety ever since I was very young, always worrying about all sorts of things. This, unfortunately, has led to me experiencing relatively frequent panic attacks. A few weeks ago I had what I would call my most costly panic attack ever. I had been feeling under the weather around that time and it didn't seem like I was getting any better. I had already been to the doctor twice in two weeks, but the doctor told me that all of the tests came back negative for any of the likely causes. He said that it was likely just a cold that has been aggravated by stress and that it would resolve itself with time. I woke up one morning and felt worse than I have ever felt. This caused me to get my self very wound up and have another panic attack. Once I was able to gather myself, I drove myself to the emergency room. The doctor there conducted all of the basic tests and still nothing was out of the ordinary. Being panicked, I  insisted that something was wrong and asked if there were any other tests that they could run. The doctor said yes, but also informed me that my insurance would likely not cover the costs of the additional tests. Being so anxious and upset, I agreed to still have the tests, even though my savings weren't anything special. So they ran a few additional tests and everything still came back negative. I eventually was convinced to go home and once again, wait and see if things got better. Of course, within a few days I was feeling as good as new. I was incredibly relieved until I received my medical bills. It would wipe out all of my savings and force me to use a payment plan to cover all of my expenses."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always had issues with anxiety ever since I was very young, always worrying about all sorts of things. This, unfortunately, has led to me experiencing relatively frequent panic attacks. A few weeks ago I had what I would call my most costly panic attack ever. I had been feeling under the weather around that time and it didn't seem like I was getting any better. I had already been to the doctor twice in two weeks, but the doctor told me that all of the tests came back negative for any of the likely causes. He said that it was likely just a cold that has been aggravated by stress and that it would resolve itself with time. I woke up one morning and felt worse than I have ever felt. This caused me to get my self very wound up and have another panic attack. Once I was able to gather myself, I drove myself to the emergency room. The doctor there conducted all of the basic tests and still nothing was out of the ordinary. Being panicked, I  insisted that something was wrong and asked if there were any other tests that they could run. The doctor said yes, but also informed me that my insurance would likely not cover the costs of the additional tests. Being so anxious and upset, I agreed to still have the tests, even though my savings weren't anything special. So they ran a few additional tests and everything still came back negative. I eventually was convinced to go home and once again, wait and see if things got better. Of course, within a few days I was feeling as good as new. I was incredibly relieved until I received my medical bills. It would wipe out all of my savings and force me to use a payment plan to cover all of my expenses.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "This experience was very costly in more ways than one.\n\n"
+            }
+        ],
+        "request_id": "811ec117ff6c19c7-EWR"
+    }
+}

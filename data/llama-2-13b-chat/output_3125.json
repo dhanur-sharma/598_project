@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went to the beach in the beginning of May. It was our first vacation as a family of three. Our son just turned one at that time so we thought it was a perfect time to go to the beach. Our son has never seen the ocean before so we were curious to see if he was going to like it or not. We stayed at our favorite hotel right on the beach. The water was still very cold at that time but we had so much fun just running on the beach. We actually did play in the water but only for short period of time because it was freezing. We built sand castles and just were running away from waves. We kept saying to our son \"oh no, the water gonna get you!\" and he would laugh and run away. He kept calling the ocean BIG WATER and it was so cute. We ate a lot of good food and we walked a lot. We really love walking on the boardwalk and just enjoy the breeze and the salty air. The weather was just perfect! It was sunny and warm but not too hot. Our son really enjoyed it and still keeps asking about the beach and when we can go again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went to the beach in the beginning of May. It was our first vacation as a family of three. Our son just turned one at that time so we thought it was a perfect time to go to the beach. Our son has never seen the ocean before so we were curious to see if he was going to like it or not. We stayed at our favorite hotel right on the beach. The water was still very cold at that time but we had so much fun just running on the beach. We actually did play in the water but only for short period of time because it was freezing. We built sand castles and just were running away from waves. We kept saying to our son \"oh no, the water gonna get you!\" and he would laugh and run away. He kept calling the ocean BIG WATER and it was so cute. We ate a lot of good food and we walked a lot. We really love walking on the boardwalk and just enjoy the breeze and the salty air. The weather was just perfect! It was sunny and warm but not too hot. Our son really enjoyed it and still keeps asking about the beach and when we can go again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are so happy that we were able to take him on his first vacation and that he had so much fun.\n\n"
+            }
+        ],
+        "request_id": "811ec450a9378c9b-EWR"
+    }
+}

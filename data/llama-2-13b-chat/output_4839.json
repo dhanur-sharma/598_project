@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple weeks ago, I went on a trip to Kennywood with my husband, his best friend, and my brother. We took my mother's car so we could all fit comfortably on the 90 minute drive. The trip up was interesting; we accidentally missed a turn and ended up driving through a very sketchy neighborhood to get back on track. Once we got there, we didn't want to pay for parking, so we ended up having to take an escalator down to the main parking lot and walking a good distance to get in. We had our bags checked, and since it was hot we immediately went to ride my favorite water ride so we could cool off. I was extremely disappointed because they took out the waterfall that gets you soaked if you go under it. But I tried to put it out of my mind so i could enjoy the day. I spent a great deal of my time waiting for the other three because I can't ride roller coasters due to a medical condition. They did manage to convince me to ride a combination water ride/small roller coaster with only one huge drop. I was worried that I wouldn't be okay, but it was so much fun. Being wet actually helped keep us cool in the super hot temperatures. Overall we had a fun time, in spite of my brother having stomach troubles and having to use the bathroom after every single ride he went on. We ended up staying in the park until a half hour before closing. I was so tired walking back up to the car, and having to pass by idiot smokers didn't help. (I have asthma.) However, there was a bright spot. Our gps ended up taking us through downtown Pittsburgh on our way home, which was awesome for me because I absolutely love large cities."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple weeks ago, I went on a trip to Kennywood with my husband, his best friend, and my brother. We took my mother's car so we could all fit comfortably on the 90 minute drive. The trip up was interesting; we accidentally missed a turn and ended up driving through a very sketchy neighborhood to get back on track. Once we got there, we didn't want to pay for parking, so we ended up having to take an escalator down to the main parking lot and walking a good distance to get in. We had our bags checked, and since it was hot we immediately went to ride my favorite water ride so we could cool off. I was extremely disappointed because they took out the waterfall that gets you soaked if you go under it. But I tried to put it out of my mind so i could enjoy the day. I spent a great deal of my time waiting for the other three because I can't ride roller coasters due to a medical condition. They did manage to convince me to ride a combination water ride/small roller coaster with only one huge drop. I was worried that I wouldn't be okay, but it was so much fun. Being wet actually helped keep us cool in the super hot temperatures. Overall we had a fun time, in spite of my brother having stomach troubles and having to use the bathroom after every single ride he went on. We ended up staying in the park until a half hour before closing. I was so tired walking back up to the car, and having to pass by idiot smokers didn't help. (I have asthma.) However, there was a bright spot. Our gps ended up taking us through downtown Pittsburgh on our way home, which was awesome for me because I absolutely love large cities.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I could have easily spent the whole night exploring downtown.\n\n"
+            }
+        ],
+        "request_id": "811bdea7fb65c436-EWR"
+    }
+}

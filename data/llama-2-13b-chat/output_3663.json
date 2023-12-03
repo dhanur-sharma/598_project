@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was wrongfully evicted from my apartment. I was leased this place through a agency I thought was reputable, but I've had nothing but problems and the run-around since I moved in. We had a special event planned at the house, a post holiday gathering, and I had no means to cook for guests. Another concern became the air we breathed. I saw dust coming out of the duct work when the heating system was on. I was concerned about this because the house was so old. I bought surface lead kits hoping to ease my mind. It turned out, the duct work contained 225 ppm of lead. I knew this was way too high, so I was forced to buy air filtration units to clean the air.  The apartment was problem after problem, from the oven that took 3 weeks to be replaced, to the windows that were painted shut and couldn't be opened. AND, believe it or not, I had ivy growing out the wall, into my living room! It was like a scene from JUMANJI. I had enough of the problems here and contacted the board of health. The inspector came down the following day to check things out. He said he could do nothing about the air I was breathing, but could cite him for a number of other issues in the home.  The lead law and how it's written prevent renters from complaining. (another issue I'll have to spend some time on). Court was an interesting experience. I was glad to see someone side with me for a change. In the contract, to settle this matter, they left the issue of lead open. Now, I can go back and use this case in the future to fight for others in my situation. In short, I didn't have to pay rent for the last 3 months of the lease, and stayed through the date stated on the initial contract. I won."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was wrongfully evicted from my apartment. I was leased this place through a agency I thought was reputable, but I've had nothing but problems and the run-around since I moved in. We had a special event planned at the house, a post holiday gathering, and I had no means to cook for guests. Another concern became the air we breathed. I saw dust coming out of the duct work when the heating system was on. I was concerned about this because the house was so old. I bought surface lead kits hoping to ease my mind. It turned out, the duct work contained 225 ppm of lead. I knew this was way too high, so I was forced to buy air filtration units to clean the air.  The apartment was problem after problem, from the oven that took 3 weeks to be replaced, to the windows that were painted shut and couldn't be opened. AND, believe it or not, I had ivy growing out the wall, into my living room! It was like a scene from JUMANJI. I had enough of the problems here and contacted the board of health. The inspector came down the following day to check things out. He said he could do nothing about the air I was breathing, but could cite him for a number of other issues in the home.  The lead law and how it's written prevent renters from complaining. (another issue I'll have to spend some time on). Court was an interesting experience. I was glad to see someone side with me for a change. In the contract, to settle this matter, they left the issue of lead open. Now, I can go back and use this case in the future to fight for others in my situation. In short, I didn't have to pay rent for the last 3 months of the lease, and stayed through the date stated on the initial contract. I won.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But, the real victory is that I have something to stand on and fight for in the future.\n\n"
+            }
+        ],
+        "request_id": "811ece4f3e4c8c27-EWR"
+    }
+}

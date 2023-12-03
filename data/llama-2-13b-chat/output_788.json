@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am a recovering alcoholic and she is a recovering codependent. People of the same gender aren't supposed to sponsor one another in 12-Step programs. But I ended up sponsoring her. I helped her work the 12 Steps of Alcoholics Anonymous; she worked the Steps on her codependency. We kept things \"professional\" and friendly for a few months. But being that close to someone and watching her grow and learn to be happy and care for herself made me sort of fall in love with her. I told her about my feelings and we started dating. The relationship was taboo in that it's very frowned upon to date a sponsee. It is also frowned upon to sponsor someone in a different 12-Step program. But we became romantically involved anyway. It was very difficult to talk about this with anyone because we got very little support, as would be expected. But things are going well with us. We have more or less proved everyone wrong. We are very happy, and, to be honest, we are one of the healthiest couples I know. I have high hopes for us, and she does, too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am a recovering alcoholic and she is a recovering codependent. People of the same gender aren't supposed to sponsor one another in 12-Step programs. But I ended up sponsoring her. I helped her work the 12 Steps of Alcoholics Anonymous; she worked the Steps on her codependency. We kept things \"professional\" and friendly for a few months. But being that close to someone and watching her grow and learn to be happy and care for herself made me sort of fall in love with her. I told her about my feelings and we started dating. The relationship was taboo in that it's very frowned upon to date a sponsee. It is also frowned upon to sponsor someone in a different 12-Step program. But we became romantically involved anyway. It was very difficult to talk about this with anyone because we got very little support, as would be expected. But things are going well with us. We have more or less proved everyone wrong. We are very happy, and, to be honest, we are one of the healthiest couples I know. I have high hopes for us, and she does, too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We're just taking it one day at a time and being very careful with our relationship.\n\n"
+            }
+        ],
+        "request_id": "811e9897cedf0f60-EWR"
+    }
+}

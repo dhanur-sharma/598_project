@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Seven weeks ago, my son got sick. He had to go to the hospital. This took place on the 4th of July. He held the firecracker for too long and got severe burns on this arms. This was very sad to see. I gave him a big hug in the hospital. The doctors' say that it will take a month to recover. We are poor and can't afford the bill. This will leave us impoverished. I hope my wife can get a raise at her job. We really need the money now. We will have to beg our friends and family for some money. They should give us some. I hope it will be enough to survive on. I will definitely teach him to be careful from now on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Seven weeks ago, my son got sick. He had to go to the hospital. This took place on the 4th of July. He held the firecracker for too long and got severe burns on this arms. This was very sad to see. I gave him a big hug in the hospital. The doctors' say that it will take a month to recover. We are poor and can't afford the bill. This will leave us impoverished. I hope my wife can get a raise at her job. We really need the money now. We will have to beg our friends and family for some money. They should give us some. I hope it will be enough to survive on. I will definitely teach him to be careful from now on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am very worried about the future.\n\n"
+            }
+        ],
+        "request_id": "811f37ee38e6425f-EWR"
+    }
+}

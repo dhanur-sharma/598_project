@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been working with the youth wrestling league for several years now. When they told me that I'd get to plan out my first match as a wrestling booker, I was extatic. I was also nervous. I spent two weeks planning the matches. It was so intense. The felling was out of this world being able to help out the younger talent. About six weeks ago, I got to watch my plans and talent unfold. The matches were a success. We drew some of the biggest crowds we'd seen in quite awhile. The event turned out so great. To watch all that unfold was just amazing. The people had so much fun and were so grateful for all I had done. I can't wait to do it again. I hope to become the best booker the league has ever seen. I have such high hopes for the futre."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been working with the youth wrestling league for several years now. When they told me that I'd get to plan out my first match as a wrestling booker, I was extatic. I was also nervous. I spent two weeks planning the matches. It was so intense. The felling was out of this world being able to help out the younger talent. About six weeks ago, I got to watch my plans and talent unfold. The matches were a success. We drew some of the biggest crowds we'd seen in quite awhile. The event turned out so great. To watch all that unfold was just amazing. The people had so much fun and were so grateful for all I had done. I can't wait to do it again. I hope to become the best booker the league has ever seen. I have such high hopes for the futre.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel so lucky to be a part of this.\n\n"
+            }
+        ],
+        "request_id": "811f43f24fce4294-EWR"
+    }
+}

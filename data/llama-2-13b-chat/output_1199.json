@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I moved to a new place. I was originally in my college town. I stayed there for six years after graduation. I needed a new start somewhere. New places and things to do. The change was quite large at first. All the familiar things were gone. From friend to locations. But the new people I met and the new sense of freedom helped. I needed to get a set of new patterns. I think that a new location was perfect for this. I think it was the right choice. I still keep in touch with old friends. Ones that are still there and the ones that moved long ago. I feel it was a good thing in my life and glad I did it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I moved to a new place. I was originally in my college town. I stayed there for six years after graduation. I needed a new start somewhere. New places and things to do. The change was quite large at first. All the familiar things were gone. From friend to locations. But the new people I met and the new sense of freedom helped. I needed to get a set of new patterns. I think that a new location was perfect for this. I think it was the right choice. I still keep in touch with old friends. Ones that are still there and the ones that moved long ago. I feel it was a good thing in my life and glad I did it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9fa7ad2d8c35-EWR"
+    }
+}

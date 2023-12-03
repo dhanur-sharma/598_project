@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in July, I drove a couple hours from where I currently live to visit my parents since I hadn't seen them since Easter. My siblings were also driving in for the occasion since it was the 4th of July and we were all going to get together for it. I left work early so that I could get to my parents' house earlier in the evening. Upon arriving, my brother had apparently gotten in about 10 minutes before me. I hugged everyone and said hello and then went to get my suitcase and stuff from my car to bring it up into a spare bedroom since I was going to be spending the night there. We were apparently going to meet my sister and her children at a nearby restaurant later that evening to get some food, but in the meantime my parents and my brother and I chatted. We watched a bit of TV while talking about what we had been up to and what my parents were doing with remodeling their home. About an hour or so later my mom gets a text from my sister saying that she and the kids are going to head out to the restaurant. So, we all get into a car and my dad drives us to the restaurant. We arrive about 5 minutes before my sister, but soon enough she pulls in and my 2 nieces and my nephew start piling out of the car. I say hi to my nieces as my sister carries my nephew over to us. I give my sister a hug and then we all walk in. Inside, we get a table for the group of us as my dad, my brother and I go to order the food for everyone. After about 15 minutes of waiting, all the food is ready for us to pick up and we take it back to the table where my sister and my mom are watching the kids. We eat and reminisce about old times and talk about how my niece is starting first grade. That causes me and my siblings to talk about our old times in grade school since we all went to the same school, but at different times. We finish eating and chat for a bit longer before deciding to head out. My sister packs her kids into her minivan and she gives us a hug goodbye. After they drive off, my dad, my mom, my brother and I head back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in July, I drove a couple hours from where I currently live to visit my parents since I hadn't seen them since Easter. My siblings were also driving in for the occasion since it was the 4th of July and we were all going to get together for it. I left work early so that I could get to my parents' house earlier in the evening. Upon arriving, my brother had apparently gotten in about 10 minutes before me. I hugged everyone and said hello and then went to get my suitcase and stuff from my car to bring it up into a spare bedroom since I was going to be spending the night there. We were apparently going to meet my sister and her children at a nearby restaurant later that evening to get some food, but in the meantime my parents and my brother and I chatted. We watched a bit of TV while talking about what we had been up to and what my parents were doing with remodeling their home. About an hour or so later my mom gets a text from my sister saying that she and the kids are going to head out to the restaurant. So, we all get into a car and my dad drives us to the restaurant. We arrive about 5 minutes before my sister, but soon enough she pulls in and my 2 nieces and my nephew start piling out of the car. I say hi to my nieces as my sister carries my nephew over to us. I give my sister a hug and then we all walk in. Inside, we get a table for the group of us as my dad, my brother and I go to order the food for everyone. After about 15 minutes of waiting, all the food is ready for us to pick up and we take it back to the table where my sister and my mom are watching the kids. We eat and reminisce about old times and talk about how my niece is starting first grade. That causes me and my siblings to talk about our old times in grade school since we all went to the same school, but at different times. We finish eating and chat for a bit longer before deciding to head out. My sister packs her kids into her minivan and she gives us a hug goodbye. After they drive off, my dad, my mom, my brother and I head back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's a pretty relaxed evening, but it was nice to catch up with my family.\n\n"
+            }
+        ],
+        "request_id": "811f3756fc45c475-EWR"
+    }
+}

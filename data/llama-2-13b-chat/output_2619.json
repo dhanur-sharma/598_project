@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother go engaged a last month. So exciting attending my brothers engagement party. His beautiful fiance hosted the event in her backyard. It was decorated so lovely. It had white and pink flowers on the back yard fence. The tables were decorated with a soft white lace and covered in rose petals.  There was an open bar and the food were all of these little appetizers. I think this was meant to help everyone get to know each other and mingle instead of just sitting at your table with people you already know. There were tons of people there and I even met my now boyfriend at the party. He was eating one of those tiny hot dogs rolled in bread, I forget what they are called. He was choking on it and I performed the heimlich maneuver on him and saved his life. It is kind of funny when you think about it. After that we just kind of hit off. We had a couple shots of tequila and a few glasses of wine. Minus the horrible hangover the next morning I had a great time. All in all I would say it was a really great engagement party!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother go engaged a last month. So exciting attending my brothers engagement party. His beautiful fiance hosted the event in her backyard. It was decorated so lovely. It had white and pink flowers on the back yard fence. The tables were decorated with a soft white lace and covered in rose petals.  There was an open bar and the food were all of these little appetizers. I think this was meant to help everyone get to know each other and mingle instead of just sitting at your table with people you already know. There were tons of people there and I even met my now boyfriend at the party. He was eating one of those tiny hot dogs rolled in bread, I forget what they are called. He was choking on it and I performed the heimlich maneuver on him and saved his life. It is kind of funny when you think about it. After that we just kind of hit off. We had a couple shots of tequila and a few glasses of wine. Minus the horrible hangover the next morning I had a great time. All in all I would say it was a really great engagement party!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eba55e92d4299-EWR"
+    }
+}

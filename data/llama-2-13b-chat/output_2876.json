@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Bad Lands National Park was an absolute gem. What a place this turned out to be. It was everything that I envisioned the natural beauty of this planet could be. My family went on a trip this summer. We journeyed West, as our forefathers were one to. The park wasn't the only place. There were several places on the way that we had seen, but none had made the impact like Bad Lands did. The only thing bad about it was the name. It was beautiful. It's almost overwhelming how much there was to view. But it was so special. I felt like I was connected to everything and everyone. My family seemed to enjoy it as well. Not everything is about technology. It's good to stay grounded."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Bad Lands National Park was an absolute gem. What a place this turned out to be. It was everything that I envisioned the natural beauty of this planet could be. My family went on a trip this summer. We journeyed West, as our forefathers were one to. The park wasn't the only place. There were several places on the way that we had seen, but none had made the impact like Bad Lands did. The only thing bad about it was the name. It was beautiful. It's almost overwhelming how much there was to view. But it was so special. I felt like I was connected to everything and everyone. My family seemed to enjoy it as well. Not everything is about technology. It's good to stay grounded.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ebfed2a8b43ef-EWR"
+    }
+}

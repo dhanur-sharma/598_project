@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One Easter Sunday, I had to go to the emergency room.  This was totally unexpected, as I hadn't been to a hospital or emergency room in several years.  It didn't start out as a trip to the emergency room, but the urgent care I went to sent me right over!  It happened like this...Two days prior, I had developed a rash on my left forearm.  This was nothing new, as working outside you sometimes end up with all kinds of bruises, bites, scratches and rashes.  What was different this time was on Easter Sunday, I was having a hard time mentally.  I was dizzy, disoriented, having a hard time concentrating, couldn't focus, etc.  My roommate, who had moved in two years prior, was concerned enough to offer to drive me to a doctor, as it was obvious to him that I shouldn't be driving!  After finding one nearby that was open, we headed there, and when we arrived, I was so disoriented I couldn't complete the check-in process, so he gave them my information, and they sent me right over to the emergency room!  There, I was seen almost immediately by a very competent doctor, and had to undergo an EKG and blood draw.  My roommate, knowing that I had a real phobia about needles, stayed by my side the entire time, and even held my hand while my blood was drawn!  I ended up being in the ER for nearly 5 hours!  The doctor diagnosed me with not only a case of shingles, indicated by the rash and associated pain, but also a pretty severe case of low sodium!  I was immediately given anti-virals and pain meds, and the doctor actually told me to eat more salt!  He even suggested I have a bag of chips on the way home! More than anything else that happened that day, the simple acts of kindness and compassion on the part of my roommate made me realize that this was a person who I would be able to count on, probably for the rest of my life, which even with everything going on that day, made me feel very happy and content!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One Easter Sunday, I had to go to the emergency room.  This was totally unexpected, as I hadn't been to a hospital or emergency room in several years.  It didn't start out as a trip to the emergency room, but the urgent care I went to sent me right over!  It happened like this...Two days prior, I had developed a rash on my left forearm.  This was nothing new, as working outside you sometimes end up with all kinds of bruises, bites, scratches and rashes.  What was different this time was on Easter Sunday, I was having a hard time mentally.  I was dizzy, disoriented, having a hard time concentrating, couldn't focus, etc.  My roommate, who had moved in two years prior, was concerned enough to offer to drive me to a doctor, as it was obvious to him that I shouldn't be driving!  After finding one nearby that was open, we headed there, and when we arrived, I was so disoriented I couldn't complete the check-in process, so he gave them my information, and they sent me right over to the emergency room!  There, I was seen almost immediately by a very competent doctor, and had to undergo an EKG and blood draw.  My roommate, knowing that I had a real phobia about needles, stayed by my side the entire time, and even held my hand while my blood was drawn!  I ended up being in the ER for nearly 5 hours!  The doctor diagnosed me with not only a case of shingles, indicated by the rash and associated pain, but also a pretty severe case of low sodium!  I was immediately given anti-virals and pain meds, and the doctor actually told me to eat more salt!  He even suggested I have a bag of chips on the way home! More than anything else that happened that day, the simple acts of kindness and compassion on the part of my roommate made me realize that this was a person who I would be able to count on, probably for the rest of my life, which even with everything going on that day, made me feel very happy and content!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so grateful to have such a wonderful roommate!"
+            }
+        ],
+        "request_id": "811bd993d99c78d6-EWR"
+    }
+}

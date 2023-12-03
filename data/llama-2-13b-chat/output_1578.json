@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a birthday a couple of months ago. My friends and family were there. They had a party for me. It was a surprise party and really took me by surprise. They came to my house, hid, and surprised me when I walked in the door back from work. I was totally excited and happy. They took me to Red Lobster, one of my favorite restaurants. We had lobster and fish there. My friend Tiara was there, as was my boyfriend Michael. My parents and brother were also there. We had such a blast. I even got some cake to eat at the end. Afterward, we went back to my house and I opened some presents. I got some Amazon gift cards, a teddy bear, and other stuffed animals. It was so great. I really enjoyed it and love my family and friends for it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a birthday a couple of months ago. My friends and family were there. They had a party for me. It was a surprise party and really took me by surprise. They came to my house, hid, and surprised me when I walked in the door back from work. I was totally excited and happy. They took me to Red Lobster, one of my favorite restaurants. We had lobster and fish there. My friend Tiara was there, as was my boyfriend Michael. My parents and brother were also there. We had such a blast. I even got some cake to eat at the end. Afterward, we went back to my house and I opened some presents. I got some Amazon gift cards, a teddy bear, and other stuffed animals. It was so great. I really enjoyed it and love my family and friends for it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea72368180f68-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I went to my cousin Cara's wedding a few weeks ago. I flew out to Ohio and brought my daughter with me. We haven't visited in forever so it was great to see the family. I was surprised she decided to get married in the Catholic church. I really hate having to go to mass, but whatever. My favorite part of the night was definitely when my drunk uncles got out on the dance floor and did the electric slide. Honestly, it's been a bummer being around my family since my grandparents died., but I really love my cousin and it was great to see her. My grandpa died from pneumonia complications, and my grandma had an aneurysm. I miss her so much. Cara's mom, my aunt Lisa, is the worst. Totally passive aggressive. Oh well. My cousin looked beautiful, and her husband seems nice. The food was good. It was nice getting out of AZ for awhile. I don't think I'll be going back to OH anytime soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I went to my cousin Cara's wedding a few weeks ago. I flew out to Ohio and brought my daughter with me. We haven't visited in forever so it was great to see the family. I was surprised she decided to get married in the Catholic church. I really hate having to go to mass, but whatever. My favorite part of the night was definitely when my drunk uncles got out on the dance floor and did the electric slide. Honestly, it's been a bummer being around my family since my grandparents died., but I really love my cousin and it was great to see her. My grandpa died from pneumonia complications, and my grandma had an aneurysm. I miss her so much. Cara's mom, my aunt Lisa, is the worst. Totally passive aggressive. Oh well. My cousin looked beautiful, and her husband seems nice. The food was good. It was nice getting out of AZ for awhile. I don't think I'll be going back to OH anytime soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb363eeaa18c4-EWR"
+    }
+}

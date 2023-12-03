@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that just happened was my daughter's wedding. The wedding was in june. We had so much fun planning for the wedding.  Her dress was beautiful and she looked gorgeous. The groom looked very handsome as did the entire wedding party. First was the church ceremony then was the reception. The appetizers and meal was delicious. There was A choice of chicken, meat, or fish. The wedding cake was beautiful. It was a 5 tier wedding cake. It had a beautiful topping of crystal doves. There was lots of music and dancing. She was very happy which made me happy and very proud. I will never forget such a beautiful day. We are constantly looking back at the pictures."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that just happened was my daughter's wedding. The wedding was in june. We had so much fun planning for the wedding.  Her dress was beautiful and she looked gorgeous. The groom looked very handsome as did the entire wedding party. First was the church ceremony then was the reception. The appetizers and meal was delicious. There was A choice of chicken, meat, or fish. The wedding cake was beautiful. It was a 5 tier wedding cake. It had a beautiful topping of crystal doves. There was lots of music and dancing. She was very happy which made me happy and very proud. I will never forget such a beautiful day. We are constantly looking back at the pictures.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3e963c750ca4-EWR"
+    }
+}

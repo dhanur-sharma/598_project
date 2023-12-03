@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I went to Red Lobster with my mom for my birthday. I was really surprised to find a lot of my family there, they stood up and gave me hugs as I sat down. We had party hats, which was funny because we're all adults, but it was for my 40th and so we were doing the opposite of what people usually do for the 40th birthday. I had a lot of fun. My family members told stories about me and my brother as we were growing up. My grandaddy paid and he said I should get lobster so I had lobster. The best part was the cake, which my mom had made. It was a unicorn cake like she made when I was a little kid. I got to feel young at heart and it was a great day to make me not feel so bad about turning a scary number. My parents gave me a gift there, and it was a ticket to Seattle, where I had always wanted to go. I'll get to spend a few days there enjoying the coast and the big forests around the state. My other relatives gave me cards and each had written some great thing they did after they turned 40. I felt encouraged not to feel so bad about my age. I realized I would have a lot of things to do still in my life. So it was a great birthday and a nice surprise."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I went to Red Lobster with my mom for my birthday. I was really surprised to find a lot of my family there, they stood up and gave me hugs as I sat down. We had party hats, which was funny because we're all adults, but it was for my 40th and so we were doing the opposite of what people usually do for the 40th birthday. I had a lot of fun. My family members told stories about me and my brother as we were growing up. My grandaddy paid and he said I should get lobster so I had lobster. The best part was the cake, which my mom had made. It was a unicorn cake like she made when I was a little kid. I got to feel young at heart and it was a great day to make me not feel so bad about turning a scary number. My parents gave me a gift there, and it was a ticket to Seattle, where I had always wanted to go. I'll get to spend a few days there enjoying the coast and the big forests around the state. My other relatives gave me cards and each had written some great thing they did after they turned 40. I felt encouraged not to feel so bad about my age. I realized I would have a lot of things to do still in my life. So it was a great birthday and a nice surprise.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea7211dbb4393-EWR"
+    }
+}

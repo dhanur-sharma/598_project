@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was intended to be a normal doctor's exam.  They were going to check on me via ultrasound.  As they began the ultrasound the nurse noticed that my fluids - the amniotic fluids my son was living in - were looking low.  She took the proper measurements and excused herself to make a call.  For days I had felt I was leaking amniotic fluid but doctors and nurses who I remarked this too just laughed.  They chalked it up to the over imagination of a pregnant woman 5 days past her due date.  Nonetheless, since 5 days had passed and still no baby they brought me in for a routine exam.  When the nurse came back into the room she announced that she had spoken with my midwife and that the news she was going to deliver \"probably isn't going to come as a surprise but the midwife wants to keep you overnight.\"  It was a surprise.  I was at the hospital with my daughter and husband and we didn't have anything packed or ready.  Regardless, I was ushered upstairs to a room and put into a hospital gown while my husband and daughter rushed home to grab supplies and our overnight bag - prepared months in advance.  When they returned, the doctors had already started me on the medicines necessary to start induction.  It was time to have this baby!  While this took me completely by surprise, I can't say I wasn't a little bit anxious.  After all, he was supposed to have been born almost a week prior!  A little over 8 hours later at 3:30 in the morning my son came into the world - late, unexpected, and with a little help from several kinds of medicine!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was intended to be a normal doctor's exam.  They were going to check on me via ultrasound.  As they began the ultrasound the nurse noticed that my fluids - the amniotic fluids my son was living in - were looking low.  She took the proper measurements and excused herself to make a call.  For days I had felt I was leaking amniotic fluid but doctors and nurses who I remarked this too just laughed.  They chalked it up to the over imagination of a pregnant woman 5 days past her due date.  Nonetheless, since 5 days had passed and still no baby they brought me in for a routine exam.  When the nurse came back into the room she announced that she had spoken with my midwife and that the news she was going to deliver \"probably isn't going to come as a surprise but the midwife wants to keep you overnight.\"  It was a surprise.  I was at the hospital with my daughter and husband and we didn't have anything packed or ready.  Regardless, I was ushered upstairs to a room and put into a hospital gown while my husband and daughter rushed home to grab supplies and our overnight bag - prepared months in advance.  When they returned, the doctors had already started me on the medicines necessary to start induction.  It was time to have this baby!  While this took me completely by surprise, I can't say I wasn't a little bit anxious.  After all, he was supposed to have been born almost a week prior!  A little over 8 hours later at 3:30 in the morning my son came into the world - late, unexpected, and with a little help from several kinds of medicine!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I didn't know what to expect with my first baby but I can tell you this - I didn't expect to be giving birth in a hospital gown with my husband and daughter there to support me!\n\n"
+            }
+        ],
+        "request_id": "811f37b1bdf42365-EWR"
+    }
+}

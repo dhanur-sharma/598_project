@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last night the RCIA class ahead of us finished their training.  Their ceremony was quite a bit longer and more detailed.  It made me wonder what they had studied that we hadn't covered yet.  So many subjects have come up so far. I suppose many more to go before we finish.  Will we have to memorize the parts they recited last night without notes?  Will we get little cards to read from? Our instructor is saying we will have a very detailed part to play at the end, so I'm very excited for what is to come.  Not everything has been hard.  However, I have had a bit of trouble with memorizing prayers.  Catholicism has a lot of prayers that are easy to recall, but some are rather long.  My favorite ones are easy and I love to say them. But there is one in particular.  It is said every Sunday in Mass by the congregation.  I've yet to get all the way through without reading from my book."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last night the RCIA class ahead of us finished their training.  Their ceremony was quite a bit longer and more detailed.  It made me wonder what they had studied that we hadn't covered yet.  So many subjects have come up so far. I suppose many more to go before we finish.  Will we have to memorize the parts they recited last night without notes?  Will we get little cards to read from? Our instructor is saying we will have a very detailed part to play at the end, so I'm very excited for what is to come.  Not everything has been hard.  However, I have had a bit of trouble with memorizing prayers.  Catholicism has a lot of prayers that are easy to recall, but some are rather long.  My favorite ones are easy and I love to say them. But there is one in particular.  It is said every Sunday in Mass by the congregation.  I've yet to get all the way through without reading from my book.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will have to practice more, but I know I can do it.\n\n"
+            }
+        ],
+        "request_id": "811e93931c528c51-EWR"
+    }
+}

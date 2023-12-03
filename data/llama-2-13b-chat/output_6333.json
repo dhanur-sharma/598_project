@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A day that was memorable for me was when me and my fiance got engaged. We decided to wait until January to get married. However we wanted to take the next step. we were looking to buy a house. we spent a few months saving money. then we went to look at houses. we used my fiance's brother as our real estate agent. We looked at a few houses then we found one that we really fell in love with. we put an offer down and eventually the house was ours. it was the most exciting time in my life. the house is really nice. we spent a lot of time decorating the house too. after we got the house we bought a maltese puppy. that really made the home special. i've never owned a dog before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A day that was memorable for me was when me and my fiance got engaged. We decided to wait until January to get married. However we wanted to take the next step. we were looking to buy a house. we spent a few months saving money. then we went to look at houses. we used my fiance's brother as our real estate agent. We looked at a few houses then we found one that we really fell in love with. we put an offer down and eventually the house was ours. it was the most exciting time in my life. the house is really nice. we spent a lot of time decorating the house too. after we got the house we bought a maltese puppy. that really made the home special. i've never owned a dog before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i'm so glad that my fiance and i made the decision to buy a house together."
+            }
+        ],
+        "request_id": "811f4365c8808c99-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: There was a time in my career that I decided I wanted to move up to a higher position. That position is called head cashier. I worked very long and hard to be able to interview and get this position. There was also a favor of this position being open. Finally, a Head Cashier position opened up, and I interviewed for it. Unfortunately I was not the right fit at the time. So I worked even harder and made sure I stood out from the rest. I wanted to show I can do the job. A while later another Head Cashier position opened up. Yet again, I did not get it. At that point I felt worthless. All of my hard work had gone unrecognized. A few weeks later, another one opened up. This time I got the position! I was thrilled. It was finally time to shine!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: There was a time in my career that I decided I wanted to move up to a higher position. That position is called head cashier. I worked very long and hard to be able to interview and get this position. There was also a favor of this position being open. Finally, a Head Cashier position opened up, and I interviewed for it. Unfortunately I was not the right fit at the time. So I worked even harder and made sure I stood out from the rest. I wanted to show I can do the job. A while later another Head Cashier position opened up. Yet again, I did not get it. At that point I felt worthless. All of my hard work had gone unrecognized. A few weeks later, another one opened up. This time I got the position! I was thrilled. It was finally time to shine!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3c8488e84309-EWR"
+    }
+}

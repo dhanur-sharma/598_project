@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a wonderful day! My baby boy was born just hours ago.  I don't know if I can sleep tonight I'm so excited.  On my mothers birthday too, what are the odds?  We were all at the river park celebrating when my wife's water broke.  We rushed her to the hospital. My father drove and I sat in the back with Melissa, holding her hand.  I thought we were going to get into a wreck a few times. My dad is bad enough at driving as it is.  The way he was swerving, I'll have to talk to him about that.  I had never seen such a thing.  So much blood and screaming, it's lucky I'm not squeamish.  The doctors that handle that stuff are saints.  Then I saw him, my baby boy, Max.  This day has changed my life forever. I'm a father now.  It's the start of our new family, and a changing family for my parents."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a wonderful day! My baby boy was born just hours ago.  I don't know if I can sleep tonight I'm so excited.  On my mothers birthday too, what are the odds?  We were all at the river park celebrating when my wife's water broke.  We rushed her to the hospital. My father drove and I sat in the back with Melissa, holding her hand.  I thought we were going to get into a wreck a few times. My dad is bad enough at driving as it is.  The way he was swerving, I'll have to talk to him about that.  I had never seen such a thing.  So much blood and screaming, it's lucky I'm not squeamish.  The doctors that handle that stuff are saints.  Then I saw him, my baby boy, Max.  This day has changed my life forever. I'm a father now.  It's the start of our new family, and a changing family for my parents.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so grateful to be here, to hold him, to watch him grow.  I can't wait for tomorrow.\n\n"
+            }
+        ],
+        "request_id": "811ebd02bd944263-EWR"
+    }
+}

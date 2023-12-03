@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Since the time of my writing, the road has been a bit rocky.  My husband was able to find a job.  That job was an hour away and was twelve hour shifts! So basically he was working fourteen hour days, three to four days a week.  That was taking a toll on him.  I was constantly worried about his health and safety.  He is in his sixties and diabetic and needs a lot of sleep.  He was at this job for about three months and we get kept running into walls with his benefits and pay.  We were both keeping our chins up and dealing with it.  Suddenly, out of the blue he gets a call from two different recruiters.  Next thing  I know, 5 interviews later he is resigning and starting another position right around the corner.  So now we're happy right?  Higher pay, way closer, etc. when I get a call the Friday of his first work week,  he got injured on the job.  An electrical burn.  So he's been there two week, he is starting the third week today, Monday, his hand is still wrapped and the wound not healed by far but he is still at this job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Since the time of my writing, the road has been a bit rocky.  My husband was able to find a job.  That job was an hour away and was twelve hour shifts! So basically he was working fourteen hour days, three to four days a week.  That was taking a toll on him.  I was constantly worried about his health and safety.  He is in his sixties and diabetic and needs a lot of sleep.  He was at this job for about three months and we get kept running into walls with his benefits and pay.  We were both keeping our chins up and dealing with it.  Suddenly, out of the blue he gets a call from two different recruiters.  Next thing  I know, 5 interviews later he is resigning and starting another position right around the corner.  So now we're happy right?  Higher pay, way closer, etc. when I get a call the Friday of his first work week,  he got injured on the job.  An electrical burn.  So he's been there two week, he is starting the third week today, Monday, his hand is still wrapped and the wound not healed by far but he is still at this job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " He is in pain and it's been a long road.  I'm still worried about his health and safety.  I'm just glad he's not at the other job.  We've been to the doctor and we're doing everything we can to get him well.  It's been a hard road but we're hanging in there.  That's the story of my life right now.  The road has been rocky, but we're hanging in there.\n\n"
+            }
+        ],
+        "request_id": "811ebee04a21426a-EWR"
+    }
+}

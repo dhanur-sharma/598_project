@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was invited to attend a wedding of a close friend.  I remember traveling to the wedding and attending the ceremony.  It was especially memorable for me because we were good friends.  Out of all my friends he was the only one that had not gotten married.  Everyone thought that he would never get married.  When I got there I greeted my friend.  He was very nervous and the kind of person that does not get dressed up.  He was there in a tuxedo and sweating bullets.  The wedding was small and simple with just a few family and friends invited.  I thought the ceremony was beautiful and that they made a lovely couple.  I ended up meeting someone at the wedding that made a strong impression on me.  She was one of the friends of the bride and we hit it off instantly.  We talked and danced and had a great time.  We exchanged contact information and were going to stay in touch.  It just so happened that chance meeting has led to a great relationship that I am now pursing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was invited to attend a wedding of a close friend.  I remember traveling to the wedding and attending the ceremony.  It was especially memorable for me because we were good friends.  Out of all my friends he was the only one that had not gotten married.  Everyone thought that he would never get married.  When I got there I greeted my friend.  He was very nervous and the kind of person that does not get dressed up.  He was there in a tuxedo and sweating bullets.  The wedding was small and simple with just a few family and friends invited.  I thought the ceremony was beautiful and that they made a lovely couple.  I ended up meeting someone at the wedding that made a strong impression on me.  She was one of the friends of the bride and we hit it off instantly.  We talked and danced and had a great time.  We exchanged contact information and were going to stay in touch.  It just so happened that chance meeting has led to a great relationship that I am now pursing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am so glad that I attended that wedding and that I got to know her.  It was a great experience for me."
+            }
+        ],
+        "request_id": "811ea8fdaee48c0f-EWR"
+    }
+}

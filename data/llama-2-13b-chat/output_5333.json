@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father died in an accident six months ago. So nearly four months myself and my mother decided to sale our house and move to other location. I searched in online for buying a new house in my preferred area. We even approached many real estate agents to find a good home. In between we sold our old home and deposited the amount in the bank. We moved to a rented house for a temporary time. We searched for many houses but we didn't find any proper house. I even asked my friends and family to inform me about any house selling. Suddenly I got a call from my friend. She said that she found a house ready to sale in her locality. I liked the house from outside. Immediately I went to the house and looked for the facilities and any damages so that I can ask for right price. Everything was fine with some small damages here and there. I decided to buy the house and talked about the price. But at that time they asked a high price for the house. Then two months ago they came to my house with some price negotiation. Though the price was somewhat high, I accepted to the price and the deal was concluded."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father died in an accident six months ago. So nearly four months myself and my mother decided to sale our house and move to other location. I searched in online for buying a new house in my preferred area. We even approached many real estate agents to find a good home. In between we sold our old home and deposited the amount in the bank. We moved to a rented house for a temporary time. We searched for many houses but we didn't find any proper house. I even asked my friends and family to inform me about any house selling. Suddenly I got a call from my friend. She said that she found a house ready to sale in her locality. I liked the house from outside. Immediately I went to the house and looked for the facilities and any damages so that I can ask for right price. Everything was fine with some small damages here and there. I decided to buy the house and talked about the price. But at that time they asked a high price for the house. Then two months ago they came to my house with some price negotiation. Though the price was somewhat high, I accepted to the price and the deal was concluded.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We shifted to the new house and started our new life.\n\n"
+            }
+        ],
+        "request_id": "811f2f512c06435d-EWR"
+    }
+}

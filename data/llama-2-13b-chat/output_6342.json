@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We wanted to buy our first home. So, we began looking at houses and condos. There were many properties to look at. We even tried putting offers, to no avail. Someone else already put an offer or some other issue. Finally, we found a condo that we really liked and we put an offer. This time the offer went through! However, there was an issue as we went on with the process and could not get the condo. Right after this happened, we found a small house. We put a (cautious) offer on it. We went through inspections, paperwork, etc. Everything went through this time and we were officially home owners! It was worth all of the searching, rejection, and effort to finally get our home. Now that we own a home there is much to learn and do. This begins a new chapter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We wanted to buy our first home. So, we began looking at houses and condos. There were many properties to look at. We even tried putting offers, to no avail. Someone else already put an offer or some other issue. Finally, we found a condo that we really liked and we put an offer. This time the offer went through! However, there was an issue as we went on with the process and could not get the condo. Right after this happened, we found a small house. We put a (cautious) offer on it. We went through inspections, paperwork, etc. Everything went through this time and we were officially home owners! It was worth all of the searching, rejection, and effort to finally get our home. Now that we own a home there is much to learn and do. This begins a new chapter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4394bd0a42e0-EWR"
+    }
+}

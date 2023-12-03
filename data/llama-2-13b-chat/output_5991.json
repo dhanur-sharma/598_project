@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I used to work for this guy for about 10 years.  Near the end of my time working with him we had a really rough patch in our relationship, and we ended up parting on bad terms.  We hadn't really talked to each other for a long time.  One day out of the blue I receive a phone call from a number that I didn't recognize.  It was my former boss.  He mentioned that his wife had just passed away.  I gave him my condolences and asked if there was anything I could help him with.  He said there wasn't much I could do but the amazing thing is that he decided to apologize to me and he wanted to get together with me and rehash things.  I agree to and we met up.  We met up and had some lunch at a nice restaurant.  It was good seeing him again after so long, it had already been a few years.  We really sorted out our problems and moved forward.  Now we see each other on a regular basis again.  Aside from his wife passing, he was doing pretty well for himself.  I'm glad we decided to bury old grievances."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I used to work for this guy for about 10 years.  Near the end of my time working with him we had a really rough patch in our relationship, and we ended up parting on bad terms.  We hadn't really talked to each other for a long time.  One day out of the blue I receive a phone call from a number that I didn't recognize.  It was my former boss.  He mentioned that his wife had just passed away.  I gave him my condolences and asked if there was anything I could help him with.  He said there wasn't much I could do but the amazing thing is that he decided to apologize to me and he wanted to get together with me and rehash things.  I agree to and we met up.  We met up and had some lunch at a nice restaurant.  It was good seeing him again after so long, it had already been a few years.  We really sorted out our problems and moved forward.  Now we see each other on a regular basis again.  Aside from his wife passing, he was doing pretty well for himself.  I'm glad we decided to bury old grievances.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3ca818921839-EWR"
+    }
+}

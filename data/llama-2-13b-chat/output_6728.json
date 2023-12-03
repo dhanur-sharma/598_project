@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I graduated high I was initially very happy. I was happy as I was going into a new phase of life.  I would have endless opportunities and be more of an adult. However, I never too the time to look at the downsides. With this feeling of independence came additional feeling of loneliness. I never stopped to think about how my life would change for the worse. Lots of my friends were going to different colleges and different cities.  Many of the people that I grew up, I would no longer see so often again. My entire life in terms of the social relationships that I had formed would go on to change.  I would only really come to the brunt realization when I had to say goodbye to my friends. I had stayed home to go to a local college so I had to watch many of my friends leave.  Also when I saw that many of these friends were going on to make new friends, the situation become even more difficult. I felt like I was being replaced as I was not forming new connections like they were.  I felt like I was still in high school while they were actually moving on. The entire transition was just hard."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I graduated high I was initially very happy. I was happy as I was going into a new phase of life.  I would have endless opportunities and be more of an adult. However, I never too the time to look at the downsides. With this feeling of independence came additional feeling of loneliness. I never stopped to think about how my life would change for the worse. Lots of my friends were going to different colleges and different cities.  Many of the people that I grew up, I would no longer see so often again. My entire life in terms of the social relationships that I had formed would go on to change.  I would only really come to the brunt realization when I had to say goodbye to my friends. I had stayed home to go to a local college so I had to watch many of my friends leave.  Also when I saw that many of these friends were going on to make new friends, the situation become even more difficult. I felt like I was being replaced as I was not forming new connections like they were.  I felt like I was still in high school while they were actually moving on. The entire transition was just hard.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a difficult period in my life.\n\n"
+            }
+        ],
+        "request_id": "811f4b814a02c42f-EWR"
+    }
+}

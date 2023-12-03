@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This happened 2 weeks ago. My life changed and I really didn't like it. I felt sick. My younger sister left to college. I knew this day was coming. She left me alone in a lonely house. My heart raced as she walk out the door. I ran to her and wished I could beg her to stay but I know life has to go on. I felt very uncomfortable as I hugged her goodbye. I'll have to admit. I did get sick and I was very cold. I couldn't get out of the funk I was in. Today though, I will try something new and get out of bed to enjoy my day. I lept out of bed, put the cold water on my face. I ate a half piece of bread for breakfast. All in all I think i'm gonna have a good day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This happened 2 weeks ago. My life changed and I really didn't like it. I felt sick. My younger sister left to college. I knew this day was coming. She left me alone in a lonely house. My heart raced as she walk out the door. I ran to her and wished I could beg her to stay but I know life has to go on. I felt very uncomfortable as I hugged her goodbye. I'll have to admit. I did get sick and I was very cold. I couldn't get out of the funk I was in. Today though, I will try something new and get out of bed to enjoy my day. I lept out of bed, put the cold water on my face. I ate a half piece of bread for breakfast. All in all I think i'm gonna have a good day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc35dd67c335-EWR"
+    }
+}

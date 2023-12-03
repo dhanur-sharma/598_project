@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Greece with a close friend of mine and we had such a difficult time at first. We ran out of money during our trip because we initially just went for backpacking. We did not see as many sites as initially wanted. During one of the hot evenings we decided to cool down and go through an alley way instead of the main street. We heard beautiful music playing down the alley and saw a band practicing their music for a show. It was a very human experience since I was able to unwind and just listen to the music wafting through the alley. Of different sorts of instruments and a slow strum guitar. The locals said in a heavy accent that they enjoyed us listening while we just cooled down and de-stressed. It was a relaxing and humble experience. Out of all my adventures I find this experience to be the best because I was able to see the side of humanity that is universal and no cultural differences kept that apart. I really liked the feeling it gave me. I think the best thing about the experience was that it made me realize we all are human. It does not matter where we come from. I think the backpacking trip as a whole kept me grounded. I do not take things for granted as much. I relate it all to the day in the alley."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Greece with a close friend of mine and we had such a difficult time at first. We ran out of money during our trip because we initially just went for backpacking. We did not see as many sites as initially wanted. During one of the hot evenings we decided to cool down and go through an alley way instead of the main street. We heard beautiful music playing down the alley and saw a band practicing their music for a show. It was a very human experience since I was able to unwind and just listen to the music wafting through the alley. Of different sorts of instruments and a slow strum guitar. The locals said in a heavy accent that they enjoyed us listening while we just cooled down and de-stressed. It was a relaxing and humble experience. Out of all my adventures I find this experience to be the best because I was able to see the side of humanity that is universal and no cultural differences kept that apart. I really liked the feeling it gave me. I think the best thing about the experience was that it made me realize we all are human. It does not matter where we come from. I think the backpacking trip as a whole kept me grounded. I do not take things for granted as much. I relate it all to the day in the alley.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I do not want to forget that feeling.\n\n"
+            }
+        ],
+        "request_id": "811f350fbc2e19df-EWR"
+    }
+}

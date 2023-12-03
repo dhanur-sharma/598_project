@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, we celebrated our 25th wedding anniversary. We went on a cruise to celebrate the occasion. The planning part of the trip was fun. We got to select from many cruise lines. We decided on carnival because of the price. We finally got on the cruise. We had to do an emergency drill, in case the ship got wrecked. The food was great on the boat. I had a ton of lobster tails and a lot of chocolate. The bar was nice. I got wasted everyday. I had fun dancing on the dance days. We got sweaty because of the intensity. The cruise had a big slide. I went on it a few times. It was very big and always fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, we celebrated our 25th wedding anniversary. We went on a cruise to celebrate the occasion. The planning part of the trip was fun. We got to select from many cruise lines. We decided on carnival because of the price. We finally got on the cruise. We had to do an emergency drill, in case the ship got wrecked. The food was great on the boat. I had a ton of lobster tails and a lot of chocolate. The bar was nice. I got wasted everyday. I had fun dancing on the dance days. We got sweaty because of the intensity. The cruise had a big slide. I went on it a few times. It was very big and always fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My wife got seasick and had to go to the infirmary. She was there for a few days. I had to stay with her and make sure she was okay. I was worried about her. She was better after a few days. We got back on the ship and had to get off at the next port. We had a great time on the cruise. We will definitely do it again.\n\n"
+            }
+        ],
+        "request_id": "811f40b47d1f43eb-EWR"
+    }
+}

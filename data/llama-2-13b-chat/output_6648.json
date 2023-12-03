@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I got word that my brother was coming into town to visit. We decided to go around and check out what this town has to offer him since he's never visited. We checked out all the local shops and tourist attractions. We ate out for nearly every meal which I never do. However, it was a special occasion. Every restaurant was one that the town was famous for having. The food was much better than I'm used to, but a lot more expensive. I think we both enjoyed eating food the most while he was here. We did do other things though. We went to the local park and even got to see a movie during his time here. Reconnecting with my brother is something I'll never forget. We were never really close, but now we've grown closer. He even noted that this is the most time we've spent together getting to know each other. We even decided to do this again when we get a chance. I think he wants to come back for the good food we had."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I got word that my brother was coming into town to visit. We decided to go around and check out what this town has to offer him since he's never visited. We checked out all the local shops and tourist attractions. We ate out for nearly every meal which I never do. However, it was a special occasion. Every restaurant was one that the town was famous for having. The food was much better than I'm used to, but a lot more expensive. I think we both enjoyed eating food the most while he was here. We did do other things though. We went to the local park and even got to see a movie during his time here. Reconnecting with my brother is something I'll never forget. We were never really close, but now we've grown closer. He even noted that this is the most time we've spent together getting to know each other. We even decided to do this again when we get a chance. I think he wants to come back for the good food we had.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49f1885e190e-EWR"
+    }
+}

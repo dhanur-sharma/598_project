@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I first arrived at my uncle's old house, just a little over four months ago, I was a bit taken aback by the terrible state of disrepair it was in. I am usually a man with a plan and I formulated one quickly. You could barely see the house for how overgrown it had become. My first task was to clean up the front yard and give it some curb appeal. I mowed and trimmed the lawn and bushes and trimmed some of the tree branches the first weekend. It was then apparent that the front of the house, itself, needed some TLC. For my next and second weekend, it was going to be replacing a broken window pane and a ripped screen. All the windows needed washing and painting the trim would make a big difference. By the end of the second weekend, cars would slow down going by and I even had a few waves and appreciative nods. The next three weekend were spent inside the house, just do general cleaning, minor repairs, and clearing out a lot of junk and trash. The trash cans at the curb were full every week and I was making great progress. My last weekend, six altogether, was spent doing some finishing touches inside and out. I was standing back looking at all I had done and admiring the house and how it looked now, by comparison, when the neighbor, whom I have never met, stopped over to tell me how great it looked and how he appreciated it looking so much better. It gave me a really good feeling. I was glowing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I first arrived at my uncle's old house, just a little over four months ago, I was a bit taken aback by the terrible state of disrepair it was in. I am usually a man with a plan and I formulated one quickly. You could barely see the house for how overgrown it had become. My first task was to clean up the front yard and give it some curb appeal. I mowed and trimmed the lawn and bushes and trimmed some of the tree branches the first weekend. It was then apparent that the front of the house, itself, needed some TLC. For my next and second weekend, it was going to be replacing a broken window pane and a ripped screen. All the windows needed washing and painting the trim would make a big difference. By the end of the second weekend, cars would slow down going by and I even had a few waves and appreciative nods. The next three weekend were spent inside the house, just do general cleaning, minor repairs, and clearing out a lot of junk and trash. The trash cans at the curb were full every week and I was making great progress. My last weekend, six altogether, was spent doing some finishing touches inside and out. I was standing back looking at all I had done and admiring the house and how it looked now, by comparison, when the neighbor, whom I have never met, stopped over to tell me how great it looked and how he appreciated it looking so much better. It gave me a really good feeling. I was glowing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt I had accomplished something of value and the house looked so much better."
+            }
+        ],
+        "request_id": "811ea1e44e923342-EWR"
+    }
+}

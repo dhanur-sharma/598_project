@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My co-workers threw me a surprise Birthday party the other day. It was a complete surprise to me. It really made me emotional because I didn't expect anything for my birthday. My boss called me into his office and mentioned that he wanted one of our other co-workers to be in attendance. He asked me to go get him out of another meeting he was in. When I went to the conference room to find him, all of my co-workers yelled \"Surprise!\" and totally shocked me! I started to tear up because it was such a sweet gesture. The person who organized the whole thing was a new co-worker who didn't even know me very well. They had a cake and even some donut related presents. I love donuts so this made me very happy. We all stood around and ate the very delicious, donut-shaped cake. One of my other co-workers had made it especially for me. I felt so well-loved that day. Even thinking about it now makes me smile. I tell people about it all the time and my co-worker who organized it is now one of my good friends!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My co-workers threw me a surprise Birthday party the other day. It was a complete surprise to me. It really made me emotional because I didn't expect anything for my birthday. My boss called me into his office and mentioned that he wanted one of our other co-workers to be in attendance. He asked me to go get him out of another meeting he was in. When I went to the conference room to find him, all of my co-workers yelled \"Surprise!\" and totally shocked me! I started to tear up because it was such a sweet gesture. The person who organized the whole thing was a new co-worker who didn't even know me very well. They had a cake and even some donut related presents. I love donuts so this made me very happy. We all stood around and ate the very delicious, donut-shaped cake. One of my other co-workers had made it especially for me. I felt so well-loved that day. Even thinking about it now makes me smile. I tell people about it all the time and my co-worker who organized it is now one of my good friends!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4277886d18c4-EWR"
+    }
+}

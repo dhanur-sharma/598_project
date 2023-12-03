@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was both excited and proud to have purchased a home for my daughter and I to live in. It was a beautiful home and appeared well maintained. To beat out the other 17 offers for the house I waived a home inspection. It was a risky move, but we had other houses fall through due to the competitive market. After the closing I had various family members who work in industries like electrical, plumbing, roofing, etc due a quick inspection of the house for my own information. Everything seemed great. Then on the day of move in I had a shock. It was the first day where the temperature got to near 90 degrees. Everyone who was helping me move were complaining of the heat. I turned the air conditioning on, but it didn't work. My brother and father spent 2 days trying to get it to work. I was worried about the cost of replacement and kicking myself for not having the inspection. Finally after 3 days I called in an expert. It turned out to be a minor part replacement and only cost me about $150 for parts and labor. That was a huge relief. We've been in the house now for four months with no further problems."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was both excited and proud to have purchased a home for my daughter and I to live in. It was a beautiful home and appeared well maintained. To beat out the other 17 offers for the house I waived a home inspection. It was a risky move, but we had other houses fall through due to the competitive market. After the closing I had various family members who work in industries like electrical, plumbing, roofing, etc due a quick inspection of the house for my own information. Everything seemed great. Then on the day of move in I had a shock. It was the first day where the temperature got to near 90 degrees. Everyone who was helping me move were complaining of the heat. I turned the air conditioning on, but it didn't work. My brother and father spent 2 days trying to get it to work. I was worried about the cost of replacement and kicking myself for not having the inspection. Finally after 3 days I called in an expert. It turned out to be a minor part replacement and only cost me about $150 for parts and labor. That was a huge relief. We've been in the house now for four months with no further problems.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd85f5e310cae-EWR"
+    }
+}

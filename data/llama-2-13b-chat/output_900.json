@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother  had been living in a nursing home.  She had fallen at home and broke her wrist.  She was hospitalized.  They put a splint on her.  They were afraid that due to her age, she was not strong enough and that caused her to fall.  They felt physical therapy would be beneficial to her.  She went from there to a 21 day physical rehab center.  They were unable to improve her strength or balance.  They felt that a nursing home was the onlhy choice for her to be safe.  Rehab was provided 3 times a day there.  She never regained her strength and died there in the last 90 days or so. I was devasted because I had really hoped she would come.  I kept encouraging her.  She continued to work as hard as was possible at the time.  During  her time there, though, I was relieved because I knew she was safe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother  had been living in a nursing home.  She had fallen at home and broke her wrist.  She was hospitalized.  They put a splint on her.  They were afraid that due to her age, she was not strong enough and that caused her to fall.  They felt physical therapy would be beneficial to her.  She went from there to a 21 day physical rehab center.  They were unable to improve her strength or balance.  They felt that a nursing home was the onlhy choice for her to be safe.  Rehab was provided 3 times a day there.  She never regained her strength and died there in the last 90 days or so. I was devasted because I had really hoped she would come.  I kept encouraging her.  She continued to work as hard as was possible at the time.  During  her time there, though, I was relieved because I knew she was safe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was relieved that she was getting rehab 3 times a day.  I was also angry that they were unable to help her regain her strength.  I was also angry because I felt that she had fallen and broken her wrist because of the lack of physical therapy after she fell.\n\n"
+            }
+        ],
+        "request_id": "811e9a226d7a4229-EWR"
+    }
+}

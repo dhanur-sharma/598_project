@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My partner and I made a big move to our first apartment about 6 months ago. It was a ton of work preparing for the move as well as the move itself. I'll never forget it because this was a huge milestone in our lives and our very first big move.   We had to start by packing boxes of our lesser used items many weeks in advance. We then started to shop around for furniture, as this was our first move to our own place. The shopping was a lot of work itself because we had no idea what theme or look we were going for. We also were on quite a bit of a budget so it was tricky finding nice furniture within our price range. When the moving date got closer we had to decide whether we would use a moving company or rent a Uhaul. Fortunately my partner's father agreed to drive a Uhaul to our new apartment an hour away. When our big day finally arrived we had a lot of loading to to! I was surprised at just how much of a work out I would get from all the lifting. We made multiple trips to and from our new apartment loading and unloading. The rest of the day then consisted of setting up as much furniture as we could. As night drew near only my partner's mom was still over to help clean and unpack some things.  After she left, the most memorable moment of the whole move happened. My partner and I turned to each other and both whispered \"we did it!\" as we got to enjoy our new home together, just her and I, for the first time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My partner and I made a big move to our first apartment about 6 months ago. It was a ton of work preparing for the move as well as the move itself. I'll never forget it because this was a huge milestone in our lives and our very first big move.   We had to start by packing boxes of our lesser used items many weeks in advance. We then started to shop around for furniture, as this was our first move to our own place. The shopping was a lot of work itself because we had no idea what theme or look we were going for. We also were on quite a bit of a budget so it was tricky finding nice furniture within our price range. When the moving date got closer we had to decide whether we would use a moving company or rent a Uhaul. Fortunately my partner's father agreed to drive a Uhaul to our new apartment an hour away. When our big day finally arrived we had a lot of loading to to! I was surprised at just how much of a work out I would get from all the lifting. We made multiple trips to and from our new apartment loading and unloading. The rest of the day then consisted of setting up as much furniture as we could. As night drew near only my partner's mom was still over to help clean and unpack some things.  After she left, the most memorable moment of the whole move happened. My partner and I turned to each other and both whispered \"we did it!\" as we got to enjoy our new home together, just her and I, for the first time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a moment of pure happiness and relief. It took a lot of work and patience, but we finally had our first home together and it was worth it."
+            }
+        ],
+        "request_id": "811ec0c618c78cdc-EWR"
+    }
+}

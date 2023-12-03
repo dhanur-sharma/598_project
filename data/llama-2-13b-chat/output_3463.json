@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I have been in dire need of a car. Yesterday we decided we finally had to do something about it. It turned out to be a rough day initially. We argued a lot about how to get the best deal since money is tight right now. We asked some friends about the best places to go to get a deal. We looked online at local dealerships and even some that were further away. We looked at dealership reviews online as well. That helped us narrow down where to go but there was still tension between us. We drove to several places and continued to argue about the prices offered to us. We had certain car models in mind and we were both being stubborn about what we wanted and what we were willing to pay for it. Finally, at the last place we visited, we were offered a great deal on a car we had been interested in at several dealerships. The salesman was very accommodating and pleasant. The dealership was clean and well organized.  We were able to complete the paperwork quickly and easily. It was well within our price range and it should last us a long time. It all worked out in the end and we're happy with it. I will recommend this dealership to anyone that asks me for advice in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I have been in dire need of a car. Yesterday we decided we finally had to do something about it. It turned out to be a rough day initially. We argued a lot about how to get the best deal since money is tight right now. We asked some friends about the best places to go to get a deal. We looked online at local dealerships and even some that were further away. We looked at dealership reviews online as well. That helped us narrow down where to go but there was still tension between us. We drove to several places and continued to argue about the prices offered to us. We had certain car models in mind and we were both being stubborn about what we wanted and what we were willing to pay for it. Finally, at the last place we visited, we were offered a great deal on a car we had been interested in at several dealerships. The salesman was very accommodating and pleasant. The dealership was clean and well organized.  We were able to complete the paperwork quickly and easily. It was well within our price range and it should last us a long time. It all worked out in the end and we're happy with it. I will recommend this dealership to anyone that asks me for advice in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec9d34d802361-EWR"
+    }
+}

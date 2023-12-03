@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dearest online diary,Today was my first full day as a solo team lead, meaning the store was mine and only mine from open to close. Granted, it's the Sunday 11am-7pm shift, but it was mine and mine alone. It's great being acknowledge with a promotion and responsibility after years of neglect and downright disrespect. See, I was kicked out of a university professor job simply because the dean of the school did not like me in any way. He said that my student reviews were \"far below average\" even though they weren't, and he refused to provide the average. He said my ratings from the first semester did not get better at all, citing a single solitary number from an odd class that wasn't in my area of knowledge, and was more than a year old. I couldn't fight back because he is known for retaliation and my wife had the same job in the same school, and I don't want to screw her over. So, I had to get a retail job. I worked at a home improvement store and within four months, was sabotaged out of the department despite video evidence supporting me that magically supported them. I am 100% certain they kicked me out because I'm not a redneck like them and didn't fit in. So, I was put in a 5am-9am job six days a week for a year with no paid time off, no vacation, no benefits of any kind. Obviously, this was crap so I sought out a promotion by doing all the in-home training and in-store work that I could, but was denied it over and over. I was also lied to about a pay raise for joining the renovation team. So, I left for my current job. Within 8 months, I was promoted to a team lead with a $3.75/hr pay raise. For my two month training period, I worked with the managers to open and close the store and all the deskwork I need to do. Finally, today was my first day: I opened and closed (with setting/turning off the alarms), made the deposit and took it to the bank, counted all drawers, dealt with all customer issues, managed 3 other employees, and we didn't burn it down."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dearest online diary,Today was my first full day as a solo team lead, meaning the store was mine and only mine from open to close. Granted, it's the Sunday 11am-7pm shift, but it was mine and mine alone. It's great being acknowledge with a promotion and responsibility after years of neglect and downright disrespect. See, I was kicked out of a university professor job simply because the dean of the school did not like me in any way. He said that my student reviews were \"far below average\" even though they weren't, and he refused to provide the average. He said my ratings from the first semester did not get better at all, citing a single solitary number from an odd class that wasn't in my area of knowledge, and was more than a year old. I couldn't fight back because he is known for retaliation and my wife had the same job in the same school, and I don't want to screw her over. So, I had to get a retail job. I worked at a home improvement store and within four months, was sabotaged out of the department despite video evidence supporting me that magically supported them. I am 100% certain they kicked me out because I'm not a redneck like them and didn't fit in. So, I was put in a 5am-9am job six days a week for a year with no paid time off, no vacation, no benefits of any kind. Obviously, this was crap so I sought out a promotion by doing all the in-home training and in-store work that I could, but was denied it over and over. I was also lied to about a pay raise for joining the renovation team. So, I left for my current job. Within 8 months, I was promoted to a team lead with a $3.75/hr pay raise. For my two month training period, I worked with the managers to open and close the store and all the deskwork I need to do. Finally, today was my first day: I opened and closed (with setting/turning off the alarms), made the deposit and took it to the bank, counted all drawers, dealt with all customer issues, managed 3 other employees, and we didn't burn it down.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "All in all, I am very happy and I feel I deserved it.\n\n"
+            }
+        ],
+        "request_id": "811eaa38ae4e41a3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago someone very important to me passed away from cancer.  Her name was Lori and she was very dear to my heart.  She was the kindest, most giving person I have ever met.  She gave to her community, especially children.  She created a non-profit to help children in need.  This organization is called Empower Youth and helps so many.  She dedicated her whole life to the kids in our community.  She would feed, clothe, encourage, and make it possible for every child to go to church camp.  She was a good christian who helped my own daughter on  her spiritual journey.  When she passed away it affected everyone in the community.  We all loved  her so much.  Even after death she continued to give.  She organized her own memorial carnival which was completely free.  It fed everyone and provided carnival games to all attendees.   She wanted to celebrate life rather than mourn.  My life will never be the same without her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago someone very important to me passed away from cancer.  Her name was Lori and she was very dear to my heart.  She was the kindest, most giving person I have ever met.  She gave to her community, especially children.  She created a non-profit to help children in need.  This organization is called Empower Youth and helps so many.  She dedicated her whole life to the kids in our community.  She would feed, clothe, encourage, and make it possible for every child to go to church camp.  She was a good christian who helped my own daughter on  her spiritual journey.  When she passed away it affected everyone in the community.  We all loved  her so much.  Even after death she continued to give.  She organized her own memorial carnival which was completely free.  It fed everyone and provided carnival games to all attendees.   She wanted to celebrate life rather than mourn.  My life will never be the same without her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " She taught me to be a better person and I will always be grateful.\n\n"
+            }
+        ],
+        "request_id": "811be49a99632369-EWR"
+    }
+}

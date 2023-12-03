@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We traveled to visit my brother in another state. There was a family fishing contest and we decided to go. My children went fishing for the first time with us. My brother and I taught them how to cast their lines, bait a hook, and watch for bites. We spent the afternoon at this contest at a private fishing lake out in the countryside. My kids are suburban kids and not used to being out in nature, so this was a new and fun experience for them.  I grew up in the country so it was incredibly rewarding to see them enjoying something  like that. Within being there just a few minutes, my son caught his very first fish! He was so excited. We helped him reel it in and hold it up for pictures. The other kids all gathered around and touched the fish. They helped toss it back into the water. Not long after, my eldest daughter caught her first fish. We didn't win the contest, we were just there for fun. However, it was just a really great experience to share with my kids."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We traveled to visit my brother in another state. There was a family fishing contest and we decided to go. My children went fishing for the first time with us. My brother and I taught them how to cast their lines, bait a hook, and watch for bites. We spent the afternoon at this contest at a private fishing lake out in the countryside. My kids are suburban kids and not used to being out in nature, so this was a new and fun experience for them.  I grew up in the country so it was incredibly rewarding to see them enjoying something  like that. Within being there just a few minutes, my son caught his very first fish! He was so excited. We helped him reel it in and hold it up for pictures. The other kids all gathered around and touched the fish. They helped toss it back into the water. Not long after, my eldest daughter caught her first fish. We didn't win the contest, we were just there for fun. However, it was just a really great experience to share with my kids.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We made some wonderful memories and I think it's something they will always remember."
+            }
+        ],
+        "request_id": "811bdcfd5f374392-EWR"
+    }
+}

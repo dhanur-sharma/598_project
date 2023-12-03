@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My godson was baptized.  It was a typical Orthodox Christian baptism service.  It was last April.  He's my fourth godchild.  He was baptized as Herman.  The only mishap was his peeing in the font.  Taking on a godchild is a great blessing for us.  My wife and I do not have children of our own.  This is how we are building our family.  It's a  great responsibility, being responsible for helping in the spiritual development of a child. But it's one we take on with excitement.  His parents have become closer friends.  That is also a blessing.  Our other godchildren do not live nearby.  We were very glad to take on another."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My godson was baptized.  It was a typical Orthodox Christian baptism service.  It was last April.  He's my fourth godchild.  He was baptized as Herman.  The only mishap was his peeing in the font.  Taking on a godchild is a great blessing for us.  My wife and I do not have children of our own.  This is how we are building our family.  It's a  great responsibility, being responsible for helping in the spiritual development of a child. But it's one we take on with excitement.  His parents have become closer friends.  That is also a blessing.  Our other godchildren do not live nearby.  We were very glad to take on another.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed0f9eb71421b-EWR"
+    }
+}

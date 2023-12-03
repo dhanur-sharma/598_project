@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago I went on a canoe float with my grandpa. It was down at the cabin in lower Mosland. On a lake that is connected to a small river system. We went up and down a few of the rivers. And by we I men grandpa, my pops and I. It was maybe a 3 person canoe. I couldn't be sure, but it was pretty loaded down. The weather was beautiful. Clear with a few big puffy clouds to give some respite from the heat of summer. On the way back to the cabin my grandpa asked me how my classes were going. For the third time. I couldn't believe that it was really happening. Grandpa has Alzheimer's. On the car drive back to the city alone with my father we talked about it. It made us sad since grandpa was doing just fine a year ago."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago I went on a canoe float with my grandpa. It was down at the cabin in lower Mosland. On a lake that is connected to a small river system. We went up and down a few of the rivers. And by we I men grandpa, my pops and I. It was maybe a 3 person canoe. I couldn't be sure, but it was pretty loaded down. The weather was beautiful. Clear with a few big puffy clouds to give some respite from the heat of summer. On the way back to the cabin my grandpa asked me how my classes were going. For the third time. I couldn't believe that it was really happening. Grandpa has Alzheimer's. On the car drive back to the city alone with my father we talked about it. It made us sad since grandpa was doing just fine a year ago.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We talked about how we would handle it and how to make sure grandpa is comfortable and happy.\n\n"
+            }
+        ],
+        "request_id": "811f42f96bba43b8-EWR"
+    }
+}

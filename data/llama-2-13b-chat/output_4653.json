@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am part of a non profit organization. We raise money for two charities that help our local community. We had been planning an event for a whole year to raise a lot of money for these two charities. The event runs for three days. Everyone that is part of this organization is a volunteer. Nobody gets paid for their positions. I am the Treasurer of the organization. It takes a lot of time and love to do a job that you do not get paid for. We had the event about a month ago. It was a huge success and we made a lot of money for the two charities we give to. It was an emotional weekend where everyone was working all day throughout the weekend. It is very draining to be working that much through a whole weekend. When the weekend was over, everyone was so happy about what we had accomplished. We are a small group of people putting on this event for the community. It really makes you feel close to those people to help with the event. I am so happy that I could be part of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am part of a non profit organization. We raise money for two charities that help our local community. We had been planning an event for a whole year to raise a lot of money for these two charities. The event runs for three days. Everyone that is part of this organization is a volunteer. Nobody gets paid for their positions. I am the Treasurer of the organization. It takes a lot of time and love to do a job that you do not get paid for. We had the event about a month ago. It was a huge success and we made a lot of money for the two charities we give to. It was an emotional weekend where everyone was working all day throughout the weekend. It is very draining to be working that much through a whole weekend. When the weekend was over, everyone was so happy about what we had accomplished. We are a small group of people putting on this event for the community. It really makes you feel close to those people to help with the event. I am so happy that I could be part of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdb166c438c2a-EWR"
+    }
+}

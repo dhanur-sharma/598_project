@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a guitar shop with my grandpa. He needed to get his new guitar set up. I wasn't sure if I was going to buy a new guitar or not, but I didn't put the idea out of my mind. When we got to the store, I asked to look at the guitars. First off, he showed me a new one that he had in that had been selling very well. It was made of a beautiful kind of wood and had a crisp sound. But it was also one of the cheapest guitars in the store. It didn't have all the flashy features that some of the pricier ones had. No built in tuner, no acoustic/electric, no cutaway. So I kept trying the other guitars, trying to find one that sounded better. I wanted my guitar to be as impressive as possible. But I kept coming back to the first one I had tried. Finally, I gave up trying to one up what was clearly the best guitar in the store. So I bought that one. I've played it almost everyday since, and I couldn't be happier with having decided to buy that one. It might not be the fanciest, but it's humble, and it has an amazing sound."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a guitar shop with my grandpa. He needed to get his new guitar set up. I wasn't sure if I was going to buy a new guitar or not, but I didn't put the idea out of my mind. When we got to the store, I asked to look at the guitars. First off, he showed me a new one that he had in that had been selling very well. It was made of a beautiful kind of wood and had a crisp sound. But it was also one of the cheapest guitars in the store. It didn't have all the flashy features that some of the pricier ones had. No built in tuner, no acoustic/electric, no cutaway. So I kept trying the other guitars, trying to find one that sounded better. I wanted my guitar to be as impressive as possible. But I kept coming back to the first one I had tried. Finally, I gave up trying to one up what was clearly the best guitar in the store. So I bought that one. I've played it almost everyday since, and I couldn't be happier with having decided to buy that one. It might not be the fanciest, but it's humble, and it has an amazing sound.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f35026a0742fb-EWR"
+    }
+}

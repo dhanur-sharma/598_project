@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I don't understand what is happening with our schools these days. Many of the administrators think of themselves as autocrats as it seems. I know this first hand now. My nephew Joe had been kicked out of school few months back. He is on his senior year. He did a stupid mistake of painting some naughty graffiti on the school wall. But hey.. he is a teenager. Every teenager goes through that phase. An adult should be able to understand that. Not his school administration as it turned out. We were told he wouldn't be able to walk across stage with his class. They could have at least let him graduate. But joe was determined. He finished his studies online in time, brilliantly. And here comes the call from his school today, informing us that Joe can graduate with his class after all. How weird do these administrators think!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I don't understand what is happening with our schools these days. Many of the administrators think of themselves as autocrats as it seems. I know this first hand now. My nephew Joe had been kicked out of school few months back. He is on his senior year. He did a stupid mistake of painting some naughty graffiti on the school wall. But hey.. he is a teenager. Every teenager goes through that phase. An adult should be able to understand that. Not his school administration as it turned out. We were told he wouldn't be able to walk across stage with his class. They could have at least let him graduate. But joe was determined. He finished his studies online in time, brilliantly. And here comes the call from his school today, informing us that Joe can graduate with his class after all. How weird do these administrators think!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They seem to be living in a different world.\n\n"
+            }
+        ],
+        "request_id": "811ebef22ef51811-EWR"
+    }
+}

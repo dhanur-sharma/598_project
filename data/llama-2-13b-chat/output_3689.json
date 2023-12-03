@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I left early in the morning to take the bus from Union Station. The bus was about 20 minutes late, and there was a long cue waiting to board in the cold. When the teller arrived, it took about 5 minutes to board. The ride was extremely long and uncomfortable. I didn't sleep the night before so I could do so on the bus, but the seating was so uncomfortable that I could not manage to sleep for more than an hour. Finally after 9 hours on the bus, we arrived in Boston and I took an Uber to the restaurant. It was a small Italian place that was owned by a family friend. My cousins, my aunts/uncles and some distant relatives were all there. It was the first time that everyone had been together in probably a year, and the dynamic was a lot like when we were all kids. The food was excellent. There were four courses, all of them dishes that were excellently crated. After the party, I spent the night at my grandmothers house. The next day I got up early to take the bus. Still with a sore neck from the day before, the ride back was even worse. I got no sleep and was very uncomfortable, but happy that I got to see my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I left early in the morning to take the bus from Union Station. The bus was about 20 minutes late, and there was a long cue waiting to board in the cold. When the teller arrived, it took about 5 minutes to board. The ride was extremely long and uncomfortable. I didn't sleep the night before so I could do so on the bus, but the seating was so uncomfortable that I could not manage to sleep for more than an hour. Finally after 9 hours on the bus, we arrived in Boston and I took an Uber to the restaurant. It was a small Italian place that was owned by a family friend. My cousins, my aunts/uncles and some distant relatives were all there. It was the first time that everyone had been together in probably a year, and the dynamic was a lot like when we were all kids. The food was excellent. There were four courses, all of them dishes that were excellently crated. After the party, I spent the night at my grandmothers house. The next day I got up early to take the bus. Still with a sore neck from the day before, the ride back was even worse. I got no sleep and was very uncomfortable, but happy that I got to see my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecef078e40c76-EWR"
+    }
+}

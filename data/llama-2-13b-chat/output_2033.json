@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Busch Gardens today. It was pretty hot so I wore shorts and a tank top. When we arrived I was anxious to see the animals. I walked around and saw the apes first. They were in the shade. I was the lions afterwards and they were also lying in the shade. It was very hot outside! I saw the salt water croc next and he was bathing in the water. He was HUGE! I came across a flyer for a safari and to feed giraffes. I signed right up! We went in a jeep and had some lettuce on hand. The giraffes came right over and we started feeding them. It was great they were gigantic. They were also very friendly!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Busch Gardens today. It was pretty hot so I wore shorts and a tank top. When we arrived I was anxious to see the animals. I walked around and saw the apes first. They were in the shade. I was the lions afterwards and they were also lying in the shade. It was very hot outside! I saw the salt water croc next and he was bathing in the water. He was HUGE! I came across a flyer for a safari and to feed giraffes. I signed right up! We went in a jeep and had some lettuce on hand. The giraffes came right over and we started feeding them. It was great they were gigantic. They were also very friendly!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We went back to the hotel and took a dip in the pool. It was very relaxing. I also had a milkshake which was delicious.\n\n"
+            }
+        ],
+        "request_id": "811eaf0c3d994297-EWR"
+    }
+}

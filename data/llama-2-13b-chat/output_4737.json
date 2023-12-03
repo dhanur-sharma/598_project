@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My very favorite cat got very sick. We had to put her to sleep. I loved her very much and I miss her now. I think of her every day.  We buried her by the river in a beautiful place. I have told my family that I want my ashes to be placed near her when I die. Oddly, I almost look forward to it. It is very comforting to think of resting near her. She was a very good friend. She followed me from room to room and often slept on my head while I slept.  Sometimes she slept with her cheek against mine.  She was extraordinarily beautiful with a long face and very long slender legs.  Her feet were very small.  I think she was a special breed and a little wild.  She walked like a tiger."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My very favorite cat got very sick. We had to put her to sleep. I loved her very much and I miss her now. I think of her every day.  We buried her by the river in a beautiful place. I have told my family that I want my ashes to be placed near her when I die. Oddly, I almost look forward to it. It is very comforting to think of resting near her. She was a very good friend. She followed me from room to room and often slept on my head while I slept.  Sometimes she slept with her cheek against mine.  She was extraordinarily beautiful with a long face and very long slender legs.  Her feet were very small.  I think she was a special breed and a little wild.  She walked like a tiger.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I love to remember her.  \n\n"
+            }
+        ],
+        "request_id": "811bdcf64edd8cee-EWR"
+    }
+}

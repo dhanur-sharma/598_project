@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I finally thought of a solution to the problem with my neighbor. I read online about all the options for blocking windows. I liked the idea of installing a birdbath. I read all the tips about how to do it. I even added took out some books from the library for inspiration. After I found the perfect set up I moved forward with building the birdbath. It took a lot more work than I thought. I spent 3 weekends building the entire thing, but it was perfect. I  had finally won and could reclaim my window from the neighbor. Unfortunately, I had underestimated how much work it really was to build the bath. After I finished I was unable  to walk normally for a month. My back is finally starting to feel better. I guess I learned that being vengeful has its pitfalls. I will never lift anything that heavy again. It was worth it though, because I won!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I finally thought of a solution to the problem with my neighbor. I read online about all the options for blocking windows. I liked the idea of installing a birdbath. I read all the tips about how to do it. I even added took out some books from the library for inspiration. After I found the perfect set up I moved forward with building the birdbath. It took a lot more work than I thought. I spent 3 weekends building the entire thing, but it was perfect. I  had finally won and could reclaim my window from the neighbor. Unfortunately, I had underestimated how much work it really was to build the bath. After I finished I was unable  to walk normally for a month. My back is finally starting to feel better. I guess I learned that being vengeful has its pitfalls. I will never lift anything that heavy again. It was worth it though, because I won!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8dcc2aac1885-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I left therapy again with little to no positive feelings. That horrible car crash from a couple weeks ago has ruined my life. It wasn't my fault, it was the other drivers fault, but my life will still forever be changed. I can't get the look of the other drivers dead body out of my mind. Their head was crushed by the weight of one of my wheels on top of their hood. That is what is most memorable to me. The blood, the brains. It was terrible. I blame myself even though it wasnt my fault. I hope one day I can get over this and be able to move on with my life. Hopefully therapy will help me tomorrow. I just still can't believe I killed someone, even though it was an accident. Life just will never be the same. If the other driver didnt die things would be different. However, I can't change that now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I left therapy again with little to no positive feelings. That horrible car crash from a couple weeks ago has ruined my life. It wasn't my fault, it was the other drivers fault, but my life will still forever be changed. I can't get the look of the other drivers dead body out of my mind. Their head was crushed by the weight of one of my wheels on top of their hood. That is what is most memorable to me. The blood, the brains. It was terrible. I blame myself even though it wasnt my fault. I hope one day I can get over this and be able to move on with my life. Hopefully therapy will help me tomorrow. I just still can't believe I killed someone, even though it was an accident. Life just will never be the same. If the other driver didnt die things would be different. However, I can't change that now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ece16ba6bc44f-EWR"
+    }
+}

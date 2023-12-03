@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had my wedding about 8 months ago or somewhere around there.  I got to marry my absolute best friend and she is amazing.  I could not have asked for a better person to make my wife.  The wedding was so stressful.  Getting ready and making sure everything was just perfect was very difficult.  All of a sudden the day had arrived I found myself at the front of the aisle waiting.  The music started playing and my groomsmen walked up the aisle.  Then my soon to be wife was standing before me.  She was absolutely beautiful.  I found myself tearing up she had taken my breath away.  We both said I do and the day continued.  At the reception there was alot of dancing and music and drinking.  After the reception we left to go to the airport.  We ended going up on our honeymoon to Mexico.  We had a blast drank some more and really enjoyed spending time together.  Finally we were back to reality and we came home to start our new lives together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had my wedding about 8 months ago or somewhere around there.  I got to marry my absolute best friend and she is amazing.  I could not have asked for a better person to make my wife.  The wedding was so stressful.  Getting ready and making sure everything was just perfect was very difficult.  All of a sudden the day had arrived I found myself at the front of the aisle waiting.  The music started playing and my groomsmen walked up the aisle.  Then my soon to be wife was standing before me.  She was absolutely beautiful.  I found myself tearing up she had taken my breath away.  We both said I do and the day continued.  At the reception there was alot of dancing and music and drinking.  After the reception we left to go to the airport.  We ended going up on our honeymoon to Mexico.  We had a blast drank some more and really enjoyed spending time together.  Finally we were back to reality and we came home to start our new lives together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca437fda19c3-EWR"
+    }
+}

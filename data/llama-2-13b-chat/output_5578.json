@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my wife and I celebrated our fifth wedding anniversary by taking a trip to Paris, France.  It was our second time to Europe together but the first time to Paris.  After the long flight, we got on the train to take it in to the city.  We went straight to the hotel and rested for a bit.  We then took the subway in to the heart of Paris.  As we stepped out in to the sunlight from underneath the ground, the first site we say was Notre Dame Cathedral in all of it's splendor.  My wife started crying and I was overwhelmed at the sites and sounds of Paris.  It is beautiful.  Little did we know that Notre Dame would be burning down a few days later.  The most memorable part of this experience happened inside of Notre Dame.  As we walked in, we realized a mass had just started.  We heard the most beautiful music.  We sat down and experienced the mass.  Since my wife knows French, she told me what the priest was saying.  It was a wonderful experience and we may have been in one of the last services before it burned."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my wife and I celebrated our fifth wedding anniversary by taking a trip to Paris, France.  It was our second time to Europe together but the first time to Paris.  After the long flight, we got on the train to take it in to the city.  We went straight to the hotel and rested for a bit.  We then took the subway in to the heart of Paris.  As we stepped out in to the sunlight from underneath the ground, the first site we say was Notre Dame Cathedral in all of it's splendor.  My wife started crying and I was overwhelmed at the sites and sounds of Paris.  It is beautiful.  Little did we know that Notre Dame would be burning down a few days later.  The most memorable part of this experience happened inside of Notre Dame.  As we walked in, we realized a mass had just started.  We heard the most beautiful music.  We sat down and experienced the mass.  Since my wife knows French, she told me what the priest was saying.  It was a wonderful experience and we may have been in one of the last services before it burned.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We left in awe of the beauty and history of Notre Dame.  It was a once in a lifetime experience."
+            }
+        ],
+        "request_id": "811f3466d84d8cdd-EWR"
+    }
+}

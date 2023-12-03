@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Since writing the first diary entry, I have relived the scenario described.  My father needed to revisit the same hospital for a post-operation check-up.  He could have driven there himself this time, but he doesn't do well in big city traffic environment.  My mom insisted on joining, and she couldn't drive either, because she has a horrible sense of direction and gets easily lost.  So, once again, it was up to me to make the lengthy drive.  I knew the potential for the three of us to trigger various stresses in one another.  It's only worse when all three of us are together.  With just two, there's a bit lesser chance for a blow-up. The drive would be different this time, which posed a potential challenge.  There was construction happening that forced us to take an alternate route.  So, even though this was only a check-up appointment, and not an actual series of tests or an operation, the detour added a dimension of unpredictability. While I was bothered by having to go through this experience a sixth or seventh time, I knew it was important.  Letting either of my parents make the drive themselves would have been selfish on my part, and made things worse for them.  From what I remember, this was one of the smoothest of the hospital trips so far.  And we had a decent time eating and shopping afterwards."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Since writing the first diary entry, I have relived the scenario described.  My father needed to revisit the same hospital for a post-operation check-up.  He could have driven there himself this time, but he doesn't do well in big city traffic environment.  My mom insisted on joining, and she couldn't drive either, because she has a horrible sense of direction and gets easily lost.  So, once again, it was up to me to make the lengthy drive.  I knew the potential for the three of us to trigger various stresses in one another.  It's only worse when all three of us are together.  With just two, there's a bit lesser chance for a blow-up. The drive would be different this time, which posed a potential challenge.  There was construction happening that forced us to take an alternate route.  So, even though this was only a check-up appointment, and not an actual series of tests or an operation, the detour added a dimension of unpredictability. While I was bothered by having to go through this experience a sixth or seventh time, I knew it was important.  Letting either of my parents make the drive themselves would have been selfish on my part, and made things worse for them.  From what I remember, this was one of the smoothest of the hospital trips so far.  And we had a decent time eating and shopping afterwards.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9122edc3440e-EWR"
+    }
+}

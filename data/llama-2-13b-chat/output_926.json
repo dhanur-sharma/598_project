@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, I and a group of friends visited Cancun. It was a nice time to visit Mexico, and it was a really good experience. We saw the Mayan performance at Xcaret, and that was the highlight of our trip. We really enjoyed the performance. We saw a lot of cool stuff. We met a lot of cool people too. There was a day we visited some old structures off the beaten path. we were shown really old architecture. It was cool, and I took a lot of pictures. We ate a lot of local food, and I loved it. We drank the local brew and loved it. A lot of locals liked us. They showed us around. They also welcomed us. We will definitely return."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, I and a group of friends visited Cancun. It was a nice time to visit Mexico, and it was a really good experience. We saw the Mayan performance at Xcaret, and that was the highlight of our trip. We really enjoyed the performance. We saw a lot of cool stuff. We met a lot of cool people too. There was a day we visited some old structures off the beaten path. we were shown really old architecture. It was cool, and I took a lot of pictures. We ate a lot of local food, and I loved it. We drank the local brew and loved it. A lot of locals liked us. They showed us around. They also welcomed us. We will definitely return.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9aa90dda15a3-EWR"
+    }
+}

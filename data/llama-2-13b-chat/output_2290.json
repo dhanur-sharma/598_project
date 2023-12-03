@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: As I recall, the most exciting part of that month was the Inkarceration Festival in Ohio. I found myself again at Mansfield, after many years of struggling. Perhaps it was the location, or the people. Perhaps I was just getting over my breakup. All I know is, something wonderful happened there. The music we had practiced over and over this time put me in some sort of introspective trance. I felt like a different person. And that everything was going to be brighter in the future. I suppose everyone has these moments in life. These realizations where they feel that the road has just taken a turn for the better. The guys were there, doing what they normally do: rough housing, talking crap, lighting up to play cards in the back after the concert, or sometimes scouting the crowd for the easiest fan-girl. However, on this trip I felt more connected to them. I felt as though they were beginning to really understand me. Sometimes it would be just a look in the eye, or a nod here and there. Somehow I felt a part of the fold. That festival will always be a highlight of my new road. A masterfully crafted cobblestone compared to the briar-riddled swamp I was trudging through before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: As I recall, the most exciting part of that month was the Inkarceration Festival in Ohio. I found myself again at Mansfield, after many years of struggling. Perhaps it was the location, or the people. Perhaps I was just getting over my breakup. All I know is, something wonderful happened there. The music we had practiced over and over this time put me in some sort of introspective trance. I felt like a different person. And that everything was going to be brighter in the future. I suppose everyone has these moments in life. These realizations where they feel that the road has just taken a turn for the better. The guys were there, doing what they normally do: rough housing, talking crap, lighting up to play cards in the back after the concert, or sometimes scouting the crowd for the easiest fan-girl. However, on this trip I felt more connected to them. I felt as though they were beginning to really understand me. Sometimes it would be just a look in the eye, or a nod here and there. Somehow I felt a part of the fold. That festival will always be a highlight of my new road. A masterfully crafted cobblestone compared to the briar-riddled swamp I was trudging through before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The music was just the beginning of the healing."
+            }
+        ],
+        "request_id": "811eb3e88bd5436d-EWR"
+    }
+}

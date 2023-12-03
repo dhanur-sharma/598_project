@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in July my two cousins came from England over to Indiana to visit us. They came to visit for two weeks and stayed at my Dad's old house, he passed away in January. While they were here my mom and I wanted to do something nice with them. We decided it would be nice to take them to Indianapolis, Indiana where they have a nice children's museum and the zoo. My mom, me, my two boys, my nephew and two cousins went. We rented a hotel for the night. We got up early to get on the road and once we got there we checked into the hotel. From there we went to the museum for the day. We then went back to the hotel to swim for a bit followed by dinner. The next day we got up early and after breakfast went to the zoo. We spent the day at the zoo and then headed home. we had such a nice time. It was a fun adventure from all from age of 3 to 60 years of ago. I think it is a memory we will all have for quite some time. The weather was nice. On the way home we even stopped of a place that is an old english style pub."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in July my two cousins came from England over to Indiana to visit us. They came to visit for two weeks and stayed at my Dad's old house, he passed away in January. While they were here my mom and I wanted to do something nice with them. We decided it would be nice to take them to Indianapolis, Indiana where they have a nice children's museum and the zoo. My mom, me, my two boys, my nephew and two cousins went. We rented a hotel for the night. We got up early to get on the road and once we got there we checked into the hotel. From there we went to the museum for the day. We then went back to the hotel to swim for a bit followed by dinner. The next day we got up early and after breakfast went to the zoo. We spent the day at the zoo and then headed home. we had such a nice time. It was a fun adventure from all from age of 3 to 60 years of ago. I think it is a memory we will all have for quite some time. The weather was nice. On the way home we even stopped of a place that is an old english style pub.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time. I think we will all have memories for a long time."
+            }
+        ],
+        "request_id": "811e93e9ce0a1788-EWR"
+    }
+}

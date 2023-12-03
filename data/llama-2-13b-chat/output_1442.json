@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May my mother died. I was an only child and my father passed when I was very young. She was the last close family I had left. It was so unexpected because nobody in her family had heart problems. I couldn't believe she died of a heart attack. She was old for a mother when she had me. Older than 40. But she lived a long life. This unexpected death totally threw my life into chaos. I had to take leave from work to make the funeral arrangements, settle all of her financials and clean and prepare the house for sale. I had to do this all the while feeling so sad and lonely. I am divorced and childless and I feel like I have nobody close to me anymore. To fill the void I have tried to renew my faith in God. I have started to go back to church. I had not been in many years. Hopefully this will fill the void I have and I will meet some good people. Nothing will replace my mother though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May my mother died. I was an only child and my father passed when I was very young. She was the last close family I had left. It was so unexpected because nobody in her family had heart problems. I couldn't believe she died of a heart attack. She was old for a mother when she had me. Older than 40. But she lived a long life. This unexpected death totally threw my life into chaos. I had to take leave from work to make the funeral arrangements, settle all of her financials and clean and prepare the house for sale. I had to do this all the while feeling so sad and lonely. I am divorced and childless and I feel like I have nobody close to me anymore. To fill the void I have tried to renew my faith in God. I have started to go back to church. I had not been in many years. Hopefully this will fill the void I have and I will meet some good people. Nothing will replace my mother though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She was a very special person."
+            }
+        ],
+        "request_id": "811ea4e02a7a8c48-EWR"
+    }
+}

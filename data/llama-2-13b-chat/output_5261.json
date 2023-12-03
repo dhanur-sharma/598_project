@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to southern California for my Dad's 80th birthday in May. On this trip my wife, two daughters, sister, brother, niece and nephew accompanied me. We went out to a Mexican dinner the first night. We went to laguna beach the next day and went to a restaurant on the ocean for lunch. My 2 year old daughter went to the beach for the first time on this trip. She was scared at first but then really liked the ocean. We also went to the Huntington Library. On the last night we gave my dad gifts and went to the Panda Inn for dinner. It was an enjoyable trip filled with lots of memories. This may or may not be the last time I visit my dad in California, so I am glad it was a good trip. I am also happy I got to do this trip with my family. The weather was pretty good on the trip. It did rain on one day. The beach day was very sunny. We got to see where they live for the first time since they had moved. The food was very good on the trip. I ate a hamburger at the Burbank airport on the way home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to southern California for my Dad's 80th birthday in May. On this trip my wife, two daughters, sister, brother, niece and nephew accompanied me. We went out to a Mexican dinner the first night. We went to laguna beach the next day and went to a restaurant on the ocean for lunch. My 2 year old daughter went to the beach for the first time on this trip. She was scared at first but then really liked the ocean. We also went to the Huntington Library. On the last night we gave my dad gifts and went to the Panda Inn for dinner. It was an enjoyable trip filled with lots of memories. This may or may not be the last time I visit my dad in California, so I am glad it was a good trip. I am also happy I got to do this trip with my family. The weather was pretty good on the trip. It did rain on one day. The beach day was very sunny. We got to see where they live for the first time since they had moved. The food was very good on the trip. I ate a hamburger at the Burbank airport on the way home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would recommend going to the Huntington Library.\n\n"
+            }
+        ],
+        "request_id": "811f2dda1a42c32c-EWR"
+    }
+}

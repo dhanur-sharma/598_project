@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this year I went to see my Grandma on my dad's side. I hadn't seen her in many years, not since I was in junior high from what I remember. My Grandpa died last Thanksgiving and only my dad was able to make the trip at that time. This time just me and my dad went. I was a little nervous from having not seen her in a while and wasn't sure how much my memories were correct. It turns out they were mostly on the money. Surprisingly my memory of her and her house was better than hers, she didn't even remember the last time I visited and thought I hadn't been there since I was really little. We had a nice time and visited some relatives I had never met before. We had dinner at their house which was a nice home out in the country. It was more of a proper dinner than I was prepared for and I felt a little awkward. They were nice though, and they keep bees and gave us some honey to take home. Unfortunately all their hives mysteriously died a few months before. Other than visiting them we went out to see the cemetery where my grandpa was buried. It's a military cemetery and looked nice and well kept. I took a few pictures of all the grave markers and some of the nearby lake."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this year I went to see my Grandma on my dad's side. I hadn't seen her in many years, not since I was in junior high from what I remember. My Grandpa died last Thanksgiving and only my dad was able to make the trip at that time. This time just me and my dad went. I was a little nervous from having not seen her in a while and wasn't sure how much my memories were correct. It turns out they were mostly on the money. Surprisingly my memory of her and her house was better than hers, she didn't even remember the last time I visited and thought I hadn't been there since I was really little. We had a nice time and visited some relatives I had never met before. We had dinner at their house which was a nice home out in the country. It was more of a proper dinner than I was prepared for and I felt a little awkward. They were nice though, and they keep bees and gave us some honey to take home. Unfortunately all their hives mysteriously died a few months before. Other than visiting them we went out to see the cemetery where my grandpa was buried. It's a military cemetery and looked nice and well kept. I took a few pictures of all the grave markers and some of the nearby lake.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bdb7b0a9242ac-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Have you ever felt pain so intense it makes you cry? I do.  I woke up one morning about 6 weeks ago with the worst stomach pain imaginable.  It was beyond belief. I am such a deep sleeper I knew it must be bad to have awakened me.  It made me curl up in a fetal position and cry.  I knew something was terribly wrong.  But I have no medical training and didn't know what could be wrong. I knew I needed help, but I live alone.  Usually this is fantastic-I have freedom.  No one eats my ice cream;  I can have soup for dinner;  Cereal is great for lunch too. But in an emergency, living alone is a liability.  I needed help, fast, but there was no one. Almost.- but Lily the cat wasn't going to help. I worked up my courage and swallowed my fear of what was happening. It felt like a furball.  I  stumbled to my car.  I told Lily I would be back soon (I hoped it would be true). I don't know how I drove to the hospital without being in an accident.  I guess the need to not incur an ambulance bill is a desperate motivator. I stumbled into the ER.  They say I need surgery for an appendix that will burst.  Lily is not going to like this.  Not at all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Have you ever felt pain so intense it makes you cry? I do.  I woke up one morning about 6 weeks ago with the worst stomach pain imaginable.  It was beyond belief. I am such a deep sleeper I knew it must be bad to have awakened me.  It made me curl up in a fetal position and cry.  I knew something was terribly wrong.  But I have no medical training and didn't know what could be wrong. I knew I needed help, but I live alone.  Usually this is fantastic-I have freedom.  No one eats my ice cream;  I can have soup for dinner;  Cereal is great for lunch too. But in an emergency, living alone is a liability.  I needed help, fast, but there was no one. Almost.- but Lily the cat wasn't going to help. I worked up my courage and swallowed my fear of what was happening. It felt like a furball.  I  stumbled to my car.  I told Lily I would be back soon (I hoped it would be true). I don't know how I drove to the hospital without being in an accident.  I guess the need to not incur an ambulance bill is a desperate motivator. I stumbled into the ER.  They say I need surgery for an appendix that will burst.  Lily is not going to like this.  Not at all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I may not like it either.  \n\n"
+            }
+        ],
+        "request_id": "811ea4624f92199d-EWR"
+    }
+}

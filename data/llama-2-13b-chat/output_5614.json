@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best friend bought me a gift card for my favorite music store for my birthday 2 weeks ago. She knows me so well. She knew that I had wanted to buy this guitar for over a year now. She also knew that I would never spend that kind of money on something just for me. I thought it was a silly purchase though since I don't know how to play. It has always just been a dream of mine. I was so grateful and excited that I made her come to the music store with me the very same day. When we walked into the store my eye immediately went to where I knew the guitar was on the wall. It was so beautiful. It was a dark creamy brown with a thin vine like pattern on the neck. I asked the sales person to get it down for me, because I could't reach it. She handed it to me and it felt better than I had imagined. My friend and I went over to sit down by the back wall and I strummed it for a bit before making the final decision to purchase my dream guitar. I purchased the guitar and actually signed up at the store for lessons since I had such a wonderful time there. I realized that night while just staring at the guitar in my room that sometimes the simplest things can be the most beautiful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best friend bought me a gift card for my favorite music store for my birthday 2 weeks ago. She knows me so well. She knew that I had wanted to buy this guitar for over a year now. She also knew that I would never spend that kind of money on something just for me. I thought it was a silly purchase though since I don't know how to play. It has always just been a dream of mine. I was so grateful and excited that I made her come to the music store with me the very same day. When we walked into the store my eye immediately went to where I knew the guitar was on the wall. It was so beautiful. It was a dark creamy brown with a thin vine like pattern on the neck. I asked the sales person to get it down for me, because I could't reach it. She handed it to me and it felt better than I had imagined. My friend and I went over to sit down by the back wall and I strummed it for a bit before making the final decision to purchase my dream guitar. I purchased the guitar and actually signed up at the store for lessons since I had such a wonderful time there. I realized that night while just staring at the guitar in my room that sometimes the simplest things can be the most beautiful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f34feafbc43ee-EWR"
+    }
+}

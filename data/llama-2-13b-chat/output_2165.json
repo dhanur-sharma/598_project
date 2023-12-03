@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Actually I am quick tensed person. I am arrogant too. Due to this I don't have many friends. I took many steps to change this attitude but I can't. My friends suggested to listen to mild music so that my mood can change. I even tried that too. Once one of my friend suggested to go to a debaucherous music festival. Though I was not interested I went there. The festival ran on a \"do what thou will\" unregulated ethos. At first I did not like to hear it. Even I thought of going home in the middle. But when the time passed by I liked the theme. At one time I experienced a change in myself. After coming home that thoughts made me a tolerant person. It made me tolerant so that I was clear in making choices and well behave with others."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Actually I am quick tensed person. I am arrogant too. Due to this I don't have many friends. I took many steps to change this attitude but I can't. My friends suggested to listen to mild music so that my mood can change. I even tried that too. Once one of my friend suggested to go to a debaucherous music festival. Though I was not interested I went there. The festival ran on a \"do what thou will\" unregulated ethos. At first I did not like to hear it. Even I thought of going home in the middle. But when the time passed by I liked the theme. At one time I experienced a change in myself. After coming home that thoughts made me a tolerant person. It made me tolerant so that I was clear in making choices and well behave with others.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb18b39ff8c54-EWR"
+    }
+}

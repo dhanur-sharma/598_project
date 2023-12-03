@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A year ago, I helped parents with kids with drug addiction, get a job and to better their lives. I met one person with a bad case of an addiction. She was addicted to heroin. I helped her get her footing in the world again. She got a job at Burger King. She hated it at first but got promoted within a year. She thanked me later with a free whopper. I was so proud of her. There was another case about a kid who was addicted to meth. I helped him get a job as a motivational speaker. He had a great time giving speeches about how you shouldn't use meth and other drugs. He is very popular now. He is doing great. I hope to help other people. This will be a long life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A year ago, I helped parents with kids with drug addiction, get a job and to better their lives. I met one person with a bad case of an addiction. She was addicted to heroin. I helped her get her footing in the world again. She got a job at Burger King. She hated it at first but got promoted within a year. She thanked me later with a free whopper. I was so proud of her. There was another case about a kid who was addicted to meth. I helped him get a job as a motivational speaker. He had a great time giving speeches about how you shouldn't use meth and other drugs. He is very popular now. He is doing great. I hope to help other people. This will be a long life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e9e1ac74237-EWR"
+    }
+}

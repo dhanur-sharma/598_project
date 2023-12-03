@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This event occurred 6 months ago, but I can still remember it clearly. After a long and grueling program in Post secondary education, I finally made it to graduation. I was then surprised by my mentor showing up at the ceremony, and she gave me my diploma! I was so excited to see that she cared enough to show up. I began crying and she hugged me and told me she was proud of me. I was amazed by the applause I received from my peers, and my family was extremely proud of me. I felt so accomplished for being the first person in 3 generations to complete a masters program and my father even shed a few tears when I went across the stage. It seemed that after endless hours of studying and tutoring sessions had finally paid off. I am now working with the University after being offered a full-time position after graduation. This was largely due to my mentor writing me an amazing letter of recommendation. I am now looking forward to working with students in the same way my mentor worked with me. I have met with several students who I am now an advisor to. I hope that in the coming years I can develop a relationship with them that will be like the one I had with my mentor. I will then continue the trend of being at my students graduation. I cannot think of a happier occasion in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This event occurred 6 months ago, but I can still remember it clearly. After a long and grueling program in Post secondary education, I finally made it to graduation. I was then surprised by my mentor showing up at the ceremony, and she gave me my diploma! I was so excited to see that she cared enough to show up. I began crying and she hugged me and told me she was proud of me. I was amazed by the applause I received from my peers, and my family was extremely proud of me. I felt so accomplished for being the first person in 3 generations to complete a masters program and my father even shed a few tears when I went across the stage. It seemed that after endless hours of studying and tutoring sessions had finally paid off. I am now working with the University after being offered a full-time position after graduation. This was largely due to my mentor writing me an amazing letter of recommendation. I am now looking forward to working with students in the same way my mentor worked with me. I have met with several students who I am now an advisor to. I hope that in the coming years I can develop a relationship with them that will be like the one I had with my mentor. I will then continue the trend of being at my students graduation. I cannot think of a happier occasion in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eacb50b3142ad-EWR"
+    }
+}

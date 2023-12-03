@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My flight to the event could of been better. Even though it wasn't a long flight I was placed by a screaming child. No matter what those poor parent's did their kid would not stop screaming. I gave them a look of sympathy as we exited the plane. The event was amazing. Great food, good conversations and the chance to meet employees from different company locations. The speech that our CEO gave was heartfelt and motivational. He told us about his personal struggles this year while undergoing treatment for cancer. And thanked all of us for being there to make sure our company continued to work to the high standards our clients expect from us. The flight home was thankfully much more quiet. I met my friend Jason at our local bar and we caught up a little bit on how the event went, how his job is going. We've been friends since high-school and have only grown closer as time has gone by. Despite having all in all a great day. It was a long day. Returning home felt like a blessing. I was able to kick off my dress shoes, and get into some comfy clothes. The rest of my evening consisted of watching a movie and then going to bed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My flight to the event could of been better. Even though it wasn't a long flight I was placed by a screaming child. No matter what those poor parent's did their kid would not stop screaming. I gave them a look of sympathy as we exited the plane. The event was amazing. Great food, good conversations and the chance to meet employees from different company locations. The speech that our CEO gave was heartfelt and motivational. He told us about his personal struggles this year while undergoing treatment for cancer. And thanked all of us for being there to make sure our company continued to work to the high standards our clients expect from us. The flight home was thankfully much more quiet. I met my friend Jason at our local bar and we caught up a little bit on how the event went, how his job is going. We've been friends since high-school and have only grown closer as time has gone by. Despite having all in all a great day. It was a long day. Returning home felt like a blessing. I was able to kick off my dress shoes, and get into some comfy clothes. The rest of my evening consisted of watching a movie and then going to bed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed1d37a364295-EWR"
+    }
+}

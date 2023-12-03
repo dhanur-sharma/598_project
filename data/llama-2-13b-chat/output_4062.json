@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to go to a grandmothers funeral. She had passed recently. All her close friends and family were going. We ended up talking about the good times. The many days we had wonderful memories of her. There were lots of stories that went around. All good and happy stories people like to retell. It did bring about some sadness on the whole thing. We knew she wouldn't be with us anymore and it was hard to take. I wondered why things had to be like this. But everyone thought about the happy times. We helped each other through it. As she was lowered we all said our goodbyes. Everyone had tears in their eyes. But our family helped each other."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to go to a grandmothers funeral. She had passed recently. All her close friends and family were going. We ended up talking about the good times. The many days we had wonderful memories of her. There were lots of stories that went around. All good and happy stories people like to retell. It did bring about some sadness on the whole thing. We knew she wouldn't be with us anymore and it was hard to take. I wondered why things had to be like this. But everyone thought about the happy times. We helped each other through it. As she was lowered we all said our goodbyes. Everyone had tears in their eyes. But our family helped each other.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a tough day but we got through it.\n\n"
+            }
+        ],
+        "request_id": "811bcf397bbf8c4b-EWR"
+    }
+}

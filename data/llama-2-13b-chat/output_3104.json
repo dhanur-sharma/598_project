@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was for the July 4th weekend, and my brother invited me to visit Lassen National park for the long weekend. We both love being in nature, and a chance to see some snow in the middle of summer sounded amazing. I took a bus from Los Angeles to meet him in Oakland, and then we drove the rest of the way to Lassen. We were lucky enough to find a nice campsite in Manzanita Lake Campground. We spent the first day wandering around the lake, kayaking, admiring the views, and just lounging beneath the pine trees in our tents. The next day, we drove to Burney Falls, which was beautiful, and then passed by a lava cave, and then onwards to Butte Lake. We hiked up the Cinder Cone Trail, trudging up the short but steep and slippery slope of cinders, leading to the crater and to more gorgeous views of mountains, lakes, and volcanic beauty. After a long day, we headed back to the campground and stopped beside the lake to watch the sunset and the alpenglow reflected on the water. The next morning, we woke up early to hike up Mt. Lassen, which was still covered in snow, driving past tall snowbanks and snow-covered landscapes. I was worried about the snow and how well our microspikes would perform, but it turned out fine! We arrived at the trailhead around 7 am, with only a few cars in the lot, and slowly but surely made our way up the summit, following the muddy tracks left across the snow by other hikers. We enjoyed watching some skiers quickly zip down the slopes from the summit, wondering at their speed and balance and fearlessness. My brother was hit by a bout of altitude sickness, so we arrived at the summit around 11, taking our time to catch our breath and admire the views. After some rest and lots of pictures, we headed back down, the snow becoming slushier with the increasing heat and traffic. It was an invigorating hike, and I found myself happy to not let my fears and doubts prevent me from experiencing it. We drove some more to the Visitor's center, awestruck by the wide views of forests, wildflowers, and the streams of water from the melting snow. It was a long, but peaceful drive to camp, where we both just ended up relaxing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was for the July 4th weekend, and my brother invited me to visit Lassen National park for the long weekend. We both love being in nature, and a chance to see some snow in the middle of summer sounded amazing. I took a bus from Los Angeles to meet him in Oakland, and then we drove the rest of the way to Lassen. We were lucky enough to find a nice campsite in Manzanita Lake Campground. We spent the first day wandering around the lake, kayaking, admiring the views, and just lounging beneath the pine trees in our tents. The next day, we drove to Burney Falls, which was beautiful, and then passed by a lava cave, and then onwards to Butte Lake. We hiked up the Cinder Cone Trail, trudging up the short but steep and slippery slope of cinders, leading to the crater and to more gorgeous views of mountains, lakes, and volcanic beauty. After a long day, we headed back to the campground and stopped beside the lake to watch the sunset and the alpenglow reflected on the water. The next morning, we woke up early to hike up Mt. Lassen, which was still covered in snow, driving past tall snowbanks and snow-covered landscapes. I was worried about the snow and how well our microspikes would perform, but it turned out fine! We arrived at the trailhead around 7 am, with only a few cars in the lot, and slowly but surely made our way up the summit, following the muddy tracks left across the snow by other hikers. We enjoyed watching some skiers quickly zip down the slopes from the summit, wondering at their speed and balance and fearlessness. My brother was hit by a bout of altitude sickness, so we arrived at the summit around 11, taking our time to catch our breath and admire the views. After some rest and lots of pictures, we headed back down, the snow becoming slushier with the increasing heat and traffic. It was an invigorating hike, and I found myself happy to not let my fears and doubts prevent me from experiencing it. We drove some more to the Visitor's center, awestruck by the wide views of forests, wildflowers, and the streams of water from the melting snow. It was a long, but peaceful drive to camp, where we both just ended up relaxing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a perfect 4th of July weekend, filled with the best of nature, and bonding with my brother.\n\n"
+            }
+        ],
+        "request_id": "811ec3fe9a36c46d-EWR"
+    }
+}

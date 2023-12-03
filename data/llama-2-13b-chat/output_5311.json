@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I think it was Friday. I was not feeling good at that time. I did not feel like going to the store at all. But I had to buy some groceries because there was no food at the fridge. So I decided to order groceries online. I used amazon fresh for it. I like their service a lot. When I was ordering groceries I decided to get some strawberry ice cream. It was going to be a strawberry ice cream day. I was looking forward to that. Especially being able to share fun food with my children and have a good day together. The delivery was super fast and on time. I was really satisfied with my choice. Me and my children was super exited about having some good time and eating strawberry ice cream. To my big surprise my wife could not share that happy experience with us. She could not leave her work that day. But it was not such a big deal because we all still had a good time together. I had some time bonding with my children and got to eat all kind of good food. Food always makes things better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I think it was Friday. I was not feeling good at that time. I did not feel like going to the store at all. But I had to buy some groceries because there was no food at the fridge. So I decided to order groceries online. I used amazon fresh for it. I like their service a lot. When I was ordering groceries I decided to get some strawberry ice cream. It was going to be a strawberry ice cream day. I was looking forward to that. Especially being able to share fun food with my children and have a good day together. The delivery was super fast and on time. I was really satisfied with my choice. Me and my children was super exited about having some good time and eating strawberry ice cream. To my big surprise my wife could not share that happy experience with us. She could not leave her work that day. But it was not such a big deal because we all still had a good time together. I had some time bonding with my children and got to eat all kind of good food. Food always makes things better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The end."
+            }
+        ],
+        "request_id": "811f2ed938300f42-EWR"
+    }
+}

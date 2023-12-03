@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My birthday was coming up. It wasn't supposed to be too special. I was turning 27, and I lost the spark that I used to feel whenever my birthday came up. Instead of jitters and happiness, I just felt like I'm one year closer and closer to being old. In fact, I felt pretty old. Everyone around me kept assuring me how young I really am, and how I still have so much life left, yet I can't help but just feel like an old geezer. One thing happened that changed all that, though. I told my best friend that I wasn't too excited about my birthday and not to do anything too special for me. This was a huge mistake. My friend took this as a challenge, and although I didn't know it just yet, he was going to give me the best birthday party I've ever had. When the day arrived it was just like any day. I went to work, ate my daily breakfast, did everything I usually do. Then, when I got home, he, along with all of my other friends and even some family all shouted \"Surprise!\" as loud as they possibly could. I was in complete disbelief. We partied, hung out, talked, and had a wonderful time. He got me concert tickets to my favorite band. Maybe birthdays aren't so bad after all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My birthday was coming up. It wasn't supposed to be too special. I was turning 27, and I lost the spark that I used to feel whenever my birthday came up. Instead of jitters and happiness, I just felt like I'm one year closer and closer to being old. In fact, I felt pretty old. Everyone around me kept assuring me how young I really am, and how I still have so much life left, yet I can't help but just feel like an old geezer. One thing happened that changed all that, though. I told my best friend that I wasn't too excited about my birthday and not to do anything too special for me. This was a huge mistake. My friend took this as a challenge, and although I didn't know it just yet, he was going to give me the best birthday party I've ever had. When the day arrived it was just like any day. I went to work, ate my daily breakfast, did everything I usually do. Then, when I got home, he, along with all of my other friends and even some family all shouted \"Surprise!\" as loud as they possibly could. I was in complete disbelief. We partied, hung out, talked, and had a wonderful time. He got me concert tickets to my favorite band. Maybe birthdays aren't so bad after all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe I'm not so old. Maybe there's still a little bit of spark left in me yet.\n\n"
+            }
+        ],
+        "request_id": "811eb8f7d89117a5-EWR"
+    }
+}

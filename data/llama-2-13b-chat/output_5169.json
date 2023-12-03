@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It happened about three weeks ago. I have a best friend named Elizabeth, and she had a grandfather named Thomas. Her grandfather had passed away from complications due to his heart and cholesterol. Elizabeth was overcome with grief. So much so that it paralyzed her. She had an emptiness in her eyes that claimed her soul and her ability to do even the simplest of tasks. I knew that she needed me. In her darkest moment, I stayed with her in her home leading up to the funeral. I stayed with her for around one week. It felt like a lifetime we had spent with each other. I helped her do all the things she did not have the strength to do. All of the funeral arrangements can be difficult to handle. I knew that she needed me. In that time, the emptiness in her eyes became different emotions. Emotions like sorrow and regret. She told me she regretted not seeing him and speaking to him more. She was sad that she did not tell him that she loved him more often. As a person who had also lost a loved one, I understood this and helped her understand that it is not her fault. As a result we have been closer ever since."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It happened about three weeks ago. I have a best friend named Elizabeth, and she had a grandfather named Thomas. Her grandfather had passed away from complications due to his heart and cholesterol. Elizabeth was overcome with grief. So much so that it paralyzed her. She had an emptiness in her eyes that claimed her soul and her ability to do even the simplest of tasks. I knew that she needed me. In her darkest moment, I stayed with her in her home leading up to the funeral. I stayed with her for around one week. It felt like a lifetime we had spent with each other. I helped her do all the things she did not have the strength to do. All of the funeral arrangements can be difficult to handle. I knew that she needed me. In that time, the emptiness in her eyes became different emotions. Emotions like sorrow and regret. She told me she regretted not seeing him and speaking to him more. She was sad that she did not tell him that she loved him more often. As a person who had also lost a loved one, I understood this and helped her understand that it is not her fault. As a result we have been closer ever since.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be5c489d88c6c-EWR"
+    }
+}

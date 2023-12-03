@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of months ago, I started going on wilderness adventures with my family. It was amazing to go, just my girlfriend and I, but it was even cooler when we were able to take the kids. My girlfriend and I found this amazing river with beautiful plants and unique rocks along the shore. The water was very clear and clam and we wanted to take the kids kayaking and for a picnic. When we arrived, we had the kids assist in helping set up the inflatable kayaks and then we broke off into two teams to head down the river. My girlfriend and out daughter were in one kayak and I was in the other, with our son. We had a lot of fun racing down the river, checking out the landscape and watching fish jump out of the water. We got to shore at a great picnic area and spent the afternoon eating lunch and fishing. Sadly, we did not catch any fish, but it was fun trying. We also found and explored a nearby cave. The kayaking trip back to the car was a bit tougher, as my arms were tired and our son was just relaxing in the back of the kayak. My arms started to get pretty sore, but we managed. Once back, I carried the kayaks and everything back to the car, so that we could load up and head home. During the drive home, my girlfriend and I discussed brights and why they are needed. Sure enough, we ended up having to stop, due to deer being in the road! We were able to navigate down the mountain safely and then got home, showered, and went to bed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of months ago, I started going on wilderness adventures with my family. It was amazing to go, just my girlfriend and I, but it was even cooler when we were able to take the kids. My girlfriend and I found this amazing river with beautiful plants and unique rocks along the shore. The water was very clear and clam and we wanted to take the kids kayaking and for a picnic. When we arrived, we had the kids assist in helping set up the inflatable kayaks and then we broke off into two teams to head down the river. My girlfriend and out daughter were in one kayak and I was in the other, with our son. We had a lot of fun racing down the river, checking out the landscape and watching fish jump out of the water. We got to shore at a great picnic area and spent the afternoon eating lunch and fishing. Sadly, we did not catch any fish, but it was fun trying. We also found and explored a nearby cave. The kayaking trip back to the car was a bit tougher, as my arms were tired and our son was just relaxing in the back of the kayak. My arms started to get pretty sore, but we managed. Once back, I carried the kayaks and everything back to the car, so that we could load up and head home. During the drive home, my girlfriend and I discussed brights and why they are needed. Sure enough, we ended up having to stop, due to deer being in the road! We were able to navigate down the mountain safely and then got home, showered, and went to bed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The next day, we all felt pretty sore, but we all had a great time and can't wait to do it again.\n\n"
+            }
+        ],
+        "request_id": "811e9e0659ec0f55-EWR"
+    }
+}

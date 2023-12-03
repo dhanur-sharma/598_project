@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Just last week I bought a house. I had been looking for something local that I could purchase that would fit my budget with not a lot of money down. I decided that I would make a home purchase of a double wide in my local manufactured home community. I signed the papers and felt a rush of excitement that I was finally going to be a homeowner. The most memorable part was when they handed me the keys and said this is now your new home. I couldn't believe it was actually ours. I wanted to find something that was large enough for my family, but that there wouldn't be much upkeep. We are extremely busy people. The home is brand new from the factory and so is everything in it. So this is perfect for what we are looking for and needing, and it is all ours. Very exciting! I can't believe that we are actually home owners. While the searching wasn't the most fun part, and we are still moving, getting to have our own home is super exciting. I can't believe it is ours. I can't believe that everything worked out and we have a place of our own."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Just last week I bought a house. I had been looking for something local that I could purchase that would fit my budget with not a lot of money down. I decided that I would make a home purchase of a double wide in my local manufactured home community. I signed the papers and felt a rush of excitement that I was finally going to be a homeowner. The most memorable part was when they handed me the keys and said this is now your new home. I couldn't believe it was actually ours. I wanted to find something that was large enough for my family, but that there wouldn't be much upkeep. We are extremely busy people. The home is brand new from the factory and so is everything in it. So this is perfect for what we are looking for and needing, and it is all ours. Very exciting! I can't believe that we are actually home owners. While the searching wasn't the most fun part, and we are still moving, getting to have our own home is super exciting. I can't believe it is ours. I can't believe that everything worked out and we have a place of our own.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so grateful.\n\n"
+            }
+        ],
+        "request_id": "811ea7ea3ad6197c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three years ago I finally realized a goal I had for many years. I went back to school and acquired my masters degree. After finally realizing this goal I started looking for a job and after over a year looking I found a job. The job was a dream come true for me, a wonderful opportunity. However, after only eight months I was laid off. Ever since I started, my immediate supervisor felt threatened. She is a very smart girl with so much potential but for some reason she did not want me to succeed. I experienced some things I would have never imagined. Things like messing with files I have worked on or flat out deleting them. I caught on and started saving my work in my own UBS but she was on a mission to get me out.  I am definitely an asset to whoever I work with. I am hard working and always willing to learn. I believe my age might hold me back a bit but the reason why she did not want me there is a mystery.  I have to say, I did a good job and was always willing to work with good attitude no matter how she treated me. I guess there is something better waiting for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three years ago I finally realized a goal I had for many years. I went back to school and acquired my masters degree. After finally realizing this goal I started looking for a job and after over a year looking I found a job. The job was a dream come true for me, a wonderful opportunity. However, after only eight months I was laid off. Ever since I started, my immediate supervisor felt threatened. She is a very smart girl with so much potential but for some reason she did not want me to succeed. I experienced some things I would have never imagined. Things like messing with files I have worked on or flat out deleting them. I caught on and started saving my work in my own UBS but she was on a mission to get me out.  I am definitely an asset to whoever I work with. I am hard working and always willing to learn. I believe my age might hold me back a bit but the reason why she did not want me there is a mystery.  I have to say, I did a good job and was always willing to work with good attitude no matter how she treated me. I guess there is something better waiting for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know I will find a job that appreciates me.\n\n"
+            }
+        ],
+        "request_id": "811f45b64b4e8ce6-EWR"
+    }
+}

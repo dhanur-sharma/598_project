@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I went back to work. I quit temporarily at the job. Things haven't improved, since I got back. I will get another job when I can. The boss is so mean. He always insults the workers. He called me slow and stupid for being a second late on a project. I was so mad and complained to human resources anonymously. This made him wise up to not being insulting to his workers. I was glad he got reprimanded. The other workers are alright. They aren't too mean but I wished they would smile more. Can't say why they should smile more in this work environment. The pay is alright. I will definitely get out of here one day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I went back to work. I quit temporarily at the job. Things haven't improved, since I got back. I will get another job when I can. The boss is so mean. He always insults the workers. He called me slow and stupid for being a second late on a project. I was so mad and complained to human resources anonymously. This made him wise up to not being insulting to his workers. I was glad he got reprimanded. The other workers are alright. They aren't too mean but I wished they would smile more. Can't say why they should smile more in this work environment. The pay is alright. I will definitely get out of here one day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd0026d9e4243-EWR"
+    }
+}

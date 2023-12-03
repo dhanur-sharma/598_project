@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father has always had health issues. When I was in the third grade, he was diagnosed with diabetes. In the beginning, he was careful about what he ate. My mom helped to prepare special meals for him. They called it the \"orange tray diet\" because she bought him a special tray to use. It was so cute. Over the years, he picked up some of his old eating habits. His condition worsened slowly. It led to other health problems. By the time I was 21, my father had to have a quadruple bypass surgery. It was terrifying, but successful. He still kept his bad habits. A couple of years ago he was diagnosed with kidney failure and that's what made him change the way he lived. For the last few years he's been exercising and eating exactly what the doctors tell him to. Since kidney damage is not able to be reversed in late stages, he had to be put on dialysis. We just found out a couple of weeks ago that he is a candidate for a kidney transplant and will be beginning tests for that in the upcoming months. I am so grateful for my dad's second chance at life. We were not close at all when I was growing up, but this has bonded us. I can't imagine losing him now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father has always had health issues. When I was in the third grade, he was diagnosed with diabetes. In the beginning, he was careful about what he ate. My mom helped to prepare special meals for him. They called it the \"orange tray diet\" because she bought him a special tray to use. It was so cute. Over the years, he picked up some of his old eating habits. His condition worsened slowly. It led to other health problems. By the time I was 21, my father had to have a quadruple bypass surgery. It was terrifying, but successful. He still kept his bad habits. A couple of years ago he was diagnosed with kidney failure and that's what made him change the way he lived. For the last few years he's been exercising and eating exactly what the doctors tell him to. Since kidney damage is not able to be reversed in late stages, he had to be put on dialysis. We just found out a couple of weeks ago that he is a candidate for a kidney transplant and will be beginning tests for that in the upcoming months. I am so grateful for my dad's second chance at life. We were not close at all when I was growing up, but this has bonded us. I can't imagine losing him now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec7440a410f4b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always liked teaching. It's great to know that I am partially responsible for impacting our future. That being said, some jobs are only temporary. About three months ago I had started to really feel this hard, and it was starting to affect my psyche. I had probably been experiencing burnout for a long time and had only realized it just before it was time to leave. I just wasn't doing a good job overall. It was time for me to move on. It was time to do something more for me. My last day was bittersweet. So many faces I had seen over the years. So many lives I hopefully have positively influenced. It was hard saying goodbye. It was hard leaving the building for the last time. But it had to be done. I look forward to the next chapter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always liked teaching. It's great to know that I am partially responsible for impacting our future. That being said, some jobs are only temporary. About three months ago I had started to really feel this hard, and it was starting to affect my psyche. I had probably been experiencing burnout for a long time and had only realized it just before it was time to leave. I just wasn't doing a good job overall. It was time for me to move on. It was time to do something more for me. My last day was bittersweet. So many faces I had seen over the years. So many lives I hopefully have positively influenced. It was hard saying goodbye. It was hard leaving the building for the last time. But it had to be done. I look forward to the next chapter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know I will find something that will be better for me and my future."
+            }
+        ],
+        "request_id": "811f333cec654319-EWR"
+    }
+}

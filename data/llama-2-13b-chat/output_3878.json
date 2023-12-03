@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been over 6 months since we thought my Dad was going to pass away. I still can't think about the incident for too long without getting overcome with emotion. He had been complaining about chest pain and headaches for days. Honestly, we ignored him because he is very dramatic and he complains about nothing all the time. Finally, he knew something was wrong and took himself to the emergency room. We found out the next day that he had suffered a heart attack sometime in the days prior to his hospitalization. Even worse, after performing some tests, it was determined that he would need surgery. He needed emergency bypass surgery in order to open up the passageways to his heart. In total he would need 5 bypasses to be performed. The surgeon was very direct and blunt with his feelings on the matter, it was likely there would be serious complications. My dad has been a heavy smoker for my over 50 years. The surgeon feared that his lungs wouldn't be able to withstand the trauma that is involved with a surgery as big as a bypass surgery. The day of the surgery my mother and brother and I gathered in the waiting room and stared at the television in the distance. For hours we sat like that, waiting to hear something about my Dad. Finally the surgeon emerged from one of those big locked doors. He looked so serious, I remember thinking he was coming to tell us my Dad had died. For those 3 seconds that it took him to finish walking to us I lived in a world where my Dad had died, I will never forget that feeling. I was wrong, though, he survived the surgery. He was in recovery and although it would be a few days before my Dad was able to be taken off a breathing machine, he would make a complete recovery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been over 6 months since we thought my Dad was going to pass away. I still can't think about the incident for too long without getting overcome with emotion. He had been complaining about chest pain and headaches for days. Honestly, we ignored him because he is very dramatic and he complains about nothing all the time. Finally, he knew something was wrong and took himself to the emergency room. We found out the next day that he had suffered a heart attack sometime in the days prior to his hospitalization. Even worse, after performing some tests, it was determined that he would need surgery. He needed emergency bypass surgery in order to open up the passageways to his heart. In total he would need 5 bypasses to be performed. The surgeon was very direct and blunt with his feelings on the matter, it was likely there would be serious complications. My dad has been a heavy smoker for my over 50 years. The surgeon feared that his lungs wouldn't be able to withstand the trauma that is involved with a surgery as big as a bypass surgery. The day of the surgery my mother and brother and I gathered in the waiting room and stared at the television in the distance. For hours we sat like that, waiting to hear something about my Dad. Finally the surgeon emerged from one of those big locked doors. He looked so serious, I remember thinking he was coming to tell us my Dad had died. For those 3 seconds that it took him to finish walking to us I lived in a world where my Dad had died, I will never forget that feeling. I was wrong, though, he survived the surgery. He was in recovery and although it would be a few days before my Dad was able to be taken off a breathing machine, he would make a complete recovery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He is home now and is doing well. I will never forget the day of his surgery. It is a day that changed my life forever."
+            }
+        ],
+        "request_id": "811ed30a6d5418cc-EWR"
+    }
+}

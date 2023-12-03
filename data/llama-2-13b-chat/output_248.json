@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In August 2019, we dropped off our daughter at her university.  We drove for about six and a half hours to drop her off.  It was a big day for everyone.  I was so happy and excited for her.  Of course, I was a little sad at the same time.  I know I will miss her a whole lot.  Once at the university, we were just so proud.  We saw many parents with their children on campus.  It was a little chaotic, but still well organized.  The upper classmates helped with the moving of the freshmen.  We tried to decorate her dorm room with the stuff that reminded her of home.  My daughter and her new roommate were happy to finally meet each other.  The whole day went by so fast.  When it was time to say goodbye, I tried to put on a happy face.  In the end, I could not help being emotional. What I remembered the most about that day is what my daughter did for us.  She had parting gifts for all of us.  She wrote each of us a letter.  I didn't dare to read it in front of her, because I was already so emotional.  I will never forget this day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In August 2019, we dropped off our daughter at her university.  We drove for about six and a half hours to drop her off.  It was a big day for everyone.  I was so happy and excited for her.  Of course, I was a little sad at the same time.  I know I will miss her a whole lot.  Once at the university, we were just so proud.  We saw many parents with their children on campus.  It was a little chaotic, but still well organized.  The upper classmates helped with the moving of the freshmen.  We tried to decorate her dorm room with the stuff that reminded her of home.  My daughter and her new roommate were happy to finally meet each other.  The whole day went by so fast.  When it was time to say goodbye, I tried to put on a happy face.  In the end, I could not help being emotional. What I remembered the most about that day is what my daughter did for us.  She had parting gifts for all of us.  She wrote each of us a letter.  I didn't dare to read it in front of her, because I was already so emotional.  I will never forget this day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a mix of happiness and sadness, but mostly a day that I will always remember.\n\n"
+            }
+        ],
+        "request_id": "811e8e5209118cc5-EWR"
+    }
+}

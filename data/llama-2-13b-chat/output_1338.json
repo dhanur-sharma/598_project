@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I realized that the experience of getting my car serviced, and an error taking place has made me more concerned about when I get the car checked. I am due for an oil change and check up for the car. This is usually a routine job, but it still makes me a bit nervous. I will be sure to check with mechanic and garage working on it, to be careful with anything else that is serviced. The actual experience was very stressful. I go in to get AC serviced, which was costly. I was so happy to have a working AC, even if the cost was high. The staff was very helpful. However, they were careless in the way they put my car back. I worry about that a lot now. A mistake can cause an accident or worse. I found myself driving away, and the car stalled in the middle of the road. Very scary. Thankfully the traffic was able to adjust to the malfunction of my car, and not accident occurred. I am going to be much more careful and vigilant when I get car work done."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I realized that the experience of getting my car serviced, and an error taking place has made me more concerned about when I get the car checked. I am due for an oil change and check up for the car. This is usually a routine job, but it still makes me a bit nervous. I will be sure to check with mechanic and garage working on it, to be careful with anything else that is serviced. The actual experience was very stressful. I go in to get AC serviced, which was costly. I was so happy to have a working AC, even if the cost was high. The staff was very helpful. However, they were careless in the way they put my car back. I worry about that a lot now. A mistake can cause an accident or worse. I found myself driving away, and the car stalled in the middle of the road. Very scary. Thankfully the traffic was able to adjust to the malfunction of my car, and not accident occurred. I am going to be much more careful and vigilant when I get car work done.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea2dd5e620f98-EWR"
+    }
+}

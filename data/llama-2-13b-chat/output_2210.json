@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The drive felt like forever, especially since the day was so hot. It kept getting hotter and hotter as we made our way south. It was all for a good reason so that helped it be a little bit more bearable. The best part of the drive was all the food stops we made. I love tacos as it is but the ones in Mexico were so much better than any I've had before. I know some people say driving to Mexico isn't worth it and that it's better to fly but being able to see the country through the drive was great. Of course the food on the way was great too. My children enjoyed it as well, although they were complaining any time we weren't stopped to eat. If I had to do it again I would probably choose to fly but I have no regrets about the road trip this time. My husband's parents welcomed us with love when we got there. The home was out in the country. They had a few livestock as well and some chickens. The children loved spending time there. I hope to come visit them again soon. I had a great time visiting Mexico."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The drive felt like forever, especially since the day was so hot. It kept getting hotter and hotter as we made our way south. It was all for a good reason so that helped it be a little bit more bearable. The best part of the drive was all the food stops we made. I love tacos as it is but the ones in Mexico were so much better than any I've had before. I know some people say driving to Mexico isn't worth it and that it's better to fly but being able to see the country through the drive was great. Of course the food on the way was great too. My children enjoyed it as well, although they were complaining any time we weren't stopped to eat. If I had to do it again I would probably choose to fly but I have no regrets about the road trip this time. My husband's parents welcomed us with love when we got there. The home was out in the country. They had a few livestock as well and some chickens. The children loved spending time there. I hope to come visit them again soon. I had a great time visiting Mexico.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb25b282e426a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It happened about a month ago. I was chosen to be thee best man of my brother's wedding and boy was I excited! I had made all the necessary preparations for it . However I somehow managed to misplace the bride's ring! I cant believe it. I felt like I put it down for a second to get me something to eat and it was like it went poof! I was freaking out so bad. but I couldnt let anyone know  about this mishap. I had to find it no matter what. My brother would have never forgave me if he knew this had happened. I then quickly traced all of my steps from decoarating the table to getting food. Thankfully I did manage to find that ring. It had fallen under the table with all the food on it. I was so relieved . After that the rest of the wedding went smooth. My brother or his wife never found out about the  moment I misplaced the ring. Everything was beautiful and i cried."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It happened about a month ago. I was chosen to be thee best man of my brother's wedding and boy was I excited! I had made all the necessary preparations for it . However I somehow managed to misplace the bride's ring! I cant believe it. I felt like I put it down for a second to get me something to eat and it was like it went poof! I was freaking out so bad. but I couldnt let anyone know  about this mishap. I had to find it no matter what. My brother would have never forgave me if he knew this had happened. I then quickly traced all of my steps from decoarating the table to getting food. Thankfully I did manage to find that ring. It had fallen under the table with all the food on it. I was so relieved . After that the rest of the wedding went smooth. My brother or his wife never found out about the  moment I misplaced the ring. Everything was beautiful and i cried.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a very special day. \n\n"
+            }
+        ],
+        "request_id": "811ed4ad6b2c176c-EWR"
+    }
+}

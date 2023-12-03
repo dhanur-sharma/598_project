@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My oldest daughter got accepted into the Disney College pRogram.  We moved her from Pennsylvania to Florida which is about 16 hours away.  She was going to be living in Florida for 7 months.   We decided before we moved her in to do a week vacation and visit Disney World and Clear Water Beach. It was very last minute but we had the best time! We went to all of the parks and had tons of fun.  We ate at new restaurants and some of our old favorite ones.   The weather was very hot and rainy but we still had a great time.   My son loved meeting allt he characters and visiting the Lego Store in Downtown Disney.  We ate at Beast Castle and had one of the best steaks I have ever had.   We did tons of swimming and shopping.   We went to Clearwater and had a great day on the beach.  The water was so clear then we walked all the shops along the Boardwalk.  We ate a a little restaruant with cheap drinks and very good fresh seafood.  We really had a great time bonding as a  family even though we knew that we wer leaving our daughter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My oldest daughter got accepted into the Disney College pRogram.  We moved her from Pennsylvania to Florida which is about 16 hours away.  She was going to be living in Florida for 7 months.   We decided before we moved her in to do a week vacation and visit Disney World and Clear Water Beach. It was very last minute but we had the best time! We went to all of the parks and had tons of fun.  We ate at new restaurants and some of our old favorite ones.   The weather was very hot and rainy but we still had a great time.   My son loved meeting allt he characters and visiting the Lego Store in Downtown Disney.  We ate at Beast Castle and had one of the best steaks I have ever had.   We did tons of swimming and shopping.   We went to Clearwater and had a great day on the beach.  The water was so clear then we walked all the shops along the Boardwalk.  We ate a a little restaruant with cheap drinks and very good fresh seafood.  We really had a great time bonding as a  family even though we knew that we wer leaving our daughter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We made so many memories and can't wait to come back again.\n\n"
+            }
+        ],
+        "request_id": "811f36927d4fc43b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Khloe's tenth birthday was extremely memorable. I had planned for a few weeks to make everything run smoothly. Unfortunately, everything did not run smoothly. The splashpad we were planning to have the party at, the one that the city said would be finished being worked on, was still under construction. I had to move the party to my mother's house, which is very stressful. On the same day of her party, we were trying to adopt a dog. I went to the grocery store to get everything for the party, went to the adoption shelter, and realized I had left my wallet at the store. So, we didn't get to look at any dogs. I started crying, because I felt like I was disappointing the kids. Finally, we got back to my mom's house, took a small nap, and then went to the pool to swim. That was the best part for me. We swam for about an hour before the party even started. I had time to set everything up nicely, as well. From there, things were smooth until Autumn puked up unicorn cake on the sidewalk. I had to clean up at the end of the day and that was a ton of mess, also. In the end, Khloe said it was the best birthday and she loved it. That is all that matters."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Khloe's tenth birthday was extremely memorable. I had planned for a few weeks to make everything run smoothly. Unfortunately, everything did not run smoothly. The splashpad we were planning to have the party at, the one that the city said would be finished being worked on, was still under construction. I had to move the party to my mother's house, which is very stressful. On the same day of her party, we were trying to adopt a dog. I went to the grocery store to get everything for the party, went to the adoption shelter, and realized I had left my wallet at the store. So, we didn't get to look at any dogs. I started crying, because I felt like I was disappointing the kids. Finally, we got back to my mom's house, took a small nap, and then went to the pool to swim. That was the best part for me. We swam for about an hour before the party even started. I had time to set everything up nicely, as well. From there, things were smooth until Autumn puked up unicorn cake on the sidewalk. I had to clean up at the end of the day and that was a ton of mess, also. In the end, Khloe said it was the best birthday and she loved it. That is all that matters.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4291290dc334-EWR"
+    }
+}

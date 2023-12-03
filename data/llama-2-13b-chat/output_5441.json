@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This took place on the eve of the high school graduation of one of my nieces. We had dinner scheduled at a local fine-dining restaurant for the whole family, over ten of us in all, many of whom had traveled from across country. My mother, sister, and her husband were staying with me and my girlfriend, and the larger extended family were staying either at hotels or my brother's house on the north side of the city. About 45 minutes before we were going to leave for dinner I noticed a fairly large storm headed our way on my phone weather app. I didn't think much of it, just that we might get some rain and thunder. I was glad to see the rain because the city could use it.  What we ended up receiving was a torrential downpour, 60 mile per hour gusts of wind, hail, strong lightning, and a power outage throughout much of our city. The storm blasted through the city in less than 1 hour but left in it's wake thousands of downed trees, power lines, and many flooded streets. Personally, at my house, it knocked out power, blew down a wall of planters where we had a herb garden planted, and damaged some branches on a tree in the front yard, but we were luckily spared any larger damage. After the storm had abated we decided to head to the restaurant, not knowing the extent of the damage the city had faced. Driving down to the restaurant we had to navigate downed tree branches, electrical lines, flooding, dead traffic lights, and emergency vehicles. When we made it to the restaurant and they were out of power as well, and wouldn't be able to open until power was restored, and nobody knew when that would happen. Fortunately, cell phone networks still worked, so we started to organize and decide on a new plan. My brother still had electricity up where he lives, so we ended up driving to my brother's house and ordering a bunch of pizza from Dominoes and chowing down on cheap pizza and just partying with the whole family and having a good time. It was a memorable experience and one that, I feel, will stick with me much more vividly than if we just had a nice dinner at the restaurant."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This took place on the eve of the high school graduation of one of my nieces. We had dinner scheduled at a local fine-dining restaurant for the whole family, over ten of us in all, many of whom had traveled from across country. My mother, sister, and her husband were staying with me and my girlfriend, and the larger extended family were staying either at hotels or my brother's house on the north side of the city. About 45 minutes before we were going to leave for dinner I noticed a fairly large storm headed our way on my phone weather app. I didn't think much of it, just that we might get some rain and thunder. I was glad to see the rain because the city could use it.  What we ended up receiving was a torrential downpour, 60 mile per hour gusts of wind, hail, strong lightning, and a power outage throughout much of our city. The storm blasted through the city in less than 1 hour but left in it's wake thousands of downed trees, power lines, and many flooded streets. Personally, at my house, it knocked out power, blew down a wall of planters where we had a herb garden planted, and damaged some branches on a tree in the front yard, but we were luckily spared any larger damage. After the storm had abated we decided to head to the restaurant, not knowing the extent of the damage the city had faced. Driving down to the restaurant we had to navigate downed tree branches, electrical lines, flooding, dead traffic lights, and emergency vehicles. When we made it to the restaurant and they were out of power as well, and wouldn't be able to open until power was restored, and nobody knew when that would happen. Fortunately, cell phone networks still worked, so we started to organize and decide on a new plan. My brother still had electricity up where he lives, so we ended up driving to my brother's house and ordering a bunch of pizza from Dominoes and chowing down on cheap pizza and just partying with the whole family and having a good time. It was a memorable experience and one that, I feel, will stick with me much more vividly than if we just had a nice dinner at the restaurant.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3187fac4c345-EWR"
+    }
+}

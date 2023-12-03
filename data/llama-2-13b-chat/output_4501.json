@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five weeks ago, I got into an argument with a friend. We were at a bar. He was making fun of me. I cursed at him. He cursed back. I decided to go home alone. He had to get an Uber. I didn't talk to him for a few days. I decided to go to the movies alone. I saw a nice blockbuster. It had a lot of action scenes. It had a great plot. Later that week, I decided to be friends again. We both went bowling to celebrate. I barely beat him. It was an intense game but we both had a lot of fun that day. We got beer to drink while we bowled. I almost puked during bowling but glad I didn't. They would of kicked us out for puking."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five weeks ago, I got into an argument with a friend. We were at a bar. He was making fun of me. I cursed at him. He cursed back. I decided to go home alone. He had to get an Uber. I didn't talk to him for a few days. I decided to go to the movies alone. I saw a nice blockbuster. It had a lot of action scenes. It had a great plot. Later that week, I decided to be friends again. We both went bowling to celebrate. I barely beat him. It was an intense game but we both had a lot of fun that day. We got beer to drink while we bowled. I almost puked during bowling but glad I didn't. They would of kicked us out for puking.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We both laughed and had a great time.\n\n"
+            }
+        ],
+        "request_id": "811bd831c82819bb-EWR"
+    }
+}

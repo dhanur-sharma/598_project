@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago, I went on a great road trip with my friend, Dani. I've been out in San Francisco a lot lately to help take care of my 97 year-old grandmother. She lives with my aunt, but she's needed a little extra support lately. Anyways, I had been out there for over a month and was really missing my friends back in Colorado. I had made a joke to my friend Dani that we should rent an RV and drive the Pacific Coast Highway (PCH). There was some other family coming to my aunt's house who I really didn't want to see. Out of the blue, Dani called me about a week before the relatives were flying in. She declared that she had some cancellations and wanted to fly out and do the road trip. She booked her ticket that day. Once she flew in, we picked up the rental van (an actual RV was too expensive to be practical) and we were off! We started in San Francisco with a quick driving tour of the city, then we hit the PCH. We stopped at funky tourist attractions along the way like the Mystery Spot and a tiny Big Foot museum. We didn't plan anything; instead we just found places to stay as we went. If we liked the town, we stayed the night, if not we went to the next one. There were gorgeous views all along the rocky coastline. We took 2 days to drive down to Los Angeles and then we took 2 days to drive back to San Fran. I really enjoyed out time together and appreciated that she was able to come out. Plus the drive was a first for both of us which made it even more special."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago, I went on a great road trip with my friend, Dani. I've been out in San Francisco a lot lately to help take care of my 97 year-old grandmother. She lives with my aunt, but she's needed a little extra support lately. Anyways, I had been out there for over a month and was really missing my friends back in Colorado. I had made a joke to my friend Dani that we should rent an RV and drive the Pacific Coast Highway (PCH). There was some other family coming to my aunt's house who I really didn't want to see. Out of the blue, Dani called me about a week before the relatives were flying in. She declared that she had some cancellations and wanted to fly out and do the road trip. She booked her ticket that day. Once she flew in, we picked up the rental van (an actual RV was too expensive to be practical) and we were off! We started in San Francisco with a quick driving tour of the city, then we hit the PCH. We stopped at funky tourist attractions along the way like the Mystery Spot and a tiny Big Foot museum. We didn't plan anything; instead we just found places to stay as we went. If we liked the town, we stayed the night, if not we went to the next one. There were gorgeous views all along the rocky coastline. We took 2 days to drive down to Los Angeles and then we took 2 days to drive back to San Fran. I really enjoyed out time together and appreciated that she was able to come out. Plus the drive was a first for both of us which made it even more special.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the perfect distraction from the stress of caring for my grandmother and the upcoming family visit. I'm so grateful to have such a great friend like Dani.\n\n"
+            }
+        ],
+        "request_id": "811bdbcf6a2a0c9c-EWR"
+    }
+}

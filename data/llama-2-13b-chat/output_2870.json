@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I love my son so much. His education means the world to me. So, I decided to invest in my son and his future. His current goal is to be an architect. He has many ideas on buildings he would like to design all around the world. I couldn't be more proud! So, 5 months ago I went to my bank and asked for a loan. When they asked me what it was for, I gladly told them for my son for college. They were surprised at the amount, but the banker being a parent himself, he understood what I was doing for him. I don't want to see my kid struggle or be in debt after college. My husband was a little concerned because it would set us back a little for retirement, but thankfully I got him on board. My son was so happy with the news that I was going to invest in his future what he took me out to dinner. What a sweet son I have! Happily, since it's a community college, he won't be moving far away and will still be staying with us. I am happy to have my baby around a little longer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I love my son so much. His education means the world to me. So, I decided to invest in my son and his future. His current goal is to be an architect. He has many ideas on buildings he would like to design all around the world. I couldn't be more proud! So, 5 months ago I went to my bank and asked for a loan. When they asked me what it was for, I gladly told them for my son for college. They were surprised at the amount, but the banker being a parent himself, he understood what I was doing for him. I don't want to see my kid struggle or be in debt after college. My husband was a little concerned because it would set us back a little for retirement, but thankfully I got him on board. My son was so happy with the news that I was going to invest in his future what he took me out to dinner. What a sweet son I have! Happily, since it's a community college, he won't be moving far away and will still be staying with us. I am happy to have my baby around a little longer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My heart is filled with joy to see my son so happy and excited about his future. My son is so grateful for me investing in his education and he knows that he can achieve anything with my support."
+            }
+        ],
+        "request_id": "811ebfc9aa271a28-EWR"
+    }
+}

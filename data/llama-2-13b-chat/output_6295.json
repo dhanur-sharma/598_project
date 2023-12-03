@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, my dog did something amazing. It was super hot that day and he was afraid of the hot road when it was very hot. He saw another dog on the other side of the street. He braved up enough to cross the street. He tried a few times but eventually crossed the road. He had fun with the other dog. The other dog went home. My dog was still on the other side. He was too scared to cross back. I had to carry him back over. I petted the dog after this ordeal. I gave him some water. I gave him some dog food. He was happy because of this. I hope that he will have a long and happy life as long as we both live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, my dog did something amazing. It was super hot that day and he was afraid of the hot road when it was very hot. He saw another dog on the other side of the street. He braved up enough to cross the street. He tried a few times but eventually crossed the road. He had fun with the other dog. The other dog went home. My dog was still on the other side. He was too scared to cross back. I had to carry him back over. I petted the dog after this ordeal. I gave him some water. I gave him some dog food. He was happy because of this. I hope that he will have a long and happy life as long as we both live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f42950d265e82-EWR"
+    }
+}

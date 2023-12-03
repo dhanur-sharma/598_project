@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: it was 4 months ago when i had my gallbladder removed. i remember driving with my mother to the hospital 15 minutes away and the pain in my side was searing. it was easily the strongest pain i have ever felt in my life. my mother was worried for my health, but luckily it wasn't as serious as we thought. as soon as i got to the hospital they took me to the emergency room and admitted me as soon as possible. the best memory i have of the incident was them giving me pain meds to dull the pain. the soothing feeling of the medication washed over me like a cool ocean wave removing the pain instantly. it was like i walked into the hospital in bright red pain and as soon as the medication hit i was swept up in deep blue relief. my mother was by my side the whole time and was a constant comfort to me. i am so thankful for her. i am thankful to the hospital staff as well. they treated me with the upmost care and respect. i was able to leave the next day and returned home safely and everything was back to normal. i will never forget that searing pain and the relief of the medicine though. that memory will stick with me for the rest of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: it was 4 months ago when i had my gallbladder removed. i remember driving with my mother to the hospital 15 minutes away and the pain in my side was searing. it was easily the strongest pain i have ever felt in my life. my mother was worried for my health, but luckily it wasn't as serious as we thought. as soon as i got to the hospital they took me to the emergency room and admitted me as soon as possible. the best memory i have of the incident was them giving me pain meds to dull the pain. the soothing feeling of the medication washed over me like a cool ocean wave removing the pain instantly. it was like i walked into the hospital in bright red pain and as soon as the medication hit i was swept up in deep blue relief. my mother was by my side the whole time and was a constant comfort to me. i am so thankful for her. i am thankful to the hospital staff as well. they treated me with the upmost care and respect. i was able to leave the next day and returned home safely and everything was back to normal. i will never forget that searing pain and the relief of the medicine though. that memory will stick with me for the rest of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb4c1d8eec32b-EWR"
+    }
+}

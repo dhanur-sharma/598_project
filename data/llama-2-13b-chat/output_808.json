@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was flying home from Denver with my mother, brother, and partner. I woke up the morning of the flight to a text stating that my flight was canceled. We decided to head to the airport anyway. At the airport, the line for my airline was ridiculously long and we needed to get home so my mom and brother could get to work. I was also just really tired of being with my family. I had to frantically search for alternatives online. I ended up purchasing extremely expensive plane tickets to get us all home. I had to put the plane tickets on my credit card because I didn't think my mom had enough credit on any of her cards. I was frustrated that I had to take control of everything. I had already done all of the planning for the trip. We then had to wait around at the airport for about 7 hours before the new flight left. Upon coming home, I had to fight with the airline over several calls regarding my refund. I was angry because the airline gave us only flight credit. None of us have/had the money to take another trip thus, the credit was useless. The replacement tickets ended up costing about 2.5k all together so I really wanted to get refunded for the full amount. After haggling with the airline over several calls, I finally got the refund I wanted."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was flying home from Denver with my mother, brother, and partner. I woke up the morning of the flight to a text stating that my flight was canceled. We decided to head to the airport anyway. At the airport, the line for my airline was ridiculously long and we needed to get home so my mom and brother could get to work. I was also just really tired of being with my family. I had to frantically search for alternatives online. I ended up purchasing extremely expensive plane tickets to get us all home. I had to put the plane tickets on my credit card because I didn't think my mom had enough credit on any of her cards. I was frustrated that I had to take control of everything. I had already done all of the planning for the trip. We then had to wait around at the airport for about 7 hours before the new flight left. Upon coming home, I had to fight with the airline over several calls regarding my refund. I was angry because the airline gave us only flight credit. None of us have/had the money to take another trip thus, the credit was useless. The replacement tickets ended up costing about 2.5k all together so I really wanted to get refunded for the full amount. After haggling with the airline over several calls, I finally got the refund I wanted.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt relieved that the whole ordeal was over and that I could stop thinking about it.\n\n"
+            }
+        ],
+        "request_id": "811e98a74868439a-EWR"
+    }
+}

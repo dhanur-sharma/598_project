@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A recent and exiting event in my life is when I was accepted in to graduate school. I received my undergraduate degree about 27 years ago. After completing my undergraduate degree, I decided to have a family. I had two children. I had my son first. After he turned three years old we decided to have another child. I had a daughter within a few more years. After rearing my son and daughter for all those years, I decided to go back to school.  It had been a lot of years since I had been in college. I was well out of my forties and into my fifties and decided to get my graduate degree. I applied and was accepted. I am so excited to be  in graduate school. I am loving every many of it.  My children are all grown up. My son graduated college. My daughter also graduated college also. They are both adults. They have their own lives and do not need me any more.  I have learned so much with my graduate studies and can not wait to start my new career."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A recent and exiting event in my life is when I was accepted in to graduate school. I received my undergraduate degree about 27 years ago. After completing my undergraduate degree, I decided to have a family. I had two children. I had my son first. After he turned three years old we decided to have another child. I had a daughter within a few more years. After rearing my son and daughter for all those years, I decided to go back to school.  It had been a lot of years since I had been in college. I was well out of my forties and into my fifties and decided to get my graduate degree. I applied and was accepted. I am so excited to be  in graduate school. I am loving every many of it.  My children are all grown up. My son graduated college. My daughter also graduated college also. They are both adults. They have their own lives and do not need me any more.  I have learned so much with my graduate studies and can not wait to start my new career.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd4c54cf4425c-EWR"
+    }
+}

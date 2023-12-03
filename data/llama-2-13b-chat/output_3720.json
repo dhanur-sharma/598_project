@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to Florida with family and my girlfriend of 13 years. It was a wonderful trip. One day my dad asked if I would want to go deep sea fishing with him and my brother in law. I was very nervous because I had never been and the thought made me unsure. I talked it over with my girlfriend and decided to wind up going on the trip. We had to wake up early around 5 a.m. that day to make it to the harbor. When we showed up it was very crowded as we joined the group to get onto the boat and begin our journey. We left the harbor about 7 a.m. and traveled for almost 2 hours to reach the open ocean. The deck hands told us how to use the rods and how to bait our hooks with squid. I hoped to catch a really big fish today and dropped my line. Within a couple seconds I was already reeling up my first fish. It was a Vermillion Snapper and it was a bright red color to it's scales. We were keeping them in a bucket to make our journey back to shore. We fished for 2 hours and I managed to catch 5 fish but only was able to keep 2 because of the length limits. Once we made it back to shore we went back to our rental house while a family friend cut up the fish and began to fry them. They were the best fish I've had and to know we caught them was exciting. It was a perfect day to a very good vacation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to Florida with family and my girlfriend of 13 years. It was a wonderful trip. One day my dad asked if I would want to go deep sea fishing with him and my brother in law. I was very nervous because I had never been and the thought made me unsure. I talked it over with my girlfriend and decided to wind up going on the trip. We had to wake up early around 5 a.m. that day to make it to the harbor. When we showed up it was very crowded as we joined the group to get onto the boat and begin our journey. We left the harbor about 7 a.m. and traveled for almost 2 hours to reach the open ocean. The deck hands told us how to use the rods and how to bait our hooks with squid. I hoped to catch a really big fish today and dropped my line. Within a couple seconds I was already reeling up my first fish. It was a Vermillion Snapper and it was a bright red color to it's scales. We were keeping them in a bucket to make our journey back to shore. We fished for 2 hours and I managed to catch 5 fish but only was able to keep 2 because of the length limits. Once we made it back to shore we went back to our rental house while a family friend cut up the fish and began to fry them. They were the best fish I've had and to know we caught them was exciting. It was a perfect day to a very good vacation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecf769e75421d-EWR"
+    }
+}

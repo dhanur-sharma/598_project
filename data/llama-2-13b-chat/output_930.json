@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife, kids and I took a vacation to upstate Maine. We spent a week at a family lake house on the Canadian border. We packed bikes and clothes, and drove the nearly twelve hours to Van Buren, and arrived late at night. We had a few good weather days, and the kids spent every minute they could in the lake. They particularly loved going out on the JetSki, and especially getting to drive it! One of our kids accidentally got stuck on the wrong side of a turnstile at the border crossing, which made for a very entertaining story. We were very pleased to learn that the cabin has been improved since we were last there. Our family in Maine had installed cable TV, internet, and even a working shower! This made for a much more comfortable stay, as we were able to shower daily vs only when we went into town. We also had more entertainment options available, on the days that weren't quite warm and sunny enough to spend on the water. We did our normal activities up there as well. We visited my wife's family, and had bonfires and smores. We ate at the Tasty Foods, as is tradition. I had fun driving my new truck on the dirt back roads up there, although the truck could use a wash now! It also got a little dinged up, as I backed into a tree with the tailgate down. On our way back, we managed to stop at Arby's (a family favorite). We drove back at night, leaving Van Buren at around 7pm, and arriving home at 4:30 am the next morning. I was exhausted!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife, kids and I took a vacation to upstate Maine. We spent a week at a family lake house on the Canadian border. We packed bikes and clothes, and drove the nearly twelve hours to Van Buren, and arrived late at night. We had a few good weather days, and the kids spent every minute they could in the lake. They particularly loved going out on the JetSki, and especially getting to drive it! One of our kids accidentally got stuck on the wrong side of a turnstile at the border crossing, which made for a very entertaining story. We were very pleased to learn that the cabin has been improved since we were last there. Our family in Maine had installed cable TV, internet, and even a working shower! This made for a much more comfortable stay, as we were able to shower daily vs only when we went into town. We also had more entertainment options available, on the days that weren't quite warm and sunny enough to spend on the water. We did our normal activities up there as well. We visited my wife's family, and had bonfires and smores. We ate at the Tasty Foods, as is tradition. I had fun driving my new truck on the dirt back roads up there, although the truck could use a wash now! It also got a little dinged up, as I backed into a tree with the tailgate down. On our way back, we managed to stop at Arby's (a family favorite). We drove back at night, leaving Van Buren at around 7pm, and arriving home at 4:30 am the next morning. I was exhausted!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Despite the long drive, we had a great time at the lake house, and I'm already looking forward to our next trip."
+            }
+        ],
+        "request_id": "811e9ab4fce243a3-EWR"
+    }
+}

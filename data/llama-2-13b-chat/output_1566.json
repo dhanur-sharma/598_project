@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met this person on facebook about a year ago. He always makes me laugh even when I'm feeling down. About a two months ago he came to my home town to meet for the first time. I don't know if it is possible , but for me it was love at first sight. He has a smile that just melts my heart. Since then things have gotten better and better between us. He is considering moving closer to me so we can have more time together. This weekend he has hinted at a special dinner. He has been very mysterious about it. My nerves are on edge. What if he proposes? O my gosh I'm blushing writing this. I plan on buying a new dress for this weekend. I want to look my best. I am so much in love and I've never felt so loved before till now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met this person on facebook about a year ago. He always makes me laugh even when I'm feeling down. About a two months ago he came to my home town to meet for the first time. I don't know if it is possible , but for me it was love at first sight. He has a smile that just melts my heart. Since then things have gotten better and better between us. He is considering moving closer to me so we can have more time together. This weekend he has hinted at a special dinner. He has been very mysterious about it. My nerves are on edge. What if he proposes? O my gosh I'm blushing writing this. I plan on buying a new dress for this weekend. I want to look my best. I am so much in love and I've never felt so loved before till now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea6fb991117f5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 7/26/19Dear diary,Today was a tough day. I took my dad to Veterans Hospital for his yearly check-up and the doctors were very concerned because his blood pressure reached up to 195 and the doctors went into full panic mode. This was one of the numbest days I have experienced in a long time. The doctors rushed and gave him medicine to get his blood pressure down. The doctor told me that he could of had a stroke or a heart attack. I was shocked. Even though I know my dad is 77, he is very active and in good health.  He hates going to the doctors and he truly would not have went unless he had to. I feel like I have to be more responsible for his health now. He looks like he is 50, but the reality is he's not. I just can't imagine loosing him. I have to dedicate myself to making sure he's okay. I know its hard but I have to do it. I am still worried about him. The doctors were great and compassionate. I'm glad we went to the doctor today, his elevated high blood pressure could of lead to something very serious."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 7/26/19Dear diary,Today was a tough day. I took my dad to Veterans Hospital for his yearly check-up and the doctors were very concerned because his blood pressure reached up to 195 and the doctors went into full panic mode. This was one of the numbest days I have experienced in a long time. The doctors rushed and gave him medicine to get his blood pressure down. The doctor told me that he could of had a stroke or a heart attack. I was shocked. Even though I know my dad is 77, he is very active and in good health.  He hates going to the doctors and he truly would not have went unless he had to. I feel like I have to be more responsible for his health now. He looks like he is 50, but the reality is he's not. I just can't imagine loosing him. I have to dedicate myself to making sure he's okay. I know its hard but I have to do it. I am still worried about him. The doctors were great and compassionate. I'm glad we went to the doctor today, his elevated high blood pressure could of lead to something very serious.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know I have to do a better job taking care of him. \n\n"
+            }
+        ],
+        "request_id": "811be58edb502375-EWR"
+    }
+}

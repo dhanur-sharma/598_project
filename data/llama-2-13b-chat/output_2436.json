@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We got to witness collective soul on their 25th anniversary as a brand on tour near our hometown. There were great drinks and snacks. The best part was purchasing lawn tickets but ending up about 7-8 rows. The stage getting to see the band up close and personal. We are plane to a trip to my home town. But there was an some of our close relation anniversary happen. Then we plan a lot for that. And there are lot of snacks available. We planed to enjoy the day. But there are some kind of disturbance happen. Then we got tickets on lawn. But there also problem happen. That was occupy by the band and others. Little bit disappointment for our friends. Then we arrange some other arrangements. The anniversary going well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We got to witness collective soul on their 25th anniversary as a brand on tour near our hometown. There were great drinks and snacks. The best part was purchasing lawn tickets but ending up about 7-8 rows. The stage getting to see the band up close and personal. We are plane to a trip to my home town. But there was an some of our close relation anniversary happen. Then we plan a lot for that. And there are lot of snacks available. We planed to enjoy the day. But there are some kind of disturbance happen. Then we got tickets on lawn. But there also problem happen. That was occupy by the band and others. Little bit disappointment for our friends. Then we arrange some other arrangements. The anniversary going well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And we are enjoying it. And we are happy with the arrangements.\n\n"
+            }
+        ],
+        "request_id": "811eb6934f5615c7-EWR"
+    }
+}

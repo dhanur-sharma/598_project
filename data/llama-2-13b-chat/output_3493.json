@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago I watched my mother pass away from cancer. She was a very caring person who also had her own demons. She always wanted to be a part of our lives but she was coping in the wrong way which prevented us from being together. The last few year she was alive we became close and finally developed a bond. When she found out she had cancer we all laid around the hospital bed and cried. There wasn't anything the doctors could do and she only lived 30 days after diagnosis. I was so heart broken that this happened to my brother and I. We buried her under her favorite shade tree on our farm. The day she passed away, I had noticed her breaths were coming very far apart. We rushed her to the hospital and she was fighting to get out of the bed. I suppose she knew what was going to happen and was trying to out run death. Everyone came by to say goodbye at the hospital. The next day around noon, she took her last breaths with us by her side. She had a peaceful and pain free death. We helped clean her body and prepared her with the coroner. He took her body to the local funeral home in our hometown. She lived to be 46 year old and was survived by her two children."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago I watched my mother pass away from cancer. She was a very caring person who also had her own demons. She always wanted to be a part of our lives but she was coping in the wrong way which prevented us from being together. The last few year she was alive we became close and finally developed a bond. When she found out she had cancer we all laid around the hospital bed and cried. There wasn't anything the doctors could do and she only lived 30 days after diagnosis. I was so heart broken that this happened to my brother and I. We buried her under her favorite shade tree on our farm. The day she passed away, I had noticed her breaths were coming very far apart. We rushed her to the hospital and she was fighting to get out of the bed. I suppose she knew what was going to happen and was trying to out run death. Everyone came by to say goodbye at the hospital. The next day around noon, she took her last breaths with us by her side. She had a peaceful and pain free death. We helped clean her body and prepared her with the coroner. He took her body to the local funeral home in our hometown. She lived to be 46 year old and was survived by her two children.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The funeral was the next week and I was a wreck. I still am today.\n\n"
+            }
+        ],
+        "request_id": "811eca569cef5e61-EWR"
+    }
+}

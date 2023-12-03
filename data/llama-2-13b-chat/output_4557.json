@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I got called for jury duty. At first I didn't want to go but when I learned that I could go to jail for not going I forced myself to go. The event was dull and terribly boring. I had to wait for hours on end doing nothing but watch the orientation, and waiting for no reason. I spent most of the time on my phone, messaging my friends, and telling them how boring it was there. After a whole 2 hour of waiting, they starting calling different people out. I wasn't called, so I guess I didn't have to go on actual juror duty. That was true, and in the end they told us that they had enough people and the rest of us can go home. Well, at least we got paid for our time. That's that I guess. So I went home, and after 2 weeks they sent me a 20 dollar check. In the end I forgot to cash it in. I guess I just did jury duty for free, didn't I? Oh, well, my time was wasted. Not like that's anything new. But at least I know what's it's like now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I got called for jury duty. At first I didn't want to go but when I learned that I could go to jail for not going I forced myself to go. The event was dull and terribly boring. I had to wait for hours on end doing nothing but watch the orientation, and waiting for no reason. I spent most of the time on my phone, messaging my friends, and telling them how boring it was there. After a whole 2 hour of waiting, they starting calling different people out. I wasn't called, so I guess I didn't have to go on actual juror duty. That was true, and in the end they told us that they had enough people and the rest of us can go home. Well, at least we got paid for our time. That's that I guess. So I went home, and after 2 weeks they sent me a 20 dollar check. In the end I forgot to cash it in. I guess I just did jury duty for free, didn't I? Oh, well, my time was wasted. Not like that's anything new. But at least I know what's it's like now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm done with that.\n\n"
+            }
+        ],
+        "request_id": "811bd93bda83c354-EWR"
+    }
+}

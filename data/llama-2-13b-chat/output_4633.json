@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago, I was taking a walk in the neighborhood with my dog. We were on our usual route when I noticed my dog kind of freeze up and staring at something. I thought it was a squirrel or skunk, so I paid it no mind. But then I saw this puppy come walking out right in front of us. I know the neighborhood well and have never seen anyone walking this puppy, so I assumed it was a stray. Later on, though, I saw signs up about it, so I called the people up to take it to them. Come to find out, they were using the poor thing for breeding. Puppies can be very expensive, so these people were making upwards of 400 bucks a pop off this almost adult dog. The weird thing is how open they were about it and how they didn't see anything wrong with it. They weren't licensed breeders, they don't know how to take care of dogs like this. I had to do something about it. I called up the humane society and a couple animal lovers to see if they knew what I should do. I was told it wasn't even illegal, which was a shock. But one of my friends ended up pursuing it further and asked for my help. We ended up getting the puppies they were breeding taken away from them and they found homes soon after after being in a rescue for about 2 weeks."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago, I was taking a walk in the neighborhood with my dog. We were on our usual route when I noticed my dog kind of freeze up and staring at something. I thought it was a squirrel or skunk, so I paid it no mind. But then I saw this puppy come walking out right in front of us. I know the neighborhood well and have never seen anyone walking this puppy, so I assumed it was a stray. Later on, though, I saw signs up about it, so I called the people up to take it to them. Come to find out, they were using the poor thing for breeding. Puppies can be very expensive, so these people were making upwards of 400 bucks a pop off this almost adult dog. The weird thing is how open they were about it and how they didn't see anything wrong with it. They weren't licensed breeders, they don't know how to take care of dogs like this. I had to do something about it. I called up the humane society and a couple animal lovers to see if they knew what I should do. I was told it wasn't even illegal, which was a shock. But one of my friends ended up pursuing it further and asked for my help. We ended up getting the puppies they were breeding taken away from them and they found homes soon after after being in a rescue for about 2 weeks.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The worst part is that the owners just shrugged it off and went on about their day like nothing happened. The puppies were so cute and innocent and they were being treated like they were nothing more than objects to make money. I am so glad that I was able to help, but it's just sad that this kind of thing happens."
+            }
+        ],
+        "request_id": "811bdaa74f2a43c3-EWR"
+    }
+}

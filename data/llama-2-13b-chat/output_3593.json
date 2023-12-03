@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, I drove my kids to college and dropped them off. I was both super excited and very scared. What if they need me and I am not there? So many what if's scenarios. My mind was flooded with emotions. I didn't cry the whole trip there though. I cried on the way home. It only took a few minutes before the tears started coming. They were so excited to go though. They had smiles on their faces the whole ride. My daughter didn't even pick up her phone to talk to her friends. She was so excited to go, she was busy talking to me and her brother the whole trip. She was telling us about what she was going to do and whom she was going to do it with. It was so much fun listening to her. Her brother was smiling along with her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, I drove my kids to college and dropped them off. I was both super excited and very scared. What if they need me and I am not there? So many what if's scenarios. My mind was flooded with emotions. I didn't cry the whole trip there though. I cried on the way home. It only took a few minutes before the tears started coming. They were so excited to go though. They had smiles on their faces the whole ride. My daughter didn't even pick up her phone to talk to her friends. She was so excited to go, she was busy talking to me and her brother the whole trip. She was telling us about what she was going to do and whom she was going to do it with. It was so much fun listening to her. Her brother was smiling along with her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so happy to see them so happy. It was a great trip and I was so happy to have them with me. I am so proud of them for going off to college. I know they are going to do great things. I am just going to miss them so much. I am going to try my best to stay strong and not cry too much. It is only two weeks. I will see them again soon."
+            }
+        ],
+        "request_id": "811ecc8acc603354-EWR"
+    }
+}

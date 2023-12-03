@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've always been a casual lottery user. I think there is a certain appeal. It's a rush of knowing earnings are possible. It's a risk but with high reward potential. But that's probably how they get you. A few months back I signed up for a lottery ticket. I bought it, and didn't really give it a second thought until weeks later. As it turns out, I had actually pulled a ticket that was worth a lot of money. So much so that it helps with bills. It was something I certainly didn't expect. I think it's best to approach it casually. Those who are avid goers risk a lot. It's not fair, but that's inherent to the game. It's fun, but high risk. I just hope that fortune strikes twice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've always been a casual lottery user. I think there is a certain appeal. It's a rush of knowing earnings are possible. It's a risk but with high reward potential. But that's probably how they get you. A few months back I signed up for a lottery ticket. I bought it, and didn't really give it a second thought until weeks later. As it turns out, I had actually pulled a ticket that was worth a lot of money. So much so that it helps with bills. It was something I certainly didn't expect. I think it's best to approach it casually. Those who are avid goers risk a lot. It's not fair, but that's inherent to the game. It's fun, but high risk. I just hope that fortune strikes twice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed4719cae4381-EWR"
+    }
+}

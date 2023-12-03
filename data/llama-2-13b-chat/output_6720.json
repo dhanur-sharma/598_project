@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend called me in the morning. He said \"Hey dude, you want to go climbing today? I love rock climbing. It's one of my favorite hobbies. So, of course I told him that I'd love to. He swung by my place to pick me up. There wasn't a lot of parking where we were going, so the fewer cars the better.  Once we got there we saw a few of our other friends and hiked to the rock with them. It was enormous and towering over us. I made the first climb because I was familiar with the climb. It felt good, but the rock was a bit slippery from the rain the night before. Our other friend went next. He was about halfway up and lost his grip. He fell about 20 ft and missed the pads we had laid out for protection. We heard a snap and knew that his leg broke. We made a splint for his leg and all worked together to carry him out. It felt like it took hours, but was only maybe 15 minutes. We got him back to the car and drove to the hospital. They set his leg and put a cast on him. He wasn't allowed to climb for quite some time, but overall he was okay."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend called me in the morning. He said \"Hey dude, you want to go climbing today? I love rock climbing. It's one of my favorite hobbies. So, of course I told him that I'd love to. He swung by my place to pick me up. There wasn't a lot of parking where we were going, so the fewer cars the better.  Once we got there we saw a few of our other friends and hiked to the rock with them. It was enormous and towering over us. I made the first climb because I was familiar with the climb. It felt good, but the rock was a bit slippery from the rain the night before. Our other friend went next. He was about halfway up and lost his grip. He fell about 20 ft and missed the pads we had laid out for protection. We heard a snap and knew that his leg broke. We made a splint for his leg and all worked together to carry him out. It felt like it took hours, but was only maybe 15 minutes. We got him back to the car and drove to the hospital. They set his leg and put a cast on him. He wasn't allowed to climb for quite some time, but overall he was okay.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all learned a valuable lesson about safety that day.\"\n\n"
+            }
+        ],
+        "request_id": "811f4b5a3c2e0f68-EWR"
+    }
+}

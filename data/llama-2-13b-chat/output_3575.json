@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband turned 40 in July. We went to New York to visit his parents and from there we took a train into the city for a few days to celebrate. The birthday outing was great overall. It was so hot that we could barely walk anywhere, however. We went to Governor's Island and planned to spend the day there. We ended up leaving after an hour because we couldn't stand the heat. That night we went to dinner at Keene's Steakhouse and had an excellent time. We then went to a rooftop bar where you could see the Empire State Building. On the walk back to the hotel, BOTH of our shoes came apart despite having no indication they were wearing out. It was very strange. When we got back to the hotel we fell asleep. We woke up the next day and went back to his parent's house to see our children. His parents had a birthday party planned. We ate ribs and pasta salad. The cake was an ice cream cake and everyone loved it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband turned 40 in July. We went to New York to visit his parents and from there we took a train into the city for a few days to celebrate. The birthday outing was great overall. It was so hot that we could barely walk anywhere, however. We went to Governor's Island and planned to spend the day there. We ended up leaving after an hour because we couldn't stand the heat. That night we went to dinner at Keene's Steakhouse and had an excellent time. We then went to a rooftop bar where you could see the Empire State Building. On the walk back to the hotel, BOTH of our shoes came apart despite having no indication they were wearing out. It was very strange. When we got back to the hotel we fell asleep. We woke up the next day and went back to his parent's house to see our children. His parents had a birthday party planned. We ate ribs and pasta salad. The cake was an ice cream cake and everyone loved it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great trip overall, despite the heat and the shoe mishap.\n\n"
+            }
+        ],
+        "request_id": "811ecc416f584244-EWR"
+    }
+}

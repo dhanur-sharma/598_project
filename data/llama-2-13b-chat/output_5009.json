@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went hiking on a trail that I have hiked many times before. It was a beautiful day and I was incredibly excited. I drove about three hours to the hiking trail. I do not live in the mountains so I have to drive out of town to go hiking. I love hiking so I do this quite often even though I have to drive so far. When I got there I loaded my gear up into my backpack and made sure I had everything. I began the hike and felt pretty good about the task ahead. I had hiked this trail many times so I was not expecting much difficulty. However, I quickly found myself struggling to catch my breath. I'm not sure why, but on that particular day I was having a hard time making it to the top. The hike was ultimately a tough battle, but when I made it to the top the views were breathtaking. I learned that day that sometimes the mountain does not simply hand you a win. Sometimes victories must be earned through hard work and determination. I left the hike that day feeling incredibly accomplished. I have since been back to hike that trail at least one other time. I always remember that particularly tough day on the trail when I'm there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went hiking on a trail that I have hiked many times before. It was a beautiful day and I was incredibly excited. I drove about three hours to the hiking trail. I do not live in the mountains so I have to drive out of town to go hiking. I love hiking so I do this quite often even though I have to drive so far. When I got there I loaded my gear up into my backpack and made sure I had everything. I began the hike and felt pretty good about the task ahead. I had hiked this trail many times so I was not expecting much difficulty. However, I quickly found myself struggling to catch my breath. I'm not sure why, but on that particular day I was having a hard time making it to the top. The hike was ultimately a tough battle, but when I made it to the top the views were breathtaking. I learned that day that sometimes the mountain does not simply hand you a win. Sometimes victories must be earned through hard work and determination. I left the hike that day feeling incredibly accomplished. I have since been back to hike that trail at least one other time. I always remember that particularly tough day on the trail when I'm there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be295dc0b5e6c-EWR"
+    }
+}

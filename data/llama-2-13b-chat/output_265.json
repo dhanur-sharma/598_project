@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event is my younger brother's wedding. This event took place April. It was a great and memorable event for every member of my family. One of the reasons why it was memorable was because it was also a family reunion. All members of my birth family have not been in the same place together in over four years. All of us coming together for my brother's wedding was truly magnificent. When I traveled back to my family birth family house in anticipation of the wedding, I nearly cried. I had missed a lot. The day of the wedding was also fantastic. I was able to meet other extended family members. I was also able to meet childhood friends and family friends.  We had a lot of catching up to do. I was surprised when I found out that two of my childhood friends were seeing each other and they already had a kid together. It was a really crazy moment for me. It made me to reminisce all the time I was with them as a kid. In all honesty I never expected them together, but I believed they grew to love each other. The wedding ceremony was generally great for me and everybody involved."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event is my younger brother's wedding. This event took place April. It was a great and memorable event for every member of my family. One of the reasons why it was memorable was because it was also a family reunion. All members of my birth family have not been in the same place together in over four years. All of us coming together for my brother's wedding was truly magnificent. When I traveled back to my family birth family house in anticipation of the wedding, I nearly cried. I had missed a lot. The day of the wedding was also fantastic. I was able to meet other extended family members. I was also able to meet childhood friends and family friends.  We had a lot of catching up to do. I was surprised when I found out that two of my childhood friends were seeing each other and they already had a kid together. It was a really crazy moment for me. It made me to reminisce all the time I was with them as a kid. In all honesty I never expected them together, but I believed they grew to love each other. The wedding ceremony was generally great for me and everybody involved.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The food was also delicious. I had a great time with my family and old friends. I'm really happy that I was able to be a part of this wedding.\n\n"
+            }
+        ],
+        "request_id": "811e8eb98b8178d0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Six months ago, my wife and I found out she was pregnant with twins! Two baby girls! After a few worrisome doctor visits, we found out one baby was absorbed by the other. While we were very saddened by the loss of one baby, we were ecstatic about the healthy baby girl my wife was carrying. While my wife was nesting in preparation for parenthood, I was reading every baby book I could find! By the time the baby, Ella, was born, we felt we were prepared but we couldn't have been more wrong. No amount of reading can prepare you for the immediate and immense love you feel when you first hold your child. I knew from the moment I looked at those warm brown eyes that I would lay down my life for this child. There is no greater joy than seeing something so perfect and knowing that you are the reason it exists. The first month was the hardest. Adjusting to a new baby in the house, and her sleep/wake schedule while maintaining our own routines was very taxing on our relationship. I'll admit, I could have tried harder. Unfortunately, that's the thing about hindsight, only it is 20/20. While we both love our child very much, and I will always cherish the good times, and bad throughout my wife's pregnancy; we couldn't make our marriage work. We have been separated for three weeks now. I want my family back, but I fear that ship has sank."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Six months ago, my wife and I found out she was pregnant with twins! Two baby girls! After a few worrisome doctor visits, we found out one baby was absorbed by the other. While we were very saddened by the loss of one baby, we were ecstatic about the healthy baby girl my wife was carrying. While my wife was nesting in preparation for parenthood, I was reading every baby book I could find! By the time the baby, Ella, was born, we felt we were prepared but we couldn't have been more wrong. No amount of reading can prepare you for the immediate and immense love you feel when you first hold your child. I knew from the moment I looked at those warm brown eyes that I would lay down my life for this child. There is no greater joy than seeing something so perfect and knowing that you are the reason it exists. The first month was the hardest. Adjusting to a new baby in the house, and her sleep/wake schedule while maintaining our own routines was very taxing on our relationship. I'll admit, I could have tried harder. Unfortunately, that's the thing about hindsight, only it is 20/20. While we both love our child very much, and I will always cherish the good times, and bad throughout my wife's pregnancy; we couldn't make our marriage work. We have been separated for three weeks now. I want my family back, but I fear that ship has sank.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The pain of losing my wife, and the love of my life, is something I will never recover from. I am left with my daughter Ella, and while I am happy to be her father, I am lost without my wife. My heart is broken, and I am unsure of what the future holds."
+            }
+        ],
+        "request_id": "811e89e3fa048cc5-EWR"
+    }
+}

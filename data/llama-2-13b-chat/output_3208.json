@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was over 5 moths ago. I had a night out alone and i decided to see a movie. I went to the cinema, and on getting to the cinema. I entered, sat on the third row on the second column at the same moment i saw my longtime friend from my high school days. I called him by a funny name that we used to call him back then in high school. He looked back and i waved at him. He saw me and smiled, we left the cinema hall and hugged.  He said if i don't mind we should go to a restaurant and eat, i said i don't mind at all. He was looking very good, confidence and nice. To my surprise, I saw that he now drives a lamboghini aventador. We ate and we drank. He asked me about work, family and life. I told him i work in a firm, married with kids. I asked him what he does for a living and he said he's now a partner at a big engineering firm. He said why don't i come and work in his firm that he'll triple my salary. I laughed and i replied seriously are you joking?. He said i should mail him with my resume and we laughed and departed. i got home and sent him my resume. The second day he called me to tell me that he has reviewed it and his company will be honored to having an employee like me. I was delighted by this news. He called me later in the day that i should come to the firm the next week. I got to the company, and i introduced myself to the reception. He came down and gave me a tour of the company and where i'll be working."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was over 5 moths ago. I had a night out alone and i decided to see a movie. I went to the cinema, and on getting to the cinema. I entered, sat on the third row on the second column at the same moment i saw my longtime friend from my high school days. I called him by a funny name that we used to call him back then in high school. He looked back and i waved at him. He saw me and smiled, we left the cinema hall and hugged.  He said if i don't mind we should go to a restaurant and eat, i said i don't mind at all. He was looking very good, confidence and nice. To my surprise, I saw that he now drives a lamboghini aventador. We ate and we drank. He asked me about work, family and life. I told him i work in a firm, married with kids. I asked him what he does for a living and he said he's now a partner at a big engineering firm. He said why don't i come and work in his firm that he'll triple my salary. I laughed and i replied seriously are you joking?. He said i should mail him with my resume and we laughed and departed. i got home and sent him my resume. The second day he called me to tell me that he has reviewed it and his company will be honored to having an employee like me. I was delighted by this news. He called me later in the day that i should come to the firm the next week. I got to the company, and i introduced myself to the reception. He came down and gave me a tour of the company and where i'll be working.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He gave me a nice office with a great view of the city. I met the team and they all were very welcoming. He told me that my first task is to come up with a new product for the company. I was a bit nervous but excited. He said he'll be my mentor and he'll be there to guide me. I'm now working in this company and i'm doing great. I'm grateful for this opportunity and i'm looking forward to a great future here."
+            }
+        ],
+        "request_id": "811ec646acce1a34-EWR"
+    }
+}

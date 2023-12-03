@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter, Khloe, had her tenth birthday in July. She was so excited to have a pool party with her friends and family. I had spent weeks planning it out for her, so that everything would run smoothly. At the last minute, I decided we should go adopt a dog on the same day. So, we went to the store and got all of her birthday supplies and cake. After that, we drove to the animal shelter. When I got there, I realized I had left my wallet at the store. I couldn't adopt a dog without my ID. So, we left disappointed. I ended up feeling frustrated about letting the kids down about the dog and cried. My mom got mad at me for crying. It was a mess. The party ended up being fun. Autumn had so much fun swimming and eating cake that she ended up puking on the side of the pool. She ended up feeling better after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter, Khloe, had her tenth birthday in July. She was so excited to have a pool party with her friends and family. I had spent weeks planning it out for her, so that everything would run smoothly. At the last minute, I decided we should go adopt a dog on the same day. So, we went to the store and got all of her birthday supplies and cake. After that, we drove to the animal shelter. When I got there, I realized I had left my wallet at the store. I couldn't adopt a dog without my ID. So, we left disappointed. I ended up feeling frustrated about letting the kids down about the dog and cried. My mom got mad at me for crying. It was a mess. The party ended up being fun. Autumn had so much fun swimming and eating cake that she ended up puking on the side of the pool. She ended up feeling better after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all had fun.\n\n"
+            }
+        ],
+        "request_id": "811f428e7dc10f3e-EWR"
+    }
+}

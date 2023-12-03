@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A good friend of mine, had been sick for a while. She was young only 24, and she had brain cancer. It was sudden, and spread fast. One weekend she got married to her fiance. I wasn't there, but saw pictures, and she was clearly very sick. The following Thursday, I got a text from my partner. She had died.  I dropped my phone. I was at work where I am a substitute teacher. That day I was working in room full of 4th graders who gave me a lot of trouble. I knew them well, but they were always getting in trouble. When I dropped my phone everything stopped. Suddenly they became very concerned and asked me what was wrong.  It took me a few minutes to be able to say anything. When I finally could all I could say was \"My friend died\". One of the kids,  I think it was a boy who was particularly a bother, went and got one of the security gaurds. He covered for me until I was okay enough to come back into the room."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A good friend of mine, had been sick for a while. She was young only 24, and she had brain cancer. It was sudden, and spread fast. One weekend she got married to her fiance. I wasn't there, but saw pictures, and she was clearly very sick. The following Thursday, I got a text from my partner. She had died.  I dropped my phone. I was at work where I am a substitute teacher. That day I was working in room full of 4th graders who gave me a lot of trouble. I knew them well, but they were always getting in trouble. When I dropped my phone everything stopped. Suddenly they became very concerned and asked me what was wrong.  It took me a few minutes to be able to say anything. When I finally could all I could say was \"My friend died\". One of the kids,  I think it was a boy who was particularly a bother, went and got one of the security gaurds. He covered for me until I was okay enough to come back into the room.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They were all so sweet to me that day.\n\n"
+            }
+        ],
+        "request_id": "811bdb3c884442ac-EWR"
+    }
+}

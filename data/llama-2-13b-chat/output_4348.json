@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 4 months ago my beloved kitty, Kisses, crossed the rainbow bridge as a result of lung cancer. In the months prior to Kisses' passing I noticed she had become lethargic and wasn't her usual spunky self. She'd lost interest in playing. She stopped hanging out on her usual perches. Eventually stopped jumping on to the couch and even on to my bed. I was worried. Then, I began to notice her breathing become labored and wheezy. I made an appointment to have her checked out by her long time veterinarian and expected that he would give Kisses some antibiotics and tell me she'd be fine in no time. But, that's not what happened and I had my heartbroken to learn Kisses had lung cancer. The treatment she would have needed to survive was more than I could afford and I felt like I had failed her. I couldn't let her suffer. Watching Kisses struggle and not enjoy the things she used to was crushing and I knew it was because I couldn't afford to help her. At that point it felt cruel and selfish make her keep living in this condition, so I took her back to the vet and had her put down. I regretted it instantly. I wished I could take it back. I killed my cat before the lung cancer could."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 4 months ago my beloved kitty, Kisses, crossed the rainbow bridge as a result of lung cancer. In the months prior to Kisses' passing I noticed she had become lethargic and wasn't her usual spunky self. She'd lost interest in playing. She stopped hanging out on her usual perches. Eventually stopped jumping on to the couch and even on to my bed. I was worried. Then, I began to notice her breathing become labored and wheezy. I made an appointment to have her checked out by her long time veterinarian and expected that he would give Kisses some antibiotics and tell me she'd be fine in no time. But, that's not what happened and I had my heartbroken to learn Kisses had lung cancer. The treatment she would have needed to survive was more than I could afford and I felt like I had failed her. I couldn't let her suffer. Watching Kisses struggle and not enjoy the things she used to was crushing and I knew it was because I couldn't afford to help her. At that point it felt cruel and selfish make her keep living in this condition, so I took her back to the vet and had her put down. I regretted it instantly. I wished I could take it back. I killed my cat before the lung cancer could.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I miss her so much. I wish I could have given her the care she needed.\n\n"
+            }
+        ],
+        "request_id": "811bd4f058248c7b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So we were going to my uncle's wedding that I hadn't saw for a few years.  Since we both have pretty hectic lives, we had input our destination some time ago.  As usual we hit traffic on the way to our destination.  So after 30 minutes of backtracking, side streets and getting on and off the highways we finally arrived.  Or so we thought.  We quickly parked, hit the lobby bathroom and went down the street to the location.  When we got inside the reception was going full swing.  I noticed it was kind of odd that I didn't recognize anyone there.  Like literally anyone.  We found some empty seats and surveyed the room.  I remember whispering, \"um, I think somethings wrong.\"  A little while after that a elderly gentleman sat down with us and starting telling us a story of the bride and groom when they were young.  And the groom had a different name than my uncle.  Apparently the venue had a conflict with scheduling and the reception had been moved to a different location.  Which we were not aware of.  Guess they missed us on the update, or we just didn't pay attention to it.  Upon realizing our mistake we casually made our way to the exit and rushed back to the car.  A couple of phone calls later and some more driving and we arrived at the correct location."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So we were going to my uncle's wedding that I hadn't saw for a few years.  Since we both have pretty hectic lives, we had input our destination some time ago.  As usual we hit traffic on the way to our destination.  So after 30 minutes of backtracking, side streets and getting on and off the highways we finally arrived.  Or so we thought.  We quickly parked, hit the lobby bathroom and went down the street to the location.  When we got inside the reception was going full swing.  I noticed it was kind of odd that I didn't recognize anyone there.  Like literally anyone.  We found some empty seats and surveyed the room.  I remember whispering, \"um, I think somethings wrong.\"  A little while after that a elderly gentleman sat down with us and starting telling us a story of the bride and groom when they were young.  And the groom had a different name than my uncle.  Apparently the venue had a conflict with scheduling and the reception had been moved to a different location.  Which we were not aware of.  Guess they missed us on the update, or we just didn't pay attention to it.  Upon realizing our mistake we casually made our way to the exit and rushed back to the car.  A couple of phone calls later and some more driving and we arrived at the correct location.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " So we missed the beginning of the reception, but at least we got to see the bride and groom.  And I got to wear my fancy dress for nothing.\n\n"
+            }
+        ],
+        "request_id": "811f44f8fd7817b5-EWR"
+    }
+}

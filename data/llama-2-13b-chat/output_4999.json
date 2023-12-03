@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My Grandma died in this last May. She had been living with my uncle Terry for the last several months. She had fallen and had to be moved to the nursing home. She was in the same nursing home as my grandfather, but they were not able to visit each other anymore. My grandmother eventually stopped eating and speaking. A few days later, she passed away. The funerally was held a couple of weeks after the event. I was asked to be a pall bearer along with my brothers and uncles. We had to be at the funeral very early. My two young boys did not really understand what was going on and it had been over a year since I had seen my grandmother. Through it all, I was emotionally disconnected to the event. I did not really have any feelings about the event until after it was all over. This could be because I was tired or it could have been because I hadn't seen her for a year. A few months later now, I still think about her passing and the missed time that I could have spent visiting her. At least I am comforted by the fact that several people were with her in the end."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My Grandma died in this last May. She had been living with my uncle Terry for the last several months. She had fallen and had to be moved to the nursing home. She was in the same nursing home as my grandfather, but they were not able to visit each other anymore. My grandmother eventually stopped eating and speaking. A few days later, she passed away. The funerally was held a couple of weeks after the event. I was asked to be a pall bearer along with my brothers and uncles. We had to be at the funeral very early. My two young boys did not really understand what was going on and it had been over a year since I had seen my grandmother. Through it all, I was emotionally disconnected to the event. I did not really have any feelings about the event until after it was all over. This could be because I was tired or it could have been because I hadn't seen her for a year. A few months later now, I still think about her passing and the missed time that I could have spent visiting her. At least I am comforted by the fact that several people were with her in the end.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be2616c274207-EWR"
+    }
+}

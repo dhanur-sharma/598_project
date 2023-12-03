@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In March of this year, my family suffer a great deal from something, I believe, was not our fault. I am a stay-at-home mom with 3 kids and my husband is a truck driver. At the time he was an owner operator and was taking a freight load to it's destination. Over in the night at a truck stop, my husband's trailer was robbed of some of the contents, which was boxes of frozen chicken. Not all was taken but a few boxes were. The truck stop, of course had no cameras, and he ended up having to file a police report and file an insurance claim. Since there was an insurance claim, my husband had to kept the load in his trailer until all investigation was over. With that being said, this investigation ended up taking over 2 months to resolve. First, it was trying to get an insurance claim person to look at the remaining contents in the trailer to see if they were still viable and can be sold off. Then, there was a back and forth for a moment, trying to determine if the insurance even covered frozen chicken. During these 2 months, still, my husband was not able to work because there was a load still on his truck. We blew through our bank accounts and our savings trying to maintain our bills and a household of 5. This put such a strain on our household and bank accounts. We have never experienced anything remotely close to this in our lives. To put an end to this story, after about 2 months, he was able to unload the contents in his trailer, however, by that time, we did not have any more money to maintain the daily expenses of operating a truck and had to give it up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In March of this year, my family suffer a great deal from something, I believe, was not our fault. I am a stay-at-home mom with 3 kids and my husband is a truck driver. At the time he was an owner operator and was taking a freight load to it's destination. Over in the night at a truck stop, my husband's trailer was robbed of some of the contents, which was boxes of frozen chicken. Not all was taken but a few boxes were. The truck stop, of course had no cameras, and he ended up having to file a police report and file an insurance claim. Since there was an insurance claim, my husband had to kept the load in his trailer until all investigation was over. With that being said, this investigation ended up taking over 2 months to resolve. First, it was trying to get an insurance claim person to look at the remaining contents in the trailer to see if they were still viable and can be sold off. Then, there was a back and forth for a moment, trying to determine if the insurance even covered frozen chicken. During these 2 months, still, my husband was not able to work because there was a load still on his truck. We blew through our bank accounts and our savings trying to maintain our bills and a household of 5. This put such a strain on our household and bank accounts. We have never experienced anything remotely close to this in our lives. To put an end to this story, after about 2 months, he was able to unload the contents in his trailer, however, by that time, we did not have any more money to maintain the daily expenses of operating a truck and had to give it up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My husband had to get a job locally and we are still recovering from the financial strain."
+            }
+        ],
+        "request_id": "811ebb90296b42a5-EWR"
+    }
+}

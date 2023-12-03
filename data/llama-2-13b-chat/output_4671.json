@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After my Grandfather passed away I started thinking about all the relatives that I hadn't seen in a long time. I decided to try and make amends with my grandmother so that I didnt have any regrets when she died. We touched base and made plans to get together the next day. I was super anxious, I didn't really know her at all. When I got to her home there was a lot of silence and awkward conversation. We pretended there was no issue, which probably made it even more awkward. After an hour or so things started to get a little bit more comfortable and we decided to go get something to eat. My Grandma picked the place since I am not from the area. We went to this really old diner. I was the youngest person there. It looked like the place hadn't been redecorated in decades. I felt completely out of place, but Grandma seemed happy. She was friends with all of the servers and other customers. It was nice to see her in her element. She was actual a nice lady, and somewhat pleasant to be around. After dinner we parted ways. I was really glad that we met up and I really hope that we keep in touch now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After my Grandfather passed away I started thinking about all the relatives that I hadn't seen in a long time. I decided to try and make amends with my grandmother so that I didnt have any regrets when she died. We touched base and made plans to get together the next day. I was super anxious, I didn't really know her at all. When I got to her home there was a lot of silence and awkward conversation. We pretended there was no issue, which probably made it even more awkward. After an hour or so things started to get a little bit more comfortable and we decided to go get something to eat. My Grandma picked the place since I am not from the area. We went to this really old diner. I was the youngest person there. It looked like the place hadn't been redecorated in decades. I felt completely out of place, but Grandma seemed happy. She was friends with all of the servers and other customers. It was nice to see her in her element. She was actual a nice lady, and somewhat pleasant to be around. After dinner we parted ways. I was really glad that we met up and I really hope that we keep in touch now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdb78dfc9196c-EWR"
+    }
+}

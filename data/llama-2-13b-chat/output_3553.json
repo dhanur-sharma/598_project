@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I hosted a bridal shower for my best friend a little over a couple of months ago. It was a hot day. The shower was outside. We had a few canopies set up over the tables to provide shade. We also had some large fans pointed at the tables. There was a taco bar, drinks, and three games with prizes. First, the guests ate. Then we played the games. After the games there was time for mingling and socializing among the guests. At the very end of the shower, the bride opened gifts. When the bride was opening gifts she opened a \"joke\" gift, but she did not realize it at the time. Only a few guests were in on the joke. A few hours after the shower, we got ready for the bachelorette party and attended that that evening. The bachelorette party was outside as well. We went out to eat. We also went to a few bars."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I hosted a bridal shower for my best friend a little over a couple of months ago. It was a hot day. The shower was outside. We had a few canopies set up over the tables to provide shade. We also had some large fans pointed at the tables. There was a taco bar, drinks, and three games with prizes. First, the guests ate. Then we played the games. After the games there was time for mingling and socializing among the guests. At the very end of the shower, the bride opened gifts. When the bride was opening gifts she opened a \"joke\" gift, but she did not realize it at the time. Only a few guests were in on the joke. A few hours after the shower, we got ready for the bachelorette party and attended that that evening. The bachelorette party was outside as well. We went out to eat. We also went to a few bars.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The bride was very upset after the shower. She did not realize what had happened until after we had left for the bachelorette party. She had a meltdown at the first bar we went to. We tried to console her, but she was very upset. She was worried that the shower had been a failure and that people had not had fun. I reassured her that everyone had a great time and that the games were just a lighthearted way to add some fun to the shower. I told her that it was okay to have a little fun and that no one would have been offended by the joke gifts. She eventually calmed down and we continued on with the bachelorette party. The next day, the bride called me to thank me for hosting the shower and for being such a great friend. She said that she had a great time and that she was glad that we had the bachelorette party to look forward to. She also apologized for getting upset at the bar. I told her not to apologize and that I was just happy that she had a good time.\n\n"
+            }
+        ],
+        "request_id": "811ecba45cd84247-EWR"
+    }
+}

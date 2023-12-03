@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I got to travel to the Woodland Park Zoo.  This zoo is in Seattle, WA.  It was my youngest son's birthday.   We had a great time seeing all of the animals.  Our other children were excited also as they felt that it was a special day for them.  My son was really impressed with the lion.   We got to see it up close and hear it give a few roars.   All of my kids were very impressed.  The birthday boy decided that the roaring was for him. The Grizzly Bears were also a hit with the kids.  We got to see the zoo staff feeding the bears. My children all laughed at the way the bears would go \"bobbing\" for apples when the staff threw them in the wate.   After the zoo we came home and my son got to open his presents.  He was excited about the \"Land Before Time\" DVD's that we got for him and wanted to watch them right away.  It was a great day spent with my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I got to travel to the Woodland Park Zoo.  This zoo is in Seattle, WA.  It was my youngest son's birthday.   We had a great time seeing all of the animals.  Our other children were excited also as they felt that it was a special day for them.  My son was really impressed with the lion.   We got to see it up close and hear it give a few roars.   All of my kids were very impressed.  The birthday boy decided that the roaring was for him. The Grizzly Bears were also a hit with the kids.  We got to see the zoo staff feeding the bears. My children all laughed at the way the bears would go \"bobbing\" for apples when the staff threw them in the wate.   After the zoo we came home and my son got to open his presents.  He was excited about the \"Land Before Time\" DVD's that we got for him and wanted to watch them right away.  It was a great day spent with my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd7ca7fd232c7-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I moved to a new state. I moved to live closer to my in laws. I also liked the idea of living in a bigger city, which they do. I was not happy where I lived before. There was little shopping and not much employment opportunity. It was very exciting to come to a new state. It is a warmer climate than what I was used to so. I hope I get used to the heat. Most people that have lived here a while seem to do ok in the heat. I thought it was funny that I needed to use different and new make up and hair products here. The things I used to use just don't work so well here. It has been very energizing for me to be somewhere new. I enjoy going out in the evenings and visiting new places. I have met some people that live nearby and they seem very nice. I have been helpful to my inlaws who really needed some extra help around the house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I moved to a new state. I moved to live closer to my in laws. I also liked the idea of living in a bigger city, which they do. I was not happy where I lived before. There was little shopping and not much employment opportunity. It was very exciting to come to a new state. It is a warmer climate than what I was used to so. I hope I get used to the heat. Most people that have lived here a while seem to do ok in the heat. I thought it was funny that I needed to use different and new make up and hair products here. The things I used to use just don't work so well here. It has been very energizing for me to be somewhere new. I enjoy going out in the evenings and visiting new places. I have met some people that live nearby and they seem very nice. I have been helpful to my inlaws who really needed some extra help around the house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecdc3bb6f43e0-EWR"
+    }
+}

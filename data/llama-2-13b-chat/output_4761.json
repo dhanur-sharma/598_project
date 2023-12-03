@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I celebrated my birthday. I had all my friends and family come over. I told everybody how grateful you've all been about helping my life. I am very satisfied about my life. I hugged my mother and she cried a little because of this. I hugged my father and he also cried. I gave my friends some fist bumps. We all celebrated with a giant pizza party. I got a meat lovers with mushrooms. It was delicious and I finished the whole thing by myself. Everybody else just got pepperoni pizza. They all finished their pizzas. There was also beer to enjoy. I drank a few that day. I almost puked. This day will be remembered for eternity."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I celebrated my birthday. I had all my friends and family come over. I told everybody how grateful you've all been about helping my life. I am very satisfied about my life. I hugged my mother and she cried a little because of this. I hugged my father and he also cried. I gave my friends some fist bumps. We all celebrated with a giant pizza party. I got a meat lovers with mushrooms. It was delicious and I finished the whole thing by myself. Everybody else just got pepperoni pizza. They all finished their pizzas. There was also beer to enjoy. I drank a few that day. I almost puked. This day will be remembered for eternity.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdd542db14322-EWR"
+    }
+}

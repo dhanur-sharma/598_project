@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was really close to my dog. I was getting sad because she was getting sick. I took her to the vet. They said was really sick. I didn't have enough money for the operation to save her. I asked them to put her done. It's been 5 months now since this happened. I'm sad about it all the time. I get depressed when I think about it. I miss her all the time and think about her. I wish I would have had more time with her. When she had passed I tried to decide where to bury her. She always loved being in the back yard and so that is where I thought her final resting place should be. I buried her in my garden. It was where she felt the safest. She was happiest there and I think it where she will be happy to have laid her body to rest."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was really close to my dog. I was getting sad because she was getting sick. I took her to the vet. They said was really sick. I didn't have enough money for the operation to save her. I asked them to put her done. It's been 5 months now since this happened. I'm sad about it all the time. I get depressed when I think about it. I miss her all the time and think about her. I wish I would have had more time with her. When she had passed I tried to decide where to bury her. She always loved being in the back yard and so that is where I thought her final resting place should be. I buried her in my garden. It was where she felt the safest. She was happiest there and I think it where she will be happy to have laid her body to rest.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb8f15f57c341-EWR"
+    }
+}

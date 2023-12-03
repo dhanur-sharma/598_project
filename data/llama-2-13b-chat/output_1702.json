@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago, the father of my child and i decided to cut things off with one another. He and i weren't well for one another. There had been past instances of cheating, and being bored. We both tried for months on end to figure everything out, and become a better pair. But it just wasn't working. It became to the point where we hardly wanted to spend time with one another because it would always end up in fights. Our son is around the age now where he can start remembering any fights or arguments. So, we essentially made this decision mainly for him. He deserves two happy parents. Even if the parents aren't together, just knowing everything is peaceful is important. It's important for us to be mature. Not only for ourselves, but for our son. I don't want him to ever think back to hard times. I want him to know his parents did what they had to in order for him to have a healthy childhood. Not a childhood he'd have to recover from."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago, the father of my child and i decided to cut things off with one another. He and i weren't well for one another. There had been past instances of cheating, and being bored. We both tried for months on end to figure everything out, and become a better pair. But it just wasn't working. It became to the point where we hardly wanted to spend time with one another because it would always end up in fights. Our son is around the age now where he can start remembering any fights or arguments. So, we essentially made this decision mainly for him. He deserves two happy parents. Even if the parents aren't together, just knowing everything is peaceful is important. It's important for us to be mature. Not only for ourselves, but for our son. I don't want him to ever think back to hard times. I want him to know his parents did what they had to in order for him to have a healthy childhood. Not a childhood he'd have to recover from.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, it's been a month now. I must say, it's been the most peaceful month of my life. It's like a weight has been lifted off my shoulders. I can't speak for my ex, but I know he's doing well. We still have our disagreements. But we're both doing what we have to for our son. I'm just glad we could be mature about this."
+            }
+        ],
+        "request_id": "811ea94579fb431b-EWR"
+    }
+}

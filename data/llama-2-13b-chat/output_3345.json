@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Going to my high school reunion was such a blast. I was looking forward to it but I was not expecting anything in particular. I thought it would be fun, which is why I went, but I didn't think it would turn out to be totally memorable. From the get go, I was pleasantly surprised at how fun it was to be back in my high school. I don't have only good memories of the place, and yet being back there in the old hallways was fun, like reconnecting with an old friend. It's like only the good vibes remained. And then, walking in the large room where the reunion was held, I was immediately spotted by some of my old friends. They were all excited to be there and their enthusiasm was very communicative. In no time at all I was totally thrilled and very happy to be there. Most of the group I used to hang out with was there, and although I had not seen most of them pretty much since we finished high school, it felt like we had never lost contact. Some had aged more than others. Some were so similar to their young teenage self that it was almost incredible.  And we all effortlessly slid back into our old ways, the way we would laugh at the same things, understand each other without much explanation, the way we energized each other. And just like back then, we were the most fun-loving, party-oriented and slightly wild group. When everybody else had left to go to bed, we were still drinking and having a great time, so much so that the organizers ended up having to ask us to leave because they had to wrap up the party by a certain time. At 3 AM we were sitting on the school's front lawn, still (discreetly) drinking, sharing stories about our lives, and feeling great."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Going to my high school reunion was such a blast. I was looking forward to it but I was not expecting anything in particular. I thought it would be fun, which is why I went, but I didn't think it would turn out to be totally memorable. From the get go, I was pleasantly surprised at how fun it was to be back in my high school. I don't have only good memories of the place, and yet being back there in the old hallways was fun, like reconnecting with an old friend. It's like only the good vibes remained. And then, walking in the large room where the reunion was held, I was immediately spotted by some of my old friends. They were all excited to be there and their enthusiasm was very communicative. In no time at all I was totally thrilled and very happy to be there. Most of the group I used to hang out with was there, and although I had not seen most of them pretty much since we finished high school, it felt like we had never lost contact. Some had aged more than others. Some were so similar to their young teenage self that it was almost incredible.  And we all effortlessly slid back into our old ways, the way we would laugh at the same things, understand each other without much explanation, the way we energized each other. And just like back then, we were the most fun-loving, party-oriented and slightly wild group. When everybody else had left to go to bed, we were still drinking and having a great time, so much so that the organizers ended up having to ask us to leave because they had to wrap up the party by a certain time. At 3 AM we were sitting on the school's front lawn, still (discreetly) drinking, sharing stories about our lives, and feeling great.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was like we were all a part of something special and it was a night to remember."
+            }
+        ],
+        "request_id": "811ec95bd94843b9-EWR"
+    }
+}

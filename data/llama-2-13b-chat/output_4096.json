@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in July, I was at work getting my day started. I decided to log into Facebook while I had my coffee. While scrolling through my feed I saw an update that my old work colleague had made. I worked with him at my previous job and considered him one of my closer friends that I left there. I had definitely fallen out of touch and had not seen or heard much from him. His post was about his weekend with his kids and how much his family meant to him. at the time I was leaving that job he had just welcomed his new baby girl and was very excited for this chapter of his life. I decided to shoot him a message to let him know it looks like things are going well. He responded quickly and told me everything is going very well but that's he was at the end of his rope with his job. He was interested to know how I was liking my new workplace so I told him I couldn't be happier with the move, I just wished I could have taken some of my team with me. Later that day when I was talking to my boss, the topic of new projects was brought up. It look like for the next year our calendar was full of new work. I said, \"Are these projects going to increase our headcount at all? This is quite a bit of work our small team.\" She said we'd be looking to hire at most one to two more people for full-time positions. The timing of these events seemed serendipitous. I told her I knew the perfect person that she needed to interview. \"Great! I'll let you know when the position is posted so we can bring them in for an interview.\""
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in July, I was at work getting my day started. I decided to log into Facebook while I had my coffee. While scrolling through my feed I saw an update that my old work colleague had made. I worked with him at my previous job and considered him one of my closer friends that I left there. I had definitely fallen out of touch and had not seen or heard much from him. His post was about his weekend with his kids and how much his family meant to him. at the time I was leaving that job he had just welcomed his new baby girl and was very excited for this chapter of his life. I decided to shoot him a message to let him know it looks like things are going well. He responded quickly and told me everything is going very well but that's he was at the end of his rope with his job. He was interested to know how I was liking my new workplace so I told him I couldn't be happier with the move, I just wished I could have taken some of my team with me. Later that day when I was talking to my boss, the topic of new projects was brought up. It look like for the next year our calendar was full of new work. I said, \"Are these projects going to increase our headcount at all? This is quite a bit of work our small team.\" She said we'd be looking to hire at most one to two more people for full-time positions. The timing of these events seemed serendipitous. I told her I knew the perfect person that she needed to interview. \"Great! I'll let you know when the position is posted so we can bring them in for an interview.\"",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was my old colleague who I had reached out to that morning. He was in need of a change and a new challenge. I had been thinking about him all day and how I could help him. I sent him the job posting that evening and he was thrilled. It all worked out for both of us. He got a new job and I got to reconnect with an old friend.  I am so grateful for the unexpected turn of events that led to this outcome."
+            }
+        ],
+        "request_id": "811bcfe02cf219a1-EWR"
+    }
+}

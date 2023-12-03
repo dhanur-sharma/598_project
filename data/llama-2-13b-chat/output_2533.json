@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I realized my passion for a certain tool of music. The synthesizer! I had always had an interest in music, don't get me wrong. However, there was just an edge missing in the music I made. I wanted to make something unique, and cool. Everything I had made was a bit too dull, you know? It sounded too natural. I wanted to make something out of their world--Alien, in a sense, I suppose. I wanted to present something no one had listened to before. My friend told me about using synthesizers, and it changed my life. I started mixing music that sounded like it came from the stars. It was so fun to mess with the different settings. My music had a new edge, and I finally started enjoying it a lot. My music is my music now, for real. I can make sure it's unique and special in its own way, without relying on the constraints of physical instruments."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I realized my passion for a certain tool of music. The synthesizer! I had always had an interest in music, don't get me wrong. However, there was just an edge missing in the music I made. I wanted to make something unique, and cool. Everything I had made was a bit too dull, you know? It sounded too natural. I wanted to make something out of their world--Alien, in a sense, I suppose. I wanted to present something no one had listened to before. My friend told me about using synthesizers, and it changed my life. I started mixing music that sounded like it came from the stars. It was so fun to mess with the different settings. My music had a new edge, and I finally started enjoying it a lot. My music is my music now, for real. I can make sure it's unique and special in its own way, without relying on the constraints of physical instruments.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so glad I found my passion!"
+            }
+        ],
+        "request_id": "811eb8ae1a484233-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been three months since my family and I went on a cruise. We had a wonderful time! There were so many things to do and it was great spending time with my family. We made so many happy memories! It wasn't all fun and games though. There were a few things that almost ruined our vacation. My aunt had her room broken into and someone stole most of the jewelry that she had put on the counter in the bathroom. At first it didn't seem like the \"boat police\" were doing anything to help, but it was only a few hours before they caught the man that had broken in. My aunt got her jewelry back and when we got to the port they put the man off the boat. I was surprised that we were able to put it behind us and have fun. My aunt even led the conga line around the deck after dinner. It's amazing how quickly she forgave the whole incident. The cruise ship was really nice to us after that and they even upgraded our rooms for us. They moved us into a few of their family suites that were unoccupied. It really was great!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been three months since my family and I went on a cruise. We had a wonderful time! There were so many things to do and it was great spending time with my family. We made so many happy memories! It wasn't all fun and games though. There were a few things that almost ruined our vacation. My aunt had her room broken into and someone stole most of the jewelry that she had put on the counter in the bathroom. At first it didn't seem like the \"boat police\" were doing anything to help, but it was only a few hours before they caught the man that had broken in. My aunt got her jewelry back and when we got to the port they put the man off the boat. I was surprised that we were able to put it behind us and have fun. My aunt even led the conga line around the deck after dinner. It's amazing how quickly she forgave the whole incident. The cruise ship was really nice to us after that and they even upgraded our rooms for us. They moved us into a few of their family suites that were unoccupied. It really was great!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The rest of the trip was amazing. We went to the beach, went snorkeling, and even saw dolphins! We also went to a few of the ports and saw some really cool things. I was so happy that we went on this vacation and I'm so grateful to have such a wonderful family.\n\n"
+            }
+        ],
+        "request_id": "811ec569ebd842ef-EWR"
+    }
+}

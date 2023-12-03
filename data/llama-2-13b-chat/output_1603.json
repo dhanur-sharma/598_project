@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My uncle passed away last week. I've never known anyone who passed away that I was this close to in my life, and his was the first funeral I've ever attended. Last Friday I attended his visitation at a funeral home with all our close friends and family. I walked in thinking I could be strong and hold it together and thought I had certainly cried enough tears by then. But as soon as I saw my cousins (his children) and my aunt (his wife), I lost all composure and cried with them. While I had been mourning his loss, so much of my sadness was centered on his immediate family and I couldn't help but wonder how empty and sad they were feeling over this loss. Many people spoke at the funeral home, telling stories, many of which were funny because he was a very funny man, and it was a relief to remember those positive times when he would shine in his humor, which was such a gift to all of us. But there were sad points, too. Watching relatives find the courage to volunteer to speak about him and his life, then watching them break down trying to speak. They simply couldn't catch their breath. And then the next day was his actual funeral. The church ceremony was emotional, but the priest, a relative, did his very best to comfort us with words. It was a tough time, but it brought us all together to remember a man who loved us all so much. He will never be forgotten. The pain will always be there, but so will his love and legacy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My uncle passed away last week. I've never known anyone who passed away that I was this close to in my life, and his was the first funeral I've ever attended. Last Friday I attended his visitation at a funeral home with all our close friends and family. I walked in thinking I could be strong and hold it together and thought I had certainly cried enough tears by then. But as soon as I saw my cousins (his children) and my aunt (his wife), I lost all composure and cried with them. While I had been mourning his loss, so much of my sadness was centered on his immediate family and I couldn't help but wonder how empty and sad they were feeling over this loss. Many people spoke at the funeral home, telling stories, many of which were funny because he was a very funny man, and it was a relief to remember those positive times when he would shine in his humor, which was such a gift to all of us. But there were sad points, too. Watching relatives find the courage to volunteer to speak about him and his life, then watching them break down trying to speak. They simply couldn't catch their breath. And then the next day was his actual funeral. The church ceremony was emotional, but the priest, a relative, did his very best to comfort us with words. It was a tough time, but it brought us all together to remember a man who loved us all so much. He will never be forgotten. The pain will always be there, but so will his love and legacy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea78a5d7e42e2-EWR"
+    }
+}

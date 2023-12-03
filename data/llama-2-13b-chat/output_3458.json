@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always been healthy and feeling well. When I became pregnant with my first child I determined to do everything possible to maintain my health as well as the the health of my developing child. This included regular visits to my OB/GYN for checkups. After one visit for routine tests, I got a text to contact the doctor's office as soon as possible. I called immediately, and shocked to be told the test result indicate that my baby may have Downs Syndrome. While still trying to process that news, the doctors told me the best thing I could do is to terminate the pregnancy. I was stunned. How could this be? I have been taking meticulous care of health. I had no statistical markers for risk of have a Downs child. I cried for day, not knowing what to do. Finally, I asked the doctor's office to send the test results indicating this diagnosis. It turns out, the test I took was not even for Downs. There was no way for the doctor to make that determination. The stress of this situation caused me to go into labor 3 months early. And Alex was born healthy. After a 2 weeks in MICU, he came home with and doing great. Now that I have the time and energy, I have hired a law firm that specializes in medical malpractice. The stress and hardship this doctor caused me should never happen to anyone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always been healthy and feeling well. When I became pregnant with my first child I determined to do everything possible to maintain my health as well as the the health of my developing child. This included regular visits to my OB/GYN for checkups. After one visit for routine tests, I got a text to contact the doctor's office as soon as possible. I called immediately, and shocked to be told the test result indicate that my baby may have Downs Syndrome. While still trying to process that news, the doctors told me the best thing I could do is to terminate the pregnancy. I was stunned. How could this be? I have been taking meticulous care of health. I had no statistical markers for risk of have a Downs child. I cried for day, not knowing what to do. Finally, I asked the doctor's office to send the test results indicating this diagnosis. It turns out, the test I took was not even for Downs. There was no way for the doctor to make that determination. The stress of this situation caused me to go into labor 3 months early. And Alex was born healthy. After a 2 weeks in MICU, he came home with and doing great. Now that I have the time and energy, I have hired a law firm that specializes in medical malpractice. The stress and hardship this doctor caused me should never happen to anyone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec9c3db1841b4-EWR"
+    }
+}

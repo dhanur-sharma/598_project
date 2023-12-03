@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I love my sister. I really do.  But after what happened 6 months ago, I had to let her go. For as long as I can remember my big sister has had problems. It started when she was in her 20s when she began experimenting with drugs. Then she started dating all the men that were bad for her until she got involved with her current \"husband\". They have two kids together but they are  no where near a happy family. Whenever her \"husband\" would get high/drunk/ornery and threaten her or the kids she'd call me to come get her. Then when he apologized she'd always go back to him. 6 months ago, after he slapped her around some,  I told her that she needed she needed to decide for her children's sake if she wanted to stay with him. She told me she couldn't leave him and that he promised to change. One night I get a phone call, a frantic phone call from one of their kids. He tells me that \"mommy locked herself in the bathroom and daddy has a gun\". I heard gunshots in the background. I called the police and drove over to her house.  Her \"husband\" was still inside the house firing off shots randomly at the police when I got there. I couldn't tell if he was drunk or just dumb.  For some reason my sister thought it would be a good idea to struggle over the gun. That's when the police decided to storm the house. Inside they found two dead children, my nieces.  I'll never forget the look on my sister's face that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I love my sister. I really do.  But after what happened 6 months ago, I had to let her go. For as long as I can remember my big sister has had problems. It started when she was in her 20s when she began experimenting with drugs. Then she started dating all the men that were bad for her until she got involved with her current \"husband\". They have two kids together but they are  no where near a happy family. Whenever her \"husband\" would get high/drunk/ornery and threaten her or the kids she'd call me to come get her. Then when he apologized she'd always go back to him. 6 months ago, after he slapped her around some,  I told her that she needed she needed to decide for her children's sake if she wanted to stay with him. She told me she couldn't leave him and that he promised to change. One night I get a phone call, a frantic phone call from one of their kids. He tells me that \"mommy locked herself in the bathroom and daddy has a gun\". I heard gunshots in the background. I called the police and drove over to her house.  Her \"husband\" was still inside the house firing off shots randomly at the police when I got there. I couldn't tell if he was drunk or just dumb.  For some reason my sister thought it would be a good idea to struggle over the gun. That's when the police decided to storm the house. Inside they found two dead children, my nieces.  I'll never forget the look on my sister's face that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " She was devastated. I didn't blame her for what happened. But after that I couldn't be there for her anymore.  I had to let her go. It's not that I don't love her anymore, I just can't be there for her when she's causing more harm to herself and others."
+            }
+        ],
+        "request_id": "811bdf928be543fd-EWR"
+    }
+}

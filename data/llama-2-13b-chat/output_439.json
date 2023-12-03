@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I had a wild time going to a family wedding. It has been the first time in a decade that we've been under the same roof. I talked to mom and she said she has been doing well. I talked to father and he told me he caught the biggest fish that week. I talked to my sister and she has gotten a job in a big advertising firm. I talked to my brother and he just graduated college with a job prospect. My older brother is getting married to a rich tycoon woman. He will be very happy with the mansion he is moving into. I hope he doesn't get too greedy. I hope his life will have meaning. At the party, I got a little too drunk. I threw up on my older brother. He got a little mad. He forgave me. We went home with many memories."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I had a wild time going to a family wedding. It has been the first time in a decade that we've been under the same roof. I talked to mom and she said she has been doing well. I talked to father and he told me he caught the biggest fish that week. I talked to my sister and she has gotten a job in a big advertising firm. I talked to my brother and he just graduated college with a job prospect. My older brother is getting married to a rich tycoon woman. He will be very happy with the mansion he is moving into. I hope he doesn't get too greedy. I hope his life will have meaning. At the party, I got a little too drunk. I threw up on my older brother. He got a little mad. He forgave me. We went home with many memories.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e91c5790517b9-EWR"
+    }
+}

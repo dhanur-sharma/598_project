@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I  went to a baseball game in the summer. I was with a large group of friends.  We all had a great time. We watched the game. The game was a long one so we sent much of the night there.  We have a large group of friends who like to get together. We have not done so for awhile.  We all rooted hard for our team. The crowd was great. The players put on a great show. We talked about how we missed getting together. We loved hanging out and snacking on ball park food. Even though the game was long, the night went too fast. We all wanted it to last. The jokes flew, just liked the old days. Th e  game was very competitive. Very exciting."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I  went to a baseball game in the summer. I was with a large group of friends.  We all had a great time. We watched the game. The game was a long one so we sent much of the night there.  We have a large group of friends who like to get together. We have not done so for awhile.  We all rooted hard for our team. The crowd was great. The players put on a great show. We talked about how we missed getting together. We loved hanging out and snacking on ball park food. Even though the game was long, the night went too fast. We all wanted it to last. The jokes flew, just liked the old days. Th e  game was very competitive. Very exciting.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great time.\n\n"
+            }
+        ],
+        "request_id": "811bcf0efc6f41b2-EWR"
+    }
+}

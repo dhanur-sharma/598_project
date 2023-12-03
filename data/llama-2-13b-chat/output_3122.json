@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cousin was having her bachelorette party. Since it was a one-time thing, we thought it would be funny to hire a male stripper. Nevermind the fact that she is engaged. We also thought it would be funny if she was blindfolded and was told about a surprise guest. The stripper showed up and started doing his gyrations. My cousin was into it, apparently because she thought that it was her fiance. However, she eventually realized that that was not the case. She suddenly flew into a rage. She did not want this type of thing. She is very loyal to her fiance. She believed that he would be furious if he found out. He might even break up with her. He does not tolerate any nonsense. We tried to calm her down. There was no way he would find out. He had his own bachelor party, and the girls wouldn't know anything about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cousin was having her bachelorette party. Since it was a one-time thing, we thought it would be funny to hire a male stripper. Nevermind the fact that she is engaged. We also thought it would be funny if she was blindfolded and was told about a surprise guest. The stripper showed up and started doing his gyrations. My cousin was into it, apparently because she thought that it was her fiance. However, she eventually realized that that was not the case. She suddenly flew into a rage. She did not want this type of thing. She is very loyal to her fiance. She believed that he would be furious if he found out. He might even break up with her. He does not tolerate any nonsense. We tried to calm her down. There was no way he would find out. He had his own bachelor party, and the girls wouldn't know anything about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But, the damage was done. She was really upset.\n\n"
+            }
+        ],
+        "request_id": "811ec444b8fb8c81-EWR"
+    }
+}

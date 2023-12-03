@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that was most memorable and striking to me within the last few months was graduating with my teaching credential and master's degree. This is something that I have been dreaming about for years. It was something that I worked on for years by taking tests, writing papers, and attending classes. There were countless nights studying and worrying. Student teaching was long and expensive since I had to pay to not work. It was also exhausting working full-time and then taking classes at night. To finally be done with my credential and master's was a huge accomplishment for me. Walking down the stage at graduation felt amazing. I realized that this was likely the last time that I would attend a graduation as a student. That is, unless I decide to go back for my doctorate degree. However, whether I decide to go back for another graduate-level degree or not, the accomplishment of getting my master's degree can never be taken away from me. My parents and grandparents were extremely proud. My long-term boyfriend was extremely proud. I realized that the next time I attend a graduation will likely be for my students, since I am trying to teach high school level students. It feels nice to pass the torch to them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that was most memorable and striking to me within the last few months was graduating with my teaching credential and master's degree. This is something that I have been dreaming about for years. It was something that I worked on for years by taking tests, writing papers, and attending classes. There were countless nights studying and worrying. Student teaching was long and expensive since I had to pay to not work. It was also exhausting working full-time and then taking classes at night. To finally be done with my credential and master's was a huge accomplishment for me. Walking down the stage at graduation felt amazing. I realized that this was likely the last time that I would attend a graduation as a student. That is, unless I decide to go back for my doctorate degree. However, whether I decide to go back for another graduate-level degree or not, the accomplishment of getting my master's degree can never be taken away from me. My parents and grandparents were extremely proud. My long-term boyfriend was extremely proud. I realized that the next time I attend a graduation will likely be for my students, since I am trying to teach high school level students. It feels nice to pass the torch to them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am ready to take on the world now.\n\n"
+            }
+        ],
+        "request_id": "811ebf43899643b3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a very memorable event happen to me recently. I was producing a beat for a song I was working on it. While producing it I had an idea for a song pop in my head. It was a beautiful melody, and I decided to record it and make it into a song. I finished the beat and it turned out to be my best beat I've ever made. I mixed and mastered the beat and then recorded my vocals. It turned out great and was definitely my best song I made yet. I uploaded it to my YouTube page which I had built up to a decent subscriber count. Within 24 hours, my song had amassed over ten thousand views. I was astounded. I couldn't believe my music had resonated with this many people this quickly. I felt deeply touched by the fact that my dreams were coming true before my very eyes. This experience motivated me to make even better music. It also showed me that I am more than capable of making it big as an artist. I produced, engineered, wrote and recorded the entire song myself which made it feel all the more satisfying."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a very memorable event happen to me recently. I was producing a beat for a song I was working on it. While producing it I had an idea for a song pop in my head. It was a beautiful melody, and I decided to record it and make it into a song. I finished the beat and it turned out to be my best beat I've ever made. I mixed and mastered the beat and then recorded my vocals. It turned out great and was definitely my best song I made yet. I uploaded it to my YouTube page which I had built up to a decent subscriber count. Within 24 hours, my song had amassed over ten thousand views. I was astounded. I couldn't believe my music had resonated with this many people this quickly. I felt deeply touched by the fact that my dreams were coming true before my very eyes. This experience motivated me to make even better music. It also showed me that I am more than capable of making it big as an artist. I produced, engineered, wrote and recorded the entire song myself which made it feel all the more satisfying.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4c36ab269dff-EWR"
+    }
+}

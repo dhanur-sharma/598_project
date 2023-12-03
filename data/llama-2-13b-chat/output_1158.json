@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a snowy winter day. A large snow fall had just happened the night before so there was several inches of snow on the ground. In addition in the morning people were out trying to deal with snow. It was enough snow that a snow emergency would be called for this snow fall, while not the biggest snowfall of my life, it was enough to disrupt my morning. I get up and need to make a decision about how I am going to get to my doctor's appointment. I have a chronic illness and the specialist I am seeing that day is hard to get an appointment with so it is vital that I make my appointment. I decided to call a cab, so I call the cab company I have always used and get a message telling me that they have shut down- I don't call for cabs that often so this was a surprise to me. I then look up another company's number and call them. I talk to the operator and they tell me it will be about an hour. I am not happy, but have plenty of time so I wait. After an hour I start to get antsy. I keep waiting, it is another ten minutes, and then fifteen, then twenty. My appointment is supposed to be starting soon and I am worried that I won't make it. Right as I call the doctor's office to tell see what happen if I am late, the cab pulls up. I am still worried about making it there on time because the road conditions are not good. The cab driver drives through the street but one of the main roads is very backed up. However, the driver knew an alternative route which was far less congested. I was able to make it to my appointment right on time, it was close but everything worked out in the end."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a snowy winter day. A large snow fall had just happened the night before so there was several inches of snow on the ground. In addition in the morning people were out trying to deal with snow. It was enough snow that a snow emergency would be called for this snow fall, while not the biggest snowfall of my life, it was enough to disrupt my morning. I get up and need to make a decision about how I am going to get to my doctor's appointment. I have a chronic illness and the specialist I am seeing that day is hard to get an appointment with so it is vital that I make my appointment. I decided to call a cab, so I call the cab company I have always used and get a message telling me that they have shut down- I don't call for cabs that often so this was a surprise to me. I then look up another company's number and call them. I talk to the operator and they tell me it will be about an hour. I am not happy, but have plenty of time so I wait. After an hour I start to get antsy. I keep waiting, it is another ten minutes, and then fifteen, then twenty. My appointment is supposed to be starting soon and I am worried that I won't make it. Right as I call the doctor's office to tell see what happen if I am late, the cab pulls up. I am still worried about making it there on time because the road conditions are not good. The cab driver drives through the street but one of the main roads is very backed up. However, the driver knew an alternative route which was far less congested. I was able to make it to my appointment right on time, it was close but everything worked out in the end.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9eddeea442a7-EWR"
+    }
+}

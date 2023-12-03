@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After a couple of years being told of my pending promotion, my promotion was finally approved by the higher managers and went into effect. My supervisor had worked quite hard to press for my promotion and to champion me for this. When my supervisor told me of my promotion, he was quite pleased that he had finally managed to make this happen, especially since he was starting a new job in a different department soon and this was one thing he wanted to achieve before he was no longer my supervisor. He came into my office one morning and slid a folded piece of paper on my desk. He had a pleased smile on his face but said nothing, waiting for me to open the paper and see for myself why he was so happy that morning. I opened the paper and saw that it contained information regarding my promotion to a level 3 administrator. The change in levels pleased me since I was already performing level 3 job duties and felt that it was long overdue. The folded paper also held information regarding my pay raise and the percentage increase. This information fell a bit flat to me because it was much less than I had originally anticipated a promotion would bring. I received the same percentage increase for my promotion that I typically do for my annual raise. Seeing that lower number disappointed me, but I felt I couldn't show my supervisor my disappointment because he was so happy. Showing my disappointment would have been a slap in the face to my supervisor. He felt that he had done me a solid and the promotion, as well as the pay increase, was quite fair. It may be that I had the wrong ideas of what pay increase follow promotions. It could also be that my last promotion with the significantly higher increase was a fluke. I don't have much experience with promotions and don't know what is typical in the company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After a couple of years being told of my pending promotion, my promotion was finally approved by the higher managers and went into effect. My supervisor had worked quite hard to press for my promotion and to champion me for this. When my supervisor told me of my promotion, he was quite pleased that he had finally managed to make this happen, especially since he was starting a new job in a different department soon and this was one thing he wanted to achieve before he was no longer my supervisor. He came into my office one morning and slid a folded piece of paper on my desk. He had a pleased smile on his face but said nothing, waiting for me to open the paper and see for myself why he was so happy that morning. I opened the paper and saw that it contained information regarding my promotion to a level 3 administrator. The change in levels pleased me since I was already performing level 3 job duties and felt that it was long overdue. The folded paper also held information regarding my pay raise and the percentage increase. This information fell a bit flat to me because it was much less than I had originally anticipated a promotion would bring. I received the same percentage increase for my promotion that I typically do for my annual raise. Seeing that lower number disappointed me, but I felt I couldn't show my supervisor my disappointment because he was so happy. Showing my disappointment would have been a slap in the face to my supervisor. He felt that he had done me a solid and the promotion, as well as the pay increase, was quite fair. It may be that I had the wrong ideas of what pay increase follow promotions. It could also be that my last promotion with the significantly higher increase was a fluke. I don't have much experience with promotions and don't know what is typical in the company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt like I had been lied to or at least misled about what my promotion would bring. I didn't know if I should talk to my supervisor about my disappointment or if it would be better to just accept the promotion and the pay increase and move on. I didn't want to sour the relationship I had with my supervisor."
+            }
+        ],
+        "request_id": "811f443ebdc242a5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a beautiful spring day. The sun was shining so I thought I'd take the long way back from class - the way that winds through the field. After all it was dry so I shouldn't have any problem. In fact, I should really enjoy myself. I had my Airpods out with me while I was walking. I thought that I'd enjoy listening to some of my favorite music. However, before I could put them on my phone rang. It was my mom so I knew I had to talk to her. In my rush to grab my phone everything became a blur and somehow I managed to loose my Airpods. I didn't realize that I'd lost my Airpods until I reached the dorm. Once inside I saw one of my classmates and we struck up a conversation. We sat down on the couch and I started putting things away. This is when I realized that I didn't know where my Airpods were - that I'd lost them somewhere in the field I was walking through while on the phone with my Mom. My classmate and I headed out to look for them. Thank God we found them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a beautiful spring day. The sun was shining so I thought I'd take the long way back from class - the way that winds through the field. After all it was dry so I shouldn't have any problem. In fact, I should really enjoy myself. I had my Airpods out with me while I was walking. I thought that I'd enjoy listening to some of my favorite music. However, before I could put them on my phone rang. It was my mom so I knew I had to talk to her. In my rush to grab my phone everything became a blur and somehow I managed to loose my Airpods. I didn't realize that I'd lost my Airpods until I reached the dorm. Once inside I saw one of my classmates and we struck up a conversation. We sat down on the couch and I started putting things away. This is when I realized that I didn't know where my Airpods were - that I'd lost them somewhere in the field I was walking through while on the phone with my Mom. My classmate and I headed out to look for them. Thank God we found them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a relief to have them back in my possession. I'm so grateful for my classmate's help. I learned a valuable lesson - always be mindful of what you're doing when you're on the phone."
+            }
+        ],
+        "request_id": "811f347c6dc14391-EWR"
+    }
+}

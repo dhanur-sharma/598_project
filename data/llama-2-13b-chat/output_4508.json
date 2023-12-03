@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was out with a friend today and we witnessed an accident. It's amazing how people can get into completely avoidable accidents. It is some coincidence that we were at the right time and the right place to see the accident happen. I can't recall the last time I saw an accident happen as it must have been many years ago. However, I am glad that we were there so that we could offer help. One of the driver's was in bad shape and needed help. Being aware of the fear and panic that can cause bystanders from stepping in and helping during a crisis, we decided to get out to see if we could help save the driver. We are not sure if the person that came up to us for help was with the driver when the accident happened, but apparently she was a friend of the driver. She was noticeably panicking and losing control. Based on experience during a emergency, I knew the best thing for her to do was to be calm and rational. I tried to ease her nerves and offer her reassurance. She was grateful and wanted to contact us later. That ended up not happening as there wasn't anything in return that we were in need of. I wonder what happened to the driver and the driver's friend. I hope that they are okay and that they can avoid getting into accidents in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was out with a friend today and we witnessed an accident. It's amazing how people can get into completely avoidable accidents. It is some coincidence that we were at the right time and the right place to see the accident happen. I can't recall the last time I saw an accident happen as it must have been many years ago. However, I am glad that we were there so that we could offer help. One of the driver's was in bad shape and needed help. Being aware of the fear and panic that can cause bystanders from stepping in and helping during a crisis, we decided to get out to see if we could help save the driver. We are not sure if the person that came up to us for help was with the driver when the accident happened, but apparently she was a friend of the driver. She was noticeably panicking and losing control. Based on experience during a emergency, I knew the best thing for her to do was to be calm and rational. I tried to ease her nerves and offer her reassurance. She was grateful and wanted to contact us later. That ended up not happening as there wasn't anything in return that we were in need of. I wonder what happened to the driver and the driver's friend. I hope that they are okay and that they can avoid getting into accidents in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a sobering experience and I will definitely be more aware of my surroundings while driving.\n\n"
+            }
+        ],
+        "request_id": "811bd84eacb25590-EWR"
+    }
+}

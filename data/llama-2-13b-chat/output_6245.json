@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am writing about  my oldest granddaughter.  She graduated from business school a few months ago.  She applied for different jobs.  She got a real good job at our states capital.  I am very proud of her.  She saved up enough money to buy a real nice car.  She eventually wants to rent an apartment close to her job.  She is looking for apartments right now.  I am very close to my granddaughter.  She stops in to see me a lot when she comes home from work.  I am always cooking for her.  I bake for her too.  I know her favorite dishes.   She is just a wonderful girl.  She is very kind and thoughtful.  I am very lucky to have her as my granddaughter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am writing about  my oldest granddaughter.  She graduated from business school a few months ago.  She applied for different jobs.  She got a real good job at our states capital.  I am very proud of her.  She saved up enough money to buy a real nice car.  She eventually wants to rent an apartment close to her job.  She is looking for apartments right now.  I am very close to my granddaughter.  She stops in to see me a lot when she comes home from work.  I am always cooking for her.  I bake for her too.  I know her favorite dishes.   She is just a wonderful girl.  She is very kind and thoughtful.  I am very lucky to have her as my granddaughter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f41c4c88917ad-EWR"
+    }
+}

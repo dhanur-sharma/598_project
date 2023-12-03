@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend and I took our kids to the zoo. They absolutely loved it, we saw so many animals and got to hang out with other people. It is one of the few times I wasn't stressed out at the zoo, but thinking about it I should have been. We didn't get to go to the reptile house but I think going to the water area made up for it. We had a wonderful time. For the first time my daughter wasn't in her stroller so she had the freedom to walk around with her brother and she loved that. My friends son used the stroller because he needed it more. We had lunch then went to the water park. The only thing we didn't get to do was the reptile house. My daughter had fun in the water, but there were a lot of older kids there for field trips. My son fit in with them, and she saw him and went right to him. My friends son got tired early so they left. But, I chose to stay longer so my kids could have fun. I had to get them toys from the gift shop, but it was fine. They picked out great toys and then we left."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend and I took our kids to the zoo. They absolutely loved it, we saw so many animals and got to hang out with other people. It is one of the few times I wasn't stressed out at the zoo, but thinking about it I should have been. We didn't get to go to the reptile house but I think going to the water area made up for it. We had a wonderful time. For the first time my daughter wasn't in her stroller so she had the freedom to walk around with her brother and she loved that. My friends son used the stroller because he needed it more. We had lunch then went to the water park. The only thing we didn't get to do was the reptile house. My daughter had fun in the water, but there were a lot of older kids there for field trips. My son fit in with them, and she saw him and went right to him. My friends son got tired early so they left. But, I chose to stay longer so my kids could have fun. I had to get them toys from the gift shop, but it was fine. They picked out great toys and then we left.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great day."
+            }
+        ],
+        "request_id": "811ecc85c8a541a9-EWR"
+    }
+}

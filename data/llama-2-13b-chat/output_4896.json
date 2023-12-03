@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was grocery shopping by myself, which is pretty rare. I normally take my child everywhere with me, but this particular day, he stayed home with my husband. I was going down the aisles and I heard a child crying. I thought for a second that it was mine before I remembered I was alone. The cries were getting closer as I was going down the aisles. I finally came across them and saw a young mother desperately trying to calm her crying baby and pushing a cart with the other hand. She looked frazzled and had tears in her eyes. I've been there plenty of times. I went over and explained that I'm a mother too and I know how this feels, and if she was okay with it, I can hold her baby while she finishes shopping. I could tell she was hesitant, I mean, who wouldn't be? But she agreed, and allowed me to hold her baby while she finished up shopping. It's something that would have meant a lot to me back when my kid was that young. By the time she was done, her baby was asleep, and she was relieved and happy. I was happy I could help another mom. Even though I was shopping alone, I still ended up with a baby in my arms."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was grocery shopping by myself, which is pretty rare. I normally take my child everywhere with me, but this particular day, he stayed home with my husband. I was going down the aisles and I heard a child crying. I thought for a second that it was mine before I remembered I was alone. The cries were getting closer as I was going down the aisles. I finally came across them and saw a young mother desperately trying to calm her crying baby and pushing a cart with the other hand. She looked frazzled and had tears in her eyes. I've been there plenty of times. I went over and explained that I'm a mother too and I know how this feels, and if she was okay with it, I can hold her baby while she finishes shopping. I could tell she was hesitant, I mean, who wouldn't be? But she agreed, and allowed me to hold her baby while she finished up shopping. It's something that would have meant a lot to me back when my kid was that young. By the time she was done, her baby was asleep, and she was relieved and happy. I was happy I could help another mom. Even though I was shopping alone, I still ended up with a baby in my arms.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a small act of kindness, but I hope it made her day a little easier.\n\n"
+            }
+        ],
+        "request_id": "811be0000b5f43f7-EWR"
+    }
+}

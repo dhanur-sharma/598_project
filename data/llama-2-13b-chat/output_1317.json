@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For a birthday present my dad decided to buy tickets to a baseball game in the future. I cleared my schedule so I could go to the game. The whole morning it rained and I was worried about if the game was going to be delayed. In the early afternoon the weather cleared up. We went a few hours early to beat the initial crowds and see practice. We got an early dinner and settled in for the game. It was an exciting game that went back and forth. Lots of people were at the game and added to the experience. It was exciting for me since I hadn't been to a game in awhile. I had struck up a few conversations with the people around us as well. We were above the visitor's dugout so we got to be very close to the action. After some exciting plays the home team was winning. However in the last inning it all fell apart and they lost. Even with that it was still exciting. We did however have some trouble leaving the park and the parking area, as that took a long time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For a birthday present my dad decided to buy tickets to a baseball game in the future. I cleared my schedule so I could go to the game. The whole morning it rained and I was worried about if the game was going to be delayed. In the early afternoon the weather cleared up. We went a few hours early to beat the initial crowds and see practice. We got an early dinner and settled in for the game. It was an exciting game that went back and forth. Lots of people were at the game and added to the experience. It was exciting for me since I hadn't been to a game in awhile. I had struck up a few conversations with the people around us as well. We were above the visitor's dugout so we got to be very close to the action. After some exciting plays the home team was winning. However in the last inning it all fell apart and they lost. Even with that it was still exciting. We did however have some trouble leaving the park and the parking area, as that took a long time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea26aafde41d5-EWR"
+    }
+}

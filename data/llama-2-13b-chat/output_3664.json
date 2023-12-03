@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Monday 8 am: Got up, cooked Breakfast and served mom in bed. She is still having lots of difficulties moving around. We will be seeing the doctor later today, she believes that her suffering was caused by long term affects from the c-section when she had me. It feels like I can not get a moment to myself. 10 am: Finished helping mom freshen up and helped her to bed for a nap. I finally have some time to myself! Now I am going to try to watch some TV and enjoy myself. 11 am: Woke up to a loud thud to find my mom on her bedroom floor, she tried to go to the bathroom by herself after she said she called for me several different times. I feel like the worlds worst daughter. 12 p.m: Fixed moms lunch for her, preparing to go to the doctor at two pm. 1:30 pm: Got mom dressed and headed to the doctor traffic is terribly backed up currently sitting in the middle of it as I write this. 5 pm: Made it to the doctor around three, then traffic was still terrible on the way back. We found out that the back pains not from the C-section, but they are from the Epidural. Mom will have to have to have some sort of therapy can not remember what it was called. 8 pm: Finished washing the after dinner dishes. Helped mom freshen up and got her to bed, now she is sleeping. Time to relax with some TV again and fall a sleep un interupted, I hope."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Monday 8 am: Got up, cooked Breakfast and served mom in bed. She is still having lots of difficulties moving around. We will be seeing the doctor later today, she believes that her suffering was caused by long term affects from the c-section when she had me. It feels like I can not get a moment to myself. 10 am: Finished helping mom freshen up and helped her to bed for a nap. I finally have some time to myself! Now I am going to try to watch some TV and enjoy myself. 11 am: Woke up to a loud thud to find my mom on her bedroom floor, she tried to go to the bathroom by herself after she said she called for me several different times. I feel like the worlds worst daughter. 12 p.m: Fixed moms lunch for her, preparing to go to the doctor at two pm. 1:30 pm: Got mom dressed and headed to the doctor traffic is terribly backed up currently sitting in the middle of it as I write this. 5 pm: Made it to the doctor around three, then traffic was still terrible on the way back. We found out that the back pains not from the C-section, but they are from the Epidural. Mom will have to have to have some sort of therapy can not remember what it was called. 8 pm: Finished washing the after dinner dishes. Helped mom freshen up and got her to bed, now she is sleeping. Time to relax with some TV again and fall a sleep un interupted, I hope.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ece559a441791-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've had my dog for about 7 years now and he is a huge part of my life. I've watched him grow from a puppy into a senior dog. I was extremely saddened when a strange discoloration appeared on one of his eyes recently. At first, I ignored it, but after it got larger I became a bit worried. When the discoloration spread to the other eye, I got very scared and made an appointment at the vet. I took him to his regular vet who quickly referred me to a specialist in the area. She said that he thought Milo had cancer in his eyes. I was extremely worried and apprehensive when she told me this and quickly made the specialist appointment. During the week long wait before the appointment I spent as much time with Milo as possible, in case the worst were to come to pass. When the day of the appointment came I took him there and they performed a bunch of tests. They stuck weird things in his eyes, looked at them through microscopes, and did a bunch of other things that neither he nor I enjoyed. When the vet left the room to process the data she had collected, I thought for sure she would come back and say he had cancer. I waited in fear, but she was smiling when she came back in the room. It turns out he had some cholesterol deposits in eyes. They are not dangerous and don't affect his vision. She said he can live just fine with them. I felt such relief and happiness when she told me that I wanted to hug her!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've had my dog for about 7 years now and he is a huge part of my life. I've watched him grow from a puppy into a senior dog. I was extremely saddened when a strange discoloration appeared on one of his eyes recently. At first, I ignored it, but after it got larger I became a bit worried. When the discoloration spread to the other eye, I got very scared and made an appointment at the vet. I took him to his regular vet who quickly referred me to a specialist in the area. She said that he thought Milo had cancer in his eyes. I was extremely worried and apprehensive when she told me this and quickly made the specialist appointment. During the week long wait before the appointment I spent as much time with Milo as possible, in case the worst were to come to pass. When the day of the appointment came I took him there and they performed a bunch of tests. They stuck weird things in his eyes, looked at them through microscopes, and did a bunch of other things that neither he nor I enjoyed. When the vet left the room to process the data she had collected, I thought for sure she would come back and say he had cancer. I waited in fear, but she was smiling when she came back in the room. It turns out he had some cholesterol deposits in eyes. They are not dangerous and don't affect his vision. She said he can live just fine with them. I felt such relief and happiness when she told me that I wanted to hug her!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so worried about Milo and I just wanted him to be okay. I'm so grateful he's okay and I'm going to spoil him rotten!\n\n"
+            }
+        ],
+        "request_id": "811eac643ef85e60-EWR"
+    }
+}

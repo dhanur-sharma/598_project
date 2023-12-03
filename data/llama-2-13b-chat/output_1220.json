@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a wreck for the first time. It was a really unexpected event. Given my personal experience, I thought that it was something that only happened on TV or movies, but apparently that's not the case. I've always been so far removed from those things that I didn't even feel as if they existed. It was around 6:00 AM and I was headed to my jiu jitsu class. I was in an Uber going around a small lagoon. I take this route every day, and this area is a rather affluent area that's considered safe. It was quite cold in the morning, and it showed. Generally speaking, people like to exercise around the lagoon. There wasn't a soul there. A man in his 30's was sitting in his car. Then I noticed that his hands were above his head, and there were two men on motorcycles next to him. It was as if he just completely freaked out, because there was a motorcycle on each side of him. He came to a full stop on the middle of the road, and my uber slammed into the back of him. I luckily came out mostly unscathed, I only sprained my wrist. He ended up having  a concussion. Luckily, no one was injured."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a wreck for the first time. It was a really unexpected event. Given my personal experience, I thought that it was something that only happened on TV or movies, but apparently that's not the case. I've always been so far removed from those things that I didn't even feel as if they existed. It was around 6:00 AM and I was headed to my jiu jitsu class. I was in an Uber going around a small lagoon. I take this route every day, and this area is a rather affluent area that's considered safe. It was quite cold in the morning, and it showed. Generally speaking, people like to exercise around the lagoon. There wasn't a soul there. A man in his 30's was sitting in his car. Then I noticed that his hands were above his head, and there were two men on motorcycles next to him. It was as if he just completely freaked out, because there was a motorcycle on each side of him. He came to a full stop on the middle of the road, and my uber slammed into the back of him. I luckily came out mostly unscathed, I only sprained my wrist. He ended up having  a concussion. Luckily, no one was injured.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The driver of the car had to go to the hospital. I was a bit shaken up. It was really a surreal experience. It felt like something out of a movie. I felt like I was in a dream state. I'm still trying to process it. I never thought I would be in a car accident. I feel like it's something that only happens to other people. I was just so caught off guard. I'm still trying to wrap my head around it."
+            }
+        ],
+        "request_id": "811ea0012a6b42b2-EWR"
+    }
+}

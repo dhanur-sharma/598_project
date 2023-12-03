@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I first met my wife several years ago while we were out with friends. We were all out together at a bar. It was a our normal place that we liked to go to. We ended up playing a trivia game that night. It was horror movie trivia which I am amazing at since I'm such a big fan of horror movies. We played against another team. It was me and my male friends versus a team of girls. The girls ended up winning and after the game I decided to talk with them about it. We all have fun together that night, the two groups of people that were playing trivia. When it was over for the night I exchanged numbers with the woman who would later be my wife. We ended up dating for a period after that. We dated for about 3 months. Then we got married. It was the greatest thing that ever happened to me. I think back to this night often."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I first met my wife several years ago while we were out with friends. We were all out together at a bar. It was a our normal place that we liked to go to. We ended up playing a trivia game that night. It was horror movie trivia which I am amazing at since I'm such a big fan of horror movies. We played against another team. It was me and my male friends versus a team of girls. The girls ended up winning and after the game I decided to talk with them about it. We all have fun together that night, the two groups of people that were playing trivia. When it was over for the night I exchanged numbers with the woman who would later be my wife. We ended up dating for a period after that. We dated for about 3 months. Then we got married. It was the greatest thing that ever happened to me. I think back to this night often.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the start of something amazing.\n\n"
+            }
+        ],
+        "request_id": "811eb0b0a9b08c4e-EWR"
+    }
+}

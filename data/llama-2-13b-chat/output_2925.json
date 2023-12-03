@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The surprise party for my mother-in-law was a big success. I can't believe how much work it was to get everything planned! I honestly did not believe that it would all work out. I had been worried about the guest list but it turned out that I invited everyone important to her. I was even able to get her sister and nieces into town for the big day. The look on her face when she saw her sister, who she hadn't seen in years, was priceless. Seeing her that happy really made me forget about all the stress the party had caused me. I am glad we decided to have it at her favorite restaurant too. The food was amazing. They made a custom menu for us and we were able to have all of my mother in laws favorite foods. The macaroni and cheese with bacon was my favorite. The chicken Parmesan was also very good. It felt really good to give her this party because of the terrible year she had. I can't imagine how hard losing her husband must have been. I just hope this party showed her how many people support her and love her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The surprise party for my mother-in-law was a big success. I can't believe how much work it was to get everything planned! I honestly did not believe that it would all work out. I had been worried about the guest list but it turned out that I invited everyone important to her. I was even able to get her sister and nieces into town for the big day. The look on her face when she saw her sister, who she hadn't seen in years, was priceless. Seeing her that happy really made me forget about all the stress the party had caused me. I am glad we decided to have it at her favorite restaurant too. The food was amazing. They made a custom menu for us and we were able to have all of my mother in laws favorite foods. The macaroni and cheese with bacon was my favorite. The chicken Parmesan was also very good. It felt really good to give her this party because of the terrible year she had. I can't imagine how hard losing her husband must have been. I just hope this party showed her how many people support her and love her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I also hope it helped take her mind off of her loss."
+            }
+        ],
+        "request_id": "811ec0b4f8584325-EWR"
+    }
+}

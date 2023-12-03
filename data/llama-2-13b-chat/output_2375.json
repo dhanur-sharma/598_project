@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friends came over to celebrated my birthday, and we had so much fun together. We told many stories with each other, and had so much fun eating the birthday cake. And the best part was when my friends gave me my gifts. I didn't really expect the gifts I got, and it was so nice to receive them. I opened them and I was surprised by some of the gifts I got, but they were so nice, and I liked them. After that, we played some games with each other, and talk some more about life. It was just such a great time. I had fun. I know my friends had fun too. It was just so great. And amazing. I can't wait for my next birthday. It's just so cool. I love it a lot. Best birthday ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friends came over to celebrated my birthday, and we had so much fun together. We told many stories with each other, and had so much fun eating the birthday cake. And the best part was when my friends gave me my gifts. I didn't really expect the gifts I got, and it was so nice to receive them. I opened them and I was surprised by some of the gifts I got, but they were so nice, and I liked them. After that, we played some games with each other, and talk some more about life. It was just such a great time. I had fun. I know my friends had fun too. It was just so great. And amazing. I can't wait for my next birthday. It's just so cool. I love it a lot. Best birthday ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb582ce5e435e-EWR"
+    }
+}

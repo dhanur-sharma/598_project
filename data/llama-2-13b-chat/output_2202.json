@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My kids and I were outside with friends(neighbors). The kids were playing in the field with friends while I was talking to my friends, other parents. It all happened so fast. There was a drive by shooting. Three people were shot, adults. One child was grazed by a bullet. Even though the shootings have since calmed down, we rarely let the kids go out now. If they do, we are there with them. Used to, we knew to have the kids in by dark. However, the shootings have been getting earlier and earlier. The last one was on a Sunday afternoon. It's this whole area. Not just this neighborhood but the whole city. It doesn't seem anywhere is safe now. Every where that used to be safe is no longer safe. I thought about moving but not sure where to move to. Seems all the safe neighborhoods are becoming unsafe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My kids and I were outside with friends(neighbors). The kids were playing in the field with friends while I was talking to my friends, other parents. It all happened so fast. There was a drive by shooting. Three people were shot, adults. One child was grazed by a bullet. Even though the shootings have since calmed down, we rarely let the kids go out now. If they do, we are there with them. Used to, we knew to have the kids in by dark. However, the shootings have been getting earlier and earlier. The last one was on a Sunday afternoon. It's this whole area. Not just this neighborhood but the whole city. It doesn't seem anywhere is safe now. Every where that used to be safe is no longer safe. I thought about moving but not sure where to move to. Seems all the safe neighborhoods are becoming unsafe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb238af5732c7-EWR"
+    }
+}

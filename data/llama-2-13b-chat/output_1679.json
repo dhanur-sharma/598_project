@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,3 weeks ago my family and I all got together for the 4th of July. They all came over to my house, and we celebrated my grandfathers birthday. The day was off to a good start. We watched the parade out side of our house, and came back and had a barbecue. While we were eating I saw my aunt and my sister having a conversation that was becoming increasingly heated. They were on the other side of the table from me, so I was not totally sure of what was going on. Slowly, they began to start speaking louder and louder to eachother. Till finally, my sister stood up and threw her drink on my aunt. Unsure of what was going on, we all looked over to see what happened and my mom chased down my sister to talk about what happened. After hearing my aunts side of the story we discovered that my aunt was being critical of my sisters boyfriend. She told her that he did not particuarly like him and that she thought that she could do way better than she currently is. My sister obviously did not respond well to this. Because of this conversation, my sister ended up leaving the party early. The rest of the day was very awkward. I felt bad for my grandpa because I felt that it ruined his birthday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,3 weeks ago my family and I all got together for the 4th of July. They all came over to my house, and we celebrated my grandfathers birthday. The day was off to a good start. We watched the parade out side of our house, and came back and had a barbecue. While we were eating I saw my aunt and my sister having a conversation that was becoming increasingly heated. They were on the other side of the table from me, so I was not totally sure of what was going on. Slowly, they began to start speaking louder and louder to eachother. Till finally, my sister stood up and threw her drink on my aunt. Unsure of what was going on, we all looked over to see what happened and my mom chased down my sister to talk about what happened. After hearing my aunts side of the story we discovered that my aunt was being critical of my sisters boyfriend. She told her that he did not particuarly like him and that she thought that she could do way better than she currently is. My sister obviously did not respond well to this. Because of this conversation, my sister ended up leaving the party early. The rest of the day was very awkward. I felt bad for my grandpa because I felt that it ruined his birthday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was very upset with my aunt because she caused the whole thing. I know that my sister is an adult and can handle her own relationships, but I did not like the fact that my aunt would try to dictate who she should and should not be with. The rest of the day was filled with tension and it was a very uncomfortable day. Overall, it was a very bad day.\n\n"
+            }
+        ],
+        "request_id": "811ea8e66dad0f64-EWR"
+    }
+}

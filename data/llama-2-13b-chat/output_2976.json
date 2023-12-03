@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I participated in a rafting trip/ float trip down a river in town. It was a great bonding experience with my social group. During the trip we conversed about career aspirations and got to know each other better. I had purchased a raft with some extra income from the month before, and brought my wife along with me. We captained the raft down the river. During the trip we got to know the boyfriend of one of our close family friends. He wound up being a very positive person. Later on in the day we wound up landing at the apartment complex and grilling out. We played volleyball into the evening. By the end of it we were all sunburned. We made many new friends that day. We went home and passed out. The next morning I was burned and hungover. I don't regret my actions, but realized I needed to stop drinking so much. I began to limit and monitor my alcohol intake. I've since lost a lot of weight."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I participated in a rafting trip/ float trip down a river in town. It was a great bonding experience with my social group. During the trip we conversed about career aspirations and got to know each other better. I had purchased a raft with some extra income from the month before, and brought my wife along with me. We captained the raft down the river. During the trip we got to know the boyfriend of one of our close family friends. He wound up being a very positive person. Later on in the day we wound up landing at the apartment complex and grilling out. We played volleyball into the evening. By the end of it we were all sunburned. We made many new friends that day. We went home and passed out. The next morning I was burned and hungover. I don't regret my actions, but realized I needed to stop drinking so much. I began to limit and monitor my alcohol intake. I've since lost a lot of weight.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall it was a great bonding experience.\n\n"
+            }
+        ],
+        "request_id": "811ec19ccb661768-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I need to make one of the most difficult decisions of my life. It turns out I am unable to cut it here in New York City and in order to make ends meet, I need to move back home to Portland, Oregon. My parents have been gracious enough to let me stay with them for the time being. This is particularly painful as I really thought I had it set. I was following my dreams in New York. I was chasing the goal of being a Broadway actor but I'm just not cut out for it. It is an immense struggle to balance the art while maintaining a day job. To make matters worse, the politics of the musical theater scene are intense. I do not know how people are supposed to make it in this city. Everywhere you go, people are fake. Everyone is using you to get ahead. How does anyone manage healthy relationships in this environment? Everyone is constantly trying to get ahead and no one is willing to help the young people get started. I see no path for me to get ahead. I can't continue living in my studio apartment, barely making ends meet, for a dream in an industry that does not care about me one bit. It is time for me to accept defeat and move on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I need to make one of the most difficult decisions of my life. It turns out I am unable to cut it here in New York City and in order to make ends meet, I need to move back home to Portland, Oregon. My parents have been gracious enough to let me stay with them for the time being. This is particularly painful as I really thought I had it set. I was following my dreams in New York. I was chasing the goal of being a Broadway actor but I'm just not cut out for it. It is an immense struggle to balance the art while maintaining a day job. To make matters worse, the politics of the musical theater scene are intense. I do not know how people are supposed to make it in this city. Everywhere you go, people are fake. Everyone is using you to get ahead. How does anyone manage healthy relationships in this environment? Everyone is constantly trying to get ahead and no one is willing to help the young people get started. I see no path for me to get ahead. I can't continue living in my studio apartment, barely making ends meet, for a dream in an industry that does not care about me one bit. It is time for me to accept defeat and move on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is time for me to go back to my safe place, Portland, Oregon.\n\n"
+            }
+        ],
+        "request_id": "811f3ad57b7f42b2-EWR"
+    }
+}

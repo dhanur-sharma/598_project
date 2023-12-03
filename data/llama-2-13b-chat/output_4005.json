@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: at dinner time during spring break. I was was at home visiting my smug grandma. My entire conceited family and snobbish sister was there with her arrogant baby. I said I cant eat this much ever again. I puked and had to leave the party because I was so sick. I spent all night on the toilet puking out the massive amount of sugar I consumed. This event hurt my confidence a lot. I had trouble sleeping for weeks after. At work and around other people I lost a lot of confidence in myself and began to withdraw into my own mind. Eventually I learned to move on. Use it as a learning experience. And try to gain my confidence in my self in other ways. I tried to take up other hobbies. Because when I become good at something my confidence rises. And I am able to interact with others more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: at dinner time during spring break. I was was at home visiting my smug grandma. My entire conceited family and snobbish sister was there with her arrogant baby. I said I cant eat this much ever again. I puked and had to leave the party because I was so sick. I spent all night on the toilet puking out the massive amount of sugar I consumed. This event hurt my confidence a lot. I had trouble sleeping for weeks after. At work and around other people I lost a lot of confidence in myself and began to withdraw into my own mind. Eventually I learned to move on. Use it as a learning experience. And try to gain my confidence in my self in other ways. I tried to take up other hobbies. Because when I become good at something my confidence rises. And I am able to interact with others more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am not as scared of being around people. And I don't have to rely on my family for my self worth.\n\n"
+            }
+        ],
+        "request_id": "811bce475a350f74-EWR"
+    }
+}

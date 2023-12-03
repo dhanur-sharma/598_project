@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This summer my family and I were struck with tragedy. We loved and cared for a rescue dog who we named Lilly. She was the bright light that shined in our home every single day. She had charisma and truly brought my family together. Although death comes with life, we did not expect her life to end so abruptly. We noticed her struggling the breathe, but we didn't think much of it. Quite possible she may have had a cold or maybe she was struggling with allergies. It turned out that it was much more. Lilly suffered from a tumor on her heart and mucous that surrounded her lungs. We knew the results were unfavorable, but we didn't quite understand the severity. It was almost impossible to wrap our heads around. This seemingly healthy, happy, and beautiful dog was ill and right before our eyes we couldn't even grasp it. Within a week it was determined that to allow her the tiniest amount of suffering possible we would have to put her to sleep. It crushed us. It crushed me. I had never dealt with loss so abruptly and with something I cared so much about. I think about her every day and I know that her spirit still lives on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This summer my family and I were struck with tragedy. We loved and cared for a rescue dog who we named Lilly. She was the bright light that shined in our home every single day. She had charisma and truly brought my family together. Although death comes with life, we did not expect her life to end so abruptly. We noticed her struggling the breathe, but we didn't think much of it. Quite possible she may have had a cold or maybe she was struggling with allergies. It turned out that it was much more. Lilly suffered from a tumor on her heart and mucous that surrounded her lungs. We knew the results were unfavorable, but we didn't quite understand the severity. It was almost impossible to wrap our heads around. This seemingly healthy, happy, and beautiful dog was ill and right before our eyes we couldn't even grasp it. Within a week it was determined that to allow her the tiniest amount of suffering possible we would have to put her to sleep. It crushed us. It crushed me. I had never dealt with loss so abruptly and with something I cared so much about. I think about her every day and I know that her spirit still lives on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will never forget her.\n\n"
+            }
+        ],
+        "request_id": "811be3bf5e4542c1-EWR"
+    }
+}

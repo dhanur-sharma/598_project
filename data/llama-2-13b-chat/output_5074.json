@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I live in New England, so I had to make travel plans to get there in time.  I got to Nashville 2 hours before the party and had to hurry to get checked into my hotel.  When I was all settled, I scurried about to shower, shave, and dress but had problems finding appropriate clothes.  Unfortunately, all I found were a pair of not-too-new jeans and a ratty t-shirt.  I had to wear them despite my reservations and prepared my apologies for when I got there.  I knew the name of the hotel and gave them to the cab driver when I got in.  He seemed to know where I was going and dropped me off at the Blue Nashville, which appeared to me at the time to be a nightclub.  I entered with much trepidation and went to the board to find the event.  It was there, Room 27, much to my distress so I went to the door and opened it hesitatingly.  To my surprise, there was a woman throwing cake all over the place with participants laughing and screaming with delight.  She was dressed only in a bikini bottom, although it really didn't matter as she covered with frosting.  I shoved my way through the crowd, which I estimated to be 120 people, looking for someone I know.  But after a certain amount of time, I found nothing but strangers.  I went to the men's room to clean off the cake residue so I could go back to the entrance and make sure I had the right room.  It was a good thing I was so inappropriately dressed.  When I looked cake-free, I consulted a person at the desk and asked her whose bachelor I was at.  She told me it was a person I never heard of.  Then I told her about the party I supposed to be at and she said, \"I think you're supposed to be at the Hotel Blue, not here\"."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I live in New England, so I had to make travel plans to get there in time.  I got to Nashville 2 hours before the party and had to hurry to get checked into my hotel.  When I was all settled, I scurried about to shower, shave, and dress but had problems finding appropriate clothes.  Unfortunately, all I found were a pair of not-too-new jeans and a ratty t-shirt.  I had to wear them despite my reservations and prepared my apologies for when I got there.  I knew the name of the hotel and gave them to the cab driver when I got in.  He seemed to know where I was going and dropped me off at the Blue Nashville, which appeared to me at the time to be a nightclub.  I entered with much trepidation and went to the board to find the event.  It was there, Room 27, much to my distress so I went to the door and opened it hesitatingly.  To my surprise, there was a woman throwing cake all over the place with participants laughing and screaming with delight.  She was dressed only in a bikini bottom, although it really didn't matter as she covered with frosting.  I shoved my way through the crowd, which I estimated to be 120 people, looking for someone I know.  But after a certain amount of time, I found nothing but strangers.  I went to the men's room to clean off the cake residue so I could go back to the entrance and make sure I had the right room.  It was a good thing I was so inappropriately dressed.  When I looked cake-free, I consulted a person at the desk and asked her whose bachelor I was at.  She told me it was a person I never heard of.  Then I told her about the party I supposed to be at and she said, \"I think you're supposed to be at the Hotel Blue, not here\".",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was mortified.  I left the Blue Nashville and hailed another cab.  I gave him the name of the Hotel Blue and he dropped me off at the entrance of the Hotel Blue.  I walked in and found the correct room and found the person I was looking for.  I was glad to be there and participate in the party."
+            }
+        ],
+        "request_id": "811be39d29fa43e7-EWR"
+    }
+}

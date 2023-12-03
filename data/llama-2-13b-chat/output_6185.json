@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently married my fiance. We had been dating for three years, closer to four. We had our wedding at a Catholic church in our city with a small gathering of loved ones. Afterward, we all gathered at his mother's house for the reception. Food included meatballs, pasta, casserole, pepperoni bread, and cheesy potatoes. We got a series of cupcakes instead of a large wedding cake. The flavors were orange chiffon, Italian ribbon, chocolate chocolate chip, and milk and cookies. We spent hours socializing before going back home for the night. We stayed up until about one in the morning. It was great snuggling up in bed with him for the first time. Several days later, we're still snacking on wedding leftovers. In a little while, we're returning the cupcake stand to the bakery and I'm giving the chef a thank you card. I have several thank you cards that have been written and sealed and many more left to write and seal. I want to make sure everyone who played a major role is properly thanked. Family members, the jeweler, the tailor that helped with my dress, and the tuxedo rental store that loaned a suit to my husband are on the list."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently married my fiance. We had been dating for three years, closer to four. We had our wedding at a Catholic church in our city with a small gathering of loved ones. Afterward, we all gathered at his mother's house for the reception. Food included meatballs, pasta, casserole, pepperoni bread, and cheesy potatoes. We got a series of cupcakes instead of a large wedding cake. The flavors were orange chiffon, Italian ribbon, chocolate chocolate chip, and milk and cookies. We spent hours socializing before going back home for the night. We stayed up until about one in the morning. It was great snuggling up in bed with him for the first time. Several days later, we're still snacking on wedding leftovers. In a little while, we're returning the cupcake stand to the bakery and I'm giving the chef a thank you card. I have several thank you cards that have been written and sealed and many more left to write and seal. I want to make sure everyone who played a major role is properly thanked. Family members, the jeweler, the tailor that helped with my dress, and the tuxedo rental store that loaned a suit to my husband are on the list.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The cupcake stand was a big hit. People kept raving about the flavors and the presentation. I'm so glad we decided to do something different. I'm still on a high from the wedding and marriage."
+            }
+        ],
+        "request_id": "811f4085a85742bd-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My event was the death of my dog about four months ago. She was an old dog at 12 years old and she had a large tumor that was making it difficult for her to get around for the last couple of years. We knew she was getting older and it was something we'd worried about because it's never easy to lose a beloved pet. It started with her getting sick and throwing up. She wasn't able to keep anything down and we knew then that the end was coming. We didn't want to take her to the vet because she had developed extreme anxiety whenever she had to be removed from her family and she wasn't in any pain. She was fading fast but still responded to us whenever we'd talk to her and pet her. The last 24 hours was very difficult. She was weak and we knew that the end was coming. We spent as much time with her as we could. We sat up all night and she passed away early in the morning about two days after she fell ill. We had prepared a spot in the backyard, a place she really loved to be and buried her there. We then planted some flowers over her grave to help protect it. The house feels so very different without her there. It's hard not to think about her every day. We have two other dogs, but the loss is still a loss and I miss her all the time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My event was the death of my dog about four months ago. She was an old dog at 12 years old and she had a large tumor that was making it difficult for her to get around for the last couple of years. We knew she was getting older and it was something we'd worried about because it's never easy to lose a beloved pet. It started with her getting sick and throwing up. She wasn't able to keep anything down and we knew then that the end was coming. We didn't want to take her to the vet because she had developed extreme anxiety whenever she had to be removed from her family and she wasn't in any pain. She was fading fast but still responded to us whenever we'd talk to her and pet her. The last 24 hours was very difficult. She was weak and we knew that the end was coming. We spent as much time with her as we could. We sat up all night and she passed away early in the morning about two days after she fell ill. We had prepared a spot in the backyard, a place she really loved to be and buried her there. We then planted some flowers over her grave to help protect it. The house feels so very different without her there. It's hard not to think about her every day. We have two other dogs, but the loss is still a loss and I miss her all the time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know that we did everything we could for her, but it still feels like there was more we could have done.\n\n"
+            }
+        ],
+        "request_id": "811bd76d0b081a40-EWR"
+    }
+}

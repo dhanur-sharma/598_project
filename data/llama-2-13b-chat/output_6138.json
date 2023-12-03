@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I suffer from perimenopause. I am a 50 year old female. I have several different symptoms. I get dizzy. I get sick with colds all the time. I get paranoid. I have had atleast 70 different symptoms. About 8 weeks ago. I started suffering from a debilitating insomnia. From this I developed a heart flutter. My friend became concerened. She was in fear I would pass out. She was very much afraid I'd even pass away from this. I put her mind at ease as I have gone to the Doctor and got help for it. It was then about 8 weeks ago I realized I had a really good friend on my hands. I love my newly realized best friend!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I suffer from perimenopause. I am a 50 year old female. I have several different symptoms. I get dizzy. I get sick with colds all the time. I get paranoid. I have had atleast 70 different symptoms. About 8 weeks ago. I started suffering from a debilitating insomnia. From this I developed a heart flutter. My friend became concerened. She was in fear I would pass out. She was very much afraid I'd even pass away from this. I put her mind at ease as I have gone to the Doctor and got help for it. It was then about 8 weeks ago I realized I had a really good friend on my hands. I love my newly realized best friend!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3faeeb2541ed-EWR"
+    }
+}

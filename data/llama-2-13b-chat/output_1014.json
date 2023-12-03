@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In late May I lost my dog. She was old for a mastiff, 13 years old. I still wasn't ready though. She had been going downhill steadily but it didn't feel like enough time to prepare. I think a part of me knew that it was coming the day before. She was acting off and wasn't interested in much. I had made the decision that if she didn't improve in a day I would have her euthanized. The morning it happened I woke up and she had thrown up on the bed. She perked up for a little while and I placed her on her bed on the floor to spend some time with her before I called the vet. I held her head on my lap and pet her. This day was also the memorial service for my uncle that had just passed away. So I was home alone. It seemed like it happened so quickly. One moment she was there. And then the next moment she was gone and I was cradling her head on my lap sobbing uncontrollably. I had never felt more alone in my life than I did at that moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In late May I lost my dog. She was old for a mastiff, 13 years old. I still wasn't ready though. She had been going downhill steadily but it didn't feel like enough time to prepare. I think a part of me knew that it was coming the day before. She was acting off and wasn't interested in much. I had made the decision that if she didn't improve in a day I would have her euthanized. The morning it happened I woke up and she had thrown up on the bed. She perked up for a little while and I placed her on her bed on the floor to spend some time with her before I called the vet. I held her head on my lap and pet her. This day was also the memorial service for my uncle that had just passed away. So I was home alone. It seemed like it happened so quickly. One moment she was there. And then the next moment she was gone and I was cradling her head on my lap sobbing uncontrollably. I had never felt more alone in my life than I did at that moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The last thing I remember was her eyes looking up at me and her taking her last breath. It was like a switch had been flipped and she was gone.\n\n"
+            }
+        ],
+        "request_id": "811e9c3f094932e8-EWR"
+    }
+}

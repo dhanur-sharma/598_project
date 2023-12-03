@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, I had my annual appraisal.  I had it scheduled for Thursday at 3 pm.   I was dressed in my usually business attire.  I had on a nice pants, shirt, and tie.  Well, I was talking to a co-worker of mine and we were enjoying a nice conversation.  I told him a joke and he laughed so hard that he spilled his coffee all over my shirt right before I was about to go into my meeting.  I was pissed.  I know he did not mean it, but I was upset.  I yelled at him for a moment and then realized it was an accident.  I took a deep breath, went to the bathroom and tried to get out the stain as best I could.  I used the hairdryer to dry my shirt after I put water on it to get out the stain.  It worked a little but not much.  I walked into my meeting and decided to tackle the issue right away.  I made a joke about my shirt and what just happened.  What I remember the most is my two directors laughed their heads off so hard one of them made a big snort.  I felt much better after she laughed.  I then sat down and we talked about my work performance.  Things went great and I ended up getting the letter of confirmation and approval from my bosses that I was looking for."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, I had my annual appraisal.  I had it scheduled for Thursday at 3 pm.   I was dressed in my usually business attire.  I had on a nice pants, shirt, and tie.  Well, I was talking to a co-worker of mine and we were enjoying a nice conversation.  I told him a joke and he laughed so hard that he spilled his coffee all over my shirt right before I was about to go into my meeting.  I was pissed.  I know he did not mean it, but I was upset.  I yelled at him for a moment and then realized it was an accident.  I took a deep breath, went to the bathroom and tried to get out the stain as best I could.  I used the hairdryer to dry my shirt after I put water on it to get out the stain.  It worked a little but not much.  I walked into my meeting and decided to tackle the issue right away.  I made a joke about my shirt and what just happened.  What I remember the most is my two directors laughed their heads off so hard one of them made a big snort.  I felt much better after she laughed.  I then sat down and we talked about my work performance.  Things went great and I ended up getting the letter of confirmation and approval from my bosses that I was looking for.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a successful meeting.\n\n"
+            }
+        ],
+        "request_id": "811ece229abe43c1-EWR"
+    }
+}

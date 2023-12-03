@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,I'm still getting days of sadness when I think about the puppy trip from 4 months ago. The whole family was so excited to get a our new puppy. We had spent months trying to find the perfect one to bring into our home. Then we finally found Louie, a perfect little springer spaniel. The only problem was that he was a couple of states over. We planned a road trip to go pick him up, and it was going to take us about 8 hours to get there. We were all super excited and began our trip on Friday morning. Dad didn't check the car for any problems as it's usually fine, but we all definitely regret not convincing him to. We were only 2 hours into the ride when the car started to smell a little a funky. We didn't think much of it since we just wanted to see our cute new puppy. Then after another hour the check engine light came on and that was a sign for the worst. Only 3 hours into the trip and the engine was billowing smoke all over the highway. Turns out the radiator blew and it wasn't going to be possible to keep driving. The owner of the puppy said we had to be there as it was a first come first serve deal and the puppy was definitely wanted by more people than us. Without a way to keep on going, Dad called up AAA and had them tow the car. They couldn't tow the car to where we were going and then back, so we had to cancel the trip and go home. Because of this we missed on the opportunity to get the puppy. Since then we've been very demotivated to try and find a new puppy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,I'm still getting days of sadness when I think about the puppy trip from 4 months ago. The whole family was so excited to get a our new puppy. We had spent months trying to find the perfect one to bring into our home. Then we finally found Louie, a perfect little springer spaniel. The only problem was that he was a couple of states over. We planned a road trip to go pick him up, and it was going to take us about 8 hours to get there. We were all super excited and began our trip on Friday morning. Dad didn't check the car for any problems as it's usually fine, but we all definitely regret not convincing him to. We were only 2 hours into the ride when the car started to smell a little a funky. We didn't think much of it since we just wanted to see our cute new puppy. Then after another hour the check engine light came on and that was a sign for the worst. Only 3 hours into the trip and the engine was billowing smoke all over the highway. Turns out the radiator blew and it wasn't going to be possible to keep driving. The owner of the puppy said we had to be there as it was a first come first serve deal and the puppy was definitely wanted by more people than us. Without a way to keep on going, Dad called up AAA and had them tow the car. They couldn't tow the car to where we were going and then back, so we had to cancel the trip and go home. Because of this we missed on the opportunity to get the puppy. Since then we've been very demotivated to try and find a new puppy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't believe that one little mechanical issue ruined our dream of having Louie. We've all been so sad about it for the past 4 months and it's really been effecting our daily lives. I hope we can get over this soon."
+            }
+        ],
+        "request_id": "811f33849ee642bc-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: That camping trip still sticks in my mind despite the fact that it was two months ago.  It had been years since the 12 of us have gotten together as a group. Sure, we all kept in touch and occasionally a few of us would go out together. But, life had done it's thing and we were never all at the same place at the same time. I do not know how the idea for the camping trip came about. All I know was that when I read the message I was excited. I packed my bags and drove to the camp site on that Friday as we planned. The cabin was beautiful. A river flowed out into a lake. Perfect for swimming, lazing on a float, or just sunning on the beach. We spent most of our day doing just that.  But then the storm rolled in. It went from clear to cloudy in what seemed like mere seconds. We all scrambled to gather our things and get out of the storm. We huddled in the cabin soaked but happy. Once the rain stopped we went back to the lakeside beach and built a bonfire. Over the flames we talked about our lives, the struggles we've gone through and the successes we've had. I hope that we can do this again soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: That camping trip still sticks in my mind despite the fact that it was two months ago.  It had been years since the 12 of us have gotten together as a group. Sure, we all kept in touch and occasionally a few of us would go out together. But, life had done it's thing and we were never all at the same place at the same time. I do not know how the idea for the camping trip came about. All I know was that when I read the message I was excited. I packed my bags and drove to the camp site on that Friday as we planned. The cabin was beautiful. A river flowed out into a lake. Perfect for swimming, lazing on a float, or just sunning on the beach. We spent most of our day doing just that.  But then the storm rolled in. It went from clear to cloudy in what seemed like mere seconds. We all scrambled to gather our things and get out of the storm. We huddled in the cabin soaked but happy. Once the rain stopped we went back to the lakeside beach and built a bonfire. Over the flames we talked about our lives, the struggles we've gone through and the successes we've had. I hope that we can do this again soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb97388d732d3-EWR"
+    }
+}

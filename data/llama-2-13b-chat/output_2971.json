@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most devastating thing that ever has happened to me was the death of my sister in 2017 from cancer. After she died I felt empty and just didn't care about myself anymore. I stopped taking care of me. In May of 2019 my Mom was hospitalized and then had to go to an after hospital rehab. She was there for 18 days. I stayed with here the entire time, she was contagious so I could not leave. It was during this time that I had what I think of as an awakening. There was not much to do and I knew that I had to do something to keep myself strong. I started to exercise. Gradually I began to move. I did consider stopping but I pushed through and each day began to feel better. I also did word puzzles and had a book to read to try and stay mentally sharp. I helped my Mom with her exercises and we had long conversations. But all the while I exercised. While I was just sitting in a chair watching TV, while she was sleeping in the afternoon, I fit it in everywhere. By the time she was released I felt like a new person. This experience saved me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most devastating thing that ever has happened to me was the death of my sister in 2017 from cancer. After she died I felt empty and just didn't care about myself anymore. I stopped taking care of me. In May of 2019 my Mom was hospitalized and then had to go to an after hospital rehab. She was there for 18 days. I stayed with here the entire time, she was contagious so I could not leave. It was during this time that I had what I think of as an awakening. There was not much to do and I knew that I had to do something to keep myself strong. I started to exercise. Gradually I began to move. I did consider stopping but I pushed through and each day began to feel better. I also did word puzzles and had a book to read to try and stay mentally sharp. I helped my Mom with her exercises and we had long conversations. But all the while I exercised. While I was just sitting in a chair watching TV, while she was sleeping in the afternoon, I fit it in everywhere. By the time she was released I felt like a new person. This experience saved me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the start of me taking care of myself. I have been doing it ever since.\n\n"
+            }
+        ],
+        "request_id": "811ec17ccc9642a0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have so many memories but the one which stands out most in my mind, heart and soul is the memory of my daughter getting her driver licence. I know to many this may seem like just another day but to me it was bittersweet. We left for DMV on a beautiful sunny day. She was going to have to take the road test. She was talking a lot during the car ride there and during the long wait. I know the talking was just her being nervous about the test. She was nervous about driving with a stranger in the car. I was unsettled for other reasons. To me this was a milestone in our time together. She was getting a new kind of freedom. A whole new world was opening up for her. She had more freedom and even though this is the natural course for a young girl I couldn't help but dread the day a little. She has grown independent. She would not need me for that much longer. I know I did a great job with her and am very proud of her for passing that test with flying colors, It is just slowly moving closer to the time when she will be leaving to live her own life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have so many memories but the one which stands out most in my mind, heart and soul is the memory of my daughter getting her driver licence. I know to many this may seem like just another day but to me it was bittersweet. We left for DMV on a beautiful sunny day. She was going to have to take the road test. She was talking a lot during the car ride there and during the long wait. I know the talking was just her being nervous about the test. She was nervous about driving with a stranger in the car. I was unsettled for other reasons. To me this was a milestone in our time together. She was getting a new kind of freedom. A whole new world was opening up for her. She had more freedom and even though this is the natural course for a young girl I couldn't help but dread the day a little. She has grown independent. She would not need me for that much longer. I know I did a great job with her and am very proud of her for passing that test with flying colors, It is just slowly moving closer to the time when she will be leaving to live her own life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a beautiful day but I could feel the sadness in my heart. I will always remember this day as the day she got her driver license.\n\n"
+            }
+        ],
+        "request_id": "811e9e10ac7143a3-EWR"
+    }
+}

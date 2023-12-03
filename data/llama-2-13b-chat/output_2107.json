@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I work in a library. Patrons come to the computer lab with varying skills and ideas about how much help we will provide them. This patron happened to be African American. He had what looked like a five page resume open in Word, and he was having formatting problems. Without knowing what invisible formatting he had performed and being there since the creation of the document, it was hard to advise him on his problem. I told him this and informed him that we offer classes and one on one help on Tuesdays. I also suggested that he Google his problem as someone else probably has been through the same thing. He got angry and yelled at me. He said that I was and idiot for not knowing formatting. He demanded that someone else help him. He insinuated that I wasn't helping him because he was African American. He yelled at me some more. I told him he was free to ask anyone else, but I wouldn't help hem anymore. Another patron stepped in to help. She couldn't figure it out either."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I work in a library. Patrons come to the computer lab with varying skills and ideas about how much help we will provide them. This patron happened to be African American. He had what looked like a five page resume open in Word, and he was having formatting problems. Without knowing what invisible formatting he had performed and being there since the creation of the document, it was hard to advise him on his problem. I told him this and informed him that we offer classes and one on one help on Tuesdays. I also suggested that he Google his problem as someone else probably has been through the same thing. He got angry and yelled at me. He said that I was and idiot for not knowing formatting. He demanded that someone else help him. He insinuated that I wasn't helping him because he was African American. He yelled at me some more. I told him he was free to ask anyone else, but I wouldn't help hem anymore. Another patron stepped in to help. She couldn't figure it out either.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He left in a huff.\n\n"
+            }
+        ],
+        "request_id": "811eb04b7c9142de-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My MomI love my mom to the moon and back. She has chronic kidney disease for last 2 years. She has no one at her place to take care of her. I bring her to live with my family. After coming to my place she started trowing up badly, she could not keep anything in her stomach, not even sip of water. I had to take her to the emergency room in a point when she throw up 7 times in a row.  After testing everything and staying in the hospital for 40 days, doctor wanted to starts dialysis on her. I was not sure if I was making the right choice as it seems like doctors were trying to force dialysis on her. Now she is on dialysis and I am still wondering if I made the best choice for her, sometimes it seems like she is a money making machine for the dialysis center. Every time I take her to the center and I look around I doubt the doctor decision. The other day there were a social worker who works there said the same thing. Seems like I am giving them a permanent income source. I wish there are some alternative to the dialysis. They are working on artificial kidney. I hope it is available in the market soon. So that there will be no long wait for a transplant."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My MomI love my mom to the moon and back. She has chronic kidney disease for last 2 years. She has no one at her place to take care of her. I bring her to live with my family. After coming to my place she started trowing up badly, she could not keep anything in her stomach, not even sip of water. I had to take her to the emergency room in a point when she throw up 7 times in a row.  After testing everything and staying in the hospital for 40 days, doctor wanted to starts dialysis on her. I was not sure if I was making the right choice as it seems like doctors were trying to force dialysis on her. Now she is on dialysis and I am still wondering if I made the best choice for her, sometimes it seems like she is a money making machine for the dialysis center. Every time I take her to the center and I look around I doubt the doctor decision. The other day there were a social worker who works there said the same thing. Seems like I am giving them a permanent income source. I wish there are some alternative to the dialysis. They are working on artificial kidney. I hope it is available in the market soon. So that there will be no long wait for a transplant.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bcff7ad38c34f-EWR"
+    }
+}

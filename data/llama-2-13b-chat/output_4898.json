@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last night, I went out to celebrate a birthday party with a few close friends and had a great time. We had such a fun time performing karaoke on stage with several people like we were in a karaoke band. It was an all out concert experience with complex lighting, smoke machine, and a cheering crowd. We all drank a bit too much throughout the night that by the end of the party I was pretty trashed and so were my buddies. As the party dwindled down and some people had left the bar, I decided to call an Uber just to get home safely. While waiting for the Uber my friend Dan had called my cell phone to let me know that he was at the police precinct a few blocks down from the bar and needed my help. He explained that he had been pulled over by an unmarked police car at a stop sign. The officer said he smelled of alcohol so he needed to take a field sobriety test, which he failed and was immediately arrested. So Dan asked if I could bail him out and wanted me to pick him up from the precinct when they released him in a few hours. However, there was a problem because I had left my car at the bar parking lot since I was also drunk. Anyway, I promised him I'd be there to bail him out and take him home. I told the Uber driver to take me to an ATM where I took out $200 for Dan's bail, then immediately driven to the precinct to pay it. While waiting for him, I slept in a chair in a waiting area where he was released to me 4hours later. I called an Uber driver to pick us up and bring us to my apartment so we could get some rest. Later that night after we had sobered up, we called another Uber that brought Dan and I to a car lot because his car had been towed after his arrest. We paid for his car to be released. Dan drove me home, paid me back the money for his bail and thanked me for being a friend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last night, I went out to celebrate a birthday party with a few close friends and had a great time. We had such a fun time performing karaoke on stage with several people like we were in a karaoke band. It was an all out concert experience with complex lighting, smoke machine, and a cheering crowd. We all drank a bit too much throughout the night that by the end of the party I was pretty trashed and so were my buddies. As the party dwindled down and some people had left the bar, I decided to call an Uber just to get home safely. While waiting for the Uber my friend Dan had called my cell phone to let me know that he was at the police precinct a few blocks down from the bar and needed my help. He explained that he had been pulled over by an unmarked police car at a stop sign. The officer said he smelled of alcohol so he needed to take a field sobriety test, which he failed and was immediately arrested. So Dan asked if I could bail him out and wanted me to pick him up from the precinct when they released him in a few hours. However, there was a problem because I had left my car at the bar parking lot since I was also drunk. Anyway, I promised him I'd be there to bail him out and take him home. I told the Uber driver to take me to an ATM where I took out $200 for Dan's bail, then immediately driven to the precinct to pay it. While waiting for him, I slept in a chair in a waiting area where he was released to me 4hours later. I called an Uber driver to pick us up and bring us to my apartment so we could get some rest. Later that night after we had sobered up, we called another Uber that brought Dan and I to a car lot because his car had been towed after his arrest. We paid for his car to be released. Dan drove me home, paid me back the money for his bail and thanked me for being a friend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to help and we all learned a lesson about drinking responsibly.\n\n"
+            }
+        ],
+        "request_id": "811be00c683f42a5-EWR"
+    }
+}

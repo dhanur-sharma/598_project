@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My boyfriend and I had lived together for over five years, We had talked about getting engaged and getting married but we just were not getting around to it. I was pretty specific about the kind of ring I wanted. I didn't want anything really large I just had specific styles in mind. My boyfriend came into a little extra money. It was not a huge amount but enough to made a decent purchase. I woke up one morning and he was already out of bed which was not unusual. I got up and came to the living room. He approached me, got down on one knee, and asked me to marry him. The ring was perfect and of course I said yes. I was so happy. He had obviously been paying attention to my desires involving an engagement ring even though he knows nothing about jewelry which means a lot to me. He had to have done a lot of research. He even made sure the quality was good rather than just the style. I'm thrilled to be engaged to him. I can't wait to marry him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My boyfriend and I had lived together for over five years, We had talked about getting engaged and getting married but we just were not getting around to it. I was pretty specific about the kind of ring I wanted. I didn't want anything really large I just had specific styles in mind. My boyfriend came into a little extra money. It was not a huge amount but enough to made a decent purchase. I woke up one morning and he was already out of bed which was not unusual. I got up and came to the living room. He approached me, got down on one knee, and asked me to marry him. The ring was perfect and of course I said yes. I was so happy. He had obviously been paying attention to my desires involving an engagement ring even though he knows nothing about jewelry which means a lot to me. He had to have done a lot of research. He even made sure the quality was good rather than just the style. I'm thrilled to be engaged to him. I can't wait to marry him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec1a2ab58434a-EWR"
+    }
+}

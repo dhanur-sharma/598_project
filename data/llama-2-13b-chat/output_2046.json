@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,      Even though it was four months ago, I keep thinking about the soccer awards ceremony.  I know I did my best this year and scored more goals than I could ever have hoped for, but I didn't know if I would get any recognition for it.  I couldn't believe it when Mom AND Dad both came.  They usually can't stand to be together, but that night they sat at the same table with me and they were perfectly nice to each other.  I brought the family together!  I felt like a champion just for that! We are the meal--Mom and I had the chicken, and Dad had the roast beef.  It was okay.  They served it with carrots though, yuck.  I was too nervous to even eat my cake because I knew that the ceremony was right after that.  I tried not to get my hopes up, but when they started reading the picks for All State Champion, I could barely breathe.  When my coach said my name, Veah Jones, I jumped up so fast that I scared my mom a little bit.  My coach smiled so big and hugged me when I got to the stage and then handed me my trophy.  I also got a pin, and I wear it every single day.  The only thing that makes me nervous about having gotten the award is that it will be the best moment of my life and it's all downhill from there.  But hopefully not!  I'll write more later, Veah"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,      Even though it was four months ago, I keep thinking about the soccer awards ceremony.  I know I did my best this year and scored more goals than I could ever have hoped for, but I didn't know if I would get any recognition for it.  I couldn't believe it when Mom AND Dad both came.  They usually can't stand to be together, but that night they sat at the same table with me and they were perfectly nice to each other.  I brought the family together!  I felt like a champion just for that! We are the meal--Mom and I had the chicken, and Dad had the roast beef.  It was okay.  They served it with carrots though, yuck.  I was too nervous to even eat my cake because I knew that the ceremony was right after that.  I tried not to get my hopes up, but when they started reading the picks for All State Champion, I could barely breathe.  When my coach said my name, Veah Jones, I jumped up so fast that I scared my mom a little bit.  My coach smiled so big and hugged me when I got to the stage and then handed me my trophy.  I also got a pin, and I wear it every single day.  The only thing that makes me nervous about having gotten the award is that it will be the best moment of my life and it's all downhill from there.  But hopefully not!  I'll write more later, Veah",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "."
+            }
+        ],
+        "request_id": "811eaf3a2fd20c9d-EWR"
+    }
+}

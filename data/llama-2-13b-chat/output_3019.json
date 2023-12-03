@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My memorable diary entry is about a family reunion I had with my family that lives on the East coast of the United States.  The occasion for the reunion was very appropriate. My cousin had a house warming and her husband finished his masters degree.  This occurred last weekend.  I flew to Philadelphia and my cousin picked me up from the airport. We had a great time and seeing my family was unforgettable.  It was quite emotional as well.  We had not seen each other since my brothers funeral two and a half years earlier. We ate tons of food at a BBQ in my cousins backyard and continued the festivities by blessing my cousins house.  What a great time we had.  I also met some family I had never met before including a whole generation of cousins that are less than 5 years old.  We have now decided we must met a least once a year.  The memories must continue. I'm calling my siblings to make sure they join in the plans for next year.  My sister has agree.  My parents are left to encourage to join us.  Call it our yearly family reunion."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My memorable diary entry is about a family reunion I had with my family that lives on the East coast of the United States.  The occasion for the reunion was very appropriate. My cousin had a house warming and her husband finished his masters degree.  This occurred last weekend.  I flew to Philadelphia and my cousin picked me up from the airport. We had a great time and seeing my family was unforgettable.  It was quite emotional as well.  We had not seen each other since my brothers funeral two and a half years earlier. We ate tons of food at a BBQ in my cousins backyard and continued the festivities by blessing my cousins house.  What a great time we had.  I also met some family I had never met before including a whole generation of cousins that are less than 5 years old.  We have now decided we must met a least once a year.  The memories must continue. I'm calling my siblings to make sure they join in the plans for next year.  My sister has agree.  My parents are left to encourage to join us.  Call it our yearly family reunion.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm looking forward to it already.\n\n"
+            }
+        ],
+        "request_id": "811ec284ec1d0f99-EWR"
+    }
+}

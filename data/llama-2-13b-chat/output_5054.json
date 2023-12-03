@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mom passed away six months ago. It has been incredibly difficult to deal with. I was staying with her, taking care of her, and doing her laundry, cooking, picking up her medications, etc. For years, she was in and out of the hospital, but she always came back home within a month. They would have to regulate her medications, and she was fine. This time was different. She had to have open heart surgery. My family and I went through a lot of ups and downs. One day they would tell us that she's making great progress on her recovery, the next, they'd say she's regressing. This went on for a month, before they finally told us there was nothing they could do for her. She and I had our fair share of issues, but we both loved each other very much. She was the only person I could say who truly loved me. Now she's gone, and I've been staying at a friend's house, trying to decide what to do next. I've suffered with depression, anxiety, PTSD, and suicidal thoughts for decades. I honestly don't know if I want to continue. My mom was the only reason I kept going. I knew that if I committed suicide while she was alive, that it would kill her. Now she's gone, and I have no reason to live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mom passed away six months ago. It has been incredibly difficult to deal with. I was staying with her, taking care of her, and doing her laundry, cooking, picking up her medications, etc. For years, she was in and out of the hospital, but she always came back home within a month. They would have to regulate her medications, and she was fine. This time was different. She had to have open heart surgery. My family and I went through a lot of ups and downs. One day they would tell us that she's making great progress on her recovery, the next, they'd say she's regressing. This went on for a month, before they finally told us there was nothing they could do for her. She and I had our fair share of issues, but we both loved each other very much. She was the only person I could say who truly loved me. Now she's gone, and I've been staying at a friend's house, trying to decide what to do next. I've suffered with depression, anxiety, PTSD, and suicidal thoughts for decades. I honestly don't know if I want to continue. My mom was the only reason I kept going. I knew that if I committed suicide while she was alive, that it would kill her. Now she's gone, and I have no reason to live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3581b7f4392-EWR"
+    }
+}

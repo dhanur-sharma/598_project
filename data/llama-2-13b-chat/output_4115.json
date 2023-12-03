@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe it!  Yesterday I met someone online on my dating site.  She was just awesome and I was initially too scared to write to her.  I didn't think I even had a chance.  I was about to close her profile and move on to the next one but then something inside me told me to write.  I guess I just felt we had stuff in common.  So I wrote the best note from the heart I could.  And I sent it, thinking nothing would come of it.  Well, guess what?  Today she wrote me back and said she loved my profile too and wanted to meet for dinner!  I am still in shock!  I've never gotten such a positive response from someone before!  And the thing is I like her so much too.  So now I'm waiting for her to call me.  She said she would when she got off work tonight and we'd meet.  I'm very nervous of course but excited too.  I've been sitting near the phone for an hour now.  My throat feels dry and my heart is racing.  This could be the start of a wonderful relationship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe it!  Yesterday I met someone online on my dating site.  She was just awesome and I was initially too scared to write to her.  I didn't think I even had a chance.  I was about to close her profile and move on to the next one but then something inside me told me to write.  I guess I just felt we had stuff in common.  So I wrote the best note from the heart I could.  And I sent it, thinking nothing would come of it.  Well, guess what?  Today she wrote me back and said she loved my profile too and wanted to meet for dinner!  I am still in shock!  I've never gotten such a positive response from someone before!  And the thing is I like her so much too.  So now I'm waiting for her to call me.  She said she would when she got off work tonight and we'd meet.  I'm very nervous of course but excited too.  I've been sitting near the phone for an hour now.  My throat feels dry and my heart is racing.  This could be the start of a wonderful relationship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can't believe it!"
+            }
+        ],
+        "request_id": "811bd032fb054291-EWR"
+    }
+}

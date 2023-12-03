@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: i grew up in a poor home. while growing up, seeing commercials about Walt Disney World would only be a dream. my parents would never ever think about taking me as a child. whenever i asked, they instantly said no. i kept dreaming and never forgetting. i now have 2 kids and we just got back from a two week vacation from Walt Disney World. it was the best vacation. although it might be a once in a lifetime event due to money, we made memories that will last a lifetime. im so happy to have taken my kids and myself. i made dreams come true. hopefully one day we can go again but that would mean saving up all over again. till this day i cant believe it. my parents were so happy for my. they know how much of a disney fanatic i am. i love everything disney."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: i grew up in a poor home. while growing up, seeing commercials about Walt Disney World would only be a dream. my parents would never ever think about taking me as a child. whenever i asked, they instantly said no. i kept dreaming and never forgetting. i now have 2 kids and we just got back from a two week vacation from Walt Disney World. it was the best vacation. although it might be a once in a lifetime event due to money, we made memories that will last a lifetime. im so happy to have taken my kids and myself. i made dreams come true. hopefully one day we can go again but that would mean saving up all over again. till this day i cant believe it. my parents were so happy for my. they know how much of a disney fanatic i am. i love everything disney.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i will never forget this trip. it was amazing.\n\n"
+            }
+        ],
+        "request_id": "811f3fddfd80434b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a teenage daughter. One day, she came home from school. She told me that others have been talking to her about depression. Although she knew little about depression, the more her classmates told her about it, the more she wondered if she had depression herself. Therefore, we went to a depression specialist. We had my daughter tested. She was diagnosed with severe depression. For a few months, we went without medication. We realized that things got slightly worse. As a result, we decided to try medication. At first, I was against trying medication. When things got worse, we decided to try the medication. Thankfully, it has made our world, and her world, change for the better. I was skeptical about depression medication. However, I am glad I gave it a chance. Today, our daughter is living a happy life along with the rest of her family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a teenage daughter. One day, she came home from school. She told me that others have been talking to her about depression. Although she knew little about depression, the more her classmates told her about it, the more she wondered if she had depression herself. Therefore, we went to a depression specialist. We had my daughter tested. She was diagnosed with severe depression. For a few months, we went without medication. We realized that things got slightly worse. As a result, we decided to try medication. At first, I was against trying medication. When things got worse, we decided to try the medication. Thankfully, it has made our world, and her world, change for the better. I was skeptical about depression medication. However, I am glad I gave it a chance. Today, our daughter is living a happy life along with the rest of her family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eafdb098a42ce-EWR"
+    }
+}

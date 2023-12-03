@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I went to a family reunion. I had a blast meeting my family. I gave my sister a big hug. I gave my brother a handshake. I shared a beer with my father. I had some wine with my mother. I played horse shoes with my cousins. I won the game and celebrated my win with some cake. We all got together to perform karaoke. Most of the people were drunk, so they didn't mind singing. I almost fell over while singing. I was too drunk to sing. I had to sit down for the rest of the day. I still had a ton of fun at the reunion. I went home with some great memories of the event. It was a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I went to a family reunion. I had a blast meeting my family. I gave my sister a big hug. I gave my brother a handshake. I shared a beer with my father. I had some wine with my mother. I played horse shoes with my cousins. I won the game and celebrated my win with some cake. We all got together to perform karaoke. Most of the people were drunk, so they didn't mind singing. I almost fell over while singing. I was too drunk to sing. I had to sit down for the rest of the day. I still had a ton of fun at the reunion. I went home with some great memories of the event. It was a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9568fd494397-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Friends and I decided to go out to dinner and it was my turn to choose the place.   I check some of our favorite places to see if any of them was running a special.  No one was, so I decided to look for a new place that we might enjoy.   I Googled restaurants near me and found several that we had not been to yet.    I read their reviews and decided on a new steak house which also served a nice variety on their menu.   I notified all my friend and they were excited about trying a new place.   I made a reservation as there were six of us going.   When we got there the place was packed, but as soon as I gave my name to the hostess, we were ushered to our seats which were off the side of the main room, giving us a bit of privacy.   We got our drinks and made our dinner orders and sat back for what we assumed might be a wait, considering how busy they were.   Salads and rolls came out promptly and both were great. Within an amazingly short time, our dinners arrived and all of us were thrilled with our choice.   The food was hot, cooked as requested and artfully presented.  To say this place was a hit is an understatement.   It has not been added to our list of favorites.  I was happy that I had made a good choice for a nice evening."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Friends and I decided to go out to dinner and it was my turn to choose the place.   I check some of our favorite places to see if any of them was running a special.  No one was, so I decided to look for a new place that we might enjoy.   I Googled restaurants near me and found several that we had not been to yet.    I read their reviews and decided on a new steak house which also served a nice variety on their menu.   I notified all my friend and they were excited about trying a new place.   I made a reservation as there were six of us going.   When we got there the place was packed, but as soon as I gave my name to the hostess, we were ushered to our seats which were off the side of the main room, giving us a bit of privacy.   We got our drinks and made our dinner orders and sat back for what we assumed might be a wait, considering how busy they were.   Salads and rolls came out promptly and both were great. Within an amazingly short time, our dinners arrived and all of us were thrilled with our choice.   The food was hot, cooked as requested and artfully presented.  To say this place was a hit is an understatement.   It has not been added to our list of favorites.  I was happy that I had made a good choice for a nice evening.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We all left feeling full and happy.\n\n"
+            }
+        ],
+        "request_id": "811eb33b2f674322-EWR"
+    }
+}

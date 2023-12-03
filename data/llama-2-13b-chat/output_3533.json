@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago I made a bad move while playing soccer. I twisted my foot and ruptured my Achilles tendon in the process. Ouch! I immediately knew that I had a serious injury. The pain shot up from my ankle area and I could no longer stand up.  A couple of my fellow players helped me to a bench and I sat down, hoping that it was just a sprain that would heal up with time and ice.  But it soon became apparent that I should probably get the thing looked at. I didn't think that I could drive with my injury, so I got a friend to drive me to the clinic,  The doctor told me I was in for a long recover. Bummer! So I have been limping and babying my foot since that day. The tendon seems to be taking its sweet time healing. I am getting very tired of hopping along on crutches, but that is my fate until I am whole again. At work they call me \"Hopalong\". I think that I will play soccer again, but I will use ace bandage wraps on my ankles from now on. Life goes on, and all kinds of other things are happening to me, but this one handicap is certainly right up there at the forefront of my daily living."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago I made a bad move while playing soccer. I twisted my foot and ruptured my Achilles tendon in the process. Ouch! I immediately knew that I had a serious injury. The pain shot up from my ankle area and I could no longer stand up.  A couple of my fellow players helped me to a bench and I sat down, hoping that it was just a sprain that would heal up with time and ice.  But it soon became apparent that I should probably get the thing looked at. I didn't think that I could drive with my injury, so I got a friend to drive me to the clinic,  The doctor told me I was in for a long recover. Bummer! So I have been limping and babying my foot since that day. The tendon seems to be taking its sweet time healing. I am getting very tired of hopping along on crutches, but that is my fate until I am whole again. At work they call me \"Hopalong\". I think that I will play soccer again, but I will use ace bandage wraps on my ankles from now on. Life goes on, and all kinds of other things are happening to me, but this one handicap is certainly right up there at the forefront of my daily living.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecb28d9a0431a-EWR"
+    }
+}

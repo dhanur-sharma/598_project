@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today, I had a big talk with my aunt. I talked to her about getting into gradschool. I have failed getting into gradschool. My aunt is the only one I can talk to about this failure. I can't tell anybody else or they would be very mad at me. My aunt said it was alright and to try harder. She said that she failed getting into college three times before she got accepted. It took her a lot of studying to get in. She has a masters in business. She owns a few businesses now and is very  successful. She told me to keep trying. She said to keep studying and if you fail, try again. This helped me a ton. It gave me a lot of motivation. I will study harder."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today, I had a big talk with my aunt. I talked to her about getting into gradschool. I have failed getting into gradschool. My aunt is the only one I can talk to about this failure. I can't tell anybody else or they would be very mad at me. My aunt said it was alright and to try harder. She said that she failed getting into college three times before she got accepted. It took her a lot of studying to get in. She has a masters in business. She owns a few businesses now and is very  successful. She told me to keep trying. She said to keep studying and if you fail, try again. This helped me a ton. It gave me a lot of motivation. I will study harder.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will get into gradschool. I will make my family proud. I am so grateful to have an aunt like her. She is very kind and understanding. She knows how to talk to me and help me. She is the best aunt ever.\n\n"
+            }
+        ],
+        "request_id": "811e9b3cdf6141ff-EWR"
+    }
+}

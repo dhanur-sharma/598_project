@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am in shock. I met a cousin I hadn't seen in a while. He was looking distraught and a bit out of it. I felt it wasn't my place to call him out at the time. But he had changed. We hadn't seen each other since childhood. The changes were great. He was always a weirdo. But even more so at this time. I don't know if he has true issues or not. It might be his normal self now days. He was slightly off in his demeanor. And way more then usual. It felt like a script from a bad movie. There was times I was scared. Not that he would hurt me but more like he would hurt himself accidently. If feel for him and will call."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am in shock. I met a cousin I hadn't seen in a while. He was looking distraught and a bit out of it. I felt it wasn't my place to call him out at the time. But he had changed. We hadn't seen each other since childhood. The changes were great. He was always a weirdo. But even more so at this time. I don't know if he has true issues or not. It might be his normal self now days. He was slightly off in his demeanor. And way more then usual. It felt like a script from a bad movie. There was times I was scared. Not that he would hurt me but more like he would hurt himself accidently. If feel for him and will call.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I'm still in shock."
+            }
+        ],
+        "request_id": "811ebfda6bbc4322-EWR"
+    }
+}

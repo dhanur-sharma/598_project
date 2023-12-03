@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a beautiful Saturday morning. My family members and i decided to go to the beach. We got to the beach and got carried away by the fun. We forgot to apply the sunscreen and that caused a damage to our skin. We all got sunburned and look black. This unique burn on our skin made us look alike. After leaving the beach and got home. We decided to have a family reunion and this made us all have a burn to identify ourselves. We really love what the sunburn did to our skin. It made us love ourselves more. We took a family picture and placed it in the living room. Each member also had a copy of the pictures. We planned another visit to the beach. We applied sunscreen this time. We are ever happy after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a beautiful Saturday morning. My family members and i decided to go to the beach. We got to the beach and got carried away by the fun. We forgot to apply the sunscreen and that caused a damage to our skin. We all got sunburned and look black. This unique burn on our skin made us look alike. After leaving the beach and got home. We decided to have a family reunion and this made us all have a burn to identify ourselves. We really love what the sunburn did to our skin. It made us love ourselves more. We took a family picture and placed it in the living room. Each member also had a copy of the pictures. We planned another visit to the beach. We applied sunscreen this time. We are ever happy after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8ee4be724213-EWR"
+    }
+}

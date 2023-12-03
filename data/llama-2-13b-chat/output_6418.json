@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just got back from my trip to Maine.  I had never been there.  Maine had gorgeous scenery, and the weather was perfect.   I truly was surprised and taken back because no one ever talks about traveling to Maine or Maine being on their bucket list.   I spent my mornings and afternoons working on my grant research project.  I really did not mind, though, as it is what I am passionate about.  My project went really well!  I thought I did great.  I bonded with the other student too.  When my project is published, I believe this is really going to help my resume.  I'm super pumped about having this project under my belt.  When I was done for the day, I explored parks and rivers.  I hope that I can always remember the scenes that I came upon.  I ate at several fabulous restaurants.  Their seafood is unbelievable and very fresh.  I captured beautiful sunsets.  I also met some new people that I plan to stay in contact with.  Overall, it was a fabulous trip.  I'm extremely grateful that my university picked me as one of the two students to represent the school for the project."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just got back from my trip to Maine.  I had never been there.  Maine had gorgeous scenery, and the weather was perfect.   I truly was surprised and taken back because no one ever talks about traveling to Maine or Maine being on their bucket list.   I spent my mornings and afternoons working on my grant research project.  I really did not mind, though, as it is what I am passionate about.  My project went really well!  I thought I did great.  I bonded with the other student too.  When my project is published, I believe this is really going to help my resume.  I'm super pumped about having this project under my belt.  When I was done for the day, I explored parks and rivers.  I hope that I can always remember the scenes that I came upon.  I ate at several fabulous restaurants.  Their seafood is unbelievable and very fresh.  I captured beautiful sunsets.  I also met some new people that I plan to stay in contact with.  Overall, it was a fabulous trip.  I'm extremely grateful that my university picked me as one of the two students to represent the school for the project.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am also very thankful for the opportunity to go to Maine.   I will never forget this trip.\n\n"
+            }
+        ],
+        "request_id": "811f44eac9fe1a28-EWR"
+    }
+}

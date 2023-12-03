@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son and his girlfriend decided that they could not stand living near me anymore. My son and I ended up arguing in the front lawn. Things were getting pretty heated and that is when he called me a name that no child should ever call their mother. I felt disrespected, humiliated, betrayed, and hurt. I had done everything that I could for this child. I gave birth to him, fed and clothed him. I never let him go without and then he turned around and did that. I didn't deserve that. I had done what I was supposed to as a mother. My job is to birth them, raise them, and make sure they live to see 18. He could have had a worse mother. It was like he didn't even appreciate any of it. I have four other kids and I knew I couldn't let them think that it was okay to disrespect me or my husband like that. So, I told him to leave and that I was done. I still love him, but I have to love him from a distance now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son and his girlfriend decided that they could not stand living near me anymore. My son and I ended up arguing in the front lawn. Things were getting pretty heated and that is when he called me a name that no child should ever call their mother. I felt disrespected, humiliated, betrayed, and hurt. I had done everything that I could for this child. I gave birth to him, fed and clothed him. I never let him go without and then he turned around and did that. I didn't deserve that. I had done what I was supposed to as a mother. My job is to birth them, raise them, and make sure they live to see 18. He could have had a worse mother. It was like he didn't even appreciate any of it. I have four other kids and I knew I couldn't let them think that it was okay to disrespect me or my husband like that. So, I told him to leave and that I was done. I still love him, but I have to love him from a distance now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2fbc39ea4283-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This happened about 3 months ago.  I was driving with my brother back from the movie theater when we were sideswiped by another car.  It spun us around into the median and was completely terrifying.  It really came out of nowhere and gave me no time to react or take any preventative measures.  We both looked at each other shocked when we came to a stop.  We checked on each other to make sure we were both okay, which we were.  We got out of my car to assess the damage and make sure the other driver was okay.  They other driver got out of their car and were obviously under the influence.  You could see the wobble in them from 20 feet away.  My car, which was pretty new, was smashed in the rear driver side, but not as bad as I would have thought.  The other driver looked to be in his mid 20s and started to freak out a bit when he realized that we were calling the police.  The police go there really quickly and gave the guy a field sobriety test which he failed miserably.  I exchanged information with on of the officers while we waited for a tow truck to come.  The other driver was arrested and my car was towed away.  It is the only major accident I've ever been in besides one or two small fender benders in parking lots.  Surprisingly, my car was mostly okay.  It's a 2012 Subaru Legacy that I spent a lot of time saving up for.  I'm not entirely sure what happened to the other driver, but his insurance settled out with us.  Ironically, my car was salvaged out about a month later due to hail damage (somehow that was more costly than this accident)."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This happened about 3 months ago.  I was driving with my brother back from the movie theater when we were sideswiped by another car.  It spun us around into the median and was completely terrifying.  It really came out of nowhere and gave me no time to react or take any preventative measures.  We both looked at each other shocked when we came to a stop.  We checked on each other to make sure we were both okay, which we were.  We got out of my car to assess the damage and make sure the other driver was okay.  They other driver got out of their car and were obviously under the influence.  You could see the wobble in them from 20 feet away.  My car, which was pretty new, was smashed in the rear driver side, but not as bad as I would have thought.  The other driver looked to be in his mid 20s and started to freak out a bit when he realized that we were calling the police.  The police go there really quickly and gave the guy a field sobriety test which he failed miserably.  I exchanged information with on of the officers while we waited for a tow truck to come.  The other driver was arrested and my car was towed away.  It is the only major accident I've ever been in besides one or two small fender benders in parking lots.  Surprisingly, my car was mostly okay.  It's a 2012 Subaru Legacy that I spent a lot of time saving up for.  I'm not entirely sure what happened to the other driver, but his insurance settled out with us.  Ironically, my car was salvaged out about a month later due to hail damage (somehow that was more costly than this accident).",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm just glad that everyone was okay and that the other driver was caught and held accountable.  This experience has made me a bit more cautious on the road, but it also reminded me of how quickly things can go wrong even when you're being careful."
+            }
+        ],
+        "request_id": "811e8aeabc384288-EWR"
+    }
+}

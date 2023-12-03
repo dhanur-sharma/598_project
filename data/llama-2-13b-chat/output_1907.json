@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One of the worst days that I ever had in my life. It was the day that I lost my job. Started off with me waking up late for work. I end up ignoring my alarm clock and getting u late. I rush and brush my teeth and put on my clothes and drove off. Didn't get far and realize that I forgot my lunch. Drove back home, speeding, and ran inside and grab my lunch. Driving about 65 miles per hour, I end up getting stuck behind traffic. The line was so long that you couldn't see what was going on. All I know was that I was going to be late for work. I called my boss and he told me that I would be okay and have nothing to worry about. Stuck in traffic, I waited patiently and when I got closer I say that It was a truck stuck in a ditch. Eventually the truck got out and I was on my way. Got to work thinking everything was okay. But I knew something was wrong. The corporate manager kept walking by, staring at me through out the day. I can see her whispering to my manager. I ask one of the fellow employees did they hear anything. They said no that they think I'm okay. My boss calls me over and tells me that he needs me to sign paperwork at the front since the day was almost over, I could leave after this. Gather my stuff and walked with him to the front. Little did I know, It was the big boss in the office. Basically explained to me I was fired. Grab my stuff from the locker and walked out. Stayed in the car sitting there just thinking about my future and drove home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One of the worst days that I ever had in my life. It was the day that I lost my job. Started off with me waking up late for work. I end up ignoring my alarm clock and getting u late. I rush and brush my teeth and put on my clothes and drove off. Didn't get far and realize that I forgot my lunch. Drove back home, speeding, and ran inside and grab my lunch. Driving about 65 miles per hour, I end up getting stuck behind traffic. The line was so long that you couldn't see what was going on. All I know was that I was going to be late for work. I called my boss and he told me that I would be okay and have nothing to worry about. Stuck in traffic, I waited patiently and when I got closer I say that It was a truck stuck in a ditch. Eventually the truck got out and I was on my way. Got to work thinking everything was okay. But I knew something was wrong. The corporate manager kept walking by, staring at me through out the day. I can see her whispering to my manager. I ask one of the fellow employees did they hear anything. They said no that they think I'm okay. My boss calls me over and tells me that he needs me to sign paperwork at the front since the day was almost over, I could leave after this. Gather my stuff and walked with him to the front. Little did I know, It was the big boss in the office. Basically explained to me I was fired. Grab my stuff from the locker and walked out. Stayed in the car sitting there just thinking about my future and drove home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "One of the worst days of my life."
+            }
+        ],
+        "request_id": "811eacff0fc142d8-EWR"
+    }
+}

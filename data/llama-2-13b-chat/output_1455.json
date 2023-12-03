@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A memorable event that stands out to me in the last three to six months is hiking at Providence State Park in Lumpkin, GA.  This was a very special event because the day was epic.   The day started out rather foggy for the two hour drive south.  The scenery along the way was beautiful as the sun was just rising.  We started the trip early to arrive before others.  We packed our backpacks with snacks and drinks for the trail.  The trail is about an 8 mile loops down inside canyons.              When we arrived, we paid the $5 parking fee.  We also took one last proper bathroom stop.  The view was amazing from the top walkway.  No one else had arrived yet as we started our trek down.  The canyon walls are made of Georgia Clay and the trees were so green.  We hiked for about four hours, took our lunch break and then continued on.               There were plenty of canyon inlets we didn't get a chance to see on that trip, but one day real soon we will return and do it all over again.  It's a memory I will forever cherish."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A memorable event that stands out to me in the last three to six months is hiking at Providence State Park in Lumpkin, GA.  This was a very special event because the day was epic.   The day started out rather foggy for the two hour drive south.  The scenery along the way was beautiful as the sun was just rising.  We started the trip early to arrive before others.  We packed our backpacks with snacks and drinks for the trail.  The trail is about an 8 mile loops down inside canyons.              When we arrived, we paid the $5 parking fee.  We also took one last proper bathroom stop.  The view was amazing from the top walkway.  No one else had arrived yet as we started our trek down.  The canyon walls are made of Georgia Clay and the trees were so green.  We hiked for about four hours, took our lunch break and then continued on.               There were plenty of canyon inlets we didn't get a chance to see on that trip, but one day real soon we will return and do it all over again.  It's a memory I will forever cherish.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will be back.  The park ranger said there were black bears and timber rattlesnakes in the area, but we didn't see any.  The park was well maintained and had clean facilities.\n\n"
+            }
+        ],
+        "request_id": "811ea509b93743fb-EWR"
+    }
+}

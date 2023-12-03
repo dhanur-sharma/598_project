@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe that my sweet girl has started 1st grade!  It just keeps feeling like time is flying.  Taking her to school this morning was wonderful.  She's so happy and confident and just ready to be back in school.  The coffee time was great too, because I was able to see her so happily interacting with so many of her friends from last year.  Kids were running up and giving her hugs and vice-versa.  I was moved by seeing my confident child.  Taking her to school this day was incredible.  I also enjoyed that because I'm a part of the PTG I was able to interact with some of the other parents that I haven't met in the past.  This gave me the chance to get to know some more parents.  We spent time preparing a treat for all of the students and then handing the treat out to them towards the end of the day.  In the evening, I had my first experience coaching soccer!  I'm the new 1st grade soccer coach.  I'm not sure I really feel completely comfortable in the role yet, but we'll see how it goes.  I think mostly the kids had a good time, although I could tell that some of the boys were questioning my authority as a coach.  I think (hopefully) I proved to them that I deserve to be their coach - I certainly played soccer long enough that I know a thing or two.  It will definitely be interesting to see how things progress as this very short season continues on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe that my sweet girl has started 1st grade!  It just keeps feeling like time is flying.  Taking her to school this morning was wonderful.  She's so happy and confident and just ready to be back in school.  The coffee time was great too, because I was able to see her so happily interacting with so many of her friends from last year.  Kids were running up and giving her hugs and vice-versa.  I was moved by seeing my confident child.  Taking her to school this day was incredible.  I also enjoyed that because I'm a part of the PTG I was able to interact with some of the other parents that I haven't met in the past.  This gave me the chance to get to know some more parents.  We spent time preparing a treat for all of the students and then handing the treat out to them towards the end of the day.  In the evening, I had my first experience coaching soccer!  I'm the new 1st grade soccer coach.  I'm not sure I really feel completely comfortable in the role yet, but we'll see how it goes.  I think mostly the kids had a good time, although I could tell that some of the boys were questioning my authority as a coach.  I think (hopefully) I proved to them that I deserve to be their coach - I certainly played soccer long enough that I know a thing or two.  It will definitely be interesting to see how things progress as this very short season continues on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It's hard to believe that it's already time to be back in school."
+            }
+        ],
+        "request_id": "811be3401f3c41ec-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was looking for a new job and came across one that was my DREAM job! I looked at it and read all of the information ans was very excited to apply. i went ahead and applied. I had a good feeling and was sure that they would call me. i waited a few days and nothing happened. then as soon as i was thinking that they wouldn't call, they did. the call went very well and i was asked to come in for an interview. I went in for the interview and everything went very well. the person interviewing was nice, i felt right at home. we exchanged thought and I answered questions. we shook hands and I left. I was sure i would get the job. they never called me to offer a job. It made me sad. i feel like i messed up somehow, but i do not know what i did."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was looking for a new job and came across one that was my DREAM job! I looked at it and read all of the information ans was very excited to apply. i went ahead and applied. I had a good feeling and was sure that they would call me. i waited a few days and nothing happened. then as soon as i was thinking that they wouldn't call, they did. the call went very well and i was asked to come in for an interview. I went in for the interview and everything went very well. the person interviewing was nice, i felt right at home. we exchanged thought and I answered questions. we shook hands and I left. I was sure i would get the job. they never called me to offer a job. It made me sad. i feel like i messed up somehow, but i do not know what i did.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still looking for a job.\n\n"
+            }
+        ],
+        "request_id": "811f469b084a4271-EWR"
+    }
+}

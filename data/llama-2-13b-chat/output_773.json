@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I lost my job. It really sucks because it's a job I held for 5 years and loved doing. I'm going to miss everyone I work with. This a going to be a very hard time to pick myself up and get back into the swing of things. I just hope I can stay close to the friends I made there. I understand why they had to let me go. Company's change and have to make big decisions. Unfortunately, that resulted in me losing my job. We were over head count. They had to let someone go. With me having a recorded I was the one that got picked. It makes sense, but still sucks. I won't let it get to me to much. It's upsetting but I'll do all I can to get back on my feet. Going to start looking for a new job soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I lost my job. It really sucks because it's a job I held for 5 years and loved doing. I'm going to miss everyone I work with. This a going to be a very hard time to pick myself up and get back into the swing of things. I just hope I can stay close to the friends I made there. I understand why they had to let me go. Company's change and have to make big decisions. Unfortunately, that resulted in me losing my job. We were over head count. They had to let someone go. With me having a recorded I was the one that got picked. It makes sense, but still sucks. I won't let it get to me to much. It's upsetting but I'll do all I can to get back on my feet. Going to start looking for a new job soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Hopefully, something better will come along."
+            }
+        ],
+        "request_id": "811e985248478c57-EWR"
+    }
+}

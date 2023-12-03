@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can recall an event that happened to me  three months ago that made me take a step back on my health. I had a mild heart attack that caused nerve damage on my left side. I knew I had to make some life changes. That's when I knew I had to work less, stress less and pray more. I had always worked hard and alot of overtime. I never realised what I was doing to myself. I thought as long as I stayed active, I was doing my body good. I guess I didn't know my body as well as I once did. Age does make a difference. My body was aging and I wasn't as young as I use to be. After going to the ER and hearing the Doctor tell me I had a mild heart attack, I was in shock. He told me that I may have a major heart attack following or even mini strokes. I felt this may have been God's message to slow me down. I know he was telling me, he was there for me. I needed to pray more and stop trying to take care of everything myself. He was right! I now take things without stress and focus more on my health."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can recall an event that happened to me  three months ago that made me take a step back on my health. I had a mild heart attack that caused nerve damage on my left side. I knew I had to make some life changes. That's when I knew I had to work less, stress less and pray more. I had always worked hard and alot of overtime. I never realised what I was doing to myself. I thought as long as I stayed active, I was doing my body good. I guess I didn't know my body as well as I once did. Age does make a difference. My body was aging and I wasn't as young as I use to be. After going to the ER and hearing the Doctor tell me I had a mild heart attack, I was in shock. He told me that I may have a major heart attack following or even mini strokes. I felt this may have been God's message to slow me down. I know he was telling me, he was there for me. I needed to pray more and stop trying to take care of everything myself. He was right! I now take things without stress and focus more on my health.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still work hard but not to the point of exhaustion. I have learned to listen to my body and take care of it. My heart is doing much better and I am grateful for every day that I am alive.\n\n"
+            }
+        ],
+        "request_id": "811bcf7fef654387-EWR"
+    }
+}

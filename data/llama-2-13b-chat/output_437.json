@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I enjoy my new house. I got some new black leather furniture and a red carpet. I also bought some interesting and quite large black and white pictures fro the walls. Rooms that are smaller seem bigger with large wall pictures. I like fabric curtains all the way to the floor, and wood floors. My walls are white, that creates space. I have a little garden in the back and I planted tomatoes, cucumbers,peppers. I also planted a lot of sun flowers, a lemon and an orange tree. And an avocado tree. I got some bird houses too, it's very pretty, my little garden.  Women like pretty things. I also like to hang the laundry and dry it outside in the sun, whenever possible. I still have to work on remodeling the bathrooms. I like copper sinks and faucets. And tall bathtubs. I don't really like my neighbors, but they don't seem to bother me much. It's a good location, close to freeways. Easy to get around."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I enjoy my new house. I got some new black leather furniture and a red carpet. I also bought some interesting and quite large black and white pictures fro the walls. Rooms that are smaller seem bigger with large wall pictures. I like fabric curtains all the way to the floor, and wood floors. My walls are white, that creates space. I have a little garden in the back and I planted tomatoes, cucumbers,peppers. I also planted a lot of sun flowers, a lemon and an orange tree. And an avocado tree. I got some bird houses too, it's very pretty, my little garden.  Women like pretty things. I also like to hang the laundry and dry it outside in the sun, whenever possible. I still have to work on remodeling the bathrooms. I like copper sinks and faucets. And tall bathtubs. I don't really like my neighbors, but they don't seem to bother me much. It's a good location, close to freeways. Easy to get around.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And I like my house. It's my own space and I enjoy it very much.\n\n"
+            }
+        ],
+        "request_id": "811e91bc896217a1-EWR"
+    }
+}

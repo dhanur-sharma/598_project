@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, today I talked to my sister. It's been about 6 months since her unplanned wedding ceremony. Thinking back to that day makes me happy to see how well her and her husband are doing now. I remember I had planned an engagement party for them. My mother and father had worked with me to set it up in our parents backyard. It was just a casual summer cookout. We let my sister and her fiance choose the list of people to invite. My sister and her fiance said they were running late. It was such a surprise to see a limo pull up to the house. My sister came out of the limousine with a wedding dress on and her fiance had a suit. So silly since the rest of us were in sundresses, flip flops, and cargo shorts. They surprised us all and had hired someone to do the wedding ceremony right then and there, at my parents house in the backyard. It was sneaky of her but ended up being such a blast. They had everyone they wanted to attend their wedding so they figured, why not just do it now! I'm very happy they got the wedding of their dreams even if it seems unconventional to some people."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, today I talked to my sister. It's been about 6 months since her unplanned wedding ceremony. Thinking back to that day makes me happy to see how well her and her husband are doing now. I remember I had planned an engagement party for them. My mother and father had worked with me to set it up in our parents backyard. It was just a casual summer cookout. We let my sister and her fiance choose the list of people to invite. My sister and her fiance said they were running late. It was such a surprise to see a limo pull up to the house. My sister came out of the limousine with a wedding dress on and her fiance had a suit. So silly since the rest of us were in sundresses, flip flops, and cargo shorts. They surprised us all and had hired someone to do the wedding ceremony right then and there, at my parents house in the backyard. It was sneaky of her but ended up being such a blast. They had everyone they wanted to attend their wedding so they figured, why not just do it now! I'm very happy they got the wedding of their dreams even if it seems unconventional to some people.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec62d2b2632e4-EWR"
+    }
+}

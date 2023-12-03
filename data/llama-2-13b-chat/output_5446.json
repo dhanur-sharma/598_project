@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got my physical therapist assistant license last year on 10/16/2018. I was told in school that I would be part of the second period of renewal and thus only had to do two classes of continuing education. The two required classes equal to 3 hours total. So, I spent almost a year believing that I only needed those two classes and I was happy about it. Now it is the time to renew my license, so yesterday 08/26/2019 I went on ahead and tried to send an application for renewal online and it turns out that I needed the full amount of hours for renewal. The full amount of hours of renewal needed are 24 hours of continuing education. Basically, means that you have 2 full years to get that amount. It turns out that if I would of gotten my license 16 days later, I would have been in the second half of the renewal period and only had to do the two classes. Since I got my license on 10/16/2018 before the second half period which starts 11/01/2018, I need to do the full 24 hours. You cannot describe how I am feeling right now because I am extremely mad about this situation. I am mostly mad because one of my friends in class that barely passed the entire course is in the second half and only has to do the two classes. Why? because he failed the state laws exam like 3 times, so he got his license after 11/01/2018. I passed everything my first time, I worked hard to do so, and its not fair that someone else that didn't do good gets rewarded for it. The classes are very expensive and I am not yet in full time job in my field, unlike my friend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got my physical therapist assistant license last year on 10/16/2018. I was told in school that I would be part of the second period of renewal and thus only had to do two classes of continuing education. The two required classes equal to 3 hours total. So, I spent almost a year believing that I only needed those two classes and I was happy about it. Now it is the time to renew my license, so yesterday 08/26/2019 I went on ahead and tried to send an application for renewal online and it turns out that I needed the full amount of hours for renewal. The full amount of hours of renewal needed are 24 hours of continuing education. Basically, means that you have 2 full years to get that amount. It turns out that if I would of gotten my license 16 days later, I would have been in the second half of the renewal period and only had to do the two classes. Since I got my license on 10/16/2018 before the second half period which starts 11/01/2018, I need to do the full 24 hours. You cannot describe how I am feeling right now because I am extremely mad about this situation. I am mostly mad because one of my friends in class that barely passed the entire course is in the second half and only has to do the two classes. Why? because he failed the state laws exam like 3 times, so he got his license after 11/01/2018. I passed everything my first time, I worked hard to do so, and its not fair that someone else that didn't do good gets rewarded for it. The classes are very expensive and I am not yet in full time job in my field, unlike my friend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am feeling frustrated and disappointed because I could have avoided this situation if I had been informed about the renewal requirements correctly.\n\n"
+            }
+        ],
+        "request_id": "811f3198dbae43f8-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a friend in my bible study group who got my attention to an ad in our neighborhood website. She knew I was a Math tutor. So I looked up the ad and found it. The mom who wrote the ad sounded desperate. She said they had tried another tutor before but it did not help her son. I always liked to help students in Math. My high school Math teacher made me enjoy working with Math. She was very patient with her students. She was also knowledgeable. She inspired me so much that I decided to take Engineering in college. To take Engineering, one must be well versed in Math. So I called the mom who wrote the ad and gave her my experience and a few testimonies from former students' parents.  I told her how all of my students had passed their subjects at year end. In addition, all of my students passed their Virginia SOL tests.  I worked with her son. Went over his homework and test review packets. Immediately he got good grades from his tests so that by the end of the year her son finished with a B+ in Algebra 2 ! She even gave me a gift card in addition to my regular fee!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a friend in my bible study group who got my attention to an ad in our neighborhood website. She knew I was a Math tutor. So I looked up the ad and found it. The mom who wrote the ad sounded desperate. She said they had tried another tutor before but it did not help her son. I always liked to help students in Math. My high school Math teacher made me enjoy working with Math. She was very patient with her students. She was also knowledgeable. She inspired me so much that I decided to take Engineering in college. To take Engineering, one must be well versed in Math. So I called the mom who wrote the ad and gave her my experience and a few testimonies from former students' parents.  I told her how all of my students had passed their subjects at year end. In addition, all of my students passed their Virginia SOL tests.  I worked with her son. Went over his homework and test review packets. Immediately he got good grades from his tests so that by the end of the year her son finished with a B+ in Algebra 2 ! She even gave me a gift card in addition to my regular fee!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She was so happy with my tutoring. I enjoyed helping her son. I also enjoyed working with her. We became friends. She would always tell me that I was her son's guardian angel."
+            }
+        ],
+        "request_id": "811f31693c1f434b-EWR"
+    }
+}

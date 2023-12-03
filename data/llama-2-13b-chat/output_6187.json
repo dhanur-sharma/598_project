@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a long and tough day at work today. I was tasked with many new projects. My boss had a long sit down session with me. He laid out the plans that he had for me in the upcoming quarter. We had alot to work on. And it was memorable. I am concerned about the time I have. It is tough to do many things at the same time. There are many cross functional roles and teams to manage. When will I be able to retire? It is so expensive to live in this city. My rent is sky high. My pay is so low. Food is expensive. Gas is expensive. Taxes are insane. I can barely afford to get by. And at the same time im bound to my desk."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a long and tough day at work today. I was tasked with many new projects. My boss had a long sit down session with me. He laid out the plans that he had for me in the upcoming quarter. We had alot to work on. And it was memorable. I am concerned about the time I have. It is tough to do many things at the same time. There are many cross functional roles and teams to manage. When will I be able to retire? It is so expensive to live in this city. My rent is sky high. My pay is so low. Food is expensive. Gas is expensive. Taxes are insane. I can barely afford to get by. And at the same time im bound to my desk.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't leave. I can't take a break. I can't even go to the bathroom without my boss asking me where I am going. My life is so stressful. I am worried about my health. I can feel the tension in my body. I am worried about my mental health. I can feel the anxiety creeping in. I am worried about my future. I can't keep going at this pace.\n\n"
+            }
+        ],
+        "request_id": "811f4092cb3f32d3-EWR"
+    }
+}

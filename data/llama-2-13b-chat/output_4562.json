@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a young daughter. She is only 2 years old. Both me and my husband work jobs. I would prefer to stay at home with my daughter. But we wouldn't make enough money to make ends meet if I didn't work. I got a call the other day from my daycare provider. They said they are closing themselves down in just two weeks. I don't know what I'm going to do. I can't quit my job. I would prefer to be able to just watch my daughter myself. I don't have very much family. The family I do have that is local also works so that cannot watch my daughter either. This has become a big stress. I don't know what we're going to do moving forward. I wish my life was a bit easier. There is always some problem in my way."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a young daughter. She is only 2 years old. Both me and my husband work jobs. I would prefer to stay at home with my daughter. But we wouldn't make enough money to make ends meet if I didn't work. I got a call the other day from my daycare provider. They said they are closing themselves down in just two weeks. I don't know what I'm going to do. I can't quit my job. I would prefer to be able to just watch my daughter myself. I don't have very much family. The family I do have that is local also works so that cannot watch my daughter either. This has become a big stress. I don't know what we're going to do moving forward. I wish my life was a bit easier. There is always some problem in my way.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd9503b3217f1-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been in the military for 20 years. I have reached my goal of being in the military long enough to receive a lifetime pension for myself and my spouse. I am very proud of my service and everything I have done for this country for the past 20 years. Last week, I started the process of retiring. As difficult as that decision was, I felt it was time, at that particular moment. However, yesterday, I came across a bus filled with children. As I was approaching an area adjacent to the bus, the bus exploded. I ran over to try to commence rescue and recovery, but there was no hope. A difficult decision to retire has become very simple. However, this presented a new challenge. I have to wait to retire from the military until the process is complete. The process can take anywhere from 3-6 months. After this bus explosion, I'm not certain I can wait that long. I already feel like I spent one too many days in the military, but I'm not able to get out until my retirement process is completed. As I'm taught to do, I'm going to try to suck it up and get through these remaining months. However, I find that I will have difficulty due to the trauma I experienced from that exploding bus."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been in the military for 20 years. I have reached my goal of being in the military long enough to receive a lifetime pension for myself and my spouse. I am very proud of my service and everything I have done for this country for the past 20 years. Last week, I started the process of retiring. As difficult as that decision was, I felt it was time, at that particular moment. However, yesterday, I came across a bus filled with children. As I was approaching an area adjacent to the bus, the bus exploded. I ran over to try to commence rescue and recovery, but there was no hope. A difficult decision to retire has become very simple. However, this presented a new challenge. I have to wait to retire from the military until the process is complete. The process can take anywhere from 3-6 months. After this bus explosion, I'm not certain I can wait that long. I already feel like I spent one too many days in the military, but I'm not able to get out until my retirement process is completed. As I'm taught to do, I'm going to try to suck it up and get through these remaining months. However, I find that I will have difficulty due to the trauma I experienced from that exploding bus.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will have to get counseling to deal with the PTSD. I'm not sure how much more I can take.\n\n"
+            }
+        ],
+        "request_id": "811f455e1f1b42e7-EWR"
+    }
+}

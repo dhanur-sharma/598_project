@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the summer, the family decided to do something that we normally don't get to do often enough, we went to an amusement park a couple of hours away from home. Due to work, schedules, etc. , getting the time to make these memories is pretty special to us.  It was a great day, but way too hot. I would consider an amusement park during a summer day significantly before making that decision again.  But again, it is not a day that I regret. The car ride was nice, no arguing! No trouble parking or being admitted into the park. The wait times for everything was reasonable. We rode everything we possibly could to make the most of the day. We ate well. We laughed, we talked, we just enjoyed everything we could while we were there. But at the end of they day, we were so tired. The feet hurt, had been hot all day, the a/c in the car felt so amazing. The ride home seemed fast."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the summer, the family decided to do something that we normally don't get to do often enough, we went to an amusement park a couple of hours away from home. Due to work, schedules, etc. , getting the time to make these memories is pretty special to us.  It was a great day, but way too hot. I would consider an amusement park during a summer day significantly before making that decision again.  But again, it is not a day that I regret. The car ride was nice, no arguing! No trouble parking or being admitted into the park. The wait times for everything was reasonable. We rode everything we possibly could to make the most of the day. We ate well. We laughed, we talked, we just enjoyed everything we could while we were there. But at the end of they day, we were so tired. The feet hurt, had been hot all day, the a/c in the car felt so amazing. The ride home seemed fast.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great day.\n\n"
+            }
+        ],
+        "request_id": "811f3324ceed184d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently in the last 2 weeks attended my best friends son's funeral. He had been in an accident and suffered in a coma for over a year. The funeral was expected but still a very sad occasion to have to bury a young man. I felt very sad for my friend. She has 2 sons and now one is gone. She did take care of of him for nearly a year and I know it was taking so much out of her. She can now find some peace in that he is not suffering anymore. The funeral was solemn but there was an air of finality. I met a lot of her family that I had never known even though I was her best friend for over 20 years. It was good to see some of them but sadly under unfortunate events. Her son was buried in the city cemetery and he is now laid at rest and in peace. We visited his grave last weekend to take the old flowers down and replace them. We are currently looking for a bench to place at his grave. Eventually we would like to get some planters out there to place live plants in. We are also looking to put up a small decorative fence around his grave. Fortunately this cemetary does allow you to make the spoty unique and your own."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently in the last 2 weeks attended my best friends son's funeral. He had been in an accident and suffered in a coma for over a year. The funeral was expected but still a very sad occasion to have to bury a young man. I felt very sad for my friend. She has 2 sons and now one is gone. She did take care of of him for nearly a year and I know it was taking so much out of her. She can now find some peace in that he is not suffering anymore. The funeral was solemn but there was an air of finality. I met a lot of her family that I had never known even though I was her best friend for over 20 years. It was good to see some of them but sadly under unfortunate events. Her son was buried in the city cemetery and he is now laid at rest and in peace. We visited his grave last weekend to take the old flowers down and replace them. We are currently looking for a bench to place at his grave. Eventually we would like to get some planters out there to place live plants in. We are also looking to put up a small decorative fence around his grave. Fortunately this cemetary does allow you to make the spoty unique and your own.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is a very nice cemetery.\n\n"
+            }
+        ],
+        "request_id": "811ec39afcc28c05-EWR"
+    }
+}

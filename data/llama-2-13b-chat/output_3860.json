@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I received some good news. I was informed by my supervisor at work that I was receiving a promotion. The new position included a very nice salary increase and I was quite surprised. Because of the available positions, I had expected to be offered my choice of two different higher-level positions. However, I was happy to be chosen for the one I was chosen for. Due to the large salary increase, I've been able to live more comfortably while also being able to put money into savings. I've begun contributing to my retirement through a Roth IRA my accountant friend recommended to me. I have purchased a few things I had been wanting earlier but could not afford, such as an upgraded computer and a nice stereo system for my car. These things make me happy, but I do feel the increased stress at work and responsibilities required of me are not worth the extra money. I would much rather be poor than burdened with stress and responsibilities. I've considered talking to my supervisor about these feelings of being overwhelmed. Perhaps I'll see a counselor to cope with these additional stressors instead. One thing I do know, however, is that I'll get through the rough times eventually in my own way. I've made a commitment to deal with them and that's what I will do. I'm determined to live a happy life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I received some good news. I was informed by my supervisor at work that I was receiving a promotion. The new position included a very nice salary increase and I was quite surprised. Because of the available positions, I had expected to be offered my choice of two different higher-level positions. However, I was happy to be chosen for the one I was chosen for. Due to the large salary increase, I've been able to live more comfortably while also being able to put money into savings. I've begun contributing to my retirement through a Roth IRA my accountant friend recommended to me. I have purchased a few things I had been wanting earlier but could not afford, such as an upgraded computer and a nice stereo system for my car. These things make me happy, but I do feel the increased stress at work and responsibilities required of me are not worth the extra money. I would much rather be poor than burdened with stress and responsibilities. I've considered talking to my supervisor about these feelings of being overwhelmed. Perhaps I'll see a counselor to cope with these additional stressors instead. One thing I do know, however, is that I'll get through the rough times eventually in my own way. I've made a commitment to deal with them and that's what I will do. I'm determined to live a happy life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed2c09e900f7d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A moment that meant a lot to me that occurred recently was attending graduating from college. I had spent the last four years in school and all my hard work had finally paid off. As I was getting dressed in the back, my mind was racing. I was surrounded by my friends and future colleagues. We can all say that we had finally made it to the finish line. All those long nights and the endless amount of homework was finally coming to an end. Many of had jobs lined up for us and if we didn't we were excellent prospects. As the lady in the front gave the signal, we all lined up and walked into the reception area, we were all greeted by our loved ones. The ones who stood by us and supported us as we made this transition into the \"real world\". We sat silently as they called our names. As the names were called, we one by one, stood and shook the president of the school's hand. We each took a quick photo and moved to accept our diploma. All the cheering and support bought tears to my eyes. It was happy and sad tears. I was sad to see all my friends go in different directions, but I was happy that they were all starting a new chapter in their lives. The graduation was short, but it was a memorable one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A moment that meant a lot to me that occurred recently was attending graduating from college. I had spent the last four years in school and all my hard work had finally paid off. As I was getting dressed in the back, my mind was racing. I was surrounded by my friends and future colleagues. We can all say that we had finally made it to the finish line. All those long nights and the endless amount of homework was finally coming to an end. Many of had jobs lined up for us and if we didn't we were excellent prospects. As the lady in the front gave the signal, we all lined up and walked into the reception area, we were all greeted by our loved ones. The ones who stood by us and supported us as we made this transition into the \"real world\". We sat silently as they called our names. As the names were called, we one by one, stood and shook the president of the school's hand. We each took a quick photo and moved to accept our diploma. All the cheering and support bought tears to my eyes. It was happy and sad tears. I was sad to see all my friends go in different directions, but I was happy that they were all starting a new chapter in their lives. The graduation was short, but it was a memorable one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will never forget the feeling of accomplishment and the feeling of closure.\n\n"
+            }
+        ],
+        "request_id": "811e8c0c7926c416-EWR"
+    }
+}

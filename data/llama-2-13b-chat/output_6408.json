@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was put in charge of four others at work. We were a group tasked with dealing with various client-related issues. The company I worked for was in the software development business. My job was to write software code as part of a team to fulfill the software needs of our clients. As a group manager I would also be in charge of scheduling and task allocation during software projects. I would also be responsible for coordinating the work done by the group. Coordination was crucial to ensure that everyone's code would integrate together smoothly. We would meet with the clients to determine what their needs were. In a lot of cases that is not always the same as what they think their needs are. Then we would come up with a software solution to those needs as a team. We would present the solution to the client to get their approval before starting work on it. We would also be in regular contact with the client during the development process, because a lot of times their perception of their needs change during development. It was my responsibility to schedule and delegate work. I was also to evaluate the work performed for quality and suitability. I felt empowered but also burdened with responsibility."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was put in charge of four others at work. We were a group tasked with dealing with various client-related issues. The company I worked for was in the software development business. My job was to write software code as part of a team to fulfill the software needs of our clients. As a group manager I would also be in charge of scheduling and task allocation during software projects. I would also be responsible for coordinating the work done by the group. Coordination was crucial to ensure that everyone's code would integrate together smoothly. We would meet with the clients to determine what their needs were. In a lot of cases that is not always the same as what they think their needs are. Then we would come up with a software solution to those needs as a team. We would present the solution to the client to get their approval before starting work on it. We would also be in regular contact with the client during the development process, because a lot of times their perception of their needs change during development. It was my responsibility to schedule and delegate work. I was also to evaluate the work performed for quality and suitability. I felt empowered but also burdened with responsibility.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f44bcdd398cb1-EWR"
+    }
+}

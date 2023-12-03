@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently suffered a broken leg. I was working on a ladder painting my house. After a long afternoon of painting, I was feeling a bit tired and began to descend the ladder. I missed a rung on the ladder and fell about 9 feet. When I hit the ground, I felt incredible pain in my left leg. After standing up and trying to walk, I couldn't put any pressure on my leg and the pain was almost overwhelming. Luckily, my wife was home at the time and drove me to the hospital. After waiting for over an hour, I was finally seen by a doctor in the emergency room.  The doctor began the examination by moving my leg and I nearly screamed from the pain. He gave my a shot filled with pain medication of some kind and sent me for a x-ray. The x-ray determined that my leg had fractured just below the knee.  Luckily, it was a clean break. I was given a flexible cast, a prescription for antibiotics and pain pills, and sent home. It has now been about a month since the accident. I am no longer in pain. The flex cast can come off in about two weeks. I am grateful to have recovered and I will take ladders more seriously the next time I paint my house!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently suffered a broken leg. I was working on a ladder painting my house. After a long afternoon of painting, I was feeling a bit tired and began to descend the ladder. I missed a rung on the ladder and fell about 9 feet. When I hit the ground, I felt incredible pain in my left leg. After standing up and trying to walk, I couldn't put any pressure on my leg and the pain was almost overwhelming. Luckily, my wife was home at the time and drove me to the hospital. After waiting for over an hour, I was finally seen by a doctor in the emergency room.  The doctor began the examination by moving my leg and I nearly screamed from the pain. He gave my a shot filled with pain medication of some kind and sent me for a x-ray. The x-ray determined that my leg had fractured just below the knee.  Luckily, it was a clean break. I was given a flexible cast, a prescription for antibiotics and pain pills, and sent home. It has now been about a month since the accident. I am no longer in pain. The flex cast can come off in about two weeks. I am grateful to have recovered and I will take ladders more seriously the next time I paint my house!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8fe129280c8e-EWR"
+    }
+}

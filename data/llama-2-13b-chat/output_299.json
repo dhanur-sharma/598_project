@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I was trying to get on top of my financial situation. I am three years out of school now with student loans to be repaid. I thought it would be a responsible thing to do. I decided to run a full credit report on myself as I have never done one before. I never understood why my credit score was so low. I have always made payments on time, never kept a balance, and barely used my cards. When I saw the results, I was shocked. I had two credit cards that were basically maxed out that I never knew about. I called the company that said I had accounts there and they said payments were being made on them so it doesn't seem to be fraud and I should ask people I know. So, it turns out my own parent had falsely opened the cards under my name. I had 12,000 in credit card debt because of that associated with my name. And this is on top of my student loans! I was so upset and hurt by this. I forced her to find a way to pay it back and get it off my name. Eventually she did. I am still hurt and weary of it all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I was trying to get on top of my financial situation. I am three years out of school now with student loans to be repaid. I thought it would be a responsible thing to do. I decided to run a full credit report on myself as I have never done one before. I never understood why my credit score was so low. I have always made payments on time, never kept a balance, and barely used my cards. When I saw the results, I was shocked. I had two credit cards that were basically maxed out that I never knew about. I called the company that said I had accounts there and they said payments were being made on them so it doesn't seem to be fraud and I should ask people I know. So, it turns out my own parent had falsely opened the cards under my name. I had 12,000 in credit card debt because of that associated with my name. And this is on top of my student loans! I was so upset and hurt by this. I forced her to find a way to pay it back and get it off my name. Eventually she did. I am still hurt and weary of it all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know how to rebuild my credit and I feel like I can never trust anyone again.\n\n"
+            }
+        ],
+        "request_id": "811e8f455be442ce-EWR"
+    }
+}

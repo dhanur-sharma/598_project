@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For years, I have wanted to learn how to row a kayak successfully.   But, I have been too afraid to do so.  Three months ago,  I finally got brave, and went to the local park and went to the pond.   At the Gathering Place's pond, a worker helped me get fitted for a life vest and kayak.    I was given some basic rowing instructions.    Then, I was able to sit down in the kayak.   And, I was off.   I didn't know how to row well, at first.   So, I promptly rowed myself into the pond's edge - the weeds.    I guided the paddles backwards, and I was free to explore the five acre pond.   I learned how to row the paddles correctly, and I was amazed at how fast I could go.   I was so happy, I could feel my legs tighten and arms heavy, but I knew I was getting a good workout.  After 60 minutes, I decided to take the kayak back to the boathouse.   I was hot and tired, but satisfied I did so well.   When I returned the building, a dock worker helped me get out of the kayak.   I stood up, and then took my lifejacket off.   I was so happy, I learned how to kayak."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For years, I have wanted to learn how to row a kayak successfully.   But, I have been too afraid to do so.  Three months ago,  I finally got brave, and went to the local park and went to the pond.   At the Gathering Place's pond, a worker helped me get fitted for a life vest and kayak.    I was given some basic rowing instructions.    Then, I was able to sit down in the kayak.   And, I was off.   I didn't know how to row well, at first.   So, I promptly rowed myself into the pond's edge - the weeds.    I guided the paddles backwards, and I was free to explore the five acre pond.   I learned how to row the paddles correctly, and I was amazed at how fast I could go.   I was so happy, I could feel my legs tighten and arms heavy, but I knew I was getting a good workout.  After 60 minutes, I decided to take the kayak back to the boathouse.   I was hot and tired, but satisfied I did so well.   When I returned the building, a dock worker helped me get out of the kayak.   I stood up, and then took my lifejacket off.   I was so happy, I learned how to kayak.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecbe0097118d0-EWR"
+    }
+}

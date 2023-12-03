@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I like the idea of fighting for myself. I had always grown up in the fighting world. I just think there was something primal and satisfying about it. I recently have been trying my hand at boxing. I felt comfortable enough with the training I had received that I could succeed. I worked my butt off, not just because I wanted to win, but it was fun. Now, I don't want anyone to get seriously hurt or concussed or any of that. But about a month ago I had my first boxing match. It was against another amateur. This was in Wisconsin. The fight barely started before he would up on the floor from a perfectly placed uppercut. He went down like a sack of potatoes. When the ten count ended I raised my arms in the air like I was Rocky and felt like the training I was in was paying off. It was an incredible moment. I can't wait to do it again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I like the idea of fighting for myself. I had always grown up in the fighting world. I just think there was something primal and satisfying about it. I recently have been trying my hand at boxing. I felt comfortable enough with the training I had received that I could succeed. I worked my butt off, not just because I wanted to win, but it was fun. Now, I don't want anyone to get seriously hurt or concussed or any of that. But about a month ago I had my first boxing match. It was against another amateur. This was in Wisconsin. The fight barely started before he would up on the floor from a perfectly placed uppercut. He went down like a sack of potatoes. When the ten count ended I raised my arms in the air like I was Rocky and felt like the training I was in was paying off. It was an incredible moment. I can't wait to do it again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaa1b3f9a8cdc-EWR"
+    }
+}

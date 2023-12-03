@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just got back from my maw's funeral. I went with my kids to North Carolina to be with the rest of the family. We all had a big cry at the funeral. She was a terrific person. I don't know how long it will take to get over the grief. The kids didn't know her that well but they still cried. The eulogy was very sad to hear. My father was the saddest. He couldn't stop crying. I had to give him a big hug. The kids gave him a big hug as well. There was some good food at least. I had a big steak on the funeral night. The kids had some burgers with fries. I hope I can cope from this loss. I should be well in a few weeks but it will be difficult."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just got back from my maw's funeral. I went with my kids to North Carolina to be with the rest of the family. We all had a big cry at the funeral. She was a terrific person. I don't know how long it will take to get over the grief. The kids didn't know her that well but they still cried. The eulogy was very sad to hear. My father was the saddest. He couldn't stop crying. I had to give him a big hug. The kids gave him a big hug as well. There was some good food at least. I had a big steak on the funeral night. The kids had some burgers with fries. I hope I can cope from this loss. I should be well in a few weeks but it will be difficult.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f40cc181d431a-EWR"
+    }
+}

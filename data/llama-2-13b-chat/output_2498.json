@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Here we are a group of people. We all barely speak. We all go about our business. The one thing we have in common is we all work at the same place. We work with animals.  One day we get this feral dog named Elsa. Everyone loved Elsa. We were very intrigued by her actions and loved her very much. About a week ago Elsa passed away. We were all very devastated. We were all very hurt and brought to tears. We all thought we could save Elsa. Everyone here tried hard to take care of her. Everyone here tried to teach her and feed her. All in all Elsa's death was not very good but it did one good thing. It turned our group of people into a family. We miss you Elsa."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Here we are a group of people. We all barely speak. We all go about our business. The one thing we have in common is we all work at the same place. We work with animals.  One day we get this feral dog named Elsa. Everyone loved Elsa. We were very intrigued by her actions and loved her very much. About a week ago Elsa passed away. We were all very devastated. We were all very hurt and brought to tears. We all thought we could save Elsa. Everyone here tried hard to take care of her. Everyone here tried to teach her and feed her. All in all Elsa's death was not very good but it did one good thing. It turned our group of people into a family. We miss you Elsa.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb7f1bb664273-EWR"
+    }
+}

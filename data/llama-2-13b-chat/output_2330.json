@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a second-round interview for a job I really wanted. I had applied not really sure if they would take me seriously, but I was pleased to get a first-round interview. I wasn't sure how much of that was because I knew one of the key people involved in the hiring decision, but the second interview was a sign it wasn't just that. It would have represented a career shift for me, but it was one I was excited about. It would have represented a significant salary cut, but I thought the job sounded so great I didn't care. So I had the second interview. I was asked to prepare a presentation, which was obviously a lot of work. I thought the presentation went well. I thought I rocked the interview. I felt like I really connected with the three people in the room. And then, I waited. I had been told I could expect to hear the following week. All week, I was anxiously checking my phone for an email about the position. Finally, on Thu evening, it came. I hadn't gotten the job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a second-round interview for a job I really wanted. I had applied not really sure if they would take me seriously, but I was pleased to get a first-round interview. I wasn't sure how much of that was because I knew one of the key people involved in the hiring decision, but the second interview was a sign it wasn't just that. It would have represented a career shift for me, but it was one I was excited about. It would have represented a significant salary cut, but I thought the job sounded so great I didn't care. So I had the second interview. I was asked to prepare a presentation, which was obviously a lot of work. I thought the presentation went well. I thought I rocked the interview. I felt like I really connected with the three people in the room. And then, I waited. I had been told I could expect to hear the following week. All week, I was anxiously checking my phone for an email about the position. Finally, on Thu evening, it came. I hadn't gotten the job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was really disappointed, but I was also relieved because it meant I didn't have to make such a big change. I realized that I had been so focused on getting this job that I had neglected other things in my life. I had neglected my family and friends, and I had neglected my own happiness. I had been so focused on this job that I had forgotten what was truly important to me. I realized that I needed to take a step back and re-evaluate my priorities. I needed to figure out what I really wanted out of life and what would truly make me happy."
+            }
+        ],
+        "request_id": "811eb47b39918ce8-EWR"
+    }
+}

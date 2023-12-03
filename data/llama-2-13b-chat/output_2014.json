@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I decided last summer that I would train for and complete a marathon. I volunteered to help a friend set out water and while I watched the runners during the race I thought that I could do that just as well as the women running that day. I trained 6 days a week for a year, getting up early and being constantly sore. I ate right and did all I could to get myself ready. The day of the race I was in the best shape of my life. I was a bit nervous but knew I could do it because I had run the distance by myself to make sure I could do it. I set a good pace for myself and stuck to it until mile 19. That got me, eating into my willpower. My legs and lungs were burning more than they had during training. I think the energy used to start the race sapped me a bit but I powered through that mile hoping that I didn't collapse. Funny, mile 19 seemed to last longer than the rest of the miles combined. I was so wrapped up in my own head, thinking about the negatives that could occur that each step seemed like it would be my last. Somewhere in mile 20 I caught my breath, got my stride and rhythm back and was able to get back on pace. I didn't have much left at the end, no sprint to the finish line for me, but I did finish without having to walk and came in 8th in the women's. I don't think I will ever forget seeing my daughter there at the end, she was happy and proud seeing her mom coming toward her. I am a fairly stoic person. I don't usually cry at anything. I did cry at the end of the race though. I picked up my daughter, held her tight and cried. I had set a goal, spend a grueling year to make sure I accomplished the goal and then I went out and completed that goal. Yes, I cried like a toddler at the end but only my daughter and husband saw that and they are sworn to secrecy. Next up, hiking the Appalachian Trail."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I decided last summer that I would train for and complete a marathon. I volunteered to help a friend set out water and while I watched the runners during the race I thought that I could do that just as well as the women running that day. I trained 6 days a week for a year, getting up early and being constantly sore. I ate right and did all I could to get myself ready. The day of the race I was in the best shape of my life. I was a bit nervous but knew I could do it because I had run the distance by myself to make sure I could do it. I set a good pace for myself and stuck to it until mile 19. That got me, eating into my willpower. My legs and lungs were burning more than they had during training. I think the energy used to start the race sapped me a bit but I powered through that mile hoping that I didn't collapse. Funny, mile 19 seemed to last longer than the rest of the miles combined. I was so wrapped up in my own head, thinking about the negatives that could occur that each step seemed like it would be my last. Somewhere in mile 20 I caught my breath, got my stride and rhythm back and was able to get back on pace. I didn't have much left at the end, no sprint to the finish line for me, but I did finish without having to walk and came in 8th in the women's. I don't think I will ever forget seeing my daughter there at the end, she was happy and proud seeing her mom coming toward her. I am a fairly stoic person. I don't usually cry at anything. I did cry at the end of the race though. I picked up my daughter, held her tight and cried. I had set a goal, spend a grueling year to make sure I accomplished the goal and then I went out and completed that goal. Yes, I cried like a toddler at the end but only my daughter and husband saw that and they are sworn to secrecy. Next up, hiking the Appalachian Trail.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am not sure what I am getting myself into but I am looking forward to the challenge."
+            }
+        ],
+        "request_id": "811eaec7aa8c43c2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I moved to US when I was 26 years old with my family. Since then, I missed my mom a lot. We visited each other a couple of times but lately the money was tight. After saving some money, I was able to get my parents to come here and visit us again this year. We had a great time together as a family. Somehow, I really wanted to celebrate her birthday this year. I usually just send some money home for her birthday but this time I want to make it special. I invited my sister and her in law to our house. I asked my sister to take her to the mall while I was preparing everything.  I bought the food, drinks and a cake. She blew the candle and made a wish just like a child. She was smiling and laughing all the time. She admitted that was the first time someone bought a cake for her and we were in tears. I felt so bad that I never really pay attention to her needs. I felt that we need to appreciate her more and make her feel special. Especially after I am a mom, I am more aware about her struggles and her feelings."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I moved to US when I was 26 years old with my family. Since then, I missed my mom a lot. We visited each other a couple of times but lately the money was tight. After saving some money, I was able to get my parents to come here and visit us again this year. We had a great time together as a family. Somehow, I really wanted to celebrate her birthday this year. I usually just send some money home for her birthday but this time I want to make it special. I invited my sister and her in law to our house. I asked my sister to take her to the mall while I was preparing everything.  I bought the food, drinks and a cake. She blew the candle and made a wish just like a child. She was smiling and laughing all the time. She admitted that was the first time someone bought a cake for her and we were in tears. I felt so bad that I never really pay attention to her needs. I felt that we need to appreciate her more and make her feel special. Especially after I am a mom, I am more aware about her struggles and her feelings.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hugged her and told her that I love her so much and I will never forget this moment. After that, we had a great time together as a family and I was so grateful to have her here with us.\n\n"
+            }
+        ],
+        "request_id": "811e8d25b97ac329-EWR"
+    }
+}

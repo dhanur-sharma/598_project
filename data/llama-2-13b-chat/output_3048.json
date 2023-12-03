@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe it. After a terrible divorce, being homeless, then traveling the country delivering phone books, we've finally come to a point in our lives together where we have scrimped and saved enough money to rent a house. And what a nice house! Five bedrooms, a basement, nice neighbors, a big bathroom...it is truly everything I could ever want. I wish Jarrod had told me about the previous tenant.  How long had he known that the lady had died in the front bedroom? That her body had to be taken out by paramedics, and that her soiled sheets and furniture were STILL there when we moved in? He told me to go outside, watch a movie, just anything possible to distract me while they all unlocked that bedroom door and I heard lots of coughing, gagging and hauling away of furniture. It was after that that he told me, in an almost matter-of-fact way. She died from not being able to breathe, some type of medication interaction. They called it a suicide. I went in later to wash the walls and clean the room. I put some of my books in the little built in bookshelf and opened the front window for a few days to let things air out. Each time I closed the window, the atmosphere seemed to suck in on itself. I would find myself breathing heavily, then almost gasping, feeling like my lungs were shutting down. The neighbors, who had witnessed the activity from the death of the previous tenant, were curious about us and about that room. A few of them asked if they could see it, and they also felt the strange sucking of air from their lungs. It was unnerving. The room became locked. We could never use it. Slowly, the rest of the house began to suck the air out of our lungs, too. No-one would come over. We couldn't close our windows. It felt like the house was taking our breath. We had to leave."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe it. After a terrible divorce, being homeless, then traveling the country delivering phone books, we've finally come to a point in our lives together where we have scrimped and saved enough money to rent a house. And what a nice house! Five bedrooms, a basement, nice neighbors, a big bathroom...it is truly everything I could ever want. I wish Jarrod had told me about the previous tenant.  How long had he known that the lady had died in the front bedroom? That her body had to be taken out by paramedics, and that her soiled sheets and furniture were STILL there when we moved in? He told me to go outside, watch a movie, just anything possible to distract me while they all unlocked that bedroom door and I heard lots of coughing, gagging and hauling away of furniture. It was after that that he told me, in an almost matter-of-fact way. She died from not being able to breathe, some type of medication interaction. They called it a suicide. I went in later to wash the walls and clean the room. I put some of my books in the little built in bookshelf and opened the front window for a few days to let things air out. Each time I closed the window, the atmosphere seemed to suck in on itself. I would find myself breathing heavily, then almost gasping, feeling like my lungs were shutting down. The neighbors, who had witnessed the activity from the death of the previous tenant, were curious about us and about that room. A few of them asked if they could see it, and they also felt the strange sucking of air from their lungs. It was unnerving. The room became locked. We could never use it. Slowly, the rest of the house began to suck the air out of our lungs, too. No-one would come over. We couldn't close our windows. It felt like the house was taking our breath. We had to leave.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't believe we ever thought this was a good idea."
+            }
+        ],
+        "request_id": "811ec31459100cb2-EWR"
+    }
+}

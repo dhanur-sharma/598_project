@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,This morning I almost forgot to say my daily prayer! I don't think God would mind if I missed one day, but I would certainly feel something was wrong if I did. Thankfully I saw the framed scripture I have on the wall and it reminded me. This morning I thanked God for helping me find a good job. It's part time, but I haven't had a job in months and was getting worried I never would. It's at a nice company and I love my coworkers so far. I'm still working on amazon mturk as well on the side. I'm not doing as much as I was before but it's still a nice bit of extra income. I also thanked God for the family I have left. My brother stopped by the other day to check on me. I'm always glad to see him, I know he's having a hard time too and we can support each other. I bet mom and dad would be proud of us. Really though I think the Church is the biggest support system for both of us. They welcomed us in no questions asked and have been great for us. I think God really wanted us to find that Church. If we pull off our plan to save up money and move back to California in a few years leaving the church will be the hardest part."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,This morning I almost forgot to say my daily prayer! I don't think God would mind if I missed one day, but I would certainly feel something was wrong if I did. Thankfully I saw the framed scripture I have on the wall and it reminded me. This morning I thanked God for helping me find a good job. It's part time, but I haven't had a job in months and was getting worried I never would. It's at a nice company and I love my coworkers so far. I'm still working on amazon mturk as well on the side. I'm not doing as much as I was before but it's still a nice bit of extra income. I also thanked God for the family I have left. My brother stopped by the other day to check on me. I'm always glad to see him, I know he's having a hard time too and we can support each other. I bet mom and dad would be proud of us. Really though I think the Church is the biggest support system for both of us. They welcomed us in no questions asked and have been great for us. I think God really wanted us to find that Church. If we pull off our plan to save up money and move back to California in a few years leaving the church will be the hardest part.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love it here, but I miss the warmth of home and the familiarity of all the places I grew up. I'm grateful for the opportunity to be here though. It's been a real blessing. Well, I'd better get going. I have to take care of some errands before my shift starts. Love you, me."
+            }
+        ],
+        "request_id": "811bd303cff819fb-EWR"
+    }
+}

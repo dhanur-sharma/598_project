@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I personally go to church every Sunday. And the church is very far and I don't really have a car. It takes hours to travel to the church via public transportation. I set a goal to be faithful in my faith, but I also set a goal to make enough money for living. I have a friend who is a Republican, who owns a car, and who promised to give me a ride on last last Sunday, but when the Sunday comes, he never showed up, and he never answered his phone. I hate people who do not keep their promises, and he totally lost my trust on him by doing this. The fact that he is a Republican really bugged me (I did not know he is a Republican until next week), and I just can trust him anymore. In fact when he shares his thoughts in Sundays, he is very opinionated towards his political view, making everyone in the room feels uncomfortable. I totally look down on him now. And we had a debate last Sunday after church about the presidential election in 2020, and we both got really irritated after the discussion. I don\u2019t think it is a good way to spend Sunday like that! I kind of associate him with all the Republicans, which makes me kind of afraid of making new Republican friends in the future. Now I have always to ask beforehand is a person a Republican or not before really getting to know them. I reflected on myself that maybe I was too mean to that person. I should have thought through it more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I personally go to church every Sunday. And the church is very far and I don't really have a car. It takes hours to travel to the church via public transportation. I set a goal to be faithful in my faith, but I also set a goal to make enough money for living. I have a friend who is a Republican, who owns a car, and who promised to give me a ride on last last Sunday, but when the Sunday comes, he never showed up, and he never answered his phone. I hate people who do not keep their promises, and he totally lost my trust on him by doing this. The fact that he is a Republican really bugged me (I did not know he is a Republican until next week), and I just can trust him anymore. In fact when he shares his thoughts in Sundays, he is very opinionated towards his political view, making everyone in the room feels uncomfortable. I totally look down on him now. And we had a debate last Sunday after church about the presidential election in 2020, and we both got really irritated after the discussion. I don\u2019t think it is a good way to spend Sunday like that! I kind of associate him with all the Republicans, which makes me kind of afraid of making new Republican friends in the future. Now I have always to ask beforehand is a person a Republican or not before really getting to know them. I reflected on myself that maybe I was too mean to that person. I should have thought through it more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I just can't help it, because I really hate it when people don't keep their promises. And now I have to find a new ride to church.\n\n"
+            }
+        ],
+        "request_id": "811eb9c8287a42f5-EWR"
+    }
+}

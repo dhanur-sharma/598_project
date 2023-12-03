@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I stepped off the plane, I could not believe I was in Paris. I've wanted to visit Paris my whole life! We spent two days just visiting The Louvre. The Mona Lisa was just as enigmatic and interesting as I imagined her being. We went up the Eiffel Tower and surveyed the glittering city below us. We went to so many adorable little cafes and bakeries that I lost count. We went to the Notre Dame Cathedral, which was immense and breathtaking. I couldn't believe I was stepping through the halls of a building that was constructed over 1000 years ago. America isn't even 1000 years old so I've never been in a building that old. We also saw the Sacre-Couer, which is a basilica I had never even heard of before my visit to Paris, but it was an extremely beautiful, gleaming white church. I've always heard Parisians have a reputation for being a little cold and snobbish, but I did not get that impression at all. Everyone was so nice! I practiced my rudimentary French the whole time, and no one said anything rude to me. Several people did kind of smile and insist on speaking English to me, but I get that. It's obviously not easy to communicate with someone speaking very broken French to you. Honestly, I will never forget my trip to Paris, and I'm so glad I got to go."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I stepped off the plane, I could not believe I was in Paris. I've wanted to visit Paris my whole life! We spent two days just visiting The Louvre. The Mona Lisa was just as enigmatic and interesting as I imagined her being. We went up the Eiffel Tower and surveyed the glittering city below us. We went to so many adorable little cafes and bakeries that I lost count. We went to the Notre Dame Cathedral, which was immense and breathtaking. I couldn't believe I was stepping through the halls of a building that was constructed over 1000 years ago. America isn't even 1000 years old so I've never been in a building that old. We also saw the Sacre-Couer, which is a basilica I had never even heard of before my visit to Paris, but it was an extremely beautiful, gleaming white church. I've always heard Parisians have a reputation for being a little cold and snobbish, but I did not get that impression at all. Everyone was so nice! I practiced my rudimentary French the whole time, and no one said anything rude to me. Several people did kind of smile and insist on speaking English to me, but I get that. It's obviously not easy to communicate with someone speaking very broken French to you. Honestly, I will never forget my trip to Paris, and I'm so glad I got to go.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea4b1ab0141a9-EWR"
+    }
+}

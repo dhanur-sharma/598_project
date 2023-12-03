@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The room was jovial. The crowd waiting for the experience. Food was being served as the comedian hit the stage. The warm up act was not too impressive. There was a chill in the air as our table was right under the air conditioning vent. Food got cold quickly but the room was bustling with excitement for the main act. Our table was shared with friends and we couldn't wait for Sebastian to take the stage. Finally the main event! The comedian we came to see is on stage and killing it! Every joke was fantastic. He normally doesn't play small clubs like this, which made it more special. Joke after joke, jokes inside jokes, he had us rolling all night long even after the show was over. So many memorable lines to repeat. The night was fantastic. My wife looked so beautiful and the entire room knew it. I'll never forget this night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The room was jovial. The crowd waiting for the experience. Food was being served as the comedian hit the stage. The warm up act was not too impressive. There was a chill in the air as our table was right under the air conditioning vent. Food got cold quickly but the room was bustling with excitement for the main act. Our table was shared with friends and we couldn't wait for Sebastian to take the stage. Finally the main event! The comedian we came to see is on stage and killing it! Every joke was fantastic. He normally doesn't play small clubs like this, which made it more special. Joke after joke, jokes inside jokes, he had us rolling all night long even after the show was over. So many memorable lines to repeat. The night was fantastic. My wife looked so beautiful and the entire room knew it. I'll never forget this night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8ea66b3d41b4-EWR"
+    }
+}

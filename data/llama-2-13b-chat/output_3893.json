@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took a float trip at the end of may. my plan was to float the entire length of the buffalo national river. I took this on alone. This was not an easy decision as things can go wrong and you are all alone for several hours at a time with noone nor phone service in site. Luckily most times i ended up amongst groups of other floaters. I had the opportunity to meet some very nice people and actually was invited to camp twice in 5 nights. Though i wasn't able to complete my trip due to flooding, i will forever remember the experience. This is a bucket list item for me that i really want to complete. Luckily though i floated by myself i was never really in any danger. needless to say i took no chances on the river to put myself in harms way. When in doubt i scouted the rapids i couldn't see all off or just chose not to run thru them. the weather was mostly perfect. Not too hot during the day and comfortable to sleep at night. this trip taught me alot about myself and my abilities. I learned alot about what i needed to take and how to pack out my kayak."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took a float trip at the end of may. my plan was to float the entire length of the buffalo national river. I took this on alone. This was not an easy decision as things can go wrong and you are all alone for several hours at a time with noone nor phone service in site. Luckily most times i ended up amongst groups of other floaters. I had the opportunity to meet some very nice people and actually was invited to camp twice in 5 nights. Though i wasn't able to complete my trip due to flooding, i will forever remember the experience. This is a bucket list item for me that i really want to complete. Luckily though i floated by myself i was never really in any danger. needless to say i took no chances on the river to put myself in harms way. When in doubt i scouted the rapids i couldn't see all off or just chose not to run thru them. the weather was mostly perfect. Not too hot during the day and comfortable to sleep at night. this trip taught me alot about myself and my abilities. I learned alot about what i needed to take and how to pack out my kayak.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "this experience was amazing and one that i will always treasure.\n\n"
+            }
+        ],
+        "request_id": "811ed376defd4387-EWR"
+    }
+}

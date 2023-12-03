@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son returned from a military deployment after spending a year in Cuba. We had a large \"coming home\" party for him.  The whole family, except for a couple people, showed up. We had a great time, until some of our relatives got very intoxicated. I felt so bad for my son to have to witness this on his day of celebration. The weather was nice. We had a barbecue and grilled various meats. Some of the relatives brought food also. What should have been a great day, turned into chaos. Several of our family members are alcoholics. People started arguing and getting loud. My son's father behaved the worst. He started a fight, and the police were called. He ended up going to jail. He was being charged with serious assault. Even to this day, some of our family members do not speak to each other. It really affected our holiday gatherings this year. Some of our relative did not show up for Thanksgiving or Christmas. I doubt if we will ever have a celebration again that involves alcohol."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son returned from a military deployment after spending a year in Cuba. We had a large \"coming home\" party for him.  The whole family, except for a couple people, showed up. We had a great time, until some of our relatives got very intoxicated. I felt so bad for my son to have to witness this on his day of celebration. The weather was nice. We had a barbecue and grilled various meats. Some of the relatives brought food also. What should have been a great day, turned into chaos. Several of our family members are alcoholics. People started arguing and getting loud. My son's father behaved the worst. He started a fight, and the police were called. He ended up going to jail. He was being charged with serious assault. Even to this day, some of our family members do not speak to each other. It really affected our holiday gatherings this year. Some of our relative did not show up for Thanksgiving or Christmas. I doubt if we will ever have a celebration again that involves alcohol.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8cd78d325e6a-EWR"
+    }
+}

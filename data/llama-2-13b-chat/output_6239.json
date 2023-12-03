@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister and I had always been close. From a young age, I was sort of her protector. When she was diagnosed as having epilepsy, it only further solidified my role as her protector, and even though she sees me that way, I still see her as my best friend every bit as much as I used to. I am older than her, though we are very close in age. We were only one grade apart in school. I took care of her when mom and dad couldn't. I looked after her and saved her from bullies in school. Things changed a bit after school. I left home, went to college, and because of this I moved pretty far away. I don't see her as much as I used to. I miss her so dearly and I know that she misses me. I still go to see her as often as I can, and when I do, we always do something fun. I know that she is sick, but she doesn't see it that way. She is so courageous. Even though she is my little sister, I want to be just like her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister and I had always been close. From a young age, I was sort of her protector. When she was diagnosed as having epilepsy, it only further solidified my role as her protector, and even though she sees me that way, I still see her as my best friend every bit as much as I used to. I am older than her, though we are very close in age. We were only one grade apart in school. I took care of her when mom and dad couldn't. I looked after her and saved her from bullies in school. Things changed a bit after school. I left home, went to college, and because of this I moved pretty far away. I don't see her as much as I used to. I miss her so dearly and I know that she misses me. I still go to see her as often as I can, and when I do, we always do something fun. I know that she is sick, but she doesn't see it that way. She is so courageous. Even though she is my little sister, I want to be just like her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She has taught me so much about perseverance, and even though she has epilepsy, she never lets it hold her back. She is still my best friend, and even though we are far apart, we are still close in my heart.\n\n"
+            }
+        ],
+        "request_id": "811f41995aa68c1e-EWR"
+    }
+}

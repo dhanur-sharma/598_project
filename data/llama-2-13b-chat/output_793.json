@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had the best day at work today. I love this new job more than I ever thought possible. 6 months ago I really thought my life was over when I quit my job with no plan for the future. I admit now I quit on an impulse, but it felt right. I had been getting harassed at work by this horrible employee named Jan. She was inappropriate and rude to everyone, and no one stood up to her. I was trying to complete a project at the office while everyone else was enjoying the Christmas party. Jan kept coming into my office to ask me to drink with her and to dance, it was obnoxious. She was obviously drunk,. I asked her several times to leave me alone and she would not stop touching me and harassing me. After an hour of the constant annoyance I snapped. I told her exactly what I thought of her and how terrible she was. Everyone just stood and watched. No one joined in or had my back. I was distraught. My supervisors watched me be harassed and did nothing. After my outburst I knew I was done at that company, so I quit. I just grabbed my things and walked out. I remember getting in my car and crying my eyes out. I needed that job. I hadn't done anything wrong. I really thought my life was over."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had the best day at work today. I love this new job more than I ever thought possible. 6 months ago I really thought my life was over when I quit my job with no plan for the future. I admit now I quit on an impulse, but it felt right. I had been getting harassed at work by this horrible employee named Jan. She was inappropriate and rude to everyone, and no one stood up to her. I was trying to complete a project at the office while everyone else was enjoying the Christmas party. Jan kept coming into my office to ask me to drink with her and to dance, it was obnoxious. She was obviously drunk,. I asked her several times to leave me alone and she would not stop touching me and harassing me. After an hour of the constant annoyance I snapped. I told her exactly what I thought of her and how terrible she was. Everyone just stood and watched. No one joined in or had my back. I was distraught. My supervisors watched me be harassed and did nothing. After my outburst I knew I was done at that company, so I quit. I just grabbed my things and walked out. I remember getting in my car and crying my eyes out. I needed that job. I hadn't done anything wrong. I really thought my life was over.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so stressed and upset. But now, 6 months later, I am so happy. I have a new job that I love. It's so different from my old job. I don't have to deal with inappropriate behavior or harassment. I am treated with respect and kindness. I am so grateful to have this new job and I am so glad I quit my old one. I have never been happier."
+            }
+        ],
+        "request_id": "811e985c799b0f39-EWR"
+    }
+}

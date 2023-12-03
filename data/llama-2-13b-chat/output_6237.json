@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In August, my mom and I took my best friend and his girlfriend on a nice day trip. We had all decided on going to Martha's Vineyard to site see and enjoy some time at the beach. We arrived at the ferry around 9 in the morning which was an event in and of itself with how long it took to get there. It was a nice leisurely boat ride to the island. Once we got there we went around and explored the first city. It was pretty, if a bit crowded. We ate some ice cream and then decided on going to see some llamas. We took a bus ride to the llama farm and went in to see them. They were incredibly adorable, though I was expecting that. My friend and his girlfriend ended up buying a couple of shirts for themselves to commemorate the occasion. We headed back into to town to get something to eat before heading to the beach. We ended up getting some extremely good fish and chips at a pretty good restaurant. It was kind of overpriced but what ever. After this we headed over to the beach to get some sun. We stayed at the beach for a couple of hours and then decided to head on back home. It was overall a pretty great day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In August, my mom and I took my best friend and his girlfriend on a nice day trip. We had all decided on going to Martha's Vineyard to site see and enjoy some time at the beach. We arrived at the ferry around 9 in the morning which was an event in and of itself with how long it took to get there. It was a nice leisurely boat ride to the island. Once we got there we went around and explored the first city. It was pretty, if a bit crowded. We ate some ice cream and then decided on going to see some llamas. We took a bus ride to the llama farm and went in to see them. They were incredibly adorable, though I was expecting that. My friend and his girlfriend ended up buying a couple of shirts for themselves to commemorate the occasion. We headed back into to town to get something to eat before heading to the beach. We ended up getting some extremely good fish and chips at a pretty good restaurant. It was kind of overpriced but what ever. After this we headed over to the beach to get some sun. We stayed at the beach for a couple of hours and then decided to head on back home. It was overall a pretty great day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4192bef04301-EWR"
+    }
+}

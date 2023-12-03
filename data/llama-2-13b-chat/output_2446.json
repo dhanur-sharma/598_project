@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Finally got the pickup registration renewed with just a few days to spare.  Too typical of me I procrastinated, DMV sent me the renewal notice about two months in advance and I was down to about a week before the due date when I finally decided to get it done.  But by then the Check Engine light had come on in the dash which meant the truck likely would not pass the emissions test which is required for the vehicle registration.  Going to the autoparts store I found and bought a relatively inexpensive computer that plugs into a connector under the dash and gives you more information about why the Check Engine light is on.  More appealing to me was the ability of this computer to clear the vehicle's error log and I did exactly that, this turned off the Check Engine light and I made my way to an emissions testing station hoping to get a passed test before the pickup's computer rediscovered the problem.  The whole time the Check Engine light stayed off, but the truck failed the test.  The person performing the test informed me that the vehicle's computer did not have enough stored data to give their computer the pass or fail results.  He asked me if I had replaced the battery recently and I told him I had disconnected it to clean the connections just that day, don't know why I felt I had to conceal that I had cleared the error log of the computer of my own truck.  He told me that in order to pass the emissions test the vehicle's computer had to have recorded more data and to do that he advised me to drive for about a half hour on the interstate then drive on slower surface roads for the return trip, he also said that if the Check Engine light comes on not to bother bringing it in for a retest.  So instead of enjoying my weekend I spent a good part of Saturday taking a road trip, and just about when I was about to get off the interstate highway the Check Engine light came on.  I pull out my little diagnostics computer I bought from the autoparts store but this time read the error message, spent several hours on the internet getting an English interpretation of the auto-computer message, then several more hours researching what I could do about it.  Good news, a single part causes the issue the majority of the time and could often be solved with some vigorous cleaning, bad news was that due to my procrastination I really didn't have the time to try the cleaning method and would just have to replace the part, which wasn't cheap.  So the next day I was back to the autoparts store, bought the part, and installed it (it was surprisingly easy to install).  Now with the Check Engine off again and my truck's computer hopefully satisfied with the amount of data it had recorded I returned to the emissions testing station to have the computers talk to each other and hopefully conclude it was OK for me to re-register the truck for another two years.  To my relief it passed, it'd be another two years before I had to worry about replacing my truck."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Finally got the pickup registration renewed with just a few days to spare.  Too typical of me I procrastinated, DMV sent me the renewal notice about two months in advance and I was down to about a week before the due date when I finally decided to get it done.  But by then the Check Engine light had come on in the dash which meant the truck likely would not pass the emissions test which is required for the vehicle registration.  Going to the autoparts store I found and bought a relatively inexpensive computer that plugs into a connector under the dash and gives you more information about why the Check Engine light is on.  More appealing to me was the ability of this computer to clear the vehicle's error log and I did exactly that, this turned off the Check Engine light and I made my way to an emissions testing station hoping to get a passed test before the pickup's computer rediscovered the problem.  The whole time the Check Engine light stayed off, but the truck failed the test.  The person performing the test informed me that the vehicle's computer did not have enough stored data to give their computer the pass or fail results.  He asked me if I had replaced the battery recently and I told him I had disconnected it to clean the connections just that day, don't know why I felt I had to conceal that I had cleared the error log of the computer of my own truck.  He told me that in order to pass the emissions test the vehicle's computer had to have recorded more data and to do that he advised me to drive for about a half hour on the interstate then drive on slower surface roads for the return trip, he also said that if the Check Engine light comes on not to bother bringing it in for a retest.  So instead of enjoying my weekend I spent a good part of Saturday taking a road trip, and just about when I was about to get off the interstate highway the Check Engine light came on.  I pull out my little diagnostics computer I bought from the autoparts store but this time read the error message, spent several hours on the internet getting an English interpretation of the auto-computer message, then several more hours researching what I could do about it.  Good news, a single part causes the issue the majority of the time and could often be solved with some vigorous cleaning, bad news was that due to my procrastination I really didn't have the time to try the cleaning method and would just have to replace the part, which wasn't cheap.  So the next day I was back to the autoparts store, bought the part, and installed it (it was surprisingly easy to install).  Now with the Check Engine off again and my truck's computer hopefully satisfied with the amount of data it had recorded I returned to the emissions testing station to have the computers talk to each other and hopefully conclude it was OK for me to re-register the truck for another two years.  To my relief it passed, it'd be another two years before I had to worry about replacing my truck.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb6cb08b14297-EWR"
+    }
+}

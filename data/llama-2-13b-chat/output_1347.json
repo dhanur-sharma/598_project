@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most awful thing happened to me four months ago, I still think about it all the time. I was working downtown on a Tuesday morning, like I often do and fell. It was miserable, I was so busy with a work deadline and looking down at my phone that I didn't even think about looking down to the sidewalk, I should have obviously because I tripped on an uneven section. I knew as soon as I hit the ground that this was really bad and the pain was immense. I had been carrying a coffee in one hand and cell phone in the other, I was covered in coffee and my cell phone screen was smashed. Thankfully it happened right near the coffee shop downtown so there we so many witnesses that someone was able to call an ambulance straight away! I guess that was one positive to the situation. It only took about 10 minutes for the ambulance to arrive but it felt like a life time. Thankfully the hospital is nearby and they transported me quickly. The wait once I got there to be seen was amazingly quick, I guess Tuesday mornings are quiet for hospitals. After the x-ray they announced I had broken and dislocated my ankle in two places, I guess that explained my extreme pain and the swelling! The doctor was so courteous and told me to not panic at the sight of my ankle, it looked horrendous. Dark gray and like nothing I have ever seen before. The funniest thing for me was that a friend texted me and said they had driven by at exact moment I fell, what are the chances of that ever happening?! The whole incident was embarrassing, I should have taken more care, I mean the amount of times that I have told my kids to get their faces out of their phones. The irony is I was trying to catch up my work and instead, I am incredibly behind now. I keep telling myself that it could have been worse and my ankle will heal. And thank goodness I had insurance on the cell phone! I had to stay home for four weeks which felt like the longest time of my life but I am pleased to say my ankle is all healed and I am no longer walking and working."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most awful thing happened to me four months ago, I still think about it all the time. I was working downtown on a Tuesday morning, like I often do and fell. It was miserable, I was so busy with a work deadline and looking down at my phone that I didn't even think about looking down to the sidewalk, I should have obviously because I tripped on an uneven section. I knew as soon as I hit the ground that this was really bad and the pain was immense. I had been carrying a coffee in one hand and cell phone in the other, I was covered in coffee and my cell phone screen was smashed. Thankfully it happened right near the coffee shop downtown so there we so many witnesses that someone was able to call an ambulance straight away! I guess that was one positive to the situation. It only took about 10 minutes for the ambulance to arrive but it felt like a life time. Thankfully the hospital is nearby and they transported me quickly. The wait once I got there to be seen was amazingly quick, I guess Tuesday mornings are quiet for hospitals. After the x-ray they announced I had broken and dislocated my ankle in two places, I guess that explained my extreme pain and the swelling! The doctor was so courteous and told me to not panic at the sight of my ankle, it looked horrendous. Dark gray and like nothing I have ever seen before. The funniest thing for me was that a friend texted me and said they had driven by at exact moment I fell, what are the chances of that ever happening?! The whole incident was embarrassing, I should have taken more care, I mean the amount of times that I have told my kids to get their faces out of their phones. The irony is I was trying to catch up my work and instead, I am incredibly behind now. I keep telling myself that it could have been worse and my ankle will heal. And thank goodness I had insurance on the cell phone! I had to stay home for four weeks which felt like the longest time of my life but I am pleased to say my ankle is all healed and I am no longer walking and working.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still feel like I am recovering from this but it was a long and painful journey. I hope that no one else has to go through this!"
+            }
+        ],
+        "request_id": "811ea30adb1a8c12-EWR"
+    }
+}

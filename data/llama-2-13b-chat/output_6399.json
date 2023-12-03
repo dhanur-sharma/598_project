@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, after I had just finished a semester of an online art class, I decided to go to a museum to see art in person. I chose the Detroit art museum because it is the closest to me. I looked at all of the paintings with care and made sure I paid attention to all the details of each painting. There were many nice paintings but there was on in particular that caught my eye. It was a painting of birds and watermelons. The brush strokes were detailed and smooth. The colors were muted but still seemed to pop out at you. The lines and definition were precise but also looked blended so that each object moved seamlessly into the other. i wanted to know who painted this. the plaque under the painting told me the name of the painting and the painter. I decided that I would look up more work by this artist. I wanted to learn from their style . I thought it would be great to paint like that. I decided to go to the gift shop in the museum and I just happened to find a book about the artists work. It was expensive but I thought it was worth the money. I bought it and rushed home that I could study the artists other paintings. It was a very productive and educational trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, after I had just finished a semester of an online art class, I decided to go to a museum to see art in person. I chose the Detroit art museum because it is the closest to me. I looked at all of the paintings with care and made sure I paid attention to all the details of each painting. There were many nice paintings but there was on in particular that caught my eye. It was a painting of birds and watermelons. The brush strokes were detailed and smooth. The colors were muted but still seemed to pop out at you. The lines and definition were precise but also looked blended so that each object moved seamlessly into the other. i wanted to know who painted this. the plaque under the painting told me the name of the painting and the painter. I decided that I would look up more work by this artist. I wanted to learn from their style . I thought it would be great to paint like that. I decided to go to the gift shop in the museum and I just happened to find a book about the artists work. It was expensive but I thought it was worth the money. I bought it and rushed home that I could study the artists other paintings. It was a very productive and educational trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would definitely go back to the museum again.\n\n"
+            }
+        ],
+        "request_id": "811f4495ee560f6d-EWR"
+    }
+}

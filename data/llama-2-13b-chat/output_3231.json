@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We just returned from our week long Walt Disney World vacation. It was an amazing time and we made so many memories that I know will stay with all of us forever. Since it was my 5 year old son's first trip to Disney World, we tried to make it extra special by booking a lot of character restaurants. On our arrival day, we ate dinner at Chef Mickey's. The food was terrible but the character interactions were well worth the lack of flavor and the price of our meals. Seeing my son's face light up when Mickey, Minnie, Donald, and Goofy came to our table to interact with him was priceless. He was so happy. The next morning before heading to the parks, we had breakfast at 'Ohana with Lilo, Stitch, and Mickey. Stitch is one of my son's favorite characters right now so he was literally speechless when he saw him roaming around the restaurant. His expression upon meeting Lilo was unexpected and the most precious thing I have ever seen. He held her hand and stared up at her like she was the greatest thing he had ever seen. I ended up ordering that print and will frame it. Later that night while taking a break from the Magic Kingdom, we ate at the T-Rex restaurant because my son is really into dinosaurs at the moment. That was a lot of fun but the food was sub par. On our 3rd day, we ate breakfast at 1900 park faire with Cinderella, Prince Charming, and the wicked step mother. It was a better food experience but my son was not very into the characters. That night, we ate at Garden Grill in Epcot with Chip and Dale. The food was sub par again but the characters were so much fun. All in all, we learned that park food, even in the restaurants is not very good. The lunches and dinners that we had in Disney Springs were amazing though. Our resort was just a short boat ride from Disney Springs so when we took a break from the parks around lunch time, I would run get lunch and bring it back to the resort while my son rested."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We just returned from our week long Walt Disney World vacation. It was an amazing time and we made so many memories that I know will stay with all of us forever. Since it was my 5 year old son's first trip to Disney World, we tried to make it extra special by booking a lot of character restaurants. On our arrival day, we ate dinner at Chef Mickey's. The food was terrible but the character interactions were well worth the lack of flavor and the price of our meals. Seeing my son's face light up when Mickey, Minnie, Donald, and Goofy came to our table to interact with him was priceless. He was so happy. The next morning before heading to the parks, we had breakfast at 'Ohana with Lilo, Stitch, and Mickey. Stitch is one of my son's favorite characters right now so he was literally speechless when he saw him roaming around the restaurant. His expression upon meeting Lilo was unexpected and the most precious thing I have ever seen. He held her hand and stared up at her like she was the greatest thing he had ever seen. I ended up ordering that print and will frame it. Later that night while taking a break from the Magic Kingdom, we ate at the T-Rex restaurant because my son is really into dinosaurs at the moment. That was a lot of fun but the food was sub par. On our 3rd day, we ate breakfast at 1900 park faire with Cinderella, Prince Charming, and the wicked step mother. It was a better food experience but my son was not very into the characters. That night, we ate at Garden Grill in Epcot with Chip and Dale. The food was sub par again but the characters were so much fun. All in all, we learned that park food, even in the restaurants is not very good. The lunches and dinners that we had in Disney Springs were amazing though. Our resort was just a short boat ride from Disney Springs so when we took a break from the parks around lunch time, I would run get lunch and bring it back to the resort while my son rested.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to say, the Disney Springs restaurants are where it is at. We will definitely be doing that again next time."
+            }
+        ],
+        "request_id": "811ec6ef5c003350-EWR"
+    }
+}

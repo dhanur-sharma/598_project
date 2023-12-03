@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a night of excitement. But that night, I was hungry. I was happy to see my man. However, I needed food. We set out to find something to eat. We had to drive a long distance between each place. They were all closed. So we would proceed even further. I was so hungry, and tired. Eventually, we saw someone and asked. They told us there was a waffle house. The place was all the way across town. However, we got to it. We settled in and ordered food. I have never eaten so fast before. I really enjoyed the meal, and was happy to be with my boyfriend again. We had not met for a  long time, and we missed each other."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a night of excitement. But that night, I was hungry. I was happy to see my man. However, I needed food. We set out to find something to eat. We had to drive a long distance between each place. They were all closed. So we would proceed even further. I was so hungry, and tired. Eventually, we saw someone and asked. They told us there was a waffle house. The place was all the way across town. However, we got to it. We settled in and ordered food. I have never eaten so fast before. I really enjoyed the meal, and was happy to be with my boyfriend again. We had not met for a  long time, and we missed each other.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc75be7141c0-EWR"
+    }
+}

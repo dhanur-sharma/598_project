@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well my son has since recovered from his illness. We did not in fact go bankrupt. Instead the doctors and hospitals all wrote off the remaining balances. We should sue them all. That is why they chose not to pursue collections against us. They know if we go to court they will lose. Unfortunately my son is an adult and this is not left to me to decide. We would be going to see a lawyer if it were up to me. Needless to say. He is well and that is the important thing. I imagine years down the road he may regret it. But just like all his lessons he like to learn them the hard way! So at this point we owe noone anything for the hospital stay. We are just grateful he is ok. The surgery that started the whole debacle was a complete failure. His breathing is actually worse now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well my son has since recovered from his illness. We did not in fact go bankrupt. Instead the doctors and hospitals all wrote off the remaining balances. We should sue them all. That is why they chose not to pursue collections against us. They know if we go to court they will lose. Unfortunately my son is an adult and this is not left to me to decide. We would be going to see a lawyer if it were up to me. Needless to say. He is well and that is the important thing. I imagine years down the road he may regret it. But just like all his lessons he like to learn them the hard way! So at this point we owe noone anything for the hospital stay. We are just grateful he is ok. The surgery that started the whole debacle was a complete failure. His breathing is actually worse now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They had to do another surgery to fix the first one. He has to have another surgery. We are just glad he is alive.\n\n"
+            }
+        ],
+        "request_id": "811f37f24b74198e-EWR"
+    }
+}

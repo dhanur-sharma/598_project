@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lived the typical American fantasy. I met my future wife to be in high school. The chemistry was white hot. I had wanted this to happen growing up and reaching the ranks in the school system. But those ideas were just that: ideas. They didn't seem like they'd be a reality. But then, she came into my life. I didn't really believe in the idea of love at first sight, but that was before I met her. She was the proverbial girl of my dreams. A few years later, we were married. It all had happened so fast. But that's what made it even more special. It was full speed ahead. It just is nice to take a step back and appreciate what all has happened. We've had a couple kids since the marriage, and to this day I am still just as much in love with her as I was the day I saw her. In fact, it grows by the day. I got incredibly lucky."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lived the typical American fantasy. I met my future wife to be in high school. The chemistry was white hot. I had wanted this to happen growing up and reaching the ranks in the school system. But those ideas were just that: ideas. They didn't seem like they'd be a reality. But then, she came into my life. I didn't really believe in the idea of love at first sight, but that was before I met her. She was the proverbial girl of my dreams. A few years later, we were married. It all had happened so fast. But that's what made it even more special. It was full speed ahead. It just is nice to take a step back and appreciate what all has happened. We've had a couple kids since the marriage, and to this day I am still just as much in love with her as I was the day I saw her. In fact, it grows by the day. I got incredibly lucky.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was given the gift of love. And I am living it every day.\n\n"
+            }
+        ],
+        "request_id": "811f4b3a3bbc1962-EWR"
+    }
+}

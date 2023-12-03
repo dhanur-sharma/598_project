@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently visited Pictured Rocks National Lakeshore for the second time in my life. I truly enjoyed the sights there yet again. I went on a ten mile hike along the cliffs, beaches, and through the woods. Stopping to photograph the best scenes along the way. The weather was perfect, the potential for rain held off. And the sun eventually came out. It was spring time so the waterfalls and rivers were roaring. Unfortunately I was surprised to encounter trail conditions that were less than optimal. Though it had not rained recently, nor that day, there was much mud on sections of the trail. It was very mucky and I quickly made use of my spare pairs of socks I brought. This was likely because of recently snow melt despite it being late May. The Upper Peninsula of Michigan really is something else. In fact, I even saw some pockets of frozen hard snow still holding on in the shades of the cliffs that never get direct sunlight. Other than that, there were no setbacks and the adventure went just as I had hoped. I cannot wait to go there again some day. It really is a place that never disappoints."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently visited Pictured Rocks National Lakeshore for the second time in my life. I truly enjoyed the sights there yet again. I went on a ten mile hike along the cliffs, beaches, and through the woods. Stopping to photograph the best scenes along the way. The weather was perfect, the potential for rain held off. And the sun eventually came out. It was spring time so the waterfalls and rivers were roaring. Unfortunately I was surprised to encounter trail conditions that were less than optimal. Though it had not rained recently, nor that day, there was much mud on sections of the trail. It was very mucky and I quickly made use of my spare pairs of socks I brought. This was likely because of recently snow melt despite it being late May. The Upper Peninsula of Michigan really is something else. In fact, I even saw some pockets of frozen hard snow still holding on in the shades of the cliffs that never get direct sunlight. Other than that, there were no setbacks and the adventure went just as I had hoped. I cannot wait to go there again some day. It really is a place that never disappoints.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb392ae20196c-EWR"
+    }
+}

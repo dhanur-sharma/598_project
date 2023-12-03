@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I volunteered at the Animal Defense League.  My job was to walk and play with the dogs.  Sometimes I would also go to the cat and kitten building and play with the cats.  It was a rewarding experience.  I loved bring a little joy and comfort to all the animals.  It also brought joy to me and helped me with my depression.  The unexpected thing that came about was that I really got attached to one particular dog and adopted her a month ago.  It was the best decision of my life.  She brings me so much happiness.  I will never regret spending my spare time with these pets.  I often take Pippen to the shelter to interact with some of the dogs.  It is so sweet when she recognizes some of the dogs that are still there. Adopting Pippen has been so emotionally good for me and my family.  I post online picture from the shelter.  I would encourage everyone I know to do the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I volunteered at the Animal Defense League.  My job was to walk and play with the dogs.  Sometimes I would also go to the cat and kitten building and play with the cats.  It was a rewarding experience.  I loved bring a little joy and comfort to all the animals.  It also brought joy to me and helped me with my depression.  The unexpected thing that came about was that I really got attached to one particular dog and adopted her a month ago.  It was the best decision of my life.  She brings me so much happiness.  I will never regret spending my spare time with these pets.  I often take Pippen to the shelter to interact with some of the dogs.  It is so sweet when she recognizes some of the dogs that are still there. Adopting Pippen has been so emotionally good for me and my family.  I post online picture from the shelter.  I would encourage everyone I know to do the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It would help the shelters out and give the pets a better chance at life.\n\n"
+            }
+        ],
+        "request_id": "811ec81039a017c1-EWR"
+    }
+}

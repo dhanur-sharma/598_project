@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the Summer of 1969 on a very beautiful day things got a little dramatic and dangerous. I was playing outside with my older sister keeping an eye on me. My Mom peeped out the front door and told us not to leave the yard. As soon as my Mother closed the door, my sister got on the bike and started leaving. I started running up the driveway crying. I begged for her not to leave. Well she hated it when I cried and lifted me onto the bike. We went up the street to our cousins house. they were sisters who were close to my sisters age. the older one wanted to ride the bike. this particular bike had a back seat. There were four of us. My older cousin maneuvered the bike with mine and her sister on the back seat and me on the handlebars. Off we went up the street feeling the breeze from the wind. then we started going downhill and the bike got very unsteady swerving from side to side. all of a sudden my left foot got caught in the front wheel and the bike threw everyone. we were all injured except my sister who ran an hid in the woods from fear of getting in trouble. it was a very tragic day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the Summer of 1969 on a very beautiful day things got a little dramatic and dangerous. I was playing outside with my older sister keeping an eye on me. My Mom peeped out the front door and told us not to leave the yard. As soon as my Mother closed the door, my sister got on the bike and started leaving. I started running up the driveway crying. I begged for her not to leave. Well she hated it when I cried and lifted me onto the bike. We went up the street to our cousins house. they were sisters who were close to my sisters age. the older one wanted to ride the bike. this particular bike had a back seat. There were four of us. My older cousin maneuvered the bike with mine and her sister on the back seat and me on the handlebars. Off we went up the street feeling the breeze from the wind. then we started going downhill and the bike got very unsteady swerving from side to side. all of a sudden my left foot got caught in the front wheel and the bike threw everyone. we were all injured except my sister who ran an hid in the woods from fear of getting in trouble. it was a very tragic day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was rushed to the hospital with a broken leg. the end.\n\n"
+            }
+        ],
+        "request_id": "811ed416ad9c42a5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was focusing on trying to pass my technician test at work. I was hired in November and you had six months to complete the course so my deadline was less than a month away. Your boss or someone else is supposed to help you but I was on my own. There was no study book or no specific time set aside for me. Anyways, I had to do this course in work flow and a lot of was very technical. I was getting frustrated. I was one course away from finishing the first section of 2 and i could not pass the quiz for the life of me. You get three attempts before the boss has to ask for the course to be reset. I had to use that twice. With 10 days to go and my boss going on vacation I had to ask to come in on a Saturday to do the course. First thing was that daunting course. I passed it right away with a little bit of my bosses help. It ended up taking me all of that Saturday when i was expecting about an hour or so. It was now off to the final. I passed it first try and got that monkey off my back. I can get nationally certified if Id like but I am firmly established with my new company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was focusing on trying to pass my technician test at work. I was hired in November and you had six months to complete the course so my deadline was less than a month away. Your boss or someone else is supposed to help you but I was on my own. There was no study book or no specific time set aside for me. Anyways, I had to do this course in work flow and a lot of was very technical. I was getting frustrated. I was one course away from finishing the first section of 2 and i could not pass the quiz for the life of me. You get three attempts before the boss has to ask for the course to be reset. I had to use that twice. With 10 days to go and my boss going on vacation I had to ask to come in on a Saturday to do the course. First thing was that daunting course. I passed it right away with a little bit of my bosses help. It ended up taking me all of that Saturday when i was expecting about an hour or so. It was now off to the final. I passed it first try and got that monkey off my back. I can get nationally certified if Id like but I am firmly established with my new company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f35a8fe9b8cd7-EWR"
+    }
+}

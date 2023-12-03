@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today is the day I finally learn how to speak spanish. as I have had this goal on my life for years but the one thing holding me back was the fact that I never had a good app or learning tool. So I searched the internet and other sources for the best learning apps and websites that I could find. My journey was a long a tedious one because some of the apps did not work or just did not help with the learning process as much. Then a friend told me about an app they were using which I might be interested in so I said okay what is the name of this new app and they said it's called duo lingo. So I downloaded it and finally I could speak spanish. It's no easy to learn spanish. It takes people years to learn. Also some people will never learn. Now is the time to learn as well. I dont think I would learn if not for duo. I had a very difficult time before. Some people think that apps dont work. Others go to school for years. Some people pay thousands."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today is the day I finally learn how to speak spanish. as I have had this goal on my life for years but the one thing holding me back was the fact that I never had a good app or learning tool. So I searched the internet and other sources for the best learning apps and websites that I could find. My journey was a long a tedious one because some of the apps did not work or just did not help with the learning process as much. Then a friend told me about an app they were using which I might be interested in so I said okay what is the name of this new app and they said it's called duo lingo. So I downloaded it and finally I could speak spanish. It's no easy to learn spanish. It takes people years to learn. Also some people will never learn. Now is the time to learn as well. I dont think I would learn if not for duo. I had a very difficult time before. Some people think that apps dont work. Others go to school for years. Some people pay thousands.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I paid a small amount and I learned. I feel so proud of myself for learning spanish. Now I can talk to my spanish friends."
+            }
+        ],
+        "request_id": "811e8a32baf95e6d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is a story when I was 22. I was at the bar, drinking after a break up with my girlfriend. We had been together for more than two years. I thought she was the perfect one. I thought she was the one that I wanted to marry. But fate had different plans for me. We broke up because she did not know if the relationship would work out. I do not know I did to her but now I am here in a bar alone. The bar was the perfect place to vent out my emotions. Nobody was there to stop me. I drank so much that I blacked out. I do not remember anything that happened after I blacked out. But there is something I know.  The thing is that I was talking to two girls. One large one and one a somewhat attractive one. They were caring for me to listen to me. That is all know. I found myself blacked out, taken home. Apparently, I had sex with the large lady rather than the attractive girl when I was blacked out. In the end, it does not matter at all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is a story when I was 22. I was at the bar, drinking after a break up with my girlfriend. We had been together for more than two years. I thought she was the perfect one. I thought she was the one that I wanted to marry. But fate had different plans for me. We broke up because she did not know if the relationship would work out. I do not know I did to her but now I am here in a bar alone. The bar was the perfect place to vent out my emotions. Nobody was there to stop me. I drank so much that I blacked out. I do not remember anything that happened after I blacked out. But there is something I know.  The thing is that I was talking to two girls. One large one and one a somewhat attractive one. They were caring for me to listen to me. That is all know. I found myself blacked out, taken home. Apparently, I had sex with the large lady rather than the attractive girl when I was blacked out. In the end, it does not matter at all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I woke up with a pounding headache. I felt so bad. I do not know how I got home. I do not know what happened. All I know is that I need to get out of this place.\n\n"
+            }
+        ],
+        "request_id": "811f4822facd8c7d-EWR"
+    }
+}

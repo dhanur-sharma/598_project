@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Dairy...About 3 months ago I had a little melt down.  School just got out for the summer and I took Babbet to ballet school. I know she is enjoyed it and I am so thrilled that she has the opportunity. It is just the age old anxiety that most parents have when their children go off without them at what seems to be such a young age.  I did get a call from the instructor that Babbet is did great. She also said Babbet likes to trade tutus with the other girls. That so sounds like her. She would trade her jackets and coats when she first started school. Once, she even came home without one because the other girl didn't have one to trade!!  Everything worked out fine. She made friends. I learned to crochet. She learned ballet moves. I crocheted a hat. She has several tutus that belong to somebody. I have calls to make for those! It was a unique experince for her. The final performance was excellent. Those little girls gave it their all and Babbet was poised and graceful. Even with the in the air high five she sent me from center stage."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Dairy...About 3 months ago I had a little melt down.  School just got out for the summer and I took Babbet to ballet school. I know she is enjoyed it and I am so thrilled that she has the opportunity. It is just the age old anxiety that most parents have when their children go off without them at what seems to be such a young age.  I did get a call from the instructor that Babbet is did great. She also said Babbet likes to trade tutus with the other girls. That so sounds like her. She would trade her jackets and coats when she first started school. Once, she even came home without one because the other girl didn't have one to trade!!  Everything worked out fine. She made friends. I learned to crochet. She learned ballet moves. I crocheted a hat. She has several tutus that belong to somebody. I have calls to make for those! It was a unique experince for her. The final performance was excellent. Those little girls gave it their all and Babbet was poised and graceful. Even with the in the air high five she sent me from center stage.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so proud of her!\n\n"
+            }
+        ],
+        "request_id": "811f3a0f08d2447a-EWR"
+    }
+}

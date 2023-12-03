@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Today I took my daughter driving for the first time. She got her learners permit in the mail yesterday and has been asking to go ever since. We were going to pick up my son, but left early and found a church parking lot nearby. It reminded me of the times when my mom and I would go to the high school parking lot and I would drive with her. My daughter was very nervous and I had trouble convincing her to take her foot off of the brake.  After a while, she calmed down somewhat and she was off. Initially, she was having trouble accelerating and braking smoothly. I soon realized that it was her shoes! She had worn flip flops to her first driving lesson. We then pulled over and she found a pair of tennis shoes in the trunk. After that, it was much smoother driving. We worked on turns and braking. We even did some parking lessons. I also went over the dashboard features and would quiz her on the names of certain things. She did a great job and we worked on a lot of things. I am very proud of her and how seriously she is taking the privilege of driving a vehicle. I am sure she is going to be a terrific driver."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Today I took my daughter driving for the first time. She got her learners permit in the mail yesterday and has been asking to go ever since. We were going to pick up my son, but left early and found a church parking lot nearby. It reminded me of the times when my mom and I would go to the high school parking lot and I would drive with her. My daughter was very nervous and I had trouble convincing her to take her foot off of the brake.  After a while, she calmed down somewhat and she was off. Initially, she was having trouble accelerating and braking smoothly. I soon realized that it was her shoes! She had worn flip flops to her first driving lesson. We then pulled over and she found a pair of tennis shoes in the trunk. After that, it was much smoother driving. We worked on turns and braking. We even did some parking lessons. I also went over the dashboard features and would quiz her on the names of certain things. She did a great job and we worked on a lot of things. I am very proud of her and how seriously she is taking the privilege of driving a vehicle. I am sure she is going to be a terrific driver.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have no doubt she will pass her road test.  \n\n"
+            }
+        ],
+        "request_id": "811ebdfa7fea42b1-EWR"
+    }
+}

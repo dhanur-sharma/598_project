@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A big chunk of my family attended the ELO concert in Atlanta on July 5th of this year.  I come from a very large family (I'm the youngest of 7) and there were 10 of us total who attended the concert.  It was an awesome show and I would rate it as one of the top 6 or 7 concerts I have ever attended - and I have attended a LOT.  It was so enriching to spend time with my siblings because we don't get to do that often enough. This event was also memorable for one other reason.  My brother bought the tickets last December when they first went on sale.  He bought enough for everyone, including my oldest brother's wife.  She was so excited - she had never seen ELO live.  Unfortunately, something tragic happened just 6 weeks before the concert.  She was outside in her garden and she had a massive aneurysm.  She was rushed to the hospital but it was too late.  She passed away that night.  We lost someone very special and dear to our hearts and the pain was palpable.  My oldest brother decided he didn't want to go to the concert after she passed away.  He said it just didn't feel right.  After numerous conversations, we convinced him to go.  His oldest son took her place.  It was an emotional evening while we were at the concert but it was exactly what our family needed.  We miss her terribly - and we will always miss her terribly - and the concert was dedicated to her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A big chunk of my family attended the ELO concert in Atlanta on July 5th of this year.  I come from a very large family (I'm the youngest of 7) and there were 10 of us total who attended the concert.  It was an awesome show and I would rate it as one of the top 6 or 7 concerts I have ever attended - and I have attended a LOT.  It was so enriching to spend time with my siblings because we don't get to do that often enough. This event was also memorable for one other reason.  My brother bought the tickets last December when they first went on sale.  He bought enough for everyone, including my oldest brother's wife.  She was so excited - she had never seen ELO live.  Unfortunately, something tragic happened just 6 weeks before the concert.  She was outside in her garden and she had a massive aneurysm.  She was rushed to the hospital but it was too late.  She passed away that night.  We lost someone very special and dear to our hearts and the pain was palpable.  My oldest brother decided he didn't want to go to the concert after she passed away.  He said it just didn't feel right.  After numerous conversations, we convinced him to go.  His oldest son took her place.  It was an emotional evening while we were at the concert but it was exactly what our family needed.  We miss her terribly - and we will always miss her terribly - and the concert was dedicated to her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so glad we all went.  It was a difficult but ultimately healing night for us.\n\n"
+            }
+        ],
+        "request_id": "811e8f293a084327-EWR"
+    }
+}

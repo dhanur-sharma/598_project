@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, we had a birthday party with the son. It took a while to find a great place for him. We finally found a nice arcade and pizza place. The pizza was great. I had a large meat lover's and shared it with the family. They enjoyed it as well. There were many games in the arcade. I played some Ski ball. I let my son when and he had a lot of fun. I played some classics, like Pac-man. I let the little one beat me in Pac-man but just barely. He got a 1000 points more than me. The arcade wasn't that full. We had this party by ourselves. We all went home with a smile on our faces and will remember this forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, we had a birthday party with the son. It took a while to find a great place for him. We finally found a nice arcade and pizza place. The pizza was great. I had a large meat lover's and shared it with the family. They enjoyed it as well. There were many games in the arcade. I played some Ski ball. I let my son when and he had a lot of fun. I played some classics, like Pac-man. I let the little one beat me in Pac-man but just barely. He got a 1000 points more than me. The arcade wasn't that full. We had this party by ourselves. We all went home with a smile on our faces and will remember this forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecc267acf427f-EWR"
+    }
+}

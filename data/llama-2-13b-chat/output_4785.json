@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently used Facebook to ask for financial assistance (and I got a small amount by doing this). I hated having to ask and I didn't want to but I did (twice) and both times was helped by different people (one family member and two friends). I certainly wasn't expecting the help but I was so happy to receive it! Thanks to the unexpected financial help I received I was able to get medication for myself and for my husband. I take care of my mother on the weekends and hate leaving my husband home alone. We have been unable to afford food at the end of every month for the past few months because, after my dad died last year, my rent shot up (over $200 a month). I have been tyring to have it lowered. My husband literally go to be hungry some  nights. I definitely never expected anybody to respond so nicely to a facebook post. I only got one pseudo-mean comment in response to my request for help. The people who helped really moved me. My sister in law was one. Two of the others were friends but not super close friends. Part of the surprise was the people who replied. My sister in law has been the most helpful out of everybody. It is still a little embarrassing but great to know help is there! It also makes me happy to know that I can leave my husband alone on weekends and he will have food and medicine when I am not home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently used Facebook to ask for financial assistance (and I got a small amount by doing this). I hated having to ask and I didn't want to but I did (twice) and both times was helped by different people (one family member and two friends). I certainly wasn't expecting the help but I was so happy to receive it! Thanks to the unexpected financial help I received I was able to get medication for myself and for my husband. I take care of my mother on the weekends and hate leaving my husband home alone. We have been unable to afford food at the end of every month for the past few months because, after my dad died last year, my rent shot up (over $200 a month). I have been tyring to have it lowered. My husband literally go to be hungry some  nights. I definitely never expected anybody to respond so nicely to a facebook post. I only got one pseudo-mean comment in response to my request for help. The people who helped really moved me. My sister in law was one. Two of the others were friends but not super close friends. Part of the surprise was the people who replied. My sister in law has been the most helpful out of everybody. It is still a little embarrassing but great to know help is there! It also makes me happy to know that I can leave my husband alone on weekends and he will have food and medicine when I am not home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I have been trying to get my rent lowered and I have been trying to sell my car but it is taking forever to sell it. I have to sell it before I can move. I am not sure if I will be able to move by the end of the month. I am scared that if I can't lower my rent, I will have to move back in with my parents. I know it is not the best option.\n\n"
+            }
+        ],
+        "request_id": "811bdddc4e33c334-EWR"
+    }
+}

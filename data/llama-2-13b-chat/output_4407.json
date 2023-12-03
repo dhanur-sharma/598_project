@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been a writer for about ten years. This was my dream since the age of 8. I feel like I'm a natural at this. I have such a great imagination. I have learned a few things through these years. I have been rejected more than once. I have been told to give up because I would never go anywhere. I say don't give up! About four monthes ago my manuscript was finally acceped for publication. I worked very hard for this and never gave up. This was long overdue. We were all very excited when it was accepted. We went out to celebrate with some dinner and drinks. We had a great time and a great celebration. Overall my advice to you is to never give up on you dream."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been a writer for about ten years. This was my dream since the age of 8. I feel like I'm a natural at this. I have such a great imagination. I have learned a few things through these years. I have been rejected more than once. I have been told to give up because I would never go anywhere. I say don't give up! About four monthes ago my manuscript was finally acceped for publication. I worked very hard for this and never gave up. This was long overdue. We were all very excited when it was accepted. We went out to celebrate with some dinner and drinks. We had a great time and a great celebration. Overall my advice to you is to never give up on you dream.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Keep pushing and never stop believing in yourself.\n\n"
+            }
+        ],
+        "request_id": "811bd641ac504282-EWR"
+    }
+}

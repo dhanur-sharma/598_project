@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I took a trip to Thailand with my family.  We were going over there to meet up with my brother who is working in that area.  It was the first time that I have been out of the country.  It was a life changing event.  Every day was a new opportunity to experience something completely new.  It was great spending time with my family in an exotic local.  There was a lot of friendly people there and there was wild life and there were pretty girls everywhere.  It was exciting to learn about a new culture.   It was unlike anything that I had done before.  I wish that I could spend a lot more time in a place like that.  I have a different way of looking at things now.  I just enjoy being a part of the world and seeing things that I wouldn't see all the time.   The most surprising part was how different it made me feel about the way the world is.   I think about the number of different personalities in the world all the time now.  I imagine what it would be like to meet people from every different place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I took a trip to Thailand with my family.  We were going over there to meet up with my brother who is working in that area.  It was the first time that I have been out of the country.  It was a life changing event.  Every day was a new opportunity to experience something completely new.  It was great spending time with my family in an exotic local.  There was a lot of friendly people there and there was wild life and there were pretty girls everywhere.  It was exciting to learn about a new culture.   It was unlike anything that I had done before.  I wish that I could spend a lot more time in a place like that.  I have a different way of looking at things now.  I just enjoy being a part of the world and seeing things that I wouldn't see all the time.   The most surprising part was how different it made me feel about the way the world is.   I think about the number of different personalities in the world all the time now.  I imagine what it would be like to meet people from every different place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was an amazing experience."
+            }
+        ],
+        "request_id": "811eaa9e6cf70f5f-EWR"
+    }
+}

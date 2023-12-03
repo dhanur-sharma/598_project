@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe what is going on today. I'm so confused. Today I was walking around seeing some historical sites on my trip to China, and saw police stopping bicyclists. It all seemed random, like chaos with no rhyme or reason to it. I mean I've heard about things like this, but to actually see it in person is a whole different story. I'm not a conspiracy theorist or anything, but the things that happened today really makes me wonder about it now. So when I got back to my room at the hotel I wrote to my friend about it all. I just wanted to hear their opinion on the matter. Then the strangest thing happened. My laptop froze up. Yeah, I know most people would write it off as a minor technical issue and reboot it, but it's literally a brand new laptop I bought just before the trip. Like I said, I'm not a conspiracy theorist but this happening to a brand new laptop right after I wrote an email to a buddy and tried to send it out of the country. I really wonder now if people really are that suppressed here. I never took the great firewall seriously. But it is defiantly real now I think. I can't even tell if the E-mail was sent or not, because after rebooting I couldn't reconnect to any internet."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe what is going on today. I'm so confused. Today I was walking around seeing some historical sites on my trip to China, and saw police stopping bicyclists. It all seemed random, like chaos with no rhyme or reason to it. I mean I've heard about things like this, but to actually see it in person is a whole different story. I'm not a conspiracy theorist or anything, but the things that happened today really makes me wonder about it now. So when I got back to my room at the hotel I wrote to my friend about it all. I just wanted to hear their opinion on the matter. Then the strangest thing happened. My laptop froze up. Yeah, I know most people would write it off as a minor technical issue and reboot it, but it's literally a brand new laptop I bought just before the trip. Like I said, I'm not a conspiracy theorist but this happening to a brand new laptop right after I wrote an email to a buddy and tried to send it out of the country. I really wonder now if people really are that suppressed here. I never took the great firewall seriously. But it is defiantly real now I think. I can't even tell if the E-mail was sent or not, because after rebooting I couldn't reconnect to any internet.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know what to do, or what is going on. I'm just so confused."
+            }
+        ],
+        "request_id": "811e9c4decbc42f4-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago I went on a family vacation.  I traveled with my husband and 10 of his family members to Barcelona, Spain. We left Barcelona for a one-week Mediterranean cruise.  On the cruise, we made stops in Italy, France, and Spain.  This was a memorable vacation because it celebrated my in-laws 55th wedding anniversary.  It was great to see the whole family and be together. We all live in different parts of the country, so it is rare that we are all together at one time. We had a lot of fun with nieces and nephews who are growing up quickly. Our niece also turned 13 on the cruise, and for her birthday my husband and I took her bowling on the boat. She was so excited and happy to go with us. I will remember that moment. There were a lot of downsides to the cruise.  Things like the oppressive heat, bad food, etc. contributed to a somewhat negative experience. However, many positive things will help to keep the memory happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago I went on a family vacation.  I traveled with my husband and 10 of his family members to Barcelona, Spain. We left Barcelona for a one-week Mediterranean cruise.  On the cruise, we made stops in Italy, France, and Spain.  This was a memorable vacation because it celebrated my in-laws 55th wedding anniversary.  It was great to see the whole family and be together. We all live in different parts of the country, so it is rare that we are all together at one time. We had a lot of fun with nieces and nephews who are growing up quickly. Our niece also turned 13 on the cruise, and for her birthday my husband and I took her bowling on the boat. She was so excited and happy to go with us. I will remember that moment. There were a lot of downsides to the cruise.  Things like the oppressive heat, bad food, etc. contributed to a somewhat negative experience. However, many positive things will help to keep the memory happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The cruise also included a lot of activities and entertainment. The shows were excellent and the comedian was so funny. My husband and I enjoyed the spa services and relaxed in the hot tub. We also went to a wine-tasting session and learned a lot about wine. The best part of the trip was spending time with my husband's family. Overall, it was a great vacation."
+            }
+        ],
+        "request_id": "811ec577fe51424b-EWR"
+    }
+}

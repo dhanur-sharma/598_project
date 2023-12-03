@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm not going to start this off by telling you that I had no fear and tackled learning how to surf head on. There are a lot of thing that stress me out, and the possibility of drowning is definitely near the top of the list. That just goes to show how much I trust my friends, and how persuasive they can be. Three months ago my friends were able to get me in the car, wedged in the back seat between a surf board and giant cooler. I was lucky that my friends are experienced surfers. The fact that they knew what they were doing put me more at ease. With a little bit of coaxing and a lot of instruction, I was finally able to stand up on the board without falling down. The feeling of accomplishment was like a drug and it made me push even harder. I never would have thought that I could like something like surfing. I thought my fear of falling in the water would make me hate it, but that fear completely went away. I remember turning to my friends after the first time I successfully stayed on my board and seeing their beaming smiles. I think it might have meant just as much to them that I was able to overcome my fears. I guess that's what true friends do, they lift you up. I almost feel like I am addicted to surfing now. I spend a lot of time checking out surf videos online, and even purchased my very own board."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm not going to start this off by telling you that I had no fear and tackled learning how to surf head on. There are a lot of thing that stress me out, and the possibility of drowning is definitely near the top of the list. That just goes to show how much I trust my friends, and how persuasive they can be. Three months ago my friends were able to get me in the car, wedged in the back seat between a surf board and giant cooler. I was lucky that my friends are experienced surfers. The fact that they knew what they were doing put me more at ease. With a little bit of coaxing and a lot of instruction, I was finally able to stand up on the board without falling down. The feeling of accomplishment was like a drug and it made me push even harder. I never would have thought that I could like something like surfing. I thought my fear of falling in the water would make me hate it, but that fear completely went away. I remember turning to my friends after the first time I successfully stayed on my board and seeing their beaming smiles. I think it might have meant just as much to them that I was able to overcome my fears. I guess that's what true friends do, they lift you up. I almost feel like I am addicted to surfing now. I spend a lot of time checking out surf videos online, and even purchased my very own board.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to admit, I'm a little nervous about hitting the waves on my own, but with the encouragement of my friends and the knowledge that I have gained, I think I'll be okay. I can't wait to get out there and catch some waves!"
+            }
+        ],
+        "request_id": "811ecb42af140cc8-EWR"
+    }
+}

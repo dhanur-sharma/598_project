@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went out for my sons birthday and we went to old orchard beach with his friends, Instead of choosing a normal kids food choice. Such as Chucky cheese or the Golden Arches he chose an authentic noodle bar. He loves the brown egg and all the seaweed bits. He loves to slurp them up. He tells us that's how the Japanese do it and we cannot tell him off. When we went to the board walk their is a large fairground. It has mainly adult rides. He is aged only 7 and his very tall for his age. He showed no fear and wanted to ride all of the adult rides where as a lot of his little friends did not. It was chaotic looking after all those kids but everyone enjoyed the day. It was along day and the weather was really quite warm. But we decided to go to the beach area that had a good breeze. But the area was very busy it took us a while to find a parking space. We ended up paying $35 dollars which I thought was a little high for a few hours parking. The kids wanted to leap out of the van. Even though they had been in the van for a while they still manage to make a lot of noise."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went out for my sons birthday and we went to old orchard beach with his friends, Instead of choosing a normal kids food choice. Such as Chucky cheese or the Golden Arches he chose an authentic noodle bar. He loves the brown egg and all the seaweed bits. He loves to slurp them up. He tells us that's how the Japanese do it and we cannot tell him off. When we went to the board walk their is a large fairground. It has mainly adult rides. He is aged only 7 and his very tall for his age. He showed no fear and wanted to ride all of the adult rides where as a lot of his little friends did not. It was chaotic looking after all those kids but everyone enjoyed the day. It was along day and the weather was really quite warm. But we decided to go to the beach area that had a good breeze. But the area was very busy it took us a while to find a parking space. We ended up paying $35 dollars which I thought was a little high for a few hours parking. The kids wanted to leap out of the van. Even though they had been in the van for a while they still manage to make a lot of noise.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But we made it to the beach and it was really nice. There were a lot of people and there was live music. The kids had a great time. I think it was a really good choice to go to old orchard beach for my sons birthday party.\n\n"
+            }
+        ],
+        "request_id": "811ea55ede62c477-EWR"
+    }
+}

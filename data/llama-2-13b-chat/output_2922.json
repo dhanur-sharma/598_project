@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Nine months ago, I had a little panic. My graduation ceremony was set back. The cause was my dry cleaner was late on delivering my cloth of the day. This made my feet sweaty. This got resolved and I had the ceremony. I celebrated in a big style with my family and friends. My mom gave me a big hug and had some tears. My dad shook my hand and also had tears. My friends all jumped up and down at the ceremony. We all had a great time. I had some tears that I was finally done with school. We all went out for some pizza to celebrate. I got a meat lovers by myself. I barely finished the pizza. I will remember this forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Nine months ago, I had a little panic. My graduation ceremony was set back. The cause was my dry cleaner was late on delivering my cloth of the day. This made my feet sweaty. This got resolved and I had the ceremony. I celebrated in a big style with my family and friends. My mom gave me a big hug and had some tears. My dad shook my hand and also had tears. My friends all jumped up and down at the ceremony. We all had a great time. I had some tears that I was finally done with school. We all went out for some pizza to celebrate. I got a meat lovers by myself. I barely finished the pizza. I will remember this forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec0a96dfe0f84-EWR"
+    }
+}

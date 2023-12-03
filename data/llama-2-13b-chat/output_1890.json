@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I play flag football on Saturdays at my local rec center and at the time my teammates were new. I know the guy who organized the team but everyone else was a new face. At the time i had been struggling with my confidence. My job and living situation were in a poor situation and it was impacting my attitude toward myself. It was our first game playing together as a team and I was playing extremely poorly. I was unsuccessful at everything and couldn't perform the most basic tasks.  I was not in the moment and couldn't focus. I expected to be berated and that my new teammates would be angry with me. The opposite happened. They didn't bench me and encouraged me to improve and try again. It was the first time in awhile that my failures were not met with negativity.  Everyone on the team was kind to me even though I had lost the game for the team. It meant a lot to me to be treated with kindness in my failure. The kindness they showed me payed off in the next game and I played really well. I have played well since that awful game. It has also helped me with my overall confidence and I can face struggles in my personal life better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I play flag football on Saturdays at my local rec center and at the time my teammates were new. I know the guy who organized the team but everyone else was a new face. At the time i had been struggling with my confidence. My job and living situation were in a poor situation and it was impacting my attitude toward myself. It was our first game playing together as a team and I was playing extremely poorly. I was unsuccessful at everything and couldn't perform the most basic tasks.  I was not in the moment and couldn't focus. I expected to be berated and that my new teammates would be angry with me. The opposite happened. They didn't bench me and encouraged me to improve and try again. It was the first time in awhile that my failures were not met with negativity.  Everyone on the team was kind to me even though I had lost the game for the team. It meant a lot to me to be treated with kindness in my failure. The kindness they showed me payed off in the next game and I played really well. I have played well since that awful game. It has also helped me with my overall confidence and I can face struggles in my personal life better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eacbf8857c46d-EWR"
+    }
+}

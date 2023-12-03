@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cousin had a wedding this past summer. I was one of the people involved in the preparations for his wedding. Later on, I found out that a friend of mine, with whom I had gone to the same school, was also a friend of my cousins. We had been friends for many years because we met when we were in fifth grade. When we found out that we were going to the same wedding, we arranged how we could go together. We also planned what we would wear. We went to the mall and bought classy suits so that we would look great for the wedding. My friend bought a linen suit because that's his favorite. I bought a very good looking regular fabric suit and got some shoes that go with it. As we were looking for shoes, we thought we'd also buy some new shirts. The store had very good and high end shirts on discount so I ended up buying two. My friend got two as well. We left the store and went to the gift shop to look for gifts that we would give at the wedding. I bought my cousin a pair of nice bed sheets and a blender. My friend bought my cousin a box of kitchen mugs. We went to the wedding the following day and had a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cousin had a wedding this past summer. I was one of the people involved in the preparations for his wedding. Later on, I found out that a friend of mine, with whom I had gone to the same school, was also a friend of my cousins. We had been friends for many years because we met when we were in fifth grade. When we found out that we were going to the same wedding, we arranged how we could go together. We also planned what we would wear. We went to the mall and bought classy suits so that we would look great for the wedding. My friend bought a linen suit because that's his favorite. I bought a very good looking regular fabric suit and got some shoes that go with it. As we were looking for shoes, we thought we'd also buy some new shirts. The store had very good and high end shirts on discount so I ended up buying two. My friend got two as well. We left the store and went to the gift shop to look for gifts that we would give at the wedding. I bought my cousin a pair of nice bed sheets and a blender. My friend bought my cousin a box of kitchen mugs. We went to the wedding the following day and had a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a lot of fun dancing and taking pictures with the bride and groom."
+            }
+        ],
+        "request_id": "811eb3a1cc6932e4-EWR"
+    }
+}

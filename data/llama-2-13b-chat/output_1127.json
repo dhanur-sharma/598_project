@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the grocery store doing my weekly grocery shopping trip. It was a cold day where everyone at the store seemed to be in a terrible mood. I therefore tried to quickly do my shopping and get out of there. Now as I went to the checkout lane, I noticed a lady ahead of me with her two children and she seemed to be having a terrible day. She was stressed because her children were being bad and you could tell that she just wanted to get out of there without losing her mind. She's putting all the items in the checkout lane while her kids are grabbing items from the shelves and just making her life harder. She finally has everything under control and she goes to pay for the food. Suddenly her card says that it was declined. She tried several other cards in what seemed like an eternity. She knew that she was holding up the line and her kids were starting to act up again and I could see she was about to break down. As the tears start running down her cheeks, the cashier takes out his wallet and says it's fine I'll take care of it. It had to be over $100 worth of groceries, probably more than he made in that entire day. The whole event really effected me because I'm not sure anyone else in the store would of helped her out like that. She seemed very thankful as she gave him a huge hug and was crying. I think it speaks to how good humans can be that he helped her out like this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the grocery store doing my weekly grocery shopping trip. It was a cold day where everyone at the store seemed to be in a terrible mood. I therefore tried to quickly do my shopping and get out of there. Now as I went to the checkout lane, I noticed a lady ahead of me with her two children and she seemed to be having a terrible day. She was stressed because her children were being bad and you could tell that she just wanted to get out of there without losing her mind. She's putting all the items in the checkout lane while her kids are grabbing items from the shelves and just making her life harder. She finally has everything under control and she goes to pay for the food. Suddenly her card says that it was declined. She tried several other cards in what seemed like an eternity. She knew that she was holding up the line and her kids were starting to act up again and I could see she was about to break down. As the tears start running down her cheeks, the cashier takes out his wallet and says it's fine I'll take care of it. It had to be over $100 worth of groceries, probably more than he made in that entire day. The whole event really effected me because I'm not sure anyone else in the store would of helped her out like that. She seemed very thankful as she gave him a huge hug and was crying. I think it speaks to how good humans can be that he helped her out like this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e566ffa4235-EWR"
+    }
+}

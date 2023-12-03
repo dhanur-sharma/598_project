@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was my sons birthday the past weekend. He was still young. He love Disney characters and all the movies. We thought we would do something special for him so we gave him a trip to disney world. We don't live that far away and decided it would be a blast. I don't think he was expecting it. The look on his face was precious. His main drive was to get away for his birthday so we couldn't think of a better place. He has a lot of the home movies of disney all memorized. He loves dumbo and bambi the most. He has only seen pictures of was disney world was all about. So seeing it for the first time was quite the experience for him. He has a very good time. All the main disney characters were met and hugged too. The rides were a new experience for him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was my sons birthday the past weekend. He was still young. He love Disney characters and all the movies. We thought we would do something special for him so we gave him a trip to disney world. We don't live that far away and decided it would be a blast. I don't think he was expecting it. The look on his face was precious. His main drive was to get away for his birthday so we couldn't think of a better place. He has a lot of the home movies of disney all memorized. He loves dumbo and bambi the most. He has only seen pictures of was disney world was all about. So seeing it for the first time was quite the experience for him. He has a very good time. All the main disney characters were met and hugged too. The rides were a new experience for him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was so excited to see all the different rides. His favorite was the teacups. He loved spinning around. We had a great time.\n\n"
+            }
+        ],
+        "request_id": "811e8e2c7f9b424f-EWR"
+    }
+}

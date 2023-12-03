@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that happened was a few weeks ago.  It involved a drive by shooting while my kids and I were outside with other neighbors(parents and kids). We live in a poor area that goes through times of being unsafe due to crime related to drugs and gangs. We were all in field across the street from my house. It is a small field. Really an empty lot that used to be a house and someone's property. The neighborhood kids all gather there to play while parents chit chat and hang out. Several people were shot. It was very traumatic for all of us. We no longer feel safe letting the kids play outside. Most of the time we feel safe but here lately it hasn't felt like a very safe place to live. There has been times that some of the neighbors have not gotten along, to the point of physical fighting. Most don't even talk to each other now. What I noticed that day was how everyone came together to help out those who were shot and to calm and comfort each other, especially the kids. We united as friends and neighbors to help each other. We put all of our differences aside to get through what was happening."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that happened was a few weeks ago.  It involved a drive by shooting while my kids and I were outside with other neighbors(parents and kids). We live in a poor area that goes through times of being unsafe due to crime related to drugs and gangs. We were all in field across the street from my house. It is a small field. Really an empty lot that used to be a house and someone's property. The neighborhood kids all gather there to play while parents chit chat and hang out. Several people were shot. It was very traumatic for all of us. We no longer feel safe letting the kids play outside. Most of the time we feel safe but here lately it hasn't felt like a very safe place to live. There has been times that some of the neighbors have not gotten along, to the point of physical fighting. Most don't even talk to each other now. What I noticed that day was how everyone came together to help out those who were shot and to calm and comfort each other, especially the kids. We united as friends and neighbors to help each other. We put all of our differences aside to get through what was happening.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were all in shock and it was a very sad day for all of us. I still can't believe that it happened here. I've lived here for 5 years and have never experienced anything like this before. I know it is a possibility but I never thought it would happen here. We all are trying to move forward and keep each other safe.\n\n"
+            }
+        ],
+        "request_id": "811eb23aceeb429e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has always been my desire of mine to help my mother buy a home. She lives in the same city that she was born and has never moved. It is a large metropolitan area. She is frequently annoyed by the traffic during her commute and how crowded the city has become. For years, she was resistant to the idea of moving to another location. She would emotionally shut down when I tried to persuade her to move to the suburbs. I firmly believed that she would be happier in a less crowded location and that she would enjoy the extra space. Earlier this year, she lost a close friend that lived nearby. During her grieving process, she would frequently state that life is too short to deny yourself the things that you truly want. Finally she has a change of perspective. She confided in me that she was ready and had the courage to move. She did not want to be stuck in an area that while familiar, was not a good fit for her.  She was ready to conquer her fears of an unknown environment and move to a new location. I immediately embraced her decision and we started looking for a new home together. I suggested some towns that would be a good fit for her. We were able to find a home in her price range and close to a major highway. Another added benefit is that the home is in a quieter neighborhood and my mother finally has a large garden. This was a childhood dream that took years to actualize. My mother is moved into her new home and very happy with her decision."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has always been my desire of mine to help my mother buy a home. She lives in the same city that she was born and has never moved. It is a large metropolitan area. She is frequently annoyed by the traffic during her commute and how crowded the city has become. For years, she was resistant to the idea of moving to another location. She would emotionally shut down when I tried to persuade her to move to the suburbs. I firmly believed that she would be happier in a less crowded location and that she would enjoy the extra space. Earlier this year, she lost a close friend that lived nearby. During her grieving process, she would frequently state that life is too short to deny yourself the things that you truly want. Finally she has a change of perspective. She confided in me that she was ready and had the courage to move. She did not want to be stuck in an area that while familiar, was not a good fit for her.  She was ready to conquer her fears of an unknown environment and move to a new location. I immediately embraced her decision and we started looking for a new home together. I suggested some towns that would be a good fit for her. We were able to find a home in her price range and close to a major highway. Another added benefit is that the home is in a quieter neighborhood and my mother finally has a large garden. This was a childhood dream that took years to actualize. My mother is moved into her new home and very happy with her decision.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She is loving the extra space and quieter environment. She is also enjoying her new garden and spending time tending to her flowers. I am so happy to see my mother happy and enjoying her new home.\n\n"
+            }
+        ],
+        "request_id": "811ebd81a8cdc468-EWR"
+    }
+}

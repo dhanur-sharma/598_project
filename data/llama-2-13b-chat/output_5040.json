@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago I went to visit my sister. I hadn't seen her in almost four years. She moved away with her husband to another country. It has been hard to find enough time to get away from work to go see her. She lives in Europe now and I need a lot of vacation time to be able to get over there and see her. Anyway, when I finally arrived there she seemed not that that excited to see me. When we were kids we were very close we did things together all of the time and I was so excited to catch up with her. When I got there she seemed like she was afraid of her husband or something. She didn't talk much as he was a big talker. I think he may have her brainwashed or something. I have never seen her act like this. It breaks my heart to see her as a shell of her former self. I hope she does something to fix this as I don't want to completely lose my sister. I will make it my goal to keep her connected to the family. I especially don't want my parents to be without her forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago I went to visit my sister. I hadn't seen her in almost four years. She moved away with her husband to another country. It has been hard to find enough time to get away from work to go see her. She lives in Europe now and I need a lot of vacation time to be able to get over there and see her. Anyway, when I finally arrived there she seemed not that that excited to see me. When we were kids we were very close we did things together all of the time and I was so excited to catch up with her. When I got there she seemed like she was afraid of her husband or something. She didn't talk much as he was a big talker. I think he may have her brainwashed or something. I have never seen her act like this. It breaks my heart to see her as a shell of her former self. I hope she does something to fix this as I don't want to completely lose my sister. I will make it my goal to keep her connected to the family. I especially don't want my parents to be without her forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will do what I can to help her get back to her normal self."
+            }
+        ],
+        "request_id": "811be322cdae8c2a-EWR"
+    }
+}

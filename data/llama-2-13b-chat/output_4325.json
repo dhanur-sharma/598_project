@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I wanted to rekindle friendships long forgotten. It was nobody's fault, just life happens. It's hard to take care of yourself and hard to look after yourself sometimes so it's nice that there is that option of being able to help family or just connect with them. About two weeks ago my cousin visited me. We hadn't spoken in nearly two decades. Again, it was nobody's fault, just circumstances didn't lend itself to that happening. I was happy to reconnect with him. After all, it had been so long. That's practically a lifetime, in all honestly. I also was able to meet new members of his family. He has kids now, which for me is hard to believe. That's not to say he's not capable, it's just the last time I saw him we were kids. Just an additional reminder that time flies. Look around and explore the world. Tomorrow certainly isn't guaranteed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I wanted to rekindle friendships long forgotten. It was nobody's fault, just life happens. It's hard to take care of yourself and hard to look after yourself sometimes so it's nice that there is that option of being able to help family or just connect with them. About two weeks ago my cousin visited me. We hadn't spoken in nearly two decades. Again, it was nobody's fault, just circumstances didn't lend itself to that happening. I was happy to reconnect with him. After all, it had been so long. That's practically a lifetime, in all honestly. I also was able to meet new members of his family. He has kids now, which for me is hard to believe. That's not to say he's not capable, it's just the last time I saw him we were kids. Just an additional reminder that time flies. Look around and explore the world. Tomorrow certainly isn't guaranteed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so grateful that I was able to reconnect with my cousin and that he was able to meet my family. It's not always easy to make time for people but it's so important."
+            }
+        ],
+        "request_id": "811bd4976d08c402-EWR"
+    }
+}

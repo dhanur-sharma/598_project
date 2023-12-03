@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have had mixed feelings over the past two weeks.  Helping my brother and sister in law out with the kids was both a blessing and a punishment. It had been a long time since I babysat and now I remember why. I am exhausted. The kids were sooo bad and so spoiled. They sure were not used to my kind of shopping and cooking. I took the little guy shopping and he started to cry when I picked up apples. He demanded grapples. What the heck is a grapple? And parmigano regiano cheese? Not in my house kiddo.  Part of me feels like a bad aunt, but part o me knows that I taught them things they needed to know.  They were horrified when I walked outside barefoot, this really amused me.  I love them more than anything, we had some really great times. But I honestly do not think I can do that again,at least not or just a few hours a week. And their mom would have to pack their lunches."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have had mixed feelings over the past two weeks.  Helping my brother and sister in law out with the kids was both a blessing and a punishment. It had been a long time since I babysat and now I remember why. I am exhausted. The kids were sooo bad and so spoiled. They sure were not used to my kind of shopping and cooking. I took the little guy shopping and he started to cry when I picked up apples. He demanded grapples. What the heck is a grapple? And parmigano regiano cheese? Not in my house kiddo.  Part of me feels like a bad aunt, but part o me knows that I taught them things they needed to know.  They were horrified when I walked outside barefoot, this really amused me.  I love them more than anything, we had some really great times. But I honestly do not think I can do that again,at least not or just a few hours a week. And their mom would have to pack their lunches.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I do not think my cooking skills are up to par for them.\n\n"
+            }
+        ],
+        "request_id": "811e9f976e9e4343-EWR"
+    }
+}

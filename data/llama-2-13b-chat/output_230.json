@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter and I were going to see Matilda. She loved the books growing up and was really excited to see it live. We couldnt get close parking and had to park in a lot a few streets down. As we were about to enter the venue i heard a loud thump and see this girl, who was about ten, launched into the air. She hit the ground hard and was not moving. The noisy city street turned silent after that. No one was moving to help and i knew i had to do something. I have basic medical training so i rushed over to the little girl. I pointed out someone in the crowd to call 911. As he was on the phone with them i made sure that no one would move her. I noticed that she was not breathing and tried to administer cpr to her. It seemed like it wasnt working at all and right when i was about to give up hope a little breathe escaped from her mouth. I instantly felt a sigh of relief come across my body. I knew we werent safe though. She clearly had broken her arm and one of her legs. She started to come to and in she was panicked. I helped comfort her and tried to keep her calm and still. Luckily the EMTs arrived shortly after that. They loaded her on a stretcher and took her to the hospital. Her mother was a complete wreck the whole time, and i could not blame her. I do not know if could have kept my cool if it was my daughter in that position. We missed the show but I was not saddened by that fact. My mind was only focused on the thought that i hoped she was ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter and I were going to see Matilda. She loved the books growing up and was really excited to see it live. We couldnt get close parking and had to park in a lot a few streets down. As we were about to enter the venue i heard a loud thump and see this girl, who was about ten, launched into the air. She hit the ground hard and was not moving. The noisy city street turned silent after that. No one was moving to help and i knew i had to do something. I have basic medical training so i rushed over to the little girl. I pointed out someone in the crowd to call 911. As he was on the phone with them i made sure that no one would move her. I noticed that she was not breathing and tried to administer cpr to her. It seemed like it wasnt working at all and right when i was about to give up hope a little breathe escaped from her mouth. I instantly felt a sigh of relief come across my body. I knew we werent safe though. She clearly had broken her arm and one of her legs. She started to come to and in she was panicked. I helped comfort her and tried to keep her calm and still. Luckily the EMTs arrived shortly after that. They loaded her on a stretcher and took her to the hospital. Her mother was a complete wreck the whole time, and i could not blame her. I do not know if could have kept my cool if it was my daughter in that position. We missed the show but I was not saddened by that fact. My mind was only focused on the thought that i hoped she was ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was relieved when i finally saw her being taken out of the ambulance and she was awake and moving her limbs. I am just glad i could help and that she is going to be okay.\n\n"
+            }
+        ],
+        "request_id": "811e8e01fe7b1839-EWR"
+    }
+}

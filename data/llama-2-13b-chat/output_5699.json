@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently had to get a MRI done.  I have been feeling a lot of dizziness lately.  It is a little unsettling.  I have no problems with MRI's though.  It was honestly kind of relaxing.  I am lucky that I am not claustrophobic.  Getting an MRI done can be very helpful.  It can help your doctors determine what is causing symptoms.  MRI stands for Magnetic Resonance Imaging. It uses a magnetic field and radio waves to make images. I have not heard the results yet.  I am not too worried because my symptoms have not been getting worse.  I trust my doctors and MRIs.  I am not sure how expensive a MRI would be without insurance.  Luckily I had insurance to cover it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently had to get a MRI done.  I have been feeling a lot of dizziness lately.  It is a little unsettling.  I have no problems with MRI's though.  It was honestly kind of relaxing.  I am lucky that I am not claustrophobic.  Getting an MRI done can be very helpful.  It can help your doctors determine what is causing symptoms.  MRI stands for Magnetic Resonance Imaging. It uses a magnetic field and radio waves to make images. I have not heard the results yet.  I am not too worried because my symptoms have not been getting worse.  I trust my doctors and MRIs.  I am not sure how expensive a MRI would be without insurance.  Luckily I had insurance to cover it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f36a78b834257-EWR"
+    }
+}

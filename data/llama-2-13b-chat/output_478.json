@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About four months ago, my partner and I went on a vacation to Las Vegas. The starting was not good as our flight to Vegas was delayed by four hours. Also, it was raining continuously during the takeoff. After initial hiccups, we were very pleased to land at Las Vegas airport safely. It took a while to locate our transport to our hotel. The driver messed up our destination a couple times but finally reached our hotel. As it was too late, we took rest that night. The next four days we had a blast. On the first day, we walked all over the downtown and checked out some interesting places. The next day we took a bus tour, which covered not only the downtown areas but also the outskirts and other famous places. On the third day, we went to various places and buildings that we had marked from the previous day. The designs of various hotels are just amazing. Most of them have high-end shops. One arts shop we went in had artworks priced at least $10,000. The other interesting experience was to witness casinos in all the hotels we visited. We played lightly in some of them and in fact, won a little money. Also, other memorable encounters were the dancing water waves that synchronized with music at Bellagio and the volcanic eruptions at Mirage."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About four months ago, my partner and I went on a vacation to Las Vegas. The starting was not good as our flight to Vegas was delayed by four hours. Also, it was raining continuously during the takeoff. After initial hiccups, we were very pleased to land at Las Vegas airport safely. It took a while to locate our transport to our hotel. The driver messed up our destination a couple times but finally reached our hotel. As it was too late, we took rest that night. The next four days we had a blast. On the first day, we walked all over the downtown and checked out some interesting places. The next day we took a bus tour, which covered not only the downtown areas but also the outskirts and other famous places. On the third day, we went to various places and buildings that we had marked from the previous day. The designs of various hotels are just amazing. Most of them have high-end shops. One arts shop we went in had artworks priced at least $10,000. The other interesting experience was to witness casinos in all the hotels we visited. We played lightly in some of them and in fact, won a little money. Also, other memorable encounters were the dancing water waves that synchronized with music at Bellagio and the volcanic eruptions at Mirage.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We also visited the famous High Roller observation wheel. We took a round in it, and it was so smooth that we could not feel the movement. We enjoyed our time there and would love to go back again."
+            }
+        ],
+        "request_id": "811e927b8b9c32f4-EWR"
+    }
+}

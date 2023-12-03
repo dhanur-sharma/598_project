@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This move is much different than I thought it would be.  It has been hard to adjust to a new environment.  There is too much pressure and I feel like I am failing. I see others do much better than me and take on more responsibility.  I want to do well but I don't know if I can do it.  Anytime that I feel like I am making progress there are more steps back.  More of what I want to do seems out of reach.  I am afraid that it was a mistake.  My life back home was easier.  It was easier to do the same thing again and again. It was easier to have the same places to go and not be too concerned about what to do next. I would like an easier job.  I received a raise but not by much.  I am not sure if it was worth it but I am here now.  I cannot change the past and I need to move forward.  The was is not what I expected."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This move is much different than I thought it would be.  It has been hard to adjust to a new environment.  There is too much pressure and I feel like I am failing. I see others do much better than me and take on more responsibility.  I want to do well but I don't know if I can do it.  Anytime that I feel like I am making progress there are more steps back.  More of what I want to do seems out of reach.  I am afraid that it was a mistake.  My life back home was easier.  It was easier to do the same thing again and again. It was easier to have the same places to go and not be too concerned about what to do next. I would like an easier job.  I received a raise but not by much.  I am not sure if it was worth it but I am here now.  I cannot change the past and I need to move forward.  The was is not what I expected.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecc204e7d1a0b-EWR"
+    }
+}

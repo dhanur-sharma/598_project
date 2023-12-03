@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I went to a guitar store with Grandpa. I wasn't sure if I wanted to buy anything, but I ended up finding a guitar that I was more than happy with. I honestly wanted to buy something fancy, but this guitar that I found was the cheapest in the store. However, it was far from the worst. Compared to everything else that I tried, this one by far sounded the best. The guy at the store was named Bob, and he was very friendly. I appreciated that he wasn't too pushy. He was very excited to try Grandpa's new Martin guitar, and he seemed to just enjoy playing and talking. This humble and kind attitude that he displayed made me want to make a purchase. So I tried several guitars, but I kept going back to the first one I tried. It is a Jasmine s35, and it produces a tone that I haven't heard before. Something about it just sings, and it has a warmth and a depth to it that makes it very satisfying to play. I know that I will remember this day for the rest of my life. When I decided to buy it, Bob shared my excitement. He gave me a discount on a bag for it, and he also gave me several other things for free."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I went to a guitar store with Grandpa. I wasn't sure if I wanted to buy anything, but I ended up finding a guitar that I was more than happy with. I honestly wanted to buy something fancy, but this guitar that I found was the cheapest in the store. However, it was far from the worst. Compared to everything else that I tried, this one by far sounded the best. The guy at the store was named Bob, and he was very friendly. I appreciated that he wasn't too pushy. He was very excited to try Grandpa's new Martin guitar, and he seemed to just enjoy playing and talking. This humble and kind attitude that he displayed made me want to make a purchase. So I tried several guitars, but I kept going back to the first one I tried. It is a Jasmine s35, and it produces a tone that I haven't heard before. Something about it just sings, and it has a warmth and a depth to it that makes it very satisfying to play. I know that I will remember this day for the rest of my life. When I decided to buy it, Bob shared my excitement. He gave me a discount on a bag for it, and he also gave me several other things for free.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful for the whole experience, and I will definitely be back. I am very happy with my new guitar!\n\n"
+            }
+        ],
+        "request_id": "811f3504898c429f-EWR"
+    }
+}

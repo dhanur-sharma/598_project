@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well, he was acting funny for a couple days, being lethargic and not having any appetite at all.   Finally one night it was just too much, so I took him to the very expensive emergency vet.   Well they said they'd take a peek at him, so they took him in the back and I made myself comfortable in the waiting room.   It was quite a wait.   Many folks with their sick and wounded animal came and went, and still I waited patiently.   I read a magazine for a while.  If I remember correctly I think it was a national geographic.  I forget what article it was I read, but that's not really important. Anyhow, where was I?   Oh yeah, so eventually the vet returned from the back rooms and flagged me down.   They said they'd run this test and that, and had him in an oxygen cabinet for the better part of an hour to see if that didn't help him.   Well they'd sent some x-rays out to another doctor to get a second opinion, and the verdict was that the poor little guy had lung cancer.  Well I was pretty upset at the news, as you'd imagine.  The vet said there wasn't much of anything that could be done, so I took him back home and made him as comfortable as could be.  He lasted for another three or four weeks.   Eventually though it got to the point where we had to have him put down.  So that was that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well, he was acting funny for a couple days, being lethargic and not having any appetite at all.   Finally one night it was just too much, so I took him to the very expensive emergency vet.   Well they said they'd take a peek at him, so they took him in the back and I made myself comfortable in the waiting room.   It was quite a wait.   Many folks with their sick and wounded animal came and went, and still I waited patiently.   I read a magazine for a while.  If I remember correctly I think it was a national geographic.  I forget what article it was I read, but that's not really important. Anyhow, where was I?   Oh yeah, so eventually the vet returned from the back rooms and flagged me down.   They said they'd run this test and that, and had him in an oxygen cabinet for the better part of an hour to see if that didn't help him.   Well they'd sent some x-rays out to another doctor to get a second opinion, and the verdict was that the poor little guy had lung cancer.  Well I was pretty upset at the news, as you'd imagine.  The vet said there wasn't much of anything that could be done, so I took him back home and made him as comfortable as could be.  He lasted for another three or four weeks.   Eventually though it got to the point where we had to have him put down.  So that was that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a tough day.  I still miss him sometimes."
+            }
+        ],
+        "request_id": "811ecf924a39c475-EWR"
+    }
+}

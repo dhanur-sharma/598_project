@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month my daughter had to undergo emergency bladder surgery. She was born with Spina Bifida, therefore she's had bladder and bowel issues since birth. She had a bladder rupture that resulted in her stomach filling up with urine. It's terribly painful and life threatening so when we got to the emergency room they immediately prepped her for surgery. This isn't the first time it's happened, it's the third. Her urologist told me that when a patient has that many ruptures, the bladder is no good and they'll have to install an ileochimney. An ileochimney is a stoma created where they pull out part of the bladder and she will have to wear a bag on the outside of her bladder to catch the urine coming out. One good thing about it is that she won't have to catheterize anymore, so that's a bright point. I always cry when she gets sick but this time I really wailed, because I hate seeing her going through pain and knowing it might not be the last time. We were in the hospital for two weeks, and I was there for her every step of the way. Thankfully I have a great support system, so my 7 year old son was taken care of. My daughter is 11, has seen more pain and difficulty than most adults, and is the sweetest person in the world. I do everything I can to protect her and make her happy. She's feeling a lot better though. She's eating well, and in less pain. So from here forth we're just trying to get used to our new routine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month my daughter had to undergo emergency bladder surgery. She was born with Spina Bifida, therefore she's had bladder and bowel issues since birth. She had a bladder rupture that resulted in her stomach filling up with urine. It's terribly painful and life threatening so when we got to the emergency room they immediately prepped her for surgery. This isn't the first time it's happened, it's the third. Her urologist told me that when a patient has that many ruptures, the bladder is no good and they'll have to install an ileochimney. An ileochimney is a stoma created where they pull out part of the bladder and she will have to wear a bag on the outside of her bladder to catch the urine coming out. One good thing about it is that she won't have to catheterize anymore, so that's a bright point. I always cry when she gets sick but this time I really wailed, because I hate seeing her going through pain and knowing it might not be the last time. We were in the hospital for two weeks, and I was there for her every step of the way. Thankfully I have a great support system, so my 7 year old son was taken care of. My daughter is 11, has seen more pain and difficulty than most adults, and is the sweetest person in the world. I do everything I can to protect her and make her happy. She's feeling a lot better though. She's eating well, and in less pain. So from here forth we're just trying to get used to our new routine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just trying to be positive and be there for her, even when she's feeling down.\n\n"
+            }
+        ],
+        "request_id": "811f4dab5d89c41d-EWR"
+    }
+}

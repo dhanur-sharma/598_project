@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Oh yeah this story haha. Okay so I was traveling across the country to create a life with the love of my life in a state I never lived in. Big jump! I wasn't gonna leave my son (Rocky the Turtle) behind. Can't drive so, hopefully airplane security will be cool with a turtle. He's a real charmer, so while TSA was skeptical when I first explained the situation, the moment the box opened and Rockso went to say hi to this new exciting person, they were captivated. Got to skip the x ray imagers, but they still had to swab him down for potential explosives. Or drugs? I guess he's just that HOT looking haha. But really. They swabbed him down, found nothing of course, and then we were off to wait for the airplane. Rocky was NOT a fan of the box by the way. He would shuffle around and try to dig his way into the paper towels I laid down for the trip whenever the box was closed. When it was open, however, he'd chill and peek his lil turtley head up and out, taking in the sights. He got to meet several curious travelers including one delighted lil toddler whose mother was v charmed by my personable lil guy. This was only between planes, however. Could not open the box and take him out midflight. Seemed risky, didn't want him getting loose and causing a panic, or even worse, getting hurt. He was tucked under the seat in front of me the entire flight, and all you could hear was occasional little flurries of scrapes as he tried to burrow his way out of the box to freedom."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Oh yeah this story haha. Okay so I was traveling across the country to create a life with the love of my life in a state I never lived in. Big jump! I wasn't gonna leave my son (Rocky the Turtle) behind. Can't drive so, hopefully airplane security will be cool with a turtle. He's a real charmer, so while TSA was skeptical when I first explained the situation, the moment the box opened and Rockso went to say hi to this new exciting person, they were captivated. Got to skip the x ray imagers, but they still had to swab him down for potential explosives. Or drugs? I guess he's just that HOT looking haha. But really. They swabbed him down, found nothing of course, and then we were off to wait for the airplane. Rocky was NOT a fan of the box by the way. He would shuffle around and try to dig his way into the paper towels I laid down for the trip whenever the box was closed. When it was open, however, he'd chill and peek his lil turtley head up and out, taking in the sights. He got to meet several curious travelers including one delighted lil toddler whose mother was v charmed by my personable lil guy. This was only between planes, however. Could not open the box and take him out midflight. Seemed risky, didn't want him getting loose and causing a panic, or even worse, getting hurt. He was tucked under the seat in front of me the entire flight, and all you could hear was occasional little flurries of scrapes as he tried to burrow his way out of the box to freedom.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I did have to help him a little bit though. Once, he was digging so hard he had managed to chew through the top of the box, and I was worried he'd escape! But luckily he was too small to fit out the opening and I was able to grab him and put him back in his box without incident. Long story short, it was a long and tiring trip but Rocky made it safely and we're now living in our new home state with our new home and our new life. Rocky's got his own little turtle bed and everything!"
+            }
+        ],
+        "request_id": "811ecada7eb40cbc-EWR"
+    }
+}

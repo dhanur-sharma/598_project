@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I became a US citizen. After months of waiting I finally got called for an interview. It went well and the guy told me immediately my application was approved. A few weeks later I went to my naturalization ceremony. It was a very emotional day and I teared up several times. The ceremony itself was really unorganized and I was very stressed that morning. We arrived with plenty of time to spare but the parking lot at the venue was full so we had to park elsewhere. Then the line for security was insane. It was like going through customs at an airport! Then I simply followed the people ahead of me into another room because there was no signage or instruction about where to go! It was actually horrible. I am a control freak (I acknowledge that) and I felt incredibly out of control. By the time I got to my seat I was sweaty and stressed out. Once the ceremony started, that faded away. There were 1500 people there to pledge their allegiance to the US along with me and it was such a sight to see. During the ceremony the judge talked about becoming an 'us' instead of a 'them', and that now I was responsible for helping shape the future of our country. It was really a great speech that moved me. After the ceremony I went out to lunch with my father and my wife. We only went to Denny's, nothing fancy, but it seemed appropriate. \"America's dinner\" on the day I became an American."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I became a US citizen. After months of waiting I finally got called for an interview. It went well and the guy told me immediately my application was approved. A few weeks later I went to my naturalization ceremony. It was a very emotional day and I teared up several times. The ceremony itself was really unorganized and I was very stressed that morning. We arrived with plenty of time to spare but the parking lot at the venue was full so we had to park elsewhere. Then the line for security was insane. It was like going through customs at an airport! Then I simply followed the people ahead of me into another room because there was no signage or instruction about where to go! It was actually horrible. I am a control freak (I acknowledge that) and I felt incredibly out of control. By the time I got to my seat I was sweaty and stressed out. Once the ceremony started, that faded away. There were 1500 people there to pledge their allegiance to the US along with me and it was such a sight to see. During the ceremony the judge talked about becoming an 'us' instead of a 'them', and that now I was responsible for helping shape the future of our country. It was really a great speech that moved me. After the ceremony I went out to lunch with my father and my wife. We only went to Denny's, nothing fancy, but it seemed appropriate. \"America's dinner\" on the day I became an American.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd8004b4e4361-EWR"
+    }
+}

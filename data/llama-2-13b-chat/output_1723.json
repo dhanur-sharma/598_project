@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The passing of my mother was the most significant event that happened to me over the last six months.  She died of a stroke and it was traumatic for my whole family. I connected with so many emotions at that time and felt a deep love for my mother.  At the funeral shortly after, I read my eulogy and got a great deal of comfort in providing a tribute to this amazing woman. I saw all the people from her life gathered in one place to pay tribute. I saw people I had not seen years who loved her very much.  I helped my father through his own grief.  I helped him pack up my mother's things and sell the house.  I found all my mother's old diaries which was deeply moving.  My wife and I took in her dog which I knew she would want. The event also brought my family much closer together - not an easy thing as we are all so different and often do not get along. Experiencing my mother's death, I feel, changed my profoundly and helped me connect with other people and taught me to love more emotionally. Feelings long cut off by me were restored. In the weeks that followed I felt and feel a greater connection to her. I will love her always."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The passing of my mother was the most significant event that happened to me over the last six months.  She died of a stroke and it was traumatic for my whole family. I connected with so many emotions at that time and felt a deep love for my mother.  At the funeral shortly after, I read my eulogy and got a great deal of comfort in providing a tribute to this amazing woman. I saw all the people from her life gathered in one place to pay tribute. I saw people I had not seen years who loved her very much.  I helped my father through his own grief.  I helped him pack up my mother's things and sell the house.  I found all my mother's old diaries which was deeply moving.  My wife and I took in her dog which I knew she would want. The event also brought my family much closer together - not an easy thing as we are all so different and often do not get along. Experiencing my mother's death, I feel, changed my profoundly and helped me connect with other people and taught me to love more emotionally. Feelings long cut off by me were restored. In the weeks that followed I felt and feel a greater connection to her. I will love her always.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea99e2cff4356-EWR"
+    }
+}

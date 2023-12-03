@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, I was on vacation, and I decided to go for a walk in the woods. I like being out in the woods alone. I love the smell of the earth under my feet, as I feel my lungs fill up with fresh air. The smell of the trees fills my nostrils. This was a pine forest, so the smell was piney. As I hiked along the trail, I left them every once in a while to go off into the trees. I found a few areas that could be great to set up a tent. They were fairly flat, and there were not many rocks to clear away. They were far enough away from the trail to be quiet and private, but close enough to the main roads to run for help in the case of a bear attack. I'm kidding. Maybe not entirely kidding. There was even a little brook that ran past some of them that would be good for a dip. There's nothing like swimming in a clear, cold stream to refresh you on a summer camping trip. I loved my solitary walk in the woods.  I might want to go back and have a camping trip there someday soon. I returned to my hotel feel rested and rejuvenated, just as one should on a vacation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, I was on vacation, and I decided to go for a walk in the woods. I like being out in the woods alone. I love the smell of the earth under my feet, as I feel my lungs fill up with fresh air. The smell of the trees fills my nostrils. This was a pine forest, so the smell was piney. As I hiked along the trail, I left them every once in a while to go off into the trees. I found a few areas that could be great to set up a tent. They were fairly flat, and there were not many rocks to clear away. They were far enough away from the trail to be quiet and private, but close enough to the main roads to run for help in the case of a bear attack. I'm kidding. Maybe not entirely kidding. There was even a little brook that ran past some of them that would be good for a dip. There's nothing like swimming in a clear, cold stream to refresh you on a summer camping trip. I loved my solitary walk in the woods.  I might want to go back and have a camping trip there someday soon. I returned to my hotel feel rested and rejuvenated, just as one should on a vacation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f3b141c1119bb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mom died the other day in a horrible car accident. I miss her. It has been hard for everyone to recover. I took time off from school and work. My boss is giving me a hard time about it. He said 'everyone does, get over it, I don't pay you to mourn.' I had no choice but to show up during more than half of the days that I requested off to grieve because my boss threatened to fire me if I missed too many days. I have student loans so I can't afford not to show up. I feel much like a slave because of this. I feel that this is a basic thing that I should be able to take time off for but I am told that I can't. My boss is my master. On the way to work, I was in a horrible car accident. My car was totaled but I was ok so I took an uber to work. I was late so my boss screamed at me and then fired me on spot. I have since lost my home. I am typing this on my phone because that is all I have left. I can't wait to die so that I cna be with my mom."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mom died the other day in a horrible car accident. I miss her. It has been hard for everyone to recover. I took time off from school and work. My boss is giving me a hard time about it. He said 'everyone does, get over it, I don't pay you to mourn.' I had no choice but to show up during more than half of the days that I requested off to grieve because my boss threatened to fire me if I missed too many days. I have student loans so I can't afford not to show up. I feel much like a slave because of this. I feel that this is a basic thing that I should be able to take time off for but I am told that I can't. My boss is my master. On the way to work, I was in a horrible car accident. My car was totaled but I was ok so I took an uber to work. I was late so my boss screamed at me and then fired me on spot. I have since lost my home. I am typing this on my phone because that is all I have left. I can't wait to die so that I cna be with my mom.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea9f6d8ae2382-EWR"
+    }
+}

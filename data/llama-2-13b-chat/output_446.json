@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, I graduated with my PhD.  It took a lot of work and effort but I made it.  Several times, along the way, I felt like quitting.  Looking back, I wonder how I could have made it.  One time I finished a 60 page report that was due the next day. After taking a break before I was to proofread it, I went to my computer only to find my report gone!  I was frantically trying to find it over and over.  I called my parents to tell them what happened. They tried to console me. I felt better after the phone call and, after about an hour of feeling sorry for myself, I decided I better get to work rewriting the whole paper.  I was up all night rewriting it, but I did it.  I think the second time around was much better and I ended up getting an A. That was only one of many times when I felt like I couldn't take any more.  Another time I was doing a lab report.  I had been working the whole semester on a lab project.  Every day I collected data for the report.  Near the end of the semester I went to the lab to work on my project and wrap it up.  When I got there, somebody had broken in to the lab and completely ruined my project along with several other people's. Half the class was distraught over that incident and complained to each other. Fortunately our professor was kind enough to accept our unfinished data and notes.  We all received an A for our projects.  These are just two of the many obstacles I had to overcome.  When I look back, I'm amazed I stuck with it.  Now that it's over I am very proud of my accomplishments."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, I graduated with my PhD.  It took a lot of work and effort but I made it.  Several times, along the way, I felt like quitting.  Looking back, I wonder how I could have made it.  One time I finished a 60 page report that was due the next day. After taking a break before I was to proofread it, I went to my computer only to find my report gone!  I was frantically trying to find it over and over.  I called my parents to tell them what happened. They tried to console me. I felt better after the phone call and, after about an hour of feeling sorry for myself, I decided I better get to work rewriting the whole paper.  I was up all night rewriting it, but I did it.  I think the second time around was much better and I ended up getting an A. That was only one of many times when I felt like I couldn't take any more.  Another time I was doing a lab report.  I had been working the whole semester on a lab project.  Every day I collected data for the report.  Near the end of the semester I went to the lab to work on my project and wrap it up.  When I got there, somebody had broken in to the lab and completely ruined my project along with several other people's. Half the class was distraught over that incident and complained to each other. Fortunately our professor was kind enough to accept our unfinished data and notes.  We all received an A for our projects.  These are just two of the many obstacles I had to overcome.  When I look back, I'm amazed I stuck with it.  Now that it's over I am very proud of my accomplishments.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am proud of myself for completing my degree and I feel that I can handle anything life throws at me.  I feel like I have the tools to succeed and I am ready for the next chapter of my life.  I know it won't be easy, but I'm ready for the challenge."
+            }
+        ],
+        "request_id": "811e91e01cf542b3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Since I'm back on all my medication, I am doing better, no longer sick, dizzy or unsteady. My depression isn't as bad and my mood stabilized. But the pain that had improved when I first started taking the fibromyalgia medication has not improved. It is making everyday tasks much harder than they were. My apartment is on the second floor and going up and down the stairs hurts my knees. Doing even small chores around the house often cause enough pain that I have to rest or use an ice pack. I'm beginning to feel this will never get better and I will have to live with the increased pain for ever. I am already having trouble supporting myself because I can't work for more than two hours straight without having to take at least a half hour rest break (doing more causes pain that makes work impossible for hours, if not days). The increased pain makes my being able to support myself seem even more impossible. I am very much afraid of what the future holds. I am single and only have myself to rely on. If I cannot support myself I could become a burden to my family. My greatest fear is being a burden to my children. Should this happen, I'll have to decide if it is crueler to continue being a burden or kill myself. Talk about Sophie's choice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Since I'm back on all my medication, I am doing better, no longer sick, dizzy or unsteady. My depression isn't as bad and my mood stabilized. But the pain that had improved when I first started taking the fibromyalgia medication has not improved. It is making everyday tasks much harder than they were. My apartment is on the second floor and going up and down the stairs hurts my knees. Doing even small chores around the house often cause enough pain that I have to rest or use an ice pack. I'm beginning to feel this will never get better and I will have to live with the increased pain for ever. I am already having trouble supporting myself because I can't work for more than two hours straight without having to take at least a half hour rest break (doing more causes pain that makes work impossible for hours, if not days). The increased pain makes my being able to support myself seem even more impossible. I am very much afraid of what the future holds. I am single and only have myself to rely on. If I cannot support myself I could become a burden to my family. My greatest fear is being a burden to my children. Should this happen, I'll have to decide if it is crueler to continue being a burden or kill myself. Talk about Sophie's choice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to live with this every day.\n\n"
+            }
+        ],
+        "request_id": "811e95ce986dc47c-EWR"
+    }
+}

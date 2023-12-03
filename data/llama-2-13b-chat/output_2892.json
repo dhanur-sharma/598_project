@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I have tried for a baby for years. After a few false alarms, we thought it was futile to try. However, we were encouraged to give it one more try by a family friend. Although we were discouraged, we decided to give it one more try. Six weeks later, a doctor confirmed that my wife was pregnant. We got a sonogram and found out that we were going to have a baby boy. How precious! After years of trying, it has culminated into this. No other moment compares. The night my son was born, I held him. When I held him for the first time, I can't clearly describe how happy I was to hold him. It was as if my family was finally becoming whole. Thankfully, he was a healthy baby boy, and we were able to take him home with us after a few days. Having a child is an experience unlike any other. Any parent who shares the same love and joy for their children will tell you the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I have tried for a baby for years. After a few false alarms, we thought it was futile to try. However, we were encouraged to give it one more try by a family friend. Although we were discouraged, we decided to give it one more try. Six weeks later, a doctor confirmed that my wife was pregnant. We got a sonogram and found out that we were going to have a baby boy. How precious! After years of trying, it has culminated into this. No other moment compares. The night my son was born, I held him. When I held him for the first time, I can't clearly describe how happy I was to hold him. It was as if my family was finally becoming whole. Thankfully, he was a healthy baby boy, and we were able to take him home with us after a few days. Having a child is an experience unlike any other. Any parent who shares the same love and joy for their children will tell you the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's a feeling of pure happiness that cannot be replicated.\n\n"
+            }
+        ],
+        "request_id": "811ec02cef348ce6-EWR"
+    }
+}

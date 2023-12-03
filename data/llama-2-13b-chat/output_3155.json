@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a horse who I bred last year. Horses are pregnant for 11 months. It seemed like forever before she would foal. Last month, my partner and I went out for ice cream but we decided to stop at the barn to check in on the horses. My partner's horse was there, in his usual spot, whinnying for carrots. My pregnant horse was nowhere to be seen. I immediately thought that she was stolen. I ran up to her stall and then saw that she was on the floor, going into labor. It was quite lucky that we got there when we did and were able to witness her giving birth. I immediately called my vet who arrived about twenty minutes later. She assisted my horse, pulling put the foal at the end. She then cut the placenta sac which was quite something to see. The filly was perfect. A real beauty with four white socks and a blaze. It took her about fifteen minutes to stand up and nurse. My horse was a great and conscientious mama. It was a very remarkable experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a horse who I bred last year. Horses are pregnant for 11 months. It seemed like forever before she would foal. Last month, my partner and I went out for ice cream but we decided to stop at the barn to check in on the horses. My partner's horse was there, in his usual spot, whinnying for carrots. My pregnant horse was nowhere to be seen. I immediately thought that she was stolen. I ran up to her stall and then saw that she was on the floor, going into labor. It was quite lucky that we got there when we did and were able to witness her giving birth. I immediately called my vet who arrived about twenty minutes later. She assisted my horse, pulling put the foal at the end. She then cut the placenta sac which was quite something to see. The filly was perfect. A real beauty with four white socks and a blaze. It took her about fifteen minutes to stand up and nurse. My horse was a great and conscientious mama. It was a very remarkable experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec5100b14c33f-EWR"
+    }
+}

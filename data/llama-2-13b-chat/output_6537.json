@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago Sunday I celebrated my 46th Birthday. It was so much fun, which is crazy, because I expected the age to hit me and make me depressed! I spent the whole day outside and oh what a warm beautiful day it was! I have always been spoiled having nice weather on my birthday. The first thing we did was shoot our guns. My best friend brought over targets and we had a contest. I ended up second which was fine. My oldest son beat me just by a little which made me quite proud. Everyone who came to celebrate with me brought a dish to pass. We had quite the feast going! There was lasagna, salad, cookies, cake, pie of all kinds, tacos, pizza, juice, soda and so much more. I ate more than I should have but it was totally worth it. Before the party was over we decided to draft our fantasy football players. Most of us were in a league together. The people that were not in the league simply didn't play. I got mostly who I wanted with a few hiccups. I hope to do it all again next year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago Sunday I celebrated my 46th Birthday. It was so much fun, which is crazy, because I expected the age to hit me and make me depressed! I spent the whole day outside and oh what a warm beautiful day it was! I have always been spoiled having nice weather on my birthday. The first thing we did was shoot our guns. My best friend brought over targets and we had a contest. I ended up second which was fine. My oldest son beat me just by a little which made me quite proud. Everyone who came to celebrate with me brought a dish to pass. We had quite the feast going! There was lasagna, salad, cookies, cake, pie of all kinds, tacos, pizza, juice, soda and so much more. I ate more than I should have but it was totally worth it. Before the party was over we decided to draft our fantasy football players. Most of us were in a league together. The people that were not in the league simply didn't play. I got mostly who I wanted with a few hiccups. I hope to do it all again next year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f477d9b252369-EWR"
+    }
+}

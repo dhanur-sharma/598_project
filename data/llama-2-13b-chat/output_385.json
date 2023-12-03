@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have two good friends that I spent a considerable amount of time with over the last decade or so, Brian and Ashley.  Ashley moved about a year and half ago to Denver, and Brian and I decided to fly out to see him.  It took us a long time to plan the trip and find dates because we all three have families.  As the date for the trip approached, my old roommate's (Pat) mother declined in health.  I remember thinking as she went into hospice that she'd die before I went on the trip.  Well she did pass away about a week before I was scheduled to leave.  I thought maybe just maybe the service would happen before I left.  But it didn't.  I was able to make the visitation.  But I couldn't go to the service.  I anguished over this, but everyone said I should go on the trip.  I was a bit of a wreck.  I really did love Pat's mom.  She'd taken care of us a lot during college.  I probably should've stayed in town."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have two good friends that I spent a considerable amount of time with over the last decade or so, Brian and Ashley.  Ashley moved about a year and half ago to Denver, and Brian and I decided to fly out to see him.  It took us a long time to plan the trip and find dates because we all three have families.  As the date for the trip approached, my old roommate's (Pat) mother declined in health.  I remember thinking as she went into hospice that she'd die before I went on the trip.  Well she did pass away about a week before I was scheduled to leave.  I thought maybe just maybe the service would happen before I left.  But it didn't.  I was able to make the visitation.  But I couldn't go to the service.  I anguished over this, but everyone said I should go on the trip.  I was a bit of a wreck.  I really did love Pat's mom.  She'd taken care of us a lot during college.  I probably should've stayed in town.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But I didn't.  I went on the trip.  And it was great.  I had a really good time.  I'm so glad I went.  But I still feel guilty about not being there for Pat.  I've reached out to him a few times since then, but I know it's not the same.  I miss her.  I miss the way she made me feel when I was with her.  I'm trying to move forward, but it's hard."
+            }
+        ],
+        "request_id": "811e90bddd1743f4-EWR"
+    }
+}

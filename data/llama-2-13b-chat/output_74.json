@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother and I went to see a movie we had been waiting months to come out about 3 months ago. We made plans to go see it on opening night, something we never do, but this movie just looked too good. We met up at his place, talked a bit, and then were off to the theater. We decided to go to the really nice one with recliners and good food. This was an extra 20 minute drive. We saw the movie, had a blast, and were on our way home. About 10 minutes on our way back, we heard beeping behind us from multiple cars. We thought someone was just doing something stupid or accidentally hit someone. 2 seconds later, BOOM, the loudest crash I had ever heard combined with the hardest impact I ever felt in my life happened. Before I knew it, my head hit the passenger side air bag and my brother was screaming. I remember hearing tons more beeping and then people screaming. I checked on my brother and his head has bleeding a bit, but that was it., surprisingly. After we both realized we were ok, we got out. There were bystanders yelling at the driver who hit us. Some other people came over to us and, after making sure we were ok, told us the guy was obviously drunk. My brother was enraged and so was I. People had already called the cops. The cops came, took the guy away and then we had to wait to get my brother's car towed and talk to cops."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother and I went to see a movie we had been waiting months to come out about 3 months ago. We made plans to go see it on opening night, something we never do, but this movie just looked too good. We met up at his place, talked a bit, and then were off to the theater. We decided to go to the really nice one with recliners and good food. This was an extra 20 minute drive. We saw the movie, had a blast, and were on our way home. About 10 minutes on our way back, we heard beeping behind us from multiple cars. We thought someone was just doing something stupid or accidentally hit someone. 2 seconds later, BOOM, the loudest crash I had ever heard combined with the hardest impact I ever felt in my life happened. Before I knew it, my head hit the passenger side air bag and my brother was screaming. I remember hearing tons more beeping and then people screaming. I checked on my brother and his head has bleeding a bit, but that was it., surprisingly. After we both realized we were ok, we got out. There were bystanders yelling at the driver who hit us. Some other people came over to us and, after making sure we were ok, told us the guy was obviously drunk. My brother was enraged and so was I. People had already called the cops. The cops came, took the guy away and then we had to wait to get my brother's car towed and talk to cops.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "After all that, we got home and realized we had been so focused on the movie we never got food before hand. So, we ordered pizza. All in all, it was a crazy night that I will never forget.\n\n"
+            }
+        ],
+        "request_id": "811e8add991bc33a-EWR"
+    }
+}

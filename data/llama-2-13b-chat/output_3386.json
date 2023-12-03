@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My first day at work was a day I can never forget. It was surprisingly one of the most dramatic moments of my life. I was with my family on a faithful sunday when I received an email that I should come for an interview. The interview was scheduled for the next day. which happened to be monday. I got home as early as I could to get dressed and prepare for my interview, because the job was actually my dream job. I dressed nicely and set out for the interview. I got to the interview venue and when it was just few minutes to my interview. I realized that I forgot some of my credentials in the at home. I was so confused and devastated, I instantly called my wife and told her to send the credentials through a local motorcycle logistics company. I was impatiently waiting for the credentials until it was exactly my time to enter for the interview. I was confused and sweathy. Just as i was about to step into the interview room without my credentials, The company summoned an emergency meeting. luckily for me, my interviewers were also called for the interview. My credentials arrived just before they could finish the meeting. I proceeded with the interview and it was a really successful one. I got the job and in fact, I'm still working with the firm."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My first day at work was a day I can never forget. It was surprisingly one of the most dramatic moments of my life. I was with my family on a faithful sunday when I received an email that I should come for an interview. The interview was scheduled for the next day. which happened to be monday. I got home as early as I could to get dressed and prepare for my interview, because the job was actually my dream job. I dressed nicely and set out for the interview. I got to the interview venue and when it was just few minutes to my interview. I realized that I forgot some of my credentials in the at home. I was so confused and devastated, I instantly called my wife and told her to send the credentials through a local motorcycle logistics company. I was impatiently waiting for the credentials until it was exactly my time to enter for the interview. I was confused and sweathy. Just as i was about to step into the interview room without my credentials, The company summoned an emergency meeting. luckily for me, my interviewers were also called for the interview. My credentials arrived just before they could finish the meeting. I proceeded with the interview and it was a really successful one. I got the job and in fact, I'm still working with the firm.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can never forget that day because it was a day of drama and confusion, but I was able to overcome the situation and get the job.\n\n"
+            }
+        ],
+        "request_id": "811eca2a4e204374-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Hello Diary. My name is Dale, I was just diagnosed with stage 3 lung cancer. I am 58 years old, married happily to my wife, Angie, of 27 years. We have one daughter together, who is 26. Her name is Christina. Four years ago after graduating college, Christina moved away to peruse her career. Unfortunately, moving half way across the country took a toll on my wife. Now that I have been diagnosed with cancer, my wife is struggling even more. After finding out, during a phone call with my daughter, I asked her if she would be willing to move back closer to home, at least temporary, to provide support and be there for her mother.  Two weeks ago, I learned that she has requested a leave from her job, and is renting the house next door to us for the next couple of months. Hearing that, was a sign of relief. Having Christina here the past couple of weeks has been so helpful, Chemotherapy is taking a toll on me, I don't have as much energy to do the things I did before. I am so grateful for my wife and daughter, I can only hope I make it through this and am able to live until I am old, wrinkly, and white haired with Angie. And that I am able to walk Christina down the aisle, and watch her raise a family. Until next time Diary.  Dale."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Hello Diary. My name is Dale, I was just diagnosed with stage 3 lung cancer. I am 58 years old, married happily to my wife, Angie, of 27 years. We have one daughter together, who is 26. Her name is Christina. Four years ago after graduating college, Christina moved away to peruse her career. Unfortunately, moving half way across the country took a toll on my wife. Now that I have been diagnosed with cancer, my wife is struggling even more. After finding out, during a phone call with my daughter, I asked her if she would be willing to move back closer to home, at least temporary, to provide support and be there for her mother.  Two weeks ago, I learned that she has requested a leave from her job, and is renting the house next door to us for the next couple of months. Hearing that, was a sign of relief. Having Christina here the past couple of weeks has been so helpful, Chemotherapy is taking a toll on me, I don't have as much energy to do the things I did before. I am so grateful for my wife and daughter, I can only hope I make it through this and am able to live until I am old, wrinkly, and white haired with Angie. And that I am able to walk Christina down the aisle, and watch her raise a family. Until next time Diary.  Dale.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e8e0f8a7e9e08-EWR"
+    }
+}

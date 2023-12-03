@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Lizzie, a British student,  and I had just fallen in love. Everything seemed washed with God's special brush. We were walking down Spanish River Road with our arms around each other. We didn't even hear or see the bus. I pulled her closed and her foot hit a rock on the ground. She said \"ooomph\" and fell to one knee. As I grabbed her arm and pulled up her other foot slipped on some gravel and she went splay-footed next to the dirt strip that functioned as a sidewalk in that part of Florida. By now we each heard the bus, its engine loud as a jet, its brakes screeching in a panic stop. The bus' front tire ran over Lizzie's thighs, and a second later the double rear tires ran over her hip with a sickening crunch. I crouched by her head, and shouted for her to wake up. She did not. A growing pool of blood appeared under her legs. What happened after that was a blur. There were EMTs, an ambulance, and a ride to Southern General. Not being a blood relative, I was not allowed past the ICU doors. I later learned that her parents had come and taken her back to Merseyside. I wrote and I called, but I never heard back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Lizzie, a British student,  and I had just fallen in love. Everything seemed washed with God's special brush. We were walking down Spanish River Road with our arms around each other. We didn't even hear or see the bus. I pulled her closed and her foot hit a rock on the ground. She said \"ooomph\" and fell to one knee. As I grabbed her arm and pulled up her other foot slipped on some gravel and she went splay-footed next to the dirt strip that functioned as a sidewalk in that part of Florida. By now we each heard the bus, its engine loud as a jet, its brakes screeching in a panic stop. The bus' front tire ran over Lizzie's thighs, and a second later the double rear tires ran over her hip with a sickening crunch. I crouched by her head, and shouted for her to wake up. She did not. A growing pool of blood appeared under her legs. What happened after that was a blur. There were EMTs, an ambulance, and a ride to Southern General. Not being a blood relative, I was not allowed past the ICU doors. I later learned that her parents had come and taken her back to Merseyside. I wrote and I called, but I never heard back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would always wonder what happened to her.\n\n"
+            }
+        ],
+        "request_id": "811ec7e55fa28c12-EWR"
+    }
+}

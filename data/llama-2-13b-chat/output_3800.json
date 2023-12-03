@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can finally relax now. At least for a while. It has been the fight of my lifetime, in many ways. Mom has been suffering from Dementia for a couple years now. We have nobody to help us, and it has been hectic for me at work since the new boss took over. Joe told me to look into medicaid for some relief and help. I was shocked to realize that income limits played a role in that. We aren't millionaires or anything, how could mom be not allowed? I can't tell no matter how hard i thought of it. Surprisingly, Joe came to my help. He helped me through the paperwork. It has been a hard journey through this depressing bureaucracy.  Government sucks, for sure. But finally i succeeded in getting mom included. I wonder how many people struggle like this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can finally relax now. At least for a while. It has been the fight of my lifetime, in many ways. Mom has been suffering from Dementia for a couple years now. We have nobody to help us, and it has been hectic for me at work since the new boss took over. Joe told me to look into medicaid for some relief and help. I was shocked to realize that income limits played a role in that. We aren't millionaires or anything, how could mom be not allowed? I can't tell no matter how hard i thought of it. Surprisingly, Joe came to my help. He helped me through the paperwork. It has been a hard journey through this depressing bureaucracy.  Government sucks, for sure. But finally i succeeded in getting mom included. I wonder how many people struggle like this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed17a79470cd5-EWR"
+    }
+}

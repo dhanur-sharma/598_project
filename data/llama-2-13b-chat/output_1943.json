@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I hadn't been home to England in about a year. I was super home sick and needed to see my family so I saved up all my money and bought a plane ticket. They were all waiting for me at the airport, super excited to see me. I was super excited to see them too. When we got back to the house my Godmother has made my favorite dinner. I was touched that they all remembered. I felt truly seen and loved. I got to also see my dog again, She wasn't looking very well and was getting old. She had very bad arthritis in all four of her legs and a spinal issue but she still tried to jump around in excitement to see me. I sat with her on the floor and she put her big ole head on my lap. My godfather then mentioned that he felt it would be the last time I saw her as she's been steadily going downhill for the past month. I wish he wasn't but he was right. As soon as I got back here, 2 days after, they called me to tell me she had passed away. I'm forever grateful for getting to see her and still really sad. I hope that wherever she is now she feels better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I hadn't been home to England in about a year. I was super home sick and needed to see my family so I saved up all my money and bought a plane ticket. They were all waiting for me at the airport, super excited to see me. I was super excited to see them too. When we got back to the house my Godmother has made my favorite dinner. I was touched that they all remembered. I felt truly seen and loved. I got to also see my dog again, She wasn't looking very well and was getting old. She had very bad arthritis in all four of her legs and a spinal issue but she still tried to jump around in excitement to see me. I sat with her on the floor and she put her big ole head on my lap. My godfather then mentioned that he felt it would be the last time I saw her as she's been steadily going downhill for the past month. I wish he wasn't but he was right. As soon as I got back here, 2 days after, they called me to tell me she had passed away. I'm forever grateful for getting to see her and still really sad. I hope that wherever she is now she feels better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead8b2a638c29-EWR"
+    }
+}

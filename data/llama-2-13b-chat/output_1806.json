@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, I had a strong chest pain. I did not want to go to the hospital, but my wife made me go. We got there and my chest pain was getting stronger. There was a huge line to be attended and the nurses did not gave me any priority, although I said my chest was in real pain. We waited and waited, until I talked to a nurse, who said everything was fine and that I should just rest. After coming home, my chest pain was slowly decreasing and I thought I was going to be fine. The next day I was feeling good with no chest pain at all. However, I still did not knew what had happen to me the day before. I then scheduled a doctor appointment, that was only available three weeks later. During the three week wait, I was complete fine. The doctor appointment day arrived, and I went to the doctor. He ran some tests and told me that the chest pain I just had three weeks ago was actually an heart attack. To know that scared me a lot, as I did went to the hospital but they did nothing to me. I could have died! Thankfully my heart resisted the heart attack and I am fine. I told my wife what the doctor had told me, and she was very mad with the hospital for not doing anything. Next time something similar to this happens, I will MAKE the hospital take me as a priority, and run exams. I will make that happen even if I have to scream that I am dying from a heart attack."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, I had a strong chest pain. I did not want to go to the hospital, but my wife made me go. We got there and my chest pain was getting stronger. There was a huge line to be attended and the nurses did not gave me any priority, although I said my chest was in real pain. We waited and waited, until I talked to a nurse, who said everything was fine and that I should just rest. After coming home, my chest pain was slowly decreasing and I thought I was going to be fine. The next day I was feeling good with no chest pain at all. However, I still did not knew what had happen to me the day before. I then scheduled a doctor appointment, that was only available three weeks later. During the three week wait, I was complete fine. The doctor appointment day arrived, and I went to the doctor. He ran some tests and told me that the chest pain I just had three weeks ago was actually an heart attack. To know that scared me a lot, as I did went to the hospital but they did nothing to me. I could have died! Thankfully my heart resisted the heart attack and I am fine. I told my wife what the doctor had told me, and she was very mad with the hospital for not doing anything. Next time something similar to this happens, I will MAKE the hospital take me as a priority, and run exams. I will make that happen even if I have to scream that I am dying from a heart attack.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab1c8a6c43ca-EWR"
+    }
+}

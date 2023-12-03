@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I roomed with a fellow caregiver friend of mine. We had not met before. It was a perfect time to get together under a different situation then we normally interacted in. We hung out during the day by the pools and we had so much fun. We drank and laughed and took photos. I introduced her to old friends of mine. My friend goes to bed early so i would spend my evenings with my old concert friends. We caught up and shared stories and laughs. I loved catching up with people as well as finally connecting with some I have known a long time but not met. People came from all over the world and it was so amazing. I ate lots of good food and drink. The music was amazing. The concerts were amazing. They did costume night each night and that was a lot of fun. Lots of glow paint and stuff. Band members walked around a bit and that was fun to have them interact with us in that way. The DJ at the pool at night was out of this world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I roomed with a fellow caregiver friend of mine. We had not met before. It was a perfect time to get together under a different situation then we normally interacted in. We hung out during the day by the pools and we had so much fun. We drank and laughed and took photos. I introduced her to old friends of mine. My friend goes to bed early so i would spend my evenings with my old concert friends. We caught up and shared stories and laughs. I loved catching up with people as well as finally connecting with some I have known a long time but not met. People came from all over the world and it was so amazing. I ate lots of good food and drink. The music was amazing. The concerts were amazing. They did costume night each night and that was a lot of fun. Lots of glow paint and stuff. Band members walked around a bit and that was fun to have them interact with us in that way. The DJ at the pool at night was out of this world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The staff were all very friendly and helpful. I could not have asked for a better experience.\n\n"
+            }
+        ],
+        "request_id": "811e8a887f130f8c-EWR"
+    }
+}

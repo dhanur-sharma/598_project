@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, I had a great time with my son. He just got done with a tour. I picked him up at the airport and gave him a big hug. We got a big steak dinner that night. For the next week, he told me stories about his tour. He told me that he got 5 terrorists killed in one day. He is a sniper. We caught up on each other's lives. I told him I got a promotion at a job. He was very surprised, since I haven't gotten one in forever. He told me about how it was very hot in Iraq. There was hardly any water except what they brought from the United States. He said it was boring most of the time until some terrorists needed to be killed. He had to go back in a month. I gave a big hug goodbye."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, I had a great time with my son. He just got done with a tour. I picked him up at the airport and gave him a big hug. We got a big steak dinner that night. For the next week, he told me stories about his tour. He told me that he got 5 terrorists killed in one day. He is a sniper. We caught up on each other's lives. I told him I got a promotion at a job. He was very surprised, since I haven't gotten one in forever. He told me about how it was very hot in Iraq. There was hardly any water except what they brought from the United States. He said it was boring most of the time until some terrorists needed to be killed. He had to go back in a month. I gave a big hug goodbye.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will see him again in a month.\n\n"
+            }
+        ],
+        "request_id": "811f3037793c4406-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a friend's bachelor party held in Canada. We went to many restaurants. We ate foie gras at a restaurant. I think it was a delicious meal and was disappointed that I had been full near the end of the meal. We visited many museums in the city where we stayed. The museums of Canada don't seem that different from those in America. I liked a painting of a stranded ship where the crew members had descended into chaos. I think the most memorable part of the trip was my friend making a speech in a karaoke lounge. I was happy for him and the new marriage path he was about to embark on. There were times in the trip where I kind of spaced out and was just happy. I felt a great deal of unity. I had not seen some of these friends for over a year. I felt nostalgia when we recalled past times. I began to miss them even though we were still together. I kind of dreaded the trip being over. This was the third memorable bachelor party that I've been to. I only wish we had more time to go hiking or something."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a friend's bachelor party held in Canada. We went to many restaurants. We ate foie gras at a restaurant. I think it was a delicious meal and was disappointed that I had been full near the end of the meal. We visited many museums in the city where we stayed. The museums of Canada don't seem that different from those in America. I liked a painting of a stranded ship where the crew members had descended into chaos. I think the most memorable part of the trip was my friend making a speech in a karaoke lounge. I was happy for him and the new marriage path he was about to embark on. There were times in the trip where I kind of spaced out and was just happy. I felt a great deal of unity. I had not seen some of these friends for over a year. I felt nostalgia when we recalled past times. I began to miss them even though we were still together. I kind of dreaded the trip being over. This was the third memorable bachelor party that I've been to. I only wish we had more time to go hiking or something.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think that would have been a great way to end the trip. I was glad to be with my friends and have a good time.\n\n"
+            }
+        ],
+        "request_id": "811ea2cebd3f425b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My Father has always been a caring and compassionate person. We were always close until a few years ago. I hate to blame my sister but my father and I just could not see eye to eye when it came to her. But here I am. Once again it falls to me to pick up the pieces. She could never handle this. The retirement home is nice. Thank goodness he had the fore site to plan ahead and save for this. It was wonderful to catch up, even under these circumstances. He said he really missed me. He apologized for taking sides. He just couldn't look the other way when it came to her. He cares too much some times. I told him I forgive him and want to move on. Its not worth it. Before I left he made me power of attorney. I am not looking forward to making these health decisions on my own."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My Father has always been a caring and compassionate person. We were always close until a few years ago. I hate to blame my sister but my father and I just could not see eye to eye when it came to her. But here I am. Once again it falls to me to pick up the pieces. She could never handle this. The retirement home is nice. Thank goodness he had the fore site to plan ahead and save for this. It was wonderful to catch up, even under these circumstances. He said he really missed me. He apologized for taking sides. He just couldn't look the other way when it came to her. He cares too much some times. I told him I forgive him and want to move on. Its not worth it. Before I left he made me power of attorney. I am not looking forward to making these health decisions on my own.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I will do what is best for him."
+            }
+        ],
+        "request_id": "811ea00f6b77432e-EWR"
+    }
+}

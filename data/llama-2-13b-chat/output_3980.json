@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is about my daughter picking out her wedding dress. My daughter wanted me to help her decide on a wedding dress. I met her and her friend at the salon. It was a bit of a drive, but it was worth it. She had narrowed down the choices ahead of time, which was a good thing. The salon was not crowded which was also good. She had found a dress she liked the most on the clearance rack. She's quite petite and wanted a modest dress, so it was hard to find something. It was great that she found something that looked good on her on the clearance rack. The lady who helped her spread the dress out around her. She stood there beaming.  She was juts beautiful. I agreed with her about which one was the best. It suited her very well. It was feminine but modest. Her best friend also liked that one the best. She also looked at accessories. She tried on veils but didn't like them. She liked the combs better but they were expensive. She also was not sure the combs would stay in her hair. So she didn't get one. She and I were both so relieved that she had found a dress. I paid for it at the register. She and her friend had come together but I had come separately. I was happy-sad driving home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is about my daughter picking out her wedding dress. My daughter wanted me to help her decide on a wedding dress. I met her and her friend at the salon. It was a bit of a drive, but it was worth it. She had narrowed down the choices ahead of time, which was a good thing. The salon was not crowded which was also good. She had found a dress she liked the most on the clearance rack. She's quite petite and wanted a modest dress, so it was hard to find something. It was great that she found something that looked good on her on the clearance rack. The lady who helped her spread the dress out around her. She stood there beaming.  She was juts beautiful. I agreed with her about which one was the best. It suited her very well. It was feminine but modest. Her best friend also liked that one the best. She also looked at accessories. She tried on veils but didn't like them. She liked the combs better but they were expensive. She also was not sure the combs would stay in her hair. So she didn't get one. She and I were both so relieved that she had found a dress. I paid for it at the register. She and her friend had come together but I had come separately. I was happy-sad driving home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy that she had found a dress but sad that this was the last time I would get to help her pick out something special."
+            }
+        ],
+        "request_id": "811bcdb2ee082361-EWR"
+    }
+}

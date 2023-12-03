@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometime about a month ago, I and my brother went to the Lassen National Park for a nice trip. It was the first time I was out on a hike. I really enjoyed the trip and so did my brother. We spent the day doing the hike up the crater. It was very snowy on the side of the crater. This made it tough. However, it was enjoyable. When we finally completed the hike, we went back to our cabin. We had a beer and planned to do it again. It was a great day, and we were satisfied. It was the first  time. It is always nice to do something for the first time. I recommend it. At least once. It is very uplifting, and energy inducing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometime about a month ago, I and my brother went to the Lassen National Park for a nice trip. It was the first time I was out on a hike. I really enjoyed the trip and so did my brother. We spent the day doing the hike up the crater. It was very snowy on the side of the crater. This made it tough. However, it was enjoyable. When we finally completed the hike, we went back to our cabin. We had a beer and planned to do it again. It was a great day, and we were satisfied. It was the first  time. It is always nice to do something for the first time. I recommend it. At least once. It is very uplifting, and energy inducing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is a great experience. I will always remember this trip.\n\n"
+            }
+        ],
+        "request_id": "811ec3fa6ab4421c-EWR"
+    }
+}

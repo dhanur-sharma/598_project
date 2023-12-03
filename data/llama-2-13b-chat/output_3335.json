@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a doctor appt to see if I qualify for social security disability. I have several health problems that I acquired in 2014 after some very stressful events at work. I've been dealing with these problems for about 5 years. I was aware that my claim would be denied because that is common so I will hire a lawyer. I work part time from home but there is no way I can work a regular full time job. I was working but I was in pain and I was exhausted after work. I ate a lot of convenience frozen food and I bought take out dinner on the way home because I was too tired to cook.  At night when I'm sleeping I wake up from arthritis pain. I also have pre-diabetes with hypoglycemia. In the morning I need to eat high protein food every hour or two to get my blood sugar up and stable then I'm usually ok for the rest of the day. I worked at a middle school and when kids bump into me in the hallway that hurt. If I'm on my feet a lot my body hurts. I walk slowly because of my arthritis pain and I was diagnosed with spinal spondylolisthesis of my lumbar 5 which is basically a slipped disc of the vertebrae. Since I have trouble sleeping sometimes I need to take a nap during the day. Sometimes I have incontinence."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a doctor appt to see if I qualify for social security disability. I have several health problems that I acquired in 2014 after some very stressful events at work. I've been dealing with these problems for about 5 years. I was aware that my claim would be denied because that is common so I will hire a lawyer. I work part time from home but there is no way I can work a regular full time job. I was working but I was in pain and I was exhausted after work. I ate a lot of convenience frozen food and I bought take out dinner on the way home because I was too tired to cook.  At night when I'm sleeping I wake up from arthritis pain. I also have pre-diabetes with hypoglycemia. In the morning I need to eat high protein food every hour or two to get my blood sugar up and stable then I'm usually ok for the rest of the day. I worked at a middle school and when kids bump into me in the hallway that hurt. If I'm on my feet a lot my body hurts. I walk slowly because of my arthritis pain and I was diagnosed with spinal spondylolisthesis of my lumbar 5 which is basically a slipped disc of the vertebrae. Since I have trouble sleeping sometimes I need to take a nap during the day. Sometimes I have incontinence.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have a lot of joint pain. I have a lot of swelling in my hands and feet. My knees are swollen and painful. I have a lot of fatigue. I can't sit for long periods of time because of the pain. I have to move around and stretch to keep my pain under control. I've been to physical therapy and I've tried a lot of medications but nothing seems to work for very long. I've been trying to manage my pain on my own because I can't afford to see a doctor very often. I'm worried about my future because I'm not getting any younger and I'm worried that I won't be able to work much longer. I'm hoping that I'll qualify for disability so that I can have some financial security."
+            }
+        ],
+        "request_id": "811ec909bc478cda-EWR"
+    }
+}

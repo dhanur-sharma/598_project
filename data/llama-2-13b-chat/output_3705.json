@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My dad fell while delivering pizzas and broke his foot. My  parents were unable to pay their mortgage. They would likely lose their house in a few months. My brothers and I saw did a bit of renovating. A friend of my  brothers helped and gradually cleaned the house out, as we reveled in old memories, and had my parents temporarily move in with me, as I was the only homeowner with space. In the mean mine, I helped my mom and dad  make a budget. We got all their \"stuff\" in order to find an independent living apartment. The wife and I didnt hace the best time. She is a fairly private person and did not want my parents living with us for an indeterminate amount of time. She held strong and they eventually moved out. My parents were a bit traumatized by having to switch locations twice. Also, the room they were in is not heated and they needed a space heater. My brother and my wife healed over time and get along well again. My parents have way less worry. They dont worry about debt, houses or bills anymore."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My dad fell while delivering pizzas and broke his foot. My  parents were unable to pay their mortgage. They would likely lose their house in a few months. My brothers and I saw did a bit of renovating. A friend of my  brothers helped and gradually cleaned the house out, as we reveled in old memories, and had my parents temporarily move in with me, as I was the only homeowner with space. In the mean mine, I helped my mom and dad  make a budget. We got all their \"stuff\" in order to find an independent living apartment. The wife and I didnt hace the best time. She is a fairly private person and did not want my parents living with us for an indeterminate amount of time. She held strong and they eventually moved out. My parents were a bit traumatized by having to switch locations twice. Also, the room they were in is not heated and they needed a space heater. My brother and my wife healed over time and get along well again. My parents have way less worry. They dont worry about debt, houses or bills anymore.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecf411ecd0c95-EWR"
+    }
+}

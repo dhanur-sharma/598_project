@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One day after dropping off my dog for a dental cleaning I returned home to receive a call from the vet telling me my dog had swollen lymph nodes.  I was shocked and confused. The vet advised me to have a test done to rule out any diseases or cancer. It was quite scary.  After researching the test online, I realized how dire this situation is.  I felt like I was in trouble and the anxiety and fear set in.  The test results took at least a week to get. I was an emotional wreck the entire time. I didn't sleep very much.  When they finally called and I heard those words \"she doesn't have cancer\", a weight suddenly lifted and I felt such relief. My dog wasn't going to die.  I could go back to being happy again. I realized I need to make the most of her time here with me. They have such short lives.  They deserve to have a happy life while their alive. This changed my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One day after dropping off my dog for a dental cleaning I returned home to receive a call from the vet telling me my dog had swollen lymph nodes.  I was shocked and confused. The vet advised me to have a test done to rule out any diseases or cancer. It was quite scary.  After researching the test online, I realized how dire this situation is.  I felt like I was in trouble and the anxiety and fear set in.  The test results took at least a week to get. I was an emotional wreck the entire time. I didn't sleep very much.  When they finally called and I heard those words \"she doesn't have cancer\", a weight suddenly lifted and I felt such relief. My dog wasn't going to die.  I could go back to being happy again. I realized I need to make the most of her time here with me. They have such short lives.  They deserve to have a happy life while their alive. This changed my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9be1f9864295-EWR"
+    }
+}

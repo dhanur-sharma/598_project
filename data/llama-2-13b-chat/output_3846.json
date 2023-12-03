@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a nice afternoon and I was driving north. Not really going anywhere in particular.  I saw a puppy run across the road in the distance, so I pulled over.  I was worried that he might be hit by a passing car because rush hour was coming soon.  When I got near him he ran right up to me, he wasn't scared at all.  Had to be someone's pet.  I picked him up and walked to the closest house, hoping that he was theirs.  He wasn't so I checked some more houses in the neighborhood.  Nobody seemed to have ever saw him.  Or wanted to claim him.  He seemed in good health and didn't have fleas so I took him home.  My other dog seemed to fall in love with him.  I took him to the vet the next day to have him checked and he had a good bill of health.  I had it in my mind that I would put him up for adoption.  Well, that never happened  and that's how I wound up with another dog."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a nice afternoon and I was driving north. Not really going anywhere in particular.  I saw a puppy run across the road in the distance, so I pulled over.  I was worried that he might be hit by a passing car because rush hour was coming soon.  When I got near him he ran right up to me, he wasn't scared at all.  Had to be someone's pet.  I picked him up and walked to the closest house, hoping that he was theirs.  He wasn't so I checked some more houses in the neighborhood.  Nobody seemed to have ever saw him.  Or wanted to claim him.  He seemed in good health and didn't have fleas so I took him home.  My other dog seemed to fall in love with him.  I took him to the vet the next day to have him checked and he had a good bill of health.  I had it in my mind that I would put him up for adoption.  Well, that never happened  and that's how I wound up with another dog.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " He is now my new furry son.  It was a nice afternoon and I was driving north.  Not really going anywhere in particular.  I saw a puppy run across the road in the distance, so I pulled over.  I was worried that he might be hit by a passing car because rush hour was coming soon.  When I got near him he ran right up to me, he wasn't scared at all.  Had to be someone's pet.  I picked him up and walked to the closest house, hoping that he was theirs.  He wasn't so I checked some more houses in the neighborhood.  Nobody seemed to have ever saw him.  Or wanted to claim him.  He seemed in good health and didn't have fleas so I took him home.  My other dog seemed to fall in love with him.  I took him to the vet the next day to have him checked and he had a good bill of health.  I had it in my mind that I would put him up for adoption.  Well, that never happened  and that's how I wound up with another dog.  He is now my new furry son."
+            }
+        ],
+        "request_id": "811ed2641d3f4294-EWR"
+    }
+}

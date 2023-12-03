@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was just thinking today about the winter storm we stayed through that happened last February.  My fiance and I went to her parents house to stay there and take care of their dogs because they happened to be out of town at the time.  We camped out in the living room because we didn't want to stay in their room, it just felt weird.  One of the nights the power went out, and I remember one of their dogs walking on my face trying to get in close; she doesn't like storms, or power outages apparently.  I went out onto their back porch during the storm at one point.  The wind was really strong, and cold, but it was kind of fun standing out there.  The dogs didn't like it for sure; they wouldn't even come close to going outside to pee.  The next day the backyard was full of branches and leaves that had fallen because of the wind.  There was even a big branch in the pool, which I had to go in and get out so it wouldn't scratch the liner on the bottom of the pool.  It was ridiculously cold.  Luckily that was the worst of the problems.  We took a walk with the dogs the next day around the neighborhood.  There was a lot more damage to other houses than we got, which was lucky.  At one house, the tree in front of the house had almost split in the middle, making one whole side fall off.  Another house had a branch through the roof.  It was weirdly quiet everywhere, too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was just thinking today about the winter storm we stayed through that happened last February.  My fiance and I went to her parents house to stay there and take care of their dogs because they happened to be out of town at the time.  We camped out in the living room because we didn't want to stay in their room, it just felt weird.  One of the nights the power went out, and I remember one of their dogs walking on my face trying to get in close; she doesn't like storms, or power outages apparently.  I went out onto their back porch during the storm at one point.  The wind was really strong, and cold, but it was kind of fun standing out there.  The dogs didn't like it for sure; they wouldn't even come close to going outside to pee.  The next day the backyard was full of branches and leaves that had fallen because of the wind.  There was even a big branch in the pool, which I had to go in and get out so it wouldn't scratch the liner on the bottom of the pool.  It was ridiculously cold.  Luckily that was the worst of the problems.  We took a walk with the dogs the next day around the neighborhood.  There was a lot more damage to other houses than we got, which was lucky.  At one house, the tree in front of the house had almost split in the middle, making one whole side fall off.  Another house had a branch through the roof.  It was weirdly quiet everywhere, too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was like everyone was inside huddled up together, trying to stay warm.  I was just thinking about how we made it through that storm and how lucky we were."
+            }
+        ],
+        "request_id": "811bd483ee5e43f2-EWR"
+    }
+}

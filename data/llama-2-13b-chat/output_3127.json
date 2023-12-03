@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago, it started as a tingle in my arm. Then I couldn't feel my fingers. I was unable to type. My desk partner noticed something was wrong. She immediately took action. She called 911. The paramedics came. They took me to the hospital. The ER staff thought I might be having a stroke. Then, as suddenly as the symptoms started, they went away. The doctors couldn't find anything. The released me. The most likely culprit was a panic attack. The stress of work had gotten to me. I spent a couple weeks off work. I've been fine ever since. Those few weeks off work helped me to recover and worked wonders."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago, it started as a tingle in my arm. Then I couldn't feel my fingers. I was unable to type. My desk partner noticed something was wrong. She immediately took action. She called 911. The paramedics came. They took me to the hospital. The ER staff thought I might be having a stroke. Then, as suddenly as the symptoms started, they went away. The doctors couldn't find anything. The released me. The most likely culprit was a panic attack. The stress of work had gotten to me. I spent a couple weeks off work. I've been fine ever since. Those few weeks off work helped me to recover and worked wonders.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now, I'm back at work, feeling refreshed and ready to tackle new projects.\n\n"
+            }
+        ],
+        "request_id": "811ec4599dd143a7-EWR"
+    }
+}

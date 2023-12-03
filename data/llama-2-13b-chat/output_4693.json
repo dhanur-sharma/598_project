@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was last Friday that this happened actually. I was going to the auditorium because my supervisor said that she had a surprise to me tell me about. She told me to meet her at the auditorium when i finished my lunch. I ate lunch with a coworker of mine and after finished, we headed straight to the auditorium. I thought it was only going to be and my super visor but my other coworkers were there as well. They all looked really happy to see me and i saw my supervisor standing on stage. She told me to head up there with her. When i got up there, she told me that i was going to get a promotion. All my coworkers burst out into cheers and claps. I almost felt like tearing up when i got the news. I worked really hard to get the promotion and i felt like i really deserved it. After the auditorium incident, my supervisor also handed me a small gift. It contained a  little key chain. It was a small token of appreciation for all i have done for the company. Once i got home, i was still shocked about what happened."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was last Friday that this happened actually. I was going to the auditorium because my supervisor said that she had a surprise to me tell me about. She told me to meet her at the auditorium when i finished my lunch. I ate lunch with a coworker of mine and after finished, we headed straight to the auditorium. I thought it was only going to be and my super visor but my other coworkers were there as well. They all looked really happy to see me and i saw my supervisor standing on stage. She told me to head up there with her. When i got up there, she told me that i was going to get a promotion. All my coworkers burst out into cheers and claps. I almost felt like tearing up when i got the news. I worked really hard to get the promotion and i felt like i really deserved it. After the auditorium incident, my supervisor also handed me a small gift. It contained a  little key chain. It was a small token of appreciation for all i have done for the company. Once i got home, i was still shocked about what happened.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I couldn't believe that i was actually getting a promotion. I am very grateful for the opportunity and i promise to work even harder."
+            }
+        ],
+        "request_id": "811bdbeced644308-EWR"
+    }
+}

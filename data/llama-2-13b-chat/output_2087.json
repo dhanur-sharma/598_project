@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on vacation with my daughters to see my sister. We always had said that we would get our children together at \"cousin camp.\" This is the first year that we were able to do it. We went to the science center, the splash pad, the pool, a trampoline park--basically everything our kiddos (kindergarten age) wanted to do. we really enjoyed it. The kids laughed and played together. They learned about what we were like as children. It was great to spend some time with my sister. Next, on the way home, my daughters and I stopped at a state park. We did a rugged hike to a waterfall. The girls loved it. I felt like an adventerous mom showing them they could do challenging things. Next, we went to the pool of the park, which had a large water slide. My older daughter went down the slide on her own, which was a pretty brave thing for her! I was proud. After all that fun, the rest of the long ride home was pretty miserable.  We finally made it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on vacation with my daughters to see my sister. We always had said that we would get our children together at \"cousin camp.\" This is the first year that we were able to do it. We went to the science center, the splash pad, the pool, a trampoline park--basically everything our kiddos (kindergarten age) wanted to do. we really enjoyed it. The kids laughed and played together. They learned about what we were like as children. It was great to spend some time with my sister. Next, on the way home, my daughters and I stopped at a state park. We did a rugged hike to a waterfall. The girls loved it. I felt like an adventerous mom showing them they could do challenging things. Next, we went to the pool of the park, which had a large water slide. My older daughter went down the slide on her own, which was a pretty brave thing for her! I was proud. After all that fun, the rest of the long ride home was pretty miserable.  We finally made it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time and can't wait to do it again.\n\n"
+            }
+        ],
+        "request_id": "811eaff7ad0f42ec-EWR"
+    }
+}

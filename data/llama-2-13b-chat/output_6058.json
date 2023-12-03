@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 years ago, as I lives on my own, I get a  call from my brother stating that he was in a homeless shelter. He then asked if I could come and pick him up and asked if he could stay with me. I agreed mainly because this is my brother. Upon transpoting my brother to my home and allowing him to get settled. we eventually conversated about upgrading to a two bedroom apartment. We discussed who would pay for what bills and how much we'd split rent . We moved into our first apartment and everything seemed all well. But then my brother started falling short on his rent payments. Which ultimately lead to our 1st eviction. So now were both homeless. But that doesnt stop me from gathering funds up to get another place for us. Which i did within one week.  We moved into our second place with the same attitude. Who's paying for what bills. My brother promised tgat he would hold up his end. He didnt. This continued for two more apartments which led to us both returning home with our mom."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 years ago, as I lives on my own, I get a  call from my brother stating that he was in a homeless shelter. He then asked if I could come and pick him up and asked if he could stay with me. I agreed mainly because this is my brother. Upon transpoting my brother to my home and allowing him to get settled. we eventually conversated about upgrading to a two bedroom apartment. We discussed who would pay for what bills and how much we'd split rent . We moved into our first apartment and everything seemed all well. But then my brother started falling short on his rent payments. Which ultimately lead to our 1st eviction. So now were both homeless. But that doesnt stop me from gathering funds up to get another place for us. Which i did within one week.  We moved into our second place with the same attitude. Who's paying for what bills. My brother promised tgat he would hold up his end. He didnt. This continued for two more apartments which led to us both returning home with our mom.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now im 3 years older and i've had to sacrifice a lot to help my brother get back on his feet. But im still here fighting for him and us."
+            }
+        ],
+        "request_id": "811f3df61b350c72-EWR"
+    }
+}

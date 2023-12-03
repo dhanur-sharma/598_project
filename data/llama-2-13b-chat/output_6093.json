@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a very sad experience with loss of life recently. When I was a child, about 10 years ago, my family got a dog. It was a beautiful beagle dalmation mix. We played together all the time. We would go to the park and run chasing each other. A few years ago she got sick with heart worms. We took her to the vet and she was prescribed a medication that fixed the issue. That's what caused what happened 10 weeks ago to be surprising. When she had another health issue, I expected it to be treatable. We took her to the vet who took a blood sample. He also took a biopsy. The results came back as cancer. He said we could try treating her. I knew that cancer was going to  cause a decline in her health. But I didn't expect the medication itself to cause an allergic reaction in her. During the first dosage, she went into cardiac arrest and we abruptly had to put her down."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a very sad experience with loss of life recently. When I was a child, about 10 years ago, my family got a dog. It was a beautiful beagle dalmation mix. We played together all the time. We would go to the park and run chasing each other. A few years ago she got sick with heart worms. We took her to the vet and she was prescribed a medication that fixed the issue. That's what caused what happened 10 weeks ago to be surprising. When she had another health issue, I expected it to be treatable. We took her to the vet who took a blood sample. He also took a biopsy. The results came back as cancer. He said we could try treating her. I knew that cancer was going to  cause a decline in her health. But I didn't expect the medication itself to cause an allergic reaction in her. During the first dosage, she went into cardiac arrest and we abruptly had to put her down.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She was only 10 years old.\n\n"
+            }
+        ],
+        "request_id": "811f3e9f6ec11784-EWR"
+    }
+}

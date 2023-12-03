@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently moved to Belgium to study abroad. I remember how scared I was the day that I went to the airport. My parents were crying, and even though I wanted to be strong, I bawled like a little baby. I felt sad to be leaving home, and scared about diving into the unknown. I didn't know anyone I would be living with. I didn't know the language, the customs, or the culture. I was confident in my ability to adapt, but how could I not be scared? I remember crying some more as the plane took off into the night. When I finally arrived, the next few days were some of the hardest I've ever had in my life. I felt alone, unsure of myself, and overwhelmed by the transition. My new room was big but felt empty. But after about a week or so, I met one of my roommates who had just moved in. We immediately hit it off and became friends. As I met more and more people, I began to feel less lonely and more and more at home. By the time I had to go home, I cried - but this time about leaving."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently moved to Belgium to study abroad. I remember how scared I was the day that I went to the airport. My parents were crying, and even though I wanted to be strong, I bawled like a little baby. I felt sad to be leaving home, and scared about diving into the unknown. I didn't know anyone I would be living with. I didn't know the language, the customs, or the culture. I was confident in my ability to adapt, but how could I not be scared? I remember crying some more as the plane took off into the night. When I finally arrived, the next few days were some of the hardest I've ever had in my life. I felt alone, unsure of myself, and overwhelmed by the transition. My new room was big but felt empty. But after about a week or so, I met one of my roommates who had just moved in. We immediately hit it off and became friends. As I met more and more people, I began to feel less lonely and more and more at home. By the time I had to go home, I cried - but this time about leaving.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec3dc7f4e42b2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I wanted to attend a historical All-Star game. Yet, I knew that I could not afford to attend. I decided to try to attend another event surrounding the game, but my mother became ill. Since my relative really enjoys baseball and could not attend any of the events, I decided to do something special. I perused MLB 's website and I found a cap. Yet, I wanted a really stylish one. Therefore, I continued to look on the site and I found the perfect hat. It was similar to what everyone was sporting and had a signature logo on it. It was the right cap for my relative to receive in lieu of him missing the game. As a result, he was so happy. I was grateful that I was able to find some memorabilia for him. Yet, still sad that I could not attend. As I watched the game that night, I was happy with the outcome because someone from my home team won MVP. It was one of my fondest memories. I am grateful that my hometown hosted and the game ended well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I wanted to attend a historical All-Star game. Yet, I knew that I could not afford to attend. I decided to try to attend another event surrounding the game, but my mother became ill. Since my relative really enjoys baseball and could not attend any of the events, I decided to do something special. I perused MLB 's website and I found a cap. Yet, I wanted a really stylish one. Therefore, I continued to look on the site and I found the perfect hat. It was similar to what everyone was sporting and had a signature logo on it. It was the right cap for my relative to receive in lieu of him missing the game. As a result, he was so happy. I was grateful that I was able to find some memorabilia for him. Yet, still sad that I could not attend. As I watched the game that night, I was happy with the outcome because someone from my home team won MVP. It was one of my fondest memories. I am grateful that my hometown hosted and the game ended well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was grateful that I could give my relative something special to remember the game.\n\n"
+            }
+        ],
+        "request_id": "811bd99a4fb442c2-EWR"
+    }
+}

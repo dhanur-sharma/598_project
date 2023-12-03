@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This last weekend was my birthday. My oldest daughter is out of town going to school and tried to get the day off. I don't get to see her often so I was looking forward to it. She called to tell me that they wouldn't give her the day off. I was really sad but I understood. At the last minute she called and said that someone worked a double shift so she would be able to come over for my birthday. They have been short staffed and the girl doing the schedule didn't ask my daughter if it was okay to put her on for the day she asked off. So her boyfriend worked and took another shift from someone that would come in and work for my daughter. I was really happy to find out she would be able to come because I only get to see her every couple of months. She came over and spent the whole day with me. She brought me breakfast and a new charm for my bracelet. We spent a relaxing day just hanging out. We went to Hobby Lobby and looked around but I couldn't find anything I liked. So we came home and had dinner. After dinner we had cake and it started to get dark. She headed home and text me when she made it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This last weekend was my birthday. My oldest daughter is out of town going to school and tried to get the day off. I don't get to see her often so I was looking forward to it. She called to tell me that they wouldn't give her the day off. I was really sad but I understood. At the last minute she called and said that someone worked a double shift so she would be able to come over for my birthday. They have been short staffed and the girl doing the schedule didn't ask my daughter if it was okay to put her on for the day she asked off. So her boyfriend worked and took another shift from someone that would come in and work for my daughter. I was really happy to find out she would be able to come because I only get to see her every couple of months. She came over and spent the whole day with me. She brought me breakfast and a new charm for my bracelet. We spent a relaxing day just hanging out. We went to Hobby Lobby and looked around but I couldn't find anything I liked. So we came home and had dinner. After dinner we had cake and it started to get dark. She headed home and text me when she made it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a really great birthday and I was so happy to spend it with my daughter.\n\n"
+            }
+        ],
+        "request_id": "811f4dd678d843c5-EWR"
+    }
+}

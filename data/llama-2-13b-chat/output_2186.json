@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was very happy to setup my sons birthday three months ago. I wanted this to be a special event because he was turning 5 years old.  There was going to be so many family and friends there and i wanted it to be special.  I hired a magician to come to the birthday party.  This made the party so much fun and my son was so happy.  I remember seeing him smile so much.  Another thing i remember is when he openend his presents he was smiling so much.  He had friends over as well and they had a blast.  When they saw the magician doing tricks everyone was laughing so much.  It was a blessing to plan this party for my son. I cant wait for next year to setup his next party. I have so many new ideas for next year.  My son keeps talking about a new ipad. I already bought the ipad for him.  I plan on giving it to him for his 6th birthday party!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was very happy to setup my sons birthday three months ago. I wanted this to be a special event because he was turning 5 years old.  There was going to be so many family and friends there and i wanted it to be special.  I hired a magician to come to the birthday party.  This made the party so much fun and my son was so happy.  I remember seeing him smile so much.  Another thing i remember is when he openend his presents he was smiling so much.  He had friends over as well and they had a blast.  When they saw the magician doing tricks everyone was laughing so much.  It was a blessing to plan this party for my son. I cant wait for next year to setup his next party. I have so many new ideas for next year.  My son keeps talking about a new ipad. I already bought the ipad for him.  I plan on giving it to him for his 6th birthday party!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb1fecc3132f4-EWR"
+    }
+}

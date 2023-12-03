@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I were married in October 2018. However, because of our schedules, we couldn't go on our honeymoon until June 2019. Prior to the honeymoon I had some very important work due, and I was really looking forward to the time to have fun. We both love theme parks, and so our honeymoon was to visit six new theme parks. We started at Holiday World in Indiana. They had amazing roller coasters, including one named Voyage, that is now in my top five of all time. They also had tons of great water rides. After that, we went to Kentucky Kingdom. It was a small park, but had some nice coasters. Unfortunately, it was 100 degrees and humid, and for some reason the water park wasn't open. Because of this, we left really early to get to our next destination, Dollywood. Sadly, we had to cancel the visit to Dollywood because of a huge storm. Instead, we continued on to Carowinds, and got to ride Fury 325, which is now my second favorite coaster. We spent two days in Charlotte, where Carowinds is, and then headed to Virginia to go to Kings Dominion. The park was amazing. We both loved intimidator 305 and Twisted Timbers. After this, we headed to Philadelphia to enjoy the city itself, with no theme parks. Our final stop was in Toronto, where we enjoyed the city, and a great theme park, called Canada's Wonderland. The most memorable part of the Honeymoon was probably the first park. It was so good and we had the rush of the vacation just beginning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I were married in October 2018. However, because of our schedules, we couldn't go on our honeymoon until June 2019. Prior to the honeymoon I had some very important work due, and I was really looking forward to the time to have fun. We both love theme parks, and so our honeymoon was to visit six new theme parks. We started at Holiday World in Indiana. They had amazing roller coasters, including one named Voyage, that is now in my top five of all time. They also had tons of great water rides. After that, we went to Kentucky Kingdom. It was a small park, but had some nice coasters. Unfortunately, it was 100 degrees and humid, and for some reason the water park wasn't open. Because of this, we left really early to get to our next destination, Dollywood. Sadly, we had to cancel the visit to Dollywood because of a huge storm. Instead, we continued on to Carowinds, and got to ride Fury 325, which is now my second favorite coaster. We spent two days in Charlotte, where Carowinds is, and then headed to Virginia to go to Kings Dominion. The park was amazing. We both loved intimidator 305 and Twisted Timbers. After this, we headed to Philadelphia to enjoy the city itself, with no theme parks. Our final stop was in Toronto, where we enjoyed the city, and a great theme park, called Canada's Wonderland. The most memorable part of the Honeymoon was probably the first park. It was so good and we had the rush of the vacation just beginning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Also, getting to spend time with my wife in such a fun environment was amazing."
+            }
+        ],
+        "request_id": "811e8effb8d2c457-EWR"
+    }
+}

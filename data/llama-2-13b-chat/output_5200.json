@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is unbelievable. My crappy refrigerator finally kicked the bucket. Even worse, I have no money to get a new one. I went and checked out one I saw on Craigslist, but I'm pretty sure something was growing in it. Too bad my credit sucks. I went and applied for a Lowe's Card and got denied, story of my life. As if it wasn't bad enough, my girlfriend started arguing with me about it. I didn't think it was very mature to call me names because of something I don't seem to have any control over. She hasn't tried to get a new one. I'm not really sure why this is only my problem. It looks like I'm just going to have to get fat eating fast food for awhile until I save up enough money to get one. Maybe I should giver her an ultimatum. I shouldn't have to deal with this myself. It should be both of our problems. I just hope some family and friends have some odd jobs I can do to speed up the process."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is unbelievable. My crappy refrigerator finally kicked the bucket. Even worse, I have no money to get a new one. I went and checked out one I saw on Craigslist, but I'm pretty sure something was growing in it. Too bad my credit sucks. I went and applied for a Lowe's Card and got denied, story of my life. As if it wasn't bad enough, my girlfriend started arguing with me about it. I didn't think it was very mature to call me names because of something I don't seem to have any control over. She hasn't tried to get a new one. I'm not really sure why this is only my problem. It looks like I'm just going to have to get fat eating fast food for awhile until I save up enough money to get one. Maybe I should giver her an ultimatum. I shouldn't have to deal with this myself. It should be both of our problems. I just hope some family and friends have some odd jobs I can do to speed up the process.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so sick of this stupid fridge.\n\n"
+            }
+        ],
+        "request_id": "811be64b2c3141bb-EWR"
+    }
+}

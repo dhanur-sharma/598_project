@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I few months back, my birthday was approaching (it is in April).  My birthday is toward the end of the month of April.  However, this was early in the month.  I had finished work, and my wife had asked me to get ready because we were going to dinner together.  Our children were \"at the babysitter\" (that's what I was told).  So, I quickly dressed.  I really did not want to leave, but I was hungry.  What I did not know is that my wife had gathered my family together for a surprise birthday party at O'Charleys.  We arrived about 5:30pm.  When we entered the \"party section\" of the restaurant, everyone shouted, \"Surprise.\"  I really was taken aback.  I wondered why we were headed back to that section in the first place!  I didn't expect that my wife would actually do something like that.  She is sweet, but not much of one on surprises.  On top of my wife's surprise, everyone in my family was there.  Some had traveled a few hours to be with us on that evening.  It meant the world to me to have my family and a few friends come out to celebrate my birthday with me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I few months back, my birthday was approaching (it is in April).  My birthday is toward the end of the month of April.  However, this was early in the month.  I had finished work, and my wife had asked me to get ready because we were going to dinner together.  Our children were \"at the babysitter\" (that's what I was told).  So, I quickly dressed.  I really did not want to leave, but I was hungry.  What I did not know is that my wife had gathered my family together for a surprise birthday party at O'Charleys.  We arrived about 5:30pm.  When we entered the \"party section\" of the restaurant, everyone shouted, \"Surprise.\"  I really was taken aback.  I wondered why we were headed back to that section in the first place!  I didn't expect that my wife would actually do something like that.  She is sweet, but not much of one on surprises.  On top of my wife's surprise, everyone in my family was there.  Some had traveled a few hours to be with us on that evening.  It meant the world to me to have my family and a few friends come out to celebrate my birthday with me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a great evening, one that I will always remember.  I love my family!\n\n"
+            }
+        ],
+        "request_id": "811ea54f1a3e425b-EWR"
+    }
+}

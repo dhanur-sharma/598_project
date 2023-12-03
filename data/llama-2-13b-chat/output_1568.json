@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I had a friend come visit that I had never seen before. We had talked on the internet quite a bit, and even shared pictures with each other but we'd never actually seen each other in real life. We'd talked on the phone, but that doesn't really show what a person is like. I was really nervous and had the whole thing planned out in my head how it would go. Of course, it didn't happen exactly as I planned. Luckily, it still went really well. My friend plans on moving to the area and being able to hang out with him for a few days really put my mind at ease. He looked just like his pictures and sounded just like he did on the phone, so I wasn't shocked or disappointed. He was actually much calmer in real life and I think our personalities meshed quite well. He brought along his dog that was even cuter than expected. I showed him around our area and he was surprised to see a lack of trees, but ultimately things were very similar to his hometown. He's from a large metro area and I'm from a smaller town, with lots of rural suburbs. The cost of housing surprised him and I thought for sure he would be disappointed by our lack of food choices, but he seemed relatively impressed. We ate at a few restaurants that I hadn't tried since I don't get out of the house much. I'm looking forward to having a friend close by, as most of my friends live across the country from me so we don't get to see each other often."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I had a friend come visit that I had never seen before. We had talked on the internet quite a bit, and even shared pictures with each other but we'd never actually seen each other in real life. We'd talked on the phone, but that doesn't really show what a person is like. I was really nervous and had the whole thing planned out in my head how it would go. Of course, it didn't happen exactly as I planned. Luckily, it still went really well. My friend plans on moving to the area and being able to hang out with him for a few days really put my mind at ease. He looked just like his pictures and sounded just like he did on the phone, so I wasn't shocked or disappointed. He was actually much calmer in real life and I think our personalities meshed quite well. He brought along his dog that was even cuter than expected. I showed him around our area and he was surprised to see a lack of trees, but ultimately things were very similar to his hometown. He's from a large metro area and I'm from a smaller town, with lots of rural suburbs. The cost of housing surprised him and I thought for sure he would be disappointed by our lack of food choices, but he seemed relatively impressed. We ate at a few restaurants that I hadn't tried since I don't get out of the house much. I'm looking forward to having a friend close by, as most of my friends live across the country from me so we don't get to see each other often.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope to be able to show him more of our area and spend more time together in the future."
+            }
+        ],
+        "request_id": "811ea700c8e24289-EWR"
+    }
+}

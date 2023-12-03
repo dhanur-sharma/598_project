@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I moved to a new area.  I had to after getting a divorce from my wife.  I didn't have a lot of money to go out.  I couldn't really socialize and I had to deal with the emotional trauma of my divorce.  I didn't get to see my children as often.  I didn't get to see people that I had become friends with in my prior neighborhood.  It was just too far away from where I had moved. I had a core group of people that I could count on to hang out with on the weekends or when there was any free time.  We would barbecue together, or go out for dinners.  After I moved I met a very outgoing person.  She eventually became my girlfriend.  We started going out a lot.  She would always introduce herself and me to anyone that was out in the same location as us.  As we started going out more and more I became friends with several guys that were local.  We started going out on guys nights out and in turn I started getting out of my social shell."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I moved to a new area.  I had to after getting a divorce from my wife.  I didn't have a lot of money to go out.  I couldn't really socialize and I had to deal with the emotional trauma of my divorce.  I didn't get to see my children as often.  I didn't get to see people that I had become friends with in my prior neighborhood.  It was just too far away from where I had moved. I had a core group of people that I could count on to hang out with on the weekends or when there was any free time.  We would barbecue together, or go out for dinners.  After I moved I met a very outgoing person.  She eventually became my girlfriend.  We started going out a lot.  She would always introduce herself and me to anyone that was out in the same location as us.  As we started going out more and more I became friends with several guys that were local.  We started going out on guys nights out and in turn I started getting out of my social shell.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was nice to have people to hang out with again.  I had a lot of fun.  I eventually started getting more comfortable with myself again.  I was able to move on from my divorce.  I was able to be happy again.  I had a new group of friends and I was in a new relationship.  I was able to see my children more often.  I was able to move forward with my life."
+            }
+        ],
+        "request_id": "811f41ae5b6c8c7e-EWR"
+    }
+}

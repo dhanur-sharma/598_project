@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My grandfather, about six months ago, went into the hospital. It was very traumatic at the time for me. I have been his caretaker for a few years, but his behavior started to change. He didn't know who I was, couldn't swallow, it was scary. I took him to the hospital and they admitted him after a long wait. He was up and down for about a week. They doctors at first could not figure out what was wrong. They first thought he needed a pacemaker, then his vitals began crashing and they thought he had a stroke. We were lucky that it turned out that one of his medications were causing issues. Once they stopped it, he began to improve. I was at his side at every moment, communicating with family and being his advocate when he couldn't communicate. I helped feed him and move him around. It was extremely daunting. Up at about 6AM every morning, go to the hospital and just wait. Then go home around 8PM, hoping he would be with us the next day. He was in and out of many different wards, including the CCU. In the end, we were lucky that it was just one of his medications and he is actually better than he was before the incident, and they found another, unknown condition he had that we weren't aware of, so that is now under control as well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My grandfather, about six months ago, went into the hospital. It was very traumatic at the time for me. I have been his caretaker for a few years, but his behavior started to change. He didn't know who I was, couldn't swallow, it was scary. I took him to the hospital and they admitted him after a long wait. He was up and down for about a week. They doctors at first could not figure out what was wrong. They first thought he needed a pacemaker, then his vitals began crashing and they thought he had a stroke. We were lucky that it turned out that one of his medications were causing issues. Once they stopped it, he began to improve. I was at his side at every moment, communicating with family and being his advocate when he couldn't communicate. I helped feed him and move him around. It was extremely daunting. Up at about 6AM every morning, go to the hospital and just wait. Then go home around 8PM, hoping he would be with us the next day. He was in and out of many different wards, including the CCU. In the end, we were lucky that it was just one of his medications and he is actually better than he was before the incident, and they found another, unknown condition he had that we weren't aware of, so that is now under control as well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But the experience was very traumatic and it was hard to see him in that state.\n\n"
+            }
+        ],
+        "request_id": "811ec9a6fc985e68-EWR"
+    }
+}

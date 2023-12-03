@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was such a wonderful experience. I got to see coldplay! Yes, Coldplay! Hell yeah! I was thrilled when my brother in law Paul told me that he had a spare ticket for a coldplay concert. This was 3 weeks ago. I still remember jumping up and down with joy. The past few months were quite hard with me losing my job and all. So i really needed this. It has been a desire of mine for years, to watch their concert up close. I finally got to it. It was magical! So many of favorite songs! I even managed to get selfies with a couple of band members. This experience infused a fresh supply of energy in me that i so badly needed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was such a wonderful experience. I got to see coldplay! Yes, Coldplay! Hell yeah! I was thrilled when my brother in law Paul told me that he had a spare ticket for a coldplay concert. This was 3 weeks ago. I still remember jumping up and down with joy. The past few months were quite hard with me losing my job and all. So i really needed this. It has been a desire of mine for years, to watch their concert up close. I finally got to it. It was magical! So many of favorite songs! I even managed to get selfies with a couple of band members. This experience infused a fresh supply of energy in me that i so badly needed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea19cfcd3c351-EWR"
+    }
+}

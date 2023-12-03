@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son just turned 18, so I decided to take him and his friends to New York, about 3 months ago. The drive took about eight hours and we were all hungry. We went to an amazing Japanese restaurant on Times Square. The food was great. My son loved it. Although I think a few of his friend would have rather ate pizza. After eating, we decided to check into a hotel for the night. We were all very tired from the drive and just wanted to relax. Yet, the excitement was evident, as we all had tickets to see the Broadway show, \"Lion King\". I don't think anyone got a full nights sleep. In the morning, we all ate a huge breakfast at the hotel. We decided to take the subway to see the show. I think this was a first time experience for everyone.  After exiting the subway, we walked two city blocks to the show. The show was absolutely amazing. The sounds and actors were brilliant.  This was the high point of the trip. After the show, we ate pizza on Times Square. Then we returned to the hotel to check out. We had a wonderful trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son just turned 18, so I decided to take him and his friends to New York, about 3 months ago. The drive took about eight hours and we were all hungry. We went to an amazing Japanese restaurant on Times Square. The food was great. My son loved it. Although I think a few of his friend would have rather ate pizza. After eating, we decided to check into a hotel for the night. We were all very tired from the drive and just wanted to relax. Yet, the excitement was evident, as we all had tickets to see the Broadway show, \"Lion King\". I don't think anyone got a full nights sleep. In the morning, we all ate a huge breakfast at the hotel. We decided to take the subway to see the show. I think this was a first time experience for everyone.  After exiting the subway, we walked two city blocks to the show. The show was absolutely amazing. The sounds and actors were brilliant.  This was the high point of the trip. After the show, we ate pizza on Times Square. Then we returned to the hotel to check out. We had a wonderful trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f370d7b048c4b-EWR"
+    }
+}

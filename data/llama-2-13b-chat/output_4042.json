@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my cousin got married. I was a bridesmaid in the wedding and it was beautiful. She wore a lace dress. We wore blush colored bridesmaids dresses. She and I are very close so it was great to see her marrying someone she loves. The most memorable moment was when I spilled champagne on my dress before the wedding. I was panicked. Thankfully, one of the girl's mom was a dry cleaner and immediately took the dress to get the stain out. We got the dress back right before we had to walk down. Then, the reception was so much fun because it was filled with family. It was very emotional because she was so happy and we were all grown up. Their first dance was beautiful and we had fun dancing and celebrating. During the toasts, everyone cried. It was very emotional to see them so happy. It was definitely the best wedding I've been to and one I will never forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my cousin got married. I was a bridesmaid in the wedding and it was beautiful. She wore a lace dress. We wore blush colored bridesmaids dresses. She and I are very close so it was great to see her marrying someone she loves. The most memorable moment was when I spilled champagne on my dress before the wedding. I was panicked. Thankfully, one of the girl's mom was a dry cleaner and immediately took the dress to get the stain out. We got the dress back right before we had to walk down. Then, the reception was so much fun because it was filled with family. It was very emotional because she was so happy and we were all grown up. Their first dance was beautiful and we had fun dancing and celebrating. During the toasts, everyone cried. It was very emotional to see them so happy. It was definitely the best wedding I've been to and one I will never forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bceecfb9242c3-EWR"
+    }
+}

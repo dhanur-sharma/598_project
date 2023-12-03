@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's hard to look back and think about how I felt when they told us Johnny only had a month to live. I haven't spoken about this since the funeral service. I just wish I could carry on my days like everything is the same and he is still here. When he was diagnosed with lung cancer 2 months ago, we didn't think it would be that serious. Surely medical treatments and cures are advanced enough in the year 2019 that he will be fine. But the doctor said he only had 1 month. I refused to believe that and continued on life as normal. I wish I hadn't done that. I wish I had spent more time with him. I wish I had done those things with him that you do when you know you're going to die. I feel so stupid and I feel so empty. I don't know what I'm supposed to do or how I'm supposed to feel. It's not like he was in pain and dying was solace for him. This just crept up on us overnight. He was supposed to have a complete and full life ahead of him. Not this stupid cancer killing him in a month. I will miss him and I will live my life to the fullest in his memory."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's hard to look back and think about how I felt when they told us Johnny only had a month to live. I haven't spoken about this since the funeral service. I just wish I could carry on my days like everything is the same and he is still here. When he was diagnosed with lung cancer 2 months ago, we didn't think it would be that serious. Surely medical treatments and cures are advanced enough in the year 2019 that he will be fine. But the doctor said he only had 1 month. I refused to believe that and continued on life as normal. I wish I hadn't done that. I wish I had spent more time with him. I wish I had done those things with him that you do when you know you're going to die. I feel so stupid and I feel so empty. I don't know what I'm supposed to do or how I'm supposed to feel. It's not like he was in pain and dying was solace for him. This just crept up on us overnight. He was supposed to have a complete and full life ahead of him. Not this stupid cancer killing him in a month. I will miss him and I will live my life to the fullest in his memory.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9c23389042a7-EWR"
+    }
+}

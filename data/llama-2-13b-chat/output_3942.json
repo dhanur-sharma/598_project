@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometimes I feel like I'll never master the guitar. Seriously, whenever I feel like I'm \"getting it\", I'm slapped by the harsh reality of mediocrity. Luckily, my teacher is such a positive dude and always seems to get me back on track. My feelings of inadequacy will probably never go away. But, they seem to be getting shorter and less intense. I don't know how he does it and sticks with me until it clicks. Maybe he's brainwashing me or something. LOL. Anyway, I'm really grateful for his tutelage and don't know what I would do without him. The funny thing is, I've seen my teacher play. And he's not that good! I guess he just has the right personality to teach. In any case, I'm happy to have him to push me forward. I don't know if I'll ever be great. But, I sure do have a lot of fun when I get in my groove. Party on, Wayne!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometimes I feel like I'll never master the guitar. Seriously, whenever I feel like I'm \"getting it\", I'm slapped by the harsh reality of mediocrity. Luckily, my teacher is such a positive dude and always seems to get me back on track. My feelings of inadequacy will probably never go away. But, they seem to be getting shorter and less intense. I don't know how he does it and sticks with me until it clicks. Maybe he's brainwashing me or something. LOL. Anyway, I'm really grateful for his tutelage and don't know what I would do without him. The funny thing is, I've seen my teacher play. And he's not that good! I guess he just has the right personality to teach. In any case, I'm happy to have him to push me forward. I don't know if I'll ever be great. But, I sure do have a lot of fun when I get in my groove. Party on, Wayne!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed451ea300f9c-EWR"
+    }
+}

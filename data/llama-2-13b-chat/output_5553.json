@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I had my first baby and it was a sweet little girl. It is a little weird because all of my family for the last 3 generations had boys. I will be the talk of the town with my family after this. My mom hugged me a week after having the child. My father gave a hug and had a bit of a cry. My brothers all gave me high fives. My daughter is usually in a happy mood. She did puke after eating some bad baby food. She is growing up nicely. The baby clothes fit greatly on her. They were a blue shirt and some red pants. She looked great in the clothes. She almost said a word. I think it was ketchup but I wasn't sure. I hope she has a happy life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I had my first baby and it was a sweet little girl. It is a little weird because all of my family for the last 3 generations had boys. I will be the talk of the town with my family after this. My mom hugged me a week after having the child. My father gave a hug and had a bit of a cry. My brothers all gave me high fives. My daughter is usually in a happy mood. She did puke after eating some bad baby food. She is growing up nicely. The baby clothes fit greatly on her. They were a blue shirt and some red pants. She looked great in the clothes. She almost said a word. I think it was ketchup but I wasn't sure. I hope she has a happy life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will do my best to raise her well.\n\n"
+            }
+        ],
+        "request_id": "811f33ca4a41434f-EWR"
+    }
+}

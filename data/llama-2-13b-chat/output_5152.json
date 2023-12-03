@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up to the sound of my alarm chiming happily. Today was the day, after all our training, today was finally the day. I jumped into the shower and quickly got myself dressed and ready to go. I got in my car and drove off to the track, my parents promising they'd be in tow to watch me racing. The hum of excitement at the race track was palpable, and I could barely contain myself as I got into my vehicle and the announcer counted down for the race. I slammed down on the accelerator and began to soar forward, the other racers becoming blurs around me as speed became the only thing on our minds. Everyone knew the stakes, this was a national race, any victory here would result in fame or fortune for the driver, and opening the door to something lifechanging. Distance wise, these races aren't very long, neither are they time-wise, really. But after spending so much time practicing, so much time racing, I've learned that no matter how long the race actually is, it always takes so much time to really get through it. Seconds pass like hours as I realize that I don't think that I'm passing anyone. The other racers edge forward ahead of me, and I keep slipping further and further back, my future slipping away slowly. As the race came to an end, and it was locked in that I lost the race so early on, I was a bit disappointed. But at the same time, I was proud. I followed my dream, I chased my goal, and I gave it my all. This experience will stay with me for the rest of my life, and I'm glad that I had it, win or lose."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up to the sound of my alarm chiming happily. Today was the day, after all our training, today was finally the day. I jumped into the shower and quickly got myself dressed and ready to go. I got in my car and drove off to the track, my parents promising they'd be in tow to watch me racing. The hum of excitement at the race track was palpable, and I could barely contain myself as I got into my vehicle and the announcer counted down for the race. I slammed down on the accelerator and began to soar forward, the other racers becoming blurs around me as speed became the only thing on our minds. Everyone knew the stakes, this was a national race, any victory here would result in fame or fortune for the driver, and opening the door to something lifechanging. Distance wise, these races aren't very long, neither are they time-wise, really. But after spending so much time practicing, so much time racing, I've learned that no matter how long the race actually is, it always takes so much time to really get through it. Seconds pass like hours as I realize that I don't think that I'm passing anyone. The other racers edge forward ahead of me, and I keep slipping further and further back, my future slipping away slowly. As the race came to an end, and it was locked in that I lost the race so early on, I was a bit disappointed. But at the same time, I was proud. I followed my dream, I chased my goal, and I gave it my all. This experience will stay with me for the rest of my life, and I'm glad that I had it, win or lose.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm proud of myself for pushing myself so hard, and I know that this isn't the end. I'll be back, and I'll be ready."
+            }
+        ],
+        "request_id": "811be5542a4832e2-EWR"
+    }
+}

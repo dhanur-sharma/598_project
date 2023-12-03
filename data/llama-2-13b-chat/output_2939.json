@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In March of 2019 I went to the doctor to get my blood pressure medicine refilled. The doctor also did was blood work. When the results returned the doctor saw I had a high PSA count. It was 12. 391 and for a man my age it should have been less than 4. After a biopsy, the doctor informed me that I have prostate cancer. Then the doctor informed me that for my age surgery would be the best way to treat my cancer. I decided to go ahead with the surgery and have my prostate removed. I had prostate surgery on Aug. 20, 2019 and had my prostate removed. I have a return appointment on October 8, 2019 to check my PSA levels. Hopefully everything will fine. If all is good I will have my PSA levels checked every 3 months for the first year. Then every 6 months for a couple years. If all is good then the doctor will check my PSA levels once a year there after. This was an unexpected life event for me!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In March of 2019 I went to the doctor to get my blood pressure medicine refilled. The doctor also did was blood work. When the results returned the doctor saw I had a high PSA count. It was 12. 391 and for a man my age it should have been less than 4. After a biopsy, the doctor informed me that I have prostate cancer. Then the doctor informed me that for my age surgery would be the best way to treat my cancer. I decided to go ahead with the surgery and have my prostate removed. I had prostate surgery on Aug. 20, 2019 and had my prostate removed. I have a return appointment on October 8, 2019 to check my PSA levels. Hopefully everything will fine. If all is good I will have my PSA levels checked every 3 months for the first year. Then every 6 months for a couple years. If all is good then the doctor will check my PSA levels once a year there after. This was an unexpected life event for me!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec0fc6acd41e1-EWR"
+    }
+}

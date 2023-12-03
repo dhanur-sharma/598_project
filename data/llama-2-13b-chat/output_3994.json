@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, It's been one month since I started my new job. The process was so tedious, but I'm so excited I finally got the job. Now that the excitement has worn off though, I'm feeling a little bored. I'm starting to understand why the work pays so well. It's just so repetitive! If I didn't need the money so badly, I'd hand in my resignation tomorrow! I can't wait to look for something new. Still I'm afraid of looking for another job, because I may not find something as well paying as this one. Additionally, I know it looks super bad on a resume to skip out on a job after only a month! I honestly wish I had read more reviews on this job before I applied. The interview process was so long as well! It took almost a month for me to receive a formal job offer! That seems insane right? I know a lot of companies take that long, but with a company turn over this high, you'd think they would've been able to move it along a little faster. I remember going to the first interview, almost dying from nervousness! I wondered at the time if my boss could see it, and that seemed to make me even more nervous. I actually had to hold my leg down to keep it from shaking because when I get nervous that tends to happen. I guess it most not have bothered him too much since I got the job. I was only made more nervous not to get a formal job offer and be strung along for weeks.  Anyway, I'll try to stick this out for awhile and build up some savings so I can look for something else. Maybe I'll be able to work up the ladder with this experience? Who knows?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, It's been one month since I started my new job. The process was so tedious, but I'm so excited I finally got the job. Now that the excitement has worn off though, I'm feeling a little bored. I'm starting to understand why the work pays so well. It's just so repetitive! If I didn't need the money so badly, I'd hand in my resignation tomorrow! I can't wait to look for something new. Still I'm afraid of looking for another job, because I may not find something as well paying as this one. Additionally, I know it looks super bad on a resume to skip out on a job after only a month! I honestly wish I had read more reviews on this job before I applied. The interview process was so long as well! It took almost a month for me to receive a formal job offer! That seems insane right? I know a lot of companies take that long, but with a company turn over this high, you'd think they would've been able to move it along a little faster. I remember going to the first interview, almost dying from nervousness! I wondered at the time if my boss could see it, and that seemed to make me even more nervous. I actually had to hold my leg down to keep it from shaking because when I get nervous that tends to happen. I guess it most not have bothered him too much since I got the job. I was only made more nervous not to get a formal job offer and be strung along for weeks.  Anyway, I'll try to stick this out for awhile and build up some savings so I can look for something else. Maybe I'll be able to work up the ladder with this experience? Who knows?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I guess only time will tell."
+            }
+        ],
+        "request_id": "811bce093a3c1774-EWR"
+    }
+}

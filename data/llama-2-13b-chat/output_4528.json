@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I spend most of the time at the Island of Bali. I retired last year.  I find winters to be too cold for me in the United States.  After I arrived in Bali, I got a call from my daughter.  She was going to have a baby a few weeks earlier than expected.  I just arrived in Bali the previous month and I had to turn around to be with my daughter.  When I arrived at the Dallas airport, I got a text message from my son-in-law.  It was accompanied by a picture of my granddaughter.  She was my first grandchild.   I was excited but was sad that I was not there when the baby was born.  It was a joy to see the baby.  She was healthy considering she was born earlier than expected.  I felt so blessed.  I felt like I was the luckiest person in the entire world.  I cried and laughed all day long."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I spend most of the time at the Island of Bali. I retired last year.  I find winters to be too cold for me in the United States.  After I arrived in Bali, I got a call from my daughter.  She was going to have a baby a few weeks earlier than expected.  I just arrived in Bali the previous month and I had to turn around to be with my daughter.  When I arrived at the Dallas airport, I got a text message from my son-in-law.  It was accompanied by a picture of my granddaughter.  She was my first grandchild.   I was excited but was sad that I was not there when the baby was born.  It was a joy to see the baby.  She was healthy considering she was born earlier than expected.  I felt so blessed.  I felt like I was the luckiest person in the entire world.  I cried and laughed all day long.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I held the baby in my arms and just looked at her.  I was so grateful to be a grandmother.\n\n"
+            }
+        ],
+        "request_id": "811bd8bc6d4243d3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am late writing in my journal but wanted to jot down what happened three weeks ago when there was a full moon. Mom has dementia and every night as the sun goes down, she becomes agitated and restless. It becomes more difficult everyday working with her because of the progression of the disease.  I know I will get very little sleep, especially this night.  However, on the night of the full moon, for unexplained reasons, mom becomes even more restless and paces constantly. I feel bad, but I must make sure the extra code locks are locked for the outside doors, to prevent my mom from going outside at night and wander off, as she has done in the past. . During my mom's pacing episodes, she also constantly repeats the same sentence over, usually, \"I want to go home\". Even though mom is in her own home, she is unaware of her surroundings, which is more the case lately. I have to keep reassuring mom that she is at home. As the full moon gets higher in the sky, the more restless mom becomes and goes to each door trying to open the door. When the door doesn't open, mom then proceeds to each window, fortunately, most window locks are higher up or too hard for her to open. I keep asking mom to sit down and watch her favorite TV shows, I Love Lucy, but she can only sit for a few moments and then gets up again to start pacing the floor. I get out the old photo albums and try to jolt her memory to something in the past that she might remember, suddenly she looks more diligently at a picture of me as a baby where she is holding me in her arms. She stares at the picture and runs her fingers over the photo, for just a few fleeting moments, she has a look in her eyes that she remembers that time in her life. She mumbles my name and I see my opening cue to talk about when I was little. Mom then starts on the story of how I acted as a child, even though I have heard this story many times before. On these nights, the dementia that has stricken my mom seems worse, robbing her of her present memory and ability to take care of herself. At times like this, on a full moon night that for just a second, my mother is herself, albeit many years back in time, that I feel a connection to her at the present, even though from a long ago memory of how she use to be as my mother."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am late writing in my journal but wanted to jot down what happened three weeks ago when there was a full moon. Mom has dementia and every night as the sun goes down, she becomes agitated and restless. It becomes more difficult everyday working with her because of the progression of the disease.  I know I will get very little sleep, especially this night.  However, on the night of the full moon, for unexplained reasons, mom becomes even more restless and paces constantly. I feel bad, but I must make sure the extra code locks are locked for the outside doors, to prevent my mom from going outside at night and wander off, as she has done in the past. . During my mom's pacing episodes, she also constantly repeats the same sentence over, usually, \"I want to go home\". Even though mom is in her own home, she is unaware of her surroundings, which is more the case lately. I have to keep reassuring mom that she is at home. As the full moon gets higher in the sky, the more restless mom becomes and goes to each door trying to open the door. When the door doesn't open, mom then proceeds to each window, fortunately, most window locks are higher up or too hard for her to open. I keep asking mom to sit down and watch her favorite TV shows, I Love Lucy, but she can only sit for a few moments and then gets up again to start pacing the floor. I get out the old photo albums and try to jolt her memory to something in the past that she might remember, suddenly she looks more diligently at a picture of me as a baby where she is holding me in her arms. She stares at the picture and runs her fingers over the photo, for just a few fleeting moments, she has a look in her eyes that she remembers that time in her life. She mumbles my name and I see my opening cue to talk about when I was little. Mom then starts on the story of how I acted as a child, even though I have heard this story many times before. On these nights, the dementia that has stricken my mom seems worse, robbing her of her present memory and ability to take care of herself. At times like this, on a full moon night that for just a second, my mother is herself, albeit many years back in time, that I feel a connection to her at the present, even though from a long ago memory of how she use to be as my mother.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will try to hold on to this memory, so I can feel close to her when she is no longer with me. \n\n"
+            }
+        ],
+        "request_id": "811ec353984942ea-EWR"
+    }
+}

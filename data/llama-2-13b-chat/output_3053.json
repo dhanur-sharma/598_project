@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago I thought about how my son still couldn't swim. I had my son in swim classes and while he learned a little, I didn't feel it was worth the money to do another class.  I decided that individual swim lessons would be a better idea and signed him up for that. We got there a few minutes early and got him ready to go into the pool.  We met the instructor, she seemed nice and my son liked her so that was a plus. I sat up on the bleachers as the instructor led my son into the pool.  First she tested to see what he knew, if he could float or do any strokes at all.  After that she started to instruct him on how to kick properly and how to doggy paddle.  He was able to pick up everything she taught him, he was listening really well and seemed to be having a good time. After the hour was up he had a lot more confidence in the water and was excited for his next lesson.  A week after the first it was time for the second lesson. My son was in an exuberant mood, ready to learn how to swim. We got there and he immediately walked over to the pool and yelled hi to the instructor.  This lesson she focused on teaching him freestyle strokes.  He struggled with it at first, but eventually picked it up.  I was so proud when he made it down the length of the pool for the first time.  When he finished swimming he was so proud of himself that he cheered. I'm really happy I went with individual lessons rather than another class."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago I thought about how my son still couldn't swim. I had my son in swim classes and while he learned a little, I didn't feel it was worth the money to do another class.  I decided that individual swim lessons would be a better idea and signed him up for that. We got there a few minutes early and got him ready to go into the pool.  We met the instructor, she seemed nice and my son liked her so that was a plus. I sat up on the bleachers as the instructor led my son into the pool.  First she tested to see what he knew, if he could float or do any strokes at all.  After that she started to instruct him on how to kick properly and how to doggy paddle.  He was able to pick up everything she taught him, he was listening really well and seemed to be having a good time. After the hour was up he had a lot more confidence in the water and was excited for his next lesson.  A week after the first it was time for the second lesson. My son was in an exuberant mood, ready to learn how to swim. We got there and he immediately walked over to the pool and yelled hi to the instructor.  This lesson she focused on teaching him freestyle strokes.  He struggled with it at first, but eventually picked it up.  I was so proud when he made it down the length of the pool for the first time.  When he finished swimming he was so proud of himself that he cheered. I'm really happy I went with individual lessons rather than another class.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was worth it and I can tell my son is really enjoying it."
+            }
+        ],
+        "request_id": "811ec3319c998c8d-EWR"
+    }
+}

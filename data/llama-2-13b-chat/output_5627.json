@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Birthdays are usually some of the most fun times of your life. Think about it, cake, presents, everyone gives you attention. It's great. But for me that one year, it was probably the worst day ever. I don't have terrible parents or terrible friends, or even no friends at all. Nobody intentionally made my birthday bad. But, my mom was going through a cancer scare at the time, and on the day of my birthday, I found out that she was diagnosed with cancer. I was so grief stricken. I felt sick to my stomach. I could barely even look at my mom without falling apart. My mom and I have always been close. We always told each other everything and tried to make each other feel better. Even though it was so rough, she had an operation that went extremely well afterward. She was on the road to recovery. I love my mom with all my heart."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Birthdays are usually some of the most fun times of your life. Think about it, cake, presents, everyone gives you attention. It's great. But for me that one year, it was probably the worst day ever. I don't have terrible parents or terrible friends, or even no friends at all. Nobody intentionally made my birthday bad. But, my mom was going through a cancer scare at the time, and on the day of my birthday, I found out that she was diagnosed with cancer. I was so grief stricken. I felt sick to my stomach. I could barely even look at my mom without falling apart. My mom and I have always been close. We always told each other everything and tried to make each other feel better. Even though it was so rough, she had an operation that went extremely well afterward. She was on the road to recovery. I love my mom with all my heart.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She's been through so much, and I'm just so lucky to have her. But that birthday will forever be etched in my memory as one of the worst days ever.\n\n"
+            }
+        ],
+        "request_id": "811f35391f3543d9-EWR"
+    }
+}

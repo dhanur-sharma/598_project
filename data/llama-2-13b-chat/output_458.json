@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was really cold today, and it just felt like one of those days when you just seem low key and low energy. I knew I would have to go to work but I wanted to stay at home and drink hot chocolate while watching Netflix. It was nearly 7:30 and I decided to get on my was to work. I had bundled up so that I knew I would be warm enough. I decided to make the best of the weather and make the brisk walk to work that day. It was not to  far into my walk when I finally hit the main street I came across a man that I had seen before but I had never really talked to. He was a homeless guy that I would see rummaging every now and then in the garbage. On this day, he happened to be in my path and I just happened to ask him if he was okay. I guess he must have felt something because he immediately began to cry and pour out his heart about his condition. I could feel he needed someone so I sat and listened to him for a while. I could tell it really helped him to get through that moment. It was really fulfilling for me too. I was able to help someone that really needed me. I wanted to tell him that he could come talk to me anytime, but he ran off too fast. It was nevertheless memorable to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was really cold today, and it just felt like one of those days when you just seem low key and low energy. I knew I would have to go to work but I wanted to stay at home and drink hot chocolate while watching Netflix. It was nearly 7:30 and I decided to get on my was to work. I had bundled up so that I knew I would be warm enough. I decided to make the best of the weather and make the brisk walk to work that day. It was not to  far into my walk when I finally hit the main street I came across a man that I had seen before but I had never really talked to. He was a homeless guy that I would see rummaging every now and then in the garbage. On this day, he happened to be in my path and I just happened to ask him if he was okay. I guess he must have felt something because he immediately began to cry and pour out his heart about his condition. I could feel he needed someone so I sat and listened to him for a while. I could tell it really helped him to get through that moment. It was really fulfilling for me too. I was able to help someone that really needed me. I wanted to tell him that he could come talk to me anytime, but he ran off too fast. It was nevertheless memorable to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I went on with my day feeling fulfilled and happy.\n\n"
+            }
+        ],
+        "request_id": "811e9218afc432e4-EWR"
+    }
+}

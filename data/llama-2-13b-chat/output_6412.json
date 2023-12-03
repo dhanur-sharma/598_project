@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago I noticed a letter on the door. When I opened it, it was from my landlord stating that the property has been sold. This immediately made me nervous because it was out of nowhere. I've always considered myself lucky because I'm in a growing area in the city. I'm very close to downtown and luxury homes. I knew the day was coming but just wasn't expecting it to be so soon. My rent increased $300 which has been hard for me to afford. Ever since then, it has pushed me to look into buying a house. The fact that my apartments were sold has made major changes for me in life. Especially since I have children. When you have children, you have to think about the safety of neighborhoods. Not only that, but changing schools would be such a pain since the school year is about to begin. The past couple of months have been difficult in trying to save money. I have to do this while also spending money on food, bills, and my children's necessity. Also, the house buying process is long and difficult."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago I noticed a letter on the door. When I opened it, it was from my landlord stating that the property has been sold. This immediately made me nervous because it was out of nowhere. I've always considered myself lucky because I'm in a growing area in the city. I'm very close to downtown and luxury homes. I knew the day was coming but just wasn't expecting it to be so soon. My rent increased $300 which has been hard for me to afford. Ever since then, it has pushed me to look into buying a house. The fact that my apartments were sold has made major changes for me in life. Especially since I have children. When you have children, you have to think about the safety of neighborhoods. Not only that, but changing schools would be such a pain since the school year is about to begin. The past couple of months have been difficult in trying to save money. I have to do this while also spending money on food, bills, and my children's necessity. Also, the house buying process is long and difficult.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to save up for the down payment and closing costs. The letter on the door was a huge wake-up call for me. It made me realize that I need to start taking my life more seriously. I have to be more responsible with my finances and make a plan for the future.\n\n"
+            }
+        ],
+        "request_id": "811f44caacb94303-EWR"
+    }
+}

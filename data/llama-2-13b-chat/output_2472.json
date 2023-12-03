@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I found money in an envelope. I was walking down the street, going back home. I noticed a large envelope. I didn't see anyone nearby, so I waited a moment, and then picked it up. It was full of money. I looked around for a while, trying to see if anyone would come back in a panic looking for it. No one did. I then went home and looked online to various neighborhood groups and apps to see if anyone had mentioned losing any envelopes or money. No one di. I even posted to a few different places, hoping to find the owner, while being vague enough to avoid anyone who didn't rightfully own it. I got nowhere. No one came forward to claim it. The closest I got was one person who said he lost $5 there a month ago, but that clearly wasn't the right person. I still have the envelope. I don't know what to do next."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I found money in an envelope. I was walking down the street, going back home. I noticed a large envelope. I didn't see anyone nearby, so I waited a moment, and then picked it up. It was full of money. I looked around for a while, trying to see if anyone would come back in a panic looking for it. No one did. I then went home and looked online to various neighborhood groups and apps to see if anyone had mentioned losing any envelopes or money. No one di. I even posted to a few different places, hoping to find the owner, while being vague enough to avoid anyone who didn't rightfully own it. I got nowhere. No one came forward to claim it. The closest I got was one person who said he lost $5 there a month ago, but that clearly wasn't the right person. I still have the envelope. I don't know what to do next.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I'm holding onto something that belongs to someone else. I've had it for a week now, and I'm starting to feel guilty for not giving it back. Maybe I'll just take it to the police station and let them handle it. I've been carrying this envelope around for too long now, and it's weighing on my conscience.\n\n"
+            }
+        ],
+        "request_id": "811eb7725cf843a4-EWR"
+    }
+}

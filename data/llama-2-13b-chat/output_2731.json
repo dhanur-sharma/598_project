@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a driving trip across Canada.  The final destination was Niagara Falls.  It turns out that the freeway in one country looks like the freeway in another.  There were lots of windmills, it was kind of neat to see them.  Once you get over the novelty of all the road signs being in KM/hr, then its just another road trip.  I regret not having taken more time to see things along the way.  Vineyards were apparently something that could have been visited.  There is a lot of water flowing over the falls.  It is very impressive.  It is also a tourist trap.  I suppose such places must exist.  I can not help but wonder what it would have been like long ago.  The bus system in the town was impressive.  Buy a pass and you can go anywhere you want.  Bus come along at a short interval.  I would have like to see something other than a tourist destination."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a driving trip across Canada.  The final destination was Niagara Falls.  It turns out that the freeway in one country looks like the freeway in another.  There were lots of windmills, it was kind of neat to see them.  Once you get over the novelty of all the road signs being in KM/hr, then its just another road trip.  I regret not having taken more time to see things along the way.  Vineyards were apparently something that could have been visited.  There is a lot of water flowing over the falls.  It is very impressive.  It is also a tourist trap.  I suppose such places must exist.  I can not help but wonder what it would have been like long ago.  The bus system in the town was impressive.  Buy a pass and you can go anywhere you want.  Bus come along at a short interval.  I would have like to see something other than a tourist destination.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc89caf8b9c5-EWR"
+    }
+}

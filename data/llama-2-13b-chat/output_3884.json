@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was trying to make my wife happy. I spoke to here and asked her what it would take. I knew she had been depressed recently. She said to me that we need to go on vacation. I agreed with her. I spent the next few weeks trying to save money. I worked a side job. I sold a few thing around the house. Finally after all the work I had enough money for us to go on a good vacation somewhere. We talked about it and we decided to go to Dollywood for a few days. We drove there because it's only a few hundred miles. We rented a nice hotel nearby the park. It was a lot of fun for us there. We rode a lot of rides. We had a good time looking at all the attractions. It was a very relaxing and fun time for us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was trying to make my wife happy. I spoke to here and asked her what it would take. I knew she had been depressed recently. She said to me that we need to go on vacation. I agreed with her. I spent the next few weeks trying to save money. I worked a side job. I sold a few thing around the house. Finally after all the work I had enough money for us to go on a good vacation somewhere. We talked about it and we decided to go to Dollywood for a few days. We drove there because it's only a few hundred miles. We rented a nice hotel nearby the park. It was a lot of fun for us there. We rode a lot of rides. We had a good time looking at all the attractions. It was a very relaxing and fun time for us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to see my wife smile and laugh again. She was happy that I made her happy. It was a great vacation.\n\n"
+            }
+        ],
+        "request_id": "811ed3257a9343fa-EWR"
+    }
+}

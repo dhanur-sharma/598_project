@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I loved my husband but that changed. We met in high school. We were made in love back then. But things changed, as I said. He became a different person once we settled into married life. He seemed to be dissatisfied with out life. His love and our love evaporated. I always expected something was up once refused to stay at home so nights. I just could not bring myself to confront him. Eventually I had enough and told him I thought he was cheating. He was unhappy with our marriage so he admitted to it. This launched an ugly divorce process. I  hated every bit of it and felt like a lesser person during it.  That said, I am just relieved that it is finally, finally over. Hopefully things will start to get better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I loved my husband but that changed. We met in high school. We were made in love back then. But things changed, as I said. He became a different person once we settled into married life. He seemed to be dissatisfied with out life. His love and our love evaporated. I always expected something was up once refused to stay at home so nights. I just could not bring myself to confront him. Eventually I had enough and told him I thought he was cheating. He was unhappy with our marriage so he admitted to it. This launched an ugly divorce process. I  hated every bit of it and felt like a lesser person during it.  That said, I am just relieved that it is finally, finally over. Hopefully things will start to get better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3efa798617e1-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in January of 2018 I experienced one of the most traumatic events of my entire life. My best friend killed himself. His downfall had actually started back a year before that. Three weeks after he came back into my life after being gone for ten years, he told me our plans to hang out were cancelled and then he sent a picture of himself to me with a gun held to his head. I jumped into my car and drove over to his apartment as fast as I was able. When I arrived he was thankfully alive and concious, but informed me of all the pills he had taken. There were over five empty bottles. I wasn't aware at the time he had a flair for the over dramatic, so I began freaking out. I began to make sure that he kept engaged in conversation with me and did my best to keep him alert. Not long after he stood up saying that his arm hurt and he then he fell to the floor. Dead. His heart had stopped beating from all the pills that he had taken. I called 911 and tried CPR. I kept his heart beating until help arrived. They were able to revive him where he spent about 4 days in the ICU and then was under psych evaluation for five days. He made three attempts after that over the course of a year before he succeeded."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in January of 2018 I experienced one of the most traumatic events of my entire life. My best friend killed himself. His downfall had actually started back a year before that. Three weeks after he came back into my life after being gone for ten years, he told me our plans to hang out were cancelled and then he sent a picture of himself to me with a gun held to his head. I jumped into my car and drove over to his apartment as fast as I was able. When I arrived he was thankfully alive and concious, but informed me of all the pills he had taken. There were over five empty bottles. I wasn't aware at the time he had a flair for the over dramatic, so I began freaking out. I began to make sure that he kept engaged in conversation with me and did my best to keep him alert. Not long after he stood up saying that his arm hurt and he then he fell to the floor. Dead. His heart had stopped beating from all the pills that he had taken. I called 911 and tried CPR. I kept his heart beating until help arrived. They were able to revive him where he spent about 4 days in the ICU and then was under psych evaluation for five days. He made three attempts after that over the course of a year before he succeeded.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still haunted by his death. I don't understand why he felt like he needed to go.\n\n"
+            }
+        ],
+        "request_id": "811bce59dd94433a-EWR"
+    }
+}

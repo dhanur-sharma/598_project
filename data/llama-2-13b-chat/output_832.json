@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: last week i was in my home. i was lay down on the bed. at that time i have a sharp pain in my back. the pain get increased. there is no one in home. actually that was my off day. all others went to work. i do not have anyone for help. i felt very bad because of the pain. i try to call the emergency. but i couldn't. thankfully my sister came home from school at that time. she call the emergency number. they took me to hospital. but unfortunately the doctor went for some other work. i felt so sad. the doctor talk to the radiologist about my issue. so after that i got to know there is no serious problem. i felt relaxed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: last week i was in my home. i was lay down on the bed. at that time i have a sharp pain in my back. the pain get increased. there is no one in home. actually that was my off day. all others went to work. i do not have anyone for help. i felt very bad because of the pain. i try to call the emergency. but i couldn't. thankfully my sister came home from school at that time. she call the emergency number. they took me to hospital. but unfortunately the doctor went for some other work. i felt so sad. the doctor talk to the radiologist about my issue. so after that i got to know there is no serious problem. i felt relaxed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "but the pain still continue. the doctor suggest me to take rest and medication. i follow the doctor's advice. now i am feeling better.\n\n"
+            }
+        ],
+        "request_id": "811e98fa4e5e19fb-EWR"
+    }
+}

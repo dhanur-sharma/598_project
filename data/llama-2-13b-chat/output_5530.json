@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got mugged last month. It was very frightening. I was walking home from the subway. It was late at night. I was alone. I am came up behind me and demanded that I give him my wallet. He had something in his pocket that looked like a knife or gun. I didn't want to find out what it was. He was large and intimidating. He shouted at me. I was very scared. I gave him my wallet. It had about $150 in it plus my credit cards. He ran off after I gave him my wallet. I called the police and they took down my story. I had to cancel all my credit cards. It was very harrowing for me.  I was very scared of the event and I think about it alot these days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got mugged last month. It was very frightening. I was walking home from the subway. It was late at night. I was alone. I am came up behind me and demanded that I give him my wallet. He had something in his pocket that looked like a knife or gun. I didn't want to find out what it was. He was large and intimidating. He shouted at me. I was very scared. I gave him my wallet. It had about $150 in it plus my credit cards. He ran off after I gave him my wallet. I called the police and they took down my story. I had to cancel all my credit cards. It was very harrowing for me.  I was very scared of the event and I think about it alot these days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am still shaken by the experience.  I don't think I will ever be able to walk alone at night again."
+            }
+        ],
+        "request_id": "811f3361794243d9-EWR"
+    }
+}

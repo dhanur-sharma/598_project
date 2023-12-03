@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, I was at the grocery store. It was a rare time that I actually got out by myself. As a mother to a toddler, he's nearly always at my side. A little solitude was nice. I was walking through the aisles when I heard a baby crying. I thought, well that sounds familiar. The cries continued as a kept shopping. I finally came down the aisle where the cries originated from and saw a frazzled mother with a newborn baby, holding back tears while dodging dirty looks from passing customers. I've been there plenty of times before, and no matter how many times it happens, it's always nerve wracking. I approached the woman and told her sympathetically that I'm a mom too, and I get it. And if she needs some help, I would be happy to assist. I could tell she was unsure but also desperate for some assistance. I asked what I could help with. She said if I could hold her baby while she finished looking for all the ingredients she needed, it would be a big help. So that's what I did. I followed behind her, holding and rocking her baby to sleep while she was able to concentrate on her shopping. When she was done, she hugged me and thanked me. Even though it was a rare child-free outing for me, I still felt good about having one in my arms."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, I was at the grocery store. It was a rare time that I actually got out by myself. As a mother to a toddler, he's nearly always at my side. A little solitude was nice. I was walking through the aisles when I heard a baby crying. I thought, well that sounds familiar. The cries continued as a kept shopping. I finally came down the aisle where the cries originated from and saw a frazzled mother with a newborn baby, holding back tears while dodging dirty looks from passing customers. I've been there plenty of times before, and no matter how many times it happens, it's always nerve wracking. I approached the woman and told her sympathetically that I'm a mom too, and I get it. And if she needs some help, I would be happy to assist. I could tell she was unsure but also desperate for some assistance. I asked what I could help with. She said if I could hold her baby while she finished looking for all the ingredients she needed, it would be a big help. So that's what I did. I followed behind her, holding and rocking her baby to sleep while she was able to concentrate on her shopping. When she was done, she hugged me and thanked me. Even though it was a rare child-free outing for me, I still felt good about having one in my arms.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It felt like a small act of kindness that made a big difference to her. And it reminded me that motherhood is a journey that we're all in together."
+            }
+        ],
+        "request_id": "811be0061da60c9c-EWR"
+    }
+}

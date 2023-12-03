@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I was 9 months pregnant, I just wanted to have my baby already. I wanted to be able to go back to a normal life, and I also wanted to see my beautiful baby. I was completely done with being pregnant. Then, one somber afternoon, it happened. I knew that I was going into labor. I yelled for my husband, and we go into the car and drove to the hospital. I was in so much pain on the way. I remember yelling at my husband almost the whole way there, but he took it like a champ. I was so ready to have this baby. When we arrived to the hospital, I was starting to get more worried. This was my first child, how would this feel? What if something goes wrong? My mind raced, but I was mostly in too much pain to care. Apparently I couldn't get an epidural because I was ready to have the baby right away. My baby was finally born, and I couldn't be happier."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I was 9 months pregnant, I just wanted to have my baby already. I wanted to be able to go back to a normal life, and I also wanted to see my beautiful baby. I was completely done with being pregnant. Then, one somber afternoon, it happened. I knew that I was going into labor. I yelled for my husband, and we go into the car and drove to the hospital. I was in so much pain on the way. I remember yelling at my husband almost the whole way there, but he took it like a champ. I was so ready to have this baby. When we arrived to the hospital, I was starting to get more worried. This was my first child, how would this feel? What if something goes wrong? My mind raced, but I was mostly in too much pain to care. Apparently I couldn't get an epidural because I was ready to have the baby right away. My baby was finally born, and I couldn't be happier.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was finally able to hold my baby in my arms, and I knew that I would do anything to protect her."
+            }
+        ],
+        "request_id": "811f3ff4b9fc432b-EWR"
+    }
+}

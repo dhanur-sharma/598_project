@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My stepfather was getting really sick. We knew he wasn't in the best shape. But we didn't know what was going to happen next. It was around Christmas time. Just after Christmas in fact. We got a call that Dave was really sick. We ran to the hospital as soon as we got the call. My mom was there and she was crying. We tried to make her feel better. She told me more about what was going on. She told me how sick Dave was. She told me he probably wasn't going to make it. I didn't know what to do. I didn't know how to feel. We were able to spend some time with him and say good bye. I told him that I loved him. He passed away later that night. It was tough on me and my family to deal with all of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My stepfather was getting really sick. We knew he wasn't in the best shape. But we didn't know what was going to happen next. It was around Christmas time. Just after Christmas in fact. We got a call that Dave was really sick. We ran to the hospital as soon as we got the call. My mom was there and she was crying. We tried to make her feel better. She told me more about what was going on. She told me how sick Dave was. She told me he probably wasn't going to make it. I didn't know what to do. I didn't know how to feel. We were able to spend some time with him and say good bye. I told him that I loved him. He passed away later that night. It was tough on me and my family to deal with all of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was really hard to see my mom go through all of that. But we were able to get through it together.\n\n"
+            }
+        ],
+        "request_id": "811ed2b91bf341f5-EWR"
+    }
+}

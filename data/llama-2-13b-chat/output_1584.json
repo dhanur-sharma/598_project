@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a hard time earlier this year. I was homeless. I had to work very hard. I did not have many friends at the time. I had to work hard just to eat. I worked hard to get out of the situation. I did some work online and looked for resources. I got my stuff together. I did my best. I got a job. I got a home. I am glad that I worked hard for it. I did it with some help from friends. I did it with some help of strangers. I got my life together and am happy about it. I ended up having a better life. I did everything that I could at all times and it paid off when I was trying to get my life back together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a hard time earlier this year. I was homeless. I had to work very hard. I did not have many friends at the time. I had to work hard just to eat. I worked hard to get out of the situation. I did some work online and looked for resources. I got my stuff together. I did my best. I got a job. I got a home. I am glad that I worked hard for it. I did it with some help from friends. I did it with some help of strangers. I got my life together and am happy about it. I ended up having a better life. I did everything that I could at all times and it paid off when I was trying to get my life back together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea73708498cb3-EWR"
+    }
+}

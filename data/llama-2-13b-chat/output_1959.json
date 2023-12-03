@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently quit my job and it was really emotional and amazing. I felt so good about myself. It was very unexpected and i wanted to. It was really great to actually quit and get to know that i am ok. I was unhappy with work for a while so this was awesome. I got a new job which was fantastic and the new client was amazing. I love my new job. I started something i knew nothing about and was completely scared. It was prety great to feel confident. I know now that i can do anything. When i started my new job, i brought a lot of stuff from my old job that was irrelevant. I now work in a place where people are so nice and awesome. In my new role, i get to talk to clients all the time and really solve tehir needs without the bureaucracy of the new place . I have amazing new clients and an amazing new coworkers. I really can't imagine working anywhere else. I am so thankful and lucky to be here every single day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently quit my job and it was really emotional and amazing. I felt so good about myself. It was very unexpected and i wanted to. It was really great to actually quit and get to know that i am ok. I was unhappy with work for a while so this was awesome. I got a new job which was fantastic and the new client was amazing. I love my new job. I started something i knew nothing about and was completely scared. It was prety great to feel confident. I know now that i can do anything. When i started my new job, i brought a lot of stuff from my old job that was irrelevant. I now work in a place where people are so nice and awesome. In my new role, i get to talk to clients all the time and really solve tehir needs without the bureaucracy of the new place . I have amazing new clients and an amazing new coworkers. I really can't imagine working anywhere else. I am so thankful and lucky to be here every single day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eadc14a838cae-EWR"
+    }
+}

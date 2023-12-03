@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I cant believe we're signing the papers. I never thought this would occur. The realization that we're finally going to be home owners is unbelievable. It's been a hard and lengthy road traveled. Health issues that set us back and a complete total loss from hurricane Katrina that had us relocate many times. We're finally here! The spinal fusion surgery and then the lupus diagnosis. My husbands heart attack. We have fought hard to accomplish this goal. Now we are making it a beautiful home. We are framing the sides of the house with azaleas. We have burgundy and sunshine shrubs. We have a beautiful red rose shrub. We bought crepe myrtles, japanese red maples, and the japanese cherry blossoms. The landscaping is going to be beautiful!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I cant believe we're signing the papers. I never thought this would occur. The realization that we're finally going to be home owners is unbelievable. It's been a hard and lengthy road traveled. Health issues that set us back and a complete total loss from hurricane Katrina that had us relocate many times. We're finally here! The spinal fusion surgery and then the lupus diagnosis. My husbands heart attack. We have fought hard to accomplish this goal. Now we are making it a beautiful home. We are framing the sides of the house with azaleas. We have burgundy and sunshine shrubs. We have a beautiful red rose shrub. We bought crepe myrtles, japanese red maples, and the japanese cherry blossoms. The landscaping is going to be beautiful!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful for our journey and for our home.\n\n"
+            }
+        ],
+        "request_id": "811ebbaf3963c3f3-EWR"
+    }
+}

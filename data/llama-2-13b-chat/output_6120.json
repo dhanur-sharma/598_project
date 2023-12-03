@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother was diagnosed with lung cancer and was originally only given six months to live. She has always been a fighter though and did not give up easily. She still had a life to live and wanted to spend time with family and friends. It was sad to know that her time with us could be measured but we rallied and spent as much time together as possible. She fought the predictions and never accepted the doctors estimate. She went to every treatment and tried some experimental things and surprisingly went past six months. She ended up holding on for nearly two years but in the end the fight was lost. At the end she was in so much pain that she was ready to go. She knew that we had come to terms with her upcoming death. We had shown her that we were ready for life without her. She finally gave up the fight peacefully and knew she did not need to fight anymore. It still hurts to know she is gone but we had extra time and I value that to this day. She was always a fighter through my whole life. Her refusal to give up has inspired me and her entire family. It was a lesson to never give in to your circumstances and to keep trying to love and live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother was diagnosed with lung cancer and was originally only given six months to live. She has always been a fighter though and did not give up easily. She still had a life to live and wanted to spend time with family and friends. It was sad to know that her time with us could be measured but we rallied and spent as much time together as possible. She fought the predictions and never accepted the doctors estimate. She went to every treatment and tried some experimental things and surprisingly went past six months. She ended up holding on for nearly two years but in the end the fight was lost. At the end she was in so much pain that she was ready to go. She knew that we had come to terms with her upcoming death. We had shown her that we were ready for life without her. She finally gave up the fight peacefully and knew she did not need to fight anymore. It still hurts to know she is gone but we had extra time and I value that to this day. She was always a fighter through my whole life. Her refusal to give up has inspired me and her entire family. It was a lesson to never give in to your circumstances and to keep trying to love and live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3f3b7f9b5e7e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had been feeling strange for quite awhile. At first I thought it was just stress or lack of sleep but the odd feelings didn't subside and I decided that I needed to make an appointment with the doctor. The process of making an appointment was easy enough, but as the date was upon me I began to become very nervous about what they were going to discover was wrong with me. Could it be cancer? Diabetes? Do I have a family history of these kind of illnesses? Perhaps I should call my mother to get some reassurance? I decided against the latter and dressed myself for the occasion of wondering out to meet my fate. When I arrived at the doctor's office they started off with some simple blood tests and then ended up booking me for an extended EEG. I wasn't exactly sure what that meant, but the doctor said that it was a test to find out if my brain was functioning as intended. It turned out that my scan was abnormal and they did a bunch more tests without giving me any concrete answers as to what was wrong with me. The whole ordeal was very stressful and by the time it was over all I wanted to do was go home and sleep. Even after all the tests were done they said they couldn't tell me exactly what was causing the abnormal brain patterns, but that they would study the results and try to have some answers within the next few weeks. So, now I'm sitting here and trying to distract myself from the fact that my brain is broadcasting abnormal messages and there may be something seriously wrong with how my head is working. I've tried distracting myself with work and television but it is doing very little to cope with the worry that is slowly consuming me. I just hope that when they finally do get back to me they have some good news to report."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had been feeling strange for quite awhile. At first I thought it was just stress or lack of sleep but the odd feelings didn't subside and I decided that I needed to make an appointment with the doctor. The process of making an appointment was easy enough, but as the date was upon me I began to become very nervous about what they were going to discover was wrong with me. Could it be cancer? Diabetes? Do I have a family history of these kind of illnesses? Perhaps I should call my mother to get some reassurance? I decided against the latter and dressed myself for the occasion of wondering out to meet my fate. When I arrived at the doctor's office they started off with some simple blood tests and then ended up booking me for an extended EEG. I wasn't exactly sure what that meant, but the doctor said that it was a test to find out if my brain was functioning as intended. It turned out that my scan was abnormal and they did a bunch more tests without giving me any concrete answers as to what was wrong with me. The whole ordeal was very stressful and by the time it was over all I wanted to do was go home and sleep. Even after all the tests were done they said they couldn't tell me exactly what was causing the abnormal brain patterns, but that they would study the results and try to have some answers within the next few weeks. So, now I'm sitting here and trying to distract myself from the fact that my brain is broadcasting abnormal messages and there may be something seriously wrong with how my head is working. I've tried distracting myself with work and television but it is doing very little to cope with the worry that is slowly consuming me. I just hope that when they finally do get back to me they have some good news to report.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f39cd8db7192a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had an important doctor's appointment in March, but there was a late winter snowstorm. The morning I wold up and saw all the snow freshly fallen I was concerned. If I wasn't on a set time table I would have been able to appreciate how beautiful it looked outside, but given my time crunch had me worried. I don't drive and getting to my doctor's appointment by bus was going to be a lot harder than I had anticipated. I decided that my best option was to call a cab. I don't take cabs very often but when I do, I generally have used this one company, City Wide. Well I call them only to find out that they have shut down. I was now starting to get freak out. I had to look up another company's number and call. I wait- I am on hold of a while, but finally I talk to an operator. They tell me that they could get me a cab in about an hour, that is longer than I want to wait but I have time so I agree. I hang out in my apartment of about forty-five minutes before I head down to the lobby to watch of the cab. I watch people struggle outside to deal with the snow. Eventually I see the contractor come and shovel out  the entrance to my building. But sill I am waiting. It has been more than an hour, then an hour and fifteen minutes, finally close to an hour and a half. I call the cab company back and ask for an update- they tell me it will be there as soon as possible within a half an hour. I am now really unhappy, I will be cutting it close to get to my appointment , and I despise being late. After waiting for almost another thirty minutes, I call the doctors office to tell them that I am waiting for my ride. Just as I hang up the cab pulls up. I get in but the trouble is not quite over, the snow covered ground has backed up traffic, but soon the cabby tells me he knows a short cut. He takes a route I would have never had thought to take, and while there is still traffic he avoids the log jam that was on the main route. Soon I pull up to my doctor's office- even after all of the struggle and wait, I still am okay and will be on-time. I thank the driver and give him a nice tip. I go to my doctor's appointment to manage my chronic illness, and then head home, happy to be done for the day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had an important doctor's appointment in March, but there was a late winter snowstorm. The morning I wold up and saw all the snow freshly fallen I was concerned. If I wasn't on a set time table I would have been able to appreciate how beautiful it looked outside, but given my time crunch had me worried. I don't drive and getting to my doctor's appointment by bus was going to be a lot harder than I had anticipated. I decided that my best option was to call a cab. I don't take cabs very often but when I do, I generally have used this one company, City Wide. Well I call them only to find out that they have shut down. I was now starting to get freak out. I had to look up another company's number and call. I wait- I am on hold of a while, but finally I talk to an operator. They tell me that they could get me a cab in about an hour, that is longer than I want to wait but I have time so I agree. I hang out in my apartment of about forty-five minutes before I head down to the lobby to watch of the cab. I watch people struggle outside to deal with the snow. Eventually I see the contractor come and shovel out  the entrance to my building. But sill I am waiting. It has been more than an hour, then an hour and fifteen minutes, finally close to an hour and a half. I call the cab company back and ask for an update- they tell me it will be there as soon as possible within a half an hour. I am now really unhappy, I will be cutting it close to get to my appointment , and I despise being late. After waiting for almost another thirty minutes, I call the doctors office to tell them that I am waiting for my ride. Just as I hang up the cab pulls up. I get in but the trouble is not quite over, the snow covered ground has backed up traffic, but soon the cabby tells me he knows a short cut. He takes a route I would have never had thought to take, and while there is still traffic he avoids the log jam that was on the main route. Soon I pull up to my doctor's office- even after all of the struggle and wait, I still am okay and will be on-time. I thank the driver and give him a nice tip. I go to my doctor's appointment to manage my chronic illness, and then head home, happy to be done for the day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9ee04cc70cb4-EWR"
+    }
+}

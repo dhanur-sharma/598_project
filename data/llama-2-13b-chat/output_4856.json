@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, my mother passed away. Although this was not a surprise, it is never easy to lose a loved one, particularly a parent.  I am relieved that I was able to be with her when she died, which was a peaceful time of reflection. Once the hospital staff took her away, I took my time to gather my thoughts, because I knew there were a lot of responsibilities I had which needed to be taken care of in a relatively short manner. Thankfully, she had already planned out her funeral, which took a burden off of me and the rest of my family. I contacted the funeral home to make the arrangements for the next few days. If she had not already taken care of this, I'm not sure I would have been able to do so. My next responsibility was to contact our minister, who had always been very cordial and inviting to our entire family. He graciously accepted my request to officiate the ceremony. The next few days were a blur, with all the well-wishers and family members either stopping by the house or calling me with their condolences and offering up assistance in any way needed. I have usually been on the outside-looking in from a funeral perspective- it is always a surreal feeling when it happens to you. The ceremony was beautiful. Mom's favorite singer from church performed her favorite song, \"How Great Thou Art,\" which was a soothing rendition to all of those in attendance. As planned, I spoke at the funeral, which is something I never thought I could do, but there was a sense of calm about me that I wasn't expecting. When looking back on it, I know she would be proud of the way I handled myself during this difficult time. Once the funeral was over and I had time to reflect, I knew there were additional details that I had started that still needed to be taken care of, such as the reading of the will, insurance policies, and other legal \"stuff,\" which is always the most painful part. She did a wonderful job getting ready for this moment and I want to go back and look at this in the future to make sure I make it as easy as possible on my family during this time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, my mother passed away. Although this was not a surprise, it is never easy to lose a loved one, particularly a parent.  I am relieved that I was able to be with her when she died, which was a peaceful time of reflection. Once the hospital staff took her away, I took my time to gather my thoughts, because I knew there were a lot of responsibilities I had which needed to be taken care of in a relatively short manner. Thankfully, she had already planned out her funeral, which took a burden off of me and the rest of my family. I contacted the funeral home to make the arrangements for the next few days. If she had not already taken care of this, I'm not sure I would have been able to do so. My next responsibility was to contact our minister, who had always been very cordial and inviting to our entire family. He graciously accepted my request to officiate the ceremony. The next few days were a blur, with all the well-wishers and family members either stopping by the house or calling me with their condolences and offering up assistance in any way needed. I have usually been on the outside-looking in from a funeral perspective- it is always a surreal feeling when it happens to you. The ceremony was beautiful. Mom's favorite singer from church performed her favorite song, \"How Great Thou Art,\" which was a soothing rendition to all of those in attendance. As planned, I spoke at the funeral, which is something I never thought I could do, but there was a sense of calm about me that I wasn't expecting. When looking back on it, I know she would be proud of the way I handled myself during this difficult time. Once the funeral was over and I had time to reflect, I knew there were additional details that I had started that still needed to be taken care of, such as the reading of the will, insurance policies, and other legal \"stuff,\" which is always the most painful part. She did a wonderful job getting ready for this moment and I want to go back and look at this in the future to make sure I make it as easy as possible on my family during this time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am very grateful for the support of family and friends during this difficult time."
+            }
+        ],
+        "request_id": "811bdf180bc70f37-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I borrowed a tool from my neighbor. My neighbor came back a month later to get the tool back. I allowed him to go into my cellar to retrieve the tool and he took more then the tool. I did not know at the time he took my belongings cause he took the items out the cellar door. I went down into the cellar to make sure the cellar door was closed and noticed that my belongings were stolen. I then confronted my neighbor ,that is a veteran. I was told that he did steal the items but then got angry cause I found out. He went into the house and got a gun. I then called the police.    I called my son to come and help me. The neighbor held the gun to all of us and then the police came. We were told to leave the property and that he would need to give my things back to me. He was charged with having guns. He filed a charge againist my son for harassment. The charges were dropped cause the neighbor had mental issues."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I borrowed a tool from my neighbor. My neighbor came back a month later to get the tool back. I allowed him to go into my cellar to retrieve the tool and he took more then the tool. I did not know at the time he took my belongings cause he took the items out the cellar door. I went down into the cellar to make sure the cellar door was closed and noticed that my belongings were stolen. I then confronted my neighbor ,that is a veteran. I was told that he did steal the items but then got angry cause I found out. He went into the house and got a gun. I then called the police.    I called my son to come and help me. The neighbor held the gun to all of us and then the police came. We were told to leave the property and that he would need to give my things back to me. He was charged with having guns. He filed a charge againist my son for harassment. The charges were dropped cause the neighbor had mental issues.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4de37f6c1a24-EWR"
+    }
+}

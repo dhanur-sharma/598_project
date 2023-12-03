@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I finally graduated four months ago. I've had some time to think about it, and I want to jot down some feelings. Even after four months, I can't tell you how excited I am to be finished with school. What a great and freeing feeling. I can still remember seeing my parents, my family, and my friends standing up when they called my name. I was SO happy to see them. There were people that I had just seen the night before, and then people that I hadn't seen in years. They were there for me! How cool is that? And then to hear the cheers as I was walking up to the podium to grab my diploma. That was such a thrilling experience. I am so proud of myself for completing such an important milestone in my life. It wasn't easy, and I never want to go through that again, but I am so glad I did it. I now have the rest of my life ahead of me. I know that I will do great things. I welcome my new life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I finally graduated four months ago. I've had some time to think about it, and I want to jot down some feelings. Even after four months, I can't tell you how excited I am to be finished with school. What a great and freeing feeling. I can still remember seeing my parents, my family, and my friends standing up when they called my name. I was SO happy to see them. There were people that I had just seen the night before, and then people that I hadn't seen in years. They were there for me! How cool is that? And then to hear the cheers as I was walking up to the podium to grab my diploma. That was such a thrilling experience. I am so proud of myself for completing such an important milestone in my life. It wasn't easy, and I never want to go through that again, but I am so glad I did it. I now have the rest of my life ahead of me. I know that I will do great things. I welcome my new life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec7733cff4249-EWR"
+    }
+}

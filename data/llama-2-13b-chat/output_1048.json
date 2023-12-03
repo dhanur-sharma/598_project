@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Turning 45 is a big ordeal in my family. We would usually have a big dinner with all the family. My family had told me that they were planning to take me to dinner for my birthday. I was under the assumption that it was just going to be me and my immediate family. A few days before my birthday my older sister said that she made a reservation for 10 at a local restaurant that I love. We were suppose to meet at the restaurant at around 6 PM. My boyfriend and I drove to the restaurant and we were walked to a back room in the restaurant that is for reservation. I figured something was a little off when they were taking us to the back room. When we walked in the room I was surprised to see my family and a bunch of my friends and coworkers. Apparently my sisters did a surprise party. There was about 100 people in that back room. They hired a DJ and the restaurant catered the food. I was so excited to see everyone and was happy to know that they all cared about me. We had so much fun. We danced the night away. I could not believe that my sister did this without me know."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Turning 45 is a big ordeal in my family. We would usually have a big dinner with all the family. My family had told me that they were planning to take me to dinner for my birthday. I was under the assumption that it was just going to be me and my immediate family. A few days before my birthday my older sister said that she made a reservation for 10 at a local restaurant that I love. We were suppose to meet at the restaurant at around 6 PM. My boyfriend and I drove to the restaurant and we were walked to a back room in the restaurant that is for reservation. I figured something was a little off when they were taking us to the back room. When we walked in the room I was surprised to see my family and a bunch of my friends and coworkers. Apparently my sisters did a surprise party. There was about 100 people in that back room. They hired a DJ and the restaurant catered the food. I was so excited to see everyone and was happy to know that they all cared about me. We had so much fun. We danced the night away. I could not believe that my sister did this without me know.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was truly a surprise.\n\n"
+            }
+        ],
+        "request_id": "811e9ce138b0c44d-EWR"
+    }
+}

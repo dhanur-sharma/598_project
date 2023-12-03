@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The time my wife and I Hiked a 10 mile hike along a national lake shore. We began the hike at the trail head that looped around 10 miles of coast line. The trail was a magnificent changing landscape between forest, sand and mud. The most beautiful part of the hike was the events beginning from the complete start and finish. It was an eight hour hike. During the hike we spotted one deer, nearly fell from a cliff twice and did a handstand at the edge of a cliff. Among the many many trails I have conquered. This trail was number two ranging from trails I have done across states and different countries. This trail was difficult, yet thrilling. Thrilling in the sense of the natures beauty and in the adrenaline pump of nearly falling and catching the fall. When I caught myself on the hard sandy surface; my wife pulled my arms as I was lifting my body up over the edge. We embraced and I swore to no longer attempt risky photos. My wife and I continued the hike. Went on to seeing more great landscapes. Favorite part of it all, the sense of accomplishment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The time my wife and I Hiked a 10 mile hike along a national lake shore. We began the hike at the trail head that looped around 10 miles of coast line. The trail was a magnificent changing landscape between forest, sand and mud. The most beautiful part of the hike was the events beginning from the complete start and finish. It was an eight hour hike. During the hike we spotted one deer, nearly fell from a cliff twice and did a handstand at the edge of a cliff. Among the many many trails I have conquered. This trail was number two ranging from trails I have done across states and different countries. This trail was difficult, yet thrilling. Thrilling in the sense of the natures beauty and in the adrenaline pump of nearly falling and catching the fall. When I caught myself on the hard sandy surface; my wife pulled my arms as I was lifting my body up over the edge. We embraced and I swore to no longer attempt risky photos. My wife and I continued the hike. Went on to seeing more great landscapes. Favorite part of it all, the sense of accomplishment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We finished the hike and headed back to the car.\n\n"
+            }
+        ],
+        "request_id": "811ed39c6d0b4246-EWR"
+    }
+}

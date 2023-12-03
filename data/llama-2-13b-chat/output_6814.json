@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, my boss was fired. Being the second highest ranking person, I should have been promoted to her position. At least on a Interim basis. Unfortunately, the Board decided to hire a extremely under qualified part time staff member. He was hired because he is friends with the board chair. This has been especially concerning since I have been at this job for over 15 years. This has me thinking that our board is actually not very fair and doesn't actually uphold the ideals of the organization. I am now thinking of changing jobs. the problem is I am good at my job. I also Like my Job. It is disappointing to have to look for another job due to cronyism. The organization I work for is suppose to be trustworthy. I guess I was wrong. Again this causes concern because I believed in the organization mission. It is what it is though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, my boss was fired. Being the second highest ranking person, I should have been promoted to her position. At least on a Interim basis. Unfortunately, the Board decided to hire a extremely under qualified part time staff member. He was hired because he is friends with the board chair. This has been especially concerning since I have been at this job for over 15 years. This has me thinking that our board is actually not very fair and doesn't actually uphold the ideals of the organization. I am now thinking of changing jobs. the problem is I am good at my job. I also Like my Job. It is disappointing to have to look for another job due to cronyism. The organization I work for is suppose to be trustworthy. I guess I was wrong. Again this causes concern because I believed in the organization mission. It is what it is though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to move on. I just wish I could have been given the opportunity to prove myself in the interim position.\n\n"
+            }
+        ],
+        "request_id": "811f4dca0c294337-EWR"
+    }
+}

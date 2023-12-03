@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few years ago I was rather overweight. Some might have called me obese. I dreaded weighing myself for any reason but I needed to see a doctor since I had a problem with my gallbladder. The doctor said I needed surgery but couldn't get it. It wasn't painful at the time, but it steadily grew more painful. Somehow, that was my key. I broke down one night and decided to get my weight in check. Soon, I started going to the gym. It was pretty scary at first, but the regulars there only encouraged me. It was wonderful, and they helped me get into a weight loss routine. I started jogging with them as well as use the treadmills. I actually made some fitness friends along the way. Mind you, I still needed this minor surgery to be done. I still felt it from time to time. I lost over 100 pounds in the course of a year and a half, and I was able to go back to my doctor. They seemed really impressed that I took initiative and I was able to get the surgery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few years ago I was rather overweight. Some might have called me obese. I dreaded weighing myself for any reason but I needed to see a doctor since I had a problem with my gallbladder. The doctor said I needed surgery but couldn't get it. It wasn't painful at the time, but it steadily grew more painful. Somehow, that was my key. I broke down one night and decided to get my weight in check. Soon, I started going to the gym. It was pretty scary at first, but the regulars there only encouraged me. It was wonderful, and they helped me get into a weight loss routine. I started jogging with them as well as use the treadmills. I actually made some fitness friends along the way. Mind you, I still needed this minor surgery to be done. I still felt it from time to time. I lost over 100 pounds in the course of a year and a half, and I was able to go back to my doctor. They seemed really impressed that I took initiative and I was able to get the surgery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so happy to have my health back and feel good again.\n\n"
+            }
+        ],
+        "request_id": "811ec4f77c2f18cc-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got a call from my childhood friend early in the morning. he was excited as he was talking to me after a long time. I was also very happy to hear my friend's voice. He said they they are planning for a class reunion and it is in the month of June. He was very specific that I should not miss this chance as I can see all my schoolmates. I went to work that day and during the break I called the travel agent to book me a ticket for June 5th as the class reunion was on June 7th. I planned to spend two weeks at my home country and return on 20th June. Everything went as planned I reached India and met my parents and on June 7th I reached the venue where the class reunion was planned. It was a great moment to see all my classmates. They came with their family and it was great fun to see all the tiny tots. My ex girl friend also came. She was all by herself. I went and spoke to her. She opened up and it was a great shock to me to hear that recently her family met with an accident and she lost her hubby and her kid. I had to give her lot of courage. It was an eye opener to me as I realized that man proposes and God disposes. It is the same lady who ditched me many years ago as she found someone more handsome and wealthier than me.  I really felt sorry after I heard her story. It was a bitter sweet feeling to say goodbye to my classmates that night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got a call from my childhood friend early in the morning. he was excited as he was talking to me after a long time. I was also very happy to hear my friend's voice. He said they they are planning for a class reunion and it is in the month of June. He was very specific that I should not miss this chance as I can see all my schoolmates. I went to work that day and during the break I called the travel agent to book me a ticket for June 5th as the class reunion was on June 7th. I planned to spend two weeks at my home country and return on 20th June. Everything went as planned I reached India and met my parents and on June 7th I reached the venue where the class reunion was planned. It was a great moment to see all my classmates. They came with their family and it was great fun to see all the tiny tots. My ex girl friend also came. She was all by herself. I went and spoke to her. She opened up and it was a great shock to me to hear that recently her family met with an accident and she lost her hubby and her kid. I had to give her lot of courage. It was an eye opener to me as I realized that man proposes and God disposes. It is the same lady who ditched me many years ago as she found someone more handsome and wealthier than me.  I really felt sorry after I heard her story. It was a bitter sweet feeling to say goodbye to my classmates that night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I went to the venue and spent time with them.\n\n"
+            }
+        ],
+        "request_id": "811eaddf3aed4331-EWR"
+    }
+}

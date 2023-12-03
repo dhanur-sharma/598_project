@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Several months ago, I proposed to my girlfriend. It was during a walk. Walks are something we both enjoy, and it\u2019s when I asked her to take a walk after dinner one evening that she realized that she loved me. I thought it was the perfect thing. It\u2019s simple, yet personal. It\u2019s us. It was a warm fall afternoon. We took a walk around the neighborhood. It\u2019s not a fancy route, but it\u2019s one we both enjoy. She was thrilled. I was thrilled. She said yes without hesitation. The decision to propose to her in the first place was a no-brainer. I\u2019ve loved her for a long time, and I couldn\u2019t imagine my life with anybody else. I\u2019ve never had any doubts about her. She\u2019s who I want to spend the rest of my life with."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Several months ago, I proposed to my girlfriend. It was during a walk. Walks are something we both enjoy, and it\u2019s when I asked her to take a walk after dinner one evening that she realized that she loved me. I thought it was the perfect thing. It\u2019s simple, yet personal. It\u2019s us. It was a warm fall afternoon. We took a walk around the neighborhood. It\u2019s not a fancy route, but it\u2019s one we both enjoy. She was thrilled. I was thrilled. She said yes without hesitation. The decision to propose to her in the first place was a no-brainer. I\u2019ve loved her for a long time, and I couldn\u2019t imagine my life with anybody else. I\u2019ve never had any doubts about her. She\u2019s who I want to spend the rest of my life with.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I knew she felt the same way, and I could tell she was excited about the idea of us getting married. So, I proposed to her during that walk. She said yes, and it was perfect. I couldn\u2019t be happier.\n\n"
+            }
+        ],
+        "request_id": "811f2f5cc9524264-EWR"
+    }
+}

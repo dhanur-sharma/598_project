@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today is the day that we celebrate our tenth wedding anniversary with a renewal of vows.  We have been planning this day for several years and now our children will also be a part of the big day.  Ten years ago we got married very quickly. Your visa was about to expire and we didn't have much time. We quickly went to the justice of the peace and had a quick ceremony. Only three people were with us at the time. We always said that some day we would have a proper church wedding. But we got busy. Then the kids came along and we were really busy. But then we realized that our ten anniversary was quickly approaching and we still had not had our real wedding. I made the plans at church and got the music and flowers. You found the perfect dress. Your parents were in town and I invited my parents to join us. We have always joked about your mother not liking me. But when she got up and ran out of the church during the ceremony, it was shocking. I wondered if she was really upset or was she sick. She later said that she was sick and I want to believe her. The kids did a perfect job and it was great to be able to include them in our special day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today is the day that we celebrate our tenth wedding anniversary with a renewal of vows.  We have been planning this day for several years and now our children will also be a part of the big day.  Ten years ago we got married very quickly. Your visa was about to expire and we didn't have much time. We quickly went to the justice of the peace and had a quick ceremony. Only three people were with us at the time. We always said that some day we would have a proper church wedding. But we got busy. Then the kids came along and we were really busy. But then we realized that our ten anniversary was quickly approaching and we still had not had our real wedding. I made the plans at church and got the music and flowers. You found the perfect dress. Your parents were in town and I invited my parents to join us. We have always joked about your mother not liking me. But when she got up and ran out of the church during the ceremony, it was shocking. I wondered if she was really upset or was she sick. She later said that she was sick and I want to believe her. The kids did a perfect job and it was great to be able to include them in our special day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a wonderful day."
+            }
+        ],
+        "request_id": "811be1f62e3e4392-EWR"
+    }
+}

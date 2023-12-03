@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to buy school supplies and clothes. It always happens around this time of year. The school supplies are many, and I needed a way to buy them all. I always save up for it and thats what I did. I had a good amount for all the needed stuff. Each year changes as far as required items and this year she needed special glue. I also got to go see her new teachers. They seemed nice and proper, and full of energy. I feel that the needs of the kids will be met. My daughters new friends were energetic as well. And everyone was nice. It was good to know everything was going well. The school supplies were paid for and the school teachers seemed great for the job. Her new friends energy was quite shocking. I'm sure she will have a blast."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to buy school supplies and clothes. It always happens around this time of year. The school supplies are many, and I needed a way to buy them all. I always save up for it and thats what I did. I had a good amount for all the needed stuff. Each year changes as far as required items and this year she needed special glue. I also got to go see her new teachers. They seemed nice and proper, and full of energy. I feel that the needs of the kids will be met. My daughters new friends were energetic as well. And everyone was nice. It was good to know everything was going well. The school supplies were paid for and the school teachers seemed great for the job. Her new friends energy was quite shocking. I'm sure she will have a blast.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was relieved that everything went smoothly.\n\n"
+            }
+        ],
+        "request_id": "811be5635dcf42c7-EWR"
+    }
+}

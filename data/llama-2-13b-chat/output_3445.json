@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister got married to her boyfriend of 9 years. The wedding was roughly 7 months ago. My entire family attended, and it was very enjoyable. We had a rehearsal and dinner the night before. The morning of, my family went from the hotel to the church. The groom's family drove from their house. The ceremony was pleasant, and I was one of the groomsmen. After the ceremony, there were pictures, talking, and then everyone went to the reception. The reception was the best part of the night. My girlfriend spent the evening with me, and I was able to talk with so many of my relatives. Everyone had a blast, and the dinner went smoothy. The best man and maid of honor made speeches, both fathers did, the dances commenced, and the food was great. There were 4 different cakes. Afterwards, the few people left went to bars before ending the night. I went back to the hotel with my girlfriend and my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister got married to her boyfriend of 9 years. The wedding was roughly 7 months ago. My entire family attended, and it was very enjoyable. We had a rehearsal and dinner the night before. The morning of, my family went from the hotel to the church. The groom's family drove from their house. The ceremony was pleasant, and I was one of the groomsmen. After the ceremony, there were pictures, talking, and then everyone went to the reception. The reception was the best part of the night. My girlfriend spent the evening with me, and I was able to talk with so many of my relatives. Everyone had a blast, and the dinner went smoothy. The best man and maid of honor made speeches, both fathers did, the dances commenced, and the food was great. There were 4 different cakes. Afterwards, the few people left went to bars before ending the night. I went back to the hotel with my girlfriend and my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec9980fc7c440-EWR"
+    }
+}

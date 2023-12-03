@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was bored with my job; I have been with the company for 12 years. For the amount of responsibility I have, I should be higly paid. I am not. Due to unreasonable demands and lack of compensation, I decided I wanted out. However, my skills are limited to the medical device field, I chose to go back to school and decided a MBA was appropriate. I was thinking about a MBA for years but never went through with the application process. I took many classes and received many certifications in fields such as project management, leadership, etc. I had no other choice. So, I applied and was accepted. I was very happy. I told my manager and he agreed that other people on my team need to step up and share my workload and I cannot be the only spokesperson for the company when regulatory bodies audit. I happily shared my news with my co-workers, and as expected, they were less than thrilled. Now, they would have to stop being lazy slackers and actually do some work. I implemented my new schedule immediately. There were audits approaching and I pulled back. It forced others to learn the role."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was bored with my job; I have been with the company for 12 years. For the amount of responsibility I have, I should be higly paid. I am not. Due to unreasonable demands and lack of compensation, I decided I wanted out. However, my skills are limited to the medical device field, I chose to go back to school and decided a MBA was appropriate. I was thinking about a MBA for years but never went through with the application process. I took many classes and received many certifications in fields such as project management, leadership, etc. I had no other choice. So, I applied and was accepted. I was very happy. I told my manager and he agreed that other people on my team need to step up and share my workload and I cannot be the only spokesperson for the company when regulatory bodies audit. I happily shared my news with my co-workers, and as expected, they were less than thrilled. Now, they would have to stop being lazy slackers and actually do some work. I implemented my new schedule immediately. There were audits approaching and I pulled back. It forced others to learn the role.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had to give up my title and the prestige that came with it. I was happy to leave the company. I had to leave the company. I have to find a new job now.\n\n"
+            }
+        ],
+        "request_id": "811e979a7a7e4223-EWR"
+    }
+}

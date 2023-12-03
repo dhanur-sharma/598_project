@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to Vermont for a vacation. It was a very fun time. The weather was much cooler. There was so much nature and relaxation. We went hiking a few times, and it was so pretty and scenic. We stayed at a house on a lake. The lake was so beautiful. There were lovely sunsets every night. Everyone we met was so friendly. We got to go to a free concert at a vineyard. We got to canoe to go get creemees. We got to four wheeling. Four wheeling may have been my favorite. It started raining though, and we got soaked and cold. We got home cooked meals and wine and it was all delicious. I cannot wait to go back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to Vermont for a vacation. It was a very fun time. The weather was much cooler. There was so much nature and relaxation. We went hiking a few times, and it was so pretty and scenic. We stayed at a house on a lake. The lake was so beautiful. There were lovely sunsets every night. Everyone we met was so friendly. We got to go to a free concert at a vineyard. We got to canoe to go get creemees. We got to four wheeling. Four wheeling may have been my favorite. It started raining though, and we got soaked and cold. We got home cooked meals and wine and it was all delicious. I cannot wait to go back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4a1d1f4a8c84-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm just now remembering about what happened 3 months ago.  It was during winter, and I was pretty depressed about the season changing.  I tend to really hate winter, and it makes me very depressed and gloomy during the winter months.  So I was pretty stressed out knowing that my baby was going to have to get a surgery.  I was worried about having my baby go under anesthesia and unconscious.  It'd be the first time they were having an operation, and I was so worried about the fact that sometimes things go wrong.  I was praying to god that my baby would wake up and the surgery would go smoothly.  Thankfully everything went well.  The anesthesia was fine, and I was informed that the operation went smoothly and the surgery was a success.  I felt a great relief.  I felt a weight was lifted.  I felt I could stop worrying.  I was so happy.  Hopefully I won't have to go through something like that again.  The doctor informed me that my baby is going to live a healthy life, and this operation will never have to be performed again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm just now remembering about what happened 3 months ago.  It was during winter, and I was pretty depressed about the season changing.  I tend to really hate winter, and it makes me very depressed and gloomy during the winter months.  So I was pretty stressed out knowing that my baby was going to have to get a surgery.  I was worried about having my baby go under anesthesia and unconscious.  It'd be the first time they were having an operation, and I was so worried about the fact that sometimes things go wrong.  I was praying to god that my baby would wake up and the surgery would go smoothly.  Thankfully everything went well.  The anesthesia was fine, and I was informed that the operation went smoothly and the surgery was a success.  I felt a great relief.  I felt a weight was lifted.  I felt I could stop worrying.  I was so happy.  Hopefully I won't have to go through something like that again.  The doctor informed me that my baby is going to live a healthy life, and this operation will never have to be performed again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm just happy that everything went well.  My baby is happy, and I'm happy.  I'm just so glad that everything went well."
+            }
+        ],
+        "request_id": "811ead0e886a0f41-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got up in the morning, and went out to feed my two horses, Corky and Jed. Like every morning, they both ate their grain, and went outside to eat their hay. Everything looked perfectly normal. When I was coming back from a walk with my dog, I looked at Corky, my older horse, and he didn't look right. All of a sudden he started lying down, and getting up. Over and over again. I ran in the house and called the vet. It seemed like forever for him to get here.  When he did, he gave Corky medications that should have helped him. But they didn't. An hour after the vet left, he started lying down and rolling in pain again. I gave him extra meds the vet had given me, and called again. It took the vet over an hour to get here again - what seemed like an eternity. Corky had laid down, rolled, and was upside down in his stall. I got him rolled over, and he couldn't get up. Right before the vet got here, he got up, and I got him outside. The vet got here, and euthanized him on the spot."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got up in the morning, and went out to feed my two horses, Corky and Jed. Like every morning, they both ate their grain, and went outside to eat their hay. Everything looked perfectly normal. When I was coming back from a walk with my dog, I looked at Corky, my older horse, and he didn't look right. All of a sudden he started lying down, and getting up. Over and over again. I ran in the house and called the vet. It seemed like forever for him to get here.  When he did, he gave Corky medications that should have helped him. But they didn't. An hour after the vet left, he started lying down and rolling in pain again. I gave him extra meds the vet had given me, and called again. It took the vet over an hour to get here again - what seemed like an eternity. Corky had laid down, rolled, and was upside down in his stall. I got him rolled over, and he couldn't get up. Right before the vet got here, he got up, and I got him outside. The vet got here, and euthanized him on the spot.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the hardest thing I have ever had to do. I will never forget that day."
+            }
+        ],
+        "request_id": "811ea4e83a63c470-EWR"
+    }
+}

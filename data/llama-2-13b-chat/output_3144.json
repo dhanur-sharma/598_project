@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We gather in the car on the way to get some sushi by a nearby parlor none of us had been to. Sushi was not particularly my families favorite food, but I thought the experience would be neat, and the place was very local. We enter the parlor and were greeted by smiling hosts that took us to our seats right away. I really did not know all too much about sushi other then what it was. By this I mean that placing my order may be a little difficult because I dont know the difference between the items on the menu really. We all made our orders, and ended up getting a family platter that allows us to try tons of different types of the sushi. My parents and brothers look excited and happy, although my mom is a little fidgety with eating the sushi. My mom has always been a little squemish when it came to unfamiliar food, however she seemed to be a good sport today. We all laugh and have a good time as our food arrive, and we all seem to really enjoy it. My mom was surprised with how much she liked the sushi in general, and raved about wanting to get it more often. My little brother accidentally ate some of the wassabi sauce by itself to taste it, which provided a great laugh for all of us at the table. Following the restaurant, we all head home to enjoy some cake my mom had made that night and just hang and play games. It was not often the family would be all together, so we tried to take advantage of all the time we had together. We played some new boardgames that my brother brought, as he normally enjoys finding board games for us to try. This one was named Qatan or something like that, and was all about gaining grops and selling them for profit to get the most homes. Days like this really remind me of all the good times our family has had together, and makes you want to set more time aside to spend time with one another. At the same time, there is a medium though because spending too much time can make you a little testy because thats how family gets."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We gather in the car on the way to get some sushi by a nearby parlor none of us had been to. Sushi was not particularly my families favorite food, but I thought the experience would be neat, and the place was very local. We enter the parlor and were greeted by smiling hosts that took us to our seats right away. I really did not know all too much about sushi other then what it was. By this I mean that placing my order may be a little difficult because I dont know the difference between the items on the menu really. We all made our orders, and ended up getting a family platter that allows us to try tons of different types of the sushi. My parents and brothers look excited and happy, although my mom is a little fidgety with eating the sushi. My mom has always been a little squemish when it came to unfamiliar food, however she seemed to be a good sport today. We all laugh and have a good time as our food arrive, and we all seem to really enjoy it. My mom was surprised with how much she liked the sushi in general, and raved about wanting to get it more often. My little brother accidentally ate some of the wassabi sauce by itself to taste it, which provided a great laugh for all of us at the table. Following the restaurant, we all head home to enjoy some cake my mom had made that night and just hang and play games. It was not often the family would be all together, so we tried to take advantage of all the time we had together. We played some new boardgames that my brother brought, as he normally enjoys finding board games for us to try. This one was named Qatan or something like that, and was all about gaining grops and selling them for profit to get the most homes. Days like this really remind me of all the good times our family has had together, and makes you want to set more time aside to spend time with one another. At the same time, there is a medium though because spending too much time can make you a little testy because thats how family gets.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, it was a great day to spend time with my family, and we all had a good time together."
+            }
+        ],
+        "request_id": "811ec4bfc8a04333-EWR"
+    }
+}

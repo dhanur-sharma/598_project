@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I attended a baby shower for a friend. It was a friend of a friend of my husband's so we aren't super close but we've gotten closer over time. I felt very nervous about going because I often feel like the third wheel in such situations. Everyone has a history while I'm the new girl. When we got there, there was a lot of people. The decorations were nice and the food smelled great. I greeted the parents to be. I saw a few others knew (also friends of friends) and sat with them for most of the time. I ended up having a much better time than I had initially anticipated. We chilled out on the rooftop deck of the building. The weather was great. I felt very relaxed and not on edge like I had been the days before. I found out a guy there was from the same hometown as mine. He and his wife had two kids who were the same age as ours. We exchanged info for future play dates. After the shower, my husband, two friends, and I walked to the pier for more fun. It turned out to be a pretty great day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I attended a baby shower for a friend. It was a friend of a friend of my husband's so we aren't super close but we've gotten closer over time. I felt very nervous about going because I often feel like the third wheel in such situations. Everyone has a history while I'm the new girl. When we got there, there was a lot of people. The decorations were nice and the food smelled great. I greeted the parents to be. I saw a few others knew (also friends of friends) and sat with them for most of the time. I ended up having a much better time than I had initially anticipated. We chilled out on the rooftop deck of the building. The weather was great. I felt very relaxed and not on edge like I had been the days before. I found out a guy there was from the same hometown as mine. He and his wife had two kids who were the same age as ours. We exchanged info for future play dates. After the shower, my husband, two friends, and I walked to the pier for more fun. It turned out to be a pretty great day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdf36ec8c4337-EWR"
+    }
+}

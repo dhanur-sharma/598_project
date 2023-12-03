@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I loved my old neighbors next door. Once a week, we would go into each other's backyards to hang out. We would either cook or play some tailgating games. It was so fun. Last year, they moved out because the husband had a business opportunity in a different state. As sad as it was to see them go, I was happy for the new chapter in their lives. A few weeks ago, my new neighbor moved in next door. I went to his house, greeted him, and introduced myself. He was very nice, let me in the house, and we talked over a cup of coffee. I was concerned about what type of person my new neighbor might be. Lo and behold, there was absolutely nothing to worry about. He is great. Since then, we would go into each other's backyards once a week to hang out, just like the old neighbors. It must be a Godsend because he is just like the old neighbors. Friendly, warm, kind, and willing to hang out and spend some time to talk about life. I am very grateful for my new neighbor."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I loved my old neighbors next door. Once a week, we would go into each other's backyards to hang out. We would either cook or play some tailgating games. It was so fun. Last year, they moved out because the husband had a business opportunity in a different state. As sad as it was to see them go, I was happy for the new chapter in their lives. A few weeks ago, my new neighbor moved in next door. I went to his house, greeted him, and introduced myself. He was very nice, let me in the house, and we talked over a cup of coffee. I was concerned about what type of person my new neighbor might be. Lo and behold, there was absolutely nothing to worry about. He is great. Since then, we would go into each other's backyards once a week to hang out, just like the old neighbors. It must be a Godsend because he is just like the old neighbors. Friendly, warm, kind, and willing to hang out and spend some time to talk about life. I am very grateful for my new neighbor.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8aa7695418d0-EWR"
+    }
+}

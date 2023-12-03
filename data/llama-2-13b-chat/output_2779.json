@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When we had gone to the funeral, every member of my family was there to see my grandfather. My family all took turns telling stories of what he had done in his life, and all his accomplishments. After the burial, we all got together for lunch and started to catch up with each other. There's no real way to start this story about my grandpa and his bravery. But, here's how it goes. In 2016, when I was 19, my grandfather was diagnosed with  lymphoma. He felt strong for this first fight. He gave his body up to tests and any medicines that would allow him to live longer. He won that fight. He finished it strong supported by my aunts, my uncles, and my grandma. About a year or 2 later, he was diagnosed with Leukemia. He, again, gave himself up to treatments and medication. He wanted to be with his family longer and no one believed that God was ready for him. He, like his strong self, won that battle. Of course, God wasn't done with this tough and brave soldier yet."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When we had gone to the funeral, every member of my family was there to see my grandfather. My family all took turns telling stories of what he had done in his life, and all his accomplishments. After the burial, we all got together for lunch and started to catch up with each other. There's no real way to start this story about my grandpa and his bravery. But, here's how it goes. In 2016, when I was 19, my grandfather was diagnosed with  lymphoma. He felt strong for this first fight. He gave his body up to tests and any medicines that would allow him to live longer. He won that fight. He finished it strong supported by my aunts, my uncles, and my grandma. About a year or 2 later, he was diagnosed with Leukemia. He, again, gave himself up to treatments and medication. He wanted to be with his family longer and no one believed that God was ready for him. He, like his strong self, won that battle. Of course, God wasn't done with this tough and brave soldier yet.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He got diagnosed with liver cancer. But, this time he knew it was the end. He told me, \"Hey, grandson, I know it's time for me to go. I'm tired and I'm ready to rest.\" He gave up the fight and let the doctors and nurses do their jobs. He was surrounded by all of his family. He took his last breath in the presence of the people he loved the most. He will be missed by all of us. But, I know he's in a better place, watching over us all. I'm proud to have had such a brave and strong grandpa.\n\n"
+            }
+        ],
+        "request_id": "811ebdd679ca42b6-EWR"
+    }
+}

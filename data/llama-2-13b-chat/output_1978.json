@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a musical duo that had decided to part ways. We wanted to fulfill our obligations though, so we performed at a large outdoor festival. I had been wondering what I'd do with my time, and I was also concerned my partner would have some direction forward. We played, but I guess due to nerves we rushed through our set with time to spare. Someone in the crowd asked my partner to play one of her solo songs. I was so happy her own work was appreciated. I got off stage as she played. I got into conversation with some people who are in another local band I like. Without knowing the duo was splitting, they suggested I \"try out\" for them. Really, a formality. They wanted me in. It was pretty remarkable that in a matter of minutes, both her direction forward and mine were made clear. I was relieved. I was also excited we could part with no bad feelings. Once she got off stage, I told her what happened. She was happy for me. I was happy for her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a musical duo that had decided to part ways. We wanted to fulfill our obligations though, so we performed at a large outdoor festival. I had been wondering what I'd do with my time, and I was also concerned my partner would have some direction forward. We played, but I guess due to nerves we rushed through our set with time to spare. Someone in the crowd asked my partner to play one of her solo songs. I was so happy her own work was appreciated. I got off stage as she played. I got into conversation with some people who are in another local band I like. Without knowing the duo was splitting, they suggested I \"try out\" for them. Really, a formality. They wanted me in. It was pretty remarkable that in a matter of minutes, both her direction forward and mine were made clear. I was relieved. I was also excited we could part with no bad feelings. Once she got off stage, I told her what happened. She was happy for me. I was happy for her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had a sense of closure and a new beginning.\n\n"
+            }
+        ],
+        "request_id": "811eae1b9c024358-EWR"
+    }
+}

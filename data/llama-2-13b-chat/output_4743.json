@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, something tragic happened in the family. My great uncle got hit with a car. The person who hit my great uncle was my great, great uncle. My great uncle fell into a coma because of this. He luckily came out of the coma. The great, great uncle felt really bad and bought my great uncle a new car. The great uncle forgave him. They are still in good terms. The rest of the family was in shock. My mother scolded my great uncle. My father nearly punched my great uncle. My sister hugged my great, great uncle. My brother gave my great uncle the bird. The dog barked at the great uncle. We eventually forgave the great uncle."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, something tragic happened in the family. My great uncle got hit with a car. The person who hit my great uncle was my great, great uncle. My great uncle fell into a coma because of this. He luckily came out of the coma. The great, great uncle felt really bad and bought my great uncle a new car. The great uncle forgave him. They are still in good terms. The rest of the family was in shock. My mother scolded my great uncle. My father nearly punched my great uncle. My sister hugged my great, great uncle. My brother gave my great uncle the bird. The dog barked at the great uncle. We eventually forgave the great uncle.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The family is still trying to move on from this.\n\n"
+            }
+        ],
+        "request_id": "811bdd07ba1e437e-EWR"
+    }
+}

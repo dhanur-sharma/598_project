@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A recent memorable event in my life would be when my boyfriend proposed to me. I completely was not expecting it at all. I guess he is more romantic than I ever gave him credit for. We were on a hike in Yosemite National Park which lasted all day. He brought some stuff with because we were going to have a picnic in the middle of the day and rest after hiking. We got the picnic set up and I sat down to eat. I noticed that he did seem a little different than usual. I thought he was just super excited to be in Yosemite. He told me that he wanted to spend the rest of his life with me. I was very thrilled to hear that. We then spoke about where and how we would like our wedding to be. We have plans to get married in Las Vegas in the near future. I am very happy that I went on the hike after all. That was my very first time being proposed to. It is a major event for me. When I got home I told everyone about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A recent memorable event in my life would be when my boyfriend proposed to me. I completely was not expecting it at all. I guess he is more romantic than I ever gave him credit for. We were on a hike in Yosemite National Park which lasted all day. He brought some stuff with because we were going to have a picnic in the middle of the day and rest after hiking. We got the picnic set up and I sat down to eat. I noticed that he did seem a little different than usual. I thought he was just super excited to be in Yosemite. He told me that he wanted to spend the rest of his life with me. I was very thrilled to hear that. We then spoke about where and how we would like our wedding to be. We have plans to get married in Las Vegas in the near future. I am very happy that I went on the hike after all. That was my very first time being proposed to. It is a major event for me. When I got home I told everyone about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still smiling about it. I feel very blessed.\n\n"
+            }
+        ],
+        "request_id": "811f3c7cc97b5e7f-EWR"
+    }
+}

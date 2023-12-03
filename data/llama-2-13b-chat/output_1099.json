@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got to work today and there was basically nobody there. The only people on the field were me, my boss, and two other people.  I had never met the other two people.  My boss then asked me if I had ever met \"him\". No I had never met \"him\" but the name sounds familiar.  I am then introduced to \"him\" and I'm thinking this dude is familiar. His handshake actually hurt my hand because he was so strong.  I shrugged off the short meeting and went on my way to continue doing my job while my hand was throbbing for a few minutes.  Throughout the day \"he\" ended up being an entertainer for the guests over the speaker system.   I was wondering why this guy was so important.  My last shift at work was in the back of the field in the bullpen.  I was doing a very easy job to help entertain some intoxicated folk.  As the event was coming to an end, my boss decided to have everyone give a big round of applause to \"him\". I stopped what I was doing when my boss said \"Him LastName\". I can't believe I met \"him\" and didn't even realize it! I'll never forgive myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got to work today and there was basically nobody there. The only people on the field were me, my boss, and two other people.  I had never met the other two people.  My boss then asked me if I had ever met \"him\". No I had never met \"him\" but the name sounds familiar.  I am then introduced to \"him\" and I'm thinking this dude is familiar. His handshake actually hurt my hand because he was so strong.  I shrugged off the short meeting and went on my way to continue doing my job while my hand was throbbing for a few minutes.  Throughout the day \"he\" ended up being an entertainer for the guests over the speaker system.   I was wondering why this guy was so important.  My last shift at work was in the back of the field in the bullpen.  I was doing a very easy job to help entertain some intoxicated folk.  As the event was coming to an end, my boss decided to have everyone give a big round of applause to \"him\". I stopped what I was doing when my boss said \"Him LastName\". I can't believe I met \"him\" and didn't even realize it! I'll never forgive myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was in the presence of greatness and I didn't even know it! \n\n"
+            }
+        ],
+        "request_id": "811e9dd2bb60c42c-EWR"
+    }
+}

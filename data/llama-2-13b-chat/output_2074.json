@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 4 months ago we had to sell our home. It's been such a hard road since then trying to make ends meet. We can barely put food on the table these days. I'm trying to find work and so is my husband. I really hope things improve soon. I don't know how much more I can take. I feel hopeless everyday. I keep worrying about what's going to happen if we don't find good jobs soon. This has been such a stressful time. I don't know why this had to happen. It hurts so much. It's good for me to write about it though. It helps me process my feelings. Maybe things will get better soon and I won't have to worry anymore. I really hope so."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 4 months ago we had to sell our home. It's been such a hard road since then trying to make ends meet. We can barely put food on the table these days. I'm trying to find work and so is my husband. I really hope things improve soon. I don't know how much more I can take. I feel hopeless everyday. I keep worrying about what's going to happen if we don't find good jobs soon. This has been such a stressful time. I don't know why this had to happen. It hurts so much. It's good for me to write about it though. It helps me process my feelings. Maybe things will get better soon and I won't have to worry anymore. I really hope so.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eafc149775e7d-EWR"
+    }
+}

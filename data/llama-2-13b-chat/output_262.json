@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I found a dog while I was out walking late at night. The dog was just wondering around by itself without a leash. I thought that was kind of weird, so I decided to get it on a leash and to take it home. It seems that dog was underfed and skinny, so  I got it some food. It munched down the food ravenously like it hasn't ate in a while. I'm glad that I fed it, but my home's no place to keep pets. I rented the place out and the owner was clear that no pets are allow there. So in the end, despite wanting to keep the dog, I had to take it back to where I found it. Once there, I asked around and managed to find the owner of the dog. The owner didn't seem to care much that I got his dog back, but he took it back in regardless. There wasn't much I could do. So I just left. But to this day I still think of the dog and whether it was okay or not being with that owner. I hope it's not being underfed again. I just hope that at least it's still in the house and not out somewhere wondering around."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I found a dog while I was out walking late at night. The dog was just wondering around by itself without a leash. I thought that was kind of weird, so I decided to get it on a leash and to take it home. It seems that dog was underfed and skinny, so  I got it some food. It munched down the food ravenously like it hasn't ate in a while. I'm glad that I fed it, but my home's no place to keep pets. I rented the place out and the owner was clear that no pets are allow there. So in the end, despite wanting to keep the dog, I had to take it back to where I found it. Once there, I asked around and managed to find the owner of the dog. The owner didn't seem to care much that I got his dog back, but he took it back in regardless. There wasn't much I could do. So I just left. But to this day I still think of the dog and whether it was okay or not being with that owner. I hope it's not being underfed again. I just hope that at least it's still in the house and not out somewhere wondering around.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8ea8acdac42a-EWR"
+    }
+}

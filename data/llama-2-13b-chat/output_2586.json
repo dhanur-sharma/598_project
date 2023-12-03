@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So the baby came early. I was in the kitchen when I started having labor pains. I didn't think much of them at first, but they got worse. My husband came home and we raced to the hospital. There, they put me in a room, and I waited. There were doctors and nurses everywhere. They hooked me up to lots of machines. I wasn't able to stay awake. When I woke up, the baby was out. They had done a C-section. Something had happened so that I needed one. Now I have a bad infection, and some issues with the surgery. Apparently there's some internal damage. I'm working with insurance and a lawyer to try and get things fixed up. But my baby's so sweet! I may be hurt, but at least she's alive."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So the baby came early. I was in the kitchen when I started having labor pains. I didn't think much of them at first, but they got worse. My husband came home and we raced to the hospital. There, they put me in a room, and I waited. There were doctors and nurses everywhere. They hooked me up to lots of machines. I wasn't able to stay awake. When I woke up, the baby was out. They had done a C-section. Something had happened so that I needed one. Now I have a bad infection, and some issues with the surgery. Apparently there's some internal damage. I'm working with insurance and a lawyer to try and get things fixed up. But my baby's so sweet! I may be hurt, but at least she's alive.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb98efef54401-EWR"
+    }
+}

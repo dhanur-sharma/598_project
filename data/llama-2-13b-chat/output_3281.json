@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I currently am away from family. At first i was not affected by the distance. I didn't think it to be much of a big deal. It's been a few months and I find myself missing them. I know i do not like showing gratitude to my siblings or parents but now that i am away i appreciate them more than ever. I miss how every weekend i would do an activity with my parents. Mainly my father. We would do many things but there were some activities that i adored doing. Like going thrift shopping. The excitement of finding something invaluable. Maybe something from my childhood or his. I loved going out to eat and finding a new place or frequenting the Denny's we love. It might all seem silly but i truly miss them. My mother and i would walk around the mall. We'd run errands or do window shopping. Wed walk for hours on local trails. I love that. I can't wait to be home in a few weeks. I am really looking forward to it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I currently am away from family. At first i was not affected by the distance. I didn't think it to be much of a big deal. It's been a few months and I find myself missing them. I know i do not like showing gratitude to my siblings or parents but now that i am away i appreciate them more than ever. I miss how every weekend i would do an activity with my parents. Mainly my father. We would do many things but there were some activities that i adored doing. Like going thrift shopping. The excitement of finding something invaluable. Maybe something from my childhood or his. I loved going out to eat and finding a new place or frequenting the Denny's we love. It might all seem silly but i truly miss them. My mother and i would walk around the mall. We'd run errands or do window shopping. Wed walk for hours on local trails. I love that. I can't wait to be home in a few weeks. I am really looking forward to it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec7f6b93b78e8-EWR"
+    }
+}

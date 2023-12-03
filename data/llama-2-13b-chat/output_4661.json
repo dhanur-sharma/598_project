@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was walking along the road when I heard the screech. I saw a car. Bump into the rear of another car because the first car it stopped at a red light. After the crash, the driver of the rear car got out, and so did the driver of the front car. They began to argue with each other. It became a fully fledged fight. At one point one  of the men looked my way. \u201cWhat are you looking at,\u201d he said menacingly. Then the police came. The separated the 2 angry drivers. One of the men refused to be subdued. The police took their handcuffs and handcuffed him with one hand to a pole. The police took control of the situation. They move the cars out of the traffic. They kept the two men separated. I believe they gave a summons to the person who rear ended the other."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was walking along the road when I heard the screech. I saw a car. Bump into the rear of another car because the first car it stopped at a red light. After the crash, the driver of the rear car got out, and so did the driver of the front car. They began to argue with each other. It became a fully fledged fight. At one point one  of the men looked my way. \u201cWhat are you looking at,\u201d he said menacingly. Then the police came. The separated the 2 angry drivers. One of the men refused to be subdued. The police took their handcuffs and handcuffed him with one hand to a pole. The police took control of the situation. They move the cars out of the traffic. They kept the two men separated. I believe they gave a summons to the person who rear ended the other.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I continued on my way."
+            }
+        ],
+        "request_id": "811bdb437bbd43f7-EWR"
+    }
+}

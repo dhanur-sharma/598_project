@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met someone I think will be able to help me! I met with a professor at a medical school! I have been told that who you know if a very valuable thing when it comes to finding a good job when you are done with school. I have been trying to meet as many people as I can. In the five weeks since I met the professor, I have been trying to follow his advice. I am studying hard, meeting other people in the industry, and staying out of trouble. The professor was so nice! He offered to help me in any way he could. I am so glad I got over my fear of meeting new people. I know that to be a doctor, I will have to talk to lots of people I have never seen before. I am starting to get more comfortable with that. I think that meeting with this professor will greatly help my chances of getting into medical school! I will be able to use the professor as a reference. If I follow his advice I know that I will be successful. I am very motivated by our talks! I will continue to work hard. I know I can do this! I know I can get into medical school!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met someone I think will be able to help me! I met with a professor at a medical school! I have been told that who you know if a very valuable thing when it comes to finding a good job when you are done with school. I have been trying to meet as many people as I can. In the five weeks since I met the professor, I have been trying to follow his advice. I am studying hard, meeting other people in the industry, and staying out of trouble. The professor was so nice! He offered to help me in any way he could. I am so glad I got over my fear of meeting new people. I know that to be a doctor, I will have to talk to lots of people I have never seen before. I am starting to get more comfortable with that. I think that meeting with this professor will greatly help my chances of getting into medical school! I will be able to use the professor as a reference. If I follow his advice I know that I will be successful. I am very motivated by our talks! I will continue to work hard. I know I can do this! I know I can get into medical school!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will have to study hard and follow the professors advice.\n\n"
+            }
+        ],
+        "request_id": "811f453038fe431c-EWR"
+    }
+}

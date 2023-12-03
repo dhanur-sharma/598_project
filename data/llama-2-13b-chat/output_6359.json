@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, we move my son into college.  This is a major life changing event.  Not just for him, but for myself and my wife as well.  My son was excepted in the Engineering department at North Carolina State University.  This is where I went to college.  We moved him in on August 17th.  We woke up that morning and my wife and I followed him there to help him move in.  It only took us about 2 hours to get all of his stuff in.  His door room use to be a hotel so the room is much bigger than an average dorm room.  He and his roommate also have their own private bathroom.   The room also came with a microwave and fridge so we did not have to get those and try and move them it.   We only live 15 min away from the school, but him moving out has effected me more that I thought it would.  It just seems so strange with him not in the house.  When I walk by him room, I get sad.  He is still so close, but it just seems different.  The first 2 or 3 days was really bad and I was teary eyed a lot."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, we move my son into college.  This is a major life changing event.  Not just for him, but for myself and my wife as well.  My son was excepted in the Engineering department at North Carolina State University.  This is where I went to college.  We moved him in on August 17th.  We woke up that morning and my wife and I followed him there to help him move in.  It only took us about 2 hours to get all of his stuff in.  His door room use to be a hotel so the room is much bigger than an average dorm room.  He and his roommate also have their own private bathroom.   The room also came with a microwave and fridge so we did not have to get those and try and move them it.   We only live 15 min away from the school, but him moving out has effected me more that I thought it would.  It just seems so strange with him not in the house.  When I walk by him room, I get sad.  He is still so close, but it just seems different.  The first 2 or 3 days was really bad and I was teary eyed a lot.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Now, I am getting use to it and I am starting to enjoy it.  I know this is what is best for him and I am so proud of him.\n\n"
+            }
+        ],
+        "request_id": "811f43cf0c520c7c-EWR"
+    }
+}

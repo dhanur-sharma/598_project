@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Last night I learned that my friend, Karen, passed away. I have not seen her in quite a while but it happened about a month ago. I saw our old coworker Doug at the grocery store and we stopped to say hello and he asked me if I knew. I asked, knew what? But I felt like I already knew. I had been worried about Karen for a long time. He said that they had needed to do an autopsy and that they had been waiting out the results for quite some time. He said the family had said that, but they were pretty sure it was drugs. An accidental overdose. I really do wish she had reached out. I was surprised when she was fired, and when I heard that she kept having trouble with her son's father. I hope her son is okay but I feel like I know he won't be. How will his father explain that? How will grow up with this knowledge inside him, that something ate away at his mother so terribly that she decided to leave his life. I don't know. I wish she had found help for whatever was eating away at her. I guess people don't always know to reach out for help, I guess I wish  I had found a way to reach her that she had heard. X."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Last night I learned that my friend, Karen, passed away. I have not seen her in quite a while but it happened about a month ago. I saw our old coworker Doug at the grocery store and we stopped to say hello and he asked me if I knew. I asked, knew what? But I felt like I already knew. I had been worried about Karen for a long time. He said that they had needed to do an autopsy and that they had been waiting out the results for quite some time. He said the family had said that, but they were pretty sure it was drugs. An accidental overdose. I really do wish she had reached out. I was surprised when she was fired, and when I heard that she kept having trouble with her son's father. I hope her son is okay but I feel like I know he won't be. How will his father explain that? How will grow up with this knowledge inside him, that something ate away at his mother so terribly that she decided to leave his life. I don't know. I wish she had found help for whatever was eating away at her. I guess people don't always know to reach out for help, I guess I wish  I had found a way to reach her that she had heard. X.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f3f9d98d5423a-EWR"
+    }
+}

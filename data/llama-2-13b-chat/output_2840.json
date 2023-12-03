@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Table tennis is so easy. I don't know why he made such a big deal about it. He stunk at table tennis. I don't know why he even challenged me to begin with. Too bad he was such a loser about it. You should have seen how red his face got when I started teasing him about it. I made sure the girl he has a crush on was there too. You ought to have seen how mad he got then! He basically had a temper tantrum that I beat him. He did everything but throw himself on the floor after the game. I guess he thought he was going to win. It was a strange game. I thought maybe he was losing on purpose. You see, he had been bragging around about how good he was. I said I knew how to play. It was like the other day, I tried poker. I know how to play, I just don't."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Table tennis is so easy. I don't know why he made such a big deal about it. He stunk at table tennis. I don't know why he even challenged me to begin with. Too bad he was such a loser about it. You should have seen how red his face got when I started teasing him about it. I made sure the girl he has a crush on was there too. You ought to have seen how mad he got then! He basically had a temper tantrum that I beat him. He did everything but throw himself on the floor after the game. I guess he thought he was going to win. It was a strange game. I thought maybe he was losing on purpose. You see, he had been bragging around about how good he was. I said I knew how to play. It was like the other day, I tried poker. I know how to play, I just don't.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But he was so full of himself, so I played along. I thought I would show him up. I was so right!"
+            }
+        ],
+        "request_id": "811ebf4ef87d0f95-EWR"
+    }
+}

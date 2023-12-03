@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a first date with a new guy. We met on a dating app and spoke nearly everyday for about one month before we had our first date. It had been a while since I had been on a date. So, I thought I would feel very nervous. But surprisingly, I stayed calm. There was a lot of good, fun, and lighthearted conversation. He made me laugh throughout the night, which I liked. He seemed to be a bit nervous throughout dinner. So, I wasn't completely surprised when he spilled some of his water onto the table. It was a memorable moment, but we both laughed it off. I think the fact that we laughed it off made him feel less nervous. We talked about work, hobbies, and random topics that were popular in the news. In the end, it was a good date. I had a good time. And, before I even made it home, he texted me to tell me that he had had a good time as well. I was happy about that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a first date with a new guy. We met on a dating app and spoke nearly everyday for about one month before we had our first date. It had been a while since I had been on a date. So, I thought I would feel very nervous. But surprisingly, I stayed calm. There was a lot of good, fun, and lighthearted conversation. He made me laugh throughout the night, which I liked. He seemed to be a bit nervous throughout dinner. So, I wasn't completely surprised when he spilled some of his water onto the table. It was a memorable moment, but we both laughed it off. I think the fact that we laughed it off made him feel less nervous. We talked about work, hobbies, and random topics that were popular in the news. In the end, it was a good date. I had a good time. And, before I even made it home, he texted me to tell me that he had had a good time as well. I was happy about that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9d8aafe178d3-EWR"
+    }
+}

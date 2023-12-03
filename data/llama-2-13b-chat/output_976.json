@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I was driving down I-85 on my way to the fair, when all of a sudden everyone came to a sudden stop. We were going about 70-80 mph. I was so shocked and after coming to a complete stop, the car next to me gets SLAMMED into the car in front. I was super shocked to see the car just crumble and the sound from the accident was gut wrenching. They were in the very left lane. I pull my car to the side and dial 911. As I am dialing 911 I step out of the car and try to help the guy who got sandwiched. He had a bloody face and broken shoulder. His seat belt was stuck so I take out my safety blade for car seat belts and cut the belt. The guy is free from the restraints! I help him out, give him a bottle of water that I had in the trunk of my car, and I go to help the next guy. The guy who started the accident was pretty badly messed up. Bloody face, possible broken ribs, legs were wrecked, and all airbags deployed. I did not trust myself to help the guy get out. I couldn't risk any chances of getting him out and paralyzing the kid. He was no older than 18. A brand new driver. The guy at the front of the accident was already out of his car but looked like he was in a daze. The paramedics arrive, I explain to them what happened, gave cops my statement, and headed back to the fair."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I was driving down I-85 on my way to the fair, when all of a sudden everyone came to a sudden stop. We were going about 70-80 mph. I was so shocked and after coming to a complete stop, the car next to me gets SLAMMED into the car in front. I was super shocked to see the car just crumble and the sound from the accident was gut wrenching. They were in the very left lane. I pull my car to the side and dial 911. As I am dialing 911 I step out of the car and try to help the guy who got sandwiched. He had a bloody face and broken shoulder. His seat belt was stuck so I take out my safety blade for car seat belts and cut the belt. The guy is free from the restraints! I help him out, give him a bottle of water that I had in the trunk of my car, and I go to help the next guy. The guy who started the accident was pretty badly messed up. Bloody face, possible broken ribs, legs were wrecked, and all airbags deployed. I did not trust myself to help the guy get out. I couldn't risk any chances of getting him out and paralyzing the kid. He was no older than 18. A brand new driver. The guy at the front of the accident was already out of his car but looked like he was in a daze. The paramedics arrive, I explain to them what happened, gave cops my statement, and headed back to the fair.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was shaken up but was relieved that no one was killed.\n\n"
+            }
+        ],
+        "request_id": "811e9b956b9fc35f-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This year has been difficult due to marital problems arising from a lack of excitement and spark in our lives. My wife and I are busy professionals, and we also have an 8 year old. Things have been going downhill, and luckily, we eventually recognized that if my wife and I did not take time to build connections in our relationship, things would just get worse. As a result, we decided to take a long road trip all the way to Canada (my home country). My wife and son like to travel to new places, and therefore, this seemed like the perfect choice. The trip didn't start off well, as my wife realized a day before the trip that her passport had expired. I was a little anxious about this, but we decided to go anyway. We'd figured she'd have alternative documentation to enter Canada, and at most we would be delayed at the border on our way back. We stopped by at Columbus for night before arriving at Niagara Falls on the US side the next day. We took a little time to experience that side of the Falls before reaching our hotel on the Canadian side. It was awesome. We had a bird-eyes view of the Falls, which were brightly and colorfully illuminated at night. The next day we spent all our time exploring as many activities as we could. We definitely enjoyed the up-close experience next to the Falls, and didn't mind getting soaking wet. The next day we drove to Toronto so that we could visit the CN tower, one of Canada's landmarks. There was a long line up, but the wait was well worth it. Our son definitely enjoyed watching the city from way high above. We ended our visit  with sampling of some of the finer chinese food, which of course we can't find in Kentucky. Driving back made me a little nervous because of my wife's expired passport. W ehanded it to the Border Patrol agent, who asked me a few questions, before stating that  my wife's passport was expired. We pleased ignorance and offered my wife's drivers license, which we knew was not considered an acceptable form of ID for re-entering. Delightfully, the agent said he didn't need anything else and just wanted to tell us of our expired passport so that we could fix it when we got home. What a nice way to end our trip. My wife and I definitely enjoyed taking the time off from work to reconnect."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This year has been difficult due to marital problems arising from a lack of excitement and spark in our lives. My wife and I are busy professionals, and we also have an 8 year old. Things have been going downhill, and luckily, we eventually recognized that if my wife and I did not take time to build connections in our relationship, things would just get worse. As a result, we decided to take a long road trip all the way to Canada (my home country). My wife and son like to travel to new places, and therefore, this seemed like the perfect choice. The trip didn't start off well, as my wife realized a day before the trip that her passport had expired. I was a little anxious about this, but we decided to go anyway. We'd figured she'd have alternative documentation to enter Canada, and at most we would be delayed at the border on our way back. We stopped by at Columbus for night before arriving at Niagara Falls on the US side the next day. We took a little time to experience that side of the Falls before reaching our hotel on the Canadian side. It was awesome. We had a bird-eyes view of the Falls, which were brightly and colorfully illuminated at night. The next day we spent all our time exploring as many activities as we could. We definitely enjoyed the up-close experience next to the Falls, and didn't mind getting soaking wet. The next day we drove to Toronto so that we could visit the CN tower, one of Canada's landmarks. There was a long line up, but the wait was well worth it. Our son definitely enjoyed watching the city from way high above. We ended our visit  with sampling of some of the finer chinese food, which of course we can't find in Kentucky. Driving back made me a little nervous because of my wife's expired passport. W ehanded it to the Border Patrol agent, who asked me a few questions, before stating that  my wife's passport was expired. We pleased ignorance and offered my wife's drivers license, which we knew was not considered an acceptable form of ID for re-entering. Delightfully, the agent said he didn't need anything else and just wanted to tell us of our expired passport so that we could fix it when we got home. What a nice way to end our trip. My wife and I definitely enjoyed taking the time off from work to reconnect.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I believe this trip has really helped us rekindle the spark in our marriage. We're already looking forward to our next trip together."
+            }
+        ],
+        "request_id": "811e8a6f7a5fc34b-EWR"
+    }
+}

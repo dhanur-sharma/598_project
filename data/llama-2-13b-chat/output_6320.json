@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Journal, I am writing today about a very memorable event. The day was February 2nd. J and I went for a hike. I decided to check out the back side of the rapids near a waterfall. Unfortunately, I slipped on a wet tree root and broke my leg/ankle/foot. I had to be brought out of the woods by the park rangers, rescue squad and fire department. Later that night, we made it to the ER. I had my leg set and 2 days later an appointment with the orthopedic surgeon. We had to wait 3 days to have surgery. Now 5 months later, here I am. Still gimping. Someday I hope to get back to my normal life. I miss walking like a normal person. It can't come soon enough. One of these days I will be able to do all the fun stuff again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Journal, I am writing today about a very memorable event. The day was February 2nd. J and I went for a hike. I decided to check out the back side of the rapids near a waterfall. Unfortunately, I slipped on a wet tree root and broke my leg/ankle/foot. I had to be brought out of the woods by the park rangers, rescue squad and fire department. Later that night, we made it to the ER. I had my leg set and 2 days later an appointment with the orthopedic surgeon. We had to wait 3 days to have surgery. Now 5 months later, here I am. Still gimping. Someday I hope to get back to my normal life. I miss walking like a normal person. It can't come soon enough. One of these days I will be able to do all the fun stuff again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The end.\n\n"
+            }
+        ],
+        "request_id": "811f43184d6c5e79-EWR"
+    }
+}

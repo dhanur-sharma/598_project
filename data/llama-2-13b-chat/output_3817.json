@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I am watching my granddaughter while my son and his girlfriend are both at work.  The child spends most of her time with me. Over the past few months CPS has twice assigned me as a guardian protector of sorts of the child due to her mother.  Her mother has now been diagnosed with a mental disorder and is being watched closely for that and for drug use.  It's hard having them all in the home.  I have been trying to help all of them.  I try to help the mother to understand how to be a mother and to keep clean of drugs. I try to help the baby to be healthy mentally and physically. I also spend time trying to help my son to be strong enough to raise the child on his own if he has to.  This morning I cleaned up the baby bottles and high chair. It is something I do every day as the mother does not understand keeping things clean.  I just got through feeding the baby lunch.  I'll be alone with her until about six tonight.  In truth, I am a sort of part time mother to her.  It will soon be time to put her down for a nap.  I have grown close to her. I hope every day that she has a bright and safe future. I worry all the time about what will happen if CPS gives her back to her mother."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I am watching my granddaughter while my son and his girlfriend are both at work.  The child spends most of her time with me. Over the past few months CPS has twice assigned me as a guardian protector of sorts of the child due to her mother.  Her mother has now been diagnosed with a mental disorder and is being watched closely for that and for drug use.  It's hard having them all in the home.  I have been trying to help all of them.  I try to help the mother to understand how to be a mother and to keep clean of drugs. I try to help the baby to be healthy mentally and physically. I also spend time trying to help my son to be strong enough to raise the child on his own if he has to.  This morning I cleaned up the baby bottles and high chair. It is something I do every day as the mother does not understand keeping things clean.  I just got through feeding the baby lunch.  I'll be alone with her until about six tonight.  In truth, I am a sort of part time mother to her.  It will soon be time to put her down for a nap.  I have grown close to her. I hope every day that she has a bright and safe future. I worry all the time about what will happen if CPS gives her back to her mother.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed1c66ac70f5f-EWR"
+    }
+}

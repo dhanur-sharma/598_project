@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was such a treat going to see our first movie in the theatre as a family. My sister and both took our kids together. Her kids are the same ages as mine. We went to see The Lion King. I remember seeing this same movie as a child with my parents and siblings. It brought back such strong emotions that I teared up right there in the theatre. The theatre itself has changed since I was a kid. The seats now are cushioned and recline. There's an ordering service for food and drink. Probably the biggest difference though was the high cost to see a movie. Despite the cost, we had a great time. This was 2 months ago now but I still think about it often. I remember that my youngest sat on my lap while my older child sat beside me and held my hand. My sister's kids did a lot of whispering back and forth at first but eventually settled down to watch the movie. The kids ordered some cookies to eat there and they were freshly baked while we waited. It was a memorable experience that I am excited to be repeating when the new Trolls movie comes out in March."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was such a treat going to see our first movie in the theatre as a family. My sister and both took our kids together. Her kids are the same ages as mine. We went to see The Lion King. I remember seeing this same movie as a child with my parents and siblings. It brought back such strong emotions that I teared up right there in the theatre. The theatre itself has changed since I was a kid. The seats now are cushioned and recline. There's an ordering service for food and drink. Probably the biggest difference though was the high cost to see a movie. Despite the cost, we had a great time. This was 2 months ago now but I still think about it often. I remember that my youngest sat on my lap while my older child sat beside me and held my hand. My sister's kids did a lot of whispering back and forth at first but eventually settled down to watch the movie. The kids ordered some cookies to eat there and they were freshly baked while we waited. It was a memorable experience that I am excited to be repeating when the new Trolls movie comes out in March.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaaf82b2c0cac-EWR"
+    }
+}

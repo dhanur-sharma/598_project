@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago today I married the love of my life. She, the woman of my dreams and made me the happiest person in the world. I cherrish this woman to no end and cannot see myself with anyone else. My parent made my wedding the best I've seen in forever. We had great decorations, flowers, and the church looked beautiful. All of my friends and family made this day the most special. I love celebrating with friends and mostly my family. We took several pictures to remember this day and to tell our children and grandchildren. I love this woman. We have only begun to start the best days of our lives. We met merely five years ago. I knew the day I met her she would be the one. I wonder if she'll want to have 6 kids. I would love to share our lives with several family members. Family is very important."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago today I married the love of my life. She, the woman of my dreams and made me the happiest person in the world. I cherrish this woman to no end and cannot see myself with anyone else. My parent made my wedding the best I've seen in forever. We had great decorations, flowers, and the church looked beautiful. All of my friends and family made this day the most special. I love celebrating with friends and mostly my family. We took several pictures to remember this day and to tell our children and grandchildren. I love this woman. We have only begun to start the best days of our lives. We met merely five years ago. I knew the day I met her she would be the one. I wonder if she'll want to have 6 kids. I would love to share our lives with several family members. Family is very important.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am the happiest person alive.\n\n"
+            }
+        ],
+        "request_id": "811f37df3ab442ce-EWR"
+    }
+}

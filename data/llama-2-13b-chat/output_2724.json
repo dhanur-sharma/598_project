@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I was saddened and astonished to learn that my friend died in a car crash. We had been quite close and known each other for years; we'd met in college where we became fast friends after randomly sitting together in the cafeteria one day. I still can't believe he's gone, I can't believe I'll never speak to him again. We had so many little jokes and shared experiences I will no longer be able to share with anyone else. Heck, sometimes I feel like we had our own little language. One year, for spring break, we went to Mexico City together. Rather than engage in the usual beach debauchery, we wanted to have a calmer experience. We traversed the city, trying to learn more about its politics and history. We couchsurfed with a cool couple of twenty year olds who were sort of bohemian. We felt so inspired, we all wrote a poetry chapbook together! I loved my friend's writing--he had a way of incorporating language with emotion in an incomparable way. God, I will miss him. I don't even know if I'll ever be able to read his poetry again--it might hurt too much. I feel even worse for his family though. They were blindsided most of all. I hope we can all come together and find some collective comfort."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I was saddened and astonished to learn that my friend died in a car crash. We had been quite close and known each other for years; we'd met in college where we became fast friends after randomly sitting together in the cafeteria one day. I still can't believe he's gone, I can't believe I'll never speak to him again. We had so many little jokes and shared experiences I will no longer be able to share with anyone else. Heck, sometimes I feel like we had our own little language. One year, for spring break, we went to Mexico City together. Rather than engage in the usual beach debauchery, we wanted to have a calmer experience. We traversed the city, trying to learn more about its politics and history. We couchsurfed with a cool couple of twenty year olds who were sort of bohemian. We felt so inspired, we all wrote a poetry chapbook together! I loved my friend's writing--he had a way of incorporating language with emotion in an incomparable way. God, I will miss him. I don't even know if I'll ever be able to read his poetry again--it might hurt too much. I feel even worse for his family though. They were blindsided most of all. I hope we can all come together and find some collective comfort.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm not sure how, though. I guess we'll just have to take it one day at a time."
+            }
+        ],
+        "request_id": "811ebc481c1c1906-EWR"
+    }
+}

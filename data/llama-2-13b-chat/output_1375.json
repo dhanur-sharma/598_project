@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I went on a trip to Texas five months ago.  My son was graduating Corpsman School in the Navy and we were headed to the graduation.  We decided to drive because it was cheaper than flying and there was three of us.   On the way we could stop and see family members I haven't seen in a few years.  We packed up snacks and sandwiches for the road trip and was on our way.  We were so excited to see our son.  He has been away for almost a year and this was the first time we got to see him.    It took us two days to get there and and the first night we stayed with family.  It was so nice to see my mom and sister.  We all went out to eat and tried to catch up as much as we could.  We called it a night about eight because we needed to get up at three to get moving on the last stretch.  The trip itself was fun.  We all love road trips and this one we got to see places we have never seen before.  We got to Houston, Texas  around four in the afternoon.  We checked into our hotel and headed down to the restaurant to get dinner.  The next morning we got up real early.  We headed over to the base, checked in and tried to find a parking spot.  It took awhile and we were almost late to the ceremony.  We then walked over to the auditorium.  We were seated and then watched as all the sailors came in and sat down.  The ceremony was awesome and afterwards we got to spend the rest of the day with my son.  It was so nice to see him again.  At the end of the day we said goodbye and headed back to our hotel.  The next day it was back on the road again.   It was such a nice trip even though we were short on time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I went on a trip to Texas five months ago.  My son was graduating Corpsman School in the Navy and we were headed to the graduation.  We decided to drive because it was cheaper than flying and there was three of us.   On the way we could stop and see family members I haven't seen in a few years.  We packed up snacks and sandwiches for the road trip and was on our way.  We were so excited to see our son.  He has been away for almost a year and this was the first time we got to see him.    It took us two days to get there and and the first night we stayed with family.  It was so nice to see my mom and sister.  We all went out to eat and tried to catch up as much as we could.  We called it a night about eight because we needed to get up at three to get moving on the last stretch.  The trip itself was fun.  We all love road trips and this one we got to see places we have never seen before.  We got to Houston, Texas  around four in the afternoon.  We checked into our hotel and headed down to the restaurant to get dinner.  The next morning we got up real early.  We headed over to the base, checked in and tried to find a parking spot.  It took awhile and we were almost late to the ceremony.  We then walked over to the auditorium.  We were seated and then watched as all the sailors came in and sat down.  The ceremony was awesome and afterwards we got to spend the rest of the day with my son.  It was so nice to see him again.  At the end of the day we said goodbye and headed back to our hotel.  The next day it was back on the road again.   It was such a nice trip even though we were short on time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We got to see family, spend time with our son, and see new places.  It was well worth the drive."
+            }
+        ],
+        "request_id": "811ea39f5ffb4237-EWR"
+    }
+}

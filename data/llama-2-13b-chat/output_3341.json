@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear DiaryLast September I came out to my dad. Since the holidays I've been thinking about it a lot. I am so grateful for how he reacted as I expected it to go so much worse. Coming from such a religious family, I expected them to reject me for being gay. It was so hard going to Catholic school and keeping a secret for so long. I knew the kids in my class wouldn't accept me. I thought my family would feel the same way. Turns out I was wrong, because dad already knew. When I came out to him, he said he suspected as much and was just waiting for me to say so. He asked if I was sure, and of course I was. And then he just said \"ok\". I think he wishes I was straight, but he wants me to be happy. I think my brother isn't totally accepting of this yet, but he's not being as bad about it as I thought he would. Maybe dad said something to him. It's helping me a lot to think about how my family has accepted me for who I am, when I meet people who don't act like I want them to. I try to be understanding and accept them the way they are. I'm working on it anyway."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear DiaryLast September I came out to my dad. Since the holidays I've been thinking about it a lot. I am so grateful for how he reacted as I expected it to go so much worse. Coming from such a religious family, I expected them to reject me for being gay. It was so hard going to Catholic school and keeping a secret for so long. I knew the kids in my class wouldn't accept me. I thought my family would feel the same way. Turns out I was wrong, because dad already knew. When I came out to him, he said he suspected as much and was just waiting for me to say so. He asked if I was sure, and of course I was. And then he just said \"ok\". I think he wishes I was straight, but he wants me to be happy. I think my brother isn't totally accepting of this yet, but he's not being as bad about it as I thought he would. Maybe dad said something to him. It's helping me a lot to think about how my family has accepted me for who I am, when I meet people who don't act like I want them to. I try to be understanding and accept them the way they are. I'm working on it anyway.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe someday I'll find someone who likes me for who I am, and it will be a great feeling. I'm glad I have my family. They are awesome."
+            }
+        ],
+        "request_id": "811ec94acc3b8c59-EWR"
+    }
+}

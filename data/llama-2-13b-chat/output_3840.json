@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has just been a couple weeks for me in this town. But i have started to enjoy it above everything else. The countryside is lovely and refreshing. Which is why i started to run in the morning. The wind, the mist, the people.. It has always been interesting. I was out on my usual run this morning. I met this happy camper on the way. He was tall, with a long beard. He was attractive too. He had a sense of wisdom about him, far beyond his age. We got to talking. And i was pleasantly surprised that he couldn't shut up about the town. He shared many interesting stories about this place. He was talking all the way to his cabin and invited me in. Perhaps i might pay him a visit."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has just been a couple weeks for me in this town. But i have started to enjoy it above everything else. The countryside is lovely and refreshing. Which is why i started to run in the morning. The wind, the mist, the people.. It has always been interesting. I was out on my usual run this morning. I met this happy camper on the way. He was tall, with a long beard. He was attractive too. He had a sense of wisdom about him, far beyond his age. We got to talking. And i was pleasantly surprised that he couldn't shut up about the town. He shared many interesting stories about this place. He was talking all the way to his cabin and invited me in. Perhaps i might pay him a visit.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He said he had some tea to share and i was welcomed. So i went in. And it was the most amazing tea i ever had. It was sweet and flavorful and had the perfect amount of spice. I would love to go back there again."
+            }
+        ],
+        "request_id": "811ed2401eb90fa7-EWR"
+    }
+}

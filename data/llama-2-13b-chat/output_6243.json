@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few years ago I moved to a new town.  I move when I went through a divorce.  I didn't know anyone.  I didn't even really leave my house except to go shopping for the first two years.  I finally met a woman.  She became my girlfriend. But, I still didn't have any friends.  My family lives literally a thousand miles away.  I felt very lonely during this time. She started working at a bar a few months ago. I would go and pick her up and have a few drinks with her.  Some of the regular people that she worked with started talking to me. Luckily I became friends with them.  It brought me out of my shell.  Now I have an active social life and people that I can turn to locally for support when I need it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few years ago I moved to a new town.  I move when I went through a divorce.  I didn't know anyone.  I didn't even really leave my house except to go shopping for the first two years.  I finally met a woman.  She became my girlfriend. But, I still didn't have any friends.  My family lives literally a thousand miles away.  I felt very lonely during this time. She started working at a bar a few months ago. I would go and pick her up and have a few drinks with her.  Some of the regular people that she worked with started talking to me. Luckily I became friends with them.  It brought me out of my shell.  Now I have an active social life and people that I can turn to locally for support when I need it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f41c07a0dc457-EWR"
+    }
+}

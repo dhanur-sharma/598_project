@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been 6 months since my beloved cat dyed. His name was Kich. He was 17. He was one of the best things to ever happen to me, hands down. He was black, long, and thin with elegant features. He lived a good life despite illnesses. He was such a good and sweet buddy, my most precious gift to have ever received from life. Now that I look back on it, I thought he was going to live strong seemingly forever because he could escape brushes with death and seemed that he could last longer, but slowly, his health started to decline until it was snowballing. I said goodbye to him in disbelief that he was really gone, that I couldn't do anything to keep him here, that I couldn't take away his suffering. I will never forget the moments when I saw him slip away forever. Just a couple days later, my other cat who lived with my ex husband died. He died at home of old age, just as his brother had. I still can't believe both my boys are gone and there's a part of my heart that is so empty without them. The only thing that makes it ok is that nothing can hurt my boys anymore. I guess this is the price to pay to make sure they no longer suffer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been 6 months since my beloved cat dyed. His name was Kich. He was 17. He was one of the best things to ever happen to me, hands down. He was black, long, and thin with elegant features. He lived a good life despite illnesses. He was such a good and sweet buddy, my most precious gift to have ever received from life. Now that I look back on it, I thought he was going to live strong seemingly forever because he could escape brushes with death and seemed that he could last longer, but slowly, his health started to decline until it was snowballing. I said goodbye to him in disbelief that he was really gone, that I couldn't do anything to keep him here, that I couldn't take away his suffering. I will never forget the moments when I saw him slip away forever. Just a couple days later, my other cat who lived with my ex husband died. He died at home of old age, just as his brother had. I still can't believe both my boys are gone and there's a part of my heart that is so empty without them. The only thing that makes it ok is that nothing can hurt my boys anymore. I guess this is the price to pay to make sure they no longer suffer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will always cherish the memories of my boys, the joy they brought to my life, and the love they showed me. I will miss them forever."
+            }
+        ],
+        "request_id": "811ea77d7b5b23a0-EWR"
+    }
+}

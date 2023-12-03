@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was night time. I was in bed getting ready to fall asleep. My brother came in and sat on the edge of the bed. He told me that Pa had passed. I couldn't speak. I just stared up at the ceiling and tried to muffle my cries. When my brother left, I went outside to go to my uncle's house. After I calmed down over there, I went back home. The emotions hit me again. I spent most of the night crying and couldn't fall asleep. I even tried taking a sleeping pill, but it didn't help. I just kept thinking about how he was gone and what all I should have done and said. I couldn't believe that he had passed away, especially since I had seen him only a couple days before. I knew he was getting older and that the time was coming, but it still took me by surprise. I just wish I could talk to him one more time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was night time. I was in bed getting ready to fall asleep. My brother came in and sat on the edge of the bed. He told me that Pa had passed. I couldn't speak. I just stared up at the ceiling and tried to muffle my cries. When my brother left, I went outside to go to my uncle's house. After I calmed down over there, I went back home. The emotions hit me again. I spent most of the night crying and couldn't fall asleep. I even tried taking a sleeping pill, but it didn't help. I just kept thinking about how he was gone and what all I should have done and said. I couldn't believe that he had passed away, especially since I had seen him only a couple days before. I knew he was getting older and that the time was coming, but it still took me by surprise. I just wish I could talk to him one more time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eac716a6cc334-EWR"
+    }
+}

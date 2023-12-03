@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got the worst news today! I am feeling so terrified and sad. It all started when I went in to my doctor's office for a regular a checkup. Then, he gave me the news that I had developed type 2 diabetes! I was really shocked. I felt so sad and ashamed. I am really afraid. I'll have to change so much in my life now. I don't know what types of pains I will suffer in the future because of this. I am especially terrified and heartbroken because of what happened with my sister. She passed away a few years ago. I never expected to be diagnosed with the same disease she died from. I guess it would be something that runs in my family. I am so upset and afraid. I  need to talk to my mom. I hope it all works out okay."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got the worst news today! I am feeling so terrified and sad. It all started when I went in to my doctor's office for a regular a checkup. Then, he gave me the news that I had developed type 2 diabetes! I was really shocked. I felt so sad and ashamed. I am really afraid. I'll have to change so much in my life now. I don't know what types of pains I will suffer in the future because of this. I am especially terrified and heartbroken because of what happened with my sister. She passed away a few years ago. I never expected to be diagnosed with the same disease she died from. I guess it would be something that runs in my family. I am so upset and afraid. I  need to talk to my mom. I hope it all works out okay.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e93b15e584234-EWR"
+    }
+}

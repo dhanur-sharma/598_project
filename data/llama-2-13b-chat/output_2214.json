@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Hello dairy, my first surgery happened few weeks ago at the Central City hospital. if you must know, it was not a pleasant experience. As an IT personnel, After each work Day I usually located the nearest bar to relax and have a glass of drink. It all began one night, I was up due to a severe pain in my stomach. I took pain killers to ease the pain as I thought pain Killers would make me fine unfortunately the pain kept coming back. At first I thought I knew what was wrong with me. Drinks. I stopped taking all drinks except water. few days later, I started having the same trouble right in my Office. I wanted to come home First . Oh Gush! My stomach hurts. I held on to myself. security men noticed something was wrong with me as I walked out of the office building. I dont want to draw attention. \"No one here needs to know what is going on with me\" i thought as I dragged myself to the car. Can I drive? my hands were trembling. I knew I had to call for help or else I might loose myself. My phone, I started searching for my Phone. I wanted to call out for Help. that was when I passed Out! Yes! the next thing I remember was being on the Hospital bed. Surgery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Hello dairy, my first surgery happened few weeks ago at the Central City hospital. if you must know, it was not a pleasant experience. As an IT personnel, After each work Day I usually located the nearest bar to relax and have a glass of drink. It all began one night, I was up due to a severe pain in my stomach. I took pain killers to ease the pain as I thought pain Killers would make me fine unfortunately the pain kept coming back. At first I thought I knew what was wrong with me. Drinks. I stopped taking all drinks except water. few days later, I started having the same trouble right in my Office. I wanted to come home First . Oh Gush! My stomach hurts. I held on to myself. security men noticed something was wrong with me as I walked out of the office building. I dont want to draw attention. \"No one here needs to know what is going on with me\" i thought as I dragged myself to the car. Can I drive? my hands were trembling. I knew I had to call for help or else I might loose myself. My phone, I started searching for my Phone. I wanted to call out for Help. that was when I passed Out! Yes! the next thing I remember was being on the Hospital bed. Surgery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was in the theatre. The doctor told me I had to undergo a surgery. My appendix was about to burst. I was scared. I could not believe I had to undergo a surgery. I was too weak to even talk. the next thing I knew was waking up from the theatre. I was in pain. I was weak. I could not even talk. I was on the Hospital bed. I was scared. I did not know what was happening. I was alone. I was afraid. I was too weak to even call out for help. I was scared. I was alone. I wanted to go home. I did not want to be in the hospital. I wanted to be back to my normal self. I wanted to be back to my work. I wanted to be back to my drinks. I was scared. I was alone.\n\n"
+            }
+        ],
+        "request_id": "811eb284b8e88ca5-EWR"
+    }
+}

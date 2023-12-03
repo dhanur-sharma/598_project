@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, we went to Taiwan. We visited my Wife's mother. She was there to treat her cancer. I gave her a big hug. We both shared a cry over the bad news. We talked about how our lives were going. My wife got a promotion at her job. She got double her pay and some more vacation days. I just made a new product. It will be hitting the stores soon. I hope to make a lot of money off of this invention. My Wife's mother has just been lying in the bed. The doctor came over and had really bad news. He said that the cancer got worse. We had to leave. I don't know if we'll ever see her ever again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, we went to Taiwan. We visited my Wife's mother. She was there to treat her cancer. I gave her a big hug. We both shared a cry over the bad news. We talked about how our lives were going. My wife got a promotion at her job. She got double her pay and some more vacation days. I just made a new product. It will be hitting the stores soon. I hope to make a lot of money off of this invention. My Wife's mother has just been lying in the bed. The doctor came over and had really bad news. He said that the cancer got worse. We had to leave. I don't know if we'll ever see her ever again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will miss her so much.\n\n"
+            }
+        ],
+        "request_id": "811f46c6c9df0f3d-EWR"
+    }
+}

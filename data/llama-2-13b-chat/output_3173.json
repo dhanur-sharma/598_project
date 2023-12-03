@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a Mediterranean cruise with family. There were 12 of us who traveled together. The cruise was for my in-laws 55th anniversary, so they took the whole family. The trip started with a flight to Barcelona, Spain. We spent the night there before boarding the ship. The cruise lasted for one week and included stops in Spain, France, and Italy. We went on excursions almost every day. The weather was very hot, as there was a heat wave in Europe. The buses we took for excursions had very little air conditioning, making the trips miserably hot. In general, we had fun, however the days were very long and tiring. The food on the boat was another negative part of the trip. We had many food allergies in the group, and they did not do a good job accommodating. I've been on other cruises where they over accommodated for allergies, but this ship did not meet those expectations. All-in-all, I'm happy I had this experience and I saw a lot of places I would want to visit again. However, I do not have a desire to go on the particular cruise or cruise line again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a Mediterranean cruise with family. There were 12 of us who traveled together. The cruise was for my in-laws 55th anniversary, so they took the whole family. The trip started with a flight to Barcelona, Spain. We spent the night there before boarding the ship. The cruise lasted for one week and included stops in Spain, France, and Italy. We went on excursions almost every day. The weather was very hot, as there was a heat wave in Europe. The buses we took for excursions had very little air conditioning, making the trips miserably hot. In general, we had fun, however the days were very long and tiring. The food on the boat was another negative part of the trip. We had many food allergies in the group, and they did not do a good job accommodating. I've been on other cruises where they over accommodated for allergies, but this ship did not meet those expectations. All-in-all, I'm happy I had this experience and I saw a lot of places I would want to visit again. However, I do not have a desire to go on the particular cruise or cruise line again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec5741c874385-EWR"
+    }
+}

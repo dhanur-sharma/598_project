@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June, I went to Vietnam. I've always wanted to ride a motorcycle across the country while tasting delicious food along the way. It seemed like an idyllic adventure. Many tourists do it and the Top Gear episode on Vietnam was pretty great. In June, I had the opportunity to go and live out that dream. I arrived in Ho Chi Minh City which is still called Saigon there. I will be referring to it as Saigon. I'd been there a couple of times before and it was as chaotic as usual. The first time crossing the street was hard. I'm use to crosswalks, drivers stopping or atleast slowing down, and 95 percent less people on scooters and motorcycles (which from now on I will collectively call motorbikes) . In Vietnam, if you want to get from one side of the street to another, you just walk with confidence and predictability and the motorbikes will just move around you. Traffic in Saigon is madness. So many people, so many motorbikes, so many cars. And rules I didn't read up on. I bought a motorbike. It was a 125cc underbone scooter. Getting out of Saigon sucked. Heavy traffic and lots of exhaust fumes. But once out to Saigon and on a road less traveled, being on a motorbike, even an underpowered one, was incredible."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June, I went to Vietnam. I've always wanted to ride a motorcycle across the country while tasting delicious food along the way. It seemed like an idyllic adventure. Many tourists do it and the Top Gear episode on Vietnam was pretty great. In June, I had the opportunity to go and live out that dream. I arrived in Ho Chi Minh City which is still called Saigon there. I will be referring to it as Saigon. I'd been there a couple of times before and it was as chaotic as usual. The first time crossing the street was hard. I'm use to crosswalks, drivers stopping or atleast slowing down, and 95 percent less people on scooters and motorcycles (which from now on I will collectively call motorbikes) . In Vietnam, if you want to get from one side of the street to another, you just walk with confidence and predictability and the motorbikes will just move around you. Traffic in Saigon is madness. So many people, so many motorbikes, so many cars. And rules I didn't read up on. I bought a motorbike. It was a 125cc underbone scooter. Getting out of Saigon sucked. Heavy traffic and lots of exhaust fumes. But once out to Saigon and on a road less traveled, being on a motorbike, even an underpowered one, was incredible.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The roads are in great shape, and the scenery is breathtaking. I rode through mountains and rice fields, past villages and rivers, and over long bridges. I stopped at local places and tried some delicious street food. I met a lot of friendly people along the way who would talk to me for hours and invite me to their homes. I was welcomed into their lives and I will never forget the kindness and generosity of the Vietnamese people. I rode for 10 days, over 1,000 miles, and had the time of my life. I was sad to leave Vietnam but I know I'll be back. I've fallen in love with the country and its people. And I'll be sure to bring my motorbike next time."
+            }
+        ],
+        "request_id": "811f4d32df1a0f70-EWR"
+    }
+}

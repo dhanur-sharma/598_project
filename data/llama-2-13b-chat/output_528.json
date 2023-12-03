@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After my raise and promotion, everything seemed to be going in the right direction. I was able to become certified in something that helped my resume grow. And it added to my experience. Thanks to this new certification on my resume. I was able to apply to several other positions with other companies. These are places that I wasn't able to apply to before. I wasn't sure if I was actually going to leave my job or not. I just wanted to keep my options open. It had been a while and I hadn't heard back from any of the places I applied to. So I just figured that they must not be hiring. And that I would probably be stuck where I was for a while. However, I unexpected received a phone call one day with an amazing offer. They were very interested in my experience. And thanks to my new certification from my former company, I was able to recieve a much better offer/salary. In the end, even though I received a raise and promotion from my former job, I ended up benefiting more from leaving and going with a new company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After my raise and promotion, everything seemed to be going in the right direction. I was able to become certified in something that helped my resume grow. And it added to my experience. Thanks to this new certification on my resume. I was able to apply to several other positions with other companies. These are places that I wasn't able to apply to before. I wasn't sure if I was actually going to leave my job or not. I just wanted to keep my options open. It had been a while and I hadn't heard back from any of the places I applied to. So I just figured that they must not be hiring. And that I would probably be stuck where I was for a while. However, I unexpected received a phone call one day with an amazing offer. They were very interested in my experience. And thanks to my new certification from my former company, I was able to recieve a much better offer/salary. In the end, even though I received a raise and promotion from my former job, I ended up benefiting more from leaving and going with a new company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad that I decided to keep my options open and not be afraid to take a chance.\n\n"
+            }
+        ],
+        "request_id": "811e9364290d4289-EWR"
+    }
+}

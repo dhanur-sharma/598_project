@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This sucks so bad. I can't even start to describe how I regret going on that hike the other day. It was all good and fun until I slipped on that tree root and fell and broke my ankle. I should so have stayed home that day. But the weather was so beautiful and I just wanted to take advantage of it and be surrounded by nature. And it was amazing before this whole crap happened. The woods were lovely, fragrant and green and all alive with cute critters, birds etc. I saw a few chipmunks and tons of birds, some of them very colorful. And I did feel so close to what was happening in the present. It was like all my worries were gone and I was just being there. And the waterfalls... So pure and gorgeous and sweet. But oh my God the pain and the shock of falling and twisting my ankle so badly. And hearing it break. Oh God, I have shivers just thinking of it. And not good shivers. This so sucks... Now I'm going to be with crutches for at least a month, probably more like a month and a half. And then PT, and so much work. Things happen so fast sometimes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This sucks so bad. I can't even start to describe how I regret going on that hike the other day. It was all good and fun until I slipped on that tree root and fell and broke my ankle. I should so have stayed home that day. But the weather was so beautiful and I just wanted to take advantage of it and be surrounded by nature. And it was amazing before this whole crap happened. The woods were lovely, fragrant and green and all alive with cute critters, birds etc. I saw a few chipmunks and tons of birds, some of them very colorful. And I did feel so close to what was happening in the present. It was like all my worries were gone and I was just being there. And the waterfalls... So pure and gorgeous and sweet. But oh my God the pain and the shock of falling and twisting my ankle so badly. And hearing it break. Oh God, I have shivers just thinking of it. And not good shivers. This so sucks... Now I'm going to be with crutches for at least a month, probably more like a month and a half. And then PT, and so much work. Things happen so fast sometimes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still in shock. But I guess that's life.\n\n"
+            }
+        ],
+        "request_id": "811f430e8d36c32d-EWR"
+    }
+}

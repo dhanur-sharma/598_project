@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In my quest to locate my ancestors, I decided to do a DNA test and was so surprised to find that I did have a second cousin whom I did not know.  It was such a surprise because I thought I knew everyone in our family, at least those in our immediate circle.  When I got a notification that this person would like to contact me I was so happy and intrigued. The surprising thing after we communicated that she lived in my own community just  mile or away. I have always believed that there are no coincidences that most things in your life are placed there at just the right time. My new cousin told me that she had never been able to find out where she came from and it was so important to her self identity. We got together and shared photos and stories about our past. Come to find out, her mother and I actually attended the same university at the same time. We graduated the same year. We have planned a large family reunion next summer. This should acquaint her with the rest of the family. She is so grateful. We still can't believe we live so close. Our family is so excited to meet her and to hear her story. I will never forget this entire experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In my quest to locate my ancestors, I decided to do a DNA test and was so surprised to find that I did have a second cousin whom I did not know.  It was such a surprise because I thought I knew everyone in our family, at least those in our immediate circle.  When I got a notification that this person would like to contact me I was so happy and intrigued. The surprising thing after we communicated that she lived in my own community just  mile or away. I have always believed that there are no coincidences that most things in your life are placed there at just the right time. My new cousin told me that she had never been able to find out where she came from and it was so important to her self identity. We got together and shared photos and stories about our past. Come to find out, her mother and I actually attended the same university at the same time. We graduated the same year. We have planned a large family reunion next summer. This should acquaint her with the rest of the family. She is so grateful. We still can't believe we live so close. Our family is so excited to meet her and to hear her story. I will never forget this entire experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is so amazing to me that we can find family through DNA and how it can change our lives. I will continue to do DNA tests to see if there are any other surprises waiting for me.\n\n"
+            }
+        ],
+        "request_id": "811f43d918e11885-EWR"
+    }
+}

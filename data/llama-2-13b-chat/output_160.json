@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Me and my team were sent out to run a program. This consisted of me and a few fellow coworkers. Our job was to run and make sure a large recruiting event goes smoothly as planned. We had access to about 5 large event rooms in a hotel. All filled with a total of 300 potential recruits/clients. This was a very big deal, and many upper level directors/executives were there to show face and talk and stuff. However, all of a sudden there was an issue with connection, keep in mind every recruit had our technology and were testing/using them. Nothing was logging in, no programs were launching, etc. This would be a game ender if not figured out right then and there. So I was able to re-route the entire back-end connections and almost luckily did the right thing and saved that entire project and live presentations from complete failure. That's what got me noticed and praised. It was funny but also a very awesome moment. It's because of this event that I was able to jump up very quickly in the company. It's amazing to me how you can sit there every day and grind it out for nothing. Or you can do one unique thing and that is what people know."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Me and my team were sent out to run a program. This consisted of me and a few fellow coworkers. Our job was to run and make sure a large recruiting event goes smoothly as planned. We had access to about 5 large event rooms in a hotel. All filled with a total of 300 potential recruits/clients. This was a very big deal, and many upper level directors/executives were there to show face and talk and stuff. However, all of a sudden there was an issue with connection, keep in mind every recruit had our technology and were testing/using them. Nothing was logging in, no programs were launching, etc. This would be a game ender if not figured out right then and there. So I was able to re-route the entire back-end connections and almost luckily did the right thing and saved that entire project and live presentations from complete failure. That's what got me noticed and praised. It was funny but also a very awesome moment. It's because of this event that I was able to jump up very quickly in the company. It's amazing to me how you can sit there every day and grind it out for nothing. Or you can do one unique thing and that is what people know.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So that's my story.\n\n"
+            }
+        ],
+        "request_id": "811e8cc19d4d0f4d-EWR"
+    }
+}

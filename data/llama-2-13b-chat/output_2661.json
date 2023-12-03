@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few years ago I went to a rave. From ages 17-24 I had been doing a lot of drugs and partying with friends. I would honestly drink and drive quite a bit. Never had any problems. But then one night I got wasted. I left the rave alone at around 1am. I was wandering drunk and lost, couldn't find my car for an hour. Finally I find it just a block away but was too drunk to figure that out. I chose it's time to drive home about an hour away. I'm driving down the highway when I see a construction zone ahead. Somehow I managed to drive into the construction zone area instead of turning left to continue down the highway. Just as I was back out to leave the area a cop pulls up next to me. He asks me what I'm doing, I just say guess I'm a bit lost. Next thing I know I'm getting arrested for a DUI. I get taken to jail, car gets impounded. This was a very annoying period of my life and I have never drank and drove since."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few years ago I went to a rave. From ages 17-24 I had been doing a lot of drugs and partying with friends. I would honestly drink and drive quite a bit. Never had any problems. But then one night I got wasted. I left the rave alone at around 1am. I was wandering drunk and lost, couldn't find my car for an hour. Finally I find it just a block away but was too drunk to figure that out. I chose it's time to drive home about an hour away. I'm driving down the highway when I see a construction zone ahead. Somehow I managed to drive into the construction zone area instead of turning left to continue down the highway. Just as I was back out to leave the area a cop pulls up next to me. He asks me what I'm doing, I just say guess I'm a bit lost. Next thing I know I'm getting arrested for a DUI. I get taken to jail, car gets impounded. This was a very annoying period of my life and I have never drank and drove since.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebaf83ddd5e6d-EWR"
+    }
+}

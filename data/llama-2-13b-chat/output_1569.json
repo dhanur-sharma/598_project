@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Around my mother's birthday, we had all decided to take her to the Florida Keys for a vacation. She had always wanted to go to the beach for her birthday. We had gotten a great deal on some rooms for a hotel and just thought, this is perfect! The bad thing was that we had to drive down to Florida. We live in Minnesota. We rented a van, so we could all do together in one van. Packing about a weeks worth of stuff and fitting 4 people into a van was a task! We ended up fitting everyone comfortably and at three in the morning, started the long ride to the Keys. The drive seemed to take forever. It was filled with stopping and going. The traffic was a mess most of the way. So much of the roads we were on were being worked on, which meant that it was slow going. It took us 2 days to get there! Despite the mess of the roads and how long it took, it was worth the drive. We bonded and had a really great time!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Around my mother's birthday, we had all decided to take her to the Florida Keys for a vacation. She had always wanted to go to the beach for her birthday. We had gotten a great deal on some rooms for a hotel and just thought, this is perfect! The bad thing was that we had to drive down to Florida. We live in Minnesota. We rented a van, so we could all do together in one van. Packing about a weeks worth of stuff and fitting 4 people into a van was a task! We ended up fitting everyone comfortably and at three in the morning, started the long ride to the Keys. The drive seemed to take forever. It was filled with stopping and going. The traffic was a mess most of the way. So much of the roads we were on were being worked on, which meant that it was slow going. It took us 2 days to get there! Despite the mess of the roads and how long it took, it was worth the drive. We bonded and had a really great time!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The best part was seeing my mom's face when we arrived at the beach. She was so happy and excited!\n\n"
+            }
+        ],
+        "request_id": "811ea7055a03c45e-EWR"
+    }
+}

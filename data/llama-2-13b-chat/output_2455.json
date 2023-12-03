@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The hard work has finally paid off. I worked three jobs while going to college and it never seemed like the end was in sight. It was always an uphill climb. There were times I did not have enough time to manage the work load. I even failed a few classes. I always had to remember it does not matter how many times I fall, but how many times I am am going to get back up and keep going.  After three long years at community college I finally got my Associates Degree. This may not seem that special to some people, but to me it meant the world. It was worth every sleepless night. Walking down the aisle with my friends and family watching me was the best feeling ever. I am able to show my siblings that no matter how long something takes as long as you set your mind to it, you can achieve it in the end. I have graduated with a business management degree and have been a manager for 6 years. I plan on continuing my career in management and using my hard work, determination, and degree to continue making stepping stones into my future success. It was such a special time in my life. It sometimes feels like you will never reach the goal, but then you do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The hard work has finally paid off. I worked three jobs while going to college and it never seemed like the end was in sight. It was always an uphill climb. There were times I did not have enough time to manage the work load. I even failed a few classes. I always had to remember it does not matter how many times I fall, but how many times I am am going to get back up and keep going.  After three long years at community college I finally got my Associates Degree. This may not seem that special to some people, but to me it meant the world. It was worth every sleepless night. Walking down the aisle with my friends and family watching me was the best feeling ever. I am able to show my siblings that no matter how long something takes as long as you set your mind to it, you can achieve it in the end. I have graduated with a business management degree and have been a manager for 6 years. I plan on continuing my career in management and using my hard work, determination, and degree to continue making stepping stones into my future success. It was such a special time in my life. It sometimes feels like you will never reach the goal, but then you do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was worth every sacrifice."
+            }
+        ],
+        "request_id": "811eb71bed0d189d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, I had the most wonderful wedding. My family and friends were there to help us celebrate. We planned every detail of our special day from food, decorations and flowers.  It wasn't a very large wedding, but it was special none the less. It took place on the beach in front of turquise colored water. The natural environement was more beautiful than the decorations. My dress was simple. I wanted to be comfortable, and I didn't tell everyone what they had to wear. We wrote our own vows and recited them in a meaningful way. Looking back at the pictures brings tears to my eyes. It was one of the best planned events that has ever taken place in my life. What was most amazing is that everything went perfectly and everyone had a wonderful time. Marrying one's best friend is a very satisfying thing. If I could do it all again I would.  I have dryed some of the flowers as a memory and plan to put them in a shadow box."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, I had the most wonderful wedding. My family and friends were there to help us celebrate. We planned every detail of our special day from food, decorations and flowers.  It wasn't a very large wedding, but it was special none the less. It took place on the beach in front of turquise colored water. The natural environement was more beautiful than the decorations. My dress was simple. I wanted to be comfortable, and I didn't tell everyone what they had to wear. We wrote our own vows and recited them in a meaningful way. Looking back at the pictures brings tears to my eyes. It was one of the best planned events that has ever taken place in my life. What was most amazing is that everything went perfectly and everyone had a wonderful time. Marrying one's best friend is a very satisfying thing. If I could do it all again I would.  I have dryed some of the flowers as a memory and plan to put them in a shadow box.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd1c56f8a4288-EWR"
+    }
+}

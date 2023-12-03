@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The court declared me victor. Now I am practically a single dad with three kids. Although my ex-wife and I share custody, I am custodial parent. Meaning, I have my kids 287 days out the year! While my ex-wife gets them only every other weekend, or 78 days out the year. The magnitude of it inflicts me with self-doubt. Questions swirl in my head. How am I going to raise two females? What about my daughters' first menstrual cycles? And what about my son? Will he have momma issues? Will he struggle with romantic relationships? I no longer felt so victorious. Instead, I felt unqualified and overwhelmed. Then something major happened: my ex-wife's boyfriend went to jail and is facing a huge prison sentence. Since his incarceration, my ex-wife and I get along wonderfully. We're talking and even hanging out a bit. I drop the kids off and everyone is happy. The ex-wife expresses some regrets. Maybe she's just crushed under the load of child support. Does she deserve a second chance? Will we get back together? Should I forgive her? Am I a fool? Only time will tell."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The court declared me victor. Now I am practically a single dad with three kids. Although my ex-wife and I share custody, I am custodial parent. Meaning, I have my kids 287 days out the year! While my ex-wife gets them only every other weekend, or 78 days out the year. The magnitude of it inflicts me with self-doubt. Questions swirl in my head. How am I going to raise two females? What about my daughters' first menstrual cycles? And what about my son? Will he have momma issues? Will he struggle with romantic relationships? I no longer felt so victorious. Instead, I felt unqualified and overwhelmed. Then something major happened: my ex-wife's boyfriend went to jail and is facing a huge prison sentence. Since his incarceration, my ex-wife and I get along wonderfully. We're talking and even hanging out a bit. I drop the kids off and everyone is happy. The ex-wife expresses some regrets. Maybe she's just crushed under the load of child support. Does she deserve a second chance? Will we get back together? Should I forgive her? Am I a fool? Only time will tell.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead443db10f43-EWR"
+    }
+}

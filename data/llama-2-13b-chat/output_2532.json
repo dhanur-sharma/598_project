@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On the 8th of May 2019, my friend came to me with a surprise. He told me the big news right away! He told me that they wanted me to be the godfather of their child. I was so happy and thrilled! I felt so loved. I accepted it right away! My friend and his wife told me that they knew how I had always wanted a child and wasn't able to have one. My friend asked if I was available to leave as soon as possible to meet the child and his wife. We both headed there straight away to their house. That is where I met their little baby girl. She was beautiful. She was fair skinned with her bright blue eyes. My friend's wife came to hug me and asked if I would be the godfather to which I answered yes in that moment. She handed me over her child to me. I held the child in my arm. It was so warm. It was a beautiful and touching moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On the 8th of May 2019, my friend came to me with a surprise. He told me the big news right away! He told me that they wanted me to be the godfather of their child. I was so happy and thrilled! I felt so loved. I accepted it right away! My friend and his wife told me that they knew how I had always wanted a child and wasn't able to have one. My friend asked if I was available to leave as soon as possible to meet the child and his wife. We both headed there straight away to their house. That is where I met their little baby girl. She was beautiful. She was fair skinned with her bright blue eyes. My friend's wife came to hug me and asked if I would be the godfather to which I answered yes in that moment. She handed me over her child to me. I held the child in my arm. It was so warm. It was a beautiful and touching moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt so grateful."
+            }
+        ],
+        "request_id": "811eb8ab598c0ca4-EWR"
+    }
+}

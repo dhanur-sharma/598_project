@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I usually hate birthdays, but last month my girlfriend made my birthday awesome. She made reservations at a hotel and restaurant in a nearby city. She drove me to the city on Saturday. We spent the afternoon shopping. She bought me the smartwatch I had been looking at for several months. After we went shopping, we checked into a suite the Intercontinental Hotel. After spending some time relaxing in our suite, we went to dinner. We had dinner at a highly-rated local barbecue restaurant that happens to be one of my favorites. I had a smoked brisket sandwich with french fries. My girlfriend had smoked chicken. The dinner was delicious, as usual, and we enjoyed our dining experience very much. My girlfriend surprised me again with tickets to a play at a local theater. The play was very good. We returned to our suite after the play concluded. Our suite looked out to a wonderful nighttime view of the city. The next morning, we checked out of the hotel and headed home. Maybe birthdays aren't so bad after all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I usually hate birthdays, but last month my girlfriend made my birthday awesome. She made reservations at a hotel and restaurant in a nearby city. She drove me to the city on Saturday. We spent the afternoon shopping. She bought me the smartwatch I had been looking at for several months. After we went shopping, we checked into a suite the Intercontinental Hotel. After spending some time relaxing in our suite, we went to dinner. We had dinner at a highly-rated local barbecue restaurant that happens to be one of my favorites. I had a smoked brisket sandwich with french fries. My girlfriend had smoked chicken. The dinner was delicious, as usual, and we enjoyed our dining experience very much. My girlfriend surprised me again with tickets to a play at a local theater. The play was very good. We returned to our suite after the play concluded. Our suite looked out to a wonderful nighttime view of the city. The next morning, we checked out of the hotel and headed home. Maybe birthdays aren't so bad after all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebfa41d2143d6-EWR"
+    }
+}

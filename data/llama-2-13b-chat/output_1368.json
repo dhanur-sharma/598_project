@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this summer, my neighbor---who I have known my entire life of 34 years---suddenly passed away. At first, I was very shocked. I had just sat down with her around my birthday, and while she mentioned having back pain, she was still sharp as a knife and not sick. I have lived in this house forever (as I inherited it from my parents when they passed away, back when I was in college). I grew up knowing this neighbor. I viewed her as part of my extended family. She would always walk her adorable Yorkie dog down the street, and if I were outside, she would stop to talk to me about the day. When I learned of her passing, I decided to attend her funeral. Her funeral was on a Thursday. I asked my in-laws if they would watch my son, who is only six. He cared a lot for our neighbor, too, but he is so young he doesn't quite understand the concept of mortality yet. I didn't want to expose him to her if her casket was open. (It was.)At the funeral, I talked to other neighbors who were equally upset and sad. I hugged her family. I watched a slideshow of photos that also showed her husband, who had passed away earlier. I liked him, too. Now her children are planning to sell her house, and I'm a little nervous. I've never had a new neighbor so close before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this summer, my neighbor---who I have known my entire life of 34 years---suddenly passed away. At first, I was very shocked. I had just sat down with her around my birthday, and while she mentioned having back pain, she was still sharp as a knife and not sick. I have lived in this house forever (as I inherited it from my parents when they passed away, back when I was in college). I grew up knowing this neighbor. I viewed her as part of my extended family. She would always walk her adorable Yorkie dog down the street, and if I were outside, she would stop to talk to me about the day. When I learned of her passing, I decided to attend her funeral. Her funeral was on a Thursday. I asked my in-laws if they would watch my son, who is only six. He cared a lot for our neighbor, too, but he is so young he doesn't quite understand the concept of mortality yet. I didn't want to expose him to her if her casket was open. (It was.)At the funeral, I talked to other neighbors who were equally upset and sad. I hugged her family. I watched a slideshow of photos that also showed her husband, who had passed away earlier. I liked him, too. Now her children are planning to sell her house, and I'm a little nervous. I've never had a new neighbor so close before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's been a sad summer.\n\n"
+            }
+        ],
+        "request_id": "811ea3756dcd42c6-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I took a once-in-a-lifetime trip to Paris, France.  We had saved for a year to be able to afford it.  I did not sleep any on the flight over.  When we arrived we walked into Paris and went straight to Notre Dame.  The beauty of the cathedral was overwhelming.  We spent the rest of the day walking the streets of Paris and going to museums.  The food was amazing and of course the sites and sounds were second-to-none.  By the time it was dark and we were heading back to the hotel I had been awake for 24 hours.  I was very tired but still feeling a buzz from all of the fun we were having.  By the time we go to the room, I crashed in the bed and slept for almost 12 hours.  my wife was upset when I woke up b/c she wanted to be roaming around Paris and not watching me sleep.  I realized then that I should have slept some on the plane.  Little did we know that jut a short time after visiting a mass at Notre Dame that most of it would burn down.  We probably have some of the last pictures taken inside of the building.  It was a highlight of the trip to see a mass there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I took a once-in-a-lifetime trip to Paris, France.  We had saved for a year to be able to afford it.  I did not sleep any on the flight over.  When we arrived we walked into Paris and went straight to Notre Dame.  The beauty of the cathedral was overwhelming.  We spent the rest of the day walking the streets of Paris and going to museums.  The food was amazing and of course the sites and sounds were second-to-none.  By the time it was dark and we were heading back to the hotel I had been awake for 24 hours.  I was very tired but still feeling a buzz from all of the fun we were having.  By the time we go to the room, I crashed in the bed and slept for almost 12 hours.  my wife was upset when I woke up b/c she wanted to be roaming around Paris and not watching me sleep.  I realized then that I should have slept some on the plane.  Little did we know that jut a short time after visiting a mass at Notre Dame that most of it would burn down.  We probably have some of the last pictures taken inside of the building.  It was a highlight of the trip to see a mass there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The rest of the trip was just as amazing.  We went to the Eiffel Tower, Arc de Triomphe, the Louvre and many more places.  It was truly a trip of a lifetime.\n\n"
+            }
+        ],
+        "request_id": "811f345cfdbc440b-EWR"
+    }
+}

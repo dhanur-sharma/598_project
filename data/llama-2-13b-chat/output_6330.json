@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I spent the weekend at my in laws house last month. We drank beer and and had shots of whiskey. We played board games and went out to the bars. We drank more beer and shots at the bar. We played pool and darts at the bar. We ate snacks and went to the irish pub to have a meal there. We also ate at a old bank that was converted into a restaurant. We also had a few meals at home and we helped cook. The best food we ate was at the mexican restaurant. They had the best quesadillas. The most memorable thing that happened was that I hit all bulls eyes on the dart board one game. I had never done that before and I am not very good at playing dart. That is what surprised me the most. Overall the weekend was very good, except it was very uncomfortable sleeping on the pull out sofa instead of sleeping in my bed. But it was fun, and was had good times and good food."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I spent the weekend at my in laws house last month. We drank beer and and had shots of whiskey. We played board games and went out to the bars. We drank more beer and shots at the bar. We played pool and darts at the bar. We ate snacks and went to the irish pub to have a meal there. We also ate at a old bank that was converted into a restaurant. We also had a few meals at home and we helped cook. The best food we ate was at the mexican restaurant. They had the best quesadillas. The most memorable thing that happened was that I hit all bulls eyes on the dart board one game. I had never done that before and I am not very good at playing dart. That is what surprised me the most. Overall the weekend was very good, except it was very uncomfortable sleeping on the pull out sofa instead of sleeping in my bed. But it was fun, and was had good times and good food.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f435cf87ac425-EWR"
+    }
+}

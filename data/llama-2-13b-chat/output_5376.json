@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, I had a terrible thing happen. My child died. This was incredibly painful for me. I was depressed for a few weeks. My wife almost killed herself over this. I stopped her and said the kid wouldn't want this to happen. I had a ton of drinks to distract myself from the pain. I puked a bunch of times. I remember the good times with the kid. I remember going to the park to play ball. I threw the ball back and forth for an hour on every Saturday. He got so good, he was a star pitcher for the school's baseball team. They won a championship. I hope he is doing well in heaven. He had a good life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, I had a terrible thing happen. My child died. This was incredibly painful for me. I was depressed for a few weeks. My wife almost killed herself over this. I stopped her and said the kid wouldn't want this to happen. I had a ton of drinks to distract myself from the pain. I puked a bunch of times. I remember the good times with the kid. I remember going to the park to play ball. I threw the ball back and forth for an hour on every Saturday. He got so good, he was a star pitcher for the school's baseball team. They won a championship. I hope he is doing well in heaven. He had a good life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could see him again. I hope I can see him again someday.\n\n"
+            }
+        ],
+        "request_id": "811f301b0a7b43bb-EWR"
+    }
+}

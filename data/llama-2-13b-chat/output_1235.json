@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Daughter finally reached out to me, after a long period of not talking. A lot has happened over the years, and our relationship has been strained, but I think things are finally turning around. We've been spending a lot more time together, and talking fairly regularly. One of the areas of our relationship that I am working on improving is understanding her better. She used to complain that I didn't know much about her, or what she is into. Right before our big fight a few years ago, she complained that I've never bought her a custom gift, only thoughtless store-bought gifts. She didn't know this, but that day, I ordered a custom walking stick for her, since she loves hiking. I thought it would be perfect for her. Before the walking stick arrived though, she and I had a huge argument and she told me not to contact her. I couldn't bring myself to return the walking stick, so when it arrived, I kept it in its original box and kept it stored away, in case things ever worked out. A few months ago, I ran into her at a coffee shop and we talked for a few minutes. It went well, and we've been regularly texting and calling each other since then. We've visited each other a few times, and we both feel that the relationship is restored and back to normal. I went to her house for Christmas, and I decided to gift her with the walking stick. She loves it, and she's already sent me photos of her using it. She said it's perfect for her. She invited me to go hiking with her next weekend, and I am really looking forward to it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Daughter finally reached out to me, after a long period of not talking. A lot has happened over the years, and our relationship has been strained, but I think things are finally turning around. We've been spending a lot more time together, and talking fairly regularly. One of the areas of our relationship that I am working on improving is understanding her better. She used to complain that I didn't know much about her, or what she is into. Right before our big fight a few years ago, she complained that I've never bought her a custom gift, only thoughtless store-bought gifts. She didn't know this, but that day, I ordered a custom walking stick for her, since she loves hiking. I thought it would be perfect for her. Before the walking stick arrived though, she and I had a huge argument and she told me not to contact her. I couldn't bring myself to return the walking stick, so when it arrived, I kept it in its original box and kept it stored away, in case things ever worked out. A few months ago, I ran into her at a coffee shop and we talked for a few minutes. It went well, and we've been regularly texting and calling each other since then. We've visited each other a few times, and we both feel that the relationship is restored and back to normal. I went to her house for Christmas, and I decided to gift her with the walking stick. She loves it, and she's already sent me photos of her using it. She said it's perfect for her. She invited me to go hiking with her next weekend, and I am really looking forward to it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad that we've been able to repair our relationship and that we're doing well."
+            }
+        ],
+        "request_id": "811ea0a99ecd4286-EWR"
+    }
+}

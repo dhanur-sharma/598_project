@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a car accident with my girlfriend. I was driving and it was raining. The car hydroplaned as I was turning down hill. I completely lost control. As I went down hill I hit a service van. I hit the van's bumper and came to a complete stop. The first thing I did was check to see if my girlfriend was alright. She has asthma so she was having a small panic attack. I eventually calmed her down. It was an emotionally scary event for me. I felt bad for putting my girlfriend in danger. I promised myself to take more precautions in the future. Not having control of situations makes me angry and scared. Thank God no one was hurt and the worker wasn't even in the van when I hit it.  The van didn't even have a scratch so no police was called."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a car accident with my girlfriend. I was driving and it was raining. The car hydroplaned as I was turning down hill. I completely lost control. As I went down hill I hit a service van. I hit the van's bumper and came to a complete stop. The first thing I did was check to see if my girlfriend was alright. She has asthma so she was having a small panic attack. I eventually calmed her down. It was an emotionally scary event for me. I felt bad for putting my girlfriend in danger. I promised myself to take more precautions in the future. Not having control of situations makes me angry and scared. Thank God no one was hurt and the worker wasn't even in the van when I hit it.  The van didn't even have a scratch so no police was called.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The only thing we had to do was exchange information with the worker who came out to see what happened.\n\n"
+            }
+        ],
+        "request_id": "811ec59dfc7e420d-EWR"
+    }
+}

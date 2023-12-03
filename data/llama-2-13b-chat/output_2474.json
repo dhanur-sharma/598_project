@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the months that followed I often found myself recalling those songs in my head during times of depression. When I started to feel depressed or detached I would consult my virtual playlist of childhood songs and allow myself to drift away and become immersed in the happy feelings that immediately followed. I was shocked at how well it worked and how long the effects lasted. I even went so far as to download the songs and play them when my memory of them would fade. I also use them as ringtones for my close family and friends. This has made a noticeable difference in my mood upon answering their calls. Since I've been using the Disney songs as a therapy of sorts, my friends and family have noticed a change. I have accomplished tasks that I had no interest in achieving and I have a new hold on my emotions. Just yesterday I got some news that would have been very depressing in the past. My dog ruptured his ACL and requires surgery. The procedure is very expensive and will be followed by many weeks of recovery. The reality of the situation is still setting in, but I am handling things much better than I expected. I already have a plan to pay for the procedure. I will be calling the vet to schedule the surgery later today. In the past, I would have handled this situation very differently. My depression would have kept me from acting and my dog would have suffered longer than necessary. Fortunately for me, and my dog, my brother still has an old car with a tape deck."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the months that followed I often found myself recalling those songs in my head during times of depression. When I started to feel depressed or detached I would consult my virtual playlist of childhood songs and allow myself to drift away and become immersed in the happy feelings that immediately followed. I was shocked at how well it worked and how long the effects lasted. I even went so far as to download the songs and play them when my memory of them would fade. I also use them as ringtones for my close family and friends. This has made a noticeable difference in my mood upon answering their calls. Since I've been using the Disney songs as a therapy of sorts, my friends and family have noticed a change. I have accomplished tasks that I had no interest in achieving and I have a new hold on my emotions. Just yesterday I got some news that would have been very depressing in the past. My dog ruptured his ACL and requires surgery. The procedure is very expensive and will be followed by many weeks of recovery. The reality of the situation is still setting in, but I am handling things much better than I expected. I already have a plan to pay for the procedure. I will be calling the vet to schedule the surgery later today. In the past, I would have handled this situation very differently. My depression would have kept me from acting and my dog would have suffered longer than necessary. Fortunately for me, and my dog, my brother still has an old car with a tape deck.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He has offered to let me use it until my dog is fully recovered. This will save me a lot of money on gas and allow me to take my dog for walks around the neighborhood while he recovers. This has been a very big help to me and I am very grateful to my brother.\n\n"
+            }
+        ],
+        "request_id": "811eb77f0bf1c45e-EWR"
+    }
+}

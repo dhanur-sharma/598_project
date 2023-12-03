@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was about 5 months ago, it was such a long night. I woke up in the middle of the night because I needed to use the bathroom. While in route I stepped on something and it broke under my weight. It was a wine glass so it easily shattered. I ended up with a bloody mess. So I had to rush to the hospital. They ended up giving me stitches. Took hours. Eventually got back home and had to clean up the mess. By the time I got everything up it was time to go to work. Needless to say sleeping was not an option. I was exhausted all day. Just one very long night that didn't seem to end. I was so excited to crawl into bed the next night. It couldn't come fast enough."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was about 5 months ago, it was such a long night. I woke up in the middle of the night because I needed to use the bathroom. While in route I stepped on something and it broke under my weight. It was a wine glass so it easily shattered. I ended up with a bloody mess. So I had to rush to the hospital. They ended up giving me stitches. Took hours. Eventually got back home and had to clean up the mess. By the time I got everything up it was time to go to work. Needless to say sleeping was not an option. I was exhausted all day. Just one very long night that didn't seem to end. I was so excited to crawl into bed the next night. It couldn't come fast enough.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eba2fcc6a42cc-EWR"
+    }
+}

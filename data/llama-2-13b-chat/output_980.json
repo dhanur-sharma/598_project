@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I celebrated out tenth anniversary three months ago in May. We wanted to do something special to commemorate our love and devotion. We decided to renew our vows in front of friends and family. We all traveled to Charleston, South Carolina. It is a romantic town with personality and history. We thought it would be fitting for our relationship. It was a romantic weekend of love and memories. We had 40 guests from all over the country. We spent the weekend eat, drinking, and being merry. We shopped and hit all of the tourist destinations. Everyone had a blast spending time together. Our actual renewal ceremony was lovely. I wore a white dress and our kids were in the bridal party. There were beautiful floral arrangements and a huge vanilla cake. I was thrilled to have our children present to partake in the family love."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I celebrated out tenth anniversary three months ago in May. We wanted to do something special to commemorate our love and devotion. We decided to renew our vows in front of friends and family. We all traveled to Charleston, South Carolina. It is a romantic town with personality and history. We thought it would be fitting for our relationship. It was a romantic weekend of love and memories. We had 40 guests from all over the country. We spent the weekend eat, drinking, and being merry. We shopped and hit all of the tourist destinations. Everyone had a blast spending time together. Our actual renewal ceremony was lovely. I wore a white dress and our kids were in the bridal party. There were beautiful floral arrangements and a huge vanilla cake. I was thrilled to have our children present to partake in the family love.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a beautiful day and we have so many memories to cherish. We will always look back on this trip with fondness and love.\n\n"
+            }
+        ],
+        "request_id": "811e9ba7b83241a3-EWR"
+    }
+}

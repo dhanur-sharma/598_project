@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Was i wrong to have done that? I don't know. Perhaps i was wrong. But i was so angry. I was visiting mom for mother's day, 3 months ago. Even though we had grown apart over the years, i was still fond of her. And i still am. It was a casual visit, as usual. I never realized everything was about to change. I saw the machine beeping, so i attended the voicemail. Professor Dan? I couldn't believe that my mom was seeing him! After everything that happened with Dad? I was furious. I now realize that mom is an adult, she has the freedom to live life she sees as fit. I don't know why i stormed out after telling her to never call me again. Hope she forgives me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Was i wrong to have done that? I don't know. Perhaps i was wrong. But i was so angry. I was visiting mom for mother's day, 3 months ago. Even though we had grown apart over the years, i was still fond of her. And i still am. It was a casual visit, as usual. I never realized everything was about to change. I saw the machine beeping, so i attended the voicemail. Professor Dan? I couldn't believe that my mom was seeing him! After everything that happened with Dad? I was furious. I now realize that mom is an adult, she has the freedom to live life she sees as fit. I don't know why i stormed out after telling her to never call me again. Hope she forgives me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love her."
+            }
+        ],
+        "request_id": "811ead8d8e7c42b2-EWR"
+    }
+}

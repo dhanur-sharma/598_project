@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that recently happened to me was that I received a promotion at work. I was actually promoted earlier than I was supposed to be. I was supposed to be promoted in September of 2019, but instead, I was promoted starting in July of 2019. I was so proud when I heard about my promotion. I have never been promoted in any job before, let alone earlier than normal. It was a normal day when it first happened. I was doing cases, when my supervisor called me into her office. Honestly, I was kind of scared as I didn't know what to expect. I think I thought that maybe I didn't do a case right or my numbers weren't as good as they could have been. Instead, I was greeted by her telling me what a great job I've been doing. She told me that she put in for early promotion for me, and it was approved instantly. I love my job. I also love that I was able to get promoted so early, and I also heard that nobody in a long time has been promoted early like I have. Everyone was proud of me. Even people I don't really talk to that much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that recently happened to me was that I received a promotion at work. I was actually promoted earlier than I was supposed to be. I was supposed to be promoted in September of 2019, but instead, I was promoted starting in July of 2019. I was so proud when I heard about my promotion. I have never been promoted in any job before, let alone earlier than normal. It was a normal day when it first happened. I was doing cases, when my supervisor called me into her office. Honestly, I was kind of scared as I didn't know what to expect. I think I thought that maybe I didn't do a case right or my numbers weren't as good as they could have been. Instead, I was greeted by her telling me what a great job I've been doing. She told me that she put in for early promotion for me, and it was approved instantly. I love my job. I also love that I was able to get promoted so early, and I also heard that nobody in a long time has been promoted early like I have. Everyone was proud of me. Even people I don't really talk to that much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It felt amazing to be recognized for my hard work. I was so happy that I cried. I'm still in shock that it happened."
+            }
+        ],
+        "request_id": "811e92727a630f4b-EWR"
+    }
+}

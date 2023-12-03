@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a best friend that loved to drive. He was a good driver but also took risks every now and then. One day was not his day. He made a bad turn on the freeway. It was quick from all the experts accounts. No one expected it. It hit everyone around us hard. We never wished for this to happen to anyone. It was a difficult month for most people. We didn't know what to do for the most part. We knew most of the people at the get together. He had lots of friends, and people that loved him greatly. We talked about him for days. Especially for his funeral. We talked deep into the night about him which made every one feel better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a best friend that loved to drive. He was a good driver but also took risks every now and then. One day was not his day. He made a bad turn on the freeway. It was quick from all the experts accounts. No one expected it. It hit everyone around us hard. We never wished for this to happen to anyone. It was a difficult month for most people. We didn't know what to do for the most part. We knew most of the people at the get together. He had lots of friends, and people that loved him greatly. We talked about him for days. Especially for his funeral. We talked deep into the night about him which made every one feel better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The pain of the loss is still there, but the good memories are still there too. We will always remember him.\n\n"
+            }
+        ],
+        "request_id": "811ea9cb0a634289-EWR"
+    }
+}

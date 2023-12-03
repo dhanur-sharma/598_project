@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Myself and my husband met about 5 years ago. We met at a small party. We recently got married. Not long after, I became pregnant. About three months ago we had our daughter. The labor portion was quick but the epidural wore off halfway through the birth. This was very painful for me. I muttled through it. I vowed like every other woman, \"I will never get pregnant again\". Overall we were thrilled to have a beautiful baby daughter. I do think I'll get pregnant again since three months have past. I will remember the pain. I remember to not get an epidural. I would want to have a boy the next time I have children. Overall myself and my little family will live happily ever after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Myself and my husband met about 5 years ago. We met at a small party. We recently got married. Not long after, I became pregnant. About three months ago we had our daughter. The labor portion was quick but the epidural wore off halfway through the birth. This was very painful for me. I muttled through it. I vowed like every other woman, \"I will never get pregnant again\". Overall we were thrilled to have a beautiful baby daughter. I do think I'll get pregnant again since three months have past. I will remember the pain. I remember to not get an epidural. I would want to have a boy the next time I have children. Overall myself and my little family will live happily ever after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec3f48c874264-EWR"
+    }
+}

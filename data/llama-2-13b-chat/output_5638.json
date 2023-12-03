@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On day in late June, I was walking to my local post office to drop off a package. On my way there,  I saw a sign for a blood donation drive that was occurring that day. They desperately needed people to offer their blood. On impulse I decided to go in and donate. I was a first time blood donor so the volunteers and nurses put me through a screening process and gave me a questionnaire. I passed the screening and proceeded to donate my blood. The process itself had no complications and took about 15 minutes. Afterwards I sat at a table where there were cookies and apple juice. I felt fine at first but within a few minutes I started to feel dizzy. All of a sudden, I keeled over and went into a dream world. When I woke up, I was lying down, face up, and the nurses and volunteers told me I had fainted. They tried to stabilize me, but I fainted again and had to be brought to the hospital. I was put on IVs for a couple of hours. Although I had a severe reaction to donating blood, and I sustained injuries as a result of fainting, I still consider it a positive experience because I potentially saved someone else's life and had so many people helping me, like the volunteers, nurses, and EMT.  I felt so much humanity that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On day in late June, I was walking to my local post office to drop off a package. On my way there,  I saw a sign for a blood donation drive that was occurring that day. They desperately needed people to offer their blood. On impulse I decided to go in and donate. I was a first time blood donor so the volunteers and nurses put me through a screening process and gave me a questionnaire. I passed the screening and proceeded to donate my blood. The process itself had no complications and took about 15 minutes. Afterwards I sat at a table where there were cookies and apple juice. I felt fine at first but within a few minutes I started to feel dizzy. All of a sudden, I keeled over and went into a dream world. When I woke up, I was lying down, face up, and the nurses and volunteers told me I had fainted. They tried to stabilize me, but I fainted again and had to be brought to the hospital. I was put on IVs for a couple of hours. Although I had a severe reaction to donating blood, and I sustained injuries as a result of fainting, I still consider it a positive experience because I potentially saved someone else's life and had so many people helping me, like the volunteers, nurses, and EMT.  I felt so much humanity that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f358358cf0f3f-EWR"
+    }
+}

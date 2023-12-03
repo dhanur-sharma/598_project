@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My boyfriend and I selected to take the earliest flight available to have the most time on our first day in Colorado. We decided to start our day not in Denver, but Boulder. We decided to visit Boulder on our first day because that was the day we did not have hockey games. When in Boulder we visited a new brewery, Fall Brewing. We also visited a Brewery we had been to before, Avery. On our way back from Boulder we visited Liquid Mechanics. We visited a total of five breweries the first night in town, which included two in Denver on the way back from Boulder. We were out all day and stayed about an hour at each location. Later that night we met one of his friends. This friend moved from California to Colorado for work. We met the friend at a hockey rink he plays at. We met him there with his wife and some of his friends. While we were there we ordered beers and caught up. I became interested in showing off the excel sheet I created. We did get two recommendations for great breweries while we were visiting everyone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My boyfriend and I selected to take the earliest flight available to have the most time on our first day in Colorado. We decided to start our day not in Denver, but Boulder. We decided to visit Boulder on our first day because that was the day we did not have hockey games. When in Boulder we visited a new brewery, Fall Brewing. We also visited a Brewery we had been to before, Avery. On our way back from Boulder we visited Liquid Mechanics. We visited a total of five breweries the first night in town, which included two in Denver on the way back from Boulder. We were out all day and stayed about an hour at each location. Later that night we met one of his friends. This friend moved from California to Colorado for work. We met the friend at a hockey rink he plays at. We met him there with his wife and some of his friends. While we were there we ordered beers and caught up. I became interested in showing off the excel sheet I created. We did get two recommendations for great breweries while we were visiting everyone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9bb2593f4315-EWR"
+    }
+}

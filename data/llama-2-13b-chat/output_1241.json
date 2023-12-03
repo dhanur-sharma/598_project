@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I was able to meet up with a friend that I hadn't seen in over ten years. Our time goes back to when we worked together for quite a while. We ended up losing touch after they moved away to another state. I tried to keep in touch with them over social media but I just lost contact after awhile. In any case, I happened to be out shopping at the mall and happened to stumble across someone who looked somewhat familiar to me. I went a bit closer towards their direction and got a better look. I asked, \"Bobby, is that you?\" He responded with a yes and then immediately he remembered who I was. We embraced and gave out a big laugh. It was so funny seeing him after all this time. We began to talk a bit and do some catching up. I had found out about why he was back in in the area and what he had been up to for all this time. I found out that he was visiting his parents and that he was out with his family that day. I couldn't believe that we would be able to see each other in such a random way. We decided to meet up for lunch the next day and just talk a bit more about how life had gone up to this point. We really got a kick out of seeing the changes that have taken place in each of us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I was able to meet up with a friend that I hadn't seen in over ten years. Our time goes back to when we worked together for quite a while. We ended up losing touch after they moved away to another state. I tried to keep in touch with them over social media but I just lost contact after awhile. In any case, I happened to be out shopping at the mall and happened to stumble across someone who looked somewhat familiar to me. I went a bit closer towards their direction and got a better look. I asked, \"Bobby, is that you?\" He responded with a yes and then immediately he remembered who I was. We embraced and gave out a big laugh. It was so funny seeing him after all this time. We began to talk a bit and do some catching up. I had found out about why he was back in in the area and what he had been up to for all this time. I found out that he was visiting his parents and that he was out with his family that day. I couldn't believe that we would be able to see each other in such a random way. We decided to meet up for lunch the next day and just talk a bit more about how life had gone up to this point. We really got a kick out of seeing the changes that have taken place in each of us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a really great day to be able to reconnect with an old friend."
+            }
+        ],
+        "request_id": "811ea0cf38ea42c2-EWR"
+    }
+}

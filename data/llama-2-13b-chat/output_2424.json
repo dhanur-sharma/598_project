@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My entire family went on a vacation to Ft. Lauderdale, Florida.  The most memorable part of the trip is my mom and dad both went with me.  This is significant because they have been divorced for almost 40 years.  Both my stepmother and my stepfather have died in recent years, and neither had anyone to vacation with.  It was a little awkward at times, but they got along enough for us to all enjoy ourselves.  My son and husband also went with us.  We all had a great time.  We went on Segways.  Went to a local casino twice. It was awesome seeing the fireworks on the 4th of July on the beach.  The best part for all of us was the different restaurants.  We all enjoyed trying different seafood.  I think everyone had a great time.  My mom and dad were able to get along and enjoy themselves.  This makes me think that I will try this again in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My entire family went on a vacation to Ft. Lauderdale, Florida.  The most memorable part of the trip is my mom and dad both went with me.  This is significant because they have been divorced for almost 40 years.  Both my stepmother and my stepfather have died in recent years, and neither had anyone to vacation with.  It was a little awkward at times, but they got along enough for us to all enjoy ourselves.  My son and husband also went with us.  We all had a great time.  We went on Segways.  Went to a local casino twice. It was awesome seeing the fireworks on the 4th of July on the beach.  The best part for all of us was the different restaurants.  We all enjoyed trying different seafood.  I think everyone had a great time.  My mom and dad were able to get along and enjoy themselves.  This makes me think that I will try this again in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb65e8adc8c09-EWR"
+    }
+}

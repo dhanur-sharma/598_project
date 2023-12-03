@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I experienced this incident nearly 3 months ago. It was an memorable incident. That time workers were sorted for promotion. It was based on their work for the past 1 year. I was also included in the list. We had many internal politics between each of them. It was hard to neglect it. But I was mostly concentrating in my work. I completed the given work on time till now. I guessed another worker would get the promotion because he was close to boss. Not only me, most of them were thinking like that. The shortlisted people were called by boss one by one. He had individual meeting with every people about the promotion. I was also called for it. Everything was over and finally the day arrived for the promotion. To my surprise the promotion was given to me. I really didn't expect it. My boss congratulated me on the promotion."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I experienced this incident nearly 3 months ago. It was an memorable incident. That time workers were sorted for promotion. It was based on their work for the past 1 year. I was also included in the list. We had many internal politics between each of them. It was hard to neglect it. But I was mostly concentrating in my work. I completed the given work on time till now. I guessed another worker would get the promotion because he was close to boss. Not only me, most of them were thinking like that. The shortlisted people were called by boss one by one. He had individual meeting with every people about the promotion. I was also called for it. Everything was over and finally the day arrived for the promotion. To my surprise the promotion was given to me. I really didn't expect it. My boss congratulated me on the promotion.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He said I was the best candidate for the job. I was happy and grateful. My colleagues were also happy for me. I was promoted as a team leader. I have to lead the team now. I was feeling nervous but happy. I was happy that I was able to prove myself. I am still in the process of learning. But I am confident that I will do my job well.\n\n"
+            }
+        ],
+        "request_id": "811bcec2ca449dff-EWR"
+    }
+}

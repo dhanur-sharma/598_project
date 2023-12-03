@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my niece's wedding. While it may not be a huge event to many, this was important for me. Since birth I helped partially raise her from birth and have very strong memories of her childhood. The wedding was very nice, nothing over the top and expensive but it looked really nice.  I didn't know her soon to be husband too well but seemed very nice and polite.  After talking with most people I then took my seat. When the music started and she was talking down the aisle, it kind of emotional for me. My little girl was grown up.  The ceremony was like most but my attention was mainly focused on my niece. She was so pretty and I knew that special bond was gone.  I had a feel she would be happy. They were both standing up there and really seemed to be so excited. As the ceremony was closing I felt a way of joy it me. As I've had a long term relationship, I know how happy she could truly be. As it finished ad she was walking back down the aisle, she glanced over at me. At that moment, I could feel a tear running down my face. I guess this was the emotion conclusion to everything that has built up to this point. She is grown up, a woman, and married which I wish her all the best."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my niece's wedding. While it may not be a huge event to many, this was important for me. Since birth I helped partially raise her from birth and have very strong memories of her childhood. The wedding was very nice, nothing over the top and expensive but it looked really nice.  I didn't know her soon to be husband too well but seemed very nice and polite.  After talking with most people I then took my seat. When the music started and she was talking down the aisle, it kind of emotional for me. My little girl was grown up.  The ceremony was like most but my attention was mainly focused on my niece. She was so pretty and I knew that special bond was gone.  I had a feel she would be happy. They were both standing up there and really seemed to be so excited. As the ceremony was closing I felt a way of joy it me. As I've had a long term relationship, I know how happy she could truly be. As it finished ad she was walking back down the aisle, she glanced over at me. At that moment, I could feel a tear running down my face. I guess this was the emotion conclusion to everything that has built up to this point. She is grown up, a woman, and married which I wish her all the best.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd481982d435b-EWR"
+    }
+}

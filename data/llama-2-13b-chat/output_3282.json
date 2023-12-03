@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a busy day at work today! I'm exhausted but in a good way. It's been a whirlwind since starting this job about a month and a half ago but it's worth it. Honestly, I can't believe that I'm here. I never imagined that I'd be working for a company such as this. Thank god for Prof. J (which reminds me..purchase birthday card for Prof. J). I don't know if I would of pass her class and did so well on the certification exam two months ago without her encouragement.  It was a tough ride. I can't believe I'm here now. I remember the night before taking my exam, I barely slept, I was so nervous. When Prof. J told me that I had done so well on my exam, I couldn't believe it. What a moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a busy day at work today! I'm exhausted but in a good way. It's been a whirlwind since starting this job about a month and a half ago but it's worth it. Honestly, I can't believe that I'm here. I never imagined that I'd be working for a company such as this. Thank god for Prof. J (which reminds me..purchase birthday card for Prof. J). I don't know if I would of pass her class and did so well on the certification exam two months ago without her encouragement.  It was a tough ride. I can't believe I'm here now. I remember the night before taking my exam, I barely slept, I was so nervous. When Prof. J told me that I had done so well on my exam, I couldn't believe it. What a moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She gave me a hug and said \"you deserve it\" I felt like I had just won an Oscar. Now, I'm working for a big company and making good money. My friends are all so jealous. I'm just grateful that I have this opportunity. It's been a wild ride but I'm glad I'm here."
+            }
+        ],
+        "request_id": "811ec7f90ce743a0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June, my wife and I took a vacation to Washington state.  We flew into Seattle, but stayed in Snoqualmie.   We stayed at Rockwood Farm which is a log mansion - something I didn't know existed.  On our arrival in Seattle, we visited a few shops and had some coffee at the Starbucks Roastery before heading to our room in Snoqualmie.  Being from Florida, we were amazed by the surroundings since Washington is basically the opposite of Florida.  I think the most memorable thing was the view of Mt. Rainier while we were on the ferry on our way to Poulsbo.  It looked almost like a moon in the sky.  While in Poulsbo, we attended a beer tasting at the Kiana Lodge.  Another cool thing we saw was the naval base in Everett.  A running theme of the trip was how big everything was.  Whether it was battleships, mountains, trees, or just buildings, everything seemed huge compared to Florida.  Also of note was the weather.  That area is famous for being rainy and cold, but the whole time we were there the weather was beautiful.  It was sunny and 75 degrees the entire time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June, my wife and I took a vacation to Washington state.  We flew into Seattle, but stayed in Snoqualmie.   We stayed at Rockwood Farm which is a log mansion - something I didn't know existed.  On our arrival in Seattle, we visited a few shops and had some coffee at the Starbucks Roastery before heading to our room in Snoqualmie.  Being from Florida, we were amazed by the surroundings since Washington is basically the opposite of Florida.  I think the most memorable thing was the view of Mt. Rainier while we were on the ferry on our way to Poulsbo.  It looked almost like a moon in the sky.  While in Poulsbo, we attended a beer tasting at the Kiana Lodge.  Another cool thing we saw was the naval base in Everett.  A running theme of the trip was how big everything was.  Whether it was battleships, mountains, trees, or just buildings, everything seemed huge compared to Florida.  Also of note was the weather.  That area is famous for being rainy and cold, but the whole time we were there the weather was beautiful.  It was sunny and 75 degrees the entire time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We enjoyed our trip to Washington and plan to go back someday.\n\n"
+            }
+        ],
+        "request_id": "811e90179a1f41a3-EWR"
+    }
+}

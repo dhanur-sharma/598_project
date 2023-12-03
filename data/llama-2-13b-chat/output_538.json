@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Several months ago, Mom was diagnosed with Alzheimer's. At first, the symptoms were easy to miss. She would forget where her purse was or where the remote was. Then they became more obvious.  Making the same thing for dinner two days in a row having forgotten she made that meal yesterday and then the sadness in her face when she is shown the leftovers from the previous day.  I think Mom was realizing it and trying so hard to fight the symptoms.  We went to the doctor who referred us to a specialist. The specialist prescribed medication and occupational therapy. While her symptoms are mild for the moment, she fixates on losing her quality of life. She worries about becoming a burden to us and also of being alone.  For me, I spend my time reassuring her while also researching the details of the disease. My kids do not know yet, and I stress about when and what to tell them.  My brother has found support groups that can help navigate the progression of the illness. For the time being, Mom is still living with Dad, and he is also scared. He is scared that he won't be able to help her in the ways she needs help."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Several months ago, Mom was diagnosed with Alzheimer's. At first, the symptoms were easy to miss. She would forget where her purse was or where the remote was. Then they became more obvious.  Making the same thing for dinner two days in a row having forgotten she made that meal yesterday and then the sadness in her face when she is shown the leftovers from the previous day.  I think Mom was realizing it and trying so hard to fight the symptoms.  We went to the doctor who referred us to a specialist. The specialist prescribed medication and occupational therapy. While her symptoms are mild for the moment, she fixates on losing her quality of life. She worries about becoming a burden to us and also of being alone.  For me, I spend my time reassuring her while also researching the details of the disease. My kids do not know yet, and I stress about when and what to tell them.  My brother has found support groups that can help navigate the progression of the illness. For the time being, Mom is still living with Dad, and he is also scared. He is scared that he won't be able to help her in the ways she needs help.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am also scared. I am scared that she will not be able to remember us, her grandchildren, or her favorite things. I am scared that the disease will progress and she will not be able to do the things she loves.  We are all in this together and doing the best we can to support each other.\n\n"
+            }
+        ],
+        "request_id": "811e93a3d89a32f4-EWR"
+    }
+}

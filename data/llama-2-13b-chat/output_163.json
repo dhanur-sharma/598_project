@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband, George, and I were married six months ago.  We had a very small wedding with only our children and my grandparents attending.  George has two daughters that are five and eight.  And, I have one daughter that is eight and one son who is four.  My son Ryan is a very active and curious little boy.  We were married in a gazebo at a park.  The park was filled beautiful gardens and a lake with a water feature in the middle.  Our wedding day was on a beautiful summer day.  During the ceremony the local ducks decided to join us.  The ducks made a mess on the floor of the gazebo.  As we were saying our vows, Ryan noticed the ducks and decided to check them out.  He dashed to the area of the gazebo, where the ducks were.  As he ran toward them, he slipped and fell in the duck's poop and tripped over my grandmother's feet, soiling her shoes.  By that time the ducks decided to leave and they waddled towards the lake.  When Ryan got up from tripping over my grandmother's feet, he chased after the ducks.  By this time we saw Ryan chasing the ducks and going towards the lake.  George and I stopped saying our vows to each other and chased after Ryan.  But, it was too late to catch him before he got to the lake.  To our dismay, Ryan fell in the lake.  Thank goodness the water was not deep at the edge and we were able to get to him safely.  After all the drama, we went back to the Gazabo and continued saying our vows.  Our wedding day was a good day overall although, it was not what I expected."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband, George, and I were married six months ago.  We had a very small wedding with only our children and my grandparents attending.  George has two daughters that are five and eight.  And, I have one daughter that is eight and one son who is four.  My son Ryan is a very active and curious little boy.  We were married in a gazebo at a park.  The park was filled beautiful gardens and a lake with a water feature in the middle.  Our wedding day was on a beautiful summer day.  During the ceremony the local ducks decided to join us.  The ducks made a mess on the floor of the gazebo.  As we were saying our vows, Ryan noticed the ducks and decided to check them out.  He dashed to the area of the gazebo, where the ducks were.  As he ran toward them, he slipped and fell in the duck's poop and tripped over my grandmother's feet, soiling her shoes.  By that time the ducks decided to leave and they waddled towards the lake.  When Ryan got up from tripping over my grandmother's feet, he chased after the ducks.  By this time we saw Ryan chasing the ducks and going towards the lake.  George and I stopped saying our vows to each other and chased after Ryan.  But, it was too late to catch him before he got to the lake.  To our dismay, Ryan fell in the lake.  Thank goodness the water was not deep at the edge and we were able to get to him safely.  After all the drama, we went back to the Gazabo and continued saying our vows.  Our wedding day was a good day overall although, it was not what I expected.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had a wonderful time with my new husband and my children.\n\n"
+            }
+        ],
+        "request_id": "811e8cca48485e73-EWR"
+    }
+}

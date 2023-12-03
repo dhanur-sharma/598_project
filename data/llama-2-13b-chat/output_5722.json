@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: March 21, 2019Dear Journal,Today my daughter was born! This has been the most exciting day of my life thus far. It has been a very emotional ride and will continue to be. Chelsea started labor at around 6 this morning. We were in the labor room for hours and hours and she was drifting in and out of sleep. I couldn't sleep at all. I was very anxious and nervous and I guess a little scared too. She was in active labor for 15 hours before the doctor decided it was best to do a C-section. I really didn't like this idea, but the doctor said that Elizabeth was getting stressed out and tired inside of Chelsea. They took us all to the OR but had me wait in a separate waiting area for what seemed like forever, until finally bringing me. The actual surgery itself was very scary. I wasn't sure what was going to happen. In the end, everything turned out okay and I got to meet my newborn daughter and first child, Elizabeth. The rest of the night in the hospital was very stressful, because we had to moved into 3 different rooms until finally settling in the one we will have for the next 3 days. This experience will impact me for the rest of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: March 21, 2019Dear Journal,Today my daughter was born! This has been the most exciting day of my life thus far. It has been a very emotional ride and will continue to be. Chelsea started labor at around 6 this morning. We were in the labor room for hours and hours and she was drifting in and out of sleep. I couldn't sleep at all. I was very anxious and nervous and I guess a little scared too. She was in active labor for 15 hours before the doctor decided it was best to do a C-section. I really didn't like this idea, but the doctor said that Elizabeth was getting stressed out and tired inside of Chelsea. They took us all to the OR but had me wait in a separate waiting area for what seemed like forever, until finally bringing me. The actual surgery itself was very scary. I wasn't sure what was going to happen. In the end, everything turned out okay and I got to meet my newborn daughter and first child, Elizabeth. The rest of the night in the hospital was very stressful, because we had to moved into 3 different rooms until finally settling in the one we will have for the next 3 days. This experience will impact me for the rest of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f371b8eaf5e86-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One month ago, I went to visit my niece. I love her so much, but her lack of faith concerns me. I really want her to understand the power of the gospel, to turn her heart over to the Lord. I am rarely able to do so because she shut downs as soon as I bring it up. God tells us we only need faith the size of a mustard seed to move mountains, so I clung to that. I have prayed for her constantly and tried to witness to her at any chance I got. During our last visit, we had a break through! This time, she was the one who brought it up first. She said it had been on her mind a lot since our previous visit. She wanted to know why I have been so persistent in trying to lead her to the Lord. This just opened the door wide open! Or I should say, God opened the door! A door my niece had locked up so tight for so long. I pulled out my bible and began to show her verses. I shared my personal testimony with her again. I shared things God has done for me, prayers I know He answered. That day was so special to me, my niece finally came to Christ!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One month ago, I went to visit my niece. I love her so much, but her lack of faith concerns me. I really want her to understand the power of the gospel, to turn her heart over to the Lord. I am rarely able to do so because she shut downs as soon as I bring it up. God tells us we only need faith the size of a mustard seed to move mountains, so I clung to that. I have prayed for her constantly and tried to witness to her at any chance I got. During our last visit, we had a break through! This time, she was the one who brought it up first. She said it had been on her mind a lot since our previous visit. She wanted to know why I have been so persistent in trying to lead her to the Lord. This just opened the door wide open! Or I should say, God opened the door! A door my niece had locked up so tight for so long. I pulled out my bible and began to show her verses. I shared my personal testimony with her again. I shared things God has done for me, prayers I know He answered. That day was so special to me, my niece finally came to Christ!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb0ce1a0c8c18-EWR"
+    }
+}

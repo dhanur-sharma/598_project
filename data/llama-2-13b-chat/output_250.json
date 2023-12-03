@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lost my cats a few months ago. I felt so terrible for losing them. How did I even managed to lose my cats? I have no idea, but I felt so bad for losing them. I'm such a horrible person for losing them. Have I not done enough to prevent that? Apparently not. I put up fliers everywhere when I lost them, just to see where they would end up at, and at first no one replied to all. I thought all was lost when someone finally replied to me. They told me that they found my cat. I was so happy and I asked them when I could see them again, but to my surprise they asked me if they could keep them. Well, I thought about it. At first I didn't want to say yes, but then I remember that I lost them in the first place. And I thought that maybe these new people should have a chance in keeping them. After all they found my cats, and kept them well fed and everything. So in the end, I said yes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lost my cats a few months ago. I felt so terrible for losing them. How did I even managed to lose my cats? I have no idea, but I felt so bad for losing them. I'm such a horrible person for losing them. Have I not done enough to prevent that? Apparently not. I put up fliers everywhere when I lost them, just to see where they would end up at, and at first no one replied to all. I thought all was lost when someone finally replied to me. They told me that they found my cat. I was so happy and I asked them when I could see them again, but to my surprise they asked me if they could keep them. Well, I thought about it. At first I didn't want to say yes, but then I remember that I lost them in the first place. And I thought that maybe these new people should have a chance in keeping them. After all they found my cats, and kept them well fed and everything. So in the end, I said yes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know that it was a selfish decision, but I'm just so happy to have my cats back, even if it's with a new family. I love my cats, and I'm glad that they're safe and happy."
+            }
+        ],
+        "request_id": "811e8e58ca1d432e-EWR"
+    }
+}

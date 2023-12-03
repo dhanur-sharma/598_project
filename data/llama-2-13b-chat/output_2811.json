@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary. Today I randomly thought about one of the craziest times of my life. I'm sorry for never writing in you about it, but I just needed to time to digest it. It happened around 5 months ago. I finally went through with my kidney transplant and it changed my whole life. First things first, I thought I was going to die. Well, not really thought, but I was slightly paranoid. First because the wait for the kidney seemed to span decades and I did not actually think I would ever get a new one until my gf volunteered to do it. She is literally the best thing that ever happened to me now. I still remember holding her hand as we were wheeled into the operating room together. That was the last thing I recall before I just woke up in a strange hospital room with one of the worst pains I ever felt in my life. And I looked down and I had this really gnarly scar on my abdomen. I felt like my favorite wrestler. I was in the hospital for maybe two more days max before I finally got to return home. My girlfriend got there the same day as me and we spent so much time bonding eating jello and watching Curb Your Enthusiasm. I am so thankful for her and wouldn't trade her in for the world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary. Today I randomly thought about one of the craziest times of my life. I'm sorry for never writing in you about it, but I just needed to time to digest it. It happened around 5 months ago. I finally went through with my kidney transplant and it changed my whole life. First things first, I thought I was going to die. Well, not really thought, but I was slightly paranoid. First because the wait for the kidney seemed to span decades and I did not actually think I would ever get a new one until my gf volunteered to do it. She is literally the best thing that ever happened to me now. I still remember holding her hand as we were wheeled into the operating room together. That was the last thing I recall before I just woke up in a strange hospital room with one of the worst pains I ever felt in my life. And I looked down and I had this really gnarly scar on my abdomen. I felt like my favorite wrestler. I was in the hospital for maybe two more days max before I finally got to return home. My girlfriend got there the same day as me and we spent so much time bonding eating jello and watching Curb Your Enthusiasm. I am so thankful for her and wouldn't trade her in for the world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still have a few more months of physical therapy left but I am so excited to finally be able to live my life again. I know I will have to take some serious precautions to make sure my new kidney lasts forever but I am willing to do whatever it takes. This experience has taught me so much about what is important in life and what is not. I know I will never forget this journey."
+            }
+        ],
+        "request_id": "811ebec9397443ee-EWR"
+    }
+}

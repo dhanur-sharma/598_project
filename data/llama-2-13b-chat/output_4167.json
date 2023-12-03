@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It started out as an innocent-enough day. I went to work like normal, and got through most of the day without any abnormal occurences. Then I received a text from my ex, and my mood instantly went downhill. It had been an abusive relationship, and scary breakup. I thought I had finally gotten free. When I left work, I decided to alleviate some stress by stopping at a little bar. I figured I'd have a couple of drinks and some food, and take my mind off things a little bit. After being seated for just a couple of minutes, the bartender came over. This drink is from the guy at the end, she said. I thought to myself that this is interesting, since no guy had ever bought me a drink before. We ended up talking for hours, and before I knew it I was feeling pretty good. I told myself that I deserved to relax though, and I was safe to drive. On the way home, it all started to hit me. However I only lived 2 miles away and knew that I could make it. Suddenly I saw a bright flash of light, heard screeching, and then nothing. I awoke in the emergency room with a concussion and severely fractured arm. Now, on top of ex problems, I'd have to take time off work. Definitely a lesson learned."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It started out as an innocent-enough day. I went to work like normal, and got through most of the day without any abnormal occurences. Then I received a text from my ex, and my mood instantly went downhill. It had been an abusive relationship, and scary breakup. I thought I had finally gotten free. When I left work, I decided to alleviate some stress by stopping at a little bar. I figured I'd have a couple of drinks and some food, and take my mind off things a little bit. After being seated for just a couple of minutes, the bartender came over. This drink is from the guy at the end, she said. I thought to myself that this is interesting, since no guy had ever bought me a drink before. We ended up talking for hours, and before I knew it I was feeling pretty good. I told myself that I deserved to relax though, and I was safe to drive. On the way home, it all started to hit me. However I only lived 2 miles away and knew that I could make it. Suddenly I saw a bright flash of light, heard screeching, and then nothing. I awoke in the emergency room with a concussion and severely fractured arm. Now, on top of ex problems, I'd have to take time off work. Definitely a lesson learned.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd15bd8114301-EWR"
+    }
+}

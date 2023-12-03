@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to India with my mom and sister. We have a lot of family that still lives in India so it is always great to see them. Everyone was shocked by how different we all looked. I hadn't seen some of my younger cousins since they were very young and now they are in high school and college. I was so happy to see that a lot of my cousins over there were either in good colleges or have well-paying jobs.  It made me think about whether it was even worth it to move to the states. We spent a lot of time with my grandma on my mom's side. I have one grandparent left so we wanted to spend as much time with her as possible. She is getting very old obviously, and that might've been the last time we ever see her. What made this trip extra memorable was that we were all getting older so we knew that we wouldn't be able to fly to India together too much in the future. When we were leaving, everyone was very emotional. I could not help tearing up as well. It was so peaceful and stress-free over there, and I love my family, but the United States is such a better country to live in. India does not have the best healthcare system so our family members don't get the best help when they're sick. Despite that, I can't help thinking about whether my parents should've just stayed in India."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to India with my mom and sister. We have a lot of family that still lives in India so it is always great to see them. Everyone was shocked by how different we all looked. I hadn't seen some of my younger cousins since they were very young and now they are in high school and college. I was so happy to see that a lot of my cousins over there were either in good colleges or have well-paying jobs.  It made me think about whether it was even worth it to move to the states. We spent a lot of time with my grandma on my mom's side. I have one grandparent left so we wanted to spend as much time with her as possible. She is getting very old obviously, and that might've been the last time we ever see her. What made this trip extra memorable was that we were all getting older so we knew that we wouldn't be able to fly to India together too much in the future. When we were leaving, everyone was very emotional. I could not help tearing up as well. It was so peaceful and stress-free over there, and I love my family, but the United States is such a better country to live in. India does not have the best healthcare system so our family members don't get the best help when they're sick. Despite that, I can't help thinking about whether my parents should've just stayed in India.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's a really tough decision and I'm not sure what to think.  \n\n"
+            }
+        ],
+        "request_id": "811ebab02da60f77-EWR"
+    }
+}

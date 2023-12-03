@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my daughters award ceremony. I was excited, pleased, and felt proud. I worried if my outfit was alright. We arrived early and was confused on where to go. It was hot and muggy inside and it made me feel uncomfortable. There was so many people attending and eveyone was getting in each others way. After finding my seat the ceremony started. I was proud when my daughter went on stage. I wasn't sure how the event was going to unfold. I was worried I would miss out on something by not picking out the perfect seat.  It was a great night. I worried about everything for nothing because it turned out great. I felt relief more than happiness. I felt calm afterwards. I felt like I stressed to much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my daughters award ceremony. I was excited, pleased, and felt proud. I worried if my outfit was alright. We arrived early and was confused on where to go. It was hot and muggy inside and it made me feel uncomfortable. There was so many people attending and eveyone was getting in each others way. After finding my seat the ceremony started. I was proud when my daughter went on stage. I wasn't sure how the event was going to unfold. I was worried I would miss out on something by not picking out the perfect seat.  It was a great night. I worried about everything for nothing because it turned out great. I felt relief more than happiness. I felt calm afterwards. I felt like I stressed to much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I learned to relax and let things go.\n\n"
+            }
+        ],
+        "request_id": "811eaed1380f1a34-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most memorable event for me in the last few months was going to a cheese festival. My fiance's mom wanted to come visit us that weekend but we had already had plans to go to this festival. She decided that she would come with us as well. It was so hot outside, in the upper 80s. The event was outdoors, on the streets, with no respite from the sun. This made it challenging for vendors to keep their cheeses cold and stocked. The event drew a bigger crowd than they had imagined. Many vendors started selling out of their most popular items within the first few hours.  We found a small cafe that had a table available after being told that it would be over an hour wait at the location we originally planned to eat at. We quickly realized why the cafe was so empty. The food was like something they would serve at Fyre Festival. The Caesar salad was just a few pieces of lettuce and dressing. We could complain, but we were just so relieved to be inside and out of the heat. Later, we found humor in the conditions of the food we ordered. This is a found memory for me because I do not often get to spend time with my future mother in law, so it was nice to have time to bond."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most memorable event for me in the last few months was going to a cheese festival. My fiance's mom wanted to come visit us that weekend but we had already had plans to go to this festival. She decided that she would come with us as well. It was so hot outside, in the upper 80s. The event was outdoors, on the streets, with no respite from the sun. This made it challenging for vendors to keep their cheeses cold and stocked. The event drew a bigger crowd than they had imagined. Many vendors started selling out of their most popular items within the first few hours.  We found a small cafe that had a table available after being told that it would be over an hour wait at the location we originally planned to eat at. We quickly realized why the cafe was so empty. The food was like something they would serve at Fyre Festival. The Caesar salad was just a few pieces of lettuce and dressing. We could complain, but we were just so relieved to be inside and out of the heat. Later, we found humor in the conditions of the food we ordered. This is a found memory for me because I do not often get to spend time with my future mother in law, so it was nice to have time to bond.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The event was also memorable because it was so hot, and we were all sweaty and exhausted, but still had fun.\n\n"
+            }
+        ],
+        "request_id": "811e8d49ed1d43e0-EWR"
+    }
+}

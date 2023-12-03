@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most unexpected thing happened to me about 3 months ago.  I've been so busy since then that I'm just now writing about it.  I'm such a procrastinator!  My best friend and I were on our way to see my favorite band, Highly Suspect, perform at the Amphitheater when I heard my phone ringing from the depths of my purse.  I almost didn't answer it because I was driving and all that, but my best friend fished it out of the abyss for me.  I am SO glad I took the call!  It was an automated call from the local rock station I listen to religiously on my way to and from work, telling me I had won a trip to Las Vegas.  They have a web page where you can enter-for-a-chance-to-win stuff like T-shirts, concert tickets and vacations (obviously).  I had totally forgotten about it because I never win anything, even though I check the page daily for new contests.  I was so excited when I got that call, having never been to Las Vegas, that I immediately called the radio station.  I almost thought it wasn't real.  The lady who answered the phone assured me that if I had gotten the automated call I had definitely won the trip.  She got real quiet and said she needed to check something, so she put me on hold.  When she came back on the line it was with the most awesome, unexpected news!  I had actually won a trip to Mexico.  This excited me even more, because I've always wanted to go to Mexico.  It was the most amazing trip and I will forever remember it!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most unexpected thing happened to me about 3 months ago.  I've been so busy since then that I'm just now writing about it.  I'm such a procrastinator!  My best friend and I were on our way to see my favorite band, Highly Suspect, perform at the Amphitheater when I heard my phone ringing from the depths of my purse.  I almost didn't answer it because I was driving and all that, but my best friend fished it out of the abyss for me.  I am SO glad I took the call!  It was an automated call from the local rock station I listen to religiously on my way to and from work, telling me I had won a trip to Las Vegas.  They have a web page where you can enter-for-a-chance-to-win stuff like T-shirts, concert tickets and vacations (obviously).  I had totally forgotten about it because I never win anything, even though I check the page daily for new contests.  I was so excited when I got that call, having never been to Las Vegas, that I immediately called the radio station.  I almost thought it wasn't real.  The lady who answered the phone assured me that if I had gotten the automated call I had definitely won the trip.  She got real quiet and said she needed to check something, so she put me on hold.  When she came back on the line it was with the most awesome, unexpected news!  I had actually won a trip to Mexico.  This excited me even more, because I've always wanted to go to Mexico.  It was the most amazing trip and I will forever remember it!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was the best vacation I've ever been on and I have my best friend to thank for it.  She's been with me through all the ups and downs of my life and has always been there for me.  I am so lucky to have her as a friend.  And to think it all started with an unexpected phone call!\n\n"
+            }
+        ],
+        "request_id": "811eca93ac230ca8-EWR"
+    }
+}

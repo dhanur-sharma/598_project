@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was a really good day in our family. My wife and I have two young children. Our son is 6 and our daughter is now 15 months. Our son was right in line with what we've read development wise, however our daughter seemed to have been lacking. She meets the developmental queues of other children her age. She makes eye contact with us when called and not called upon. And she appears to be a normal healthy child, however she has yet to learn to crawl. That was until today. We were all watching TV and playing games with our son. We try to include our daughter in on everything since she loves to play. Our son was playing legos and my daughter was playing with a ball game where it goes down a spiral slide. Well, the ball got away from her when it got to the bottom and instead of crying like she has done in the past, she flopped over on her stomach and crawled to the ball. This was the first time she has ever initiated crawling and going out of her way to get something on her own without crying for it. Honestly, we werent even paying attention since she was having fun on her own. All of a sudden we see the ball go rolling, her crawling after it, and next thing you know, shes next to the both of us waiting for us to play with her. It was a proud day in our family. The worries went out the window that day since we were always concerned about developmental issues. I guess it is somewhat true what they say in that all children are different and will learn when they want to learn."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was a really good day in our family. My wife and I have two young children. Our son is 6 and our daughter is now 15 months. Our son was right in line with what we've read development wise, however our daughter seemed to have been lacking. She meets the developmental queues of other children her age. She makes eye contact with us when called and not called upon. And she appears to be a normal healthy child, however she has yet to learn to crawl. That was until today. We were all watching TV and playing games with our son. We try to include our daughter in on everything since she loves to play. Our son was playing legos and my daughter was playing with a ball game where it goes down a spiral slide. Well, the ball got away from her when it got to the bottom and instead of crying like she has done in the past, she flopped over on her stomach and crawled to the ball. This was the first time she has ever initiated crawling and going out of her way to get something on her own without crying for it. Honestly, we werent even paying attention since she was having fun on her own. All of a sudden we see the ball go rolling, her crawling after it, and next thing you know, shes next to the both of us waiting for us to play with her. It was a proud day in our family. The worries went out the window that day since we were always concerned about developmental issues. I guess it is somewhat true what they say in that all children are different and will learn when they want to learn.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so proud of our daughter and we're all so excited to see her grow and learn new things."
+            }
+        ],
+        "request_id": "811eb3572a708c33-EWR"
+    }
+}

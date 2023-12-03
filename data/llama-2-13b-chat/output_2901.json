@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I noticed that my brother had taken on some of the similarities of those around him.  My brother was eating food that I had never seen him eat.  I was sure not going to eat any foods that I could not identify.  I remember that as I sat waiting for my brother's graduation to begin, that I reflected on my first plane ride.  It had been very exciting.  I can't believe that I waited thirty years to fly!  It is the only way that I will travel from now on. Now as I sat waiting for my brother's graduation, I thought about our age difference and how I really felt like a big sister.  I am sixteen years older than him, WoW!  Sometimes he has seemed like a son to me. The ceremony very different from when my other brother had graduated in the south.  They are more formal here today, with not many speeches from the higher ups.  They cut straight to the chase with handing out diplomas for their achievements.  As I approach my brother, I can see that he is really surprised, because I surprised him and he did not spot me during the ceremony.  For the first time since he was a little boy, I see tears in my brother's eyes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I noticed that my brother had taken on some of the similarities of those around him.  My brother was eating food that I had never seen him eat.  I was sure not going to eat any foods that I could not identify.  I remember that as I sat waiting for my brother's graduation to begin, that I reflected on my first plane ride.  It had been very exciting.  I can't believe that I waited thirty years to fly!  It is the only way that I will travel from now on. Now as I sat waiting for my brother's graduation, I thought about our age difference and how I really felt like a big sister.  I am sixteen years older than him, WoW!  Sometimes he has seemed like a son to me. The ceremony very different from when my other brother had graduated in the south.  They are more formal here today, with not many speeches from the higher ups.  They cut straight to the chase with handing out diplomas for their achievements.  As I approach my brother, I can see that he is really surprised, because I surprised him and he did not spot me during the ceremony.  For the first time since he was a little boy, I see tears in my brother's eyes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can see the pride and the joy in his eyes, as he looks at me.\n\n"
+            }
+        ],
+        "request_id": "811ec053dfec1a0f-EWR"
+    }
+}

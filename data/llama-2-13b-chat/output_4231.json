@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had never gone to a week long party before. Will I run out of things to say? Will we run out of things to do? Small talk for 7 days? It turned out it was the best party I had ever been to. There were some really gorgeous girls there. I spent time with a different one on each of the 7 days. This party happened 6 weeks ago, and I am still glowing with its fond memories. The only problem is that all 7 girls are now calling me. Do I have to choose one? Do I even want to get married? They are all terrific. Maybe I should become a Mormon and marry all 7. What is that sound? So annoying. Oh, it's my alarm clock! Wait, so it was all a dream? Damn! I knew it was too good to be true. Oh well, being single isn't so bad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had never gone to a week long party before. Will I run out of things to say? Will we run out of things to do? Small talk for 7 days? It turned out it was the best party I had ever been to. There were some really gorgeous girls there. I spent time with a different one on each of the 7 days. This party happened 6 weeks ago, and I am still glowing with its fond memories. The only problem is that all 7 girls are now calling me. Do I have to choose one? Do I even want to get married? They are all terrific. Maybe I should become a Mormon and marry all 7. What is that sound? So annoying. Oh, it's my alarm clock! Wait, so it was all a dream? Damn! I knew it was too good to be true. Oh well, being single isn't so bad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "There's always next week's party.\n\n"
+            }
+        ],
+        "request_id": "811bd29f882442d0-EWR"
+    }
+}

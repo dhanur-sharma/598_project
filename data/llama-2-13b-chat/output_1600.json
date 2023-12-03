@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Kich died in April. Kich was my cat, but having been his caretaker for 17 years, he was my family through and through. I have never bonded as closely with a human as I did with him.  He almost died when I found him at 4 months with parasites, and then again at age 6. His health began to fail and there was nothing that could be done. Taking him into be euthenized and going through the process with him was surreal. I held him so close and so tight. I was terrified when they took him away to sedate him and frantic when they brought him back limp. I truly saw how fragile life is, how it can drain away over time and then gently release, and that there's nothing that can be done to stop it or bring it back. Kich's death is so painful to deal with and I miss him terribly, but there is one thing that makes it all ok. Nothing can hurt him again. He no longer suffers. As I walked home, I felt physically light because of this fact. I felt such extreme peace even in my grief. I'm so glad my little buddy is finally free."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Kich died in April. Kich was my cat, but having been his caretaker for 17 years, he was my family through and through. I have never bonded as closely with a human as I did with him.  He almost died when I found him at 4 months with parasites, and then again at age 6. His health began to fail and there was nothing that could be done. Taking him into be euthenized and going through the process with him was surreal. I held him so close and so tight. I was terrified when they took him away to sedate him and frantic when they brought him back limp. I truly saw how fragile life is, how it can drain away over time and then gently release, and that there's nothing that can be done to stop it or bring it back. Kich's death is so painful to deal with and I miss him terribly, but there is one thing that makes it all ok. Nothing can hurt him again. He no longer suffers. As I walked home, I felt physically light because of this fact. I felt such extreme peace even in my grief. I'm so glad my little buddy is finally free.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " "
+            }
+        ],
+        "request_id": "811ea7834f91c457-EWR"
+    }
+}

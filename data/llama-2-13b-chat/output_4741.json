@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had some trouble financially quite a few months back. Therefore had some issues with rent. I was trying to put things together. My landlord was getting a bit pushy, as is within his rights. However, what was not within his rights is the stuff he started to do as the situation continued. He came over one day and started trying to take my things, which he's not legally allowed to do before I was evicted. He completely ignored the eviction process for over a month. Then acted like I had to abide by his complacency by leaving regardless. I informed him that he needed to go through with the official eviction. I was there for a bit longer. He kept getting more and more brash. One day he comes in, starts banging on my door and is threatening to beat the crap out of me. I get out there with him and we argue. He tries to get physical with me, we get face to face, I call the cops. They arrive and he gets sent away."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had some trouble financially quite a few months back. Therefore had some issues with rent. I was trying to put things together. My landlord was getting a bit pushy, as is within his rights. However, what was not within his rights is the stuff he started to do as the situation continued. He came over one day and started trying to take my things, which he's not legally allowed to do before I was evicted. He completely ignored the eviction process for over a month. Then acted like I had to abide by his complacency by leaving regardless. I informed him that he needed to go through with the official eviction. I was there for a bit longer. He kept getting more and more brash. One day he comes in, starts banging on my door and is threatening to beat the crap out of me. I get out there with him and we argue. He tries to get physical with me, we get face to face, I call the cops. They arrive and he gets sent away.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdd03582fc348-EWR"
+    }
+}

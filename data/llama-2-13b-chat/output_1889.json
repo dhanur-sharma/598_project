@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, let's start by saying I love sports. Especially basketball and football. It is not rare for me to even play some games of it. In fact on Saturdays I play flag football, it's a good way to stay active as well as work on a team. I have been on this team for a few seasons and seen players come and go. Most of my current teammates are new, so working as a team would take some time to figure out. I am very competitive person and at times hate to lose. Due to the fact these are new team member I felt like the leader of the group and did the most trying to play hard as well as get the win. This game in particular was not my finest. I felt that I just did not play well and was not setting a good example for my team. We  lost the game but afterward my team mates we're so positive saying we will win the next one and not to be so hard on myself. Whatever was needed to improve us they were willing to do. It made me take on a whole different perspective. At times I should not be so hard on myself. This is a team and there is no I in team."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, let's start by saying I love sports. Especially basketball and football. It is not rare for me to even play some games of it. In fact on Saturdays I play flag football, it's a good way to stay active as well as work on a team. I have been on this team for a few seasons and seen players come and go. Most of my current teammates are new, so working as a team would take some time to figure out. I am very competitive person and at times hate to lose. Due to the fact these are new team member I felt like the leader of the group and did the most trying to play hard as well as get the win. This game in particular was not my finest. I felt that I just did not play well and was not setting a good example for my team. We  lost the game but afterward my team mates we're so positive saying we will win the next one and not to be so hard on myself. Whatever was needed to improve us they were willing to do. It made me take on a whole different perspective. At times I should not be so hard on myself. This is a team and there is no I in team.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I look forward to the next game and seeing how much we have improved."
+            }
+        ],
+        "request_id": "811eacbb7f1e42ee-EWR"
+    }
+}

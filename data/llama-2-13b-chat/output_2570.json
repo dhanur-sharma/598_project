@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I got a better job with a higher salary in Washington State, so I packed up the kids and my wife and left New York for good. I knew that it would be stressful to make the 42-hour journey in only a couple days, but it was important I make it to the office in time for my first day. I couldn't afford the plane tickets for all seven of us, so my wife and I made the decision to drive the whole way in shifts. When one of us got tired, the other would pick up the slack. It was stressful to say the least to wrangle a bunch of screaming children asking \"are we there yet?\" over and over again. About ten minutes outside of Des Moines, my youngest child started complaining of feeling sick and developed a rash all over his body. The GPS told me we were very close to a hospital, so I made my way there as quickly as possible. When we got to the emergency room, Logan could barely breathe. The nurse on duty deemed the case to be of utmost priority, so she wheeled him in to see the doctor immediately. My wife, my other four children, and I waited anxiously for someone to give us an update. After about half an hour, a doctor approached us and said, to our relief, that Logan was just fine. It turned out he had an allergic reaction to the shrimp salad he ate at lunch. He has a shellfish allergy and needs to avoid most seafood from now on. The doctor administered an EpiPen which opened his airway and allowed him to breathe easier again. They induced vomiting which helped him feel better. He still had a rash on his body, but it was starting to go down. After a couple more hours of observation, he was released from the hospital and we resumed our journey. We were all very thankful that we had been so close to the hospital and not in the middle of nowhere. We made it to our destination just in time and I showed up at my new job tired but grateful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I got a better job with a higher salary in Washington State, so I packed up the kids and my wife and left New York for good. I knew that it would be stressful to make the 42-hour journey in only a couple days, but it was important I make it to the office in time for my first day. I couldn't afford the plane tickets for all seven of us, so my wife and I made the decision to drive the whole way in shifts. When one of us got tired, the other would pick up the slack. It was stressful to say the least to wrangle a bunch of screaming children asking \"are we there yet?\" over and over again. About ten minutes outside of Des Moines, my youngest child started complaining of feeling sick and developed a rash all over his body. The GPS told me we were very close to a hospital, so I made my way there as quickly as possible. When we got to the emergency room, Logan could barely breathe. The nurse on duty deemed the case to be of utmost priority, so she wheeled him in to see the doctor immediately. My wife, my other four children, and I waited anxiously for someone to give us an update. After about half an hour, a doctor approached us and said, to our relief, that Logan was just fine. It turned out he had an allergic reaction to the shrimp salad he ate at lunch. He has a shellfish allergy and needs to avoid most seafood from now on. The doctor administered an EpiPen which opened his airway and allowed him to breathe easier again. They induced vomiting which helped him feel better. He still had a rash on his body, but it was starting to go down. After a couple more hours of observation, he was released from the hospital and we resumed our journey. We were all very thankful that we had been so close to the hospital and not in the middle of nowhere. We made it to our destination just in time and I showed up at my new job tired but grateful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb9469f9d0f45-EWR"
+    }
+}

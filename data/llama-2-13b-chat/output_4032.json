@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I were driving on the freeway.  A black Toyota 4Runner passed us on our right.  We were in the passing lane.  All of a sudden I saw a huge cloud of dust, probably 4 feet high and my wife started yelling.  I had her pull over to the side of the road.  We saw that the 4Runner was in the middle of the freeway with a smashed front end.  A young man got out and he had snot on his nose from the airbag slamming into him.  I looked over to the left and noticed that a Honda civic was completed crushed from being rear-ended.  The car was half the size it normally would be.  A foot hung out of the driver's seat.  A young man had his neck snapped from the impact and died later.  My wife started yelling at me because a woman was emerging from the side area where all the bushes were.  She had been thrown 50 feet away from the crash.  Luckily she had been outside the car when it was pulled over and parked on the side of the road.  Unfortunately she soon would become a widow."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I were driving on the freeway.  A black Toyota 4Runner passed us on our right.  We were in the passing lane.  All of a sudden I saw a huge cloud of dust, probably 4 feet high and my wife started yelling.  I had her pull over to the side of the road.  We saw that the 4Runner was in the middle of the freeway with a smashed front end.  A young man got out and he had snot on his nose from the airbag slamming into him.  I looked over to the left and noticed that a Honda civic was completed crushed from being rear-ended.  The car was half the size it normally would be.  A foot hung out of the driver's seat.  A young man had his neck snapped from the impact and died later.  My wife started yelling at me because a woman was emerging from the side area where all the bushes were.  She had been thrown 50 feet away from the crash.  Luckily she had been outside the car when it was pulled over and parked on the side of the road.  Unfortunately she soon would become a widow.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bcebe0f245e72-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June my family and I went on a cruise vacation and one of the ports of call was Honduras. We went to an outside bar. They slipped something into our drinks. I only had one drink and was completely obliterated, as was my boyfriend and his mom. We lost time, and blacked out at some points. Luckily we were together with others that did not get sick. We were back to normal with no hangover or loss of appetite by the middle of the night. I never have blacked out or lost time, even when I have been drinking triple that amount. I am glad that our grandmother only had a couple sips from one of our drinks because she's 87. She definitely could have died. We saw a couple other people that were sick as well. They were sitting down with their heads between their knees outside the ship. I heard people  in other countries get people sick on purpose so they can take you to their hospital. Then they expect compensations for saving your life. Even though they were the one's who got you sick in the first place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June my family and I went on a cruise vacation and one of the ports of call was Honduras. We went to an outside bar. They slipped something into our drinks. I only had one drink and was completely obliterated, as was my boyfriend and his mom. We lost time, and blacked out at some points. Luckily we were together with others that did not get sick. We were back to normal with no hangover or loss of appetite by the middle of the night. I never have blacked out or lost time, even when I have been drinking triple that amount. I am glad that our grandmother only had a couple sips from one of our drinks because she's 87. She definitely could have died. We saw a couple other people that were sick as well. They were sitting down with their heads between their knees outside the ship. I heard people  in other countries get people sick on purpose so they can take you to their hospital. Then they expect compensations for saving your life. Even though they were the one's who got you sick in the first place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were lucky that we had our group with us. They were very helpful and made sure we got back to the ship okay. I was so upset that someone would do this to innocent people. I don't drink anymore because of this.\n\n"
+            }
+        ],
+        "request_id": "811e98b2a83542e0-EWR"
+    }
+}

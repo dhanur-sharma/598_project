@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son was in the yard and he happened to hurt his arm really bad while diving to catch a ball. I had to rush him to urgent care, so they could take x-rays, as his arm started to swell. Unfortunately it turned out to be broken, so the doctor put a cast on it. Then, something else happened. When we went to leave the parking garage of the hospital, the car wouldn't start. I had to call a tow truck to take us home. What crazy day it was. The tow truck came quickly thankfully. The driver looked at some basic things to see what it could be, but couldn't really guess what the problem was. They hitched the car to the truck and we sat upfront in the tow truck as he drove us to a repair station. We dropped the car at the station, and the tow truck driver gave us a ride home. I was totally starting to worry though. I now knew there was a medical bill coming, and on top of that I now had a repair bill for my car that would be coming soon, and I had no real idea of how much that would turn out to be. I guess that is how it goes sometimes. Bad things tend to happen all at once. I can't wait until this month is over."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son was in the yard and he happened to hurt his arm really bad while diving to catch a ball. I had to rush him to urgent care, so they could take x-rays, as his arm started to swell. Unfortunately it turned out to be broken, so the doctor put a cast on it. Then, something else happened. When we went to leave the parking garage of the hospital, the car wouldn't start. I had to call a tow truck to take us home. What crazy day it was. The tow truck came quickly thankfully. The driver looked at some basic things to see what it could be, but couldn't really guess what the problem was. They hitched the car to the truck and we sat upfront in the tow truck as he drove us to a repair station. We dropped the car at the station, and the tow truck driver gave us a ride home. I was totally starting to worry though. I now knew there was a medical bill coming, and on top of that I now had a repair bill for my car that would be coming soon, and I had no real idea of how much that would turn out to be. I guess that is how it goes sometimes. Bad things tend to happen all at once. I can't wait until this month is over.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think I will be broke."
+            }
+        ],
+        "request_id": "811eaf403c194379-EWR"
+    }
+}

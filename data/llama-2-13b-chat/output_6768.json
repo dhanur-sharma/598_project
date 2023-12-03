@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, I just got fired! I was called into the back where the new supervisor and manager were sitting (super was on vacation). They said that my supervisor said I hadn't' cleaned the hood, and after like 10 minutes of us running around and me poking holes in the stories they were spouting I got my shit and left. It was pretty funny actually, they like expected me to be sad or something. The HR guy was on the line through a remote location. They basically just sat me down and said I didn't clean the hood. I told them that yes I did, and told them they should look to whatever day I cleaned the bins. Then I asked when they were asking people if I cleaned if they asked my other coworker. They said they had not. When I asked to review the tapes myself, the tapes didn't exist anymore. Like seriously how sketchy is that lol. I was so mad just about that really. Also they noted the hood was dirty 22 days after I supposedly cleaned it. They addressed it to me almost 45 days after I cleaned it. And by the time they were firing me over it, the tape didn't exist. what a bunch of malarkey, really."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, I just got fired! I was called into the back where the new supervisor and manager were sitting (super was on vacation). They said that my supervisor said I hadn't' cleaned the hood, and after like 10 minutes of us running around and me poking holes in the stories they were spouting I got my shit and left. It was pretty funny actually, they like expected me to be sad or something. The HR guy was on the line through a remote location. They basically just sat me down and said I didn't clean the hood. I told them that yes I did, and told them they should look to whatever day I cleaned the bins. Then I asked when they were asking people if I cleaned if they asked my other coworker. They said they had not. When I asked to review the tapes myself, the tapes didn't exist anymore. Like seriously how sketchy is that lol. I was so mad just about that really. Also they noted the hood was dirty 22 days after I supposedly cleaned it. They addressed it to me almost 45 days after I cleaned it. And by the time they were firing me over it, the tape didn't exist. what a bunch of malarkey, really.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad to be out of there. I have been at this place for 7 years and I have been getting more and more annoyed with how they run things. I feel so much better now.\n\n"
+            }
+        ],
+        "request_id": "811f4c694caa4332-EWR"
+    }
+}

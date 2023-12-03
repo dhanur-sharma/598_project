@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I received a promotion at work about three months ago. It was an important event for me because I felt that I had worked hard enough to get it. I also think that my superiors saw that too. My friends and family were happy about me. My coworkers congratulated me as well. I receive a higher salary now, and better benefits such as a shorter day and being able to work from home at certain times. I felt proud of my accomplishment and my hard work paid off. It was an important meeting at work since everyone there was clapping and congratulating me. I was very happy and excited. I loved that day, and I was very anxious to start in my new position. I really appreciated all that I was given. I am happy where I am now.  I have to thank my family. I have to thank my boss for his support. I felt that it was long overdue, but I really enjoyed the celebration. I went to a bar with my friends to celebrate."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I received a promotion at work about three months ago. It was an important event for me because I felt that I had worked hard enough to get it. I also think that my superiors saw that too. My friends and family were happy about me. My coworkers congratulated me as well. I receive a higher salary now, and better benefits such as a shorter day and being able to work from home at certain times. I felt proud of my accomplishment and my hard work paid off. It was an important meeting at work since everyone there was clapping and congratulating me. I was very happy and excited. I loved that day, and I was very anxious to start in my new position. I really appreciated all that I was given. I am happy where I am now.  I have to thank my family. I have to thank my boss for his support. I felt that it was long overdue, but I really enjoyed the celebration. I went to a bar with my friends to celebrate.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was really happy that day. I will always remember it.\n\n"
+            }
+        ],
+        "request_id": "811eadf14ba1436a-EWR"
+    }
+}

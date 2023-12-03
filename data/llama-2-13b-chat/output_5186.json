@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May, I tested for my red belt in Tae Kwon Do.  This was a significant point, as it's my last belt to test for prior to testing for my Black Belt.  This test is traditionally known to be very difficult, as they want to ensure you understand the amount of effort you will need to put forth in order to obtain the level of Black Belt. I arrived at the studio an hour prior to the beginning of the test.  I was somewhat anxious, but I knew I had to go through this in order to accomplish my overall goal.  I began stretching different parts of my body, to ensure that my body was prepared for the physical demand that is required to obtain this belt.  After stretching, I practiced a few of the kicks, blocks, and punches I would be required to demonstrate on my test.  I also went through some of my forms that I would have to demonstrate knowledge of on the test.  At 6:00p. m., they lined us up.  This signals the beginning of the test, as instructors come to the front of the studio and choose who they will be testing.  Once the black belt instructors went to the front, the lead instructor brought us to attention.  He went through briefly what we would be doing.  Following this, an instructor stepped forward and called my name.  I now knew who would be testing me for the evening.  As the other instructors called on their students, I went and retrieved a chair for my instructor. For the next hour and a half, I went through everything I had been taught since first beginning Tae Kwon Do, demonstrating each kick, punch, block, multiple times.  The jump kicks were very demanding.  I needed a fair amount of rest in between these kicks, as my age and physical shape played into this.  After this, I demonstrated each of the forms.  It was a grueling test, to say the least.  At the end of the test, I was very sweaty and well exhausted.  I received my new belt that night and went home happy.  At home, I felt very sore, which reminded me of how much physical demand is required to obtain the level which I'm currently at in Tae Kwon Do.  I know that the Black Belt test will be much harder, and that I need to use my training period to help me prepare for that evening."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May, I tested for my red belt in Tae Kwon Do.  This was a significant point, as it's my last belt to test for prior to testing for my Black Belt.  This test is traditionally known to be very difficult, as they want to ensure you understand the amount of effort you will need to put forth in order to obtain the level of Black Belt. I arrived at the studio an hour prior to the beginning of the test.  I was somewhat anxious, but I knew I had to go through this in order to accomplish my overall goal.  I began stretching different parts of my body, to ensure that my body was prepared for the physical demand that is required to obtain this belt.  After stretching, I practiced a few of the kicks, blocks, and punches I would be required to demonstrate on my test.  I also went through some of my forms that I would have to demonstrate knowledge of on the test.  At 6:00p. m., they lined us up.  This signals the beginning of the test, as instructors come to the front of the studio and choose who they will be testing.  Once the black belt instructors went to the front, the lead instructor brought us to attention.  He went through briefly what we would be doing.  Following this, an instructor stepped forward and called my name.  I now knew who would be testing me for the evening.  As the other instructors called on their students, I went and retrieved a chair for my instructor. For the next hour and a half, I went through everything I had been taught since first beginning Tae Kwon Do, demonstrating each kick, punch, block, multiple times.  The jump kicks were very demanding.  I needed a fair amount of rest in between these kicks, as my age and physical shape played into this.  After this, I demonstrated each of the forms.  It was a grueling test, to say the least.  At the end of the test, I was very sweaty and well exhausted.  I received my new belt that night and went home happy.  At home, I felt very sore, which reminded me of how much physical demand is required to obtain the level which I'm currently at in Tae Kwon Do.  I know that the Black Belt test will be much harder, and that I need to use my training period to help me prepare for that evening.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm looking forward to the challenge.\n\n"
+            }
+        ],
+        "request_id": "811be6155c535e62-EWR"
+    }
+}

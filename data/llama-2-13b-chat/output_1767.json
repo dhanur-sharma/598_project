@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went to P and K's house last night for a BBQ.  P is getting ready to deploy, and K is expecting their second child so making the most of all of our time together is important.  P had gotten some special beers from a store near them, which he shared with me while A and M ran around the backyard.  The two of them had a terrific time playing on an old tree stump, inventing all sorts of games.  K's feeling quite stressed about the baby and the uncertainty of P's deployment.  It looks like it will be a lengthy mission to a dangerous region.  And it's coming so soon after he was gone on the hospital ship.  I hope the baby will be born before he deploys.  We will need to figure out how best to support K while he's gone. We had dinner outside as the sun set, and then went inside.  M and A played some more.  They get along really well together.  It seems like there is less rivalry between then.  Finally, P and K brought out a surprise birthday cake for J's birthday.  They are great friends to think of us, when so much is happening in their lives."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went to P and K's house last night for a BBQ.  P is getting ready to deploy, and K is expecting their second child so making the most of all of our time together is important.  P had gotten some special beers from a store near them, which he shared with me while A and M ran around the backyard.  The two of them had a terrific time playing on an old tree stump, inventing all sorts of games.  K's feeling quite stressed about the baby and the uncertainty of P's deployment.  It looks like it will be a lengthy mission to a dangerous region.  And it's coming so soon after he was gone on the hospital ship.  I hope the baby will be born before he deploys.  We will need to figure out how best to support K while he's gone. We had dinner outside as the sun set, and then went inside.  M and A played some more.  They get along really well together.  It seems like there is less rivalry between then.  Finally, P and K brought out a surprise birthday cake for J's birthday.  They are great friends to think of us, when so much is happening in their lives.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a very special night, and I will always remember it."
+            }
+        ],
+        "request_id": "811eaa5bc9395e7c-EWR"
+    }
+}

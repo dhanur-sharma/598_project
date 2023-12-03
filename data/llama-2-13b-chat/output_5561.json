@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe how rough this year was. Never in my wildest dreams had i thought this year would be like this. I got stabbed for godsakes! It happened at the local 7-11. We were coming back after a concert, me and mary. Mary went to fill gas in the car, and i went to the 7-11 to get something to drink. I knew that it was a dangerous neighborhood. But who would expect to get stabbed? A masked man came rushing in, and grabbed on to my purse. I fought back. The last thing i remember was seeing a box cutter. He had stabbed me. Mary called the cops and i was rushed into the hospital for an exploratory surgery. Dealing with the cops was even more frustrating. I badly need to see a therapist. It is surprising how hard it is to find a good therapist these days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe how rough this year was. Never in my wildest dreams had i thought this year would be like this. I got stabbed for godsakes! It happened at the local 7-11. We were coming back after a concert, me and mary. Mary went to fill gas in the car, and i went to the 7-11 to get something to drink. I knew that it was a dangerous neighborhood. But who would expect to get stabbed? A masked man came rushing in, and grabbed on to my purse. I fought back. The last thing i remember was seeing a box cutter. He had stabbed me. Mary called the cops and i was rushed into the hospital for an exploratory surgery. Dealing with the cops was even more frustrating. I badly need to see a therapist. It is surprising how hard it is to find a good therapist these days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f340adbfa8cdd-EWR"
+    }
+}

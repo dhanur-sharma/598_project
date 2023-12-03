@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago I went on an exciting backpacking trip to Europe with my friends. I visited France, Italy, Spain and Austria. We went through Paris and the Omaha Beach where the D-Day landings happened. In Paris I enjoyed some sweets. I traveled through the countryside in Spain. It was surprising how laid-back people are in Spain. The pace of life is so much slower in Spain. People take there time during meals to have conversations. We saw but did not participate in the running of the bulls. It was excited and scary to see people trying to avoid those bulls. In Austria I enjoyed some Austrian chocolate. I enjoyed interacting with the locals. I had many interesting conversations with people. I love mountains. Austria is filled with many snow-capped mountains. My trip with my friends will stay with me the rest of my life. I feel closer to my friends now. I also made some new friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago I went on an exciting backpacking trip to Europe with my friends. I visited France, Italy, Spain and Austria. We went through Paris and the Omaha Beach where the D-Day landings happened. In Paris I enjoyed some sweets. I traveled through the countryside in Spain. It was surprising how laid-back people are in Spain. The pace of life is so much slower in Spain. People take there time during meals to have conversations. We saw but did not participate in the running of the bulls. It was excited and scary to see people trying to avoid those bulls. In Austria I enjoyed some Austrian chocolate. I enjoyed interacting with the locals. I had many interesting conversations with people. I love mountains. Austria is filled with many snow-capped mountains. My trip with my friends will stay with me the rest of my life. I feel closer to my friends now. I also made some new friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would love to go back to Europe.\n\n"
+            }
+        ],
+        "request_id": "811ec39e592e8c2d-EWR"
+    }
+}

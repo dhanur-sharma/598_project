@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am still in recovery. I am almost 7 months post break and surgery and every single day is a struggle. I still have swelling and pain. I cannot live my life the way it was before the break. I tire much more easily. My husband has had to pick up a lot of the slack and it is wearing on him, and our relationship. I have been cleared to drive short distances so I can at least do some of the running for the kids practices and games. Depression and anxiety are very real. I can't walk outside when it is wet. I try to go hiking with my husband and have panic attacks. One day, maybe this new normal will be tolerable. My doctor says a year to tolerably normal. Sometimes it seems like it has been no time at all. Others it seems like it has been forever. I hope soon I can resume my normal life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am still in recovery. I am almost 7 months post break and surgery and every single day is a struggle. I still have swelling and pain. I cannot live my life the way it was before the break. I tire much more easily. My husband has had to pick up a lot of the slack and it is wearing on him, and our relationship. I have been cleared to drive short distances so I can at least do some of the running for the kids practices and games. Depression and anxiety are very real. I can't walk outside when it is wet. I try to go hiking with my husband and have panic attacks. One day, maybe this new normal will be tolerable. My doctor says a year to tolerably normal. Sometimes it seems like it has been no time at all. Others it seems like it has been forever. I hope soon I can resume my normal life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f431469e75e6c-EWR"
+    }
+}

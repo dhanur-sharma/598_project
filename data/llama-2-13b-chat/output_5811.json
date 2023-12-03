@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got a certificate in the mail for my winning photo at the fair. I wanted to do something different and capture something meaningful. I decided to stay a few days in the South Indian Forest to capture some nature shots. It was a great way to get away from the stresses of the world. I guess you could say I am coping with life through my photography. Anyways, I would get up at dawn and hike until noon. Each night I found a different spot to camp near different habitats. One night I heard some really weird noises coming from the distance. It sounded like a women screaming but I knew that was not the case. I grabbed my camera and slowly started up to the hill when I saw something out of the corner of my eye. It was a bob cat and their young hunting. Mom was teaching her children how to hunt at night. I automatically grabbed my camera and I knew I would only get a few shots to capture the moment because of the flash. In that moment I was able to capture the most perfect photo of the three. Just looking at the photo you can see how proud the mother was of her young. I was able to win the contest with that photo and a nice little cash prize."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got a certificate in the mail for my winning photo at the fair. I wanted to do something different and capture something meaningful. I decided to stay a few days in the South Indian Forest to capture some nature shots. It was a great way to get away from the stresses of the world. I guess you could say I am coping with life through my photography. Anyways, I would get up at dawn and hike until noon. Each night I found a different spot to camp near different habitats. One night I heard some really weird noises coming from the distance. It sounded like a women screaming but I knew that was not the case. I grabbed my camera and slowly started up to the hill when I saw something out of the corner of my eye. It was a bob cat and their young hunting. Mom was teaching her children how to hunt at night. I automatically grabbed my camera and I knew I would only get a few shots to capture the moment because of the flash. In that moment I was able to capture the most perfect photo of the three. Just looking at the photo you can see how proud the mother was of her young. I was able to win the contest with that photo and a nice little cash prize.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I knew that was the reason I had gone to the forest. I felt so at peace and connected with nature.\n\n"
+            }
+        ],
+        "request_id": "811f38cdfe7e190e-EWR"
+    }
+}

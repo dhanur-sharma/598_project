@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: While I was at a recent doctors appointment I received some very unwelcome news.  I needed surgery but would not be able to have it due to my weight.  The doctor was rather blunt and borderline rude.  However, I could kind of see his point of view as well.  Because of this, I made a commitment to lose weight.   I was hoping that the memory of him being rude coupled with the chronic pain I am in daily would help.  It actually did somewhat.  For a few short weeks, I did everything I could to accomplish this goal.  I drank only water, no sodas at all.  I completely cut out sugars.  The doctor stressed that sugar addiction is stronger than heroin addiction.  I made a small amount of progress.  Then, much to my surprise, I had a diet soda.  That diet soda soon replaced most of the water I had been drinking.  It seemed like I had completely relapsed.  My desire for sugar returned with a vengeance.  I now have to start over from scratch again.  I guess the doctor was right about sugars after all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: While I was at a recent doctors appointment I received some very unwelcome news.  I needed surgery but would not be able to have it due to my weight.  The doctor was rather blunt and borderline rude.  However, I could kind of see his point of view as well.  Because of this, I made a commitment to lose weight.   I was hoping that the memory of him being rude coupled with the chronic pain I am in daily would help.  It actually did somewhat.  For a few short weeks, I did everything I could to accomplish this goal.  I drank only water, no sodas at all.  I completely cut out sugars.  The doctor stressed that sugar addiction is stronger than heroin addiction.  I made a small amount of progress.  Then, much to my surprise, I had a diet soda.  That diet soda soon replaced most of the water I had been drinking.  It seemed like I had completely relapsed.  My desire for sugar returned with a vengeance.  I now have to start over from scratch again.  I guess the doctor was right about sugars after all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec4fb8f2c43b3-EWR"
+    }
+}

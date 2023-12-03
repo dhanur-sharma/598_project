@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were trying really hard to get my son in to a good school. It's more important these days than ever. Kids need to be in a strong school from the start. I talked to my wife about it. She had an idea about one school. We tried as best as we could to get my kid in. Talked to the principal. Talked to anyone who would listen to me about it. The school district did not care one bit at all. They kept denying us the transfer. It was a painful experience. We all really had out heart set on that school. We knew it would be the best for our son. But because of their actions we decided to put him in a private school instead. I have to pay tuition now but it's worth it to no my son is doing well. As a father I will always want the best for my children. I want them to get all they can out of life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were trying really hard to get my son in to a good school. It's more important these days than ever. Kids need to be in a strong school from the start. I talked to my wife about it. She had an idea about one school. We tried as best as we could to get my kid in. Talked to the principal. Talked to anyone who would listen to me about it. The school district did not care one bit at all. They kept denying us the transfer. It was a painful experience. We all really had out heart set on that school. We knew it would be the best for our son. But because of their actions we decided to put him in a private school instead. I have to pay tuition now but it's worth it to no my son is doing well. As a father I will always want the best for my children. I want them to get all they can out of life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will do whatever it takes to make sure they succeed.\n\n"
+            }
+        ],
+        "request_id": "811ec562b84b18b1-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was getting ready for a typical day at work last Monday. I got dressed, rushed to get my kids ready and out the door, and then headed to the subway. Right before I got to the subway entrance I looked down and saw an envelope on the ground. It was stuffed with cash. I don't think I have ever seen so much cash in one place before. I grabbed it, and quickly scanned the envelope for a name or any identifying marks. There was nothing on it. I looked around for what I presumed would be a very frantic person, but no one seemed to be looking for anything or aware of the missing money. I called my boss letting her know I would be late, and then walked to the police office to ask what to do. They weren't exactly helpful, so I ended up keeping the cash with me and posting online to try to find the owner. So far no one has contacted me. I'm finding myself hoping to get to keep it, but also really wanting to find the owner so I no longer have to feel anxious about it. I find myself thinking of all of the things I could do with it. I also find myself thinking of all of the many reasons the real owner needs it back.  It makes me feel very guilty, despite not doing anything wrong in this situation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was getting ready for a typical day at work last Monday. I got dressed, rushed to get my kids ready and out the door, and then headed to the subway. Right before I got to the subway entrance I looked down and saw an envelope on the ground. It was stuffed with cash. I don't think I have ever seen so much cash in one place before. I grabbed it, and quickly scanned the envelope for a name or any identifying marks. There was nothing on it. I looked around for what I presumed would be a very frantic person, but no one seemed to be looking for anything or aware of the missing money. I called my boss letting her know I would be late, and then walked to the police office to ask what to do. They weren't exactly helpful, so I ended up keeping the cash with me and posting online to try to find the owner. So far no one has contacted me. I'm finding myself hoping to get to keep it, but also really wanting to find the owner so I no longer have to feel anxious about it. I find myself thinking of all of the things I could do with it. I also find myself thinking of all of the many reasons the real owner needs it back.  It makes me feel very guilty, despite not doing anything wrong in this situation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb77cb86741a1-EWR"
+    }
+}

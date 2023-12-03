@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary -- Today, Marcia and Jan actually asked when Bobbie and Greta would be visiting again! That's kind of amazing. I didn't write about it when it happened because things were so busy then, but a couple of months ago, B&G stayed over with us for a week while their mother was recovering from surgery. John had to work, and he asked me if they could stay with us. I was kind of worried. Sure, John and Mary and the kids used to live next door to us (which is how John and I *ahem* connected), so the kids all knew each other, but it had been a couple of years since they split up and sold the house, and I wasn't sure how this would work. And Bobbie and Greta were kind of standoffish at first, and who could blame them? But Marcia and Jan were oblivious, thank heavens. They took B&G to the mall, and to the theme park, and they snuck around next door when the \"new\" neighbors weren't home and peeked through the windows, which must have been weird for B&G. Their old place has changed -- a lot -- and they were pretty quiet that night. John came over every evening after work, which is *not* normal, and that was tense at first because it's not normal, but it got better. Mainly, I was glad to see M&J reconnect with their old friends. After a while, it was like one long sleepover. By Saturday, they'd run out of things to do, and G&B were due to go back home on Sunday, so we just stayed around the house. John was at Mary's, making sure she was ready to take back the kids, so it was just us girls. It was a warm, still summer evening, and we went out back after supper to sit on the porch. When the fireflies started to come out, Bobbie and Greta squealed like eight-year-olds, not the teens they are now, and asked if I had any bottles. Apparently there aren't lightning bugs where they live now. I found four bottles -- some glass, some plastic -- and watched in bemusement as all four girls ran around collecting fireflies. It was like a last hurrah for childhood, and I was as glad for those two girls as I was for my own daughters. And now we go forward. M&J have apparently been texting G&B, and G&B are working on John (and on Mary, too, I guess). They all want to get together again before graduation. It's not like we're a family, but it's so good that we're all friends again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary -- Today, Marcia and Jan actually asked when Bobbie and Greta would be visiting again! That's kind of amazing. I didn't write about it when it happened because things were so busy then, but a couple of months ago, B&G stayed over with us for a week while their mother was recovering from surgery. John had to work, and he asked me if they could stay with us. I was kind of worried. Sure, John and Mary and the kids used to live next door to us (which is how John and I *ahem* connected), so the kids all knew each other, but it had been a couple of years since they split up and sold the house, and I wasn't sure how this would work. And Bobbie and Greta were kind of standoffish at first, and who could blame them? But Marcia and Jan were oblivious, thank heavens. They took B&G to the mall, and to the theme park, and they snuck around next door when the \"new\" neighbors weren't home and peeked through the windows, which must have been weird for B&G. Their old place has changed -- a lot -- and they were pretty quiet that night. John came over every evening after work, which is *not* normal, and that was tense at first because it's not normal, but it got better. Mainly, I was glad to see M&J reconnect with their old friends. After a while, it was like one long sleepover. By Saturday, they'd run out of things to do, and G&B were due to go back home on Sunday, so we just stayed around the house. John was at Mary's, making sure she was ready to take back the kids, so it was just us girls. It was a warm, still summer evening, and we went out back after supper to sit on the porch. When the fireflies started to come out, Bobbie and Greta squealed like eight-year-olds, not the teens they are now, and asked if I had any bottles. Apparently there aren't lightning bugs where they live now. I found four bottles -- some glass, some plastic -- and watched in bemusement as all four girls ran around collecting fireflies. It was like a last hurrah for childhood, and I was as glad for those two girls as I was for my own daughters. And now we go forward. M&J have apparently been texting G&B, and G&B are working on John (and on Mary, too, I guess). They all want to get together again before graduation. It's not like we're a family, but it's so good that we're all friends again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Dear diary, I'm so grateful for this summer."
+            }
+        ],
+        "request_id": "811ecc711fda423b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Nine months ago, I went to my friend's wedding. It was about to become a disaster. My friend was marrying somebody of a different faith. My friend's father didn't take kindly to the news. He came into the wedding with a bible in his right hand and a cross in this left. He went over to the soon to be wife and began performing an exorcism. He chanted all these weird words and noises at her. She gave him a giant slap. My friend had to push him out of the church. The police got involved and arrested the friend's father. The wedding went smoothly after that. I gave my friend a hug. I gave my friend's wife a hug. I drank some beer. I had some fun dancing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Nine months ago, I went to my friend's wedding. It was about to become a disaster. My friend was marrying somebody of a different faith. My friend's father didn't take kindly to the news. He came into the wedding with a bible in his right hand and a cross in this left. He went over to the soon to be wife and began performing an exorcism. He chanted all these weird words and noises at her. She gave him a giant slap. My friend had to push him out of the church. The police got involved and arrested the friend's father. The wedding went smoothly after that. I gave my friend a hug. I gave my friend's wife a hug. I drank some beer. I had some fun dancing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I went home. I had a great time.\n\n"
+            }
+        ],
+        "request_id": "811ea5b08ceb430a-EWR"
+    }
+}

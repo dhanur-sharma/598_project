@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Within the last six months I have been medically retired. I filed for disability three years ago when I could no longer function in the workplace due to a chronic, progressive medical condition. I did not want to retire. My body did not agree with my wishes. My condition was deteriorating as I went through the three year legal process. I hired an attorney to help me understand the process and to ensure I was following the procedure correctly. Not only has it been frustrating not to be able to be employed financially, but it has taken a toll on mentally as well. I did finally qualify for my disability.  The entire process was very taxing on me. I was in a constant state of worry while going through it. I wondered what would become of me if I was denied my disability? I wondered how I would be able to receive any kind of medical attention if  I was denied. I wondered if I would lose my house when my savings ran out if I didn't get it.  I lost sleep during the three years because of the stress. The stress affected my physical condition as well. The entire process should be streamlined so that recipients shouldn't have to wait years for a decision."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Within the last six months I have been medically retired. I filed for disability three years ago when I could no longer function in the workplace due to a chronic, progressive medical condition. I did not want to retire. My body did not agree with my wishes. My condition was deteriorating as I went through the three year legal process. I hired an attorney to help me understand the process and to ensure I was following the procedure correctly. Not only has it been frustrating not to be able to be employed financially, but it has taken a toll on mentally as well. I did finally qualify for my disability.  The entire process was very taxing on me. I was in a constant state of worry while going through it. I wondered what would become of me if I was denied my disability? I wondered how I would be able to receive any kind of medical attention if  I was denied. I wondered if I would lose my house when my savings ran out if I didn't get it.  I lost sleep during the three years because of the stress. The stress affected my physical condition as well. The entire process should be streamlined so that recipients shouldn't have to wait years for a decision.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd181180f8c69-EWR"
+    }
+}

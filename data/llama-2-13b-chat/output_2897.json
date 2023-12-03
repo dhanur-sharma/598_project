@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Bald mountain a week ago. I had been planning for this trip a long time. It was amazing to me to drive up the curvy roads, all the way to the top. I got out of my car and walked to the viewing area. The view before me was awesome. Words cannot describe the beauty that was before me. It made me feel insignificant. I could feel the majestic power it had taken to create such beauty. It was a picture perfect moment. It was one of the best experiences of my life. Looking around it was like seeing paradise. I stood there a long time just drinking in the view. I took a lot of pictures. I plan to display them prominently in my home. I never want to forget this experience. I want to be able to share this with my friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Bald mountain a week ago. I had been planning for this trip a long time. It was amazing to me to drive up the curvy roads, all the way to the top. I got out of my car and walked to the viewing area. The view before me was awesome. Words cannot describe the beauty that was before me. It made me feel insignificant. I could feel the majestic power it had taken to create such beauty. It was a picture perfect moment. It was one of the best experiences of my life. Looking around it was like seeing paradise. I stood there a long time just drinking in the view. I took a lot of pictures. I plan to display them prominently in my home. I never want to forget this experience. I want to be able to share this with my friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec03e5a6e0cb2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, I went to the Big Dog Rescue to volunteer on a Sunday. After a one hour orientation, where they showed me the grounds and pens,  and a video about how to interact with the dogs, I was given a dog to walk around the lakeside. It was an easy enough task, and the dog, named Betty, was eager, happy, and easy to handle. I had no trouble, until a group of volunteers coming from the opposite direction with their dogs attempted passed us. All the dogs started to bark and pull at their leashes. A few started to fight, and it caused some of the volunteers to panic. Eventually, we all gained control and finished the walk without further problems. I returned Betty to her pen after the walk, then went to ask what else I could do. I was given the task of washing up the linens, beddings and toys in the laundry room. After that, I did the dog and cat dishes (yes, they have cats, too.) I was there only four hours, but it  felt longer because this is, after all, Florida, and boy is it hot! I signed up for most Sundays to volunteer over the summer. It feels good to help with such a good cause! Also, it is alot of fun to work with dogs, who really appreciate your company. There are many people who volunteer with this program. There was alot of publicity on it in the news after they rescued many dogs from China who were about to be sold for a dog meat festival. I saw some of those dogs myself. I can't imagine people eating them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, I went to the Big Dog Rescue to volunteer on a Sunday. After a one hour orientation, where they showed me the grounds and pens,  and a video about how to interact with the dogs, I was given a dog to walk around the lakeside. It was an easy enough task, and the dog, named Betty, was eager, happy, and easy to handle. I had no trouble, until a group of volunteers coming from the opposite direction with their dogs attempted passed us. All the dogs started to bark and pull at their leashes. A few started to fight, and it caused some of the volunteers to panic. Eventually, we all gained control and finished the walk without further problems. I returned Betty to her pen after the walk, then went to ask what else I could do. I was given the task of washing up the linens, beddings and toys in the laundry room. After that, I did the dog and cat dishes (yes, they have cats, too.) I was there only four hours, but it  felt longer because this is, after all, Florida, and boy is it hot! I signed up for most Sundays to volunteer over the summer. It feels good to help with such a good cause! Also, it is alot of fun to work with dogs, who really appreciate your company. There are many people who volunteer with this program. There was alot of publicity on it in the news after they rescued many dogs from China who were about to be sold for a dog meat festival. I saw some of those dogs myself. I can't imagine people eating them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was such a sad situation.\n\n"
+            }
+        ],
+        "request_id": "811e98563dcf8ce0-EWR"
+    }
+}

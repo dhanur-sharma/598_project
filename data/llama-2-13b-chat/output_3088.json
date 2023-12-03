@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this summer I took a cruise with my family.  It was my nephew's first cruise and we were excited about going on the cruise.  I decided to leave my cat in my apartment, and someone would come and check on her every few days.  Just before I was supposed to leave for the cruise, my landlord mentioned that he had to work on the bathroom.  I told him that he can do that, since I will be gone for a week, but he should make sure my cat doesn't get out.  The vacation was very nice and I had a great time.  I returned back to my apartment a week later, only to find the apartment in complete disarray.  Every room in the apartment had parts of my bathroom.  Normally when I return from a weekend or vacation, my cat will greet me.  This time the cat wasn't in the apartment, and I looked in her usual hiding spots and did not find her.  I called my landlord and asked if he has seen my cat, and he said no.  I then asked how long will it be, before my bathroom will be finished.  He said it might be another two weeks.  Therefor I had to drive back to my parents house every night, and then return back to my apartment, to look for the cat.  This went on for two weeks before I received a phone call in the middle of the night from my landlord.  He said that he found my cat, above his ceiling and under my floor.  It turns out, when they were repairing my bathroom, they left a hole near the shower.  My cat went in the hole and was unable to get back out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this summer I took a cruise with my family.  It was my nephew's first cruise and we were excited about going on the cruise.  I decided to leave my cat in my apartment, and someone would come and check on her every few days.  Just before I was supposed to leave for the cruise, my landlord mentioned that he had to work on the bathroom.  I told him that he can do that, since I will be gone for a week, but he should make sure my cat doesn't get out.  The vacation was very nice and I had a great time.  I returned back to my apartment a week later, only to find the apartment in complete disarray.  Every room in the apartment had parts of my bathroom.  Normally when I return from a weekend or vacation, my cat will greet me.  This time the cat wasn't in the apartment, and I looked in her usual hiding spots and did not find her.  I called my landlord and asked if he has seen my cat, and he said no.  I then asked how long will it be, before my bathroom will be finished.  He said it might be another two weeks.  Therefor I had to drive back to my parents house every night, and then return back to my apartment, to look for the cat.  This went on for two weeks before I received a phone call in the middle of the night from my landlord.  He said that he found my cat, above his ceiling and under my floor.  It turns out, when they were repairing my bathroom, they left a hole near the shower.  My cat went in the hole and was unable to get back out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The workers finished the bathroom and never told me about the hole.  I had to go and retrieve my cat, and I was very relieved to see her safe and sound.\n\n"
+            }
+        ],
+        "request_id": "811ec3c0ae0c5e80-EWR"
+    }
+}

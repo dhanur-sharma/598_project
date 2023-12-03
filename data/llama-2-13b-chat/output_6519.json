@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a good birthday. It was eventful and saw lots of friends. Family too. It was a bigger party then I thought. Full of friends, and even more family. It was unexpected for the most part. I didn't know so much family was going to join. But they did and we had lots of fun. I had a blast introducing my friends to my family. I hadn't seen so many people get together so well. We ended up talking late into the night, way past the dinner time. And the cake they had was fun and huge. I had trouble blowing out the candle. So my many friends helped me out with it. And so many presents. I had a wonderful time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a good birthday. It was eventful and saw lots of friends. Family too. It was a bigger party then I thought. Full of friends, and even more family. It was unexpected for the most part. I didn't know so much family was going to join. But they did and we had lots of fun. I had a blast introducing my friends to my family. I hadn't seen so many people get together so well. We ended up talking late into the night, way past the dinner time. And the cake they had was fun and huge. I had trouble blowing out the candle. So my many friends helped me out with it. And so many presents. I had a wonderful time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47189d008cda-EWR"
+    }
+}

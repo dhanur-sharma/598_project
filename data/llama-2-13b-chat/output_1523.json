@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had always been interested in playing magic tricks even as a kid. I was always doing something to make my friends laugh. So no one was surprised when I wanted to do it as a paying side job. I felt that I was really ready. My first gig wasn't in front of a very large crowd. It was at a ten year old's birthday party. I started off with a few card tricks. The kids seemed very underwhelmed with that. They were a tough crowd. So then I did my rabbit trick which kids seem to really enjoy, except it didn't go according to plan. My rabbit got stuck in the magic hat and started making sounds like she was in pain. The kids began to get upset. I pulled and pulled, but the rabbit wouldn't come out. One kid started crying. Mothers were giving me death glares. The rabbit finally came free but my show was a bust. I gave up playing magic for about a year. A friend of mine convinced me to do my act at her anniversary party. I left my rabbit at home. Amazingly it went really well. I added a few comedy bits and everyone seemed to really enjoy it. I'm going to go back to doing magic regularly now, just going to leave Bugs at home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had always been interested in playing magic tricks even as a kid. I was always doing something to make my friends laugh. So no one was surprised when I wanted to do it as a paying side job. I felt that I was really ready. My first gig wasn't in front of a very large crowd. It was at a ten year old's birthday party. I started off with a few card tricks. The kids seemed very underwhelmed with that. They were a tough crowd. So then I did my rabbit trick which kids seem to really enjoy, except it didn't go according to plan. My rabbit got stuck in the magic hat and started making sounds like she was in pain. The kids began to get upset. I pulled and pulled, but the rabbit wouldn't come out. One kid started crying. Mothers were giving me death glares. The rabbit finally came free but my show was a bust. I gave up playing magic for about a year. A friend of mine convinced me to do my act at her anniversary party. I left my rabbit at home. Amazingly it went really well. I added a few comedy bits and everyone seemed to really enjoy it. I'm going to go back to doing magic regularly now, just going to leave Bugs at home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea669ea453308-EWR"
+    }
+}

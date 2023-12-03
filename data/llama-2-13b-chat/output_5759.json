@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently moved to a new apartment around three months ago.  The thing with this apartment is, that I almost did not have any to go.  I was at the end of my lease in my old apartment and I had not put in an application at a new apartment because I hadn't had the extra money to pay for the application fees, etc.  I was experiencing some financial difficulties, so money was scarce.  I did not anticipate this money shortage at the time that I turned in my 60-day notice to move.  So, time to move is getting closer.  I was checking with this new apartment complex. In speaking with them, they had promised that they would be ready for me to move in right around the time that my lease was up.  I had sent them several emails and they had sent me the link to apply.  This was so that the apartment would be ready for move-in when I moved out of my current space.  I really tempted, but I ended up not doing the application at that time.  About a week later I check with them again and they informed me that they were about a month behind schedule and the apartment would be ready around two weeks after my move-out date.  I then started looking at other complexes.  I finally found a nice place and put in the application.  Upon completion, I found out that the apartment that I lived in before my current apartment had put a cleaning charge of over $1,500 on my credit so they did not want to rent to me.  Around now, the lease is up and I have to go!!!! My current apartment had been rented to someone else so I could not stay there.  What am I going to do????  I was able to convince my current complex to allow me to move into another apartment in a different building at the last minute. After the move, I finally had peace of mind that I had not felt in a few weeks.  It was a very difficult time that I hope to never experience again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently moved to a new apartment around three months ago.  The thing with this apartment is, that I almost did not have any to go.  I was at the end of my lease in my old apartment and I had not put in an application at a new apartment because I hadn't had the extra money to pay for the application fees, etc.  I was experiencing some financial difficulties, so money was scarce.  I did not anticipate this money shortage at the time that I turned in my 60-day notice to move.  So, time to move is getting closer.  I was checking with this new apartment complex. In speaking with them, they had promised that they would be ready for me to move in right around the time that my lease was up.  I had sent them several emails and they had sent me the link to apply.  This was so that the apartment would be ready for move-in when I moved out of my current space.  I really tempted, but I ended up not doing the application at that time.  About a week later I check with them again and they informed me that they were about a month behind schedule and the apartment would be ready around two weeks after my move-out date.  I then started looking at other complexes.  I finally found a nice place and put in the application.  Upon completion, I found out that the apartment that I lived in before my current apartment had put a cleaning charge of over $1,500 on my credit so they did not want to rent to me.  Around now, the lease is up and I have to go!!!! My current apartment had been rented to someone else so I could not stay there.  What am I going to do????  I was able to convince my current complex to allow me to move into another apartment in a different building at the last minute. After the move, I finally had peace of mind that I had not felt in a few weeks.  It was a very difficult time that I hope to never experience again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " This is the story of my recent move."
+            }
+        ],
+        "request_id": "811f37ce78138ccc-EWR"
+    }
+}

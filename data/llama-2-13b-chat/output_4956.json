@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the first time I got my dog, Fuzzy. I was just a kid, and I didn't have a good grasp of the English language. I called him Fuzzy, and that became his name. He was always my best friend for as long as I've had him. He was a good, loyal pet, and he never hurt me and always did his best. I care deeply for him and I dreaded this day. Unfortunately, that day has arrived. Over a dozen years have passed, and Fuzzy has gotten old. He has had repeated health issues, but he still maintains his good spirits. However, now they are becoming much more serious. He started having seizures, and there is little we can do to stop him. We've taken him to the vet, but the vet says that the cost would outtweigh the benefits since he only has about a year or so left to live anyways. Of course, everything gets old and age takes it toll on everyone. However, when you're young, you think everything lasts forever. Unfortunately, a dog's life is not nearly so enduring and I know that soon I'll have to let Fuzzy go. I'll always remember the good times of playing with him and petting him. I know I won't remember him at the end. I'll just try to savor every moment I have with him while I still can before he inevitably passes away. That's life, everything goes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the first time I got my dog, Fuzzy. I was just a kid, and I didn't have a good grasp of the English language. I called him Fuzzy, and that became his name. He was always my best friend for as long as I've had him. He was a good, loyal pet, and he never hurt me and always did his best. I care deeply for him and I dreaded this day. Unfortunately, that day has arrived. Over a dozen years have passed, and Fuzzy has gotten old. He has had repeated health issues, but he still maintains his good spirits. However, now they are becoming much more serious. He started having seizures, and there is little we can do to stop him. We've taken him to the vet, but the vet says that the cost would outtweigh the benefits since he only has about a year or so left to live anyways. Of course, everything gets old and age takes it toll on everyone. However, when you're young, you think everything lasts forever. Unfortunately, a dog's life is not nearly so enduring and I know that soon I'll have to let Fuzzy go. I'll always remember the good times of playing with him and petting him. I know I won't remember him at the end. I'll just try to savor every moment I have with him while I still can before he inevitably passes away. That's life, everything goes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be18a4cb70f87-EWR"
+    }
+}

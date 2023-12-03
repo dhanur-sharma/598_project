@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a day that was, honestly. My granddaughter, someone I was very close to, was getting married. I wouldn't miss that for the world. I went to Florida to go and see her. I approved of her choice of life partner, as he treated her right and always made sure she felt like the only person in the room. There were some odd nuances, however. I noticed that her former boyfriend was there. They broke up amicably, but the thought of this person being at the wedding wasn't necessarily off putting, but it is a little bizarre. I just wanted to make sure this wedding went well. I don't know of the reasons why, but there was also a dog at this event. I don't know who it belonged to. Normally I'd be concerned over it because I feel like that could be a disaster. That being said, the dog was well behaved. I even gave it some pets at one point. A weird, but successful, wedding."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a day that was, honestly. My granddaughter, someone I was very close to, was getting married. I wouldn't miss that for the world. I went to Florida to go and see her. I approved of her choice of life partner, as he treated her right and always made sure she felt like the only person in the room. There were some odd nuances, however. I noticed that her former boyfriend was there. They broke up amicably, but the thought of this person being at the wedding wasn't necessarily off putting, but it is a little bizarre. I just wanted to make sure this wedding went well. I don't know of the reasons why, but there was also a dog at this event. I don't know who it belonged to. Normally I'd be concerned over it because I feel like that could be a disaster. That being said, the dog was well behaved. I even gave it some pets at one point. A weird, but successful, wedding.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be409fc6443cf-EWR"
+    }
+}

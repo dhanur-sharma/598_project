@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Nicholas Carr picked up on this again in an article in the Atlantic in 2008, before going on to publish his book The Shallows two years later. \u201cImmersing myself in a book or a lengthy article used to be easy,\u201d he wrote. \u201cMy mind would get caught up in the narrative or the turns of the argument, and I\u2019d spend hours strolling through long stretches of prose. That\u2019s rarely the case any more. Now my concentration often starts to drift after two or three pages. I get fidgety, lose the thread, begin looking for something else to do. I feel as if I\u2019m always dragging my wayward brain back to the text. The deep reading that used to come naturally has become a struggle.\u201d The impact of interruptions on individual productivity can also be catastrophic. In 2002, it was reported that, on average, we experience an interruption every eight minutes or about seven or eight per hour. In an eight-hour day, that is about 60 interruptions. The average interruption takes about five minutes, so that is about five hours out of eight. And if it takes around 15 minutes to resume the interrupted activity at a good level of concentration, this means that we are never concentrating very well. In August 2018, research from the UK\u2019s telecoms regulator,  reported that people check their smartphones on average every 12 minutes during their waking hours, with 71% saying they never turn their phone off and 40% saying they check them within five minutes of waking. Both Facebook and Instagram announced they were developing new tools designed to limit usage in response to claims that excessive social media use can have a negative impact on mental health. With our heavy use of digital media, it could be said that we have taken multitasking to new heights, but we\u2019re not actually multitasking; rather, we are switching rapidly between different activities. Adrenaline and cortisol are designed to support us through bursts of intense activity, but in the long term cortisol can knock out the feel-good hormones serotonin and dopamine in the brain, which help us feel calm and happy, affecting our sleep and heart rate and making us feel jittery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Nicholas Carr picked up on this again in an article in the Atlantic in 2008, before going on to publish his book The Shallows two years later. \u201cImmersing myself in a book or a lengthy article used to be easy,\u201d he wrote. \u201cMy mind would get caught up in the narrative or the turns of the argument, and I\u2019d spend hours strolling through long stretches of prose. That\u2019s rarely the case any more. Now my concentration often starts to drift after two or three pages. I get fidgety, lose the thread, begin looking for something else to do. I feel as if I\u2019m always dragging my wayward brain back to the text. The deep reading that used to come naturally has become a struggle.\u201d The impact of interruptions on individual productivity can also be catastrophic. In 2002, it was reported that, on average, we experience an interruption every eight minutes or about seven or eight per hour. In an eight-hour day, that is about 60 interruptions. The average interruption takes about five minutes, so that is about five hours out of eight. And if it takes around 15 minutes to resume the interrupted activity at a good level of concentration, this means that we are never concentrating very well. In August 2018, research from the UK\u2019s telecoms regulator,  reported that people check their smartphones on average every 12 minutes during their waking hours, with 71% saying they never turn their phone off and 40% saying they check them within five minutes of waking. Both Facebook and Instagram announced they were developing new tools designed to limit usage in response to claims that excessive social media use can have a negative impact on mental health. With our heavy use of digital media, it could be said that we have taken multitasking to new heights, but we\u2019re not actually multitasking; rather, we are switching rapidly between different activities. Adrenaline and cortisol are designed to support us through bursts of intense activity, but in the long term cortisol can knock out the feel-good hormones serotonin and dopamine in the brain, which help us feel calm and happy, affecting our sleep and heart rate and making us feel jittery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "In short, we are addicted to our devices and the constant stimulation they provide.\n\n"
+            }
+        ],
+        "request_id": "811bd06c8a6a4309-EWR"
+    }
+}

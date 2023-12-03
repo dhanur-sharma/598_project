@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago I went camping at a Texas state park with two siblings. It was a cool summer afternoon and it had just finished raining. We decided to pack up our things and take a spontaneous trip to the most remote part of Park. Once we arrived, we set our things down and set up camp. We unpacked the marshmallows and started up a fire. We sat around the fire and just talked. Talked about our childhood, jobs, girlfriends, sports, you name it. We talked away the afternoon and our nostalgic memories lit up our faces. Our past few years hadn't been easy, with Dad leaving us and mom being stressed out raising us alone. This was our chance to just forget about hardships and focus on our love. Finally we got up and hiked up the mountain before nightfall. Once we reached the apex, we were greeted by the most majestic view of the valley. The forest canopy glistened under the soft glow of the moonlight as far as the eye could. We gasped in delight. Finally it was time to go back. I wish we couldve stayed in that moment forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago I went camping at a Texas state park with two siblings. It was a cool summer afternoon and it had just finished raining. We decided to pack up our things and take a spontaneous trip to the most remote part of Park. Once we arrived, we set our things down and set up camp. We unpacked the marshmallows and started up a fire. We sat around the fire and just talked. Talked about our childhood, jobs, girlfriends, sports, you name it. We talked away the afternoon and our nostalgic memories lit up our faces. Our past few years hadn't been easy, with Dad leaving us and mom being stressed out raising us alone. This was our chance to just forget about hardships and focus on our love. Finally we got up and hiked up the mountain before nightfall. Once we reached the apex, we were greeted by the most majestic view of the valley. The forest canopy glistened under the soft glow of the moonlight as far as the eye could. We gasped in delight. Finally it was time to go back. I wish we couldve stayed in that moment forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bde5c7d8943f2-EWR"
+    }
+}

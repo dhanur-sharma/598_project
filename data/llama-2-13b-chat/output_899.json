@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was concerned about the number of times my mother had fallen recently.  I was extremely nervous to be with her and watch her walk, and I was nervous to not be there and watch her walk.  She fell when she was less than a foot away from me.  It happened so quickly, that I had no chance to help her or slow her fall.  I realized at that time that it didn't matter whether I was there or not, she was deteriorating and she would fall again.  I knew that at some point, she would break a bone. That is exactly what happened.  She broke a bone in her wrist when  I wasn't there.  I was actually quite relieved when the hospital suggested rehab.  I hoped it would help strengthen her.  I also hoped that the rehab center would be able to convince her to use her walker, as I had been unable to do. She worked hard at rehab and was getting stronger.  She was never strong enough to go home, and she passed quietly in her sleep.  I had hoped that she would be able to come home again.  He had worked hard to keep everything just the way she liked things at her house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was concerned about the number of times my mother had fallen recently.  I was extremely nervous to be with her and watch her walk, and I was nervous to not be there and watch her walk.  She fell when she was less than a foot away from me.  It happened so quickly, that I had no chance to help her or slow her fall.  I realized at that time that it didn't matter whether I was there or not, she was deteriorating and she would fall again.  I knew that at some point, she would break a bone. That is exactly what happened.  She broke a bone in her wrist when  I wasn't there.  I was actually quite relieved when the hospital suggested rehab.  I hoped it would help strengthen her.  I also hoped that the rehab center would be able to convince her to use her walker, as I had been unable to do. She worked hard at rehab and was getting stronger.  She was never strong enough to go home, and she passed quietly in her sleep.  I had hoped that she would be able to come home again.  He had worked hard to keep everything just the way she liked things at her house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I knew that she would have been very proud of the effort I put into caring for her.\n\n"
+            }
+        ],
+        "request_id": "811e9a1da92043a6-EWR"
+    }
+}

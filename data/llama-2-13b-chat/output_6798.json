@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The memorable event in my life was my daughters wedding last summer, in July. She and her fiance(now husband) had a very simple, beautiful wedding in the mountains. They wanted an intimate, small wedding and that's exactly what it was. There were only about 25 guests invited. Several of us camped for the weekend at a campsite area where they held the ceremony. The grooms uncle officiated the ceremony, which made it even more special for everyone. A simple ceremony was held among the trees, while the guests sat in chairs to witness the vows. She was so beautiful and the ceremony so lovely, it made me cry. This was such a significant event in my life and I think about it very often. We now also have the pictures and video of the wedding to enjoy looking at. After the ceremony was a lunch and reception at their campsite. The traditions of cake and cake cutting, dancing, etc was done. Later that afternoon we all drove up to the top of the mountain and the uncle performed a \"hand ceremony\" for them. Beautiful Mount Rainier was in the background. It was very special."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The memorable event in my life was my daughters wedding last summer, in July. She and her fiance(now husband) had a very simple, beautiful wedding in the mountains. They wanted an intimate, small wedding and that's exactly what it was. There were only about 25 guests invited. Several of us camped for the weekend at a campsite area where they held the ceremony. The grooms uncle officiated the ceremony, which made it even more special for everyone. A simple ceremony was held among the trees, while the guests sat in chairs to witness the vows. She was so beautiful and the ceremony so lovely, it made me cry. This was such a significant event in my life and I think about it very often. We now also have the pictures and video of the wedding to enjoy looking at. After the ceremony was a lunch and reception at their campsite. The traditions of cake and cake cutting, dancing, etc was done. Later that afternoon we all drove up to the top of the mountain and the uncle performed a \"hand ceremony\" for them. Beautiful Mount Rainier was in the background. It was very special.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so grateful that my daughter allowed me to be a part of her special day and that I got to witness this amazing event.\n\n"
+            }
+        ],
+        "request_id": "811f4d66dbc878d6-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a decade since my wife and I helped grandma move out. We met up with grandma last weekend. We had a great time explaining what we have done since we last met. The wife got a new job. She is now a high level member of a marketing team. I got a promotion at the saw mill to top manager. I got a few more vacation days a year and get double the pay. Grandma  has been making quilts. They got famous on eBay and she has sold a lot of them. We cried about not seeing each other in so long. We had a nice ham dinner. We played some board games. We watched some television. We shared photos. After all of this, we said goodbye."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a decade since my wife and I helped grandma move out. We met up with grandma last weekend. We had a great time explaining what we have done since we last met. The wife got a new job. She is now a high level member of a marketing team. I got a promotion at the saw mill to top manager. I got a few more vacation days a year and get double the pay. Grandma  has been making quilts. They got famous on eBay and she has sold a lot of them. We cried about not seeing each other in so long. We had a nice ham dinner. We played some board games. We watched some television. We shared photos. After all of this, we said goodbye.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We will see each other again in a few months.\n\n"
+            }
+        ],
+        "request_id": "811e9eb18e398cd6-EWR"
+    }
+}

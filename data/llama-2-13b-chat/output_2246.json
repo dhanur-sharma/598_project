@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am disabled. Currently, I have been confined to a wheelchair for seven years. However, recently I have been practicing intensely on learning to walk again. Currently, I use a wheelchair for mobility purposes. After three weeks of intensive physical therapy, I was able to walk 50ft with a walker. This event was monumental to me. I also found the experience very rewarding. I only hope in the future that I continue to make improvements. I will continue going to physical therapy three times a week. This will guarantee that my strength will increase and as a result walking with the walker will become easier. Ultimately, it is my goal to advance to walking with forearm crutches. Having the ability to walk would make it possible for me to be so much more independent. Independence is a vital necessity for a good life to me. I will work as hard as possible to achieve this goal. I am more than determined."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am disabled. Currently, I have been confined to a wheelchair for seven years. However, recently I have been practicing intensely on learning to walk again. Currently, I use a wheelchair for mobility purposes. After three weeks of intensive physical therapy, I was able to walk 50ft with a walker. This event was monumental to me. I also found the experience very rewarding. I only hope in the future that I continue to make improvements. I will continue going to physical therapy three times a week. This will guarantee that my strength will increase and as a result walking with the walker will become easier. Ultimately, it is my goal to advance to walking with forearm crutches. Having the ability to walk would make it possible for me to be so much more independent. Independence is a vital necessity for a good life to me. I will work as hard as possible to achieve this goal. I am more than determined.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb3243ad50cac-EWR"
+    }
+}

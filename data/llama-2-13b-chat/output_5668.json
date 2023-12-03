@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My recent visit to Africa. It was quite an experience! I recently traveled to Africa with my boss for a brief summit. The experience was thrilling. I got to realize that most things we hear about Africa are in fact fallacious. They were very accommodating and hospitable. In as much as most of the roads were deplorable, they were still motorable, which leaves room for improvement. The cuisine was esquisite. Their cultural display was really good. The weather condition was also great. I made new friends who were ready to learn and explore. The locals took me on various tours. They have good game reserve. I really enjoyed my entire time there. I wish to go there on a vacation sooner than later."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My recent visit to Africa. It was quite an experience! I recently traveled to Africa with my boss for a brief summit. The experience was thrilling. I got to realize that most things we hear about Africa are in fact fallacious. They were very accommodating and hospitable. In as much as most of the roads were deplorable, they were still motorable, which leaves room for improvement. The cuisine was esquisite. Their cultural display was really good. The weather condition was also great. I made new friends who were ready to learn and explore. The locals took me on various tours. They have good game reserve. I really enjoyed my entire time there. I wish to go there on a vacation sooner than later.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f360a28534261-EWR"
+    }
+}

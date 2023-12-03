@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Me and my fellow radiographer have been working together for the past 2 years and 9 months. During this period we both have developed good rapport between each other. We consult each other on reading the films. We also constantly took turns on maintenance schedule of the imaging machines. Sometimes, we used to be on different shifts. We always but managed to keep in touch. We always met in the cafetaria for a cup of coffee or an occasional snack . She called up one day and announced her pregnancy news to me. She and her better half took me for a dinner. We celebrated the new member of the family. one fine day, she called me when i was home. This was quite unsual. She went on to explain that she needs my help. I told her give me 30 minutes, i will be with you. She thanked me a lot. When I arrived she explained that a friend of her has been admitted. They both were close firends and she needed me to stay with her. She was so attached with this patient that she was not able to decide on the proper course of action."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Me and my fellow radiographer have been working together for the past 2 years and 9 months. During this period we both have developed good rapport between each other. We consult each other on reading the films. We also constantly took turns on maintenance schedule of the imaging machines. Sometimes, we used to be on different shifts. We always but managed to keep in touch. We always met in the cafetaria for a cup of coffee or an occasional snack . She called up one day and announced her pregnancy news to me. She and her better half took me for a dinner. We celebrated the new member of the family. one fine day, she called me when i was home. This was quite unsual. She went on to explain that she needs my help. I told her give me 30 minutes, i will be with you. She thanked me a lot. When I arrived she explained that a friend of her has been admitted. They both were close firends and she needed me to stay with her. She was so attached with this patient that she was not able to decide on the proper course of action.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She needed my expertise to decide the proper treatment. She was worried that she might do something wrong. I listened to her patiently and gave her my expert opinion. I told her that she was doing fine and that the patient was in good hands. I assured her that I will be there to support her. She thanked me a lot. I left her place after a while. She called me up the next day and told me that the patient was doing fine. She thanked me again for my help. I was happy that I could be of some help to her. I told her that anytime she needs my help she just needs to call me. She thanked me and we ended the call.\n\n"
+            }
+        ],
+        "request_id": "811eae01eb540f8c-EWR"
+    }
+}

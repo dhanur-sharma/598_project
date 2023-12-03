@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A little over a year ago, my mom passed away from small cell lung cancer. She was actually in good health or so we thought. She fell at home and had to go to the hospital. They had found that her lung had collapsed. It probably happened when she fell. To get it back up they advised 3 days of radiation while she was already in the hospital. They had also found a blood clot in her arm. It was treated with shots. She did the radiation. Afterwards within a couple of days she was deteriorating quickly. In 2 weeks time she passed away peacefully in her sleep. It was the hardest thing ever. I am still trying to deal with this. So is most of my family. I will never be the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A little over a year ago, my mom passed away from small cell lung cancer. She was actually in good health or so we thought. She fell at home and had to go to the hospital. They had found that her lung had collapsed. It probably happened when she fell. To get it back up they advised 3 days of radiation while she was already in the hospital. They had also found a blood clot in her arm. It was treated with shots. She did the radiation. Afterwards within a couple of days she was deteriorating quickly. In 2 weeks time she passed away peacefully in her sleep. It was the hardest thing ever. I am still trying to deal with this. So is most of my family. I will never be the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab57fbd315bb-EWR"
+    }
+}

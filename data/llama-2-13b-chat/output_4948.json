@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago my family was in a difficult spot. My husband was unemployed and I wasn't the only person working. I worried about paying bills constantly. We didn't have a car so we had to borrow my inlaws car. And my family didn't fit in the car so we didn't go anywhere together. A few months ago my husband found a job and they promoted him to management. We still have to watch our finances but now I can allocate money to bills and know that we eventually will be able to pay. We also bought a new car. And our while family will fit in it. For the first couple of weeks I took my kids with me everywhere. There was no need to leave them home with a sitter. They soon got tired of being in the truck. But our truck has a screen that the kids are able to watch movies. So long trips aren't as difficult for them. Now I am able to plan. I can write out my bills and know just about what I can pay and when I need to pay it. It really takes a load off of my shoulders."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago my family was in a difficult spot. My husband was unemployed and I wasn't the only person working. I worried about paying bills constantly. We didn't have a car so we had to borrow my inlaws car. And my family didn't fit in the car so we didn't go anywhere together. A few months ago my husband found a job and they promoted him to management. We still have to watch our finances but now I can allocate money to bills and know that we eventually will be able to pay. We also bought a new car. And our while family will fit in it. For the first couple of weeks I took my kids with me everywhere. There was no need to leave them home with a sitter. They soon got tired of being in the truck. But our truck has a screen that the kids are able to watch movies. So long trips aren't as difficult for them. Now I am able to plan. I can write out my bills and know just about what I can pay and when I need to pay it. It really takes a load off of my shoulders.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And I can see a future where we can actually save money and not live paycheck to paycheck."
+            }
+        ],
+        "request_id": "811be1634d578cdd-EWR"
+    }
+}

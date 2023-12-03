@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: i remember, going to the beach with my brother in law's, my husband and out kids. his brothers kids. driving to the dunes in michigan and spending time together. and being together with no mobile devices. playing in the water. talking and getting to know each other better. i remember arriving there early, and getting lost. then his brothers finding us. i also remember, cooking lunch on the beach. chasing my kids on the beach. i also remember having ice cream afterwards. we had a very long day. we went and found a cave and painted ourselves in mud. the kids loved that part, we went up hills of sand. we had a lot of fun that day. took a lot of photos."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: i remember, going to the beach with my brother in law's, my husband and out kids. his brothers kids. driving to the dunes in michigan and spending time together. and being together with no mobile devices. playing in the water. talking and getting to know each other better. i remember arriving there early, and getting lost. then his brothers finding us. i also remember, cooking lunch on the beach. chasing my kids on the beach. i also remember having ice cream afterwards. we had a very long day. we went and found a cave and painted ourselves in mud. the kids loved that part, we went up hills of sand. we had a lot of fun that day. took a lot of photos.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "the best day of the summer.\n\n"
+            }
+        ],
+        "request_id": "811ec38f6cd142cb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 5 months ago, I was driving when another car struck me. My daughter was in the back seat and was very scared. The other driver did not stop and kept going. It was hard for me to pull over safely, but I managed to do so. She was crying the whole time, as I was trying to figure out what was going on and what happened. The whole incident put me into a state of shock. I couldn't understand why the other driver kept going. I felt very helpless, but finally managed to call the police. Very luckily, my daughter was unharmed. I was a bit injured, but not too seriously. I was very glad when my brother finally came to pick her up. I was left to deal with the police at the accident scene, and it was a hassle. The entire time I was in a state of anxiety, shock, and I could feel the adrenaline going through my body. I was so angry at what the other driver did, not stopping. I was able to get a tag number, which has helped in the investigation. I'm still dealing with the trauma and stress from the event, but I was most glad that my daughter was not harmed. The whole situation could have been much worse."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 5 months ago, I was driving when another car struck me. My daughter was in the back seat and was very scared. The other driver did not stop and kept going. It was hard for me to pull over safely, but I managed to do so. She was crying the whole time, as I was trying to figure out what was going on and what happened. The whole incident put me into a state of shock. I couldn't understand why the other driver kept going. I felt very helpless, but finally managed to call the police. Very luckily, my daughter was unharmed. I was a bit injured, but not too seriously. I was very glad when my brother finally came to pick her up. I was left to deal with the police at the accident scene, and it was a hassle. The entire time I was in a state of anxiety, shock, and I could feel the adrenaline going through my body. I was so angry at what the other driver did, not stopping. I was able to get a tag number, which has helped in the investigation. I'm still dealing with the trauma and stress from the event, but I was most glad that my daughter was not harmed. The whole situation could have been much worse.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ead656c601891-EWR"
+    }
+}

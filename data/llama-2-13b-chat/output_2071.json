@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Went to the hospital for surgery on my cervical spine.  They made the incision in the side of my neck and placed the necessary hardware to fuse together three vertebrae.  While recovering from the surgery the next day something happened (I believe that a mistake was made and I was overdosed with medication) and I developed weakness on my right side.  I was treated in the hospital for the sypmptoms and after four days and transferred to a rehab hospital to regain strength and stability.  While in the rehab facility I developed a staph infection in the surgical incision which progressed into my blood stream and turned septic.  This infection made me incredibly weak and delirious.  I was transferred back to the hospital where my surgery was done and a second surgery was performed to clean the infection out of the incision and area of the surgery.  I was placed on an antibiotic IV drip and transferred back to the rehab center.  I was in the rehab center for another 3 weeks while recovering, and was finally released to go home.  I still am recovering from the residual effects of the incident, and have pain and weakness in my leg.  I think about the incident every time I stand up and feel the instablilty and pain in my leg.  I have continued to see specialists for the infection and cervical surgery.  I am told that I will be on antibiotics for at least a year.  The spinal surgeon said that he has no idea why the infection developed,  He says the reason I will have to  remain on the antibiotics is that the infection could have contacted the hardware used to fuse my vertebrae.  All in all I wish I had never had the surgery, and just lived with the pain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Went to the hospital for surgery on my cervical spine.  They made the incision in the side of my neck and placed the necessary hardware to fuse together three vertebrae.  While recovering from the surgery the next day something happened (I believe that a mistake was made and I was overdosed with medication) and I developed weakness on my right side.  I was treated in the hospital for the sypmptoms and after four days and transferred to a rehab hospital to regain strength and stability.  While in the rehab facility I developed a staph infection in the surgical incision which progressed into my blood stream and turned septic.  This infection made me incredibly weak and delirious.  I was transferred back to the hospital where my surgery was done and a second surgery was performed to clean the infection out of the incision and area of the surgery.  I was placed on an antibiotic IV drip and transferred back to the rehab center.  I was in the rehab center for another 3 weeks while recovering, and was finally released to go home.  I still am recovering from the residual effects of the incident, and have pain and weakness in my leg.  I think about the incident every time I stand up and feel the instablilty and pain in my leg.  I have continued to see specialists for the infection and cervical surgery.  I am told that I will be on antibiotics for at least a year.  The spinal surgeon said that he has no idea why the infection developed,  He says the reason I will have to  remain on the antibiotics is that the infection could have contacted the hardware used to fuse my vertebrae.  All in all I wish I had never had the surgery, and just lived with the pain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eafb4dd7c8cca-EWR"
+    }
+}

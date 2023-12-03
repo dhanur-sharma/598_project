@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago I was faced with a really hard decision. First off, I want to start off by saying I love my job. I love my coworkers, my duties, the environment I'm in. I couldn't think of a better place to work. Everything around me seemed pretty perfect. I was making good money, and having a good time while I was doing it. However, as they say, nothing lasts forever. Just when I thought things were finally settling in for me, I had a run in with my manager that left me questioning everything. I never thought he would treat me the way he did that day. I remember coming home crying and feeling so embarrassed. I didn't even want to face my coworkers anymore after knowing they saw the way he had treated me. I didn't feel like showing up to work anymore, period! Later that day when I went home, I already began debating my future there. I knew my manager had treated other employees that way, but I just never thought it'd happen to me, since I always tried to be the best employee I could be. I felt so unappreciated and like I wouldn't even have a future there. I spent a long time deliberating, but ultimately, I decided it would be best for me to leave that place to avoid ever being treated like that again. I knew I deserved better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago I was faced with a really hard decision. First off, I want to start off by saying I love my job. I love my coworkers, my duties, the environment I'm in. I couldn't think of a better place to work. Everything around me seemed pretty perfect. I was making good money, and having a good time while I was doing it. However, as they say, nothing lasts forever. Just when I thought things were finally settling in for me, I had a run in with my manager that left me questioning everything. I never thought he would treat me the way he did that day. I remember coming home crying and feeling so embarrassed. I didn't even want to face my coworkers anymore after knowing they saw the way he had treated me. I didn't feel like showing up to work anymore, period! Later that day when I went home, I already began debating my future there. I knew my manager had treated other employees that way, but I just never thought it'd happen to me, since I always tried to be the best employee I could be. I felt so unappreciated and like I wouldn't even have a future there. I spent a long time deliberating, but ultimately, I decided it would be best for me to leave that place to avoid ever being treated like that again. I knew I deserved better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bdcbb1d544223-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been looking for a car for a few months and I found one that I really liked. It had heated seats, a great stereo system, and new rims. It looked perfect online. I had set up a meeting with the owner a few weeks ago and was excited to look at it. We met up at a best buy parking lot and it was everything he had said and more. He said he had a few other interested buyers so I wanted to hurry and pull out the money. When I had checked my account though there was a hold on my payments from Amazon and there was nothing I could do. It was really embarrassing and difficult to let the car go. We had been standing in the best buy parking lot for awhile. I begged him to hold the car for me. I went back online though yesterday and found the same car! It is a newer model though and its grey! I was able to meet up with the girl today and buy it. We are going to go change the title into my name tomorrow. Amazon even sent me the $400 I was waiting for. Things are looking up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been looking for a car for a few months and I found one that I really liked. It had heated seats, a great stereo system, and new rims. It looked perfect online. I had set up a meeting with the owner a few weeks ago and was excited to look at it. We met up at a best buy parking lot and it was everything he had said and more. He said he had a few other interested buyers so I wanted to hurry and pull out the money. When I had checked my account though there was a hold on my payments from Amazon and there was nothing I could do. It was really embarrassing and difficult to let the car go. We had been standing in the best buy parking lot for awhile. I begged him to hold the car for me. I went back online though yesterday and found the same car! It is a newer model though and its grey! I was able to meet up with the girl today and buy it. We are going to go change the title into my name tomorrow. Amazon even sent me the $400 I was waiting for. Things are looking up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy.\n\n"
+            }
+        ],
+        "request_id": "811e9a07ffb043a5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, I was out doing my daily walk.  I decided to go down a street I had never walked down before, just to give my route some variety.  Three dogs came running from out of nowhere, snarling and growling like they wanted to eat me up.  I tried to ignore them, kept my eyes forward, and walked faster, but they kept coming toward me.  I tried yelling at them, but that didn't faze them either.  Then I tried kind of stamping my foot while yelling.  I'm sure I looked really silly, but I didn't want to stop! They looked really aggressive, and they were big dogs.  I walked faster and started looking around to see if I could tell which house they came from.  I was really hoping their owner would come out and call them off.  Whenever I've encountered dogs before, they usually leave me alone when they realize I've passed their house and don't intend to hurt them.  These dogs, however weren't backing off.  I increased my pace again, but I could tell they were right behind me.  I was starting to panic!  I didn't really want to break into a run, because I figured that would just let the dogs know how afraid I was starting to feel, but I really didn't think I had much choice.  So, I started to run. One of them nipped at the back of my leg, but he didn't really hurt me, thank goodness.  I turned the corner at the end of the street and ran into a gas station that was there.  Thankfully, the dogs quickly lost interest and went back toward the direction they had come from.  The man working in the gas station said that he had seen those dogs before, and that someone really needed to get hold of them before they hurt somebody.  I agree!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, I was out doing my daily walk.  I decided to go down a street I had never walked down before, just to give my route some variety.  Three dogs came running from out of nowhere, snarling and growling like they wanted to eat me up.  I tried to ignore them, kept my eyes forward, and walked faster, but they kept coming toward me.  I tried yelling at them, but that didn't faze them either.  Then I tried kind of stamping my foot while yelling.  I'm sure I looked really silly, but I didn't want to stop! They looked really aggressive, and they were big dogs.  I walked faster and started looking around to see if I could tell which house they came from.  I was really hoping their owner would come out and call them off.  Whenever I've encountered dogs before, they usually leave me alone when they realize I've passed their house and don't intend to hurt them.  These dogs, however weren't backing off.  I increased my pace again, but I could tell they were right behind me.  I was starting to panic!  I didn't really want to break into a run, because I figured that would just let the dogs know how afraid I was starting to feel, but I really didn't think I had much choice.  So, I started to run. One of them nipped at the back of my leg, but he didn't really hurt me, thank goodness.  I turned the corner at the end of the street and ran into a gas station that was there.  Thankfully, the dogs quickly lost interest and went back toward the direction they had come from.  The man working in the gas station said that he had seen those dogs before, and that someone really needed to get hold of them before they hurt somebody.  I agree!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " That was a really scary experience, and I'm still feeling a little shaky from it.  I'm just glad that I got away with only a small nick on my leg!"
+            }
+        ],
+        "request_id": "811eaef97c7732d0-EWR"
+    }
+}

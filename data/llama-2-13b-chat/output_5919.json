@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today started like any other day. I went through my usual morning routine and generally everything was normal. What I didn't expect was that today I will be one of my favorite days in recent memory. The reason being that I will hit a personal record while bench pressing and finally have a sense of validation for my hard work. Even when my workout started, there was no evidence that anything was different. To be honest, getting in the gym has been rough of late. It seems like my lifts have plateaued. I'm not seeing the results that I wish I was getting. I feel like I am giving maximum effort, but I guess it just hasn't been enough. That is, until today. As I got under the bar to bench press, I could start to feel the weight felt lighter than usual. I warmed up like normal, but as the lifts got heavier and heavier, I wasn't struggling as much as usual. I figured now was as good a day as any to try and set a personal best. I put on the 200 lbs and went for it. To my surprise I was able to get this up for 5 reps! A personal best and goal of mine. My hard work feels validated by these results. I hope I can continue to get stronger!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today started like any other day. I went through my usual morning routine and generally everything was normal. What I didn't expect was that today I will be one of my favorite days in recent memory. The reason being that I will hit a personal record while bench pressing and finally have a sense of validation for my hard work. Even when my workout started, there was no evidence that anything was different. To be honest, getting in the gym has been rough of late. It seems like my lifts have plateaued. I'm not seeing the results that I wish I was getting. I feel like I am giving maximum effort, but I guess it just hasn't been enough. That is, until today. As I got under the bar to bench press, I could start to feel the weight felt lighter than usual. I warmed up like normal, but as the lifts got heavier and heavier, I wasn't struggling as much as usual. I figured now was as good a day as any to try and set a personal best. I put on the 200 lbs and went for it. To my surprise I was able to get this up for 5 reps! A personal best and goal of mine. My hard work feels validated by these results. I hope I can continue to get stronger!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b2d6f9c41e9-EWR"
+    }
+}

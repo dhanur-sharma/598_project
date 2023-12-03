@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Turning 40 was a wakeup call for me. I thought 50 would be right around the bend but boy was I wrong. I started aching more year after year. I had to get some surgeries to fix my foot, and ended up losing a lot of my hair. 0 to 40 flew by, but now time is crawling by. I thought that was a bad thing at first but recently had an epiphany. About 2 months ago I turned 47. My dad flew into town to visit the grandkids and happened to stay to celebrate my birthday. THe kids were in school so we went to lunch at the tavern and headed home and asked if we could put on a movie. We used to go to movies a lot as a kid and I don't think I've seen one with him in the last 15 years. I grabbed no country for old men which is one of my favorites and we sat down and watched it. We made popcorn on the stove like we used to when I grew up and just watched and chatted about life. It made me realize that I had everything I needed right there. I had a good family, a roof over my head, 2 kids and a wife I love. I didnt need any more material goods, or a bigger house, or more money. I needed quality time with my family. My dad's birthday is coming up and I plan to go visit him and return that gift."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Turning 40 was a wakeup call for me. I thought 50 would be right around the bend but boy was I wrong. I started aching more year after year. I had to get some surgeries to fix my foot, and ended up losing a lot of my hair. 0 to 40 flew by, but now time is crawling by. I thought that was a bad thing at first but recently had an epiphany. About 2 months ago I turned 47. My dad flew into town to visit the grandkids and happened to stay to celebrate my birthday. THe kids were in school so we went to lunch at the tavern and headed home and asked if we could put on a movie. We used to go to movies a lot as a kid and I don't think I've seen one with him in the last 15 years. I grabbed no country for old men which is one of my favorites and we sat down and watched it. We made popcorn on the stove like we used to when I grew up and just watched and chatted about life. It made me realize that I had everything I needed right there. I had a good family, a roof over my head, 2 kids and a wife I love. I didnt need any more material goods, or a bigger house, or more money. I needed quality time with my family. My dad's birthday is coming up and I plan to go visit him and return that gift.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I plan to make more time for my family and not take them for granted. I have come to realize that family is more important than anything in life."
+            }
+        ],
+        "request_id": "811ec95b9a2a4264-EWR"
+    }
+}

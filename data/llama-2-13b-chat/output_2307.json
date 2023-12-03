@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've never been the biggest fan of sewage. I don't really think anyone can consider themselves a \"fan\" of sewage, in fact. But a few months ago, this took a turn for the ugly. It had turned out that whoever built my house had improperly installed the piping, leading to water exiting illegally from my house. As dumb as that sounds, I get why it's illegal. I mean, my toilet water could have been leading to someone else's house for all I knew. With that being said, it was up to me to fix it. I had to do something, otherwise I'd be in a mess of legal trouble. I checked out a few library books and got to laying pipe. This was bigger than I could have ever imagined. I was busy day and night, and it cost me a complete fortune to finish. As much as I agree that I should have to do this, a big part of me came so close to saying \"screw it\" many times. I was so angry all the time. I barely had money. The pipes were all so expensive and there was just nothing I could do about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've never been the biggest fan of sewage. I don't really think anyone can consider themselves a \"fan\" of sewage, in fact. But a few months ago, this took a turn for the ugly. It had turned out that whoever built my house had improperly installed the piping, leading to water exiting illegally from my house. As dumb as that sounds, I get why it's illegal. I mean, my toilet water could have been leading to someone else's house for all I knew. With that being said, it was up to me to fix it. I had to do something, otherwise I'd be in a mess of legal trouble. I checked out a few library books and got to laying pipe. This was bigger than I could have ever imagined. I was busy day and night, and it cost me a complete fortune to finish. As much as I agree that I should have to do this, a big part of me came so close to saying \"screw it\" many times. I was so angry all the time. I barely had money. The pipes were all so expensive and there was just nothing I could do about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But, I finished the job and it's done. I'm so glad that it's over. Now I can finally start living my life again."
+            }
+        ],
+        "request_id": "811eb4275a4341b2-EWR"
+    }
+}

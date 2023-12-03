@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I was notified by Pacific Gas & Electric that they had found a small gas leak somewhere near the curb under the sidewalk between my property and my neighbor's. Wow. Immediately the images of San Bruno gas explosion and Northern California wildfires came into my head. Both events were the result of PG&E negligence. Maybe that was why they were proactive now. But they said they had found the leak the month prior, and they scheduled the repair for next month. They said it's such a small leak that it's not hazardous. Uh huh ... So it was an anxious long wait. Were we going to get blown up? I didn't smell anything. They said they used an instrument that could detect in parts per million, and it was a very, very small leak. Yeah, ok, but were we going to get blown up? No, they assured me. Last week they came, dug up the sidewalk, found the leak, and fixed it. I'm alive! Yea!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I was notified by Pacific Gas & Electric that they had found a small gas leak somewhere near the curb under the sidewalk between my property and my neighbor's. Wow. Immediately the images of San Bruno gas explosion and Northern California wildfires came into my head. Both events were the result of PG&E negligence. Maybe that was why they were proactive now. But they said they had found the leak the month prior, and they scheduled the repair for next month. They said it's such a small leak that it's not hazardous. Uh huh ... So it was an anxious long wait. Were we going to get blown up? I didn't smell anything. They said they used an instrument that could detect in parts per million, and it was a very, very small leak. Yeah, ok, but were we going to get blown up? No, they assured me. Last week they came, dug up the sidewalk, found the leak, and fixed it. I'm alive! Yea!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope they are doing better now.\n\n"
+            }
+        ],
+        "request_id": "811ec9dcb8160f3a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago my child was born.  It was the best day of my life.  I always wanted children but it took me and my husband five years to conceive.  We went through many miscarriages and heartache to get our baby.  We also went through 4 rounds of ivf.  So, when our son was born it just felt incredible.  The most memorable part of my sons birth was seeing my husband meet our son.  He was so in love and was crying.  My husband never cries so it was a rare beautiful moment to see.  I also loved looking into my sons eyes and talking to him.  My son's birth signified that I was finally a mom.  I have wanted to be a mom since I was a little girl.  My dreams finally came true and I couldn't be happier.  Child birth was really hard but I would do it again to have my baby.  I also had a traumatic hemmorage after I gave birth but I pulled through.  My son was worth everything."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago my child was born.  It was the best day of my life.  I always wanted children but it took me and my husband five years to conceive.  We went through many miscarriages and heartache to get our baby.  We also went through 4 rounds of ivf.  So, when our son was born it just felt incredible.  The most memorable part of my sons birth was seeing my husband meet our son.  He was so in love and was crying.  My husband never cries so it was a rare beautiful moment to see.  I also loved looking into my sons eyes and talking to him.  My son's birth signified that I was finally a mom.  I have wanted to be a mom since I was a little girl.  My dreams finally came true and I couldn't be happier.  Child birth was really hard but I would do it again to have my baby.  I also had a traumatic hemmorage after I gave birth but I pulled through.  My son was worth everything.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd6881c2441e3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother passed away at the end of March last year. My sister and I went to the cemetery where my father is buried to make arrangements to have her interred. It was a very sad, difficult week as she'd been on life support and we'd had to make the decision to remove her from the respirator. The doctors said she'd only live a few hours but she lived for several days and seemed really uncomfortable and in pain. It was a very difficult thing to watch and my sister and I were both kind of traumatized when we walked into our meeting with the funeral director. We knew that my mother had asked for a simple graveside service as most of her friends had passed away. We explained this to the funeral director and she really put pressure on us to upsell everything. We keep refusing, wanting to keep it simple, and this woman made us feel so uncomfortable - and cheap, which we aren't - that I was starting to get upset. After more than an hour of this woman pressuring us we finally made the arrangement we'd planned. We then went out to lunch just to recover from the verbal pummeling of this woman. The day finally arrived and after picking up flowers we got to the cemetery early. The service itself was nice. It was a pretty spring day and quite a few family members came. The funeral director was nice to us, which was a change from when we made the arrangements. Despite the awful experience of planning this it turned out well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother passed away at the end of March last year. My sister and I went to the cemetery where my father is buried to make arrangements to have her interred. It was a very sad, difficult week as she'd been on life support and we'd had to make the decision to remove her from the respirator. The doctors said she'd only live a few hours but she lived for several days and seemed really uncomfortable and in pain. It was a very difficult thing to watch and my sister and I were both kind of traumatized when we walked into our meeting with the funeral director. We knew that my mother had asked for a simple graveside service as most of her friends had passed away. We explained this to the funeral director and she really put pressure on us to upsell everything. We keep refusing, wanting to keep it simple, and this woman made us feel so uncomfortable - and cheap, which we aren't - that I was starting to get upset. After more than an hour of this woman pressuring us we finally made the arrangement we'd planned. We then went out to lunch just to recover from the verbal pummeling of this woman. The day finally arrived and after picking up flowers we got to the cemetery early. The service itself was nice. It was a pretty spring day and quite a few family members came. The funeral director was nice to us, which was a change from when we made the arrangements. Despite the awful experience of planning this it turned out well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92aca9314231-EWR"
+    }
+}

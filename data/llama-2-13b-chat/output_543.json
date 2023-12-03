@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been dealing with sinus problems for several years. I'd been struggling through the healthcare system trying to find a solution. I finally found that solution about five months ago in Dr Gevorkian. Dr Gevorkian was the leading surgeon in his field. He performed the miracle surgery that has helped cure my sinus problems for good. My mom, god bless her, agreed to come take care of me and little Johnny so that my husbad can still work. She's stayed with us for several weeks while I nursed back. Johnny loved having grandma around to take care of him while mommy was trying to recooperate. Dr Gevorkian even made a home call to check on me. He said that my sinuses are healing nicely. He forsees a full recovery. My husband is grateful to both the doctor and my mom. I'm grateful to his union for negotiating such wonderful health insurance. The abismal insurance we had before was just aweful. But the union really helped us get this wonderful insurance so I could get this surgery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been dealing with sinus problems for several years. I'd been struggling through the healthcare system trying to find a solution. I finally found that solution about five months ago in Dr Gevorkian. Dr Gevorkian was the leading surgeon in his field. He performed the miracle surgery that has helped cure my sinus problems for good. My mom, god bless her, agreed to come take care of me and little Johnny so that my husbad can still work. She's stayed with us for several weeks while I nursed back. Johnny loved having grandma around to take care of him while mommy was trying to recooperate. Dr Gevorkian even made a home call to check on me. He said that my sinuses are healing nicely. He forsees a full recovery. My husband is grateful to both the doctor and my mom. I'm grateful to his union for negotiating such wonderful health insurance. The abismal insurance we had before was just aweful. But the union really helped us get this wonderful insurance so I could get this surgery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e93b99b7a0cbd-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: More recently on New Years, I was invited to the friend that was referenced in the earlier diary entry. It was pretty impromptu and unexpected but I was happy to be on their radar. We all had a great time and I felt really involved with them. We have hung out multiple times between the time that I wrote that entry and now. The party was small and intimate. I saw other friends that I haven't seen for months and one that I haven't seen for closer to a year. We reconnected and I felt a warm feeling of togetherness. We reminisced on things that happened years ago. I stayed the night at their place and we went out to get food in the morning. It was nice to hang out with them in a more sober sense. I made sure that my surprise and gratitude was genuine and not just the effects of alcohol. Turns out it was genuine and I beat myself up for thinking I was ever ostracized from them. I realized that it was most likely me just being anxious and crafting a narrative in my head that had no basis in reality. I am almost giddy in anticipation of the next time I will hang out with them. I seriously can't wait."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: More recently on New Years, I was invited to the friend that was referenced in the earlier diary entry. It was pretty impromptu and unexpected but I was happy to be on their radar. We all had a great time and I felt really involved with them. We have hung out multiple times between the time that I wrote that entry and now. The party was small and intimate. I saw other friends that I haven't seen for months and one that I haven't seen for closer to a year. We reconnected and I felt a warm feeling of togetherness. We reminisced on things that happened years ago. I stayed the night at their place and we went out to get food in the morning. It was nice to hang out with them in a more sober sense. I made sure that my surprise and gratitude was genuine and not just the effects of alcohol. Turns out it was genuine and I beat myself up for thinking I was ever ostracized from them. I realized that it was most likely me just being anxious and crafting a narrative in my head that had no basis in reality. I am almost giddy in anticipation of the next time I will hang out with them. I seriously can't wait.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like we have reconnected in a way that is much deeper than before.\n\n"
+            }
+        ],
+        "request_id": "811be37378721831-EWR"
+    }
+}

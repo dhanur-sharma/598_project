@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This week I went to the hospital to visit my mother. In the past six weeks, her health has gone in steep decline. She is elderly and had been diagnosed with a terminal illness, but had been coasting along for a couple of years without much deterioration. About six weeks ago, we took her to the ER with what we thought was a mild issue. It was not mild. Her illness went a sudden and steep decline. When I went to visit my mother this week, I heard her yelling before I entered her hospital room. She did not focus on me when I entered the room and she looked terrified. She kept repeating the same nonsense phrase over and over again. Of course, I wanted to do something to comfort her. She seemed fairly unreachable. I finally went to ask for her nurse to come so that we could see if there was a medical intervention that might comfort her. My mother's doctor came to the room and explained that she had been unsettled the previous evening, so she was given a medication. As a result of the medication, she slept last night, all day today, and had recently woke with hallucinations. I am generally a stoic person, but while the doctor was talking, I began crying. I could not seem to stop. I cried during my entire drive home. I thought that I had become desensitized to my mother's health decline, but I found at that moment that I could not handle her clearly suffering.  The hospital is steering clear of the medicine that gave her the hallucinations, so I will hopefully not see my mother looking that terrified again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This week I went to the hospital to visit my mother. In the past six weeks, her health has gone in steep decline. She is elderly and had been diagnosed with a terminal illness, but had been coasting along for a couple of years without much deterioration. About six weeks ago, we took her to the ER with what we thought was a mild issue. It was not mild. Her illness went a sudden and steep decline. When I went to visit my mother this week, I heard her yelling before I entered her hospital room. She did not focus on me when I entered the room and she looked terrified. She kept repeating the same nonsense phrase over and over again. Of course, I wanted to do something to comfort her. She seemed fairly unreachable. I finally went to ask for her nurse to come so that we could see if there was a medical intervention that might comfort her. My mother's doctor came to the room and explained that she had been unsettled the previous evening, so she was given a medication. As a result of the medication, she slept last night, all day today, and had recently woke with hallucinations. I am generally a stoic person, but while the doctor was talking, I began crying. I could not seem to stop. I cried during my entire drive home. I thought that I had become desensitized to my mother's health decline, but I found at that moment that I could not handle her clearly suffering.  The hospital is steering clear of the medicine that gave her the hallucinations, so I will hopefully not see my mother looking that terrified again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am hopeful that my mother will be able to return home soon.  \n\n"
+            }
+        ],
+        "request_id": "811e8c8d4be72369-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, my softball team had a double header cancelled because of the weather. This week, we also had a double header and the league decided to make up the one that was cancelled from a few weeks prior. This meant that we were going to play four softball games in a row. This wouldn't be so bad if it weren't 95 degrees and humid. Just one inning into the game, we were all sweating buckets. We knew it was going to a be very long day. Still, we persisted and won our first game. Dripping with sweat and exhausted, we moved on to the second game. This game was much closer to the last, with signs of fatigue clearly showing on our faces. Normally, this would be the last game of the day. Sometimes, we only played one, but we advanced to our third of the day. A couple errors really brought the team down early in the game, but we managed to string along some runs via some great hits and couple home runs and brought our daily record to 3-0. With the finish line in sight, we walked over to another field to play our fourth and final game of the day. By now, the lights were on and a light drizzle began to fall. Usually rain was unwelcome, but on a day like that we all took it with open arms. Unfortunately, we weren't able to complete the undefeated day. We were bested by a good team that was playing their first game of the day, but no excuses! We could have pulled it off, but in the end I was honestly just happy to be heading home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, my softball team had a double header cancelled because of the weather. This week, we also had a double header and the league decided to make up the one that was cancelled from a few weeks prior. This meant that we were going to play four softball games in a row. This wouldn't be so bad if it weren't 95 degrees and humid. Just one inning into the game, we were all sweating buckets. We knew it was going to a be very long day. Still, we persisted and won our first game. Dripping with sweat and exhausted, we moved on to the second game. This game was much closer to the last, with signs of fatigue clearly showing on our faces. Normally, this would be the last game of the day. Sometimes, we only played one, but we advanced to our third of the day. A couple errors really brought the team down early in the game, but we managed to string along some runs via some great hits and couple home runs and brought our daily record to 3-0. With the finish line in sight, we walked over to another field to play our fourth and final game of the day. By now, the lights were on and a light drizzle began to fall. Usually rain was unwelcome, but on a day like that we all took it with open arms. Unfortunately, we weren't able to complete the undefeated day. We were bested by a good team that was playing their first game of the day, but no excuses! We could have pulled it off, but in the end I was honestly just happy to be heading home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a long, exhausting day of softball but it was fun to be out there with my teammates.\n\n"
+            }
+        ],
+        "request_id": "811ec81b098142bf-EWR"
+    }
+}

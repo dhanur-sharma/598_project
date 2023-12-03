@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, Today was a great day. It was meant to be. I finally got to graduate from college.  I woke up early and dressed up in the suit I had saved for for a year. It was a nice suit as the mirror confirmed. But I had something nicer. My graduation gown looked so good sitting on my shoulders. These shoulders that bore the weight of having to work three jobs to pay for my education. As I walked up to that stage to a great applause, I could only think of the hard work it took me to get here. To my surprise, I had received a fully paid scholarship to do my postgraduate studies due to my exceptional performanceThe graduation party was awesome. My girlfriend did a great job planning it and being there on this important day. My mother was there too, and I could see how proud she must have been to see me achieve this. My best friends were there to congratulate me, and i will always appreciate their support. Do I deserve all this? Of course I do. I am very proud of this achievement."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, Today was a great day. It was meant to be. I finally got to graduate from college.  I woke up early and dressed up in the suit I had saved for for a year. It was a nice suit as the mirror confirmed. But I had something nicer. My graduation gown looked so good sitting on my shoulders. These shoulders that bore the weight of having to work three jobs to pay for my education. As I walked up to that stage to a great applause, I could only think of the hard work it took me to get here. To my surprise, I had received a fully paid scholarship to do my postgraduate studies due to my exceptional performanceThe graduation party was awesome. My girlfriend did a great job planning it and being there on this important day. My mother was there too, and I could see how proud she must have been to see me achieve this. My best friends were there to congratulate me, and i will always appreciate their support. Do I deserve all this? Of course I do. I am very proud of this achievement.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea3c268b51795-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I took my baby to his first swimming lesson. Leading up to the lesson, I was so nervous. I did not think that he would like swimming, and I was worried that he would end up drowning or getting hurt. Everyone kept telling me to take him for a swim lesson so that he could get started young, but I always made up an excuse. I would say things like, \"oh I don't think he meets the height and weight requirements\" or use any of his sniffles as an excuse to say that he had a cold and would need to rest first. When I finally signed him up, I had a gut feeling that I wouldn't actually go. I knew I would make up some sort of excuse. It was my husband who finally convinced me to just go to the lessons. When we got there it was very chaotic. There were kids screaming everywhere. Having all the older kids jumping and splashing around made me nervous. He ended up being on a closed end of the pool with other infants and several swim instructors. He loved every minute of it! It turns out that I had nothing to worry about. Soon my son will be doing the butterfly and jumping off the high dive!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I took my baby to his first swimming lesson. Leading up to the lesson, I was so nervous. I did not think that he would like swimming, and I was worried that he would end up drowning or getting hurt. Everyone kept telling me to take him for a swim lesson so that he could get started young, but I always made up an excuse. I would say things like, \"oh I don't think he meets the height and weight requirements\" or use any of his sniffles as an excuse to say that he had a cold and would need to rest first. When I finally signed him up, I had a gut feeling that I wouldn't actually go. I knew I would make up some sort of excuse. It was my husband who finally convinced me to just go to the lessons. When we got there it was very chaotic. There were kids screaming everywhere. Having all the older kids jumping and splashing around made me nervous. He ended up being on a closed end of the pool with other infants and several swim instructors. He loved every minute of it! It turns out that I had nothing to worry about. Soon my son will be doing the butterfly and jumping off the high dive!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Who knew?!"
+            }
+        ],
+        "request_id": "811e9f2c5f461a28-EWR"
+    }
+}

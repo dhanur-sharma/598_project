@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I graduated from a residential facility for treatment for eating disorders. This event was extremely memorable because I was at the facility for thirteen weeks and had a major life change during that time. I felt a lot of emotions upon leaving the program. I felt relief for finally getting out, animosity for not getting the treatment I needed there, and gratefulness for receiving a scholarship to pay for my treatment since I have no mental health insurance. It was very sad to leave all the friends I made in treatment. I knew that we probably would never see each other again. But I also felt very relieved to have gotten out, because the staff there were growing tired of me for vocalizing my displeasure with how the program worked there. The therapist were often very dismissive and the RC's would often yell at the clients for minor mistakes. During my graduation ceremony, my therapist presented me with a necklace with three charms on it that she thought described me. The charms were \"believe\", \"warrior\", and \"grace\". The warrior charm made me cringe. It is such a stereotypical thing to say to someone with an eating disorder. Overall, the graduation felt extremely superficial and inpersonal. Not at all what I was expecting after being there for three months. Not surprisingly, I relapsed as soon as I was taken to the airport. The treatment there made me worse than better unfortunately."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I graduated from a residential facility for treatment for eating disorders. This event was extremely memorable because I was at the facility for thirteen weeks and had a major life change during that time. I felt a lot of emotions upon leaving the program. I felt relief for finally getting out, animosity for not getting the treatment I needed there, and gratefulness for receiving a scholarship to pay for my treatment since I have no mental health insurance. It was very sad to leave all the friends I made in treatment. I knew that we probably would never see each other again. But I also felt very relieved to have gotten out, because the staff there were growing tired of me for vocalizing my displeasure with how the program worked there. The therapist were often very dismissive and the RC's would often yell at the clients for minor mistakes. During my graduation ceremony, my therapist presented me with a necklace with three charms on it that she thought described me. The charms were \"believe\", \"warrior\", and \"grace\". The warrior charm made me cringe. It is such a stereotypical thing to say to someone with an eating disorder. Overall, the graduation felt extremely superficial and inpersonal. Not at all what I was expecting after being there for three months. Not surprisingly, I relapsed as soon as I was taken to the airport. The treatment there made me worse than better unfortunately.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b24aafec44f-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six weeks ago, I experienced a tragedy. My beloved grandfather died that day. I had some memories about my grandfather. I remember him playing catch at his house. We played for an hour then went inside for some milk and cookies. I remember having a big fishing trip with him. He taught me how to fish. He caught a small fish but I somehow caught a big fish. We cooked it that night for dinner. It was amazing. He also taught me how to run fast. He only shown me the form but he was to old to run. I won many track events because of his knowledge. I will never forget my grandfather. I hope he will rest peacefully."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six weeks ago, I experienced a tragedy. My beloved grandfather died that day. I had some memories about my grandfather. I remember him playing catch at his house. We played for an hour then went inside for some milk and cookies. I remember having a big fishing trip with him. He taught me how to fish. He caught a small fish but I somehow caught a big fish. We cooked it that night for dinner. It was amazing. He also taught me how to run fast. He only shown me the form but he was to old to run. I won many track events because of his knowledge. I will never forget my grandfather. I hope he will rest peacefully.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b31fdf48c90-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am still in vacation mode. We came back home about 15 weeks ago now. But in my mind, I am still on that beautiful beach. My wife and I visited the Cook Islands. We spent 8 days there. It was eight days of pure extacy in paradise. The beaches are the most gorgeous you've ever seen.  The water is crystal clear blue. With white sandy beaches. This is the place you see on all of the calendars with pictures of beaches. this is the place I've been wanting to see since I was a teenager. It only took me 30 years to get there. But it was worth the wait. We had the best time ever. We are thinking of going back again next year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am still in vacation mode. We came back home about 15 weeks ago now. But in my mind, I am still on that beautiful beach. My wife and I visited the Cook Islands. We spent 8 days there. It was eight days of pure extacy in paradise. The beaches are the most gorgeous you've ever seen.  The water is crystal clear blue. With white sandy beaches. This is the place you see on all of the calendars with pictures of beaches. this is the place I've been wanting to see since I was a teenager. It only took me 30 years to get there. But it was worth the wait. We had the best time ever. We are thinking of going back again next year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f33701f340ca8-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My chest still hurts all the time. I can't believe I still can't wear anything but sports bras for the last 6 months. Chad definitely belongs where he's at in prison. He is seriously the worst. I dont know why I ever loved him. The first time he hit me, I thought it was just stress at his job. Why didn't it ever get better? I tried so hard to keep him happy but it was never enough and he would always snap. I feel awful about Sara's house. He broke the door off the hinges,  smashed a window, and scratched the hell out of her car in the process. The court awarded us both damages (her house, my hospital bill) but he'll never pay. Hard to make money from jail! Doctor said the broken rib is healing nicely and my punctured lung is basically back to normal with only a little scarring. Those 3 days in the hospital still feel like a blur. Even there I was sure he'd come find me to finish the job. The stupid asshole even stole my phone so I felt completely isolated the whole time I was hospitalized. Dr. Manfred still checks in on me (he's the one who stuck the tube in my chest to reinflate the collapsed lung)."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My chest still hurts all the time. I can't believe I still can't wear anything but sports bras for the last 6 months. Chad definitely belongs where he's at in prison. He is seriously the worst. I dont know why I ever loved him. The first time he hit me, I thought it was just stress at his job. Why didn't it ever get better? I tried so hard to keep him happy but it was never enough and he would always snap. I feel awful about Sara's house. He broke the door off the hinges,  smashed a window, and scratched the hell out of her car in the process. The court awarded us both damages (her house, my hospital bill) but he'll never pay. Hard to make money from jail! Doctor said the broken rib is healing nicely and my punctured lung is basically back to normal with only a little scarring. Those 3 days in the hospital still feel like a blur. Even there I was sure he'd come find me to finish the job. The stupid asshole even stole my phone so I felt completely isolated the whole time I was hospitalized. Dr. Manfred still checks in on me (he's the one who stuck the tube in my chest to reinflate the collapsed lung).",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He says I'm lucky to be alive.  I feel like a shell of myself. My body is still healing and I still can't breathe well but at least my chest doesn't hurt anymore. I can't believe this all happened to me. I thought I was a strong person but now I feel so weak and vulnerable. I can't stop thinking about how I'm going to protect myself and my future."
+            }
+        ],
+        "request_id": "811e9d121eb34368-EWR"
+    }
+}

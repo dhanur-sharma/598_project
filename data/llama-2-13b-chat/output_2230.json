@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my friends and I played in a gaming tournament. It's a popular fighting game called Super Smash Brothers. Personally, I main Pikachu, since Pokemon Yellow was my first video game. Every weekend I would get together with friends, and we would practice against each other. We'd play matches with a set amount of lives, and practice our frame perfect movement. I got really good at Pikachu, and was quickly able to do a number on my friends. I we were going to rock this season. For the majority of the season, we did really well. We placed in first place at multiple tournaments, which qualified us for the playoffs! We were really excited, since all of our hard work was paying off. Though, when we got to the playoffs, we got outmatched. Many more experienced teams kicked our butts. They played the characters super well, and has perfected their combos. Sadly, we got booted out of the tournament early, but we learned a ton. We're motivated to keep trying, and keep improving our game. We're confident we can compete at the playoffs again next season!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my friends and I played in a gaming tournament. It's a popular fighting game called Super Smash Brothers. Personally, I main Pikachu, since Pokemon Yellow was my first video game. Every weekend I would get together with friends, and we would practice against each other. We'd play matches with a set amount of lives, and practice our frame perfect movement. I got really good at Pikachu, and was quickly able to do a number on my friends. I we were going to rock this season. For the majority of the season, we did really well. We placed in first place at multiple tournaments, which qualified us for the playoffs! We were really excited, since all of our hard work was paying off. Though, when we got to the playoffs, we got outmatched. Many more experienced teams kicked our butts. They played the characters super well, and has perfected their combos. Sadly, we got booted out of the tournament early, but we learned a ton. We're motivated to keep trying, and keep improving our game. We're confident we can compete at the playoffs again next season!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb2d88d6d18a1-EWR"
+    }
+}

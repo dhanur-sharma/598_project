@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've had some rough years in my past. Some of which included me being addicted to narcotics and alchohol. I was really going though during that time in my life. drugs and alcohol were something that I used everyday to try and feel something or feel better in my life. I eventually realized that taking these things weren't really helping me at all. They were making things worse for me in my body and in my mind. I had to get help so I signed up for alcoholic and narcotics meetings. I attended them everyday once I had gotten together. I never missed a day for about two years. One day there was a meeting for me in which to celebrate my success of not missing any days and being cleaned up. I was finally sober for a good little while now and it felt good. I had recieved a two year token for doing just that. The people had a mini party for me to celebrate. I really enjoyed be able to have fun without being intoxicated. Thanks to everyone at the meetings that helped me get back on a straight path."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've had some rough years in my past. Some of which included me being addicted to narcotics and alchohol. I was really going though during that time in my life. drugs and alcohol were something that I used everyday to try and feel something or feel better in my life. I eventually realized that taking these things weren't really helping me at all. They were making things worse for me in my body and in my mind. I had to get help so I signed up for alcoholic and narcotics meetings. I attended them everyday once I had gotten together. I never missed a day for about two years. One day there was a meeting for me in which to celebrate my success of not missing any days and being cleaned up. I was finally sober for a good little while now and it felt good. I had recieved a two year token for doing just that. The people had a mini party for me to celebrate. I really enjoyed be able to have fun without being intoxicated. Thanks to everyone at the meetings that helped me get back on a straight path.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm really happy to be sober now.\n\n"
+            }
+        ],
+        "request_id": "811e8f7a3dd315c7-EWR"
+    }
+}

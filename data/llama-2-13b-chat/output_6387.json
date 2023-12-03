@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, my wife and I celebrated our wedding anniversary. We celebrated it at galaxies edge at Disney World. It was a fun time. I got to see Luke with his light saber. I had a duel with him but he won. I can't beat the best at his game. I also saw Vader. He had the same voice as in the movies. I didn't want to mess with him. There was chewbacca with solo. They were fun and got a picture taken with them. I saw Leia and she had her famous hair. I loved taking a picture with her. I did get to see the death star. There was the emperor on his throne in it. It was creepy but it stayed true to the film."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, my wife and I celebrated our wedding anniversary. We celebrated it at galaxies edge at Disney World. It was a fun time. I got to see Luke with his light saber. I had a duel with him but he won. I can't beat the best at his game. I also saw Vader. He had the same voice as in the movies. I didn't want to mess with him. There was chewbacca with solo. They were fun and got a picture taken with them. I saw Leia and she had her famous hair. I loved taking a picture with her. I did get to see the death star. There was the emperor on his throne in it. It was creepy but it stayed true to the film.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I loved the experience."
+            }
+        ],
+        "request_id": "811f444f9e954388-EWR"
+    }
+}

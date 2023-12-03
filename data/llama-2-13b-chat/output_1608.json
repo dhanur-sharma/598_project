@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After two attempts at taking the law school admissions test, I had received a respectable score. I took several weeks to craft a personal statement to send to three law schools. I waited until the last possible day, of each law school's admission cycle, to submit my applications. One law school rejected me; it was the highest ranking school. Over the next two weeks, the other two law schools both accepted me and offered me 60% scholarships to attend their programs. Unfortunately, both schools offered these scholarships with conditions. The conditions seemed completely attainable- do not fall below the bottom 20% or the class, for one, and to stay above a 2.33 GPA for the other. Both of the schools that accepted me were relatively high-ranking schools. The dean of the higher ranking of the two schools requested a conference with me to discuss my options and any concerns I might have. Initially, that school had offered me a 40% scholarship but during this conversation the dean raised my scholarship offer from 40% to 60%, unsolicited. I attempted at that time to further negotiate my scholarship details- the conditions only. The dean expressed he would bring my concerns up with the admissions committee and contact me back with a determination. The admissions committee sent out my revised scholarship offer soon after, however the conditions were still attached. After long consideration, I withdrew my applications from both law schools. My goal was and continues to be to obtain 100% scholarship for law school. I will be retaking the LSAT and reapplying my earlier in the upcoming cycle."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After two attempts at taking the law school admissions test, I had received a respectable score. I took several weeks to craft a personal statement to send to three law schools. I waited until the last possible day, of each law school's admission cycle, to submit my applications. One law school rejected me; it was the highest ranking school. Over the next two weeks, the other two law schools both accepted me and offered me 60% scholarships to attend their programs. Unfortunately, both schools offered these scholarships with conditions. The conditions seemed completely attainable- do not fall below the bottom 20% or the class, for one, and to stay above a 2.33 GPA for the other. Both of the schools that accepted me were relatively high-ranking schools. The dean of the higher ranking of the two schools requested a conference with me to discuss my options and any concerns I might have. Initially, that school had offered me a 40% scholarship but during this conversation the dean raised my scholarship offer from 40% to 60%, unsolicited. I attempted at that time to further negotiate my scholarship details- the conditions only. The dean expressed he would bring my concerns up with the admissions committee and contact me back with a determination. The admissions committee sent out my revised scholarship offer soon after, however the conditions were still attached. After long consideration, I withdrew my applications from both law schools. My goal was and continues to be to obtain 100% scholarship for law school. I will be retaking the LSAT and reapplying my earlier in the upcoming cycle.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea7997b3d4235-EWR"
+    }
+}

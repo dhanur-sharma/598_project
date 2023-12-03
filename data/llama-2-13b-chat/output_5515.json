@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We had this trip planned for a few months now.  None of us had been to the amusement park as it just opened within the last couple years.  We arrived early so we were some of the first people allowed into the park that day.  We made sure to purchase a fast trak pass to let us get on the rides quickly.  We all love rollercoasters and thrill rides, which this park has a lot of.   Some of them were pretty scary.  There was a lot of walking around, the park is huge.  When lunch time came around we looked at all of the interesting things to eat.  We ended up getting a huge fish and chips plate to share between the three of us.  After lunch we decided to see a couple of shows that the park hosted.  They were very entertaining.  As it started to turn dark the park announced that it would be closing in a half hour, so everyone started heading for the exits.  Our time here was at a close, but it was very enjoyable.  After the park we went to a new pizza place that opened up in town.  The pizza there was amazing, albeit expensive.   Overall the trip was very memorable and we all had a lot of fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We had this trip planned for a few months now.  None of us had been to the amusement park as it just opened within the last couple years.  We arrived early so we were some of the first people allowed into the park that day.  We made sure to purchase a fast trak pass to let us get on the rides quickly.  We all love rollercoasters and thrill rides, which this park has a lot of.   Some of them were pretty scary.  There was a lot of walking around, the park is huge.  When lunch time came around we looked at all of the interesting things to eat.  We ended up getting a huge fish and chips plate to share between the three of us.  After lunch we decided to see a couple of shows that the park hosted.  They were very entertaining.  As it started to turn dark the park announced that it would be closing in a half hour, so everyone started heading for the exits.  Our time here was at a close, but it was very enjoyable.  After the park we went to a new pizza place that opened up in town.  The pizza there was amazing, albeit expensive.   Overall the trip was very memorable and we all had a lot of fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f332279592370-EWR"
+    }
+}

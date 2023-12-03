@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: All my life, my grandma had lived within walking distance of me. We were a very close-knit family. She was essentially a second mom to me and we were extremely close. 2 weeks ago, though, she suddenly died. It was completely unexpected. She wasn't sick, wasn't showing any signs of getting sick, she was how she always was. My dad went to her house to take over some food he made, and found her dead in bed. She died in her sleep. When I was told the news, I didn't know what to say. I didn't know how to react. I knew it was going to happen, eventually, but not so unexpectedly. I didn't cry at first due to the shock. It wasn't until a few days later when I realized that those few days was the longest amount of time I had gone without seeing her in my entire life, that I realized she was gone. That is when I got emotional and kind of broken down. It was hard to deal with, and it still is. Its only been two weeks, but it feels like its been months. I'm glad I have family to help me through this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: All my life, my grandma had lived within walking distance of me. We were a very close-knit family. She was essentially a second mom to me and we were extremely close. 2 weeks ago, though, she suddenly died. It was completely unexpected. She wasn't sick, wasn't showing any signs of getting sick, she was how she always was. My dad went to her house to take over some food he made, and found her dead in bed. She died in her sleep. When I was told the news, I didn't know what to say. I didn't know how to react. I knew it was going to happen, eventually, but not so unexpectedly. I didn't cry at first due to the shock. It wasn't until a few days later when I realized that those few days was the longest amount of time I had gone without seeing her in my entire life, that I realized she was gone. That is when I got emotional and kind of broken down. It was hard to deal with, and it still is. Its only been two weeks, but it feels like its been months. I'm glad I have family to help me through this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9d52dd0a8c3c-EWR"
+    }
+}

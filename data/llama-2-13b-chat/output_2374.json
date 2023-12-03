@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a birthday coming up. I didn't want to spend it alone. No one wants to spend their birthday alone. I decided to call some friends up. See what they were up to and see if they wanted to spend the day with me. I called 5 different people and all of them were interested. They all showed up at my house around the same time. We got started having some fun by playing video games and drinking a few beers. It was fun to have these people back in my life with me and to be playing games like we used to. It reminded me of better days that had gone by. I was enjoying the day very much. We all then went out side and started drinking more and dancing. Everyone was laughing and having fun. It was a good day. I was happy they could spend time with me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a birthday coming up. I didn't want to spend it alone. No one wants to spend their birthday alone. I decided to call some friends up. See what they were up to and see if they wanted to spend the day with me. I called 5 different people and all of them were interested. They all showed up at my house around the same time. We got started having some fun by playing video games and drinking a few beers. It was fun to have these people back in my life with me and to be playing games like we used to. It reminded me of better days that had gone by. I was enjoying the day very much. We all then went out side and started drinking more and dancing. Everyone was laughing and having fun. It was a good day. I was happy they could spend time with me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to be surrounded by people who care about me.\n\n"
+            }
+        ],
+        "request_id": "811eb57dbe988c09-EWR"
+    }
+}

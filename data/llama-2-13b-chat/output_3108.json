@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: today we took our son to college. It was a very sad day. we helped him arrange his apartment. we took him to the store to get stocked up on groceries. we came back and visited for a while. that afternoon we decided it was time for us to head back home. i did not want to go. he is my boy and i am going to miss him dearly. this is good for him though. good for me, too. i am so very proud of him. he is going to be fine. i don't know if i will be, though. he is my first born. it is going to take me a while to recover, especially when i go into his room. it will be good to hear his voice when he calls. i don't know if i will be able to wait to hear from him. i will probably call him tonight!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: today we took our son to college. It was a very sad day. we helped him arrange his apartment. we took him to the store to get stocked up on groceries. we came back and visited for a while. that afternoon we decided it was time for us to head back home. i did not want to go. he is my boy and i am going to miss him dearly. this is good for him though. good for me, too. i am so very proud of him. he is going to be fine. i don't know if i will be, though. he is my first born. it is going to take me a while to recover, especially when i go into his room. it will be good to hear his voice when he calls. i don't know if i will be able to wait to hear from him. i will probably call him tonight!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i love him so very much!\n\n"
+            }
+        ],
+        "request_id": "811ec40c3e99180d-EWR"
+    }
+}

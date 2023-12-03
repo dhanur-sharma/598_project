@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One month ago, I wasn't feeling well. My stomach hurt constantly, and after work my feet hurt as well. I was constantly out of breath and climbing stairs became a huge challenge for me. I was also urinating a lot. My life was completely miserable and I didn't see any end in site. I tried some multi vitamin supplements from the local grocery store, but they didn't seem to help. I tried to get expensive insoles for my shoes but they didn't seem to help. After a 4 months of this, I finally went to to my family doctor. She ordered some lab work. When the results came back, she asked me to see her in her office. I went in on a Tuesday morning. The doctor sat down with me and explained that I was pre-diabetic and obese. She told me that I need to lose at least 90 pounds and keep it off to put myself back in a healthy weight range to possibly reverse the adverse health problems that had been caused by my overeating and inactive habits. Since then, I have switched to a low carbohydrate diet that has a focus of protein and vegetables. I also started going for 40 minute walks everyday. I have lost 15 pounds and feel so much more energized. I look forward to my continued progress."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One month ago, I wasn't feeling well. My stomach hurt constantly, and after work my feet hurt as well. I was constantly out of breath and climbing stairs became a huge challenge for me. I was also urinating a lot. My life was completely miserable and I didn't see any end in site. I tried some multi vitamin supplements from the local grocery store, but they didn't seem to help. I tried to get expensive insoles for my shoes but they didn't seem to help. After a 4 months of this, I finally went to to my family doctor. She ordered some lab work. When the results came back, she asked me to see her in her office. I went in on a Tuesday morning. The doctor sat down with me and explained that I was pre-diabetic and obese. She told me that I need to lose at least 90 pounds and keep it off to put myself back in a healthy weight range to possibly reverse the adverse health problems that had been caused by my overeating and inactive habits. Since then, I have switched to a low carbohydrate diet that has a focus of protein and vegetables. I also started going for 40 minute walks everyday. I have lost 15 pounds and feel so much more energized. I look forward to my continued progress.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdfe03c9e0f85-EWR"
+    }
+}

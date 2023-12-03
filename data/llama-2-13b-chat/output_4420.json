@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went on a memorable golf round with a number of friends a few weeks ago. We played one of the nicest courses in the area, and paid a considerable amount to do so. In total we had eight people from our friends group. We created two four-man groups of varying skill levels. Beforehand we also made a handful of bets on the round. We competed closely all day long, but eventually my team won by two strokes. I ended up making a significant putt on the final hole to guarantee our victory. By the end of the day we had a downright blast on the course during our five hour round. This event will stick out for me as one of the most memorable golf experiences I've had in years. I would have no issue speaking on it further. I would say this event was mainly important to me because of how lately many of our friends have been busy with their own lives, so it was unique to have everyone available for such a long period of time on the same day. No matter how busy some of us were, everyone managed to make time for friends on this day. With everyone getting older and busier, this is a rare occurrence these days. I'm hopeful we can accomplish something similar in the coming months. Or, at the very least next golf season."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went on a memorable golf round with a number of friends a few weeks ago. We played one of the nicest courses in the area, and paid a considerable amount to do so. In total we had eight people from our friends group. We created two four-man groups of varying skill levels. Beforehand we also made a handful of bets on the round. We competed closely all day long, but eventually my team won by two strokes. I ended up making a significant putt on the final hole to guarantee our victory. By the end of the day we had a downright blast on the course during our five hour round. This event will stick out for me as one of the most memorable golf experiences I've had in years. I would have no issue speaking on it further. I would say this event was mainly important to me because of how lately many of our friends have been busy with their own lives, so it was unique to have everyone available for such a long period of time on the same day. No matter how busy some of us were, everyone managed to make time for friends on this day. With everyone getting older and busier, this is a rare occurrence these days. I'm hopeful we can accomplish something similar in the coming months. Or, at the very least next golf season.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd68e3c54428f-EWR"
+    }
+}

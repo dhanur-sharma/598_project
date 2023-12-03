@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So, I had started this job that seemed so promising, but it was an absolute nightmare. My boss was horrible and rude, and he would steal our tip money. I always felt exhausted from running around constantly. The customers never seemed to be happy, and I never seemed to do anything right. I couldn't stay any longer, so I quit after only two weeks. i felt kind of guilty, but no pay was better than making myself miserable. I'm super glad I listened to myself though. About a week and a half after quitting, I found another job. It was similar to what I was doing before, so I was kind of nervous applying. The boss seemed really cool though, so i thought I would give the job (and her a chance)Boy, was I blown away! It was the complete opposite of my last job. My coworkers were awesome, and my boss even better. The customers seemed genuinely happy to be there. I never would have gotten the job if I hadn't quit the other one, and I've been here for 4 months! It was the best decision I have ever made."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So, I had started this job that seemed so promising, but it was an absolute nightmare. My boss was horrible and rude, and he would steal our tip money. I always felt exhausted from running around constantly. The customers never seemed to be happy, and I never seemed to do anything right. I couldn't stay any longer, so I quit after only two weeks. i felt kind of guilty, but no pay was better than making myself miserable. I'm super glad I listened to myself though. About a week and a half after quitting, I found another job. It was similar to what I was doing before, so I was kind of nervous applying. The boss seemed really cool though, so i thought I would give the job (and her a chance)Boy, was I blown away! It was the complete opposite of my last job. My coworkers were awesome, and my boss even better. The customers seemed genuinely happy to be there. I never would have gotten the job if I hadn't quit the other one, and I've been here for 4 months! It was the best decision I have ever made.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f452bcc3c4396-EWR"
+    }
+}

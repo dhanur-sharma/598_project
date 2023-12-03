@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to California for a vacation a few weeks ago. I went to visit some family, but mainly to relax a little. You know how stressed I have been? That's why I needed the vacation. I thought that the Hotel Del Coronado looked like a great place to go and relax so I got a few nights there. When I checked in, I was told that I might hear some things and to ignore them. I asked \"What kind of things?\" and the hotel clerk said \"Just footsteps, laughing, ghost noises.\" I laughed and ignored that. I don't believe in ghosts so whatever. That night, I was laying in bed after taking a shower and had just turned the tv off. I got comfy and started to doze off when I heard a ball bouncing. I opened my eyes and the noise stopped. I flipped over and saw nothing so I assumed it was my imagination. I closed my eyes again and hear a child laughing and the ball bouncing again. I sat up and turned the light on. There was nothing there. I thought back to the clerk telling me about the noises. I was a skeptic, but that night I think I believe in ghosts now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to California for a vacation a few weeks ago. I went to visit some family, but mainly to relax a little. You know how stressed I have been? That's why I needed the vacation. I thought that the Hotel Del Coronado looked like a great place to go and relax so I got a few nights there. When I checked in, I was told that I might hear some things and to ignore them. I asked \"What kind of things?\" and the hotel clerk said \"Just footsteps, laughing, ghost noises.\" I laughed and ignored that. I don't believe in ghosts so whatever. That night, I was laying in bed after taking a shower and had just turned the tv off. I got comfy and started to doze off when I heard a ball bouncing. I opened my eyes and the noise stopped. I flipped over and saw nothing so I assumed it was my imagination. I closed my eyes again and hear a child laughing and the ball bouncing again. I sat up and turned the light on. There was nothing there. I thought back to the clerk telling me about the noises. I was a skeptic, but that night I think I believe in ghosts now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I didn't sleep well that night. I had a few more experiences while I was there. I was scared, but I didn't let it ruin my vacation. I had a good time."
+            }
+        ],
+        "request_id": "811bd5286f104314-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was deposed in a lawsuit I initiated against some vicious people. I knew this would be difficult, especially as I had 5 opponents, so 4 lawyers would be questioning me. I tried to set some reasonable parameters but this only made them more difficult. Apparently they have no scruples and nothing to do with themselves but hurt others. The deposition was in a gray rundown room in the basement of the courthouse. There was an ice storm forecast, but they would not reschedule. I had to get up at 3:45 a.m., dress in the dark in the freezing cold in the car (and this is slow for me as I have a tremor), drive to a coffee shop to use the restroom and have a bite to eat, and then leave my car there for safety to walk to the bus stop. The buses are in poor repair, very rough riding and full of exhaust fumes that make me sick. I had to make a tight time transfer to a second bus too. Then the torment began. I had insisted on a 5 p.m. end time but they started right in to pressure me on this. Two of them made angry faces at me most of the time. They dragged out the deposition so I'd be forced to schedule a second day. They concocted nasty and unfathomable procedural offenses on my part. One insisted on interrupting so that two were questioning me at the same time. There was a short lunch break at which I ate my barley and lentil pouch without benefit of microwave. Finally, it was over. I threw up through a good part of the return bus trip. Fortunately, I had packed a barf bag. But my digestion was off for weeks afterwards."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was deposed in a lawsuit I initiated against some vicious people. I knew this would be difficult, especially as I had 5 opponents, so 4 lawyers would be questioning me. I tried to set some reasonable parameters but this only made them more difficult. Apparently they have no scruples and nothing to do with themselves but hurt others. The deposition was in a gray rundown room in the basement of the courthouse. There was an ice storm forecast, but they would not reschedule. I had to get up at 3:45 a.m., dress in the dark in the freezing cold in the car (and this is slow for me as I have a tremor), drive to a coffee shop to use the restroom and have a bite to eat, and then leave my car there for safety to walk to the bus stop. The buses are in poor repair, very rough riding and full of exhaust fumes that make me sick. I had to make a tight time transfer to a second bus too. Then the torment began. I had insisted on a 5 p.m. end time but they started right in to pressure me on this. Two of them made angry faces at me most of the time. They dragged out the deposition so I'd be forced to schedule a second day. They concocted nasty and unfathomable procedural offenses on my part. One insisted on interrupting so that two were questioning me at the same time. There was a short lunch break at which I ate my barley and lentil pouch without benefit of microwave. Finally, it was over. I threw up through a good part of the return bus trip. Fortunately, I had packed a barf bag. But my digestion was off for weeks afterwards.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was never so relieved to get home and collapse."
+            }
+        ],
+        "request_id": "811f34511e54c331-EWR"
+    }
+}

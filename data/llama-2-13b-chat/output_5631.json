@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the museum today to see the exhibit where Jenny's pictures are on display.  It was a painful experience but a bit cathartic. She looked so happy in the pictures, just like she always did when she was alive. I cannot believe she is gone.  At least I can go see her at the museum.  It was seniors get in free Tuesday so I used the money that I would have spent on the ticket to get a sandwich from the cart outside the museum. I took the sandwich to the park near the museum that Jenny and I have lunch only 8 weeks ago.  we had such a nice lunch and she told me about all the exciting details in her life.  Her career was going wonderful.  Her parents wanted her to do something practical but she wanted to be a model.  I supported her and I spent many nights on the phone listening to her complain about my daughter and son-in law.  She had a new boyfriend and loved her little apartment.  Two weeks after that lunch Jenny was gone.  I have a hard time holding back the tears as I write this. I was a bit afraid to go to the exhibit.  I thought I might breakdown.  Actually it was a pleasant experience.  I have so many photos of Jenny in my home, I see them everyday.  The pictures in the show were different.  It was almost like she was alive again.  I chatted with her a bit about life.  I cried a little but mostly the experience brought me joy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the museum today to see the exhibit where Jenny's pictures are on display.  It was a painful experience but a bit cathartic. She looked so happy in the pictures, just like she always did when she was alive. I cannot believe she is gone.  At least I can go see her at the museum.  It was seniors get in free Tuesday so I used the money that I would have spent on the ticket to get a sandwich from the cart outside the museum. I took the sandwich to the park near the museum that Jenny and I have lunch only 8 weeks ago.  we had such a nice lunch and she told me about all the exciting details in her life.  Her career was going wonderful.  Her parents wanted her to do something practical but she wanted to be a model.  I supported her and I spent many nights on the phone listening to her complain about my daughter and son-in law.  She had a new boyfriend and loved her little apartment.  Two weeks after that lunch Jenny was gone.  I have a hard time holding back the tears as I write this. I was a bit afraid to go to the exhibit.  I thought I might breakdown.  Actually it was a pleasant experience.  I have so many photos of Jenny in my home, I see them everyday.  The pictures in the show were different.  It was almost like she was alive again.  I chatted with her a bit about life.  I cried a little but mostly the experience brought me joy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It is a beautiful exhibit.  I am glad I went.\n\n"
+            }
+        ],
+        "request_id": "811f354efb385e79-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Mom's death has put a lot on us. Despite being adults, we relied on her for everything--food, shelter, advice. It's still surreal for me, and I don't know if I can go on. Jarrett's taking it better than me--we were always close, he only being my \"older\" brother by a few seconds, and yet he'd never had the relationship I had with Mom. It's like I'm in a dream--she's not here, I have no one who really understands what I'm going through, and so, maybe I should end it all? I've looked online for \"painless\" suicides,\" but nothing's concrete: the internet can tell me something is painless, but how can anyone know? It hurts: all I feel is pain, and hurt. I've thought about checking myself in somewhere, but what good would that do? I've not showered since the day of her death: so, six months ago now. I've not done a productive thing in so long. I've quit hiking, going to movies. I've cut off all contact with all of my friends. No one understands, so what's the point in talking to people? I'm lost: right now, I'm just hoping for a quick, easy end. You know, she never really even got to live her life. She had us so young, and her entire life was dedicated to us, till the very end. Why had I not done more for her? Why, when she was alive, had I not been a better son?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Mom's death has put a lot on us. Despite being adults, we relied on her for everything--food, shelter, advice. It's still surreal for me, and I don't know if I can go on. Jarrett's taking it better than me--we were always close, he only being my \"older\" brother by a few seconds, and yet he'd never had the relationship I had with Mom. It's like I'm in a dream--she's not here, I have no one who really understands what I'm going through, and so, maybe I should end it all? I've looked online for \"painless\" suicides,\" but nothing's concrete: the internet can tell me something is painless, but how can anyone know? It hurts: all I feel is pain, and hurt. I've thought about checking myself in somewhere, but what good would that do? I've not showered since the day of her death: so, six months ago now. I've not done a productive thing in so long. I've quit hiking, going to movies. I've cut off all contact with all of my friends. No one understands, so what's the point in talking to people? I'm lost: right now, I'm just hoping for a quick, easy end. You know, she never really even got to live her life. She had us so young, and her entire life was dedicated to us, till the very end. Why had I not done more for her? Why, when she was alive, had I not been a better son?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now she's gone, and I'm left with all these regrets and pain.\n\n"
+            }
+        ],
+        "request_id": "811be3522c79c45c-EWR"
+    }
+}

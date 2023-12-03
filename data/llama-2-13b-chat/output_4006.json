@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, today is my 90th day being bedridden. I am still in shock and awe at how this all happened and how quickly things went so so bad. This morning I was pondering on my life as it was several months ago. Work was my life and I was completely dominating in my field and felt like I was dominating in life as well. It's been a hard and long road since I first got sick and I'm worse now than when it all started. I remember the day I started to not feel right. I remember I kept pushing myself and wouldn't allow myself to slow down even though I could totally tell something was very very off. Being bedridden has been the absolute biggest shock of all of this. I could not have fathomed how horrible this would be. I can't even make myself food or use the bathroom without having someone to help me with every single step. I feel like such a burden. I was always on the move until one day I just wasn't. My family has been incredibly helpful although most days I feel so ashamed that I seem to not even be able to look them in the eyes. My doctors aren't carrying much hope. My age is preventing a lot of healing that might have come easier many years ago. I'm fearful that this is just now going to be my forever. I'm trying so hard to keep my mind busy, I hope my next entry will bring better news and more positivity."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, today is my 90th day being bedridden. I am still in shock and awe at how this all happened and how quickly things went so so bad. This morning I was pondering on my life as it was several months ago. Work was my life and I was completely dominating in my field and felt like I was dominating in life as well. It's been a hard and long road since I first got sick and I'm worse now than when it all started. I remember the day I started to not feel right. I remember I kept pushing myself and wouldn't allow myself to slow down even though I could totally tell something was very very off. Being bedridden has been the absolute biggest shock of all of this. I could not have fathomed how horrible this would be. I can't even make myself food or use the bathroom without having someone to help me with every single step. I feel like such a burden. I was always on the move until one day I just wasn't. My family has been incredibly helpful although most days I feel so ashamed that I seem to not even be able to look them in the eyes. My doctors aren't carrying much hope. My age is preventing a lot of healing that might have come easier many years ago. I'm fearful that this is just now going to be my forever. I'm trying so hard to keep my mind busy, I hope my next entry will bring better news and more positivity.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Love, Me."
+            }
+        ],
+        "request_id": "811bce4bfc8a1788-EWR"
+    }
+}

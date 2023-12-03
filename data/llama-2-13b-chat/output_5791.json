@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the letter coming in the mail like it was yesterday. We had been anticipating it for quite some time. He grabbed the letter, opened it, and a huge smile spread across his face. My heart still fills with joy every time I think about it.  Knowing his hard work had paid off.  My baby would be leaving us to start to really explore life. We celebrated together, had a great meal, and discussed the future. We talked about problems he might encounter, as we had done openly in the past. We also discussed the excitement he will experience. At several points, we all began to cry from happiness and sadness, at the same time. We have such a close relationship that we all realize how hard it will be to let go, yet it will be an opportunity of a lifetime. A chance to learn new things, meet very diverse groups of people, and have new types of fun. We talked about my own college experience and how the world will be more open to him. I still have a hard time getting over it. My baby will be gone and my nest will be a little emptier."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the letter coming in the mail like it was yesterday. We had been anticipating it for quite some time. He grabbed the letter, opened it, and a huge smile spread across his face. My heart still fills with joy every time I think about it.  Knowing his hard work had paid off.  My baby would be leaving us to start to really explore life. We celebrated together, had a great meal, and discussed the future. We talked about problems he might encounter, as we had done openly in the past. We also discussed the excitement he will experience. At several points, we all began to cry from happiness and sadness, at the same time. We have such a close relationship that we all realize how hard it will be to let go, yet it will be an opportunity of a lifetime. A chance to learn new things, meet very diverse groups of people, and have new types of fun. We talked about my own college experience and how the world will be more open to him. I still have a hard time getting over it. My baby will be gone and my nest will be a little emptier.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so proud of him and I know he will do great things. I will miss him dearly, but I know I will see him again soon."
+            }
+        ],
+        "request_id": "811f38683e925e5f-EWR"
+    }
+}

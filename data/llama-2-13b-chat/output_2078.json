@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I purchased my 2016 Ford Escape for $16000 using my credit card. Most times, I drive it to class and when I less busy, I turn to become an Uber driver. Sometimes I would leave class when I see that there will be a bonus for the day if I reach a certain target when I drive passengers. I am particularly enthusiastic about bonuses. 2 months ago, I left school as usual and showed myself on the Uber app to be online. My first passenger was just nearby and the fare was a $45. I picked my car keys and dashed for the parking lot. I ignited the car and was ready for the day's work. I had a strange feeling about going out that day but I ignored this feeling, after all, I am stronger than I look. I dashed for the dash. I was going at 46 mph when I saw the traffic light turn yellow. I thought, it is still safe to cross, after all, it means \"cross if you are unable to halt\". I dashed through. I didn't see a truck coming from my left. We collided at the junction and my bumper and dashboard was destroyed beyond recognition. I did have a fracture on my leg but and it took 2 months in the hospital before I got well. I have no car now and I can't drive to class nor do Uber where I get some money to offset my student debt. It's such a sad experience and I wished I had listened to that voice that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I purchased my 2016 Ford Escape for $16000 using my credit card. Most times, I drive it to class and when I less busy, I turn to become an Uber driver. Sometimes I would leave class when I see that there will be a bonus for the day if I reach a certain target when I drive passengers. I am particularly enthusiastic about bonuses. 2 months ago, I left school as usual and showed myself on the Uber app to be online. My first passenger was just nearby and the fare was a $45. I picked my car keys and dashed for the parking lot. I ignited the car and was ready for the day's work. I had a strange feeling about going out that day but I ignored this feeling, after all, I am stronger than I look. I dashed for the dash. I was going at 46 mph when I saw the traffic light turn yellow. I thought, it is still safe to cross, after all, it means \"cross if you are unable to halt\". I dashed through. I didn't see a truck coming from my left. We collided at the junction and my bumper and dashboard was destroyed beyond recognition. I did have a fracture on my leg but and it took 2 months in the hospital before I got well. I have no car now and I can't drive to class nor do Uber where I get some money to offset my student debt. It's such a sad experience and I wished I had listened to that voice that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eafcdb9bd5e84-EWR"
+    }
+}

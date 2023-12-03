@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, I finally got over a big event in my life. I got over not graduating college. I felt great about it. I told my friends and family. Some were supportive. Others were mad. I realized that it's a waste of money for most people. You'll never payback the loans in this economy unless you get a high paying field that is in demand. I felt smart about not graduating college because of the loans. It would be a waste of time and a waste of money. Most people will be serving coffee, while trying to pay the loan back. I will get a trade instead. This will be better for me than going to college. I will work hard and make more money. I will start an apprenticeship next week."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, I finally got over a big event in my life. I got over not graduating college. I felt great about it. I told my friends and family. Some were supportive. Others were mad. I realized that it's a waste of money for most people. You'll never payback the loans in this economy unless you get a high paying field that is in demand. I felt smart about not graduating college because of the loans. It would be a waste of time and a waste of money. Most people will be serving coffee, while trying to pay the loan back. I will get a trade instead. This will be better for me than going to college. I will work hard and make more money. I will start an apprenticeship next week.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea1fb39bf4265-EWR"
+    }
+}

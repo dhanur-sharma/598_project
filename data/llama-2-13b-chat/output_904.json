@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I'm still upset about what happened with Jerry.  It's been bothering me so much that I haven't even been able to write about it here.  But now I think it's time...About 3 months ago my husband's brother, Jerry, came to stay with us at our house.  He told us he wanted to get off drugs, and that rehab didn't work and wasn't for him.  He'd been before and, obviously, it didn't work.  My husband is close with his brother so he, of course, let him stay with us.  I didn't think it was a good idea, but I supported the decision, even though I thought it might be dangerous to have a drug addict in our house. As I suspected, things didn't turn out well.  Over the course of a few weeks Jerry grew increasingly hostile as he detoxed.  He got really ill from the withdrawal.  I didn't realize it could take so long.  Anyway, he wasn't getting better, and he was getting meaner and meaner.  Everything came to a head when Jerry finally asked my husband to score some dope for him; Jerry was too incapacitated to leave the house and do it himself.  My husband erupted in anger, shouting at him about how we had opened our home to him, tried to help him get off drugs, not perpetuate his habit.  My husband physically threw Jerry out the front door and called the cops.  The police took him away for causing a scene, banging on our front door and yelling in the middle of the night. The whole thing--seeing Jerry get sick and mean, seeing my husband get violent--really unsettles me when I think about it, even now.  My husband is perpetually sorry for the incident and apologized every day.  It's not his fault, and I make sure he knows.  We'll never let Jerry into our house again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I'm still upset about what happened with Jerry.  It's been bothering me so much that I haven't even been able to write about it here.  But now I think it's time...About 3 months ago my husband's brother, Jerry, came to stay with us at our house.  He told us he wanted to get off drugs, and that rehab didn't work and wasn't for him.  He'd been before and, obviously, it didn't work.  My husband is close with his brother so he, of course, let him stay with us.  I didn't think it was a good idea, but I supported the decision, even though I thought it might be dangerous to have a drug addict in our house. As I suspected, things didn't turn out well.  Over the course of a few weeks Jerry grew increasingly hostile as he detoxed.  He got really ill from the withdrawal.  I didn't realize it could take so long.  Anyway, he wasn't getting better, and he was getting meaner and meaner.  Everything came to a head when Jerry finally asked my husband to score some dope for him; Jerry was too incapacitated to leave the house and do it himself.  My husband erupted in anger, shouting at him about how we had opened our home to him, tried to help him get off drugs, not perpetuate his habit.  My husband physically threw Jerry out the front door and called the cops.  The police took him away for causing a scene, banging on our front door and yelling in the middle of the night. The whole thing--seeing Jerry get sick and mean, seeing my husband get violent--really unsettles me when I think about it, even now.  My husband is perpetually sorry for the incident and apologized every day.  It's not his fault, and I make sure he knows.  We'll never let Jerry into our house again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9a37bc78423b-EWR"
+    }
+}

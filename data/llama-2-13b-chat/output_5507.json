@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So, this was actually a follow up to a tragic event that happened to my community. A bit over a year and a half ago - our community changed as we knew it. There was a mass shooting at our local high school. It left 17 of our students dead, and many more injured. It has been really, really hard for us as a community. While I work with students, luckily I did not lose any I knew. Anyway, so the event I'm specifically writing about happened maybe 2 months ago: it's been a while since the shooting itself, but the scars will always be there. The PTSD. All of it. So we were sitting in our church service, specifically for students, when something happens. I don't know if it was a mic error, or someone dropped something that echo'd, but there was a loud POP. It was loud. One of our students who had been injured in the shooting heard it, and he RAN. He ran and ran. He left the building completely before he recognized that it was okay, he was fine. It was heartbreaking to see - a year and a half later, how much destruction was in our community still. I can't believe it happened to this day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So, this was actually a follow up to a tragic event that happened to my community. A bit over a year and a half ago - our community changed as we knew it. There was a mass shooting at our local high school. It left 17 of our students dead, and many more injured. It has been really, really hard for us as a community. While I work with students, luckily I did not lose any I knew. Anyway, so the event I'm specifically writing about happened maybe 2 months ago: it's been a while since the shooting itself, but the scars will always be there. The PTSD. All of it. So we were sitting in our church service, specifically for students, when something happens. I don't know if it was a mic error, or someone dropped something that echo'd, but there was a loud POP. It was loud. One of our students who had been injured in the shooting heard it, and he RAN. He ran and ran. He left the building completely before he recognized that it was okay, he was fine. It was heartbreaking to see - a year and a half later, how much destruction was in our community still. I can't believe it happened to this day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It still feels like a dream. It still feels like I'm in that moment.\n\n"
+            }
+        ],
+        "request_id": "811f32f4fb865e80-EWR"
+    }
+}

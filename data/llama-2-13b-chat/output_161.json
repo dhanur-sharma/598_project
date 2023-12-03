@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I work at a corporate IT department where we handle repairs and respond to high-level client issues. Recently I was able to fix an urgent problem for a client very quickly. Basically saving the company millions of dollars and reputation. Because of this my bosses decided to thank me and promote me at our monthly IT meeting. Tn front of everyone of course. It was actually pretty awesome. I was excited that I was able to do my job well. It's not often I get this kind of praise in front of a crowd of 100+ people(co-workers). So it's definitely a moment I will remember for a long time. Really burns a fire to work hard and keep a dedicated grind! My immediate boss gave me a small award as well. Once I got back to the office we had pizza and food all ready for the team. I was amazed the company did all this. How often does corporate do this kind of stuff? I would say very rarely so I was pleased."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I work at a corporate IT department where we handle repairs and respond to high-level client issues. Recently I was able to fix an urgent problem for a client very quickly. Basically saving the company millions of dollars and reputation. Because of this my bosses decided to thank me and promote me at our monthly IT meeting. Tn front of everyone of course. It was actually pretty awesome. I was excited that I was able to do my job well. It's not often I get this kind of praise in front of a crowd of 100+ people(co-workers). So it's definitely a moment I will remember for a long time. Really burns a fire to work hard and keep a dedicated grind! My immediate boss gave me a small award as well. Once I got back to the office we had pizza and food all ready for the team. I was amazed the company did all this. How often does corporate do this kind of stuff? I would say very rarely so I was pleased.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, a very memorable day.\n\n"
+            }
+        ],
+        "request_id": "811e8cc47879c3f0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About four months ago my partner and I went and took a trip to Portland, Main late winter. We ended up visiting a lot of breweries and having a great time. We went around and stopped at a lot of different restaurants. One of my favorite parts was going on long hikes and the general walks through nature sides just outside the cities. It was such a great time and I loved every moment of it. We plan on going back the next chance that we get. One of the biggest things that I remember the most was going on a hiking trail with my husband and stopping to sit at the top of the hill. When we were hiking the trail it was really dreary and pale out but the moment we got to the top it was clear and sunny. It was such an amazing view of the entire town that I was so happy. It was so breath taking and such a nice family moment that we got to share together. After the hike we went straight to a local pub that was recommended and had some of the best local beers I've had in a long time. Overall the entire trip was amazing. I couldn't imagine a better way to spend my vacation. It will be something that I cherish till the day that I die. We also ended up getting some souvenirs on the way home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About four months ago my partner and I went and took a trip to Portland, Main late winter. We ended up visiting a lot of breweries and having a great time. We went around and stopped at a lot of different restaurants. One of my favorite parts was going on long hikes and the general walks through nature sides just outside the cities. It was such a great time and I loved every moment of it. We plan on going back the next chance that we get. One of the biggest things that I remember the most was going on a hiking trail with my husband and stopping to sit at the top of the hill. When we were hiking the trail it was really dreary and pale out but the moment we got to the top it was clear and sunny. It was such an amazing view of the entire town that I was so happy. It was so breath taking and such a nice family moment that we got to share together. After the hike we went straight to a local pub that was recommended and had some of the best local beers I've had in a long time. Overall the entire trip was amazing. I couldn't imagine a better way to spend my vacation. It will be something that I cherish till the day that I die. We also ended up getting some souvenirs on the way home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We got a nice handmade mug and a really cool beer opener."
+            }
+        ],
+        "request_id": "811bd4573b9f0cb2-EWR"
+    }
+}

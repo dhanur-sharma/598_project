@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I barely remember the details about this, but I do remember it being a big deal. My mom and I have tried for years to get on my sister's good side and nothing seemed to work. We just got used to the fact that she pretty much cut us out of her life. One day, though, we were invited over to her house. It was a big surprise since she never really did that before unless she needed someone to babysit. We were expecting her to still be quiet and not answer our questions or even really talk to us, but we were wrong. She showed emotion and interest in us for once. She made dinner, but I don't remember what it was. I don't remember what we talked about,. I'm sure my niece was there, but I also don't remember what her whole role was. We just had a good time with her for the first time in a long time. When we left, my mom said how surprised she was that that just happened. It sounds weird because this is such a normal thing for everyone else, but we really were very confused and surprised. I think prior to going we thought there was bad news, but there wasn't. It was just a normal family get-together. Of course, it was not normal for us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I barely remember the details about this, but I do remember it being a big deal. My mom and I have tried for years to get on my sister's good side and nothing seemed to work. We just got used to the fact that she pretty much cut us out of her life. One day, though, we were invited over to her house. It was a big surprise since she never really did that before unless she needed someone to babysit. We were expecting her to still be quiet and not answer our questions or even really talk to us, but we were wrong. She showed emotion and interest in us for once. She made dinner, but I don't remember what it was. I don't remember what we talked about,. I'm sure my niece was there, but I also don't remember what her whole role was. We just had a good time with her for the first time in a long time. When we left, my mom said how surprised she was that that just happened. It sounds weird because this is such a normal thing for everyone else, but we really were very confused and surprised. I think prior to going we thought there was bad news, but there wasn't. It was just a normal family get-together. Of course, it was not normal for us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think my mom and I are still trying to wrap our heads around the fact that we can have a good time with my sister.\n\n"
+            }
+        ],
+        "request_id": "811ecacc1da34328-EWR"
+    }
+}

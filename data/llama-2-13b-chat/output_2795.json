@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I haven't been married that long.  We got married last year.  We knew the next step would be getting our own home.  We probably should have thought about that before planning a wedding, but we just wanted to get the wedding over with.  We thought we would have a better time focusing on our perfect home if our minds were free.  I kind of wished we had done it the opposite way.  We started looking at different houses while still living in an apartment.  My husband kept telling me how picky I was and if it were up to him, he'd pick a place and just make it work.  I am so glad we did it my way.  All the places he had picked were just complete dumps.  I could tell he just wanted to get it over with and put it behind him.  But I held out and knew what I wanted.  I needed to picture us there with a few kids and see if it worked out in my head first.  Eventually, we found the right area and then the house just came to us.  The process of waiting to see if we could get the house was the worst, though.  It seemed like it took forever.  Maybe because we were impatient and ready to get out of an apartment.  But everything worked out and we are living the dream in our perfect little farm house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I haven't been married that long.  We got married last year.  We knew the next step would be getting our own home.  We probably should have thought about that before planning a wedding, but we just wanted to get the wedding over with.  We thought we would have a better time focusing on our perfect home if our minds were free.  I kind of wished we had done it the opposite way.  We started looking at different houses while still living in an apartment.  My husband kept telling me how picky I was and if it were up to him, he'd pick a place and just make it work.  I am so glad we did it my way.  All the places he had picked were just complete dumps.  I could tell he just wanted to get it over with and put it behind him.  But I held out and knew what I wanted.  I needed to picture us there with a few kids and see if it worked out in my head first.  Eventually, we found the right area and then the house just came to us.  The process of waiting to see if we could get the house was the worst, though.  It seemed like it took forever.  Maybe because we were impatient and ready to get out of an apartment.  But everything worked out and we are living the dream in our perfect little farm house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so glad I held out for what I wanted.  It's worth the wait."
+            }
+        ],
+        "request_id": "811ebe7a088c42a9-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I worked hard towards my goal. I wanted to be the best lemonade stand salesman in the town. It wasn't easy at first. I had to establish my lemonade stand empire. I started with a couple of stands. I got enough money to expand it to a few streets. A month later, I had stands on every street in the town. This was a very exciting event for me. I made a lot of money because of this. I hope to expand my empire throughout the state. I will celebrate this occasion with a trip to the restaurant. I got a hamburger with some beer. They were both yummy to eat and drink. I hope my success continues. I will help a lot of people drink."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I worked hard towards my goal. I wanted to be the best lemonade stand salesman in the town. It wasn't easy at first. I had to establish my lemonade stand empire. I started with a couple of stands. I got enough money to expand it to a few streets. A month later, I had stands on every street in the town. This was a very exciting event for me. I made a lot of money because of this. I hope to expand my empire throughout the state. I will celebrate this occasion with a trip to the restaurant. I got a hamburger with some beer. They were both yummy to eat and drink. I hope my success continues. I will help a lot of people drink.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea8220d804401-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: An elderly friend of the family, GW, passed away after a brief battle with cancer. I first met GW when I went to work for my uncle at his business after I graduated from college. GW was my uncle's neighbor and he worked part time there. GW didn't talk a lot but he had a wicked sense of humor. He and his wife, AW, raised 4 kids together in the same house for 50 years. I didn't get to see GW often after I got a new job and moved but I heard for AW that GW wasn't feeling so well since last year. He was in and out of hospital a lot of the time. Then in March I got a call from AW that GW was in the hospital again and would like to see me and my uncle. I got the feeling that this might be the last time we will speak to each other again. This might be the goodbye the we all dreaded. On a beautiful Saturday I drove my uncle and my aunt to visit GW at the hospital. On the way there we bought him some flowers for the room. When we got there I could hardly recognize GW. He looked so thin and frail and his cheeks sunk in quite a bit. I felt so sad that some tears actually came out. GW was asleep so we asked a nurse to wake him. He was groggy but very happy to see us. Even though he was physically deteriorating I could see that his mind was as sharp as even and his sense of humor was still there. I stuck my hand out to shake his hand and he held mine for a long time like he didn't want to let go. His hand felt cold and weak. I got emotional again and almost cried again but I held it in. I didn't want GW to worry so I put on a brave face and smiled. Before we left I told GW to get better soon and we'll be waiting for him at home. For the rest of the day I felt a bit melancholy and down. Seeing GW like that reminded me of how fleeting and fragile life is and it scared me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: An elderly friend of the family, GW, passed away after a brief battle with cancer. I first met GW when I went to work for my uncle at his business after I graduated from college. GW was my uncle's neighbor and he worked part time there. GW didn't talk a lot but he had a wicked sense of humor. He and his wife, AW, raised 4 kids together in the same house for 50 years. I didn't get to see GW often after I got a new job and moved but I heard for AW that GW wasn't feeling so well since last year. He was in and out of hospital a lot of the time. Then in March I got a call from AW that GW was in the hospital again and would like to see me and my uncle. I got the feeling that this might be the last time we will speak to each other again. This might be the goodbye the we all dreaded. On a beautiful Saturday I drove my uncle and my aunt to visit GW at the hospital. On the way there we bought him some flowers for the room. When we got there I could hardly recognize GW. He looked so thin and frail and his cheeks sunk in quite a bit. I felt so sad that some tears actually came out. GW was asleep so we asked a nurse to wake him. He was groggy but very happy to see us. Even though he was physically deteriorating I could see that his mind was as sharp as even and his sense of humor was still there. I stuck my hand out to shake his hand and he held mine for a long time like he didn't want to let go. His hand felt cold and weak. I got emotional again and almost cried again but I held it in. I didn't want GW to worry so I put on a brave face and smiled. Before we left I told GW to get better soon and we'll be waiting for him at home. For the rest of the day I felt a bit melancholy and down. Seeing GW like that reminded me of how fleeting and fragile life is and it scared me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all dread the thought of losing our loved ones but when it actually happens it's a different story."
+            }
+        ],
+        "request_id": "811f2e7f2e731851-EWR"
+    }
+}

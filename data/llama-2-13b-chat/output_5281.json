@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago my girlfriend, best friend, and I went to a water park. I was reluctant to go at first, because the idea of sharing a bodies of water with tons of young children and random people didn't sound so great to me. However, as we pulled up to the water park I found myself beginning to look forward to a day spent in the sun with the people I care about. We showed our tickets and walked into the park proper. It was pretty much what I expected, families milling about, groups of teenagers and couples. We got in line and began the long wait for the water slide. We didn't think much of passing on the more expensive 'Fast Pass' tickets, but as time dragged on we began to wonder if we hadn't made a mistake. It was a full 50 minutes before our turn came, with about five or six Fast Pass groups going before us in that time. Definitely going to consider the Fast Pass next time. We made the most of it, however, and grabbed some food and few cold drinks. I went with a beer, but my girlfriend and friend each got frozen margaritas. After finishing our food we opted against another wait in a long line, opting for the Lazy River instead. The Lazy River was a loop in the center of the water park. To could either diver right in or wait in line for someone to finish and leave their tube on the side. After a couple of rounds on that we were ready for the wave pool, a pool that generated artificial waves every so often. There was a dj, but he played mostly family-friendly, ages old, corny music. The Macarana might have been played more than once. We left soon after our time in the wave pool, as the park was due to close soon. It was a simple day, but at the same time a really good memory."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago my girlfriend, best friend, and I went to a water park. I was reluctant to go at first, because the idea of sharing a bodies of water with tons of young children and random people didn't sound so great to me. However, as we pulled up to the water park I found myself beginning to look forward to a day spent in the sun with the people I care about. We showed our tickets and walked into the park proper. It was pretty much what I expected, families milling about, groups of teenagers and couples. We got in line and began the long wait for the water slide. We didn't think much of passing on the more expensive 'Fast Pass' tickets, but as time dragged on we began to wonder if we hadn't made a mistake. It was a full 50 minutes before our turn came, with about five or six Fast Pass groups going before us in that time. Definitely going to consider the Fast Pass next time. We made the most of it, however, and grabbed some food and few cold drinks. I went with a beer, but my girlfriend and friend each got frozen margaritas. After finishing our food we opted against another wait in a long line, opting for the Lazy River instead. The Lazy River was a loop in the center of the water park. To could either diver right in or wait in line for someone to finish and leave their tube on the side. After a couple of rounds on that we were ready for the wave pool, a pool that generated artificial waves every so often. There was a dj, but he played mostly family-friendly, ages old, corny music. The Macarana might have been played more than once. We left soon after our time in the wave pool, as the park was due to close soon. It was a simple day, but at the same time a really good memory.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all had fun, and I can't wait to go back."
+            }
+        ],
+        "request_id": "811f2e3d4e990f87-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend lost his father to cancer not too long ago. His father was very involved in the community, and was almost like a second father to us. It was incredibly hard to watch my friend loose someone so important to him. We all used to play a gold tournament every summer to support the cancer foundation. We haven't played the tournament since his fathers death. We decided it would be a good way to honor his life, by playing another tournament this summer. We all got ready to go, and the mood was kind of heavy. When we arrived, my friend seemed very sad. I attempted to lighten the mood by telling everyone a funny story about my friends father. We all shared some laughs and shared some more favorite memory's of his father. We ended up raising a lot of money for the organization. I think this trip helped with my friends grieving a lot. We decided to do this tournament every year. I am glad I got to share memories with my friends. I can't wait to play next summer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend lost his father to cancer not too long ago. His father was very involved in the community, and was almost like a second father to us. It was incredibly hard to watch my friend loose someone so important to him. We all used to play a gold tournament every summer to support the cancer foundation. We haven't played the tournament since his fathers death. We decided it would be a good way to honor his life, by playing another tournament this summer. We all got ready to go, and the mood was kind of heavy. When we arrived, my friend seemed very sad. I attempted to lighten the mood by telling everyone a funny story about my friends father. We all shared some laughs and shared some more favorite memory's of his father. We ended up raising a lot of money for the organization. I think this trip helped with my friends grieving a lot. We decided to do this tournament every year. I am glad I got to share memories with my friends. I can't wait to play next summer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92293cd543cf-EWR"
+    }
+}

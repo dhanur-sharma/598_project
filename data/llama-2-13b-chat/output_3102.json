@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: June 6th, 2019 was an amazing day. My family welcomed our youngest daughter into our lives. At that point, I was about 1 week over due. I was completely miserable and desperate to go into labor. It was Wednesday and the next day I was scheduled to be induced. My dad came to visit with his brother and sister in law. We had a pleasant visit and then they left that early afternoon. Shortly afterwards, I started to get a cramp like feeling in my lower abdomen. It grew stronger and stronger. I woke my husband up and said, \"I think I might be in labor. I don't know.\" He immediately wanted to go to the hospital, but we had to wait for someone to come pick up our two older children. The pains continued in intensity and my husband finally said, \"Enough, we're going now.\" We dropped off our kids with his parents and went to the hospital. I insisted we stopped and get Sonic first because I knew they wouldn't let me eat when we got there. We checked in and my husband and I anxiously waited as labor progressed. I got an epidural which helped with the contractions. At 11:31 PM I started to push. Unfortunately at this point, the epidural had worn off. After two short pushes, our youngest daughter was born. She was the most beautiful baby we had ever seen and we were so happy to have her here safely."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: June 6th, 2019 was an amazing day. My family welcomed our youngest daughter into our lives. At that point, I was about 1 week over due. I was completely miserable and desperate to go into labor. It was Wednesday and the next day I was scheduled to be induced. My dad came to visit with his brother and sister in law. We had a pleasant visit and then they left that early afternoon. Shortly afterwards, I started to get a cramp like feeling in my lower abdomen. It grew stronger and stronger. I woke my husband up and said, \"I think I might be in labor. I don't know.\" He immediately wanted to go to the hospital, but we had to wait for someone to come pick up our two older children. The pains continued in intensity and my husband finally said, \"Enough, we're going now.\" We dropped off our kids with his parents and went to the hospital. I insisted we stopped and get Sonic first because I knew they wouldn't let me eat when we got there. We checked in and my husband and I anxiously waited as labor progressed. I got an epidural which helped with the contractions. At 11:31 PM I started to push. Unfortunately at this point, the epidural had worn off. After two short pushes, our youngest daughter was born. She was the most beautiful baby we had ever seen and we were so happy to have her here safely.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec3f6cc3c42d2-EWR"
+    }
+}

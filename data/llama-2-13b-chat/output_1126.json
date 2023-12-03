@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It all happens on one sunny Saturday. That I went out with the kids to pick something at the supermarket. The kids was excited as they will be getting new toys. It took us two hours to get to the supermarket because of the traffic jam. Luckily for me and the kids we pick so many items in the supermarket. I had to even caution them on what to buy. After the kids are done with there shopping. We Both went together to pay our bills. As at these time I use three credit card of different banks. So I gave one of them to the cashier she later returned it, that it an insufficient balance. So in my mind if one is not going through the other should do. I gave her the second one also the same story not until I gave her the third one. And it turned out to be same story. I was so devastated I don't know what next to do or what action to take, I looked at the kids they were so happy with what they got. Now i began to think of returning those item we bought including the kids toys. Then the cashier turn back to me and helped me out as she paid for the grocery for me. I was so happy and surprise of this kind person."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It all happens on one sunny Saturday. That I went out with the kids to pick something at the supermarket. The kids was excited as they will be getting new toys. It took us two hours to get to the supermarket because of the traffic jam. Luckily for me and the kids we pick so many items in the supermarket. I had to even caution them on what to buy. After the kids are done with there shopping. We Both went together to pay our bills. As at these time I use three credit card of different banks. So I gave one of them to the cashier she later returned it, that it an insufficient balance. So in my mind if one is not going through the other should do. I gave her the second one also the same story not until I gave her the third one. And it turned out to be same story. I was so devastated I don't know what next to do or what action to take, I looked at the kids they were so happy with what they got. Now i began to think of returning those item we bought including the kids toys. Then the cashier turn back to me and helped me out as she paid for the grocery for me. I was so happy and surprise of this kind person.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I end up not returning any of the item."
+            }
+        ],
+        "request_id": "811e9e52bd5e1825-EWR"
+    }
+}

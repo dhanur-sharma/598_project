@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well today I went for a run at the local park. I planned to run a total of three mile today. I started my run normal as usual with a little back paint to my lower back. I ran enough to warm up and get rid of the pain. While running I noticed a woman walking the same path but in opposite direction. I said hello and kept on running. Im not into chubby women however, this one caught my attention for some reason. So, every time that I passed by her I would say something. Trying to get her to talk. We had brief conversations. When I say brief I mean really brief. I should have asked her for her name. I did not. If i were to ever run into this person again. I might ask her for her name. She was supper pretty."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well today I went for a run at the local park. I planned to run a total of three mile today. I started my run normal as usual with a little back paint to my lower back. I ran enough to warm up and get rid of the pain. While running I noticed a woman walking the same path but in opposite direction. I said hello and kept on running. Im not into chubby women however, this one caught my attention for some reason. So, every time that I passed by her I would say something. Trying to get her to talk. We had brief conversations. When I say brief I mean really brief. I should have asked her for her name. I did not. If i were to ever run into this person again. I might ask her for her name. She was supper pretty.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am not into chubby women but this one caught my attention. I am glad that I stopped to talk to her. I would like to see her again. I might ask for her number next time.\n\n"
+            }
+        ],
+        "request_id": "811ed2489f980f88-EWR"
+    }
+}

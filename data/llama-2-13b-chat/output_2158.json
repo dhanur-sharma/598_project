@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a friend that had a set of boys. They were friends with my son. They got along fine usually. But over the past summer they got mad at each other. They no longer were part of everyday activities with each other. Oddly enough, the boys friendship affected our own. It seemed to have put stress on my relationship with her. We slowly stopped talking, and it was getting worse. We had been friends since before the boys were. It hurts to know that relationships are not forever. Even when you think they will be. I still lightly keep in touch. I was my son and her boys to have a good relationship. And us to also regain ours. I feel we can do it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a friend that had a set of boys. They were friends with my son. They got along fine usually. But over the past summer they got mad at each other. They no longer were part of everyday activities with each other. Oddly enough, the boys friendship affected our own. It seemed to have put stress on my relationship with her. We slowly stopped talking, and it was getting worse. We had been friends since before the boys were. It hurts to know that relationships are not forever. Even when you think they will be. I still lightly keep in touch. I was my son and her boys to have a good relationship. And us to also regain ours. I feel we can do it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But it is a slow process.\n\n"
+            }
+        ],
+        "request_id": "811eb17668db0cac-EWR"
+    }
+}

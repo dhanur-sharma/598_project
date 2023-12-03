@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most recent memorable event involving me would have been a weekend getaway. Definitely needed getaway, as it has been sometime since the last one. There was plenty of fun and rest. There is something about being close to the ocean that calms you. A couple of days on the coast with a loved one, plenty of food, a wonderful dining experience. Great drinks! Alot of time for play and doing absolutely nothing! Amazing! We only had a few days, but definitely made the most of it. Long drives are worth it, when the destination is absolutely beautiful! Hopefully the next time, won't be that far in the future. I had hesitated at first, since the trip was booked spontaneously. But all in all, I am so glad we went. The cost was expensive, but so worth it! Why save and save, if you never spend on yourself!? This is definitely my most memorable recent event."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most recent memorable event involving me would have been a weekend getaway. Definitely needed getaway, as it has been sometime since the last one. There was plenty of fun and rest. There is something about being close to the ocean that calms you. A couple of days on the coast with a loved one, plenty of food, a wonderful dining experience. Great drinks! Alot of time for play and doing absolutely nothing! Amazing! We only had a few days, but definitely made the most of it. Long drives are worth it, when the destination is absolutely beautiful! Hopefully the next time, won't be that far in the future. I had hesitated at first, since the trip was booked spontaneously. But all in all, I am so glad we went. The cost was expensive, but so worth it! Why save and save, if you never spend on yourself!? This is definitely my most memorable recent event.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f48f0ea2d4288-EWR"
+    }
+}

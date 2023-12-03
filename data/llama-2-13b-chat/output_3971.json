@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I thought John and I were in love. Then he dumped me. Still don't know why. Spent three weeks crying over it. Apparently, he has already moved on to someone else. Good riddance. His loss. But, now things are great. Met Sam at the park Saturday. He was playing frisbee with his dog and it landed near me. I picked it up and threw it back to him. We started talking and he asked me out for lunch at Mario's Pizza. I was so nervous. As I was sitting there staring at Sam, I accidentally knocked over the basket of bread and butter on his lap. So embarrassing! We laughed so hard I was crying.  He walked me home. I think I smiled the whole day.  He asked me out for dinner Wednesday.  That night, he gave me a kiss and said he was falling in love with me. I was shocked because I felt the same way. It happened so fast! I've pretty much seen him every day. A kiss and two months later, we are engaged. Funny how things happen when you least expect it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I thought John and I were in love. Then he dumped me. Still don't know why. Spent three weeks crying over it. Apparently, he has already moved on to someone else. Good riddance. His loss. But, now things are great. Met Sam at the park Saturday. He was playing frisbee with his dog and it landed near me. I picked it up and threw it back to him. We started talking and he asked me out for lunch at Mario's Pizza. I was so nervous. As I was sitting there staring at Sam, I accidentally knocked over the basket of bread and butter on his lap. So embarrassing! We laughed so hard I was crying.  He walked me home. I think I smiled the whole day.  He asked me out for dinner Wednesday.  That night, he gave me a kiss and said he was falling in love with me. I was shocked because I felt the same way. It happened so fast! I've pretty much seen him every day. A kiss and two months later, we are engaged. Funny how things happen when you least expect it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed4c39ef84334-EWR"
+    }
+}

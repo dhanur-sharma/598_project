@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, my daughter invited me over for Father's Day.  I was pretty excited because it was also my grandson's 5th birthday that day.  The whole family came over to her house.  The weather was perfect with a slight breeze.  My son in law barbecued chicken, burgers, and hot dogs for everyone.  Most of the family that attended brought side dishes.  Two cakes were presented after lunch.  One said Happy Father's Day and the other was Happy Birthday.  We blew the candles out on each together and laughed.  I had an amazing time watching my grandson open his gifts.  It never fails to amaze me the delight in a young child's eyes.  When evening hit, I knew it was time for me to get home before it got too dark out.  I hugged everyone.  When I said goodbye to my grandson, I thanked him for sharing his special day with me.  I wouldn't change this day for the world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, my daughter invited me over for Father's Day.  I was pretty excited because it was also my grandson's 5th birthday that day.  The whole family came over to her house.  The weather was perfect with a slight breeze.  My son in law barbecued chicken, burgers, and hot dogs for everyone.  Most of the family that attended brought side dishes.  Two cakes were presented after lunch.  One said Happy Father's Day and the other was Happy Birthday.  We blew the candles out on each together and laughed.  I had an amazing time watching my grandson open his gifts.  It never fails to amaze me the delight in a young child's eyes.  When evening hit, I knew it was time for me to get home before it got too dark out.  I hugged everyone.  When I said goodbye to my grandson, I thanked him for sharing his special day with me.  I wouldn't change this day for the world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f413638f4c461-EWR"
+    }
+}

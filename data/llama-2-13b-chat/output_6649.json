@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother lives across the country, where we all grew up. My other brother and I live in a new city now, so he came to visit us. I was excited to see him since it had been about two years. I don't go to visit him because he still lives with my parents and I don't have a relationship with them anymore. My visiting brother is very into good deals and things that are well priced, so we found a lot of low cost activities to do. We also did a lot of traveling in the area, since my brother isn't very familiar with it. We went to the coast and spent some time on the beach. We went to visit a mountain and took lots of pictures. We went to an area with lots of waterfalls and did a bit of hiking. We had a fun time joking around and taking pictures of each other. My brother who lives in town has a girlfriend whose father was visiting at the same time, so we all spent time together and got to know each other. We went to a big city and did tourist type activities. Of course, we ate a lot of food. We went to local restaurants and also cooked some food. I'm really glad we got to have this experience and that my brother and I are still close."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother lives across the country, where we all grew up. My other brother and I live in a new city now, so he came to visit us. I was excited to see him since it had been about two years. I don't go to visit him because he still lives with my parents and I don't have a relationship with them anymore. My visiting brother is very into good deals and things that are well priced, so we found a lot of low cost activities to do. We also did a lot of traveling in the area, since my brother isn't very familiar with it. We went to the coast and spent some time on the beach. We went to visit a mountain and took lots of pictures. We went to an area with lots of waterfalls and did a bit of hiking. We had a fun time joking around and taking pictures of each other. My brother who lives in town has a girlfriend whose father was visiting at the same time, so we all spent time together and got to know each other. We went to a big city and did tourist type activities. Of course, we ate a lot of food. We went to local restaurants and also cooked some food. I'm really glad we got to have this experience and that my brother and I are still close.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49f3dccb1971-EWR"
+    }
+}

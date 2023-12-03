@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My little girl came at the right time. It was about six months ago, when I had her. It was a big blessing and I was so happy. I did not know if I could have the baby in a natural way. However, my husband was next to me all the while. This made the process so much easier. I was in pain, but his presence made it easy. He has always been a supporting rock. He held my hand through it. I pushed and pushed. The baby came out and she was so pretty. We named her Juju. This was a name of our good friend. She was happy and honored. We went home happy with our new bundle of joy. We love getting her in our arms."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My little girl came at the right time. It was about six months ago, when I had her. It was a big blessing and I was so happy. I did not know if I could have the baby in a natural way. However, my husband was next to me all the while. This made the process so much easier. I was in pain, but his presence made it easy. He has always been a supporting rock. He held my hand through it. I pushed and pushed. The baby came out and she was so pretty. We named her Juju. This was a name of our good friend. She was happy and honored. We went home happy with our new bundle of joy. We love getting her in our arms.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She has brought so much joy to our lives.\n\n"
+            }
+        ],
+        "request_id": "811ecd14ca804333-EWR"
+    }
+}

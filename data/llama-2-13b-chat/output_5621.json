@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, my mom was supposed to come visit me. We had plans for her to fly to Los Angeles and spend a long weekend with me. Something happened last minute, and she wasn't able to come. I was sad, and laid in my bed for a while because I had been so excited for her to come. There was a knock on my door. I opened it, and not only was it my mom--who tricked me--but my dad and my older brother. They had all flown in to surprise me! I was so surprised. My mom told me she had been able to get a cheaper flight and my dad was able to get off work, so they wanted to come in secretly. When my brother found out, he also wanted to be part of the fun. I was so happy to see them, but I also didn't know where they would stay, since I have a studio apartment. We got an air mattress and my brother slept there, while I slept on the couch. The weekend in LA was so great, and I had such a wonderful time hanging out with my family. I took them to all of my favorite places, and we just had a lot of really good bonding time. For most of the weekend I was pretty chill, but when I opened my door and saw my family standing there, I almost burst into tears."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, my mom was supposed to come visit me. We had plans for her to fly to Los Angeles and spend a long weekend with me. Something happened last minute, and she wasn't able to come. I was sad, and laid in my bed for a while because I had been so excited for her to come. There was a knock on my door. I opened it, and not only was it my mom--who tricked me--but my dad and my older brother. They had all flown in to surprise me! I was so surprised. My mom told me she had been able to get a cheaper flight and my dad was able to get off work, so they wanted to come in secretly. When my brother found out, he also wanted to be part of the fun. I was so happy to see them, but I also didn't know where they would stay, since I have a studio apartment. We got an air mattress and my brother slept there, while I slept on the couch. The weekend in LA was so great, and I had such a wonderful time hanging out with my family. I took them to all of my favorite places, and we just had a lot of really good bonding time. For most of the weekend I was pretty chill, but when I opened my door and saw my family standing there, I almost burst into tears.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was such a wonderful surprise, and I will always remember this weekend.\n\n"
+            }
+        ],
+        "request_id": "811f351c3e224299-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My landlord decided to sell her house! I can't believe it. Where would I go if she sells the house? I would have nowhere to go. This wouldn't do. This wouldn't do at all. I tried to persuade her. To keep the house. After all, it's a great house. Why would she even sell it. That's not a good idea at all. If she sells it I would have nowhere to go. In the end, I didn't manage to persuade her and she sold the house anyways. That was a horrible way for me to get kicked out of the place I was living at, but in the end I managed to find another place, even though I didn't like it as much. Oh well, at least I have a place to live at now. It's not so bad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My landlord decided to sell her house! I can't believe it. Where would I go if she sells the house? I would have nowhere to go. This wouldn't do. This wouldn't do at all. I tried to persuade her. To keep the house. After all, it's a great house. Why would she even sell it. That's not a good idea at all. If she sells it I would have nowhere to go. In the end, I didn't manage to persuade her and she sold the house anyways. That was a horrible way for me to get kicked out of the place I was living at, but in the end I managed to find another place, even though I didn't like it as much. Oh well, at least I have a place to live at now. It's not so bad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec8dbadfd0f42-EWR"
+    }
+}

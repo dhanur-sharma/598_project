@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father died about 6 months ago. His passing was tragic, but in all the time that has passed I don't feel as though I've really come to terms with losing him. So I had been thinking of a way that I could finish the grieving process and come to terms with everything. Then, I thought about something that he always talked about. He used to say that when he finally retired he would put away his work suit and put on his gardening rags. I always rolled my eyes, thinking if he really wanted to garden he'd make time for it in the present. But every time our family tour the nearby Botanical Gardens  I would see the longing on his face. The contentment he seemed to have when he'd bring home a plant he picked out, brought home and nurtured, then gave to a friend. Even though he's gone now, I want to feel closer to him. I want to fulfill his dream of gardening for happiness and pleasure. So from now on, until I can no longer, I will be spend every weekend tending to my father's dream garden. I'll find all his favorite plants. I'll even pull out all of his old landscape designs. I'll figure out a way to incorporate his ideas into my own land. I think this is the best way to honor his memory."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father died about 6 months ago. His passing was tragic, but in all the time that has passed I don't feel as though I've really come to terms with losing him. So I had been thinking of a way that I could finish the grieving process and come to terms with everything. Then, I thought about something that he always talked about. He used to say that when he finally retired he would put away his work suit and put on his gardening rags. I always rolled my eyes, thinking if he really wanted to garden he'd make time for it in the present. But every time our family tour the nearby Botanical Gardens  I would see the longing on his face. The contentment he seemed to have when he'd bring home a plant he picked out, brought home and nurtured, then gave to a friend. Even though he's gone now, I want to feel closer to him. I want to fulfill his dream of gardening for happiness and pleasure. So from now on, until I can no longer, I will be spend every weekend tending to my father's dream garden. I'll find all his favorite plants. I'll even pull out all of his old landscape designs. I'll figure out a way to incorporate his ideas into my own land. I think this is the best way to honor his memory.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will make his dreams come true, even if it's just in my own backyard.\n\n"
+            }
+        ],
+        "request_id": "811ecb170eed4401-EWR"
+    }
+}

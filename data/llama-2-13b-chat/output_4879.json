@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still think about that day and how happy I am for him. I remember us going to Honduras to watch the Minas play in the Capital. We got to tour around the city and visit different places. I loved seeing all the museums and especially the old presidents house in downtown Tegus. In the eveing I went to watch him play in the national stadium. I really enjoyed the view and the crowed. At half time I was invited dow to the pitch and got to watch from the pitch. It was amazing hearing and seeing the players play. It is funny to think about how many people wanted my bothers autograph after the game. We were able to eat with the team and the coach that night after the game.  I got to meet some of the players and hang out after dinner. They were really cool and down to earth people. Honduras is nothing like I though it would be. This goes down as one of my top 10 places to visit . I really loved that trip. I hope to go back this year and watch him play again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still think about that day and how happy I am for him. I remember us going to Honduras to watch the Minas play in the Capital. We got to tour around the city and visit different places. I loved seeing all the museums and especially the old presidents house in downtown Tegus. In the eveing I went to watch him play in the national stadium. I really enjoyed the view and the crowed. At half time I was invited dow to the pitch and got to watch from the pitch. It was amazing hearing and seeing the players play. It is funny to think about how many people wanted my bothers autograph after the game. We were able to eat with the team and the coach that night after the game.  I got to meet some of the players and hang out after dinner. They were really cool and down to earth people. Honduras is nothing like I though it would be. This goes down as one of my top 10 places to visit . I really loved that trip. I hope to go back this year and watch him play again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdfb83cdd1859-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I was really struggling financially. I am the sole provider in my household. I do not make all that much money. My job is about an hour and a half away in walking distance. For the entire year, I walked to and from the workplace because taxis would eliminate all of my profits from that day. I wanted to pick up extra shifts, but the walking destroyed my energy. I started to save up for a car. I was quickly beginning to realize that I was unable to save any decent amount of money up because too many bills kept piling up. I then got the flu and I had to miss an entire week of work, which only made matters worse. After I got better, I returned to work, but I was already way behind on my finances. There was no overtime available to me, either. I asked my stepfather for help looking for a car back in June of this year. He agreed to do so, but I told him that I was on a really tight budget. He then contacted me and told me that he had found a car. The memorable moment was this: He gave me the car for free! I did not expect it. He told me that he had seen how hard I was trying and he just wanted to help me out. I am forever thankful to him and I even offered to repay him, which he refused to accept."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I was really struggling financially. I am the sole provider in my household. I do not make all that much money. My job is about an hour and a half away in walking distance. For the entire year, I walked to and from the workplace because taxis would eliminate all of my profits from that day. I wanted to pick up extra shifts, but the walking destroyed my energy. I started to save up for a car. I was quickly beginning to realize that I was unable to save any decent amount of money up because too many bills kept piling up. I then got the flu and I had to miss an entire week of work, which only made matters worse. After I got better, I returned to work, but I was already way behind on my finances. There was no overtime available to me, either. I asked my stepfather for help looking for a car back in June of this year. He agreed to do so, but I told him that I was on a really tight budget. He then contacted me and told me that he had found a car. The memorable moment was this: He gave me the car for free! I did not expect it. He told me that he had seen how hard I was trying and he just wanted to help me out. I am forever thankful to him and I even offered to repay him, which he refused to accept.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I now have a reliable car that will get me to and from work every day. I am so grateful.\n\n"
+            }
+        ],
+        "request_id": "811f45c4ad6d1809-EWR"
+    }
+}

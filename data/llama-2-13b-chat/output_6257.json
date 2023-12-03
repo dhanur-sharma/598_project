@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, I finally got the break I had been needing. Work was so crazy hectic over the last few months. I felt like I was going to lose it. With the Fourth of July holiday approaching, I was really happy to finally have a day where I could be lazy and just do nothing. First I thought I'd lie on the couch all day and maybe binge the new seasons of Stranger Things. I could eat a  bunch of junk and just chill out. I ended up going to the beach instead. I was fully expecting crowds which honestly made me not want to go at first but I ended up having a good time. There was a few families there but it wasn't crowded in the least! The people there were super nice and they even invited me to eat with them. One guy was grilling all sorts of stuff on  a huge grill and the family had a nice tent set up. It was hot so I really appreciated the shade. Even though it was a fun-filled day, it still was pretty relaxing at the same time. I didn't have any worries and was with just all around great people. I ended up exchanging info with a few of the women there. We're hoping to hang out some time in the next few weeks."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, I finally got the break I had been needing. Work was so crazy hectic over the last few months. I felt like I was going to lose it. With the Fourth of July holiday approaching, I was really happy to finally have a day where I could be lazy and just do nothing. First I thought I'd lie on the couch all day and maybe binge the new seasons of Stranger Things. I could eat a  bunch of junk and just chill out. I ended up going to the beach instead. I was fully expecting crowds which honestly made me not want to go at first but I ended up having a good time. There was a few families there but it wasn't crowded in the least! The people there were super nice and they even invited me to eat with them. One guy was grilling all sorts of stuff on  a huge grill and the family had a nice tent set up. It was hot so I really appreciated the shade. Even though it was a fun-filled day, it still was pretty relaxing at the same time. I didn't have any worries and was with just all around great people. I ended up exchanging info with a few of the women there. We're hoping to hang out some time in the next few weeks.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so happy to have a nice break from the chaos of my life and have a great time at the beach.\n\n"
+            }
+        ],
+        "request_id": "811f41fcaf072369-EWR"
+    }
+}

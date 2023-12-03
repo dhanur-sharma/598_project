@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event was my nephew Jimmy and Adriennes wedding. It was a destination wedding. I was not too far away. We were able to drive there in 4 hours. Quite a few guests did travel via airlines. It was the first time in almost 10 years all my extended family was planning to get together.  I have an adult son 35 who lives in Dallas. We don't get to see him a lot. He brought  his serious girlfriend Cristal. She was a lovely girl and it was great to meet her. They are still together. They recently moved in together.  My young daughter had a blast also. The last time we all gathered she was very young. This wedding was at a beautiful bed and breakfast. The weather was gorgeous. The most surprising thing was it hit me how old we all have gotten! There were 4 generations of the family there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event was my nephew Jimmy and Adriennes wedding. It was a destination wedding. I was not too far away. We were able to drive there in 4 hours. Quite a few guests did travel via airlines. It was the first time in almost 10 years all my extended family was planning to get together.  I have an adult son 35 who lives in Dallas. We don't get to see him a lot. He brought  his serious girlfriend Cristal. She was a lovely girl and it was great to meet her. They are still together. They recently moved in together.  My young daughter had a blast also. The last time we all gathered she was very young. This wedding was at a beautiful bed and breakfast. The weather was gorgeous. The most surprising thing was it hit me how old we all have gotten! There were 4 generations of the family there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a weekend full of love and laughter.\n\n"
+            }
+        ],
+        "request_id": "811e91ce8cf643f2-EWR"
+    }
+}

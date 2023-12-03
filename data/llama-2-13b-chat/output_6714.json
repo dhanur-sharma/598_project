@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a long journey I've been on. These last 5 months since my mother's funeral have been very difficult and emotional.  I think the most difficult part was trying to control my feelings during the funeral, while everyone around me was crying and melancholic.  My black dress was stained with the tears of not only myself, but many others as well. But, the most memorable thing was how everyone took the time to comfort one another and provide support like nothing I've every seen. The amount of compassion exhibited was extraordinary. I don't think I've every received so many hugs and condolences in my life.  It was quite an unusual thing to experience. I have thought about it many times over the last 5 months. I have even spoken to several of those who attended since that time. It is still hard to adjust to her being gone, but she will never be forgotten. I look at her pictures often and it still puts a smile on my face, yet makes me tear up at the same time. I find many conversation are now geared toward remembering her and how she made everyone laugh. Those are the best memories to remember. This is what will always remain in my heart and mind."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a long journey I've been on. These last 5 months since my mother's funeral have been very difficult and emotional.  I think the most difficult part was trying to control my feelings during the funeral, while everyone around me was crying and melancholic.  My black dress was stained with the tears of not only myself, but many others as well. But, the most memorable thing was how everyone took the time to comfort one another and provide support like nothing I've every seen. The amount of compassion exhibited was extraordinary. I don't think I've every received so many hugs and condolences in my life.  It was quite an unusual thing to experience. I have thought about it many times over the last 5 months. I have even spoken to several of those who attended since that time. It is still hard to adjust to her being gone, but she will never be forgotten. I look at her pictures often and it still puts a smile on my face, yet makes me tear up at the same time. I find many conversation are now geared toward remembering her and how she made everyone laugh. Those are the best memories to remember. This is what will always remain in my heart and mind.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4b41ecb25e73-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, We found out 2 months ago that it was a \"buy one get one free\" special kind of pregnancy and ever since then, we have had to begin preparing for two of everything.  Last night, the little ones were at it again.  My stomach feels like it is a boxing arena. I wonder if these two will grow up to be professional wrestlers?   I think we will need to go house shopping soon.  This house is not going to be big enough for us all. My wardrobe is no longer sufficient.  I am going shopping tomorrow. My expanded waist line is making it very difficult to fit my current clothes. I really wish I could reach my own feet.  I have to rely on my husband to tie my shoes and even put on my socks.  Only a few more months and this will be over. I cannot wait to hold my precious babies.  After my shopping trip tomorrow, I have a check up with my doctor.  Will write again tomorrow to let you know how it goes, wish me luck!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, We found out 2 months ago that it was a \"buy one get one free\" special kind of pregnancy and ever since then, we have had to begin preparing for two of everything.  Last night, the little ones were at it again.  My stomach feels like it is a boxing arena. I wonder if these two will grow up to be professional wrestlers?   I think we will need to go house shopping soon.  This house is not going to be big enough for us all. My wardrobe is no longer sufficient.  I am going shopping tomorrow. My expanded waist line is making it very difficult to fit my current clothes. I really wish I could reach my own feet.  I have to rely on my husband to tie my shoes and even put on my socks.  Only a few more months and this will be over. I cannot wait to hold my precious babies.  After my shopping trip tomorrow, I have a check up with my doctor.  Will write again tomorrow to let you know how it goes, wish me luck!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49026e58436e-EWR"
+    }
+}

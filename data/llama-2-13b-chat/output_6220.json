@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been dealing with a lot of anxiety for the past few years. I keep dropping classes and having to retake them. I decided to drop out of college and work on my mental health. The most memorable part of this was logging in to my account and seeing how much I owe in student loans. I have it deferred for now but I don't know how I'm going to pay it off. The strain of it is pretty overwhelming. I really hope to get my mental health together so that I can go back and get my degree. I'm taking meds right now that are helping somewhat. I plan on getting counseling. Maybe EMDR. I want to start going back to the gym and see if that helps. I definitely need to clean up my diet.  I want to find a decent paying job so that my husband doesn't feel like everything is resting on his shoulders. I want to feel like I'm contributing more to our relationship and our finances. Anxiety is really a bitch."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been dealing with a lot of anxiety for the past few years. I keep dropping classes and having to retake them. I decided to drop out of college and work on my mental health. The most memorable part of this was logging in to my account and seeing how much I owe in student loans. I have it deferred for now but I don't know how I'm going to pay it off. The strain of it is pretty overwhelming. I really hope to get my mental health together so that I can go back and get my degree. I'm taking meds right now that are helping somewhat. I plan on getting counseling. Maybe EMDR. I want to start going back to the gym and see if that helps. I definitely need to clean up my diet.  I want to find a decent paying job so that my husband doesn't feel like everything is resting on his shoulders. I want to feel like I'm contributing more to our relationship and our finances. Anxiety is really a bitch.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4133e82a425f-EWR"
+    }
+}

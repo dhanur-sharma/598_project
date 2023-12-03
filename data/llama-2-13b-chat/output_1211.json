@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter has been doing well in Kindergarten. I am so glad that she is taking it so well. I was scared at first but now I have no worries about her going to school. As for me growing as a parent I feel like I am doing a decent job. I defiantly have some more things to learn but feel I am in a pretty good spot now. I miss my daughter now that she is in school but I know that it is good she is being exposed to kids her own age and also learning things at the same time. I really hope we continue to stay as close to each other as we were before school. I feel like we will and that I am worrying over something that isn't a big deal. I look forward to continuing to grow as a person and a parent and also making sure my daughter is enjoying and learning in school."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter has been doing well in Kindergarten. I am so glad that she is taking it so well. I was scared at first but now I have no worries about her going to school. As for me growing as a parent I feel like I am doing a decent job. I defiantly have some more things to learn but feel I am in a pretty good spot now. I miss my daughter now that she is in school but I know that it is good she is being exposed to kids her own age and also learning things at the same time. I really hope we continue to stay as close to each other as we were before school. I feel like we will and that I am worrying over something that isn't a big deal. I look forward to continuing to grow as a person and a parent and also making sure my daughter is enjoying and learning in school.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9fd17dc90f55-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My story was about the day I thought my dog had lost his vision. It was a normal day, I had let him out side like I do every morning and he was out for about fifteen minutes. I left the door open for him so when he was ready he could come back in on his own. I went into my office and started to prep for my workday. I heard him bumping into the doggie gate in the hallway. After about four times of this, I opened the office door to check on him. I quickly noticed that something was wrong with his eyes and that he could not see. My heart sank. I was home alone with him and didnt know what to do. I immediately started to panic. I called my husband at work and asked him to come home. It took about an hour but we got him to the vet. I was sure it was going to be a major problem and I would not be able to afford to care for him properly. However, the vet knew immediately what was wrong.  He told me Buddy was only having an allergic reaction to flea bites. It was a simple fix, he was given flea medication and in a few days his condition cleared up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My story was about the day I thought my dog had lost his vision. It was a normal day, I had let him out side like I do every morning and he was out for about fifteen minutes. I left the door open for him so when he was ready he could come back in on his own. I went into my office and started to prep for my workday. I heard him bumping into the doggie gate in the hallway. After about four times of this, I opened the office door to check on him. I quickly noticed that something was wrong with his eyes and that he could not see. My heart sank. I was home alone with him and didnt know what to do. I immediately started to panic. I called my husband at work and asked him to come home. It took about an hour but we got him to the vet. I was sure it was going to be a major problem and I would not be able to afford to care for him properly. However, the vet knew immediately what was wrong.  He told me Buddy was only having an allergic reaction to flea bites. It was a simple fix, he was given flea medication and in a few days his condition cleared up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was relieved but also embarrassed that I had been so worried about something so easily fixed.\n\n"
+            }
+        ],
+        "request_id": "811ecc647b1ec47f-EWR"
+    }
+}

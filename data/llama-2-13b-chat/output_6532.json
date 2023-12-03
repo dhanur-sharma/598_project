@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One day I took my dog to a park. The park is near the beach in the city where I live. It was a weekend day so I had plenty of time to relax and walk my dog at the park. I have 2 adopted siblings - a brother and a sister - that live near the park and I just so happened to see my adopted brother. He was skateboarding at the park. I sent a message to our adopted sister and she was able to come to the park to see me and my dog also. My sister had a friend with her. Her friend had spent the night. I sent them to get smoothies for all of us. The smoothie store is near the park. I am not able to see my adopted siblings very much because of family dysfunction, but the day made me very happy. My adopted brother did a special skateboard move just for me and I was able to videotape him on my phone. They were happy to see me. My dog was extremely happy to see them. I was overjoyed to see that they were doing well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One day I took my dog to a park. The park is near the beach in the city where I live. It was a weekend day so I had plenty of time to relax and walk my dog at the park. I have 2 adopted siblings - a brother and a sister - that live near the park and I just so happened to see my adopted brother. He was skateboarding at the park. I sent a message to our adopted sister and she was able to come to the park to see me and my dog also. My sister had a friend with her. Her friend had spent the night. I sent them to get smoothies for all of us. The smoothie store is near the park. I am not able to see my adopted siblings very much because of family dysfunction, but the day made me very happy. My adopted brother did a special skateboard move just for me and I was able to videotape him on my phone. They were happy to see me. My dog was extremely happy to see them. I was overjoyed to see that they were doing well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to be able to spend time with them."
+            }
+        ],
+        "request_id": "811f476989818cae-EWR"
+    }
+}

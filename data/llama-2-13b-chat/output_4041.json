@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, about 6 months ago my cousin got married. It was a beautiful wedding and we had been helping her plan it for months. The day had gone perfectly, so far. Everyone got together in the morning to get their hair and makeup done. My cousin looked gorgeous and everything was set to go. We were all having fun beforehand and drinking champagne. There was a lot of people in a tight space, so, I bumped into someone and spilled champagne entirely down my blush gown! I panicked and felt terrible. I was so scared that I ruined the dress and the day.  We called my Aunt to come in and she immediately had me take off the dress. She cleaned up the stain somehow. After that, she held the dress under a dryer. Miraculously, the stain came out and it dried in time. After that, we walked down the aisle and no one could tell! The wedding went on without a hitch. Everyone was so happy. It was great to see my cousin so happy. I enjoyed celebrating with her and had a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, about 6 months ago my cousin got married. It was a beautiful wedding and we had been helping her plan it for months. The day had gone perfectly, so far. Everyone got together in the morning to get their hair and makeup done. My cousin looked gorgeous and everything was set to go. We were all having fun beforehand and drinking champagne. There was a lot of people in a tight space, so, I bumped into someone and spilled champagne entirely down my blush gown! I panicked and felt terrible. I was so scared that I ruined the dress and the day.  We called my Aunt to come in and she immediately had me take off the dress. She cleaned up the stain somehow. After that, she held the dress under a dryer. Miraculously, the stain came out and it dried in time. After that, we walked down the aisle and no one could tell! The wedding went on without a hitch. Everyone was so happy. It was great to see my cousin so happy. I enjoyed celebrating with her and had a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bceea5c5343b0-EWR"
+    }
+}

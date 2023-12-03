@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: me and my father were very close before. we are like friends. we share everything with us and have good times. but for small misunderstanding, the relationship ends. i mean we stopped to talk each other. we never see each others face. but it was a small misunderstanding. my sister came to me and talk about the problem which is with me and my dad. she arranged one small trip like long ride. at first i avoided. but my sister forced me . likewise she forced my father. so we started one fine day. at first we never talk. we kept very silent. later he slowly start the conversation. it builds. finally we came to term with our past. we have good times. have a wonderful relationship again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: me and my father were very close before. we are like friends. we share everything with us and have good times. but for small misunderstanding, the relationship ends. i mean we stopped to talk each other. we never see each others face. but it was a small misunderstanding. my sister came to me and talk about the problem which is with me and my dad. she arranged one small trip like long ride. at first i avoided. but my sister forced me . likewise she forced my father. so we started one fine day. at first we never talk. we kept very silent. later he slowly start the conversation. it builds. finally we came to term with our past. we have good times. have a wonderful relationship again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb11c8ec08cbf-EWR"
+    }
+}

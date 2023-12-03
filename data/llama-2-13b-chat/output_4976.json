@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six months ago, my boyfriend at that time broke up with me. It was very hard for me. I really love him. He had STD that is very serious. He did not tell me after we already dated for a while. He got his STD from an ex girlfriend. I think it is not easy to accept. We had a talk about it. I checked some books and documents to get to know the disease. We decided to end the relationship. I went to check the STD for myself and I did not get it. We still hang out a couple of times after that. It took me several months to get over it. I still miss him. I had good time with him. It is very memorable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six months ago, my boyfriend at that time broke up with me. It was very hard for me. I really love him. He had STD that is very serious. He did not tell me after we already dated for a while. He got his STD from an ex girlfriend. I think it is not easy to accept. We had a talk about it. I checked some books and documents to get to know the disease. We decided to end the relationship. I went to check the STD for myself and I did not get it. We still hang out a couple of times after that. It took me several months to get over it. I still miss him. I had good time with him. It is very memorable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be1e18a21c484-EWR"
+    }
+}

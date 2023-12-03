@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The previous Thursday we get an email from someone pretending to be the closing lawyer asking us to wire them the closing money - which obviously is a pretty significant chunk of change. The email was super legit looking. Had my name, wife's name, the address, had a fake version of our realtor's email in the CC, had the lawyer's letterhead, and the name of the employee at the lawyer we've been dealing with. They knew close to the actual amount, and the bank they wanted the money wired to was in the city of the lawyer's office. I can totally understand how someone could fall for it. My wife even responded to the first email with something like \"OK, give us the a bank info and final amount.\". I caught it there and nothing was wired. They ended up trying again this Monday with the same series of e-mails. Stay safe out there everyone. There are a lot of agents out there who are not great with computers, and smaller offices probably have very little IT security. On top of that, realtors have their email addresses right out there on their websites. So scammers send a phishing link to the realtor asking them to update or confirm their email and password. If the realtor falls for it, then the scammer just logs in and watches the email to find someone about to close on a house. They probably even have a copy of the purchase and sale agreement. Some scammers will actually send the message from the realtor's actual email address asking you to wire money to the scammers account, then they delete the email from the sent folder. You have to always watch your back!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The previous Thursday we get an email from someone pretending to be the closing lawyer asking us to wire them the closing money - which obviously is a pretty significant chunk of change. The email was super legit looking. Had my name, wife's name, the address, had a fake version of our realtor's email in the CC, had the lawyer's letterhead, and the name of the employee at the lawyer we've been dealing with. They knew close to the actual amount, and the bank they wanted the money wired to was in the city of the lawyer's office. I can totally understand how someone could fall for it. My wife even responded to the first email with something like \"OK, give us the a bank info and final amount.\". I caught it there and nothing was wired. They ended up trying again this Monday with the same series of e-mails. Stay safe out there everyone. There are a lot of agents out there who are not great with computers, and smaller offices probably have very little IT security. On top of that, realtors have their email addresses right out there on their websites. So scammers send a phishing link to the realtor asking them to update or confirm their email and password. If the realtor falls for it, then the scammer just logs in and watches the email to find someone about to close on a house. They probably even have a copy of the purchase and sale agreement. Some scammers will actually send the message from the realtor's actual email address asking you to wire money to the scammers account, then they delete the email from the sent folder. You have to always watch your back!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9c166d420f77-EWR"
+    }
+}

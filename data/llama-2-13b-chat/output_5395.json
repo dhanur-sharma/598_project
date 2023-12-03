@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been really struggling with my health ever since I was diagnosed with cancer. I love living on my little farm, but things have gotten too much for me to keep up with. I guess I am blessed to have the friends and family I have. Three months ago I was telling my son that I just couldn't manage the farm and keep up with all the projects that needed to be done. The next day a whole gang of friends and family showed up. They built the prefab carport and greenhouse that I had ordered a year ago and had just been laying there in boxes and on top of that they prepped my garden for the next round of planting. I know now I can count on those close to me for help when I really need it and I don't need to give up my farm and life to this horrible illness. I really see God's hand in this. It makes me love my family and friends even more. On some level because I was sick I didn't think I deserved to be able to stay here. I know I can ask for help now. It will for sure make things easier on me. I won't kill myself by staying. I won't kill myself by leaving. I couldn't ask for a better outcome."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been really struggling with my health ever since I was diagnosed with cancer. I love living on my little farm, but things have gotten too much for me to keep up with. I guess I am blessed to have the friends and family I have. Three months ago I was telling my son that I just couldn't manage the farm and keep up with all the projects that needed to be done. The next day a whole gang of friends and family showed up. They built the prefab carport and greenhouse that I had ordered a year ago and had just been laying there in boxes and on top of that they prepped my garden for the next round of planting. I know now I can count on those close to me for help when I really need it and I don't need to give up my farm and life to this horrible illness. I really see God's hand in this. It makes me love my family and friends even more. On some level because I was sick I didn't think I deserved to be able to stay here. I know I can ask for help now. It will for sure make things easier on me. I won't kill myself by staying. I won't kill myself by leaving. I couldn't ask for a better outcome.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can live on my farm and be loved and cared for by my friends and family.\n\n"
+            }
+        ],
+        "request_id": "811f308af93e18f6-EWR"
+    }
+}

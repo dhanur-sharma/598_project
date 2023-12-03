@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple months ago, I moved back to my favorite neighborhood. I lived in this neighborhood while attending college. After graduating college, I started working at a company, and also moved to another neighborhood for cheaper rent. That neighborhood was very far from my workplace and I had to spend 40 minutes on the subway each morning to get to work. My new neighborhood is technically closer to my workplace but unfortunately I have to spend an entire hour commuting now, because the closest subway station is 30 minutes away by foot! Now I walk 30 minutes and spend 30 minutes on the subway, for a total of one hour. Previously, I walked 4 minutes to the subway and spent around 35 minutes on the subway, for a total of about 40 minutes. So I lost out on the commute factor. I didn't realize this would happen. However, I love this neighborhood still. I am still glad I moved back. Even though I have to get up earlier, I enjoy the walk to the subway, because it is my favorite neighborhood after all. This long walk puts me in a good mood for the day. It's also good exercise. I like to eat, but I don't like to gain weight. I worked hard to make money over the past year to be able to afford my new (old) neighborhood)."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple months ago, I moved back to my favorite neighborhood. I lived in this neighborhood while attending college. After graduating college, I started working at a company, and also moved to another neighborhood for cheaper rent. That neighborhood was very far from my workplace and I had to spend 40 minutes on the subway each morning to get to work. My new neighborhood is technically closer to my workplace but unfortunately I have to spend an entire hour commuting now, because the closest subway station is 30 minutes away by foot! Now I walk 30 minutes and spend 30 minutes on the subway, for a total of one hour. Previously, I walked 4 minutes to the subway and spent around 35 minutes on the subway, for a total of about 40 minutes. So I lost out on the commute factor. I didn't realize this would happen. However, I love this neighborhood still. I am still glad I moved back. Even though I have to get up earlier, I enjoy the walk to the subway, because it is my favorite neighborhood after all. This long walk puts me in a good mood for the day. It's also good exercise. I like to eat, but I don't like to gain weight. I worked hard to make money over the past year to be able to afford my new (old) neighborhood).",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So even though I lost out on the commute factor, I still prefer this neighborhood over the other one. It's worth the extra hour of commuting to be able to live in this neighborhood again.\n\n"
+            }
+        ],
+        "request_id": "811ed035da814291-EWR"
+    }
+}

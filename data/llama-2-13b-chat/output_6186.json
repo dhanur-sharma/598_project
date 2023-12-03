@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It had been one of those days a week ago where I was filled with dread while at work. There was nothing particular that happened to make me feel this way. Guess you could say it was literally \"waking up on the wrong side of the bed\" type of situation. I was in a not so great mood and it likely reflected that on my facial expressions. Still I tried to remember to breathe and try to get through this day. When the boss decides to drop by and explain that he needs to have me come up with some new ideas for a product that has been in the works for the past few months that many of us have focused on. He also wants me to make the office run more efficiently and wants ideas on how to create that by the end of today. I've never been the most organized. In fact you can say I enjoy organized chaos while my desk area may look messy, I know exactly where things are. So, I turn my music on and get to work when I'm interrupted again. I can feel my stress rising. I need to get away from my desk and cannot. I have yet to start on another project that recently got assigned to me. What could this distraction be? I look up and ask what's going on? The answer \"everyone gets to go home early.\" Apparently the boss realized that the stress levels were getting high and that a break was needed. That time off and the ability to relax a bit was definitely beneficial for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It had been one of those days a week ago where I was filled with dread while at work. There was nothing particular that happened to make me feel this way. Guess you could say it was literally \"waking up on the wrong side of the bed\" type of situation. I was in a not so great mood and it likely reflected that on my facial expressions. Still I tried to remember to breathe and try to get through this day. When the boss decides to drop by and explain that he needs to have me come up with some new ideas for a product that has been in the works for the past few months that many of us have focused on. He also wants me to make the office run more efficiently and wants ideas on how to create that by the end of today. I've never been the most organized. In fact you can say I enjoy organized chaos while my desk area may look messy, I know exactly where things are. So, I turn my music on and get to work when I'm interrupted again. I can feel my stress rising. I need to get away from my desk and cannot. I have yet to start on another project that recently got assigned to me. What could this distraction be? I look up and ask what's going on? The answer \"everyone gets to go home early.\" Apparently the boss realized that the stress levels were getting high and that a break was needed. That time off and the ability to relax a bit was definitely beneficial for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was able to come back to work with a clearer mind and a more positive attitude. It's amazing what a little break can do for you."
+            }
+        ],
+        "request_id": "811f408cc9024344-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember going with my wife to her normal prenatal appointment, expecting just a normal day. The doctor wanted us to go to the hospital to check my wife's fluids. The fluids were low, so it was decided that she would be induced later that day. The labor itself felt long a century, it was about 16 hours. Once the baby decided to come, it all happened so fast. Once our son was out, there were so many emotions going through me. I was happy, nervous, concerned, worried, and completely elated at the same time. My wife was crying because she was so happy. Our son was crying. The nurses and doctor were busy. After he was cleaned up and weighed, it was my turn to hold him. I was so happy. From that moment, I knew that I would love him forever. I knew that I would die for him. I'll never forget the day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember going with my wife to her normal prenatal appointment, expecting just a normal day. The doctor wanted us to go to the hospital to check my wife's fluids. The fluids were low, so it was decided that she would be induced later that day. The labor itself felt long a century, it was about 16 hours. Once the baby decided to come, it all happened so fast. Once our son was out, there were so many emotions going through me. I was happy, nervous, concerned, worried, and completely elated at the same time. My wife was crying because she was so happy. Our son was crying. The nurses and doctor were busy. After he was cleaned up and weighed, it was my turn to hold him. I was so happy. From that moment, I knew that I would love him forever. I knew that I would die for him. I'll never forget the day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9fc1ac2317a1-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: October, I feel you. The days are becoming shorter, cooler. Birthdays and holidays are slowly coming into focus. The end of the year is near. As always,  I reflect. I enjoy January 1st. Not the recounting of another year gone, or resolutions and promises unfulfilled, but the opportunity to begin anew. Yes, I will make promises I will never keep. I know who I am though. My intentions are good. I'll promise to read more. A few classics, a few books for guilty pleasures. I'll promise myself to exercise more. Get healthy and have more energy for my kids when I get home. I'll promise to volunteer. Leaving the world a better place, making connections with those around me, doing good when no one is looking. I'll make promises to travel more. This is never really a promise, but a reminder that life is short, the world is small, and if I do not put time aside to see new places \"that day\" will never come. So, October, I guess I am glad to see you. You are my first step in winter to a new year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: October, I feel you. The days are becoming shorter, cooler. Birthdays and holidays are slowly coming into focus. The end of the year is near. As always,  I reflect. I enjoy January 1st. Not the recounting of another year gone, or resolutions and promises unfulfilled, but the opportunity to begin anew. Yes, I will make promises I will never keep. I know who I am though. My intentions are good. I'll promise to read more. A few classics, a few books for guilty pleasures. I'll promise myself to exercise more. Get healthy and have more energy for my kids when I get home. I'll promise to volunteer. Leaving the world a better place, making connections with those around me, doing good when no one is looking. I'll make promises to travel more. This is never really a promise, but a reminder that life is short, the world is small, and if I do not put time aside to see new places \"that day\" will never come. So, October, I guess I am glad to see you. You are my first step in winter to a new year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know who I am, and what I want to be. Now, bring on the snow.\n\n"
+            }
+        ],
+        "request_id": "811bce337b794358-EWR"
+    }
+}

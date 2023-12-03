@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a canoe float last weekend with my husband and kids. My dad who is in the beginning stages of Alzheimer's wanted to go with us too. I was a little surprised because in the past he never wanted to do anything like that. He went along and we actually had a great time. My dad is a lot of fun and made the bus ride to the drop off point memorable. Everyone on the bus was laughing and having a good time. People were saying that they wanted to float with our group because he was so much fun. As we floated, people would see us and yell out to him \"Grandpa!\" Everyone remembered him from the bus and was having such a good time with him. He would say something funny back to them and we would continue floating. It was a really great day and I'm glad my kids got to enjoy it with him. The saddest point came when on the way home we were reminiscing about all of the fun things that happened on the float trip. My dad said \"Float trip? I went on a float trip? I don't remember a float trip.\" It was so sad. My kids got quiet. Everyone realized how bad his memory has become."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a canoe float last weekend with my husband and kids. My dad who is in the beginning stages of Alzheimer's wanted to go with us too. I was a little surprised because in the past he never wanted to do anything like that. He went along and we actually had a great time. My dad is a lot of fun and made the bus ride to the drop off point memorable. Everyone on the bus was laughing and having a good time. People were saying that they wanted to float with our group because he was so much fun. As we floated, people would see us and yell out to him \"Grandpa!\" Everyone remembered him from the bus and was having such a good time with him. He would say something funny back to them and we would continue floating. It was a really great day and I'm glad my kids got to enjoy it with him. The saddest point came when on the way home we were reminiscing about all of the fun things that happened on the float trip. My dad said \"Float trip? I went on a float trip? I don't remember a float trip.\" It was so sad. My kids got quiet. Everyone realized how bad his memory has become.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was like a punch in the gut.\n\n"
+            }
+        ],
+        "request_id": "811f4308781942a5-EWR"
+    }
+}

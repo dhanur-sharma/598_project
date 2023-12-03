@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It started as an ordinary day.  I was heading out for the day to run some errands.  Once I pulled out of my driveway, I noticed my gas light was on, and decided I should pull off and get some gas before I started.  I pulled into the Walmart Gas Station, just a few blocks from home.   I pulled up to the pump, and put my car in park.  I got my wallet out of my purse and began to pull my money out to pay.  As I was pulling a twenty dollar bill out, I began to hear arguing, and yelling next to me.  I looked up and out my passenger window and noticed an older man and a younger man screaming at one another.  Both men were very aggressive, and I was a little nervous by the scene.  I sat frozen in my seat, watching the confrontation.  Suddenly, the older man went to his car and opened the driver door and reached inside.  As I watched, he pulled a can of mace out of the car and proceeded to spray the other man in the face with it.  To my left side, a person came out of the door of the gas station.  This person was apparently unaware of the altercation, and was the next person to be maced by the angry older man.  I was stunned, and still safe inside my car when I saw a few people run to the older man, get sprayed and attempt to take the mace from him.  Once I saw the mace was out of the older mans hands, I got out of my car to help the gentleman that was maced leaving the store to turn the hose water on to rinse his hands and face.  Someone had already called the police and at this point they were pulling onto the gas station.  The older man was arrested, I was asked to give a statement, as were the other witnesses.  I was so happy that I didn't get out in the middle of that situation, or get maced."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It started as an ordinary day.  I was heading out for the day to run some errands.  Once I pulled out of my driveway, I noticed my gas light was on, and decided I should pull off and get some gas before I started.  I pulled into the Walmart Gas Station, just a few blocks from home.   I pulled up to the pump, and put my car in park.  I got my wallet out of my purse and began to pull my money out to pay.  As I was pulling a twenty dollar bill out, I began to hear arguing, and yelling next to me.  I looked up and out my passenger window and noticed an older man and a younger man screaming at one another.  Both men were very aggressive, and I was a little nervous by the scene.  I sat frozen in my seat, watching the confrontation.  Suddenly, the older man went to his car and opened the driver door and reached inside.  As I watched, he pulled a can of mace out of the car and proceeded to spray the other man in the face with it.  To my left side, a person came out of the door of the gas station.  This person was apparently unaware of the altercation, and was the next person to be maced by the angry older man.  I was stunned, and still safe inside my car when I saw a few people run to the older man, get sprayed and attempt to take the mace from him.  Once I saw the mace was out of the older mans hands, I got out of my car to help the gentleman that was maced leaving the store to turn the hose water on to rinse his hands and face.  Someone had already called the police and at this point they were pulling onto the gas station.  The older man was arrested, I was asked to give a statement, as were the other witnesses.  I was so happy that I didn't get out in the middle of that situation, or get maced.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The police arrived and took control of the situation, and I was able to continue on with my day.\n\n"
+            }
+        ],
+        "request_id": "811bd427aba3c470-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Hey diary.  I recently completed  a project at work that did not go as planned.  Before I started working for the company as a project coordinator, my boss had coordinated a fundraising effort to raise money for a well to be built on campus.  The well was supposed to yield 3600 gallons of water every week.  We had a biologist come out to see the land and confirm this amount.  I was brought on to help finish the project.  I felt a little uneasy about managing a project that was going to cost the company so much money, but I was glad to know my boss was looking forward to this.  I would have been more nervous if I had to make the final decisions, but basically everything had already been predetermined for me; who were we going to hire, how it was going to get done, etc.  I felt like I did a very good job keeping all the pieces moving.  I didn't rush anyone, but through good communication, asking for updates, frequent reminders, and a smiling face, the project got done on time and under budget!  I don't think I cut any corners.  But the well is not producing 3600 gallons every week.  It's only producing 300 gallons, nearly a tenth of what we'd been told.  I don't think this is my fault, but I am now trying to figure out a reasonable explanation so my boss is not surprised.  It just goes to show once again that it's important to manage expectations."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Hey diary.  I recently completed  a project at work that did not go as planned.  Before I started working for the company as a project coordinator, my boss had coordinated a fundraising effort to raise money for a well to be built on campus.  The well was supposed to yield 3600 gallons of water every week.  We had a biologist come out to see the land and confirm this amount.  I was brought on to help finish the project.  I felt a little uneasy about managing a project that was going to cost the company so much money, but I was glad to know my boss was looking forward to this.  I would have been more nervous if I had to make the final decisions, but basically everything had already been predetermined for me; who were we going to hire, how it was going to get done, etc.  I felt like I did a very good job keeping all the pieces moving.  I didn't rush anyone, but through good communication, asking for updates, frequent reminders, and a smiling face, the project got done on time and under budget!  I don't think I cut any corners.  But the well is not producing 3600 gallons every week.  It's only producing 300 gallons, nearly a tenth of what we'd been told.  I don't think this is my fault, but I am now trying to figure out a reasonable explanation so my boss is not surprised.  It just goes to show once again that it's important to manage expectations.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm just glad that I was able to finish the project, and I'm hoping that the well will still be able to serve the purpose it was intended for, even if it doesn't yield as much water as we'd hoped."
+            }
+        ],
+        "request_id": "811e9d6d5f1443a6-EWR"
+    }
+}

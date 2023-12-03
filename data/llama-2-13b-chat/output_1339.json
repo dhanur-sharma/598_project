@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I got my car serviced. I noticed the air conditioner wasn't blowing cool air. So I took it to a chain mechanic company near my location. After the car was checked, I was quoted a price of a major part that needed fixing with work needed. I decided to go ahead with getting it done, since AC is something we need in the car, especially in summer time. The work was done in a few hours, and we went to pick up the car. As we left the shop, my car stalled and wouldn't drive. I had driven out on a main roadway with lots of traffic. Thankfully, we didn't have an accident, and the car behind me was able to stop when I stalled. I drove very slowly around the block back to the shop and informed them of the problem. They checked and apparently had not tightened or adjusted a part well, which caused the issue. I was very disappointed and let them know that their error could have caused an accident or worse. However, I was glad they were able to adjust it quickly and then we were on our way. I often think about what happened and how it may have turned out badly. Thankfully, nothing major happened. It was quite a scare."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I got my car serviced. I noticed the air conditioner wasn't blowing cool air. So I took it to a chain mechanic company near my location. After the car was checked, I was quoted a price of a major part that needed fixing with work needed. I decided to go ahead with getting it done, since AC is something we need in the car, especially in summer time. The work was done in a few hours, and we went to pick up the car. As we left the shop, my car stalled and wouldn't drive. I had driven out on a main roadway with lots of traffic. Thankfully, we didn't have an accident, and the car behind me was able to stop when I stalled. I drove very slowly around the block back to the shop and informed them of the problem. They checked and apparently had not tightened or adjusted a part well, which caused the issue. I was very disappointed and let them know that their error could have caused an accident or worse. However, I was glad they were able to adjust it quickly and then we were on our way. I often think about what happened and how it may have turned out badly. Thankfully, nothing major happened. It was quite a scare.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I've been driving for over 20 years, and never had an issue like this before. It was a wake up call for me to be more careful when choosing mechanics and to always double check their work.\n\n"
+            }
+        ],
+        "request_id": "811ea2df7e3041c1-EWR"
+    }
+}

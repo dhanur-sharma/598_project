@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six weeks ago, I had to put my dog \"to sleep.\" She had developed a brain tumor and was on the verge of death anyway. It was very sad since she was only a few years old. She had previously been very energetic and well-behaved. She was a great companion dog. It will not be easy to replace her with another dog. It is particularly hard for me because I don't have a large social network, especially at home. I don't have any siblings. I also don't feel all that close to my friends. I am liked by everyone because I fit in everywhere. But since I don't have a particular group that I focus on, I don't develop deep relationships. My dog provided me with the steady presence I needed. I don't like the temporary nature of relationships today. I want something to last. My dog was unquestioningly loyal to me and would have been for many years in the future. But it turned into another short-term friendship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six weeks ago, I had to put my dog \"to sleep.\" She had developed a brain tumor and was on the verge of death anyway. It was very sad since she was only a few years old. She had previously been very energetic and well-behaved. She was a great companion dog. It will not be easy to replace her with another dog. It is particularly hard for me because I don't have a large social network, especially at home. I don't have any siblings. I also don't feel all that close to my friends. I am liked by everyone because I fit in everywhere. But since I don't have a particular group that I focus on, I don't develop deep relationships. My dog provided me with the steady presence I needed. I don't like the temporary nature of relationships today. I want something to last. My dog was unquestioningly loyal to me and would have been for many years in the future. But it turned into another short-term friendship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was another example of how nothing lasts in today's world."
+            }
+        ],
+        "request_id": "811bd043a9fa17f1-EWR"
+    }
+}

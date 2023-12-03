@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was the birthday of a family member. I had prepared for it by gathering items necessary for the party. I had bought candles, a cake, lights, balloons, and other miscellaneous supplies necessary for celebrating their birthday. I prepared for the birthday party by first unpacking the supplies and then preparing the table. I then unpacked the cake and placed it on the table. I spent some time setting up the remainder of the supplies, preparing our house for the party. When my family member saw the cake, they were elated. It was a nice setup. Soon we lit the candles. There were many candles on the cake, because they looked good on the type of cake that I had bought. We lit the candles, and soon the candles erupted into a large flame. The flames had joined each other into sort of a bonfire like appearance. It was funny but somewhat dangerous. My family member had to blow them out quickly before the whole cake burned up! My family enjoyed the party."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was the birthday of a family member. I had prepared for it by gathering items necessary for the party. I had bought candles, a cake, lights, balloons, and other miscellaneous supplies necessary for celebrating their birthday. I prepared for the birthday party by first unpacking the supplies and then preparing the table. I then unpacked the cake and placed it on the table. I spent some time setting up the remainder of the supplies, preparing our house for the party. When my family member saw the cake, they were elated. It was a nice setup. Soon we lit the candles. There were many candles on the cake, because they looked good on the type of cake that I had bought. We lit the candles, and soon the candles erupted into a large flame. The flames had joined each other into sort of a bonfire like appearance. It was funny but somewhat dangerous. My family member had to blow them out quickly before the whole cake burned up! My family enjoyed the party.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We ate the cake and enjoyed the rest of the supplies that I had prepared. It was a fun party.\n\n"
+            }
+        ],
+        "request_id": "811f44daa9a9c445-EWR"
+    }
+}

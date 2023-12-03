@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I always wanted to escape corporate culture. I was never the one to work a regular nine to five job. As a security officer, I did not enjoy the job. I wanted more flexibility and control. I prefer to work when I want, and play when I want. This can only be possible as an entrepreneur. So I decided to quit my job. I left and never looked back. I put in my notice, and resigned. I have tried different businesses so far, but nothing has worked. I am researching others to get into. However, I am also taking the TEFL certification. This allows me to teach English. This can get me income while on my hustle. I think it will work."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I always wanted to escape corporate culture. I was never the one to work a regular nine to five job. As a security officer, I did not enjoy the job. I wanted more flexibility and control. I prefer to work when I want, and play when I want. This can only be possible as an entrepreneur. So I decided to quit my job. I left and never looked back. I put in my notice, and resigned. I have tried different businesses so far, but nothing has worked. I am researching others to get into. However, I am also taking the TEFL certification. This allows me to teach English. This can get me income while on my hustle. I think it will work.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am hoping to teach English in South America.\n\n"
+            }
+        ],
+        "request_id": "811f32575d21c343-EWR"
+    }
+}

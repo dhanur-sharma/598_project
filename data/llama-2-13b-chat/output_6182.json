@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember they day like it was just yesterday. It started out like any other normal day. I woke up, very tired from the night before, and begrudgingly dragged myself to the bathroom. I completed my morning routine and made sure my appearance was passable. I got in my car and drove to work. The traffic was especially miserable that day and it felt like an eternity before I finally arrived at work. I walked in and did my normal routine of greeting all of my coworkers who I secretly hate. However, I was in a better mood than usual because I had a great date the night before and just remembering it made the day flew by. I was finishing up a spreadsheet at my desk when per usual my boss strolls in in the middle of the day. He usually strolls in like he owns the place but this was different, he looked distraught and was asking my coworkers where he could find me. As he was approaching my desk my mind ran with ideas on what I could have possibly done to get my boss this irate. He marched in my office and demanded that I explain myself right now! I was very confused and asked him what did he mean by that? He nearly launched over my desk, inches away from punching me in the face! How dare you hookup with my wife! You two can have each other and good luck finding another job!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember they day like it was just yesterday. It started out like any other normal day. I woke up, very tired from the night before, and begrudgingly dragged myself to the bathroom. I completed my morning routine and made sure my appearance was passable. I got in my car and drove to work. The traffic was especially miserable that day and it felt like an eternity before I finally arrived at work. I walked in and did my normal routine of greeting all of my coworkers who I secretly hate. However, I was in a better mood than usual because I had a great date the night before and just remembering it made the day flew by. I was finishing up a spreadsheet at my desk when per usual my boss strolls in in the middle of the day. He usually strolls in like he owns the place but this was different, he looked distraught and was asking my coworkers where he could find me. As he was approaching my desk my mind ran with ideas on what I could have possibly done to get my boss this irate. He marched in my office and demanded that I explain myself right now! I was very confused and asked him what did he mean by that? He nearly launched over my desk, inches away from punching me in the face! How dare you hookup with my wife! You two can have each other and good luck finding another job!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He then stormed out of the office with my coworkers staring in disbelief. The rest of the day was a blur as I sat in stunned silence. I remember thinking this is a great day to call in sick. I can't believe my boss is married and I'm the other woman! This is the last day I'm coming to this job!"
+            }
+        ],
+        "request_id": "811f4072693bc475-EWR"
+    }
+}

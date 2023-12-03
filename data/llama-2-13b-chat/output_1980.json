@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been trying fo the last few years to adopt a child. About 2 months ago, i received a phone call that ther was a newborn whose mother was a teenager and did not want to keep the baby. The adoptive agent, Ms Reynolds, stated that my application met all the requirements. she specifically sought me out given that i am a pediatric ICU nurse. s Reynolds continue to state that the child was born prematurely at 29 weeks. the child's mother was a drug addict and the child may have been exposed to heroin. At first i was worried, since i was not sure if i wanted to have such responsibility. I told her that i would call her back.  I spent the next day thinking about the decision to take the child or not. I then thought about my adoptive sister who was born disabled, whom my mother adopted and gave a better life. I thought about how much i loved my sister and would do anything for her. I called back Ms Reynolds and told her that I would take the newborn once she was out of ICU. Two weeks later i had a little bundle of joy in my arms. From the moment i first laid eyes on her, the water work broke and i couldn't stop crying. the next few days were very hard. Lizzy cried all the time. Eventually things improved. yes, it is still challenging. But i would do it all again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been trying fo the last few years to adopt a child. About 2 months ago, i received a phone call that ther was a newborn whose mother was a teenager and did not want to keep the baby. The adoptive agent, Ms Reynolds, stated that my application met all the requirements. she specifically sought me out given that i am a pediatric ICU nurse. s Reynolds continue to state that the child was born prematurely at 29 weeks. the child's mother was a drug addict and the child may have been exposed to heroin. At first i was worried, since i was not sure if i wanted to have such responsibility. I told her that i would call her back.  I spent the next day thinking about the decision to take the child or not. I then thought about my adoptive sister who was born disabled, whom my mother adopted and gave a better life. I thought about how much i loved my sister and would do anything for her. I called back Ms Reynolds and told her that I would take the newborn once she was out of ICU. Two weeks later i had a little bundle of joy in my arms. From the moment i first laid eyes on her, the water work broke and i couldn't stop crying. the next few days were very hard. Lizzy cried all the time. Eventually things improved. yes, it is still challenging. But i would do it all again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful to have Lizzy in my life.\n\n"
+            }
+        ],
+        "request_id": "811eae211a9443f8-EWR"
+    }
+}

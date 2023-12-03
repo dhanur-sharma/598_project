@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 4 months ago I me and my boyfriend broke up. It was messy--I was called a bitch, a whore, an insult for every letter of the alphabet. I feel nothing for contempt for him now, but sometimes I think back to the things he says and it still stings. How could someone just, you know, hurt you in that way after saying first how much they love you? He was my first boyfriend, I never had sex with anyone else, but apparently I'm a slut? Really? I just dont know what to think anymore. My trust in other people is gone, I guess? I just really wish I had chosen better. I wish I could go back and just not go out with him, that I had rejected him the day he asked me out. I remember him telling me how much he loved me, and now this? Really? How can someone you care about so much become such a stranger? I'll admit it, sometime I miss him. Sometimes I want to see him, but he's such a shitty person. It's just really hard."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 4 months ago I me and my boyfriend broke up. It was messy--I was called a bitch, a whore, an insult for every letter of the alphabet. I feel nothing for contempt for him now, but sometimes I think back to the things he says and it still stings. How could someone just, you know, hurt you in that way after saying first how much they love you? He was my first boyfriend, I never had sex with anyone else, but apparently I'm a slut? Really? I just dont know what to think anymore. My trust in other people is gone, I guess? I just really wish I had chosen better. I wish I could go back and just not go out with him, that I had rejected him the day he asked me out. I remember him telling me how much he loved me, and now this? Really? How can someone you care about so much become such a stranger? I'll admit it, sometime I miss him. Sometimes I want to see him, but he's such a shitty person. It's just really hard.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know how to move on."
+            }
+        ],
+        "request_id": "811ea247eabc43ff-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am very proud of myself as a father. I have two kids; a wonderful boy and a beautiful daughter. My little princess is only eight while her brother is five. My daughter is one who is enthusiastic about music even when I thought music is not her thing. I wanted her to love computers like her brother. Her mother helped her put it for an audition as the rising star in our county. My wife traveled for business while it was one week to her audition so I was left with seeing her through the preparation.  She is a fair singer anyways. I just have to deal with her standing before a crowd and not freezing. We had just just a week to prepare. She relates with me better than her mom and I can even say that at that moment, she didn't like her mom even though it's hard for me to see why. She told me her fears and how she thinks she doesn't have a nice voice and she can't bare to stand before a crowd. I didn't know when I turned to a motivational speaker and life coach. I took the mirror in my room to our courtyard (to have a space to mimic a stage). I made her talk to the mirror before I come back from work and I will take the role of the speaker (who will invite her to the stage) and the audience who will shout with joy when she opens her mouth to sing. I didn't even teach her how to sing. Her boldness and attack was all I was focused on. Last week was the audition and the moment my daughter walked up to the stage, I knew she was ready for it. It was a standing ovation when she was done rendering her song. She was selected as the runner-up in the audition."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am very proud of myself as a father. I have two kids; a wonderful boy and a beautiful daughter. My little princess is only eight while her brother is five. My daughter is one who is enthusiastic about music even when I thought music is not her thing. I wanted her to love computers like her brother. Her mother helped her put it for an audition as the rising star in our county. My wife traveled for business while it was one week to her audition so I was left with seeing her through the preparation.  She is a fair singer anyways. I just have to deal with her standing before a crowd and not freezing. We had just just a week to prepare. She relates with me better than her mom and I can even say that at that moment, she didn't like her mom even though it's hard for me to see why. She told me her fears and how she thinks she doesn't have a nice voice and she can't bare to stand before a crowd. I didn't know when I turned to a motivational speaker and life coach. I took the mirror in my room to our courtyard (to have a space to mimic a stage). I made her talk to the mirror before I come back from work and I will take the role of the speaker (who will invite her to the stage) and the audience who will shout with joy when she opens her mouth to sing. I didn't even teach her how to sing. Her boldness and attack was all I was focused on. Last week was the audition and the moment my daughter walked up to the stage, I knew she was ready for it. It was a standing ovation when she was done rendering her song. She was selected as the runner-up in the audition.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so proud of my daughter. She is a star and she is going to shine. I have always known she is a star and I am glad she is now out there for the world to see."
+            }
+        ],
+        "request_id": "811bda40bb0b1971-EWR"
+    }
+}

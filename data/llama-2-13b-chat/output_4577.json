@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took my car in to get a few things fixed. The auto shop I go to is amazing. They are friendly and knowledgeable and I trust them not to upsell me anything or charge me for things I don't need. I appreciate that a lot as a woman who is not knowledgeable about cars and who always is afraid that mechanics are going to take advantage of me. The only thing I don't like about this auto shop is their parking lot and location in general is very cramped. There is not a lot of space to pull out or move. So I go to pick my car up and as I'm trying to back out of the parking space I left it in, I hit the dumpster behind. Immediately my car starts making a horrible noise. I can't believe it...I got into an accident right after fixing my car, before I even leave the mechanic shop! I go back inside in tears and tell them what happened. Get this...they look at what happened and fixed it for me, for free! I was shocked and amazed at their kindness and generosity. I wanted to pay them back, but I had to borrow a small amount of money for it, so I went home and talked to my sister to ask her to borrow money. I went back the next day with cash for the mechanic who fixed it, because I hate to be a damsel in distress. I was so touched by their kindness and the fact that they helped me when they didn't need to. It showed me that people are willing to help out, and bolstered my faith in humanity."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took my car in to get a few things fixed. The auto shop I go to is amazing. They are friendly and knowledgeable and I trust them not to upsell me anything or charge me for things I don't need. I appreciate that a lot as a woman who is not knowledgeable about cars and who always is afraid that mechanics are going to take advantage of me. The only thing I don't like about this auto shop is their parking lot and location in general is very cramped. There is not a lot of space to pull out or move. So I go to pick my car up and as I'm trying to back out of the parking space I left it in, I hit the dumpster behind. Immediately my car starts making a horrible noise. I can't believe it...I got into an accident right after fixing my car, before I even leave the mechanic shop! I go back inside in tears and tell them what happened. Get this...they look at what happened and fixed it for me, for free! I was shocked and amazed at their kindness and generosity. I wanted to pay them back, but I had to borrow a small amount of money for it, so I went home and talked to my sister to ask her to borrow money. I went back the next day with cash for the mechanic who fixed it, because I hate to be a damsel in distress. I was so touched by their kindness and the fact that they helped me when they didn't need to. It showed me that people are willing to help out, and bolstered my faith in humanity.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd989fab5c3ee-EWR"
+    }
+}

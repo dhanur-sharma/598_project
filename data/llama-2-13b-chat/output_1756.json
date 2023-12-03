@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today's the big day. I worked my butt off for 8 months to get promoted in this job. I trained for 6 weeks in all sorts of shifts to get the job down. I opened, closed, and did mid-shifts. I learned how to receive merchandise, do the deposit, prepare products for the next day, and pretty much every thing possible that would come up on a shift. Today they let me do my first close without supervision. I was crazy nervous to get the deposit right. What if it's off? What if I don't arm the store right and the alarm goes off?  What if we get robbed? But I'm glad to know I'm trusted with the day-to-day operations of a retail store and am considered a manager-in-charge. The $3.75/hr pay raise certainly helps. It means a lot because I was lied to when let go of my teaching job, and blacklisted in the university. I couldn't sue because they could retaliate against my wife. I then spent two years at the home improvement store, but they only promote people with criminal records and look down on education. I'm finally able to have a job that could at least set me up for future success."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today's the big day. I worked my butt off for 8 months to get promoted in this job. I trained for 6 weeks in all sorts of shifts to get the job down. I opened, closed, and did mid-shifts. I learned how to receive merchandise, do the deposit, prepare products for the next day, and pretty much every thing possible that would come up on a shift. Today they let me do my first close without supervision. I was crazy nervous to get the deposit right. What if it's off? What if I don't arm the store right and the alarm goes off?  What if we get robbed? But I'm glad to know I'm trusted with the day-to-day operations of a retail store and am considered a manager-in-charge. The $3.75/hr pay raise certainly helps. It means a lot because I was lied to when let go of my teaching job, and blacklisted in the university. I couldn't sue because they could retaliate against my wife. I then spent two years at the home improvement store, but they only promote people with criminal records and look down on education. I'm finally able to have a job that could at least set me up for future success.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eaa368ce04286-EWR"
+    }
+}

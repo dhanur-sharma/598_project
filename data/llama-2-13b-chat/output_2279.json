@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago, I finally graduated from college. I struggled in high school and didn't think i'd come this far. Everyone around me called me a class clown. They called me a low life loser. They said I'd go no where. The most hurtful point was when my parents gave up on me. I felt totally rejected and hurt. This gave me the tools to fight and keep going. I struggled through my reading and match. I begged for extra help. I struggled hard! I finally got through this and succeeded! I am so very proud of myself. I think I even make my parents proud of me. I'm ready for my next hurdle! With my talent, I can do it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago, I finally graduated from college. I struggled in high school and didn't think i'd come this far. Everyone around me called me a class clown. They called me a low life loser. They said I'd go no where. The most hurtful point was when my parents gave up on me. I felt totally rejected and hurt. This gave me the tools to fight and keep going. I struggled through my reading and match. I begged for extra help. I struggled hard! I finally got through this and succeeded! I am so very proud of myself. I think I even make my parents proud of me. I'm ready for my next hurdle! With my talent, I can do it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb3aeaf814391-EWR"
+    }
+}

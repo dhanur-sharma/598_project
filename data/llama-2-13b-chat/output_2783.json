@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Last week I took my 16 year old daughter driving. She studied hard and passed the written exam for her learner's permit a few days earlier and this was her first time behind the wheel.  We went to a parking lot behind a church near our house. She had a little trouble with hitting the accelerator pedal too hard, but we quickly figured out that it was because she was wearing flip flops. After a quick footwear change, she did much better. The other issue she had was with overturning. She was nervous and asked a lot of questions, but it was obvious that she really wanted to learn. It was a great time between the two of us. It reminded me of when my mother, who passed away ten years ago, would take me to the parking lot of my high school to teach me to drive. I can remember how nervous she was. If I came within fifty feet of a parked car, she would tell me to slow down. It also reminded me of when my daughter was first born. I held her when she was just a few minutes old and realized that at that moment, I was a father. It is hard to believe that it has been 16 years. I love that girl very much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Last week I took my 16 year old daughter driving. She studied hard and passed the written exam for her learner's permit a few days earlier and this was her first time behind the wheel.  We went to a parking lot behind a church near our house. She had a little trouble with hitting the accelerator pedal too hard, but we quickly figured out that it was because she was wearing flip flops. After a quick footwear change, she did much better. The other issue she had was with overturning. She was nervous and asked a lot of questions, but it was obvious that she really wanted to learn. It was a great time between the two of us. It reminded me of when my mother, who passed away ten years ago, would take me to the parking lot of my high school to teach me to drive. I can remember how nervous she was. If I came within fifty feet of a parked car, she would tell me to slow down. It also reminded me of when my daughter was first born. I held her when she was just a few minutes old and realized that at that moment, I was a father. It is hard to believe that it has been 16 years. I love that girl very much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She is growing up so fast. I will continue to teach her everything I can about driving and life. I am so grateful to have her in my life. Love, Dad.\n\n"
+            }
+        ],
+        "request_id": "811ebdfe4cf88c05-EWR"
+    }
+}

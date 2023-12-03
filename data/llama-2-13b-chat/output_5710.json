@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my cousin's wedding last Sunday and had a really good time. All the family was there some of which I hadn't seen  in a really long time. It was great catching up on all the family news and drama. Everybody was in a good mood and were having fun. After the wedding we all headed to the reception to enjoy some good food and entertainment. My cousin however wasn't so happy when the caterers brought the food and cake out. It was a disaster. They totally screwed up the menu, it was like they got another wedding order mixed up with my cousins. There wasn't one thing on the menu that she had ordered. The cake was the same way, it wasn't even close to what she wanted and she was obviously upset in the wedding photos. She finally got over it and the fun started, the food turned out to be very tasty so all ended well. We danced until we were bone tired. The band was excellent and everybody said they enjoyed the music. After the night was over and everybody was ready to go home the couple got in the car and left. We all stood outside and watch them drive away waving and cheering."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my cousin's wedding last Sunday and had a really good time. All the family was there some of which I hadn't seen  in a really long time. It was great catching up on all the family news and drama. Everybody was in a good mood and were having fun. After the wedding we all headed to the reception to enjoy some good food and entertainment. My cousin however wasn't so happy when the caterers brought the food and cake out. It was a disaster. They totally screwed up the menu, it was like they got another wedding order mixed up with my cousins. There wasn't one thing on the menu that she had ordered. The cake was the same way, it wasn't even close to what she wanted and she was obviously upset in the wedding photos. She finally got over it and the fun started, the food turned out to be very tasty so all ended well. We danced until we were bone tired. The band was excellent and everybody said they enjoyed the music. After the night was over and everybody was ready to go home the couple got in the car and left. We all stood outside and watch them drive away waving and cheering.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a wonderful day."
+            }
+        ],
+        "request_id": "811f36e0baa44233-EWR"
+    }
+}

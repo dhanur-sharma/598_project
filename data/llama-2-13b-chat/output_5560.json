@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I decided that it would be great fun to have a full day of movies.  They older movies that we could introduce our son too.  We baked cookies the day before for this day.  We also went to the store and bought ice cream, soda and chips for movie day.  The day of the movies we made a \"bed\" on the floor in our living room for all of us to laze on.  We had already made a list of some great movies we wanted to watch.  We didn't care if we ate healthy that day and we didn't cook anything.  We started out first movie and got our junk food and sweets.  Our son was really excited to be having a fun, carefree day with his parents.  We watched movies such as Hard Target, and Under Siege 2.  He loved them all.  We had so many movies on our list there was no way that we could have gotten through them all.  He was really excited to be able to eat whatever junk he wanted to.  Our dogs even joined in \"watching\" the movie by laying on the makeshift bed.  We stayed watching movies from 10am till it was time to go to bed.  We have kept our movie list so that we might be able to do this again sometime in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I decided that it would be great fun to have a full day of movies.  They older movies that we could introduce our son too.  We baked cookies the day before for this day.  We also went to the store and bought ice cream, soda and chips for movie day.  The day of the movies we made a \"bed\" on the floor in our living room for all of us to laze on.  We had already made a list of some great movies we wanted to watch.  We didn't care if we ate healthy that day and we didn't cook anything.  We started out first movie and got our junk food and sweets.  Our son was really excited to be having a fun, carefree day with his parents.  We watched movies such as Hard Target, and Under Siege 2.  He loved them all.  We had so many movies on our list there was no way that we could have gotten through them all.  He was really excited to be able to eat whatever junk he wanted to.  Our dogs even joined in \"watching\" the movie by laying on the makeshift bed.  We stayed watching movies from 10am till it was time to go to bed.  We have kept our movie list so that we might be able to do this again sometime in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I think this was the best day that we have had as a family in a long time.\n\n"
+            }
+        ],
+        "request_id": "811f34034a834288-EWR"
+    }
+}

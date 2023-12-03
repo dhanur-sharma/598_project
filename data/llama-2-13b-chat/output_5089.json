@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I went to a restaurant to eat a good meal. It was a nice place with a great atmosphere. The hostess treated me well and gave me a seat to sit in to eat my meal in a little bit. I started off with some queso. It was pretty good. It came with chips and salsa. The salsa was nice to eat. I had a beer with my meal. The beer was very smooth and delicious on my taste buds. I ordered fajitas for the main course. Something bad almost happened. The waiter brought the fajitas out but almost tripped. It was a near disaster but luckily the fajitas were not dropped. The fajitas were delicious. I gave the waiter a big tip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I went to a restaurant to eat a good meal. It was a nice place with a great atmosphere. The hostess treated me well and gave me a seat to sit in to eat my meal in a little bit. I started off with some queso. It was pretty good. It came with chips and salsa. The salsa was nice to eat. I had a beer with my meal. The beer was very smooth and delicious on my taste buds. I ordered fajitas for the main course. Something bad almost happened. The waiter brought the fajitas out but almost tripped. It was a near disaster but luckily the fajitas were not dropped. The fajitas were delicious. I gave the waiter a big tip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He deserved it. I left the restaurant very satisfied with my meal.\n\n"
+            }
+        ],
+        "request_id": "811be3db2ce88c8d-EWR"
+    }
+}

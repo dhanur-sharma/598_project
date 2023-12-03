@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The family and I went out to West Texas. It was very beautiful. There were mountains, the weather was nice, and the towns were small. The hotel we stayed at was hipster styled. A lot of rental trailers. The desert is cold at night, but tolerable. It's a lot to see and explore. Especially for a first time explorer, there's plenty to do from hiking to trail riding. There's the Marfa lights out in West Texas. The sight is pretty incredible. Though it is surprising when the lights suddenly appear in the dark desert sky. A bunch of people show up every evening to view the mysterious lights. Marfa is an artists based town. Which is good because the people are very nice. I would definitely go out to visit West Texas again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The family and I went out to West Texas. It was very beautiful. There were mountains, the weather was nice, and the towns were small. The hotel we stayed at was hipster styled. A lot of rental trailers. The desert is cold at night, but tolerable. It's a lot to see and explore. Especially for a first time explorer, there's plenty to do from hiking to trail riding. There's the Marfa lights out in West Texas. The sight is pretty incredible. Though it is surprising when the lights suddenly appear in the dark desert sky. A bunch of people show up every evening to view the mysterious lights. Marfa is an artists based town. Which is good because the people are very nice. I would definitely go out to visit West Texas again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The desert is something else. I never thought I would enjoy the desert, but it is beautiful. It's like nothing I've ever seen before.\n\n"
+            }
+        ],
+        "request_id": "811ebd1d3c5d42de-EWR"
+    }
+}

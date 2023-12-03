@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five months ago, I wanted to move in a different professional direction. I decided driving trucks would be great. I went ahead and tried to pass the CDL, but didn't. I guess I wasn't ready. I went home and did some practice. I read up on tips online. I also did some test runs with a buddy. I went back and took the test again. I had two days between both trials. This time I got it right. I was able to get my CDL. It took two tries, but it was successful. I am happy I was able to achieve this. I would advise anyone to give it a shot. It can be daunting, but manageable. I am happy to have a CDL now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five months ago, I wanted to move in a different professional direction. I decided driving trucks would be great. I went ahead and tried to pass the CDL, but didn't. I guess I wasn't ready. I went home and did some practice. I read up on tips online. I also did some test runs with a buddy. I went back and took the test again. I had two days between both trials. This time I got it right. I was able to get my CDL. It took two tries, but it was successful. I am happy I was able to achieve this. I would advise anyone to give it a shot. It can be daunting, but manageable. I am happy to have a CDL now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebfff8f5f1851-EWR"
+    }
+}

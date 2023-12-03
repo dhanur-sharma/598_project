@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, I start my trip today! I'm just arriving back at the hotel from my first day in New York City. What an experience. We saw where my grandparents originally lived when they moved here. We got to see the little community that shaped them. We explored so many old places I'm sure not everyone appreciates. I even got to meet some older people that knew my grandparents when they lived there! It was such a surreal experience. These people had been around for so long and experienced so much. Just getting to hear any of the stories they had to tell us was such a treat. Especially the stories involving my grandparents! It sounds like my grandmother may have been quite mischievous when she was younger. I was also shocked to hear my grandfather smoked! He hated smoking in the time I knew him. We took the friends of my grandparents out to dinner so we could discuss my grandparents more. It was such a great restaurant. New York has some of the finest dining I've ever experienced. It was such a wonderful day and I cannot wait for the next."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, I start my trip today! I'm just arriving back at the hotel from my first day in New York City. What an experience. We saw where my grandparents originally lived when they moved here. We got to see the little community that shaped them. We explored so many old places I'm sure not everyone appreciates. I even got to meet some older people that knew my grandparents when they lived there! It was such a surreal experience. These people had been around for so long and experienced so much. Just getting to hear any of the stories they had to tell us was such a treat. Especially the stories involving my grandparents! It sounds like my grandmother may have been quite mischievous when she was younger. I was also shocked to hear my grandfather smoked! He hated smoking in the time I knew him. We took the friends of my grandparents out to dinner so we could discuss my grandparents more. It was such a great restaurant. New York has some of the finest dining I've ever experienced. It was such a wonderful day and I cannot wait for the next.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope we get to explore more of the city tomorrow."
+            }
+        ],
+        "request_id": "811e910e7a7242e1-EWR"
+    }
+}

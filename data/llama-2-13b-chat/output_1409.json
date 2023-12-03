@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The story I am writing about is a medical story. For my whole life, I have had a fainting disorder. My doctor thought it might be a condition called POTS. It took months to get a cardiologist to order the test, for some reason. They seemed to test me for everything else first. I eventually went to a heart hospital and had a test called a tilt table test. In this test they strap you to a table, with a pillow behind your head. You lie down for a while, and then they tip up the table to an angle less than 90 degrees. For about half an hour you just stand still and everyone waits to see if you are going to have symptoms. I didn't think I was going to have any, and the test was almost over. When I had finally decided I was never going to faint, I did. The nurse asked me how much I remembered. I said, \"I remember saying I feel weird.\" She replied, \"Wow.\" So I have no idea how many things I must have missed between passing out and coming to. I was so grateful that I had proven this condition to the medical community that I was laughing and joking around with the four people who had been monitoring me. I was really grateful, and so grateful, that I was just happy. I did feel awful once I got home, but it was also a relief to finally know I would be getting some answers to a lifelong health problem."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The story I am writing about is a medical story. For my whole life, I have had a fainting disorder. My doctor thought it might be a condition called POTS. It took months to get a cardiologist to order the test, for some reason. They seemed to test me for everything else first. I eventually went to a heart hospital and had a test called a tilt table test. In this test they strap you to a table, with a pillow behind your head. You lie down for a while, and then they tip up the table to an angle less than 90 degrees. For about half an hour you just stand still and everyone waits to see if you are going to have symptoms. I didn't think I was going to have any, and the test was almost over. When I had finally decided I was never going to faint, I did. The nurse asked me how much I remembered. I said, \"I remember saying I feel weird.\" She replied, \"Wow.\" So I have no idea how many things I must have missed between passing out and coming to. I was so grateful that I had proven this condition to the medical community that I was laughing and joking around with the four people who had been monitoring me. I was really grateful, and so grateful, that I was just happy. I did feel awful once I got home, but it was also a relief to finally know I would be getting some answers to a lifelong health problem.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had been told that I would have to be careful with my blood pressure, and that I would have to avoid stress and caffeine. But at least I had answers, and I was grateful for that.\n\n"
+            }
+        ],
+        "request_id": "811ea4368cbe5e62-EWR"
+    }
+}

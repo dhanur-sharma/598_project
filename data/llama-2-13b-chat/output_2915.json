@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I don't understand what she is thinking. She broke up with me and humiliated me in front of all of our friends! Who ends a 2 year relationship while out with a bunch of mutual friends having fun? She wasn't ready to settle down? After two years? She's crazy! She expects me to just keep rolling over for her? It's been a month, and I've finally accepted it - I'm done. I should probably just block her number and block on her Facebook, maybe that will prove to her that I'm really not interested. Tonight I ran in to Cindy while Brad and I were out getting a drink after work. I've already been avoiding all of her texts and messages, but then she saw me and couldn't help herself I guess. She came over and told me, in front of Brad (she's apparently getting more comfortable embarrassing people in front of friends), that I had hurt her feelings. I hurt HER feelings by not contacting her back? I haven't done anything but protect my own feelings and I'm done. She's blocked, hopefully she gets the picture."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I don't understand what she is thinking. She broke up with me and humiliated me in front of all of our friends! Who ends a 2 year relationship while out with a bunch of mutual friends having fun? She wasn't ready to settle down? After two years? She's crazy! She expects me to just keep rolling over for her? It's been a month, and I've finally accepted it - I'm done. I should probably just block her number and block on her Facebook, maybe that will prove to her that I'm really not interested. Tonight I ran in to Cindy while Brad and I were out getting a drink after work. I've already been avoiding all of her texts and messages, but then she saw me and couldn't help herself I guess. She came over and told me, in front of Brad (she's apparently getting more comfortable embarrassing people in front of friends), that I had hurt her feelings. I hurt HER feelings by not contacting her back? I haven't done anything but protect my own feelings and I'm done. She's blocked, hopefully she gets the picture.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't believe she thought this was a good idea. I'm done."
+            }
+        ],
+        "request_id": "811ec08d2a1b440d-EWR"
+    }
+}

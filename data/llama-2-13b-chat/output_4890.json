@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I went to the doctor for a physical. During the physical the doctor ordered lab work. The lab work detected that my fasting blood sugar wa borderline high. The doctor's office contacted me and asked me to come in for a consultation. They advised me that I needed to make some lifestyle changes. I was told that I should work on following some guidelines for a healthier diet. I was also advised to spend some time exercising. The doctor made it very clear that the type of exercise did not really matter so long as I was spending some time being active. The doctor also made it clear that not following the guidelines he suggested coukld have serious consequences. He let me know that I could become diabetic if I did not make lifestyle changes. He also let me know that I could be at risk of becoming overweight as well. Diabetes does not run in my family, so I was surprised to be given this news. I was sad when I found out that I had not been doing my best to take good care of my health.  Having this experience made me want to make some changes in the way I was living. Since finding out my health was at risk I have made some big changes. I make sure I am up on my feet more often. I also am far more aware of the foods I eat. My hope is that I will have made some improvements by my next appointment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I went to the doctor for a physical. During the physical the doctor ordered lab work. The lab work detected that my fasting blood sugar wa borderline high. The doctor's office contacted me and asked me to come in for a consultation. They advised me that I needed to make some lifestyle changes. I was told that I should work on following some guidelines for a healthier diet. I was also advised to spend some time exercising. The doctor made it very clear that the type of exercise did not really matter so long as I was spending some time being active. The doctor also made it clear that not following the guidelines he suggested coukld have serious consequences. He let me know that I could become diabetic if I did not make lifestyle changes. He also let me know that I could be at risk of becoming overweight as well. Diabetes does not run in my family, so I was surprised to be given this news. I was sad when I found out that I had not been doing my best to take good care of my health.  Having this experience made me want to make some changes in the way I was living. Since finding out my health was at risk I have made some big changes. I make sure I am up on my feet more often. I also am far more aware of the foods I eat. My hope is that I will have made some improvements by my next appointment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdfe46c054340-EWR"
+    }
+}

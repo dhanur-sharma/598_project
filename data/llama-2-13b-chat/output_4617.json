@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the summer this year my ten year old daughter took voice lessons to prepare for an audition. She is involved in musical theater. She was hoping to get a lead role that would involve singing for the first time. She has had lead roles previously, but they have always been based completely on her acting and facial expressions, not singing. By the time her audition came she had improved her voice a lot and did very well. I helped her practice her songs and lines every day. She got called back for the role she wanted, along with a few other kids. She made it to the last round of the audition, but then did not get the role she was hoping for. She got yet another role that is all acting, no lines or singing. She was very upset and cried for more than an hour. I tried to help her understand that it is not because her singing is bad, it is because she has a special talent for a certain type of acting that is difficult for most people. She really just wants to sing. As the days have gone by since then, she has started to feel better. I hope that she will still have fun with the show. I will be there with her a lot because I work on the costumes, so I will be there to help her out if she is upset."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the summer this year my ten year old daughter took voice lessons to prepare for an audition. She is involved in musical theater. She was hoping to get a lead role that would involve singing for the first time. She has had lead roles previously, but they have always been based completely on her acting and facial expressions, not singing. By the time her audition came she had improved her voice a lot and did very well. I helped her practice her songs and lines every day. She got called back for the role she wanted, along with a few other kids. She made it to the last round of the audition, but then did not get the role she was hoping for. She got yet another role that is all acting, no lines or singing. She was very upset and cried for more than an hour. I tried to help her understand that it is not because her singing is bad, it is because she has a special talent for a certain type of acting that is difficult for most people. She really just wants to sing. As the days have gone by since then, she has started to feel better. I hope that she will still have fun with the show. I will be there with her a lot because I work on the costumes, so I will be there to help her out if she is upset.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so proud of her for all the hard work she put into her audition and for being brave enough to go for it. I hope that she will keep up with singing and acting."
+            }
+        ],
+        "request_id": "811bda47be6e3344-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, my son had a birthday.  We celebrated and I was in charge of doing the party.  I was excited, as the party theme was to be Avengers.  So I went to the party store and grabbed a bunch of supplies.  I got streamers, balloons, favors, a few prize toys for some of the games.  Once, I got home, I started working on preparing the food, just little snacks, to go with the pizza I was ordering.  I also, went about decorating for the party.  I put up the streamers.  I blew up a ton of balloons, and hung them around the streamers.  I put out the plates, cups, and utensils for the food.  Then I made sure to designate a place for the presents that his friends would be bringing for him.  All in all, everything was going great.  All that was needed was the cake and the guests.  This was going to be great.  And I know my son will love all the games I have planned."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, my son had a birthday.  We celebrated and I was in charge of doing the party.  I was excited, as the party theme was to be Avengers.  So I went to the party store and grabbed a bunch of supplies.  I got streamers, balloons, favors, a few prize toys for some of the games.  Once, I got home, I started working on preparing the food, just little snacks, to go with the pizza I was ordering.  I also, went about decorating for the party.  I put up the streamers.  I blew up a ton of balloons, and hung them around the streamers.  I put out the plates, cups, and utensils for the food.  Then I made sure to designate a place for the presents that his friends would be bringing for him.  All in all, everything was going great.  All that was needed was the cake and the guests.  This was going to be great.  And I know my son will love all the games I have planned.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can't wait to see him happy. \n\n"
+            }
+        ],
+        "request_id": "811eb202ba1a0cb6-EWR"
+    }
+}

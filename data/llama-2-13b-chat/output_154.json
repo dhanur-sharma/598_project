@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I've been thinking about the incident a lot. Probably too much. What, me? Overthinking? No way. But this time, I blame my subconscious brain. I had a dream about her last night. We met up and it was... nice. Polite. I mean, I didn't slap her, so already I'd say that's a pleasant dream. I'm kidding, but only sort of. It's actually the first time I dreamed of her in the last four months, since we stopped speaking.  I've been rolling the incident around in my head over and over again, trying to think how it could have gone differently. I talked to mom after it happened and she was kind but firm, which sounds about right, eh?  Mostly, she said I shouldn't have let the issue get so hot before dealing with it and that's why it exploded. Exploded, ha. That's an understatement. My bae since Kindergarden and now we never talk. It makes me so flipping sad sometimes, even though she was way out of line. Oh, I hear my mother's voice in my head again reminding me that I was out of line too. That's the terrible power of knowing everything about someone else - you have the knowledge and capacity to use that power to hurt them. I was wrong. She was wrong. And we're both so darn prideful.  Should I reach out?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I've been thinking about the incident a lot. Probably too much. What, me? Overthinking? No way. But this time, I blame my subconscious brain. I had a dream about her last night. We met up and it was... nice. Polite. I mean, I didn't slap her, so already I'd say that's a pleasant dream. I'm kidding, but only sort of. It's actually the first time I dreamed of her in the last four months, since we stopped speaking.  I've been rolling the incident around in my head over and over again, trying to think how it could have gone differently. I talked to mom after it happened and she was kind but firm, which sounds about right, eh?  Mostly, she said I shouldn't have let the issue get so hot before dealing with it and that's why it exploded. Exploded, ha. That's an understatement. My bae since Kindergarden and now we never talk. It makes me so flipping sad sometimes, even though she was way out of line. Oh, I hear my mother's voice in my head again reminding me that I was out of line too. That's the terrible power of knowing everything about someone else - you have the knowledge and capacity to use that power to hurt them. I was wrong. She was wrong. And we're both so darn prideful.  Should I reach out?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe. But the question is, how? And why? What's the point? I'm still not sure if I'm ready to move on, but maybe someday. For now, I'll just keep dreaming about her in a nice way. Maybe someday she'll dream about me too.  Love,Me."
+            }
+        ],
+        "request_id": "811e8c91bded8ca5-EWR"
+    }
+}

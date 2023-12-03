@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month while I was driving on the freeway, I saw a dog on the side of the road. I pulled over to the side. Cars were whizzing by me very fast. The dog just stood there, like he was paralyzed. I slowly walked toward him with my hand outstretched. I spoke to him in a low voice. I was very worried he would run out into traffic. He had a collar on so he was somebody's pet. He looked at me and his eyes were very wide. I could see that he was shaking. He started to slowly walk towards me. He was a big dog so I did have the consideration that he could bite me. I wanted to help him though. I could imagine me grabbing his collar as he got closer to me. We were just about to meet when a huge truck rushed by blaring his horn. The dog freaked out at the noise and bolted into the traffic. He was hit by multiple cars. It was one of the worst things I've ever seen. I sometimes feel guilty, thinking maybe if I didn't try to grab him that he would have gone back to his home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month while I was driving on the freeway, I saw a dog on the side of the road. I pulled over to the side. Cars were whizzing by me very fast. The dog just stood there, like he was paralyzed. I slowly walked toward him with my hand outstretched. I spoke to him in a low voice. I was very worried he would run out into traffic. He had a collar on so he was somebody's pet. He looked at me and his eyes were very wide. I could see that he was shaking. He started to slowly walk towards me. He was a big dog so I did have the consideration that he could bite me. I wanted to help him though. I could imagine me grabbing his collar as he got closer to me. We were just about to meet when a huge truck rushed by blaring his horn. The dog freaked out at the noise and bolted into the traffic. He was hit by multiple cars. It was one of the worst things I've ever seen. I sometimes feel guilty, thinking maybe if I didn't try to grab him that he would have gone back to his home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know if he had an owner that cared about him. Maybe he was just a stray. But, I can't stop thinking about him. I feel like I could have done something different. I can't get the image of him being hit by the cars out of my head."
+            }
+        ],
+        "request_id": "811bd6b9bcafc3fd-EWR"
+    }
+}

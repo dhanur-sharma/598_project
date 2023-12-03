@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My diagnosis came out of nowhere. There is no family history of Parkinsons and I am not in a high risk group. At the time of the diagnosis I was going through significant upheaval in my life. I was going through a divorce, trying to diagnose a heart issue, and was four years post thyroid cancer surgery. I have been through a lot in my life. Some have told me they dont know how I do it. Honestly looking back I dont know how I did it either. Regardless I remember sitting in the neurologists office and getting the diagnosis. I was numb. I was confused. I was upset. Most of all I felt defeated. You never expect a diagnosis like that at 42. I walked out in a fog and stayed there for quite a while. I have since come to learn that my life isnt over. My life will be different, different experiences and challenges, but I have chosen to live it to the best of my ability."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My diagnosis came out of nowhere. There is no family history of Parkinsons and I am not in a high risk group. At the time of the diagnosis I was going through significant upheaval in my life. I was going through a divorce, trying to diagnose a heart issue, and was four years post thyroid cancer surgery. I have been through a lot in my life. Some have told me they dont know how I do it. Honestly looking back I dont know how I did it either. Regardless I remember sitting in the neurologists office and getting the diagnosis. I was numb. I was confused. I was upset. Most of all I felt defeated. You never expect a diagnosis like that at 42. I walked out in a fog and stayed there for quite a while. I have since come to learn that my life isnt over. My life will be different, different experiences and challenges, but I have chosen to live it to the best of my ability.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaa071a191978-EWR"
+    }
+}

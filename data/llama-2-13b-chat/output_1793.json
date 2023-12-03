@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In July I spoke with my friend Ted.  I hadn't talked to him in awhile, he was up in Wisconsin and I'm down in Florida these days, but around this time we would always go to Summerfest together, so I thought I would reach out to him.  We talked about possibly making the trip next year and seeing some bands together.   I was glad I reached out and talked to my old friend.   Two days later my girlfriend and I went to the movies.  On the drive home from the movie I was browsing Facebook.  I scrolled past a picture of my friend Ted with the caption \"We will miss you.\"  I thought for sure I had to be seeing this wrong.   I had just spoken to him.  Turns out he had an epileptic seizure and died.  It was sudden.  I was in shock.  It took me an hour to even process what I had just seen.  After a little while I had a drink and just hung out and listened to some music from bands I used to go see with my friend.  I reminisced about all the good times we had.   I started to feel grateful that I had just talked to him, but even more sad that we wouldn't be able to get together one last time for Summerfest.  One thing that has really stuck with me the rest of the summer, I need to be better at seeing and reaching out to friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In July I spoke with my friend Ted.  I hadn't talked to him in awhile, he was up in Wisconsin and I'm down in Florida these days, but around this time we would always go to Summerfest together, so I thought I would reach out to him.  We talked about possibly making the trip next year and seeing some bands together.   I was glad I reached out and talked to my old friend.   Two days later my girlfriend and I went to the movies.  On the drive home from the movie I was browsing Facebook.  I scrolled past a picture of my friend Ted with the caption \"We will miss you.\"  I thought for sure I had to be seeing this wrong.   I had just spoken to him.  Turns out he had an epileptic seizure and died.  It was sudden.  I was in shock.  It took me an hour to even process what I had just seen.  After a little while I had a drink and just hung out and listened to some music from bands I used to go see with my friend.  I reminisced about all the good times we had.   I started to feel grateful that I had just talked to him, but even more sad that we wouldn't be able to get together one last time for Summerfest.  One thing that has really stuck with me the rest of the summer, I need to be better at seeing and reaching out to friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Life is short and unpredictable and you never know when someone may be taken from you."
+            }
+        ],
+        "request_id": "811eaad66ab80cac-EWR"
+    }
+}

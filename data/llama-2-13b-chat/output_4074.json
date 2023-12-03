@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago, I started to notice some weird sensations in my chest. It happened pretty infrequently at first, and I just sort of ignored it. It bothered me of course, but I figured it was nothing. I am too busy with my kid to get sick. I should be able to power through illness, right? My kid comes first. I ignored the warning signs. But then it started to happen more frequently over the course of a couple of days. It started to become more painful. The pain got bad enough that it started to take my breath away. This all escalated so quickly over the course of a couple of days. Finally I couldn't ignore it anymore.  My spouse noticed and told me I needed to go to the ER, I could be having a heart attack. So he loaded me and my kid up and we drove to the ER. I had to get a lot of tests done, and I wish I would have gone in sooner. I am ok now, but I will never ignore something like that again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago, I started to notice some weird sensations in my chest. It happened pretty infrequently at first, and I just sort of ignored it. It bothered me of course, but I figured it was nothing. I am too busy with my kid to get sick. I should be able to power through illness, right? My kid comes first. I ignored the warning signs. But then it started to happen more frequently over the course of a couple of days. It started to become more painful. The pain got bad enough that it started to take my breath away. This all escalated so quickly over the course of a couple of days. Finally I couldn't ignore it anymore.  My spouse noticed and told me I needed to go to the ER, I could be having a heart attack. So he loaded me and my kid up and we drove to the ER. I had to get a lot of tests done, and I wish I would have gone in sooner. I am ok now, but I will never ignore something like that again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful to be alive.\n\n"
+            }
+        ],
+        "request_id": "811bcf77bfba8c30-EWR"
+    }
+}

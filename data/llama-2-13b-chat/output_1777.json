@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago a medical emergency happened to my mother and it made my entire family distraught. My mother is getting up there in her age, she's 83 years old. Recently she had been having problems with her heart. It pumps very slowly and and she always has a very pale look to her face. Eventually the doctors say she needs to receive a pacemaker to help get her heart pumping again. The day of the surgery comes and the whole family is there talking with her and keeping her company before the surgery. She goes into the surgery and then next thing you know she's being taken to the ICU. The doctors said she had a sudden pulmonary edema and her lungs had filled up with fluid. She could barely get any oxygen. What was supposed to be a simple surgery turned into a life or death situation. We all waited by and were emotional wrecks, we thought she may not make it through the night. Luckily the doctors were able to stabilize her condition. She also had the pacemaker put in after she recovered. She ended up staying in the hospital about two weeks so the doctors could monitor her. My family and I were so happy she managed to survive."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago a medical emergency happened to my mother and it made my entire family distraught. My mother is getting up there in her age, she's 83 years old. Recently she had been having problems with her heart. It pumps very slowly and and she always has a very pale look to her face. Eventually the doctors say she needs to receive a pacemaker to help get her heart pumping again. The day of the surgery comes and the whole family is there talking with her and keeping her company before the surgery. She goes into the surgery and then next thing you know she's being taken to the ICU. The doctors said she had a sudden pulmonary edema and her lungs had filled up with fluid. She could barely get any oxygen. What was supposed to be a simple surgery turned into a life or death situation. We all waited by and were emotional wrecks, we thought she may not make it through the night. Luckily the doctors were able to stabilize her condition. She also had the pacemaker put in after she recovered. She ended up staying in the hospital about two weeks so the doctors could monitor her. My family and I were so happy she managed to survive.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are so grateful to the doctors and nurses for all their care and hard work. It was a very scary time for us all."
+            }
+        ],
+        "request_id": "811eaa7d3e2d0f8f-EWR"
+    }
+}

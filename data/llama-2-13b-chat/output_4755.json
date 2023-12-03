@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, I realized I should be grateful. The daily grind can get to you and make you hateful. I thanked in my mind many people that helped me in my life. I thanked my mom for being loving and supportive with my ventures and forgiving my mistakes. I thanked my dad for making me tough and teaching my life skills on how to succeed. I thanked my brother on how to stand up to bullies in the world. I thanked my grandma for her support. I thanked my grandfather for his wisdom. I thanked my dog for helping me out in the bad days. I am very grateful to all of these people. I am grateful for people who make good food. I am thankful to the people who made great shows. This has helped me in life. It has made me have smiles. I hope my life will get better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, I realized I should be grateful. The daily grind can get to you and make you hateful. I thanked in my mind many people that helped me in my life. I thanked my mom for being loving and supportive with my ventures and forgiving my mistakes. I thanked my dad for making me tough and teaching my life skills on how to succeed. I thanked my brother on how to stand up to bullies in the world. I thanked my grandma for her support. I thanked my grandfather for his wisdom. I thanked my dog for helping me out in the bad days. I am very grateful to all of these people. I am grateful for people who make good food. I am thankful to the people who made great shows. This has helped me in life. It has made me have smiles. I hope my life will get better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope to have more success. I hope to have more people to thank in the future."
+            }
+        ],
+        "request_id": "811bdd3f19db0f47-EWR"
+    }
+}

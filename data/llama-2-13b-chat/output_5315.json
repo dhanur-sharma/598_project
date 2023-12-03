@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was my graduation. I spent 5 years in college for this moment and I couldn't be happier. My friends and family came to see me and cheer me on. It made me smile so much to hear them from the audience. I didn't think anyone would come, so this was a great surprise.  When I walked across that stage, it felt like my whole life was going somewhere. I could feel how big of an accomplishment this was. I'm nervous, too, though. I have a degree and am a part of a professional organization now. I have new responsibilities and obligations. I'm worried that I won't be able to live up to it all. That maybe I'll fail and let everyone down. I'm also nervous about working with actual clients. I worked with a few during school, but this is different. Mistakes here could be life changing. I think I'll do alright, though. I just need to remember the good feelings and remember that I am trained and qualified. Damn it's an exciting time right now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was my graduation. I spent 5 years in college for this moment and I couldn't be happier. My friends and family came to see me and cheer me on. It made me smile so much to hear them from the audience. I didn't think anyone would come, so this was a great surprise.  When I walked across that stage, it felt like my whole life was going somewhere. I could feel how big of an accomplishment this was. I'm nervous, too, though. I have a degree and am a part of a professional organization now. I have new responsibilities and obligations. I'm worried that I won't be able to live up to it all. That maybe I'll fail and let everyone down. I'm also nervous about working with actual clients. I worked with a few during school, but this is different. Mistakes here could be life changing. I think I'll do alright, though. I just need to remember the good feelings and remember that I am trained and qualified. Damn it's an exciting time right now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f2ee81eae437a-EWR"
+    }
+}

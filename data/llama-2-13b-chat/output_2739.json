@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last spring, I went to the kindergarten graduation for my child. She is autistic with some speech delay, so school is sometimes a struggle for her. I appreciated being able to take part in the celebration of her hard work. The children demonstrated some of their new skills through songs and presentations. I was especially impressed when my child walked right up to a microphone to tell the audience about learning her shapes. At the beginning of the year, she could barely hold still on stage and needed a teacher to help her. She would have been scared to talk in front of people. I was very proud of this new development. After the kids did their presentations, the families ate potluck food. My daughter wanted to eat lots of watermelon. I helped both my kids get plates, and we sat down to eat. Then my kids were running around and playing with other kids. I was impressed to see them demonstrating social skills. My son especially has struggled to play with other kids, so I was happy to see it that night. After that, we went home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last spring, I went to the kindergarten graduation for my child. She is autistic with some speech delay, so school is sometimes a struggle for her. I appreciated being able to take part in the celebration of her hard work. The children demonstrated some of their new skills through songs and presentations. I was especially impressed when my child walked right up to a microphone to tell the audience about learning her shapes. At the beginning of the year, she could barely hold still on stage and needed a teacher to help her. She would have been scared to talk in front of people. I was very proud of this new development. After the kids did their presentations, the families ate potluck food. My daughter wanted to eat lots of watermelon. I helped both my kids get plates, and we sat down to eat. Then my kids were running around and playing with other kids. I was impressed to see them demonstrating social skills. My son especially has struggled to play with other kids, so I was happy to see it that night. After that, we went home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ebcd35b7c1869-EWR"
+    }
+}

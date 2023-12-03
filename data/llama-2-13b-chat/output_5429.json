@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Goodbye to our Gus. Gus has been with us for almost 12 years. He was a wonderful, nice, sleepy, hungry Yellow Labrador. He came into our family in 2009. He was in a rescue place after the flooding in 2008. He was 2 years at that time. We liked him at first sight. From that time ,he was part of our family. Then ,on April 24th, my wife went down in the morning and found him in the corner of the room. He could not get up, but was aware of us. We had to take him into our car on a blanket. The vet checked him, and told us, that he had low blood pressure, and probably a shock also. There was nothing else. We all knew, what was going to happen. He had no pain and we watched him closing his eyes forever. When I write this, I'm crying. Bye buddy. Thanks for your neverending love ."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Goodbye to our Gus. Gus has been with us for almost 12 years. He was a wonderful, nice, sleepy, hungry Yellow Labrador. He came into our family in 2009. He was in a rescue place after the flooding in 2008. He was 2 years at that time. We liked him at first sight. From that time ,he was part of our family. Then ,on April 24th, my wife went down in the morning and found him in the corner of the room. He could not get up, but was aware of us. We had to take him into our car on a blanket. The vet checked him, and told us, that he had low blood pressure, and probably a shock also. There was nothing else. We all knew, what was going to happen. He had no pain and we watched him closing his eyes forever. When I write this, I'm crying. Bye buddy. Thanks for your neverending love .",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We'll miss you.\n\n"
+            }
+        ],
+        "request_id": "811f31493bd11962-EWR"
+    }
+}

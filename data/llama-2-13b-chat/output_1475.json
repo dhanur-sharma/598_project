@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I quit my job in order to retire.  I was not entirely happy about it, but it was time.  I wish I had left a better feeling at work with Stephanie, but aside from that, it was basically a good experience.  Tim said \"Good luck, Mike\" when I cleaned out my desk.  I gave Chris my tissues and a fistful of red pens.  Since Chris has severe allergies, this small gift was appreciated.  I gave Rachael an unfinished buyback, but luckily she appreciated the humor.  I loaded up Smiley, my Mexican sugar skull, and Jules, my turtle.  I put the box in the car and took a deep breath.  The weather was nice and sunny.  I did feel a sense of relief as I drove away.  I would never have to go there again!  There were money worries, of course.  But I have plenty saved.  Also, Kathy is still working, so that will help.  And I can devote myself to the kids."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I quit my job in order to retire.  I was not entirely happy about it, but it was time.  I wish I had left a better feeling at work with Stephanie, but aside from that, it was basically a good experience.  Tim said \"Good luck, Mike\" when I cleaned out my desk.  I gave Chris my tissues and a fistful of red pens.  Since Chris has severe allergies, this small gift was appreciated.  I gave Rachael an unfinished buyback, but luckily she appreciated the humor.  I loaded up Smiley, my Mexican sugar skull, and Jules, my turtle.  I put the box in the car and took a deep breath.  The weather was nice and sunny.  I did feel a sense of relief as I drove away.  I would never have to go there again!  There were money worries, of course.  But I have plenty saved.  Also, Kathy is still working, so that will help.  And I can devote myself to the kids.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I do feel a sense of sadness.  I'm going to miss the people.  But, all in all, it was time to go.\n\n"
+            }
+        ],
+        "request_id": "811ea588386042f2-EWR"
+    }
+}

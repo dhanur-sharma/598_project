@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Approximately four months ago I was contacted by my manager to speak about my current role with the company.  At this point in time I was coming up on being employed with the company for nearly twenty years.  My performance over the years had always met or even exceeded expectations.  However, recently the company gained a new CEO, and he wanted to speak about the program that I managed.  He wanted to schedule an appointment with my manager and myself to discuss the program. After a week or two had passed the meeting that was scheduled with the CEO was abruptly cancelled.  This concerned me, but not overly so.  A few days later my manager advised that she wanted to meet with me.  She let me know at that time that my role was being eliminated, and that I would be losing my job.  I was extremely upset.  I felt betrayed and abandoned by the company that I had worked for for nearly twenty years.  I was making good money and didn't know what I would do to support my family.  I felt depressed, defeated, and like a failure.  My wife and family were supportive and encouraged me through the tough times.  I needed to refocus and decide what new career path I wanted to embark upon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Approximately four months ago I was contacted by my manager to speak about my current role with the company.  At this point in time I was coming up on being employed with the company for nearly twenty years.  My performance over the years had always met or even exceeded expectations.  However, recently the company gained a new CEO, and he wanted to speak about the program that I managed.  He wanted to schedule an appointment with my manager and myself to discuss the program. After a week or two had passed the meeting that was scheduled with the CEO was abruptly cancelled.  This concerned me, but not overly so.  A few days later my manager advised that she wanted to meet with me.  She let me know at that time that my role was being eliminated, and that I would be losing my job.  I was extremely upset.  I felt betrayed and abandoned by the company that I had worked for for nearly twenty years.  I was making good money and didn't know what I would do to support my family.  I felt depressed, defeated, and like a failure.  My wife and family were supportive and encouraged me through the tough times.  I needed to refocus and decide what new career path I wanted to embark upon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I started to look for new job opportunities, networked with former colleagues and started to take online courses to gain new skills.  It has been a challenging and difficult time, but I am determined to find a new job and move forward.\n\n"
+            }
+        ],
+        "request_id": "811f441d7cad0f8d-EWR"
+    }
+}

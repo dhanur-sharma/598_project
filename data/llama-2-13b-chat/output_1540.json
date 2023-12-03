@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five months back, I had a birthday party. It was a bit of a surprise party. My husband and family made it happen. I was glad they did. It was exciting and we had a lot of fun. They showered me with a lot of gifts. They loved making me happy that day. They know I like surprises, and they delivered. I was very happy. I wish every birthday would be as exciting as that one. I hope next year i can have something exciting like that too. I spent the next day opening up my gifts. I was so happy to see all of the nice things they bought. I particularly loved my first son's gift. It was beautiful and thoughtful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five months back, I had a birthday party. It was a bit of a surprise party. My husband and family made it happen. I was glad they did. It was exciting and we had a lot of fun. They showered me with a lot of gifts. They loved making me happy that day. They know I like surprises, and they delivered. I was very happy. I wish every birthday would be as exciting as that one. I hope next year i can have something exciting like that too. I spent the next day opening up my gifts. I was so happy to see all of the nice things they bought. I particularly loved my first son's gift. It was beautiful and thoughtful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't wait to see what they have planned for next year."
+            }
+        ],
+        "request_id": "811ea69f9d09c342-EWR"
+    }
+}

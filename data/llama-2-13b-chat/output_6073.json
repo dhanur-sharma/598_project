@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm going to tell you a story that happened to me around one week ago. This story begins like any other -- I started the day by waking up, showering, having a small breakfast and then preparing to leave for work. On most days, I ride to work with my coworker since he lives very close by and doesn't mind driving me. That day was no different. I hopped in my coworker's (we'll refer to him as 'D' from now on) car and said 'good morning'. D greeted me, we put our seat belts on and then headed for work. Everything seemed to be going as it normally did - D and I shared some small-talk on the way to work. We ended up stopping at a coffee-shop drive through to help us wake up a little more.   After leaving the coffee shop, our normal routine was disrupted by something rather shocking and unexpected: While we were at a stoplight, we witnessed a vehicle run a red light and hit a pedestrian who was crossing the road with his car! D and I were both shocked and felt helpless. I immediately dialed 911 to report an emergency, as I was worried for the pedestrian's life. To my surprise, after explaining the incident, the 911 operator put me on hold! I couldn't believe that an emergency this severe was being put on the back burner -- I was a little peeved. However, around 3 minutes later, the operator came back on the phone and assured me that emergency services were on their way. I was relieved, but still worried about the pedestrian who had been stuck by the car.   At this point, D and I decided to get out of the car and make sure the pedestrian was alright. The pedestrian was in disarray, but stable and not in critical danger -- he just had a few scrapes and bruises.    Around 4 minutes later, the ambulance arrived. We stayed with the pedestrian until the ambulance assured us that he was alright and taken care of.    D and I rode to work just like normally afterwards - but we had to explain to our boss why we were late!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm going to tell you a story that happened to me around one week ago. This story begins like any other -- I started the day by waking up, showering, having a small breakfast and then preparing to leave for work. On most days, I ride to work with my coworker since he lives very close by and doesn't mind driving me. That day was no different. I hopped in my coworker's (we'll refer to him as 'D' from now on) car and said 'good morning'. D greeted me, we put our seat belts on and then headed for work. Everything seemed to be going as it normally did - D and I shared some small-talk on the way to work. We ended up stopping at a coffee-shop drive through to help us wake up a little more.   After leaving the coffee shop, our normal routine was disrupted by something rather shocking and unexpected: While we were at a stoplight, we witnessed a vehicle run a red light and hit a pedestrian who was crossing the road with his car! D and I were both shocked and felt helpless. I immediately dialed 911 to report an emergency, as I was worried for the pedestrian's life. To my surprise, after explaining the incident, the 911 operator put me on hold! I couldn't believe that an emergency this severe was being put on the back burner -- I was a little peeved. However, around 3 minutes later, the operator came back on the phone and assured me that emergency services were on their way. I was relieved, but still worried about the pedestrian who had been stuck by the car.   At this point, D and I decided to get out of the car and make sure the pedestrian was alright. The pedestrian was in disarray, but stable and not in critical danger -- he just had a few scrapes and bruises.    Around 4 minutes later, the ambulance arrived. We stayed with the pedestrian until the ambulance assured us that he was alright and taken care of.    D and I rode to work just like normally afterwards - but we had to explain to our boss why we were late!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "   The whole ordeal was a bit surreal. We were all so shaken up, but we were glad that we could help out in some way. "
+            }
+        ],
+        "request_id": "811f3e443af5433a-EWR"
+    }
+}

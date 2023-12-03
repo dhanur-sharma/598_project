@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It finally happened a month ago.  I got the promotion I was promised nearly five years prior.  When I first took this job, I was told that the person who's position I was most qualified for would be retiring within the year.  The position I took was a way to get my foot in the door and I would be first in consideration upon his retirement.  So I took it.  I worked alongside the man, who ended up not retiring after all.  He didn't do well in saving his money, so he couldn't afford to.  My boss kept promising me that this would happen and just be patient.  I started looking elsewhere 2 years ago when I figured this would never come to fruition.  Something always held me back from leaving though.  The company was sold a year ago, but our office was kept intact.  I met new management, who made me the same promises after looking through my work history.  I was ready to leave.  Last month, I was called into the office.  They had heard that some head hunters were looking at me.  They offered me the promotion I wanted and it's been amazing month so far."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It finally happened a month ago.  I got the promotion I was promised nearly five years prior.  When I first took this job, I was told that the person who's position I was most qualified for would be retiring within the year.  The position I took was a way to get my foot in the door and I would be first in consideration upon his retirement.  So I took it.  I worked alongside the man, who ended up not retiring after all.  He didn't do well in saving his money, so he couldn't afford to.  My boss kept promising me that this would happen and just be patient.  I started looking elsewhere 2 years ago when I figured this would never come to fruition.  Something always held me back from leaving though.  The company was sold a year ago, but our office was kept intact.  I met new management, who made me the same promises after looking through my work history.  I was ready to leave.  Last month, I was called into the office.  They had heard that some head hunters were looking at me.  They offered me the promotion I wanted and it's been amazing month so far.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec5c19c4e4411-EWR"
+    }
+}

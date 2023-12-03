@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last May I was forced to quit my 5 years old job. the first week of December I trust one of my coworker to help me out with an important project for the university, but in that project we had to deal with money. She was stealing money and I didn't realize it. Once the project was half way I had to request more money because we were out of it, and the way she explained to me was very convincing at that moment. The accounting department started to investigate, it was not at all clear. There were missing money from that project and som others as well. Eventhought, I had nothing to do with it, it was not the first time, so they said they need to let me go. I had no more option than quitting my job. I was sad and depressed for about 4 weeks. I was constantly blaming myslef for what happened. Those were the worst weeks of my life. I finally understood it was not my fault and things happened for a reason. I got another job almost as good as that one. I have been more careful with people and project. I haven't been able to trust people like I used to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last May I was forced to quit my 5 years old job. the first week of December I trust one of my coworker to help me out with an important project for the university, but in that project we had to deal with money. She was stealing money and I didn't realize it. Once the project was half way I had to request more money because we were out of it, and the way she explained to me was very convincing at that moment. The accounting department started to investigate, it was not at all clear. There were missing money from that project and som others as well. Eventhought, I had nothing to do with it, it was not the first time, so they said they need to let me go. I had no more option than quitting my job. I was sad and depressed for about 4 weeks. I was constantly blaming myslef for what happened. Those were the worst weeks of my life. I finally understood it was not my fault and things happened for a reason. I got another job almost as good as that one. I have been more careful with people and project. I haven't been able to trust people like I used to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea2160f9543d6-EWR"
+    }
+}

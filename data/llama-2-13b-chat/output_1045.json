@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My time as a social worker has only lasted a few months, but it has been crazy. I have already dealt with a number of issues that some people take years to see. I guess you can say I'm pretty seasoned at this already. They throw you to the wolves pretty quick in this type of job, but I know I can handle it. Two weeks ago though, things got pretty rough. It was day two of me shadowing with a violent client, and he was exhibiting some really concerning symptoms. After my colleague touched on a bit of a rough subject, he completely went off the handle. I suggested that we all take a walk to Starbucks to get a drink. My colleague agreed. Once we arrived and stepped in line however, he began to hit both of us in the arm continuously. We told him to stop numerous times, but he continued and began to make a scene. Since we were in line and still had yet to order drinks, this behavior went on for nearly 20 minutes before we left the store. And because our handbook indicates that we should not acknowledge his action in public, we were forced to endure his attack until we arrived back at our facility. Upon arriving we informed him of how wrong his actions were, and that it would not be tolerated in our program. He indicated a small amount of remorse but ultimately did not appear serious. I truly do not look forward to working with this client again in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My time as a social worker has only lasted a few months, but it has been crazy. I have already dealt with a number of issues that some people take years to see. I guess you can say I'm pretty seasoned at this already. They throw you to the wolves pretty quick in this type of job, but I know I can handle it. Two weeks ago though, things got pretty rough. It was day two of me shadowing with a violent client, and he was exhibiting some really concerning symptoms. After my colleague touched on a bit of a rough subject, he completely went off the handle. I suggested that we all take a walk to Starbucks to get a drink. My colleague agreed. Once we arrived and stepped in line however, he began to hit both of us in the arm continuously. We told him to stop numerous times, but he continued and began to make a scene. Since we were in line and still had yet to order drinks, this behavior went on for nearly 20 minutes before we left the store. And because our handbook indicates that we should not acknowledge his action in public, we were forced to endure his attack until we arrived back at our facility. Upon arriving we informed him of how wrong his actions were, and that it would not be tolerated in our program. He indicated a small amount of remorse but ultimately did not appear serious. I truly do not look forward to working with this client again in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9cd3ca624392-EWR"
+    }
+}

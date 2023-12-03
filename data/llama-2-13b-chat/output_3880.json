@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was gradually having more and more trouble seeing. My eyes would become unfocused with little spots appearing in my blurred vision. It had become dangerous to drive and was affecting my job. It was difficult to make myself go see the eye doctor because my insurance has a high deductible, but I couldn't keep putting this off. I went in to the office thinking that I'll probably just get some six hundred dollar eye drops and be on my merry way, but I was so horribly wrong. It's about to get even worse because the doctor told me I have some really serious, severe problem with my eyes that will only continue to progress, some long name medical condition that I can't even recall. I have to go in for surgery to treat it. I don't know how I'm going to be able to take off work for this, and I can only dream that my insurance will cover it. It feels like my whole life is crashing down around me. I'm going to talk to my boss this afternoon to request time off. It's just eye surgery, so I shouldn't need very long to recover, right? I think my eyes will just be sensitive, like a bad hangover. If I get fired for missing work, then I don't know what I'll do. Maybe I can just go blind. At least then my apartment will let me have a dog, right?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was gradually having more and more trouble seeing. My eyes would become unfocused with little spots appearing in my blurred vision. It had become dangerous to drive and was affecting my job. It was difficult to make myself go see the eye doctor because my insurance has a high deductible, but I couldn't keep putting this off. I went in to the office thinking that I'll probably just get some six hundred dollar eye drops and be on my merry way, but I was so horribly wrong. It's about to get even worse because the doctor told me I have some really serious, severe problem with my eyes that will only continue to progress, some long name medical condition that I can't even recall. I have to go in for surgery to treat it. I don't know how I'm going to be able to take off work for this, and I can only dream that my insurance will cover it. It feels like my whole life is crashing down around me. I'm going to talk to my boss this afternoon to request time off. It's just eye surgery, so I shouldn't need very long to recover, right? I think my eyes will just be sensitive, like a bad hangover. If I get fired for missing work, then I don't know what I'll do. Maybe I can just go blind. At least then my apartment will let me have a dog, right?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed311fe478c30-EWR"
+    }
+}

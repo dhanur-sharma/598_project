@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a long bout of insomnia. The exhaustion caused me to develop a heart flutter. I was always tired and often dizzy and short of breath. I wasn't sure what was causing it, but I knew I was having trouble sleeping and I picked up some over the counter sleep aids. It turned out that this was exactly what I needed. The heart flutter went away and I felt fine after that. I told my friend the story and it worried him. I told him I was fine now, but that didn't seem to satisfy him. We went to a street fair and he kept telling me to slow down and take it easy. Again, I told him I was fine. He didn't have to worry. I was good. But he insisted. I was touched by how concerned he was. I was also a little annoyed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a long bout of insomnia. The exhaustion caused me to develop a heart flutter. I was always tired and often dizzy and short of breath. I wasn't sure what was causing it, but I knew I was having trouble sleeping and I picked up some over the counter sleep aids. It turned out that this was exactly what I needed. The heart flutter went away and I felt fine after that. I told my friend the story and it worried him. I told him I was fine now, but that didn't seem to satisfy him. We went to a street fair and he kept telling me to slow down and take it easy. Again, I told him I was fine. He didn't have to worry. I was good. But he insisted. I was touched by how concerned he was. I was also a little annoyed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wanted to be able to prove to him that I was okay, but I couldn't. I just had to trust him and trust myself.\n\n"
+            }
+        ],
+        "request_id": "811f3fb29a911811-EWR"
+    }
+}

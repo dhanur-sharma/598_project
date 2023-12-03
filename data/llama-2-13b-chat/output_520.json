@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter was accepted in Rutgers University. I was pretty proud because I home-schooled her. She had a lot of problems focusing starting in the third grade so I pulled her out of school. That was a scary decision for both of us but especially me. I was pressured by friends and family and quite frankly shamed.  We were told she would never get into college if I did that. It took many months to find what schedule worked and how to help her learn best.  It was a lot of work but together we preserved. Sometimes I see traces of the old problems but she has plenty of coping mechanisms and self-esteem to deal with any problems that arise. So, needless to say when she was accepted that was a huge moment for us. We were in a state of happy shock.  I will never forget that day. We were both at home when we got the call. I thought something had gone wrong but it was her recruiter calling. He told her where to look to check her status and there is was! We were overjoyed!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter was accepted in Rutgers University. I was pretty proud because I home-schooled her. She had a lot of problems focusing starting in the third grade so I pulled her out of school. That was a scary decision for both of us but especially me. I was pressured by friends and family and quite frankly shamed.  We were told she would never get into college if I did that. It took many months to find what schedule worked and how to help her learn best.  It was a lot of work but together we preserved. Sometimes I see traces of the old problems but she has plenty of coping mechanisms and self-esteem to deal with any problems that arise. So, needless to say when she was accepted that was a huge moment for us. We were in a state of happy shock.  I will never forget that day. We were both at home when we got the call. I thought something had gone wrong but it was her recruiter calling. He told her where to look to check her status and there is was! We were overjoyed!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still can't believe it.\n\n"
+            }
+        ],
+        "request_id": "811e934439b64302-EWR"
+    }
+}

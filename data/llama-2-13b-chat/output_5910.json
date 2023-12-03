@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had the opportunity to be an officiant for my best friends wedding last month and it was one of the best days of my life. I met with the couple leading up to the wedding and made sure to go through their wants and wishes in detail. From that I made a list of what to include and not include during the ceremony and began writing a script. Building the script was probably the single most stressful part of this work. I generally have a lot of words. Still, finding the right ones to say proved to be incredibly challenging here. I went through at least five different drafts of the speech before I settled on something that I really loved. This really was a labor of love. At the rehearsal I made significant modifications to the script based on my own experience and understanding of the couple. The initial reaction was incredibly positive. Still, I wanted perfection and went back to the drawing board. On the day of the ceremony I was incredibly excited but nervous. My friend was a wreck and needed a lot of emotional support. As we walked up to the altar together I gave him words of encouragement and got into my speech. It was a beautiful ceremony and something I will never forget. Being able to do this for him is one of the highlights of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had the opportunity to be an officiant for my best friends wedding last month and it was one of the best days of my life. I met with the couple leading up to the wedding and made sure to go through their wants and wishes in detail. From that I made a list of what to include and not include during the ceremony and began writing a script. Building the script was probably the single most stressful part of this work. I generally have a lot of words. Still, finding the right ones to say proved to be incredibly challenging here. I went through at least five different drafts of the speech before I settled on something that I really loved. This really was a labor of love. At the rehearsal I made significant modifications to the script based on my own experience and understanding of the couple. The initial reaction was incredibly positive. Still, I wanted perfection and went back to the drawing board. On the day of the ceremony I was incredibly excited but nervous. My friend was a wreck and needed a lot of emotional support. As we walked up to the altar together I gave him words of encouragement and got into my speech. It was a beautiful ceremony and something I will never forget. Being able to do this for him is one of the highlights of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b01a8c58c9b-EWR"
+    }
+}

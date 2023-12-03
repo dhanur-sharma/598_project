@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, a few months back I started training for my new position with the US Census Bureau, and I wanted to tell you about my experience. Firstly, it took an incredibly long amount of time and too much energy. I don't think it needed to be as stressful as it was. It was strenuous and tiring, all for a job that is supposed to be relatively simple. My trainers were not trained in the subject matter themselves and have never worked in this position. Because of that, they had a hard time going over the subject matter with us as a class and it was painful to witness them struggle. I regret the entire experience, as I was offered a better position some weeks later with a better pay amount and less stressful training. It took SO LONG to complete, every training class was 3 hours long and we did several classes a day. The organizers were incompetent, and this was a mistake by far. I learned my lesson and so far I am much happier in my new position. I have made many friends and feel competent in the training I have received thus far. Moral of the story, never work for the US Census Bureau. I am happy to move on. Time to go to my new job now. Thank you for listening Diary."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, a few months back I started training for my new position with the US Census Bureau, and I wanted to tell you about my experience. Firstly, it took an incredibly long amount of time and too much energy. I don't think it needed to be as stressful as it was. It was strenuous and tiring, all for a job that is supposed to be relatively simple. My trainers were not trained in the subject matter themselves and have never worked in this position. Because of that, they had a hard time going over the subject matter with us as a class and it was painful to witness them struggle. I regret the entire experience, as I was offered a better position some weeks later with a better pay amount and less stressful training. It took SO LONG to complete, every training class was 3 hours long and we did several classes a day. The organizers were incompetent, and this was a mistake by far. I learned my lesson and so far I am much happier in my new position. I have made many friends and feel competent in the training I have received thus far. Moral of the story, never work for the US Census Bureau. I am happy to move on. Time to go to my new job now. Thank you for listening Diary.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e999689495e60-EWR"
+    }
+}

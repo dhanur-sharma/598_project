@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were married for 10 years--and from that marriage we had two twin girls--who are both 9 year olds. For years, the marriage was crumbling. My husband and I had communication problems. I had lost my job about a year ago, and that compounded the issues we had. If we did decide to \"communicate\", it was usually over yelling matches. Just a toxic environment for our kids--hence, why we are heading to divorce court. Since my husband is the breadwinner, he wants to take my kids from me. He is suing for full custody--limiting my interactions with my two daughters. I might only to get to see them on the weekends. I'm sure the judge will give him what he wants, since he is the one with a full-time job, and I still have failed to find one. I\"m going to lose my home, marriage, and even worst, my daughters. This has been a horrible year! We had started divorce proceedings three weeks ago, and this has been a rough three weeks. My husband brings my daughters over on the weekends. It's hard just getting to see them for a weekend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were married for 10 years--and from that marriage we had two twin girls--who are both 9 year olds. For years, the marriage was crumbling. My husband and I had communication problems. I had lost my job about a year ago, and that compounded the issues we had. If we did decide to \"communicate\", it was usually over yelling matches. Just a toxic environment for our kids--hence, why we are heading to divorce court. Since my husband is the breadwinner, he wants to take my kids from me. He is suing for full custody--limiting my interactions with my two daughters. I might only to get to see them on the weekends. I'm sure the judge will give him what he wants, since he is the one with a full-time job, and I still have failed to find one. I\"m going to lose my home, marriage, and even worst, my daughters. This has been a horrible year! We had started divorce proceedings three weeks ago, and this has been a rough three weeks. My husband brings my daughters over on the weekends. It's hard just getting to see them for a weekend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My husband has already moved on, and he's already dating someone. I know he's trying to make me jealous. I'm not sure how much longer I can keep going like this. I've been so depressed and anxious. My heart is broken. I feel like I'm losing everything.\n\n"
+            }
+        ],
+        "request_id": "811ea2566b35435b-EWR"
+    }
+}

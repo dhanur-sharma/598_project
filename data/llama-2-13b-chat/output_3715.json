@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I began a job search.  I searched online on several websites.  About two weeks in, I found an ideal opportunity. I had a lot of experience for this job so I applied.   I did a phone interview with the manager.  He liked me a lot.  I had worked with two of the employees at that company in my current job as a vendor.  Those employees were familiar with me and my work ethic and knowledge level. This helped me gain goodwill. The boss, two of the people on the team I'd be joining, and one person on another team flew in to meet me.  They took me to a steak dinner where we got to know each other.  A few weeks later, I received an offer.  I acccepted the offer on Monday.  Today I gave my notice today at my job.    I had been there for many years and my colleagues are sad.  It is bittersweet but I feel it will be a good move."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I began a job search.  I searched online on several websites.  About two weeks in, I found an ideal opportunity. I had a lot of experience for this job so I applied.   I did a phone interview with the manager.  He liked me a lot.  I had worked with two of the employees at that company in my current job as a vendor.  Those employees were familiar with me and my work ethic and knowledge level. This helped me gain goodwill. The boss, two of the people on the team I'd be joining, and one person on another team flew in to meet me.  They took me to a steak dinner where we got to know each other.  A few weeks later, I received an offer.  I acccepted the offer on Monday.  Today I gave my notice today at my job.    I had been there for many years and my colleagues are sad.  It is bittersweet but I feel it will be a good move.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecf62aaf842bc-EWR"
+    }
+}

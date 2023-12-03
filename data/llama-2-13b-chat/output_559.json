@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went to the funeral of a friend. She and I were very close in school, but we'd been distracted by our own lives since. Still, whenever we met up, it was like no time at all had passed since we'd last seen each other. We'd laugh and carry on like always. Her presence was always calming. She brightened every day she touched. So, sad as I was, it felt right to speak for her. In my eulogy, I talked about what a good person she was. No matter what was going on, she always saw the bright side. No matter what a person did, she always thought positively. She was relentlessly optimistic. She truly believed in the good in the world. Our community needs more people like her. This world needs more people like her. I'm not only sad that my friend is gone, I'm also sad for our world, that she's no longer in it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went to the funeral of a friend. She and I were very close in school, but we'd been distracted by our own lives since. Still, whenever we met up, it was like no time at all had passed since we'd last seen each other. We'd laugh and carry on like always. Her presence was always calming. She brightened every day she touched. So, sad as I was, it felt right to speak for her. In my eulogy, I talked about what a good person she was. No matter what was going on, she always saw the bright side. No matter what a person did, she always thought positively. She was relentlessly optimistic. She truly believed in the good in the world. Our community needs more people like her. This world needs more people like her. I'm not only sad that my friend is gone, I'm also sad for our world, that she's no longer in it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e94133bbe43b6-EWR"
+    }
+}

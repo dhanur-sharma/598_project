@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been 5 months now since I experienced what was sough to to be the best day of my life, but instead it was the worst ever! I arrived early at Macys to pick up my customized cape and gown. Prior to my graduation date, my grandmother had said she was going to pay for it in full and by the time I had to pick it up it would be handled. I attempted to grab my cape and gown from the clerk, and she said \"will this be cash or card?\" I was stunned because I thought it was already taken care of. I frantically called my grandmother, and she said she had not made it down here yet. I was frazzled! I had less than 2 hours before graduation, and my cape and gown was not even ready to be picked up. After 45 minutes, she came and made sure to pay off my cape and gown. Now after this minor hiccup, I had 1 hour and 15 minutes until the ceremony. I still had to go to my stylist, and buy shoes! I arrived at the stylist 5 minutes late. She then tells me she took her next client and I would have to wait. I was a mess at this point. I decided I was going to rush to my dorm, and get my own hair ready. I did it in under 30 minutes. It was not what I had planned, but I made it work. With less than 30 minutes left, I had to buy dress shoes now. Upon arriving at the shoe store, I started searching for shoes. It seemed every shoe that matched my gown was not in my size! I ended up purchasing a shoe that was a 1/2 a size too big! I rushed as fast as I could to the ceremony. When I walked in, I went to sit down with my other classmates. They all gave me a strange look. One of them exclaims \"you missed your name being called!\" I was distraught. At that point I burst into tears and left."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been 5 months now since I experienced what was sough to to be the best day of my life, but instead it was the worst ever! I arrived early at Macys to pick up my customized cape and gown. Prior to my graduation date, my grandmother had said she was going to pay for it in full and by the time I had to pick it up it would be handled. I attempted to grab my cape and gown from the clerk, and she said \"will this be cash or card?\" I was stunned because I thought it was already taken care of. I frantically called my grandmother, and she said she had not made it down here yet. I was frazzled! I had less than 2 hours before graduation, and my cape and gown was not even ready to be picked up. After 45 minutes, she came and made sure to pay off my cape and gown. Now after this minor hiccup, I had 1 hour and 15 minutes until the ceremony. I still had to go to my stylist, and buy shoes! I arrived at the stylist 5 minutes late. She then tells me she took her next client and I would have to wait. I was a mess at this point. I decided I was going to rush to my dorm, and get my own hair ready. I did it in under 30 minutes. It was not what I had planned, but I made it work. With less than 30 minutes left, I had to buy dress shoes now. Upon arriving at the shoe store, I started searching for shoes. It seemed every shoe that matched my gown was not in my size! I ended up purchasing a shoe that was a 1/2 a size too big! I rushed as fast as I could to the ceremony. When I walked in, I went to sit down with my other classmates. They all gave me a strange look. One of them exclaims \"you missed your name being called!\" I was distraught. At that point I burst into tears and left.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I walked back to my dorm, and cried the entire way. The worst day of my life!"
+            }
+        ],
+        "request_id": "811ea3a58e8a0c7a-EWR"
+    }
+}

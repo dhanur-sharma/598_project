@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was able to go to see John Mayer live. I quickly was able to snag some tickets for really great seats. It was an amazing experience. His instrumentals and lyrics really speak to me personally, they are just extremely relatable. I also still remember how great and beautiful the art visuals were at his show. He had beautiful natural backgrounds like deserts and trees but with great colors that lit up the stage. Some of my favorite parts of the show were his guitar solos. They were simply insane, he would just get lost in the chords and just go on and on with the solo for sometimes 5 minutes. That may not be everyone's cup of tea, but you could really feel the music. Another moment in the show that really stood out to me was the confetti released at the end. Me and my friend got so excited, but also we were a little sad the show was over. I have been listening to John Mayer's music steadily since after the show. Since he's been around for so many years, I would go through periods where I didn't listen to him as much, but after hearing him live my appreciation for him has grown so much more. I still remember his show bringing tears to my eyes. My friend and I now share such a beautiful memory of that weekend. I still watch back video clips that I caught of the show every once in a while when I want to re-live the experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was able to go to see John Mayer live. I quickly was able to snag some tickets for really great seats. It was an amazing experience. His instrumentals and lyrics really speak to me personally, they are just extremely relatable. I also still remember how great and beautiful the art visuals were at his show. He had beautiful natural backgrounds like deserts and trees but with great colors that lit up the stage. Some of my favorite parts of the show were his guitar solos. They were simply insane, he would just get lost in the chords and just go on and on with the solo for sometimes 5 minutes. That may not be everyone's cup of tea, but you could really feel the music. Another moment in the show that really stood out to me was the confetti released at the end. Me and my friend got so excited, but also we were a little sad the show was over. I have been listening to John Mayer's music steadily since after the show. Since he's been around for so many years, I would go through periods where I didn't listen to him as much, but after hearing him live my appreciation for him has grown so much more. I still remember his show bringing tears to my eyes. My friend and I now share such a beautiful memory of that weekend. I still watch back video clips that I caught of the show every once in a while when I want to re-live the experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would definitely go see him again if he comes back around."
+            }
+        ],
+        "request_id": "811f405acfe94331-EWR"
+    }
+}

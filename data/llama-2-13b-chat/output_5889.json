@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After trying for a year to have a baby, I finally got pregnant. My husband and I couldn't have been happier. We planned out everything. We had the name picked out right away for each gender, we knew how we were going to decorate the room, we notified everyone, we were just ready. Then, 6 months ago, I had a miscarriage. I couldn't stop crying. I didn't know why this was happening to me. I thought it just meant I wasn't meant to have a baby. I stayed in bed for weeks. My husband was almost as broken up as I was. When everyone found out, we were flooded with support, gifts, small favors, etc. That helped us, but we still couldn't get over it. My husband and I haven't tried again and I don't know if I ever want to. I'm still not over it. I don't want to get my hopes up again and then have to have them crushed, and I don't think my husband does either. Hopefully in the next year, I will be back to normal."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After trying for a year to have a baby, I finally got pregnant. My husband and I couldn't have been happier. We planned out everything. We had the name picked out right away for each gender, we knew how we were going to decorate the room, we notified everyone, we were just ready. Then, 6 months ago, I had a miscarriage. I couldn't stop crying. I didn't know why this was happening to me. I thought it just meant I wasn't meant to have a baby. I stayed in bed for weeks. My husband was almost as broken up as I was. When everyone found out, we were flooded with support, gifts, small favors, etc. That helped us, but we still couldn't get over it. My husband and I haven't tried again and I don't know if I ever want to. I'm still not over it. I don't want to get my hopes up again and then have to have them crushed, and I don't think my husband does either. Hopefully in the next year, I will be back to normal.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But right now, I'm just taking it one day at a time."
+            }
+        ],
+        "request_id": "811f3a79dce515a3-EWR"
+    }
+}

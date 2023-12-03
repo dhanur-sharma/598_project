@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a strange part of my life. I didn't see what was coming to me. I was working a dead end job and was forced to live in an apartment in the shady part of town. This lasted about 6 months. Most of the time it was fine, but one day my landlord started acting strange. We had a deal where I was just paying him rent in cash. It was a little strange, but my choices were limited and him and I were both fine. He didn't appear to be a crackhead but I heard rumors among the complex. One day he just snapped. The first was when my rent was usually due. I went to his office like normal. When giving him the cash, he stood up, silent. Then he started berating and yelling at me. I was genuinely confused and started to leave. That's when he threw a punch at me. I was able to avoid it. I quickly started looking for another place to live and my cousin let me stay on his couch about a week while I was able to do that. I'm glad I got out of there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a strange part of my life. I didn't see what was coming to me. I was working a dead end job and was forced to live in an apartment in the shady part of town. This lasted about 6 months. Most of the time it was fine, but one day my landlord started acting strange. We had a deal where I was just paying him rent in cash. It was a little strange, but my choices were limited and him and I were both fine. He didn't appear to be a crackhead but I heard rumors among the complex. One day he just snapped. The first was when my rent was usually due. I went to his office like normal. When giving him the cash, he stood up, silent. Then he started berating and yelling at me. I was genuinely confused and started to leave. That's when he threw a punch at me. I was able to avoid it. I quickly started looking for another place to live and my cousin let me stay on his couch about a week while I was able to do that. I'm glad I got out of there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdd0118f20fa1-EWR"
+    }
+}

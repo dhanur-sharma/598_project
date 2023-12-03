@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today we laid my mother in law to rest. The funeral was beautiful and very tasteful. There were so many people there. Friends, family, club members, dancers, neighbors, people from church. I will miss her dearly as she was my best friend for 20 years. I still cannot believe she is gone. Cancer sucks!! Many of the people there made a donation to animal shelters. She was so passionate about animals. She was well loved and will be missed. The service the pastor gave was so elegant and appropriate for the occasion. It will be a day I  will remember for a long time. She will never be forgotten. The weather was beautiful. I enjoyed the service. Funerals are often depressing but hers was very nice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today we laid my mother in law to rest. The funeral was beautiful and very tasteful. There were so many people there. Friends, family, club members, dancers, neighbors, people from church. I will miss her dearly as she was my best friend for 20 years. I still cannot believe she is gone. Cancer sucks!! Many of the people there made a donation to animal shelters. She was so passionate about animals. She was well loved and will be missed. The service the pastor gave was so elegant and appropriate for the occasion. It will be a day I  will remember for a long time. She will never be forgotten. The weather was beautiful. I enjoyed the service. Funerals are often depressing but hers was very nice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt good knowing so many people loved her. I felt so much support. I am grateful for the memories I have of her.\n\n"
+            }
+        ],
+        "request_id": "811e8b262c5c19b6-EWR"
+    }
+}

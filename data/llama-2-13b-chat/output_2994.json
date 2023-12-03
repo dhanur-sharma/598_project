@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have lived in MA since I was born. In fact, I had never even left MA. I am the definition of not well-traveled. Last year, we both graduated from college and managed to get jobs at the same company. The only issue was, it was in New Mexico. I had planned to live in MA my entire life. I do not like change. But this was something I had to do. We made arrangements and started packing. I said my good-byes to my family, which was hard. Then, 6 months ago, we took of. We drove just because we thought it would be more fun. We took out cat with us. He was in the cage some of the time, but we let him out the majority of the drive so he could look out the windows. It was an insanely long drive. We stopped at countless restaurants and hotels. It was very fun and something I will never forget. Now, I'm still getting used to living in New Mexico. I do miss home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have lived in MA since I was born. In fact, I had never even left MA. I am the definition of not well-traveled. Last year, we both graduated from college and managed to get jobs at the same company. The only issue was, it was in New Mexico. I had planned to live in MA my entire life. I do not like change. But this was something I had to do. We made arrangements and started packing. I said my good-byes to my family, which was hard. Then, 6 months ago, we took of. We drove just because we thought it would be more fun. We took out cat with us. He was in the cage some of the time, but we let him out the majority of the drive so he could look out the windows. It was an insanely long drive. We stopped at countless restaurants and hotels. It was very fun and something I will never forget. Now, I'm still getting used to living in New Mexico. I do miss home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I miss my family and friends. But, I know I made the right decision. I'm enjoying the new job and the new adventures. I'm also enjoying the different scenery and the different foods. I'm so glad that I took this leap of faith. It was scary, but it was worth it."
+            }
+        ],
+        "request_id": "811ec1f26e114379-EWR"
+    }
+}

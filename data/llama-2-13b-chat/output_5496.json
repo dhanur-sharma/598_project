@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My fiance proposed to me one time. It was hastily done and I wasn't really thrilled with the outcome. He has shopped at the mall for a pretty simple ring. The ring didn't fit and I didn't like it very much. More than that, he didn't give the impression that he wanted to be married to me at all. So I felt kind of sad that the first time I was proposed to, it didn't seem perfect. I was much happier this second time around. We were on the coast, hanging out on the beach and the boardwalk. We had had a great day. The sun was shining brightly and we both were enjoying each other's company. We had a lovely seafood dinner, and then sat on the beach and watched the sun set. I wasn't expecting him to propose a second time at all. But then he pulled out the ring and presented it to me. He even got down on one knee to make his proposal. THe ring he bought this time was really beautiful - it was perfect. And the proposal fit the occasion perfectly. I was so happy to say yes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My fiance proposed to me one time. It was hastily done and I wasn't really thrilled with the outcome. He has shopped at the mall for a pretty simple ring. The ring didn't fit and I didn't like it very much. More than that, he didn't give the impression that he wanted to be married to me at all. So I felt kind of sad that the first time I was proposed to, it didn't seem perfect. I was much happier this second time around. We were on the coast, hanging out on the beach and the boardwalk. We had had a great day. The sun was shining brightly and we both were enjoying each other's company. We had a lovely seafood dinner, and then sat on the beach and watched the sun set. I wasn't expecting him to propose a second time at all. But then he pulled out the ring and presented it to me. He even got down on one knee to make his proposal. THe ring he bought this time was really beautiful - it was perfect. And the proposal fit the occasion perfectly. I was so happy to say yes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a much better experience than the first time.\n\n"
+            }
+        ],
+        "request_id": "811f32b9e9810f3b-EWR"
+    }
+}

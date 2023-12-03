@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This was a super fun day. My husband and I planned a surprise 60th birthday party for my mother-in-law at a restaurant that we all go to often. I invited her sister and nieces who live out of town. My husband and I went to the restaurant about a half hour before she would be arriving and decorated the room with balloons and streamers. The restaurant had a small private room for parties.  My mother-in-law didn't know what was going on until she walked into that room.  She thought she was meeting us for her birthday dinner but did not expect to see her sisters and nieces and some friends there too. When she walked in the room she was completely surprised and very happy. She was not expecting everyone to be there. She hadn't seen her sister in quite a while and she was so excited that she was there. Everything turned out great. The food and service at the restaurant was amazing. We had reserved the room for 3 hours. The party continued after we left the restaurant. We ended up going back to my brother-in-law's house and spent the rest of the night playing games. It truly was a great day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This was a super fun day. My husband and I planned a surprise 60th birthday party for my mother-in-law at a restaurant that we all go to often. I invited her sister and nieces who live out of town. My husband and I went to the restaurant about a half hour before she would be arriving and decorated the room with balloons and streamers. The restaurant had a small private room for parties.  My mother-in-law didn't know what was going on until she walked into that room.  She thought she was meeting us for her birthday dinner but did not expect to see her sisters and nieces and some friends there too. When she walked in the room she was completely surprised and very happy. She was not expecting everyone to be there. She hadn't seen her sister in quite a while and she was so excited that she was there. Everything turned out great. The food and service at the restaurant was amazing. We had reserved the room for 3 hours. The party continued after we left the restaurant. We ended up going back to my brother-in-law's house and spent the rest of the night playing games. It truly was a great day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " "
+            }
+        ],
+        "request_id": "811ec0bb0a1f0f65-EWR"
+    }
+}

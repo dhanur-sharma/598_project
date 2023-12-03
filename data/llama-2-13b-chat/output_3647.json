@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I should always remember to get things in writing and trust my gut. I had discussed, on multiple occasions, bringing the celebrity guests for the Con to a local restaurant. The owners were excited; we had good guests. I was assured, \"We'll take care of you.\" I trusted they would.The day that we decided to go, I made a second mistake. I listened to a person who had a way to save money on Ubers to get the guests to the restaurant. \"We can all take the hotel shuttle. It'll be fun. It'll be free.\" I put a couple of people in an Uber, and waited for the shuttle to come back to take us to the restaurant. Now, an Uber at most would have been $15. We had reservations at 8. There is one hotel van. There is a big, rednecky concert that night in town. While the shuttle is dropping off people across town, we wait. It's annoying. We had to wait for one of the people in the shuttle to go back to his hotel room because he forgot his wallet. Instead of getting there at 8, like the reservations said, it was 8:45. Half of the guests were there, waiting for us. It was deeply awkward. It was super annoying.Once we all got there, dinner came out in waves. Some orders were quite wrong and some orders were skipped entirely. Service was spotty. Then, when the bill came \"take care of us\" turned into, \"give you $50 off a $300 check.\" So I had to cough up money to cover this and I'm certainly not getting paid for it. I get annoyed just thinking about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I should always remember to get things in writing and trust my gut. I had discussed, on multiple occasions, bringing the celebrity guests for the Con to a local restaurant. The owners were excited; we had good guests. I was assured, \"We'll take care of you.\" I trusted they would.The day that we decided to go, I made a second mistake. I listened to a person who had a way to save money on Ubers to get the guests to the restaurant. \"We can all take the hotel shuttle. It'll be fun. It'll be free.\" I put a couple of people in an Uber, and waited for the shuttle to come back to take us to the restaurant. Now, an Uber at most would have been $15. We had reservations at 8. There is one hotel van. There is a big, rednecky concert that night in town. While the shuttle is dropping off people across town, we wait. It's annoying. We had to wait for one of the people in the shuttle to go back to his hotel room because he forgot his wallet. Instead of getting there at 8, like the reservations said, it was 8:45. Half of the guests were there, waiting for us. It was deeply awkward. It was super annoying.Once we all got there, dinner came out in waves. Some orders were quite wrong and some orders were skipped entirely. Service was spotty. Then, when the bill came \"take care of us\" turned into, \"give you $50 off a $300 check.\" So I had to cough up money to cover this and I'm certainly not getting paid for it. I get annoyed just thinking about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The restaurant owners had made promises, but they didn't follow through. I didn't get anything in writing, and I should have. This whole experience taught me to get things in writing and to trust my gut. \n\n"
+            }
+        ],
+        "request_id": "811ecdf6bd618ca5-EWR"
+    }
+}

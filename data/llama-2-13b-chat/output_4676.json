@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This was a birthday party that was supposed to be somewhat of a surprise though I had my suspicions beforehand due to the number of text messages I received from different friends. It was not only the messages themselves that gave it away but the volume of the messages were unusual. I distinctly remember walking in to the door and noticing my chairs being out of place. I knew what was coming but still tried to act surprised as everyone greeted me. I very clearly remember everyone's faces at that instant as they welcomed me to the party. Overall, my friend Steve helped quite a bit in organizing the party. Aside from my family, my childhood friends Raymond and Wei was also there at the party. We had some drinks, snacks and a very delicious fruit cake. I received some very nice gifts and was completely flattered. There was quite a bit of chatter and some catching up with friends that I see less often. Eventually we moved onto playing some games in groups. However, I had a long day at work and was very tired. I could not enjoy that portion of the birthday party to the fullest. Eventually people had to go and I thanked them for coming. I had a very nice long rest after everything."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This was a birthday party that was supposed to be somewhat of a surprise though I had my suspicions beforehand due to the number of text messages I received from different friends. It was not only the messages themselves that gave it away but the volume of the messages were unusual. I distinctly remember walking in to the door and noticing my chairs being out of place. I knew what was coming but still tried to act surprised as everyone greeted me. I very clearly remember everyone's faces at that instant as they welcomed me to the party. Overall, my friend Steve helped quite a bit in organizing the party. Aside from my family, my childhood friends Raymond and Wei was also there at the party. We had some drinks, snacks and a very delicious fruit cake. I received some very nice gifts and was completely flattered. There was quite a bit of chatter and some catching up with friends that I see less often. Eventually we moved onto playing some games in groups. However, I had a long day at work and was very tired. I could not enjoy that portion of the birthday party to the fullest. Eventually people had to go and I thanked them for coming. I had a very nice long rest after everything.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt really loved and appreciated by my friends and family. It was a very nice and enjoyable birthday party.\n\n"
+            }
+        ],
+        "request_id": "811bdb8a4b368cdc-EWR"
+    }
+}

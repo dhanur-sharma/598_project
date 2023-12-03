@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been going to church my entire life. When I was younger, I really didn't understand religion, God, or faith. I would go through the motions of going to church, but I found that I didn't connect to it. I do believe that there is a God, but I never knew how involved He was in my life. As far as I was concerned, He wasn't in my life. One day, I had an epiphany.  I was trapped in the middle of the woods after crashing my ATV. Somehow, someway, a flashlight from my ATV fell out, turned on, and pointed in my direction. It allowed someone to find me, and I was able to make a full recovery from my injuries in a few short months. I cannot imagine an event like that taking place in a world without the existence of God. A few Sundays ago, our RCIA class did an introduction ceremony during Mass. Although there were a few mistakes, all went well. I constantly was reminded of my experience of being lost in the woods left for dead, then found due to a series of blessed events. As a result, I was very moved by this introduction ceremony. When I went home, I fell on my knees and prayed to God. I told him, \"Thank you for all you have done for me.\" In reality, without God, I am nothing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been going to church my entire life. When I was younger, I really didn't understand religion, God, or faith. I would go through the motions of going to church, but I found that I didn't connect to it. I do believe that there is a God, but I never knew how involved He was in my life. As far as I was concerned, He wasn't in my life. One day, I had an epiphany.  I was trapped in the middle of the woods after crashing my ATV. Somehow, someway, a flashlight from my ATV fell out, turned on, and pointed in my direction. It allowed someone to find me, and I was able to make a full recovery from my injuries in a few short months. I cannot imagine an event like that taking place in a world without the existence of God. A few Sundays ago, our RCIA class did an introduction ceremony during Mass. Although there were a few mistakes, all went well. I constantly was reminded of my experience of being lost in the woods left for dead, then found due to a series of blessed events. As a result, I was very moved by this introduction ceremony. When I went home, I fell on my knees and prayed to God. I told him, \"Thank you for all you have done for me.\" In reality, without God, I am nothing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have come to understand that faith is not just about knowing that God exists, but it is also about trusting in His divine providence.\n\n"
+            }
+        ],
+        "request_id": "811e93867f818c6f-EWR"
+    }
+}

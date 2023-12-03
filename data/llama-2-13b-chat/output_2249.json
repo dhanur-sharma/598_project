@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago I had the task of preparing for going out to dinner with my group of friends. I was in charge because I love planning stuff. I narrowed it down to a few places. My one friend is vegan ,so I had to find somewhere with options for her. Another friend is lactose intolerant, so that meant in Italian food. After taking everyones diet into account I found the perfect restaurant. It was a modern place with lots of dairy free and meat free options. WHen I asked everyone they agreed that was a good place. The night we were supposed to meet I had trouble finding something to wear. I thought I had the perfect dress. When I went to put it on I found out it didn't fit any longer. I started to panic. I didn't have a backup outfit. I eventually settled on dressy jeans and a top, but I felt under dressed. Despite the chaos the dinner was fun. Everyone had a great time. It was nice to be able to catch up with my friends outside of our homes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago I had the task of preparing for going out to dinner with my group of friends. I was in charge because I love planning stuff. I narrowed it down to a few places. My one friend is vegan ,so I had to find somewhere with options for her. Another friend is lactose intolerant, so that meant in Italian food. After taking everyones diet into account I found the perfect restaurant. It was a modern place with lots of dairy free and meat free options. WHen I asked everyone they agreed that was a good place. The night we were supposed to meet I had trouble finding something to wear. I thought I had the perfect dress. When I went to put it on I found out it didn't fit any longer. I started to panic. I didn't have a backup outfit. I eventually settled on dressy jeans and a top, but I felt under dressed. Despite the chaos the dinner was fun. Everyone had a great time. It was nice to be able to catch up with my friends outside of our homes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb330cf1c8c7e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I don't like people. I don't like that they're all for themselves. I especially don't like how they don't seemingly care for animals. They didn't care about anyone but themselves. This was no more evident when three weeks ago the miserable human being that was driving close to my house ran my cat over, killing it. That cat was worth more than that person's life. The cat is a decent thing, one that tries to keep to itself. This fool didn't stop, probably didn't even give it a second look. Again, it was only looking after itself. It doesn't even deserve a label or identity. I wish there was a camera around so I can see the vehicle. I just want that person to feel the pain that I felt. I miss the cat dearly. I buried them in the backyard. I hope to get another at some point."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I don't like people. I don't like that they're all for themselves. I especially don't like how they don't seemingly care for animals. They didn't care about anyone but themselves. This was no more evident when three weeks ago the miserable human being that was driving close to my house ran my cat over, killing it. That cat was worth more than that person's life. The cat is a decent thing, one that tries to keep to itself. This fool didn't stop, probably didn't even give it a second look. Again, it was only looking after itself. It doesn't even deserve a label or identity. I wish there was a camera around so I can see the vehicle. I just want that person to feel the pain that I felt. I miss the cat dearly. I buried them in the backyard. I hope to get another at some point.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb669f91643a4-EWR"
+    }
+}

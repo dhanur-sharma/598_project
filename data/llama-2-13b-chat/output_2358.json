@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago, while I was at work, a long time customer came in. We usually chat a bit if there's time while I am helping him. I always feel better after he has been there. I think to myself, wish all the customers were as nice and kind , patient as he is. Well, out of the blue He complimented me on how pretty I am. Then he said it always makes his trip more enjoyable if I am working while he is there. He's an older gentleman, always been very respectful and decent. I in no way felt the compliment was insincere, as in flattery or a come on. he just doesn't act the type of person that would do those types of things. Well, it made my day! I thanked him. I always try to thank someone who gives me a compliment, the world would be a better place if more of us did that. I also felt like this man sees me as a person, not just a \"clerk\" at the store, but a human being. I know some people would feel uncomfortable if a customer told them they were pretty, but it was sincere. That's all I can say. It gave me a little boost for the rest of my day, I wish him good things in his life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago, while I was at work, a long time customer came in. We usually chat a bit if there's time while I am helping him. I always feel better after he has been there. I think to myself, wish all the customers were as nice and kind , patient as he is. Well, out of the blue He complimented me on how pretty I am. Then he said it always makes his trip more enjoyable if I am working while he is there. He's an older gentleman, always been very respectful and decent. I in no way felt the compliment was insincere, as in flattery or a come on. he just doesn't act the type of person that would do those types of things. Well, it made my day! I thanked him. I always try to thank someone who gives me a compliment, the world would be a better place if more of us did that. I also felt like this man sees me as a person, not just a \"clerk\" at the store, but a human being. I know some people would feel uncomfortable if a customer told them they were pretty, but it was sincere. That's all I can say. It gave me a little boost for the rest of my day, I wish him good things in his life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was just being kind, I hope to run into him again sometime and let him know how much it meant to me.\n\n"
+            }
+        ],
+        "request_id": "811eb54abbfb1889-EWR"
+    }
+}

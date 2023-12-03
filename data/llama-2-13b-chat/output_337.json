@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went with a cruise with my husband. We went to Alaska in 2019. It was the month of May. We rode on a plane for the first time to get there. It was a little scary but we managed not to faint. The cruise was very fun. I remember eating a lot of lobster and steak on most nights. I would always go to the casino to gamble. I had a fun time in there. I won and lost a bunch but overall I did alright. There were dance nights that were fun. I would dance with other drunk people. I didn't puke but some people did. I went down a slide on one day. It was fun. I also golfed on the ship. One of the balls went overboard."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went with a cruise with my husband. We went to Alaska in 2019. It was the month of May. We rode on a plane for the first time to get there. It was a little scary but we managed not to faint. The cruise was very fun. I remember eating a lot of lobster and steak on most nights. I would always go to the casino to gamble. I had a fun time in there. I won and lost a bunch but overall I did alright. There were dance nights that were fun. I would dance with other drunk people. I didn't puke but some people did. I went down a slide on one day. It was fun. I also golfed on the ship. One of the balls went overboard.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The weather was good. We saw a lot of wildlife. We saw bears, whales, and seals. We also saw a glacier. We had a great time.\n\n"
+            }
+        ],
+        "request_id": "811e8fe36cbec466-EWR"
+    }
+}

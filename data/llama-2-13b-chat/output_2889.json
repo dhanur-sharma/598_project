@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My story is about a near miss motorcycle accident. My wife and I were riding my Harley Davidson motorcycle in a nearby town, on a cool Sunday Afternoon. We were in a town not far from where we live, but I am not completely familiar with the streets there. As we came around a bend, a red light prompted us to stop. The street was not asphalt, but more of a concrete, very susceptible to potholes. As we leaned into the corner, my front tire slid into a deep long groove. This caused the weight of my bike to shift, throwing us off balance and nearly wiping us out. The road was quite busy behind us. I feared dropping my motorcycle, but at such a low speed, I was much more concerned with the traffic behind us. It was truly a frightening experience. We were both terrified, left shaken by the near-miss. Luckily, I was able to place my foot down on the pavement, which saved us from going over entirely. It all happened so quickly, and I am not the most experienced rider. I can still feel the uneasiness in my chest anytime I take off to ride. This is especially true whenever my wife joins me. I've become much more aware of my surroundings as a result. I also spend much more time scanning the area in front of me while I ride."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My story is about a near miss motorcycle accident. My wife and I were riding my Harley Davidson motorcycle in a nearby town, on a cool Sunday Afternoon. We were in a town not far from where we live, but I am not completely familiar with the streets there. As we came around a bend, a red light prompted us to stop. The street was not asphalt, but more of a concrete, very susceptible to potholes. As we leaned into the corner, my front tire slid into a deep long groove. This caused the weight of my bike to shift, throwing us off balance and nearly wiping us out. The road was quite busy behind us. I feared dropping my motorcycle, but at such a low speed, I was much more concerned with the traffic behind us. It was truly a frightening experience. We were both terrified, left shaken by the near-miss. Luckily, I was able to place my foot down on the pavement, which saved us from going over entirely. It all happened so quickly, and I am not the most experienced rider. I can still feel the uneasiness in my chest anytime I take off to ride. This is especially true whenever my wife joins me. I've become much more aware of my surroundings as a result. I also spend much more time scanning the area in front of me while I ride.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I've even started taking a different route to avoid the same pothole.\n\n"
+            }
+        ],
+        "request_id": "811ec0211a03c3f8-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary. So I know it has been a while since I have written in you but I just wanted to keep you updated. About a month ago I woke up with some pretty bad tooth pain. Most of the morning I was in pain and finnaly ended up calling the doctor about it. They told me I should call my dentist as there was nothing they could do. So I call them and they told me that I had to wait until the next day in order to even see them. I tried taking pain meds and orajel and it did help a little bit but not as much as I hoped. So the next morning came around and I finnaly went there and the told me I needed a root canal! I was pretty nervous that it would hurt quite a bit but I knew in the long run it would be better for my teeth. So after about a 15 minute procedure it was all over. They were nice for the most part but boy did it hurt quite a bit. I would say after about 15 minutes it started to hurt worse but they did give me much better pain pills to deal with it. Later that night I was starting to feel a bit better. When I work up in the morning I was pain free and it was great. Overall I am glad I went and got it done quickly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary. So I know it has been a while since I have written in you but I just wanted to keep you updated. About a month ago I woke up with some pretty bad tooth pain. Most of the morning I was in pain and finnaly ended up calling the doctor about it. They told me I should call my dentist as there was nothing they could do. So I call them and they told me that I had to wait until the next day in order to even see them. I tried taking pain meds and orajel and it did help a little bit but not as much as I hoped. So the next morning came around and I finnaly went there and the told me I needed a root canal! I was pretty nervous that it would hurt quite a bit but I knew in the long run it would be better for my teeth. So after about a 15 minute procedure it was all over. They were nice for the most part but boy did it hurt quite a bit. I would say after about 15 minutes it started to hurt worse but they did give me much better pain pills to deal with it. Later that night I was starting to feel a bit better. When I work up in the morning I was pain free and it was great. Overall I am glad I went and got it done quickly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just wish I didn't have to wait so long to get in there."
+            }
+        ],
+        "request_id": "811ebb053e5f4308-EWR"
+    }
+}

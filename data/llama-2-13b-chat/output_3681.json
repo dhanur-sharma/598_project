@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so happy to see all of my friends. I was not expecting such a great party. All the people I loved were there. I had a guest visitor and was so glad to see their face. I had not seen them for many years. I was very glad to greet them and they were so happy to see me. I brought them over to the couch and just sat and talked with them for a long time. The rest of my guests talked among themselves. It was an amazing party. I told them what I had done over the last few years. I told them how much I wanted to see them again. They told me that everyone was in on the surprise. Everyone knew she was coming to the party and no one told me. I am glad they did not. It was the best surprise imaginable. I will always remember it. I loved the party a lot. It was the best birthday ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so happy to see all of my friends. I was not expecting such a great party. All the people I loved were there. I had a guest visitor and was so glad to see their face. I had not seen them for many years. I was very glad to greet them and they were so happy to see me. I brought them over to the couch and just sat and talked with them for a long time. The rest of my guests talked among themselves. It was an amazing party. I told them what I had done over the last few years. I told them how much I wanted to see them again. They told me that everyone was in on the surprise. Everyone knew she was coming to the party and no one told me. I am glad they did not. It was the best surprise imaginable. I will always remember it. I loved the party a lot. It was the best birthday ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eced069d632ca-EWR"
+    }
+}

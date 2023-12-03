@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Ah, the Florida Keys, home of the burnt sun and shoulders! Can't believe I haven't written on this yet, but let me say, what an adventure that was. We went down to the Keys to celebrate a long year of hard work and take some time off together and finally get some quality time. We went down under the water the first day, after a few alcoholic beverages (of course). The fish were awesome, the life was so colorful, but no color more intense than the sunburn I had when we finished up! Oh boy, did I make a mistake forgetting to put on sunscreen that day. I came out like an infrared camera on a hot cherry cobbler -- I am talking molten red. I remember saying, \"well, I'm gonna pay for this hard later on tonight!\" By the night time, I decided that if I drank more iced beverages it might keep my mind off of the sunburn, and, surprisingly, that worked well for a while. Sleeping was hell on Earth, though, as I had to lay on ice packs borrowed from the resort desk to even close my eyes. Luckily, the burns subsided rather quickly, and simply glowed an awful red for a few days before turning into a nice tan. Thankfully for me, I've always had a good ability to recover quickly from sunburns. Perhaps that's why I always forget about sunscreen? Hmm, I don't know, but it wasn't fun. After that fiasco, we got to do much more of what we had planned, enjoying snorkeling and swimming and honestly just a lot of relaxing. It was really great even if I did get destroyed by the Sun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Ah, the Florida Keys, home of the burnt sun and shoulders! Can't believe I haven't written on this yet, but let me say, what an adventure that was. We went down to the Keys to celebrate a long year of hard work and take some time off together and finally get some quality time. We went down under the water the first day, after a few alcoholic beverages (of course). The fish were awesome, the life was so colorful, but no color more intense than the sunburn I had when we finished up! Oh boy, did I make a mistake forgetting to put on sunscreen that day. I came out like an infrared camera on a hot cherry cobbler -- I am talking molten red. I remember saying, \"well, I'm gonna pay for this hard later on tonight!\" By the night time, I decided that if I drank more iced beverages it might keep my mind off of the sunburn, and, surprisingly, that worked well for a while. Sleeping was hell on Earth, though, as I had to lay on ice packs borrowed from the resort desk to even close my eyes. Luckily, the burns subsided rather quickly, and simply glowed an awful red for a few days before turning into a nice tan. Thankfully for me, I've always had a good ability to recover quickly from sunburns. Perhaps that's why I always forget about sunscreen? Hmm, I don't know, but it wasn't fun. After that fiasco, we got to do much more of what we had planned, enjoying snorkeling and swimming and honestly just a lot of relaxing. It was really great even if I did get destroyed by the Sun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, it was a great trip, and I can't wait to get back there and enjoy the Keys again, just with a little more sunscreen this time!"
+            }
+        ],
+        "request_id": "811e8a3b9b37c461-EWR"
+    }
+}

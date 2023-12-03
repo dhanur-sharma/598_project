@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My parents had a 64th birthday party, in the them of the Beatles song \"When I'm 64\". It was suppose to be a big deal but not a lot of people showed up. They rented out a pavilion at the local public park and got catering and all sorts of stuff. The food was excellent and we had all sorts of fun. We even did Bingo. But not a lot of people showed up. I think we had it catered for one 100 people. Only about 25 showed up over the course of the day. We had a lot of leftovers. I had a big hand in making sure it went alright. My parent got pretty drunk. My sister and I had to drive them home. My mum was kind of upset more people didn't show up. On the plus side I got to see relatives I haven't seen in years. It lasted about 12 hours. All-in-all we had a lot of fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My parents had a 64th birthday party, in the them of the Beatles song \"When I'm 64\". It was suppose to be a big deal but not a lot of people showed up. They rented out a pavilion at the local public park and got catering and all sorts of stuff. The food was excellent and we had all sorts of fun. We even did Bingo. But not a lot of people showed up. I think we had it catered for one 100 people. Only about 25 showed up over the course of the day. We had a lot of leftovers. I had a big hand in making sure it went alright. My parent got pretty drunk. My sister and I had to drive them home. My mum was kind of upset more people didn't show up. On the plus side I got to see relatives I haven't seen in years. It lasted about 12 hours. All-in-all we had a lot of fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea68f5d1b42dd-EWR"
+    }
+}

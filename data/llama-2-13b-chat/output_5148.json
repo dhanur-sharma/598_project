@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June I went to Minneapolis to see my friend, family, and a concert. We went to the Mall of America with my daughter, and my mom. Later on that day I met up with my childhood friend.  After that my mom, and daughter went to my moms house. I went back to my friends house. Later that night my friend and I went and saw the band The Specials play. The price of 2 drinks was $23. We were fairly confident that the bartender overcharged us. The concert itself was awesome. On the way back home our uber driver essentially hustled extra money out of my friend. Sleeping was difficult that night because my friends basement was super hot, and my friends sleep apnea snoring was unbearable. Eventually I went back to my aunts house the following day and met up with my mom, and daughter. Finally we drove home. That night when we got home UFC 238 was on, I bet $80 on Henry Cejudo and won over $100 back. Overall it was a very good weekend. It made me miss having a proper social life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June I went to Minneapolis to see my friend, family, and a concert. We went to the Mall of America with my daughter, and my mom. Later on that day I met up with my childhood friend.  After that my mom, and daughter went to my moms house. I went back to my friends house. Later that night my friend and I went and saw the band The Specials play. The price of 2 drinks was $23. We were fairly confident that the bartender overcharged us. The concert itself was awesome. On the way back home our uber driver essentially hustled extra money out of my friend. Sleeping was difficult that night because my friends basement was super hot, and my friends sleep apnea snoring was unbearable. Eventually I went back to my aunts house the following day and met up with my mom, and daughter. Finally we drove home. That night when we got home UFC 238 was on, I bet $80 on Henry Cejudo and won over $100 back. Overall it was a very good weekend. It made me miss having a proper social life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811be53cbc66c44f-EWR"
+    }
+}

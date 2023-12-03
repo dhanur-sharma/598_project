@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I was up for a promotion. I was excited as it was well deserved. However, I found out that my promotion wasn't going to happen this year and HR blocked it. I was angry. I started applying to other jobs. When my management learned of this they were supportive but also wanted me to stay at my company. They decided to create a job for me to apply to that would allow me to get a promotion that HR could not block. They ended up being really slow about doing this so I continued with my job hunt. I was lucky enough to get two interviews. One of those interviews was at my current company and the other was at another company. I ended up getting an offer from the other company first. This forced my manager to hurry up and interview me and make me an offer for the job and promotion that I had been promised. The other offer was much larger than my manager was going to offer. He decided to match it so I would stay at my company. I ended up with a huge pay increase and my promotion."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I was up for a promotion. I was excited as it was well deserved. However, I found out that my promotion wasn't going to happen this year and HR blocked it. I was angry. I started applying to other jobs. When my management learned of this they were supportive but also wanted me to stay at my company. They decided to create a job for me to apply to that would allow me to get a promotion that HR could not block. They ended up being really slow about doing this so I continued with my job hunt. I was lucky enough to get two interviews. One of those interviews was at my current company and the other was at another company. I ended up getting an offer from the other company first. This forced my manager to hurry up and interview me and make me an offer for the job and promotion that I had been promised. The other offer was much larger than my manager was going to offer. He decided to match it so I would stay at my company. I ended up with a huge pay increase and my promotion.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed2c9df858c95-EWR"
+    }
+}

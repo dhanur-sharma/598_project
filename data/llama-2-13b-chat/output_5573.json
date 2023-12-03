@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago I had to go to a deposition. It was in the next town and I do not own a car so I had to take a very early bus. There was a bad ice storm that day and it took a lot longer than I expected to get there.  Since I was running late I did not have time to get anything to eat before the deposition. During the deposition I was asked a lot of questions about my memory of the events (which I do not want to get into too much detail) and they continually made me feel like a liar and incompetant. They kept on implying that I was a bad person and it was a big pain in the ass. Afterwords I had to catch another bus back and only had time to get a hot dog from a street vendor. It must have been a bad one because on the ride back I was throwing up the whole way.  Luckily a kind person in the next seat helped me and gave me water and some baby wipes to clean up with.  It was a horrible experience overall but could have been even worse without the kindness of that man. I have developed a hatred for busses.  I no longer feel so great about hot dogs either. MY advice to others would be to not trust street food, especially if you are already stressed out. The stomach can do nasty things to you if it is not treated well. Hopefully I will never go through that again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago I had to go to a deposition. It was in the next town and I do not own a car so I had to take a very early bus. There was a bad ice storm that day and it took a lot longer than I expected to get there.  Since I was running late I did not have time to get anything to eat before the deposition. During the deposition I was asked a lot of questions about my memory of the events (which I do not want to get into too much detail) and they continually made me feel like a liar and incompetant. They kept on implying that I was a bad person and it was a big pain in the ass. Afterwords I had to catch another bus back and only had time to get a hot dog from a street vendor. It must have been a bad one because on the ride back I was throwing up the whole way.  Luckily a kind person in the next seat helped me and gave me water and some baby wipes to clean up with.  It was a horrible experience overall but could have been even worse without the kindness of that man. I have developed a hatred for busses.  I no longer feel so great about hot dogs either. MY advice to others would be to not trust street food, especially if you are already stressed out. The stomach can do nasty things to you if it is not treated well. Hopefully I will never go through that again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f34496c9a4251-EWR"
+    }
+}

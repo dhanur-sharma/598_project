@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So Marsha and I have both had terrible relationship luck. We've both been full of doubt. Her and I have been dumped, turned down, or just ignored many times before. We finally tried something new. Instead of looking for those who ignored us, we looked for someone who is like us. We found each other. It was hard at first because we both had our guards up. But we got over ourselves and really were able to make it work. We've been dating now for about 3 months. It's been very rocky. Things have been mostly going pretty well. I think she is the one for me. I'm thinking of proposing to her. She is very special to me. It took us getting treated badly to find each other."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So Marsha and I have both had terrible relationship luck. We've both been full of doubt. Her and I have been dumped, turned down, or just ignored many times before. We finally tried something new. Instead of looking for those who ignored us, we looked for someone who is like us. We found each other. It was hard at first because we both had our guards up. But we got over ourselves and really were able to make it work. We've been dating now for about 3 months. It's been very rocky. Things have been mostly going pretty well. I think she is the one for me. I'm thinking of proposing to her. She is very special to me. It took us getting treated badly to find each other.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But now I think we've found something great.\n\n"
+            }
+        ],
+        "request_id": "811be019cbe0c402-EWR"
+    }
+}

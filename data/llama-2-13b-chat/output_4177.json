@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother bought me a new laptop unexpectedly. I really needed one and mine had recently been stolen. Someone had taken it while I went to the bathroom at a coffee shop. I ignorantly thought it would be safe there since I came there all of the time. I just knew I would have to work extra hours to be able to afford a new laptop. When my mom bought me another computer I was shocked and so happy. I cried tears of joy. I was so touched and grateful. This was a truly a moment of real happiness for me because it meant a lot to me. My mom did not have to do this for me at all. I am so happy that I have my new laptop and I will of course make sure to take care of it. I am never going to leave my laptop unattended ever again. I think that I learned a huge valuable lesson here.  That lesson was to not be so trusting. I also don't need to be so naive as well. I really am grateful for this moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother bought me a new laptop unexpectedly. I really needed one and mine had recently been stolen. Someone had taken it while I went to the bathroom at a coffee shop. I ignorantly thought it would be safe there since I came there all of the time. I just knew I would have to work extra hours to be able to afford a new laptop. When my mom bought me another computer I was shocked and so happy. I cried tears of joy. I was so touched and grateful. This was a truly a moment of real happiness for me because it meant a lot to me. My mom did not have to do this for me at all. I am so happy that I have my new laptop and I will of course make sure to take care of it. I am never going to leave my laptop unattended ever again. I think that I learned a huge valuable lesson here.  That lesson was to not be so trusting. I also don't need to be so naive as well. I really am grateful for this moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd18b9fba42c3-EWR"
+    }
+}

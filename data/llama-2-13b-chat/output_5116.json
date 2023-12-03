@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, my dog died. I was not there. I had been out of town visiting family. When I was told that she was doing well and things were looking dire, I made last-minute plans to rush home. In the middle of the night, my only real option as a non-driver was Greyhound. As luck would have it, there was a proper route from where I was to where I was going. I booked it, and rushed to pack and leave to get to the station (20 minutes away, 90 minutes before departure). When I got there, I was denied the ability to board. My identification had recently expired. I told them my story; begged, pleaded. Nothing. I felt profoundly hopeless, hysterical, self-loathing, and broken. With no other options, I returned to where I was staying. As it turned out, I would not have made it. My dog went sometime in her sleep in the night before I would have arrived. I hadn't seen her in her last two months, and I couldn't see her before she went. It absolutely haunts me. My parents had her cremated. I still haven't been able to go back home. It will never feel like home again. Not without her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, my dog died. I was not there. I had been out of town visiting family. When I was told that she was doing well and things were looking dire, I made last-minute plans to rush home. In the middle of the night, my only real option as a non-driver was Greyhound. As luck would have it, there was a proper route from where I was to where I was going. I booked it, and rushed to pack and leave to get to the station (20 minutes away, 90 minutes before departure). When I got there, I was denied the ability to board. My identification had recently expired. I told them my story; begged, pleaded. Nothing. I felt profoundly hopeless, hysterical, self-loathing, and broken. With no other options, I returned to where I was staying. As it turned out, I would not have made it. My dog went sometime in her sleep in the night before I would have arrived. I hadn't seen her in her last two months, and I couldn't see her before she went. It absolutely haunts me. My parents had her cremated. I still haven't been able to go back home. It will never feel like home again. Not without her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be4615de84343-EWR"
+    }
+}

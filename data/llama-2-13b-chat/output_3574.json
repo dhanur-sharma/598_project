@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went to NYC for my husband's birthday. We stopped at his parents' house first and dropped off our kids. Then we took the train into the city. We got lobster rolls for lunch and went to Roosevelt Island. That night we went to dinner at a cool place and enjoyed it very much. The next day we went to Governor's Island and it was so hot we had to leave after an hour. We spent most of the day in our hotel since it was so hot. That night we went to Keene's Steakhouse and had a great dinner. After dinner, we went to a rooftop bar next to the Empire State Building. On the walk home, both of our shoes fell apart. I don't think we will ever forget it.  The next day we woke up and went right back to my in-law's house. We had bought both of the kids gifts and we gave the gifts to them. They liked the gifts. We got my son a toy bus and my daughter a glass trinket."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went to NYC for my husband's birthday. We stopped at his parents' house first and dropped off our kids. Then we took the train into the city. We got lobster rolls for lunch and went to Roosevelt Island. That night we went to dinner at a cool place and enjoyed it very much. The next day we went to Governor's Island and it was so hot we had to leave after an hour. We spent most of the day in our hotel since it was so hot. That night we went to Keene's Steakhouse and had a great dinner. After dinner, we went to a rooftop bar next to the Empire State Building. On the walk home, both of our shoes fell apart. I don't think we will ever forget it.  The next day we woke up and went right back to my in-law's house. We had bought both of the kids gifts and we gave the gifts to them. They liked the gifts. We got my son a toy bus and my daughter a glass trinket.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Then we left and drove home.\n\n"
+            }
+        ],
+        "request_id": "811ecc3e5f0d43a6-EWR"
+    }
+}

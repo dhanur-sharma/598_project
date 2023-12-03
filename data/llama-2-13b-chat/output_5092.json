@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were friends from high school. I got a call from another friend with whom I hadn't spoken in a while. Even then I knew it wasn't gonna be good news. We had all shared a lot of memories over the years. Despite the somber setting we had a good time reliving some things from our past. The deceased's best friend had never lost a peer before so my heart went out to her especially. I remember feeling kind of hopeful once it was all over. Like life would carry on for me. I guess it seemed more like a celebration than other funerals had ever been. For the first little bit I was still ashamed to laugh at funny stories we were remembering or to raise my voice to add to the stories being told. But it felt more and more natural to talk about her with some enthusiasm. By the time it was over, there was definitely a feeling of healing. Not completely, though. It was still very raw for some. But the funeral had done some good and that was something I had never experienced before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were friends from high school. I got a call from another friend with whom I hadn't spoken in a while. Even then I knew it wasn't gonna be good news. We had all shared a lot of memories over the years. Despite the somber setting we had a good time reliving some things from our past. The deceased's best friend had never lost a peer before so my heart went out to her especially. I remember feeling kind of hopeful once it was all over. Like life would carry on for me. I guess it seemed more like a celebration than other funerals had ever been. For the first little bit I was still ashamed to laugh at funny stories we were remembering or to raise my voice to add to the stories being told. But it felt more and more natural to talk about her with some enthusiasm. By the time it was over, there was definitely a feeling of healing. Not completely, though. It was still very raw for some. But the funeral had done some good and that was something I had never experienced before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a unique experience that I will never forget."
+            }
+        ],
+        "request_id": "811be3e9a9e742dd-EWR"
+    }
+}

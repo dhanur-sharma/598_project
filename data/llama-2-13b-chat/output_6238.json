@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So about a month ago I decided that I would invite my best friend and his girlfriend to Martha's Vineyard. We had to drive over to Falmouth to catch the ferry over to the vineyard. I brought my dog with us and boy was he scared of being on the ferry. He refused to sit still. We enjoyed the ride out there because it is absolutely beautiful. Once we got to the island, it was a completely different atmosphere. It was extremely relaxed and laid-back. We had to change into our bathing suits and went to get something quick to eat before heading to the main event. The main event was to see llamas on a llama farm. They were absolutely majestic. They were a little afraid of my dog but since hes just a small little guy, it wasn't a huge deal. After looking at these beautiful animals, we headed to the beach. We laid down and had a drink, while my dog played in the sand. He loved to dig in the sand and then just throw himself into the hole he made. After getting some sun for a few hours, we grabbed a bite to eat at a seafood restaurant. To end the day we grabbed some ice cream and then headed back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So about a month ago I decided that I would invite my best friend and his girlfriend to Martha's Vineyard. We had to drive over to Falmouth to catch the ferry over to the vineyard. I brought my dog with us and boy was he scared of being on the ferry. He refused to sit still. We enjoyed the ride out there because it is absolutely beautiful. Once we got to the island, it was a completely different atmosphere. It was extremely relaxed and laid-back. We had to change into our bathing suits and went to get something quick to eat before heading to the main event. The main event was to see llamas on a llama farm. They were absolutely majestic. They were a little afraid of my dog but since hes just a small little guy, it wasn't a huge deal. After looking at these beautiful animals, we headed to the beach. We laid down and had a drink, while my dog played in the sand. He loved to dig in the sand and then just throw himself into the hole he made. After getting some sun for a few hours, we grabbed a bite to eat at a seafood restaurant. To end the day we grabbed some ice cream and then headed back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was an amazing day and I can't wait to go back.\n\n"
+            }
+        ],
+        "request_id": "811f41950d5b4205-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My surprise birthday part at work was a huge surprise.  After the initial \"Happy Birthday\" song, we all settled down for pizza and soda.  Then the huge strawberry shortcake appeared that came from an expensive bakery.  It was 4 layers and about 6 inches tall.  It had fresh strawberry and cream filling between each layer.  It was the very best birthday ever.  Even though it has been several months, I still think of that day.  It really gives me a happy feeling inside.   I have been with the company for over 10 years and most of my coworkers were there from the start of my tenure.   They are not just coworkers to me. They are my friends and feel like family.  Most consider turning 65 an unhappy event since it is downhill from there.  However, I do not.  I am in great health and can do just about everything I did at 55.  If I have a bad day or am feeling gloomy, I think about my birthday party and start smiling.  I have never been surprised by anything in my life till my 65th birthday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My surprise birthday part at work was a huge surprise.  After the initial \"Happy Birthday\" song, we all settled down for pizza and soda.  Then the huge strawberry shortcake appeared that came from an expensive bakery.  It was 4 layers and about 6 inches tall.  It had fresh strawberry and cream filling between each layer.  It was the very best birthday ever.  Even though it has been several months, I still think of that day.  It really gives me a happy feeling inside.   I have been with the company for over 10 years and most of my coworkers were there from the start of my tenure.   They are not just coworkers to me. They are my friends and feel like family.  Most consider turning 65 an unhappy event since it is downhill from there.  However, I do not.  I am in great health and can do just about everything I did at 55.  If I have a bad day or am feeling gloomy, I think about my birthday party and start smiling.  I have never been surprised by anything in my life till my 65th birthday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was the best birthday ever.\n\n"
+            }
+        ],
+        "request_id": "811ed20eb9c48c7d-EWR"
+    }
+}

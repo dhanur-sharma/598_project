@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was estranged from my extended family for a long time. We have recently started to spend time together again. My birthday was in June. Traditionally, I would spend my birthday with my mother. We would go to a movie, and then out to eat, and we would end the day with birthday cake. Since my mother died two years ago, my birthday has been very sad. But this year, I invited her sister and brother to share the day with me. We went to see The Secret Life of Pets 2, which we all enjoyed. We had a nice lunch out together. And then we came back to my house for birthday cake. They really made the day special and memorable for me. If I couldn't spend it with my mom, at least I could spend it with people who loved her as much as I did. We had such a good time that day that we decided to re-start some old family traditions that I remember from my childhood. Since then we have also celebrated my uncle's birthday and had a great time that day too. We are making plans for Thanksgiving and Christmas. I am happy that my birthday celebration was the beginning of healing old rifts in my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was estranged from my extended family for a long time. We have recently started to spend time together again. My birthday was in June. Traditionally, I would spend my birthday with my mother. We would go to a movie, and then out to eat, and we would end the day with birthday cake. Since my mother died two years ago, my birthday has been very sad. But this year, I invited her sister and brother to share the day with me. We went to see The Secret Life of Pets 2, which we all enjoyed. We had a nice lunch out together. And then we came back to my house for birthday cake. They really made the day special and memorable for me. If I couldn't spend it with my mom, at least I could spend it with people who loved her as much as I did. We had such a good time that day that we decided to re-start some old family traditions that I remember from my childhood. Since then we have also celebrated my uncle's birthday and had a great time that day too. We are making plans for Thanksgiving and Christmas. I am happy that my birthday celebration was the beginning of healing old rifts in my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9722cd208c0b-EWR"
+    }
+}

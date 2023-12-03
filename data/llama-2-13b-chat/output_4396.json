@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a time that happened about four months ago. I was in college during that time. It was a not so wonderful period for me. I was interning for a job that despised. Everyday, someone complained about me to me. The mistakes were not my fault, but their fault. It was not the job that I dreamed about. It was a job with grueling tasks with no end in sight. So I started looking at a career change. It was hard to find an internship with a career related to my major. I went to several interviews and many rejected me. I still had to keep my old internship until I found a new one. Then someone from an opposing company came to visit. They noticed my work and asked if I would like to intern for them. Immediately I said yes. Ever since the change, I feel very satisfied and my skills have grown exponentially."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a time that happened about four months ago. I was in college during that time. It was a not so wonderful period for me. I was interning for a job that despised. Everyday, someone complained about me to me. The mistakes were not my fault, but their fault. It was not the job that I dreamed about. It was a job with grueling tasks with no end in sight. So I started looking at a career change. It was hard to find an internship with a career related to my major. I went to several interviews and many rejected me. I still had to keep my old internship until I found a new one. Then someone from an opposing company came to visit. They noticed my work and asked if I would like to intern for them. Immediately I said yes. Ever since the change, I feel very satisfied and my skills have grown exponentially.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd618adaf4235-EWR"
+    }
+}

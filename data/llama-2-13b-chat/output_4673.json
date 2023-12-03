@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,This past June I went with my dad and brother grandma's house on my dad's side. She lives a couple of states away and I hadn't seen her in many years. Last October grandpa died and by his request he was cremated and had a memorial in the spring. We didn't get to go because we couldn't get time off work. While we were up there though we went to his grave site, which is in a veterans memorial cemetery. It's a nice place and looks well taken care of.  I was nervous about seeing grandma for the first time in over a decade. I just never got the chance to go up there. My parents took a couple of trips but I couldn't get off work and stayed behind to watch the house and dogs. Anyway I was worried that I wouldn't remember much about her or the house but it all came back to me when I got there. They have a basement with loads of neat stuff. Grandma still does a lot of craft type things. It turned out she remembered less of me being there and didn't think I had been there for an even longer time. We went to see her brother and had a formal dinner which I was not prepared for. I was under dressed and felt out of place, which was a little awkward. But they were nice and it was a decent time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,This past June I went with my dad and brother grandma's house on my dad's side. She lives a couple of states away and I hadn't seen her in many years. Last October grandpa died and by his request he was cremated and had a memorial in the spring. We didn't get to go because we couldn't get time off work. While we were up there though we went to his grave site, which is in a veterans memorial cemetery. It's a nice place and looks well taken care of.  I was nervous about seeing grandma for the first time in over a decade. I just never got the chance to go up there. My parents took a couple of trips but I couldn't get off work and stayed behind to watch the house and dogs. Anyway I was worried that I wouldn't remember much about her or the house but it all came back to me when I got there. They have a basement with loads of neat stuff. Grandma still does a lot of craft type things. It turned out she remembered less of me being there and didn't think I had been there for an even longer time. We went to see her brother and had a formal dinner which I was not prepared for. I was under dressed and felt out of place, which was a little awkward. But they were nice and it was a decent time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was good to see her though and catch up. I wish I could have spent more time there."
+            }
+        ],
+        "request_id": "811bdb7d2aa6439c-EWR"
+    }
+}

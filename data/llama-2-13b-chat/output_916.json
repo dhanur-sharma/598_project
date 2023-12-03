@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It finally happened! I got a promotion and a raise! This happened 3 months ago, but I neglected to tell you about it! I have worked hard and long for this and finally I can start making head ways! My had started the week after I got the promotion.  I couldn't be happier! I even got to move into a new office. Bye bye, little cubicle! It was weird in a way because I really thought R was next in line for the promotion... but who am I to complain? I couldn't wait to tell my parents! They were happy for me and I can start paying them back as well. That should make them happy even more. I know they don't even expect it and that makes me sweeter. This is just a first step toward my future. I am sure I will stay with this company for some time. At last, things are looking up. Thank you God!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It finally happened! I got a promotion and a raise! This happened 3 months ago, but I neglected to tell you about it! I have worked hard and long for this and finally I can start making head ways! My had started the week after I got the promotion.  I couldn't be happier! I even got to move into a new office. Bye bye, little cubicle! It was weird in a way because I really thought R was next in line for the promotion... but who am I to complain? I couldn't wait to tell my parents! They were happy for me and I can start paying them back as well. That should make them happy even more. I know they don't even expect it and that makes me sweeter. This is just a first step toward my future. I am sure I will stay with this company for some time. At last, things are looking up. Thank you God!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9a8c7ee942c1-EWR"
+    }
+}

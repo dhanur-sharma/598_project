@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In February I went home to Phoenix for the first time in 10 years. It was strange seeing everyone again. Some seemed much older, others just the same. I met some new younger relatives for the first time. I went with my mom, who was recovering from serious illness. I got to go on a small road trip and see some of the countryside that was new to me. It was a stressful time but I'm glad I went. I'd like to live out there again but it's just not feasible right now. My cousins seemed the same for the most part. I spent the most time with them. One cousin seemed to be avoiding me the whole time but she just had bad timing with her planning. My grandma was doing surprisingly well but her usual extremely difficult self, she has a severe personality disorder. My aunt and uncle I usually barely see a few hours every few years actually wanted to spend the most time with me, which was very surprising. I guess they realized I needed help with my mom since I've been her sole caretaker and the last year has been extremely stressful to the detriment of my own health. I'd had no help with her up to this point. I'm still resentful that they had to see with their own eyes how unwell she is for them to step up to the plate. They have so many more resources than I do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In February I went home to Phoenix for the first time in 10 years. It was strange seeing everyone again. Some seemed much older, others just the same. I met some new younger relatives for the first time. I went with my mom, who was recovering from serious illness. I got to go on a small road trip and see some of the countryside that was new to me. It was a stressful time but I'm glad I went. I'd like to live out there again but it's just not feasible right now. My cousins seemed the same for the most part. I spent the most time with them. One cousin seemed to be avoiding me the whole time but she just had bad timing with her planning. My grandma was doing surprisingly well but her usual extremely difficult self, she has a severe personality disorder. My aunt and uncle I usually barely see a few hours every few years actually wanted to spend the most time with me, which was very surprising. I guess they realized I needed help with my mom since I've been her sole caretaker and the last year has been extremely stressful to the detriment of my own health. I'd had no help with her up to this point. I'm still resentful that they had to see with their own eyes how unwell she is for them to step up to the plate. They have so many more resources than I do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I'm glad they finally did. I was relieved to get back home to my own life though.\n\n"
+            }
+        ],
+        "request_id": "811eafa45de34210-EWR"
+    }
+}

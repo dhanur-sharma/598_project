@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I usually write about my normal boring day and it\u2019s the same thing over and over. But today I am moving to a new house. And I am so excited because it\u2019ll be a new start. At my old school I didn\u2019t have many friends but maybe here people will appreciate my creativity. But there\u2019s a downside because if I don\u2019t fit in here I won\u2019t know what to do. Have you ever had trouble fitting in? What am I thinking you\u2019re just a diary. You can\u2019t talk! All I am saying is that I am glad to have a fresh beginning and I am going to tell you about all of the adventures I go on in my new home. I have to go but I\u2019ll tell you more later. Oh by the way I am also starting my new bakery this fall. Icannot believe it's finally here. Now we can serve so many customers and do so much more things. It pays to be disciplined. I know how things work for the most thanks to the investors I have. I will not let them down."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I usually write about my normal boring day and it\u2019s the same thing over and over. But today I am moving to a new house. And I am so excited because it\u2019ll be a new start. At my old school I didn\u2019t have many friends but maybe here people will appreciate my creativity. But there\u2019s a downside because if I don\u2019t fit in here I won\u2019t know what to do. Have you ever had trouble fitting in? What am I thinking you\u2019re just a diary. You can\u2019t talk! All I am saying is that I am glad to have a fresh beginning and I am going to tell you about all of the adventures I go on in my new home. I have to go but I\u2019ll tell you more later. Oh by the way I am also starting my new bakery this fall. Icannot believe it's finally here. Now we can serve so many customers and do so much more things. It pays to be disciplined. I know how things work for the most thanks to the investors I have. I will not let them down.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am going to do my best. Love you diary! \n\n"
+            }
+        ],
+        "request_id": "811f334f082c432c-EWR"
+    }
+}

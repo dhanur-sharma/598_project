@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I decided to go to the store and buy myself a new outfit. I wanted to buy a new outfit for church.  I walked to the store with my daughter since the retail store is not far from my house. We went to the store and I began looking at some clothes. I found some stuff and I tried it on. I put some of it back and tried on some more stuff. Finally, I found something I really liked and it looked good on me. I paid for the dress and we began to walk back to our home. Well, I dropped something on the ground and I picked it up. I thought I heard a ripping sound but was not sure. I picked up the item and kept walking. Later, I felt a slight draft then I saw a car slow down and the people were staring at me. I said what are they looking at and then my daughter and I both realized my pants were torn and you could see my underwear. I am so glad I always wear clean underwear and thankfully they were the full size undies. I was so embarrassed. We rushed home and my daughter tried to walk behind me close so people could not see it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I decided to go to the store and buy myself a new outfit. I wanted to buy a new outfit for church.  I walked to the store with my daughter since the retail store is not far from my house. We went to the store and I began looking at some clothes. I found some stuff and I tried it on. I put some of it back and tried on some more stuff. Finally, I found something I really liked and it looked good on me. I paid for the dress and we began to walk back to our home. Well, I dropped something on the ground and I picked it up. I thought I heard a ripping sound but was not sure. I picked up the item and kept walking. Later, I felt a slight draft then I saw a car slow down and the people were staring at me. I said what are they looking at and then my daughter and I both realized my pants were torn and you could see my underwear. I am so glad I always wear clean underwear and thankfully they were the full size undies. I was so embarrassed. We rushed home and my daughter tried to walk behind me close so people could not see it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd4210c364325-EWR"
+    }
+}

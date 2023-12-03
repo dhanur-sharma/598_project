@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago I was on the subway in New York. I had to make my way to downtown Manhattan. I took a seat on the crowded subway and didn't have to stand. As I sat down I noticed this beautiful lady looking for a seat. I had an open seat next to me. I caught her eye and gave her a friendly glare. She noticed the seat was empty next to me. I put my book down on the seat,so no one took the seat. She made her way over, and quickly sat down. She smelled on Jasmine and sandalwood. A scent that was feminine and light. We exchanged greetings, and I told her my name. She told me her name, and it was as beautiful as her. We talked as if we knew each other forever. Before we parted ways I was shocked she leaned over and kissed me on the cheek."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago I was on the subway in New York. I had to make my way to downtown Manhattan. I took a seat on the crowded subway and didn't have to stand. As I sat down I noticed this beautiful lady looking for a seat. I had an open seat next to me. I caught her eye and gave her a friendly glare. She noticed the seat was empty next to me. I put my book down on the seat,so no one took the seat. She made her way over, and quickly sat down. She smelled on Jasmine and sandalwood. A scent that was feminine and light. We exchanged greetings, and I told her my name. She told me her name, and it was as beautiful as her. We talked as if we knew each other forever. Before we parted ways I was shocked she leaned over and kissed me on the cheek.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the most unexpected but amazing thing that had happened to me in a long time. I never expected to meet such a beautiful person on the subway in New York."
+            }
+        ],
+        "request_id": "811f31319da742e1-EWR"
+    }
+}

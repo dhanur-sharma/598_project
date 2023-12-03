@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I had a big family reunion. We haven't had one in over 20 years. This was a very exciting event. I saw my Grandma who said I liked great as ever. I saw my Grandpa who said I was getting strong. My Aunt looked lovely and thanked me for the compliment. My Uncle still smoked a lot. We had a nice feast. There were plenty of steaks to go around the whole family. There were some nice mashed potatoes to eat. They had gravy on the side. There was a big cake to share with everybody. It was a chocolate cake. There was also horseshoes to play. I barely beat my Uncle. We vowed to keep in touch."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I had a big family reunion. We haven't had one in over 20 years. This was a very exciting event. I saw my Grandma who said I liked great as ever. I saw my Grandpa who said I was getting strong. My Aunt looked lovely and thanked me for the compliment. My Uncle still smoked a lot. We had a nice feast. There were plenty of steaks to go around the whole family. There were some nice mashed potatoes to eat. They had gravy on the side. There was a big cake to share with everybody. It was a chocolate cake. There was also horseshoes to play. I barely beat my Uncle. We vowed to keep in touch.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We'll have another family reunion soon.\n\n"
+            }
+        ],
+        "request_id": "811bdd72683f4333-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, I attended a political rally. I had never been to a rally in my life but this new presidential candidate really interested me. I heard about him on the Joe Rogan podcast. He was talking about providing people with universal basic income. His name is Andrew Yang. When I heard that he was coming to Los Angeles, I knew I had to make it out to see him. I invited my friend and we took the train to see him. I was worried that no one was going to show up because he was very unknown. When we got there I was shocked by how many people were actually there. It was a very diverse group as well. There were people from all different backgrounds. During his speech, I could see how pumped people were getting. When he ended his speech, people were cheering his name. On the train ride bike, people kept talking about him. For the first time in my life, I felt like change was possible. I fully believe in a president for the first time ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, I attended a political rally. I had never been to a rally in my life but this new presidential candidate really interested me. I heard about him on the Joe Rogan podcast. He was talking about providing people with universal basic income. His name is Andrew Yang. When I heard that he was coming to Los Angeles, I knew I had to make it out to see him. I invited my friend and we took the train to see him. I was worried that no one was going to show up because he was very unknown. When we got there I was shocked by how many people were actually there. It was a very diverse group as well. There were people from all different backgrounds. During his speech, I could see how pumped people were getting. When he ended his speech, people were cheering his name. On the train ride bike, people kept talking about him. For the first time in my life, I felt like change was possible. I fully believe in a president for the first time ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea0231e383348-EWR"
+    }
+}

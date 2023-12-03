@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My child aged 9 months was very ill over the last winter, right after he was born. He was hospitalized for a respiratory illness and had to have a breathing tube inserted and was heavily sedated for about a week. After he got sick, I began making lots of follow-up appointments with specialists to try to get down to the bottom of why he was so sick so often. Well, a few months ago, we had a procedure done with a lung specialist. They had to put my child under general anesthesia, which was incredibly nerve-wracking for me. I felt very anxious for the few weeks before, wondering if he was going to tolerate the anesthesia well, or worse, if he would die. I was also very worried about the findings of the procedure. Would they be able to figure out what was wrong? Were they going to come up conclusive, and we still wouldn't find an answer, and then would have to deal with another horrible New England winter with a deathly ill child? Finally, the day came. We checked him and we waited for the doctors and anesthetists to be ready. Even though the wait was only a half hour before the procedure was over, it felt like forever. I stared at the floor blankly, waiting for hospital staff to come in and tell us that he hadn't made it... That something had gone wrong. Tears streamed down my face. My partner tried to console me, but I felt completely disconnected to my physical environment; I felt disassociated. Finally, we got the news. The procedure was fine. However, the findings weren't very good. I felt relief to know that we finally had an answer, but still worried because I knew this wasn't the end of our journey."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My child aged 9 months was very ill over the last winter, right after he was born. He was hospitalized for a respiratory illness and had to have a breathing tube inserted and was heavily sedated for about a week. After he got sick, I began making lots of follow-up appointments with specialists to try to get down to the bottom of why he was so sick so often. Well, a few months ago, we had a procedure done with a lung specialist. They had to put my child under general anesthesia, which was incredibly nerve-wracking for me. I felt very anxious for the few weeks before, wondering if he was going to tolerate the anesthesia well, or worse, if he would die. I was also very worried about the findings of the procedure. Would they be able to figure out what was wrong? Were they going to come up conclusive, and we still wouldn't find an answer, and then would have to deal with another horrible New England winter with a deathly ill child? Finally, the day came. We checked him and we waited for the doctors and anesthetists to be ready. Even though the wait was only a half hour before the procedure was over, it felt like forever. I stared at the floor blankly, waiting for hospital staff to come in and tell us that he hadn't made it... That something had gone wrong. Tears streamed down my face. My partner tried to console me, but I felt completely disconnected to my physical environment; I felt disassociated. Finally, we got the news. The procedure was fine. However, the findings weren't very good. I felt relief to know that we finally had an answer, but still worried because I knew this wasn't the end of our journey.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead15385f1927-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few days ago was the big dinner. We had been planning it for weeks, as a way to say goodbye to our friend Pablo, who would be leaving to Peru in a couple days. It was an important event for me, and I had to do a lot of preparation. First off, I had to find the venue. I looked all over town for various options, and made a list of the best choices. Then, our group voted on which restaurant to choose. We ended up choosing Anju, a new Korean place which had rave reviews. Next, I locked down the reservations, and made sure everybody knew when it was happening. However, we made sure to keep it a secret from Pablo, in hopes of surprising him. Once the night of the dinner arrived, I went over to Pablo's apartment to pick him up. He was a bit confused on what we were doing, but I told him we would go grab a slice of pizza or something. As we arrived at the Korean restaurant, Pablo begin to suspect that something was up. As soon as he seen all of our friends waiting outside, he knew he had been surprised. Everybody jumped out and yelled \"surprise\" in unison. It was really well done, and Pablo was laughing so hard he began to cry. We filed into the restaurant, and began our meal. We had a lot of laughs, told a lot of stories, and ate our fair share of delicious Korean cuisine. As we finished our main course, the staff came out with another surprise - a large chocolate cake, with \"goodbye Pablo\" spelled out in white icing. It looked amazing! Afterwards, I learned that our friend Javiar had set this up. What a fantastic way to end the meal. Everybody loved the cake - especially Pablo."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few days ago was the big dinner. We had been planning it for weeks, as a way to say goodbye to our friend Pablo, who would be leaving to Peru in a couple days. It was an important event for me, and I had to do a lot of preparation. First off, I had to find the venue. I looked all over town for various options, and made a list of the best choices. Then, our group voted on which restaurant to choose. We ended up choosing Anju, a new Korean place which had rave reviews. Next, I locked down the reservations, and made sure everybody knew when it was happening. However, we made sure to keep it a secret from Pablo, in hopes of surprising him. Once the night of the dinner arrived, I went over to Pablo's apartment to pick him up. He was a bit confused on what we were doing, but I told him we would go grab a slice of pizza or something. As we arrived at the Korean restaurant, Pablo begin to suspect that something was up. As soon as he seen all of our friends waiting outside, he knew he had been surprised. Everybody jumped out and yelled \"surprise\" in unison. It was really well done, and Pablo was laughing so hard he began to cry. We filed into the restaurant, and began our meal. We had a lot of laughs, told a lot of stories, and ate our fair share of delicious Korean cuisine. As we finished our main course, the staff came out with another surprise - a large chocolate cake, with \"goodbye Pablo\" spelled out in white icing. It looked amazing! Afterwards, I learned that our friend Javiar had set this up. What a fantastic way to end the meal. Everybody loved the cake - especially Pablo.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "As we left the restaurant, Pablo thanked me for putting this whole thing together. I told him it was no problem, but really it was a lot of work. I'm just glad it all came together.\n\n"
+            }
+        ],
+        "request_id": "811eb33309b0c34e-EWR"
+    }
+}

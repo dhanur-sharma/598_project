@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Here I am again. It seems like there are times when the world decides to dump on me. I always knew that this day would come, but I still wasn't prepared. Three weeks ago I lost my dog. She was my best friend and constant companion. I raised her from a pup, almost like my own child. I know a lot of people scoff when you say that, but I don't care. She was family to me and I miss her so much. She always loved going outside and chasing the ball. Man, was she fast, and great at catching the ball. It was a shock to me when she was no longer able to run around. I knew something was wrong but thought maybe she just had a bug. I took her to the vet and received the worst news I could imagine. Cancer, and she wouldn't make it longer than a week. It's a strange feeling when all you can do is wait for someone to pass on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Here I am again. It seems like there are times when the world decides to dump on me. I always knew that this day would come, but I still wasn't prepared. Three weeks ago I lost my dog. She was my best friend and constant companion. I raised her from a pup, almost like my own child. I know a lot of people scoff when you say that, but I don't care. She was family to me and I miss her so much. She always loved going outside and chasing the ball. Man, was she fast, and great at catching the ball. It was a shock to me when she was no longer able to run around. I knew something was wrong but thought maybe she just had a bug. I took her to the vet and received the worst news I could imagine. Cancer, and she wouldn't make it longer than a week. It's a strange feeling when all you can do is wait for someone to pass on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's like you're stuck in a time loop and you can't move forward. I have been crying every day since then, sometimes multiple times a day. I feel like I'm drowning in grief. I know it will get better eventually, but for now, it's just too much. I miss her so much."
+            }
+        ],
+        "request_id": "811eaf520d15432e-EWR"
+    }
+}

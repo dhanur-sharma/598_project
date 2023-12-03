@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a year ago i took a trip to Budapest Hungary with my best friend from growing up. The country was beautiful. We enjoyed the food. We loved the atmosphere. We took tours. One of the tours was a food tasting tour. We also went to a museum. We saw a play. We really enjoyed the beautiful scenery. My friend and i have not seen each other in almost a year. We we're very excited to see each other. We also we're very excited to have alot of time together. We talked about the good old days. We talked about going to high school together. We really had a great time. It was a trip we will never forget. We created many more memories."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a year ago i took a trip to Budapest Hungary with my best friend from growing up. The country was beautiful. We enjoyed the food. We loved the atmosphere. We took tours. One of the tours was a food tasting tour. We also went to a museum. We saw a play. We really enjoyed the beautiful scenery. My friend and i have not seen each other in almost a year. We we're very excited to see each other. We also we're very excited to have alot of time together. We talked about the good old days. We talked about going to high school together. We really had a great time. It was a trip we will never forget. We created many more memories.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We have been talking about going back to Hungary again someday.\n\n"
+            }
+        ],
+        "request_id": "811e8f4a4b8d4288-EWR"
+    }
+}

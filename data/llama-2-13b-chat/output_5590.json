@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that I've decided to talk about it is a short relationship I had with a man.  It was our ultimate break up that I am going to write about.  First, I met this guy when I was at a Meetup and he seemed super nice and kind and interested in me.  Well, I ended up reaching out to him and seeing if he wanted to get a cup of coffee.  When I reached out to him, he wanted to and so we met up and started talking.  I was really interested in him at first, but I've been hurt before so I had some guard up.  Well after a while, about 2 weeks of getting to know each other, he started imposing on my boundaries and being what I describe as controlling.  I asked him first for a little physical space, because he was all over me at first and it made me a little confused.  He wasn't super receptive to that and took it kind of like a personal slight.  Another thing I asked him, was when he was talking to ask me some questions and not just dominate the conversation.  Well his reaction to that was that I should just interrupt him if I had something to say and he started to call me stupid.  I was more and more frustrated with him and he began pressuring me more and more to do things his way and without my input.  It made me very upset and I decided that I wanted to end it.  He got really upset and said that I was just labeling him and not being kind enough to him, he didn't mean to push my boundaries, how do you know unless you try he kept saying.  In my head it was confusing, because a lot of my relationships in the past had been unhealthy,  and I am just learning healthy ones.  So, it turns out he wrote to me and tried very hard to get me to get back together with him.  But, I don't want to be with him, he makes me feel stressed out and tired and I am glad I got out of that relationship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that I've decided to talk about it is a short relationship I had with a man.  It was our ultimate break up that I am going to write about.  First, I met this guy when I was at a Meetup and he seemed super nice and kind and interested in me.  Well, I ended up reaching out to him and seeing if he wanted to get a cup of coffee.  When I reached out to him, he wanted to and so we met up and started talking.  I was really interested in him at first, but I've been hurt before so I had some guard up.  Well after a while, about 2 weeks of getting to know each other, he started imposing on my boundaries and being what I describe as controlling.  I asked him first for a little physical space, because he was all over me at first and it made me a little confused.  He wasn't super receptive to that and took it kind of like a personal slight.  Another thing I asked him, was when he was talking to ask me some questions and not just dominate the conversation.  Well his reaction to that was that I should just interrupt him if I had something to say and he started to call me stupid.  I was more and more frustrated with him and he began pressuring me more and more to do things his way and without my input.  It made me very upset and I decided that I wanted to end it.  He got really upset and said that I was just labeling him and not being kind enough to him, he didn't mean to push my boundaries, how do you know unless you try he kept saying.  In my head it was confusing, because a lot of my relationships in the past had been unhealthy,  and I am just learning healthy ones.  So, it turns out he wrote to me and tried very hard to get me to get back together with him.  But, I don't want to be with him, he makes me feel stressed out and tired and I am glad I got out of that relationship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " So, that is the story of my break up with him."
+            }
+        ],
+        "request_id": "811f34a5ca204327-EWR"
+    }
+}

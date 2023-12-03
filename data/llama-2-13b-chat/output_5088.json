@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, I almost got into an accident. I went to the restaurant for a nice meal. I started the meal with a nice glass of water. It was very refreshing. I then got a bowl of queso to eat. It was the right temperature. It was very good to eat. It came with chips and salsa. They were both delicious. I then ordered fajitas for the main meal. They were steak fajitas. Right when the fajitas were about to be brought out, the waiter almost tripped. I had a sweat and a bit of a panic for a second. I'm glad he didn't trip. That would of been a disaster in the making. I made sure to give him a big tip for our near trip to the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, I almost got into an accident. I went to the restaurant for a nice meal. I started the meal with a nice glass of water. It was very refreshing. I then got a bowl of queso to eat. It was the right temperature. It was very good to eat. It came with chips and salsa. They were both delicious. I then ordered fajitas for the main meal. They were steak fajitas. Right when the fajitas were about to be brought out, the waiter almost tripped. I had a sweat and a bit of a panic for a second. I'm glad he didn't trip. That would of been a disaster in the making. I made sure to give him a big tip for our near trip to the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3d868750f46-EWR"
+    }
+}

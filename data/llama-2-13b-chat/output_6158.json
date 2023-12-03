@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I attended my best friends daughters Birthday party.  We arrived at the party around 3pm.  It was at a park close to my friends house.  The gazebo  was decorated in a princess theme.  Her daughter loves princesses.  There was a beautiful cake at the center of the table.  The cake looked like a princess, with its mane part made to look like a dress.  All the children were dressed up as princesses.  The games were princess themed. Part of the fun included  a dress up contest.  After cake, we all sat down to watch the birthday girl open her presents.  Most of the presents were princess themed as well. Her daughter has the biggest smile on her face the whole time. She then began to tear into her presents as the other children scurred over to enjoy the fun.  all in all it was a great day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I attended my best friends daughters Birthday party.  We arrived at the party around 3pm.  It was at a park close to my friends house.  The gazebo  was decorated in a princess theme.  Her daughter loves princesses.  There was a beautiful cake at the center of the table.  The cake looked like a princess, with its mane part made to look like a dress.  All the children were dressed up as princesses.  The games were princess themed. Part of the fun included  a dress up contest.  After cake, we all sat down to watch the birthday girl open her presents.  Most of the presents were princess themed as well. Her daughter has the biggest smile on her face the whole time. She then began to tear into her presents as the other children scurred over to enjoy the fun.  all in all it was a great day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4011ce620c78-EWR"
+    }
+}

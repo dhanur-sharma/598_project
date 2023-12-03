@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother, mom, and I went to the Smoky Mountains for a vacation.  My mom was having a birthday during this time so it was even more special.  Going to the mountains was what we wanted this year.  It is really beautiful there.  I actually bought myself a new camera for this trip because I wanted to take pictures of the mountains and have them look good.  I've had cameras in the past that didn't give me good pictures.  I also wanted HQ video.  As soon as we got there, we went to Dollywood which was really fun.  I hadn't been there since I was a little kid.  We went on the train and it was the perfect time for me to take pictures.   After that, we went to Gatlinburg and walked around.  It was very busy there, but it's basically the same place I remembered it to be.   We were able to go to Anakeesta and everything.   It is different since the fires, though.  We spent the next few days shopping all the various stores in Pigeon Forge.  It's always a treat to go to the Walmart in the area, it's so different than all the other Walmarts I've been to.  We got a funnel cake as my mom's birthday cake and it tasted so good!   All in all, it was a great trip and I hope we do it again soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother, mom, and I went to the Smoky Mountains for a vacation.  My mom was having a birthday during this time so it was even more special.  Going to the mountains was what we wanted this year.  It is really beautiful there.  I actually bought myself a new camera for this trip because I wanted to take pictures of the mountains and have them look good.  I've had cameras in the past that didn't give me good pictures.  I also wanted HQ video.  As soon as we got there, we went to Dollywood which was really fun.  I hadn't been there since I was a little kid.  We went on the train and it was the perfect time for me to take pictures.   After that, we went to Gatlinburg and walked around.  It was very busy there, but it's basically the same place I remembered it to be.   We were able to go to Anakeesta and everything.   It is different since the fires, though.  We spent the next few days shopping all the various stores in Pigeon Forge.  It's always a treat to go to the Walmart in the area, it's so different than all the other Walmarts I've been to.  We got a funnel cake as my mom's birthday cake and it tasted so good!   All in all, it was a great trip and I hope we do it again soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd6392c384252-EWR"
+    }
+}

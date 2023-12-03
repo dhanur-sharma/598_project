@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I were traveling to see our third grandchild for the first time. We arrived safely to out destination that was 35 miles away. I walk with a cane because of bad feet and being out of normal balance. I walked in the door of my young sons house.  My oldest son greeted me with a big smile on his face and a bundle in his arms. I figured that was out baby he was holding. He offered for me to take Baby,  Shona. I wanted too, but due to my terrible awkwardness I turned the idea down.  I needed to sit to hold the newborn. I walked across the room and sat on a nice couch. The moment I settled in he hand me the wrapped up baby.  I opened the blanket to see her.  My first sight was deep blue eyes and light brown skin. We are a very white family.  I immediatly became suspicious of the eyes, the were too blue for a newborn. I looked up to say \"what is this?' They had playfully given me a doll that my oldest granddaughter owned. My daughter in law was holding the real baby and started to giggle. It was her idea to pull a trick on me. It was funny to everyone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I were traveling to see our third grandchild for the first time. We arrived safely to out destination that was 35 miles away. I walk with a cane because of bad feet and being out of normal balance. I walked in the door of my young sons house.  My oldest son greeted me with a big smile on his face and a bundle in his arms. I figured that was out baby he was holding. He offered for me to take Baby,  Shona. I wanted too, but due to my terrible awkwardness I turned the idea down.  I needed to sit to hold the newborn. I walked across the room and sat on a nice couch. The moment I settled in he hand me the wrapped up baby.  I opened the blanket to see her.  My first sight was deep blue eyes and light brown skin. We are a very white family.  I immediatly became suspicious of the eyes, the were too blue for a newborn. I looked up to say \"what is this?' They had playfully given me a doll that my oldest granddaughter owned. My daughter in law was holding the real baby and started to giggle. It was her idea to pull a trick on me. It was funny to everyone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I laughed and held the doll for a few moments. I was happy to have a moment to hold her and love on her. I love being a grandmother."
+            }
+        ],
+        "request_id": "811bd1312b094374-EWR"
+    }
+}

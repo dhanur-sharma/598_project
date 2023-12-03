@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a crazy story to tell I think you might like. It happened a couple weeks ago but I can not stop forgetting about it. I was hanging out with some of my girlfriends, and we all have kids. We planned a day where all mommies got together with our kids. It was a birthday party for one of the girls kids. He was turing 9 and they rented a huge waterslide for all the kids. After all the kids got to party on it for a few hours, we (as in the adults) took it over. We had some beer and we were going down, pushing each other down. It really was so fun. I was pushed down by one of my friends and I landed on my arm wrong and twisted my shoulder. It still hurts to this day! Im so mad at her, but she is my best friend. It was a crazy night, a fun day. The kids had so much fun at the party. We will always be friends and do stuff together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a crazy story to tell I think you might like. It happened a couple weeks ago but I can not stop forgetting about it. I was hanging out with some of my girlfriends, and we all have kids. We planned a day where all mommies got together with our kids. It was a birthday party for one of the girls kids. He was turing 9 and they rented a huge waterslide for all the kids. After all the kids got to party on it for a few hours, we (as in the adults) took it over. We had some beer and we were going down, pushing each other down. It really was so fun. I was pushed down by one of my friends and I landed on my arm wrong and twisted my shoulder. It still hurts to this day! Im so mad at her, but she is my best friend. It was a crazy night, a fun day. The kids had so much fun at the party. We will always be friends and do stuff together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb1a778e143f1-EWR"
+    }
+}

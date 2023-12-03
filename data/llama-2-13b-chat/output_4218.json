@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the local grocery store with my adult autistic son last week. He is 23 years old and has been out of school for three years. As we were leaving the store and loading groceries into my car, a woman approached us. She asked my son if he was (his name). He was a bit taken aback but responded that he was indeed, (his name). She said, \"You probably don't remember me, but I worked with you as a paraprofessional in 8th grade. My name is Mrs. (her name).\" My son responded that yes, he did remember her. He smiled at her, making eye contact, and asked her how she had been. They proceeded to have a conversation about what they had been doing over the last several years. My son discussed that he graduated from the local high school, did some volunteer work with animal rescues, and is now working as a Kennel Tech with dogs. They continued the conversation, and the whole time I observed that my son was very social and animated in his conversation, continually maintaining eye contact. I was surprised as I witnessed this interaction. Being autistic, my son has had struggles with social interactions. He does not often maintain eye contact, and usually doesn't engage at this level. He often just responds to conversational questions with one word answers and doesn't offer additional information or ask others questions. This was not the case during this interaction. I was especially touched when the conversation ended and my son said \"It was so nice to see you again.\" I realized that since he has been in the real world working at his job, his social skills have significantly improved."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the local grocery store with my adult autistic son last week. He is 23 years old and has been out of school for three years. As we were leaving the store and loading groceries into my car, a woman approached us. She asked my son if he was (his name). He was a bit taken aback but responded that he was indeed, (his name). She said, \"You probably don't remember me, but I worked with you as a paraprofessional in 8th grade. My name is Mrs. (her name).\" My son responded that yes, he did remember her. He smiled at her, making eye contact, and asked her how she had been. They proceeded to have a conversation about what they had been doing over the last several years. My son discussed that he graduated from the local high school, did some volunteer work with animal rescues, and is now working as a Kennel Tech with dogs. They continued the conversation, and the whole time I observed that my son was very social and animated in his conversation, continually maintaining eye contact. I was surprised as I witnessed this interaction. Being autistic, my son has had struggles with social interactions. He does not often maintain eye contact, and usually doesn't engage at this level. He often just responds to conversational questions with one word answers and doesn't offer additional information or ask others questions. This was not the case during this interaction. I was especially touched when the conversation ended and my son said \"It was so nice to see you again.\" I realized that since he has been in the real world working at his job, his social skills have significantly improved.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was very proud of him. I am so grateful for this chance encounter that brought back memories of when he was in school and for the opportunity to see how well he has progressed."
+            }
+        ],
+        "request_id": "811bd263af010f7f-EWR"
+    }
+}

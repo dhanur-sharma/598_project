@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sons birthday was today. He really had a great time and there were a lot of kids who showed up, which was nice. There were even some who showed up who didn't even RSVP, which was great, because we were sort of sad that my kid's friends wouldn't all be there to celebrate with him. My wife had bought WAY too many presents, naturally. I spent the day setting up all the tents outside, so we would have room for everyone. It was supposed to rain that day, but we lucked out and it turned out really nice. My son had a blast with all his friends at his house. He was very excited to show them all his toys and we really didn't have any conflicts over them, which is rare. It was so hard to tear him away from his friends to actually sit down and participate in his own party! In the end, his friends were the ones to actually convince him to come and eat cake. He loves chocolate cake a lot too. We had one made with some characters from a TV show he likes, which was a great surprise for him. He tore into his cake too, really enjoyed it and made a mess everywhere which was ok, since we were outside. The dogs had a good time cleaning up the cake and ice cream afterwards too. Naturally, all his buddies were excited to have him open their presents, and I think he even had more fun opening the presents, moreso than what they actually contained. In the end, it was a really great day and we all had a blast together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sons birthday was today. He really had a great time and there were a lot of kids who showed up, which was nice. There were even some who showed up who didn't even RSVP, which was great, because we were sort of sad that my kid's friends wouldn't all be there to celebrate with him. My wife had bought WAY too many presents, naturally. I spent the day setting up all the tents outside, so we would have room for everyone. It was supposed to rain that day, but we lucked out and it turned out really nice. My son had a blast with all his friends at his house. He was very excited to show them all his toys and we really didn't have any conflicts over them, which is rare. It was so hard to tear him away from his friends to actually sit down and participate in his own party! In the end, his friends were the ones to actually convince him to come and eat cake. He loves chocolate cake a lot too. We had one made with some characters from a TV show he likes, which was a great surprise for him. He tore into his cake too, really enjoyed it and made a mess everywhere which was ok, since we were outside. The dogs had a good time cleaning up the cake and ice cream afterwards too. Naturally, all his buddies were excited to have him open their presents, and I think he even had more fun opening the presents, moreso than what they actually contained. In the end, it was a really great day and we all had a blast together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f398e3b0ac32d-EWR"
+    }
+}

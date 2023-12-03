@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, I got a patent for my water reclamation methods. I will be rich because of this. I started out small. I only sold a few units. Later in the year, I sold hundreds. In a few years, I've sold a million. I am very proud of myself. I got a lot of attention because of this. I have purified all the water in the world except the oceans. Many people thank me for this invention. I have received many calls to host events in countries. It was a fun time being the spotlight of the day in many lands. I am proud of myself. I am grateful for the world. I hope to make more inventions. I hope more people can drink safely."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, I got a patent for my water reclamation methods. I will be rich because of this. I started out small. I only sold a few units. Later in the year, I sold hundreds. In a few years, I've sold a million. I am very proud of myself. I got a lot of attention because of this. I have purified all the water in the world except the oceans. Many people thank me for this invention. I have received many calls to host events in countries. It was a fun time being the spotlight of the day in many lands. I am proud of myself. I am grateful for the world. I hope to make more inventions. I hope more people can drink safely.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e98d65adcc33b-EWR"
+    }
+}

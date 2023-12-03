@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to go 200 miles away to have surgery. It was my only choice. We decided to take our travel trailer and park it in the free parking area for trailers and motor homes. I use to work at this hospital and it was a little known fact that this was available. We got there and got set up and went to the security office to get registered. They said they required our trailer registration and our vehicle registration. We had spoke to them twice on the phone about coming and they had never mentioned this. I had to leave an see my doctor about tomorrow's surgery. So my husband attempted to take care of it. Security said there was something wrong with the registration and called the cops. So, once the cops came the cops got it all straightened out. The cops were irritated with security. So after my doctor appointment and getting our trailer registered, we went back to the trailer. There was a motor home already parked there it had many loud dogs barking in it and there was a large pile of smelly garbage in back of the trailer. There was also a trail of garbage leading back to a large creek. We called security to report the mess and danger of bear activity on the premises. Nothing ever happened. So after my surgery I reported this to some former co-workers, who were now supervisors, The mess got taken care of right away."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to go 200 miles away to have surgery. It was my only choice. We decided to take our travel trailer and park it in the free parking area for trailers and motor homes. I use to work at this hospital and it was a little known fact that this was available. We got there and got set up and went to the security office to get registered. They said they required our trailer registration and our vehicle registration. We had spoke to them twice on the phone about coming and they had never mentioned this. I had to leave an see my doctor about tomorrow's surgery. So my husband attempted to take care of it. Security said there was something wrong with the registration and called the cops. So, once the cops came the cops got it all straightened out. The cops were irritated with security. So after my doctor appointment and getting our trailer registered, we went back to the trailer. There was a motor home already parked there it had many loud dogs barking in it and there was a large pile of smelly garbage in back of the trailer. There was also a trail of garbage leading back to a large creek. We called security to report the mess and danger of bear activity on the premises. Nothing ever happened. So after my surgery I reported this to some former co-workers, who were now supervisors, The mess got taken care of right away.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The owners of the motor home were called and they got a fine and were asked to leave. The security officer in charge was fired.\n\n"
+            }
+        ],
+        "request_id": "811f3949b9760ca0-EWR"
+    }
+}

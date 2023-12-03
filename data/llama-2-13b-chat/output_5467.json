@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I got into my favorite college. This college was Harvard. I took the SAT many times to get in. I am still shocked that I got into the school. I got a nearly perfect score on one SAT. I did write a very impressive essay about how to solve wars. I said that you just need to be in business with each other, so you are reliant on each other. This will reduce the chances of war. I will be majoring in law. This will be a hard task for me. I will need to study a lot. I will need lots of coffee. I hope I can meet some friends to ease the stress. It's a big college, so this shouldn't be a problem. I hope I'll graduate someday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I got into my favorite college. This college was Harvard. I took the SAT many times to get in. I am still shocked that I got into the school. I got a nearly perfect score on one SAT. I did write a very impressive essay about how to solve wars. I said that you just need to be in business with each other, so you are reliant on each other. This will reduce the chances of war. I will be majoring in law. This will be a hard task for me. I will need to study a lot. I will need lots of coffee. I hope I can meet some friends to ease the stress. It's a big college, so this shouldn't be a problem. I hope I'll graduate someday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3224ee914394-EWR"
+    }
+}

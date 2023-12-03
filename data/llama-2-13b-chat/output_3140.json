@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was diagnosed with Thyroid cancer 4 months ago. Prior to that, I noticed a lump in my neck that was getting  bigger. My neck was in constant pain, I was having trouble swallowing, and was just in constant discomfort. I didn't even think about thyroid cancer, because I didn't even know about it at the time. When you hear about cancer, thyroid cancer isn't really hear about often. So, I went to the doctor to see what was going on, and a week later, I get told that I need to have a thyroidectomy. I was in shock. Luckily, the doctor said it was caught early and hadn't spread anywhere else int he body. 2 days later, I was in getting ready to go to the hospital, when I tripped on the curb and fractured my wrist. Good thing I was going to the hospital! They said this wouldn't complicate things, luckily. I just had to have it wrapped up. Afterwards, about 2 weeks later, I had a complication of a seroma on my neck. I didn't know what this meant would happen next. I had to go in once again, and they took care of it. It wasn't as scary as I thought it would be. That month was just hectic, but luckily I am in good health now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was diagnosed with Thyroid cancer 4 months ago. Prior to that, I noticed a lump in my neck that was getting  bigger. My neck was in constant pain, I was having trouble swallowing, and was just in constant discomfort. I didn't even think about thyroid cancer, because I didn't even know about it at the time. When you hear about cancer, thyroid cancer isn't really hear about often. So, I went to the doctor to see what was going on, and a week later, I get told that I need to have a thyroidectomy. I was in shock. Luckily, the doctor said it was caught early and hadn't spread anywhere else int he body. 2 days later, I was in getting ready to go to the hospital, when I tripped on the curb and fractured my wrist. Good thing I was going to the hospital! They said this wouldn't complicate things, luckily. I just had to have it wrapped up. Afterwards, about 2 weeks later, I had a complication of a seroma on my neck. I didn't know what this meant would happen next. I had to go in once again, and they took care of it. It wasn't as scary as I thought it would be. That month was just hectic, but luckily I am in good health now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec4abbbce3300-EWR"
+    }
+}

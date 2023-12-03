@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One afternoon I walk over a big piece of cement wall with my girlfriend. We are walking and look down at a pond. As we are about to go home, we see there is a place for us to kayak. It is free! My girlfriend says why don't we go kayaking. We are excited that now we have the chance to go out and kayak and have fun. I walk down the ladder with my girlfriend and we sign up to go and kayak. I wait there in line with her and we have a kayak to go and boat. It is amazing to kayak on the pond because the pond is in the middle of a theme park. The location is right next to a river and it is pretty. After my girlfriend and I finished kayaking we decide to go out and head home. It is a nice drive home and we come home to cook dinner. The dinner is great and taste goo. I would like to go again in the near future. It is a great time we had together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One afternoon I walk over a big piece of cement wall with my girlfriend. We are walking and look down at a pond. As we are about to go home, we see there is a place for us to kayak. It is free! My girlfriend says why don't we go kayaking. We are excited that now we have the chance to go out and kayak and have fun. I walk down the ladder with my girlfriend and we sign up to go and kayak. I wait there in line with her and we have a kayak to go and boat. It is amazing to kayak on the pond because the pond is in the middle of a theme park. The location is right next to a river and it is pretty. After my girlfriend and I finished kayaking we decide to go out and head home. It is a nice drive home and we come home to cook dinner. The dinner is great and taste goo. I would like to go again in the near future. It is a great time we had together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdbe3fe2f5e78-EWR"
+    }
+}

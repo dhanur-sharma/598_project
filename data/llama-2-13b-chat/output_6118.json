@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For the first time I went to to Seattle for the first time and for the first time wrote an airplane. I realized among the clouds why people think heaven is above earth, in the sky. Clouds form mountains and the space between clouds become lakes of sky. It is sublime. After thinking this, I realized how high up I was. My chest went tight and I repeated curses in my head. The pressure from the ascend made my panic worse. I managed to calm down by loosing my bra and distracting myself with a movie. The panic returned so I stared straight ahead and tried to ignore the pressure that the descending plane gave. As we descended, I couldn't help but glance out the window again. The world again looked picturesque. The way the buildings peeked out between evergreens made it look like a model city you see in movies. It was amazing and I nearly forgot my fear of heights until the pressure increased. I had to continue staring straight again. I packed my things to keep my hands and mind busy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For the first time I went to to Seattle for the first time and for the first time wrote an airplane. I realized among the clouds why people think heaven is above earth, in the sky. Clouds form mountains and the space between clouds become lakes of sky. It is sublime. After thinking this, I realized how high up I was. My chest went tight and I repeated curses in my head. The pressure from the ascend made my panic worse. I managed to calm down by loosing my bra and distracting myself with a movie. The panic returned so I stared straight ahead and tried to ignore the pressure that the descending plane gave. As we descended, I couldn't help but glance out the window again. The world again looked picturesque. The way the buildings peeked out between evergreens made it look like a model city you see in movies. It was amazing and I nearly forgot my fear of heights until the pressure increased. I had to continue staring straight again. I packed my things to keep my hands and mind busy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had a hard time sleeping that night.\n\n"
+            }
+        ],
+        "request_id": "811f3f329f7dc336-EWR"
+    }
+}

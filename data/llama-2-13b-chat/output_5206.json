@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I attended a memorial service for a friend who committed suicide. It was nice to see his parents, yet so hard to see them. What could I say to them besides how sorry I was? My friend's suicide really shocked everyone and we are all left with so many questions. My friend was always happy and would be there for anyone who needed them. I remember the last time that I spoke to them. They seemed so positive and excited about things going on in their life. I didn't pick up on any warning signs or clues for them wanting to end their life. Maybe they just hid their feelings and emotions well? Perhaps, it was just an intense emotional moment. I wish that I was there to try to stop them. To tell them they will be okay and that things would get better and not to give up like this. I wish they would have reached out to me or to someone else. How I wish that I could change things. To see the look on the parent's faces and to see how much they hurt. I wish I could take the pain away and make everything better. I wish I knew what happened. It was nice to pay tribute to my friend and celebrate their life. I hope that they looked down and knew how much they were loved and how missed they are."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I attended a memorial service for a friend who committed suicide. It was nice to see his parents, yet so hard to see them. What could I say to them besides how sorry I was? My friend's suicide really shocked everyone and we are all left with so many questions. My friend was always happy and would be there for anyone who needed them. I remember the last time that I spoke to them. They seemed so positive and excited about things going on in their life. I didn't pick up on any warning signs or clues for them wanting to end their life. Maybe they just hid their feelings and emotions well? Perhaps, it was just an intense emotional moment. I wish that I was there to try to stop them. To tell them they will be okay and that things would get better and not to give up like this. I wish they would have reached out to me or to someone else. How I wish that I could change things. To see the look on the parent's faces and to see how much they hurt. I wish I could take the pain away and make everything better. I wish I knew what happened. It was nice to pay tribute to my friend and celebrate their life. I hope that they looked down and knew how much they were loved and how missed they are.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope that they found peace.\n\n"
+            }
+        ],
+        "request_id": "811be65cff8143d5-EWR"
+    }
+}

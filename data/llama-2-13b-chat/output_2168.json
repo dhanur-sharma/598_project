@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: He finally proposed! I'd been seeing him for a while but didn't know if we'd get there. He said he was hopeful the relationship would work out but I wasn't sure. There were obstacles in both our paths. I didn't want to move. He didn't want to change jobs. We got over our fears, though, and he finally popped the question. We were at my house. It was after church. We talked about different things and where we though we see ourselves in the future. He then told me he couldn't imaging himself with anyone else, and gave me a ring. I was a bit surprised because it wasn't as elaborate as I imagined it would be, but at the same time it was very much him. It felt natural and effortless. We fit. We like the same things and have the same outlook in life....so I said yes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: He finally proposed! I'd been seeing him for a while but didn't know if we'd get there. He said he was hopeful the relationship would work out but I wasn't sure. There were obstacles in both our paths. I didn't want to move. He didn't want to change jobs. We got over our fears, though, and he finally popped the question. We were at my house. It was after church. We talked about different things and where we though we see ourselves in the future. He then told me he couldn't imaging himself with anyone else, and gave me a ring. I was a bit surprised because it wasn't as elaborate as I imagined it would be, but at the same time it was very much him. It felt natural and effortless. We fit. We like the same things and have the same outlook in life....so I said yes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We're planning a small wedding next summer."
+            }
+        ],
+        "request_id": "811eb196e9f20f83-EWR"
+    }
+}

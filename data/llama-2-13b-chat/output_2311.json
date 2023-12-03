@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I passed the CPA exams. I applied for my license. I got the exams in 2019. I am happy I got my license. I will be the best accountant in the state. I applied to many places. I got a lot of rejections but finally got a call back. It was for an old firm. I got the job immediately. I was treated like family at the place. The workers were very nice to me. The boss gave me cigars for my hiring. It was a nice hiring bonus. I made a lot of good calculations and save the company a lot of money. I hope to get promoted to top accountant at the place. That day will be the best day of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I passed the CPA exams. I applied for my license. I got the exams in 2019. I am happy I got my license. I will be the best accountant in the state. I applied to many places. I got a lot of rejections but finally got a call back. It was for an old firm. I got the job immediately. I was treated like family at the place. The workers were very nice to me. The boss gave me cigars for my hiring. It was a nice hiring bonus. I made a lot of good calculations and save the company a lot of money. I hope to get promoted to top accountant at the place. That day will be the best day of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy I passed the exams and got the job.\n\n"
+            }
+        ],
+        "request_id": "811eb4351f8419b6-EWR"
+    }
+}

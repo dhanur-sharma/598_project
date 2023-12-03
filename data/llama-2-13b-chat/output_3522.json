@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a rainy day, so instead of walking home from work like usual, I decided to take the bus. I sat down near the back of the bus and put in earbuds. I usually listen to podcasts. I was in my own little world when some commotion happened at the front of the bus. I was keeping an eye on it, but couldn't really tell what was going on. All of the sudden the bus spins around, doing a wild U-turn. I got up and yelled, trying to find out what was going on. Turns out one of the passengers went into labor! The bus was speeding towards the hospital. Someone who I assumed was the father of the baby had the women lay down in the aisle. Luckily the hospital was close, because we made it in time. I never heard of what happened to the lady, but I'm glad we were able to get her to the hospital in time. It was scary! The driver apologized to us for the delay getting us home. I didn't mind though, and got home shortly after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a rainy day, so instead of walking home from work like usual, I decided to take the bus. I sat down near the back of the bus and put in earbuds. I usually listen to podcasts. I was in my own little world when some commotion happened at the front of the bus. I was keeping an eye on it, but couldn't really tell what was going on. All of the sudden the bus spins around, doing a wild U-turn. I got up and yelled, trying to find out what was going on. Turns out one of the passengers went into labor! The bus was speeding towards the hospital. Someone who I assumed was the father of the baby had the women lay down in the aisle. Luckily the hospital was close, because we made it in time. I never heard of what happened to the lady, but I'm glad we were able to get her to the hospital in time. It was scary! The driver apologized to us for the delay getting us home. I didn't mind though, and got home shortly after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecaf43e1a8c2d-EWR"
+    }
+}

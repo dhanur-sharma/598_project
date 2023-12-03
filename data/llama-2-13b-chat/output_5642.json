@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I had to take a tech program examination.  My standing at work was under challenge by other people in my company.  If I didn't pass the test I would have been demoted and I would have had my pay lowered.  I didn't want that so I tried my best to pass it.  It was an extremely stressful time.  I wasn't afforded much time to prepare for the test, not even a day.  It was sprung on me at a moment's notice.  I was worried that I wasn't going to make it on time to the test.  I managed to make it there.  When I sat down I got right to work.  I started to calm down when I noticed that the questions were things I was very familiar with.  This gave me confidence that I needed at the time.  When the exam was finally done I was relieved.  Later that week I found out the results of the exam, and I had passed.  I was able to keep my social standing and position in the company.  My boss and my co-workers congratulated me for passing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I had to take a tech program examination.  My standing at work was under challenge by other people in my company.  If I didn't pass the test I would have been demoted and I would have had my pay lowered.  I didn't want that so I tried my best to pass it.  It was an extremely stressful time.  I wasn't afforded much time to prepare for the test, not even a day.  It was sprung on me at a moment's notice.  I was worried that I wasn't going to make it on time to the test.  I managed to make it there.  When I sat down I got right to work.  I started to calm down when I noticed that the questions were things I was very familiar with.  This gave me confidence that I needed at the time.  When the exam was finally done I was relieved.  Later that week I found out the results of the exam, and I had passed.  I was able to keep my social standing and position in the company.  My boss and my co-workers congratulated me for passing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so happy that I had been able to pass the test.  It was a huge weight lifted off my shoulders.\n\n"
+            }
+        ],
+        "request_id": "811f35a05e1e43b5-EWR"
+    }
+}

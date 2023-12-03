@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met with my supervisor and Human Resources in the afternoon to go over my options after the performance improvement plan.  They suggested either accepting a voluntary demotion out of the administrative and leadership roles that I had been involved in for over 12 years, or proceed to a pre-disciplinary hearing on the situation. That night, I had to face some of my avoidant behaviors.  I had been hiding the severity of the situation not just from myself, but also my partner, and had to go home and break down about the entire thing.  I sat on the floor and freaking melted down in shame and sorrow about the entire situation.  When I explained as much as I could about what had been going on, and that on a daily basis, I 'thought I had it. I thought it was under control.  I was fixing it.  And I didn't want to bother\" her.  Her response was immediate.  She told me in no uncertain terms that while I was sorry because I didn't want to worry her about it, I SHOULD have been sorry about thinking I had to go through it by myself.  That lifted a huge weight. Six weeks later, I'm still reckoning with the effect of that conversation on me emotionally.  I'm able to have more conversations with her about it.  We're stronger than we were before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met with my supervisor and Human Resources in the afternoon to go over my options after the performance improvement plan.  They suggested either accepting a voluntary demotion out of the administrative and leadership roles that I had been involved in for over 12 years, or proceed to a pre-disciplinary hearing on the situation. That night, I had to face some of my avoidant behaviors.  I had been hiding the severity of the situation not just from myself, but also my partner, and had to go home and break down about the entire thing.  I sat on the floor and freaking melted down in shame and sorrow about the entire situation.  When I explained as much as I could about what had been going on, and that on a daily basis, I 'thought I had it. I thought it was under control.  I was fixing it.  And I didn't want to bother\" her.  Her response was immediate.  She told me in no uncertain terms that while I was sorry because I didn't want to worry her about it, I SHOULD have been sorry about thinking I had to go through it by myself.  That lifted a huge weight. Six weeks later, I'm still reckoning with the effect of that conversation on me emotionally.  I'm able to have more conversations with her about it.  We're stronger than we were before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm still in my job, but now I'm able to be honest about how difficult it is.  And I'm able to accept help when I need it.\n\n"
+            }
+        ],
+        "request_id": "811e9d2f48654350-EWR"
+    }
+}

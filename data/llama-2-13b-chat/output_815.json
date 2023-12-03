@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a typical morning making breakfast. Letting the dog out, and getting ready for work. While my husband and kids are eating. I m upstairs getting ready for work. Then I go downstairs to clean up the mess. Meanwhile evryone is getting ready for school and work. Then my husband leaves or work. My two kids leave to wait at the bus stop.  So now eveyone has lef. Im getting myself together and making sure all the lights and oven is off. Then I leave for the day. While at work I realize that I left our dog Peanut outside. So I end up leaving work for a long break. And head home to put Peanut back in the house. I arrived home and he was gone, dug a hole under fence. So I was horrified. Well 3 weeks passed and my dughter said she saw Peanut in a yard near school. So we left to find him. We arrived at the house and sure enogh that was Peanut. He was jumping all around, happy to see us. A man came out. I said this is my dog, I am taking him home. The man said no, and he called the police. The police arrived, I showed them the missing poster, and pics on my phone and the ad that was in the paper. The police officer said take your dog."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a typical morning making breakfast. Letting the dog out, and getting ready for work. While my husband and kids are eating. I m upstairs getting ready for work. Then I go downstairs to clean up the mess. Meanwhile evryone is getting ready for school and work. Then my husband leaves or work. My two kids leave to wait at the bus stop.  So now eveyone has lef. Im getting myself together and making sure all the lights and oven is off. Then I leave for the day. While at work I realize that I left our dog Peanut outside. So I end up leaving work for a long break. And head home to put Peanut back in the house. I arrived home and he was gone, dug a hole under fence. So I was horrified. Well 3 weeks passed and my dughter said she saw Peanut in a yard near school. So we left to find him. We arrived at the house and sure enogh that was Peanut. He was jumping all around, happy to see us. A man came out. I said this is my dog, I am taking him home. The man said no, and he called the police. The police arrived, I showed them the missing poster, and pics on my phone and the ad that was in the paper. The police officer said take your dog.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So I did. I was so happy to have my dog back. But also so grateful for the police."
+            }
+        ],
+        "request_id": "811e98c2db8842bb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today, July 20, 2019 was a pivotal moment in my life. My oldest child, got married. In many ways I felt that today marked a day of loss. However, I have to look at the obvious that it was a day of gain as I now have a new daughter. It was emotionally taxing. One could say there were positive emotions. I got to reconnect with many family members that I haven't seen in a few years. It was a gorgeous day; the sun was shining and it was 82 degrees. The surroundings were spectacular. There was great food, drinks and a fabulous DJ. However, the other emotional side was a bit negative. I felt that my son truly flew away from the nest even though he has been out of our home for seven years. There was that bitter sweet moment where we walked him down the aisle to wait for his bride. I teared up and felt like my baby was being taken from me. It is hard to imagine that my son will start his own family and traditions. I hope that he and his wife are always happy and at peace. I also regretted that none of his grandparents could be there. My parents are dead and the other grandparents were too weak to attend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today, July 20, 2019 was a pivotal moment in my life. My oldest child, got married. In many ways I felt that today marked a day of loss. However, I have to look at the obvious that it was a day of gain as I now have a new daughter. It was emotionally taxing. One could say there were positive emotions. I got to reconnect with many family members that I haven't seen in a few years. It was a gorgeous day; the sun was shining and it was 82 degrees. The surroundings were spectacular. There was great food, drinks and a fabulous DJ. However, the other emotional side was a bit negative. I felt that my son truly flew away from the nest even though he has been out of our home for seven years. There was that bitter sweet moment where we walked him down the aisle to wait for his bride. I teared up and felt like my baby was being taken from me. It is hard to imagine that my son will start his own family and traditions. I hope that he and his wife are always happy and at peace. I also regretted that none of his grandparents could be there. My parents are dead and the other grandparents were too weak to attend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt guilty that I could not be there for them. Overall, it was a day that I will never forget.\n\n"
+            }
+        ],
+        "request_id": "811ebd10ca9f0f3d-EWR"
+    }
+}

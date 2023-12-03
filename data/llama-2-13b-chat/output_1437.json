@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife was disappointed with how much I was doing at home. When I come home from work I want to relax, but she needs me to help out and spend time with her and the boys. I understand where she is coming from. I told her I was going to try and do better from here on out. It made me feel bad to know that she thinks I am not a good husband and father. I was very upset by the conversation. I want to do better going forward. This is not the first time and probably not the last time we will have this fight. I wish I could tell her she is wrong. I know she is right though. I hate fighting with my wife. I love her and want to do right by her. I also want to do right by my kids. My family is going to be my focus moving forward. This fight had changed me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife was disappointed with how much I was doing at home. When I come home from work I want to relax, but she needs me to help out and spend time with her and the boys. I understand where she is coming from. I told her I was going to try and do better from here on out. It made me feel bad to know that she thinks I am not a good husband and father. I was very upset by the conversation. I want to do better going forward. This is not the first time and probably not the last time we will have this fight. I wish I could tell her she is wrong. I know she is right though. I hate fighting with my wife. I love her and want to do right by her. I also want to do right by my kids. My family is going to be my focus moving forward. This fight had changed me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am going to try and be a better husband and father going forward.\n\n"
+            }
+        ],
+        "request_id": "811ea4c8cc588c45-EWR"
+    }
+}

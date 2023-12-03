@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months back we took a trip to the Bahamas. I had won the trip through work. Our anniversary was coming up so I surprised my wife with it. Prior to leaving my wife told her sister. They ended up wanting to come as well, and I didn't have a problem with it, so it was settled. On the flight we got bumped to business class, which was wonderful since it was a pretty long flight. The resort was incredibly classy, and all inclusive. We spent the week basking in the sun and drinking fancy cocktails. I think my favorite part was just how much space we had to ourselves; there were barely any other guests. Every night they had a different show. We agree that our favorite was when there was stand-up comedy. Sadly after the week was up we had to fly home. This time we didn't get bumped to business, but that was alright. This trip definitely made me feel closer to my wife, but also closer to her sister and sister's husband. We had a great time. I would absolutely be up for another group vacation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months back we took a trip to the Bahamas. I had won the trip through work. Our anniversary was coming up so I surprised my wife with it. Prior to leaving my wife told her sister. They ended up wanting to come as well, and I didn't have a problem with it, so it was settled. On the flight we got bumped to business class, which was wonderful since it was a pretty long flight. The resort was incredibly classy, and all inclusive. We spent the week basking in the sun and drinking fancy cocktails. I think my favorite part was just how much space we had to ourselves; there were barely any other guests. Every night they had a different show. We agree that our favorite was when there was stand-up comedy. Sadly after the week was up we had to fly home. This time we didn't get bumped to business, but that was alright. This trip definitely made me feel closer to my wife, but also closer to her sister and sister's husband. We had a great time. I would absolutely be up for another group vacation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb0f75eec42be-EWR"
+    }
+}

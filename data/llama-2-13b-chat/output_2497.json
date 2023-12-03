@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My birthday this year was great. I had recently gotten back together with my ex from a while ago. We have been together for a couple of months now. Usually on my birthday I go out with friends. We might go to a bar or club and then call it a night. This year he said that he will make a special night for me. We went to a restaurant downtown where he made a reservation. I had never been to a restaurant where I had to make a reservation before. The food was great. We got to have many different dishes that I hadn't had before.  I had a blueberry martini which is my favorite and the waiter brought me a creme brule with a candle in it. My boyfriend quietly sang me happy birthday in my ear and then we left. We then went and saw a live band at a bar that we go to quite often. They were really great. We spent the night in a hotel and it was great to wake up to answer and I have to do anything for anyone else. It was the perfect day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My birthday this year was great. I had recently gotten back together with my ex from a while ago. We have been together for a couple of months now. Usually on my birthday I go out with friends. We might go to a bar or club and then call it a night. This year he said that he will make a special night for me. We went to a restaurant downtown where he made a reservation. I had never been to a restaurant where I had to make a reservation before. The food was great. We got to have many different dishes that I hadn't had before.  I had a blueberry martini which is my favorite and the waiter brought me a creme brule with a candle in it. My boyfriend quietly sang me happy birthday in my ear and then we left. We then went and saw a live band at a bar that we go to quite often. They were really great. We spent the night in a hotel and it was great to wake up to answer and I have to do anything for anyone else. It was the perfect day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb7ef6fb44357-EWR"
+    }
+}

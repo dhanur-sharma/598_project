@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Google can be an exciting place to work for, but it can also be a place where you slowly die as an individual. You may make a difference for the company with what you do, but in my case, day in and day out, I was involved in the most meaningless tasks and unappealing jobs ever. Don\u2019t get me wrong. I was making $140,000 for writing simple code and playing ping-pong with the other Google engineers. Free lunches and subsidized transportation was also lovely. But at the end of the day, I was not fulfilled. Every morning I woke up unhappy because I was working with my brain instead of my heart. I was excellent about what I was doing, but I had no passion for it. I realized that I needed to pivot and turn my passion into my career.  It was not an easy decision because everyone I talked to thought it was not a good idea. But I did it anyway. I turned in my resignation letter one month ago and moved to Colorado and have made snowboarding my new life. I have been hired as a backcountry tour guide. I know my Google colleagues would be laughing with my current salary. I will get $30,000 a year plus incentives, almost five times less than what I was making at Google. And I love every minute of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Google can be an exciting place to work for, but it can also be a place where you slowly die as an individual. You may make a difference for the company with what you do, but in my case, day in and day out, I was involved in the most meaningless tasks and unappealing jobs ever. Don\u2019t get me wrong. I was making $140,000 for writing simple code and playing ping-pong with the other Google engineers. Free lunches and subsidized transportation was also lovely. But at the end of the day, I was not fulfilled. Every morning I woke up unhappy because I was working with my brain instead of my heart. I was excellent about what I was doing, but I had no passion for it. I realized that I needed to pivot and turn my passion into my career.  It was not an easy decision because everyone I talked to thought it was not a good idea. But I did it anyway. I turned in my resignation letter one month ago and moved to Colorado and have made snowboarding my new life. I have been hired as a backcountry tour guide. I know my Google colleagues would be laughing with my current salary. I will get $30,000 a year plus incentives, almost five times less than what I was making at Google. And I love every minute of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have found my passion and I am living it every day.\n\n"
+            }
+        ],
+        "request_id": "811bd4dddd945e67-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My roommate and I have been roommates for the past two years. For the most part, we see eye to eye on many things. However, we got into an small argument last week about something small. It was our first ever type of interaction that could be construed as an argument. Her side of view is very valid, as is mine, but is vastly different in approach. As a result, we decided to talk things out. She wasn't mad. I wasn't mad. We were both very passionate about our positions on the matter. As we talked it out, she told me that his personal experiences shaped her side of view. This was irony at its finest. My point of view was shaped by my personal experiences. As a result, we talked about our personal experiences and realized that we both are really in the same boat, but through different circumstances. It really helped to talk things out. It made me feel that our friendship became stronger as a result."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My roommate and I have been roommates for the past two years. For the most part, we see eye to eye on many things. However, we got into an small argument last week about something small. It was our first ever type of interaction that could be construed as an argument. Her side of view is very valid, as is mine, but is vastly different in approach. As a result, we decided to talk things out. She wasn't mad. I wasn't mad. We were both very passionate about our positions on the matter. As we talked it out, she told me that his personal experiences shaped her side of view. This was irony at its finest. My point of view was shaped by my personal experiences. As a result, we talked about our personal experiences and realized that we both are really in the same boat, but through different circumstances. It really helped to talk things out. It made me feel that our friendship became stronger as a result.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eae9ecc45c32e-EWR"
+    }
+}

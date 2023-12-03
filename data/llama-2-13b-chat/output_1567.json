@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met a friend online and we hit it off pretty well. We are both introverts and unique but we seem to fill each others' gaps. We met through our online work. He mentioned coming to visit my hometown with the intent of moving here someday. Our cost of living is much cheaper here. So I offered to help host him and show him around. I was really nervous. What if we didn't get along and I was stuck with him for days? What if it ruined our work-based friendship? Would he like me? Would he see me as trashy? But ultimately it went really well. My fears were unfounded. We got along great in person and had a good time. I drove him all over and we got to chat and hang out. I don't get to do a lot of things without my kids, so it was really refreshing. We visited some popular local spots and a nearby statue park. I was sad to see him go but we've continued our friendship since then."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met a friend online and we hit it off pretty well. We are both introverts and unique but we seem to fill each others' gaps. We met through our online work. He mentioned coming to visit my hometown with the intent of moving here someday. Our cost of living is much cheaper here. So I offered to help host him and show him around. I was really nervous. What if we didn't get along and I was stuck with him for days? What if it ruined our work-based friendship? Would he like me? Would he see me as trashy? But ultimately it went really well. My fears were unfounded. We got along great in person and had a good time. I drove him all over and we got to chat and hang out. I don't get to do a lot of things without my kids, so it was really refreshing. We visited some popular local spots and a nearby statue park. I was sad to see him go but we've continued our friendship since then.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea6fe4e0143f1-EWR"
+    }
+}

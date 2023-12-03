@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The birth of my child was one that I will never forget. Before the birth, I will admit that I was very nervous. At the same time, I was very excited. My wife started having pretty frequent contractions so we grabbed our bags and headed to the hospital. I will never forget any of the moments between leaving for the house and seeing my son for the first time. The actual birth went pretty well. My wife used an epidural, which helped a lot. Before the birth, I was worried about fainting in the room, but I fortunately did not. I was so happy to hold my son for the first time. I actually cried, something that I did not expect to do. From that moment on, I knew that I'd love being a father. Once he was cleaned up, we had some photos taken. We had to stay in the hospital for two more nights, but I was excited to get home. We secured him in his care seat and drove home. We were finally a family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The birth of my child was one that I will never forget. Before the birth, I will admit that I was very nervous. At the same time, I was very excited. My wife started having pretty frequent contractions so we grabbed our bags and headed to the hospital. I will never forget any of the moments between leaving for the house and seeing my son for the first time. The actual birth went pretty well. My wife used an epidural, which helped a lot. Before the birth, I was worried about fainting in the room, but I fortunately did not. I was so happy to hold my son for the first time. I actually cried, something that I did not expect to do. From that moment on, I knew that I'd love being a father. Once he was cleaned up, we had some photos taken. We had to stay in the hospital for two more nights, but I was excited to get home. We secured him in his care seat and drove home. We were finally a family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9fc3dafd425c-EWR"
+    }
+}

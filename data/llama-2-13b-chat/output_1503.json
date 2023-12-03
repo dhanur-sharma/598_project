@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife was out of the country and I was sleeping at home alone with my cat and my roommate in the next room. I set my alarm to wake me up early in the morning to do some chores before the landlord and her people come over and replace our broken shower. I wake up and notice I have a missed text from my roommate saying something to the effect of \"lol who's the drunk snoring guy?\" I honestly think nothing of this because we live nearby both a homeless camp and an Eagle's Club, so we're used to people roaming our streets at night doing crazy shit. I get out of bed and go downstairs to complete these chores when I notice a pair of feet/shoes hanging off our couch. My stomach sinks as I remember the text I just read. I peak around the corner and see a drunk snoring stranger asleep on the couch. I wonder for a split second if the guy is maybe the maintenance man that's supposed to fix our shower and wonder if after a night out drinking he came over to our house early and decided to nap. I run upstairs, lock my cat in my room, and wake my roommate up. I tell her I don't know the drunk snoring man either and she looks just as scared as me. She gets up out of bed, grabs an empty bottle of wine and we walk back downstairs. My roommate either pokes the guy or says \"hey\" in his face to wake him up and asks him who he is and why he's in our apartment. The guy looks really confused and then really embarrassed and he tells us he got the wrong house. He tells us that he climbed into our window in the middle of the night but meant to climb into his friend's window in the apartment behind us. He also tells us this is not his first time doing this and he previously did this with the cat lady next door's house. My roommate offers him water and makes fun of him a little bit for how bad he smells like alcohol, but we both laugh and tell him it's no big deal."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife was out of the country and I was sleeping at home alone with my cat and my roommate in the next room. I set my alarm to wake me up early in the morning to do some chores before the landlord and her people come over and replace our broken shower. I wake up and notice I have a missed text from my roommate saying something to the effect of \"lol who's the drunk snoring guy?\" I honestly think nothing of this because we live nearby both a homeless camp and an Eagle's Club, so we're used to people roaming our streets at night doing crazy shit. I get out of bed and go downstairs to complete these chores when I notice a pair of feet/shoes hanging off our couch. My stomach sinks as I remember the text I just read. I peak around the corner and see a drunk snoring stranger asleep on the couch. I wonder for a split second if the guy is maybe the maintenance man that's supposed to fix our shower and wonder if after a night out drinking he came over to our house early and decided to nap. I run upstairs, lock my cat in my room, and wake my roommate up. I tell her I don't know the drunk snoring man either and she looks just as scared as me. She gets up out of bed, grabs an empty bottle of wine and we walk back downstairs. My roommate either pokes the guy or says \"hey\" in his face to wake him up and asks him who he is and why he's in our apartment. The guy looks really confused and then really embarrassed and he tells us he got the wrong house. He tells us that he climbed into our window in the middle of the night but meant to climb into his friend's window in the apartment behind us. He also tells us this is not his first time doing this and he previously did this with the cat lady next door's house. My roommate offers him water and makes fun of him a little bit for how bad he smells like alcohol, but we both laugh and tell him it's no big deal.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We ask him to leave and he leaves. We call the landlord and tell him about the incident and he tells us to lock all our windows and doors from now on. We also make sure to give our cat extra treats and playtime that day to make sure he didn't get too scared from the drunk man climbing into our window.\n\n"
+            }
+        ],
+        "request_id": "811ea5ff7ade8c1d-EWR"
+    }
+}

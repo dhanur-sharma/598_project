@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I went to a wedding for my friend.  It was memorable because there were alot of people there and we had a great time.  We started with a short outdoor service and then had a time back inside.  Before everyone else got there, there was a cocktail hour with wine and some snacks.  It was alot of fun.  The air was hot outside though, so we were glad went the service was over and we could go inside to the ac.  We were sweating alot.  They had italian food for the dinner.  And even more importantly, they had drinks upstairs at the open bar.  The bar had a few options for mixed drinks. My favorite was a drink with rum and cherries.  It was red. Then we at the italian food for dinner and had some cake.  The cake was white wedding cake and very good.  There were more drinks and even some dancing.  To take a break from dancing we went outside to get air.  But it was still hot outside, so we walked around the garden only for a little bit.  THen we came back inside.  We danced for about 2 more hours before it was time to go. Overall, it was a great evening and the couple seemed pretty happy. What made it so memorable was the good friends that all came together. I was most surprised that the bride and groom bought a open bar for the occasion cause those are expensive."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I went to a wedding for my friend.  It was memorable because there were alot of people there and we had a great time.  We started with a short outdoor service and then had a time back inside.  Before everyone else got there, there was a cocktail hour with wine and some snacks.  It was alot of fun.  The air was hot outside though, so we were glad went the service was over and we could go inside to the ac.  We were sweating alot.  They had italian food for the dinner.  And even more importantly, they had drinks upstairs at the open bar.  The bar had a few options for mixed drinks. My favorite was a drink with rum and cherries.  It was red. Then we at the italian food for dinner and had some cake.  The cake was white wedding cake and very good.  There were more drinks and even some dancing.  To take a break from dancing we went outside to get air.  But it was still hot outside, so we walked around the garden only for a little bit.  THen we came back inside.  We danced for about 2 more hours before it was time to go. Overall, it was a great evening and the couple seemed pretty happy. What made it so memorable was the good friends that all came together. I was most surprised that the bride and groom bought a open bar for the occasion cause those are expensive.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I would say the most memorable part was the drinks and dancing.\n\n"
+            }
+        ],
+        "request_id": "811f4c004fe941f9-EWR"
+    }
+}

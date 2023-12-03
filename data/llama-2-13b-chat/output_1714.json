@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This incident happened nearly 4 months ago. Myself and my wife were interested in making experiments. Like that we decided to make experiments with real people. But we were not sure about the concept for the experiment. After many discussions we finally reached a topic for experiment. We decide to date other people by hiding the experiment details. We made this as a mutual decision so that no problems occur in future. We approached different persons and had date with them. I personally had more dates than my wife. The women I met were very formal and friendly. Though it was based on experiment one woman made a good friendship with me. At first I didn't know about this. She usually call me whenever she gets time. My wife came to know this one day when she attended her call. So we finally called that woman and conveyed the fact of experiment we made."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This incident happened nearly 4 months ago. Myself and my wife were interested in making experiments. Like that we decided to make experiments with real people. But we were not sure about the concept for the experiment. After many discussions we finally reached a topic for experiment. We decide to date other people by hiding the experiment details. We made this as a mutual decision so that no problems occur in future. We approached different persons and had date with them. I personally had more dates than my wife. The women I met were very formal and friendly. Though it was based on experiment one woman made a good friendship with me. At first I didn't know about this. She usually call me whenever she gets time. My wife came to know this one day when she attended her call. So we finally called that woman and conveyed the fact of experiment we made.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She was very cool and understood the situation. We were surprised to see her reaction. She told us that she also has a boyfriend. We felt bad and apologized to her. She told us that she is not here to hurt us. We thanked her for her understanding and friendship. We are still in contact with her. She calls me whenever she gets time. We are still in the process of experimenting and learning from this experience.\n\n"
+            }
+        ],
+        "request_id": "811ea96fec3342a0-EWR"
+    }
+}

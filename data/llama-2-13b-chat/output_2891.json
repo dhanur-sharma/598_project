@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I finally got my dream job few months ago. I have always wanted to be an architect my whole life. My parents tell me how i used to only play with building models and drawings throughout my childhood. I guess that passion was always in me. Studying architecture was definitely harder than i had thought. So much calculations. Units. The artistic element seems to be missing in our colleges these days. However, i was thrilled after graduation. I applied to all the major firms in the state for an opening position. No responses for a few months. I was getting downhearted. However, to my greatest surprise, the email from the top architecture agency of the state was waiting for me on my birthday weekend. Best birthday gift ever! I am starting in a week, and i am thrilled."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I finally got my dream job few months ago. I have always wanted to be an architect my whole life. My parents tell me how i used to only play with building models and drawings throughout my childhood. I guess that passion was always in me. Studying architecture was definitely harder than i had thought. So much calculations. Units. The artistic element seems to be missing in our colleges these days. However, i was thrilled after graduation. I applied to all the major firms in the state for an opening position. No responses for a few months. I was getting downhearted. However, to my greatest surprise, the email from the top architecture agency of the state was waiting for me on my birthday weekend. Best birthday gift ever! I am starting in a week, and i am thrilled.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have always wanted to work for this agency since i was a child.\n\n"
+            }
+        ],
+        "request_id": "811ec0291c6a19df-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I got a call from my mother about my father being admitted to the hospital. Of course, it's just so inconvenient, you know? How could he? He interrupted the one day out of the week I get to relax with my friends. I told her to wait a while and I'd be there, a few hours at the most. She started going on about how he was in critical condition and all that. Blah Blah Blah, you know? Who cares? I didn't want to piss off my friends, and, frankly, I was a little pissed off myself. We had at least a few hours left in our game, and, god, what's the point of staying if I'm not there with them? I couldn't just abandon them. What would they do without me? So, we stayed a little longer and played a little bit more golf. I went to the hospital after, my mother was hysterical. I was just a little annoyed, I went in to see my dad. He was fine, by the way, he just had a minor stroke. The doctors say he'll make a full recovery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I got a call from my mother about my father being admitted to the hospital. Of course, it's just so inconvenient, you know? How could he? He interrupted the one day out of the week I get to relax with my friends. I told her to wait a while and I'd be there, a few hours at the most. She started going on about how he was in critical condition and all that. Blah Blah Blah, you know? Who cares? I didn't want to piss off my friends, and, frankly, I was a little pissed off myself. We had at least a few hours left in our game, and, god, what's the point of staying if I'm not there with them? I couldn't just abandon them. What would they do without me? So, we stayed a little longer and played a little bit more golf. I went to the hospital after, my mother was hysterical. I was just a little annoyed, I went in to see my dad. He was fine, by the way, he just had a minor stroke. The doctors say he'll make a full recovery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, I was like, \"okay, well, I guess I'll see you later dad.\" And then I left. I had to get back to my friends, you know? I mean, we had a lot more fun to have."
+            }
+        ],
+        "request_id": "811ec1ddf82f4240-EWR"
+    }
+}

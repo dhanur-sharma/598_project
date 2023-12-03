@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two years ago, I received a wonderful surprise. I had recently been married. My wife is a lifelong member of the LDS church, and I joined a short time before our marriage in the temple. Her family and our mutual friends were very happy that we were getting married. And her family is reasonably successful. And so, as a surprise, the gave both of us new cars as a sort of wedding gift. I was truly astonished. No one had done something so grand for me before. I liked my old car, but it was almost 20 years old, and I had no plans to get a new one. As a bonus, they threw a party for us as well. It's exactly what I was looking for. I had never felt like part of a community. My own family was fairly individualistic and detached. I felt like I belonged somewhere. I felt love."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two years ago, I received a wonderful surprise. I had recently been married. My wife is a lifelong member of the LDS church, and I joined a short time before our marriage in the temple. Her family and our mutual friends were very happy that we were getting married. And her family is reasonably successful. And so, as a surprise, the gave both of us new cars as a sort of wedding gift. I was truly astonished. No one had done something so grand for me before. I liked my old car, but it was almost 20 years old, and I had no plans to get a new one. As a bonus, they threw a party for us as well. It's exactly what I was looking for. I had never felt like part of a community. My own family was fairly individualistic and detached. I felt like I belonged somewhere. I felt love.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And the food was delicious! It was a great experience. And I felt like I had a new family.\n\n"
+            }
+        ],
+        "request_id": "811ec5d7cfd48c3f-EWR"
+    }
+}

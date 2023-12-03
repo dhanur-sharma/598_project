@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was riding my motorcycle home from work.  It was a Tuesday around 4 PM.  I saw a little dog in the distance wandering along the side of the road.  The traffic wasn't very heavy yet, but it's tourist season so I knew it would pick up soon.  I pulled over and walked up to the little guy.  I was hoping that he had a tag on him with his address so I could just walk him home.  He didn't have a collar on at all, probably got hung up on something then he slipped it off.  He was kind of scraggly, unkempt and looked like he was starving.  Luckily I had a sandwich I had picked up for later in the saddlebag.  He was really friendly, like he had a good home at some point.  Wasn't aggressive at all, just being happy to have something to eat.  I couldn't really tell what breed he was but he was some kind of hound mix.  While he happily followed me I knocked on the doors of the few houses that were near to see if he was anyone's pet.  Of course, nobody could claim him.  I knew if he were left alone it was a matter of time before he got hit by a car.  I asked an elderly gentleman if the dog could stay in his garage until I got my bike back home and could come back with a car.  He agreed and that's how I ended up with a new dog.  Frank is his name and he's sleeping on his bed happily in my office behind me at this moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was riding my motorcycle home from work.  It was a Tuesday around 4 PM.  I saw a little dog in the distance wandering along the side of the road.  The traffic wasn't very heavy yet, but it's tourist season so I knew it would pick up soon.  I pulled over and walked up to the little guy.  I was hoping that he had a tag on him with his address so I could just walk him home.  He didn't have a collar on at all, probably got hung up on something then he slipped it off.  He was kind of scraggly, unkempt and looked like he was starving.  Luckily I had a sandwich I had picked up for later in the saddlebag.  He was really friendly, like he had a good home at some point.  Wasn't aggressive at all, just being happy to have something to eat.  I couldn't really tell what breed he was but he was some kind of hound mix.  While he happily followed me I knocked on the doors of the few houses that were near to see if he was anyone's pet.  Of course, nobody could claim him.  I knew if he were left alone it was a matter of time before he got hit by a car.  I asked an elderly gentleman if the dog could stay in his garage until I got my bike back home and could come back with a car.  He agreed and that's how I ended up with a new dog.  Frank is his name and he's sleeping on his bed happily in my office behind me at this moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed27fbbf58c35-EWR"
+    }
+}

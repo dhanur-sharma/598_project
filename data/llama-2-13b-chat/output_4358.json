@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Our most interesting vacation this year was to the Hotel Del Coronado in California. I read some reports that the hotel was haunted and I think they are correct. We checked in at midnight after a long day of travel. When we got to our room the TV in the room was on. We were tired so we went to bed. At around 3am, I woke up because the bathroom light was on. I got up and turned it off.  Around 4am the light was on again. At first I though someone left it on, but it was so weird to happen again. Over the next four days the bathroom lights would turn off and on with increasing frequency. They even would turn off while someone was using the bathroom. It was creepy. We went on a ghost tour to learn about the history of the hotel. The tour guide mentioned that people have been complaining about the ghosts in the hotel bathrooms.  I told the guide about our experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Our most interesting vacation this year was to the Hotel Del Coronado in California. I read some reports that the hotel was haunted and I think they are correct. We checked in at midnight after a long day of travel. When we got to our room the TV in the room was on. We were tired so we went to bed. At around 3am, I woke up because the bathroom light was on. I got up and turned it off.  Around 4am the light was on again. At first I though someone left it on, but it was so weird to happen again. Over the next four days the bathroom lights would turn off and on with increasing frequency. They even would turn off while someone was using the bathroom. It was creepy. We went on a ghost tour to learn about the history of the hotel. The tour guide mentioned that people have been complaining about the ghosts in the hotel bathrooms.  I told the guide about our experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He said that it sounded like the ghost of a woman who used to work at the hotel. She would turn the lights on and off because she was upset about the renovations that were done to the hotel. We left the hotel after four days, but I will never forget our interesting vacation.\n\n"
+            }
+        ],
+        "request_id": "811bd5304d3c8c27-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a day in July. My girlfriend had the brilliant idea that we should go to her parents' house. I never had met them before this. I was pretty nervous. I had a feeling that they would not like me. I do not know how, but I just did. We got there and immediately, I felt uneasy and could tell that they did not like me. They acted cold and callous towards me for no reason, and they were talking silently among themselves. it was very rude. I felt awkward and decided to get out of there. I texted my friend and told him to call me and act like it was an emergency so i could bail out. He came through and it worked. My girlfriend bought it and we left. I told her how i felt and she actually agreed. she apologized and said i never have to go there again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a day in July. My girlfriend had the brilliant idea that we should go to her parents' house. I never had met them before this. I was pretty nervous. I had a feeling that they would not like me. I do not know how, but I just did. We got there and immediately, I felt uneasy and could tell that they did not like me. They acted cold and callous towards me for no reason, and they were talking silently among themselves. it was very rude. I felt awkward and decided to get out of there. I texted my friend and told him to call me and act like it was an emergency so i could bail out. He came through and it worked. My girlfriend bought it and we left. I told her how i felt and she actually agreed. she apologized and said i never have to go there again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We went back to my place and watched a movie. The end.\n\n"
+            }
+        ],
+        "request_id": "811ebc402a7a43ed-EWR"
+    }
+}

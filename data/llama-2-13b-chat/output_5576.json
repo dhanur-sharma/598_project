@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For a trip, me and my wife went to Paris. It was so great to see all of the sights that we have seen in books or on the internet! We did all the things that we wanted to do and ate so much. We went to a nice little bistro that it outside of the city limits and had a nice dinner there. The coffee was fantastic as well! We had seen a lot of people talking about the mass at the Notre Dame Cathedral. It was one of those things that we knew we wanted to do when we came to Paris. We ended up researching it and finding out when the perfect time was to do that. We went on Sunday and I can't tell you how special that was! It felt like being in a movie! The building was beautiful and the sounds coming from the voices in the Notre Dame Cathedral was magical. I couldn't believe how special the whole experience was. Thankfully, we got to do that before the building had burned down. That was heartbreaking to see. It is always something horrible when a place you held in your heart gets damaged."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For a trip, me and my wife went to Paris. It was so great to see all of the sights that we have seen in books or on the internet! We did all the things that we wanted to do and ate so much. We went to a nice little bistro that it outside of the city limits and had a nice dinner there. The coffee was fantastic as well! We had seen a lot of people talking about the mass at the Notre Dame Cathedral. It was one of those things that we knew we wanted to do when we came to Paris. We ended up researching it and finding out when the perfect time was to do that. We went on Sunday and I can't tell you how special that was! It felt like being in a movie! The building was beautiful and the sounds coming from the voices in the Notre Dame Cathedral was magical. I couldn't believe how special the whole experience was. Thankfully, we got to do that before the building had burned down. That was heartbreaking to see. It is always something horrible when a place you held in your heart gets damaged.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We left Paris and went to a little town called Versailles and it was just as beautiful. The Palace of Versailles was magnificent! We had a great time and will always remember our trip to Paris.\n\n"
+            }
+        ],
+        "request_id": "811f34564c794235-EWR"
+    }
+}

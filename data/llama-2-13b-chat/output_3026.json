@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At the end of April this year, I bought my first house. It took over a year of searching to find this house. I had found several others previously that I liked, but my offer was turned down or I changed my mind after beginning the process, during the inspection period. It took a lot of patience and effort, but I finally closed on my house on my birthday. I was surprised that I had finally managed to close on a house after so many failed attempts. I was so stressed out but so excited. It was definitely the biggest decision I had ever made in my life. Luckily I had the help and support of my coworker, who acted as my realtor. I also had a lot of help from a local mortgage broker, who assisted me in numerous ways. My realtor and mortgage broker both gave me gifts at closing, which I thought was very kind of them. It has been tough to manage everything since buying the house. I do not regret the decision. I am so proud that I was able to accomplish this goal in my life. Nevertheless it has been stressful going into so much debt. I did not have a lot of experience with debt or paying large bills, so it caused me a lot of anxiety, especially in the beginning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At the end of April this year, I bought my first house. It took over a year of searching to find this house. I had found several others previously that I liked, but my offer was turned down or I changed my mind after beginning the process, during the inspection period. It took a lot of patience and effort, but I finally closed on my house on my birthday. I was surprised that I had finally managed to close on a house after so many failed attempts. I was so stressed out but so excited. It was definitely the biggest decision I had ever made in my life. Luckily I had the help and support of my coworker, who acted as my realtor. I also had a lot of help from a local mortgage broker, who assisted me in numerous ways. My realtor and mortgage broker both gave me gifts at closing, which I thought was very kind of them. It has been tough to manage everything since buying the house. I do not regret the decision. I am so proud that I was able to accomplish this goal in my life. Nevertheless it has been stressful going into so much debt. I did not have a lot of experience with debt or paying large bills, so it caused me a lot of anxiety, especially in the beginning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "However, I have learned to budget and prioritize my bills, which has made me feel more confident. I am looking forward to the future, and I know that I will be able to make it work.\n\n"
+            }
+        ],
+        "request_id": "811ec2ad5f56c3f5-EWR"
+    }
+}

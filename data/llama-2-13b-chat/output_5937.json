@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been a while since I wrote here. Ten months exactly, and about ten months ago something happened that I need to let my feelings out about. I went to a party hosted by my friend Max. He's a really social guy, but I didn't realize how many friends he had. The party was wild and packed. SO many people showed up I couldn't have counted them if I wanted to. This made me pretty jealous for some reason. Since then, I haven't been able to be as close to Max as I once was. He's one of my only friends! Yet, he has so many friends outside of me. Do I even really matter to him? I don't know anymore. It messes with my head and so I prefer to just avoid him nowadays. Last week, he invited me to another party. I did NOT go!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been a while since I wrote here. Ten months exactly, and about ten months ago something happened that I need to let my feelings out about. I went to a party hosted by my friend Max. He's a really social guy, but I didn't realize how many friends he had. The party was wild and packed. SO many people showed up I couldn't have counted them if I wanted to. This made me pretty jealous for some reason. Since then, I haven't been able to be as close to Max as I once was. He's one of my only friends! Yet, he has so many friends outside of me. Do I even really matter to him? I don't know anymore. It messes with my head and so I prefer to just avoid him nowadays. Last week, he invited me to another party. I did NOT go!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't deal with that kind of jealousy and feeling left out again. \n\n"
+            }
+        ],
+        "request_id": "811f3b817d638c9c-EWR"
+    }
+}

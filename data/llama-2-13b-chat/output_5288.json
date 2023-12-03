@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months have past since my son started up school again. He hasn't mentioned the other school in neither a positive or negative way. I think in his mind it almost doesn't exist. He's completely forgotten there was even a chance of him transferring! He enjoys his current teacher very much and is excelling academically. He has made new friends, and kept some of the few who were in his kindergarten class last year. The others he is able to see and play with at recess. I know he wouldn't be able to see his old friends had I decided to initiate the transfer. I'm glad I didn't go through with that. My son has drawn a few more pictures about his happy family, too. I care more about his emotional well-being than anything else (right up there with his physical health), so knowing how he is feeling comforts me. He just started back from Fall Break this morning. I am excited to see how he is when he returns home here in a few hours. I know at the end of the year I'll have to make the same decision again. I most likely will keep him in his current school."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months have past since my son started up school again. He hasn't mentioned the other school in neither a positive or negative way. I think in his mind it almost doesn't exist. He's completely forgotten there was even a chance of him transferring! He enjoys his current teacher very much and is excelling academically. He has made new friends, and kept some of the few who were in his kindergarten class last year. The others he is able to see and play with at recess. I know he wouldn't be able to see his old friends had I decided to initiate the transfer. I'm glad I didn't go through with that. My son has drawn a few more pictures about his happy family, too. I care more about his emotional well-being than anything else (right up there with his physical health), so knowing how he is feeling comforts me. He just started back from Fall Break this morning. I am excited to see how he is when he returns home here in a few hours. I know at the end of the year I'll have to make the same decision again. I most likely will keep him in his current school.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f2e59ab99423d-EWR"
+    }
+}

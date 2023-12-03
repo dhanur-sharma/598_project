@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago, I went on a camping trip with my family. We had lots of plans for how we wanted this to go. I went with my wife and kids. We spent a good amount of time researching locations before going; and decided on a nearby mountain. The day came for us to go and we made sure to have our bags packed with our sleeping bags, tents, and lots and lots of food. We packed up the car and off we went. After about an hour and a half drive, we finally arrived at the camp site. Right away, we noticed the chill in the air, but we decided to proceed and build our campsite. We convinced ourselves that the fire would be enough to keep us warm. Boy were we wrong. Night-time fell upon us pretty quickly and we found ourselves surrounded by darkness. With only a fire to keep us warm, we sat around close around it. We pulled out our first meal for the night, which was hot-dogs. We cooked the hot-dogs over the fire and went to sleep. We barely slept that night, it was extremely cold. The following morning, we decided to leave and try again another weekend. It was too cold to stay but regardless we had fun!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago, I went on a camping trip with my family. We had lots of plans for how we wanted this to go. I went with my wife and kids. We spent a good amount of time researching locations before going; and decided on a nearby mountain. The day came for us to go and we made sure to have our bags packed with our sleeping bags, tents, and lots and lots of food. We packed up the car and off we went. After about an hour and a half drive, we finally arrived at the camp site. Right away, we noticed the chill in the air, but we decided to proceed and build our campsite. We convinced ourselves that the fire would be enough to keep us warm. Boy were we wrong. Night-time fell upon us pretty quickly and we found ourselves surrounded by darkness. With only a fire to keep us warm, we sat around close around it. We pulled out our first meal for the night, which was hot-dogs. We cooked the hot-dogs over the fire and went to sleep. We barely slept that night, it was extremely cold. The following morning, we decided to leave and try again another weekend. It was too cold to stay but regardless we had fun!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9ea42bde427c-EWR"
+    }
+}

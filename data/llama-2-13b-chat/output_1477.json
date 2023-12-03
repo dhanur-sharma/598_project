@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past summer, my family and I went to a water park. The trip was a last-minute one - I wasn't even going to go, but I'm glad that I did. Actually, I haven't gone to a theme park in years prior to this outing. Super fun, I know. Anyway, the day started off pretty well. I was dreading the wait times to get into the park, but they weren't so bad. The lines for some of the rides were crazy long, though! For most of the day, I sat on the sidelines and just watched the kids in my family play in the water, but eventually the adults asked me to get on some rides with them. I protested at first, but eventually they got me to get in line to a ride with them. And not just any ride, but one of the tallest/scariest rides in the park! While waiting at the lower-end of the stairs, I was fairly calm, but as we got closer and closer to the top, some fear set in. I couldn't turn back because we were so far up and too many people behind us. There was no other way to get down besides riding down that long, dark tube. Once it was our turn to go down the slide, I gripped onto the handles of the tube as tightly as possible, and next thing I know, we were being pushed down the ride. I closed my eyes and screamed on the way down, but, you know what? I did it. I conquered my fear, and it was actually pretty fun! I went on multiple rides after that one, because if I can handle one of the scariest ones in the park, I can handle them all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past summer, my family and I went to a water park. The trip was a last-minute one - I wasn't even going to go, but I'm glad that I did. Actually, I haven't gone to a theme park in years prior to this outing. Super fun, I know. Anyway, the day started off pretty well. I was dreading the wait times to get into the park, but they weren't so bad. The lines for some of the rides were crazy long, though! For most of the day, I sat on the sidelines and just watched the kids in my family play in the water, but eventually the adults asked me to get on some rides with them. I protested at first, but eventually they got me to get in line to a ride with them. And not just any ride, but one of the tallest/scariest rides in the park! While waiting at the lower-end of the stairs, I was fairly calm, but as we got closer and closer to the top, some fear set in. I couldn't turn back because we were so far up and too many people behind us. There was no other way to get down besides riding down that long, dark tube. Once it was our turn to go down the slide, I gripped onto the handles of the tube as tightly as possible, and next thing I know, we were being pushed down the ride. I closed my eyes and screamed on the way down, but, you know what? I did it. I conquered my fear, and it was actually pretty fun! I went on multiple rides after that one, because if I can handle one of the scariest ones in the park, I can handle them all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea592ef4243f3-EWR"
+    }
+}

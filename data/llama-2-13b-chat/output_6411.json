@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I unexpectedly received a letter on my door saying that my apartments had been sold. This was right before the school year began and my rent was increased. I have been trying to save to move but I don't want to waste money on another apartment. I would rather save up for a house. I felt confused and felt like I was running out of time. With me having 2 children, I can't just up and leave because I don't have a lot of money to buy food, clothes, housing deposit, plus moving expenses. I felt overwhelmed by the situation. When it first happened, I was planning the summer break for my children. We were not able to take them to the beach since this happened. We didn't know whether or not we would have to pay extra utility bills along with the new property owners and increase in rent. I have started to save but it has not been easy. The first day of school was yesterday and I had to buy new clothes, shoes, and school supplies for my daughter. My son will be starting school next year which will make it even harder. Also, my car battery died a few days ago which needed to be replaced. I feel like I'm running out of money and trapped. I feel trapped because every time I think I'm saving money, some unexpected expense comes up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I unexpectedly received a letter on my door saying that my apartments had been sold. This was right before the school year began and my rent was increased. I have been trying to save to move but I don't want to waste money on another apartment. I would rather save up for a house. I felt confused and felt like I was running out of time. With me having 2 children, I can't just up and leave because I don't have a lot of money to buy food, clothes, housing deposit, plus moving expenses. I felt overwhelmed by the situation. When it first happened, I was planning the summer break for my children. We were not able to take them to the beach since this happened. We didn't know whether or not we would have to pay extra utility bills along with the new property owners and increase in rent. I have started to save but it has not been easy. The first day of school was yesterday and I had to buy new clothes, shoes, and school supplies for my daughter. My son will be starting school next year which will make it even harder. Also, my car battery died a few days ago which needed to be replaced. I feel like I'm running out of money and trapped. I feel trapped because every time I think I'm saving money, some unexpected expense comes up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am at my breaking point and I don't know what to do.\n\n"
+            }
+        ],
+        "request_id": "811f44c638a28c60-EWR"
+    }
+}

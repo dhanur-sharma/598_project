@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was very excited.  I was going on a trip.  It was out of the country.  I had never been out of the country before.  I was going to South America.  I was nervous too.  Even though I wanted to go, I kept wondering if I would fit in in South America.  When I went there, I was pleasantly surprised.  Everyone was so nice.  I ended up learning a lot about South American culture.  I went to many of the country's museums.  I learned so much about ancient civilizations and how they lived.  I was shocked about how much I did not know.  I ate South American food.  I was delighted to find out that their food was even more delicious than my country's.  I had a fun time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was very excited.  I was going on a trip.  It was out of the country.  I had never been out of the country before.  I was going to South America.  I was nervous too.  Even though I wanted to go, I kept wondering if I would fit in in South America.  When I went there, I was pleasantly surprised.  Everyone was so nice.  I ended up learning a lot about South American culture.  I went to many of the country's museums.  I learned so much about ancient civilizations and how they lived.  I was shocked about how much I did not know.  I ate South American food.  I was delighted to find out that their food was even more delicious than my country's.  I had a fun time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I made new friends.  I had a great time.  I was so glad I went on the trip.\n\n"
+            }
+        ],
+        "request_id": "811bdead3a0a15cb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We hadn't seen my daughter's father for several years. He had become recluse and didn't really have much to do with his children anymore. His mother had frequently told me that she was afraid he might take his own life, so while we had this idea hanging in the back of our minds, nothing can really prepare you for when it actually happens. I knew when I received the call from her last week that it wasn't good news. She was crying and could hardly get the words out that our daughter's dad was gone. I think what made this so incredibly difficult for my daughter was that she never got to say goodbye. Her last words were so long ago that she really couldn't recall them. Try as she might, she couldn't bring to mind pleasant or happy memories of him. It really has made her think about how he decided to leave. He has made her realize that the only way she could get over it is to forgive him and find a new path in life that invokes strength and love. His passing in life, sadly, has affected us more than his life ever did. We always tried to anticipate a day when he would show up. When we found out he had taken his own life, we were robbed of that chance. But we have to move on. We can't dwell on someone who was rarely there to begin with. All we can do is try to remember the limited happiness he brought us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We hadn't seen my daughter's father for several years. He had become recluse and didn't really have much to do with his children anymore. His mother had frequently told me that she was afraid he might take his own life, so while we had this idea hanging in the back of our minds, nothing can really prepare you for when it actually happens. I knew when I received the call from her last week that it wasn't good news. She was crying and could hardly get the words out that our daughter's dad was gone. I think what made this so incredibly difficult for my daughter was that she never got to say goodbye. Her last words were so long ago that she really couldn't recall them. Try as she might, she couldn't bring to mind pleasant or happy memories of him. It really has made her think about how he decided to leave. He has made her realize that the only way she could get over it is to forgive him and find a new path in life that invokes strength and love. His passing in life, sadly, has affected us more than his life ever did. We always tried to anticipate a day when he would show up. When we found out he had taken his own life, we were robbed of that chance. But we have to move on. We can't dwell on someone who was rarely there to begin with. All we can do is try to remember the limited happiness he brought us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We will get through this together as a family."
+            }
+        ],
+        "request_id": "811bce9d5f494405-EWR"
+    }
+}

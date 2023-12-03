@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After 5 long years of late nights and effort I graduated. My family was very excited. They all came out to celebrate and watch me graduate. Was a wonderful ceremony. Everyone enjoyed themselves. It was a little warm out but not horrible. It didn't last long so everyone still enjoyed it. After the caps flew high we went back to my mothers. There was a table of food waiting. Everyone went for their favorite food buffet style. A cooler of drinks sat out on the deck. Soda and the usual juice in the fridge. Kids filed for the fridge while the adult quickly filled the deck. Everyone seemed to have a great time. I was glad to see everyone. Most of all I am glad I don't have to get up in the morning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After 5 long years of late nights and effort I graduated. My family was very excited. They all came out to celebrate and watch me graduate. Was a wonderful ceremony. Everyone enjoyed themselves. It was a little warm out but not horrible. It didn't last long so everyone still enjoyed it. After the caps flew high we went back to my mothers. There was a table of food waiting. Everyone went for their favorite food buffet style. A cooler of drinks sat out on the deck. Soda and the usual juice in the fridge. Kids filed for the fridge while the adult quickly filled the deck. Everyone seemed to have a great time. I was glad to see everyone. Most of all I am glad I don't have to get up in the morning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a long 5 years but it paid off.\n\n"
+            }
+        ],
+        "request_id": "811f2edf5c5f19db-EWR"
+    }
+}

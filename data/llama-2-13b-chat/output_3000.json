@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,When I was in high school, I briefly dated this one guy. He was taken out of school and put in a group home due to abuse of his parents. I really was crazy about him, but he wasn't that crazy about me. He ended up breaking up with me, but we stayed friends. We lost contact for many years but then got in touch again via social media when he added me on Facebook. We were both married to other people and of course neither of us were interested anyway. Still, I was happy he remembered me and felt quite touched that he wanted to reconnect. Ok that's the back story. Here's the hard part. In February of this year,he suddenly posted on Facebook that he hard a heart condition and he only had a few months, or even weeks left to live, as no doctor would agree to do the necessary surgery. His heart was in really bad condition, he said, due to his previous drug addiction. I was stunned, and I messaged him about it. He said he was searching for a new surgeon who would agree to take on the risk. I even sent him a packet of Padre Pio's healing oil that I had, but a month or so later, he asked me if I had ever sent it, meaning he never got it. I'm not sure what happened. I thought maybe his wife took the package since it was from a woman, but that's just my guess as it is something I would have done. I found myself feeling really sad and thinking about him a lot, and contacted him often to see how he was doing. By March, he had found a doctor willing to do the surgery. After the surgery he wasn't online for awhile so I kept checking his page for any sign of that he was ok. Finally I messaged him, an he said the surgery went well but he was still afraid he was going to die. As for me, I knew he'd be fine. A few months passed, and I didn't hear from him. Just yesterday I went on his facebook page to message him and see how he was doing, and I saw that the page has been turned into a remembrance page. He died just months after the last time we talked. I feel lost."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,When I was in high school, I briefly dated this one guy. He was taken out of school and put in a group home due to abuse of his parents. I really was crazy about him, but he wasn't that crazy about me. He ended up breaking up with me, but we stayed friends. We lost contact for many years but then got in touch again via social media when he added me on Facebook. We were both married to other people and of course neither of us were interested anyway. Still, I was happy he remembered me and felt quite touched that he wanted to reconnect. Ok that's the back story. Here's the hard part. In February of this year,he suddenly posted on Facebook that he hard a heart condition and he only had a few months, or even weeks left to live, as no doctor would agree to do the necessary surgery. His heart was in really bad condition, he said, due to his previous drug addiction. I was stunned, and I messaged him about it. He said he was searching for a new surgeon who would agree to take on the risk. I even sent him a packet of Padre Pio's healing oil that I had, but a month or so later, he asked me if I had ever sent it, meaning he never got it. I'm not sure what happened. I thought maybe his wife took the package since it was from a woman, but that's just my guess as it is something I would have done. I found myself feeling really sad and thinking about him a lot, and contacted him often to see how he was doing. By March, he had found a doctor willing to do the surgery. After the surgery he wasn't online for awhile so I kept checking his page for any sign of that he was ok. Finally I messaged him, an he said the surgery went well but he was still afraid he was going to die. As for me, I knew he'd be fine. A few months passed, and I didn't hear from him. Just yesterday I went on his facebook page to message him and see how he was doing, and I saw that the page has been turned into a remembrance page. He died just months after the last time we talked. I feel lost.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I lost a friend. I still can't believe he's gone.\n\n"
+            }
+        ],
+        "request_id": "811ec225d9b143e7-EWR"
+    }
+}

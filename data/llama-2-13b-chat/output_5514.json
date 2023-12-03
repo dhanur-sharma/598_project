@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, we went to AstroWorld. It's my mom's favorite amusement park, and by proxy, I guess that makes it mine too. We've had season passes sense I can remember, but I've just gotten to the point where I will join her on the big rollercoasters she loves riding so much. There's the Scorpion, the Sizzler, and the Green Monster. That one is her favorite. We'd done all of the little kid stuff that I usually drag her to, and I could tell her energy was flagging. She'd been going through chemo for sometime, and I'm surprised she was able to take the hot Texas heat as long as she did. We would need to go home soon, where she'd fall asleep almost immediately upon sitting down on the couch. But first, we had to do the Green Monster. We waited in the snaking line, her resting against the guard rails along the way. When we finally got to the front, we sat in the very first row. She reminded me how rarely that happens. Immediately after the coaster took off, it began the slow \"click-click-click\" up the first hill, heading toward the first perilous drop. As we neared the top, someone tapped Mom's shoulder. She turned around and a little boy was behind her with his big brother (or so it seemed). \"Ma'am, you should take your hat off for this.\"Mom faltered. She hated showing her bare head, bald from the chemo treatments. But reluctantly, she plucked it off and sat on top of it. She looked at me and gave my hand a squeeze. Seconds later, we plummeted down the track. I saw nothing but joy on her face."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, we went to AstroWorld. It's my mom's favorite amusement park, and by proxy, I guess that makes it mine too. We've had season passes sense I can remember, but I've just gotten to the point where I will join her on the big rollercoasters she loves riding so much. There's the Scorpion, the Sizzler, and the Green Monster. That one is her favorite. We'd done all of the little kid stuff that I usually drag her to, and I could tell her energy was flagging. She'd been going through chemo for sometime, and I'm surprised she was able to take the hot Texas heat as long as she did. We would need to go home soon, where she'd fall asleep almost immediately upon sitting down on the couch. But first, we had to do the Green Monster. We waited in the snaking line, her resting against the guard rails along the way. When we finally got to the front, we sat in the very first row. She reminded me how rarely that happens. Immediately after the coaster took off, it began the slow \"click-click-click\" up the first hill, heading toward the first perilous drop. As we neared the top, someone tapped Mom's shoulder. She turned around and a little boy was behind her with his big brother (or so it seemed). \"Ma'am, you should take your hat off for this.\"Mom faltered. She hated showing her bare head, bald from the chemo treatments. But reluctantly, she plucked it off and sat on top of it. She looked at me and gave my hand a squeeze. Seconds later, we plummeted down the track. I saw nothing but joy on her face.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The rush of the wind in my hair and the speed of the coaster was thrilling. And for a few moments, it felt like we were invincible. The Green Monster didn't scare my mom. She was the one who made it seem fearless. And when we reached the end of the ride, she put her hat back on and smiled at me, saying, \"Let's go again.\""
+            }
+        ],
+        "request_id": "811f33160f7a42e3-EWR"
+    }
+}

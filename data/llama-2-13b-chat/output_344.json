@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At the end of May 2019 myself and my family went on Vacation to the Smoky Mountains. It was the first time my children had ever been. We took them to DollyWood and my 8 year old daughter was finally able to ride the \"big rides\" at an amusement park. She was ecstatic! We also went to SplahCountry, which both of the kids thoroughly enjoyed. My sister and her family and my parents were also on the trip with us. We had a cabin for all of us that included an indoor pool, hot tub, game room, theater room, and a pool table. I have a nephew and 2 nieces, and all of the kids (including mine) shared a room with bunk beds. The kids had a blast. My son's favorite part was when we visited Goats on the Roof and he rode the Alpine Coaster. My daughter loved going to the Hatfield and McCoy Dinner Show. We sat in the Splash Zone and she even was called up on stage! She was very excited to be able to go up on stage. After the show we were able to purchase a copy of our show, so we will always have the memory of her being a part of it. I love being able to spend time with my family and see my children experience new things."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At the end of May 2019 myself and my family went on Vacation to the Smoky Mountains. It was the first time my children had ever been. We took them to DollyWood and my 8 year old daughter was finally able to ride the \"big rides\" at an amusement park. She was ecstatic! We also went to SplahCountry, which both of the kids thoroughly enjoyed. My sister and her family and my parents were also on the trip with us. We had a cabin for all of us that included an indoor pool, hot tub, game room, theater room, and a pool table. I have a nephew and 2 nieces, and all of the kids (including mine) shared a room with bunk beds. The kids had a blast. My son's favorite part was when we visited Goats on the Roof and he rode the Alpine Coaster. My daughter loved going to the Hatfield and McCoy Dinner Show. We sat in the Splash Zone and she even was called up on stage! She was very excited to be able to go up on stage. After the show we were able to purchase a copy of our show, so we will always have the memory of her being a part of it. I love being able to spend time with my family and see my children experience new things.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is a great feeling to be able to make memories that will last a lifetime."
+            }
+        ],
+        "request_id": "811e8fffcdc2431f-EWR"
+    }
+}

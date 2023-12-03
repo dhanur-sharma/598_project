@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have the best mother in law. She always sends me and my kids snacks and cakes. She is the best grandmother these kids will ever have. Ive known her for about ten years. Sadly I have watched her heath deteriorate. I have recently been watching her. About four weeks ago I saw her. Her dementia has slowly taken her happiness away. Some days it looks like she is not even awake. She is like a wondering shell. I am now very worried that she'll forget who all of us are. This disease is very scary. It takes its toll on us. I can't imagine how she feels inside her mind. I hope one day there will be a cure for this awful disease."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have the best mother in law. She always sends me and my kids snacks and cakes. She is the best grandmother these kids will ever have. Ive known her for about ten years. Sadly I have watched her heath deteriorate. I have recently been watching her. About four weeks ago I saw her. Her dementia has slowly taken her happiness away. Some days it looks like she is not even awake. She is like a wondering shell. I am now very worried that she'll forget who all of us are. This disease is very scary. It takes its toll on us. I can't imagine how she feels inside her mind. I hope one day there will be a cure for this awful disease.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e97aa4d924307-EWR"
+    }
+}

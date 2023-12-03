@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I planned a weekend to Rocky Gap Casino for myself and my girlfriend for her birthday. She is not much of a gambler, but it is a resort that is on a lake that has many more activities for her. We had a few good meals, took a hike, and did stand up paddle boarding on the lake. The first evening, we went on a hike on around the lake. The intention was not to hike the entire thing, but as we made progress we figured we would just go for it. The hike was 5.5 miles in total. The weather was nice and it was a good time. After returning, we went to the casino for a little bit. As she is not a gambler, it is natural she won on her first few spins, and then quit gambling for the weekend. I did not have as much luck. On Saturday, we woke up and had a nice buffet breakfast on site. After we hung out outside on the lake and went paddle boarding. This was my first time paddle boarding. I picked up on it pretty quickly, but there were times that I was wobbly. I ended up falling on my face at one point. Luckily no one saw it until after I was laying on the board."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I planned a weekend to Rocky Gap Casino for myself and my girlfriend for her birthday. She is not much of a gambler, but it is a resort that is on a lake that has many more activities for her. We had a few good meals, took a hike, and did stand up paddle boarding on the lake. The first evening, we went on a hike on around the lake. The intention was not to hike the entire thing, but as we made progress we figured we would just go for it. The hike was 5.5 miles in total. The weather was nice and it was a good time. After returning, we went to the casino for a little bit. As she is not a gambler, it is natural she won on her first few spins, and then quit gambling for the weekend. I did not have as much luck. On Saturday, we woke up and had a nice buffet breakfast on site. After we hung out outside on the lake and went paddle boarding. This was my first time paddle boarding. I picked up on it pretty quickly, but there were times that I was wobbly. I ended up falling on my face at one point. Luckily no one saw it until after I was laying on the board.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was able to get up and keep going. We did some other water sports and hung out by the lake the rest of the day. Sunday, we woke up and did a nice breakfast again. We packed up and left around 11 am. Overall, it was a great weekend. We were able to do a lot of things and spend some quality time together. It was also a good way to celebrate her birthday.\n\n"
+            }
+        ],
+        "request_id": "811bd2f48b6542db-EWR"
+    }
+}

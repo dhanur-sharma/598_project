@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently fulfilled a childhood dream of mine. I was accepted to my number one school Notre Dame. It is the school I grew up rooting for. I have so many memories as a kid going to football games and watching the fighting Irish win. I was very shocked to have been accepted first among transfer students. I wrote a personal statement essay that came from my heart. It really was genuine essay that I spent a lot of time on.  I will never forget the day I was accepted. Me and my mom cried tears of joy as we new someday we could both be recognized as Irish alum. I am extremely excited. I will be going to the school next year. I will set out on my next goal to hopefully become a doctor. Both of my parents were doctors. I want to follow in their footsteps. Notre dame will always be a special place to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently fulfilled a childhood dream of mine. I was accepted to my number one school Notre Dame. It is the school I grew up rooting for. I have so many memories as a kid going to football games and watching the fighting Irish win. I was very shocked to have been accepted first among transfer students. I wrote a personal statement essay that came from my heart. It really was genuine essay that I spent a lot of time on.  I will never forget the day I was accepted. Me and my mom cried tears of joy as we new someday we could both be recognized as Irish alum. I am extremely excited. I will be going to the school next year. I will set out on my next goal to hopefully become a doctor. Both of my parents were doctors. I want to follow in their footsteps. Notre dame will always be a special place to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2f54e8474279-EWR"
+    }
+}

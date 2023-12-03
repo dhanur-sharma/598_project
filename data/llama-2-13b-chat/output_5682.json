@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Every year, usually before the summer, I try to get a physical. I want to get as much as I can get checked out, as far as my inner health of my body is concerned. A blood test. A urine sample. Checking my eyes. Checking my ears. Checking my blood pressure. Checking my cholesterol level. There's other things that I get checked as well . Once they are done, I get the results a week or so later. From there, everything is reviewed. What was within range, what wasn't. Do I need to make adjustments, things like that. It's the least I can do. I'm not a doctor, so I go to the experts. Trying to use preventive measures in the interim."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Every year, usually before the summer, I try to get a physical. I want to get as much as I can get checked out, as far as my inner health of my body is concerned. A blood test. A urine sample. Checking my eyes. Checking my ears. Checking my blood pressure. Checking my cholesterol level. There's other things that I get checked as well . Once they are done, I get the results a week or so later. From there, everything is reviewed. What was within range, what wasn't. Do I need to make adjustments, things like that. It's the least I can do. I'm not a doctor, so I go to the experts. Trying to use preventive measures in the interim.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f36591dc95e6c-EWR"
+    }
+}

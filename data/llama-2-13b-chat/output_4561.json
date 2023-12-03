@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have just become involved in the group Sunrise Movement. Every day I am worried about climate change, but I haven't been sure what to do about it. At the beginning of this year, I got involved with Extinction Rebellion. It seemed like a group that was treating the climate crisis with the urgency it deserved, but in the end, they were struggling to gain traction and find a direction. I left the group because it was stressing me out even more. I had heard about Sunrise Movement, seen them on social media, but really got intrigued when I saw they were organizing a summit and protest in Detroit to encourage the DNC to hold a presidential debate focused solely on climate change. I signed up to attend the summit, rented a car, and drove four others 300 miles to Detroit. The summit was amazing! I met hundreds of people, most younger than me, well informed on the climate issue and enthusiastic about doing something. Participating in the training and protest was incredibly uplifting. It has given me hope that we can make an impact in this fight. Back home, I've become involved with my own Sunrise hub, even giving a short speech at a recent event. We went to occupy our local DNC office, but nobody was even there. They were downstate at the state fair. I was discouraged, but the others were not. They called it a success. I am enamored with their optimism. I can't wait to keep organizing with these people."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have just become involved in the group Sunrise Movement. Every day I am worried about climate change, but I haven't been sure what to do about it. At the beginning of this year, I got involved with Extinction Rebellion. It seemed like a group that was treating the climate crisis with the urgency it deserved, but in the end, they were struggling to gain traction and find a direction. I left the group because it was stressing me out even more. I had heard about Sunrise Movement, seen them on social media, but really got intrigued when I saw they were organizing a summit and protest in Detroit to encourage the DNC to hold a presidential debate focused solely on climate change. I signed up to attend the summit, rented a car, and drove four others 300 miles to Detroit. The summit was amazing! I met hundreds of people, most younger than me, well informed on the climate issue and enthusiastic about doing something. Participating in the training and protest was incredibly uplifting. It has given me hope that we can make an impact in this fight. Back home, I've become involved with my own Sunrise hub, even giving a short speech at a recent event. We went to occupy our local DNC office, but nobody was even there. They were downstate at the state fair. I was discouraged, but the others were not. They called it a success. I am enamored with their optimism. I can't wait to keep organizing with these people.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am finally doing something about climate change that feels productive.\n\n"
+            }
+        ],
+        "request_id": "811bd94cc90143c2-EWR"
+    }
+}

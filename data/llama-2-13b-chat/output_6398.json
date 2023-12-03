@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,A few months ago I bumped into my stepfather's son at my new gym. I joined because I wanted to get into better shape. It was also very close to where I live. He was there the third time I went. I don't think I'd seen him since I moved out 10 years ago, and hadn't thought about where him or anyone else moved to. I just kind of forgot. We talked and actually seemed to get along well. He looked pretty happy and wanted to know if I was new to the gym. I told him that I was. After that, we talked for a while. I'm surprised that he was so nice since my memories of them aren't the best. Mom never had anything good to say about them after I left. The family didn't get along well. As far as I know most of them moved out of the area. Definitely strange to bump into someone I didn't expect to see, but I'm happy I did and happy that he seems to be doing well. It definitely doesn't feel good when you meet people from your past and things go poorly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,A few months ago I bumped into my stepfather's son at my new gym. I joined because I wanted to get into better shape. It was also very close to where I live. He was there the third time I went. I don't think I'd seen him since I moved out 10 years ago, and hadn't thought about where him or anyone else moved to. I just kind of forgot. We talked and actually seemed to get along well. He looked pretty happy and wanted to know if I was new to the gym. I told him that I was. After that, we talked for a while. I'm surprised that he was so nice since my memories of them aren't the best. Mom never had anything good to say about them after I left. The family didn't get along well. As far as I know most of them moved out of the area. Definitely strange to bump into someone I didn't expect to see, but I'm happy I did and happy that he seems to be doing well. It definitely doesn't feel good when you meet people from your past and things go poorly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's like you want to put your head in the sand and pretend that things didn't happen the way they did."
+            }
+        ],
+        "request_id": "811f448e59d28c2f-EWR"
+    }
+}

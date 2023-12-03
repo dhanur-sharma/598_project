@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was in September when i  found our my brother was getting married. He sent me a little invitation which i accepted and sent back. The wedding was taking place in November. Fast forward two months and i am getting ready for this wedding. I was really anxious at first because there were a lot of family members that i have not seen in a long time. My cousins that haven't seen in over 10 years would be there as well. So would some of my aunts and uncles as well. I tried to see it as exciting rather than being nervous. I ended up with an all black suit and a nice flowery tie. I didn't want to look too dark so the tie really made the suit pop. I traveled to Chicago for this wedding and it happened on a Saturday night. Everything went really well. I got to catch up with some cousins and we even exchanged numbers. It happens that we all have the same hobby which is gaming! I saw some of my old aunts and uncles as well and noticed everyone was doing well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was in September when i  found our my brother was getting married. He sent me a little invitation which i accepted and sent back. The wedding was taking place in November. Fast forward two months and i am getting ready for this wedding. I was really anxious at first because there were a lot of family members that i have not seen in a long time. My cousins that haven't seen in over 10 years would be there as well. So would some of my aunts and uncles as well. I tried to see it as exciting rather than being nervous. I ended up with an all black suit and a nice flowery tie. I didn't want to look too dark so the tie really made the suit pop. I traveled to Chicago for this wedding and it happened on a Saturday night. Everything went really well. I got to catch up with some cousins and we even exchanged numbers. It happens that we all have the same hobby which is gaming! I saw some of my old aunts and uncles as well and noticed everyone was doing well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The wedding was held in a beautiful church in the suburbs of Chicago. The reception was held in a fancy ballroom. There was great food and music. I had a great time and was so happy for my brother. I even took a few dance lessons before hand to prepare for the reception. I was able to dance with my brother and some of my cousins. We all had a great time. The wedding was a great experience and i was able to reconnect with some of my family members.\n\n"
+            }
+        ],
+        "request_id": "811e8eabc8510f42-EWR"
+    }
+}

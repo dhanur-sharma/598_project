@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What I don't understand is why she didn't just listen to me in the first place. After all, she went out of her way to ask us how to get out of the situation she'd put herself into, but part of me thinks it wasn't asking for that at all so much as subtly and indirectly trying to get our approval. She didn't, and she didn't care. That was what surprised me most. She normally has such wisdom, and she should know better, but when it didn't match what she wanted, she ignored it. He's not that interesting. And, as it turns out, he's abusive and pretending not to be. Probably for dating points, which is sickening. And now I feel betrayed, you know? I just felt upset and angry that she'd bothered to ask me the question, to put that emotional labor onto me, to transfer the onus of saying no (instead of passively accepting \"yes\") and then just completely disregard it. I don't know what the point was. To pretend everything is okay? It isn't, and not even validating it, or pretending it isn't happening, is disrespectful. And, in a weird way, I'm more worried about him than her. He's an idiot, after all. I'd expect this from him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What I don't understand is why she didn't just listen to me in the first place. After all, she went out of her way to ask us how to get out of the situation she'd put herself into, but part of me thinks it wasn't asking for that at all so much as subtly and indirectly trying to get our approval. She didn't, and she didn't care. That was what surprised me most. She normally has such wisdom, and she should know better, but when it didn't match what she wanted, she ignored it. He's not that interesting. And, as it turns out, he's abusive and pretending not to be. Probably for dating points, which is sickening. And now I feel betrayed, you know? I just felt upset and angry that she'd bothered to ask me the question, to put that emotional labor onto me, to transfer the onus of saying no (instead of passively accepting \"yes\") and then just completely disregard it. I don't know what the point was. To pretend everything is okay? It isn't, and not even validating it, or pretending it isn't happening, is disrespectful. And, in a weird way, I'm more worried about him than her. He's an idiot, after all. I'd expect this from him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But her? She should know better.\n\n"
+            }
+        ],
+        "request_id": "811f3d9e0d418c53-EWR"
+    }
+}

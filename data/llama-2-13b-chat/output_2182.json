@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was very lucky and found dolls for my collection. I collect Strawberry Shortcake dolls. I have a bunch of dolls in my collection. This made my collection more complete. I like to look at it. It is really nice. I will never find dolls like this again. A lot of them are in the box. The minis even have cards with them. I also got some vehicles. I got a mini house in a box. I have the mini house of my own from when I was a kid. I don't have none of my boxes or packaging. So to have so many in the box is cool. They actually still have the scent from the 1980's which is a miracle for how old they are."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was very lucky and found dolls for my collection. I collect Strawberry Shortcake dolls. I have a bunch of dolls in my collection. This made my collection more complete. I like to look at it. It is really nice. I will never find dolls like this again. A lot of them are in the box. The minis even have cards with them. I also got some vehicles. I got a mini house in a box. I have the mini house of my own from when I was a kid. I don't have none of my boxes or packaging. So to have so many in the box is cool. They actually still have the scent from the 1980's which is a miracle for how old they are.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The vehicles are in great shape too.\n\n"
+            }
+        ],
+        "request_id": "811eb1f2dfbc5e71-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My grandmother passed away only three months ago. It feels like yesterday because her passing was so painful for me. She was suffering so much, and I felt guilty feeling like her passing was a relief at the time. While her passing away was a relief because she wasn't suffering anymore, I feel totally lost and lonely without her. I viewed my grandma as my mom because she raised me from the time that I was born. I feel so alone now. My own mother couldn't handle motherhood, so my grandma filled that role for me. Actually saying she filled that role is a huge understatement. She devoted herself (emotionally and time) entirely to me. I have memories of her when I was young coming to all of my school events, and cheering me on at sports events. She talked me through hard times with friends and boyfriends as I got older. She also encouraged me to work hard in school which I did. Due to her encouragement, I got into college and she paid for everything. I did really well in college, and immediately got a job I love right after graduation. I feel really sad because I am not married yet, and always dreamed that she would meet my future husband and children. I am still in shock that she died so quickly because I always viewed her as a healthy person. She went to all of her physicals, and it seemed like her cancer came out of nowhere. I have no idea how her cancer wasn't caught through routine blood work that she had at  her last physical. I feel angry, but those feelings of anger are now being replaced by feelings of sadness."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My grandmother passed away only three months ago. It feels like yesterday because her passing was so painful for me. She was suffering so much, and I felt guilty feeling like her passing was a relief at the time. While her passing away was a relief because she wasn't suffering anymore, I feel totally lost and lonely without her. I viewed my grandma as my mom because she raised me from the time that I was born. I feel so alone now. My own mother couldn't handle motherhood, so my grandma filled that role for me. Actually saying she filled that role is a huge understatement. She devoted herself (emotionally and time) entirely to me. I have memories of her when I was young coming to all of my school events, and cheering me on at sports events. She talked me through hard times with friends and boyfriends as I got older. She also encouraged me to work hard in school which I did. Due to her encouragement, I got into college and she paid for everything. I did really well in college, and immediately got a job I love right after graduation. I feel really sad because I am not married yet, and always dreamed that she would meet my future husband and children. I am still in shock that she died so quickly because I always viewed her as a healthy person. She went to all of her physicals, and it seemed like her cancer came out of nowhere. I have no idea how her cancer wasn't caught through routine blood work that she had at  her last physical. I feel angry, but those feelings of anger are now being replaced by feelings of sadness.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just miss her so much, and wish I could talk to her one more time.\n\n"
+            }
+        ],
+        "request_id": "811e999b0cc25e73-EWR"
+    }
+}

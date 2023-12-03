@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was camping this summer when I get scalded by boiling water. It was the most painful experience I've ever had in my life. The burns were all over my arms and legs. I was screaming my lungs out after I got burned, and my friends had to help calm me down. After that they took me to the hospital and they put some kind of healing balm on my skins, but it was still painful. I had to stay in the hospital for a few weeks, and it wasn't cheap. I was angry at myself, at letting something like that happened. The recovery wasn't fun. It was painful. I had a horrible time at the hospital and lost a lot of money being treated. When I came out of the hospital I was a bitter man. I vow to never let something like that happen to me again. I will be careful from now on. I will watch out. And I will take good care about myself. Believe it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was camping this summer when I get scalded by boiling water. It was the most painful experience I've ever had in my life. The burns were all over my arms and legs. I was screaming my lungs out after I got burned, and my friends had to help calm me down. After that they took me to the hospital and they put some kind of healing balm on my skins, but it was still painful. I had to stay in the hospital for a few weeks, and it wasn't cheap. I was angry at myself, at letting something like that happened. The recovery wasn't fun. It was painful. I had a horrible time at the hospital and lost a lot of money being treated. When I came out of the hospital I was a bitter man. I vow to never let something like that happen to me again. I will be careful from now on. I will watch out. And I will take good care about myself. Believe it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb58f7ba90cc2-EWR"
+    }
+}

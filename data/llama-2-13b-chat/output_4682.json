@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my therapist appointment today. I finally told her about the problems I've been having with food for the past year, which I've been hiding from her. About eating so much I make myself sick. How I'm always thinking about food to the point where I can't concentrate. How I feel so guilty after eating. She listened to me and asked me some questions, then pulled up a little questionnaire. There were some questions about my feelings about food. There were also some about how often I binge-eat. I was embarrassed to answer those ones. I felt humiliated when she read my answers. I didn't want to talk about it, but I knew I needed to. After reading all of my answers, she said she had a new diagnoses for me. Binge eating disorder. I felt shocked and sad to hear that I have an eating disorder. I'm also very embarrassed. She wanted me to start keeping a food log and tracking my binges, while also writing down what I'm feeling before, during, and after a binge."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my therapist appointment today. I finally told her about the problems I've been having with food for the past year, which I've been hiding from her. About eating so much I make myself sick. How I'm always thinking about food to the point where I can't concentrate. How I feel so guilty after eating. She listened to me and asked me some questions, then pulled up a little questionnaire. There were some questions about my feelings about food. There were also some about how often I binge-eat. I was embarrassed to answer those ones. I felt humiliated when she read my answers. I didn't want to talk about it, but I knew I needed to. After reading all of my answers, she said she had a new diagnoses for me. Binge eating disorder. I felt shocked and sad to hear that I have an eating disorder. I'm also very embarrassed. She wanted me to start keeping a food log and tracking my binges, while also writing down what I'm feeling before, during, and after a binge.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm scared of what's going to happen next. I'm afraid of having to go through this alone.\n\n"
+            }
+        ],
+        "request_id": "811bdbb0cbf30ca9-EWR"
+    }
+}

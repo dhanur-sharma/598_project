@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so surprised that I needed eye surgery so soon. I thought I would have a few more years before it was needed. I scheduled the surgery on one of my eyes first. The other eye would have surgery later after the first one healed. I was so nervous the day of surgery. I was fortunate to have a family member with me because you can't have the surgery without someone being there. Everyone at the surgical center was very nice and tries to put you at ease. I had an eye exam before the surgery to confirm the type of lens to be used. I was prepped for surgery with a mild anesthetic. It's a very strange feeling to be awake for the surgery. I was very much aware of what the surgeon was doing which was a big surprise to me. I could feel everything, but there wasn't pain with the actual surgery. I was surprised that I was able to talk to the surgeon and staff. It was a very strange sensation to know when the lens was being replaced. I was very glad when it was finished even though it didn't take very long."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so surprised that I needed eye surgery so soon. I thought I would have a few more years before it was needed. I scheduled the surgery on one of my eyes first. The other eye would have surgery later after the first one healed. I was so nervous the day of surgery. I was fortunate to have a family member with me because you can't have the surgery without someone being there. Everyone at the surgical center was very nice and tries to put you at ease. I had an eye exam before the surgery to confirm the type of lens to be used. I was prepped for surgery with a mild anesthetic. It's a very strange feeling to be awake for the surgery. I was very much aware of what the surgeon was doing which was a big surprise to me. I could feel everything, but there wasn't pain with the actual surgery. I was surprised that I was able to talk to the surgeon and staff. It was a very strange sensation to know when the lens was being replaced. I was very glad when it was finished even though it didn't take very long.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The staff was very attentive and caring. I was able to go home the same day. I had some discomfort and blurred vision but it quickly improved over the next few days."
+            }
+        ],
+        "request_id": "811ed315c990429b-EWR"
+    }
+}

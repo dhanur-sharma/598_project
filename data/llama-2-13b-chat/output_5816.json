@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I went on a trip to Western Europe, I began my trip in Amsterdam and then went to Brussels and Paris. With me on the trip was a friend of mine that I went to college with. We stayed in hostels for the entire trip and almost exclusively walked or used public transit. In Amsterdam we got lost many times trying to navigate the confusing streets. There we went to a cat museum, a photography museum and explored the city on foot. The weather was nice and we were able to try many different restaurants. It's nice that in Amsterdam almost everyone speaks English. From there we went to Brussels by bus and stayed for one day. It was not as exciting as we would have liked but it was nice to stop before we went to Paris. In Brussels we went to the city center and ate good falafal. We also had some very good Belgian beer. We left the next morning for Paris where we spent most of our time. In Paris we went to most of the major museums and walked around the entire city center. We also went to a soccer game and met a friend of mine that was studying at the local college. We went to many churches and saw a lot of the art the city has to offer. Overall it was a great trip and I am looking forward to going back some day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I went on a trip to Western Europe, I began my trip in Amsterdam and then went to Brussels and Paris. With me on the trip was a friend of mine that I went to college with. We stayed in hostels for the entire trip and almost exclusively walked or used public transit. In Amsterdam we got lost many times trying to navigate the confusing streets. There we went to a cat museum, a photography museum and explored the city on foot. The weather was nice and we were able to try many different restaurants. It's nice that in Amsterdam almost everyone speaks English. From there we went to Brussels by bus and stayed for one day. It was not as exciting as we would have liked but it was nice to stop before we went to Paris. In Brussels we went to the city center and ate good falafal. We also had some very good Belgian beer. We left the next morning for Paris where we spent most of our time. In Paris we went to most of the major museums and walked around the entire city center. We also went to a soccer game and met a friend of mine that was studying at the local college. We went to many churches and saw a lot of the art the city has to offer. Overall it was a great trip and I am looking forward to going back some day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f390b5ee642e6-EWR"
+    }
+}

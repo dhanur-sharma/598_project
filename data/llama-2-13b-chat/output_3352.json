@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four weeks ago I was travelling to another city for a convention.  It was about a two hour long trip and I was just thinking about ways to pass the time.  I ended up making the trip with another colleague of mine so we could chat on the way.  When it came to the day we got in the car and left.  When we almost were at the city we saw a big accident.  An 18 wheeler had gone under a bridge and gotten stuck!  I was very surprised to see this as those bridges/tunnels are usually clearly marked.  The road under the bridge had narrowed to one lane.  Traffic was being directed through it by police.  II assume they were trying to get the truck unstuck from the bridge overhead but I'm not sure how they would've accomplished that.  Two days later, when we were making our trip back home the truck was gone.  The road was back to being two lanes like nothing had ever happened.  It was an interesting experience.  Me and my colleague chatted about it a bit on the way back.  We were both surprised to see it in the first place.  We told work about it the next week when we got back.  I hope to not see an accident like that if I ever have to go that way again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four weeks ago I was travelling to another city for a convention.  It was about a two hour long trip and I was just thinking about ways to pass the time.  I ended up making the trip with another colleague of mine so we could chat on the way.  When it came to the day we got in the car and left.  When we almost were at the city we saw a big accident.  An 18 wheeler had gone under a bridge and gotten stuck!  I was very surprised to see this as those bridges/tunnels are usually clearly marked.  The road under the bridge had narrowed to one lane.  Traffic was being directed through it by police.  II assume they were trying to get the truck unstuck from the bridge overhead but I'm not sure how they would've accomplished that.  Two days later, when we were making our trip back home the truck was gone.  The road was back to being two lanes like nothing had ever happened.  It was an interesting experience.  Me and my colleague chatted about it a bit on the way back.  We were both surprised to see it in the first place.  We told work about it the next week when we got back.  I hope to not see an accident like that if I ever have to go that way again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec98acf4143c1-EWR"
+    }
+}

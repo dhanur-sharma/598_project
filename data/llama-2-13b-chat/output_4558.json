@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: During the month of April in 2019 I was summons to jury duty, and had really bad anxiety about it prior to going. It's in one of the roughest parts of my state and it's always nerve-wrecking going there. After drive twenty minutes I finally arrived to sit in a pool of jurors and wait for instructions. During this time I was doing work on my laptop and after hearing my number called I went to the courtroom with the other jurors to see if we were going to be called. After getting dismissed and sent back downstairs, I decided to purchase a muffin. It happened to be a banana nut muffin, unknown to myself. Instead of eating the muffin at the courthouse I waited until i was dismissed completely and on my way home to eat it. Luckily. As I arrived home I decided to eat the muffin, but after taking a few bites I noticed something crunchy. I thought I purchased a banana muffin, and soon after realized it was a banana nut muffin. I happened to be allergic to walnuts and didn't think twice about how bad it would affect me. After trying multiple solutions to get the nut out of my system, it was to no avail and I ended up calling my mom and having her take me to the hospital. My vision was blurry, my throat was closing, and I felt like I was dying and I was so dizzy. Once I finally arrived, they new to take me to get treated right away, and I was lucky enough to book a room at the hospital. They injected me with a few drugs and I was able to sleep better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: During the month of April in 2019 I was summons to jury duty, and had really bad anxiety about it prior to going. It's in one of the roughest parts of my state and it's always nerve-wrecking going there. After drive twenty minutes I finally arrived to sit in a pool of jurors and wait for instructions. During this time I was doing work on my laptop and after hearing my number called I went to the courtroom with the other jurors to see if we were going to be called. After getting dismissed and sent back downstairs, I decided to purchase a muffin. It happened to be a banana nut muffin, unknown to myself. Instead of eating the muffin at the courthouse I waited until i was dismissed completely and on my way home to eat it. Luckily. As I arrived home I decided to eat the muffin, but after taking a few bites I noticed something crunchy. I thought I purchased a banana muffin, and soon after realized it was a banana nut muffin. I happened to be allergic to walnuts and didn't think twice about how bad it would affect me. After trying multiple solutions to get the nut out of my system, it was to no avail and I ended up calling my mom and having her take me to the hospital. My vision was blurry, my throat was closing, and I felt like I was dying and I was so dizzy. Once I finally arrived, they new to take me to get treated right away, and I was lucky enough to book a room at the hospital. They injected me with a few drugs and I was able to sleep better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "After a few hours I was able to go home and I was so grateful to be home and safe.\n\n"
+            }
+        ],
+        "request_id": "811bd9405b96c41d-EWR"
+    }
+}

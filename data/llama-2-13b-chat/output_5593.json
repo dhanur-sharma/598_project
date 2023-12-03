@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so depressed. I really wanted to try to make things work out for the best. I have got to get out of this mood. But she is always calling. Or posting something on Facebook. I hurt so bad. I think I will stop going on Facebook. Maybe I should change my number.  Maybe I will hangout with some friends that aren't married. I can't understand what happened. I am miserable. I should go on a trip to Bahamas.  I would sure like to get to know someone. That should take my mind off of things. I just want to feel better. I want to cry sometimes. Living without her is going to be tough. But I will keep on telling myself that I will be ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so depressed. I really wanted to try to make things work out for the best. I have got to get out of this mood. But she is always calling. Or posting something on Facebook. I hurt so bad. I think I will stop going on Facebook. Maybe I should change my number.  Maybe I will hangout with some friends that aren't married. I can't understand what happened. I am miserable. I should go on a trip to Bahamas.  I would sure like to get to know someone. That should take my mind off of things. I just want to feel better. I want to cry sometimes. Living without her is going to be tough. But I will keep on telling myself that I will be ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will be ok.\n\n"
+            }
+        ],
+        "request_id": "811f34b07c2d1971-EWR"
+    }
+}

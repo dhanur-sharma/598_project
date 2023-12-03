@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am an alcoholic. I had been a drinker for most of my life but I had gotten worse over the last few years. I was staying with some family while staying dry but I slipped up and secretly started drinking again, which was actually no secret to the family I was staying with. I was kicked out, no where to go but my vehicle. No job. I had a little money for gas, most for alcohol because I didn't want to go through withdrawals. I started sleeping in my truck, the weather was cool and humid, worked out OK for a few days. After that, I started feeling rough: my chest hurt when I breathed and kept getting worse. Finally I had to go to the emergency room. They took me in, gave me tests, x-rayed my chest. I told them I was an alcoholic so they gave me medicine to hold off withdrawals. Turned out I had pneumonia. I had no idea pneumonia was that bad. They admitted me; private room, nice bed, fed me. And treated my pneumonia and alcoholism. Pneumonia sucks, it hurts. So they started giving me morphine, WOW! I had never had it before and it was great, didn't care if anything hurt. I stayed in the hospital nine nights and when they discharged me I wasn't quite healed unfortunately but I did finally heal up. I stopped drinking for a while but then I relapsed, doing OK now, dry for six months. And that's how I learned why heroin addicts had such a time quitting, morphine just lets you melt away and feel good, alcohol just lets you feel crappy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am an alcoholic. I had been a drinker for most of my life but I had gotten worse over the last few years. I was staying with some family while staying dry but I slipped up and secretly started drinking again, which was actually no secret to the family I was staying with. I was kicked out, no where to go but my vehicle. No job. I had a little money for gas, most for alcohol because I didn't want to go through withdrawals. I started sleeping in my truck, the weather was cool and humid, worked out OK for a few days. After that, I started feeling rough: my chest hurt when I breathed and kept getting worse. Finally I had to go to the emergency room. They took me in, gave me tests, x-rayed my chest. I told them I was an alcoholic so they gave me medicine to hold off withdrawals. Turned out I had pneumonia. I had no idea pneumonia was that bad. They admitted me; private room, nice bed, fed me. And treated my pneumonia and alcoholism. Pneumonia sucks, it hurts. So they started giving me morphine, WOW! I had never had it before and it was great, didn't care if anything hurt. I stayed in the hospital nine nights and when they discharged me I wasn't quite healed unfortunately but I did finally heal up. I stopped drinking for a while but then I relapsed, doing OK now, dry for six months. And that's how I learned why heroin addicts had such a time quitting, morphine just lets you melt away and feel good, alcohol just lets you feel crappy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And that's my story.\n\n"
+            }
+        ],
+        "request_id": "811eb3810b158c69-EWR"
+    }
+}

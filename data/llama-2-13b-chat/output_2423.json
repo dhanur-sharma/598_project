@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My parents divorced when I was four years old.  They have generally gotten along, but not been around each other much.  Within the last eight years both of them lost their spouses.  I decided to have a vacation and take both of them, since traveling alone is difficult for each of them.  We chose Fort Lauderdale.  It was a great time.  We went to seafood restaurants.  That may have been the best part. We also hung out at the beach. Much of the early part of the day was spent at the beach.  All of us liked going in the ocean.   All of us enjoyed going on a Segway tour.  We saw Birch Park.  The five of us, as my son and husband also went along, visited a local casino a few times.  The sunny weather was so pleasant.  Everyone had a great time.  My parents, while not close, got along and had fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My parents divorced when I was four years old.  They have generally gotten along, but not been around each other much.  Within the last eight years both of them lost their spouses.  I decided to have a vacation and take both of them, since traveling alone is difficult for each of them.  We chose Fort Lauderdale.  It was a great time.  We went to seafood restaurants.  That may have been the best part. We also hung out at the beach. Much of the early part of the day was spent at the beach.  All of us liked going in the ocean.   All of us enjoyed going on a Segway tour.  We saw Birch Park.  The five of us, as my son and husband also went along, visited a local casino a few times.  The sunny weather was so pleasant.  Everyone had a great time.  My parents, while not close, got along and had fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was happy to see them have a good time together.\n\n"
+            }
+        ],
+        "request_id": "811eb65a8c62191b-EWR"
+    }
+}

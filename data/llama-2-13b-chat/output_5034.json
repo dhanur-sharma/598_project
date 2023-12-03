@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My child has been sick for four months. I still remember the day that I found out. I called my friends and family and let them know what had happened. I even asked for their help setting up some sort of fundraiser to help with the expenses. Every one of them turned me down. Either they didn't have time or they just couldn't be bothered. It still hurts me to think about. I am trying to take care of this situation on my own. Taking my child back and forth to hospital visits and having to miss work. I just can't believe no one wants to help me. I feel so alone. When they need my help, I am always there. I try to help out when I can and I would do anything for my friends and family. It feels like they just take from me and don't really care how much it hurts me. I'm behind on my bills and the stress is taking its toll."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My child has been sick for four months. I still remember the day that I found out. I called my friends and family and let them know what had happened. I even asked for their help setting up some sort of fundraiser to help with the expenses. Every one of them turned me down. Either they didn't have time or they just couldn't be bothered. It still hurts me to think about. I am trying to take care of this situation on my own. Taking my child back and forth to hospital visits and having to miss work. I just can't believe no one wants to help me. I feel so alone. When they need my help, I am always there. I try to help out when I can and I would do anything for my friends and family. It feels like they just take from me and don't really care how much it hurts me. I'm behind on my bills and the stress is taking its toll.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just wish that someone would be there to help me and my child.\n\n"
+            }
+        ],
+        "request_id": "811be3071e1f42ac-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four weeks ago the scariest day of my life happened. I was at work, sipping on tea, and my worst nightmare occurred. Being an American, this is always in the news. However, the disconnect makes you think \"Sure, this happens, but it would never happen to ME\". And yet, it did. A man charged into my office with a gun, and started screaming about nonsense while waving the weapon around. I immediately took charge among the terrified employees, and attempted to negotiate with the gunman. I asked why he was doing this, to remain calm and slide me the gun. He was clearly not in his right mind, he was on something, and just kept babbling about random nonsense. I really didn't know what to do. Thankfully, I was able to talk to him long enough to provide ample distraction for the police to come in and apprehend him. Thank god, no one was hurt. We were told that he was indeed high on heroin, and that he definitely wasn't in his right mind. I was thankful that everyone was safe. However, I feel that I lost a piece of my innocence that day, I suppose."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four weeks ago the scariest day of my life happened. I was at work, sipping on tea, and my worst nightmare occurred. Being an American, this is always in the news. However, the disconnect makes you think \"Sure, this happens, but it would never happen to ME\". And yet, it did. A man charged into my office with a gun, and started screaming about nonsense while waving the weapon around. I immediately took charge among the terrified employees, and attempted to negotiate with the gunman. I asked why he was doing this, to remain calm and slide me the gun. He was clearly not in his right mind, he was on something, and just kept babbling about random nonsense. I really didn't know what to do. Thankfully, I was able to talk to him long enough to provide ample distraction for the police to come in and apprehend him. Thank god, no one was hurt. We were told that he was indeed high on heroin, and that he definitely wasn't in his right mind. I was thankful that everyone was safe. However, I feel that I lost a piece of my innocence that day, I suppose.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't help but think about the fragility of life, and how quickly it can change.\n\n"
+            }
+        ],
+        "request_id": "811e95f1681243d5-EWR"
+    }
+}

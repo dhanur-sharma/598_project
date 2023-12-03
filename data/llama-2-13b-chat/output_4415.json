@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary - It is almost that time. Almost a year ago, my dog passed away. She was 16 years old. She lived a real long time for a border collie but not as old as I would have liked. It has been almost a year and not a day goes by that I do not think about her. She was a really good dog. I did not have her as a puppy but I feel like that would have been a blast a see. Nope, she was a rescue dog. I got her when she was about 4 years old, the adoption agency said, however, she did not act like a 4 year old. She was a little rascal, running around and acting like she was a puppy. But  she was not aggressive. Maybe aggressively playful but not aggressive at all. She would whine at other dogs. She would want to look and sniff at every little thing in the park. She would just pull me all over the place. She was a really good dog. I still miss her and I always will."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary - It is almost that time. Almost a year ago, my dog passed away. She was 16 years old. She lived a real long time for a border collie but not as old as I would have liked. It has been almost a year and not a day goes by that I do not think about her. She was a really good dog. I did not have her as a puppy but I feel like that would have been a blast a see. Nope, she was a rescue dog. I got her when she was about 4 years old, the adoption agency said, however, she did not act like a 4 year old. She was a little rascal, running around and acting like she was a puppy. But  she was not aggressive. Maybe aggressively playful but not aggressive at all. She would whine at other dogs. She would want to look and sniff at every little thing in the park. She would just pull me all over the place. She was a really good dog. I still miss her and I always will.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd676484b1839-EWR"
+    }
+}

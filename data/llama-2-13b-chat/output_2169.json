@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was terrible when we lost our home due to mismanagement of money four months ago. I regret not paying closer attention to my funds. I was so foolish! This could have been prevented if I was more careful. I can't believe we were in this position. Thankfully, after a lot of hunting, we found a home to rent that fits my budget. It's even in a better neighborhood! I feel extremely lucky to have this outcome. I can't wait to entirely settle in. There is still a lot of unpacking to do. Everyone that I've met in the neighborhood has been so pleasant. I will definitely be monitoring my finances much better to avoid going through this experience again. I've purchased software that will track my spending. I am eager for this new chapter. I am feeling positive overall."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was terrible when we lost our home due to mismanagement of money four months ago. I regret not paying closer attention to my funds. I was so foolish! This could have been prevented if I was more careful. I can't believe we were in this position. Thankfully, after a lot of hunting, we found a home to rent that fits my budget. It's even in a better neighborhood! I feel extremely lucky to have this outcome. I can't wait to entirely settle in. There is still a lot of unpacking to do. Everyone that I've met in the neighborhood has been so pleasant. I will definitely be monitoring my finances much better to avoid going through this experience again. I've purchased software that will track my spending. I am eager for this new chapter. I am feeling positive overall.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb19c6cef8c09-EWR"
+    }
+}

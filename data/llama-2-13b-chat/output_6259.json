@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been working 50 hour weeks for as long as I could remember. I needed the week off. I was perfectly happy to sit on my couch all week and rest. Then my friend called me and told me to pack my bags. We went to his uncle's house on the beach. I'm normally weary of beach trips. I love the beach but hate crowds. Luckily this wasn't a tourist beach. His uncle's house was right on the shore. No long lines. I spent the three days up to the fourth on the beach. I burned but it was worth it. I read books. I drank beer. I didn't think about work. Then on the fourth we had our own fireworks show. At the end of the vacation I was sad it was over but my energy was back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been working 50 hour weeks for as long as I could remember. I needed the week off. I was perfectly happy to sit on my couch all week and rest. Then my friend called me and told me to pack my bags. We went to his uncle's house on the beach. I'm normally weary of beach trips. I love the beach but hate crowds. Luckily this wasn't a tourist beach. His uncle's house was right on the shore. No long lines. I spent the three days up to the fourth on the beach. I burned but it was worth it. I read books. I drank beer. I didn't think about work. Then on the fourth we had our own fireworks show. At the end of the vacation I was sad it was over but my energy was back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt human again."
+            }
+        ],
+        "request_id": "811f4206e98c43a6-EWR"
+    }
+}

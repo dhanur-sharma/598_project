@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I went on a trip to Tenerife Spain. I have an old friend who lives there. The trip was grueling, to get across the Atlantic. It took me 31 hours to get there. I didn't sleep the entire time. But it was worth every second of anxiety and the lack of sleep. I stopped in Dublin and got to walk around the town and enjoy the accents. Trinity College was beautiful. Even just the streets and public parks were relaxing. The \"large city\" was calmer than the suburbia I live in. Then I made it to Tenerife and it was even more fun. The weather was PERFECT. The ocean was blue, and just cool enough. The vibe of every human was so nice and relaxed. Mojitos on the beach while swimming, couldn't beat it. Then we went to the top of Mt Tiede, a 12,000ft volcano! It was hard but worthwhile to see every side of the Island. Then we just hung on the beach every other day of the week. It was the most relaxing 10 days of my entire life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I went on a trip to Tenerife Spain. I have an old friend who lives there. The trip was grueling, to get across the Atlantic. It took me 31 hours to get there. I didn't sleep the entire time. But it was worth every second of anxiety and the lack of sleep. I stopped in Dublin and got to walk around the town and enjoy the accents. Trinity College was beautiful. Even just the streets and public parks were relaxing. The \"large city\" was calmer than the suburbia I live in. Then I made it to Tenerife and it was even more fun. The weather was PERFECT. The ocean was blue, and just cool enough. The vibe of every human was so nice and relaxed. Mojitos on the beach while swimming, couldn't beat it. Then we went to the top of Mt Tiede, a 12,000ft volcano! It was hard but worthwhile to see every side of the Island. Then we just hung on the beach every other day of the week. It was the most relaxing 10 days of my entire life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd9b3a8af4279-EWR"
+    }
+}

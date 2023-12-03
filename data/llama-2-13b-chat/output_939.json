@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I continue to be going through a divorce.  Previously I discussed how my ex spouse was court ordered to make my car payment.  He didn't and my car was repossessed.  We later went to court because he was in contempt/ violation of the court order.   He basically got a slap on the hand.  Fast forward to today.  He continues to be responsible for the same bills, minus that specific car payment and now had to make a car payment on another car.  He has failed to make any kind of payment in the last 3 months, not even child support.  The divorce has taken over a year to finalize. I don't see an end in site.  His attorney recently requested to be dismissed from his case.  I guess my ex thinks he is above the law.  We will see if he gets a slap on the hand this time.  He is of course, in contempt again.   We will have a trial scheduled."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I continue to be going through a divorce.  Previously I discussed how my ex spouse was court ordered to make my car payment.  He didn't and my car was repossessed.  We later went to court because he was in contempt/ violation of the court order.   He basically got a slap on the hand.  Fast forward to today.  He continues to be responsible for the same bills, minus that specific car payment and now had to make a car payment on another car.  He has failed to make any kind of payment in the last 3 months, not even child support.  The divorce has taken over a year to finalize. I don't see an end in site.  His attorney recently requested to be dismissed from his case.  I guess my ex thinks he is above the law.  We will see if he gets a slap on the hand this time.  He is of course, in contempt again.   We will have a trial scheduled.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm at my wits end.  I have to get my children to school and take care of my family, while he does nothing.\n\n"
+            }
+        ],
+        "request_id": "811e9ae8a94e5e66-EWR"
+    }
+}

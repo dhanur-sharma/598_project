@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was attending my brothers wedding one afternoon. The day was going pretty normal at first. We where getting ready for the wedding with my brother. The guys in the wedding where in one place and the girls where in another place like normal during weddings. We where all getting ready having a good time together when we noticed that one of the guys in the party was missing. It started to get closer and closer to the time we need together to start the ceremony. We had some people looking for him. After hours of searching he was finally found later in a closet passed out from drinking too much. This was really bad and we knew that it wouldnt be a good thing for him to be in it. I think all of us where disappointed in him. Although this may have been the case we realized that things happen. We ended up going on with the ceremony and just letting it be. We had a great night and everyone was happy and content with the way it went. This doesn't define the person and I know I realize that but I also hope everyone else did. Things happen and it we cant hold grudges. Thats no way to live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was attending my brothers wedding one afternoon. The day was going pretty normal at first. We where getting ready for the wedding with my brother. The guys in the wedding where in one place and the girls where in another place like normal during weddings. We where all getting ready having a good time together when we noticed that one of the guys in the party was missing. It started to get closer and closer to the time we need together to start the ceremony. We had some people looking for him. After hours of searching he was finally found later in a closet passed out from drinking too much. This was really bad and we knew that it wouldnt be a good thing for him to be in it. I think all of us where disappointed in him. Although this may have been the case we realized that things happen. We ended up going on with the ceremony and just letting it be. We had a great night and everyone was happy and content with the way it went. This doesn't define the person and I know I realize that but I also hope everyone else did. Things happen and it we cant hold grudges. Thats no way to live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope everyone else felt the same way."
+            }
+        ],
+        "request_id": "811e99a1e9c842a5-EWR"
+    }
+}

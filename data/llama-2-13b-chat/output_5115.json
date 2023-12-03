@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the summer, I was in another state visiting family. There was a day - a Sunday - when I was planning on going home. For one reason or another, I chose not to. The next day, my mom informed me that my dog was not doing well. Immediately, I knew I had to try to get back. I don't drive and couldn't find any flights, so I opted for Greyhound. I rushed to get to the station for a very last-minute departure. While trying to board, I was denied access because my identification had expired since I left town. I was profoundly crushed. And upset at myself for letting that happen. I would make different plans to get home the next morning. However, I woke up to a text from my mom saying that my dog had not made it through the night. I barely got out of bed for days. I didn't care about going home anymore. The thought of being in my house without my dog made it feel haunted."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the summer, I was in another state visiting family. There was a day - a Sunday - when I was planning on going home. For one reason or another, I chose not to. The next day, my mom informed me that my dog was not doing well. Immediately, I knew I had to try to get back. I don't drive and couldn't find any flights, so I opted for Greyhound. I rushed to get to the station for a very last-minute departure. While trying to board, I was denied access because my identification had expired since I left town. I was profoundly crushed. And upset at myself for letting that happen. I would make different plans to get home the next morning. However, I woke up to a text from my mom saying that my dog had not made it through the night. I barely got out of bed for days. I didn't care about going home anymore. The thought of being in my house without my dog made it feel haunted.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I stayed with family for a few days before returning home. I was devastated and still feel the pain of that loss.\n\n"
+            }
+        ],
+        "request_id": "811be45cada11841-EWR"
+    }
+}

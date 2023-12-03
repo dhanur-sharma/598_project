@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So about 7 weeks ago, my fiance and I went to a cheese festival. It was a beautiful early summer day. There was a light marine layer early in the day which cleared to sun. Billie's mom decided to meet us there and spend the day with us. The day had so many things go wrong. You would've thought that the gods were against us that day. The sun got really hot early in the afternoon. None of us brought sunscreen since we thought the marine layer would stick around through most of the day. All of us burned to nice red. And of course, can you imagine cheese, which must remain chilled, under the hot California sun? And cheese sitting in your stomach through such a hot day makes it very difficult to stay out of the bathroom. Of course the port-o-potty's were plenty nasty by the afternoon. Billie's mom had even accidently knocked an entire tray of Brei on the ground. The shopkeeper was not very happy at first. But we all ended up laughing it off. Despite all of the issues, it was a very memorable bonding experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So about 7 weeks ago, my fiance and I went to a cheese festival. It was a beautiful early summer day. There was a light marine layer early in the day which cleared to sun. Billie's mom decided to meet us there and spend the day with us. The day had so many things go wrong. You would've thought that the gods were against us that day. The sun got really hot early in the afternoon. None of us brought sunscreen since we thought the marine layer would stick around through most of the day. All of us burned to nice red. And of course, can you imagine cheese, which must remain chilled, under the hot California sun? And cheese sitting in your stomach through such a hot day makes it very difficult to stay out of the bathroom. Of course the port-o-potty's were plenty nasty by the afternoon. Billie's mom had even accidently knocked an entire tray of Brei on the ground. The shopkeeper was not very happy at first. But we all ended up laughing it off. Despite all of the issues, it was a very memorable bonding experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are all still laughing about it today.\n\n"
+            }
+        ],
+        "request_id": "811e8d43e920c356-EWR"
+    }
+}

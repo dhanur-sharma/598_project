@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On the 6th of July 2019, my sister and I had a fight. On that day, I went somewhere very early in the morning and did not have enough rest the night before. Due to the presence of heavy traffic in town, I was not able to reach my destination early. By the time I reached my destination, I was totally late for the program I was to go to. As a result of my being late, I left the place very late, which was around 5:00 pm. When I was coming home again, there was heavy traffic. I was also very hungry since I had eaten almost nothing since I left the house in the morning. I had to stop on the way to buy food, which also made me late since the food took some time to be prepared. Due to this, I was very tired and frustrated when I reached the house. When I reached the house, my sister tried to ask me a stupid question. I decided not to mind her and went to put my food down. She then asked me again and this time I gave her a snobbish answer. This then made her angry and caused her to shout at me. Due to this, both of us got angry and started saying very unpleasant words towards each other. Luckily, my older sister was around and came in to stop the fight. The reason we both fought was that we were both on edge that day since she had also gone out and had been in heavy traffic that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On the 6th of July 2019, my sister and I had a fight. On that day, I went somewhere very early in the morning and did not have enough rest the night before. Due to the presence of heavy traffic in town, I was not able to reach my destination early. By the time I reached my destination, I was totally late for the program I was to go to. As a result of my being late, I left the place very late, which was around 5:00 pm. When I was coming home again, there was heavy traffic. I was also very hungry since I had eaten almost nothing since I left the house in the morning. I had to stop on the way to buy food, which also made me late since the food took some time to be prepared. Due to this, I was very tired and frustrated when I reached the house. When I reached the house, my sister tried to ask me a stupid question. I decided not to mind her and went to put my food down. She then asked me again and this time I gave her a snobbish answer. This then made her angry and caused her to shout at me. Due to this, both of us got angry and started saying very unpleasant words towards each other. Luckily, my older sister was around and came in to stop the fight. The reason we both fought was that we were both on edge that day since she had also gone out and had been in heavy traffic that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, both of us were very irritable and impatient with each other.\n\n"
+            }
+        ],
+        "request_id": "811e9da40f201a1b-EWR"
+    }
+}

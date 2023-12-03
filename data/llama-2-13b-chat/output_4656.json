@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago my husband and I took our 2 sons to Myrtle Beach. We planned in advance and saved enough money to enjoy our vacation. The drive from Atlanta to the Myrtle beach was about five and a half hours. The kids played games and took naps. We stopped twice for potty breaks and snacks. We enjoyed the senic route and listened to music. My favorite game was I spy. Once we arrived at the hotel the kids took a short tour and changed into their swim trunks. It is tradition to let my husband rest after his drive while I let the kids swim to burn off any built up energy. Once at the pool the real fun began. They splashed and played and met new friends. Time to go and dry off for dinner I announced. We decided to have pizza for dinner. Quick and easy. The rest of the vacation was wonderful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago my husband and I took our 2 sons to Myrtle Beach. We planned in advance and saved enough money to enjoy our vacation. The drive from Atlanta to the Myrtle beach was about five and a half hours. The kids played games and took naps. We stopped twice for potty breaks and snacks. We enjoyed the senic route and listened to music. My favorite game was I spy. Once we arrived at the hotel the kids took a short tour and changed into their swim trunks. It is tradition to let my husband rest after his drive while I let the kids swim to burn off any built up energy. Once at the pool the real fun began. They splashed and played and met new friends. Time to go and dry off for dinner I announced. We decided to have pizza for dinner. Quick and easy. The rest of the vacation was wonderful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We went to the beach the next day and had a great time. I was so proud of my little men for being such good travelers. We had a blast and can't wait to go back.\n\n"
+            }
+        ],
+        "request_id": "811bdb2ad9d942c7-EWR"
+    }
+}

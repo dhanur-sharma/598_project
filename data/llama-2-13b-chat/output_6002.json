@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a lovely morning. I was walking around the path by the river. There is other people around too. There was a big noise from the sky suddenly. I looked up to the sky. There are seven to eight flight jets flied over the sky. their are flying in V form above the river . People were taking picture from their cell phone. When I took out my cell phone, I want to take some picture, the jets are all out of scene. That flied to south. It was too late for me. After that people was back to their thing again. I am continuous my walking. This was a surprising event happen in a normal day. It came with a little excitement from my daily life. I will get my cell phone ready next time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a lovely morning. I was walking around the path by the river. There is other people around too. There was a big noise from the sky suddenly. I looked up to the sky. There are seven to eight flight jets flied over the sky. their are flying in V form above the river . People were taking picture from their cell phone. When I took out my cell phone, I want to take some picture, the jets are all out of scene. That flied to south. It was too late for me. After that people was back to their thing again. I am continuous my walking. This was a surprising event happen in a normal day. It came with a little excitement from my daily life. I will get my cell phone ready next time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3cd4bbc5432b-EWR"
+    }
+}

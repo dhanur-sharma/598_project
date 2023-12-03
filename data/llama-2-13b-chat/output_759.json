@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter recently graduated from middle school. This was in June of this year. We go to a very small school and we are all very involved. I coach basketball teams and my wife was part of the PTO. My daughter played in many sports and did all kinds of activities within the school. This school goes from Kindergarten to 8th grade. My daughter attended all the years here. During her graduation event, I found myself getting very emotional. Thinking back when she was a little girl starting Kindergarten. Fast forwarding to now and she is a young woman entering High School. Time goes by so fast. It is sad and exciting at that same time. The middle was such a blur. I'm reminiscent of the past, but excited for what the future brings.  I reply this event in my mind."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter recently graduated from middle school. This was in June of this year. We go to a very small school and we are all very involved. I coach basketball teams and my wife was part of the PTO. My daughter played in many sports and did all kinds of activities within the school. This school goes from Kindergarten to 8th grade. My daughter attended all the years here. During her graduation event, I found myself getting very emotional. Thinking back when she was a little girl starting Kindergarten. Fast forwarding to now and she is a young woman entering High School. Time goes by so fast. It is sad and exciting at that same time. The middle was such a blur. I'm reminiscent of the past, but excited for what the future brings.  I reply this event in my mind.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm not sure if I will be able to attend my own daughter's high school graduation, but I will cherish these memories.\n\n"
+            }
+        ],
+        "request_id": "811e980bcf2e18c0-EWR"
+    }
+}

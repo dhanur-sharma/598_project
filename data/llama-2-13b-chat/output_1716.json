@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today, my best friend gets married. I'm a bridesmaid. I'm excited to stand next to her as she gets married. However, before the ceremony, my boyfriend told me that he had unexpected news to tell me later on. Why not now? He told me that he didn't want to spoil the wedding. Though I understand, he shouldn't have told me about this until later on. It made me very nervous throughout the wedding. Thankfully, the wedding went well. The reception was a great time. I caught the garter. I guess I'm getting married soon. Maybe that's what my boyfriend wants to talk to me about. Anyway, I went to talk to my boyfriend, and he said the unexpected news was that, and he paused. He got down on one knee and proposed. I said yes! That surprise, as nerve wracking as it was, made me so very happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today, my best friend gets married. I'm a bridesmaid. I'm excited to stand next to her as she gets married. However, before the ceremony, my boyfriend told me that he had unexpected news to tell me later on. Why not now? He told me that he didn't want to spoil the wedding. Though I understand, he shouldn't have told me about this until later on. It made me very nervous throughout the wedding. Thankfully, the wedding went well. The reception was a great time. I caught the garter. I guess I'm getting married soon. Maybe that's what my boyfriend wants to talk to me about. Anyway, I went to talk to my boyfriend, and he said the unexpected news was that, and he paused. He got down on one knee and proposed. I said yes! That surprise, as nerve wracking as it was, made me so very happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea97daf6a4388-EWR"
+    }
+}

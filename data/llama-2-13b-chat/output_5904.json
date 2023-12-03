@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lived in a safe neighborhood. Or, so I thought. I was walking around town one day. I have done this for years, so I didn't think today would be any different. However, a man tried to kidnap me. He caught me by surprise, and he was able to get a hold of me before I had any time to react. Thankfully, a neighbor saved me and the kidnapper ran away. We called the police, and filed a kidnapping report. They are currently looking for this kidnapper. I don't know why this kidnapper thought he could kidnap me. I'm a middle-aged Korean man. Although he had control of me initially, I know martial arts. My martial arts would have been able to get myself out of that situation. Thankfully, my neighbor was nearby, heard the commotion, and came out to save me. I am thankful for what my neighbor did for me, but I am confident that I would have been able to escape thanks to my martial arts skills."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lived in a safe neighborhood. Or, so I thought. I was walking around town one day. I have done this for years, so I didn't think today would be any different. However, a man tried to kidnap me. He caught me by surprise, and he was able to get a hold of me before I had any time to react. Thankfully, a neighbor saved me and the kidnapper ran away. We called the police, and filed a kidnapping report. They are currently looking for this kidnapper. I don't know why this kidnapper thought he could kidnap me. I'm a middle-aged Korean man. Although he had control of me initially, I know martial arts. My martial arts would have been able to get myself out of that situation. Thankfully, my neighbor was nearby, heard the commotion, and came out to save me. I am thankful for what my neighbor did for me, but I am confident that I would have been able to escape thanks to my martial arts skills.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3acceae84314-EWR"
+    }
+}

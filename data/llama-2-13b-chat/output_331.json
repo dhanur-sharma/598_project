@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I started talking to someone over the internet. So I've been talking to this person for quite some time now. Just recently we got a little more romantically involved. I thought we would just be good friends. I ended up catching feelings. I never really thought anything would come of it. We lived on the opposite sides of the US. I recently moved though to Central America and they were visiting close by. So I drove down there to meet them. And holy smokes. I'm glad I did. She changed my whole world. I knew we had a connection over the phone and etc. But dang, when we met in person, you could just feel the love. This event is important because she's important. She's my future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I started talking to someone over the internet. So I've been talking to this person for quite some time now. Just recently we got a little more romantically involved. I thought we would just be good friends. I ended up catching feelings. I never really thought anything would come of it. We lived on the opposite sides of the US. I recently moved though to Central America and they were visiting close by. So I drove down there to meet them. And holy smokes. I'm glad I did. She changed my whole world. I knew we had a connection over the phone and etc. But dang, when we met in person, you could just feel the love. This event is important because she's important. She's my future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And I'm so glad I decided to drive down and meet her.\n\n"
+            }
+        ],
+        "request_id": "811e8fc83bc317a5-EWR"
+    }
+}

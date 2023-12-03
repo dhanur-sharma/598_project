@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, I got caught in a flash flood. It was a harrowing experience that was very emotional. I think I'll always remember it. I recall waking up to notifications on my phone regarding flash floods in the area, but I was mostly dismissive. Who gets caught in a flood, anyhow!? I showered and dressed in preparation for work and headed out the door. It was raining like crazy and I guess it had been for 15-20 minutes at that point. Still, I needed to get to work, so I ran for the car and jumped in. I started driving down my road when I noticed that there was some standing water on the road. I had a small car, but figured I could handle the road easily. Then, seemingly out of nowhere, a wave of water hit my car on the left side, sending it skidding to the sidewalk. The water was up past the doors and rushing into the car.  I panicked and opened the door as quickly as I could to exit the vehicle. I tried to push the car out of the now-river, but couldn't manage it. I knew the car was totaled and was distraught, when I noticed that the engine was smoking. I reentered the car to turn the engine off and then stood there and cried. I ruined the car, along with my laptop which was still inside. I couldn't stop thinking about how I would have reacted if my infant son were in the car with me. I am grateful that he wasn't and that, despite insurance headaches, everything turned out ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, I got caught in a flash flood. It was a harrowing experience that was very emotional. I think I'll always remember it. I recall waking up to notifications on my phone regarding flash floods in the area, but I was mostly dismissive. Who gets caught in a flood, anyhow!? I showered and dressed in preparation for work and headed out the door. It was raining like crazy and I guess it had been for 15-20 minutes at that point. Still, I needed to get to work, so I ran for the car and jumped in. I started driving down my road when I noticed that there was some standing water on the road. I had a small car, but figured I could handle the road easily. Then, seemingly out of nowhere, a wave of water hit my car on the left side, sending it skidding to the sidewalk. The water was up past the doors and rushing into the car.  I panicked and opened the door as quickly as I could to exit the vehicle. I tried to push the car out of the now-river, but couldn't manage it. I knew the car was totaled and was distraught, when I noticed that the engine was smoking. I reentered the car to turn the engine off and then stood there and cried. I ruined the car, along with my laptop which was still inside. I couldn't stop thinking about how I would have reacted if my infant son were in the car with me. I am grateful that he wasn't and that, despite insurance headaches, everything turned out ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was able to get to work late, albeit soaked and shaken. \n\n"
+            }
+        ],
+        "request_id": "811ec92579908cca-EWR"
+    }
+}

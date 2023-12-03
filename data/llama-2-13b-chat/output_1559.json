@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father is a production engineer. We lived near the factory, where my dad worked. It was a few miles from the city. This settlement was primarily for factory workers. we used to go to the city when my dad had holidays. he used to work in shifts. The factory was running all 24 hours a day. There was never a holiday. All people living in the place were like a family. Facotry management took care of all our needs. My neighbor Jack is my close friedn. Jack's cousin Pete came down for the holidays from NY. We all hit it together very well. He was with us for nearly a month. We all had a great time. Pete requested that me and Jack accompany him back to NY and be with him for a few days. As it was holidays and we have never been out of the colony, our parents told us to go. It was an awesome time of my life. The city was wonderful and we enoyed a lot. As we grew up in suburb, this was a dream time for us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father is a production engineer. We lived near the factory, where my dad worked. It was a few miles from the city. This settlement was primarily for factory workers. we used to go to the city when my dad had holidays. he used to work in shifts. The factory was running all 24 hours a day. There was never a holiday. All people living in the place were like a family. Facotry management took care of all our needs. My neighbor Jack is my close friedn. Jack's cousin Pete came down for the holidays from NY. We all hit it together very well. He was with us for nearly a month. We all had a great time. Pete requested that me and Jack accompany him back to NY and be with him for a few days. As it was holidays and we have never been out of the colony, our parents told us to go. It was an awesome time of my life. The city was wonderful and we enoyed a lot. As we grew up in suburb, this was a dream time for us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea6db1e3641e9-EWR"
+    }
+}

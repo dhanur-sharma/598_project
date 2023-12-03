@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,The last couple of months have been really interesting. Randy, one of my coworkers has been having a really hard time. There had always been rumors that he was a heavy drinker, but I never payed much attention to them. Then he came into work looking destroyed and being extra quiet. I asked him what's up and he just broke down. He said his family had asked him to move out because he had lost control of his drinking. He didn't know what to do. I talked to him a bit and calmed him down, then gave his a number of a rehab clinic that my brother went to. He checked in himself and our boss gave him some time off to get sorted. The rehab program was less than a month and I'm not sure exactly what the program is, but it seemed to help. He came back like a different person. He went back to his wife and apologized and told them he wanted to change. She said she wanted to help him and welcomed him back. It will still take a lot of work and is a never ending thing but I'm glad for him. He also has a lot of support here at work. Our boss really surprised me with how understanding he was."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,The last couple of months have been really interesting. Randy, one of my coworkers has been having a really hard time. There had always been rumors that he was a heavy drinker, but I never payed much attention to them. Then he came into work looking destroyed and being extra quiet. I asked him what's up and he just broke down. He said his family had asked him to move out because he had lost control of his drinking. He didn't know what to do. I talked to him a bit and calmed him down, then gave his a number of a rehab clinic that my brother went to. He checked in himself and our boss gave him some time off to get sorted. The rehab program was less than a month and I'm not sure exactly what the program is, but it seemed to help. He came back like a different person. He went back to his wife and apologized and told them he wanted to change. She said she wanted to help him and welcomed him back. It will still take a lot of work and is a never ending thing but I'm glad for him. He also has a lot of support here at work. Our boss really surprised me with how understanding he was.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He's been really supportive of Randy and gave him the time off without any issue. He's also been talking about getting the company to do more to help employees with addiction issues. I'm really glad I could help Randy and I'm happy to see him doing well.\n\n"
+            }
+        ],
+        "request_id": "811e8c33fb980f9d-EWR"
+    }
+}

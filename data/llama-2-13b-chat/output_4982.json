@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, There has been so much change in the last six months. I went from having my own office, a wonderful group of friends and family close, to living in a state I am unfamiliar with and in a home that's new. We are a military family. Being a military family means making sacrifices for the greater good, even when that means distance from family or maybe even your spouse. This past year has been so hard. Driving across the country with a toddler and buying a home unseen were not things we thought we would have to do this quickly. We are now on our own. We have no family close and are trying our best to get settled in our new environment. Our son has begun preschool. He has blossomed in such a short amount of time. Although we miss our family and friends dearly, we are doing our best to plan visits. We have found a playgroup and even the dogs seems to be adjusting well. There have been a few attempts to start a business but those are continually halted due to anxiety. There are so many adjustments that will be made in the next few months. We will continue to work on the progress we have made as a family. We plan to work together to make this new place home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, There has been so much change in the last six months. I went from having my own office, a wonderful group of friends and family close, to living in a state I am unfamiliar with and in a home that's new. We are a military family. Being a military family means making sacrifices for the greater good, even when that means distance from family or maybe even your spouse. This past year has been so hard. Driving across the country with a toddler and buying a home unseen were not things we thought we would have to do this quickly. We are now on our own. We have no family close and are trying our best to get settled in our new environment. Our son has begun preschool. He has blossomed in such a short amount of time. Although we miss our family and friends dearly, we are doing our best to plan visits. We have found a playgroup and even the dogs seems to be adjusting well. There have been a few attempts to start a business but those are continually halted due to anxiety. There are so many adjustments that will be made in the next few months. We will continue to work on the progress we have made as a family. We plan to work together to make this new place home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be1fe588b429f-EWR"
+    }
+}

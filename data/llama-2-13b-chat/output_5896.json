@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The car accident was very weird, even my doctor told me hearing it made her scared to drive. As I was driving I glanced into the rear view mirror and noticed a truck coming up on my too fast. I tapped my brake lights to try and bring the driver out of his fog. Before I knew it he had rear-ended me. I looked in the mirror as I was getting ready to pull over and saw that he meant to hit me again which he did. Now I was getting freaked out it starting to feel like a Stephen King movie. I looked in the rear view once more and realized that he intended to hit me again. I swerved into the next lane checked to see what he was doing. He had followed me into the lane. I then swerved back over and quickly pulled into a parking lot. I saw him fly across the oncoming traffic lanes and plunge into a cemetery across the road. He tried to get his truck going again, I felt like he was trying to flee the scene. However, his truck had become lodged on a tombstone.  I proceeded to call 911 where they promptly sent a sheriff. After the sheriff interview the other person he came over and talked to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The car accident was very weird, even my doctor told me hearing it made her scared to drive. As I was driving I glanced into the rear view mirror and noticed a truck coming up on my too fast. I tapped my brake lights to try and bring the driver out of his fog. Before I knew it he had rear-ended me. I looked in the mirror as I was getting ready to pull over and saw that he meant to hit me again which he did. Now I was getting freaked out it starting to feel like a Stephen King movie. I looked in the rear view once more and realized that he intended to hit me again. I swerved into the next lane checked to see what he was doing. He had followed me into the lane. I then swerved back over and quickly pulled into a parking lot. I saw him fly across the oncoming traffic lanes and plunge into a cemetery across the road. He tried to get his truck going again, I felt like he was trying to flee the scene. However, his truck had become lodged on a tombstone.  I proceeded to call 911 where they promptly sent a sheriff. After the sheriff interview the other person he came over and talked to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I explained to him everything that happened and he was in disbelief. I told him I felt like the man was trying to kill me and he said I should be okay, he'd make sure the man didn't get away with it.\n\n"
+            }
+        ],
+        "request_id": "811f3a94debe41e3-EWR"
+    }
+}

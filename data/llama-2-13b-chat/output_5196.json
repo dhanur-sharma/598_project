@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was tough being diagnosed with a rare, incurable immune disease. I still have to make so many severe lifestyle changes. The consequence of my illness is sudden, unexpected anaphylaxis. Every day, I must try to stay alive, never knowing when a life-threatening attack might happen. I live life minute by minute. Every day, I dance with death. I'm pleased with my new therapist. She's helping me work on my mental health, and how to cope with the future I am now facing. Fortunately, a few wonderful things have happened. I finally closed on the house, completely gutted and renovated it with new heating and cooling, got a service dog, published a book and started feeling like a normal person again. I now have a great medical team and my disability is pretty well-managed. I jumped straight into life when I thought I could die at any moment. I did things I had dreamed of, but was too afraid to start. Yes, I still dance with death every day, but I am very proud of what I have accomplished this Spring and Summer. You haven't seen anything until you've seen a woman come back from what should have killed her. Go Me!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was tough being diagnosed with a rare, incurable immune disease. I still have to make so many severe lifestyle changes. The consequence of my illness is sudden, unexpected anaphylaxis. Every day, I must try to stay alive, never knowing when a life-threatening attack might happen. I live life minute by minute. Every day, I dance with death. I'm pleased with my new therapist. She's helping me work on my mental health, and how to cope with the future I am now facing. Fortunately, a few wonderful things have happened. I finally closed on the house, completely gutted and renovated it with new heating and cooling, got a service dog, published a book and started feeling like a normal person again. I now have a great medical team and my disability is pretty well-managed. I jumped straight into life when I thought I could die at any moment. I did things I had dreamed of, but was too afraid to start. Yes, I still dance with death every day, but I am very proud of what I have accomplished this Spring and Summer. You haven't seen anything until you've seen a woman come back from what should have killed her. Go Me!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be6390efe8c53-EWR"
+    }
+}

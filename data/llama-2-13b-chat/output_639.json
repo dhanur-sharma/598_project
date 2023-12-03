@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, This has been extremely exhausting last few months, emotionally. My mother, who has always suffered with anxiety and depression, was admitted into a psychiatric ward in May after a particularly difficult bout of depression. We found out she was not taking her medicine. She had entered into a psychotic state and it ended up taking 5 weeks before she could be released. She changed hospitals twice. I do not live where my mother does so I had to take time off work and spend a lot of time traveling. It was unbelievably exhausting. I did, however, develop a lot of friendships with her caretakers. In the end she made huge progress, thankfully. However we are all concerned the issue will return. She is home now and doing ok but she may never be the same. Now she is doing group therapy weekly. Additionally she is back on meds that should work. I am back to work now and do not visit as much. I used to feel guilty but at this point I am beyond tired."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, This has been extremely exhausting last few months, emotionally. My mother, who has always suffered with anxiety and depression, was admitted into a psychiatric ward in May after a particularly difficult bout of depression. We found out she was not taking her medicine. She had entered into a psychotic state and it ended up taking 5 weeks before she could be released. She changed hospitals twice. I do not live where my mother does so I had to take time off work and spend a lot of time traveling. It was unbelievably exhausting. I did, however, develop a lot of friendships with her caretakers. In the end she made huge progress, thankfully. However we are all concerned the issue will return. She is home now and doing ok but she may never be the same. Now she is doing group therapy weekly. Additionally she is back on meds that should work. I am back to work now and do not visit as much. I used to feel guilty but at this point I am beyond tired.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I do not know what the future holds. I will be sure to write about it if anything significant happens. Sincerely, [Your Name]"
+            }
+        ],
+        "request_id": "811e9596cd1a427c-EWR"
+    }
+}

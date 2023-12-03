@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am so thrilled! I got my first full suspension mountain bike today. Even since i moved here to the hillside, i always wanted to explore here. What better way to explore the hills than a mountain bike, right? I have been searching for one for a while now. Doing my own research on them. I have been feeling unsure about getting one though. What if it turns out to be disappointing? Had my doubts. However, i am so glad that i decided to get one anyways. It far surpasses my expectations for it. Its performance is top notch. It rides so smooth and easy through these hills. I am fully satisfied. I am riding my bike daily now for sure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am so thrilled! I got my first full suspension mountain bike today. Even since i moved here to the hillside, i always wanted to explore here. What better way to explore the hills than a mountain bike, right? I have been searching for one for a while now. Doing my own research on them. I have been feeling unsure about getting one though. What if it turns out to be disappointing? Had my doubts. However, i am so glad that i decided to get one anyways. It far surpasses my expectations for it. Its performance is top notch. It rides so smooth and easy through these hills. I am fully satisfied. I am riding my bike daily now for sure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2f7f586642c3-EWR"
+    }
+}

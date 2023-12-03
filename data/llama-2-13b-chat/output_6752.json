@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can still remember it like it was yesterday.  My significant other and I had gone out to the Ohm Festival.  This is basically a hippy festival.  We had wanted to go and watch the crystal bowl sound experience performance.  As the two of us tried to enter the door a man stopped us and said we were too late to go in.  It was literally 1 minute after the start time of the performance.  After a few more people showed up he let us in.  The room was huge and had about 200 people laying down on the ground.  The stage was set with crystal bowls and people dressed in some sort of wizardly outfits.  It was vaguely spooky to be there.  The sounds were amazing and so interesting, I've never heard anything like that before in person.  After what seemed like 2 minutes we got up and it was over.  The performance actually lasted 90 minutes!  The sounds were something I had never experienced before.  I would definitely go to see this performance again!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can still remember it like it was yesterday.  My significant other and I had gone out to the Ohm Festival.  This is basically a hippy festival.  We had wanted to go and watch the crystal bowl sound experience performance.  As the two of us tried to enter the door a man stopped us and said we were too late to go in.  It was literally 1 minute after the start time of the performance.  After a few more people showed up he let us in.  The room was huge and had about 200 people laying down on the ground.  The stage was set with crystal bowls and people dressed in some sort of wizardly outfits.  It was vaguely spooky to be there.  The sounds were amazing and so interesting, I've never heard anything like that before in person.  After what seemed like 2 minutes we got up and it was over.  The performance actually lasted 90 minutes!  The sounds were something I had never experienced before.  I would definitely go to see this performance again!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4c153980c454-EWR"
+    }
+}

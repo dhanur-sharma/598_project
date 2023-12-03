@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I am so excited to announce that 2 weeks ago I was given a raise! I have been working with and reporting to regular donors at the school and because of the donations that they have given the school felt like my work warranted a raise! This money is really going to make a difference as I have had trouble making enough to pay for this apartment. My first paycheck with the pay raise should be here tomorrow and I plan to go out to treat myself to a nice dinner to celebrate. I think maybe Ill go to that new taco place that opened across the street. Moving forward I know that great things are going to happen. Over that last year things have been really hard since Michael left. I feel like all I could do was to dig into work and forget about my home life. Perhaps I haven't dealt with things as well as I should have. Is work all that I think about? Damn him... Even now when something great happens I second guess my happiness. I should go to that therapist mom recommended, insurance will pay for it. Tomorrow Ill start painting again. Ive been to into loss and work to remember what makes me happy. I was going to be a portrait artist. Now my portfolio is covered in dust. The brushes I didn't bother cleaning because I was going to use them again tomorrow are now dried and useless. But thats yesterday. I can still start anew."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I am so excited to announce that 2 weeks ago I was given a raise! I have been working with and reporting to regular donors at the school and because of the donations that they have given the school felt like my work warranted a raise! This money is really going to make a difference as I have had trouble making enough to pay for this apartment. My first paycheck with the pay raise should be here tomorrow and I plan to go out to treat myself to a nice dinner to celebrate. I think maybe Ill go to that new taco place that opened across the street. Moving forward I know that great things are going to happen. Over that last year things have been really hard since Michael left. I feel like all I could do was to dig into work and forget about my home life. Perhaps I haven't dealt with things as well as I should have. Is work all that I think about? Damn him... Even now when something great happens I second guess my happiness. I should go to that therapist mom recommended, insurance will pay for it. Tomorrow Ill start painting again. Ive been to into loss and work to remember what makes me happy. I was going to be a portrait artist. Now my portfolio is covered in dust. The brushes I didn't bother cleaning because I was going to use them again tomorrow are now dried and useless. But thats yesterday. I can still start anew.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Ill paint something beautiful tomorrow. \n\n"
+            }
+        ],
+        "request_id": "811f40dae88841d3-EWR"
+    }
+}

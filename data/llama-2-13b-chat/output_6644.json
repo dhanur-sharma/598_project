@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had been engaged to my fiance for about a year. We had known each other since childhood, and have dated since we were 18. We had a wonderful wedding and have been married for 2 years now. Since we have been together for so long, the thought of him cheating on me has literally never crossed my mind. That is, until last month. I was using his phone because mine was dead. I wanted to watch some Netflix. A text popped up from a number I didn't recognize. I read it and it was from a woman who was confessing her love to my husband. There was nothing to imply he had been having an affair, though. It was just her confessing to him. I confronted him about it. He said its a coworker who has liked him for the past year or so. He  said it was nothing to worry about and that she is just kind of obsessed with him. I asked if they have ever hung out together, and he said no. He assured me he has no interest in her at all and to not get worked up. I believed him, but I am honestly a little paranoid. I have been spying on him since then. I hope nothing comes of this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had been engaged to my fiance for about a year. We had known each other since childhood, and have dated since we were 18. We had a wonderful wedding and have been married for 2 years now. Since we have been together for so long, the thought of him cheating on me has literally never crossed my mind. That is, until last month. I was using his phone because mine was dead. I wanted to watch some Netflix. A text popped up from a number I didn't recognize. I read it and it was from a woman who was confessing her love to my husband. There was nothing to imply he had been having an affair, though. It was just her confessing to him. I confronted him about it. He said its a coworker who has liked him for the past year or so. He  said it was nothing to worry about and that she is just kind of obsessed with him. I asked if they have ever hung out together, and he said no. He assured me he has no interest in her at all and to not get worked up. I believed him, but I am honestly a little paranoid. I have been spying on him since then. I hope nothing comes of this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49d4d86c0cf1-EWR"
+    }
+}

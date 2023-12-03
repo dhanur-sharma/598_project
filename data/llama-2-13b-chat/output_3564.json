@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I worked so hard for this promotion.  But I didn't expect that I would be working even harder after. It also requires I move to another state. This was five months ago and wow! It's been quite a ride!  I have never lived this far away from my family so it's been scary and hard not having them here to support me.  I miss my mom so badly  and I miss my friends.  At my age I didn't realize how much I still needed my m'om!  I'm making new friends here but I still spend more time alone than I want.    I think I might get a cat from the shelter to keep me company, i spend so much time at the office that I don't have a ton of time alone. It's mainly on weekends when I would be out with friends or having dinner with my parents. I love my new job even though it's so fast paced. I feel like I'm making an impact already. I got a nice raise with the promotion and am able to save money at a pace I never thought I could. I should be able to move from my apartment into a house within the next two years.  I'm glad I took the promotion even though it required that I move.  And I am flirting with my cute neighbor and think he's going to ask me out.."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I worked so hard for this promotion.  But I didn't expect that I would be working even harder after. It also requires I move to another state. This was five months ago and wow! It's been quite a ride!  I have never lived this far away from my family so it's been scary and hard not having them here to support me.  I miss my mom so badly  and I miss my friends.  At my age I didn't realize how much I still needed my m'om!  I'm making new friends here but I still spend more time alone than I want.    I think I might get a cat from the shelter to keep me company, i spend so much time at the office that I don't have a ton of time alone. It's mainly on weekends when I would be out with friends or having dinner with my parents. I love my new job even though it's so fast paced. I feel like I'm making an impact already. I got a nice raise with the promotion and am able to save money at a pace I never thought I could. I should be able to move from my apartment into a house within the next two years.  I'm glad I took the promotion even though it required that I move.  And I am flirting with my cute neighbor and think he's going to ask me out..",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But I'm still scared of rejection.  It's been five months since I moved and I am still adjusting.\n\n"
+            }
+        ],
+        "request_id": "811ecc19ee33c3f3-EWR"
+    }
+}

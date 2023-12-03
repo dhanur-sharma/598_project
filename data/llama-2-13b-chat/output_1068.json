@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This event,  if I can remember correctly was one of my best friend's wedding.  I was a part of the wedding party. It was a lot of catching up with people I hadn't seen in awhile. It was more emotional than I expected.  I have been friends with him since high school and I have become very close to his wife in the last ten years.  It was at a very beautiful location with a waterfall in the background.  We spent the previous night at their house having a barbecue and drinking. That morning we went to eat at a great burger place and we basically drank the entire day. It was a lot of dancing once the reception came about. I danced the night away with a lot of the bridal party. I think the groom just wanted to have a party. I don't think he particularly wanted a wedding, but he really likes to party. The embarrassing moment was very embarrassing for me. It was during the time when people made toasts. I went to toast and I ended up breaking the glass in front of the entire audience. It was a royal embarrassment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This event,  if I can remember correctly was one of my best friend's wedding.  I was a part of the wedding party. It was a lot of catching up with people I hadn't seen in awhile. It was more emotional than I expected.  I have been friends with him since high school and I have become very close to his wife in the last ten years.  It was at a very beautiful location with a waterfall in the background.  We spent the previous night at their house having a barbecue and drinking. That morning we went to eat at a great burger place and we basically drank the entire day. It was a lot of dancing once the reception came about. I danced the night away with a lot of the bridal party. I think the groom just wanted to have a party. I don't think he particularly wanted a wedding, but he really likes to party. The embarrassing moment was very embarrassing for me. It was during the time when people made toasts. I went to toast and I ended up breaking the glass in front of the entire audience. It was a royal embarrassment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was mortified. I didn't know what to do. I had to run away and hide. I didn't even get to finish my toast.  "
+            }
+        ],
+        "request_id": "811e9d47be8b335a-EWR"
+    }
+}

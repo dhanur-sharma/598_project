@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I dropped off my oldest child at a university that is 7 hours away from my house.  The whole family came along for the drop-off.  We had a great time driving to the university.  We talked about so many issues, such as how to take a show in a shared bathroom to how to get the most out of going to college.  Once we got to the campus, we participated in all the activity on campus.  We met the roommate.  We explored the whole campus and met so many interesting people.  The best part of the day was when my child told us how grateful she is to us for being so supportive of her with her life choices.  It was such a bitter-sweet moment.  I would never forget this day.  I know that I will miss my child a lot.  I got a great satisfaction knowing my child made the right choice for college.  I think my husband and I did a good job raising her.  I will always be grateful to have a wonderful child like her.  I would not even take anything for granted."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I dropped off my oldest child at a university that is 7 hours away from my house.  The whole family came along for the drop-off.  We had a great time driving to the university.  We talked about so many issues, such as how to take a show in a shared bathroom to how to get the most out of going to college.  Once we got to the campus, we participated in all the activity on campus.  We met the roommate.  We explored the whole campus and met so many interesting people.  The best part of the day was when my child told us how grateful she is to us for being so supportive of her with her life choices.  It was such a bitter-sweet moment.  I would never forget this day.  I know that I will miss my child a lot.  I got a great satisfaction knowing my child made the right choice for college.  I think my husband and I did a good job raising her.  I will always be grateful to have a wonderful child like her.  I would not even take anything for granted.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8e56ab2b0f71-EWR"
+    }
+}

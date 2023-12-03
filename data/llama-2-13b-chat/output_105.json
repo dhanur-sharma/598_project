@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So two weeks ago was the 4th of July. I ended up at my grandparent's lake house. It was always nice and peaceful to watch the fireworks outside of the city. We always had a great time at the lake house. Getting to see old friends and family. It was really like a family get together. We did this every year. It had gotten really important because grandma and grandpa were getting old. We all wanted to get ourselves and our kids together for them. We have always been a close family. We spend most holidays together and always enjoy each others company. The 4th of July is everyone's favorite. It's during the summer. The kids can play and swim together. The adults get to catch up and drink. We always have a really nice barbecue. This is definitely one of my favorite holidays."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So two weeks ago was the 4th of July. I ended up at my grandparent's lake house. It was always nice and peaceful to watch the fireworks outside of the city. We always had a great time at the lake house. Getting to see old friends and family. It was really like a family get together. We did this every year. It had gotten really important because grandma and grandpa were getting old. We all wanted to get ourselves and our kids together for them. We have always been a close family. We spend most holidays together and always enjoy each others company. The 4th of July is everyone's favorite. It's during the summer. The kids can play and swim together. The adults get to catch up and drink. We always have a really nice barbecue. This is definitely one of my favorite holidays.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was really looking forward to it. I had been working a lot lately and I really needed a break. I was excited to see my family and relax.\n\n"
+            }
+        ],
+        "request_id": "811e8b9629360f78-EWR"
+    }
+}

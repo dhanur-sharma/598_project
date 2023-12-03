@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up one morning to find out that my Aunt in Florida had died. We didn't expect her to die anytime soon. She wasn't in the best health but she certainly hadn't had any issues that would make us think she would die. I looked at my phone when I woke up and saw texts saying she had died. I immediately ran downstairs to my mother. She was sitting on the couch crying. I will never forget the hug I gave her, she was so upset. I have never seen my mother so broken. My aunt was really her last living family member, she was kind of alone in the world now except for me and my siblings. We found out later in the day that my aunt had just gotten up to use the bathroom in the middle of the night and she literally dropped dead. My Uncle found her on the bathroom floor an hour or two later. What a terrible way to die, alone in the bathroom. I hope that she felt nothing.  I hope she just blinked and then she was gone, at least she wouldn't have known it was coming. My family started making plans to fly to Florida for the services. I was devastated to realize that I couldn't go. I didn't have enough money and I have a one year old child. I stayed home while everyone else left for the week, I was so upset about it. I still feel terrible for not being there. I should have been there for my Aunt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up one morning to find out that my Aunt in Florida had died. We didn't expect her to die anytime soon. She wasn't in the best health but she certainly hadn't had any issues that would make us think she would die. I looked at my phone when I woke up and saw texts saying she had died. I immediately ran downstairs to my mother. She was sitting on the couch crying. I will never forget the hug I gave her, she was so upset. I have never seen my mother so broken. My aunt was really her last living family member, she was kind of alone in the world now except for me and my siblings. We found out later in the day that my aunt had just gotten up to use the bathroom in the middle of the night and she literally dropped dead. My Uncle found her on the bathroom floor an hour or two later. What a terrible way to die, alone in the bathroom. I hope that she felt nothing.  I hope she just blinked and then she was gone, at least she wouldn't have known it was coming. My family started making plans to fly to Florida for the services. I was devastated to realize that I couldn't go. I didn't have enough money and I have a one year old child. I stayed home while everyone else left for the week, I was so upset about it. I still feel terrible for not being there. I should have been there for my Aunt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I should have been there for my mother. I feel like I let them down."
+            }
+        ],
+        "request_id": "811eb8397d1f42ee-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother was watching my son for me, like she always does during the week.  When I went to pick him up, she casually mentioned that his arm seemed to hurt.  So I watched him all night, and noticed that he wouldn't use his arm at all.  His arm just dangled there like a wet noodle.  I had a friend and her daughter for a sleepover.  And while the kids were playing on the slide, my son bumped his arm, and started crying and would not stop.  That's when I knew that something must be really wrong with him.  While I felt guilty, it was night time so I knew the only option would be either to keep him at home or take him to the ER.  I thought going to the ER would be more traumatic than helpful so I just put some ice on his arm, and put him into bed with me.  After I got him settled down, he was able to go to sleep.  In the morning he was back to his normal self, except he still wouldn't do anything with his arm. So I took him into urgent care because I knew that they could do x-rays if need be.  The doctor asked me questions about how it happened, and I felt bad because I didn't know how it happened.  I told her we thought that he fell off the coffee table, but we weren't entirely sure, since no one saw what happened.  In the end, it turned out that he had broken his left arm.  I felt guilty, but he was in really good spirits about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother was watching my son for me, like she always does during the week.  When I went to pick him up, she casually mentioned that his arm seemed to hurt.  So I watched him all night, and noticed that he wouldn't use his arm at all.  His arm just dangled there like a wet noodle.  I had a friend and her daughter for a sleepover.  And while the kids were playing on the slide, my son bumped his arm, and started crying and would not stop.  That's when I knew that something must be really wrong with him.  While I felt guilty, it was night time so I knew the only option would be either to keep him at home or take him to the ER.  I thought going to the ER would be more traumatic than helpful so I just put some ice on his arm, and put him into bed with me.  After I got him settled down, he was able to go to sleep.  In the morning he was back to his normal self, except he still wouldn't do anything with his arm. So I took him into urgent care because I knew that they could do x-rays if need be.  The doctor asked me questions about how it happened, and I felt bad because I didn't know how it happened.  I told her we thought that he fell off the coffee table, but we weren't entirely sure, since no one saw what happened.  In the end, it turned out that he had broken his left arm.  I felt guilty, but he was in really good spirits about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49555a15c342-EWR"
+    }
+}

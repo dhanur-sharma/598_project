@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a rare event that the whole family got together. We usually just kept to ourselves in our different corners of the country. Most of my family, though, lived in Spokane. I was down in Texas, and my parents lived in California. We all were going to meet up in California in order to celebrate my dad's 80th birthday bash as we liked to call it. It was a wonderful event. Although I love my dad to death, nobody expected him to live to 80. Heck, I'm surprised that I'm still alive and kicking. I always knew that my dad was special. It turns out that when you take care of yourself you just live longer. It was getting harder and harder for him though. I can tell that his time might be soon. He has been struggling a lot, and might even have a degenerative bone disease. You just never know when someone's time is, so spending time is important. I'll always love my dad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a rare event that the whole family got together. We usually just kept to ourselves in our different corners of the country. Most of my family, though, lived in Spokane. I was down in Texas, and my parents lived in California. We all were going to meet up in California in order to celebrate my dad's 80th birthday bash as we liked to call it. It was a wonderful event. Although I love my dad to death, nobody expected him to live to 80. Heck, I'm surprised that I'm still alive and kicking. I always knew that my dad was special. It turns out that when you take care of yourself you just live longer. It was getting harder and harder for him though. I can tell that his time might be soon. He has been struggling a lot, and might even have a degenerative bone disease. You just never know when someone's time is, so spending time is important. I'll always love my dad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2dd27f67c35b-EWR"
+    }
+}

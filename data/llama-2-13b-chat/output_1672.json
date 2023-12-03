@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago my son David and I were taking a walk through the woods. We were discussing a myriad of topics when we started talking about the ten commandments.  The commandment that says we should have no other God before Him  caused me to think more in depth of how to explain it to him. I was telling him that in all we do, God should come first. \"Does that mean on Sunday mornings we have to go to church instead of going fishing?\" he asked. \"Or does it mean we have to ask God if it is okay to go fishing?\" I looked down at him and thought about my answer. It was important to give the correct answer both for him as well as myself. It made me wonder if I had been placing other things before God. I told him that as long as we talked to God about everything and really listened for His answer, we would be putting Him first in our lives. He shook his head and agreed with me. We stopped right there and talked to God about it. We were silent together and focused on God. I just love these walks we take in the woods. I always learn something about my son and about me. I think we should do this more often."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago my son David and I were taking a walk through the woods. We were discussing a myriad of topics when we started talking about the ten commandments.  The commandment that says we should have no other God before Him  caused me to think more in depth of how to explain it to him. I was telling him that in all we do, God should come first. \"Does that mean on Sunday mornings we have to go to church instead of going fishing?\" he asked. \"Or does it mean we have to ask God if it is okay to go fishing?\" I looked down at him and thought about my answer. It was important to give the correct answer both for him as well as myself. It made me wonder if I had been placing other things before God. I told him that as long as we talked to God about everything and really listened for His answer, we would be putting Him first in our lives. He shook his head and agreed with me. We stopped right there and talked to God about it. We were silent together and focused on God. I just love these walks we take in the woods. I always learn something about my son and about me. I think we should do this more often.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think we should also listen to God more often. I know I need to."
+            }
+        ],
+        "request_id": "811ea8c74d79438b-EWR"
+    }
+}

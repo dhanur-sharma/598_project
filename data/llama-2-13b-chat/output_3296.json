@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't tell if I want to cry or scream more, I don't think I've ever cried from being angry before, but I am on the verge now. I'm sick. I just got back from being in the ER and I'm in my bed, I've locked the door and I just want to be alone. I have a blood disorder that makes me feel weak all the time. The idea of being sick, and feeling this way for the rest of my life makes me feel...well like I don't want to have to do that. I mean some days I can't get out of bed, my whole body hurts, and if I get a cut or scrape, I just bleed and bleed and it needs constant attention. That's why I was at the ER just now, I cut my finger cutting vegetables. A normal person would just get a band aid and move on, they would get to eat their salad and enjoy their night, but I had to go to the ER. I have to go to the ER so much for the dumbest stuff. It's just all so pointless, I'm so scared and angry. The doctors are only treating my symptoms and have no cure, my disease is just too rare, so I just have to shut up and deal with it. This visit, the doctor didn't even know anything about this disease, he was asking me about it, like I am the expert. Which I guess I am if I've lived with it for this long. 2 months ago I went to the ER because I collapsed at my school dance. I was so mortified. I can't do anything someone my age gets to do, I mean everyone was nice about it, but it ruined my night. It's like I want to do one fun thing, one little extra thing, and life shuts me down. I'm just so frustrated right now, I want to sleep, but I don't know if I can right now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't tell if I want to cry or scream more, I don't think I've ever cried from being angry before, but I am on the verge now. I'm sick. I just got back from being in the ER and I'm in my bed, I've locked the door and I just want to be alone. I have a blood disorder that makes me feel weak all the time. The idea of being sick, and feeling this way for the rest of my life makes me feel...well like I don't want to have to do that. I mean some days I can't get out of bed, my whole body hurts, and if I get a cut or scrape, I just bleed and bleed and it needs constant attention. That's why I was at the ER just now, I cut my finger cutting vegetables. A normal person would just get a band aid and move on, they would get to eat their salad and enjoy their night, but I had to go to the ER. I have to go to the ER so much for the dumbest stuff. It's just all so pointless, I'm so scared and angry. The doctors are only treating my symptoms and have no cure, my disease is just too rare, so I just have to shut up and deal with it. This visit, the doctor didn't even know anything about this disease, he was asking me about it, like I am the expert. Which I guess I am if I've lived with it for this long. 2 months ago I went to the ER because I collapsed at my school dance. I was so mortified. I can't do anything someone my age gets to do, I mean everyone was nice about it, but it ruined my night. It's like I want to do one fun thing, one little extra thing, and life shuts me down. I'm just so frustrated right now, I want to sleep, but I don't know if I can right now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think I'm going to be up all night."
+            }
+        ],
+        "request_id": "811ec833ee1c0f5f-EWR"
+    }
+}

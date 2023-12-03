@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was on a trip to Florence, Italy and enjoying my time. I was woken up in the middle of the night by a message from a friend back home. I knew right away it would be terrible news. He told me that a close friend of mine going back to childhood had died from an overdose. I was immediately struck by a sick feeling and incredible sadness. I was in a beautiful city, maybe the most beautiful in the world, and everything felt like reminders of mortality and friendship lost. I spent the rest of the day with watery eyes wandering around. I tried to clear my mind but despite all the interesting and beautiful things I could not forget the sadness. It was a beautiful summer day and everything was bathed in a golden light. The beauty made the deep sadness even more poignant. As the day got late, I climbed up one of the hills in the city to the monastery of San Miniato al Monte. It is a monastery that has existed for 1000 years. I sat inside the church, designed and painted by some of the most skilled artisans that have ever lived, and thought about everything that had happened. I thought about my life, my lost friend, my living friends and family, and so much more. I was again in tears. After some time had passed, I went outside and watched the sun set over the domes of the city. Once again I just sat and thought. It was all I could do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was on a trip to Florence, Italy and enjoying my time. I was woken up in the middle of the night by a message from a friend back home. I knew right away it would be terrible news. He told me that a close friend of mine going back to childhood had died from an overdose. I was immediately struck by a sick feeling and incredible sadness. I was in a beautiful city, maybe the most beautiful in the world, and everything felt like reminders of mortality and friendship lost. I spent the rest of the day with watery eyes wandering around. I tried to clear my mind but despite all the interesting and beautiful things I could not forget the sadness. It was a beautiful summer day and everything was bathed in a golden light. The beauty made the deep sadness even more poignant. As the day got late, I climbed up one of the hills in the city to the monastery of San Miniato al Monte. It is a monastery that has existed for 1000 years. I sat inside the church, designed and painted by some of the most skilled artisans that have ever lived, and thought about everything that had happened. I thought about my life, my lost friend, my living friends and family, and so much more. I was again in tears. After some time had passed, I went outside and watched the sun set over the domes of the city. Once again I just sat and thought. It was all I could do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea4078a3f42e1-EWR"
+    }
+}

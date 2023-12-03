@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was up late one evening and I started to feel poorly. I can't explain what exactly was wrong, I now believe that I was having a panic attack. When I arrived at the hospital I told them that I was having chest pain and they did tests. They admitted me and did a lot of tests. They came back and told me my blood sugar was dangerously high, enough that I should be in a coma. I was diagnosed with diabetes. They kept me in the hospital the rest of the day and then released me with a lot of information and medications. I was emotionally very stressed out by the diagnosis. My mother has had diabetes most of my life and I have watched her health deteriorate. I visited my personal doctor a couple of days later and he had some recommendations. I completely changed what I ate, cutting out all foods that might have a negative impact on my blood sugar. I started running, six days a week for minimum half an hour, which I later increased to an hour. Over the next six months I lost about fifty pounds and was able to stabilize my blood sugar and stop taking insulin injections. I am healthier, physically, now, than I probably ever have been as an adult. Yet I started having severe panic attacks everyday that left me unable to do anything until they passed. Even when I wasn't having one the fear of having one was nearly as paralyzing. I pulled out of most of my social activities and quit my job. My health scare got me to take better care of myself but it also caused my mental and emotional state to deteriorate."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was up late one evening and I started to feel poorly. I can't explain what exactly was wrong, I now believe that I was having a panic attack. When I arrived at the hospital I told them that I was having chest pain and they did tests. They admitted me and did a lot of tests. They came back and told me my blood sugar was dangerously high, enough that I should be in a coma. I was diagnosed with diabetes. They kept me in the hospital the rest of the day and then released me with a lot of information and medications. I was emotionally very stressed out by the diagnosis. My mother has had diabetes most of my life and I have watched her health deteriorate. I visited my personal doctor a couple of days later and he had some recommendations. I completely changed what I ate, cutting out all foods that might have a negative impact on my blood sugar. I started running, six days a week for minimum half an hour, which I later increased to an hour. Over the next six months I lost about fifty pounds and was able to stabilize my blood sugar and stop taking insulin injections. I am healthier, physically, now, than I probably ever have been as an adult. Yet I started having severe panic attacks everyday that left me unable to do anything until they passed. Even when I wasn't having one the fear of having one was nearly as paralyzing. I pulled out of most of my social activities and quit my job. My health scare got me to take better care of myself but it also caused my mental and emotional state to deteriorate.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still trying to recover from the panic attacks.\n\n"
+            }
+        ],
+        "request_id": "811f346e5b7919f7-EWR"
+    }
+}

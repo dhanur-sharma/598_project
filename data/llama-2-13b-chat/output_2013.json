@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A friend of mine asked me to volunteer at a race she was involved. She asked me to help hand out water, direct people and pretty much just be a a Jill of all trades during the race. I agreed, mainly because she is a good friend and I wanted to keep her, and helped out during the running of the marathon race. I watched the runners when they passed by during the race and thought that I could do that if I trained. I decided, for no real reason other than it was a challenge, to train for and complete a marathon. After my decision I looked up online what the best ways of training for a long distance race were and started to implement them. I trained for a little less than a year. I ran in rain, heat, snow and, worst of all, ice. I hate the winter and detest being cold but I went out and did the work anyway. I had always been athletic, playing sports in college and staying in shape at the gym over the years, but training by myself for a marathon was an entirely different level of fitness. There were days that I literally had to talk myself into training. I would hype myself up, out loud, to make myself go run in the cold. I am sure my husband thought I was crazy as he would come into a room and I would be talking, loudly, to myself to force myself into going out and running 15 miles. There were moments that were sublime, moments that were horrendous but overall, when I ran the race I thought all the training was worth it. I was proud that I had set a goal and completed it all while making my 4 year old daughter a part of the process. I made sure my daughter knew my goal and was there to watch me cross the finish line so she would know that she could set a goal herself, work hard and accomplish that goal. The race itself was more a part of the process as opposed to being the goal."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A friend of mine asked me to volunteer at a race she was involved. She asked me to help hand out water, direct people and pretty much just be a a Jill of all trades during the race. I agreed, mainly because she is a good friend and I wanted to keep her, and helped out during the running of the marathon race. I watched the runners when they passed by during the race and thought that I could do that if I trained. I decided, for no real reason other than it was a challenge, to train for and complete a marathon. After my decision I looked up online what the best ways of training for a long distance race were and started to implement them. I trained for a little less than a year. I ran in rain, heat, snow and, worst of all, ice. I hate the winter and detest being cold but I went out and did the work anyway. I had always been athletic, playing sports in college and staying in shape at the gym over the years, but training by myself for a marathon was an entirely different level of fitness. There were days that I literally had to talk myself into training. I would hype myself up, out loud, to make myself go run in the cold. I am sure my husband thought I was crazy as he would come into a room and I would be talking, loudly, to myself to force myself into going out and running 15 miles. There were moments that were sublime, moments that were horrendous but overall, when I ran the race I thought all the training was worth it. I was proud that I had set a goal and completed it all while making my 4 year old daughter a part of the process. I made sure my daughter knew my goal and was there to watch me cross the finish line so she would know that she could set a goal herself, work hard and accomplish that goal. The race itself was more a part of the process as opposed to being the goal.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The race was hard, there were moments I wanted to quit, but I did not because I had come so far and had already invested so much time and effort. I pushed through and made it to the end. I felt a sense of pride and accomplishment when I finished the race.\n\n"
+            }
+        ],
+        "request_id": "811eaebd2b8bc448-EWR"
+    }
+}

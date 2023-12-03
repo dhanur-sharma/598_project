@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a family member who had been battling lung cancer. She was telling everyone that she was doing OK and that her scans showed the tumor shrinking. She had been going to the cancer doctor in the city. She even left her treatment one day to come and sit with my boyfriend while I was in having a surgery done. The had a good time. They went and got lunch together. I was glad they had the quality time. I was glad that they found a good place to eat. The got to spend some quality time together. On Friday night get a phone call that she had been rushed to the hospital and was in the ICU. The phone call was a surprise. We didn't expect it to happen. The doctor said she had a week left to live. She never left the hospital she dies a week later. I still am shocked how she went from what seemed like fine to gone in a week."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a family member who had been battling lung cancer. She was telling everyone that she was doing OK and that her scans showed the tumor shrinking. She had been going to the cancer doctor in the city. She even left her treatment one day to come and sit with my boyfriend while I was in having a surgery done. The had a good time. They went and got lunch together. I was glad they had the quality time. I was glad that they found a good place to eat. The got to spend some quality time together. On Friday night get a phone call that she had been rushed to the hospital and was in the ICU. The phone call was a surprise. We didn't expect it to happen. The doctor said she had a week left to live. She never left the hospital she dies a week later. I still am shocked how she went from what seemed like fine to gone in a week.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3772cdf618cc-EWR"
+    }
+}

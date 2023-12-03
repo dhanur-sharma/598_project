@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two of my friends survived bouts with cancer. A group of my friends decided to all take a cruise together. We wanted to celebrate life. The two who survived cancer were part of the cruise. We wanted them to decide where to travel to on the cruise. They selected a caribbean cruise. We booked the cruise for 7 days and had 5 different destinations. We partied everyday, and went on daily excursions. One friend who was single at the time  met a great guy while on the cruise.  She currently still dates the guy, and they are quite serious. We attended an art auction while n the cruise. I purchased two pieces of art . The art work is currently in my living room. While visiting local areas we climbed a waterfall, and got out hair braided. As we sat on the deck of the boat, we observed a pod of dolphins. We took a lot of pictures and videos of the trip. We have a lot of keepsakes to remember our vacation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two of my friends survived bouts with cancer. A group of my friends decided to all take a cruise together. We wanted to celebrate life. The two who survived cancer were part of the cruise. We wanted them to decide where to travel to on the cruise. They selected a caribbean cruise. We booked the cruise for 7 days and had 5 different destinations. We partied everyday, and went on daily excursions. One friend who was single at the time  met a great guy while on the cruise.  She currently still dates the guy, and they are quite serious. We attended an art auction while n the cruise. I purchased two pieces of art . The art work is currently in my living room. While visiting local areas we climbed a waterfall, and got out hair braided. As we sat on the deck of the boat, we observed a pod of dolphins. We took a lot of pictures and videos of the trip. We have a lot of keepsakes to remember our vacation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3bbfa85a8c75-EWR"
+    }
+}

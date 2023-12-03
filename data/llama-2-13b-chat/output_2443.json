@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Not too long ago, 3 months ago, I had a predicament! It all started when I realized that I needed to get my pickup registration taken care of, but was really lazy about going about it. This was all because I needed this to go through so it would pass a required fuel emissions test that was mandatory at my job. If I didn't do this, it could lead to much larger problems, which is something I didn't need. After some time, I realized I had only one day left to get it done! The problem was, I was very busy the next couple days with my family engagements. I was in some serious trouble and really needed to figure out a solution quickly! The few things I had to do at home included cooking for my family and also doing some morning chores. Both would take a significant amount of time alone. Then, like a ray of light, a miracle happened. I was in the middle of being with family when one of my brothers offered to take care of the tasks that I was assigned (i.e. cooking for the family). This meant I could go and pick up the registration myself! So I went to get it and after all was said and done, confirmed that the truck would be able to go for another couple of years. What a time that was!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Not too long ago, 3 months ago, I had a predicament! It all started when I realized that I needed to get my pickup registration taken care of, but was really lazy about going about it. This was all because I needed this to go through so it would pass a required fuel emissions test that was mandatory at my job. If I didn't do this, it could lead to much larger problems, which is something I didn't need. After some time, I realized I had only one day left to get it done! The problem was, I was very busy the next couple days with my family engagements. I was in some serious trouble and really needed to figure out a solution quickly! The few things I had to do at home included cooking for my family and also doing some morning chores. Both would take a significant amount of time alone. Then, like a ray of light, a miracle happened. I was in the middle of being with family when one of my brothers offered to take care of the tasks that I was assigned (i.e. cooking for the family). This meant I could go and pick up the registration myself! So I went to get it and after all was said and done, confirmed that the truck would be able to go for another couple of years. What a time that was!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now, I am in the clear and ready to move on."
+            }
+        ],
+        "request_id": "811eb6bf3d9942bc-EWR"
+    }
+}

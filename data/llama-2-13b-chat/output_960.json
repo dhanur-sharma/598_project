@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I had a conversation with my aunt. It was only a few months ago, May, I think? We talked about life. She mentioned needing a high GPA, and I guess I blushed a little--my GPA is terrible. I got to an ivy league school, and my GPA is abysmal. It sucks. Yeah, I will improve it, but it's an embarrassing fact that I hide. I want to go to grad school, I really, really do--but I just had personal problems. Multiple hospitalizations, all that jazz. It was embarrassing to admit, I don't know how they thing I could've maintained decent grades under all that pressure and baggage, but they do. I wont admit that I messed up, but I truly am embarrassed over the state of almost everything going on in my life. I just want to go to grad school to live my dreams, I guess? But I don't know if I will, and it makes me depressed. I'm an idiot. I just wish I could do it all over again, but I cant. I just have to live with it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I had a conversation with my aunt. It was only a few months ago, May, I think? We talked about life. She mentioned needing a high GPA, and I guess I blushed a little--my GPA is terrible. I got to an ivy league school, and my GPA is abysmal. It sucks. Yeah, I will improve it, but it's an embarrassing fact that I hide. I want to go to grad school, I really, really do--but I just had personal problems. Multiple hospitalizations, all that jazz. It was embarrassing to admit, I don't know how they thing I could've maintained decent grades under all that pressure and baggage, but they do. I wont admit that I messed up, but I truly am embarrassed over the state of almost everything going on in my life. I just want to go to grad school to live my dreams, I guess? But I don't know if I will, and it makes me depressed. I'm an idiot. I just wish I could do it all over again, but I cant. I just have to live with it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9b4f8a3ac3fa-EWR"
+    }
+}

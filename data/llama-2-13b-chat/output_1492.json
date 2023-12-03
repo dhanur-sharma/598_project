@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I hadn't seen my buddy Brian in almost a year and out of no where he got a hold of me on Facebook and asked to go to dinner with him and his fiance. I hadn't met her yet so I thought it was a good idea to go. We ended up going to the Texas Roadhouse. We had a great time. I had a nice steak and got a little tipsy. I really like his fiance. They both are really lucky. Afterwards we went back to his house. Apparently it was his dog's birthday. That's kind of strange if you ask me. So we started up a fire on his back yard. He has a fire pit. We had some more drinks and talked about our jobs. He's doing really well in his. His dog went off into the house and played with some new squeaky toys it got for it's birthday. It was great to see hi,. It was also great to meet his fiance. I have to make sure we see each other more often. He was my best friend for years."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I hadn't seen my buddy Brian in almost a year and out of no where he got a hold of me on Facebook and asked to go to dinner with him and his fiance. I hadn't met her yet so I thought it was a good idea to go. We ended up going to the Texas Roadhouse. We had a great time. I had a nice steak and got a little tipsy. I really like his fiance. They both are really lucky. Afterwards we went back to his house. Apparently it was his dog's birthday. That's kind of strange if you ask me. So we started up a fire on his back yard. He has a fire pit. We had some more drinks and talked about our jobs. He's doing really well in his. His dog went off into the house and played with some new squeaky toys it got for it's birthday. It was great to see hi,. It was also great to meet his fiance. I have to make sure we see each other more often. He was my best friend for years.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm really happy he's found someone. I think she's a great match for him. I had a really great night."
+            }
+        ],
+        "request_id": "811ea5c1da2ec3f3-EWR"
+    }
+}

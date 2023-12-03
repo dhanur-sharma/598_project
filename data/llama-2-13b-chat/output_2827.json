@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Right after school started in September, I had  to eat crow and go next door to ask Missy to borrow her ladder.  All summer long I had been planning, along with some neighbors, the first annual house decorating contest for the block.  The deadline was in a few days.  This years theme was fire and ice.  The competition was running hot and cold among the normally tight group. Everything was ready to go.  I was at the top of the ladder trying to fasten hardware and I couldn't reach the roof!  So now I have to wait for Missy to come home from work. When she does I will ask if her husband is available to carry their heavy ladder over.  They could easily sabotage my entry.  I hope they are \"available\".  I hope they do not delay.  I can't get the decorations up in time before the deadline if they play games.  Thank goodness our neighborhood is not mean spirited.  As soon as Missy got home she sent her husband straight over with the ladder. He ended up doing a good portion of the work!  Love my street!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Right after school started in September, I had  to eat crow and go next door to ask Missy to borrow her ladder.  All summer long I had been planning, along with some neighbors, the first annual house decorating contest for the block.  The deadline was in a few days.  This years theme was fire and ice.  The competition was running hot and cold among the normally tight group. Everything was ready to go.  I was at the top of the ladder trying to fasten hardware and I couldn't reach the roof!  So now I have to wait for Missy to come home from work. When she does I will ask if her husband is available to carry their heavy ladder over.  They could easily sabotage my entry.  I hope they are \"available\".  I hope they do not delay.  I can't get the decorations up in time before the deadline if they play games.  Thank goodness our neighborhood is not mean spirited.  As soon as Missy got home she sent her husband straight over with the ladder. He ended up doing a good portion of the work!  Love my street!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebf217d20c420-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother as dementia. She fights with us. She gets very angry. It is very hard to help her bathe, washer her hair and brush her teeth. It has gotten so every night I go to help my dad get her ready for bed. My daughter was home for a month and she offered to go with me. I know seeing the decline of her grandmother is not easy. We keep the routine the same. She gets her blood tested, her insulin shot, takes her pills and then I help. I hand her the toothbrush and she begins to curse at the fact she has to brush her teeth. I get a dirty look during all this. After she rinses and spits in the basin, I leave the room. My mother asks her grand daughter \"Does she make you brush your teeth too?\" And there is the smile on my face that has been missing all day. With a job I don't like and other big stresses in my life, I am always looking for a bright spot. This is one that really worked."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother as dementia. She fights with us. She gets very angry. It is very hard to help her bathe, washer her hair and brush her teeth. It has gotten so every night I go to help my dad get her ready for bed. My daughter was home for a month and she offered to go with me. I know seeing the decline of her grandmother is not easy. We keep the routine the same. She gets her blood tested, her insulin shot, takes her pills and then I help. I hand her the toothbrush and she begins to curse at the fact she has to brush her teeth. I get a dirty look during all this. After she rinses and spits in the basin, I leave the room. My mother asks her grand daughter \"Does she make you brush your teeth too?\" And there is the smile on my face that has been missing all day. With a job I don't like and other big stresses in my life, I am always looking for a bright spot. This is one that really worked.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My daughter just smiled and said \"Yes grandma I do.\" Then she hugged her. It was a sweet moment. It reminded me to look for the small moments of joy even in the midst of chaos.\n\n"
+            }
+        ],
+        "request_id": "811ec3604f17c47c-EWR"
+    }
+}

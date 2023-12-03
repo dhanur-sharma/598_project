@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Every five years my family and I attend a large religious gathering.  The gathering was 2 weeks ago and it was so special and memorable for everyone in attendance.  The event is held in a very rural mountainous area.  It lasts Friday through Monday morning.  We stay in cabins that are nestled up to a winding river.  Its a very peaceful and serene environment.  Each day we spent time in fellowship with other attendees and my children made some new friends in the process.  This is one of my favorite parts about this gathering, the ability to make new, lifelong friends.  We cooked food over the fire and sang songs each night.  Several people put on little skits for us to enjoy.  Under the stars we shared a really bonding experience.  On Sunday, we had the finale night.  The final program we sat with a new family we hadn't met before.  We found a spot to sit that had an amazing view of the mountains and the river.  It was just at sunset when the festivities began.  A group performed the final theme song, and we all got out our flashlights to light up the area, just like we were at a concert.  It was so beautiful it almost took my breath away.  It was amazing to feel that close with people we didn't really even know.  I wish this event occurred more often because waiting five years is a long time, but I think they wait makes it even more special."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Every five years my family and I attend a large religious gathering.  The gathering was 2 weeks ago and it was so special and memorable for everyone in attendance.  The event is held in a very rural mountainous area.  It lasts Friday through Monday morning.  We stay in cabins that are nestled up to a winding river.  Its a very peaceful and serene environment.  Each day we spent time in fellowship with other attendees and my children made some new friends in the process.  This is one of my favorite parts about this gathering, the ability to make new, lifelong friends.  We cooked food over the fire and sang songs each night.  Several people put on little skits for us to enjoy.  Under the stars we shared a really bonding experience.  On Sunday, we had the finale night.  The final program we sat with a new family we hadn't met before.  We found a spot to sit that had an amazing view of the mountains and the river.  It was just at sunset when the festivities began.  A group performed the final theme song, and we all got out our flashlights to light up the area, just like we were at a concert.  It was so beautiful it almost took my breath away.  It was amazing to feel that close with people we didn't really even know.  I wish this event occurred more often because waiting five years is a long time, but I think they wait makes it even more special.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was truly a magical experience that I will never forget.\n\n"
+            }
+        ],
+        "request_id": "811bd2c22ca9421c-EWR"
+    }
+}

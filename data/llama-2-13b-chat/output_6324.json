@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still can't believe I'm with this girl. I didn't have the highest self confidence. I don't think I was that good looking. I didn't think I was exceptionally charming. I don't think I had the best circumstances. But she looked past that. She looked past all of the possible flaws one might see and appreciated me for me. We got engaged recently. Six months ago, on our three year anniversary, I proposed to her after a hike. It was incredibly beautiful. This was in the late winter and early spring when the temps weren't the hottest and the days weren't exceptionally long. But it was all that I could ask for. I am truly thankful it happened how it did. Afterwards, we went out for dinner. We also had the pleasure of telling family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still can't believe I'm with this girl. I didn't have the highest self confidence. I don't think I was that good looking. I didn't think I was exceptionally charming. I don't think I had the best circumstances. But she looked past that. She looked past all of the possible flaws one might see and appreciated me for me. We got engaged recently. Six months ago, on our three year anniversary, I proposed to her after a hike. It was incredibly beautiful. This was in the late winter and early spring when the temps weren't the hottest and the days weren't exceptionally long. But it was all that I could ask for. I am truly thankful it happened how it did. Afterwards, we went out for dinner. We also had the pleasure of telling family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We also got to celebrate our engagement. I remember that night so well. I couldn't believe she said yes. I didn't think it was possible. But she did. I'm so grateful for that. I'm grateful for her love. I'm grateful for the way she makes me feel. I'm grateful for the way she makes me want to be a better person. I'm grateful for the way she makes me laugh. I'm grateful for the way she looks at me. I'm grateful for the way she loves me. I'm grateful for everything."
+            }
+        ],
+        "request_id": "811f43385e7323a6-EWR"
+    }
+}

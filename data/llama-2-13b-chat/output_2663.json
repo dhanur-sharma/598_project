@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: During my last ski trip of this past season, I fell hard and broke my collar bone. This is the first time I've ever had a broken bone in my life. Aso the first time I've ever fallen so hard while skiing. I've been skiing for over 40 years, and I was on a relatively mild slope. In fact, I was near the bottom of a relatively mild slope when I noticed a large rut in the snow that I couldn't avoid. I fell forward, and landed on my left shoulder and left side of my head. Fortunately, I was wearing a helmet, and did not suffer a concussion. I was able to make it back to my car, get out of my ski equipment, and drive myself to the emergency room. Sure enough, X-rays showed a broken left clavicle. With such a break, it is not possible to put it in a cast, so I had it in a soft sling for 3 weeks. After that, I just had to let it heal naturally, which took almost 4 months. I am a pretty active person, so it was rough getting use to not being able to do all the physical sports I enjoy.  I play pickleball 3 times a week, and I had to stop while I was healing. I also had a tough time sleeping for the first month, as it hurt every time I rolled over. Even though this was my first broken bone skiing, I plan to get back on the slopes next season to enjoy the mountains in the winter, like I always have."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: During my last ski trip of this past season, I fell hard and broke my collar bone. This is the first time I've ever had a broken bone in my life. Aso the first time I've ever fallen so hard while skiing. I've been skiing for over 40 years, and I was on a relatively mild slope. In fact, I was near the bottom of a relatively mild slope when I noticed a large rut in the snow that I couldn't avoid. I fell forward, and landed on my left shoulder and left side of my head. Fortunately, I was wearing a helmet, and did not suffer a concussion. I was able to make it back to my car, get out of my ski equipment, and drive myself to the emergency room. Sure enough, X-rays showed a broken left clavicle. With such a break, it is not possible to put it in a cast, so I had it in a soft sling for 3 weeks. After that, I just had to let it heal naturally, which took almost 4 months. I am a pretty active person, so it was rough getting use to not being able to do all the physical sports I enjoy.  I play pickleball 3 times a week, and I had to stop while I was healing. I also had a tough time sleeping for the first month, as it hurt every time I rolled over. Even though this was my first broken bone skiing, I plan to get back on the slopes next season to enjoy the mountains in the winter, like I always have.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebafe0a6c41e9-EWR"
+    }
+}

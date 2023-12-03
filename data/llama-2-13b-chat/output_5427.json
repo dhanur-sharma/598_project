@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, we had to put our dog down. This was a very sad day for me and the family. We talked about all the good time we had with the good boy. We always went to the park to play fetch. I threw the ball into some trees. He would always get the ball as fast as he could. I rewarded him with a pat on the head and a treat later. The treat were some crackers with peanut butter in them. He always enjoyed eating the crackers. He always loved to go swimming. He would even get out of the pool to go to the bathroom. He was better trained than most humans. He was a good boy. I hope he is chasing tennis balls in dog heaven. I hope to see him again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, we had to put our dog down. This was a very sad day for me and the family. We talked about all the good time we had with the good boy. We always went to the park to play fetch. I threw the ball into some trees. He would always get the ball as fast as he could. I rewarded him with a pat on the head and a treat later. The treat were some crackers with peanut butter in them. He always enjoyed eating the crackers. He always loved to go swimming. He would even get out of the pool to go to the bathroom. He was better trained than most humans. He was a good boy. I hope he is chasing tennis balls in dog heaven. I hope to see him again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f313f0d2241ed-EWR"
+    }
+}

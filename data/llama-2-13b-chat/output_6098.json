@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend was traveling to Los Angeles from Washington, D.C and needed a ride to the airport.  We readily agreed because we thought we might see some of the sights of our nation's capital while there.  The drive itself was uneventful.  As was dropping our friend off for his flight to Los Angeles.  The fun happened when we went to see the Lincoln Memorial.  Washington, D.C. is so confusing and has so much traffic.  We knew we needed to park near to the memorial, but the roads and directions were a little bit confusing.  Finally, we happened upon a parking garage near the memorial.  As it turns out, we got turned around and found ourselves in the wrong parking garage.  We were no where near the Lincoln Memorial!  We were across the town at a different memorial.  Because the traffic was so bad and confusing we decided to visit that area instead.  It was neat.  But, it was not what we had hoped to see."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend was traveling to Los Angeles from Washington, D.C and needed a ride to the airport.  We readily agreed because we thought we might see some of the sights of our nation's capital while there.  The drive itself was uneventful.  As was dropping our friend off for his flight to Los Angeles.  The fun happened when we went to see the Lincoln Memorial.  Washington, D.C. is so confusing and has so much traffic.  We knew we needed to park near to the memorial, but the roads and directions were a little bit confusing.  Finally, we happened upon a parking garage near the memorial.  As it turns out, we got turned around and found ourselves in the wrong parking garage.  We were no where near the Lincoln Memorial!  We were across the town at a different memorial.  Because the traffic was so bad and confusing we decided to visit that area instead.  It was neat.  But, it was not what we had hoped to see.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We were disappointed that we did not see the Lincoln Memorial.  But, we were glad to have seen something new.  We were exhausted from all the driving and sightseeing and decided to head back to our own homes.\n\n"
+            }
+        ],
+        "request_id": "811f3ecfbc548c6f-EWR"
+    }
+}

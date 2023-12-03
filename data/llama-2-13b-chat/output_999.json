@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well I went to meet the owners of the grey hound today. You know, the one that's retiring that I mentioned before? I've always been interested in having a greyhound. I wanted one since I was little but mom and dad would never let me get one. I'm excited honestly, Its been pretty lonely since the divorce. I want nothing more than to feel like someone needs me... even wants me. Hopefully the two of us ol' retirees will find some solace in one another. Right now she's sleeping by the couch. I'm glad to see that shes comfortable enough to stretch out around me. I'm going to go to the store tomorrow and get her some more goodies. I wonder what my ex-husband would say if he saw this? He never wanted a dog either... well forget him. This girl makes me happy... something he never did (well, atleast towards the end). I'm thinking about renaming her. Currently her name is Martha... what a name. I'm thinking something a little more calm. Maybe June?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well I went to meet the owners of the grey hound today. You know, the one that's retiring that I mentioned before? I've always been interested in having a greyhound. I wanted one since I was little but mom and dad would never let me get one. I'm excited honestly, Its been pretty lonely since the divorce. I want nothing more than to feel like someone needs me... even wants me. Hopefully the two of us ol' retirees will find some solace in one another. Right now she's sleeping by the couch. I'm glad to see that shes comfortable enough to stretch out around me. I'm going to go to the store tomorrow and get her some more goodies. I wonder what my ex-husband would say if he saw this? He never wanted a dog either... well forget him. This girl makes me happy... something he never did (well, atleast towards the end). I'm thinking about renaming her. Currently her name is Martha... what a name. I'm thinking something a little more calm. Maybe June?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Or Luna? I'm open to suggestions though. I'm just so happy to have her."
+            }
+        ],
+        "request_id": "811e9bf52b0b42e7-EWR"
+    }
+}

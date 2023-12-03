@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,3 months ago I gave birth to a beautiful baby boy. The process went as planned. My husband and director both were there to assist me. I'm so glad to have my new baby boy. The stress of being a new mother is overwhelming at times though. Luckily I do have my husband to help. What an amazing helper he is too. I don't think I could be a new mother without him by my side supporting and helping through it all. Honestly, I imagined this would be a lot easier than it is. I don't think anyone is ever fully prepared though. I have a whole new look on life because of this wonderful little boy. I cannot wait to see what life has in store for us both. There's going to be many ups and downs. I look forward to every moment with him. Thinking of him growing up already has me emotional. Life has definitely gotten a lot more interesting with him around and it's only been 3 months."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,3 months ago I gave birth to a beautiful baby boy. The process went as planned. My husband and director both were there to assist me. I'm so glad to have my new baby boy. The stress of being a new mother is overwhelming at times though. Luckily I do have my husband to help. What an amazing helper he is too. I don't think I could be a new mother without him by my side supporting and helping through it all. Honestly, I imagined this would be a lot easier than it is. I don't think anyone is ever fully prepared though. I have a whole new look on life because of this wonderful little boy. I cannot wait to see what life has in store for us both. There's going to be many ups and downs. I look forward to every moment with him. Thinking of him growing up already has me emotional. Life has definitely gotten a lot more interesting with him around and it's only been 3 months.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so ready to take on this new journey with him."
+            }
+        ],
+        "request_id": "811f2f0de8ae426d-EWR"
+    }
+}

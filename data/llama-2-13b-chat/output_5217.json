@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father was very young, too young to die, and his recent death was premature, in an accident nobody could have predicted. In my mind I had built a bubble of invincibility around those I loved. \"It can happen to others, but will never happen to MY family\", I had foolishly told myself.  I wish we had talked more, listened to him talking more, and valued more of  the time we had together. Time has passed, but I still feel the pain of my father's death just a vividly as when it happened. I thought that the passing of time would lessen the pain, but it is still as sharp, if less frequent. I remember the times and memories we shared. During the time we spent, it was just enjoying each other's company. I never realized that I was making memories. There are so many things that were memorable about my father. When we were misbehaving as children, instead of other punishments, he would have us build on my mother's brick flowerbed walls. We would mix the mortar, lay the brick, set and clean. The permanence of the walls was a metaphor for the character we built, I came to realize later. I walked past a flower garden recently and was suddenly reminded of all the time we had worked on the flowerbeds. I had not thought about them for many years, but suddenly remembered them in detail. I felt his presence, the impact he had on me. I never would have thought the unorthodox discipline I had would have lasted for so long."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father was very young, too young to die, and his recent death was premature, in an accident nobody could have predicted. In my mind I had built a bubble of invincibility around those I loved. \"It can happen to others, but will never happen to MY family\", I had foolishly told myself.  I wish we had talked more, listened to him talking more, and valued more of  the time we had together. Time has passed, but I still feel the pain of my father's death just a vividly as when it happened. I thought that the passing of time would lessen the pain, but it is still as sharp, if less frequent. I remember the times and memories we shared. During the time we spent, it was just enjoying each other's company. I never realized that I was making memories. There are so many things that were memorable about my father. When we were misbehaving as children, instead of other punishments, he would have us build on my mother's brick flowerbed walls. We would mix the mortar, lay the brick, set and clean. The permanence of the walls was a metaphor for the character we built, I came to realize later. I walked past a flower garden recently and was suddenly reminded of all the time we had worked on the flowerbeds. I had not thought about them for many years, but suddenly remembered them in detail. I felt his presence, the impact he had on me. I never would have thought the unorthodox discipline I had would have lasted for so long.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a powerful reminder of the impact he had on me. I am so grateful for the time I had with him, and wish I could turn back the clock."
+            }
+        ],
+        "request_id": "811be684cd048c6f-EWR"
+    }
+}

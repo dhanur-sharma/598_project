@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband had been having issues but he did not seem to notice it at all. He seemed to just stop and take a deep breath. He did this so often that it almost appeared normal to him. When he was asked about it he just shrugged it off saying he was just a bit winded. He went to the doctor for a yearly physical and did not mention this issue.  however I was in the room with him and I told the doctor that the neighbors as well as myself thought it was not normal to breath like he was. So, the doctor suggested that he have a stress test. This started the whole process..After this test we had another. This time an angiogram. The angiogram indicated there were several blockages in his arteries. His heart was not getting the oxygen it needed to be functioning properly. This took us to a heart surgeon. The surgeon admitted him immediately for open heart surgery. The stress test led to another to another test and actually ended up in surgery. Had I not said anything to the doctor my husband could have had a heart attack and been much worse off."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband had been having issues but he did not seem to notice it at all. He seemed to just stop and take a deep breath. He did this so often that it almost appeared normal to him. When he was asked about it he just shrugged it off saying he was just a bit winded. He went to the doctor for a yearly physical and did not mention this issue.  however I was in the room with him and I told the doctor that the neighbors as well as myself thought it was not normal to breath like he was. So, the doctor suggested that he have a stress test. This started the whole process..After this test we had another. This time an angiogram. The angiogram indicated there were several blockages in his arteries. His heart was not getting the oxygen it needed to be functioning properly. This took us to a heart surgeon. The surgeon admitted him immediately for open heart surgery. The stress test led to another to another test and actually ended up in surgery. Had I not said anything to the doctor my husband could have had a heart attack and been much worse off.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec2ddfc0b4349-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a meeting at work I was not feeling well. I was very quiet which is unusual for me, before I knew it I was silently crying and unable to move. I work in a doctor's office so the triage team was paged, they came up and assessed me. I remember trying to tell them I had had a mini stroke before. They called an ambulance. My oxygen was low and my head throbbed. The EMTs came and as they brought me down they started to yell at me that it was a pseudo seizure and I needed to stop faking. They kept yelling at me to speak and talk. I couldn't I felt so upset I was afraid I'd choke. Next thing they threatened me with a NG tube, I couldn't respond so they stuck it in my nose and down my throat. I couldn't grab it and yank it out. They finally realized that I was not faking it and calmed down. When we got to the hospital they felt the need to tell the nurses and doctors they thought I may be faking it. I work in a clinic and the doctors knew it was real, but EMTs thought I was faking it. I felt so relieved when they finally left my room and the hospital. I did try to file a complaint, but they did not receive reprimand."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a meeting at work I was not feeling well. I was very quiet which is unusual for me, before I knew it I was silently crying and unable to move. I work in a doctor's office so the triage team was paged, they came up and assessed me. I remember trying to tell them I had had a mini stroke before. They called an ambulance. My oxygen was low and my head throbbed. The EMTs came and as they brought me down they started to yell at me that it was a pseudo seizure and I needed to stop faking. They kept yelling at me to speak and talk. I couldn't I felt so upset I was afraid I'd choke. Next thing they threatened me with a NG tube, I couldn't respond so they stuck it in my nose and down my throat. I couldn't grab it and yank it out. They finally realized that I was not faking it and calmed down. When we got to the hospital they felt the need to tell the nurses and doctors they thought I may be faking it. I work in a clinic and the doctors knew it was real, but EMTs thought I was faking it. I felt so relieved when they finally left my room and the hospital. I did try to file a complaint, but they did not receive reprimand.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be5dc3e6643b3-EWR"
+    }
+}

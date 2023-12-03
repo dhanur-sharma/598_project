@@ -44,7 +44,7 @@ for story in stories:
                         # top_p = 0.7, # default value
                         top_p = config.TOP_P,
                         repetition_penalty = config.REPETITION_PENALTY,
-                        # stop = ['<human>', '\n\n']
+                        stop = ['\n\n']
                         )
     json_object = json.dumps(summary_output, indent=4)
     outfile = open(f'./outputs/output_{i}.json', 'w+')
@@ -53,6 +53,7 @@ for story in stories:
     outputs.append(summary_output)
     print(f'Story {i} summarized and saved.')
     i+=1
+    time.sleep(1)
 
 print('*'*100)
 # pprint(outputs)

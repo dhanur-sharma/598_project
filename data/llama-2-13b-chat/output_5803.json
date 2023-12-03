@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I finally feel strong to write about this. It was such a trauma, i was shivering at the thought of it all this time. 6 months back, on that dreadful morning, i was heading to work. Quite the normal day, it seemed. I was about to be proven so wrong. Right after we crossed the turning around the bank, we heard screams. And gun shots. I suppose the bus driver was taken aback by the hassle. Why would he stop then? I do not know. Three masked men stormed out of the bank, shooting in every which way. I immediately ducked down. I don't really know what happened. As the cops got there and helped us out, i saw the driver lying down. He was shot, and gone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I finally feel strong to write about this. It was such a trauma, i was shivering at the thought of it all this time. 6 months back, on that dreadful morning, i was heading to work. Quite the normal day, it seemed. I was about to be proven so wrong. Right after we crossed the turning around the bank, we heard screams. And gun shots. I suppose the bus driver was taken aback by the hassle. Why would he stop then? I do not know. Three masked men stormed out of the bank, shooting in every which way. I immediately ducked down. I don't really know what happened. As the cops got there and helped us out, i saw the driver lying down. He was shot, and gone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so petrified. I don't know how i made it out alive. But here i am. It has been 6 months since then, and i still can't shake it off.\n\n"
+            }
+        ],
+        "request_id": "811f389bba1118f2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have known Jake for over 30 years. He has always had a musical ear. Since childhood, he has been fascinated with music and musical instruments. He started wanted to play Spanish guitar because his family was from Spain. Flamenco guitars in Spain are trendy and is typical to find spontaneous musicians playing on the streets. He was so good that he started to play in a number of local clubs and started to earn significant money with it. His family was so proud of him because he was somehow promoting his heritage by playing the Spanish guitar. But all of a sudden one day about 20 years ago Jake went to a piano concert, and he just fell in love with the instrument. He started to study and practiced almost every day. His family was initially disappointed that he switched the instrument, but he also proved to be a very gifted pianist. Then, ten years ago, he was involved in a terrible car accident, which resulted in his left arm being amputated.  He was devastated for a month. Then, he decided he was not going to let that tragedy stop his dreams, and for years after that, he practiced piano with one hand only. He became so adept at it that he was invited to play in the London Philharmonic. That was the proudest day of his life and everyone around him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have known Jake for over 30 years. He has always had a musical ear. Since childhood, he has been fascinated with music and musical instruments. He started wanted to play Spanish guitar because his family was from Spain. Flamenco guitars in Spain are trendy and is typical to find spontaneous musicians playing on the streets. He was so good that he started to play in a number of local clubs and started to earn significant money with it. His family was so proud of him because he was somehow promoting his heritage by playing the Spanish guitar. But all of a sudden one day about 20 years ago Jake went to a piano concert, and he just fell in love with the instrument. He started to study and practiced almost every day. His family was initially disappointed that he switched the instrument, but he also proved to be a very gifted pianist. Then, ten years ago, he was involved in a terrible car accident, which resulted in his left arm being amputated.  He was devastated for a month. Then, he decided he was not going to let that tragedy stop his dreams, and for years after that, he practiced piano with one hand only. He became so adept at it that he was invited to play in the London Philharmonic. That was the proudest day of his life and everyone around him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea1541f3e423d-EWR"
+    }
+}

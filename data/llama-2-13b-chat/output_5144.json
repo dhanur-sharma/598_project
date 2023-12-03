@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago after a long ongoing search, I found something of value to me. This was the home of my dreams! I had done it, I had gone through all of the things I needed to do to get to this point in life, too. I made myself proud and others as well. It was a long and gruelly process but sometimes the things that take the longest to transpire are worth the wait. One of the most interesting things that happened during the search was the most memorable ever for me. This was when I met my long time friend from years ago again. His name is Pete. Somehow we lost contact. He and I went to High School together, when we met again he told me about a house that was up for sale after meeting him again in a grocery store. He only lived about two blocks away. Since then we have gotten together a few more times and plan to date again. Now I can truly say I am happy with what I have chosen, and this house will be mine to live in for the rest of my life. Not only that but I have rekindled a good friendship that might turn out to be something more.  This is what intriques me about life in general."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago after a long ongoing search, I found something of value to me. This was the home of my dreams! I had done it, I had gone through all of the things I needed to do to get to this point in life, too. I made myself proud and others as well. It was a long and gruelly process but sometimes the things that take the longest to transpire are worth the wait. One of the most interesting things that happened during the search was the most memorable ever for me. This was when I met my long time friend from years ago again. His name is Pete. Somehow we lost contact. He and I went to High School together, when we met again he told me about a house that was up for sale after meeting him again in a grocery store. He only lived about two blocks away. Since then we have gotten together a few more times and plan to date again. Now I can truly say I am happy with what I have chosen, and this house will be mine to live in for the rest of my life. Not only that but I have rekindled a good friendship that might turn out to be something more.  This is what intriques me about life in general.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The unexpected things that happen when you least expect it, and the people you meet along the way that make it worth living.\n\n"
+            }
+        ],
+        "request_id": "811be52759544289-EWR"
+    }
+}

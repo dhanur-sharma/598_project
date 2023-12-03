@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The memorable event is my vacation to London with my boyfriend a couple of months ago. I had always wanted to visit England and finally got the chance. I was so excited. This was the trip of a lifetime. The flight over was very comfortable and I couldn't wait to arrive. London was amazing. It's such a big, lively city. It's also very unique. I visited all the tourist destinations. We had an amazing time! One of my favorite experiences while there was visiting Buckingham Palace. I also loved visiting Madame Tussaud's and riding on the London Eye. The shopping there was great too. I bought clothes in lots of fun UK stores. I enjoyed the food, the people and especially the accents! I honestly had the time of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The memorable event is my vacation to London with my boyfriend a couple of months ago. I had always wanted to visit England and finally got the chance. I was so excited. This was the trip of a lifetime. The flight over was very comfortable and I couldn't wait to arrive. London was amazing. It's such a big, lively city. It's also very unique. I visited all the tourist destinations. We had an amazing time! One of my favorite experiences while there was visiting Buckingham Palace. I also loved visiting Madame Tussaud's and riding on the London Eye. The shopping there was great too. I bought clothes in lots of fun UK stores. I enjoyed the food, the people and especially the accents! I honestly had the time of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't wait to go back!"
+            }
+        ],
+        "request_id": "811eb2299c490ca6-EWR"
+    }
+}

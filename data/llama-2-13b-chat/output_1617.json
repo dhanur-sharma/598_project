@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We took a vacation to Galveston.  It was a for a few days just to get away for the weekend. When we got there we ate at the Rain forest Cafe.  I remember getting the chicken fried chicken.  It was bigger than I expected.  I was glad I got it, it tasted better than I thought it would. After we checked into our room, we took a walk on the beach.  We spent time relaxing in the sun.  We walked to Pleasure Pear and payed to go in.  One of the most memorable things was watching the dolphins play while we waited on the rides. They were playing with a ball that was in the water. It was like a group of kids playing with each other.  We laughed and seem to lose track of time watching them play. After a while I noticed there was a large group of people watching them instead of getting on the rides.  It was like they were the main attraction."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We took a vacation to Galveston.  It was a for a few days just to get away for the weekend. When we got there we ate at the Rain forest Cafe.  I remember getting the chicken fried chicken.  It was bigger than I expected.  I was glad I got it, it tasted better than I thought it would. After we checked into our room, we took a walk on the beach.  We spent time relaxing in the sun.  We walked to Pleasure Pear and payed to go in.  One of the most memorable things was watching the dolphins play while we waited on the rides. They were playing with a ball that was in the water. It was like a group of kids playing with each other.  We laughed and seem to lose track of time watching them play. After a while I noticed there was a large group of people watching them instead of getting on the rides.  It was like they were the main attraction.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I remember I had a great time, it was a wonderful experience.\n\n"
+            }
+        ],
+        "request_id": "811ea7d16f8643c1-EWR"
+    }
+}

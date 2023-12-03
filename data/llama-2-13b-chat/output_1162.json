@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This last week, my Uncle died. He was my father's only brother, and my only \"blood\" uncle. We were not as close as some, but I had a great deal and respect for him. He was also the last of his generation. Obviously, I experienced personal loss and grief, and sorrow and sympathy for his three daughters (my only first cousins on that side of the family) and their children and grand children, but it goes beyond that. It indirectly signifies that my brothers and I are getting older. My brothers are in their 50s and I am 43. My Uncle's death makes me aware of our own aging, as now we are the oldest generation in our part of the family. Sometimes I still feel like a young man, but I am impelled by my Uncle's death to realize that not only am I firmly ensconced in middle age, but will be a senior before I know it. The swift march of the passage of time boggles me -- like they say the days crawl but the years fly.  Additionally, it makes me aware of the larger \"circle of life\", if you'll pardon the phrase -- we're just another generation moving a slot in an unbroken chain. Others will come after. Eventually, I will be in my 70s, 80s, and then it will be my time to pass. So not only am I filled with sorrow and sympathy, but I am very aware of the passage of time.  My own aging and immortality are very apparent."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This last week, my Uncle died. He was my father's only brother, and my only \"blood\" uncle. We were not as close as some, but I had a great deal and respect for him. He was also the last of his generation. Obviously, I experienced personal loss and grief, and sorrow and sympathy for his three daughters (my only first cousins on that side of the family) and their children and grand children, but it goes beyond that. It indirectly signifies that my brothers and I are getting older. My brothers are in their 50s and I am 43. My Uncle's death makes me aware of our own aging, as now we are the oldest generation in our part of the family. Sometimes I still feel like a young man, but I am impelled by my Uncle's death to realize that not only am I firmly ensconced in middle age, but will be a senior before I know it. The swift march of the passage of time boggles me -- like they say the days crawl but the years fly.  Additionally, it makes me aware of the larger \"circle of life\", if you'll pardon the phrase -- we're just another generation moving a slot in an unbroken chain. Others will come after. Eventually, I will be in my 70s, 80s, and then it will be my time to pass. So not only am I filled with sorrow and sympathy, but I am very aware of the passage of time.  My own aging and immortality are very apparent.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can almost hear the ticking of my own biological clock.\n\n"
+            }
+        ],
+        "request_id": "811e9f006f65428e-EWR"
+    }
+}

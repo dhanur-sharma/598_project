@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was waiting tables at a very old and famous San Francisco restaurant.  The place doesn't take reservations; you leave your name up front with someone at the shiny silver old cash register and wait in the crowded bar.   You know your table is ready when they shout out your name.   It was a busy Monday night with the usual forty-minute wait.  A middle-aged couple noticed one of my tables being reset, so the husband walked up to manager Dan and asked, \u201cCan we sit there?\u201d   He looked at the long list of names to see who was up next and replied, \"You can if you're Tippen.\"  The guy said, \"Great!\" and handed him a folded dollar bill as Dan escorted them to their table. A couple of minutes later, Dan ran up to me and said, \"Don't talk to the couple on table 54!\"   I'd never been instructed to ignore a party in the four years I'd worked here\u2014not that there hadn't been a few difficult customers who found their way into the place.  Some had gotten over-lubricated at the bar after the long wait for a table, others demanded culinary preparations that were beyond the scope of the kitchen: \"No sir, we don't have baked salmon wrapped in a pastry shell with a lobster buerre blanc sauce, although that certainly sounds like a wonderful preparation.  While it is true, as you've so astutely pointed out, that we do have an oven, salmon, water, butter, flour, rolling pin, lobster, and shallots, I'm afraid the chef won't find that argument sufficiently compelling to persuade him to just drop everything while the other 100-plus seated customers and fifty more waiting just stand and suck it up for another hour.\"I looked over at the couple.  The man's blue jeans and weathered skin suggested agricultural or construction work.  His wife's turquoise sweatshirt with SAN FRANCISCO emblazoned in glitter across the front suggested a visit to Fisherman's Wharf and maybe some clam chowder in hollowed-out sourdough for lunch.  These were not your typical problem customers. Now Dan\u2019s back at the table and the discussion does not look cordial: \"\u2026and that's not the way we do things around here.\"  He handed the dollar bill back to the man and walked away.    The befuddled couple looked like they had just stepped into the Twilight Zone. Finally, I went up to Dan to find out what was going on.   He explained, \"I sat those two on your table and the guy handed me a buck. When I went back up front, this other guy comes up to me and says \u2018Hey, they just walked in the door and you seated those two ahead of us; we've been waiting here for over half an hour!'   So I asked him, 'What's your name?' and the guy shouts back at me: 'Tippen!'\" When the fog of confusion finally lifted, Dan realized the first man wasn\u2019t tripping because he never claimed to be Mr. Tippen\u2014even though he WAS tipping all along."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was waiting tables at a very old and famous San Francisco restaurant.  The place doesn't take reservations; you leave your name up front with someone at the shiny silver old cash register and wait in the crowded bar.   You know your table is ready when they shout out your name.   It was a busy Monday night with the usual forty-minute wait.  A middle-aged couple noticed one of my tables being reset, so the husband walked up to manager Dan and asked, \u201cCan we sit there?\u201d   He looked at the long list of names to see who was up next and replied, \"You can if you're Tippen.\"  The guy said, \"Great!\" and handed him a folded dollar bill as Dan escorted them to their table. A couple of minutes later, Dan ran up to me and said, \"Don't talk to the couple on table 54!\"   I'd never been instructed to ignore a party in the four years I'd worked here\u2014not that there hadn't been a few difficult customers who found their way into the place.  Some had gotten over-lubricated at the bar after the long wait for a table, others demanded culinary preparations that were beyond the scope of the kitchen: \"No sir, we don't have baked salmon wrapped in a pastry shell with a lobster buerre blanc sauce, although that certainly sounds like a wonderful preparation.  While it is true, as you've so astutely pointed out, that we do have an oven, salmon, water, butter, flour, rolling pin, lobster, and shallots, I'm afraid the chef won't find that argument sufficiently compelling to persuade him to just drop everything while the other 100-plus seated customers and fifty more waiting just stand and suck it up for another hour.\"I looked over at the couple.  The man's blue jeans and weathered skin suggested agricultural or construction work.  His wife's turquoise sweatshirt with SAN FRANCISCO emblazoned in glitter across the front suggested a visit to Fisherman's Wharf and maybe some clam chowder in hollowed-out sourdough for lunch.  These were not your typical problem customers. Now Dan\u2019s back at the table and the discussion does not look cordial: \"\u2026and that's not the way we do things around here.\"  He handed the dollar bill back to the man and walked away.    The befuddled couple looked like they had just stepped into the Twilight Zone. Finally, I went up to Dan to find out what was going on.   He explained, \"I sat those two on your table and the guy handed me a buck. When I went back up front, this other guy comes up to me and says \u2018Hey, they just walked in the door and you seated those two ahead of us; we've been waiting here for over half an hour!'   So I asked him, 'What's your name?' and the guy shouts back at me: 'Tippen!'\" When the fog of confusion finally lifted, Dan realized the first man wasn\u2019t tripping because he never claimed to be Mr. Tippen\u2014even though he WAS tipping all along.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was simply telling Dan his name was Tippen so that he could get the table. The first couple left without incident, but I never did find out what their story was."
+            }
+        ],
+        "request_id": "811ed06ddf508c96-EWR"
+    }
+}

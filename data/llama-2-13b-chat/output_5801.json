@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: it was a nice night and we flew to Spain for a good time. it sounded fun so we did it! Once we arrived, no one was there to pick us up... it sucked! We just stood there like stooges waiting for nothing. the time in Spain was fun and we did lots of things. we ate at restaurants, seen shows, talked to locals and just overall had a wonderful time! the hotel was super nice, too. it had all of the comforts that we needed. it was a very comfy stay! My wife got tired and we decided to go home. I was willing to stay longer, but she was complaining of being tired and that her feet hurt from all the walking. So we got on the next flight home. the flight home sucked! It was turbulent and just uncomfy the whole time! Plus, the wife wouldn't stop nagging about it. Once I got home I felt so tired due to jetlag that i slept for 12 hours!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: it was a nice night and we flew to Spain for a good time. it sounded fun so we did it! Once we arrived, no one was there to pick us up... it sucked! We just stood there like stooges waiting for nothing. the time in Spain was fun and we did lots of things. we ate at restaurants, seen shows, talked to locals and just overall had a wonderful time! the hotel was super nice, too. it had all of the comforts that we needed. it was a very comfy stay! My wife got tired and we decided to go home. I was willing to stay longer, but she was complaining of being tired and that her feet hurt from all the walking. So we got on the next flight home. the flight home sucked! It was turbulent and just uncomfy the whole time! Plus, the wife wouldn't stop nagging about it. Once I got home I felt so tired due to jetlag that i slept for 12 hours!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3896db5bc407-EWR"
+    }
+}

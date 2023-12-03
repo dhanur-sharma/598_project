@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently spent a semester studying abroad in Belgium. I had never been there before and I was very anxious about moving to a new place, where I didn't know anyone, by myself. I didn't want to leave my friends and family at home. The first night I got there I cried myself to sleep because I felt lonely and scared. I wasn't sure if I would be able to make any good friends there, and it would take a while to get used to living in a different country. But eventually, this feeling began to fade. One day in particular was a turning point. I went out for coffee with a Belgian student and was surprised that we instantly connected. She taught me Dutch words and I helped her with her English. I confided in her about missing home and she gave me support. We made plans to get together again that night. It soon became clear that we were very similar despite coming from different places. We both listened to the same music, watched the same shows, and had the same sense of humor. After that, I never felt so alone. I had made a close friend and the foreign country started to feeling more like home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently spent a semester studying abroad in Belgium. I had never been there before and I was very anxious about moving to a new place, where I didn't know anyone, by myself. I didn't want to leave my friends and family at home. The first night I got there I cried myself to sleep because I felt lonely and scared. I wasn't sure if I would be able to make any good friends there, and it would take a while to get used to living in a different country. But eventually, this feeling began to fade. One day in particular was a turning point. I went out for coffee with a Belgian student and was surprised that we instantly connected. She taught me Dutch words and I helped her with her English. I confided in her about missing home and she gave me support. We made plans to get together again that night. It soon became clear that we were very similar despite coming from different places. We both listened to the same music, watched the same shows, and had the same sense of humor. After that, I never felt so alone. I had made a close friend and the foreign country started to feeling more like home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I realized that even though I was far away from my family, I was still capable of making meaningful connections with others."
+            }
+        ],
+        "request_id": "811ec3d7edec8ccc-EWR"
+    }
+}

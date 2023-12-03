@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago a police officer randomly showed up at my door.  There was a complaint filed against me that there was a chemical smell coming from the house.  There wasn't and the cop agreed but wanted to look in anyway which was fine by me.  The house was dirty because my two children were on summer vacation and I hadn't picked up yet.  Anyway the cop agreed everything was good and left. The next day I got another knock on the door.  To my surprise when I answered it was a woman from child protective services.  I couldn't wrap my mind around what was going on because my daughters are my life and I would never ever put them in danger.  At first she stood outside asking me questions about things from my past including silly questions about a dumpster I had to clean the garage several years ago.  Then she asked if she could come into the house.  I had nothing to hide and agreed.  She took pictures of every inch of my house and of my two daughters.  It felt like I was being stripped of my privacy and at any second I could lose everything important in my life. She left without giving me very much information.  The wife and I obviously freaked and went into cleaning overdrive not knowing what to do next.  It threw our lives into chaos and we felt completely out of control.  She showed up twice more to check on us and our children's welfare before throwing out the case completely.  Once we finally got the notes on the case we found out it was the officer that made the call to CPS over a dirty living room."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago a police officer randomly showed up at my door.  There was a complaint filed against me that there was a chemical smell coming from the house.  There wasn't and the cop agreed but wanted to look in anyway which was fine by me.  The house was dirty because my two children were on summer vacation and I hadn't picked up yet.  Anyway the cop agreed everything was good and left. The next day I got another knock on the door.  To my surprise when I answered it was a woman from child protective services.  I couldn't wrap my mind around what was going on because my daughters are my life and I would never ever put them in danger.  At first she stood outside asking me questions about things from my past including silly questions about a dumpster I had to clean the garage several years ago.  Then she asked if she could come into the house.  I had nothing to hide and agreed.  She took pictures of every inch of my house and of my two daughters.  It felt like I was being stripped of my privacy and at any second I could lose everything important in my life. She left without giving me very much information.  The wife and I obviously freaked and went into cleaning overdrive not knowing what to do next.  It threw our lives into chaos and we felt completely out of control.  She showed up twice more to check on us and our children's welfare before throwing out the case completely.  Once we finally got the notes on the case we found out it was the officer that made the call to CPS over a dirty living room.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was beyond angry at the officer for his careless and unnecessary actions.\n\n"
+            }
+        ],
+        "request_id": "811bd4ec9d8c43bc-EWR"
+    }
+}

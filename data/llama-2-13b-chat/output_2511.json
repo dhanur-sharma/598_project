@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I thought that it would be a normal morning. But what I thought would be normal, turned into probably one of the worst days I have ever experienced. I woke up, and checked my phone, much as most people do. I had many missed calls and texts, which was odd. I looked at the messages, only to find that my beloved aunt had died. I was so upset. It was extremely tough to take in. When I went over to my mom, she had been crying all night. It was extremely difficult for her. Not only was I hurting, but now I also had to be tough in order to help my mom out. I was more than willing to complete the task though. I was ready to step up to the plate as the voice of reason. I love my mother so much. We had a funeral for my aunt with so much more crying. Now, we honor our aunt with a photo of her in our living room."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I thought that it would be a normal morning. But what I thought would be normal, turned into probably one of the worst days I have ever experienced. I woke up, and checked my phone, much as most people do. I had many missed calls and texts, which was odd. I looked at the messages, only to find that my beloved aunt had died. I was so upset. It was extremely tough to take in. When I went over to my mom, she had been crying all night. It was extremely difficult for her. Not only was I hurting, but now I also had to be tough in order to help my mom out. I was more than willing to complete the task though. I was ready to step up to the plate as the voice of reason. I love my mother so much. We had a funeral for my aunt with so much more crying. Now, we honor our aunt with a photo of her in our living room.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are all still grieving, but we are moving forward.\n\n"
+            }
+        ],
+        "request_id": "811eb8346f1dc329-EWR"
+    }
+}

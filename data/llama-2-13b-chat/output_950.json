@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, my husband and I went on a trip for our ten year anniversary. We had booked a trip to Punta Cana months before. We were really excited to go, however, some news had broken in the media recently that was kind of concerning to us. For the most part, we were able to relax and enjoy our trip, but it was always kind of at the back of our minds. We went on an excursion the last full day we were there. We decided to book a snorkeling excursion, and it was the first time I had ever gone snorkeling. I'm not going to lie, when I first got into the ocean, I started to freak out a little bit. There was a tiny bit of a learning curve when it came to learning how to use the mask and gear. But I was able to figure it out fairly quickly. It ended up being a fabulous excursion and I would love to try it again someday.  Overall we really enjoyed the trip and would totally go back someday. Maybe next time with our daughter. I think that the media has blown the news stories out of proportion a little bit to be honest. It as just a little concerning to be there while all the news was breaking. We never felt unsafe on the trip and never got sick at all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, my husband and I went on a trip for our ten year anniversary. We had booked a trip to Punta Cana months before. We were really excited to go, however, some news had broken in the media recently that was kind of concerning to us. For the most part, we were able to relax and enjoy our trip, but it was always kind of at the back of our minds. We went on an excursion the last full day we were there. We decided to book a snorkeling excursion, and it was the first time I had ever gone snorkeling. I'm not going to lie, when I first got into the ocean, I started to freak out a little bit. There was a tiny bit of a learning curve when it came to learning how to use the mask and gear. But I was able to figure it out fairly quickly. It ended up being a fabulous excursion and I would love to try it again someday.  Overall we really enjoyed the trip and would totally go back someday. Maybe next time with our daughter. I think that the media has blown the news stories out of proportion a little bit to be honest. It as just a little concerning to be there while all the news was breaking. We never felt unsafe on the trip and never got sick at all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9b1c6f10c32d-EWR"
+    }
+}

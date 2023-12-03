@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Clara is married! I'm so incredibly happy for her and her new HUSBAND Henry. It was a beautiful wedding. I felt responsible as a bridesmaid and as a sister for everything to go smoothly. I tried to make sure that Clara didn't have to deal with everything and could just enjoy her day. First, Mom was so fussy. She wanted things to go perfectly for the guests, but I just wanted the couple to be happy. The the wedding officiator not coming until the last minute was worrisome. But we were surrounded by people who love us, so really if we didn't have the officiator until late, it wouldn't mean that things were SO BAD. But by the way Mom was acting, you'd think the world was ending. Henry and Clara love each other, we are here to celebrate, and it was beautiful. I wish people didn't get so stressed about weddings. When I get married, I hope it's relaxed and everyone is happy and not stressed. The speech I labored over went over extremely well! People laughed and cried, and I felt closer than ever to my little sister. I loved the wedding. What a perfect, blissful memory I now have of this wonderful celebration."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Clara is married! I'm so incredibly happy for her and her new HUSBAND Henry. It was a beautiful wedding. I felt responsible as a bridesmaid and as a sister for everything to go smoothly. I tried to make sure that Clara didn't have to deal with everything and could just enjoy her day. First, Mom was so fussy. She wanted things to go perfectly for the guests, but I just wanted the couple to be happy. The the wedding officiator not coming until the last minute was worrisome. But we were surrounded by people who love us, so really if we didn't have the officiator until late, it wouldn't mean that things were SO BAD. But by the way Mom was acting, you'd think the world was ending. Henry and Clara love each other, we are here to celebrate, and it was beautiful. I wish people didn't get so stressed about weddings. When I get married, I hope it's relaxed and everyone is happy and not stressed. The speech I labored over went over extremely well! People laughed and cried, and I felt closer than ever to my little sister. I loved the wedding. What a perfect, blissful memory I now have of this wonderful celebration.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9c923eee19e3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I had a heart attack even though I am only 40 years old, never smoked, not overweight, or any other risk factors. At first I thought it was just heartburn and went to the doctor and she ran some tests and assured me it wasn't my heart. But after a few days the pain was still there and never went away and finally i went to the ER. They ran an EKG. They saw I was having a heart attack and did a stint. They found out I was 100% in my main incoming artery which normally kills people outright so its a bit of a miracle that I didn't die or suffer any heart damage. After a few days in the hospital they put me on lots of new medications and sent me home. I was in a lot of pain and had lots of bruising from the stent. Then I had to go to 3 months or rehab afterwards. Rehab was very difficult and scary. I was around a lot of sick people twice my age. i had to learn to trust my heart again and push my body to workout even though it scared me. I also had to change my diet to be low-fat. some days I feel blessed to have gone through what I did and survived with no damage. Some days I feel cursed to have this happen to me when I did everything right."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I had a heart attack even though I am only 40 years old, never smoked, not overweight, or any other risk factors. At first I thought it was just heartburn and went to the doctor and she ran some tests and assured me it wasn't my heart. But after a few days the pain was still there and never went away and finally i went to the ER. They ran an EKG. They saw I was having a heart attack and did a stint. They found out I was 100% in my main incoming artery which normally kills people outright so its a bit of a miracle that I didn't die or suffer any heart damage. After a few days in the hospital they put me on lots of new medications and sent me home. I was in a lot of pain and had lots of bruising from the stent. Then I had to go to 3 months or rehab afterwards. Rehab was very difficult and scary. I was around a lot of sick people twice my age. i had to learn to trust my heart again and push my body to workout even though it scared me. I also had to change my diet to be low-fat. some days I feel blessed to have gone through what I did and survived with no damage. Some days I feel cursed to have this happen to me when I did everything right.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But overall I am just trying to live life to the fullest and be grateful for every day I have.\n\n"
+            }
+        ],
+        "request_id": "811ece361fe5426b-EWR"
+    }
+}

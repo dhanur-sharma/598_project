@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We wanted to start something new and exciting. We wanted to see how far we could go in order to make our dreams come true. We both came from households that welcomed adventure so we thought it would be a good idea to go for the ride. We are both young and we like to have fun for the most part. The state we are going to make things happen is in California. So we just packed our things and said good bye and hello to California. I know this is a cut throat environment. It can be a little competitive at time but for the most part its something I am used to. We told family and they were shcked. They thought that we would come back never looking the same. Especially since they know what they do to people with low self esteem. I dont want to be labeled as such. So I am confident things will be ok. I am sure of it. Our parents raised us right."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We wanted to start something new and exciting. We wanted to see how far we could go in order to make our dreams come true. We both came from households that welcomed adventure so we thought it would be a good idea to go for the ride. We are both young and we like to have fun for the most part. The state we are going to make things happen is in California. So we just packed our things and said good bye and hello to California. I know this is a cut throat environment. It can be a little competitive at time but for the most part its something I am used to. We told family and they were shcked. They thought that we would come back never looking the same. Especially since they know what they do to people with low self esteem. I dont want to be labeled as such. So I am confident things will be ok. I am sure of it. Our parents raised us right.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are both very ambitious and driven. We will do whatever it takes to succeed.\n\n"
+            }
+        ],
+        "request_id": "811bd3d16c1a8c84-EWR"
+    }
+}

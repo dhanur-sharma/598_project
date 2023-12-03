@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been six months since my daughter, Amanda, was diagnosed with a rare illness. She was just getting over the flu and suddenly started getting rashes all over her body. It isn't the first time she's been sick. She has had a weakened immune system since she was born 5 years ago. It is dangerous for children to get illnesses like the flu, but she was doing so much better until the disorder started. We have had to leave her at the hospital in the pediatric ICU. Its so hard to see her deteriorate like this. We have so many hopes and dreams for what she will be able to accomplish in the future. My husband takes books to the hospital and reads to her during the day while I am at work and I tend to spend the night in the armchair next to her stretcher. It has been difficult on our marriage but we have to be strong for Amanda. Tim can be a bit harsh sometimes and he blames me for her illness. It is my family genetics that gave her such a weakened immune system anyways. Work has been helpful with granting me time off and the benefits I get are helping very much with the bills for her medical care. I was hoping to write more about this today, but I am afraid I have very little to say right now. I am very tired and I will be going to bed here at the hospital again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been six months since my daughter, Amanda, was diagnosed with a rare illness. She was just getting over the flu and suddenly started getting rashes all over her body. It isn't the first time she's been sick. She has had a weakened immune system since she was born 5 years ago. It is dangerous for children to get illnesses like the flu, but she was doing so much better until the disorder started. We have had to leave her at the hospital in the pediatric ICU. Its so hard to see her deteriorate like this. We have so many hopes and dreams for what she will be able to accomplish in the future. My husband takes books to the hospital and reads to her during the day while I am at work and I tend to spend the night in the armchair next to her stretcher. It has been difficult on our marriage but we have to be strong for Amanda. Tim can be a bit harsh sometimes and he blames me for her illness. It is my family genetics that gave her such a weakened immune system anyways. Work has been helpful with granting me time off and the benefits I get are helping very much with the bills for her medical care. I was hoping to write more about this today, but I am afraid I have very little to say right now. I am very tired and I will be going to bed here at the hospital again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope that I will be able to write more about this tomorrow.\n\n"
+            }
+        ],
+        "request_id": "811ea8cf6c4f32dc-EWR"
+    }
+}

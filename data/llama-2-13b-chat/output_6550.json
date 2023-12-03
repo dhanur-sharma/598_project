@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, my partner and I took our children on our first real vacation. Our children have been too young to go on a real vacation and we have not had the money to be able to go until now.  We decided this summer that our children were old enough to real enjoy it and we had saved up enough money. We travelled to the coast of our state and stayed in a nice hotel. We ate a several nice restaurants and saw several attractions. The biggest part of our trip was going to a large water park. We bought our tickets ahead of time and were worried the weather might ruin our plans but luck for us the weather was wonderful the day of our visit. We got to the water park as soon as they opened. It wasn't too crowded at that point. We went to all the big slides as soon as we got in to try to avoid long waits. Our first big slide was so much fun. The looks on my kids' faces when we go to the bottom was worth the whole trip. My daughter and I went on one slide together 7 times in a row. We had lunch at the park, a huge cheese pizza split between all of us. By lunch time it was getting crowded but we were still having a good time. We stayed for another 3 hours. By then we were all getting exhausted. We went back to the hotel and cleaned up. At that point it was time for dinner so we walked across the parking lot to a Buffalo Wild Wings. The kids played arcade games while we waited on our dinner. After dinner we walked next door to a rolled ice cream shop. We got the kids big bowls of rolled ice cream. They couldn't finish them but it was worth it. We went back to the hotel and put on a movie. We were all asleep before it was over."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, my partner and I took our children on our first real vacation. Our children have been too young to go on a real vacation and we have not had the money to be able to go until now.  We decided this summer that our children were old enough to real enjoy it and we had saved up enough money. We travelled to the coast of our state and stayed in a nice hotel. We ate a several nice restaurants and saw several attractions. The biggest part of our trip was going to a large water park. We bought our tickets ahead of time and were worried the weather might ruin our plans but luck for us the weather was wonderful the day of our visit. We got to the water park as soon as they opened. It wasn't too crowded at that point. We went to all the big slides as soon as we got in to try to avoid long waits. Our first big slide was so much fun. The looks on my kids' faces when we go to the bottom was worth the whole trip. My daughter and I went on one slide together 7 times in a row. We had lunch at the park, a huge cheese pizza split between all of us. By lunch time it was getting crowded but we were still having a good time. We stayed for another 3 hours. By then we were all getting exhausted. We went back to the hotel and cleaned up. At that point it was time for dinner so we walked across the parking lot to a Buffalo Wild Wings. The kids played arcade games while we waited on our dinner. After dinner we walked next door to a rolled ice cream shop. We got the kids big bowls of rolled ice cream. They couldn't finish them but it was worth it. We went back to the hotel and put on a movie. We were all asleep before it was over.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was such a great vacation and we were so happy to have spent it with our children."
+            }
+        ],
+        "request_id": "811f47bbed5fc33c-EWR"
+    }
+}

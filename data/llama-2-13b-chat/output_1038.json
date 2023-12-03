@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At my job in the hospital, where I was the charge nurse, we received a new nurse manager. The man was rude, vicious, and had it in for the current staff, especially the older nurses such as myself, of whom he was overheard saying, \"The older nurses are the hardest to BREAK.\" He made many extreme rules that were almost impossible to follow in a rushed, frenzied environment where patients as well as nurses have to be ready to act at a moment's notice. Our patients lives as well as our own could be in danger if we are unable to act quickly. But this fool had us locking doors and drawers behind us each and every time even when manic patients were acting in dangerous or aggressive ways, or when their health was in grave danger. How can one stop and lock three doors behind them when one of the nurses is being strangled by an aggressive patient? He also forbade us from taking breaks- any breaks- even to eat. Well one night I absolutely needed to take a break. I left the other nurse in charge. While I was out, one of the patients escaped. She left of her own free will and was not harmed. She even called the hospital the next day asking for her cellphone back, and she made a statement that she left of her own free will. She said she stole a set of keys to escape. She described the OTHER nurse, who still had her keys. I also still had my keys, and it is shown on the video that we both had our keys. I believe the other nurse was negligent because the patient escaped on her watch, even though I also broke the rules. We both got fired. But they said we were not fired because the patient escaped but because our stories didn't match up. I still believe it is retaliation for me going to the union on the nurse manager for his cruel treatment of us before this incident."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At my job in the hospital, where I was the charge nurse, we received a new nurse manager. The man was rude, vicious, and had it in for the current staff, especially the older nurses such as myself, of whom he was overheard saying, \"The older nurses are the hardest to BREAK.\" He made many extreme rules that were almost impossible to follow in a rushed, frenzied environment where patients as well as nurses have to be ready to act at a moment's notice. Our patients lives as well as our own could be in danger if we are unable to act quickly. But this fool had us locking doors and drawers behind us each and every time even when manic patients were acting in dangerous or aggressive ways, or when their health was in grave danger. How can one stop and lock three doors behind them when one of the nurses is being strangled by an aggressive patient? He also forbade us from taking breaks- any breaks- even to eat. Well one night I absolutely needed to take a break. I left the other nurse in charge. While I was out, one of the patients escaped. She left of her own free will and was not harmed. She even called the hospital the next day asking for her cellphone back, and she made a statement that she left of her own free will. She said she stole a set of keys to escape. She described the OTHER nurse, who still had her keys. I also still had my keys, and it is shown on the video that we both had our keys. I believe the other nurse was negligent because the patient escaped on her watch, even though I also broke the rules. We both got fired. But they said we were not fired because the patient escaped but because our stories didn't match up. I still believe it is retaliation for me going to the union on the nurse manager for his cruel treatment of us before this incident.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The other nurse had been written up for the same thing.\n\n"
+            }
+        ],
+        "request_id": "811e9cb39c8c41ba-EWR"
+    }
+}

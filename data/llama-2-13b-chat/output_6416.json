@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Work can be stressful for most people, but for me, I feel like my job takes it to another level. For one, my boss is always on my back. I never feel like I can just be myself or do my job, because she'll always hassle me about one thing or another. This has completely altered my mental health. I feel like I'm anxious all the time. I go to work, and am just nitpicked to death. I started to hate my otherwise good job. I still enjoyed other aspects of my job, like the actual work itself and the fact that I was helping people. It still felt good. I decided one day that I wasn't going to let my boss control my work situation. I decided to go to my local mental health clinic. There, I was diagnosed with general anxiety disorder, and given some anti-anxiety medication. I have never felt better. Now, my boss doesn't stress me out so much. I couldn't be happier in the slightest."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Work can be stressful for most people, but for me, I feel like my job takes it to another level. For one, my boss is always on my back. I never feel like I can just be myself or do my job, because she'll always hassle me about one thing or another. This has completely altered my mental health. I feel like I'm anxious all the time. I go to work, and am just nitpicked to death. I started to hate my otherwise good job. I still enjoyed other aspects of my job, like the actual work itself and the fact that I was helping people. It still felt good. I decided one day that I wasn't going to let my boss control my work situation. I decided to go to my local mental health clinic. There, I was diagnosed with general anxiety disorder, and given some anti-anxiety medication. I have never felt better. Now, my boss doesn't stress me out so much. I couldn't be happier in the slightest.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f44e49da88ce0-EWR"
+    }
+}

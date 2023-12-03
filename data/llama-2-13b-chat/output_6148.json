@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four weeks ago I was full of doubt in regards to my life and who I was. I just didn't know ME anymore, you know? I had given up on everything for my ex. I was a shell of my former self. I didn't have hobbies, interests, anything. I just wasn't me anymore. And I was miserable. But I had to get out of that mindset. I had to assure myself that my dreams were still important, that I was still capable of doing anything I wanted in life. I knew I could, and I wouldn't let myself give up. No one could convince me otherwise. Anything and everything is possible. I mightve had a a bad day, month, year, hell, decade. I can still do what I need to. I still believe in myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four weeks ago I was full of doubt in regards to my life and who I was. I just didn't know ME anymore, you know? I had given up on everything for my ex. I was a shell of my former self. I didn't have hobbies, interests, anything. I just wasn't me anymore. And I was miserable. But I had to get out of that mindset. I had to assure myself that my dreams were still important, that I was still capable of doing anything I wanted in life. I knew I could, and I wouldn't let myself give up. No one could convince me otherwise. Anything and everything is possible. I mightve had a a bad day, month, year, hell, decade. I can still do what I need to. I still believe in myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just needed to remind myself of that.\n\n"
+            }
+        ],
+        "request_id": "811f3fda7e9541ad-EWR"
+    }
+}

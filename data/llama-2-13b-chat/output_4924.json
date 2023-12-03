@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was four months ago when I last saw my brother. I was not expecting it to be the last time, he seemed to be happy and I did not think it would be fatal. He was a friendly child and I enjoyed him immensely. He did not deserve to get so sick, but some things are out of our control. I believe he is in a better place, I am happy knowing he is no longer suffering. I will never forget my brother. I will always hold a place for him in my heart. He was a great person and will be sorely missed by the whole family. If I ever have a son I will name him after my brother. He will always be in my memory. I loved him dearly and we used to spend a lot of time together. He was always a bright child, and full of life. When the sickness took hold he was resilient and strong at first. But the sickness was more serious than we thought. It ended up taking him. Rest in peace brother. You will be missed so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was four months ago when I last saw my brother. I was not expecting it to be the last time, he seemed to be happy and I did not think it would be fatal. He was a friendly child and I enjoyed him immensely. He did not deserve to get so sick, but some things are out of our control. I believe he is in a better place, I am happy knowing he is no longer suffering. I will never forget my brother. I will always hold a place for him in my heart. He was a great person and will be sorely missed by the whole family. If I ever have a son I will name him after my brother. He will always be in my memory. I loved him dearly and we used to spend a lot of time together. He was always a bright child, and full of life. When the sickness took hold he was resilient and strong at first. But the sickness was more serious than we thought. It ended up taking him. Rest in peace brother. You will be missed so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know you are in a better place and will be watching over me."
+            }
+        ],
+        "request_id": "811be0d0fa638ca1-EWR"
+    }
+}

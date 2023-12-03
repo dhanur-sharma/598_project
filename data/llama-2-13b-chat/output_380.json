@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently my oldest son graduated High School. It was an amazing day and I couldn't have been more proud of him and his accomplishments. It was especially emotional for me because he didn't have a typical start in life. I was 19 when I had him and I was a single parent so it was sometimes a struggle. I wanted him to always know I loved him and to fight for everything in life no matter what your circumstances are. The whole day was full of love, laughter, family, stories, pictures, and great food.  My son stood tall and proud on the stage as he received his diploma and when he saw us in the crowd he smiled just for us. We had a part afterwards and tons of his friends came to see him and give him gifts.  He also had a lot of family in town for the party including people from out of state that hadn't seen him since he was a baby. The only bittersweet thing about the whole day was that his biological father didn't come to see him. That was a tough pill to swallow, but my son made it. And for that I'm always going to be proud. He has his diploma now and can move on to college. He is grown up and I have done my job to get him out into the world. I will miss his teenage years (somewhat), but I am proud of him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently my oldest son graduated High School. It was an amazing day and I couldn't have been more proud of him and his accomplishments. It was especially emotional for me because he didn't have a typical start in life. I was 19 when I had him and I was a single parent so it was sometimes a struggle. I wanted him to always know I loved him and to fight for everything in life no matter what your circumstances are. The whole day was full of love, laughter, family, stories, pictures, and great food.  My son stood tall and proud on the stage as he received his diploma and when he saw us in the crowd he smiled just for us. We had a part afterwards and tons of his friends came to see him and give him gifts.  He also had a lot of family in town for the party including people from out of state that hadn't seen him since he was a baby. The only bittersweet thing about the whole day was that his biological father didn't come to see him. That was a tough pill to swallow, but my son made it. And for that I'm always going to be proud. He has his diploma now and can move on to college. He is grown up and I have done my job to get him out into the world. I will miss his teenage years (somewhat), but I am proud of him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know he will make his own way in the world and make me proud."
+            }
+        ],
+        "request_id": "811e90ad3f534372-EWR"
+    }
+}

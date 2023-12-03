@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In March, I flew to Jacksonville, FL to visit family. For two nights, I stayed at my brother with him, his newborn, his wife, and our father. We spent the days exploring the city, eating, and drinking. It was a wonderful visit. I don't seem my brother often since his move to Florida. This had been the first time I'd seen him in about 9 months. I'll be visiting again next month. After the two nights there, I drove with my dad down to his home in Lake Worth. We ate and drank. We went into the city and explored some as well. It was a good time. I met his new girlfriend, who was very nice. She was quite educated. She hailed from New York. She worked in publishing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In March, I flew to Jacksonville, FL to visit family. For two nights, I stayed at my brother with him, his newborn, his wife, and our father. We spent the days exploring the city, eating, and drinking. It was a wonderful visit. I don't seem my brother often since his move to Florida. This had been the first time I'd seen him in about 9 months. I'll be visiting again next month. After the two nights there, I drove with my dad down to his home in Lake Worth. We ate and drank. We went into the city and explored some as well. It was a good time. I met his new girlfriend, who was very nice. She was quite educated. She hailed from New York. She worked in publishing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She had a lot of interesting stories. We talked about the publishing industry and life in New York. She was very intelligent and funny. I was impressed by her. I spent the night at my dad's and left the next morning. The trip was a great way to spend time with family and explore a new city. I enjoyed it very much.\n\n"
+            }
+        ],
+        "request_id": "811ea2f64b4b8cda-EWR"
+    }
+}

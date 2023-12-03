@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been almost six months since I broke my collarbone (clavicle) while skiing. This was the first broken bone in my life. I was surprised initially when my doctor said there is no way to set a broken clavicle. He said I had to be patient and let the bone heal on it's on. The healing process took several months. In the first 6 weeks, I still experienced pain whenever I moved the wrong way. However, I was patient, and followed my doctor's instructions for healing. Finally, in early summer, I was able to get back to most of my regular physical activities. I did find that some of the muscles on the side of my body with the broken clavicle were still sore.  I finally figured this was because I had been favoring my right side when doing lifting tasks while I was healing. So I slowly started with light exercises on these muscles on the left side. Using this process, I was able to get my whole body in shape. When this skiing accident happened, I had a lot of apprehension about how my body would recover from a broken bone at my age. However, this mishap taught me that I can have a broken bone, and still recover to normal. I just had to be patient, following my doctor's instructions, and perform a good rehab program."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been almost six months since I broke my collarbone (clavicle) while skiing. This was the first broken bone in my life. I was surprised initially when my doctor said there is no way to set a broken clavicle. He said I had to be patient and let the bone heal on it's on. The healing process took several months. In the first 6 weeks, I still experienced pain whenever I moved the wrong way. However, I was patient, and followed my doctor's instructions for healing. Finally, in early summer, I was able to get back to most of my regular physical activities. I did find that some of the muscles on the side of my body with the broken clavicle were still sore.  I finally figured this was because I had been favoring my right side when doing lifting tasks while I was healing. So I slowly started with light exercises on these muscles on the left side. Using this process, I was able to get my whole body in shape. When this skiing accident happened, I had a lot of apprehension about how my body would recover from a broken bone at my age. However, this mishap taught me that I can have a broken bone, and still recover to normal. I just had to be patient, following my doctor's instructions, and perform a good rehab program.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebafb8ff6430d-EWR"
+    }
+}

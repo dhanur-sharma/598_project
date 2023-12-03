@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was really upset when I was fired. I never thought that that would happen to me. I immediately began to worry about finding another job and how I would pay my bills on time. I didn't have much of a savings at the time. It took me a little while to decide what I would do. I was going to have to start all over again. That was 5 months ago now. I have since started a new career program. I always thought that I might go back to school but being fired made me really consider it. I have been doing well by being really careful with money while I look for a new job in a totally different field. My mom has been letting me stay with her and we've been getting along better than ever. I feel really great about this new program. It always seemed risky when I was working for my former employer. I'm doing surprisingly well, top of my class actually. I've made countless new friends and even some contacts that will help once I'm working again.  I just can't wait to find a job but I know that once I do, I'll be really glad that I was able to pursue my dreams."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was really upset when I was fired. I never thought that that would happen to me. I immediately began to worry about finding another job and how I would pay my bills on time. I didn't have much of a savings at the time. It took me a little while to decide what I would do. I was going to have to start all over again. That was 5 months ago now. I have since started a new career program. I always thought that I might go back to school but being fired made me really consider it. I have been doing well by being really careful with money while I look for a new job in a totally different field. My mom has been letting me stay with her and we've been getting along better than ever. I feel really great about this new program. It always seemed risky when I was working for my former employer. I'm doing surprisingly well, top of my class actually. I've made countless new friends and even some contacts that will help once I'm working again.  I just can't wait to find a job but I know that once I do, I'll be really glad that I was able to pursue my dreams.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4582ab5543a0-EWR"
+    }
+}

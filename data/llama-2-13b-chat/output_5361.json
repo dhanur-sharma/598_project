@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I were having a rough time. We were fighting a lot and she gave me an ultimatum. She gave me the option of leaving the family. I almost did. For a whole night I thought we were through with. I tend to clam up, emotionally. I don't communicate very well. I am constantly annoying my wife whenever I attempt to talk to her. I misspoke about something and she blew up at me. She screamed at me in front of our kids and told me to leave. I had to leave the whole night. I slept on a bench. I came back when the kids were sleeping and she told me we were splitting up. We cried all night and eventually made up. It was the worst night of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I were having a rough time. We were fighting a lot and she gave me an ultimatum. She gave me the option of leaving the family. I almost did. For a whole night I thought we were through with. I tend to clam up, emotionally. I don't communicate very well. I am constantly annoying my wife whenever I attempt to talk to her. I misspoke about something and she blew up at me. She screamed at me in front of our kids and told me to leave. I had to leave the whole night. I slept on a bench. I came back when the kids were sleeping and she told me we were splitting up. We cried all night and eventually made up. It was the worst night of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2fcb7ea38c0f-EWR"
+    }
+}

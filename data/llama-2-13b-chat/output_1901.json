@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event I am thinking about is my brother's wedding. He got married to his now wife. I had known her for many years, as we went to high school together. It was no surprise that they would get married, as they had been dating and living together for years. The wedding took place a few hours east of where I live, in a beautiful setting with forests and a river. They rented out an entire lodge and a dozen cabins for everyone to stay in. It was a lot of fun. I arrived the day before the wedding. We went on a fun rafting trip that day. Afterwards, we returned to the venue and I helped set things up. The most memorable part of the event was the actual ceremony. It was set up outside with seating near a small lake. It was very lovely. I was up at the front since I was best man. I really enjoyed it. Afterwards, there was a reception and celebration with live music. People danced, ate food and had beer and wine to drink. It was a lot of fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event I am thinking about is my brother's wedding. He got married to his now wife. I had known her for many years, as we went to high school together. It was no surprise that they would get married, as they had been dating and living together for years. The wedding took place a few hours east of where I live, in a beautiful setting with forests and a river. They rented out an entire lodge and a dozen cabins for everyone to stay in. It was a lot of fun. I arrived the day before the wedding. We went on a fun rafting trip that day. Afterwards, we returned to the venue and I helped set things up. The most memorable part of the event was the actual ceremony. It was set up outside with seating near a small lake. It was very lovely. I was up at the front since I was best man. I really enjoyed it. Afterwards, there was a reception and celebration with live music. People danced, ate food and had beer and wine to drink. It was a lot of fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I really enjoyed being able to celebrate my brother and his new wife. I was happy to be a part of it.\n\n"
+            }
+        ],
+        "request_id": "811eace2598b0f5f-EWR"
+    }
+}

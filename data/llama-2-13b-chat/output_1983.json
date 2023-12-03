@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One morning three months ago I was in a hurry and tripped on the steps while running to take a shower before work. I ended up fracturing 4 metatarsal bones that required two surgeries to fix. I was really having a hard time not being able to walk whenever I wanted to. I really had such a bad attitude at the beginning because I was so used to being independent. Now that I have recovered I have a new appreciation for my ability to walk. I feel like the whole time I couldn't walk I was thinking about how much I took that ability for granted. But now I choose to walk more than I ever had before. When I walk the dogs I go further out of my way just to enjoy the ability to do it. I am completely recovered and I am going to take this as a lesson learned. Nothing is more important that my personal health. I need to make sure that even if I am running late, I need to take my time and be careful. Instead f making it to work on time, I ended up missing weeks of work. Now all I do at work is try and catch up with everything I missed. It was really nice that people at work came and visited me at the hospital. I really appreciated all the flowers and candy and food that was delivered. I think that this showed me how loved I truly am."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One morning three months ago I was in a hurry and tripped on the steps while running to take a shower before work. I ended up fracturing 4 metatarsal bones that required two surgeries to fix. I was really having a hard time not being able to walk whenever I wanted to. I really had such a bad attitude at the beginning because I was so used to being independent. Now that I have recovered I have a new appreciation for my ability to walk. I feel like the whole time I couldn't walk I was thinking about how much I took that ability for granted. But now I choose to walk more than I ever had before. When I walk the dogs I go further out of my way just to enjoy the ability to do it. I am completely recovered and I am going to take this as a lesson learned. Nothing is more important that my personal health. I need to make sure that even if I am running late, I need to take my time and be careful. Instead f making it to work on time, I ended up missing weeks of work. Now all I do at work is try and catch up with everything I missed. It was really nice that people at work came and visited me at the hospital. I really appreciated all the flowers and candy and food that was delivered. I think that this showed me how loved I truly am.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eae49ae364337-EWR"
+    }
+}

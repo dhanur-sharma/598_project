@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago, I went to my cousin's wedding. She asked me to be a bridesmaid and I was honored to be asked. I got to the wedding venue early in the morning. My cousin, the other bridesmaids and I had breakfast and mimosas. Then we started getting ready. My cousin had a makeup artist do her makeup, but the rest of us just did our own. We all got our hair done by a stylist. We ordered in and ate lunch while we finished getting ready. After that, we took pictures with the photographer. Soon after, it was time for the wedding to start. The ceremony was beautiful and their vows to each other were very moving. After the ceremony, it was time for the reception. First dinner was served and a few people got up to give speeches. After the dinner portion was over, it was time to party. We all had a great time dancing and having fun. Overall, it was a beautiful wedding and I felt closer to my cousin and other family members because of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago, I went to my cousin's wedding. She asked me to be a bridesmaid and I was honored to be asked. I got to the wedding venue early in the morning. My cousin, the other bridesmaids and I had breakfast and mimosas. Then we started getting ready. My cousin had a makeup artist do her makeup, but the rest of us just did our own. We all got our hair done by a stylist. We ordered in and ate lunch while we finished getting ready. After that, we took pictures with the photographer. Soon after, it was time for the wedding to start. The ceremony was beautiful and their vows to each other were very moving. After the ceremony, it was time for the reception. First dinner was served and a few people got up to give speeches. After the dinner portion was over, it was time to party. We all had a great time dancing and having fun. Overall, it was a beautiful wedding and I felt closer to my cousin and other family members because of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e998b7a1b41a3-EWR"
+    }
+}

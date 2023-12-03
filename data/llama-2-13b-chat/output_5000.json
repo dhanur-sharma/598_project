@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago, I was sitting in my office when my boss came in. He threw some papers on my desk and told me \"You need to do an evaluation.\" I asked him on what and he told me on the new restaurant across the state. I've never been in that part of the area before! I asked if he was sure he wanted me to do it, sure it was across town but maybe someone who knew the area more would do it. He told me that he wanted me to do it. So I agreed, got the company credit card and planned out meal costs and gas cost while I had the boss with me. I was allocated $500 for the day trip. I assumed that would be more than enough. The next morning, I got up early and looked at the directions to the restaurant that I was needed to go to and set off for the trip. It was supposed to take 8 hours to get there so I blasted some music to keep the trip interesting. A couple of hours of driving, the landscape was all beaches  from the highway. It was beautiful and I thought to myself \"Well, this is worth the drive!\" I ended up stopping for lunch at a roadside place that I expected to be bad food. But the food was so good! The people were really nice and gave me some tips on landmarks to see before I left. They were a 5 minute drive from my lunch spot, so I drove down and ended up getting a flat tire. I called AAA to come take care of it and they told me it would take an hour for them to get there. That was fine. I called my boss to let him know I had a flat and I might be using more than the $500 allocated to me. During the wait, I walked around the landmarks since I was there. Took some photos and even saw a car wreck on the highway! It was something out of a movie. AAA came and fixed my tire and soon I was back on the road."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago, I was sitting in my office when my boss came in. He threw some papers on my desk and told me \"You need to do an evaluation.\" I asked him on what and he told me on the new restaurant across the state. I've never been in that part of the area before! I asked if he was sure he wanted me to do it, sure it was across town but maybe someone who knew the area more would do it. He told me that he wanted me to do it. So I agreed, got the company credit card and planned out meal costs and gas cost while I had the boss with me. I was allocated $500 for the day trip. I assumed that would be more than enough. The next morning, I got up early and looked at the directions to the restaurant that I was needed to go to and set off for the trip. It was supposed to take 8 hours to get there so I blasted some music to keep the trip interesting. A couple of hours of driving, the landscape was all beaches  from the highway. It was beautiful and I thought to myself \"Well, this is worth the drive!\" I ended up stopping for lunch at a roadside place that I expected to be bad food. But the food was so good! The people were really nice and gave me some tips on landmarks to see before I left. They were a 5 minute drive from my lunch spot, so I drove down and ended up getting a flat tire. I called AAA to come take care of it and they told me it would take an hour for them to get there. That was fine. I called my boss to let him know I had a flat and I might be using more than the $500 allocated to me. During the wait, I walked around the landmarks since I was there. Took some photos and even saw a car wreck on the highway! It was something out of a movie. AAA came and fixed my tire and soon I was back on the road.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I ended up getting to the restaurant at around 7 pm. I had dinner and met the owners. They were really nice and welcoming. I talked to them about the food and the area. I got back to my hotel room at around 10 pm. It was a long day but it was worth it. I had a great time and I even got a chance to explore some landmarks. I was really glad I went on this trip."
+            }
+        ],
+        "request_id": "811be263abdc43ed-EWR"
+    }
+}

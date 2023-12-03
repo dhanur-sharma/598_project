@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I few months ago I moved across the country. My girlfriend came with me as well. We moved from Pennsylvania to Colorado. We packed everything we could fit in our cars and drove across the country. It took us about two and a half days. The drive itself was pretty brutal but it was exciting as well. It was exciting because we had both started a new part of our lives. The most memorable part was when we were driving a long way through Nebraska and there was not anything on either side for miles. Eventually we got to Colorado and it was a great feeling. It felt great because we had finally made it. We both felt very happy. We also felt relieved. I think we also could not believe that we actually decided to move across the country and then actually did it. Looking back we also had fun. I'm glad we made that decision."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I few months ago I moved across the country. My girlfriend came with me as well. We moved from Pennsylvania to Colorado. We packed everything we could fit in our cars and drove across the country. It took us about two and a half days. The drive itself was pretty brutal but it was exciting as well. It was exciting because we had both started a new part of our lives. The most memorable part was when we were driving a long way through Nebraska and there was not anything on either side for miles. Eventually we got to Colorado and it was a great feeling. It felt great because we had finally made it. We both felt very happy. We also felt relieved. I think we also could not believe that we actually decided to move across the country and then actually did it. Looking back we also had fun. I'm glad we made that decision.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd3d9dc11429f-EWR"
+    }
+}

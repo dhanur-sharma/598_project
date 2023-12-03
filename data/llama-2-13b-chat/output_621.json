@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father is in recovery from emergency heart surgery he had yesterday. We did not know if he was gonna make it. He is alive and in recovery so everything  is ok right now. I guess when you turn fifty and sixty years old your heart wants to show you it's time to get healthy. I hope he uses the experience to be more healthy in his lifestyle. He was working out of state so he is in a hospital four hours away. I might drive up after work. I would hate to not see him if something turns out the wrong way. I just decided to go. If he has complications and I can't see him and he passes away I could not live with myself. I'm still very scared for him. This is your heart. It goes bad and it is over. He had a major tear to his aorta. The survival rate is low. We are incredibly lucky."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father is in recovery from emergency heart surgery he had yesterday. We did not know if he was gonna make it. He is alive and in recovery so everything  is ok right now. I guess when you turn fifty and sixty years old your heart wants to show you it's time to get healthy. I hope he uses the experience to be more healthy in his lifestyle. He was working out of state so he is in a hospital four hours away. I might drive up after work. I would hate to not see him if something turns out the wrong way. I just decided to go. If he has complications and I can't see him and he passes away I could not live with myself. I'm still very scared for him. This is your heart. It goes bad and it is over. He had a major tear to his aorta. The survival rate is low. We are incredibly lucky.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know he has a long road ahead of him. He is stable and resting comfortably. The doctors are very optimistic. I'm so scared. I don't know what to do with myself.\n\n"
+            }
+        ],
+        "request_id": "811e951a3e4b41f2-EWR"
+    }
+}

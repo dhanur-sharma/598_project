@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a dackel/wiener-dog. I woke up to him paralyzed a month ago (June). I took him to the vet, as one does, and she was just \"Put him down. That's not a good life. He'll never get better.\" since I could not afford the 10k for surgery. Went home, cried about it, thought about it, looked up paralyzed dog forums all night long. It was a pretty bad night. I just felt so goddamn hopeless about everything. The paralysis was very sudden. The night before, he was limping just a little bit when I brought him in after the walk. I thought that he'd stepped on something. The day of, other than not being able to move his back legs, he was happy and fine. Got him on steroids, did crate-rest, did laser treatments. Told \"This won't make a difference. He'll get urine scald, he's suffering.\" My vet really knows how to depress the hell out of me, I might say. Purchased bed wetting pads, barrier spray, he was happy to be home and I was just worried about the future. And, he got better. He's almost completely fine now, no thanks to my shitty vet."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a dackel/wiener-dog. I woke up to him paralyzed a month ago (June). I took him to the vet, as one does, and she was just \"Put him down. That's not a good life. He'll never get better.\" since I could not afford the 10k for surgery. Went home, cried about it, thought about it, looked up paralyzed dog forums all night long. It was a pretty bad night. I just felt so goddamn hopeless about everything. The paralysis was very sudden. The night before, he was limping just a little bit when I brought him in after the walk. I thought that he'd stepped on something. The day of, other than not being able to move his back legs, he was happy and fine. Got him on steroids, did crate-rest, did laser treatments. Told \"This won't make a difference. He'll get urine scald, he's suffering.\" My vet really knows how to depress the hell out of me, I might say. Purchased bed wetting pads, barrier spray, he was happy to be home and I was just worried about the future. And, he got better. He's almost completely fine now, no thanks to my shitty vet.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could get that 10k back. I know I'll never see it again. But, he's happy and that's all that matters.\n\n"
+            }
+        ],
+        "request_id": "811e91081f8e42be-EWR"
+    }
+}

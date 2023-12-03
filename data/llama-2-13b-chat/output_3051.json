@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to San Francisco about 3 months ago for a job interview. I think about it sometimes, because I didn't get it and I'm kind of sad that I didn't . I met the whole group that worked there and it seemed like a good place to work. They work on a lot of projects that seem very engaging and interesting to me.  I could easily see myself fitting in with the team, we got on very well.  I thought I would be perfect for them.  The only part that threw me off was meeting with HR.  The HR person was not very friendly. She did not smile the whole time we talked.  She also asked a bunch of \"gotcha\" type questions, like, did you tell your boss that you are looking for another job, which is just weird to me.  Like, of course I didn't tell them. When I visited, I even scoped out possible places to live and roommates.  I traveled around and checked out different neighborhoods.  I also met with a friend who lives there and we talked about how great it would be for me to get the position.  I know her from college. She now works for a tech company there. I considered living with her but decided not to.  But in the end, I did not get the job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to San Francisco about 3 months ago for a job interview. I think about it sometimes, because I didn't get it and I'm kind of sad that I didn't . I met the whole group that worked there and it seemed like a good place to work. They work on a lot of projects that seem very engaging and interesting to me.  I could easily see myself fitting in with the team, we got on very well.  I thought I would be perfect for them.  The only part that threw me off was meeting with HR.  The HR person was not very friendly. She did not smile the whole time we talked.  She also asked a bunch of \"gotcha\" type questions, like, did you tell your boss that you are looking for another job, which is just weird to me.  Like, of course I didn't tell them. When I visited, I even scoped out possible places to live and roommates.  I traveled around and checked out different neighborhoods.  I also met with a friend who lives there and we talked about how great it would be for me to get the position.  I know her from college. She now works for a tech company there. I considered living with her but decided not to.  But in the end, I did not get the job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think they decided to go with someone who had more experience. I am sad about it but I am still thinking about it.  I wish I could have gotten the job.\n\n"
+            }
+        ],
+        "request_id": "811ec3216c471778-EWR"
+    }
+}

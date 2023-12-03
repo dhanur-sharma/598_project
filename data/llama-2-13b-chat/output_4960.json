@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I was supposed to be settling into a new home in a different city. I was set to begin as a student teacher at a school district, which is part of my credentialing program. I found a place I really liked. I was very excited to be starting out on a new adventure! However, my advisor, who is new, made a mistake. She neglected to tell me crucial information that I needed regarding placement deadlines. She was very unapologetic. Very proud and arrogant. I finally had to contact her boss since she was unwilling to admit she'd made a mistake. She would not answer my questions. She was condescending. It was so stressful, and I was honestly adrift for awhile. In the end, it turned out ok for me. I was able to move back to where I'd been before and get my old job back. I requested placement in the spring. If she can handle that, we'll see."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I was supposed to be settling into a new home in a different city. I was set to begin as a student teacher at a school district, which is part of my credentialing program. I found a place I really liked. I was very excited to be starting out on a new adventure! However, my advisor, who is new, made a mistake. She neglected to tell me crucial information that I needed regarding placement deadlines. She was very unapologetic. Very proud and arrogant. I finally had to contact her boss since she was unwilling to admit she'd made a mistake. She would not answer my questions. She was condescending. It was so stressful, and I was honestly adrift for awhile. In the end, it turned out ok for me. I was able to move back to where I'd been before and get my old job back. I requested placement in the spring. If she can handle that, we'll see.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm very leery of her now.\n\n"
+            }
+        ],
+        "request_id": "811be1977af54201-EWR"
+    }
+}

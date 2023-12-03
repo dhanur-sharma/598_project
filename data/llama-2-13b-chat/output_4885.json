@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The type of event is travelling. I went on a trip with my youngest son to NYC.  It was our first trip together, just the two of us. It was the first time either of us have ever been to NYC.  It was amazing.  The sights, the sounds, the energy of the city!  We visited the Statue of Liberty, the 911 Memorial, Central Park, and so many more places.  We stayed out late and slept in late. My son's favorite place was Times Square.  He loved the bright lights and the people.  I enjoyed seeing all the places.  I don't think I could pick a favorite.  I loved the history behind the Statue of Liberty.  The 911 Memorial was sobering and left us quiet and contemplative.  Central Park was a fantastic dose of nature in the middle of the large city.  China Town and Little Italy were so exciting and different for us.  The most memorable thing for me happened on the last day.  We were walking towards the subway to head back to the airport.  My son turned to me and said \"Mom this was an amazing trip.  I had so much fun with you.  Thanks.\""
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The type of event is travelling. I went on a trip with my youngest son to NYC.  It was our first trip together, just the two of us. It was the first time either of us have ever been to NYC.  It was amazing.  The sights, the sounds, the energy of the city!  We visited the Statue of Liberty, the 911 Memorial, Central Park, and so many more places.  We stayed out late and slept in late. My son's favorite place was Times Square.  He loved the bright lights and the people.  I enjoyed seeing all the places.  I don't think I could pick a favorite.  I loved the history behind the Statue of Liberty.  The 911 Memorial was sobering and left us quiet and contemplative.  Central Park was a fantastic dose of nature in the middle of the large city.  China Town and Little Italy were so exciting and different for us.  The most memorable thing for me happened on the last day.  We were walking towards the subway to head back to the airport.  My son turned to me and said \"Mom this was an amazing trip.  I had so much fun with you.  Thanks.\"",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was in that moment I realized that my son, who is now a young adult, was finally starting to appreciate the things I loved.  It made me feel so proud and happy.\n\n"
+            }
+        ],
+        "request_id": "811bdfcc08be42d1-EWR"
+    }
+}

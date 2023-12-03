@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My significant other has always loved succulents. She began buying a few here and there and reading about them on the internet. I thought she was just reading about them as a hobby. One evening over dinner, she suggested that we start a succulent company. I was like \"yeah, sure, that sounds like fun!\" I didn't know quite how big or fast it would grow. We began buying more succulents and expanded to other exotic plants such as carnivorous plants. One day she surprised me by telling me that she had filed all of the paperwork to make us an official business. We owned a business! I guess she had some unexpected money come in from backpayments owed to her, or something. She decided to spend the surplus to make us official. No time like the present! My background is in web development, so I got to work on the website. I put together a blazing fast website for us and set us up with a payment processor. She is the resident plant expert. She logged the inventory and wrote the plant descriptions. We had a full-functional ecommerce website in no-time flat."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My significant other has always loved succulents. She began buying a few here and there and reading about them on the internet. I thought she was just reading about them as a hobby. One evening over dinner, she suggested that we start a succulent company. I was like \"yeah, sure, that sounds like fun!\" I didn't know quite how big or fast it would grow. We began buying more succulents and expanded to other exotic plants such as carnivorous plants. One day she surprised me by telling me that she had filed all of the paperwork to make us an official business. We owned a business! I guess she had some unexpected money come in from backpayments owed to her, or something. She decided to spend the surplus to make us official. No time like the present! My background is in web development, so I got to work on the website. I put together a blazing fast website for us and set us up with a payment processor. She is the resident plant expert. She logged the inventory and wrote the plant descriptions. We had a full-functional ecommerce website in no-time flat.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The orders started rolling in and we were off and running. We even got some great press and became a top-rated seller on Etsy! We had to hire a few employees to keep up with demand. We now have a small team of succulent lovers who help us ship orders and keep our inventory stocked. It has been a wild ride, but we are having so much fun!\n\n"
+            }
+        ],
+        "request_id": "811bdb018ecb8ccc-EWR"
+    }
+}

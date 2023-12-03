@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My graduation date is approaching soon and I am getting more and more excited -I can't believe I am finally going to graduate! It has been a hard, last 6 months! I had to work extremely hard the last little while to keep my grades up, especially when my father passed away. I almost fell into a deep depression but with the help of my friends and family, I was able to pull out of it. The visit from my mother made all the difference in the world. I can see the strength, hope and courage she displays and her encouragement to me during this time -when she is hurting so much herself- really has helped me turn a corner in my grief. She has helped me understand that my father is not truly gone, he will always be here in our memories. So, I started today with a fresher, happier outlook, and I believe I received divine confirmation that everything will be ok, by several things that happened today. I was walking from my dorm to my first class and something caused me to look up. It was a beautiful day and not a cloud in the sky, but I plainly saw not one, but two rainbows! And the were just as clear as day! And that wasn't the end of it either -as today progressed, other things happened! I found seven pennies after my fifth class! My dad's birthday was the seventh of May! Then, after it got dark this evening, something caught my eye out the window. I looked and saw three shooting stars right in a row! Three was my dad's favorite number! Now I know, my dad is not really gone and he will be here by my side even though I can't see him, and everything is going to be alright. I'm really looking forward to seeing the rest of my family next week for my graduation ceremony!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My graduation date is approaching soon and I am getting more and more excited -I can't believe I am finally going to graduate! It has been a hard, last 6 months! I had to work extremely hard the last little while to keep my grades up, especially when my father passed away. I almost fell into a deep depression but with the help of my friends and family, I was able to pull out of it. The visit from my mother made all the difference in the world. I can see the strength, hope and courage she displays and her encouragement to me during this time -when she is hurting so much herself- really has helped me turn a corner in my grief. She has helped me understand that my father is not truly gone, he will always be here in our memories. So, I started today with a fresher, happier outlook, and I believe I received divine confirmation that everything will be ok, by several things that happened today. I was walking from my dorm to my first class and something caused me to look up. It was a beautiful day and not a cloud in the sky, but I plainly saw not one, but two rainbows! And the were just as clear as day! And that wasn't the end of it either -as today progressed, other things happened! I found seven pennies after my fifth class! My dad's birthday was the seventh of May! Then, after it got dark this evening, something caught my eye out the window. I looked and saw three shooting stars right in a row! Three was my dad's favorite number! Now I know, my dad is not really gone and he will be here by my side even though I can't see him, and everything is going to be alright. I'm really looking forward to seeing the rest of my family next week for my graduation ceremony!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so excited to finally graduate!"
+            }
+        ],
+        "request_id": "811f31d40a89c334-EWR"
+    }
+}

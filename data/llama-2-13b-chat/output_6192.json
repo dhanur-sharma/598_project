@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband I celebrated our 25th wedding anniversary this year. We decided to take a cruise to celebrate. We booked a few months out. This allowed the anticipation to build for us. We looked forward to sailing and would watch videos of the trip from others on Youtube. As the time to cruise started to approach we began to pack. I also went to the store and got the things that we would need. I got some new outfits and travel items. I packed a couple of weeks out so that I didn't feel overwhelmed. We were going to be gone for seven days. I was excited the day that we left. We drove to the port that morning and the loaded on the ship. We went to get lunch the first time because that is what you do on a ship is eat. You eat a lot on the ship. We were always getting food from somewhere. I also laid by the pool until our room was ready. Then When the room was ready we unpacked. I was finally glad to be on the ship and celebrating with my husband."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband I celebrated our 25th wedding anniversary this year. We decided to take a cruise to celebrate. We booked a few months out. This allowed the anticipation to build for us. We looked forward to sailing and would watch videos of the trip from others on Youtube. As the time to cruise started to approach we began to pack. I also went to the store and got the things that we would need. I got some new outfits and travel items. I packed a couple of weeks out so that I didn't feel overwhelmed. We were going to be gone for seven days. I was excited the day that we left. We drove to the port that morning and the loaded on the ship. We went to get lunch the first time because that is what you do on a ship is eat. You eat a lot on the ship. We were always getting food from somewhere. I also laid by the pool until our room was ready. Then When the room was ready we unpacked. I was finally glad to be on the ship and celebrating with my husband.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The rest of the trip was a blur of eating, drinking, and relaxing. It was a wonderful vacation and I was so happy to be on it.\n\n"
+            }
+        ],
+        "request_id": "811f40c4488619cb-EWR"
+    }
+}

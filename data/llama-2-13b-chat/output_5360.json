@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was sitting in my kitchen preparing dinner, when my wife stormed in. \"Did you leave the stove on all night?\" Of course I hadn't, it was her fault. We were already elevated when our daughter came into the room. Suddenly we quieted down and put her to bed. After that the fighting resumed. We persisted the other had made the mistake, while denying our own responsibility. Sure, she had left the stove on. I failed to turn it off after seeing it was on, so it was partly my fault. Despite this we blindly were accusing the other of wrongdoing. Finally we quit and went to watch TV in separate rooms of the house. After a few hours we went to bed, still sulking. When we woke up in the morning we were still quiet, but not disrespectful to the other. After I prepared breakfast, we finally sat down and calmly discussed our own roles. With that knowledge we had finally come to a conclusion. By admitting our own faults, we were able to understand the full story."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was sitting in my kitchen preparing dinner, when my wife stormed in. \"Did you leave the stove on all night?\" Of course I hadn't, it was her fault. We were already elevated when our daughter came into the room. Suddenly we quieted down and put her to bed. After that the fighting resumed. We persisted the other had made the mistake, while denying our own responsibility. Sure, she had left the stove on. I failed to turn it off after seeing it was on, so it was partly my fault. Despite this we blindly were accusing the other of wrongdoing. Finally we quit and went to watch TV in separate rooms of the house. After a few hours we went to bed, still sulking. When we woke up in the morning we were still quiet, but not disrespectful to the other. After I prepared breakfast, we finally sat down and calmly discussed our own roles. With that knowledge we had finally come to a conclusion. By admitting our own faults, we were able to understand the full story.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We learned to listen and communicate more effectively to avoid misunderstandings."
+            }
+        ],
+        "request_id": "811f2fc81e604378-EWR"
+    }
+}

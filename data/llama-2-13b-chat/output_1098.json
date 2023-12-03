@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was working for a large company. I met a pro basball player while there. I had know idea who they were at first. But then someone told me who they were. It was amazing. I never met someone like that before. And I didn't know why they were in a foot locker. I had to measure their feet too. He got a great pair of sneakers. I felt like my day was made when I did it. If anyone was to give him shoes, I wanted to be the one. They were the priciest of sneakers that we had. They were good though, and I felt odd to be the one to help him out. I almost felt bad that I didn't know who he was. I am not a big sports nut. But it was great in any case."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was working for a large company. I met a pro basball player while there. I had know idea who they were at first. But then someone told me who they were. It was amazing. I never met someone like that before. And I didn't know why they were in a foot locker. I had to measure their feet too. He got a great pair of sneakers. I felt like my day was made when I did it. If anyone was to give him shoes, I wanted to be the one. They were the priciest of sneakers that we had. They were good though, and I felt odd to be the one to help him out. I almost felt bad that I didn't know who he was. I am not a big sports nut. But it was great in any case.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9dd09e72440b-EWR"
+    }
+}

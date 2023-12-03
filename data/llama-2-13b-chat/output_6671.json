@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When my grandmother died it all took us by surprise. She was a lovely woman and everyone who knew her, even people outside our family absolutely loved her. She was, however, very secretive about her health and didn't want everyone to be concerned about her dying. When she did pass, it was a big deal for our family. We had spent almost every holiday at her house, eating delicious foods at her table. She always went all out when it came to the family, and everyone always go the best she could offer. My family was really upset that I didn't go to the funeral. At the time I was only a teenager and had never attended a funeral. I was grieving but also really terrified to see her in that way. I was scared that that would be the last time I saw her. I thought about all the times that we had shared together and it was overwhelming and unbearable for me. My family just could not find the sympathy to understand how I felt and acted as though I didn't care about her passing, when that was the furthest from the truth. The only person who really understood was my father. He really got how frightening it could be for a child to have to see their grandmother's body before they put her in the ground. He told me not to worry about the rest of my family's opinion and that it would eventually blow over. I still am really thankful for him understanding how I felt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When my grandmother died it all took us by surprise. She was a lovely woman and everyone who knew her, even people outside our family absolutely loved her. She was, however, very secretive about her health and didn't want everyone to be concerned about her dying. When she did pass, it was a big deal for our family. We had spent almost every holiday at her house, eating delicious foods at her table. She always went all out when it came to the family, and everyone always go the best she could offer. My family was really upset that I didn't go to the funeral. At the time I was only a teenager and had never attended a funeral. I was grieving but also really terrified to see her in that way. I was scared that that would be the last time I saw her. I thought about all the times that we had shared together and it was overwhelming and unbearable for me. My family just could not find the sympathy to understand how I felt and acted as though I didn't care about her passing, when that was the furthest from the truth. The only person who really understood was my father. He really got how frightening it could be for a child to have to see their grandmother's body before they put her in the ground. He told me not to worry about the rest of my family's opinion and that it would eventually blow over. I still am really thankful for him understanding how I felt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still miss my grandmother dearly, and wish that she was here today."
+            }
+        ],
+        "request_id": "811f4a4ff81f0cae-EWR"
+    }
+}

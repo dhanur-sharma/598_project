@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Its been two weeks since Albert passed away he sure was my favorite cousin. The way he left us so soon with a bright future ahead of him is devastating. Is uncertain how long will it take Andrea to bounce back it was so close to their wedding. My aunt Griselda has not come out of her room since the burial services. Your death  have been hard and one of the worst feeling somebody can imagine. I have been unable to go to work. Albert I missed you very much we were so close almost talked to you every other day. The family reunions will never be the same. Who is going to watch the soccer games on Sundays with me (your team lost). I drove like 3 hours yesterday to clear my mind. I wish you were still with us making great plans for the future. I am not the same since the news. I can't function right. I cry almost every hour. I need to clear my mind and go somewhere by myself. I will never forget all the great memories you have left me and our childhood memories will be with me forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Its been two weeks since Albert passed away he sure was my favorite cousin. The way he left us so soon with a bright future ahead of him is devastating. Is uncertain how long will it take Andrea to bounce back it was so close to their wedding. My aunt Griselda has not come out of her room since the burial services. Your death  have been hard and one of the worst feeling somebody can imagine. I have been unable to go to work. Albert I missed you very much we were so close almost talked to you every other day. The family reunions will never be the same. Who is going to watch the soccer games on Sundays with me (your team lost). I drove like 3 hours yesterday to clear my mind. I wish you were still with us making great plans for the future. I am not the same since the news. I can't function right. I cry almost every hour. I need to clear my mind and go somewhere by myself. I will never forget all the great memories you have left me and our childhood memories will be with me forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bce842d120f49-EWR"
+    }
+}

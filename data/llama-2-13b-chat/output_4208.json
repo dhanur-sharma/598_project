@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It is Memorial Day Weekend. I flew into NYC, got picked up by my boyfriend that had driven out to visit his family several days earlier, and picked up my sons in NYC. One son lives in D.C. and had taken the train in a day earlier. We huddled into the car and drove to Cape Cod. As we settled into the condo, we decided to take the early ferry to Martha's Vineyard. It was a gorgeous ride over and we enjoyed the view. As we hit the island, we rented bikes and got a map. We spoke to a couple of locals to get ideas what would be good to see. We headed toward Edgartown to see the Lighthouse. We rode the beaches we Jaws was filmed. We also happened upon an oceanside restaurant. We had a late lunch on the patio overlooking the water. It had great seafood. On our way back to our port town, we walked through the historic Victorian cottages that were built in the 1800s. The village is adorable and some have been in families for generations. It is much like the Mel Gibson movie, The Man Without a Face. Families spend all summer on the island. We shopped a bit and headed back to Cape Cod. It was a wonderful time with family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It is Memorial Day Weekend. I flew into NYC, got picked up by my boyfriend that had driven out to visit his family several days earlier, and picked up my sons in NYC. One son lives in D.C. and had taken the train in a day earlier. We huddled into the car and drove to Cape Cod. As we settled into the condo, we decided to take the early ferry to Martha's Vineyard. It was a gorgeous ride over and we enjoyed the view. As we hit the island, we rented bikes and got a map. We spoke to a couple of locals to get ideas what would be good to see. We headed toward Edgartown to see the Lighthouse. We rode the beaches we Jaws was filmed. We also happened upon an oceanside restaurant. We had a late lunch on the patio overlooking the water. It had great seafood. On our way back to our port town, we walked through the historic Victorian cottages that were built in the 1800s. The village is adorable and some have been in families for generations. It is much like the Mel Gibson movie, The Man Without a Face. Families spend all summer on the island. We shopped a bit and headed back to Cape Cod. It was a wonderful time with family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd2372e2cc452-EWR"
+    }
+}

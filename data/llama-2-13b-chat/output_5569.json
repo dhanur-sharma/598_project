@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently gave birth to a baby daughter. This was a personal miracle for me because my daughter had presented problems during my pregnancy. In fact, my pregnancy was quite difficult. I wished, throughout my pregnancy, that my grandmother were here. I wanted to talk to her and get advice and comfort from her. Unfortunately, she had already passed away. I loved her very much - she was like a mother to me. Throughout my pregnancy, I continued to speak with her in my mind, convinced she could hear me. Afterward, I would feel much better. When it was time for my baby to be born, I was so excited but scared. In the end, I delivered and looked at my baby girl: I was surprised to see that she had my grandmother's eyes. I knew then, without a shadow of a doubt, that my grandmother was with me. She was a part of my daughter. This was significant to me because I knew that I would always have her with me, her watching over me and me watching over her. It was a very special moment for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently gave birth to a baby daughter. This was a personal miracle for me because my daughter had presented problems during my pregnancy. In fact, my pregnancy was quite difficult. I wished, throughout my pregnancy, that my grandmother were here. I wanted to talk to her and get advice and comfort from her. Unfortunately, she had already passed away. I loved her very much - she was like a mother to me. Throughout my pregnancy, I continued to speak with her in my mind, convinced she could hear me. Afterward, I would feel much better. When it was time for my baby to be born, I was so excited but scared. In the end, I delivered and looked at my baby girl: I was surprised to see that she had my grandmother's eyes. I knew then, without a shadow of a doubt, that my grandmother was with me. She was a part of my daughter. This was significant to me because I knew that I would always have her with me, her watching over me and me watching over her. It was a very special moment for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f343d8ab58ca2-EWR"
+    }
+}

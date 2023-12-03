@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It happened about five months ago. I and my boyfriend were invited to a wedding ceremony. We had to go to Chicago for the wedding. It was a nice trip. We were excited about it. However, there was a nagging feeling of unhappiness bothering me. I could not get my mind off the fact he was about to be deployed. He is in the army, and after the wedding, he would go away. This ceremony was supposed to be a lovely getaway. We did make the best of it. We had as much fun as we could. We knew that after that, we had to say goodbye. It was hard. We stayed strong, and had fun regardless. We returned home afterward. We said our goodbyes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It happened about five months ago. I and my boyfriend were invited to a wedding ceremony. We had to go to Chicago for the wedding. It was a nice trip. We were excited about it. However, there was a nagging feeling of unhappiness bothering me. I could not get my mind off the fact he was about to be deployed. He is in the army, and after the wedding, he would go away. This ceremony was supposed to be a lovely getaway. We did make the best of it. We had as much fun as we could. We knew that after that, we had to say goodbye. It was hard. We stayed strong, and had fun regardless. We returned home afterward. We said our goodbyes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a beautiful experience, but I wish it didn't have to end.\n\n"
+            }
+        ],
+        "request_id": "811bda2bdcc82360-EWR"
+    }
+}

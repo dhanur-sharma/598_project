@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Yesterday was the big day! My wedding was the best day of my life so far. Everything went as planned without a hitch. The weather was perfect for mid-April; no rain, sunny skies, and a comfortable temperature. My favorite part of taking pictures at the park was when Olive was with us. I love that dog. I can remember the fluttering feeling in my heart perfectly as I walked down the aisle with my dad, trying to hold back tears. I was so nervous when Jake held my hands as RJ began the ceremony. I kept focusing on all of the people looking at me. Our first dance was perfect and romantic. At the end of the night, we were able to sneak up to the rooftop bar together. The cool night sky overlooking downtown was beautiful. Today we leave for our honeymoon. I'm overwhelmed by all of the love and gifts we received. I can't wait to spend the next week on the beach with my husband."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Yesterday was the big day! My wedding was the best day of my life so far. Everything went as planned without a hitch. The weather was perfect for mid-April; no rain, sunny skies, and a comfortable temperature. My favorite part of taking pictures at the park was when Olive was with us. I love that dog. I can remember the fluttering feeling in my heart perfectly as I walked down the aisle with my dad, trying to hold back tears. I was so nervous when Jake held my hands as RJ began the ceremony. I kept focusing on all of the people looking at me. Our first dance was perfect and romantic. At the end of the night, we were able to sneak up to the rooftop bar together. The cool night sky overlooking downtown was beautiful. Today we leave for our honeymoon. I'm overwhelmed by all of the love and gifts we received. I can't wait to spend the next week on the beach with my husband.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd2742ce10c94-EWR"
+    }
+}

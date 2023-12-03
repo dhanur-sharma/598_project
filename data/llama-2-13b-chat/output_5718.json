@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember fondly an event in the past few months.  My son, a few of his friends, and I traveled to nearby city to spend the night and see a touring version of a Broadway play.  We enjoyed a nice dinner, saw the musical, and then walked home to our hotel together.  It was a wonderful evening that I think of fondly and would like to relive sometime.  My son's favorite food to eat is Japanese, so we visited a fancy Ramen restaurant and I enjoyed a wonderful scallop salad due to my dietary restrictions.  Later, we went to the hotel and dressed up nicely for the show, then walked to the theater since it was walking distance from our hotel.  The play was bustling and exciting, and we all enjoyed it very much.   The next morning, we visited the zoo and saw many different animals.  My son's favorite are always the wolves, and his friends enjoyed seeing the penguins and the polar bears.  At the zoo, we had lunch at a cafe.  At the end of our zoo visit, we were all hot and tired, and stopped for cold drinks and ice cream.  After our drinks, we piled into the car for our drive home.  It was about a three hour drive.  We had the drive uneventfully, thanks to multiple drivers and good traffic patterns.  After returning home, we were excited to tell everyone about our wonderful trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember fondly an event in the past few months.  My son, a few of his friends, and I traveled to nearby city to spend the night and see a touring version of a Broadway play.  We enjoyed a nice dinner, saw the musical, and then walked home to our hotel together.  It was a wonderful evening that I think of fondly and would like to relive sometime.  My son's favorite food to eat is Japanese, so we visited a fancy Ramen restaurant and I enjoyed a wonderful scallop salad due to my dietary restrictions.  Later, we went to the hotel and dressed up nicely for the show, then walked to the theater since it was walking distance from our hotel.  The play was bustling and exciting, and we all enjoyed it very much.   The next morning, we visited the zoo and saw many different animals.  My son's favorite are always the wolves, and his friends enjoyed seeing the penguins and the polar bears.  At the zoo, we had lunch at a cafe.  At the end of our zoo visit, we were all hot and tired, and stopped for cold drinks and ice cream.  After our drinks, we piled into the car for our drive home.  It was about a three hour drive.  We had the drive uneventfully, thanks to multiple drivers and good traffic patterns.  After returning home, we were excited to tell everyone about our wonderful trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " "
+            }
+        ],
+        "request_id": "811f370fdfd017e9-EWR"
+    }
+}

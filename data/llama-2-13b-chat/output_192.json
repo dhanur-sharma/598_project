@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Today I found out my Dad passed away. It hurts that he's gone that's for sure, but it hurts even moreso that we were not in contact. Even though he had dementia I feel like I should have been there for him you know? I know it's been over two months, but the pain is still there. I think about him often. I think about how we weren't at the best of terms when we left. I wish things could have gone differently.  If I could go back in time I think I would find him before he got the dementia and spend as much time with him as possible. He would still get the disease but at least this time I would know not to leave him high and dry on bad terms like I did before. I guess it's moments like this that really make you think. You end up thinking about the things you have done. You start to think about the things you have said to people. It really makes you take a long, hard, look at your life and what you are doing with it. I wish I could bring him back. I wish I could see him one last time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Today I found out my Dad passed away. It hurts that he's gone that's for sure, but it hurts even moreso that we were not in contact. Even though he had dementia I feel like I should have been there for him you know? I know it's been over two months, but the pain is still there. I think about him often. I think about how we weren't at the best of terms when we left. I wish things could have gone differently.  If I could go back in time I think I would find him before he got the dementia and spend as much time with him as possible. He would still get the disease but at least this time I would know not to leave him high and dry on bad terms like I did before. I guess it's moments like this that really make you think. You end up thinking about the things you have done. You start to think about the things you have said to people. It really makes you take a long, hard, look at your life and what you are doing with it. I wish I could bring him back. I wish I could see him one last time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I know that is not possible. So I just hold on to the memories I do have of him.  \n\n"
+            }
+        ],
+        "request_id": "811e8d5cddaa0f79-EWR"
+    }
+}

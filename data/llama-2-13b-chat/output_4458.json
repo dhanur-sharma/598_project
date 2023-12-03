@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were on our way up to a new location that our company had recently opened.  There was still some work that needed to be done as well as some assessments of the location.  It was about mid morning as we were traveling north bound on the highway.  About 40 minutes into the drive traffic started to get a little heavier as we hit the Boston area.  My boss was to the right of me in the back seat and I had two fellow employees in the front.  All of a sudden I heard my boss say whoa! My fellow colleague whom was driving said the same thing.  I couldn't really see from my vantage point of what was occurring, but we had a box truck in front of us slam hard on its break.  We soon followed as well.  Traffic started to slow and it seemed to happen so quick.  All of a sudden you see a Fed-ex truck in front of the truck that was ahead of us swerve hard to the right.  Then it almost felt like a movie where things slowed down and the truck went head on into a guard rail and the back end of it turned into the guard rail and the truck flipped over on to its side over the rail.  Traffic came to a dead stop and we could see the driver unclip his seat belt and fall to the roof of the cab.  He then crawled out of the truck.  It was good to see him get out OK.  There were packages and debre everywhere."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were on our way up to a new location that our company had recently opened.  There was still some work that needed to be done as well as some assessments of the location.  It was about mid morning as we were traveling north bound on the highway.  About 40 minutes into the drive traffic started to get a little heavier as we hit the Boston area.  My boss was to the right of me in the back seat and I had two fellow employees in the front.  All of a sudden I heard my boss say whoa! My fellow colleague whom was driving said the same thing.  I couldn't really see from my vantage point of what was occurring, but we had a box truck in front of us slam hard on its break.  We soon followed as well.  Traffic started to slow and it seemed to happen so quick.  All of a sudden you see a Fed-ex truck in front of the truck that was ahead of us swerve hard to the right.  Then it almost felt like a movie where things slowed down and the truck went head on into a guard rail and the back end of it turned into the guard rail and the truck flipped over on to its side over the rail.  Traffic came to a dead stop and we could see the driver unclip his seat belt and fall to the roof of the cab.  He then crawled out of the truck.  It was good to see him get out OK.  There were packages and debre everywhere.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a surreal moment.  My first instinct was to get out and go help him.  Then it hit me that there could be a risk of fire and I was told to stay in the car.  My boss said it's best we just wait and see what happens.  I was relieved that he was OK.  After about 10 minutes the traffic started to move again and we were able to continue on our journey.  I couldn't get the image of the Fed-ex truck out of my head and the thought of what could have been.  It made me appreciate the safety of our trip and the fact that we had stopped for the day.  It was a sobering reminder of how quickly things can change and the importance of being vigilant on the road.\n\n"
+            }
+        ],
+        "request_id": "811bd74a7ee80f79-EWR"
+    }
+}

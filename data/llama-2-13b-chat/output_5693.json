@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have some exciting news to tell!  Our daughter finally got accepted into the Disney College Program!  We just got the news yesterday.  When my daughter came in to the house with the acceptance letter we were all eager to hear the outcome.  We're all so happy, that we decided to take a week vacation down at Disney and Clear Water Beach.  We have some work ahead of us to help our daughter move down to Florida.  We're going to get her ready to head down.  We currently live in Pennsylvania so it's a decently long trip.  We figured that we might as well get a short vacation out of it.  None of us have been to Disney World so it should get a great experience.  We're also going to hit up the beaches.  Clear water beach looks very nice this time of year.  Hopefully I don't forget to pack my swimsuit.  I don't think we've been to the beach in a long time, since there aren't any near us.  That should be a great experience as well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have some exciting news to tell!  Our daughter finally got accepted into the Disney College Program!  We just got the news yesterday.  When my daughter came in to the house with the acceptance letter we were all eager to hear the outcome.  We're all so happy, that we decided to take a week vacation down at Disney and Clear Water Beach.  We have some work ahead of us to help our daughter move down to Florida.  We're going to get her ready to head down.  We currently live in Pennsylvania so it's a decently long trip.  We figured that we might as well get a short vacation out of it.  None of us have been to Disney World so it should get a great experience.  We're also going to hit up the beaches.  Clear water beach looks very nice this time of year.  Hopefully I don't forget to pack my swimsuit.  I don't think we've been to the beach in a long time, since there aren't any near us.  That should be a great experience as well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We're all super excited and can't wait to get down there.  We're going to make some great memories!\n\n"
+            }
+        ],
+        "request_id": "811f368c5a0cc35f-EWR"
+    }
+}

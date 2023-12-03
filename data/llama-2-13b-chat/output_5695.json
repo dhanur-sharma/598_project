@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter got accepted to the Disney College Program.  We live in Pennsylvania and she was moving to Florida which was 16 hours away. We have been going to Disney every year since they were little and this was always her dream.  We had less then a month to get her to Florida and get all of her stuff moved in.  She ended up working in the safari ride at Animal kingdom.  I have two younger kids and they wanted to go say goodbye to her also.  We took the whole family and drove down to Florida.  We rented a van and it was so packed with all of her stuff. We stayed the week before and did a family vacation.   We went to all four Disney Parks and ate at lots of nice restaurants. We went to Clearwater Beach for one day.  We had a lot of fun but it was also very unnerving because we knew that she would be staying for the next six months.  She would be there for all of the holidays and not home till the end of January.  It was very hard to imagine not seeing my child for months at a time.   We had a good trip and I helped her move in but saying goodbye was very hard.  My wife cried about every 20 minutes in the car on the way home.   Even though we are so proud of her it was very hard to say goodbye."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter got accepted to the Disney College Program.  We live in Pennsylvania and she was moving to Florida which was 16 hours away. We have been going to Disney every year since they were little and this was always her dream.  We had less then a month to get her to Florida and get all of her stuff moved in.  She ended up working in the safari ride at Animal kingdom.  I have two younger kids and they wanted to go say goodbye to her also.  We took the whole family and drove down to Florida.  We rented a van and it was so packed with all of her stuff. We stayed the week before and did a family vacation.   We went to all four Disney Parks and ate at lots of nice restaurants. We went to Clearwater Beach for one day.  We had a lot of fun but it was also very unnerving because we knew that she would be staying for the next six months.  She would be there for all of the holidays and not home till the end of January.  It was very hard to imagine not seeing my child for months at a time.   We had a good trip and I helped her move in but saying goodbye was very hard.  My wife cried about every 20 minutes in the car on the way home.   Even though we are so proud of her it was very hard to say goodbye.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We had a great time on our family vacation but it was also very emotional.\n\n"
+            }
+        ],
+        "request_id": "811f3698990242b1-EWR"
+    }
+}

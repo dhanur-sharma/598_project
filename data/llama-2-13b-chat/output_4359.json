@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently returned from a vacation to California.  I had always wanted to visit Coronado, an island off the coast of San Diego. My family came with as a last minute back to school trip. Our trip started out with a delay at the airport, as the plane did not have any pilots. After a few hours delay we were on our way. Due to our late start, we didn't arrive at our hotel until midnight local time. We were all tired from traveling so we went to bed. Around 3:00 am I woke up to find the bathroom light was on. I thought one of my kids must have gotten up and left it on, so I went and shut it off. Around 4:00 am I woke again to find the bathroom light on. Again I turned it off. In the morning everyone claimed to not have turned it on. The next night it happened at least four times, it was freaky. By day three the bathroom light was turning off and on as we were in the bathroom. We inquired at the front desk, but ultimately they did not have any answers. It was an interesting trip to Hotel Del Coronado."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently returned from a vacation to California.  I had always wanted to visit Coronado, an island off the coast of San Diego. My family came with as a last minute back to school trip. Our trip started out with a delay at the airport, as the plane did not have any pilots. After a few hours delay we were on our way. Due to our late start, we didn't arrive at our hotel until midnight local time. We were all tired from traveling so we went to bed. Around 3:00 am I woke up to find the bathroom light was on. I thought one of my kids must have gotten up and left it on, so I went and shut it off. Around 4:00 am I woke again to find the bathroom light on. Again I turned it off. In the morning everyone claimed to not have turned it on. The next night it happened at least four times, it was freaky. By day three the bathroom light was turning off and on as we were in the bathroom. We inquired at the front desk, but ultimately they did not have any answers. It was an interesting trip to Hotel Del Coronado.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd53cae0b4388-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended my fathers funeral about a month ago.  I was shocked and surprised by his death.  When I got ready in the morning, I couldn't hold it together.  I was scared that I would break down and not be able to talk to the people at the service.  I knew that I had to deliver a message at the funeral and I was extremely nervous that I wouldn't be able to get through it.  I wen't  with my sister to the funeral.  We greeted our family and friends and took our seats.  I lost it.  I couldn't bear to see my Dad dead laying in front of me.  He looked nothing like himself.  I tried to regain my composure with no success.  I got angry and scared, why did this happen?  It was my turn to speak and I was shaking.  I didn't think that I would make it through.  I got up and delivered my words with grace and held my composure.  I was proud of myself, but I ached inside for my family and my Dad.  I knew I had to be strong for my mom, so I kept many of my feelings inside.  Since his death, I still feel angry and sad but I am making progress."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended my fathers funeral about a month ago.  I was shocked and surprised by his death.  When I got ready in the morning, I couldn't hold it together.  I was scared that I would break down and not be able to talk to the people at the service.  I knew that I had to deliver a message at the funeral and I was extremely nervous that I wouldn't be able to get through it.  I wen't  with my sister to the funeral.  We greeted our family and friends and took our seats.  I lost it.  I couldn't bear to see my Dad dead laying in front of me.  He looked nothing like himself.  I tried to regain my composure with no success.  I got angry and scared, why did this happen?  It was my turn to speak and I was shaking.  I didn't think that I would make it through.  I got up and delivered my words with grace and held my composure.  I was proud of myself, but I ached inside for my family and my Dad.  I knew I had to be strong for my mom, so I kept many of my feelings inside.  Since his death, I still feel angry and sad but I am making progress.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am trying to be strong and help my mom through this difficult time.  I know that I will never forget my Dad, and I will always miss him.\n\n"
+            }
+        ],
+        "request_id": "811f497dadca0c78-EWR"
+    }
+}

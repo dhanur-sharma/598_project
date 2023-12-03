@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was recently looking for a job. I decided to apply at a well-known retail chain. They are famous for having good benefits and paying a living wage. I went in to apply for the job and had a really good interview. Both people conducting the interview seemed to like me. I was ready for all their questions. I felt at ease. I was quickly called back for a second interview. I didn't feel the same level of rapport that I had in the first interview. Even though it didn't go as well as the first round, i still thought I was a great fit for this company. I waited for a couple weeks and I started to feel nervous. Finally they called and told me they weren't going to hire me. I was beginning to feel hopeful. I was pretty devastated as I needed a job with a future. I'm still looking for a good job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was recently looking for a job. I decided to apply at a well-known retail chain. They are famous for having good benefits and paying a living wage. I went in to apply for the job and had a really good interview. Both people conducting the interview seemed to like me. I was ready for all their questions. I felt at ease. I was quickly called back for a second interview. I didn't feel the same level of rapport that I had in the first interview. Even though it didn't go as well as the first round, i still thought I was a great fit for this company. I waited for a couple weeks and I started to feel nervous. Finally they called and told me they weren't going to hire me. I was beginning to feel hopeful. I was pretty devastated as I needed a job with a future. I'm still looking for a good job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f41e1883f3354-EWR"
+    }
+}

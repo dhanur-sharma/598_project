@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I resigned from my job as a teacher. If I were just resigning from a normal job, it would be one thing. This, however, cut me to my core. I had worked for the previous 3 years to build up my classes and program. I had invested countless hours, tears, and a mountain of effort into this job and these students. I truly cared about them, and they knew it and cared about me as well. During my time as a teacher, I felt more as though my students were my coworkers than the other teachers. There were some students that I communicated with more than my own family at times. It broke my heart to tell all of them that I wouldn't be returning to school next year. I picked a day when I would see each of my 6 sections of classes, and told each class, one by one, sometimes through tears. I explained that the decision had nothing to do with them and everything to do with low teacher pay. They understood my situation completely. Teachers are underpaid and overworked. They all wished me well, and I still keep in touch with some of them. They had a profound impact on my life, and I will carry lessons learned with me forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I resigned from my job as a teacher. If I were just resigning from a normal job, it would be one thing. This, however, cut me to my core. I had worked for the previous 3 years to build up my classes and program. I had invested countless hours, tears, and a mountain of effort into this job and these students. I truly cared about them, and they knew it and cared about me as well. During my time as a teacher, I felt more as though my students were my coworkers than the other teachers. There were some students that I communicated with more than my own family at times. It broke my heart to tell all of them that I wouldn't be returning to school next year. I picked a day when I would see each of my 6 sections of classes, and told each class, one by one, sometimes through tears. I explained that the decision had nothing to do with them and everything to do with low teacher pay. They understood my situation completely. Teachers are underpaid and overworked. They all wished me well, and I still keep in touch with some of them. They had a profound impact on my life, and I will carry lessons learned with me forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd6ac9f03c439-EWR"
+    }
+}

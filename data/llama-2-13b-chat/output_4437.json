@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I knew what I had to do to achieve my dreams.  I needed my degree.  To get my degree, I had to pass the CompTIA exam.  I knew it would be hard.  I decided to be studious.  I studied everyday.  I didn't watch tv at all.  I didn't hang out with friends.  I grabbed my text book and studied for 4 hours a day.  It was very intense.  On the day of the exam, I was prepared.  I answered every question as best as I could.  I ended up passing with flying colors.   I actually got a perfect score. I was the only person to ever do that.  This was the highest achievement of my life thus far.  I was proud of myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I knew what I had to do to achieve my dreams.  I needed my degree.  To get my degree, I had to pass the CompTIA exam.  I knew it would be hard.  I decided to be studious.  I studied everyday.  I didn't watch tv at all.  I didn't hang out with friends.  I grabbed my text book and studied for 4 hours a day.  It was very intense.  On the day of the exam, I was prepared.  I answered every question as best as I could.  I ended up passing with flying colors.   I actually got a perfect score. I was the only person to ever do that.  This was the highest achievement of my life thus far.  I was proud of myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd6d99ce243fb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to a American Quarter Horse Show in Camden, South Carolina. The show took place the middle of April. While at the show, we watched several extremely talented riders. There were several different disciplines including showmanship, roping, and reigning. In showmanship, the rider walked to horse out into the arena to be judged. While they are being judged, they are asked to do several different tasks. These tasks can be walking, running, backing up, or turning the horse. Whenever a rider is showing their horse, the stay on the opposite side of the judge, so they are not in the way. Roping is when you have the rider behind a locked gate. A person at another gate releases an animal, usually a calf. The rider rides in to throw a rope around the calf's neck. If the rider is successful, they are timed. The times are ranked. The person with the best time wins that round. Next, Reigning is when a rider comes in riding their horse. The horse and rider are challenged with several different tasks, many which consist of spinning. Spinning is making tight circles while going as fast as the rider can. At the end of their presentation, they often run the horse and have then slide into a sitting position. Reigning is a difficult class, but one that is especially fun to watch. If you ever have the chance to attend an American Quarter Horse Show, you will not regret it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to a American Quarter Horse Show in Camden, South Carolina. The show took place the middle of April. While at the show, we watched several extremely talented riders. There were several different disciplines including showmanship, roping, and reigning. In showmanship, the rider walked to horse out into the arena to be judged. While they are being judged, they are asked to do several different tasks. These tasks can be walking, running, backing up, or turning the horse. Whenever a rider is showing their horse, the stay on the opposite side of the judge, so they are not in the way. Roping is when you have the rider behind a locked gate. A person at another gate releases an animal, usually a calf. The rider rides in to throw a rope around the calf's neck. If the rider is successful, they are timed. The times are ranked. The person with the best time wins that round. Next, Reigning is when a rider comes in riding their horse. The horse and rider are challenged with several different tasks, many which consist of spinning. Spinning is making tight circles while going as fast as the rider can. At the end of their presentation, they often run the horse and have then slide into a sitting position. Reigning is a difficult class, but one that is especially fun to watch. If you ever have the chance to attend an American Quarter Horse Show, you will not regret it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The show was a blast and I learned a lot about the different disciplines."
+            }
+        ],
+        "request_id": "811f4595f9e019ff-EWR"
+    }
+}

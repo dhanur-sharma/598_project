@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a hectic month. Ever since I got the promotion to regional manager I haven't had a second to breathe, or write. I found out from my boss that I had been selected for the role of regional manager at my company. I was so proud! I was thrilled at the idea of more responsibility and more money. I would have a bigger office and my own personal assistant. I was sure the pay increase for such a promotion would be pretty substantial. I didn't want to seem ungrateful so I didn't really ask for specifics about the raise when I was offered the promotion. I knew it had to be a lot of money, and I wanted the promotion. I accepted and got caught up int he excitement. Later that day I was called into human resources to sign some paperwork detailing the new position and my responsibilities. I started reading the formal offer and was shocked to see that the amount of money I would be making was not much more than I was currently making. I actually asked the HR director if it was a typo, there was no way that was the correct salary. I would have a ton more work to do, and I would hardly ever be home. She assured me that was not a typo, that was the salary. I was devastated. I had already started planning what I would spend all my money on, and now there was no money. I still accepted the position, if I turned it down I would have to leave the company. It has been a few weeks now and while I love the job I am still pretty bitter about the pay. I think I will give it a few months and let my performance speak for itself. By this time next year if I do not get offered a raise I will have to start thinking about finding a new job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a hectic month. Ever since I got the promotion to regional manager I haven't had a second to breathe, or write. I found out from my boss that I had been selected for the role of regional manager at my company. I was so proud! I was thrilled at the idea of more responsibility and more money. I would have a bigger office and my own personal assistant. I was sure the pay increase for such a promotion would be pretty substantial. I didn't want to seem ungrateful so I didn't really ask for specifics about the raise when I was offered the promotion. I knew it had to be a lot of money, and I wanted the promotion. I accepted and got caught up int he excitement. Later that day I was called into human resources to sign some paperwork detailing the new position and my responsibilities. I started reading the formal offer and was shocked to see that the amount of money I would be making was not much more than I was currently making. I actually asked the HR director if it was a typo, there was no way that was the correct salary. I would have a ton more work to do, and I would hardly ever be home. She assured me that was not a typo, that was the salary. I was devastated. I had already started planning what I would spend all my money on, and now there was no money. I still accepted the position, if I turned it down I would have to leave the company. It has been a few weeks now and while I love the job I am still pretty bitter about the pay. I think I will give it a few months and let my performance speak for itself. By this time next year if I do not get offered a raise I will have to start thinking about finding a new job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so sure I was going to be making a lot more money. I guess I should have done my research before accepting the promotion."
+            }
+        ],
+        "request_id": "811f4439c9ed425e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was rainy last Tuesday but my Alice still wanted to go out to Walmart and get her promised toy. On the left there was water crossing over the road to the other side. It seemed to have been flowing from one swamp to another.  It wasn't raining, so I felt this was a very odd thing to have happen during summer.  We suddenly hit the water and started fishtailing it. The car started to slide all over and I was losing the ability to control it.  I was so scared and she was screaming in her car seat.  The car turned and crashed into a tree.  I was horrified. I thought I killed my daughter, but I could hear her screaming. Well she had bumped her head but no bleeding. I called 911 to come find us but they could't find our road on the system.  We were on an old back road which had flooded. I was able to get myself out of the car and Alice out as well. Finally the 911 operator had said she found us. I was very grateful for it. Once we were check out we both had to go to the hospital in an ambulance as I had a broken arm and poor Alice had a concussion. The poor dear. I felt so bad for her, but I was thankful we were both alive and ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was rainy last Tuesday but my Alice still wanted to go out to Walmart and get her promised toy. On the left there was water crossing over the road to the other side. It seemed to have been flowing from one swamp to another.  It wasn't raining, so I felt this was a very odd thing to have happen during summer.  We suddenly hit the water and started fishtailing it. The car started to slide all over and I was losing the ability to control it.  I was so scared and she was screaming in her car seat.  The car turned and crashed into a tree.  I was horrified. I thought I killed my daughter, but I could hear her screaming. Well she had bumped her head but no bleeding. I called 911 to come find us but they could't find our road on the system.  We were on an old back road which had flooded. I was able to get myself out of the car and Alice out as well. Finally the 911 operator had said she found us. I was very grateful for it. Once we were check out we both had to go to the hospital in an ambulance as I had a broken arm and poor Alice had a concussion. The poor dear. I felt so bad for her, but I was thankful we were both alive and ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3653a889b9c5-EWR"
+    }
+}

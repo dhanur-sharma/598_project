@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband is from Australia. He moved to the US in January 2017 after my Australian visa was used up. We did not know what we were going to do, but we figured it out. He got his green card in 2018. It was a hard time as we had little money. Our job situations were not stable and we had a lot of times when we had no money and we were unsure of things. It caused a lot of pressure in our relationship. Last August, we had money saved and we filed for my spouse visa for Australia. It was very expensive and cost about $15,000. We decided that living in Ausralia would be best for us and would make us the most happy. We knew we would be waiting for a long time for the partner visa. There was no word from Australia aside from our confirmation and a cashed check for over 11 months. Last week, after 341 days our visa was granted! We were very surprised and happy! Since then, we have booked one-way flights and hired movers. We are moving back to Australia!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband is from Australia. He moved to the US in January 2017 after my Australian visa was used up. We did not know what we were going to do, but we figured it out. He got his green card in 2018. It was a hard time as we had little money. Our job situations were not stable and we had a lot of times when we had no money and we were unsure of things. It caused a lot of pressure in our relationship. Last August, we had money saved and we filed for my spouse visa for Australia. It was very expensive and cost about $15,000. We decided that living in Ausralia would be best for us and would make us the most happy. We knew we would be waiting for a long time for the partner visa. There was no word from Australia aside from our confirmation and a cashed check for over 11 months. Last week, after 341 days our visa was granted! We were very surprised and happy! Since then, we have booked one-way flights and hired movers. We are moving back to Australia!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are very excited to start our new life there!\n\n"
+            }
+        ],
+        "request_id": "811bdd355eca41fe-EWR"
+    }
+}

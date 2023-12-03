@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past Sunday I was taking my dog outside to your this bathroom.  I headed down four brick stairs and allowed him to pee.  I made my way back up the stairs to the top ready to head back in the house.  Suddenly, my dog decided he wasn't finished using the restroom.  I turned around to go back down the stairs but my foot missed the next step and I feel sideways, landing on my left arm.  I was a bit stunned at first. I looked at my bloody palm as I lie there.  I began to slowly sit up.  Once I sat up, I broke into a sweat and felt nauseous.  I thought I was going to pass out.  I called for my husband who was inside eating breakfast. It took several calls before he found me.  I knew something wasn't right.  I had him take my dog back in the house while I tried to make my way back up the stairs from which I just fell.  I looked in the mirror and noticed by arm was bent and I could not straighten it.  I went to the urgent care and my fears were confirmed...I had broken my arm.  A nice Sunday at home turned into a day of dread and pain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past Sunday I was taking my dog outside to your this bathroom.  I headed down four brick stairs and allowed him to pee.  I made my way back up the stairs to the top ready to head back in the house.  Suddenly, my dog decided he wasn't finished using the restroom.  I turned around to go back down the stairs but my foot missed the next step and I feel sideways, landing on my left arm.  I was a bit stunned at first. I looked at my bloody palm as I lie there.  I began to slowly sit up.  Once I sat up, I broke into a sweat and felt nauseous.  I thought I was going to pass out.  I called for my husband who was inside eating breakfast. It took several calls before he found me.  I knew something wasn't right.  I had him take my dog back in the house while I tried to make my way back up the stairs from which I just fell.  I looked in the mirror and noticed by arm was bent and I could not straighten it.  I went to the urgent care and my fears were confirmed...I had broken my arm.  A nice Sunday at home turned into a day of dread and pain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm grateful that it wasn't anything worse and I'm determined to be more careful going down stairs from now on.\n\n"
+            }
+        ],
+        "request_id": "811ec60a69aa0f93-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Life has changed so much in the past week. Kallie was born and thankfully is doing really well. We had our doubts about everything due to how much went wrong. It started earlier that day, my wife had contractions that were strong and a few minutes apart. It seemed really sudden, but this was our first daughter so we had no idea what to expect. We go to the hospital as soon as we could and she gets taken to a room. I am left to fill out paperwork and make sure that my doctor knows what is going on. I get to go to the room after everyone is settled in and my wife's blood pressure starts going up really high. I call the nurse and she comes in and the doctors come in and soon they are saying they need to dilate her faster. I have no idea what is going on! They end up rushing her to the labor and delivery room and I think that this is it. I had no idea all of the rushing wasn't normal! I just thought this was how it was! I called our parents and family and told them about the baby was coming. The doctor came and told me that they were having to do a C-Section on my wife. I had no idea what they meant, but he explained that there were some issues with the cord and the baby and that was the safest way to get the baby out. After hours of waiting, I was able to see my wife and Kallie. I am just grateful everyone is fine. Turns out that whole thing isn't normal and it could have been really bad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Life has changed so much in the past week. Kallie was born and thankfully is doing really well. We had our doubts about everything due to how much went wrong. It started earlier that day, my wife had contractions that were strong and a few minutes apart. It seemed really sudden, but this was our first daughter so we had no idea what to expect. We go to the hospital as soon as we could and she gets taken to a room. I am left to fill out paperwork and make sure that my doctor knows what is going on. I get to go to the room after everyone is settled in and my wife's blood pressure starts going up really high. I call the nurse and she comes in and the doctors come in and soon they are saying they need to dilate her faster. I have no idea what is going on! They end up rushing her to the labor and delivery room and I think that this is it. I had no idea all of the rushing wasn't normal! I just thought this was how it was! I called our parents and family and told them about the baby was coming. The doctor came and told me that they were having to do a C-Section on my wife. I had no idea what they meant, but he explained that there were some issues with the cord and the baby and that was the safest way to get the baby out. After hours of waiting, I was able to see my wife and Kallie. I am just grateful everyone is fine. Turns out that whole thing isn't normal and it could have been really bad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am just grateful that my wife and baby are doing well."
+            }
+        ],
+        "request_id": "811f3a372fe13308-EWR"
+    }
+}

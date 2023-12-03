@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: AT the camp, we also built a fire and sang old songs.  Around the fire we told ghost stories that sent chills up our spines.  We had some light beer and had some good laughs.  The cascading waterfalls were amazing.  The water was very loud. We could hardly hear each other talking.  The waterfalls were more than 20 feet high.  At the bottom where water fell it was very deep. At the arcade , we played some of the old favorites like pacman and space invaders.  Ping ball machines were also available.  I loved playing ping balls when I was in my youth.  I still love it.  At the tag-sales I picked up an antique vase.  It was white  and Victorian style.  It was a true treasure to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: AT the camp, we also built a fire and sang old songs.  Around the fire we told ghost stories that sent chills up our spines.  We had some light beer and had some good laughs.  The cascading waterfalls were amazing.  The water was very loud. We could hardly hear each other talking.  The waterfalls were more than 20 feet high.  At the bottom where water fell it was very deep. At the arcade , we played some of the old favorites like pacman and space invaders.  Ping ball machines were also available.  I loved playing ping balls when I was in my youth.  I still love it.  At the tag-sales I picked up an antique vase.  It was white  and Victorian style.  It was a true treasure to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The camping trip was a great success.\n\n"
+            }
+        ],
+        "request_id": "811bdabb4aba42fb-EWR"
+    }
+}

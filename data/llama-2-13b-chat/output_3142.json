@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About eight months ago, my wife and I had an epiphany. We  always had both always dreamed of opening up our own store. Both of us were sick of having a boss over our shoulder. We figured it would be best to be our own boss and to sell what we wanted to the public. We both had been baking together as a hobby and had gotten quite good at it. In particular we made the best cheesecake either of us ever had. Many of our friends had suggested that we open a bakery in the past. We figured it was finally time. First step was to find a storefront. Luckily I had a friend who was moving and owned a small diner. He said he would sell to us cheap. Now for additional expenses. We needed new baking equipment, so I went to the bank to take out a loan. Initially the bank had turned us down and I was pretty upset about it. But the next day we had gotten a phone call saying that after reviewing our information we would get the loan after all. We were both really happy in today we have a slowly growing bakery. Are cheesecake being the number one selling item."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About eight months ago, my wife and I had an epiphany. We  always had both always dreamed of opening up our own store. Both of us were sick of having a boss over our shoulder. We figured it would be best to be our own boss and to sell what we wanted to the public. We both had been baking together as a hobby and had gotten quite good at it. In particular we made the best cheesecake either of us ever had. Many of our friends had suggested that we open a bakery in the past. We figured it was finally time. First step was to find a storefront. Luckily I had a friend who was moving and owned a small diner. He said he would sell to us cheap. Now for additional expenses. We needed new baking equipment, so I went to the bank to take out a loan. Initially the bank had turned us down and I was pretty upset about it. But the next day we had gotten a phone call saying that after reviewing our information we would get the loan after all. We were both really happy in today we have a slowly growing bakery. Are cheesecake being the number one selling item.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We love our store and the freedom it has given us."
+            }
+        ],
+        "request_id": "811ec4b3ad114398-EWR"
+    }
+}

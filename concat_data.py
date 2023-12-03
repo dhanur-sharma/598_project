@@ -12,7 +12,7 @@ csv_subset['label'] = 1
 # print(csv_subset[:3])
 # exit()
 
-json_folder_path = 'data/llama-2-13b-chat'
+json_folder_path = 'data/llama-2-70b-chat/outputs'
 json_data_list = []
 
 for filename in os.listdir(json_folder_path):
@@ -41,4 +41,4 @@ result_df = csv_subset.append(json_df)
 
 print(result_df)
 
-result_df.to_csv('data/combined.csv', index=False)
+result_df.to_csv('data/combined_70b.csv', index=False)

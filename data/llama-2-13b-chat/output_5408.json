@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently lost my job and this sent me into a deep depression. I was working for a home delivery service. I delivered alcohol and groceries. This was a great job and I earned a decent amount of money each week. I was fired for making too much money. There are orders with promos attached to them. Apparently you cant collect too many of these or they will deem you unprofitable and fire you. When I lost my job I went into a deep depression. I was having issues with my wife and had to go stay with my brother for a few days. When I was there I decided that I need help so I called 911 and told them that I was feeling like I wanted to hurt myself. They sent some very kind officers and also an ambulance. I went into a behavioral medical center. I participated in groups and I also got my medications back. I was discharged after I no longer had suicidal thoughts. I went back home and moved all my stuff to a storage unit and moved my family back in with my parents where I am today. I am sad that I still do not have a job but I am glad that I have less things to worry about."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently lost my job and this sent me into a deep depression. I was working for a home delivery service. I delivered alcohol and groceries. This was a great job and I earned a decent amount of money each week. I was fired for making too much money. There are orders with promos attached to them. Apparently you cant collect too many of these or they will deem you unprofitable and fire you. When I lost my job I went into a deep depression. I was having issues with my wife and had to go stay with my brother for a few days. When I was there I decided that I need help so I called 911 and told them that I was feeling like I wanted to hurt myself. They sent some very kind officers and also an ambulance. I went into a behavioral medical center. I participated in groups and I also got my medications back. I was discharged after I no longer had suicidal thoughts. I went back home and moved all my stuff to a storage unit and moved my family back in with my parents where I am today. I am sad that I still do not have a job but I am glad that I have less things to worry about.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am also grateful for my family and my friends. I know I can get through this with their help.\n\n"
+            }
+        ],
+        "request_id": "811f30ebda9d18d0-EWR"
+    }
+}

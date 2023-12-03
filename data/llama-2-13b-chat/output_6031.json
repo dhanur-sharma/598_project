@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I went on a hiking adventure in 2019. I went with several family member. We decided to hike the top of Mt. Leconte. It was a fun experience. My father got some brown boots and brown pants for the hike. My mother dressed in all black. My brothers and sisters decided to dress in all white. It was a big adventure. There was a panic at one point. My brother slipped in the middle of the hike. I thought he might of gotten injured. He only got a small scrape and we continued on. It took a few hours to reach the top. We celebrated with a big picnic. It was a feast of some chicken and apple pies."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I went on a hiking adventure in 2019. I went with several family member. We decided to hike the top of Mt. Leconte. It was a fun experience. My father got some brown boots and brown pants for the hike. My mother dressed in all black. My brothers and sisters decided to dress in all white. It was a big adventure. There was a panic at one point. My brother slipped in the middle of the hike. I thought he might of gotten injured. He only got a small scrape and we continued on. It took a few hours to reach the top. We celebrated with a big picnic. It was a feast of some chicken and apple pies.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We enjoyed the view from the top. We could see for miles. I was so happy that we made it to the top. I will never forget this adventure.\n\n"
+            }
+        ],
+        "request_id": "811f3d6f1a0cc33e-EWR"
+    }
+}

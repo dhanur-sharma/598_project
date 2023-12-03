@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a memorable day earlier this year that i would never forget. It was my sisters birthday. I got invited to go to Disneyland with her and some other family members. I was excited but i also didn't know what to expect. The trip getting there was not too bad. Only about an hour from where i lived. It was a maze just getting from the parking lot to the ticket booth. There was tram for every part of the park which was nice. The prices were crazy but i was just glad i was not the one paying for it. I went in with low expectations but all of that changed shortly afterwards. I got in on several rides to start and was blown away. It was like being in an entire different world. The only thing i did not like were the large crowds. I had lunch afterwards. The food was great but the prices were not. Got on some more rides afterwards until i could not no more. I took some picture while i was there so i could later recall the memorable day i had. I can see why they call it the happiest place eon earth."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a memorable day earlier this year that i would never forget. It was my sisters birthday. I got invited to go to Disneyland with her and some other family members. I was excited but i also didn't know what to expect. The trip getting there was not too bad. Only about an hour from where i lived. It was a maze just getting from the parking lot to the ticket booth. There was tram for every part of the park which was nice. The prices were crazy but i was just glad i was not the one paying for it. I went in with low expectations but all of that changed shortly afterwards. I got in on several rides to start and was blown away. It was like being in an entire different world. The only thing i did not like were the large crowds. I had lunch afterwards. The food was great but the prices were not. Got on some more rides afterwards until i could not no more. I took some picture while i was there so i could later recall the memorable day i had. I can see why they call it the happiest place eon earth.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was truly magical.\n\n"
+            }
+        ],
+        "request_id": "811f3f7c9e2c18b4-EWR"
+    }
+}

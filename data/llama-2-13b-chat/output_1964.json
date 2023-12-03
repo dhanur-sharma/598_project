@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was a busy day. I finished my last day at my dead-end job. It was a sense of relief to be able to quit a job that I hated so much. Now, I need to make sure I get my final pay before leaving. I'm not sure if I will get the bonus or not, but I am hopeful. There is still a lot needed to done at home. I still need to meet with the landlord to go over any possible damages. I also need to clean and sell some of my remaining items. I still haven't even started packing. That is the scariest part! I am relocating to halfway around the world and am not ready to move with all my stuff like this. However, work-wise I am really ready to go. I haven't felt this happy in months. I really didn't like this job and felt like I was pushing through most days or not. It is scary not knowing what my future will be since I don't have a job lined up. However, I know I will be able to do this. It is a scary leap but it is better than staying here forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was a busy day. I finished my last day at my dead-end job. It was a sense of relief to be able to quit a job that I hated so much. Now, I need to make sure I get my final pay before leaving. I'm not sure if I will get the bonus or not, but I am hopeful. There is still a lot needed to done at home. I still need to meet with the landlord to go over any possible damages. I also need to clean and sell some of my remaining items. I still haven't even started packing. That is the scariest part! I am relocating to halfway around the world and am not ready to move with all my stuff like this. However, work-wise I am really ready to go. I haven't felt this happy in months. I really didn't like this job and felt like I was pushing through most days or not. It is scary not knowing what my future will be since I don't have a job lined up. However, I know I will be able to do this. It is a scary leap but it is better than staying here forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will be able to start fresh and make a new life for myself."
+            }
+        ],
+        "request_id": "811eadd08a941839-EWR"
+    }
+}

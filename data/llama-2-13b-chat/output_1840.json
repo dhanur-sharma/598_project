@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I decided to take a relaxing weekend away for our anniversary. My wife and I had dropped off the kids at my parents to watch them for the weekend. We drove up to Asheville for the long weekend and checked into our hotel. We went out to a fancy restaurant the first night and drank wine and had a peaceful and relaxing dinner. We were able to talk and enjoy each others company.  After dinner we went back to the hotel and had a relaxing bath. We were able to make love without any children needing our attention. On the next day, we walked around downtown Asheville and looked at different shops. We looked at the different artists shops that worked on metal and glass and some painters. We searched through some kitchen shops looking for some fun gadgets and ingredients to cook with. Afterwards we went to some brewery tours and relaxed around town. We went on a bar crawl where we ate and drank through some nice restaurants. This moment was significant because it celebrated our relationship together. We were able to take our time and relax and enjoy each other which made the moment special since our lives get too busy raising three kids. These moments don't come often and it is a nice way to remind ourselves how much we have in common."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I decided to take a relaxing weekend away for our anniversary. My wife and I had dropped off the kids at my parents to watch them for the weekend. We drove up to Asheville for the long weekend and checked into our hotel. We went out to a fancy restaurant the first night and drank wine and had a peaceful and relaxing dinner. We were able to talk and enjoy each others company.  After dinner we went back to the hotel and had a relaxing bath. We were able to make love without any children needing our attention. On the next day, we walked around downtown Asheville and looked at different shops. We looked at the different artists shops that worked on metal and glass and some painters. We searched through some kitchen shops looking for some fun gadgets and ingredients to cook with. Afterwards we went to some brewery tours and relaxed around town. We went on a bar crawl where we ate and drank through some nice restaurants. This moment was significant because it celebrated our relationship together. We were able to take our time and relax and enjoy each other which made the moment special since our lives get too busy raising three kids. These moments don't come often and it is a nice way to remind ourselves how much we have in common.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were able to enjoy each other's company and celebrate our love for each other.\n\n"
+            }
+        ],
+        "request_id": "811eabc9482b4344-EWR"
+    }
+}

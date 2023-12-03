@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got in a little argument with my roommate.  She got mad at my dog for jumping on the coach, and I overreacted to her. A lot of other things came out. I found out that she thinks that I attack her verbally, and I found out that she is resentful towards my dog. It was a good conversation in the end, because I found out how she felt. She also found out how I felt. I was disappointed in myself because I decided before that I would not get into a dispute like that, and since I did, I was not happy. I hope it never happens again. We are good friends. I know that we both want peace. We both have strong opinions. She is a great person. I want to grow. I want to have a good friendship. I want us both to be happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got in a little argument with my roommate.  She got mad at my dog for jumping on the coach, and I overreacted to her. A lot of other things came out. I found out that she thinks that I attack her verbally, and I found out that she is resentful towards my dog. It was a good conversation in the end, because I found out how she felt. She also found out how I felt. I was disappointed in myself because I decided before that I would not get into a dispute like that, and since I did, I was not happy. I hope it never happens again. We are good friends. I know that we both want peace. We both have strong opinions. She is a great person. I want to grow. I want to have a good friendship. I want us both to be happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaea28efc0f83-EWR"
+    }
+}

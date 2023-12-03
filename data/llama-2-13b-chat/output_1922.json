@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: As you know, I am not a person who likes to do things on my own. I have a bit of a fear of things like that. Imagine  how I felt being asked my Mike if I wanna go with him to Colorado to hike a mountain. I am not adventurous at all either so this sort of thing takes me by surprise. I can't say that I was into the idea, but I went along with it despite being weary of it. Going to Colorado was a quick trip. I expected it to take longer, but me and Mike talked the whole time so time passed really fast for us. We went to a store to rent hiking gear and ended up asking about the mountains to hike there. We decided on Mt. Ouray. I have no idea, but that was the one we went with. The next day, Mike was sick and couldn't go hiking. I had already paid for my things and Mike urged me to not waste the money and just go anyway. So I did. I ended up being scared most of the time. What if something happened to me?! Soon after all the worry, I had reached the peak! 13,960 ft in the sky and I did it on my own. I had never felt more confident in myself in my life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: As you know, I am not a person who likes to do things on my own. I have a bit of a fear of things like that. Imagine  how I felt being asked my Mike if I wanna go with him to Colorado to hike a mountain. I am not adventurous at all either so this sort of thing takes me by surprise. I can't say that I was into the idea, but I went along with it despite being weary of it. Going to Colorado was a quick trip. I expected it to take longer, but me and Mike talked the whole time so time passed really fast for us. We went to a store to rent hiking gear and ended up asking about the mountains to hike there. We decided on Mt. Ouray. I have no idea, but that was the one we went with. The next day, Mike was sick and couldn't go hiking. I had already paid for my things and Mike urged me to not waste the money and just go anyway. So I did. I ended up being scared most of the time. What if something happened to me?! Soon after all the worry, I had reached the peak! 13,960 ft in the sky and I did it on my own. I had never felt more confident in myself in my life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had to sit down for a bit, but I made it! I was so proud of myself for pushing through my fears and doing something I never thought I could do."
+            }
+        ],
+        "request_id": "811ead333a8a5e6b-EWR"
+    }
+}

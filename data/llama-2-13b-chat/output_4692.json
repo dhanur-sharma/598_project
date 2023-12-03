@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was working on my tasks as usual when my manager asked me if I could go help the other restaurant since someone had called out and they got more busy than usual. I said ok. It had been a while since I visited that restaurant. When I walked in, I saw many different faces. The place felt out of order and everyone's face was new to me. I stand in the middle and introduce myself. I forgot exatly what I said but everyone in there ignored me. As the day went by at work I caught myself feeling frustrated and somehow pushy and rude. One coworker told me to chill and take a breather. I got even more challanged, so I started ranting about the things that I tought should be organized. Soon I found myself complaning about everyhting and not helping to my best or even working.  I had then realized that I entered their enviroment and that I was there to HELP them & not ORGANIZE or try to work  the place the way I usually do at the other restaurant. I realized I had let my ego get the best of me. It was embarrasing after I left work because even in the owners face looked disappointed in me. I learned not to get too big headded after that. I deliver good work but that's all I shouldn't try to be above my peers."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was working on my tasks as usual when my manager asked me if I could go help the other restaurant since someone had called out and they got more busy than usual. I said ok. It had been a while since I visited that restaurant. When I walked in, I saw many different faces. The place felt out of order and everyone's face was new to me. I stand in the middle and introduce myself. I forgot exatly what I said but everyone in there ignored me. As the day went by at work I caught myself feeling frustrated and somehow pushy and rude. One coworker told me to chill and take a breather. I got even more challanged, so I started ranting about the things that I tought should be organized. Soon I found myself complaning about everyhting and not helping to my best or even working.  I had then realized that I entered their enviroment and that I was there to HELP them & not ORGANIZE or try to work  the place the way I usually do at the other restaurant. I realized I had let my ego get the best of me. It was embarrasing after I left work because even in the owners face looked disappointed in me. I learned not to get too big headded after that. I deliver good work but that's all I shouldn't try to be above my peers.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdbea0f7c425b-EWR"
+    }
+}

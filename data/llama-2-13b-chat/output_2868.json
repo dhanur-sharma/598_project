@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can remember it like yesterday most days. It was five months ago in May, but it was memorable to say the least. Memorable in both the positive and negative sense. Considering we lived together, we were both up all night feeling nervous yet excited. We wanted to walk across that stage so badly yet we were so afraid of what the future held for us. I think I was more nervous than she was though. The day of the ceremony, we both had overslept. She was freaking out about that more than me because she wanted to do her makeup and hair. All I had to do was shower and get dressed really. Thankfully, we made it on time. As we sat waiting for our names to be called, I was shaking whereas she held a calm composure. Her name was before mine so she got up and claimed her degree and everything. When it was my turn, that's when I full out embarrassed myself. Walking up the three steps to the stage, I tripped and fell down in front of hundreds, if not thousands. I laughed it off but I was crying on the inside. Nonetheless, we both achieved what we worked so hard on the past few years."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can remember it like yesterday most days. It was five months ago in May, but it was memorable to say the least. Memorable in both the positive and negative sense. Considering we lived together, we were both up all night feeling nervous yet excited. We wanted to walk across that stage so badly yet we were so afraid of what the future held for us. I think I was more nervous than she was though. The day of the ceremony, we both had overslept. She was freaking out about that more than me because she wanted to do her makeup and hair. All I had to do was shower and get dressed really. Thankfully, we made it on time. As we sat waiting for our names to be called, I was shaking whereas she held a calm composure. Her name was before mine so she got up and claimed her degree and everything. When it was my turn, that's when I full out embarrassed myself. Walking up the three steps to the stage, I tripped and fell down in front of hundreds, if not thousands. I laughed it off but I was crying on the inside. Nonetheless, we both achieved what we worked so hard on the past few years.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were both crying tears of joy as our parents took photos of us. I think the embarrassment was worth it though."
+            }
+        ],
+        "request_id": "811ebfbe7bcb43ed-EWR"
+    }
+}

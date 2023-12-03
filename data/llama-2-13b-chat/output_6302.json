@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 5 months ago, it was a bright sunny day on the farm.  I walked into the stable to meet my new horse.  I was so excited to finally own a horse of my own.  I have wanted a horse my whole life.  I looked for quite some time before deciding to meet this horse that I felt was just perfect.  Only one thing, he was a giant! I have never seen a horse so tall in my life.  I didn't know how I would ever be able to ride him.  I knew I should have got a horse that was a bit more easy to ride, but I knew he was the one I wanted.  I took him home to let him settle in to the new stable.  After a day or so, I put the bridle on him.  I used a step stool to put the saddle on his back.  Now the challenge came as to how I would get on the horse to ride him.  I led him over to the wooden fence.  I climbed on the fence and hopped on.  I knew this was the start to a great relationship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 5 months ago, it was a bright sunny day on the farm.  I walked into the stable to meet my new horse.  I was so excited to finally own a horse of my own.  I have wanted a horse my whole life.  I looked for quite some time before deciding to meet this horse that I felt was just perfect.  Only one thing, he was a giant! I have never seen a horse so tall in my life.  I didn't know how I would ever be able to ride him.  I knew I should have got a horse that was a bit more easy to ride, but I knew he was the one I wanted.  I took him home to let him settle in to the new stable.  After a day or so, I put the bridle on him.  I used a step stool to put the saddle on his back.  Now the challenge came as to how I would get on the horse to ride him.  I led him over to the wooden fence.  I climbed on the fence and hopped on.  I knew this was the start to a great relationship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a little shaky at first but I got the hang of it.  I rode him all around the farm and we became great friends.  It was a beautiful day.\n\n"
+            }
+        ],
+        "request_id": "811f42b6295a42a3-EWR"
+    }
+}

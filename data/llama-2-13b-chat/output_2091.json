@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had been talking to my cousin about her birthday for months. Even though it was her 16th birthday, I felt like it was partly my celebration too. After all, she was only born three weeks before me. So when she decided that she wanted to take a cruise with her family, I was immediately excited. I talked to my parents and they agreed, so we all bought tickets for an all-inclusive cruise. It was for seven days and seven nights and went to the Bahamas, which none of us had visited before. My cousin and I were so pumped to do all the activities we could sign up for. She wanted to go snorkeling really badly, while I was obsessed with parasailing. Luckily we were able to do both of these activities twice before the trip ended! Our parents enjoyed mostly comedy shows and magic acts at night, while we were left to run around and do just about whatever we wanted. The 24 hour ice cream bar kept our attention most of the time, but we also enjoyed walking circles around the full sized track. Even though it's been five months since our awesome trip, I still feel like I weigh about 20 pounds more because of the crazy amount of food. Every night we had the option of having steak for dinner, and it was delicious. Coupled with all the ice cream it's easy to see why so many people gain weight on cruises. I know next time I go on a cruise I will definitely try to limit how much I eat AND run on the track! What a great trip!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had been talking to my cousin about her birthday for months. Even though it was her 16th birthday, I felt like it was partly my celebration too. After all, she was only born three weeks before me. So when she decided that she wanted to take a cruise with her family, I was immediately excited. I talked to my parents and they agreed, so we all bought tickets for an all-inclusive cruise. It was for seven days and seven nights and went to the Bahamas, which none of us had visited before. My cousin and I were so pumped to do all the activities we could sign up for. She wanted to go snorkeling really badly, while I was obsessed with parasailing. Luckily we were able to do both of these activities twice before the trip ended! Our parents enjoyed mostly comedy shows and magic acts at night, while we were left to run around and do just about whatever we wanted. The 24 hour ice cream bar kept our attention most of the time, but we also enjoyed walking circles around the full sized track. Even though it's been five months since our awesome trip, I still feel like I weigh about 20 pounds more because of the crazy amount of food. Every night we had the option of having steak for dinner, and it was delicious. Coupled with all the ice cream it's easy to see why so many people gain weight on cruises. I know next time I go on a cruise I will definitely try to limit how much I eat AND run on the track! What a great trip!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb005d90e8c2a-EWR"
+    }
+}

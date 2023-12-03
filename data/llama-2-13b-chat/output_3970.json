@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to visit my father a month ago. He has a form of leukemia and is getting chemo treatments. I haven't spoke to him in a long time and he had not seen the new grand daughter. When I went to visit him he was very happy. He hugged the grand kids but I could see he was weaker then he was before. We spoke together for hours and he was telling me stories from his childhood. It was great to see him and my mom and I learned about our family history. We both apologized to each other and we were both very happy and relieved. I appreciated the time that I spent together with him. The kids were very excited to see him. They had a great time with the grandparents. I feel like our relationship has improved now. We talk on the phone now and are better at communicating. He gave me a big hug when we left. It was unusual since he rarely shows affection. It was a great overall trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to visit my father a month ago. He has a form of leukemia and is getting chemo treatments. I haven't spoke to him in a long time and he had not seen the new grand daughter. When I went to visit him he was very happy. He hugged the grand kids but I could see he was weaker then he was before. We spoke together for hours and he was telling me stories from his childhood. It was great to see him and my mom and I learned about our family history. We both apologized to each other and we were both very happy and relieved. I appreciated the time that I spent together with him. The kids were very excited to see him. They had a great time with the grandparents. I feel like our relationship has improved now. We talk on the phone now and are better at communicating. He gave me a big hug when we left. It was unusual since he rarely shows affection. It was a great overall trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed4bfbea80f95-EWR"
+    }
+}

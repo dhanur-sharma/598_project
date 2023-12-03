@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't breathe. I can't sleep. All I can do is lay here and think. I go over and over in my head, every memory I have of my Pa. The good memories and the not so good memories. I think about how he adopted me and treated me as his own. I think about the movies we watched together and the days spent outside. I don't think about how I won't see him again or hear his voice. I don't think about how hard it will be to get over his death. I don't think about this because I don't need to. I can feel the loss and sorrow in my heart. The man who raised me is gone. I knew he was getting older and this was inevitable, but I am still not prepared. I worry that I didn't tell him that I love him as many times as I should've. I worry that he didn't know how much he meant to me. All I hope is that he knew and that his death was quick."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't breathe. I can't sleep. All I can do is lay here and think. I go over and over in my head, every memory I have of my Pa. The good memories and the not so good memories. I think about how he adopted me and treated me as his own. I think about the movies we watched together and the days spent outside. I don't think about how I won't see him again or hear his voice. I don't think about how hard it will be to get over his death. I don't think about this because I don't need to. I can feel the loss and sorrow in my heart. The man who raised me is gone. I knew he was getting older and this was inevitable, but I am still not prepared. I worry that I didn't tell him that I love him as many times as I should've. I worry that he didn't know how much he meant to me. All I hope is that he knew and that his death was quick.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't breathe. I can't sleep. All I can do is lay here and think.\n\n"
+            }
+        ],
+        "request_id": "811eac743a8d0ccd-EWR"
+    }
+}

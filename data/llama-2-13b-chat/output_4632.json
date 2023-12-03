@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lost my job 5 month ago at the company that I worked for 8 years. It was my first real job after college. My family lives in Europe now so they were too far away to help me. I was getting so depressed and was feeling like I was failing in life. My best friend who lives in another state asked me if I would consider moving to another state because she would be able to help me and support me through this hard time in my life. I was so worried because the only person I knew there was her and I didn't want to make my problems hers. I really didn't have any other options so I agreed to move to Texas. I knew that they had a lot of jobs for engineers so I was hopeful to find a job pretty fast. Within a month I moved to Texas. It was stressful but my girlfriend was so supportive. She even let me stay with her for 2 month while I was looking for a new apartment and was sending my resumes to the companies. She drove me to my interviews because my car was not delivered there yet. It really showed me how good of a friend she is and this experience made us even closer. A friend in need is a friend indeed. This situation taught me how string I am and that there is nothing I cannot do if I set my mind to it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lost my job 5 month ago at the company that I worked for 8 years. It was my first real job after college. My family lives in Europe now so they were too far away to help me. I was getting so depressed and was feeling like I was failing in life. My best friend who lives in another state asked me if I would consider moving to another state because she would be able to help me and support me through this hard time in my life. I was so worried because the only person I knew there was her and I didn't want to make my problems hers. I really didn't have any other options so I agreed to move to Texas. I knew that they had a lot of jobs for engineers so I was hopeful to find a job pretty fast. Within a month I moved to Texas. It was stressful but my girlfriend was so supportive. She even let me stay with her for 2 month while I was looking for a new apartment and was sending my resumes to the companies. She drove me to my interviews because my car was not delivered there yet. It really showed me how good of a friend she is and this experience made us even closer. A friend in need is a friend indeed. This situation taught me how string I am and that there is nothing I cannot do if I set my mind to it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I got a new job and I am so happy now."
+            }
+        ],
+        "request_id": "811bdaa40a3642e4-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a computer that needed fixed. I had a brand new Dell computer and the hard drive went flaky. I have heard about these outfits that would help you when the computer died. So I tried one out. It ended up being a scam. I needed to give them a credit card, which I did. But when it came time for them to help, they didn't. Then I noticed all the odd charges on my card. It was only small charges at first, then a big one. I knew for sure I never made it. It had to be the odd Dell computer helper people. I had to spend days figuring it out. My bank ended up refunding me the funds and helping out. It went by quickly and I was glad to have the help. But I will fix my own computer for now on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a computer that needed fixed. I had a brand new Dell computer and the hard drive went flaky. I have heard about these outfits that would help you when the computer died. So I tried one out. It ended up being a scam. I needed to give them a credit card, which I did. But when it came time for them to help, they didn't. Then I noticed all the odd charges on my card. It was only small charges at first, then a big one. I knew for sure I never made it. It had to be the odd Dell computer helper people. I had to spend days figuring it out. My bank ended up refunding me the funds and helping out. It went by quickly and I was glad to have the help. But I will fix my own computer for now on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will not be fooled again.\n\n"
+            }
+        ],
+        "request_id": "811bd5d88aea42bc-EWR"
+    }
+}

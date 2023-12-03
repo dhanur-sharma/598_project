@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six months ago we had a sudden, and terrible snow storm. We normally only get snow a couple of times each year, with 4-6 inches falling in any given storm. This one was very different. We lost electricity almost immediately. The snow was falling hard and fast. We went to bed without too much concern. But the snow continued to pile up through the night. And then the terrible noises began. The cracking, tearing, almost shrieking of trees. Weakened from years of drought and unaccustomed to so much snow, our poor trees could not handle all the extra weight and limbs began to fall. A crack like a gun shot would precede the ripping and tearing and then the crash to the ground of a large branch, or sometimes a whole tree. We couldn't see much in the glow of the snow and had to huddle in the cold darkness til morning before we could assess the damage. We prayed none of the trees closest to our house would fall on us during the long night. In the morning we saw the devastation. Many trees and limbs on the ground. dozens of \"widow makers\" dangling. And at least two feet of snow! We soon realized we were NOT prepared for this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six months ago we had a sudden, and terrible snow storm. We normally only get snow a couple of times each year, with 4-6 inches falling in any given storm. This one was very different. We lost electricity almost immediately. The snow was falling hard and fast. We went to bed without too much concern. But the snow continued to pile up through the night. And then the terrible noises began. The cracking, tearing, almost shrieking of trees. Weakened from years of drought and unaccustomed to so much snow, our poor trees could not handle all the extra weight and limbs began to fall. A crack like a gun shot would precede the ripping and tearing and then the crash to the ground of a large branch, or sometimes a whole tree. We couldn't see much in the glow of the snow and had to huddle in the cold darkness til morning before we could assess the damage. We prayed none of the trees closest to our house would fall on us during the long night. In the morning we saw the devastation. Many trees and limbs on the ground. dozens of \"widow makers\" dangling. And at least two feet of snow! We soon realized we were NOT prepared for this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had no chainsaws, no firewood, and very little food. We were stuck. And the storm was still raging on. We had no idea how long it would last or how we would survive.\n\n"
+            }
+        ],
+        "request_id": "811bd48f98ca181d-EWR"
+    }
+}

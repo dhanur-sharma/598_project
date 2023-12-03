@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the day like it was yesterday. The wedding between my cousin David and his 5 years Fiancee Judy. It had been finalized and the date of the event well set. I was personally so happy for the two.  It had taken then five years of courting.  Invitation cards had been printed. They had been  sent to the people concerned. We were just a week away to the wedding day.   On the day of the wedding, all the people invited arrived on time and the ceremony went on as expected. It was at the time of taking the oath that things took a turn. David had just finished. Every one in the church stood looking behind them murmuring in low voices. Looking back at the big door was this Man standing stretching his hand towards the bride.  What followed is the bride started running. she dispersal from us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the day like it was yesterday. The wedding between my cousin David and his 5 years Fiancee Judy. It had been finalized and the date of the event well set. I was personally so happy for the two.  It had taken then five years of courting.  Invitation cards had been printed. They had been  sent to the people concerned. We were just a week away to the wedding day.   On the day of the wedding, all the people invited arrived on time and the ceremony went on as expected. It was at the time of taking the oath that things took a turn. David had just finished. Every one in the church stood looking behind them murmuring in low voices. Looking back at the big door was this Man standing stretching his hand towards the bride.  What followed is the bride started running. she dispersal from us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I never knew what was happening. After sometime she came back with the man and was now holding his hand. It was at this time that my cousin David was left standing alone looking very dejected. He then shouted 'NO' and walked away. The wedding was called off. It was like a scene from a movie.\n\n"
+            }
+        ],
+        "request_id": "811e94840fea5e76-EWR"
+    }
+}

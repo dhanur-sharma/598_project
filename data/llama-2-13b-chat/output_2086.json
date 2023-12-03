@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My twin sister and I have always said that we would have children who were close friends. We implemented \"cousin camp\" this year, where we got together with the 4 cousins and did fun things all together. We went to a science museum, a splash pad, a trampoline park, out to eat, and swimming. The kids (they're all 7 and under) had a great time doing smaller, low-stress \"local\" things. It was fun to bond with my sister. I am still suprised that we are the \"grown ups\"! I love seeing our children bond. I also loved the rare opportunity I had to disconnect from work and just play for a few weeks. On the way home, I stopped with my daughters at a state park after seeing a sign for it at an exit on the interstate. It was a lot longer of a trip off of the interstate than i would have thought, and I almost turned around. But, we went all the way out there, hiked a trail, and then went swimming in the suprisingly awesome pool (with a big slide!). My newly 6 year old daredevil of a daughter was very interested in the slide, so she ran stairs while her sister and I frolicked around. After that, we went to eat pizza at a local place. We hit terrible rush hour traffic on the way home. All of us were all nearly in tears at the length of the trip home (generally 4 hours, but way longer on this occasion)."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My twin sister and I have always said that we would have children who were close friends. We implemented \"cousin camp\" this year, where we got together with the 4 cousins and did fun things all together. We went to a science museum, a splash pad, a trampoline park, out to eat, and swimming. The kids (they're all 7 and under) had a great time doing smaller, low-stress \"local\" things. It was fun to bond with my sister. I am still suprised that we are the \"grown ups\"! I love seeing our children bond. I also loved the rare opportunity I had to disconnect from work and just play for a few weeks. On the way home, I stopped with my daughters at a state park after seeing a sign for it at an exit on the interstate. It was a lot longer of a trip off of the interstate than i would have thought, and I almost turned around. But, we went all the way out there, hiked a trail, and then went swimming in the suprisingly awesome pool (with a big slide!). My newly 6 year old daredevil of a daughter was very interested in the slide, so she ran stairs while her sister and I frolicked around. After that, we went to eat pizza at a local place. We hit terrible rush hour traffic on the way home. All of us were all nearly in tears at the length of the trip home (generally 4 hours, but way longer on this occasion).",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were exhausted and cranky. I had forgotten how hard it is to travel with small children! It was a very long day, but I wouldn't trade it. The kids had a blast, and we got some great family time.\n\n"
+            }
+        ],
+        "request_id": "811eafee68b1c332-EWR"
+    }
+}

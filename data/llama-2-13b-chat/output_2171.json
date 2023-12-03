@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went through foreclosure on our house. This was a very difficult time in our lives. It is a helpless feeling of being out of control. The mortgage company would not work with us so we would need to find a new place to live. This is especially difficult when your credit is bad at the time. Being so far behind on our mortgage obviously hurt our credit. We needed someone to take a chance on us to be able to find a place to live. We were running out of time, but luckily found a home owner who was willing to work with us. What a relief it was to find a house and it was in a better neighborhood than we were living. At least something good did come out of the situation. I still think about the situation a few times a week. It is a good lesson on managing money and how not to get in this situation again. We badly managed our money and spending to get into the situation. I must make sure we do not have that happen again. I feel like we are starting to turn the corner and be better with our money. This was also a good learning experience for our children."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went through foreclosure on our house. This was a very difficult time in our lives. It is a helpless feeling of being out of control. The mortgage company would not work with us so we would need to find a new place to live. This is especially difficult when your credit is bad at the time. Being so far behind on our mortgage obviously hurt our credit. We needed someone to take a chance on us to be able to find a place to live. We were running out of time, but luckily found a home owner who was willing to work with us. What a relief it was to find a house and it was in a better neighborhood than we were living. At least something good did come out of the situation. I still think about the situation a few times a week. It is a good lesson on managing money and how not to get in this situation again. We badly managed our money and spending to get into the situation. I must make sure we do not have that happen again. I feel like we are starting to turn the corner and be better with our money. This was also a good learning experience for our children.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They saw the struggle and how we were able to get through it. They will be better prepared to manage their own finances.\n\n"
+            }
+        ],
+        "request_id": "811eb1a12b6d41fb-EWR"
+    }
+}

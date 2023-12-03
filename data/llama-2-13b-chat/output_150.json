@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was really weird experience at Mary's. It was both good and bad. I always knew that she had a weird father. A bit controlling. Perhaps his military discipline at play? I am not really sure. I got to see it full force when i went to visit mary around 6 months back. Right after i entered, i saw her dad. He was surprisingly old, with grey hair. He was always young and strong in my memories of him. We exchanged pleasantries. I was actually looking forward to help Mary in the kitchen. However, her dad insisted on joining him for drinks and watching the game in the TV. I couldn't refuse, of course. The day was definitely saved by Mary's delicious Italian diner."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was really weird experience at Mary's. It was both good and bad. I always knew that she had a weird father. A bit controlling. Perhaps his military discipline at play? I am not really sure. I got to see it full force when i went to visit mary around 6 months back. Right after i entered, i saw her dad. He was surprisingly old, with grey hair. He was always young and strong in my memories of him. We exchanged pleasantries. I was actually looking forward to help Mary in the kitchen. However, her dad insisted on joining him for drinks and watching the game in the TV. I couldn't refuse, of course. The day was definitely saved by Mary's delicious Italian diner.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She made everything from scratch, including the pasta. I was in awe. Her dad was really nice too. He told me about his time in the military. He was a bit too talkative for my taste, but he was a good guy. I left around 7 pm, and i could see the relief on Mary's face. She was glad to have me gone. It was a bit awkward after that. We still texted and spoke on the phone, but it wasn't the same. I realized that Mary's dad had a big influence on her life. He was always there, watching and guiding her. I couldn't help but feel a bit jealous of their bond. I missed the old Mary, who was carefree and independent. I knew that i couldn't change her or her dad, so i just accepted the new reality. I still cared for Mary deeply, but our relationship had changed.\n\n"
+            }
+        ],
+        "request_id": "811e8c586cc15e6b-EWR"
+    }
+}

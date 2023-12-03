@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 5 months ago, I attended my sister's wedding. They had been dating for almost 10 years, and it was about time the two of them got married. We have always been very close to the groom's family, and both families were excited for the event. I was one of the groomsmen, and my girlfriend attended as well. I was a little nervous about the event but also very excited. It was a great time, and everything went well. The ceremony was beautiful, and the reception was very fun. She is my oldest sister of 2, and it was both parents' first child. The food was great, both dinner and cake. It was great to see so much of my extended family and to be able to chat with them. Dancing was fun, along with spending the whole night with my significant other. Everyone was drunk which made the event more exciting. There were about a dozen groomsmen, while there were only 5 bridesmaids. The group of guys was awesome to hang out with, as I wasn't really close with any of them. All in all, it was a great event and I'm glad I was able to experience it. The whole weekend flew by."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 5 months ago, I attended my sister's wedding. They had been dating for almost 10 years, and it was about time the two of them got married. We have always been very close to the groom's family, and both families were excited for the event. I was one of the groomsmen, and my girlfriend attended as well. I was a little nervous about the event but also very excited. It was a great time, and everything went well. The ceremony was beautiful, and the reception was very fun. She is my oldest sister of 2, and it was both parents' first child. The food was great, both dinner and cake. It was great to see so much of my extended family and to be able to chat with them. Dancing was fun, along with spending the whole night with my significant other. Everyone was drunk which made the event more exciting. There were about a dozen groomsmen, while there were only 5 bridesmaids. The group of guys was awesome to hang out with, as I wasn't really close with any of them. All in all, it was a great event and I'm glad I was able to experience it. The whole weekend flew by.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec99a9a925e7a-EWR"
+    }
+}

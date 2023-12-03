@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to visit my girlfriend's family for the first time. This was during a family get together. All of their relatives were there. I introduced myself to everyone there. No one was very interested in meeting me. I tried to engage with everyone. It still had no affect. I received all kind of funny and bad look from people during dinner. I would try to talk to people about their interest. They all showed no interest in all in talking to me. I asked my girlfriend's sister to take some pictures of us outside. After she took the pictures of us, I reviewed them. Some part of my body was cut out of every picture she took.  The whole experience left me feeling confused and alone. I asked my girlfriend about all of this when we left. She said that she had no idea any of these things happened."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to visit my girlfriend's family for the first time. This was during a family get together. All of their relatives were there. I introduced myself to everyone there. No one was very interested in meeting me. I tried to engage with everyone. It still had no affect. I received all kind of funny and bad look from people during dinner. I would try to talk to people about their interest. They all showed no interest in all in talking to me. I asked my girlfriend's sister to take some pictures of us outside. After she took the pictures of us, I reviewed them. Some part of my body was cut out of every picture she took.  The whole experience left me feeling confused and alone. I asked my girlfriend about all of this when we left. She said that she had no idea any of these things happened.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc43a85118fa-EWR"
+    }
+}

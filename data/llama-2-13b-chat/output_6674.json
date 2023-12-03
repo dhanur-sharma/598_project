@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a trip to India for school a few months ago, I have a lot of friends here. It's been about 2 months, I guess? When I was there, I admit, I was very irresponsible. I was vulnerable! I wasn't used to the local culture and I was a tourist. Before I knew it, my bag and my laptop were gone without me even noticing for an hour. This was worse than when I lost my laptop at college--I am very bad at keeping my things together, and I am worse at keeping my laptop safe. I contacted the police--no help there. They basically told me \"give up, you aren't going to find it here\". Which, cool, I guess. So i'm angry, stressed out, no laptop to get any work done--nothing to distract me. Then the nicest human being I ever met came up to me and asked me what was wrong. I told them--I'm an idiot, I got my laptop stolen. They were so nice, and told me they'd show me to a place to get a new one so I could at least get SOME work done while I was on this trip. They guided me to a local store and even covered a little bit of the cost for me. I wont forget them, nicest person I've known and one of the most interesting characters I've met."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a trip to India for school a few months ago, I have a lot of friends here. It's been about 2 months, I guess? When I was there, I admit, I was very irresponsible. I was vulnerable! I wasn't used to the local culture and I was a tourist. Before I knew it, my bag and my laptop were gone without me even noticing for an hour. This was worse than when I lost my laptop at college--I am very bad at keeping my things together, and I am worse at keeping my laptop safe. I contacted the police--no help there. They basically told me \"give up, you aren't going to find it here\". Which, cool, I guess. So i'm angry, stressed out, no laptop to get any work done--nothing to distract me. Then the nicest human being I ever met came up to me and asked me what was wrong. I told them--I'm an idiot, I got my laptop stolen. They were so nice, and told me they'd show me to a place to get a new one so I could at least get SOME work done while I was on this trip. They guided me to a local store and even covered a little bit of the cost for me. I wont forget them, nicest person I've known and one of the most interesting characters I've met.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4a686d9019bf-EWR"
+    }
+}

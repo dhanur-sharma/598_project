@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister has been without a laptop of her own for quite some time. It may be years since she's had one. Her work offers a program where she can buy major purchases on a payment schedule. Those payments are taken directly from her check. So she went ahead got one. She ordered a laptop that is worth almost a thousand dollars. It is super nice. It has a touch screen and a very nice video card. This way she watch movies on it. The whole reason she wanted to buy a laptop is so that she can run her online business from it. Well, this laptop can do that and more. It has really worked out for her. She really loves that laptop. Truth be told, I'm kind of jealous. I'm starting to think it's time for me to get a new computer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister has been without a laptop of her own for quite some time. It may be years since she's had one. Her work offers a program where she can buy major purchases on a payment schedule. Those payments are taken directly from her check. So she went ahead got one. She ordered a laptop that is worth almost a thousand dollars. It is super nice. It has a touch screen and a very nice video card. This way she watch movies on it. The whole reason she wanted to buy a laptop is so that she can run her online business from it. Well, this laptop can do that and more. It has really worked out for her. She really loves that laptop. Truth be told, I'm kind of jealous. I'm starting to think it's time for me to get a new computer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My current one is several years old and it's starting to slow down. So, maybe I'll be getting a new laptop soon.\n\n"
+            }
+        ],
+        "request_id": "811e96fe9dce4288-EWR"
+    }
+}

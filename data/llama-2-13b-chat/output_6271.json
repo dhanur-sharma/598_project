@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: October 9, 2019:  Today Dave and I went to the Philadelphia Zoo. I haven't been to a zoo in years and it honestly was not my first choice of places to go.  But it was our niece Skylars birthday so we pretty much had no choice. I have to say the zoo is nothing like I remembered it to be. It has changed so much from when I was there as a kid dozens of years ago. First of all the layout is so cool. There are different rooms and exhibits to visit all over the place. The monkey and reptile rooms were interesting but my favorite animals were the cheetahs. When you see them on TV you don't realize how big they are in person. I was surprised at how enormous their paws are! They were so friendly and personable they reminded me of my cats at home. I know the cheetahs could rip you to shreds in a second but it was cool to get so close but still be safe - ha ha. Watching them play reminded me of giant kittens. The zoo visit turned out better than I thought it would. And I may have to go back to check on the cheetahs. I hope they add more to this exhibit in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: October 9, 2019:  Today Dave and I went to the Philadelphia Zoo. I haven't been to a zoo in years and it honestly was not my first choice of places to go.  But it was our niece Skylars birthday so we pretty much had no choice. I have to say the zoo is nothing like I remembered it to be. It has changed so much from when I was there as a kid dozens of years ago. First of all the layout is so cool. There are different rooms and exhibits to visit all over the place. The monkey and reptile rooms were interesting but my favorite animals were the cheetahs. When you see them on TV you don't realize how big they are in person. I was surprised at how enormous their paws are! They were so friendly and personable they reminded me of my cats at home. I know the cheetahs could rip you to shreds in a second but it was cool to get so close but still be safe - ha ha. Watching them play reminded me of giant kittens. The zoo visit turned out better than I thought it would. And I may have to go back to check on the cheetahs. I hope they add more to this exhibit in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f423dbda943be-EWR"
+    }
+}

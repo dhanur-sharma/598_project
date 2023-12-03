@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In my past I had a surprising relationship with my sister. When we were kids we fought a lot. She liked chocolate I liked strawberry, ice cream. I liked rock music, she liked jazz. We would argue a lot. We had different friend groups. That was that. This was about 10 years ago. We were both musicians growing up. I played rock music in a band and she was always practicing classical violin. We never paid much attention to each other due to this difference in stylistic taste. When she went to music school 2 months ago I knew she would broaden her musical tastes, and I supported her work. I was extremely surprised last week at her concert. Her jazz band played music that was very angular and dynamic the way that certain rock music is. I asked her about this. She said that she ended up with some members in her band that had rock music tastes like me. She was able to see that as something they had in common to make music about. I never expected her to make any music like that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In my past I had a surprising relationship with my sister. When we were kids we fought a lot. She liked chocolate I liked strawberry, ice cream. I liked rock music, she liked jazz. We would argue a lot. We had different friend groups. That was that. This was about 10 years ago. We were both musicians growing up. I played rock music in a band and she was always practicing classical violin. We never paid much attention to each other due to this difference in stylistic taste. When she went to music school 2 months ago I knew she would broaden her musical tastes, and I supported her work. I was extremely surprised last week at her concert. Her jazz band played music that was very angular and dynamic the way that certain rock music is. I asked her about this. She said that she ended up with some members in her band that had rock music tastes like me. She was able to see that as something they had in common to make music about. I never expected her to make any music like that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was surprised that she could be so open-minded to make music that was so different from what she had been playing. I realized that I had been so narrow-minded in my own musical tastes. I have been inspired by her to explore new music and find common ground with others in a different genre. I am grateful for this newfound appreciation for her music and the lesson it has taught me."
+            }
+        ],
+        "request_id": "811e89cf3ef91a0b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few days ago the weather outside Colorado got below 30.  It was surprising since the last few days were in the upper 70s.  The start of that morning was rough. I had to wake up around 5am to get ready for a day that didn't have sunrise yet. The whole day was filled with delays and problems due to the cold temperature. The snow came rolling down the mountains only after I waited an extra ten minutes for my usual bus. The bus lost traction en route to my work and slide across four lanes of traffic, and I didn't wear enough layer to stop the cold. On my way home, I remembered I had a fireplace and some wood I had been saving for just an occasion like this. I made myself some hot soup and pulled down and old blanket before starting a fire. Only after lighting the kindling, I realized my dog never experienced one before. For the first hour, she ran away from it, but quickly changed interest by the warmth.  The two of us cuddle as I ate and watched the fire. After a long day, I really enjoyed the warmth of the fire, the soft crackles as the wood turned to ash, and the mellowness my restless dog found in the the fireplace. It was a good way to end a hectic day. I enjoyed it a lot."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few days ago the weather outside Colorado got below 30.  It was surprising since the last few days were in the upper 70s.  The start of that morning was rough. I had to wake up around 5am to get ready for a day that didn't have sunrise yet. The whole day was filled with delays and problems due to the cold temperature. The snow came rolling down the mountains only after I waited an extra ten minutes for my usual bus. The bus lost traction en route to my work and slide across four lanes of traffic, and I didn't wear enough layer to stop the cold. On my way home, I remembered I had a fireplace and some wood I had been saving for just an occasion like this. I made myself some hot soup and pulled down and old blanket before starting a fire. Only after lighting the kindling, I realized my dog never experienced one before. For the first hour, she ran away from it, but quickly changed interest by the warmth.  The two of us cuddle as I ate and watched the fire. After a long day, I really enjoyed the warmth of the fire, the soft crackles as the wood turned to ash, and the mellowness my restless dog found in the the fireplace. It was a good way to end a hectic day. I enjoyed it a lot.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2e327f0a423e-EWR"
+    }
+}

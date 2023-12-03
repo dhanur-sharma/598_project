@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago we went to the lake house with our extended family to celebrate our uncles birthday. It was a great time to get together because most of the family is getting old. It was really great being together with the family and talking about our different milestones each of us has accomplished. The best part was seeing family members we had not seen in years and some that were kids when we had last seen them are now grown with families of their own. It was a wonderful time to remember for years to come. We all said we would do this more often. A few of the family members have passed away and we don't see each other as often as we need to. Our lives get so busy and time passes way too fast. A few of the family members have fallen on hard times. That's when they need to reach out to others in the family. We went swimming, fishing and we shot clay targets during the reunion. We played a few games and had a big spread of food where everyone brought something. It was so much fun. Everyone got along which in itself is the best thing. It was just magical time and everyone left feeling great. Ready to do it again and out uncle said it was the best birthday ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago we went to the lake house with our extended family to celebrate our uncles birthday. It was a great time to get together because most of the family is getting old. It was really great being together with the family and talking about our different milestones each of us has accomplished. The best part was seeing family members we had not seen in years and some that were kids when we had last seen them are now grown with families of their own. It was a wonderful time to remember for years to come. We all said we would do this more often. A few of the family members have passed away and we don't see each other as often as we need to. Our lives get so busy and time passes way too fast. A few of the family members have fallen on hard times. That's when they need to reach out to others in the family. We went swimming, fishing and we shot clay targets during the reunion. We played a few games and had a big spread of food where everyone brought something. It was so much fun. Everyone got along which in itself is the best thing. It was just magical time and everyone left feeling great. Ready to do it again and out uncle said it was the best birthday ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec6b92fc48c9c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lost my job several months ago. I was in the position for several years and was very comfortable. I thought I was good at my job and that I was welled liked and in position to stay with the company for as long as I liked. So, I was shocked when they let me go. I knew that the company was going through some financial difficulties but I never thought I would be let go. So, when I was called into my manger's office I never imagined she was about to tell me they were laying me off.  I thought they were more loyal than that.  It feels like I'm starting my life all over again. I'm confused and a bit overwhelmed.  I'm still looking for full time work.  I have a part time job and I make enough to get by but not enough for anything extra. I'm basically living paycheck to paycheck. I'm thinking about going back to school but money is so tight right now that's it's going to be a difficult path. I'm feeling stuck and a little hopeless. I hope I can find a full time job soon. So, that I can get my life back in order."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lost my job several months ago. I was in the position for several years and was very comfortable. I thought I was good at my job and that I was welled liked and in position to stay with the company for as long as I liked. So, I was shocked when they let me go. I knew that the company was going through some financial difficulties but I never thought I would be let go. So, when I was called into my manger's office I never imagined she was about to tell me they were laying me off.  I thought they were more loyal than that.  It feels like I'm starting my life all over again. I'm confused and a bit overwhelmed.  I'm still looking for full time work.  I have a part time job and I make enough to get by but not enough for anything extra. I'm basically living paycheck to paycheck. I'm thinking about going back to school but money is so tight right now that's it's going to be a difficult path. I'm feeling stuck and a little hopeless. I hope I can find a full time job soon. So, that I can get my life back in order.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8f109e9e4247-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember my birthday party this year. My wife had planned a surprise party with my friends and family. I was caught off guard because my wife had told me that it was going to be a romantic dinner with just me and her. We had driven downtown and walked around going into different shops. We usually don't have this time together since we are parents to three kids. Once it was time for our reservation we went inside the restaurant. The manager told us our reservation had been taken by a more favored guest, but they did have a nice spot in the back of the restaurant. As we walk through the door; I see my parents, my wife's parents, my kids, and friends. It was a nice surprise party that made me feel special and caught off guard. My best friend handed me a drink and I greeted all of my guests. We sat down and there were five total courses from the chef. My friends and family each took time to talk to me and even roast me every so often. We stayed in the restaurant after it closed and soon left afterwards. It was a significant event in my life since I normally don't have birthday parties. It was also significant since it included the majority of my favorite people currently living. I felt grateful and appreciated the lengths my wife took to make the party happen without my knowledge. The most memorable moment for me was seeing everyone in the room for our dinner."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember my birthday party this year. My wife had planned a surprise party with my friends and family. I was caught off guard because my wife had told me that it was going to be a romantic dinner with just me and her. We had driven downtown and walked around going into different shops. We usually don't have this time together since we are parents to three kids. Once it was time for our reservation we went inside the restaurant. The manager told us our reservation had been taken by a more favored guest, but they did have a nice spot in the back of the restaurant. As we walk through the door; I see my parents, my wife's parents, my kids, and friends. It was a nice surprise party that made me feel special and caught off guard. My best friend handed me a drink and I greeted all of my guests. We sat down and there were five total courses from the chef. My friends and family each took time to talk to me and even roast me every so often. We stayed in the restaurant after it closed and soon left afterwards. It was a significant event in my life since I normally don't have birthday parties. It was also significant since it included the majority of my favorite people currently living. I felt grateful and appreciated the lengths my wife took to make the party happen without my knowledge. The most memorable moment for me was seeing everyone in the room for our dinner.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a special birthday that I will always remember."
+            }
+        ],
+        "request_id": "811f4c093ea08cd4-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This story is hard for me to tell. A few years ago I got into a college of my dreams and was very excited. We had frosh at the beginning. This is a time for people to meet each other and get used to being at a new school, and to have some fun. I met some friends there and we ended up hanging out for most of our free time. A few years later we had a thanksgiving party. This is where the good turned too bad. I decided to do some magic mushrooms with my friends. They ended up blacking out and even got physically violent. I had never seen such a strange personality change occur. I never expected to see that side of them. It caused nightmares for me that night. I couldn't look at them the same afterwards. We planned just to have a good time but things got out of control. Now I hardly talk to them any more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This story is hard for me to tell. A few years ago I got into a college of my dreams and was very excited. We had frosh at the beginning. This is a time for people to meet each other and get used to being at a new school, and to have some fun. I met some friends there and we ended up hanging out for most of our free time. A few years later we had a thanksgiving party. This is where the good turned too bad. I decided to do some magic mushrooms with my friends. They ended up blacking out and even got physically violent. I had never seen such a strange personality change occur. I never expected to see that side of them. It caused nightmares for me that night. I couldn't look at them the same afterwards. We planned just to have a good time but things got out of control. Now I hardly talk to them any more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel that the magic mushrooms were the reason for our downfall. I was so excited to be in college and have new friends but now I am left with a bad memory. I learned that it is not a good idea to do things that you are not comfortable with just to fit in. I wish I could go back and change my decision.\n\n"
+            }
+        ],
+        "request_id": "811f3966afbf430d-EWR"
+    }
+}

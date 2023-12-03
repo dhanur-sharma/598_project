@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I went to the detention center to give a speech and I have to say that I am a bit nervous since talking in front of a group is always a challenge. The difference with today's visit was the person or client that I met while I was there. We sat and chatted for a while and I learned about all the tribulations this person endured in his home country.  It was very upsetting to see someone go through such terrible trials but he was here now and we were one our way to better things. I never realized how bad things can be for a person outside our country.  You really can't get the true meaning until you hear it first hand.  To think so many people are going through this is heart breaking. Sometimes I wonder why it has to be this way. Why can't people just treat others with tenderness? It is not that hard to do.  I suppose money and power play a huge role.  So I listened to this man tell me story after story. He talked about his family. He talked about his neighbors. Some stories were not so bad. Other stores were awful. We spent many hours together working things out in preparation for his case and although it was no easy road...We actually won! So I have happy news to end this trying situation. That is truly what makes it all worth the time and investment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I went to the detention center to give a speech and I have to say that I am a bit nervous since talking in front of a group is always a challenge. The difference with today's visit was the person or client that I met while I was there. We sat and chatted for a while and I learned about all the tribulations this person endured in his home country.  It was very upsetting to see someone go through such terrible trials but he was here now and we were one our way to better things. I never realized how bad things can be for a person outside our country.  You really can't get the true meaning until you hear it first hand.  To think so many people are going through this is heart breaking. Sometimes I wonder why it has to be this way. Why can't people just treat others with tenderness? It is not that hard to do.  I suppose money and power play a huge role.  So I listened to this man tell me story after story. He talked about his family. He talked about his neighbors. Some stories were not so bad. Other stores were awful. We spent many hours together working things out in preparation for his case and although it was no easy road...We actually won! So I have happy news to end this trying situation. That is truly what makes it all worth the time and investment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdfecd9e48c90-EWR"
+    }
+}

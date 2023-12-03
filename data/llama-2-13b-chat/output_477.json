@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, as we got to the Vegas strip, the excitement was wild. We went up and down the strip and loved it. We were particularly excited about the fact we could drink on the street. We all bought beer hats. We stuck cans of beers on them and strolled along. The lights were really something to look at. Not to mention the beauties walking by. We saw people trying to get us into the various clubs. A lot of promoters trying to get us into the gogo bars too. We had a nice drink at the MGM Grand. From there, we went down to a few bars to bar hop. A lot of good beer on tap. We even met another tour group. They gave us some more tips. We followed it and had a blast overall."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, as we got to the Vegas strip, the excitement was wild. We went up and down the strip and loved it. We were particularly excited about the fact we could drink on the street. We all bought beer hats. We stuck cans of beers on them and strolled along. The lights were really something to look at. Not to mention the beauties walking by. We saw people trying to get us into the various clubs. A lot of promoters trying to get us into the gogo bars too. We had a nice drink at the MGM Grand. From there, we went down to a few bars to bar hop. A lot of good beer on tap. We even met another tour group. They gave us some more tips. We followed it and had a blast overall.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92795d56c32b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Another wedding in the books. It was a smaller spectacle but worth the effort. We had lots of people have fun. It was almost like a family reunion of sorts. Many people stayed to talk late into the night. Lots of food and laughter were had. I never knew the whole family had done something like this in so long. It was crazy the people I forgot about and how much they had changed. I felt like I was in a movie. Overall everyone had fun. The ceremony was beautiful and lots of tears. Being part of the setup made me feel welcomed and useful. I like the decor. Seeing old family members was quite fun. We need to do more reunions."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Another wedding in the books. It was a smaller spectacle but worth the effort. We had lots of people have fun. It was almost like a family reunion of sorts. Many people stayed to talk late into the night. Lots of food and laughter were had. I never knew the whole family had done something like this in so long. It was crazy the people I forgot about and how much they had changed. I felt like I was in a movie. Overall everyone had fun. The ceremony was beautiful and lots of tears. Being part of the setup made me feel welcomed and useful. I like the decor. Seeing old family members was quite fun. We need to do more reunions.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f3e8e0f87c402-EWR"
+    }
+}

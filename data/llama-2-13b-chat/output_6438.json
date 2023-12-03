@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this summer I went to visit my extended family in another state as I always do. This summer was a special visit though because I made sure to spend extra time with my grandmother. My grandma is very sick and during my visit we were just starting to realize how serious it is. The summer before my grandfather died, so I knew it was important to spend time with my grandma because we never know how much time someone has left on earth. During my week long visit, I made sure that I went and spent extra time with my grandma. I helped her do chores around her house, run errands for her, and just help anyway that I could. I made sure that I had deep and meaningful conversations with her. We talked about life and I got her advice on somethings that I thought were important. During the rest of my visit I hung out with my other family members and we did a lot of fun things. We went skating, to the library, to a softball game and shopping. Other days we visited different family members. And most days we lounged by the pool soaking up the sun. I really had a lot of fun. And of course I enjoyed seeing everyone. But the most important and fun part about this visit was spending time with my grandma."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this summer I went to visit my extended family in another state as I always do. This summer was a special visit though because I made sure to spend extra time with my grandmother. My grandma is very sick and during my visit we were just starting to realize how serious it is. The summer before my grandfather died, so I knew it was important to spend time with my grandma because we never know how much time someone has left on earth. During my week long visit, I made sure that I went and spent extra time with my grandma. I helped her do chores around her house, run errands for her, and just help anyway that I could. I made sure that I had deep and meaningful conversations with her. We talked about life and I got her advice on somethings that I thought were important. During the rest of my visit I hung out with my other family members and we did a lot of fun things. We went skating, to the library, to a softball game and shopping. Other days we visited different family members. And most days we lounged by the pool soaking up the sun. I really had a lot of fun. And of course I enjoyed seeing everyone. But the most important and fun part about this visit was spending time with my grandma.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f45598e69c32e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago I decided to retire from my long-time company.  after doing some research and meeting with a mentor I learned I was able to financially support myself without my current job. I was very scared but also very excited.  How nice would it be to get up and not ever go to work again! I know there would be some challenges along the way but I was ready for my new adventure. I started by meeting with my boss who is a very nice person.  She wasn't very shocked. She told me she was mentally preparing herself for months for this conversation.  We laughed and talked a while.  Next I told my close co-workers and before I knew it the entire company was at my desk congratulating me.  It felt so nice that everyone was happy for me. I decided to stay a few months to get others up to speed and trained. I really didn't want to leave anyone high and dry. The last day of my job was so sad but exciting.  The company threw me a little party and had a cake with congratulations on it.  They had banners and decorations. It truly made me so grateful for working at such a fantastic company. I wished everyone well and walked out on top of the world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago I decided to retire from my long-time company.  after doing some research and meeting with a mentor I learned I was able to financially support myself without my current job. I was very scared but also very excited.  How nice would it be to get up and not ever go to work again! I know there would be some challenges along the way but I was ready for my new adventure. I started by meeting with my boss who is a very nice person.  She wasn't very shocked. She told me she was mentally preparing herself for months for this conversation.  We laughed and talked a while.  Next I told my close co-workers and before I knew it the entire company was at my desk congratulating me.  It felt so nice that everyone was happy for me. I decided to stay a few months to get others up to speed and trained. I really didn't want to leave anyone high and dry. The last day of my job was so sad but exciting.  The company threw me a little party and had a cake with congratulations on it.  They had banners and decorations. It truly made me so grateful for working at such a fantastic company. I wished everyone well and walked out on top of the world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Now I am enjoying my retirement.  It has been amazing so far.  I am traveling, taking classes and spending time with my family. I feel like a new person."
+            }
+        ],
+        "request_id": "811be0eb6bc843dc-EWR"
+    }
+}

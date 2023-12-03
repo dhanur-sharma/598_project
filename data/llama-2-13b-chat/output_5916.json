@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I graduated from from a eating disorder treatment facility. It lasted 13 weeks and was not what I was hoping for. I was very disappointed in the quality or care I received there. I feel like they didn't give me the tools I needed to eat the way i should and maintain a healthy lifestyle. I relapsed as soon as I got out. The most memorable experience was when I had to be tube fed. I hated it! It was the most uncomfortable thing I had to endure. The group therapy discussion were not pleasant either. I hate hearing about all of us being messed up in some way. Everyone wanted to get better but it was hard a lot is hid ways to continue our disorder. My roommate hid diuretics and took many of them. another found random hiding places to puke. It was the worst place. I felt like none of the staff wanted to be there and it made it worse when they looked at us with disgust especially during weigh in days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I graduated from from a eating disorder treatment facility. It lasted 13 weeks and was not what I was hoping for. I was very disappointed in the quality or care I received there. I feel like they didn't give me the tools I needed to eat the way i should and maintain a healthy lifestyle. I relapsed as soon as I got out. The most memorable experience was when I had to be tube fed. I hated it! It was the most uncomfortable thing I had to endure. The group therapy discussion were not pleasant either. I hate hearing about all of us being messed up in some way. Everyone wanted to get better but it was hard a lot is hid ways to continue our disorder. My roommate hid diuretics and took many of them. another found random hiding places to puke. It was the worst place. I felt like none of the staff wanted to be there and it made it worse when they looked at us with disgust especially during weigh in days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't think I will ever go back there again. I want to get better but not there. I am going to find another place to help me get better.\n\n"
+            }
+        ],
+        "request_id": "811f3b1cc8d5c323-EWR"
+    }
+}

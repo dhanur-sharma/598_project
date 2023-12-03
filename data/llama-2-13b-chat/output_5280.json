@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Going to a pool is something I love doing. It allows me to be a child, in a way. It's fun. It relieves stress. Plus, it's just good exercise. My girlfriend, I, and my friend went to a water park. The wait was rough, but that's to be expected. It was a warm day. We were able to get on rides after a long wait. I didn't really mind too much. It was fun to just be in good company. It was fun to experience the journey. I loved spending time with them. The food was pretty great too, so that didn't hurt. We also played in the wave pool, as an added bonus. I think it was a journey that I won't soon forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Going to a pool is something I love doing. It allows me to be a child, in a way. It's fun. It relieves stress. Plus, it's just good exercise. My girlfriend, I, and my friend went to a water park. The wait was rough, but that's to be expected. It was a warm day. We were able to get on rides after a long wait. I didn't really mind too much. It was fun to just be in good company. It was fun to experience the journey. I loved spending time with them. The food was pretty great too, so that didn't hurt. We also played in the wave pool, as an added bonus. I think it was a journey that I won't soon forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2e3b28e84393-EWR"
+    }
+}

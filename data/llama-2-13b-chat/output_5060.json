@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am 35 and I told my dad that I loved him for the first time that I can remember.  It was tough. The words just felt unnatural (at least in my head). I don't know if I said it to avoid the awkward silence or if I meant it. I really have only a few firsthand memories of my father growing up, all of which were positive. My mom always spoke poorly of him. I think I just believed he was this druggie/alcoholic loser that she made him out to be although I never saw him drunk or stoned that I was aware of. He lived out of state most of my life. From what I've been told, my parents eloped in Vegas after I was conceived and divorced before I was a year old. My mom never remarried or really even dated. But now that I'm getting to know him more, I'm learning there's a lot more than the labels my mom put on him and ingrained into my head. I'm kind of angry I never got the opportunity to learn this sooner. I remember always being afraid to ask for things without fearing some form of guilt relating to my father. When I was in middle school, I really wanted to play the saxophone. I worked up the courage to ask my mom. Per usual, she would tell me it was too expensive and to \"ask your father\". I was mentally punished for who my father was my entire life but I didn't even know him. Now that I'm getting to know him more as an adult, I wholeheartedly agree that I am a lot like him (looks, personality, etc.). I was always the black sheep of the family, so it's legit mind boggling to me to have so much in common with a relative for like the first time ever. I call him by his first name. I don't know if I'll ever adjust to calling him \"dad\" but I do remember I would dream of having a dad in my life as a kid. I think I am finally learning to understand myself, accept myself, and be myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am 35 and I told my dad that I loved him for the first time that I can remember.  It was tough. The words just felt unnatural (at least in my head). I don't know if I said it to avoid the awkward silence or if I meant it. I really have only a few firsthand memories of my father growing up, all of which were positive. My mom always spoke poorly of him. I think I just believed he was this druggie/alcoholic loser that she made him out to be although I never saw him drunk or stoned that I was aware of. He lived out of state most of my life. From what I've been told, my parents eloped in Vegas after I was conceived and divorced before I was a year old. My mom never remarried or really even dated. But now that I'm getting to know him more, I'm learning there's a lot more than the labels my mom put on him and ingrained into my head. I'm kind of angry I never got the opportunity to learn this sooner. I remember always being afraid to ask for things without fearing some form of guilt relating to my father. When I was in middle school, I really wanted to play the saxophone. I worked up the courage to ask my mom. Per usual, she would tell me it was too expensive and to \"ask your father\". I was mentally punished for who my father was my entire life but I didn't even know him. Now that I'm getting to know him more as an adult, I wholeheartedly agree that I am a lot like him (looks, personality, etc.). I was always the black sheep of the family, so it's legit mind boggling to me to have so much in common with a relative for like the first time ever. I call him by his first name. I don't know if I'll ever adjust to calling him \"dad\" but I do remember I would dream of having a dad in my life as a kid. I think I am finally learning to understand myself, accept myself, and be myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love him for the first time in my life. It feels like a burden has been lifted off my shoulders."
+            }
+        ],
+        "request_id": "811be36b1faa4207-EWR"
+    }
+}

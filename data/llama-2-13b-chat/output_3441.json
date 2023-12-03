@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,It's been a few weeks since I've been able to write, so I'll catch you up.  About 5 weeks ago, my daughter started preschool. I feel like just yesterday she was still in diapers. I was expecting a huge meltdown about us leaving her there but she didn't shed a single tear. What was surprising was that when we picked her up, she was in tears! She had gotten it in her mind that she wouldn't be going back to school and that it was done forever! After she calmed down,  I actually got to hear about her day. She'd made new friends, and really liked her teachers. Since then, it's been a great joy for her to go to preschool 5 days a week. She's even had a friend come over and went to her house! It's like she's already 16 and gone all of the time. Where does the time go? I'm not sure I'm ready to see her walk across the stage quite yet. I just have to make the most of the time we have while we have it. Much love, Name."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,It's been a few weeks since I've been able to write, so I'll catch you up.  About 5 weeks ago, my daughter started preschool. I feel like just yesterday she was still in diapers. I was expecting a huge meltdown about us leaving her there but she didn't shed a single tear. What was surprising was that when we picked her up, she was in tears! She had gotten it in her mind that she wouldn't be going back to school and that it was done forever! After she calmed down,  I actually got to hear about her day. She'd made new friends, and really liked her teachers. Since then, it's been a great joy for her to go to preschool 5 days a week. She's even had a friend come over and went to her house! It's like she's already 16 and gone all of the time. Where does the time go? I'm not sure I'm ready to see her walk across the stage quite yet. I just have to make the most of the time we have while we have it. Much love, Name.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec98bd95e4310-EWR"
+    }
+}

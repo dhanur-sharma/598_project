@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today, my sister and I found some feral kittens in the forest behind our house.  We were hanging out on the back porch and my sister heard the faint sound of something crying.  It was a good distance, but it kept crying, so we went and checked it out.  A little into the forest, and under a tree we found a group of 3 kittens, but the mother was not in sight.  We spent the better part of the day waiting to see if the mother would return.  When she didn't we decided to take them and try to find homes for them. We went down the street, door-to-door, asking if anyone wanted the kittens.  There were a few that did, but my sister and I got some bad feelings about the first few people.  We felt that they were going to be mean to their kittens, and two of the people had big dogs too.  One of the last we asked tried to forcefully take the kittens out of our hands, but we managed to get away.  In the end, we were able to find a home for all three kittens.  They were given to a nice older lady who had multiple  cats already and a larger farm to let them come and go as they pleased.  The older lady, also said we could come back and visit anytime we wanted.  I think that the kittens will be very happy.  I know that my sister and I are grateful that we did not give them to the first few people we met."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today, my sister and I found some feral kittens in the forest behind our house.  We were hanging out on the back porch and my sister heard the faint sound of something crying.  It was a good distance, but it kept crying, so we went and checked it out.  A little into the forest, and under a tree we found a group of 3 kittens, but the mother was not in sight.  We spent the better part of the day waiting to see if the mother would return.  When she didn't we decided to take them and try to find homes for them. We went down the street, door-to-door, asking if anyone wanted the kittens.  There were a few that did, but my sister and I got some bad feelings about the first few people.  We felt that they were going to be mean to their kittens, and two of the people had big dogs too.  One of the last we asked tried to forcefully take the kittens out of our hands, but we managed to get away.  In the end, we were able to find a home for all three kittens.  They were given to a nice older lady who had multiple  cats already and a larger farm to let them come and go as they pleased.  The older lady, also said we could come back and visit anytime we wanted.  I think that the kittens will be very happy.  I know that my sister and I are grateful that we did not give them to the first few people we met.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We are also grateful that we were able to find a good home for them.\n\n"
+            }
+        ],
+        "request_id": "811ebcd949574229-EWR"
+    }
+}

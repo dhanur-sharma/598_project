@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was going to work two weeks ago and was involved in near accident. I was coming off the road and nearing the T-junction when a car ran off the road a little bit and caused quite a mess. All the cars stopped and it was like a wreck had just happened. No one was hurt, just confused. There wasn't even a real accident. The cars were all in angles that just wasn't going to help anyone get out. We all started to get out of the cars and try and figure out how this would work to get out of. A policeman came and was trying to help and was asking what had happened. The car that had drove off the road a little came and told him that someone was driving and trying to overtake them on the road. The car was driving faster and trying to pass them, but wasn't passing them just swerving into their lane. It was a mess! They said they had drove off the road since that was their only option and it caused all the other cars to swerve and stop. Eventually, the policeman got a hold of the situation and started to help people back out and go onto the T-junction. It took a while, but everyone was really thankful for the cop! When I passed by the policeman, I waved and rolled down my window. I told him to have a good day. He laughed about it and told me to have a good one too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was going to work two weeks ago and was involved in near accident. I was coming off the road and nearing the T-junction when a car ran off the road a little bit and caused quite a mess. All the cars stopped and it was like a wreck had just happened. No one was hurt, just confused. There wasn't even a real accident. The cars were all in angles that just wasn't going to help anyone get out. We all started to get out of the cars and try and figure out how this would work to get out of. A policeman came and was trying to help and was asking what had happened. The car that had drove off the road a little came and told him that someone was driving and trying to overtake them on the road. The car was driving faster and trying to pass them, but wasn't passing them just swerving into their lane. It was a mess! They said they had drove off the road since that was their only option and it caused all the other cars to swerve and stop. Eventually, the policeman got a hold of the situation and started to help people back out and go onto the T-junction. It took a while, but everyone was really thankful for the cop! When I passed by the policeman, I waved and rolled down my window. I told him to have a good day. He laughed about it and told me to have a good one too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was really grateful that everyone was okay and that the policeman was able to get everyone out safely."
+            }
+        ],
+        "request_id": "811f3f4a49b10cc0-EWR"
+    }
+}

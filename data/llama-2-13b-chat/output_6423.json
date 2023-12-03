@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago around 3 I was celebrating my birthday. I was having a good time that day I ended up going out to eat twice and I went shopping a few times as well. I was getting things from family and friends all day. I even had a taken a few shots earlier during the day. I normally would never drink as early as I did on my birthday. It was during my last trip to the store that night. I had to go to target to pick up a prescription and a few other things I needed. During my time at Target I ended up running into someone I used to know. I knew this person back from college days at the university. Had a decent amount of time together. we were pretty good friends during that time but it's been years since then. we didn't date or anything but we were close. we had a nice little conversation at the time we met at target. after all was said and done we hugged and talked some more and eventually came to the decision that we would talk to each other again. I was convinced that it was a bad idea then but it turned out to be quite alright."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago around 3 I was celebrating my birthday. I was having a good time that day I ended up going out to eat twice and I went shopping a few times as well. I was getting things from family and friends all day. I even had a taken a few shots earlier during the day. I normally would never drink as early as I did on my birthday. It was during my last trip to the store that night. I had to go to target to pick up a prescription and a few other things I needed. During my time at Target I ended up running into someone I used to know. I knew this person back from college days at the university. Had a decent amount of time together. we were pretty good friends during that time but it's been years since then. we didn't date or anything but we were close. we had a nice little conversation at the time we met at target. after all was said and done we hugged and talked some more and eventually came to the decision that we would talk to each other again. I was convinced that it was a bad idea then but it turned out to be quite alright.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "after talking to that person at target I ended up going back home and hanging out with my family and friends. I had a good time and it was a great birthday overall.\n\n"
+            }
+        ],
+        "request_id": "811f45091ff241b5-EWR"
+    }
+}

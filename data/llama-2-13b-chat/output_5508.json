@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week there was a big storm front rolling through the area. I was out of town at the time of the first storm but came back to wet carpets and a damp smell. I couldnt figure out where the leak was coming from right away, but as the next storm came I started to hear dripping. I trace the dripping to the window where my AC unit plugged in. Sure enough the seal on the window was not very tight and the groove filled with water. This combined with the slightly downward angle of the unit caused a leak to happen. I took the unit out of the window and shut the window for the duration of the storm. Once the window unit was out I noticed that it was pretty dirty and had a bit of debris on the bottom helping the water to pool underneath. I removed the debris and wiped off the unit with a towel. I also placed a shim in place to get the angle more closer to 0 degrees to prevent leaking. I went upstairs to check the other units and they seemed fine. However once I turned on the upstairs one it started sputtering a bit of water. I took this one out of the window as well and turned it upside down onto a towel. There was a bit of loose droplets in there but i got most of them. As a precaution i placed a towel over it when i turned it back on to flick the remaining water into. After this event I will be sure to check the units every year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week there was a big storm front rolling through the area. I was out of town at the time of the first storm but came back to wet carpets and a damp smell. I couldnt figure out where the leak was coming from right away, but as the next storm came I started to hear dripping. I trace the dripping to the window where my AC unit plugged in. Sure enough the seal on the window was not very tight and the groove filled with water. This combined with the slightly downward angle of the unit caused a leak to happen. I took the unit out of the window and shut the window for the duration of the storm. Once the window unit was out I noticed that it was pretty dirty and had a bit of debris on the bottom helping the water to pool underneath. I removed the debris and wiped off the unit with a towel. I also placed a shim in place to get the angle more closer to 0 degrees to prevent leaking. I went upstairs to check the other units and they seemed fine. However once I turned on the upstairs one it started sputtering a bit of water. I took this one out of the window as well and turned it upside down onto a towel. There was a bit of loose droplets in there but i got most of them. As a precaution i placed a towel over it when i turned it back on to flick the remaining water into. After this event I will be sure to check the units every year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f32faa94b42f8-EWR"
+    }
+}

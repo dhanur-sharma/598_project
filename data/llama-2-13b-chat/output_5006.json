@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What I wrote about before was the cruise I took a few months ago. I went with my sister and her daughter. My sister and I flew to Texas. The ship was leaving from Galveston. When we got to Galveston we stayed overnight in a hotel in order to board the ship the next day. We left on time. The ship was super crowded with people. Not my thing but oh well. We spent two days/nights sailing to our first destination. During the sailing we attended some events for entertainment. I really enjoyed just sitting on our balcony in the room. It was so relaxing just to watch the ocean. We also spent some time enjoying the food in the restaurants. Really good food. So we finally arrived at our destination, which was in Mexico. We got off the ship and did a little shopping in the touristy areas. Then we took a taxi to the beach. It was so hot and so humid. Being at the beach was great because we could jump in the ocean and cool down. We ate some Mexican food as we sat on our lounge chairs. We then got back on the ship to our next destination. We spent one night sailing there as I remember. We again spent some time on the beach there. Driving back to the ship we drove through the little town, which was extremely poor and run down. Really sad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What I wrote about before was the cruise I took a few months ago. I went with my sister and her daughter. My sister and I flew to Texas. The ship was leaving from Galveston. When we got to Galveston we stayed overnight in a hotel in order to board the ship the next day. We left on time. The ship was super crowded with people. Not my thing but oh well. We spent two days/nights sailing to our first destination. During the sailing we attended some events for entertainment. I really enjoyed just sitting on our balcony in the room. It was so relaxing just to watch the ocean. We also spent some time enjoying the food in the restaurants. Really good food. So we finally arrived at our destination, which was in Mexico. We got off the ship and did a little shopping in the touristy areas. Then we took a taxi to the beach. It was so hot and so humid. Being at the beach was great because we could jump in the ocean and cool down. We ate some Mexican food as we sat on our lounge chairs. We then got back on the ship to our next destination. We spent one night sailing there as I remember. We again spent some time on the beach there. Driving back to the ship we drove through the little town, which was extremely poor and run down. Really sad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We left there and went back to Galveston. We spent one more night on the ship and then flew home. That was my cruise experience.\n\n"
+            }
+        ],
+        "request_id": "811be27f4a4fc342-EWR"
+    }
+}

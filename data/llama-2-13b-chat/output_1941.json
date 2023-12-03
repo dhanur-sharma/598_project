@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had such a bittersweet time back home 2 months ago.  It had been many months since I had a chance to go back home and see my family.  I had been looking forward to it and with the holidays coming up it seemed perfect.  I was so happy to see everyone.  I think everyone was happy to see me.  My first stop once back in my hometown, was my grandma's house.  She is the highlight of my visit every time I am home.  She had cooked some of my favorite comfort foods for me to come home to. My immediate and extended family was all at her house waiting for me.  It felt like we picked up from right where we left off.  I didn't feel like it had been months or that I had missed out on anything.  In the past leaving my grandma was always the hardest part of my visit home.  However it was a little different this time.  I had a puppy growing up named Matt.  I learned that he was very sick.  My dad said he was going to have to putt him down.  I am glad I was home to say goodbye to my childhood pet.  I am devastated that it had to be done though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had such a bittersweet time back home 2 months ago.  It had been many months since I had a chance to go back home and see my family.  I had been looking forward to it and with the holidays coming up it seemed perfect.  I was so happy to see everyone.  I think everyone was happy to see me.  My first stop once back in my hometown, was my grandma's house.  She is the highlight of my visit every time I am home.  She had cooked some of my favorite comfort foods for me to come home to. My immediate and extended family was all at her house waiting for me.  It felt like we picked up from right where we left off.  I didn't feel like it had been months or that I had missed out on anything.  In the past leaving my grandma was always the hardest part of my visit home.  However it was a little different this time.  I had a puppy growing up named Matt.  I learned that he was very sick.  My dad said he was going to have to putt him down.  I am glad I was home to say goodbye to my childhood pet.  I am devastated that it had to be done though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The rest of my visit was a blur.  I was sad and couldn't stop crying.  It was a bittersweet visit.\n\n"
+            }
+        ],
+        "request_id": "811ead819d67431c-EWR"
+    }
+}

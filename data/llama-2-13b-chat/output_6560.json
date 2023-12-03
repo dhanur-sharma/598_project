@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A family reunion for the last time at the old farm where my grandfather grew up. We shared memories and stories, caught up with distant cousins and aunts and uncles, and said goodbye to the ghosts we were leaving behind. It was a nice reunion because I haven't seen this much of my family at the same time. We would just visit each other but not all at the same time. There was other people that my family that I haven;t seen in a long time. There is also family members that I have not seen at all. Usually, I am a type of person that will be quiet in these reunion but I had to talk. But I saw my cousin that I was close with when I was little. I wanted to rekindle that relationship with them.  So we talked about how school has been and learned that we had different career paths. But what we did have in common is our love for basketball. We always played when we were kids and dreamed to be basketball stars. It was crazy to think that after all these years we would still have anything in common. Talking about basketball made us break the ice and we were closer that I thought. We had the same favorite food and no one I knew did. It was a great experience to be with my family again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A family reunion for the last time at the old farm where my grandfather grew up. We shared memories and stories, caught up with distant cousins and aunts and uncles, and said goodbye to the ghosts we were leaving behind. It was a nice reunion because I haven't seen this much of my family at the same time. We would just visit each other but not all at the same time. There was other people that my family that I haven;t seen in a long time. There is also family members that I have not seen at all. Usually, I am a type of person that will be quiet in these reunion but I had to talk. But I saw my cousin that I was close with when I was little. I wanted to rekindle that relationship with them.  So we talked about how school has been and learned that we had different career paths. But what we did have in common is our love for basketball. We always played when we were kids and dreamed to be basketball stars. It was crazy to think that after all these years we would still have anything in common. Talking about basketball made us break the ice and we were closer that I thought. We had the same favorite food and no one I knew did. It was a great experience to be with my family again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am glad that I made the effort to go to this reunion.\n\n"
+            }
+        ],
+        "request_id": "811f47dfeb9b18b8-EWR"
+    }
+}

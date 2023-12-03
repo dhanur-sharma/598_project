@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I moved 4.5 hours away. We decided to do this, because we wanted to do something different. I was sick of my job and wanted to do something different. My girlfriend got a really good job here! We started saving in January or so and saved enough money by July to be able to move. I gave my boss a months notice and we started packing all our stuff. We got a dumpster and threw a buch of stuff away. The day that we moved it was the hottest day of the year!! We wanted to be able to have more time to do things together as a family. We are all very happy with the decision. It's beautiful here. There were a bunch of factors that went in to this move. My girlfriend was working a dead end job. So she decided she wanted to go back to school. However she applied at a place knowing she hadn't finished her schooling. She let them know she had some schooling but never graduated. They hired her anyways. We are so happy here!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I moved 4.5 hours away. We decided to do this, because we wanted to do something different. I was sick of my job and wanted to do something different. My girlfriend got a really good job here! We started saving in January or so and saved enough money by July to be able to move. I gave my boss a months notice and we started packing all our stuff. We got a dumpster and threw a buch of stuff away. The day that we moved it was the hottest day of the year!! We wanted to be able to have more time to do things together as a family. We are all very happy with the decision. It's beautiful here. There were a bunch of factors that went in to this move. My girlfriend was working a dead end job. So she decided she wanted to go back to school. However she applied at a place knowing she hadn't finished her schooling. She let them know she had some schooling but never graduated. They hired her anyways. We are so happy here!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd012be101795-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I take my dog out every morning for a quick walk to go potty and so he can get some fresh air. Paul is a good little Chihuahua. He loves everyone and is very well behaved. This past Sunday as I we were heading down the steps in front of my apartment, I took a step wrong. I tumbled down the concrete steps. Even though there are only four steps, it was enough to break my arm. Paul immediately started crying for me. He knew I was hurt before I even knew it. He began licking my arm to try and comfort me. As I stood up, dazed, I started to feel my arm. It hurt like the dickens. Paul wagged his tail nerviously and looked up at me. He looked from my arm to my face and back. I told him it's ok and that I'll be ok. He understood and quickly went potty. We then got into the car together and went straight to the ER. Paul comforted me the whole time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I take my dog out every morning for a quick walk to go potty and so he can get some fresh air. Paul is a good little Chihuahua. He loves everyone and is very well behaved. This past Sunday as I we were heading down the steps in front of my apartment, I took a step wrong. I tumbled down the concrete steps. Even though there are only four steps, it was enough to break my arm. Paul immediately started crying for me. He knew I was hurt before I even knew it. He began licking my arm to try and comfort me. As I stood up, dazed, I started to feel my arm. It hurt like the dickens. Paul wagged his tail nerviously and looked up at me. He looked from my arm to my face and back. I told him it's ok and that I'll be ok. He understood and quickly went potty. We then got into the car together and went straight to the ER. Paul comforted me the whole time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "When we got to the hospital, the nurses and doctors were amazed at how well behaved he was. Even when I was getting an x-ray, Paul sat by my side and didn't move. He was such a good boy. The doctor told me that I had a hairline fracture in my arm and that I would need a cast for the next six weeks. I thanked Paul for all his help and comfort that day.\n\n"
+            }
+        ],
+        "request_id": "811ec5fbee6d2369-EWR"
+    }
+}

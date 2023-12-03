@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Half a year ago, my dog Bella died. I will remember the good times I had with the good boy. I remember going to the park to play ball. I threw the ball a lot and she always got the ball back to me. I accidentally hit somebody in the shin. I had to run away from getting into a fight with the person. The dog got the ball back. That was funny. I also remember she loved eating peanut butter on her dog food. I gave her this treat once a week. She would always be smacking her lips after eating the peanut butter. It was a funny sight to see. I hope she is doing well in dog heaven. I hope I can see her again one day. She will always be a good dog."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Half a year ago, my dog Bella died. I will remember the good times I had with the good boy. I remember going to the park to play ball. I threw the ball a lot and she always got the ball back to me. I accidentally hit somebody in the shin. I had to run away from getting into a fight with the person. The dog got the ball back. That was funny. I also remember she loved eating peanut butter on her dog food. I gave her this treat once a week. She would always be smacking her lips after eating the peanut butter. It was a funny sight to see. I hope she is doing well in dog heaven. I hope I can see her again one day. She will always be a good dog.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f31272b12425e-EWR"
+    }
+}

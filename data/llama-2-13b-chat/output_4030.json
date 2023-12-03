@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am still shaking. I can't believe this day turned out to be the way it did. Saw the horror of a life departing from this world. Me and john were riding along the freeway. We were travelling to Detroit, a getaway that was planned months ago. The day progressed as usual. We stopped across a departmental store to get some snacks for the trip. To our horror, a car rode past us so fast that we knew something way wrong straight away. The driver had a seizure, we were told later. The car ran into a fast food truck as we were watching. I can still hear that noise when i close my eyes. The car hit the truck real bad. When we got there, we saw the horror. The fast food vendor was lying there, in a giant pool of blood. he was gone. His wife crying uncontrollably, holding her man, broke my heart."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am still shaking. I can't believe this day turned out to be the way it did. Saw the horror of a life departing from this world. Me and john were riding along the freeway. We were travelling to Detroit, a getaway that was planned months ago. The day progressed as usual. We stopped across a departmental store to get some snacks for the trip. To our horror, a car rode past us so fast that we knew something way wrong straight away. The driver had a seizure, we were told later. The car ran into a fast food truck as we were watching. I can still hear that noise when i close my eyes. The car hit the truck real bad. When we got there, we saw the horror. The fast food vendor was lying there, in a giant pool of blood. he was gone. His wife crying uncontrollably, holding her man, broke my heart.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "John and I were in shock. We were just there, enjoying our snacks, when this happened. I can't believe this day turned out to be the way it did.\n\n"
+            }
+        ],
+        "request_id": "811bceacfb9c4237-EWR"
+    }
+}

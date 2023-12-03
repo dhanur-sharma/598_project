@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in my front yard weeding the landscape in front of my house. My son and my husband were also in the front yard playing football. I heard a loud crash and looked towards the road to see a car had smashed into the guard rail coming down the road. The car went a bit out of control of the driver and starting sideways on the road as the road curved towards my house. I thought the car was going to flip once it hit the grass, so i started to get up and run towards my son. I didn't get very far when the car thankfully came to a stop just inches from the side of the road. The driver turned at looked at us as he was sitting in an old classic convertible car. I could see him holding something, but didn't realize what it was when I then hear my husband yell \"He's got a beer in his hand!!\" The driver then sped off down the road. I immediately went inside and called 911 to tell them there's a drunk driver that hit the guard rail and almost killed himself and my family. A cop later drove by to look at the damage of the guardrail. He mentioned to my husband that they didn't find any beer cans, but they did get him for a DUI. This week I just received a letter that I am subpoenaed for this event. The court date is next week. Today, his skid marks from his tires are still on the road in front of my house. I don't want to go to the court hearing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in my front yard weeding the landscape in front of my house. My son and my husband were also in the front yard playing football. I heard a loud crash and looked towards the road to see a car had smashed into the guard rail coming down the road. The car went a bit out of control of the driver and starting sideways on the road as the road curved towards my house. I thought the car was going to flip once it hit the grass, so i started to get up and run towards my son. I didn't get very far when the car thankfully came to a stop just inches from the side of the road. The driver turned at looked at us as he was sitting in an old classic convertible car. I could see him holding something, but didn't realize what it was when I then hear my husband yell \"He's got a beer in his hand!!\" The driver then sped off down the road. I immediately went inside and called 911 to tell them there's a drunk driver that hit the guard rail and almost killed himself and my family. A cop later drove by to look at the damage of the guardrail. He mentioned to my husband that they didn't find any beer cans, but they did get him for a DUI. This week I just received a letter that I am subpoenaed for this event. The court date is next week. Today, his skid marks from his tires are still on the road in front of my house. I don't want to go to the court hearing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "What should I do?\n\n"
+            }
+        ],
+        "request_id": "811ec9f6c99b4340-EWR"
+    }
+}

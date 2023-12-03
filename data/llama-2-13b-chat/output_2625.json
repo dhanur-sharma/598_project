@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a friends wedding today. She had been involved with her fiance for quite a while, and I always knew they should be together. It went well and was very cute. They both liked the same colors and everything was beautiful. All her friends from the past were part of the ceremony and it was quite uplifting. I was glad they shortened the ceremony a bit. They had original plans to do a lot more and spend more time on ceremony type things. But in the end they just focused on things they both liked and what they knew the guests would like also. So the main focus was on food and games. Not so much the formal aspects. They had so much food to choose from. It was quite entertaining the different choices they had. So much variety in foods. It probably went along with their multicultural families and life styles. Overall one of the best weddings I have every attended."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a friends wedding today. She had been involved with her fiance for quite a while, and I always knew they should be together. It went well and was very cute. They both liked the same colors and everything was beautiful. All her friends from the past were part of the ceremony and it was quite uplifting. I was glad they shortened the ceremony a bit. They had original plans to do a lot more and spend more time on ceremony type things. But in the end they just focused on things they both liked and what they knew the guests would like also. So the main focus was on food and games. Not so much the formal aspects. They had so much food to choose from. It was quite entertaining the different choices they had. So much variety in foods. It probably went along with their multicultural families and life styles. Overall one of the best weddings I have every attended.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had a great time and was so happy for them.\n\n"
+            }
+        ],
+        "request_id": "811eba6cb82f1a38-EWR"
+    }
+}

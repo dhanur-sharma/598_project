@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to drive at night. I don't like to. But it was necessary. It was in the middle of the night. Maybe 3 am. Pitch black in the old car. I felt scared for a number of reasons. I tried to stay focused at all times. It was easier to think that, then to actually do it though. I am not sure if it is the car itself, the lights, or just my old eyes.  I felt like I could see as well as I should for the nighttime drive. What was amazing was the time. It felt like it was going backwards. It felt like it took 7 hours to get home when it only took 2. I think I might get a new car. Or perhaps not drive a night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to drive at night. I don't like to. But it was necessary. It was in the middle of the night. Maybe 3 am. Pitch black in the old car. I felt scared for a number of reasons. I tried to stay focused at all times. It was easier to think that, then to actually do it though. I am not sure if it is the car itself, the lights, or just my old eyes.  I felt like I could see as well as I should for the nighttime drive. What was amazing was the time. It felt like it was going backwards. It felt like it took 7 hours to get home when it only took 2. I think I might get a new car. Or perhaps not drive a night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was scary and it was not fun. I would rather do it in the daylight."
+            }
+        ],
+        "request_id": "811eb3bc88f34398-EWR"
+    }
+}

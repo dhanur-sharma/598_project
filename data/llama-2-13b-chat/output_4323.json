@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last winter there was a really  bad storm in our area. It was like nothing seen here in living memory and no one was prepared for it. It came upon us suddenly with an unexpected snowfall. And it kept snowing, and snowing. That evening, we lost power. But we weren't concerned just yet. Around midnight, we were a little surprised that the power hadn't been restored. We were even more surprised that it was STILL snowing. And then came the cracking noises. We live in a forested area, so we are no strangers to the noise that trees make when they fall. It's a terrible sound. There are creaking and cracking noises, ripping and tearing; it's so loud, and it echoes. You don't know if a tree is falling at your neighbor's place, or right onto your own roof. Then comes the crashing thud as the tree hits the ground. Sometimes it takes out other trees on the way down and sometimes it takes out a structure or some utility lines. Trees cracked and fell all night and the snow piled up. More snow than we had ever seen here in our 16 years at this place-far more.  In the morning we were able to assess the damage. We lost dozens of trees and large limbs. All roads were impassable. Power and phone lines were down everywhere. We were stranded and had no means of communicating with the outside world. We hiked to our two closest neighbors to check on them. And then we waited. And it continued to snow."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last winter there was a really  bad storm in our area. It was like nothing seen here in living memory and no one was prepared for it. It came upon us suddenly with an unexpected snowfall. And it kept snowing, and snowing. That evening, we lost power. But we weren't concerned just yet. Around midnight, we were a little surprised that the power hadn't been restored. We were even more surprised that it was STILL snowing. And then came the cracking noises. We live in a forested area, so we are no strangers to the noise that trees make when they fall. It's a terrible sound. There are creaking and cracking noises, ripping and tearing; it's so loud, and it echoes. You don't know if a tree is falling at your neighbor's place, or right onto your own roof. Then comes the crashing thud as the tree hits the ground. Sometimes it takes out other trees on the way down and sometimes it takes out a structure or some utility lines. Trees cracked and fell all night and the snow piled up. More snow than we had ever seen here in our 16 years at this place-far more.  In the morning we were able to assess the damage. We lost dozens of trees and large limbs. All roads were impassable. Power and phone lines were down everywhere. We were stranded and had no means of communicating with the outside world. We hiked to our two closest neighbors to check on them. And then we waited. And it continued to snow.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd48bdf028c23-EWR"
+    }
+}

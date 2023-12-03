@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father has been ill for a few weeks now and it's been getting our whole family down.  My mom hasn't said anything, but I know she's worried sick about how she is going to be able to pay the bills while my dad is out of work.  It's been a dark cloud over the house.  Today things changed!  I was finally offered a promotion at my job!  This means I will be able to help them out for a change.  My dad has always supported me and now it's my opportunity to return the favor.  It feels so good to be recognized for all the hard work I've put in at my company.  I think this is going to be a great start of a new beginning.  My dad looked so proud when I told him about the promotion.  He smiled so big and I felt so happy.  I never want to let him down and I had been feeling like a failure lately.  I know he didn't feel that way but I had such high expectations of myself because of him.  I am feeling pretty good today.  Here's to a new start."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father has been ill for a few weeks now and it's been getting our whole family down.  My mom hasn't said anything, but I know she's worried sick about how she is going to be able to pay the bills while my dad is out of work.  It's been a dark cloud over the house.  Today things changed!  I was finally offered a promotion at my job!  This means I will be able to help them out for a change.  My dad has always supported me and now it's my opportunity to return the favor.  It feels so good to be recognized for all the hard work I've put in at my company.  I think this is going to be a great start of a new beginning.  My dad looked so proud when I told him about the promotion.  He smiled so big and I felt so happy.  I never want to let him down and I had been feeling like a failure lately.  I know he didn't feel that way but I had such high expectations of myself because of him.  I am feeling pretty good today.  Here's to a new start.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca25ccd0c445-EWR"
+    }
+}

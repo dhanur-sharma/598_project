@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met him before my freshman year of college, at a camp for incoming students. He was in my small group, but I didn't originally think anything of him. He tried to get together a few times freshman year, but I always blew him off. I didn't think we had anything in common. Eventually we became friends. He was there for me when I was going through difficult times. We became best friends. Eventually, he came and visited me. We did regular things, like going to ikea. However, I eventually realized I was developing romantic feelings for him. I knew that he would never make the first move, so I had to. I kissed him out of nowhere, and told him how I felt. He felt the same way and we started dating. Our relationship is great. That's how I fell in love with my best friend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met him before my freshman year of college, at a camp for incoming students. He was in my small group, but I didn't originally think anything of him. He tried to get together a few times freshman year, but I always blew him off. I didn't think we had anything in common. Eventually we became friends. He was there for me when I was going through difficult times. We became best friends. Eventually, he came and visited me. We did regular things, like going to ikea. However, I eventually realized I was developing romantic feelings for him. I knew that he would never make the first move, so I had to. I kissed him out of nowhere, and told him how I felt. He felt the same way and we started dating. Our relationship is great. That's how I fell in love with my best friend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea2db28fb427f-EWR"
+    }
+}

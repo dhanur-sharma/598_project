@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I was diagnosed with diabetes. This isn't normally a traumatic event but it was for me. I couldn't sleep one night, so I as up late. It was around 3am when I started to feel very strangely, dizzy, disoriented and scared. I woke my husband up and asked him to take me to the emergency room. Once we got there they ran many tests to find out why I was feeling the way I was. My blood sugar was very high, dangerously so. The doctor was surprised I wasn't in a diabetic coma. I was in the hospital for around 20 hours while they tried to determine if anything else was wrong with me. They were worried I might have had a stroke due to some of my symptoms. I had lots of blood work and a contract MRI done, as well as x-rays and cognitive tests. Once they were sure that I hadn't had a stroke they tried to bring my blood sugar down to a safe level. I was given multiple injections over several hours that failed to bring it down significantly. Finally it came down just barely into safe levels and they sent me home. Since that incident I have changed my life style. I've changed how I eat, started working out and running six days a week and lost forty pounds. I still have anxiety and fear associated with my health that I never experienced before going to the emergency room."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I was diagnosed with diabetes. This isn't normally a traumatic event but it was for me. I couldn't sleep one night, so I as up late. It was around 3am when I started to feel very strangely, dizzy, disoriented and scared. I woke my husband up and asked him to take me to the emergency room. Once we got there they ran many tests to find out why I was feeling the way I was. My blood sugar was very high, dangerously so. The doctor was surprised I wasn't in a diabetic coma. I was in the hospital for around 20 hours while they tried to determine if anything else was wrong with me. They were worried I might have had a stroke due to some of my symptoms. I had lots of blood work and a contract MRI done, as well as x-rays and cognitive tests. Once they were sure that I hadn't had a stroke they tried to bring my blood sugar down to a safe level. I was given multiple injections over several hours that failed to bring it down significantly. Finally it came down just barely into safe levels and they sent me home. Since that incident I have changed my life style. I've changed how I eat, started working out and running six days a week and lost forty pounds. I still have anxiety and fear associated with my health that I never experienced before going to the emergency room.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still have some symptoms but I am managing them.\n\n"
+            }
+        ],
+        "request_id": "811f34722851c35a-EWR"
+    }
+}

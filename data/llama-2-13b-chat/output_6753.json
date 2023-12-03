@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This incident happened nearly five months ago. My brother's birthday was nearing. He was with us for every birthday. But this time as he was in another country he was unable to come. We contacted him to come to home but he said that he was busy in his work. We really felt sad to enjoy his birthday without him. As he was not coming, we didn't arrange for any party at home. His birthday arrived. That day morning door bell was pressed by someone on early morning. To my surprise it was my brother. I was stunned for some minutes. I shed my tears after seeing him. Then he consoled me and got prepared to enjoy his birthday. Soon we arranged for a birthday party and invited our friends. We enjoyed the surprise party to the core."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This incident happened nearly five months ago. My brother's birthday was nearing. He was with us for every birthday. But this time as he was in another country he was unable to come. We contacted him to come to home but he said that he was busy in his work. We really felt sad to enjoy his birthday without him. As he was not coming, we didn't arrange for any party at home. His birthday arrived. That day morning door bell was pressed by someone on early morning. To my surprise it was my brother. I was stunned for some minutes. I shed my tears after seeing him. Then he consoled me and got prepared to enjoy his birthday. Soon we arranged for a birthday party and invited our friends. We enjoyed the surprise party to the core.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "This was a memorable birthday for me.\n\n"
+            }
+        ],
+        "request_id": "811f4c177d0e4288-EWR"
+    }
+}

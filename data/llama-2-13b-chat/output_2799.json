@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So within the last month I moved states.  I moved from Louisiana to Colorado.  It was a difficult drive that took about 3 days.  We had issues with the hotel we stayed in one night.  The room was dirty first.  Then the second room had bed bugs.  We had some great food on the way over though.  And my dad came with me the whole way and stayed with me for a week after. After we were here we went to several places to see the sites.  We even got to see some buffalo one day.  It was a great experience and great to spend that time with my dad.  He took me furniture shopping a few times.  He paid for way too much stuff though.  It's been nice being back in Colorado but I miss my family at home.  I've been lucky to have some really good friends here though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So within the last month I moved states.  I moved from Louisiana to Colorado.  It was a difficult drive that took about 3 days.  We had issues with the hotel we stayed in one night.  The room was dirty first.  Then the second room had bed bugs.  We had some great food on the way over though.  And my dad came with me the whole way and stayed with me for a week after. After we were here we went to several places to see the sites.  We even got to see some buffalo one day.  It was a great experience and great to spend that time with my dad.  He took me furniture shopping a few times.  He paid for way too much stuff though.  It's been nice being back in Colorado but I miss my family at home.  I've been lucky to have some really good friends here though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebe89e9b532f4-EWR"
+    }
+}

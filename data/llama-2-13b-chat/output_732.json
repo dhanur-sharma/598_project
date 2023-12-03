@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to the wedding of my cousin.  We had to drive around 15 hours to get there which was a bit of torture due to my kids in the car.  The wedding was quite beautiful and took place along the coast of Maine. We got to go on a ferry boat ride and see the bay and lighthouse.  My kids enjoyed the ride.  I usually get sea sick but I was mostly fine this time.  The next day we went to a beach.  But it was different from beaches where I live.  It was very rocky.  We found some hermit crabs and would come part way out of there shell.  My kids and I thought it was so cool.  Later we went to another beach.  It was more sandy than rocky.  The kids built some sand castles.  Their cousins also came along.  So it was a fun family trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to the wedding of my cousin.  We had to drive around 15 hours to get there which was a bit of torture due to my kids in the car.  The wedding was quite beautiful and took place along the coast of Maine. We got to go on a ferry boat ride and see the bay and lighthouse.  My kids enjoyed the ride.  I usually get sea sick but I was mostly fine this time.  The next day we went to a beach.  But it was different from beaches where I live.  It was very rocky.  We found some hermit crabs and would come part way out of there shell.  My kids and I thought it was so cool.  Later we went to another beach.  It was more sandy than rocky.  The kids built some sand castles.  Their cousins also came along.  So it was a fun family trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e976dbf0b5e76-EWR"
+    }
+}

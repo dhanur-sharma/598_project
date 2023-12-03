@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I came home from work a bit early since it wasn't busy, and I found my wife sitting at the dining room table.  This was a little strange, since I would usually find her on the couch watching television. She asked me to sit, which I figured could either mean good or bad news.  I obliged, and she set a pregnancy test on top of a paper towel that had been placed on the table in front of me.  It indicated that she was pregnant.  I wasn't sure how to feel.  I was excited, but nervous. This certainly was not a planned event. But regardless of how I felt, I needed to deal with it as best I could.  My take home pay was just enough to cover our existing lifestyle, and now I would have to purchase diapers, baby food, clothing, and all of the other baby-related items.  Our medical bills would increase.  It was stressful. However, I knew we could handle it, as we had before.  My job was quite flexible, and I could work more hours and bring home more pay.  My wife could work online - she was a medical transcriptionist before she quit to take care of our first child, and her company offered to keep her employed on a part-time basis if she ever needed the work.  It was a big life change, but I knew everything was going to be alright."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I came home from work a bit early since it wasn't busy, and I found my wife sitting at the dining room table.  This was a little strange, since I would usually find her on the couch watching television. She asked me to sit, which I figured could either mean good or bad news.  I obliged, and she set a pregnancy test on top of a paper towel that had been placed on the table in front of me.  It indicated that she was pregnant.  I wasn't sure how to feel.  I was excited, but nervous. This certainly was not a planned event. But regardless of how I felt, I needed to deal with it as best I could.  My take home pay was just enough to cover our existing lifestyle, and now I would have to purchase diapers, baby food, clothing, and all of the other baby-related items.  Our medical bills would increase.  It was stressful. However, I knew we could handle it, as we had before.  My job was quite flexible, and I could work more hours and bring home more pay.  My wife could work online - she was a medical transcriptionist before she quit to take care of our first child, and her company offered to keep her employed on a part-time basis if she ever needed the work.  It was a big life change, but I knew everything was going to be alright.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We would figure it out together.\n\n"
+            }
+        ],
+        "request_id": "811ec410dc7d1871-EWR"
+    }
+}

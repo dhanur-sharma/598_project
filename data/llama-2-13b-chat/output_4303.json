@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had 8 years clean and sober. One day I was watching TV and a beer commercial came on. It showed people relaxing and enjoying a nice cold beer. I had the thought that I missed being able to do that and thought that it had been long enough that I could handle a beer or glass of wine every now and then. I purchased a beer and handled it fine the first few occasions. However, soon my drinking became an issue. It got to the point where I had to have it daily and was drinking a lot quite regularly. My drinking quickly began to effect my family and work life. Within a few months, it got to the point where I knew it was unmanageable. That's when I reached out for help because I knew I couldn't quit on my own. I told me friends, family, and employers what was happening and told them I wanted to get help. I found a local detox center that I could check into for four days. I arranged for childcare for my children and put in for some PTO at work. I checked into the detox center and stayed for the full four days. They helped me with medications and counseling and gave me enough time to get all of the alcohol out of my system. I have been sober ever since, which has almost been four months now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had 8 years clean and sober. One day I was watching TV and a beer commercial came on. It showed people relaxing and enjoying a nice cold beer. I had the thought that I missed being able to do that and thought that it had been long enough that I could handle a beer or glass of wine every now and then. I purchased a beer and handled it fine the first few occasions. However, soon my drinking became an issue. It got to the point where I had to have it daily and was drinking a lot quite regularly. My drinking quickly began to effect my family and work life. Within a few months, it got to the point where I knew it was unmanageable. That's when I reached out for help because I knew I couldn't quit on my own. I told me friends, family, and employers what was happening and told them I wanted to get help. I found a local detox center that I could check into for four days. I arranged for childcare for my children and put in for some PTO at work. I checked into the detox center and stayed for the full four days. They helped me with medications and counseling and gave me enough time to get all of the alcohol out of my system. I have been sober ever since, which has almost been four months now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd4303a6f32e4-EWR"
+    }
+}

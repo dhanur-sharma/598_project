@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was 4 months ago , late April to be exact. It was soccer season . I was the best striker in the team . We were 3-1, the other team was losing hope . Everything was looking up and up ,  until i started dribbling the ball i felt pain above my heel. I couldn't stretch my ankle or stand on my toes. The pain was severe, and the area felt tender, stiff, and swollen. And i heard a popping noise when my achilles tendon was ruptured. I fell to the ground and i immediately held my knee. I felt that my soccer season was over and this was something serious. I tried to ice the area to keep the swelling down, but that was obsolete. I knew i had to go to the emergency room right away. At the hospital they confirmed that it was an achilles rupture, but instead of surgery i may need to wear a cast for six weeks. During this time the tendon will grow back together. The doctor had me in the cast and told me it will be changed every two to three weeks to help stretch the tendon. I have leg brace splint that keeps me from moving my foot to prevent further injury. After one week the doctor said it is ok to walk with the cast without putting too much pressure on it. Now i am two weeks into my post injury care and it seems to be healing as expected. Next week i will go to the doctor to have the cast changed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was 4 months ago , late April to be exact. It was soccer season . I was the best striker in the team . We were 3-1, the other team was losing hope . Everything was looking up and up ,  until i started dribbling the ball i felt pain above my heel. I couldn't stretch my ankle or stand on my toes. The pain was severe, and the area felt tender, stiff, and swollen. And i heard a popping noise when my achilles tendon was ruptured. I fell to the ground and i immediately held my knee. I felt that my soccer season was over and this was something serious. I tried to ice the area to keep the swelling down, but that was obsolete. I knew i had to go to the emergency room right away. At the hospital they confirmed that it was an achilles rupture, but instead of surgery i may need to wear a cast for six weeks. During this time the tendon will grow back together. The doctor had me in the cast and told me it will be changed every two to three weeks to help stretch the tendon. I have leg brace splint that keeps me from moving my foot to prevent further injury. After one week the doctor said it is ok to walk with the cast without putting too much pressure on it. Now i am two weeks into my post injury care and it seems to be healing as expected. Next week i will go to the doctor to have the cast changed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't wait to get back to my soccer field."
+            }
+        ],
+        "request_id": "811ecb2cc8e94399-EWR"
+    }
+}

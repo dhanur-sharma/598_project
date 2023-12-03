@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I met a friend on a nearby island to go for a dog walk.  There is a beautiful 2 mile walk through natural areas and for a while the path is near the river.  It is a pleasant walk that we've done with our dogs before.  It takes about an hour.  We're able to see native wildlife including hawks, eagles, song birds, rabbits, squirrels and even snakes.  We meet in the parking lot just after the bridge.  As I arrived at the parking lot I realized my gas tank was very low and I didn't now if I had enough gas to get home.  There is no gas station on the island the the nearest gas station was about 20 miles away in the opposite direction from where my friend lives.  We enjoyed the dog walk and our dogs did too.  We stopped at the nearby farm store where they have a grill and sell hot dogs and burgers and we each got a hot dog and a beer and had lunch.  I told my friend about my concern about running out of gas on the way home and being stuck on the side of the road with my dog.  My friend said not to worry and that she would follow me to the nearest gas station.  She said that she would stay with me if I ran out of gas or give me a ride to the gas station to pick up a container of gas so I could make it to the station.  We left the farm store and headed toward the gas station.  I was very anxious about running out of gas and the indicator on my dash was getting closer and closer to empty.  I barely made it to the gas station and was relieved to get the tank filled.  I thanked my friend and told her how grateful I was and vowed not to let my tank get that low again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I met a friend on a nearby island to go for a dog walk.  There is a beautiful 2 mile walk through natural areas and for a while the path is near the river.  It is a pleasant walk that we've done with our dogs before.  It takes about an hour.  We're able to see native wildlife including hawks, eagles, song birds, rabbits, squirrels and even snakes.  We meet in the parking lot just after the bridge.  As I arrived at the parking lot I realized my gas tank was very low and I didn't now if I had enough gas to get home.  There is no gas station on the island the the nearest gas station was about 20 miles away in the opposite direction from where my friend lives.  We enjoyed the dog walk and our dogs did too.  We stopped at the nearby farm store where they have a grill and sell hot dogs and burgers and we each got a hot dog and a beer and had lunch.  I told my friend about my concern about running out of gas on the way home and being stuck on the side of the road with my dog.  My friend said not to worry and that she would follow me to the nearest gas station.  She said that she would stay with me if I ran out of gas or give me a ride to the gas station to pick up a container of gas so I could make it to the station.  We left the farm store and headed toward the gas station.  I was very anxious about running out of gas and the indicator on my dash was getting closer and closer to empty.  I barely made it to the gas station and was relieved to get the tank filled.  I thanked my friend and told her how grateful I was and vowed not to let my tank get that low again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " As we drove away from the gas station I felt a great sense of relief and gratitude to have such a kind and supportive friend.\n\n"
+            }
+        ],
+        "request_id": "811f3292ce428c8a-EWR"
+    }
+}

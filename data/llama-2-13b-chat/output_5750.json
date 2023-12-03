@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months back, a group of friends went Kayaking on the Yadkin River.  This is an activity that we do on a fairly normal basis, however this time was a bit more eventful than usual.  My brothers girlfriend had a bit too much to drink.  Nearing the end of the trip, she jumped out of the kayak to get wet and cool off, however when the cold water hit her, it amplified her intoxication.  After this moment, the fun began.  After getting her kayak swamped for what seemed like 30 times, I was completely exhausted.  It took over an hour to complete the final quarter mile of the trip.  Upon returning to the take out point, I was nearly completely powerless.  All I wanted to do was to get out, go home and go to bed.  To this day, she does not remember the incident.  We have been kayaking numerous times since then, however event have not repeated.  They have been standard trips, thank goodness.  Nevertheless, it was a memorable trip.  It is a funny story that we tell often, especially when out on the river with friends.  Sometimes the craziest things make a lasting impression!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months back, a group of friends went Kayaking on the Yadkin River.  This is an activity that we do on a fairly normal basis, however this time was a bit more eventful than usual.  My brothers girlfriend had a bit too much to drink.  Nearing the end of the trip, she jumped out of the kayak to get wet and cool off, however when the cold water hit her, it amplified her intoxication.  After this moment, the fun began.  After getting her kayak swamped for what seemed like 30 times, I was completely exhausted.  It took over an hour to complete the final quarter mile of the trip.  Upon returning to the take out point, I was nearly completely powerless.  All I wanted to do was to get out, go home and go to bed.  To this day, she does not remember the incident.  We have been kayaking numerous times since then, however event have not repeated.  They have been standard trips, thank goodness.  Nevertheless, it was a memorable trip.  It is a funny story that we tell often, especially when out on the river with friends.  Sometimes the craziest things make a lasting impression!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f37a9efb443ed-EWR"
+    }
+}

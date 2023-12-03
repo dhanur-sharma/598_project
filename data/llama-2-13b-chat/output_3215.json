@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a trip to a different state. It was where I grew up and had a lot of memories so it was a good experience. The weather was cold and it was snowy when I was there. Visiting brought back a lot of memories and I didn't expect that. We went hiking and explored a lot around the area where my family lives. We saw a lot of wildlife and animals I haven't seen before. I saw horses, deer, birds, and turtles. We also went by some historical places around town. That was so cool to learn about the history of the area. It was all information I didn't know before and that was crazy. We also went to a large lake where there were a lot people hanging out and doing water sports. That was entertaining. They seemed cold and I didn't think they were having fun. It looked like fun though. The trip was interesting, but I think I will go else where next time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a trip to a different state. It was where I grew up and had a lot of memories so it was a good experience. The weather was cold and it was snowy when I was there. Visiting brought back a lot of memories and I didn't expect that. We went hiking and explored a lot around the area where my family lives. We saw a lot of wildlife and animals I haven't seen before. I saw horses, deer, birds, and turtles. We also went by some historical places around town. That was so cool to learn about the history of the area. It was all information I didn't know before and that was crazy. We also went to a large lake where there were a lot people hanging out and doing water sports. That was entertaining. They seemed cold and I didn't think they were having fun. It looked like fun though. The trip was interesting, but I think I will go else where next time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec685f94e440d-EWR"
+    }
+}

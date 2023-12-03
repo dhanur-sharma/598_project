@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to visit family for vacation at my sister's house.  It was the first time in years that we had all gathered together and some of the younger children had never met before.  It was a great time watching them all play together and get along.  I helped with a lot of the cooking as I like that and am good at it.  It was fun to go out in the woods with the kids and show them the river and we saw a deer.  I played baseball with a few of the nephews.  We went out to eat at a great restaraunt and had a great time. It was nice to catch up with my siblings and hang out like we used to.  We had not all been together for a long time and we reminisced.  It was a bit cold but did not snow and we built a fire outside one night and maybe drank a bit much.  My parents enjoyed seeing all of the kids running around.  It was a great time with my family and one we will repeat this year.  We discussed renting a nice lake house or something a bit closer to everybody next time.  It is hard to meet up often because we are all scattered out over the country.  It was a good reminder of how lucky I am to have such a good family.  I am looking forward to next time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to visit family for vacation at my sister's house.  It was the first time in years that we had all gathered together and some of the younger children had never met before.  It was a great time watching them all play together and get along.  I helped with a lot of the cooking as I like that and am good at it.  It was fun to go out in the woods with the kids and show them the river and we saw a deer.  I played baseball with a few of the nephews.  We went out to eat at a great restaraunt and had a great time. It was nice to catch up with my siblings and hang out like we used to.  We had not all been together for a long time and we reminisced.  It was a bit cold but did not snow and we built a fire outside one night and maybe drank a bit much.  My parents enjoyed seeing all of the kids running around.  It was a great time with my family and one we will repeat this year.  We discussed renting a nice lake house or something a bit closer to everybody next time.  It is hard to meet up often because we are all scattered out over the country.  It was a good reminder of how lucky I am to have such a good family.  I am looking forward to next time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e91439b780f3e-EWR"
+    }
+}

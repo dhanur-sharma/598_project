@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, we buried my mother in law. It was a sad day that day. My father had a few tears. My mother had a few more tears. My brothers and sisters all gave me a hug. I gave a speech about her life. She was an accountant. She always went to work with a smile. She always got the job done. She was the best accountant at the company. She had a few kids and a husband. They all loved her. She loved to eat cupcakes. She loved them if they had some sprinkles on them. We celebrated this by having a giant batch of cupcakes made for the burial. We all grabbed a cupcake and threw them into the grave before she was buried."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, we buried my mother in law. It was a sad day that day. My father had a few tears. My mother had a few more tears. My brothers and sisters all gave me a hug. I gave a speech about her life. She was an accountant. She always went to work with a smile. She always got the job done. She was the best accountant at the company. She had a few kids and a husband. They all loved her. She loved to eat cupcakes. She loved them if they had some sprinkles on them. We celebrated this by having a giant batch of cupcakes made for the burial. We all grabbed a cupcake and threw them into the grave before she was buried.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a strange ritual. But it made us all smile. I miss her. I miss her every day. She was a great woman.\n\n"
+            }
+        ],
+        "request_id": "811e8b1d4997427c-EWR"
+    }
+}

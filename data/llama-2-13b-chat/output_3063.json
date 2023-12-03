@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago I attended an event that would include old friends I hadn't seen or heard from in over forty-seven years. I was thrilled when I heard they would be there, along with their respective spouses, as we were all members of another friends wedding party years ago and very close friends. I got to the event early and sat there on pins and needles waiting to see who walked in first. I was afraid I wouldn't recognize them or they wouldn't recognize me. I was so very wrong! As they walked in the door, although the room was getting crowded, there was no way I couldn't know who they were. All these years just disappeared. Their faces were exactly as I remembered them. We hugged, we laughed, and even a few tears were shed. I can honestly say I was so moved and so very happy to see them all again. We were so close for so long and then time and life intervened. The years flew by and so did that night. We danced, ate, drank and had the best time. This was one of the most emotional times of my life and I'll never forget how I felt and how much fun I had.  Before we left I made them promise not to let so much time go by again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago I attended an event that would include old friends I hadn't seen or heard from in over forty-seven years. I was thrilled when I heard they would be there, along with their respective spouses, as we were all members of another friends wedding party years ago and very close friends. I got to the event early and sat there on pins and needles waiting to see who walked in first. I was afraid I wouldn't recognize them or they wouldn't recognize me. I was so very wrong! As they walked in the door, although the room was getting crowded, there was no way I couldn't know who they were. All these years just disappeared. Their faces were exactly as I remembered them. We hugged, we laughed, and even a few tears were shed. I can honestly say I was so moved and so very happy to see them all again. We were so close for so long and then time and life intervened. The years flew by and so did that night. We danced, ate, drank and had the best time. This was one of the most emotional times of my life and I'll never forget how I felt and how much fun I had.  Before we left I made them promise not to let so much time go by again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They all promised and we exchanged phone numbers and email addresses. I will always treasure this night and the memories we shared. \n\n"
+            }
+        ],
+        "request_id": "811ec36c3e58c47a-EWR"
+    }
+}

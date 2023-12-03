@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I was called out of the blue by an old friend from high school, someone I haven't seen or thought about in decades.  He's now living in California, and found me through social media. Which is pretty funny considering I have next to no social media presence, but there you go regardless.  Pete invited me out to Los Angeles, to catch up and get reacquainted.  He's a mid-level manager with a props company that works with studios and producers, and he remembered I love movies.  I love them more now.  I was surprised to find I enjoyed the conversation.  I was even more surprised by the invitation.  He'll put me up out there, room and board for the most part, for a whole month if I want.  All I have to do is pay for my travel.  It's a very tempting offer.  I haven't traveled much, even though I've wanted to.  And I do remember having some good times with Pete back in school.  I'm still thinking the offer over, and told him that much.  But I think, after I dither some more for a few days or maybe a week, I'll accept.  After all, I do love movies and Hollywood.  And Pete and I need to make up, after the falling out we experienced."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I was called out of the blue by an old friend from high school, someone I haven't seen or thought about in decades.  He's now living in California, and found me through social media. Which is pretty funny considering I have next to no social media presence, but there you go regardless.  Pete invited me out to Los Angeles, to catch up and get reacquainted.  He's a mid-level manager with a props company that works with studios and producers, and he remembered I love movies.  I love them more now.  I was surprised to find I enjoyed the conversation.  I was even more surprised by the invitation.  He'll put me up out there, room and board for the most part, for a whole month if I want.  All I have to do is pay for my travel.  It's a very tempting offer.  I haven't traveled much, even though I've wanted to.  And I do remember having some good times with Pete back in school.  I'm still thinking the offer over, and told him that much.  But I think, after I dither some more for a few days or maybe a week, I'll accept.  After all, I do love movies and Hollywood.  And Pete and I need to make up, after the falling out we experienced.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm sure it will be a great experience.  I'm also sure I'll have some stories to tell when I get back."
+            }
+        ],
+        "request_id": "811f2f7079548c05-EWR"
+    }
+}

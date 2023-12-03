@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a young daughter. She is so beautiful and she means the world to me. We like to play in front of our house often. One day I was out in the yard watching her play. She was jumping rope and having a good time. She didn't have a care in the world. It was just a normal day. The next thing I knew I heard a loud bang down the street. A little girl had just been hit by a vehicle. I was terrified. I ran down the street as fast as I could. I ran over to her to check on her. She was bleeding. I called emergency services on my phone. I told them what was happening and they needed to hurry about as fast as they could. They got their and took the girl off to the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a young daughter. She is so beautiful and she means the world to me. We like to play in front of our house often. One day I was out in the yard watching her play. She was jumping rope and having a good time. She didn't have a care in the world. It was just a normal day. The next thing I knew I heard a loud bang down the street. A little girl had just been hit by a vehicle. I was terrified. I ran down the street as fast as I could. I ran over to her to check on her. She was bleeding. I called emergency services on my phone. I told them what was happening and they needed to hurry about as fast as they could. They got their and took the girl off to the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was scared for my daughter. I didn't want anything to happen to her. She is all I have. I was so worried about her. I was worried that the girl who was hit might not make it. I was worried about my daughter being out in the street playing. I was worried about everything. I was just worried.\n\n"
+            }
+        ],
+        "request_id": "811e8df84b4dc326-EWR"
+    }
+}

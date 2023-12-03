@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family got evicted from our home a few months ago. I lived with my mother and two younger brothers. This was very upsetting for us as we don't have a lot of family or family friends in this city. My family eventually became estranged from one another. My youngest brother moved in with relatives in another state, my second youngest brother (a teen) became deliquent, and my mother went to live with a guy she was dating. I moved to a homeless shelter for youth on the other side of town in search of stability and greater opportunity for myself. I worked two jobs to be able to move into my first apartment. The apartment was apart of a transitional housing program/intentional living community. These are programs that not only provide housing, but they also provide support in other areas (education, family mediation, career opportunity and more). It wasn't an ideal environment that I wanted to be in, and I ended up isolating myself from most of my peers. The people I did get involved with were probably the worst social group that I could have chose. I began smoking weed and tobacco products daily. I began drinking and I tried other drugs also. I knew the risks, but at this point with no family and being forced to drop out of college, I felt like I had nothing to look forward to. Luckily for me, this phase was short-lived considering that most people get addicted to drugs/alcohol and never recover."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family got evicted from our home a few months ago. I lived with my mother and two younger brothers. This was very upsetting for us as we don't have a lot of family or family friends in this city. My family eventually became estranged from one another. My youngest brother moved in with relatives in another state, my second youngest brother (a teen) became deliquent, and my mother went to live with a guy she was dating. I moved to a homeless shelter for youth on the other side of town in search of stability and greater opportunity for myself. I worked two jobs to be able to move into my first apartment. The apartment was apart of a transitional housing program/intentional living community. These are programs that not only provide housing, but they also provide support in other areas (education, family mediation, career opportunity and more). It wasn't an ideal environment that I wanted to be in, and I ended up isolating myself from most of my peers. The people I did get involved with were probably the worst social group that I could have chose. I began smoking weed and tobacco products daily. I began drinking and I tried other drugs also. I knew the risks, but at this point with no family and being forced to drop out of college, I felt like I had nothing to look forward to. Luckily for me, this phase was short-lived considering that most people get addicted to drugs/alcohol and never recover.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I managed to kick the habit after a few months, and I'm now in a better place. I've been back in college for a semester now, and I'm really enjoying it. My grades are good and I'm making new friends. I'm really grateful that I was able to pull myself out of that situation and get back on track.\n\n"
+            }
+        ],
+        "request_id": "811f3ab28cfe8c6c-EWR"
+    }
+}

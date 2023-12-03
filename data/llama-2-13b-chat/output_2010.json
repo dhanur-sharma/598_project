@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went camping and kayaking down a river with the family. We got there and set up camp. We put up a blue tent. It was very tall. We soon got the kayak and went kayaking. We had a fun time for a little bit. In the middle of the kayaking, we tipped over. We almost drowned. We were lucky that some people were passing and saved us. We each gave each other a big hug. We decided to leave that place after that ordeal. We went home to lay in our beds. This was a taxing event for all of us. I hope we can all recover from this terrible near tragedy. I will definitely remember it as long as I live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went camping and kayaking down a river with the family. We got there and set up camp. We put up a blue tent. It was very tall. We soon got the kayak and went kayaking. We had a fun time for a little bit. In the middle of the kayaking, we tipped over. We almost drowned. We were lucky that some people were passing and saved us. We each gave each other a big hug. We decided to leave that place after that ordeal. We went home to lay in our beds. This was a taxing event for all of us. I hope we can all recover from this terrible near tragedy. I will definitely remember it as long as I live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaeb3285d0f6f-EWR"
+    }
+}

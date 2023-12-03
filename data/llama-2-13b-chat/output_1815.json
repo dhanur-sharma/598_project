@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 30 years ago I decided I wanted to get into real estate. I took real estate classes at my local community college. I studied an entire summer for the board exam. I failed once. On my second try, I passed. I was so excited. I interview at a few different brokerages and landed a position at a great brokerage not to far from my home.  The first 6 months were very hard. I trained under another real estate agent.  I was able to sell a few homes my first year.  My second year was better. Slowly I started to create a business for myself.  Just when I thought I was doing well, the stock market crashed.  The real estate industry was in trouble. Many people lost their homes. I had to find a part time job to make ends meet.  Within a year they asked me to join them full-time. I am so grateful for this opportunity. After years of a sketchy real estate market, I decided to quit and just work my full-time job where I have full benefits. Things have been going well ever sense. In a way, I'm glad the market crashed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 30 years ago I decided I wanted to get into real estate. I took real estate classes at my local community college. I studied an entire summer for the board exam. I failed once. On my second try, I passed. I was so excited. I interview at a few different brokerages and landed a position at a great brokerage not to far from my home.  The first 6 months were very hard. I trained under another real estate agent.  I was able to sell a few homes my first year.  My second year was better. Slowly I started to create a business for myself.  Just when I thought I was doing well, the stock market crashed.  The real estate industry was in trouble. Many people lost their homes. I had to find a part time job to make ends meet.  Within a year they asked me to join them full-time. I am so grateful for this opportunity. After years of a sketchy real estate market, I decided to quit and just work my full-time job where I have full benefits. Things have been going well ever sense. In a way, I'm glad the market crashed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It made me take a step back and realize what was important to me.\n\n"
+            }
+        ],
+        "request_id": "811eab50de0d8c23-EWR"
+    }
+}

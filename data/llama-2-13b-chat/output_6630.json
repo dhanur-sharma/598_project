@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: May 24, 2019Boy, was that a whirlwind day! John and I are now husband and wife! I can't believe this actually happened. I was worried we were moving to fast: he only proposed two months ago. But I don't care if we did move to fast, I just know this is what I wanted. The ceremony was a small get together at my parent's. We only invited close family and friends: about 25 people. John's parents were so happy for him. My mom cried and cried. I'm glad we decided not to keep it small and manageable: I would have been way more nervous than I already was if it was some big extravaganza. In fact, I was so nervous I had to hire some catering. I had planned to cook the entire meal myself, but it was just too much with my nerves and all. So, I ended up making a few of my family's favorite dishes and a few of John's family's favorites (For the record, John's sister helped out with those recipes). I then found a caterer and had them bring some complementary dishes to round the meal out. We were on a tight budget (who wants to start marriage in debt?), but so many of our family and friends tipped in to help out with every thing that it all looked great and went very smooth. I think everyone had a great time!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: May 24, 2019Boy, was that a whirlwind day! John and I are now husband and wife! I can't believe this actually happened. I was worried we were moving to fast: he only proposed two months ago. But I don't care if we did move to fast, I just know this is what I wanted. The ceremony was a small get together at my parent's. We only invited close family and friends: about 25 people. John's parents were so happy for him. My mom cried and cried. I'm glad we decided not to keep it small and manageable: I would have been way more nervous than I already was if it was some big extravaganza. In fact, I was so nervous I had to hire some catering. I had planned to cook the entire meal myself, but it was just too much with my nerves and all. So, I ended up making a few of my family's favorite dishes and a few of John's family's favorites (For the record, John's sister helped out with those recipes). I then found a caterer and had them bring some complementary dishes to round the meal out. We were on a tight budget (who wants to start marriage in debt?), but so many of our family and friends tipped in to help out with every thing that it all looked great and went very smooth. I think everyone had a great time!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We also had some very touching speeches. Even though I was the bride, I think John's dad stole the show. He talked about how John had grown into such a fine man and how he was so proud of him. It was very moving and I teared up. I'm so glad we got to share this special day with the people we love. I feel like this is just the start of something great!"
+            }
+        ],
+        "request_id": "811f49865b6643f2-EWR"
+    }
+}

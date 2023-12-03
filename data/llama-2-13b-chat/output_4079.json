@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, I went into labor early and very suddenly. My husband rushed me to our local hospital, although I had planned to delivery at a larger hospital in a nearby city. Our local hospital isn't very well-equipped, and there are no gyns on staff, and sometimes, there isn't even a doctor there. But I had no choice, It was close, and I was suffering, so we went. Fortunately, a doctor was available, though she wasn't an ob-gyn. The baby was coming so fast, there was no time for an epidural, so I couldn't have any pain meds. Also fortunately, my baby, Charles, was healthy and continues to do well a week later. I wish I could say the same for myself. The pain usually goes away after delivery, but that didn't happen. I had and still have very bad low back pain. Sometimes it is excruciating, so bad, in fact, that I find it difficult to stand. My husband's mother is staying with us to help take care of Charles, and she is a godsend. I don't know what I would do without help right now. I have an appointment to see an orthopedic specialist but not till next week. Until then, we are just taking it a day at a time. This should be such a special time to enjoy my new baby, but it's not. We are all just getting by, day to day with the help of my mother in law. I haven't heard of anyone else having exactly this experience, and I really can't believe they even sent me home from the hospital. Honestly, I have to wonder if I would still be in this much pain if I had been able to give birth at the larger hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, I went into labor early and very suddenly. My husband rushed me to our local hospital, although I had planned to delivery at a larger hospital in a nearby city. Our local hospital isn't very well-equipped, and there are no gyns on staff, and sometimes, there isn't even a doctor there. But I had no choice, It was close, and I was suffering, so we went. Fortunately, a doctor was available, though she wasn't an ob-gyn. The baby was coming so fast, there was no time for an epidural, so I couldn't have any pain meds. Also fortunately, my baby, Charles, was healthy and continues to do well a week later. I wish I could say the same for myself. The pain usually goes away after delivery, but that didn't happen. I had and still have very bad low back pain. Sometimes it is excruciating, so bad, in fact, that I find it difficult to stand. My husband's mother is staying with us to help take care of Charles, and she is a godsend. I don't know what I would do without help right now. I have an appointment to see an orthopedic specialist but not till next week. Until then, we are just taking it a day at a time. This should be such a special time to enjoy my new baby, but it's not. We are all just getting by, day to day with the help of my mother in law. I haven't heard of anyone else having exactly this experience, and I really can't believe they even sent me home from the hospital. Honestly, I have to wonder if I would still be in this much pain if I had been able to give birth at the larger hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just so glad my baby is healthy. I know this will pass, but it is so hard to go through this when all I want to do is snuggle my new baby."
+            }
+        ],
+        "request_id": "811bcf8bde931a1b-EWR"
+    }
+}

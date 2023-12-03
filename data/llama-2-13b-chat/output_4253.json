@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, my girlfriend and I went away on a mini vacation to Rocky Gap Casino Resort in Western Maryland. We went for a long weekend for her birthday. We left early Friday morning. It was about a 2.5 hour drive. Upon arrival and check in, we check into our room overlooking the lake. After check in, we had massages scheduled, so we went and got them. It was very relaxing and just what I needed. It was my first real massage ever, and now I want more! After that we laid around the room a little bit. We went to the sports bar on site for dinner. I got a spicy chicken sandwich and it was pretty good. We then went and gambled in the casino some. Miranda has never gambled, and she ended up winning on one of her first spins. I was not as fortunate. On Saturday, we went for a hike around the lake, which was about a 5 mile walk. After we went stand up paddleboarding on the lake. We finished the night with a nice dinner at another restaurant on site. All in all it was a great weekend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, my girlfriend and I went away on a mini vacation to Rocky Gap Casino Resort in Western Maryland. We went for a long weekend for her birthday. We left early Friday morning. It was about a 2.5 hour drive. Upon arrival and check in, we check into our room overlooking the lake. After check in, we had massages scheduled, so we went and got them. It was very relaxing and just what I needed. It was my first real massage ever, and now I want more! After that we laid around the room a little bit. We went to the sports bar on site for dinner. I got a spicy chicken sandwich and it was pretty good. We then went and gambled in the casino some. Miranda has never gambled, and she ended up winning on one of her first spins. I was not as fortunate. On Saturday, we went for a hike around the lake, which was about a 5 mile walk. After we went stand up paddleboarding on the lake. We finished the night with a nice dinner at another restaurant on site. All in all it was a great weekend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd2ffefdb1a3c-EWR"
+    }
+}

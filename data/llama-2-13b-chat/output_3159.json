@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At the beginning of summer vacation, I decided to visit my dad.  Since plane tickets are so expensive, I thought it would be more economical to drive down to Florida with my four children.  We packed up the car and stayed one night at a hotel halfway there.  Once we arrived to my dad's house, a few family members came over to celebrate and visit with us.  During the week-long stay, we went to the beach, ate out a couple of times, and played with my dad's new puppy.  The kids had an excellent time and even collected some sea shells to bring home.  My dad and step-mother decided to surprise us with tickets to Walt Disney World.  I'm not sure I've ever seen my children so excited.  It was hot and crowded there, but it's a memory I wouldn't trade for the world.  My children had so much seeing the sites only viewed before on television.  They really had fun when the mascots would approach them.  Too soon, our trip was over and we had to head back home.  We tearfully said goodbye and started our car trip back.  Though we enjoyed our visit very much, we were very happy to be home.  My husband couldn't travel with us due to work, so we had something to look forward to when we got back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At the beginning of summer vacation, I decided to visit my dad.  Since plane tickets are so expensive, I thought it would be more economical to drive down to Florida with my four children.  We packed up the car and stayed one night at a hotel halfway there.  Once we arrived to my dad's house, a few family members came over to celebrate and visit with us.  During the week-long stay, we went to the beach, ate out a couple of times, and played with my dad's new puppy.  The kids had an excellent time and even collected some sea shells to bring home.  My dad and step-mother decided to surprise us with tickets to Walt Disney World.  I'm not sure I've ever seen my children so excited.  It was hot and crowded there, but it's a memory I wouldn't trade for the world.  My children had so much seeing the sites only viewed before on television.  They really had fun when the mascots would approach them.  Too soon, our trip was over and we had to head back home.  We tearfully said goodbye and started our car trip back.  Though we enjoyed our visit very much, we were very happy to be home.  My husband couldn't travel with us due to work, so we had something to look forward to when we got back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so glad we made the trip and my children will always remember this trip to Disney."
+            }
+        ],
+        "request_id": "811ec5220e7842e4-EWR"
+    }
+}

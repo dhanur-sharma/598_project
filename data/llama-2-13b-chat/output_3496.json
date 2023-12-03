@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a hot summer day in April. My phone rang and I didn't recognize the number. I don't usually pick up unknown numbers. I decided to pick it up today  because I wasn't that busy. It was my step-father. He wanted to see how I was doing even though we hadn't spoken in several years. Growing up we had a rocky relationship. We never really got along and argued a lot. I felt like he always tried to be my dad and I didn't want him to. Sometimes our arguments turned physical. But now that we were on the phone our conversation was calm. We spoke about my childhood and his relationship with my mother. It was a rough conversation at first but then it got better over time. The conversation was emotional and we caught up for a bit before hanging up. We agreed we would try to stay in tough more often."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a hot summer day in April. My phone rang and I didn't recognize the number. I don't usually pick up unknown numbers. I decided to pick it up today  because I wasn't that busy. It was my step-father. He wanted to see how I was doing even though we hadn't spoken in several years. Growing up we had a rocky relationship. We never really got along and argued a lot. I felt like he always tried to be my dad and I didn't want him to. Sometimes our arguments turned physical. But now that we were on the phone our conversation was calm. We spoke about my childhood and his relationship with my mother. It was a rough conversation at first but then it got better over time. The conversation was emotional and we caught up for a bit before hanging up. We agreed we would try to stay in tough more often.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eca64b94dc34b-EWR"
+    }
+}

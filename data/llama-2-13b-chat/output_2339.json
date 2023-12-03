@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've had issues with my gallbladder since I was about 20.  I started having attacks around then.  A few months ago I started having gallbladder attacks even if I only ate a tiny bit of fat.  I decided it was time to have my gallbladder removed finally.  I went to the doctor who referred me to a surgeon.  I then went to see the surgeon to schedule the surgery which ended up being a week away.  I was surprised at how quickly it was scheduled.  I went in for the operation and was out later in the day and I came home.  I had to take a while to recover just laying in bed.  It was very painful to sit up or even stand so I had to have help with that from my mom.  It was a trying time for me because it was the first time I really went through anything like this.  It took me a couple weeks to recover and I was able to go back to eating normally after which I was very happy about. I was surprised with how long the process took.  It seemed like it would take a lot longer but it was all done within about a month including recovery.  It was a scary experience definitely but I benefited from it for sure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've had issues with my gallbladder since I was about 20.  I started having attacks around then.  A few months ago I started having gallbladder attacks even if I only ate a tiny bit of fat.  I decided it was time to have my gallbladder removed finally.  I went to the doctor who referred me to a surgeon.  I then went to see the surgeon to schedule the surgery which ended up being a week away.  I was surprised at how quickly it was scheduled.  I went in for the operation and was out later in the day and I came home.  I had to take a while to recover just laying in bed.  It was very painful to sit up or even stand so I had to have help with that from my mom.  It was a trying time for me because it was the first time I really went through anything like this.  It took me a couple weeks to recover and I was able to go back to eating normally after which I was very happy about. I was surprised with how long the process took.  It seemed like it would take a lot longer but it was all done within about a month including recovery.  It was a scary experience definitely but I benefited from it for sure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb4c41f528cba-EWR"
+    }
+}

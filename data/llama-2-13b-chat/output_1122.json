@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I went on a vacation for the first time in several years to korea. It was the first time that we ever went on a vacation where we focused on ourselves and relaxing. We usually would go on trips to visit extended family so this was a time we could be indulgent with our time and money. We rented a car and went all across korea. It was amazing. My family bonded very closely there. We talked a lot, laughed a lot, and made a lot of memories that I will never forget. I learned more about my parents and their story before they had me. It transitioned us to this new phase in our lives where my brother and I are no longer children but adults along with them. We took a lot of pictures also. We made an album from it. We have it playing on repeat in our dining room. We look at those pictures as we eat and remember fond memories. My grandma also went with us. She talks about the trip every time we call her. It was a great time for us to remember."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I went on a vacation for the first time in several years to korea. It was the first time that we ever went on a vacation where we focused on ourselves and relaxing. We usually would go on trips to visit extended family so this was a time we could be indulgent with our time and money. We rented a car and went all across korea. It was amazing. My family bonded very closely there. We talked a lot, laughed a lot, and made a lot of memories that I will never forget. I learned more about my parents and their story before they had me. It transitioned us to this new phase in our lives where my brother and I are no longer children but adults along with them. We took a lot of pictures also. We made an album from it. We have it playing on repeat in our dining room. We look at those pictures as we eat and remember fond memories. My grandma also went with us. She talks about the trip every time we call her. It was a great time for us to remember.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e46c95f5e7d-EWR"
+    }
+}

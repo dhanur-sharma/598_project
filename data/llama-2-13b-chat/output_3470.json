@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: There had never been a car accident near my house. There have been times my car had been run into when it was parked on the next street over, but that's about it. Tonight, however, was a different story. I heard a huge bang outside from the living room. I looked outside, and saw smoke fuming from a SUV. A driver slammed into a guard rail in front of my house. Afraid the car would blow up, I rushed out there to rescue the driver and any passengers.  I saw that the driver had beer in his hand. I pulled him out of the car and dragged him to safety. Then, I called 911. Thankfully, other neighbors did just that before I did. I waited on the phone outside my house as they were on their way. About three minutes later, emergency personnel arrived. They questioned what took place. I told them to the best of my ability and honestly. They saw that he has a record of drinking while driving. Thankfully, the worst damage he did was to a guard rail and his vehicle. He could have done that to another driver or person walking on the road."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: There had never been a car accident near my house. There have been times my car had been run into when it was parked on the next street over, but that's about it. Tonight, however, was a different story. I heard a huge bang outside from the living room. I looked outside, and saw smoke fuming from a SUV. A driver slammed into a guard rail in front of my house. Afraid the car would blow up, I rushed out there to rescue the driver and any passengers.  I saw that the driver had beer in his hand. I pulled him out of the car and dragged him to safety. Then, I called 911. Thankfully, other neighbors did just that before I did. I waited on the phone outside my house as they were on their way. About three minutes later, emergency personnel arrived. They questioned what took place. I told them to the best of my ability and honestly. They saw that he has a record of drinking while driving. Thankfully, the worst damage he did was to a guard rail and his vehicle. He could have done that to another driver or person walking on the road.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The driver was taken away in an ambulance, and I went back inside.\n\n"
+            }
+        ],
+        "request_id": "811ec9ed9cd94205-EWR"
+    }
+}

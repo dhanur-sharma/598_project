@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is the day that made me feel a connection to other animals like I've never had before. I never thought I'd experience the closest thing to spirituality when I agreed to go to the zoo. While I've always enjoyed going I never had such a wonderful opportunity like this.  My mom, brother and I were all there, and I think we all shared this wonder. We all had our hand full of leaves purchased at the kiosk. I assumed I'd drop mine in fear. Giraffes are much bigger up close. Much, much bigger than horses. I was nervous on approach but the one giraffe that came to me looked into my eyes before she bent her head, and by that time I was so mesmerized I let her take the leaves. She knew I had more in the other hand so she waited patiently while I gave her the rest, and my reward was to be allowed to brush through her hair with my fingers. I even touched a velvety horn.  What surprised me was it's tongue. The giraffe's tongue touched my hand once, but I didn't mind. It wasn't too wet. It was a bit like a dog's but also very long and snakelike. And then I did it over and over. I kept running back to the kiosk for more leaves. My mom and brother were ready to move on, but I didn't want to go. I feel like this day changed me and made me want to study animals more. I work with dogs all day, 40-60 medium to large sized dogs, but I'm really thinking I'd like to study bigger animals."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is the day that made me feel a connection to other animals like I've never had before. I never thought I'd experience the closest thing to spirituality when I agreed to go to the zoo. While I've always enjoyed going I never had such a wonderful opportunity like this.  My mom, brother and I were all there, and I think we all shared this wonder. We all had our hand full of leaves purchased at the kiosk. I assumed I'd drop mine in fear. Giraffes are much bigger up close. Much, much bigger than horses. I was nervous on approach but the one giraffe that came to me looked into my eyes before she bent her head, and by that time I was so mesmerized I let her take the leaves. She knew I had more in the other hand so she waited patiently while I gave her the rest, and my reward was to be allowed to brush through her hair with my fingers. I even touched a velvety horn.  What surprised me was it's tongue. The giraffe's tongue touched my hand once, but I didn't mind. It wasn't too wet. It was a bit like a dog's but also very long and snakelike. And then I did it over and over. I kept running back to the kiosk for more leaves. My mom and brother were ready to move on, but I didn't want to go. I feel like this day changed me and made me want to study animals more. I work with dogs all day, 40-60 medium to large sized dogs, but I'm really thinking I'd like to study bigger animals.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe one day I'll get to work with elephants. \n\n"
+            }
+        ],
+        "request_id": "811f42eb3a618c0f-EWR"
+    }
+}

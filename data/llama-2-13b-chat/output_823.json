@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I moved out of a major city. I did this right when I graduated. I returned a couple years later looking for a job. I felt at home after reconnecting with friends. We had a great time going to my favorite pizza place. I got a large meat lovers. They got a cheese pizza. They paid for the bill. I was very thankful. Later that night, we went to the bar. I sung some karaoke. It was a fun time. I almost threw up from drinking. They helped me get a job. It took a few weeks, but I got a job at a accountant's office. It paid decently with great perks. I loved the workplace. This city is treating me well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I moved out of a major city. I did this right when I graduated. I returned a couple years later looking for a job. I felt at home after reconnecting with friends. We had a great time going to my favorite pizza place. I got a large meat lovers. They got a cheese pizza. They paid for the bill. I was very thankful. Later that night, we went to the bar. I sung some karaoke. It was a fun time. I almost threw up from drinking. They helped me get a job. It took a few weeks, but I got a job at a accountant's office. It paid decently with great perks. I loved the workplace. This city is treating me well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e98dad84d4258-EWR"
+    }
+}

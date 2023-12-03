@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took my grand daughter down to the college that I graduated from. We went to see my daughter perform at a football game. This would be the last home coming we would be attending. This is my daughter's senior year. The trip is 45 miles in one direction. This takes about 60 minutes to achieve. The trip in on country roads and can be slow if a tractor/farm equipment is on the road.  My grand daughter was seated in the back row of my vehicle. She doesn't care about how long it takes to get there. She just listens to my phone and quite content. The football game was great. We won a well fought game. The home crowd was very happy. My daughter and her crew did a great job throughout the game. Afterward, we all went out to dinner for celebrations."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took my grand daughter down to the college that I graduated from. We went to see my daughter perform at a football game. This would be the last home coming we would be attending. This is my daughter's senior year. The trip is 45 miles in one direction. This takes about 60 minutes to achieve. The trip in on country roads and can be slow if a tractor/farm equipment is on the road.  My grand daughter was seated in the back row of my vehicle. She doesn't care about how long it takes to get there. She just listens to my phone and quite content. The football game was great. We won a well fought game. The home crowd was very happy. My daughter and her crew did a great job throughout the game. Afterward, we all went out to dinner for celebrations.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The trip home was a bit slower due to heavy traffic. My grand daughter was still content and fell asleep in the car. This was a great day and I will always remember it.\n\n"
+            }
+        ],
+        "request_id": "811f47d7efe40c76-EWR"
+    }
+}

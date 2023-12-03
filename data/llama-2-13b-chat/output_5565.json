@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just checked into a mental health rehabilitation center for feeling suicidal and very emotionally unstable. I am the only patient here for mental health recovery. Everybody else is here for drug abuse. The staff aren't following proper protocol, however they are very short staffed at the moment so I do understand they are trying to help everybody. I am still concerned I may hurt myself or the people around me. They let me keep my belt and a multitude of other objects I could use for self-harm. Being in the inpatient care does seemingly keep me stable for the time being. The food is better than I thought it was gonna be, and the therapist is a little better trained for the situation than I thought she was going to be as well. However I am confused as to why I was prescribed medication before I was properly diagnosed with a mental health ailment. I do appear to be self aware and mentally stable enough to communicate my problems. I am not a trained for the situation like they are so I'm trying not to stress out about it. There are only a few channels available on the TV, and it's driving me crazy.  The commercials playing are largely about mental health issues and being compensated for a lawsuit. I am being triggered by some and just plain annoyed by others. I've never felt mentally stable yet crazy before in my life and its a very peculiar feeling."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just checked into a mental health rehabilitation center for feeling suicidal and very emotionally unstable. I am the only patient here for mental health recovery. Everybody else is here for drug abuse. The staff aren't following proper protocol, however they are very short staffed at the moment so I do understand they are trying to help everybody. I am still concerned I may hurt myself or the people around me. They let me keep my belt and a multitude of other objects I could use for self-harm. Being in the inpatient care does seemingly keep me stable for the time being. The food is better than I thought it was gonna be, and the therapist is a little better trained for the situation than I thought she was going to be as well. However I am confused as to why I was prescribed medication before I was properly diagnosed with a mental health ailment. I do appear to be self aware and mentally stable enough to communicate my problems. I am not a trained for the situation like they are so I'm trying not to stress out about it. There are only a few channels available on the TV, and it's driving me crazy.  The commercials playing are largely about mental health issues and being compensated for a lawsuit. I am being triggered by some and just plain annoyed by others. I've never felt mentally stable yet crazy before in my life and its a very peculiar feeling.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am glad I am here and hope to get some help.\n\n"
+            }
+        ],
+        "request_id": "811f342f9c730ca1-EWR"
+    }
+}

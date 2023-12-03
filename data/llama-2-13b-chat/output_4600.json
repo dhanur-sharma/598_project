@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: February xx, 2019: Released from prison today. XX years of my life gone. The feeling as I walked out the final gate to freedom was indescribable. Released from xxxx county, p.o. picked me up and drove me home. Walked out with the clothes on my back and one (partially filled) bag of belongings. Toothbrush and toothpaste, deodorant, razor, some papers. Of course, I had mailed the bulk of what belongings I had home earlier. As I stepped out the gate a weight was lifted from me, and I stood for a minute breathing deeply of the fresh air, and marveling at the view from outside the fence I had spent the past x years inside. While they will never leave me completely, and the experience will haunt me, the preceding years fell from my shoulders like leaves fluttering to the ground. I walked to the car a free man, no chains or shackles. Sat in the FRONT seat of the car, no cages. On the ride home I just marveled at the world around me. Many challenges ahead, but I will face them. I know things will not be easy for me, but that is overshadowed by one important fact. I am free!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: February xx, 2019: Released from prison today. XX years of my life gone. The feeling as I walked out the final gate to freedom was indescribable. Released from xxxx county, p.o. picked me up and drove me home. Walked out with the clothes on my back and one (partially filled) bag of belongings. Toothbrush and toothpaste, deodorant, razor, some papers. Of course, I had mailed the bulk of what belongings I had home earlier. As I stepped out the gate a weight was lifted from me, and I stood for a minute breathing deeply of the fresh air, and marveling at the view from outside the fence I had spent the past x years inside. While they will never leave me completely, and the experience will haunt me, the preceding years fell from my shoulders like leaves fluttering to the ground. I walked to the car a free man, no chains or shackles. Sat in the FRONT seat of the car, no cages. On the ride home I just marveled at the world around me. Many challenges ahead, but I will face them. I know things will not be easy for me, but that is overshadowed by one important fact. I am free!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The first thing I plan to do is eat a hot meal, and take a long, long shower. The first taste of freedom.\n\n"
+            }
+        ],
+        "request_id": "811bd9f8ee504201-EWR"
+    }
+}

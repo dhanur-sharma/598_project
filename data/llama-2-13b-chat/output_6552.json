@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I helped with Vacation Bible School last July. I was one of four leaders of  a group of sixteen students. Each day started with a drama in the sanctuary. This drama caught the student's attention. The next activity was Bible story. The leader of the Bible story and her assistant made the event intriguing to the students. The next activity was crafts and science. The students enjoyed each day's opportunity to make a project. The science experiments caught their attention. This was followed by a snack time. This was a favorite of the students. The next activity was recreation. This gave the students the opportunity to be active as they played the games of the day. The final activity was music. The music leader was skilled in keeping the attention of the students. Finally we returned to the sanctuary for dismissal. This was the order of activities each day for a week."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I helped with Vacation Bible School last July. I was one of four leaders of  a group of sixteen students. Each day started with a drama in the sanctuary. This drama caught the student's attention. The next activity was Bible story. The leader of the Bible story and her assistant made the event intriguing to the students. The next activity was crafts and science. The students enjoyed each day's opportunity to make a project. The science experiments caught their attention. This was followed by a snack time. This was a favorite of the students. The next activity was recreation. This gave the students the opportunity to be active as they played the games of the day. The final activity was music. The music leader was skilled in keeping the attention of the students. Finally we returned to the sanctuary for dismissal. This was the order of activities each day for a week.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47c35ce72395-EWR"
+    }
+}

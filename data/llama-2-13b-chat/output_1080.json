@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,So I just want to talk about something that happened. It was about a month ago. It was such a great day. We  Justin and I took the kids up to Rye Beach. Its a little thing we love to do..its in Rye, New Hampshire. Absolutely stunning and beautiful and so worth the trip and the gas. For once everyone was getting a long. it was really a rare treat to have such a beatufiu;l perfect day with no tears or fights or ending up in fighting and screaming. What I really loved about the beach was that we got to see the dolphins!!! They are sooo beautiful when you get to see them in person. The kids went crazy because it was their first time seeing dolphins like that. Ive seen them when I was younger...years ago. The water was very cold that day. I cant wait to do this again. I love spending time with my family. We are one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,So I just want to talk about something that happened. It was about a month ago. It was such a great day. We  Justin and I took the kids up to Rye Beach. Its a little thing we love to do..its in Rye, New Hampshire. Absolutely stunning and beautiful and so worth the trip and the gas. For once everyone was getting a long. it was really a rare treat to have such a beatufiu;l perfect day with no tears or fights or ending up in fighting and screaming. What I really loved about the beach was that we got to see the dolphins!!! They are sooo beautiful when you get to see them in person. The kids went crazy because it was their first time seeing dolphins like that. Ive seen them when I was younger...years ago. The water was very cold that day. I cant wait to do this again. I love spending time with my family. We are one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Love,Mom."
+            }
+        ],
+        "request_id": "811e9d8eaeeb0fa7-EWR"
+    }
+}

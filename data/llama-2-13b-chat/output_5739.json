@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: That day, it still haunts me and keeps me up at night. It was a normal Thanksgiving week filled with all of the normal stress that is entailed. I had to go out and get all the ingredients for the food I planned making for that day. As the week went on I heard from more and more family telling me that they were planning on coming to my house. This would be the biggest thanksgiving we have ever had! I had to make sure that all the food was perfect. After buying all of my ingredients, I had to make sure to get my house clean. I also had to make sure to decorate too! The week went on slowly as ever but finally the day came. I was up early preparing all of the food. The clock had finally struck 2 and guests were starting to arrive. My aunt from Florida came and it was nice to see her after such a long time. She told me about all of his new fitness goals and how she had being going to the gym 5 times a week. As more guests began to filter in I saw my aunt start to look sick. Out of nowhere she passes out and we rushed her to the hospital. The doctor came out and told us my aunt had stage 4 brain cancer and that he would have about a week to live. She ended up dying that night in the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: That day, it still haunts me and keeps me up at night. It was a normal Thanksgiving week filled with all of the normal stress that is entailed. I had to go out and get all the ingredients for the food I planned making for that day. As the week went on I heard from more and more family telling me that they were planning on coming to my house. This would be the biggest thanksgiving we have ever had! I had to make sure that all the food was perfect. After buying all of my ingredients, I had to make sure to get my house clean. I also had to make sure to decorate too! The week went on slowly as ever but finally the day came. I was up early preparing all of the food. The clock had finally struck 2 and guests were starting to arrive. My aunt from Florida came and it was nice to see her after such a long time. She told me about all of his new fitness goals and how she had being going to the gym 5 times a week. As more guests began to filter in I saw my aunt start to look sick. Out of nowhere she passes out and we rushed her to the hospital. The doctor came out and told us my aunt had stage 4 brain cancer and that he would have about a week to live. She ended up dying that night in the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "That day will forever be engraved in my mind and will never be forgotten.\n\n"
+            }
+        ],
+        "request_id": "811f376e4b3743eb-EWR"
+    }
+}

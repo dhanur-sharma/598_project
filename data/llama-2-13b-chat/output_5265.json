@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've always enjoyed playing the clarinet. I've never really played for anyone. I've always just played in the comfort of my own home. About five months ago, I was invited to perform at a show. I was so nervous. I nearly turned it down. but my friends helped me. They talked me through and I showed up to the show. This was a turning point for me. I learned so much. I gained a new triumph from it. This experience has helped me reach new heights that I never dreamed possible before. I'm getting ready to perform again. We've got people actually requesting for me to perform as the they said they've never seen such a clarinet player before. The future looks so bright."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've always enjoyed playing the clarinet. I've never really played for anyone. I've always just played in the comfort of my own home. About five months ago, I was invited to perform at a show. I was so nervous. I nearly turned it down. but my friends helped me. They talked me through and I showed up to the show. This was a turning point for me. I learned so much. I gained a new triumph from it. This experience has helped me reach new heights that I never dreamed possible before. I'm getting ready to perform again. We've got people actually requesting for me to perform as the they said they've never seen such a clarinet player before. The future looks so bright.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2df7bb708cb7-EWR"
+    }
+}

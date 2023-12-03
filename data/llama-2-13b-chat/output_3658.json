@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was at work one day, when all of a sudden, I had sudden pains in my chest. I thought it was just heartburn, but then the pains kept growing and growing. I felt as if my body was going to burst. Next thing I knew, I woke up in a hospital bed. I was confused, but as I was recollecting myself, I realized that I had just experienced a heart attack. A doctor came in and told me the severity of the situation. As I listened to his explanation of what happened, I realized that I had been ignoring the problem and putting it aside for the longest time. he told me that I had some surgery done, something called a stint procedure. He then handed me the hospital bill. Despite being afraid of the costs, I decided to take a peek. It seems that most of the cost was due to a stint procedure done. My doctor then explained that it helped unclog my arteries. Weeks later, I came back into the hospital for another checkup on my situation. I could not just leave the hospital without any plans to prevent future heart attacks, so my doctor advised me to come back in for cardiac rehab. I was doing better by then."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was at work one day, when all of a sudden, I had sudden pains in my chest. I thought it was just heartburn, but then the pains kept growing and growing. I felt as if my body was going to burst. Next thing I knew, I woke up in a hospital bed. I was confused, but as I was recollecting myself, I realized that I had just experienced a heart attack. A doctor came in and told me the severity of the situation. As I listened to his explanation of what happened, I realized that I had been ignoring the problem and putting it aside for the longest time. he told me that I had some surgery done, something called a stint procedure. He then handed me the hospital bill. Despite being afraid of the costs, I decided to take a peek. It seems that most of the cost was due to a stint procedure done. My doctor then explained that it helped unclog my arteries. Weeks later, I came back into the hospital for another checkup on my situation. I could not just leave the hospital without any plans to prevent future heart attacks, so my doctor advised me to come back in for cardiac rehab. I was doing better by then.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was able to do things I was not able to do before. I could walk up the stairs without getting winded. I could walk a mile without getting tired. I was able to do things that I thought I would never be able to do again. The cardiac rehab was helping me to do just that.\n\n"
+            }
+        ],
+        "request_id": "811ece2b2db94326-EWR"
+    }
+}

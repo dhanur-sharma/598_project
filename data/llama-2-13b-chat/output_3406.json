@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went my friends wedding this weekend! I can't believe my long time friend is finally getting married. It has been a long time coming. I'm proud to have been there. It was a fantastic wedding. I even got to play cello for her wedding. I mean I'm not that great at playing the cello, but I played my heart out for her because she's my best friend. We had a lot of fun at her wedding, and we took many pictures. I will cherish this memory forever. The wedding was just great! When it's my turn to speak up the wedding, I went up the podium and spoke about how great a person my friend is. I also talked about how we first met, and at first we hated each other. But over time we actually became best friends! How weird is that, huh? Too weird!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went my friends wedding this weekend! I can't believe my long time friend is finally getting married. It has been a long time coming. I'm proud to have been there. It was a fantastic wedding. I even got to play cello for her wedding. I mean I'm not that great at playing the cello, but I played my heart out for her because she's my best friend. We had a lot of fun at her wedding, and we took many pictures. I will cherish this memory forever. The wedding was just great! When it's my turn to speak up the wedding, I went up the podium and spoke about how great a person my friend is. I also talked about how we first met, and at first we hated each other. But over time we actually became best friends! How weird is that, huh? Too weird!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just glad we have each other's backs. The end."
+            }
+        ],
+        "request_id": "811ec8eeef20440d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My love and I spent today traveling to our resort. After a picture perfect wedding, filled with friends, family and memories, we took off for our honeymoon. The flight went as well as a flight in coach could go. We arrived late to our exotic, all-inclusive resort. There was no person at the front desk. Only a key with our names on it. We took the key, but wondered which private hut it opened. We were tired and confused. We started, one by one, trying to open the huts. After four or five tries and bothering a few other guests, we found the keys match. My love swept me up and carried me over the threshold. We are finally settling into our honeymoon. Tomorrow we will wake up late and relax by the beach. I am a very happy and lucky woman to have this time with my best friend. I really do love him so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My love and I spent today traveling to our resort. After a picture perfect wedding, filled with friends, family and memories, we took off for our honeymoon. The flight went as well as a flight in coach could go. We arrived late to our exotic, all-inclusive resort. There was no person at the front desk. Only a key with our names on it. We took the key, but wondered which private hut it opened. We were tired and confused. We started, one by one, trying to open the huts. After four or five tries and bothering a few other guests, we found the keys match. My love swept me up and carried me over the threshold. We are finally settling into our honeymoon. Tomorrow we will wake up late and relax by the beach. I am a very happy and lucky woman to have this time with my best friend. I really do love him so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9d0ddc284213-EWR"
+    }
+}

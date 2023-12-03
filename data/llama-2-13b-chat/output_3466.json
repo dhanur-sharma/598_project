@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago one of my old friends passed away. Marie had been my friend when I was a kid. We used to play together on the block. We stayed friends through high school and then we kind of grew apart, as people do. I keep thinking about her funeral. When I heard that she had died I was shocked. She was so young, she was the same age as me. I was sad to hear the news. I went to her funeral expecting to feel upset. I was shocked when I went up to the casket and felt nothing. Of course I felt bad that she was dead, but I didn't feel any sadness at all. I walked away from the casket and started talking to some of the other people we grew up with. Everyone was pretty happy to see each other and we spent the rest of the funeral chatting and catching up. I told a bunch of jokes to everyone that got a bunch of laughs. I left the funeral feeling kind of weird about the whole thing. I have never gone to a funeral and felt nothing. And I have never told jokes at a funeral. I regretted my behavior. I still hope I didn't offend Maries family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago one of my old friends passed away. Marie had been my friend when I was a kid. We used to play together on the block. We stayed friends through high school and then we kind of grew apart, as people do. I keep thinking about her funeral. When I heard that she had died I was shocked. She was so young, she was the same age as me. I was sad to hear the news. I went to her funeral expecting to feel upset. I was shocked when I went up to the casket and felt nothing. Of course I felt bad that she was dead, but I didn't feel any sadness at all. I walked away from the casket and started talking to some of the other people we grew up with. Everyone was pretty happy to see each other and we spent the rest of the funeral chatting and catching up. I told a bunch of jokes to everyone that got a bunch of laughs. I left the funeral feeling kind of weird about the whole thing. I have never gone to a funeral and felt nothing. And I have never told jokes at a funeral. I regretted my behavior. I still hope I didn't offend Maries family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still trying to make sense of it all.\n\n"
+            }
+        ],
+        "request_id": "811ec9dc2fb3c331-EWR"
+    }
+}

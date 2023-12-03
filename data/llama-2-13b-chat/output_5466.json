@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most memorable thing that happened to me recently was when my mom was told that she was cancer free. She had stage 4 cancer in her lymphatic system that she had been fighting. The doctor had told us that the chances of survival where not very high. She had to do six rounds of chemo so that she could try to fight the cancer. During her chemo she was very sick all of the time. My mom has always been a very strong and independent woman. Suddenly she could no longer open jars or close the heavy back door any more. Seeing her like that was very hard on the entire family. We all took turns staying with her and helping her out by cooking and cleaning. After her six sessions we had the longest wait of our lives. After Chemo you have to wait over a month to do a scan to see if it is gone. Finally the day came for us all to hear the results and the doctor brought a cake in the room that said remission! We were all shocked, even the doctor who said this wasn't a likely outcome. We were all jumping for joy. We celebrated by taking her out for dinner and then held a party for her later once she was feeling better. I cant think of a better gift to have received."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most memorable thing that happened to me recently was when my mom was told that she was cancer free. She had stage 4 cancer in her lymphatic system that she had been fighting. The doctor had told us that the chances of survival where not very high. She had to do six rounds of chemo so that she could try to fight the cancer. During her chemo she was very sick all of the time. My mom has always been a very strong and independent woman. Suddenly she could no longer open jars or close the heavy back door any more. Seeing her like that was very hard on the entire family. We all took turns staying with her and helping her out by cooking and cleaning. After her six sessions we had the longest wait of our lives. After Chemo you have to wait over a month to do a scan to see if it is gone. Finally the day came for us all to hear the results and the doctor brought a cake in the room that said remission! We were all shocked, even the doctor who said this wasn't a likely outcome. We were all jumping for joy. We celebrated by taking her out for dinner and then held a party for her later once she was feeling better. I cant think of a better gift to have received.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful that my mom is cancer free and able to be her normal self again.\n\n"
+            }
+        ],
+        "request_id": "811f3220a993c409-EWR"
+    }
+}

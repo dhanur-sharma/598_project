@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event was the the funeral of my uncle, my father's only sibling.  I remember this event clearly, and I remember writing about it, and what I felt at the time.  It was indeed very momentous.  At the time I felt keenly the passage of time, and as I realized my brothers (some now in their 50s, more on that momentarily) and I were now the main or prime generation of family, I felt melancholic, and brooded about my own mortality. With the passage of time since the funeral some of the weightiness of thoughts of mortality has waned and I am left with a different perspective and reflections on the event. One, how important it was to get together with all my brothers: this hardly ever happens. that we are all together. It was also important and a very rare occurrence to get together with all the cousins on that side of my family. It may be the first and last time that happens. With distance I also realized that some of my angst about mortality stemmed from a compounding effect--the funeral was the same week as my brother Joe's 50th birthday. I am the next up to hit this milestone.  This is part of the reason I connected it with my own mortality so much.  It was also an odd conicidence that they both occurred in the same week. I am still a little overly concerned about my own death. But it has waned some since the funeral."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event was the the funeral of my uncle, my father's only sibling.  I remember this event clearly, and I remember writing about it, and what I felt at the time.  It was indeed very momentous.  At the time I felt keenly the passage of time, and as I realized my brothers (some now in their 50s, more on that momentarily) and I were now the main or prime generation of family, I felt melancholic, and brooded about my own mortality. With the passage of time since the funeral some of the weightiness of thoughts of mortality has waned and I am left with a different perspective and reflections on the event. One, how important it was to get together with all my brothers: this hardly ever happens. that we are all together. It was also important and a very rare occurrence to get together with all the cousins on that side of my family. It may be the first and last time that happens. With distance I also realized that some of my angst about mortality stemmed from a compounding effect--the funeral was the same week as my brother Joe's 50th birthday. I am the next up to hit this milestone.  This is part of the reason I connected it with my own mortality so much.  It was also an odd conicidence that they both occurred in the same week. I am still a little overly concerned about my own death. But it has waned some since the funeral.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I remember the funeral very clearly, and I remember my thoughts and feelings at the time.  I felt a sense of sadness and loss, but also a sense of unity and connection with my family.  I felt grateful to be surrounded by so many loved ones, and to have the opportunity to celebrate my uncle's life and legacy.  Looking back on the event now, I realize that it was a turning point for me in many ways.  It made me realize how precious life is, and how important it is to cherish the time we have with our loved ones.  It also made me reflect on my own priorities and values, and to think about how I want to live my life and make the most of the time I have.  Overall, the funeral was a difficult but meaningful experience, and it has had a lasting impact on me."
+            }
+        ],
+        "request_id": "811e9ee4fcf72369-EWR"
+    }
+}

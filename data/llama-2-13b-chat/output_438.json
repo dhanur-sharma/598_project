@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One memorable event that happened in my life lately was buying a house. It feels safe to own your own place. You can decorate it the way you want it. You can live there as long as you like. You can plant whatever you like in the yard. The bank procedures were easy. People were very kind and helpful. The previous owner was very cooperative. All in all it was an easy process. I also like my neighbors. The pool is nice too. It takes a bit of work to keep it clean but it's worth it. I find a lot of joy taking care of my new place. Can't wait to have people over. Love the fireplace too. It is very relaxing in the winter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One memorable event that happened in my life lately was buying a house. It feels safe to own your own place. You can decorate it the way you want it. You can live there as long as you like. You can plant whatever you like in the yard. The bank procedures were easy. People were very kind and helpful. The previous owner was very cooperative. All in all it was an easy process. I also like my neighbors. The pool is nice too. It takes a bit of work to keep it clean but it's worth it. I find a lot of joy taking care of my new place. Can't wait to have people over. Love the fireplace too. It is very relaxing in the winter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I am home.\n\n"
+            }
+        ],
+        "request_id": "811e91c28d434249-EWR"
+    }
+}

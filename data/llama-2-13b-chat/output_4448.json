@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a great vacation! My husband and I decided to take a last minute vacation before the summer is over. We went to the beach, and it was amazing! We had both been very stressed with work, and the kids, and finances, and just all around busyness. We hadn't just taken the time to be with and enjoy each other for quite a while. My sister agreed to watch the kids for a long weekend, which was so nice of her. We quickly packed our bags and headed out for our drive to the beach, hoping to get there in time to watch the sunset. And we made it! Our room was lovely, nothing too fancy, but just right for what we needed. We had a nice view of the ocean from our window. We opened the window to enjoy the salt smell on the breeze, and the refreshing cool air. We were able to reconnect with each other on the first night, and it felt so good to just be together. I don't even remember the last time we had time alone - without the kids! We took a nice long walk on the beach, and played in the waves. In the morning we ordered room service for breakfast, and then went down to the beach again, and collected some beautiful shells. It was such a nice weekend, I wish we could have stayed longer!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a great vacation! My husband and I decided to take a last minute vacation before the summer is over. We went to the beach, and it was amazing! We had both been very stressed with work, and the kids, and finances, and just all around busyness. We hadn't just taken the time to be with and enjoy each other for quite a while. My sister agreed to watch the kids for a long weekend, which was so nice of her. We quickly packed our bags and headed out for our drive to the beach, hoping to get there in time to watch the sunset. And we made it! Our room was lovely, nothing too fancy, but just right for what we needed. We had a nice view of the ocean from our window. We opened the window to enjoy the salt smell on the breeze, and the refreshing cool air. We were able to reconnect with each other on the first night, and it felt so good to just be together. I don't even remember the last time we had time alone - without the kids! We took a nice long walk on the beach, and played in the waves. In the morning we ordered room service for breakfast, and then went down to the beach again, and collected some beautiful shells. It was such a nice weekend, I wish we could have stayed longer!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But we'll definitely be back next summer.\n\n"
+            }
+        ],
+        "request_id": "811bd7262e21437a-EWR"
+    }
+}

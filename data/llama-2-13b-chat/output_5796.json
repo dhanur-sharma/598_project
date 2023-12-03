@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was needed to go to my local grocery store. I went into the store before work.  There was no one in the store.  After I got all of my items I went to the self check out register.  A worker offered to check my items out for me since I had a lot of items. I declined and went to an open register. She made another attempt to get me to bring my things over to her. As I was checking out another employee came over and began checking my screen and items. She placed some of the items in my basket on the counter and scanned them. I told her that I was fine checking out myself. I told her that she was scanning things that I already scanned, and I asked her to step away from me after she continue ringing items up in error. The entire process took an extra 15 mins since I had to have the items removed and some things I paid for were put back on the shelf. The employee was very rude and the experience left me very annoyed. I was so upset at the time by her attitude that I could not think of anything else.  This was the first time that I have had this type of experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was needed to go to my local grocery store. I went into the store before work.  There was no one in the store.  After I got all of my items I went to the self check out register.  A worker offered to check my items out for me since I had a lot of items. I declined and went to an open register. She made another attempt to get me to bring my things over to her. As I was checking out another employee came over and began checking my screen and items. She placed some of the items in my basket on the counter and scanned them. I told her that I was fine checking out myself. I told her that she was scanning things that I already scanned, and I asked her to step away from me after she continue ringing items up in error. The entire process took an extra 15 mins since I had to have the items removed and some things I paid for were put back on the shelf. The employee was very rude and the experience left me very annoyed. I was so upset at the time by her attitude that I could not think of anything else.  This was the first time that I have had this type of experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f38829eef5e7f-EWR"
+    }
+}

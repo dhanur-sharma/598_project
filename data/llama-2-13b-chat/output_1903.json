@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a tough month.  I've been suffering from empty nest syndrome.  I never knew how much space, energy and attention that kid took up.  Simply amazing.  Now there is just a big hole in every day.  Whatever, every hour, every minute actually.  I'm certain at some point it will start to seem normal but when, it's been a month.  I wonder how he feels?  Is he also mourning the home he used to have or is he so involved in having moved out and being on his own he doesn't even notice? I can recall thinking so many times how crowded we were and how insanely busy.  There were so many times I wanted to have the house to myself.  Hah!  What did I know.  I regret every single one of those thoughts.  What is it that is said.  Oh, yes!  \"Be careful what you wish for\"."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a tough month.  I've been suffering from empty nest syndrome.  I never knew how much space, energy and attention that kid took up.  Simply amazing.  Now there is just a big hole in every day.  Whatever, every hour, every minute actually.  I'm certain at some point it will start to seem normal but when, it's been a month.  I wonder how he feels?  Is he also mourning the home he used to have or is he so involved in having moved out and being on his own he doesn't even notice? I can recall thinking so many times how crowded we were and how insanely busy.  There were so many times I wanted to have the house to myself.  Hah!  What did I know.  I regret every single one of those thoughts.  What is it that is said.  Oh, yes!  \"Be careful what you wish for\".",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I wish for my son to come back home.  I miss him so much.  I wish he could come back and fill this empty space.  I wish he could come back and fill this empty heart.\n\n"
+            }
+        ],
+        "request_id": "811eaceb1a9f1871-EWR"
+    }
+}

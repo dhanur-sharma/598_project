@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently had surgery to have my gallbladder removed.  It happened in a few months ago.  I had been feeling awful for a few weeks prior and decided it was time to have it removed.  I had had several attacks over the past few years prior to this.  I had been to the hospital a couple times for it as well. I went into the hospital to meet the doctor and talk about what was going to be done.  He told me about the whole surgery and what would happen.  I scheduled it for the next week and had to eat basically no fat foods until it was over.  I went in on the day of the surgery and checked in.  They hooked me up and I had to wait an hour or so.  I was put to sleep with the anesthesia and woke up a while later.  I was in pretty massive pain and it was hard for me to sit up. I went home and had to spend the next 10 or so days just laying in bed recovering.  I had a fair amount of pain medication.  I had to have help sitting up and standing and just going to the bathroom.  After about a week I could finally get out of bed by myself.  Now that I've recovered I still have several scars and such but I can eat normally again and I can have fatty foods without feeling totally awful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently had surgery to have my gallbladder removed.  It happened in a few months ago.  I had been feeling awful for a few weeks prior and decided it was time to have it removed.  I had had several attacks over the past few years prior to this.  I had been to the hospital a couple times for it as well. I went into the hospital to meet the doctor and talk about what was going to be done.  He told me about the whole surgery and what would happen.  I scheduled it for the next week and had to eat basically no fat foods until it was over.  I went in on the day of the surgery and checked in.  They hooked me up and I had to wait an hour or so.  I was put to sleep with the anesthesia and woke up a while later.  I was in pretty massive pain and it was hard for me to sit up. I went home and had to spend the next 10 or so days just laying in bed recovering.  I had a fair amount of pain medication.  I had to have help sitting up and standing and just going to the bathroom.  After about a week I could finally get out of bed by myself.  Now that I've recovered I still have several scars and such but I can eat normally again and I can have fatty foods without feeling totally awful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It's been a pretty big relief to have it removed.\n\n"
+            }
+        ],
+        "request_id": "811eb4c66e0c43c8-EWR"
+    }
+}

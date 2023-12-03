@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 monthes ago I died.  I was sitting quietly working on my computer and just died.  My son came in and found me and pulled me to the floor.  I had suffered a cardiac arrest.  My son called 911 and they talked him through cpr as the emergency crew was on their way.  They got to the house and shocked me 2 times and then rushed me to the hospital.  I was evaluated and put into a coma to be transported to another hospital and off I went.  I was in there for about a week before I realized what had happened and what was going on.  I was sent for testing and sent home after that week.  I was in the newpaper and on the facebook page of local town.  Pretty weird although I don't remember anything that happened from just before I went down to a week later.  Not something I really want to remember anyway.  I do remember being very sore from the broken ribs from the cpr my son gave me and that is about it.  just a crazy time.  I am shocked that my son held it together to revive me.  If not for him being home I would have died.  I would have had no chance at all.  I actually had no major brain damage although I have noticed a harder time remembering things at times.  I can be thinking of something and just can remember the exact word even though it is a basic word, nothing hard to remember but I just cant.  I work on it and eventually get it but it takes time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 monthes ago I died.  I was sitting quietly working on my computer and just died.  My son came in and found me and pulled me to the floor.  I had suffered a cardiac arrest.  My son called 911 and they talked him through cpr as the emergency crew was on their way.  They got to the house and shocked me 2 times and then rushed me to the hospital.  I was evaluated and put into a coma to be transported to another hospital and off I went.  I was in there for about a week before I realized what had happened and what was going on.  I was sent for testing and sent home after that week.  I was in the newpaper and on the facebook page of local town.  Pretty weird although I don't remember anything that happened from just before I went down to a week later.  Not something I really want to remember anyway.  I do remember being very sore from the broken ribs from the cpr my son gave me and that is about it.  just a crazy time.  I am shocked that my son held it together to revive me.  If not for him being home I would have died.  I would have had no chance at all.  I actually had no major brain damage although I have noticed a harder time remembering things at times.  I can be thinking of something and just can remember the exact word even though it is a basic word, nothing hard to remember but I just cant.  I work on it and eventually get it but it takes time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am still here and glad to be alive.  I just wish I could remember more of what happened during that week but I guess that is just the way it is.\n\n"
+            }
+        ],
+        "request_id": "811ecb10d988c425-EWR"
+    }
+}

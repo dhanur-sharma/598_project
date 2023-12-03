@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A friend, let's call her G, took it upon herself to pay for a trip for my other friend, D, who is dealing with a recent diagnosis of a stage 4 cancer. G felt that I was the one who was doing all the day to day helping with doctor's appointments and taking care of stuff at home. So the pasrt she felt she could best play considering she was rarely in our home state was to provide a trip to a warm place with a beach. This is exactly what D wanted. It was the first trip after D started treatment and it would just be the three of us. I felt lucky that this trip was provided by G. No matter what, it was going to be hard. I knew D atleast felt like she could be real about her frustrations and fears. When we arrived, it was truly the most luxurious place I had been in, which isn't important by itself. Obviously most people couldn't afford this and it's not the only way to deal with this diagnosis. But for three women who grew up not having access to this, it was pretty amazing. G wanted to place to be a surprise so only gave D and me the address but not the name of the hotel. Everything was made out of recycled material, the suite was stunning with a beautiful view. There were several pools to pick from as well as the ocean. Every night we would walk around town and pick places to have a drink. The memories of going on this trip are something I'll always be grateful for."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A friend, let's call her G, took it upon herself to pay for a trip for my other friend, D, who is dealing with a recent diagnosis of a stage 4 cancer. G felt that I was the one who was doing all the day to day helping with doctor's appointments and taking care of stuff at home. So the pasrt she felt she could best play considering she was rarely in our home state was to provide a trip to a warm place with a beach. This is exactly what D wanted. It was the first trip after D started treatment and it would just be the three of us. I felt lucky that this trip was provided by G. No matter what, it was going to be hard. I knew D atleast felt like she could be real about her frustrations and fears. When we arrived, it was truly the most luxurious place I had been in, which isn't important by itself. Obviously most people couldn't afford this and it's not the only way to deal with this diagnosis. But for three women who grew up not having access to this, it was pretty amazing. G wanted to place to be a surprise so only gave D and me the address but not the name of the hotel. Everything was made out of recycled material, the suite was stunning with a beautiful view. There were several pools to pick from as well as the ocean. Every night we would walk around town and pick places to have a drink. The memories of going on this trip are something I'll always be grateful for.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I could tell that D needed the trip and G's gift was the perfect way to make her feel loved and cared for."
+            }
+        ],
+        "request_id": "811f3c305916189d-EWR"
+    }
+}

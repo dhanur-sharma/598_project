@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was my wife and I's 18th anniversary.  We went out to dinner at our favorite restaurant and had a romantic night out just the two of us.  We don't get very many date nights.  Money being tight and having kids' sports to pay for.  It was wonderful to connect with her again, like it was when we first started dating.  We sat down at the table and ordered some drinks, and laughed, that's one of the things that always brought my wife and I together over the years. Our ability to laugh and have fun together.  I missed having those times with her.  We still enjoy each others company, but with the day to day stresses of life, we rarely get this kind of quality time together.   After dinner we went back to the house and had a few more drinks.  We stayed up late like when we were younger, laughing and reminiscing.  My wife is my best friend, and there's no one I'd rather spend my time with.  Although this is something we try to do every year on this date, it still always special to me.  We exchanged little gifts that we got each other.  It was nothing big, but stuff we need and shows that we listen to each other."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was my wife and I's 18th anniversary.  We went out to dinner at our favorite restaurant and had a romantic night out just the two of us.  We don't get very many date nights.  Money being tight and having kids' sports to pay for.  It was wonderful to connect with her again, like it was when we first started dating.  We sat down at the table and ordered some drinks, and laughed, that's one of the things that always brought my wife and I together over the years. Our ability to laugh and have fun together.  I missed having those times with her.  We still enjoy each others company, but with the day to day stresses of life, we rarely get this kind of quality time together.   After dinner we went back to the house and had a few more drinks.  We stayed up late like when we were younger, laughing and reminiscing.  My wife is my best friend, and there's no one I'd rather spend my time with.  Although this is something we try to do every year on this date, it still always special to me.  We exchanged little gifts that we got each other.  It was nothing big, but stuff we need and shows that we listen to each other.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a wonderful night and I'm grateful for my wife and our marriage.  It's not always easy, but it's worth it."
+            }
+        ],
+        "request_id": "811eb9e22c9743ad-EWR"
+    }
+}

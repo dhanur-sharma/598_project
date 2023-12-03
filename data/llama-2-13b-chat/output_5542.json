@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently moved in to a new apartment with my girlfriend. It was very significant because this is our first time not having roommates.  It marked a new part of our life together. I think the most surprising aspect was how well we live together. They say that you never know about someone truly until you live with them. We have been getting along great! I couldn't imagine living with anyone else now. Another benefit is that we are saving more money now than we had before. Moving out on our own really helped my mental state  too. I was locked in to a state of depression I couldn't shake off. I needed a change in my life. The move is exactly what I needed. If I had stayed where I was living I would still be unhealthy. Now I eat better and don't drink as much. The move really changed my life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently moved in to a new apartment with my girlfriend. It was very significant because this is our first time not having roommates.  It marked a new part of our life together. I think the most surprising aspect was how well we live together. They say that you never know about someone truly until you live with them. We have been getting along great! I couldn't imagine living with anyone else now. Another benefit is that we are saving more money now than we had before. Moving out on our own really helped my mental state  too. I was locked in to a state of depression I couldn't shake off. I needed a change in my life. The move is exactly what I needed. If I had stayed where I was living I would still be unhealthy. Now I eat better and don't drink as much. The move really changed my life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f339a4b2f8ce6-EWR"
+    }
+}

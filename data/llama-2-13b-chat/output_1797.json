@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister recently moved closer to where I live. It had been a few years since all of our kids had gotten together. She came to town and we all hung out. We decided to take all the kids to see The Lion King in the theater. This is the first time we would take our kids to the movie theater together. We knew the kids would enjoy. We loved watching this movie growing up together. Sure enough, the outing was very memorable. We all sang out loud to the songs. Our kids knew most of them and joined in. We felt the same emotions we did while growing up: the sorrow when Mufasa died, the elation of Simba regaining power, and the relief of witnessing the demise of Scar. The movie brings back a lot of memories of our childhood. It was a freer time when we were young and had much less responsibilities. Now life is different, we are moms and have work and household duties. Seeing this with my sister and our kids was a very memorable and emotional experience. I'm glad our kids got to witness the retelling of a very touching and meaningful story."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister recently moved closer to where I live. It had been a few years since all of our kids had gotten together. She came to town and we all hung out. We decided to take all the kids to see The Lion King in the theater. This is the first time we would take our kids to the movie theater together. We knew the kids would enjoy. We loved watching this movie growing up together. Sure enough, the outing was very memorable. We all sang out loud to the songs. Our kids knew most of them and joined in. We felt the same emotions we did while growing up: the sorrow when Mufasa died, the elation of Simba regaining power, and the relief of witnessing the demise of Scar. The movie brings back a lot of memories of our childhood. It was a freer time when we were young and had much less responsibilities. Now life is different, we are moms and have work and household duties. Seeing this with my sister and our kids was a very memorable and emotional experience. I'm glad our kids got to witness the retelling of a very touching and meaningful story.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all enjoyed the movie and left feeling happy and fulfilled.\n\n"
+            }
+        ],
+        "request_id": "811eaafa7849437e-EWR"
+    }
+}

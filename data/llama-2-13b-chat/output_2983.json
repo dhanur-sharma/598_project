@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a party to celebrate my upcoming engagement. It was very fun. I wasn't a surprise of anything, I had known for a while. It was for my brother's engagement with Sally. It was something we thought of long ago but never went through with it. We though about making a surprise, but decided against it since that leads to complications that we didn't want to endure. I had to take the time to do this not only away from work, but from my family since they could attend. Most of my family including our mother and fellow siblings would be there so at least a lot of the core family would be there. Everything we planned on doing happened, including some of the odd games other had recommended. I figured he would have liked it. The night went on and it was mainy just enjoying each others company and talking about the past. I think the next get together we should do the same setup. Our parent enjoyed catching up with us. We often do not communicate as much as we should with them. I think the party was more about grouping up together with everyone and not so much the engagement celebration."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a party to celebrate my upcoming engagement. It was very fun. I wasn't a surprise of anything, I had known for a while. It was for my brother's engagement with Sally. It was something we thought of long ago but never went through with it. We though about making a surprise, but decided against it since that leads to complications that we didn't want to endure. I had to take the time to do this not only away from work, but from my family since they could attend. Most of my family including our mother and fellow siblings would be there so at least a lot of the core family would be there. Everything we planned on doing happened, including some of the odd games other had recommended. I figured he would have liked it. The night went on and it was mainy just enjoying each others company and talking about the past. I think the next get together we should do the same setup. Our parent enjoyed catching up with us. We often do not communicate as much as we should with them. I think the party was more about grouping up together with everyone and not so much the engagement celebration.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec1b3db91435d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Things had been very strange at work for months. I couldn't quite put my finger on it, but it felt increasingly odd going into work each. Then, about five months ago, it happened. One of my team members did something that ended up getting him sent to our HR department. Though I didn't know at the time, this person supposedly viewed adult content on his work computer during work hours. This was strongly against company policy and met with zero tolerance. Despite pleading his case and begging to stay, this employee was terminated the following day without a fair hearing. I felt like I knew this person fairly well and didn't believe he would do this, so I began to investigate. After speaking with our IT department and correcting a rare error on their end, I came to a startling conclusion. My co-worker had been unfairly fired and absolutely deserved his job back! It was another co-worker who had viewed the adult material instead. Despite feeling bad about what I would have to do, I went in and spoke to my boss to correct the issue. He was shocked and felt terrible about the mistake. He then called the terminated employee and offered him his old job back and a raise because he felt so bad. In the end I felt bad about the situation for everyone but determined that I did a good thing for the company by making sure the truth was known to all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Things had been very strange at work for months. I couldn't quite put my finger on it, but it felt increasingly odd going into work each. Then, about five months ago, it happened. One of my team members did something that ended up getting him sent to our HR department. Though I didn't know at the time, this person supposedly viewed adult content on his work computer during work hours. This was strongly against company policy and met with zero tolerance. Despite pleading his case and begging to stay, this employee was terminated the following day without a fair hearing. I felt like I knew this person fairly well and didn't believe he would do this, so I began to investigate. After speaking with our IT department and correcting a rare error on their end, I came to a startling conclusion. My co-worker had been unfairly fired and absolutely deserved his job back! It was another co-worker who had viewed the adult material instead. Despite feeling bad about what I would have to do, I went in and spoke to my boss to correct the issue. He was shocked and felt terrible about the mistake. He then called the terminated employee and offered him his old job back and a raise because he felt so bad. In the end I felt bad about the situation for everyone but determined that I did a good thing for the company by making sure the truth was known to all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bcf43f8728ce3-EWR"
+    }
+}

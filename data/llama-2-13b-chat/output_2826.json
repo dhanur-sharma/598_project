@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Ah the joys of putting up lights. I'll never understand how or why this became a thing for us to do.  Sure, if you prepare things it can be nice and easy. However,  if your lights are tangled, have bulbs that have gone out, or aren't put away properly it is so much work. Luckily this time I had everything ready. This meant I didn't have to go out and buy things. Last time I had to go out and buy materials I had to hit a half dozen stores just to find what I actually wanted. Thank god I saved myself that hassle! However, once I had everything set up, was feeling proud and ready to put up the lights. I realized much to my dismay that the ladder I had was not tall enough. I could hear the womp womp womp music playing in my head. I improvised. Putting the ladder on something taller (kids don't try this at home) and finally after much cursing the lights were up. Shame I'm going to have to take them down again in a few weeks. Though it will probably be less work which I guess is a good thing. One of these years I will actually NOT put up the string lights."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Ah the joys of putting up lights. I'll never understand how or why this became a thing for us to do.  Sure, if you prepare things it can be nice and easy. However,  if your lights are tangled, have bulbs that have gone out, or aren't put away properly it is so much work. Luckily this time I had everything ready. This meant I didn't have to go out and buy things. Last time I had to go out and buy materials I had to hit a half dozen stores just to find what I actually wanted. Thank god I saved myself that hassle! However, once I had everything set up, was feeling proud and ready to put up the lights. I realized much to my dismay that the ladder I had was not tall enough. I could hear the womp womp womp music playing in my head. I improvised. Putting the ladder on something taller (kids don't try this at home) and finally after much cursing the lights were up. Shame I'm going to have to take them down again in a few weeks. Though it will probably be less work which I guess is a good thing. One of these years I will actually NOT put up the string lights.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But probably not this year.\n\n"
+            }
+        ],
+        "request_id": "811ebf1e6fdc183d-EWR"
+    }
+}

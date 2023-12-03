@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had gone grocery shopping to pick up a few things. I had gathered the things i needed and a few extras and headed to the cash to purchase. I had purchased my items and was leaving the store. I noticed an older woman with a cart of groceries. She was walking home and was trying to figure out a way to carry all of her bags. I live across the street from the grocery store so I told myself i should offer some assistance to her. I approached her and offered my help. I told her i would drop my things off at home and come back to help her carry some things. She lived nearby as well. So i did exactly that. I dropped my things off at home, and came back to the store to help her carry her bags to her home. She was very appreciative of my help. She wanted to give me a cake she had made and i declined. I told her we could go for coffee sometime as a thank you. I felt good about helping her. I think it's important to help others when we are able and i was able to help her. I wanted to help her. She's a lovely woman and now we are friends. She knows she can count on me to help if she needs it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had gone grocery shopping to pick up a few things. I had gathered the things i needed and a few extras and headed to the cash to purchase. I had purchased my items and was leaving the store. I noticed an older woman with a cart of groceries. She was walking home and was trying to figure out a way to carry all of her bags. I live across the street from the grocery store so I told myself i should offer some assistance to her. I approached her and offered my help. I told her i would drop my things off at home and come back to help her carry some things. She lived nearby as well. So i did exactly that. I dropped my things off at home, and came back to the store to help her carry her bags to her home. She was very appreciative of my help. She wanted to give me a cake she had made and i declined. I told her we could go for coffee sometime as a thank you. I felt good about helping her. I think it's important to help others when we are able and i was able to help her. I wanted to help her. She's a lovely woman and now we are friends. She knows she can count on me to help if she needs it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm glad i was able to help her. I feel good about the situation.\n\n"
+            }
+        ],
+        "request_id": "811e95dfcbae42c1-EWR"
+    }
+}

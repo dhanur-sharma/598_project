@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still cannot get my graduation from four months ago out of my head. I was supposed to be one of the biggest events of my life. Graduating college with a degree I busted my butt working to gain. My family was in the audience as well as some friends that knew how hard I had worked. I had gotten my hair and make-up done at the local salon before the ceremony. Everything was going to be perfect at the ceremony and at the party later on at my favorite restaurant. I sat with my class waiting anxiously for my big moment. The moment where my name would be called and all in attendance would share my accomplishment with me. Finally! My name was called. I got up from my seat, a smile on my face and made my way up to the stage. I briefly looked out into the audience and saw my family smiling up at me. Their pride in what this meant was easy to read. This however was my first mistake. I should of been paying attention. Instead I tripped on my gown and fell in front of everyone. There was a brief moment of surprised silence. And then....the laughter started. Now I look at my diploma and instead of feeling proud....all I feel is the embarrassment as the sound of so many people laughing at me echos in my ears."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still cannot get my graduation from four months ago out of my head. I was supposed to be one of the biggest events of my life. Graduating college with a degree I busted my butt working to gain. My family was in the audience as well as some friends that knew how hard I had worked. I had gotten my hair and make-up done at the local salon before the ceremony. Everything was going to be perfect at the ceremony and at the party later on at my favorite restaurant. I sat with my class waiting anxiously for my big moment. The moment where my name would be called and all in attendance would share my accomplishment with me. Finally! My name was called. I got up from my seat, a smile on my face and made my way up to the stage. I briefly looked out into the audience and saw my family smiling up at me. Their pride in what this meant was easy to read. This however was my first mistake. I should of been paying attention. Instead I tripped on my gown and fell in front of everyone. There was a brief moment of surprised silence. And then....the laughter started. Now I look at my diploma and instead of feeling proud....all I feel is the embarrassment as the sound of so many people laughing at me echos in my ears.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be663aa4643b1-EWR"
+    }
+}

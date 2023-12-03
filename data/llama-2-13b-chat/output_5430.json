@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A pretty scary thing happened to boyfriend and I.  This was about six months ago and it still haunts me to this day.  My boyfriend had been drinking quite a bit.  He fell on the stairs to the garage we think.  We're not quite sure because I was sleeping, and well he doesn't remember.  I called 911 when I found him.  Right from the beginning the sheriff in town blamed me.  It's like they decided I had pushed him before they even did any investigating.  They were hostile with me right away.  It was clear that they didn't like me.  And they certainly didn't believe me when I said that I was sleeping.  When my boyfriend got to the hospital it turns out he had broken some ribs and his face was looking pretty bad.  The doctor said that his injuries were really consistent with a fall.  And he even had a twisted ankle so the doctors were confident that it was an accident.  But that doesn't seem to persuade the police at all.  They still called me in to question me even after the doctor said he fell.  My boyfriend is pretty much healed up and I'd really like to put this entire thing behind us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A pretty scary thing happened to boyfriend and I.  This was about six months ago and it still haunts me to this day.  My boyfriend had been drinking quite a bit.  He fell on the stairs to the garage we think.  We're not quite sure because I was sleeping, and well he doesn't remember.  I called 911 when I found him.  Right from the beginning the sheriff in town blamed me.  It's like they decided I had pushed him before they even did any investigating.  They were hostile with me right away.  It was clear that they didn't like me.  And they certainly didn't believe me when I said that I was sleeping.  When my boyfriend got to the hospital it turns out he had broken some ribs and his face was looking pretty bad.  The doctor said that his injuries were really consistent with a fall.  And he even had a twisted ankle so the doctors were confident that it was an accident.  But that doesn't seem to persuade the police at all.  They still called me in to question me even after the doctor said he fell.  My boyfriend is pretty much healed up and I'd really like to put this entire thing behind us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But the police are still investigating.\n\n"
+            }
+        ],
+        "request_id": "811f314dffb7c3f5-EWR"
+    }
+}

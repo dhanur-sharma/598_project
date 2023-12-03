@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I graduated from college a little over three months ago. It was the culmination of 4 years of hard work. The ceremony itself was pretty uneventful, with traditional student and guest speakers. I remember standing with my friends together for the last time in the tunnel for hours waiting for the ceremony to start. After the initial ceremony, we moved buildings to do proceedings for each individual college's graduation. It was pretty cool to see my friends walk across the stage. Another interesting thing is that I realized how many of the people in my college that I got to know over my four years. I recognized almost every name. I didn't go to the smallest school, so this was a pretty cool realization. Everyone's favorite teacher was reading out the names, so that made it a lot better, too. After the ceremony, my family and I were so tired from the day's events that we just wanted to go home. A lot of people went out to fancy restaurants to eat, but I just wanted to go to my favorite sandwich shop at home. After returning home, I took a much-needed nap. The day was exhausting but it's one of those things that you never forget. The biggest takeaway was reflecting on all of the relationships that I had made."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I graduated from college a little over three months ago. It was the culmination of 4 years of hard work. The ceremony itself was pretty uneventful, with traditional student and guest speakers. I remember standing with my friends together for the last time in the tunnel for hours waiting for the ceremony to start. After the initial ceremony, we moved buildings to do proceedings for each individual college's graduation. It was pretty cool to see my friends walk across the stage. Another interesting thing is that I realized how many of the people in my college that I got to know over my four years. I recognized almost every name. I didn't go to the smallest school, so this was a pretty cool realization. Everyone's favorite teacher was reading out the names, so that made it a lot better, too. After the ceremony, my family and I were so tired from the day's events that we just wanted to go home. A lot of people went out to fancy restaurants to eat, but I just wanted to go to my favorite sandwich shop at home. After returning home, I took a much-needed nap. The day was exhausting but it's one of those things that you never forget. The biggest takeaway was reflecting on all of the relationships that I had made.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed482dda10f47-EWR"
+    }
+}

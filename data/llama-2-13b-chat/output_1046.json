@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The first day of shadowing my boss went well at my new job with a service provider. The second day did not go as well. The day started out happy. He had a good day at school. We went to a well known store, where he likes to go on Fridays. As we were going inside things seemed a little off but we pushed on. As we got inside the first melt- down occurred but we were able to continue on of our visit. He got angry and started running full speed at each of us. He would sit and then jump up. Then, he would run full over to one of us while punching or biting . This went on for about 20 minutes. We were trying to protect ourselves, the client, and any innocent people around. There was a man sitting behind us, in the corner of the eatery. Afterwards, we took him home with little to no violence . I came home and realized that he had also grabbed at my neck and ribs were also bruised. The minute I walked into my own home, I just sat in my husbands arms and cried. Then, I went to lay down with an ice pack on my stomach to stop the bruising."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The first day of shadowing my boss went well at my new job with a service provider. The second day did not go as well. The day started out happy. He had a good day at school. We went to a well known store, where he likes to go on Fridays. As we were going inside things seemed a little off but we pushed on. As we got inside the first melt- down occurred but we were able to continue on of our visit. He got angry and started running full speed at each of us. He would sit and then jump up. Then, he would run full over to one of us while punching or biting . This went on for about 20 minutes. We were trying to protect ourselves, the client, and any innocent people around. There was a man sitting behind us, in the corner of the eatery. Afterwards, we took him home with little to no violence . I came home and realized that he had also grabbed at my neck and ribs were also bruised. The minute I walked into my own home, I just sat in my husbands arms and cried. Then, I went to lay down with an ice pack on my stomach to stop the bruising.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still in a lot of pain and I can not go back to work until this issue is resolved.\n\n"
+            }
+        ],
+        "request_id": "811e9cd66cff19eb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went camping with my two sons. I'm not really much of a \"Camping\" kind of person but this was more about male bonding than anything else, or at least I thought it'd be. So we pull up to the camp site not far from where we live. It's one of those places with campsites already built into the area for school trips and whatnot. We set up our tents and our cookware a few miles down in the wildlife area. The first thing they want to do is make smores, of course. By the time we're done it's about 7 PM and because it's so late in August the sun is already on it's way out. We start a fire for light, I teach my sons how to carve wood with their scout knives. We all thought it was a relatively safe area but then I started hearing loud pops in the distance. At first I thought it was fireworks, then I realized they were gunshots from a rifle. The area isn't meant for hunting and the only animals that would be worth hunting for here would be bears. I assume that this is the case, but my kids are scared at this point. They've seen the news regarding mass shooting and they're not as familiar with guns as I am. The shooting gets closer and the threat of both gunmen and wild animals means I have to call the rangers and alert them of the situation. I go into my jeep and grab my rifle and tell both my sons to hunker in the vehicle until they come. Luckily, it gets uneventful afterwards. The rangers come by to acknowledge our presence and tell us that there were indeed people shooting at a bear about a mile or so away. It's not as scary looking back but I was definitely frightened for my kids."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went camping with my two sons. I'm not really much of a \"Camping\" kind of person but this was more about male bonding than anything else, or at least I thought it'd be. So we pull up to the camp site not far from where we live. It's one of those places with campsites already built into the area for school trips and whatnot. We set up our tents and our cookware a few miles down in the wildlife area. The first thing they want to do is make smores, of course. By the time we're done it's about 7 PM and because it's so late in August the sun is already on it's way out. We start a fire for light, I teach my sons how to carve wood with their scout knives. We all thought it was a relatively safe area but then I started hearing loud pops in the distance. At first I thought it was fireworks, then I realized they were gunshots from a rifle. The area isn't meant for hunting and the only animals that would be worth hunting for here would be bears. I assume that this is the case, but my kids are scared at this point. They've seen the news regarding mass shooting and they're not as familiar with guns as I am. The shooting gets closer and the threat of both gunmen and wild animals means I have to call the rangers and alert them of the situation. I go into my jeep and grab my rifle and tell both my sons to hunker in the vehicle until they come. Luckily, it gets uneventful afterwards. The rangers come by to acknowledge our presence and tell us that there were indeed people shooting at a bear about a mile or so away. It's not as scary looking back but I was definitely frightened for my kids.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't think I'll be going camping again anytime soon."
+            }
+        ],
+        "request_id": "811ec34f0ae94326-EWR"
+    }
+}

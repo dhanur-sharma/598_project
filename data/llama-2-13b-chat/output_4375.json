@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter has a condition called syncope. This could flare up at any point. So naturally, when I took her in for a dentist appointment, I was nervous. I didn't want the dentist to accidentally lacerate something. This all took place about a week ago. I also didn't want my daughter to be traumatized by the experience. I trust the dentist fully, but I don't trust the syncope. It's never known when she'll have an episode next. It just took some time to fully grasp what I was dealing with. As she was getting dental work, she also needed nitrous oxide. I had no idea if this would exacerbate or it or numb it. Fortunately, no episode took place. But judging by the sweat on my forehead, there was. I just don't want my daughter to ever be in pain. That would tear me up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter has a condition called syncope. This could flare up at any point. So naturally, when I took her in for a dentist appointment, I was nervous. I didn't want the dentist to accidentally lacerate something. This all took place about a week ago. I also didn't want my daughter to be traumatized by the experience. I trust the dentist fully, but I don't trust the syncope. It's never known when she'll have an episode next. It just took some time to fully grasp what I was dealing with. As she was getting dental work, she also needed nitrous oxide. I had no idea if this would exacerbate or it or numb it. Fortunately, no episode took place. But judging by the sweat on my forehead, there was. I just don't want my daughter to ever be in pain. That would tear me up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The dentist was very understanding, and so was the staff. They made sure she was comfortable and relaxed. That's all I could ask for.\n\n"
+            }
+        ],
+        "request_id": "811bd5941da3439d-EWR"
+    }
+}

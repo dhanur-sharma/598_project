@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I got into a big fight with my girlfriend. One thing led to another, and she called me a narcissist. This lead to another fight because I disagreed with her opinion. I think my girlfriend is being unfair and not very supportive of me. She thinks all I talk about is myself. I'm going through a rough patch right now. I need support. I'll I want is for her to sympathize with me. I just lost my job. It's making me depressed. I don't feel that I am asking too much of her. Maybe I should end this relationship. I found out my girlfriend's true nature. I'm just glad I found it so early on in our relationship. I think I will end things."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I got into a big fight with my girlfriend. One thing led to another, and she called me a narcissist. This lead to another fight because I disagreed with her opinion. I think my girlfriend is being unfair and not very supportive of me. She thinks all I talk about is myself. I'm going through a rough patch right now. I need support. I'll I want is for her to sympathize with me. I just lost my job. It's making me depressed. I don't feel that I am asking too much of her. Maybe I should end this relationship. I found out my girlfriend's true nature. I'm just glad I found it so early on in our relationship. I think I will end things.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e97c0c8be431a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The first event that comes to mind when I think about something that happened to me recently that was emotional and memorable is unfortunately a negative event, and it happened about a month and a half ago. I went to the grocery store after class one Monday afternoon, and I had my school bag with my laptop in it sitting in my back seat. As I drove to the store I noticed dark clouds forming on the horizon, and I knew it was going to rain. Of course, upon leaving the store it began to drizzle, and by the time I got home it was absolutely pouring rain. I did not want to risk getting my computer wet, and I knew it would be hard to protect it since I had to carry in the groceries as well. I decided to leave my computer bag in my car for a couple hours until it stopped raining, but I completely forgot about it, and I apparently also forgot to lock my car doors (I'm sure you can see where this is going!). The next morning I realized my mistake and went to my car to get my laptop, only to discover it had been stolen! Panicked, I immediately called my mom, and she advised me to first contact the police, and then contact my insurance company. The officer who arrived was very kind, but unfortunately it had rained again that morning, wiping away any fingerprints, and there was not much he could do to help other than file a report. Shortly after he left, I contacted my insurance company and was able to get money back for the items I had lost because it happened on my property and was covered by my renters insurance policy. I was still devastated, mostly because in taking my laptop, the thief also took my flash drive with all of my school files on it, meaning I now have to try to get back all the files I lost. On the bright side, my previous laptop was rather old and needed to be replaced anyway, so I now have a much nicer computer. Having my laptop stolen is definitely an event that I will not soon forget, and it taught me several lessons. First, I learned to always, ALWAYS, double check that my car doors are actually locked. Second, I learned that it is critical to keep a record of the product codes for all expensive items, because without that number the police cannot give you back your laptop even if they find it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The first event that comes to mind when I think about something that happened to me recently that was emotional and memorable is unfortunately a negative event, and it happened about a month and a half ago. I went to the grocery store after class one Monday afternoon, and I had my school bag with my laptop in it sitting in my back seat. As I drove to the store I noticed dark clouds forming on the horizon, and I knew it was going to rain. Of course, upon leaving the store it began to drizzle, and by the time I got home it was absolutely pouring rain. I did not want to risk getting my computer wet, and I knew it would be hard to protect it since I had to carry in the groceries as well. I decided to leave my computer bag in my car for a couple hours until it stopped raining, but I completely forgot about it, and I apparently also forgot to lock my car doors (I'm sure you can see where this is going!). The next morning I realized my mistake and went to my car to get my laptop, only to discover it had been stolen! Panicked, I immediately called my mom, and she advised me to first contact the police, and then contact my insurance company. The officer who arrived was very kind, but unfortunately it had rained again that morning, wiping away any fingerprints, and there was not much he could do to help other than file a report. Shortly after he left, I contacted my insurance company and was able to get money back for the items I had lost because it happened on my property and was covered by my renters insurance policy. I was still devastated, mostly because in taking my laptop, the thief also took my flash drive with all of my school files on it, meaning I now have to try to get back all the files I lost. On the bright side, my previous laptop was rather old and needed to be replaced anyway, so I now have a much nicer computer. Having my laptop stolen is definitely an event that I will not soon forget, and it taught me several lessons. First, I learned to always, ALWAYS, double check that my car doors are actually locked. Second, I learned that it is critical to keep a record of the product codes for all expensive items, because without that number the police cannot give you back your laptop even if they find it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And lastly, I learned that I need to keep all of my important files in multiple places so that I do not lose everything in one incident."
+            }
+        ],
+        "request_id": "811bd19d3e87c44f-EWR"
+    }
+}

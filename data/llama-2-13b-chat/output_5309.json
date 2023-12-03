@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a music festival back in June with my sister. It was about a 2 hour drive from where I lived. First I had to drive 2 hours to pick up my sister. Then we drove up to the festival together. We had to camp in the far back lot where we had to take the bus to the front gates. The first night we set up camp. I was trying to help and my sister was getting frustrated with me. She did not like how I set up camp. It hurt my feelings because I was only trying to help. We then drank energy drinks and alcohol. We also chatted with our neighbors who were very cool and helped us set up. After pre-gaming a bit, we hopped on the bus to go see Odesza. I was very excited to see them they are one of my favorite bands. On the party bus someone offered me a bag of wine and I slapped the bag and drank up. It was so much fun. We then had to walk quite a while to the concert. There was a huge crowd at the concert already. We stayed in the back at first but we went up further into the crowd to see them better. The music was beautiful I danced the whole time. I felt such joy dancing in the crowd next to my sister. The long drive and setting up camp was worth it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a music festival back in June with my sister. It was about a 2 hour drive from where I lived. First I had to drive 2 hours to pick up my sister. Then we drove up to the festival together. We had to camp in the far back lot where we had to take the bus to the front gates. The first night we set up camp. I was trying to help and my sister was getting frustrated with me. She did not like how I set up camp. It hurt my feelings because I was only trying to help. We then drank energy drinks and alcohol. We also chatted with our neighbors who were very cool and helped us set up. After pre-gaming a bit, we hopped on the bus to go see Odesza. I was very excited to see them they are one of my favorite bands. On the party bus someone offered me a bag of wine and I slapped the bag and drank up. It was so much fun. We then had to walk quite a while to the concert. There was a huge crowd at the concert already. We stayed in the back at first but we went up further into the crowd to see them better. The music was beautiful I danced the whole time. I felt such joy dancing in the crowd next to my sister. The long drive and setting up camp was worth it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt so alive.\n\n"
+            }
+        ],
+        "request_id": "811f2ed27bbe4375-EWR"
+    }
+}

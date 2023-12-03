@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Roughly two months ago I went through one of the most difficult events in my life. My younger brother was diagnosed with stage IV lung cancer. Since it had spread, he was only given one month left to live. He was only 50 years old at the time. I received a call early in the morning from my nephew. He was in tears saying that his father was in the hospital over a diagnosis of lung cancer. I was in shock to hear this since I had only recently spoke to him a few months ago over the phone and he seemed fine. After arriving to the hospital, the doctor shared the news that he didn't have much longer to live. We cried and shared funny stories of our past. I made sure he was feeling comfortable. Since his chances of survival were so low, he refused chemotherapy. It just didn't make since given his prognosis. I helped him ensure his will was in order. He wanted to make sure I kept a close eye on his wife and son since he knew they would have a difficult time coping without him. And in the last weeks of his life, we made sure to spend as much time together as we possibly could - just enjoying ourselves like we used to when we were younger."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Roughly two months ago I went through one of the most difficult events in my life. My younger brother was diagnosed with stage IV lung cancer. Since it had spread, he was only given one month left to live. He was only 50 years old at the time. I received a call early in the morning from my nephew. He was in tears saying that his father was in the hospital over a diagnosis of lung cancer. I was in shock to hear this since I had only recently spoke to him a few months ago over the phone and he seemed fine. After arriving to the hospital, the doctor shared the news that he didn't have much longer to live. We cried and shared funny stories of our past. I made sure he was feeling comfortable. Since his chances of survival were so low, he refused chemotherapy. It just didn't make since given his prognosis. I helped him ensure his will was in order. He wanted to make sure I kept a close eye on his wife and son since he knew they would have a difficult time coping without him. And in the last weeks of his life, we made sure to spend as much time together as we possibly could - just enjoying ourselves like we used to when we were younger.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He passed away one month after his diagnosis. I'm still trying to come to terms with the fact that my brother is gone.\n\n"
+            }
+        ],
+        "request_id": "811e9c2718ff5e73-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five weeks ago, we arrived in Chicago on a Sunday. From our hotel room this city spread out before us like a jewel. We walked along Lake Michigan and looked at the Azure water. We felt the warm breeze coming off the Lake. Sailboats cruised in the distance. We went to the Chicago Museum of Art. They had a large exhibition of folk art, which we enjoyed. They even had some van Goghs. We stayed there for hours, enjoying the beauty of creation. We then went to the Magnificent Mile. We enjoyed all the departments stores. We spent too much money but we had a lot of fun. As we walked back to the hotel along Lake Michigan. We saw big storm roiling the lakes waters. Though it was only 3:30 in the afternoon, it became as dark as midnight. A huge gust blew on me. I try to keep my balance, but I was thrown right into the waters of the Lake.  The water was deeper than I was tall. I flailed and splashed around. Suddenly, a man in an orange vest appeared next to me. He put his arm around me and pushed me up where another man grabbed me. An EMS Scooter took me to a warm room where I was given some hot soup.  What a surprising turn for my trip to take!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five weeks ago, we arrived in Chicago on a Sunday. From our hotel room this city spread out before us like a jewel. We walked along Lake Michigan and looked at the Azure water. We felt the warm breeze coming off the Lake. Sailboats cruised in the distance. We went to the Chicago Museum of Art. They had a large exhibition of folk art, which we enjoyed. They even had some van Goghs. We stayed there for hours, enjoying the beauty of creation. We then went to the Magnificent Mile. We enjoyed all the departments stores. We spent too much money but we had a lot of fun. As we walked back to the hotel along Lake Michigan. We saw big storm roiling the lakes waters. Though it was only 3:30 in the afternoon, it became as dark as midnight. A huge gust blew on me. I try to keep my balance, but I was thrown right into the waters of the Lake.  The water was deeper than I was tall. I flailed and splashed around. Suddenly, a man in an orange vest appeared next to me. He put his arm around me and pushed me up where another man grabbed me. An EMS Scooter took me to a warm room where I was given some hot soup.  What a surprising turn for my trip to take!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9167ed3e8c0b-EWR"
+    }
+}

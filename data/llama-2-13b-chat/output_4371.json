@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this year, my wife and I were married. After a long, 18-month planning process, we finally set a date for May. When the day finally came, it was a beautiful morning in the mids 60s. We thought this was going to be the picture perfect day for weather to celebrate. By noon, it began to turn. I got a text from my future wife that there was a torrential downpour. She began to panic. I assured her that in an hour or so, the weather would pass. An hour came. The weather did not pass. As the rain continued to fall and the caterers in crisis mode, I tried to stay calm. This was an outdoor wedding. Didn't Alanis Morisette say something about rain on your wedding day? As guests began coming, the rain slowly and slowly lessened. Right at the very moment our vows were to be said, the sky opened up. The rain was gone. The grey backdrop and wind provided for a legendary wedding."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this year, my wife and I were married. After a long, 18-month planning process, we finally set a date for May. When the day finally came, it was a beautiful morning in the mids 60s. We thought this was going to be the picture perfect day for weather to celebrate. By noon, it began to turn. I got a text from my future wife that there was a torrential downpour. She began to panic. I assured her that in an hour or so, the weather would pass. An hour came. The weather did not pass. As the rain continued to fall and the caterers in crisis mode, I tried to stay calm. This was an outdoor wedding. Didn't Alanis Morisette say something about rain on your wedding day? As guests began coming, the rain slowly and slowly lessened. Right at the very moment our vows were to be said, the sky opened up. The rain was gone. The grey backdrop and wind provided for a legendary wedding.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still waiting for Alanis to call me for the sequel.\n\n"
+            }
+        ],
+        "request_id": "811bd57da91ec32f-EWR"
+    }
+}

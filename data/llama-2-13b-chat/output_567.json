@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was hiking near Lake Ontario with my partner and our two grandkids. It was a beautiful sunny day. The lake sparkled brilliantly. I have a bad knee, so I was struggling with some of the physical activity. My partner suggested that I rest a bit on a fallen log. I was nervous, because I would not be able to get up by myself, but I agreed. My partner and my granddaugther wanted to hike further to see the bluffs. I said I would be OK for a bit, but my sweet grandson insisted on staying with me. He said, \"I won't let my granny sit in the forest all alone.\" Well it was a good thing. My partner and granddaughter didn't return in a reasonable amount of time. We got very nervous! My grandson is 10 years old, but not strong enough to help me up. He searched for a stout walking stick and found one nearby. I used it to prop myself up, and managed to get my feet underneath me. Together we went down the shore to find the rest of our party. Luckily all was well, but I would truly have been distraught if I had been all alone waiting for so long!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was hiking near Lake Ontario with my partner and our two grandkids. It was a beautiful sunny day. The lake sparkled brilliantly. I have a bad knee, so I was struggling with some of the physical activity. My partner suggested that I rest a bit on a fallen log. I was nervous, because I would not be able to get up by myself, but I agreed. My partner and my granddaugther wanted to hike further to see the bluffs. I said I would be OK for a bit, but my sweet grandson insisted on staying with me. He said, \"I won't let my granny sit in the forest all alone.\" Well it was a good thing. My partner and granddaughter didn't return in a reasonable amount of time. We got very nervous! My grandson is 10 years old, but not strong enough to help me up. He searched for a stout walking stick and found one nearby. I used it to prop myself up, and managed to get my feet underneath me. Together we went down the shore to find the rest of our party. Luckily all was well, but I would truly have been distraught if I had been all alone waiting for so long!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e94312e474295-EWR"
+    }
+}

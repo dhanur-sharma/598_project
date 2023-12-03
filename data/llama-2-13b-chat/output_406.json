@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been two months since my father's heart surgery.  Driving him and my mother to and from the hospital (and to and from the months of tests preceding the surgery) were stressful, but ultimately bonding.  We do not normally travel well together, under casual circumstances.  So, the trips with my father's health in question only added to the possibility of argument and tempers.  I felt in the role of caretaker during these trips and waiting room experiences, being the only one who could manage their stress adequately enough to manage the one hour of interstate traffic both ways.  It was a role I felt forced to take on, but I was also grateful to have some sort of way to repay my parents for times they had supported me in stressful situations.  We learned to set more trivial elements of road trip stress aside.  And we even went on some trips in between hospital visits to help relax.  I learned that while I can handle the thought of my parents falling ill, or even dying, my mother's views on death have changed.  She was the person who taught me to see death as just another part of life.  But now that she's getting closer to old age, she seems to fear it.  The subject is one that can't be just theoretical.  I guess people don't know how they'll react until the subject is staring them in the face.  For some reason it bothered me how stressed my mother got.  She seemed to jump to the worst conclusions.  In the end, however, dad was fine, and her stress seemed wasted."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been two months since my father's heart surgery.  Driving him and my mother to and from the hospital (and to and from the months of tests preceding the surgery) were stressful, but ultimately bonding.  We do not normally travel well together, under casual circumstances.  So, the trips with my father's health in question only added to the possibility of argument and tempers.  I felt in the role of caretaker during these trips and waiting room experiences, being the only one who could manage their stress adequately enough to manage the one hour of interstate traffic both ways.  It was a role I felt forced to take on, but I was also grateful to have some sort of way to repay my parents for times they had supported me in stressful situations.  We learned to set more trivial elements of road trip stress aside.  And we even went on some trips in between hospital visits to help relax.  I learned that while I can handle the thought of my parents falling ill, or even dying, my mother's views on death have changed.  She was the person who taught me to see death as just another part of life.  But now that she's getting closer to old age, she seems to fear it.  The subject is one that can't be just theoretical.  I guess people don't know how they'll react until the subject is staring them in the face.  For some reason it bothered me how stressed my mother got.  She seemed to jump to the worst conclusions.  In the end, however, dad was fine, and her stress seemed wasted.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But at least I learned something about how my parents view death.\n\n"
+            }
+        ],
+        "request_id": "811e91253eeb42c6-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I started my new job and I was optimistic. I was fortunate to be given the opportunity that I was. I was so appreciative that they were going to give me a chance. I really was under-qualified for the position. Even I can admit that I was probably going to be in over my head. I went to the job interview with the best attitude I could. I tried to be positive and talk about what I knew I was capable of. It worked! They gave me the position. I got a huge office and a big salary. I was so happy I could have exploded. It has been tough. I am trying to learn a business I know nothing about while managing a department. Some of the senior executives have said they are surprised by how I am performing. I guess they expected me to fail. I am proud of myself for taking this opportunity and climbing the ladder at the new company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I started my new job and I was optimistic. I was fortunate to be given the opportunity that I was. I was so appreciative that they were going to give me a chance. I really was under-qualified for the position. Even I can admit that I was probably going to be in over my head. I went to the job interview with the best attitude I could. I tried to be positive and talk about what I knew I was capable of. It worked! They gave me the position. I got a huge office and a big salary. I was so happy I could have exploded. It has been tough. I am trying to learn a business I know nothing about while managing a department. Some of the senior executives have said they are surprised by how I am performing. I guess they expected me to fail. I am proud of myself for taking this opportunity and climbing the ladder at the new company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am learning so much and I am happy with my decision. I know that there will be challenges in the future but I am ready for them. I am confident that I can succeed in this position.\n\n"
+            }
+        ],
+        "request_id": "811ec8500b49c439-EWR"
+    }
+}

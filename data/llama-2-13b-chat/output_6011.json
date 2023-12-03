@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past June, I was surfing at my local beach, when a great white shark swam right past me. I had been in the water for about two hours and waves were fairly consistent. It was a typical summer day in Huntington Beach, with June gloom (heavy marine layer). There was a small southwest swell running at two to three feet. The water was warm and fairly clear.      Up until that point, it was just like nearly any other day. I usually surf every day, swell permitting. June is typically sharky in Southern California.  It's the time of the year when the juvenile white sharks are migrating back up North.  There had been recent sightings in the area, but it doesn't stop hardcore surfers from surfing.     So, as I paddled back to the lineup, I sat up on my board and waited for a set. That's when I seen a dorsal and caudal fin heading right towards me. I knew right away what it was. I remained calm, but was scared. It approached me, then at approximately five feet away, it turned and swam by. I could clearly see its black eye checking me out as it passed. It was a juvenile, approximately six feet in length. Not big by great white standards, but still bigger than me.      After it passes, I caught a wave in and notified a lifeguard, that closed the beach for the day.      It was definitely one of the most tense situations of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past June, I was surfing at my local beach, when a great white shark swam right past me. I had been in the water for about two hours and waves were fairly consistent. It was a typical summer day in Huntington Beach, with June gloom (heavy marine layer). There was a small southwest swell running at two to three feet. The water was warm and fairly clear.      Up until that point, it was just like nearly any other day. I usually surf every day, swell permitting. June is typically sharky in Southern California.  It's the time of the year when the juvenile white sharks are migrating back up North.  There had been recent sightings in the area, but it doesn't stop hardcore surfers from surfing.     So, as I paddled back to the lineup, I sat up on my board and waited for a set. That's when I seen a dorsal and caudal fin heading right towards me. I knew right away what it was. I remained calm, but was scared. It approached me, then at approximately five feet away, it turned and swam by. I could clearly see its black eye checking me out as it passed. It was a juvenile, approximately six feet in length. Not big by great white standards, but still bigger than me.      After it passes, I caught a wave in and notified a lifeguard, that closed the beach for the day.      It was definitely one of the most tense situations of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I've been surfing for over 20 years, and I've had a few close calls, but this was the first time I've ever seen a shark. It was also the first time I've ever felt so vulnerable in the water.      I know the beach will be closed for a few days and I'll be staying on land for a bit. But I'll be back in the water soon. I love surfing too much to let one close call keep me out."
+            }
+        ],
+        "request_id": "811f3cfbbebc423a-EWR"
+    }
+}

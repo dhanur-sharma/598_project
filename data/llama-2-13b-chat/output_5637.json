@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One day four months ago, my eyes opened to the California sun in my face through my venetian blinds, little dust particles scattering before my waking consciousness. I was feeling good after a long run along the Santa Monica coastal path, and hour of yoga, and a nice Acai bowl before bed. It was a normal weekday, living off the interest of my well-invested exit cash from Snap's IPO, wondering which canyon I'd explore north of the Palisades. Altruistic good nature ebbed into my gathering self awareness, and I was compelled to do something good for someone else. I asked Siri, \"where can I donate blood?.\" A list of blood drives popped up, and I was happy to see there was one right up the street. I popped up out of bed, threw on my huaraches, pancho, and skinny jeans and hopped on my one wheel for the quick jaunt. I had never donated before, but I take good care of myself, so I wasn't surprised I passed the screening. Needles are scary, but I sucked it up for the good I was doing and this little deposit in the karma bank. I stood up to walk away, threw a shaka at the phlebotomist, and started one wheeling it home. Suddenly I lost consciousness and fell into the curb. I came to in a hospital bed, concussed, and with a broken arm. The doctor suggested I have an MRI. I don't feel good about cosmic rays penetrating my body! A bone was protruding through my skin. There was blood everywhere."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One day four months ago, my eyes opened to the California sun in my face through my venetian blinds, little dust particles scattering before my waking consciousness. I was feeling good after a long run along the Santa Monica coastal path, and hour of yoga, and a nice Acai bowl before bed. It was a normal weekday, living off the interest of my well-invested exit cash from Snap's IPO, wondering which canyon I'd explore north of the Palisades. Altruistic good nature ebbed into my gathering self awareness, and I was compelled to do something good for someone else. I asked Siri, \"where can I donate blood?.\" A list of blood drives popped up, and I was happy to see there was one right up the street. I popped up out of bed, threw on my huaraches, pancho, and skinny jeans and hopped on my one wheel for the quick jaunt. I had never donated before, but I take good care of myself, so I wasn't surprised I passed the screening. Needles are scary, but I sucked it up for the good I was doing and this little deposit in the karma bank. I stood up to walk away, threw a shaka at the phlebotomist, and started one wheeling it home. Suddenly I lost consciousness and fell into the curb. I came to in a hospital bed, concussed, and with a broken arm. The doctor suggested I have an MRI. I don't feel good about cosmic rays penetrating my body! A bone was protruding through my skin. There was blood everywhere.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was in the ICU, so I couldn't even donate my own blood. I couldn't believe it. The nurse said the doctor would explain it all to me in the morning. I had to cancel my Venice Beach yoga class. I was disappointed."
+            }
+        ],
+        "request_id": "811f357b6c1e434b-EWR"
+    }
+}

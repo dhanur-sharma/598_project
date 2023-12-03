@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My dad recently called me to see if I wanted to help him move. He was going from San Francisco to Monument Valley and had rented a U-Haul to take his things. He wanted a riding partner so it didn't seems so long. I hadn't seen him in a really long time, so I agreed to it. I got time off work and met him in San Fran on that following Monday. As soon as I got there, he showed me the empty home. It was where I had grew up and now where someone else would be living. It was bittersweet to say the least. When we got started, there wasn't much to say other than catching up with each other. We did a few pit stops at rest areas to stretch our legs. We went out to eat as well. The best part of this whole trip was after the small talk, we had really deep conversations. My dad told me he was scared of moving to Monument Valley. He didn't know anyone there but had just found a nice house that was in his price range. I asked him why he wanted to move then. He said the home he had had too many memories of my mom. We had a nice cry after that and then went back to keeping it light. We told jokes and sung songs, but in my mind I never forgot what he had said."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My dad recently called me to see if I wanted to help him move. He was going from San Francisco to Monument Valley and had rented a U-Haul to take his things. He wanted a riding partner so it didn't seems so long. I hadn't seen him in a really long time, so I agreed to it. I got time off work and met him in San Fran on that following Monday. As soon as I got there, he showed me the empty home. It was where I had grew up and now where someone else would be living. It was bittersweet to say the least. When we got started, there wasn't much to say other than catching up with each other. We did a few pit stops at rest areas to stretch our legs. We went out to eat as well. The best part of this whole trip was after the small talk, we had really deep conversations. My dad told me he was scared of moving to Monument Valley. He didn't know anyone there but had just found a nice house that was in his price range. I asked him why he wanted to move then. He said the home he had had too many memories of my mom. We had a nice cry after that and then went back to keeping it light. We told jokes and sung songs, but in my mind I never forgot what he had said.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I realized that my dad is just as human as the rest of us. He has feelings too. I'm glad I got to spend that time with him.\n\n"
+            }
+        ],
+        "request_id": "811bd1e269bf18cc-EWR"
+    }
+}

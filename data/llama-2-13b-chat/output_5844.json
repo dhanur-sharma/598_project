@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When my son had his first birthday it was his first time eating more than a small bite of sweets. I was surprised that he didn't immediately start smashing his birthday cake. He instead picked up the piece of cake and took a bite out of it. It was very cute! After that first bite he started smashing up the cake. He was taking handfuls of cake and shoving them in his mouth. He had cake smeared all over himself, his highchair, and the floor. He actually quit eating it sooner than I expected. He looked very full and tired of the cake. We had to give him a bath after the cake eating before he could open presents. When it was time to open presents, he ripped off a tiny piece of wrapping paper and played with it. We had to really encourage him to rip more paper. I mostly opened his gifts because he wouldn't. He had a ton of fun playing with the wrapping paper. We had to encourage him to actually play with the gifts."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When my son had his first birthday it was his first time eating more than a small bite of sweets. I was surprised that he didn't immediately start smashing his birthday cake. He instead picked up the piece of cake and took a bite out of it. It was very cute! After that first bite he started smashing up the cake. He was taking handfuls of cake and shoving them in his mouth. He had cake smeared all over himself, his highchair, and the floor. He actually quit eating it sooner than I expected. He looked very full and tired of the cake. We had to give him a bath after the cake eating before he could open presents. When it was time to open presents, he ripped off a tiny piece of wrapping paper and played with it. We had to really encourage him to rip more paper. I mostly opened his gifts because he wouldn't. He had a ton of fun playing with the wrapping paper. We had to encourage him to actually play with the gifts.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a fun and messy day."
+            }
+        ],
+        "request_id": "811f39908bbf19ae-EWR"
+    }
+}

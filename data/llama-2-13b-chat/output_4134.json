@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently visited Vermont with my girlfriend.  The purpose of the trip was to relax, but also to meet her parents for the first time.  She is amazing person and I wanted to make a good impression.  I know her family is important to her so I was very nervous.  I'm not very talkative or outgoing and she said that her mom is.  The drive itself was about 4 hours and went well.  The weather was cloudy and we met for Mexican for lunch.  I really enjoyed getting to meet them.  We started to walk around and then got caught in a torrential downpour!  It lightened the mood for all of us to get soaked.  Later we had dinner and drinks and relaxed even more.  It was fun to hear about my girlfriend's childhood and meet the folks who raised her.  After dinner we had some wine and played a board game.  By the end, I felt so comfortable that I couldn't believe I had been nervous earlier.  It was a wonderful weekend.  And now they are going to visit us for Thanksgiving this year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently visited Vermont with my girlfriend.  The purpose of the trip was to relax, but also to meet her parents for the first time.  She is amazing person and I wanted to make a good impression.  I know her family is important to her so I was very nervous.  I'm not very talkative or outgoing and she said that her mom is.  The drive itself was about 4 hours and went well.  The weather was cloudy and we met for Mexican for lunch.  I really enjoyed getting to meet them.  We started to walk around and then got caught in a torrential downpour!  It lightened the mood for all of us to get soaked.  Later we had dinner and drinks and relaxed even more.  It was fun to hear about my girlfriend's childhood and meet the folks who raised her.  After dinner we had some wine and played a board game.  By the end, I felt so comfortable that I couldn't believe I had been nervous earlier.  It was a wonderful weekend.  And now they are going to visit us for Thanksgiving this year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd0934d460ca2-EWR"
+    }
+}

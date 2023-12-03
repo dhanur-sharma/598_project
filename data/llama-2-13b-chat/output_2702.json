@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 2 months ago, I entered my first jiu-jitsu competition. I was so incredibly nervous. I didn't want to lose and look like a fool in front of my parents and coaches, as well as my teammates. It was memorable to me because it marked the day I remember starting to have real confidence in myself, after I ended up winning that competition. I was only a white belt without any stripes, so I was only allowed to compete against other participants with my same ranking. I handled all of them with ease, and I knew it was because I had an incredible coach who was always teaching me important things I'd need to know. I knew my coach was telling me things the other coaches weren't telling their students, based on how easily I was beating them. The most surprising part of that day, to me, was how easy it felt to me to find ways to win. It meant a lot to me to feel confident enough in the finals of that competition, and it was all thanks to my coaches. When I won, it marked the genesis of when I truly became confident in myself, not only as a martial artist, but as a person. When I ended up winning the final match, I can remember telling my coaches that it was easy. My coaches told me it was only easy because I work harder than them, and that I'm more dedicated than them. I never thought that highly of myself. When my coaches told me that, I began to reflect on my work ethic. It was hard to compliment myself, but I allowed myself to after that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 2 months ago, I entered my first jiu-jitsu competition. I was so incredibly nervous. I didn't want to lose and look like a fool in front of my parents and coaches, as well as my teammates. It was memorable to me because it marked the day I remember starting to have real confidence in myself, after I ended up winning that competition. I was only a white belt without any stripes, so I was only allowed to compete against other participants with my same ranking. I handled all of them with ease, and I knew it was because I had an incredible coach who was always teaching me important things I'd need to know. I knew my coach was telling me things the other coaches weren't telling their students, based on how easily I was beating them. The most surprising part of that day, to me, was how easy it felt to me to find ways to win. It meant a lot to me to feel confident enough in the finals of that competition, and it was all thanks to my coaches. When I won, it marked the genesis of when I truly became confident in myself, not only as a martial artist, but as a person. When I ended up winning the final match, I can remember telling my coaches that it was easy. My coaches told me it was only easy because I work harder than them, and that I'm more dedicated than them. I never thought that highly of myself. When my coaches told me that, I began to reflect on my work ethic. It was hard to compliment myself, but I allowed myself to after that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was proud of myself. \n\n"
+            }
+        ],
+        "request_id": "811ebbe42bae23a0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I loved to skateboard with my friends. Every Saturday we'd spend hours in the park performing tricks on our boards. We're a pretty competitive group, but we keep it civil.  A couple of months ago one of my friends saw this crazy skateboard trick on the internet. He sent the video link to all of us and I was amazed. The skateboarded in the video was five or six years younger than me but he was doing all kinds of cool flips and tricks on his board. Suddenly I felt old. I was completely floored by the kid's skill. My friends were too, but I pretended it was no big deal to me. If someone his age could do that then I could too. I read over the video's comment section to see if the skateboarder gave some out tips. He didn't. I re-watched the video until I figured out how to mimic the kid's moves. I must have watched it at least a hundred times. When I thought I was ready, I took my skateboard and my camera to the park and went to work. Two jumps, a flip, and a misplaced grind rail down three flights of stairs later, I ended up breaking my arm. After the surgery the doctor told me that my injuries would have been much worse if I wasn't wearing a helmet. I thought back to the video I watched and remembered that the kid wasn't wearing a helmet. When I got out of the hospital I checked the kid's video home page. He hadn't uploaded a new video in over a year. After a little bit more digging I found out that the same kid in the video died performing risky moves on his skateboard without wearing the proper protection. Suddenly I felt very lucky."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I loved to skateboard with my friends. Every Saturday we'd spend hours in the park performing tricks on our boards. We're a pretty competitive group, but we keep it civil.  A couple of months ago one of my friends saw this crazy skateboard trick on the internet. He sent the video link to all of us and I was amazed. The skateboarded in the video was five or six years younger than me but he was doing all kinds of cool flips and tricks on his board. Suddenly I felt old. I was completely floored by the kid's skill. My friends were too, but I pretended it was no big deal to me. If someone his age could do that then I could too. I read over the video's comment section to see if the skateboarder gave some out tips. He didn't. I re-watched the video until I figured out how to mimic the kid's moves. I must have watched it at least a hundred times. When I thought I was ready, I took my skateboard and my camera to the park and went to work. Two jumps, a flip, and a misplaced grind rail down three flights of stairs later, I ended up breaking my arm. After the surgery the doctor told me that my injuries would have been much worse if I wasn't wearing a helmet. I thought back to the video I watched and remembered that the kid wasn't wearing a helmet. When I got out of the hospital I checked the kid's video home page. He hadn't uploaded a new video in over a year. After a little bit more digging I found out that the same kid in the video died performing risky moves on his skateboard without wearing the proper protection. Suddenly I felt very lucky.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I realized that I was lucky to have a second chance and I promised myself that I would never again skateboard without my helmet. I am now more cautious when I skateboard and I'm grateful for my second chance. \n\n"
+            }
+        ],
+        "request_id": "811e9fe3dbfe0cac-EWR"
+    }
+}

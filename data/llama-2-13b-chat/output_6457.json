@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mom came into town from Arizona for a visit this summer. I was worried that she wouldn't be comfortable at my house or in the camper we had set up for her. We worked extremely hard to get the camper ready. We had to do plumbing, electrical, dirt work and fix the air conditioner. I was sure it wouldn't be good enough for her because her cleaning standards have always been so high. But I was completely surprised. Not only was she comfortable in her camper, she actually loved it. She was also comfortable in my house which is a first. I've never seen her more relaxed than that trip. It really took all of the worry away. Now I really look forward to her coming back again. I feel like her coming to visit is now a really happy thing rather than something that makes me walk on eggshells. I can't wait to see her relaxed like that again. I'm also looking forward to my dad coming with her. It feels like a complete change because now I don't have to go to AZ to see them and they can enjoy themselves in and around my house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mom came into town from Arizona for a visit this summer. I was worried that she wouldn't be comfortable at my house or in the camper we had set up for her. We worked extremely hard to get the camper ready. We had to do plumbing, electrical, dirt work and fix the air conditioner. I was sure it wouldn't be good enough for her because her cleaning standards have always been so high. But I was completely surprised. Not only was she comfortable in her camper, she actually loved it. She was also comfortable in my house which is a first. I've never seen her more relaxed than that trip. It really took all of the worry away. Now I really look forward to her coming back again. I feel like her coming to visit is now a really happy thing rather than something that makes me walk on eggshells. I can't wait to see her relaxed like that again. I'm also looking forward to my dad coming with her. It feels like a complete change because now I don't have to go to AZ to see them and they can enjoy themselves in and around my house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great experience."
+            }
+        ],
+        "request_id": "811f45a988450f60-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband I planned a nice vacation for springbreak. We wanted to be sure that our sons had a great time. We saved money and rented a nice house. We drove about 5 hours to get there. We checked in and decided to take a quick nap and then head to the pool. We had a ball. Next was baths and dinner. We used Yelp to help us decide what to eat. Dinner was nice. the  next day we went to the beach. the beach was beautiful. my sons had fun buiding sand castles and splashing in the water. We got home and relaxed. We headed to a nice restuart. The food was great. Bed and baths was just what we needed after a long day. After a few days we loaded the car and hit the road. But not before one last visit to the water park! The drive home was peaceful. We unloaded and unpacked and returned back to normal life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband I planned a nice vacation for springbreak. We wanted to be sure that our sons had a great time. We saved money and rented a nice house. We drove about 5 hours to get there. We checked in and decided to take a quick nap and then head to the pool. We had a ball. Next was baths and dinner. We used Yelp to help us decide what to eat. Dinner was nice. the  next day we went to the beach. the beach was beautiful. my sons had fun buiding sand castles and splashing in the water. We got home and relaxed. We headed to a nice restuart. The food was great. Bed and baths was just what we needed after a long day. After a few days we loaded the car and hit the road. But not before one last visit to the water park! The drive home was peaceful. We unloaded and unpacked and returned back to normal life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were all sad to leave the vacation but we were happy to have such a great time.\n\n"
+            }
+        ],
+        "request_id": "811bdb25ed160cc9-EWR"
+    }
+}

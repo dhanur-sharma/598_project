@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Last week I got a promotion at work. It is on the new combat team at work. We Do different Drills and save people during 1 disasters. On this team i will be able to travel the country with friends that I have known for a very long time. A few of my childhood friends made the team as well and we are going to have so much fun together. To get on the team I had to pass a physical and mental exam. They made me run for hours and tested my 3 chest with a machine while I ran as well. I also had to take many test. I had never actually taken the one with the ink that you see on TV but i did this time. It was weird doing it in real life but felt fun. I also had to take a math and reading test.  After receiving the news that we were all accepted we went out for drinks. My friend met up with a girl he likes but we will see how that goes. I cannot wait until our next trip. I think we may do China this time around."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Last week I got a promotion at work. It is on the new combat team at work. We Do different Drills and save people during 1 disasters. On this team i will be able to travel the country with friends that I have known for a very long time. A few of my childhood friends made the team as well and we are going to have so much fun together. To get on the team I had to pass a physical and mental exam. They made me run for hours and tested my 3 chest with a machine while I ran as well. I also had to take many test. I had never actually taken the one with the ink that you see on TV but i did this time. It was weird doing it in real life but felt fun. I also had to take a math and reading test.  After receiving the news that we were all accepted we went out for drinks. My friend met up with a girl he likes but we will see how that goes. I cannot wait until our next trip. I think we may do China this time around.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love my new job. I love the training and the people that I work with. I am so happy that I got the promotion and can travel the world with my friends.\n\n"
+            }
+        ],
+        "request_id": "811ea14d8ee3185d-EWR"
+    }
+}

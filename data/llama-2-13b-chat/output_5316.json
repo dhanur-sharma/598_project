@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I witnessed something funny today. It was a wedding. The wedding went fine, but one of the people involved has a mishap. They were standing between the bride and groom. But I assume their knees locked. They swayed and rocked quite a bit but they went out. It was funny to many. And they did it more then once. It was several times over, I believe 4 times total. It was funny while at the same time a bit shocking. I had never been to a wedding with such a show before. I felt sorry for them. Some ceremonies can be quite long. Most of the coworkers laughed also. We ended up talking about it later on in the night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I witnessed something funny today. It was a wedding. The wedding went fine, but one of the people involved has a mishap. They were standing between the bride and groom. But I assume their knees locked. They swayed and rocked quite a bit but they went out. It was funny to many. And they did it more then once. It was several times over, I believe 4 times total. It was funny while at the same time a bit shocking. I had never been to a wedding with such a show before. I felt sorry for them. Some ceremonies can be quite long. Most of the coworkers laughed also. We ended up talking about it later on in the night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2eebeea28c69-EWR"
+    }
+}

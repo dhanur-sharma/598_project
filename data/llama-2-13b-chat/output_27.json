@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The biggest thing to happen to me is finding out I am going to be a father. My wife and I had been trying to conceive a child for sometime now.  But we hadn't had much success.  However, we found out in march that we were pregnant!  I can't begin to describe the excitement that I felt when I found out we were having a baby.  I was so happy to find this news out as was my family!  Then a couple months later we found out we were having a girl!!  At first I was scared because being a guy I knew I didn't know all the ins and outs of what a girl goes through.  The one thing I knew for sure was that there was nobody that would love this girl more than I do!  I can't wait for her to get here.  My wife and I decided on a name right away.  We came to the decision rather easily without much fuss.  It's a name that we have liked for some time now.  My mom is also very excited about it, because my nieces from my sister are getting older now.  So it'll be nice for her to have a baby to care for.  Again this is probably the biggest moment of my life let alone the last 6 months."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The biggest thing to happen to me is finding out I am going to be a father. My wife and I had been trying to conceive a child for sometime now.  But we hadn't had much success.  However, we found out in march that we were pregnant!  I can't begin to describe the excitement that I felt when I found out we were having a baby.  I was so happy to find this news out as was my family!  Then a couple months later we found out we were having a girl!!  At first I was scared because being a guy I knew I didn't know all the ins and outs of what a girl goes through.  The one thing I knew for sure was that there was nobody that would love this girl more than I do!  I can't wait for her to get here.  My wife and I decided on a name right away.  We came to the decision rather easily without much fuss.  It's a name that we have liked for some time now.  My mom is also very excited about it, because my nieces from my sister are getting older now.  So it'll be nice for her to have a baby to care for.  Again this is probably the biggest moment of my life let alone the last 6 months.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can't wait until my daughter is born."
+            }
+        ],
+        "request_id": "811e89f27aca434a-EWR"
+    }
+}

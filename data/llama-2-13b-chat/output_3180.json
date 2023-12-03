@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I volunteer for a charity that feeds the homeless. One Saturday each month, we go to the charity's commissary, make 135 sandwiches and load the charity's truck with sandwiches, fruit, snacks, and bottles of water. Then we deliver the food directly to the homeless downtown. A few months ago, our Saturday fell on the day before Easter. I wanted to do something special for the homeless. I came up with a few suggestions that were roundly rejected by my very moody teenage daughter. Frustrated, I suggested that she come up with some ideas, then. She went up to her room with stomps in the place of footsteps. Thinking she would summarily forget the task, I decided to go with my first idea of making hard boiled eggs and dyeing them as a family. But soon, my daughter came down the stairs (much lighter this time). She wanted to put mini-chocolate bars in plastic eggs and deliver them with the sandwiches.  So we purchased 135 plastic eggs and chocolates and then my daughter, son, husband, and I assembled them to go with the food. The next day, as we made our deliveries, I watched my daughter's face with as much fascination as I watched the faces of our homeless friends as they opened their eggs. Delight and happiness lit up the faces of the homeless as they found their \"surprises.\"And as she watched, joyful tears slipped onto my daughter's cheeks. She tried not to let me or my husband see. But we did."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I volunteer for a charity that feeds the homeless. One Saturday each month, we go to the charity's commissary, make 135 sandwiches and load the charity's truck with sandwiches, fruit, snacks, and bottles of water. Then we deliver the food directly to the homeless downtown. A few months ago, our Saturday fell on the day before Easter. I wanted to do something special for the homeless. I came up with a few suggestions that were roundly rejected by my very moody teenage daughter. Frustrated, I suggested that she come up with some ideas, then. She went up to her room with stomps in the place of footsteps. Thinking she would summarily forget the task, I decided to go with my first idea of making hard boiled eggs and dyeing them as a family. But soon, my daughter came down the stairs (much lighter this time). She wanted to put mini-chocolate bars in plastic eggs and deliver them with the sandwiches.  So we purchased 135 plastic eggs and chocolates and then my daughter, son, husband, and I assembled them to go with the food. The next day, as we made our deliveries, I watched my daughter's face with as much fascination as I watched the faces of our homeless friends as they opened their eggs. Delight and happiness lit up the faces of the homeless as they found their \"surprises.\"And as she watched, joyful tears slipped onto my daughter's cheeks. She tried not to let me or my husband see. But we did.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And as we were leaving, one of the homeless men thanked my daughter for the surprise eggs. He said it was the best Easter present he had ever received. It was then that my daughter turned to me with tears streaming down her face and said, \"I'm so happy I could make someone so happy.\""
+            }
+        ],
+        "request_id": "811ec5aace3e43a1-EWR"
+    }
+}

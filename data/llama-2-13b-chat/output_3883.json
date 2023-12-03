@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife had been wanting to go on vacation for a while. I wanted to take her. However it's tough for us because we don't have a lot of money these days. I talked to her about it and told it would take a while to save. I did all I could and saved up a ton of money. It took a lot of extra work. I put forth a lot of extra effort in my job and put in extra hours. I also sold some things that I had laying around the house on Ebay. Finally I had enough money and I asked her where she wanted to go. She said she wanted to do a beach vacation. We looked at different beaches. We thought about Florida. Finally we decided on Orange Beach, Alabama. It was a great place. We had a ton of fun while we were there. She was very happy and thankfully for all that I had done for her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife had been wanting to go on vacation for a while. I wanted to take her. However it's tough for us because we don't have a lot of money these days. I talked to her about it and told it would take a while to save. I did all I could and saved up a ton of money. It took a lot of extra work. I put forth a lot of extra effort in my job and put in extra hours. I also sold some things that I had laying around the house on Ebay. Finally I had enough money and I asked her where she wanted to go. She said she wanted to do a beach vacation. We looked at different beaches. We thought about Florida. Finally we decided on Orange Beach, Alabama. It was a great place. We had a ton of fun while we were there. She was very happy and thankfully for all that I had done for her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy too. We had a great time."
+            }
+        ],
+        "request_id": "811ed321ea2b436e-EWR"
+    }
+}

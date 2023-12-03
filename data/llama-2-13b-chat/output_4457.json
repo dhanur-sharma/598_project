@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago while on a trip with my coworkers to our new work facility, we witnessed a horrible accident. A Fed-Ex truck drifted into the far right lane, slammed into a semi-trailer, careened to the other side of the highway, and flipped over in a loud crash in the center lane. Everyone screamed when it happened. Luckily for us, we were at least a half a mile or so back, so our vehicle wasn't involved in the accident, but a mid-sized sedan was completely crushed on impact. We were all shaking at what we just witnessed. Everyone, including the floor manager was in complete shock. We couldn't decide if we should stay put, or get out and try to help, but for certain, we all called for help on our phones. We were trapped behind  the wreckage, as there was no exit on this stretch of highway, and we certainly couldn't go backwards. So we stayed put and watched as everything unfolded in front of us. We couldn't hear what was going on, but we saw the people who were closer to the carnage, get out and try as much as they could to help. The Fed-Ex driver was dragged from his vehicle, and we say many people try to lift the carriage of the crashed truck off of the mid-sided sedan. The semi-trailer driver emerged from his vehicle, very shaken but otherwise seemingly unharmed.  The contents of the Fed-Ex truck were all over the highway, littering the stretch of road with tons of boxes.  Everyone was afraid for the people in the mid-sided sedan, and praying that, whoever they were, they were ok. It was one of the worst things I had ever witnessed, and I will never forget it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago while on a trip with my coworkers to our new work facility, we witnessed a horrible accident. A Fed-Ex truck drifted into the far right lane, slammed into a semi-trailer, careened to the other side of the highway, and flipped over in a loud crash in the center lane. Everyone screamed when it happened. Luckily for us, we were at least a half a mile or so back, so our vehicle wasn't involved in the accident, but a mid-sized sedan was completely crushed on impact. We were all shaking at what we just witnessed. Everyone, including the floor manager was in complete shock. We couldn't decide if we should stay put, or get out and try to help, but for certain, we all called for help on our phones. We were trapped behind  the wreckage, as there was no exit on this stretch of highway, and we certainly couldn't go backwards. So we stayed put and watched as everything unfolded in front of us. We couldn't hear what was going on, but we saw the people who were closer to the carnage, get out and try as much as they could to help. The Fed-Ex driver was dragged from his vehicle, and we say many people try to lift the carriage of the crashed truck off of the mid-sided sedan. The semi-trailer driver emerged from his vehicle, very shaken but otherwise seemingly unharmed.  The contents of the Fed-Ex truck were all over the highway, littering the stretch of road with tons of boxes.  Everyone was afraid for the people in the mid-sided sedan, and praying that, whoever they were, they were ok. It was one of the worst things I had ever witnessed, and I will never forget it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We were stuck for about 20 minutes before the authorities finally arrived and we were able to leave the area.\n\n"
+            }
+        ],
+        "request_id": "811bd743fa1319c3-EWR"
+    }
+}

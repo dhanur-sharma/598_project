@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I wasn't feeling well for a few weeks.  I just shrugged it off and went on with everyday life.  That is, until the pain became too much and was interferring with my life.  I went to emergency room and had a few tests ran.  They also did a sonogram on my leg to see if they could figure out what was causing the pain.  Once they got the results, I was informed that I had a blood clot in the main artery in my leg.  I was immediately admitted to the hospital and started on an i.v. to thin my blood.  I was confined to the bed for a week to make sure that the clot did not move.  The damage to my leg was severe.  It looked like major road construction had been done on my veins.  I also had to learn to walk on that leg again.  I couldn't do the normal things I had before this happened.  I had to be careful not to cut or bruise myself while on blood thinners.  This was not easy as I have a grandchild to take care of during the day.  It sucks learning to live differently that I had been, all because of a stupid blood clot.  I'm ready to be normal again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I wasn't feeling well for a few weeks.  I just shrugged it off and went on with everyday life.  That is, until the pain became too much and was interferring with my life.  I went to emergency room and had a few tests ran.  They also did a sonogram on my leg to see if they could figure out what was causing the pain.  Once they got the results, I was informed that I had a blood clot in the main artery in my leg.  I was immediately admitted to the hospital and started on an i.v. to thin my blood.  I was confined to the bed for a week to make sure that the clot did not move.  The damage to my leg was severe.  It looked like major road construction had been done on my veins.  I also had to learn to walk on that leg again.  I couldn't do the normal things I had before this happened.  I had to be careful not to cut or bruise myself while on blood thinners.  This was not easy as I have a grandchild to take care of during the day.  It sucks learning to live differently that I had been, all because of a stupid blood clot.  I'm ready to be normal again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am still on blood thinners and will be for the rest of my life.  I have to go for regular check ups with my doctor to make sure that the clot has not returned.\n\n"
+            }
+        ],
+        "request_id": "811bd0d7cafb43dc-EWR"
+    }
+}

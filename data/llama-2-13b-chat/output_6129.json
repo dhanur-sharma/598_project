@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago, my daughter and I rented a small truck and drove across the Mojave Desert into the Sonoran Desert together. We drove six hours to Phoenix. We arrived about 2pm, having stopped for luch at a small cafe in Blythe. This would be the last road trip I got to take with my eldest child, Mary. She was moving to Phoenix. I was driving her there to get here settled in. She had a small apartment ready to go downtown. My little girl was growing up. As we drove, all I could see was that little girl sitting her in car seat next to me all those years ago. She's all grown up now and ready to be out on her own. The whole time we talked. We talked of road trips past. Of the time when she skinned her knee at the truck stop in the middle of nowhere town California. We talked about the future. She was nervous as was I. It was so hard to see her go. But I did my job, and she was ready. She has a job lined up and a new life beginning one state over and 800 miles away."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago, my daughter and I rented a small truck and drove across the Mojave Desert into the Sonoran Desert together. We drove six hours to Phoenix. We arrived about 2pm, having stopped for luch at a small cafe in Blythe. This would be the last road trip I got to take with my eldest child, Mary. She was moving to Phoenix. I was driving her there to get here settled in. She had a small apartment ready to go downtown. My little girl was growing up. As we drove, all I could see was that little girl sitting her in car seat next to me all those years ago. She's all grown up now and ready to be out on her own. The whole time we talked. We talked of road trips past. Of the time when she skinned her knee at the truck stop in the middle of nowhere town California. We talked about the future. She was nervous as was I. It was so hard to see her go. But I did my job, and she was ready. She has a job lined up and a new life beginning one state over and 800 miles away.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so proud of her. I dropped her off at her new apartment, and we hugged and cried. I gave her a big hug and a kiss on the cheek and told her I loved her and that I would miss her. And then I drove back home, alone."
+            }
+        ],
+        "request_id": "811f3f7f8a7841c0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been two weeks since I almost killed someone at work.  I was backing up a forklift and listening to some tunes.  I almost crushed Tom against the loading dock wall.  I was really shaken up.  He screamed at me, and the boss screamed at me.  I didn't get fired.  But I found I couldn't work any more.  My hands shook so hard I could hardly drive.  I couldn't bring myself to look at Tom or even use the forklift.  So I quit.  I won't get unemployment, and I haven't been able to get another job.  I can't get a good reference from Dynaco.    Mary will have to go back to work while I watch the kids.  We are really hurting financially.  I don't know what else to do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been two weeks since I almost killed someone at work.  I was backing up a forklift and listening to some tunes.  I almost crushed Tom against the loading dock wall.  I was really shaken up.  He screamed at me, and the boss screamed at me.  I didn't get fired.  But I found I couldn't work any more.  My hands shook so hard I could hardly drive.  I couldn't bring myself to look at Tom or even use the forklift.  So I quit.  I won't get unemployment, and I haven't been able to get another job.  I can't get a good reference from Dynaco.    Mary will have to go back to work while I watch the kids.  We are really hurting financially.  I don't know what else to do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8b352943190e-EWR"
+    }
+}

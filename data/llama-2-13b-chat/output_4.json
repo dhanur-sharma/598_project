@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago I went to burning man. I was having a hard time in my life and felt like I needed a break. So I went to burning man. I had a lot of fun and met some friends. But now after it is done I'm having financial problems. My bills keep coming and I owe people. Including my new friends. Everyday bills come and new bills come in the mail. I always look at the caller ID now on my phone, just in case. if I owe them money I don't want to answer. Everyday it feels like I made a mistake by letting myself spend all my money. I have to work extra hours but they won't give me any. So the bills just keep piling up and I need to search around for a second job. I barely have enough time for the first one. I really should have thought about what would have happened in advance."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago I went to burning man. I was having a hard time in my life and felt like I needed a break. So I went to burning man. I had a lot of fun and met some friends. But now after it is done I'm having financial problems. My bills keep coming and I owe people. Including my new friends. Everyday bills come and new bills come in the mail. I always look at the caller ID now on my phone, just in case. if I owe them money I don't want to answer. Everyday it feels like I made a mistake by letting myself spend all my money. I have to work extra hours but they won't give me any. So the bills just keep piling up and I need to search around for a second job. I barely have enough time for the first one. I really should have thought about what would have happened in advance.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811b7cbf19141a0b-EWR"
+    }
+}

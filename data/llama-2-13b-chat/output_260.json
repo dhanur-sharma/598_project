@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago, we went to see a comedian at a rare club that he performs in. The food at the place was terrible. The comedian was at the top of his game that night. He told the classics and the beginning of his set to get the crowd into a good mood. Everybody laughed at the beginning jokes. He then went onto his new set. It was very funny and everybody loved the set. I got my picture taken with him after the show. He told a joke that wasn't on the set. I thought it was good but needed improvement. I hope to see him perform again. It was a blast. It was very funny. I will see him on a show again. It will be on the television."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago, we went to see a comedian at a rare club that he performs in. The food at the place was terrible. The comedian was at the top of his game that night. He told the classics and the beginning of his set to get the crowd into a good mood. Everybody laughed at the beginning jokes. He then went onto his new set. It was very funny and everybody loved the set. I got my picture taken with him after the show. He told a joke that wasn't on the set. I thought it was good but needed improvement. I hope to see him perform again. It was a blast. It was very funny. I will see him on a show again. It will be on the television.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8ea2ae0a8ce6-EWR"
+    }
+}

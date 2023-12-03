@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went on vacation with my family. We went to Point Magu in Malibu to go camping for three days.  When we first arrived, we set up our tent and got our food ready for cooking.  Once our tent was set up, we laid out out sleeping bags.  We then started cooking our lunch for the day.  We started out fire pit and prepped our food. I then cooked hot dogs and french fries for my family.  We ate on the picnic table that was at our camp site.  The food was delicious and then we got ready to go to the beach.  We walked down to the beach and frolicked in the waves.  We then sat on the sand and soaked up the sun.  After the beach, we walked back to our camp site and started to prep for dinner. We had hamburgers and salad for dinner and made s'more for dessert.  We loved cooking over the fire pit, because we were connected with the outside world.  We went to sleep to the sounds of nature. When we woke up, we were completely refreshed and recharged."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went on vacation with my family. We went to Point Magu in Malibu to go camping for three days.  When we first arrived, we set up our tent and got our food ready for cooking.  Once our tent was set up, we laid out out sleeping bags.  We then started cooking our lunch for the day.  We started out fire pit and prepped our food. I then cooked hot dogs and french fries for my family.  We ate on the picnic table that was at our camp site.  The food was delicious and then we got ready to go to the beach.  We walked down to the beach and frolicked in the waves.  We then sat on the sand and soaked up the sun.  After the beach, we walked back to our camp site and started to prep for dinner. We had hamburgers and salad for dinner and made s'more for dessert.  We loved cooking over the fire pit, because we were connected with the outside world.  We went to sleep to the sounds of nature. When we woke up, we were completely refreshed and recharged.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a wonderful vacation with my family and I would do it again in a heartbeat.\n\n"
+            }
+        ],
+        "request_id": "811e9f66ed664319-EWR"
+    }
+}

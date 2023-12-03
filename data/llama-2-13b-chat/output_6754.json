@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I purchased a house I knew would need some work. I was anticipating spending most of the proceeds from the sale of my older home on the fixups. The worst part was the carpeting. It was old, nasty brown and green shag. Horrible. Right after closing I went over to the house with my sisters and parents. I was feeling discouraged about all of the work left to do. I wanted to get started right away. My sister and I started ripping up a bit of the carpet. To my astonishment we found that under the living room carpet was unbelievably gorgeous hardwood flooring. It'd been perfectly preserved for over 40 years. The same was in the dining room, bedroom, and hallways. The discovery will save me thousands of dollars on renovation costs and free us up to tackle other projects. It's much nicer than what I could afford. It was such an unexpected treat and made me so happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I purchased a house I knew would need some work. I was anticipating spending most of the proceeds from the sale of my older home on the fixups. The worst part was the carpeting. It was old, nasty brown and green shag. Horrible. Right after closing I went over to the house with my sisters and parents. I was feeling discouraged about all of the work left to do. I wanted to get started right away. My sister and I started ripping up a bit of the carpet. To my astonishment we found that under the living room carpet was unbelievably gorgeous hardwood flooring. It'd been perfectly preserved for over 40 years. The same was in the dining room, bedroom, and hallways. The discovery will save me thousands of dollars on renovation costs and free us up to tackle other projects. It's much nicer than what I could afford. It was such an unexpected treat and made me so happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I hit the jackpot.\n\n"
+            }
+        ],
+        "request_id": "811f4c1c2eff4364-EWR"
+    }
+}

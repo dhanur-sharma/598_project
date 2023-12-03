@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was lost in every way. I had just gotten out of an abusive relationship. I had a dead end job. I felt so isolated in this city. I had moved here for this now terminated relationship. I spent a lot of time researching various topics to give my life direction. I had searched for the meaning of life. I had pondered my life's purpose. I roamed libraries and new age shops for hours. I finally found a book that really spoke to me about 6 weeks ago. It told me to let go of all of my previous beliefs and just celebrate me. It told me to be my own God and forge my own path. I should no longer succumb to the pressure of celebrating holidays that virtually mean nothing, but have been marketed endlessly. It truly set me free and I now only know that I am here for a short period of time, so I better make that time count for myself. This book changed my life for the better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was lost in every way. I had just gotten out of an abusive relationship. I had a dead end job. I felt so isolated in this city. I had moved here for this now terminated relationship. I spent a lot of time researching various topics to give my life direction. I had searched for the meaning of life. I had pondered my life's purpose. I roamed libraries and new age shops for hours. I finally found a book that really spoke to me about 6 weeks ago. It told me to let go of all of my previous beliefs and just celebrate me. It told me to be my own God and forge my own path. I should no longer succumb to the pressure of celebrating holidays that virtually mean nothing, but have been marketed endlessly. It truly set me free and I now only know that I am here for a short period of time, so I better make that time count for myself. This book changed my life for the better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3973c1ac40c-EWR"
+    }
+}

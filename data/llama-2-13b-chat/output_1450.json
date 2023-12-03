@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best friend of 20 years got married about 2 months ago. Leading up to the wedding, he was noticably stressed the closer that it got but myself and the 2 other groomsmen helped to make it the best experience possible. We've all known eachother for a long time. When we got there we caught up with the grooms parents and other family members and took several pictures. The ceremony was beautiful, although it was very hot outside that day. So hot by the way, that the groom blacked out and lost his footing during the exchange of vows! He winded up being ok and the incident only lasted about 3 seconds, but he continued right on. The ceremony was set outside was right in front of a gorgeous lake but it was easily 102\u00b0 that day. I was paired with the grooms sister, so we were introduced together when we walked into the reception hall. That was a lot of fun. During the reception, the fun really began. There was plenty of food, music, and drinks. Our table of the groomsmen and bridemaids as well as the parents table got served food first. We had salmon and filet mignon with asparagus, mashed potatoes, and a garlic aioli sauce. The night ended around 11:30pm. Noone wanted to leave, as we were all having a great time. Everyone was very happy with the way the wedding turned out, especially my best friend, the groom."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best friend of 20 years got married about 2 months ago. Leading up to the wedding, he was noticably stressed the closer that it got but myself and the 2 other groomsmen helped to make it the best experience possible. We've all known eachother for a long time. When we got there we caught up with the grooms parents and other family members and took several pictures. The ceremony was beautiful, although it was very hot outside that day. So hot by the way, that the groom blacked out and lost his footing during the exchange of vows! He winded up being ok and the incident only lasted about 3 seconds, but he continued right on. The ceremony was set outside was right in front of a gorgeous lake but it was easily 102\u00b0 that day. I was paired with the grooms sister, so we were introduced together when we walked into the reception hall. That was a lot of fun. During the reception, the fun really began. There was plenty of food, music, and drinks. Our table of the groomsmen and bridemaids as well as the parents table got served food first. We had salmon and filet mignon with asparagus, mashed potatoes, and a garlic aioli sauce. The night ended around 11:30pm. Noone wanted to leave, as we were all having a great time. Everyone was very happy with the way the wedding turned out, especially my best friend, the groom.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea4fc586b41a1-EWR"
+    }
+}

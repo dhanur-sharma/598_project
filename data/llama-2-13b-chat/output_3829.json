@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's a bit of a weird thing, but I have a brother from my dad's previous marriage. I never knew him, never knew anything about him, and just never had a chance to know him. This isn't a good feeling. It felt as though I was robbed, by my own father. He never once mentioned that he had a son, let alone a son that was older than I was. I always thought that I was the oldest son. My father probably never intended to hurt me this way, but I can't help but feel so angry at him. My brother and I have so much in common. We have similar hobbies, like the same foods, and even watch the same television shows. I have made an effort to hang out with my brother at least once a week. It can be difficult, since we both work. We try to get together once a week to watch a certain show we like, and sometimes we even will order a pizza because we like the same toppings. I love my brother so much, and I feel so much anger towards my dad. I don't know if I can even forgive him. I am now looking into getting therapy for this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's a bit of a weird thing, but I have a brother from my dad's previous marriage. I never knew him, never knew anything about him, and just never had a chance to know him. This isn't a good feeling. It felt as though I was robbed, by my own father. He never once mentioned that he had a son, let alone a son that was older than I was. I always thought that I was the oldest son. My father probably never intended to hurt me this way, but I can't help but feel so angry at him. My brother and I have so much in common. We have similar hobbies, like the same foods, and even watch the same television shows. I have made an effort to hang out with my brother at least once a week. It can be difficult, since we both work. We try to get together once a week to watch a certain show we like, and sometimes we even will order a pizza because we like the same toppings. I love my brother so much, and I feel so much anger towards my dad. I don't know if I can even forgive him. I am now looking into getting therapy for this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just don't know how to deal with this situation."
+            }
+        ],
+        "request_id": "811ed1f4db6241f9-EWR"
+    }
+}

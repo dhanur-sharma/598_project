@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last year my mother did a home fecal test. A few days later we went to see her doctor to find out the result. It was positive for blood. I told her doctor that a few days prior to doing the test, my mother had gone to her dentist for a cleaning. Her gums bled during the cleaning. I asked her family doctor if that could cause a false positive in her stool test. Her doctor said yes. So my mother had to wait a month and re-do the test. For that entire month we were worried. Could it be cancer? Would she have to do that awful colonoscopy? Surgery? All month a dark cloud hovered over our heads. Finally the day arrived for the repeat test. My mother brought the kit home from the lab. She did it and brought it back. Then we waited. No call from the doctor for a few days. We couldn't wait anymore so we went over to get the report. It was negative! So happy! The cloud lifted and we smiled for the first time in a month."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last year my mother did a home fecal test. A few days later we went to see her doctor to find out the result. It was positive for blood. I told her doctor that a few days prior to doing the test, my mother had gone to her dentist for a cleaning. Her gums bled during the cleaning. I asked her family doctor if that could cause a false positive in her stool test. Her doctor said yes. So my mother had to wait a month and re-do the test. For that entire month we were worried. Could it be cancer? Would she have to do that awful colonoscopy? Surgery? All month a dark cloud hovered over our heads. Finally the day arrived for the repeat test. My mother brought the kit home from the lab. She did it and brought it back. Then we waited. No call from the doctor for a few days. We couldn't wait anymore so we went over to get the report. It was negative! So happy! The cloud lifted and we smiled for the first time in a month.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc015f8a8cbf-EWR"
+    }
+}

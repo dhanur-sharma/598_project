@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June I had to have my dog put to sleep. Her name was Ginger. She was twelve and a half years old. This was a decision I had been dreading for weeks. For a basset hound, Ginger was usually rather spry. Around March of this year she began to spend most of her either in her bed or curled up next to me on the couch. I attributed her behavior to old age, and the vet agreed. He could find no illness or injury. Over the coming weeks she became progressively weaker until she was unable to walk. Her breathing was increasingly labored. I delayed the decision for as long as I could. On June 22, I carried her, bed and all, to the car and drove her to the vet.  He agreed that she would not recover and felt that ending her suffering was the correct decision. Throughout, Ginger was as alert and affectionate as ever. This made everything more difficult for me. I was certain that I was doing the right thing, but sometimes the right thing really sucks. Ginger was a playful, smart, and affectionate dog. She was a wonderful companion and definitely a member of the family. I will miss her greatly for a long time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June I had to have my dog put to sleep. Her name was Ginger. She was twelve and a half years old. This was a decision I had been dreading for weeks. For a basset hound, Ginger was usually rather spry. Around March of this year she began to spend most of her either in her bed or curled up next to me on the couch. I attributed her behavior to old age, and the vet agreed. He could find no illness or injury. Over the coming weeks she became progressively weaker until she was unable to walk. Her breathing was increasingly labored. I delayed the decision for as long as I could. On June 22, I carried her, bed and all, to the car and drove her to the vet.  He agreed that she would not recover and felt that ending her suffering was the correct decision. Throughout, Ginger was as alert and affectionate as ever. This made everything more difficult for me. I was certain that I was doing the right thing, but sometimes the right thing really sucks. Ginger was a playful, smart, and affectionate dog. She was a wonderful companion and definitely a member of the family. I will miss her greatly for a long time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " \n\n"
+            }
+        ],
+        "request_id": "811bd04acb5e4240-EWR"
+    }
+}

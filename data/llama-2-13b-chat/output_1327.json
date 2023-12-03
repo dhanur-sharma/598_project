@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After my shift at work, I decided to go out for a drink close to home. It was late so my options were limited. I remembered there was a hotel bar that was open late, so I decided to check it out. I sat at the bar and ordered a draft beer and a shot of tequila. An attractive woman, who was sitting a few seats over, started a conversation with me. Turns out she had very similar interests as me and we had many things in common. We flirted quiet a bit, until it was time to leave because the bar was closing. She invited me up to her room to have a few more cocktails, which I gladly accepted. We had an amazing night, staying up until morning to watch the sunrise. That morning she asked me to stay over again, and I did. I ended up staying the entire week. After the week had passed, she had to leave and go back home. She had asked me if I would like to move away with her, and I seriously considered it. We are still talking to this day, although she lives on the other side of the country. I am still considering moving out to her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After my shift at work, I decided to go out for a drink close to home. It was late so my options were limited. I remembered there was a hotel bar that was open late, so I decided to check it out. I sat at the bar and ordered a draft beer and a shot of tequila. An attractive woman, who was sitting a few seats over, started a conversation with me. Turns out she had very similar interests as me and we had many things in common. We flirted quiet a bit, until it was time to leave because the bar was closing. She invited me up to her room to have a few more cocktails, which I gladly accepted. We had an amazing night, staying up until morning to watch the sunrise. That morning she asked me to stay over again, and I did. I ended up staying the entire week. After the week had passed, she had to leave and go back home. She had asked me if I would like to move away with her, and I seriously considered it. We are still talking to this day, although she lives on the other side of the country. I am still considering moving out to her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea2a2ba1842bb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't stop thinking about that wonderful trip two months ago. We stayed at a bed and breakfast in South Carolina for about 3 days then went to visit cousin Merl in Georgia for a few days. The bed and breakfast was beautiful and they were very hospitable. It was right on the beach. Living in California for all my life, I've never seen the sunrise over the ocean. The Atlantic was just beautiful. The innkeepers made mom a special birthday cake and dinner which was so lovely. They really showed us some great hospitality. Cousin Merl's was so much fun too. We got to catch up and see all of our southern brethren. Cousin Merl has a zipline in his back yard. It is awesome! Cousin Merl's place is so gorgeious nestled up in the hills. It was so green and peaceful. You don't hear any cars going or airplanes. Until he starts up his dune buggy of course! That was fun too. I can't wait to go back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't stop thinking about that wonderful trip two months ago. We stayed at a bed and breakfast in South Carolina for about 3 days then went to visit cousin Merl in Georgia for a few days. The bed and breakfast was beautiful and they were very hospitable. It was right on the beach. Living in California for all my life, I've never seen the sunrise over the ocean. The Atlantic was just beautiful. The innkeepers made mom a special birthday cake and dinner which was so lovely. They really showed us some great hospitality. Cousin Merl's was so much fun too. We got to catch up and see all of our southern brethren. Cousin Merl has a zipline in his back yard. It is awesome! Cousin Merl's place is so gorgeious nestled up in the hills. It was so green and peaceful. You don't hear any cars going or airplanes. Until he starts up his dune buggy of course! That was fun too. I can't wait to go back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e8a532dc58c4b-EWR"
+    }
+}

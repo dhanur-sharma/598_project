@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I drank a little too much at the bar one night and I met these two girls at the bar. I am what you might say a usual at this bar. I tend to go there often after work. This particular night these two girls were very chatty and I started to drink with them. I don't remember much but what I do remember is waking up in the morning next to the large friend. I was hoping I would be taking the prettier one to my place but that was not the case. I think I was drinking gin, but I forget, the night was a blur. Anyway I woke up next to the girl and I felt an instant regret rush through me. I didn't even know their name. But that didn't matter and so I asked this person to leave and that was that. After she left, I laughed for a couple of minutes then I cooked the largest omelette to fill up the dark hole of regret inside me. Then I started my day. A couple of days after that I told a couple of my coworkers and it was a funny story that I told for about a week and that was that. The funny thing is I saw that same girl in the bar a week or two ago. I didn't talk to her but we both smiled at each other in acknowledgement."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I drank a little too much at the bar one night and I met these two girls at the bar. I am what you might say a usual at this bar. I tend to go there often after work. This particular night these two girls were very chatty and I started to drink with them. I don't remember much but what I do remember is waking up in the morning next to the large friend. I was hoping I would be taking the prettier one to my place but that was not the case. I think I was drinking gin, but I forget, the night was a blur. Anyway I woke up next to the girl and I felt an instant regret rush through me. I didn't even know their name. But that didn't matter and so I asked this person to leave and that was that. After she left, I laughed for a couple of minutes then I cooked the largest omelette to fill up the dark hole of regret inside me. Then I started my day. A couple of days after that I told a couple of my coworkers and it was a funny story that I told for about a week and that was that. The funny thing is I saw that same girl in the bar a week or two ago. I didn't talk to her but we both smiled at each other in acknowledgement.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think she was trying to say hi, but I didn't want to bring it up or anything.\n\n"
+            }
+        ],
+        "request_id": "811f482bde174239-EWR"
+    }
+}

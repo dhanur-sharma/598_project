@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm still so angry at mom for not admitting she's wrong!  I finally got the courage to tell her how her hitting me when I was younger really affected me and she still feels like she's justified in it.  I mean, WHO HITS HER KID??!!  Especially when it was for something so dumb like not cleaning my room.  Yea I know I should have just cleaned it, but it's not THAT serious.  I just cant get past it.  I want mom to say at least she's sorry for it and then maybe we can move on.  I can't forgive it right now.  I want her to acknowledge she did something wrong, for once.  She never admits anything.  She thinks she's right about EVERYTHING!  UGH, so frustrating.  Sometimes I just hate her. Why do parent's do that.  Just say, oops I made a big mistake and it wont happen again.  I want our relationship to go back to when we were happy and talking.  I can't even look at her these past 2 weeks.  Ok, that's all for now, I'll type more later."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm still so angry at mom for not admitting she's wrong!  I finally got the courage to tell her how her hitting me when I was younger really affected me and she still feels like she's justified in it.  I mean, WHO HITS HER KID??!!  Especially when it was for something so dumb like not cleaning my room.  Yea I know I should have just cleaned it, but it's not THAT serious.  I just cant get past it.  I want mom to say at least she's sorry for it and then maybe we can move on.  I can't forgive it right now.  I want her to acknowledge she did something wrong, for once.  She never admits anything.  She thinks she's right about EVERYTHING!  UGH, so frustrating.  Sometimes I just hate her. Why do parent's do that.  Just say, oops I made a big mistake and it wont happen again.  I want our relationship to go back to when we were happy and talking.  I can't even look at her these past 2 weeks.  Ok, that's all for now, I'll type more later.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecf64ccd28cb9-EWR"
+    }
+}

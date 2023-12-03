@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother has been sickly for six years.  But i never felt like she was because she was always smiling.  She was always good at hiding pain.  My father was never that nice of a man.  He was always more interested in drinking and partying.  Rather than staying home and being a family man.  But she was always there for me.  Even if it inconvenienced her. She would still help if she could.  So i decided to care for her until six years after i started to watch over her.  I went to a friends house to hang out and spill tea. That's when i got a phone call from the hospital.  while i was gone my mother had a heart attack.  i rushed to the hospital to only get there too late... she had already past away.  I couldn't help but wonder if i was there, if i could have helped her and she'd still be here with me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother has been sickly for six years.  But i never felt like she was because she was always smiling.  She was always good at hiding pain.  My father was never that nice of a man.  He was always more interested in drinking and partying.  Rather than staying home and being a family man.  But she was always there for me.  Even if it inconvenienced her. She would still help if she could.  So i decided to care for her until six years after i started to watch over her.  I went to a friends house to hang out and spill tea. That's when i got a phone call from the hospital.  while i was gone my mother had a heart attack.  i rushed to the hospital to only get there too late... she had already past away.  I couldn't help but wonder if i was there, if i could have helped her and she'd still be here with me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I know she'd still be smiling, but it's just the pain of losing her. \n\n"
+            }
+        ],
+        "request_id": "811eb0ea7e115e60-EWR"
+    }
+}

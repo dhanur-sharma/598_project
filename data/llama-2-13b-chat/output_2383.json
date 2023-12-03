@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May of 2019 I flew to Holland to visit my family. During that time I was able to celebrate my parent's 50th wedding anniversary with them. Through some external circumstances I had not been able to go back to Holland for about 4 years. It was really nice to see everyone again. The day of the event our immediate family came together. First we went for a short hike in a nearby forest. Then we had dinner at a pancake house. After dinner we went back to my parents house for coffee, tea and dessert. As a gift I had digitally restored some pictures of my parents of when they were younger. I had put them together in a picture collage with a frame. My mom especially was very happy about this gift. She kept showing it to everyone that came over. This was the first time in years I was able to celebrate a wedding anniversary with my parents. Not everyone makes it to their 50th wedding anniversary. Being able to experience this was special to me and my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May of 2019 I flew to Holland to visit my family. During that time I was able to celebrate my parent's 50th wedding anniversary with them. Through some external circumstances I had not been able to go back to Holland for about 4 years. It was really nice to see everyone again. The day of the event our immediate family came together. First we went for a short hike in a nearby forest. Then we had dinner at a pancake house. After dinner we went back to my parents house for coffee, tea and dessert. As a gift I had digitally restored some pictures of my parents of when they were younger. I had put them together in a picture collage with a frame. My mom especially was very happy about this gift. She kept showing it to everyone that came over. This was the first time in years I was able to celebrate a wedding anniversary with my parents. Not everyone makes it to their 50th wedding anniversary. Being able to experience this was special to me and my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb59799a4c43e-EWR"
+    }
+}

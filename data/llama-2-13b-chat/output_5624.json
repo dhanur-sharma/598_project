@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six months ago I went back to school. I decided I wanted to change careers and needed to advance me education. It was a little nerve wracking to apply for college again. Getting all the paperwork and transcripts together is a tedious process. The staff at the school I wanted to attend was very helpful and made the process as easy as possible. They seemed happy to help and enthusiastic on my behalf. When I started classes  I quickly got into the swing of things and started enjoying my studies.   My teachers were helpful. I was not used to the amount of computer work but with their help I caught up to the younger students very quickly. Once I got into the swing of things the experience really took off. I enjoyed the assignments and really felt like I was doing something good for myself. I started looking forward to the next class I would take. It seemed like finishing my degree was a feasible goal for the first time in years. It was not easy to balance the school work with all my other responsibilities but it was the start of a very satisfying experience.  I feel good about my future and I know I made the right decision."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six months ago I went back to school. I decided I wanted to change careers and needed to advance me education. It was a little nerve wracking to apply for college again. Getting all the paperwork and transcripts together is a tedious process. The staff at the school I wanted to attend was very helpful and made the process as easy as possible. They seemed happy to help and enthusiastic on my behalf. When I started classes  I quickly got into the swing of things and started enjoying my studies.   My teachers were helpful. I was not used to the amount of computer work but with their help I caught up to the younger students very quickly. Once I got into the swing of things the experience really took off. I enjoyed the assignments and really felt like I was doing something good for myself. I started looking forward to the next class I would take. It seemed like finishing my degree was a feasible goal for the first time in years. It was not easy to balance the school work with all my other responsibilities but it was the start of a very satisfying experience.  I feel good about my future and I know I made the right decision.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f35273ee1c47f-EWR"
+    }
+}

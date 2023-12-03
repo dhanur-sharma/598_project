@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe I waited so long to leave my old job. I really, really hated it there. Every day was torture, and I was miserable. I had a 45-minute commute each way, and I had to work at a backwards Protestant college, which had me hiding beliefs if not telling outright lies to survive. I somewhat hid that I was Catholic, and I hid that I am liberal on a lot of economic issues. I had to not confront racism and bigotry. Students wrote papers about how Frederick Douglas was an agitator, and the LGBTQ+ community was vilified. I couldn't risk losing that job and not feed my family. I put all my energy in getting another job, and it was a struggle to care about something again. I did get out and started to be me the moment I got the offer. Now I am making a lot more money and have a better future. I cut my gas costs to a third of what it was. I have more than an extra hour now that my commute is shorter. I can even go home for lunch. I really feel I have left that place behind. I hardly even have any contact with anyone from that area any more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe I waited so long to leave my old job. I really, really hated it there. Every day was torture, and I was miserable. I had a 45-minute commute each way, and I had to work at a backwards Protestant college, which had me hiding beliefs if not telling outright lies to survive. I somewhat hid that I was Catholic, and I hid that I am liberal on a lot of economic issues. I had to not confront racism and bigotry. Students wrote papers about how Frederick Douglas was an agitator, and the LGBTQ+ community was vilified. I couldn't risk losing that job and not feed my family. I put all my energy in getting another job, and it was a struggle to care about something again. I did get out and started to be me the moment I got the offer. Now I am making a lot more money and have a better future. I cut my gas costs to a third of what it was. I have more than an extra hour now that my commute is shorter. I can even go home for lunch. I really feel I have left that place behind. I hardly even have any contact with anyone from that area any more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy now.\n\n"
+            }
+        ],
+        "request_id": "811ebac8af47426d-EWR"
+    }
+}

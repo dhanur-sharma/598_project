@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of years ago, my dog was struggling with congestive heart failure. He was hanging on for nine long months. He cried everyday. I made sure to hug him everyday. I made sure to pet him every hour. It eventually got to the point that he was in too much pain. We had to put the old dog down. That was the saddest day of my life. I remember hugging the dog for the last time. I remember the good times I had with the dog. I remember playing catch in the park. I remember him chasing cat away at night. I remember him barking at the moon and at other dogs. He always loved to eat food. I gave him steak before. I will always remember the good boy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of years ago, my dog was struggling with congestive heart failure. He was hanging on for nine long months. He cried everyday. I made sure to hug him everyday. I made sure to pet him every hour. It eventually got to the point that he was in too much pain. We had to put the old dog down. That was the saddest day of my life. I remember hugging the dog for the last time. I remember the good times I had with the dog. I remember playing catch in the park. I remember him chasing cat away at night. I remember him barking at the moon and at other dogs. He always loved to eat food. I gave him steak before. I will always remember the good boy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will always miss him. I will always love him.\n\n"
+            }
+        ],
+        "request_id": "811f485a5e0cc457-EWR"
+    }
+}

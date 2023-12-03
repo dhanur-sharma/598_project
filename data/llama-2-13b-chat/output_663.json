@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's very rare for my to be able to spend time with my friends, and there are many of them. I have a very crazy schedule, and I know my friends' schedules are just as crazy. So when one close friend decided to have a party and announced it on Facebook group chat, we were all pretty excited at the prospect of us all being able to get together. The initial responses weren't immediate yes answers because everyone had to check their schedules. After a few days, several friends had replied they could attend. The party was on a weekend, which meant I likely had to work. However, I was able to get someone to trade shifts with me. I'm pretty sure almost everyone was able to go who were invited. There were at least 30 of us there, and it was an all-night event. We had a cook out with the normal, expected grill foods. Everyone brought some kind of extra dish as well. The friend who hosted the event has a pool. Since it was summer time, this was fantastic because I never get a chance to swim. This was probably the most memorable event for me. Swimming in the moonlight with patio lights twinkling above and fantastic company and music was a perfect way to have fun and relax. I'm sure most of us who attended kind of wished we would have taken the next night off as well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's very rare for my to be able to spend time with my friends, and there are many of them. I have a very crazy schedule, and I know my friends' schedules are just as crazy. So when one close friend decided to have a party and announced it on Facebook group chat, we were all pretty excited at the prospect of us all being able to get together. The initial responses weren't immediate yes answers because everyone had to check their schedules. After a few days, several friends had replied they could attend. The party was on a weekend, which meant I likely had to work. However, I was able to get someone to trade shifts with me. I'm pretty sure almost everyone was able to go who were invited. There were at least 30 of us there, and it was an all-night event. We had a cook out with the normal, expected grill foods. Everyone brought some kind of extra dish as well. The friend who hosted the event has a pool. Since it was summer time, this was fantastic because I never get a chance to swim. This was probably the most memorable event for me. Swimming in the moonlight with patio lights twinkling above and fantastic company and music was a perfect way to have fun and relax. I'm sure most of us who attended kind of wished we would have taken the next night off as well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were all so tired the next day, but we were all still in high spirits.\n\n"
+            }
+        ],
+        "request_id": "811e9605ab092360-EWR"
+    }
+}

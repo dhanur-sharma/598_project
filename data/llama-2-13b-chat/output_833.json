@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was feeling a sharp pain in my back and side several months ago. I had never experienced something like that before. I was terrified that something was wrong. I wanted to try sleeping through it but the pain only got worse. I ended up getting a ride to the emergency room. The wait was extremely long and frustrating. I was sitting in a chair in the waiting room and had nothing else to do. I ended up finally meeting with a nursing assistant which made me feel slightly relieved. After that. there was another long and frustrating wait. A nurse arrived and ordered some tests. I watched some TV and then had a CT scan. While waiting for the results, I was very worried and could not stand the anticipation. The doctor arrived and told me she was consulting with the radiologist which scared me. I was unaware that that was just standard procedure. She told me that I had kidney stones and she would give me medication to shrink it. I felt so much better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was feeling a sharp pain in my back and side several months ago. I had never experienced something like that before. I was terrified that something was wrong. I wanted to try sleeping through it but the pain only got worse. I ended up getting a ride to the emergency room. The wait was extremely long and frustrating. I was sitting in a chair in the waiting room and had nothing else to do. I ended up finally meeting with a nursing assistant which made me feel slightly relieved. After that. there was another long and frustrating wait. A nurse arrived and ordered some tests. I watched some TV and then had a CT scan. While waiting for the results, I was very worried and could not stand the anticipation. The doctor arrived and told me she was consulting with the radiologist which scared me. I was unaware that that was just standard procedure. She told me that I had kidney stones and she would give me medication to shrink it. I felt so much better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I went home and was relieved to be able to rest. I was so grateful to have access to medical care.\n\n"
+            }
+        ],
+        "request_id": "811e98ffd9744286-EWR"
+    }
+}

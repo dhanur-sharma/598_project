@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago I was in California working on a project for a new building. It was going to be the project that sent me into mega bucks. I am sitting at my desk staring at a blank screen because my ideas had ran out for new buildings weeks ago and I was drawing a blank. My cell rings and it's my mother. I can't stand her but I need the break so I answer. She tells me my grandfather has passed away and I need to come home. I clearly couldn't leave in the middle of this project. It was my job or my grandfathers funeral. I wanted to tell that boss where to shove it, but I stayed. It was the worst decision I have ever made. Yes, I kept my job, but at what cost. My family refuses to talk to me. My grandfather is dead. I am here alone with my money. I want to kill myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago I was in California working on a project for a new building. It was going to be the project that sent me into mega bucks. I am sitting at my desk staring at a blank screen because my ideas had ran out for new buildings weeks ago and I was drawing a blank. My cell rings and it's my mother. I can't stand her but I need the break so I answer. She tells me my grandfather has passed away and I need to come home. I clearly couldn't leave in the middle of this project. It was my job or my grandfathers funeral. I wanted to tell that boss where to shove it, but I stayed. It was the worst decision I have ever made. Yes, I kept my job, but at what cost. My family refuses to talk to me. My grandfather is dead. I am here alone with my money. I want to kill myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f33aa4e5043fa-EWR"
+    }
+}

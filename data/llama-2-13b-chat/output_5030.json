@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Travelling to another state is always a good time. Or at least, for me it always is. I haven't been to every state, but I have been to all the important ones. I've been to California, New York, Texas, even Nevada. I am originally from Florida, so travelling to all those faraway places was extremely exciting. The state that I was visiting this time though, is a state you might not expect. I was visiting Arizona. Now, I know that Arizona has the grand canyon, but seemingly, other than that, there really isn't anything to do. This couldn't be further from the truth. Phoenix is the 3rd biggest city in the country. It is amazing down there in Phoenix, though scorching in temperature. There's also this extremely cool city called Sedona, which has so many colorful and large rocks. Another great city is Flagstaff. It's a college town with a lovely atmosphere. Overall, I loved my trip to Arizona."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Travelling to another state is always a good time. Or at least, for me it always is. I haven't been to every state, but I have been to all the important ones. I've been to California, New York, Texas, even Nevada. I am originally from Florida, so travelling to all those faraway places was extremely exciting. The state that I was visiting this time though, is a state you might not expect. I was visiting Arizona. Now, I know that Arizona has the grand canyon, but seemingly, other than that, there really isn't anything to do. This couldn't be further from the truth. Phoenix is the 3rd biggest city in the country. It is amazing down there in Phoenix, though scorching in temperature. There's also this extremely cool city called Sedona, which has so many colorful and large rocks. Another great city is Flagstaff. It's a college town with a lovely atmosphere. Overall, I loved my trip to Arizona.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be2f0eb368c29-EWR"
+    }
+}

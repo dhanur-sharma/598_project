@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father passed away two months ago.  He was 70 years old.  He was diagnosed with lung cancer only seven months ago.  His first symptoms were difficulties in memory and reading.  An MRI showed a tumor in his brain.  Further investigation revealed that the cancer had originated in his lungs.  My dad and I were extremely close, and this news affected me deeply.  We were both shocked by it all, and both had trouble coming to grips with it.  I spent just about every day with him after work, helping him get to appointments and running errands for him.  When it became clear that he was terminal, him and I spent the rest of his day settling his affairs and preparing for the end.  Looking back on what happened, what really sticks out the most was how quickly everything had happened.  Before his diagnosis, Dad was in excellent health.  To see him go from that to death in 7 months will always be a shock to me.  It gave me my first real brush with mortality.  I have, since then, given maybe too much thought to the impermanence of life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father passed away two months ago.  He was 70 years old.  He was diagnosed with lung cancer only seven months ago.  His first symptoms were difficulties in memory and reading.  An MRI showed a tumor in his brain.  Further investigation revealed that the cancer had originated in his lungs.  My dad and I were extremely close, and this news affected me deeply.  We were both shocked by it all, and both had trouble coming to grips with it.  I spent just about every day with him after work, helping him get to appointments and running errands for him.  When it became clear that he was terminal, him and I spent the rest of his day settling his affairs and preparing for the end.  Looking back on what happened, what really sticks out the most was how quickly everything had happened.  Before his diagnosis, Dad was in excellent health.  To see him go from that to death in 7 months will always be a shock to me.  It gave me my first real brush with mortality.  I have, since then, given maybe too much thought to the impermanence of life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can still remember my dad, sitting in his favorite chair, looking out the window, just sitting there, completely unaware of anything else going on.  It's something that I will always carry with me.  It is something that I will never forget.  I am still trying to make sense of it all, but I know that I will never be the same again."
+            }
+        ],
+        "request_id": "811f4caf8bba237f-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a concert with a coworker who I've worked with for a few months at that time but I didn't really know well. I had interacted with her and talked to her a lot but most of that was very casual. At some point I mentioned that I was buying tickets for a concert. She said that she liked the band as well. I was a little surprised as they're not well known. I suggested that we buy tickets together. We did and went to the concert together. I had a lot of fun at the concert and I thought that my coworkers was fun to hang out with. She was a little different than she usual comes across at work. I was surprised to learn more about her tastes in music and that she knows a lot about music. We've since shared songs and artists that we've discovered and liked. As my music tastes aren't exactly mainstream I was happy to find someone else who shares those tastes. I wouldn't have guessed that she was so into music as it's not something that she ever talked about at work. We also have a similar sense of humor. She hides it more at work as she makes sure not to say anything inappropriate. We don't get together outside of work that often, but we do she's something I like socializing with. I was happy to make a new friend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a concert with a coworker who I've worked with for a few months at that time but I didn't really know well. I had interacted with her and talked to her a lot but most of that was very casual. At some point I mentioned that I was buying tickets for a concert. She said that she liked the band as well. I was a little surprised as they're not well known. I suggested that we buy tickets together. We did and went to the concert together. I had a lot of fun at the concert and I thought that my coworkers was fun to hang out with. She was a little different than she usual comes across at work. I was surprised to learn more about her tastes in music and that she knows a lot about music. We've since shared songs and artists that we've discovered and liked. As my music tastes aren't exactly mainstream I was happy to find someone else who shares those tastes. I wouldn't have guessed that she was so into music as it's not something that she ever talked about at work. We also have a similar sense of humor. She hides it more at work as she makes sure not to say anything inappropriate. We don't get together outside of work that often, but we do she's something I like socializing with. I was happy to make a new friend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed1bc48178c7b-EWR"
+    }
+}

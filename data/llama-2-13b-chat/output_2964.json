@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was an amazing day. It was a beautiful sunny morning and my husband came home from work to watch our son while I went to take my drivers license test! I have been afraid of getting my license after being a passenger in a very bad accident. It was a head on collision at 60 mph. That accident never left my mind and kept me from ever wanting to learn how to drive. I am very proud of myself for finally taking this step . I was quite worried I would fail and then be so upset with myself that I would never try again. I did manage to mess up by not coming to a complete stop at a stop sign but I still passed. I can now go where I want to go without needing anyone to drive me there. The sense of freedom I feel is crazy. I wish I had done this a long time ago. My son is the reason why I chose to go and get my license. I did mess up a bit on my practice drive with the driving instructor. He kept trying to control the pedals more then I needed him to . It made me nervous . He was not my usual instructor and to be honest I disliked him quite a bit. I am so happy I did all my practice drives with the other instructor. He did a great job teaching me so I could pass the test."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was an amazing day. It was a beautiful sunny morning and my husband came home from work to watch our son while I went to take my drivers license test! I have been afraid of getting my license after being a passenger in a very bad accident. It was a head on collision at 60 mph. That accident never left my mind and kept me from ever wanting to learn how to drive. I am very proud of myself for finally taking this step . I was quite worried I would fail and then be so upset with myself that I would never try again. I did manage to mess up by not coming to a complete stop at a stop sign but I still passed. I can now go where I want to go without needing anyone to drive me there. The sense of freedom I feel is crazy. I wish I had done this a long time ago. My son is the reason why I chose to go and get my license. I did mess up a bit on my practice drive with the driving instructor. He kept trying to control the pedals more then I needed him to . It made me nervous . He was not my usual instructor and to be honest I disliked him quite a bit. I am so happy I did all my practice drives with the other instructor. He did a great job teaching me so I could pass the test.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I have a new beginning. I am so proud of myself. I feel like I can conquer anything. I am very grateful for the support of my husband and my son.\n\n"
+            }
+        ],
+        "request_id": "811ec1630c3f335c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My most memorable trip occurred the early part of this month. I went To Russia with my dad. I went specifically to Moscow. It was a very positive experience for me. I have never been overseas in my whole life. The furthest I have ever been to in my life was Canada.  I saw in Russia so many sights. I saw the Kremlin. I saw the Bolshoi theater and a ballet performance there. I got to taste some good Russian cuisine like beef stroganoff. Napoleon cakes are delicious. I spent immense quality time with my dad in the trip which lasted two and a half weeks. I also made day trips to the Russian countryside. I experienced life in the small villages. Very humble life there. I am literally longing to go back to Russia very soon. I truly miss it. I went to countless museums and Red Square."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My most memorable trip occurred the early part of this month. I went To Russia with my dad. I went specifically to Moscow. It was a very positive experience for me. I have never been overseas in my whole life. The furthest I have ever been to in my life was Canada.  I saw in Russia so many sights. I saw the Kremlin. I saw the Bolshoi theater and a ballet performance there. I got to taste some good Russian cuisine like beef stroganoff. Napoleon cakes are delicious. I spent immense quality time with my dad in the trip which lasted two and a half weeks. I also made day trips to the Russian countryside. I experienced life in the small villages. Very humble life there. I am literally longing to go back to Russia very soon. I truly miss it. I went to countless museums and Red Square.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would love to go back to Moscow.\n\n"
+            }
+        ],
+        "request_id": "811f4aaacfb18cd7-EWR"
+    }
+}

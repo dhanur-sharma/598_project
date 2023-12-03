@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the day me and my friends got together to go to a beach near my home, named Long Beach. We hadn't been together as a large group since we where kids in high school and back then we used to go everywhere together. This time we where getting together because two of our friends where getting married, Joe and Kelly who had met because I had been friends with Joe and I invited Kelly, who I had known from science class, to go with us one weekend many years ago. We walked the board walk and everyone was having a great time. We stopped in at bars. We had great food and drinks. When the time was right everyone gave a speech for Joe and Kelly. When it was my turn I said I never saw two people more in love, and that after 12 years it's about time they made it official. And I told everyone how they met. Finally I had saved something from back when we where younger that I gifted to Joe and Kelly. A photograph of them that first weekend trip. Kelly cried, and soon after so did Joe. Seeing themselves so young. Soon enough everyone was teary eyed but still laughing and having fun. I felt sad when everyone started to head home. I didn't know when I would see anyone of them next and it hurt to think that this might be the last time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the day me and my friends got together to go to a beach near my home, named Long Beach. We hadn't been together as a large group since we where kids in high school and back then we used to go everywhere together. This time we where getting together because two of our friends where getting married, Joe and Kelly who had met because I had been friends with Joe and I invited Kelly, who I had known from science class, to go with us one weekend many years ago. We walked the board walk and everyone was having a great time. We stopped in at bars. We had great food and drinks. When the time was right everyone gave a speech for Joe and Kelly. When it was my turn I said I never saw two people more in love, and that after 12 years it's about time they made it official. And I told everyone how they met. Finally I had saved something from back when we where younger that I gifted to Joe and Kelly. A photograph of them that first weekend trip. Kelly cried, and soon after so did Joe. Seeing themselves so young. Soon enough everyone was teary eyed but still laughing and having fun. I felt sad when everyone started to head home. I didn't know when I would see anyone of them next and it hurt to think that this might be the last time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But for now, we had a great time and that's all that mattered."
+            }
+        ],
+        "request_id": "811eb4bddcf24394-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son had his first birthday about 3 months ago. It was a great time. We used the gym at the school I work at to host the party. We got there early, decorated the gym, and waited for our guests to arrive. Being his first birthday, there were a lot of people there! I would estimate that around 40 people came. This number was surprising because we live nearly an hour away from most of the people who came. My uncle arrived late because his truck broke down on the way. I felt bad about that but other than that, the day was perfect. We had lots of fun talking to everyone who came. My son had a great time discovering all the new toys he got. He also had a lot of fun eating his cake! Our theme for the party was baseball. My wife made my son a cake that looked like a giant baseball. She also made cake pops that looked like baseballs too. It was a great day. I felt very proud and full of joy!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son had his first birthday about 3 months ago. It was a great time. We used the gym at the school I work at to host the party. We got there early, decorated the gym, and waited for our guests to arrive. Being his first birthday, there were a lot of people there! I would estimate that around 40 people came. This number was surprising because we live nearly an hour away from most of the people who came. My uncle arrived late because his truck broke down on the way. I felt bad about that but other than that, the day was perfect. We had lots of fun talking to everyone who came. My son had a great time discovering all the new toys he got. He also had a lot of fun eating his cake! Our theme for the party was baseball. My wife made my son a cake that looked like a giant baseball. She also made cake pops that looked like baseballs too. It was a great day. I felt very proud and full of joy!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be21628124364-EWR"
+    }
+}

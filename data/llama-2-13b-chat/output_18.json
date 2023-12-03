@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the event like it was just yesterday. When I received the phone call from my friend that he had been arrested I was very surprised. This was not a usual occurrence in my friend circle, actually this was the first time I had to go bail my friend out. I remember how told me how and why he was arrested. The drive there was long and tiresome but the one back home was relaxing. My mind was everywhere trying to figure out the reason for the arrest but when my friend explained, it settled down. We laughed and talked about the events of the day over a cold drink. We talked of all the injustices ongoing. We also talked about how everyone is turning a blind eye to such kind of injustices. We agreed to try and change such situations. My friend thanked me for bailing him out and I was happy that he was safe. The charges against him were later dropped  due to lack of evidence. I knew my friend was not guilty and it was a relief to know so. We had dinner over my friend's house that day. It was a long day. I thanked my friend for dinner."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the event like it was just yesterday. When I received the phone call from my friend that he had been arrested I was very surprised. This was not a usual occurrence in my friend circle, actually this was the first time I had to go bail my friend out. I remember how told me how and why he was arrested. The drive there was long and tiresome but the one back home was relaxing. My mind was everywhere trying to figure out the reason for the arrest but when my friend explained, it settled down. We laughed and talked about the events of the day over a cold drink. We talked of all the injustices ongoing. We also talked about how everyone is turning a blind eye to such kind of injustices. We agreed to try and change such situations. My friend thanked me for bailing him out and I was happy that he was safe. The charges against him were later dropped  due to lack of evidence. I knew my friend was not guilty and it was a relief to know so. We had dinner over my friend's house that day. It was a long day. I thanked my friend for dinner.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We talked about our next plan to change the system. It was a long day but we made it count."
+            }
+        ],
+        "request_id": "811e89a9d90042c9-EWR"
+    }
+}

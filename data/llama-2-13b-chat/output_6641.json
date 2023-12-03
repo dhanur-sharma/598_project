@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am a man who married a transgender person. I love this woman with all of my heart. We walk together through lifes struggles. We have had issues with people making fun of us. We have had issues with people gawking at her. No matter what I love her. About 4 months ago she decided to make a big annoucement. She told her parents she was transgender. They did not take this very well. First off, they asked her to leave the house. They chose not to speak to her as they are heavy conservative people. I lived through my wife crying. I lived through the agony of her suffering without her parent. Today she lives without them. She has slowly gotten used to the fact that you cannot please everyone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am a man who married a transgender person. I love this woman with all of my heart. We walk together through lifes struggles. We have had issues with people making fun of us. We have had issues with people gawking at her. No matter what I love her. About 4 months ago she decided to make a big annoucement. She told her parents she was transgender. They did not take this very well. First off, they asked her to leave the house. They chose not to speak to her as they are heavy conservative people. I lived through my wife crying. I lived through the agony of her suffering without her parent. Today she lives without them. She has slowly gotten used to the fact that you cannot please everyone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She has slowly gotten used to the fact that not everyone will accept her. She is happy with who she is. I love her for who she is. I will stand by her side forever.\n\n"
+            }
+        ],
+        "request_id": "811f49c18a328c39-EWR"
+    }
+}

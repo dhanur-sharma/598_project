@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago I went to Las Vegas to gamble.  I always have a good time in Vegas gambling. I played roulette as this is my game of choice. I usually have good luck playing this game. I had a budget in mind to gamble.  I got on a winning streak and decided to go over it.  That was a bad decision.  I started to lose. I kept thinking I will end up winning again on the next round. I didn't. I ended up losing all of the money I had budgeted to gamble with plus alot more. This was the end of me playing roulette. I have promised myself I will never gamble again.  At lease I wont be playing roulette ever again. I am really sad about this decision as I loved playing roulette but it evidenty is not a game for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago I went to Las Vegas to gamble.  I always have a good time in Vegas gambling. I played roulette as this is my game of choice. I usually have good luck playing this game. I had a budget in mind to gamble.  I got on a winning streak and decided to go over it.  That was a bad decision.  I started to lose. I kept thinking I will end up winning again on the next round. I didn't. I ended up losing all of the money I had budgeted to gamble with plus alot more. This was the end of me playing roulette. I have promised myself I will never gamble again.  At lease I wont be playing roulette ever again. I am really sad about this decision as I loved playing roulette but it evidenty is not a game for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f384faa2c5e79-EWR"
+    }
+}

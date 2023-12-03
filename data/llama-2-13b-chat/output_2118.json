@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago at a trivia game on horror at a pub near my house, I had fun drinking with friends and answering random questions. I met someone in my group that I'll go onto marry. We both were horror fans, so we got a lot of answers right -- but most importantly, we met each other. The group we were with was very funny. One of the other groups didn't know anything about horror films or books, but they kept inventing answers anyway, which was hilarious. They were very inventive. We were there for a few hours, but the night went so quickly. We were sad when it ended. So much so that we hung around together just to talk and have a few more drinks. It was a great way to meet new people and blow off steam. We ended up making it a regular habit, and over time grew very close. The drinks were cheap during the game -- happy hour prices. Therefore, we didn't have to worry about the cost! Anyway, spending money on a good time once a week is worth it, especially since it ended up in an engagement. Now we still do it -- I'm looking forward to taking part in a war trivia game next week. Together, we should be able to win again. Oh -- did I mention? We won that night!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago at a trivia game on horror at a pub near my house, I had fun drinking with friends and answering random questions. I met someone in my group that I'll go onto marry. We both were horror fans, so we got a lot of answers right -- but most importantly, we met each other. The group we were with was very funny. One of the other groups didn't know anything about horror films or books, but they kept inventing answers anyway, which was hilarious. They were very inventive. We were there for a few hours, but the night went so quickly. We were sad when it ended. So much so that we hung around together just to talk and have a few more drinks. It was a great way to meet new people and blow off steam. We ended up making it a regular habit, and over time grew very close. The drinks were cheap during the game -- happy hour prices. Therefore, we didn't have to worry about the cost! Anyway, spending money on a good time once a week is worth it, especially since it ended up in an engagement. Now we still do it -- I'm looking forward to taking part in a war trivia game next week. Together, we should be able to win again. Oh -- did I mention? We won that night!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great night, and we've been together ever since.\n\n"
+            }
+        ],
+        "request_id": "811eb09f78d34332-EWR"
+    }
+}

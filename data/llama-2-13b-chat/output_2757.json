@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,My beautiful baby boy is healthy as a horse. The return check ups show that all complications have ceased. Thank god for this miracle, this blessing. Little Charles is now two months old and completely healthy. Two months ago I went into labor, and everything went as planned. My husband drove me to the hospital. Doctor Shelly prepped me, and they got an epidural in me. It wasn't my first rodeo, so I thought it was going very well, a little too well.  I was right, God tested me that night. Charles had a reaction to the epidural, his heart rate dropped and I thought I was going to lose my baby. Thank God the doctors were prepared. Thank God that Charles was born strong enough to hold out, to survive. The incident introduced a fear in me. I wake up and have to check on Charles just about every hour of the night. I pray that my mind will be at ease soon. I pray that Charles will live a happy and healthy childhood."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,My beautiful baby boy is healthy as a horse. The return check ups show that all complications have ceased. Thank god for this miracle, this blessing. Little Charles is now two months old and completely healthy. Two months ago I went into labor, and everything went as planned. My husband drove me to the hospital. Doctor Shelly prepped me, and they got an epidural in me. It wasn't my first rodeo, so I thought it was going very well, a little too well.  I was right, God tested me that night. Charles had a reaction to the epidural, his heart rate dropped and I thought I was going to lose my baby. Thank God the doctors were prepared. Thank God that Charles was born strong enough to hold out, to survive. The incident introduced a fear in me. I wake up and have to check on Charles just about every hour of the night. I pray that my mind will be at ease soon. I pray that Charles will live a happy and healthy childhood.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebd4a3b15188d-EWR"
+    }
+}

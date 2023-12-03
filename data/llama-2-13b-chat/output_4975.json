@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My boyfriend and I was dating for a while. He is a very nice and attractive guy. I like him very much. After we met for a couple of time, he told me he got STD. I still wanted to be with him. So we still went out and have great time together. It came from his last relationship. It was incurable. I was very surprised. I checked online a lot of information. It is very hard for me to break up. I like him a lot. He told me he did not want to continue. I agreed. I was very sad for several months. It is a tough relationship, which could end up with a much better outcome. I still remember the time we spent."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My boyfriend and I was dating for a while. He is a very nice and attractive guy. I like him very much. After we met for a couple of time, he told me he got STD. I still wanted to be with him. So we still went out and have great time together. It came from his last relationship. It was incurable. I was very surprised. I checked online a lot of information. It is very hard for me to break up. I like him a lot. He told me he did not want to continue. I agreed. I was very sad for several months. It is a tough relationship, which could end up with a much better outcome. I still remember the time we spent.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still single now. I hope to find someone who is healthy and loves me for who I am.\n\n"
+            }
+        ],
+        "request_id": "811be1db2b290f80-EWR"
+    }
+}

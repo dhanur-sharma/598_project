@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best friend got married about two months ago. This guy was so nervous, he nearly passed out! He has been dating Kristie for nearly two years. After his first date with her, he told me that he thought she might be the one. I thought to myself, yeah right, it's only been one date. But here we were, he was marrying this girl! It was such a great wedding to. The food was top notch. From salmon to steaks to the best deviled eggs I've ever had. We had such a great time dancing to the music almost until the sun came up. There was also an open bar. Can you belive it! Nick, my best friend, had such a great time. I'd say the time of his life. He became whole that day. I remember watching him thinking gosh, I've never seen him so happy in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best friend got married about two months ago. This guy was so nervous, he nearly passed out! He has been dating Kristie for nearly two years. After his first date with her, he told me that he thought she might be the one. I thought to myself, yeah right, it's only been one date. But here we were, he was marrying this girl! It was such a great wedding to. The food was top notch. From salmon to steaks to the best deviled eggs I've ever had. We had such a great time dancing to the music almost until the sun came up. There was also an open bar. Can you belive it! Nick, my best friend, had such a great time. I'd say the time of his life. He became whole that day. I remember watching him thinking gosh, I've never seen him so happy in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was amazing.  I love you Nick and Kristie! \n\n"
+            }
+        ],
+        "request_id": "811ea4f87d5d43be-EWR"
+    }
+}

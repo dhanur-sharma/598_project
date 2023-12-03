@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I drove 450 miles to visit my Mom for mother's day. Finally, I got a chance to make this happen this year. My boss was very understanding this time for allowing me to take one week off. I was very excited when my leave was approved. Immediately, I made plans that I could do with my parents during my stay. I purchased gifts for my mom on the same day of leave approval. On my way to my mom's place, I witnessed an interesting event. I was on the highway. I saw something on the road a few hundred feet ahead. So, I slowed down. When I approached the scene of interest; it was a gang of deers crossing the road. The funny thing was there was a tiny deer moving slowly and others were surrounding it while moving forward in order to cross. I took the video of the event to share with my mom. After, 7 hours of driving I reached my destination. I hugged my mom who was extremely excited to see me after a long time. We talked about everything. She was surprised and excited to see the video that I recorded on my way. The next evening, we went to a nice restaurant to celebrate Mother's day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I drove 450 miles to visit my Mom for mother's day. Finally, I got a chance to make this happen this year. My boss was very understanding this time for allowing me to take one week off. I was very excited when my leave was approved. Immediately, I made plans that I could do with my parents during my stay. I purchased gifts for my mom on the same day of leave approval. On my way to my mom's place, I witnessed an interesting event. I was on the highway. I saw something on the road a few hundred feet ahead. So, I slowed down. When I approached the scene of interest; it was a gang of deers crossing the road. The funny thing was there was a tiny deer moving slowly and others were surrounding it while moving forward in order to cross. I took the video of the event to share with my mom. After, 7 hours of driving I reached my destination. I hugged my mom who was extremely excited to see me after a long time. We talked about everything. She was surprised and excited to see the video that I recorded on my way. The next evening, we went to a nice restaurant to celebrate Mother's day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I made a reservation for us in advance. We had a great time together.\n\n"
+            }
+        ],
+        "request_id": "811bd2b51b3dc43e-EWR"
+    }
+}

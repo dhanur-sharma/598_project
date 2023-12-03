@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past weekend was my bachelor party. It was one of the most fun experiences I have had in a long time. The weekend started with seeing my best man for the first time in eight months. He got a ride ,from one of his fraternity brothers, to my apartment in the afternoon on Friday. We then jumped into my car and drive to Niagara Falls. While we drove we had some background music playing, but we had a running conversation the whole time. It was about two hours of total drive time but it felt like it took no time at all. We had no difficulty crossing the border, and our rental house was about two minutes from the guard station. We were the first ones to show up at the house, followed shortly by my cousin. All of us ran to the grocery store to pick up some supplies. It turns out that the store we went to did not take any of our debit or credit cards. Luckily they took American cash! My future brothers in law arrived at the house while we were out. My last groomsman showed up about ten minutes after we got back. That night consisted of drinking, lots of meat, and an incredible view of the falls. Saturday we went for a gokart ride, a three hour arcade binge, and an informative experience in the casino. Sunday morning we went our separate ways."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past weekend was my bachelor party. It was one of the most fun experiences I have had in a long time. The weekend started with seeing my best man for the first time in eight months. He got a ride ,from one of his fraternity brothers, to my apartment in the afternoon on Friday. We then jumped into my car and drive to Niagara Falls. While we drove we had some background music playing, but we had a running conversation the whole time. It was about two hours of total drive time but it felt like it took no time at all. We had no difficulty crossing the border, and our rental house was about two minutes from the guard station. We were the first ones to show up at the house, followed shortly by my cousin. All of us ran to the grocery store to pick up some supplies. It turns out that the store we went to did not take any of our debit or credit cards. Luckily they took American cash! My future brothers in law arrived at the house while we were out. My last groomsman showed up about ten minutes after we got back. That night consisted of drinking, lots of meat, and an incredible view of the falls. Saturday we went for a gokart ride, a three hour arcade binge, and an informative experience in the casino. Sunday morning we went our separate ways.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a weekend full of fun and I got to spend time with some of my best friends and family."
+            }
+        ],
+        "request_id": "811be31dbf9f4392-EWR"
+    }
+}

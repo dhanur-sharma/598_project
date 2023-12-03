@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was having a wonderful, much needed vacation day.  I was visiting a park with my dog.  The weather was perfect.  There was a cool breeze and lots of sun.  Just what I needed after a hectic couple of months. I'd been working non-stop.  It seemed like I had been working for weeks on end.  Really quite a grind over the holiday season.  I have been trying to make some extra money to by the kids some presents.  They have been so good this year, I had been taking on as many extra hours as I could at work.  Then it came.  A text from work.  I thought it was about taking on another shift, but no.  They actually texted me that I was fired.  Fired on my day off.  I was stunned.  I worked so hard for them and this is how they treat me.  Thinking back over the year, it's been rough. This is my second job this year and I put all I had into it.  I had lost my previous job earlier this year.  I wanted to make a success of this one but I failed yet again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was having a wonderful, much needed vacation day.  I was visiting a park with my dog.  The weather was perfect.  There was a cool breeze and lots of sun.  Just what I needed after a hectic couple of months. I'd been working non-stop.  It seemed like I had been working for weeks on end.  Really quite a grind over the holiday season.  I have been trying to make some extra money to by the kids some presents.  They have been so good this year, I had been taking on as many extra hours as I could at work.  Then it came.  A text from work.  I thought it was about taking on another shift, but no.  They actually texted me that I was fired.  Fired on my day off.  I was stunned.  I worked so hard for them and this is how they treat me.  Thinking back over the year, it's been rough. This is my second job this year and I put all I had into it.  I had lost my previous job earlier this year.  I wanted to make a success of this one but I failed yet again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so excited to be spending the day with my kids.  Now I have no idea how I will make ends meet.  I am so upset.  I was having such a good day until this happened.\n\n"
+            }
+        ],
+        "request_id": "811e99dca864435e-EWR"
+    }
+}

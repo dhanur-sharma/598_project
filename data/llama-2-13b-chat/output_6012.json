@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My dog doesn't like being in small spaces. Sadly my daughter's room is too small for him. We needed him to go in there for the night. Didn't want him bothering me and the wife. I tried to convince him with treats. He wouldn't listen to me and just go in there. I tried to talking to him about it. He wouldn't listen to me at all. I tried to pet him and be sweet to him but no matter what I did he had no interest in go in there. Finally I decided to just force him to go in there. He was so freaked out. I felt bad about it. He was crying about it and was looking at me all mad. He ended up tackling me. My wife laughed at both of us over it. I guess he's not going to go in there anymore."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My dog doesn't like being in small spaces. Sadly my daughter's room is too small for him. We needed him to go in there for the night. Didn't want him bothering me and the wife. I tried to convince him with treats. He wouldn't listen to me and just go in there. I tried to talking to him about it. He wouldn't listen to me at all. I tried to pet him and be sweet to him but no matter what I did he had no interest in go in there. Finally I decided to just force him to go in there. He was so freaked out. I felt bad about it. He was crying about it and was looking at me all mad. He ended up tackling me. My wife laughed at both of us over it. I guess he's not going to go in there anymore.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3d0a2a2cc323-EWR"
+    }
+}

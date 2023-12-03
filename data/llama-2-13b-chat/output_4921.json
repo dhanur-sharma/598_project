@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, my six year old son fell down the steps getting ready for school.  This might not sound like a huge ordeal, but let me explain further.  My six year old son is medically complex and has a seizure disorder with a chromosomal abnormality.  I was using the restroom when suddenly, I heard a loud boom.  I ran out of the bathroom to see my little boy lying unconscious on the floor.  I assumed he hit his head.  I ran down the steps.  His eyes rolled back into his head and he began seizing.  I was in a state of panic.  I yelled for my husband to dial 911.  He remained unconscious for what felt like hours.  In reality, it was only about three minutes before paramedics arrived.  He was shaking in my arms, started to turn a pale shade of blue and was not alert at all.  I was crying and yelling his name, but in my mind, imagining that this was the day that I was going to lose my child.  EMS administered a medication rectally.  He started to cry inconsolably, and then said \"Mommy.\"  I have never felt more joy in my heart to hear that little voice.  We were taken to the hospital and stayed for two days for further monitoring.  I could not stop kissing his little cheeks during those days, and felt so emotional knowing that things could have ended so differently."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, my six year old son fell down the steps getting ready for school.  This might not sound like a huge ordeal, but let me explain further.  My six year old son is medically complex and has a seizure disorder with a chromosomal abnormality.  I was using the restroom when suddenly, I heard a loud boom.  I ran out of the bathroom to see my little boy lying unconscious on the floor.  I assumed he hit his head.  I ran down the steps.  His eyes rolled back into his head and he began seizing.  I was in a state of panic.  I yelled for my husband to dial 911.  He remained unconscious for what felt like hours.  In reality, it was only about three minutes before paramedics arrived.  He was shaking in my arms, started to turn a pale shade of blue and was not alert at all.  I was crying and yelling his name, but in my mind, imagining that this was the day that I was going to lose my child.  EMS administered a medication rectally.  He started to cry inconsolably, and then said \"Mommy.\"  I have never felt more joy in my heart to hear that little voice.  We were taken to the hospital and stayed for two days for further monitoring.  I could not stop kissing his little cheeks during those days, and felt so emotional knowing that things could have ended so differently.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Thankfully, he is okay now, but it was a traumatic experience that I will never forget.\n\n"
+            }
+        ],
+        "request_id": "811be0bd9a230c78-EWR"
+    }
+}

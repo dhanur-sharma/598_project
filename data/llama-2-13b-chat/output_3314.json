@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago it was the hottest summer on record. I was sweating up a storm, couldnt go outside. I found little to do, I was miserable inside. But then I had an idea! I wanted my friends to come to me, I had a pool, I had a grill--we could have a fun day for once in a while on our day off! The 4th of July! So, I invited all my friends over for a big 4th of July party, and it was a massive success! There was a large turnout of almost everyone I knew. We laughed, we had fun, we ate. It was miserably hot, sure, but I had a pool to cool ourselves off! My friends brought their families, so there was a lack of space. However, we did manage to fit everyone in. I managed to at least talk to everyone once, even their kids. I wanted everyone to feel included, you know? But, yes, it was an exciting and fun day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago it was the hottest summer on record. I was sweating up a storm, couldnt go outside. I found little to do, I was miserable inside. But then I had an idea! I wanted my friends to come to me, I had a pool, I had a grill--we could have a fun day for once in a while on our day off! The 4th of July! So, I invited all my friends over for a big 4th of July party, and it was a massive success! There was a large turnout of almost everyone I knew. We laughed, we had fun, we ate. It was miserably hot, sure, but I had a pool to cool ourselves off! My friends brought their families, so there was a lack of space. However, we did manage to fit everyone in. I managed to at least talk to everyone once, even their kids. I wanted everyone to feel included, you know? But, yes, it was an exciting and fun day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think it was the highlight of my summer.\n\n"
+            }
+        ],
+        "request_id": "811ec8a4fa9ec33b-EWR"
+    }
+}

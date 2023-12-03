@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went to a funeral. It was for my Grandpa. I remembered the good times I had with my Grandpa. I remember him taking me hunting one day. I got to kill a deer. He made the deer dinner that night. It wasn't bad to eat. I remember playing catch with him. He still had an arm on him. It was very fun playing catch. I also remember going to a restaurant one night. He had a big steak. I had a big lamb. They were both delicious. I also had beer that night. I hope he is in heaven right now. He will be remembered by many people. He will be loved by many people. He left a legacy on this world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went to a funeral. It was for my Grandpa. I remembered the good times I had with my Grandpa. I remember him taking me hunting one day. I got to kill a deer. He made the deer dinner that night. It wasn't bad to eat. I remember playing catch with him. He still had an arm on him. It was very fun playing catch. I also remember going to a restaurant one night. He had a big steak. I had a big lamb. They were both delicious. I also had beer that night. I hope he is in heaven right now. He will be remembered by many people. He will be loved by many people. He left a legacy on this world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd63d197c4399-EWR"
+    }
+}

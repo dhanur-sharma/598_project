@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago, I lost my cousin due to brain cancer. It was such a sad loss for all of us. She was so very young. I can see this happening in someone older, but why so young? We're not sure what caused it. She has been fighting so hard for the past 5 years. I was sure because of her age she would fight this. Isn't younger people supposed to be more resilient? I miss my cousin badly right now. When I attended her funeral, I immediately broke down. The room was fill not only with many family members, but all of her friends, old teachers, and sports buddies. Life will not be the same without her. How do we all cope with such a loss? Instead of people donating flowers, the donations ended up going to the American Cancer foundation. We hope someday there will be a cure for cancer. May my cousin finally rest in peace!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago, I lost my cousin due to brain cancer. It was such a sad loss for all of us. She was so very young. I can see this happening in someone older, but why so young? We're not sure what caused it. She has been fighting so hard for the past 5 years. I was sure because of her age she would fight this. Isn't younger people supposed to be more resilient? I miss my cousin badly right now. When I attended her funeral, I immediately broke down. The room was fill not only with many family members, but all of her friends, old teachers, and sports buddies. Life will not be the same without her. How do we all cope with such a loss? Instead of people donating flowers, the donations ended up going to the American Cancer foundation. We hope someday there will be a cure for cancer. May my cousin finally rest in peace!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8fadeaef0f88-EWR"
+    }
+}

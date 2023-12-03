@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I asked my parents to watch our kids so my husband and I could go out for a lunch date. We had a great time and went to go pick up our kids, my mom made a remark about being tired and how she was going to take a nap.  We headed home and we were working in the yard when I got a call from my father. He was questioning me about what immediate care I took my kids to and did we like it. I knew that was a weird conversation, but he wouldn't tell me anymore. About an hour later I got another call from my father saying he was at the hospital and I needed to come up to the hospital. When I got to the hospital I found out that my mom was being admitted because she had a heart attack. I was very angry with my parents for going to immediate care and then ignoring the doctor's instructions to take an ambulance to the hospital. My father drove her and they acted like it wasn't a big deal. After my mom was admitted I basically stayed at the hospital until she had her heart cath the next day. The doctor told us it would take about 30 minutes and if it took more than 45 minutes it means they found something wrong. After an hour we were certain that something was seriously wrong with my mom. After an hour and a half the doctor came out to tell us that they found a 99% blockage and had to put in a stint.  She spent another three days in the hospital before being sent home. It took her a full six weeks to fully recover and now she sees a cardiologist regularly, but I will never stop worrying about her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I asked my parents to watch our kids so my husband and I could go out for a lunch date. We had a great time and went to go pick up our kids, my mom made a remark about being tired and how she was going to take a nap.  We headed home and we were working in the yard when I got a call from my father. He was questioning me about what immediate care I took my kids to and did we like it. I knew that was a weird conversation, but he wouldn't tell me anymore. About an hour later I got another call from my father saying he was at the hospital and I needed to come up to the hospital. When I got to the hospital I found out that my mom was being admitted because she had a heart attack. I was very angry with my parents for going to immediate care and then ignoring the doctor's instructions to take an ambulance to the hospital. My father drove her and they acted like it wasn't a big deal. After my mom was admitted I basically stayed at the hospital until she had her heart cath the next day. The doctor told us it would take about 30 minutes and if it took more than 45 minutes it means they found something wrong. After an hour we were certain that something was seriously wrong with my mom. After an hour and a half the doctor came out to tell us that they found a 99% blockage and had to put in a stint.  She spent another three days in the hospital before being sent home. It took her a full six weeks to fully recover and now she sees a cardiologist regularly, but I will never stop worrying about her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was angry at my parents for not taking her to the hospital sooner and not following the doctor's instructions.  I know they were trying to protect her and not wanting to scare her, but they put her life at risk.  I also felt guilty for not being there when it happened, but I was only a few minutes away.  I have learned to always trust my instincts and to never hesitate to seek medical attention if something seems off."
+            }
+        ],
+        "request_id": "811eb61b6bf21821-EWR"
+    }
+}

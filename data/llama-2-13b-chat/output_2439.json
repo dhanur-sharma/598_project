@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I finally got out of the hospital. It all started in the evening 3 nights ago. I was watching TV and started feeling confused. I reached over to grab my remote to change channels,, and I couldn't keep a hold of it. I tried with 2 hands but then I couldn't push the buttons, and forgot what channel I was changing to anyway. I started thinking it was a stroke. I grabbed my tablet to look up symptoms and within seconds forgot the word stroke. I live alone so I started speaking out loud and I couldn't talk correctly. I found out I could walk, so I walked the 15 minutes to the VA hospital which is on my street. I had a hard time communicating at the desk but finally got in to see a doctor. I couldn't communicate with the doctors. I tried to write but words would disappear from my head. I also couldn't hold the pen, so it was moot to even try with my left hand. They finally did a CT scan and I had a old subdural hemotoma, which I determined was about 6 months before,it was just above my left ear from a fall off a electric scooter. The doctors ruled out a normal stroke, It was called a mini stroke and after a few days cleared it self up and I was about 95% and was finally discharged."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I finally got out of the hospital. It all started in the evening 3 nights ago. I was watching TV and started feeling confused. I reached over to grab my remote to change channels,, and I couldn't keep a hold of it. I tried with 2 hands but then I couldn't push the buttons, and forgot what channel I was changing to anyway. I started thinking it was a stroke. I grabbed my tablet to look up symptoms and within seconds forgot the word stroke. I live alone so I started speaking out loud and I couldn't talk correctly. I found out I could walk, so I walked the 15 minutes to the VA hospital which is on my street. I had a hard time communicating at the desk but finally got in to see a doctor. I couldn't communicate with the doctors. I tried to write but words would disappear from my head. I also couldn't hold the pen, so it was moot to even try with my left hand. They finally did a CT scan and I had a old subdural hemotoma, which I determined was about 6 months before,it was just above my left ear from a fall off a electric scooter. The doctors ruled out a normal stroke, It was called a mini stroke and after a few days cleared it self up and I was about 95% and was finally discharged.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb6b19a4b19cb-EWR"
+    }
+}

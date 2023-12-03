@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The wedding was simple, yet intimate.   It was also very spontaneous and crazy.  We literally texted invites a week before the wedding date.  The reception was great.  We catered from a local BBQ joint and our friend was kind enough to DJ at the party for free.  It was awesome!  However, my husband and I faced major wrath from our parents the day after the wedding. Both side of the family were yelling at us.   We felt really bad afterwards and apologized like crazy.   Nonetheless, both our families ignored us for a month so we decided to have another wedding. Yes, we will be having a second reception with just the family.   Hopefully, our parents will forgive us  soon and show up if we set up another wedding.  We are guilty as charged.  Right now, we are trying to figure out how to get forgiveness from our parents.  This is actually more stressful than the wedding itself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The wedding was simple, yet intimate.   It was also very spontaneous and crazy.  We literally texted invites a week before the wedding date.  The reception was great.  We catered from a local BBQ joint and our friend was kind enough to DJ at the party for free.  It was awesome!  However, my husband and I faced major wrath from our parents the day after the wedding. Both side of the family were yelling at us.   We felt really bad afterwards and apologized like crazy.   Nonetheless, both our families ignored us for a month so we decided to have another wedding. Yes, we will be having a second reception with just the family.   Hopefully, our parents will forgive us  soon and show up if we set up another wedding.  We are guilty as charged.  Right now, we are trying to figure out how to get forgiveness from our parents.  This is actually more stressful than the wedding itself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f461b2fa119f3-EWR"
+    }
+}

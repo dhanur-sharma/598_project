@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago my family and I went on a really fun vacation. We went to the beach! We took our 3 children with us, even though they are small they quite enjoyed the beach. They mostly stayed in the sand playing with toys, but they really liked it, you hear sometimes that kids don't like sands but they loved it. We're exhausted but it was worth it, we need a vacation from the vacation now. The highlights have to be the natural spring where the kids swam a lot and we canoed a bit. We packed lunched for that one. Because the kids wouldn't have lasted a whole day otherwise. We actually fell from our canoes which was a bit embarrassing but the water was great. We're back home now. It was a great trip which we'll remember for a while. I hope the kids remember it, but we surely did. I'm not sure when we'll have the chance to go on another one of those. So we need to enjoy them while we have. Thanks for reading."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago my family and I went on a really fun vacation. We went to the beach! We took our 3 children with us, even though they are small they quite enjoyed the beach. They mostly stayed in the sand playing with toys, but they really liked it, you hear sometimes that kids don't like sands but they loved it. We're exhausted but it was worth it, we need a vacation from the vacation now. The highlights have to be the natural spring where the kids swam a lot and we canoed a bit. We packed lunched for that one. Because the kids wouldn't have lasted a whole day otherwise. We actually fell from our canoes which was a bit embarrassing but the water was great. We're back home now. It was a great trip which we'll remember for a while. I hope the kids remember it, but we surely did. I'm not sure when we'll have the chance to go on another one of those. So we need to enjoy them while we have. Thanks for reading.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e916c8d86196c-EWR"
+    }
+}

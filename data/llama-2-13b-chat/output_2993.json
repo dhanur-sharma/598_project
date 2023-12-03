@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago, I traveled about 45 minutes from home to play golf with several friends. My mother had mentioned that my dad was supposed to be going to the doctor that week, but I didn't pay much attention to when it was supposed to occur, since it was a routine checkup. About 30 minutes into our round, I received a text message from my sister stating that there was some emergency at the doctor's office, and that my dad was being taken by ambulance to the hospital. I tried to get ahold of my mom or one of my sisters, but I was in a remote area with a poor signal on my cell phone. If we would've been near my home, I would've just left the course, but I had ridden there with the others, so if I left, several would have to leave with me to travel back home. I kept playing, while trying to contact someone and maintain my composure. After what seemed like an hour, I finally was able to talk to my mom. She said that he had started having chest pains while at the doctor's office. They had left the room, and came back to find that he had passed out. An ambulance was called to rush him to the hospital. She said they were running tests, but things looked better now that he was checked into a room. I explained my situation, and said that I would be there as soon as I could. After we finished the round, we all drove back, and I jumped in my car and drove an hour to the hospital. He spent around 24 hours there, and after multiple tests, the doctors could find nothing wrong. He was just told to get some rest and see his primary care physician. In the month since then, he hasn't had any more chest pain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago, I traveled about 45 minutes from home to play golf with several friends. My mother had mentioned that my dad was supposed to be going to the doctor that week, but I didn't pay much attention to when it was supposed to occur, since it was a routine checkup. About 30 minutes into our round, I received a text message from my sister stating that there was some emergency at the doctor's office, and that my dad was being taken by ambulance to the hospital. I tried to get ahold of my mom or one of my sisters, but I was in a remote area with a poor signal on my cell phone. If we would've been near my home, I would've just left the course, but I had ridden there with the others, so if I left, several would have to leave with me to travel back home. I kept playing, while trying to contact someone and maintain my composure. After what seemed like an hour, I finally was able to talk to my mom. She said that he had started having chest pains while at the doctor's office. They had left the room, and came back to find that he had passed out. An ambulance was called to rush him to the hospital. She said they were running tests, but things looked better now that he was checked into a room. I explained my situation, and said that I would be there as soon as I could. After we finished the round, we all drove back, and I jumped in my car and drove an hour to the hospital. He spent around 24 hours there, and after multiple tests, the doctors could find nothing wrong. He was just told to get some rest and see his primary care physician. In the month since then, he hasn't had any more chest pain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was quite a scare, but we are all very relieved.\n\n"
+            }
+        ],
+        "request_id": "811ec1ecc81e5e60-EWR"
+    }
+}

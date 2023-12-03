@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still can't believe that my mother's memorial service happened last Thursday. It was only a week before that that she had passed away, and then a day before that that we had hugged for the last time. She had been fighting cancer for the last two years. Things seemed positive at first. She had told me that her body was responding well to the chemotherapy. I foolishly believed her. My mother was the type of person who hated having others worry about her. I should have known she was not telling the truth. I saw as all of the people whom my mother's life had touched entered the church to say goodbye to her one last time. My father cried, my siblings cried. Even people I didn't recognize--friends from work, I assumed--cried for her. I wrote and read a eulogy about my mother. I could barely get through it. Her sister couldn't fly in for the service, but she made a video slideshow which included pictures of my mother growing up. I listened as people traded stories about my mother. Things like how my father first met her, or how she did something funny at work. Even though I spent nearly every day with my mother, it was interesting to hear how different our experiences with her were. One thing is for sure though: she loved us all deeply."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still can't believe that my mother's memorial service happened last Thursday. It was only a week before that that she had passed away, and then a day before that that we had hugged for the last time. She had been fighting cancer for the last two years. Things seemed positive at first. She had told me that her body was responding well to the chemotherapy. I foolishly believed her. My mother was the type of person who hated having others worry about her. I should have known she was not telling the truth. I saw as all of the people whom my mother's life had touched entered the church to say goodbye to her one last time. My father cried, my siblings cried. Even people I didn't recognize--friends from work, I assumed--cried for her. I wrote and read a eulogy about my mother. I could barely get through it. Her sister couldn't fly in for the service, but she made a video slideshow which included pictures of my mother growing up. I listened as people traded stories about my mother. Things like how my father first met her, or how she did something funny at work. Even though I spent nearly every day with my mother, it was interesting to hear how different our experiences with her were. One thing is for sure though: she loved us all deeply.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "After the service, we all went to the cemetery to lay flowers on her grave. It was a sunny day, but I felt like the sky was crying. I can't believe she's gone. I wish I could turn back time and be there for her more. But at least I have all of these memories of her to hold onto."
+            }
+        ],
+        "request_id": "811ec9fa2d0a4228-EWR"
+    }
+}

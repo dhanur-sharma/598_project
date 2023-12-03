@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, On my birthday this year I turned 54 years old and reached the nine year anniversary of a dreadful time that forever changed my life. To celebrate and mark the occasion my grown son took me to Walt Disney World for a week long vacation. I had never been to Disney World and, being a lifetime fan of Disneyland, having the chance to experience this park with my son was a dream come true. I had become very ill nine years ago and nearly lost my life to liver and heart failure. The illness came out of the blue and remains an unknown etiology as far as my physician is concerned. My recovery and transformation has been time consuming and come with many changes to my life, abilities, and career. My son walked along my side during my illness and knew that reaching a point where I could travel with him would be the best reward I could hope for. Our vacation was amazing from the moment we reached Florida and boarded the Disney bus. Our resort hotel was absolutely beautiful and the parks were amazing. Animal Kingdom was by far our favorite resort with Epcot a close second. My son had been very careful to book all of our dining reservations with my needs in mind. A chef came to our table to ask me about my dietary restrictions and made beautiful meals for me. We even had a refrigerator and microwave in our room so I could prepare my own breakfast each day. We both agreed that Disneyland still outshines any theme park and will be our family favorite. I rarely spend long periods of time with my son since he is 32, very busy in his career, and travels the world for business. Having this week with him, building memories, and sharing new experiences is a time I will always treasure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, On my birthday this year I turned 54 years old and reached the nine year anniversary of a dreadful time that forever changed my life. To celebrate and mark the occasion my grown son took me to Walt Disney World for a week long vacation. I had never been to Disney World and, being a lifetime fan of Disneyland, having the chance to experience this park with my son was a dream come true. I had become very ill nine years ago and nearly lost my life to liver and heart failure. The illness came out of the blue and remains an unknown etiology as far as my physician is concerned. My recovery and transformation has been time consuming and come with many changes to my life, abilities, and career. My son walked along my side during my illness and knew that reaching a point where I could travel with him would be the best reward I could hope for. Our vacation was amazing from the moment we reached Florida and boarded the Disney bus. Our resort hotel was absolutely beautiful and the parks were amazing. Animal Kingdom was by far our favorite resort with Epcot a close second. My son had been very careful to book all of our dining reservations with my needs in mind. A chef came to our table to ask me about my dietary restrictions and made beautiful meals for me. We even had a refrigerator and microwave in our room so I could prepare my own breakfast each day. We both agreed that Disneyland still outshines any theme park and will be our family favorite. I rarely spend long periods of time with my son since he is 32, very busy in his career, and travels the world for business. Having this week with him, building memories, and sharing new experiences is a time I will always treasure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The time with my son, and all the amazing things we experienced, reminded me of how much life has to offer and that my past illness was only a minor setback.\n\n"
+            }
+        ],
+        "request_id": "811f3f957e774387-EWR"
+    }
+}

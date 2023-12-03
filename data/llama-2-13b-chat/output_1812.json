@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Vietnam for a long awaited vacation.  I had my passport and thought I had my visa in order but I got stopped at the airport when I got there.  The clerk didn't speak much English but luckily spoke French which I speak.  I was missing some form and they were very unhappy with me.  She finally got a superviser to come help me and after a lot of waiting around my passport was stamped.  I should have taken this as an omen.  The cab driver taking me to the hotel took a scenic route on purpose and charged me double what the rate was supposed to be.  By that point I was too tired to argue so I paid them.  The hotel was just okay but I wasn't expecting fancy for the bargain price.  I went to check out some local shops my second day there and people were so rude.  A salesperson followed me around one store like they expected me to shoplift.  I look a bus to the beach and when I got off I noticed a little girl looking lost on the sidewalk.  I asked if she was okay and she smiled and took my hand.  I let go and started to walk away looking for her parents and she followed me.  Just as I was wondering if I should find the police station her mother came running up and grabbed her.  I was glad that had a happy ending."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Vietnam for a long awaited vacation.  I had my passport and thought I had my visa in order but I got stopped at the airport when I got there.  The clerk didn't speak much English but luckily spoke French which I speak.  I was missing some form and they were very unhappy with me.  She finally got a superviser to come help me and after a lot of waiting around my passport was stamped.  I should have taken this as an omen.  The cab driver taking me to the hotel took a scenic route on purpose and charged me double what the rate was supposed to be.  By that point I was too tired to argue so I paid them.  The hotel was just okay but I wasn't expecting fancy for the bargain price.  I went to check out some local shops my second day there and people were so rude.  A salesperson followed me around one store like they expected me to shoplift.  I look a bus to the beach and when I got off I noticed a little girl looking lost on the sidewalk.  I asked if she was okay and she smiled and took my hand.  I let go and started to walk away looking for her parents and she followed me.  Just as I was wondering if I should find the police station her mother came running up and grabbed her.  I was glad that had a happy ending.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I decided to go to a museum the next day.  When I got there it was closed for renovations.  I went to a restaurant and the food was terrible.  The staff seemed more interested in talking to each other than serving me.  I left without finishing my meal.  I went back to the hotel feeling frustrated and exhausted.\n\n"
+            }
+        ],
+        "request_id": "811eab3f0db042f5-EWR"
+    }
+}

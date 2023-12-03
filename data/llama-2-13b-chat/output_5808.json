@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I text and call her daily. Nothing. She wasn't feeling well the day I left and I worry about her health. I have a job - and I have a wife. How am I supposed to take care of her if I don't work? This question has eaten away at me for the past 2 1/2 months. I miss her. I need her. I'm living in hotels now. I land in a city for a job and then I extend my time there for a few days until I am sent out on my next assignment. I look forward to each destination. I bury myself in the details so I don't have to think. When I run out of details I sleep. I feel like I am on a treadmill without the benefits of good health. In three weeks I will fly home. Will she open the door when I show up? Will she open her heart? The dog will know it is me and start barking with excitement. Maybe that will help. Maybe. I am doing visualization exercises, rehearsing a million different conversations we will have. I have had a million doors slammed in my face. I will keep trying. She is the one for me. I think inside she knows it too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I text and call her daily. Nothing. She wasn't feeling well the day I left and I worry about her health. I have a job - and I have a wife. How am I supposed to take care of her if I don't work? This question has eaten away at me for the past 2 1/2 months. I miss her. I need her. I'm living in hotels now. I land in a city for a job and then I extend my time there for a few days until I am sent out on my next assignment. I look forward to each destination. I bury myself in the details so I don't have to think. When I run out of details I sleep. I feel like I am on a treadmill without the benefits of good health. In three weeks I will fly home. Will she open the door when I show up? Will she open her heart? The dog will know it is me and start barking with excitement. Maybe that will help. Maybe. I am doing visualization exercises, rehearsing a million different conversations we will have. I have had a million doors slammed in my face. I will keep trying. She is the one for me. I think inside she knows it too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f38c17cef0ce5-EWR"
+    }
+}

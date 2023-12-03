@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my Mother-in-laws birthday part with my wife and kids. This is her 75th Birthday, my wife really was looking forward to her party. We all had the day off for this great event. We knew we would see my wife's sister and her family too. We stop to get some wine for the party. I went inside to get the wine but forgot my wallet in the car. I had to go back to the car. My wife and kids were getting uneasy waiting. I had to calm them down a bit, then went to get the wine. Once back in the store the chip reader was broken. This meant I had to get cash. Luckily there was a ATM outside the store. I got the cash and got the wine. I returned to the car and everybody was yelling. Lets go! So we went on our way and arrived at my sister-in-laws house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my Mother-in-laws birthday part with my wife and kids. This is her 75th Birthday, my wife really was looking forward to her party. We all had the day off for this great event. We knew we would see my wife's sister and her family too. We stop to get some wine for the party. I went inside to get the wine but forgot my wallet in the car. I had to go back to the car. My wife and kids were getting uneasy waiting. I had to calm them down a bit, then went to get the wine. Once back in the store the chip reader was broken. This meant I had to get cash. Luckily there was a ATM outside the store. I got the cash and got the wine. I returned to the car and everybody was yelling. Lets go! So we went on our way and arrived at my sister-in-laws house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Everybody was having a great time. I was so happy to see my wife's sister and her family. I was also happy that I got the wine and didn't ruin the party."
+            }
+        ],
+        "request_id": "811e99e8d902c436-EWR"
+    }
+}

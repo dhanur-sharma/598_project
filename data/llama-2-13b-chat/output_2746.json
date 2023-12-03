@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I saw my neighbor one Friday afternoon and she asked me if I could do something about a little black kitten that kept scratching at her door for the past few weeks. I've always loved cats since I was a kid but never had one. This wasn't the first time I attempted to rescue a kitten. At first I was a little weary because I thought the kitten would be scared of me. To my surprise she ran right to me and let me pick her up. I brought her into my house and she was really tame, she just seemed hungry. At first I was going to take her to a shelter the next morning. There's a animal shelter right near my house so I thought it would be better if I just took her there. Then I thought about all of the animals that are already in the shelter. I thought they might have trouble finding her a home because she was a black cat. The next morning I decided to keep the cat. I went out and bought everything she needed to make her happy. Food, litter box, and toys. I didn't regret the decision and I still don't. She is now a sweet affection cat."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I saw my neighbor one Friday afternoon and she asked me if I could do something about a little black kitten that kept scratching at her door for the past few weeks. I've always loved cats since I was a kid but never had one. This wasn't the first time I attempted to rescue a kitten. At first I was a little weary because I thought the kitten would be scared of me. To my surprise she ran right to me and let me pick her up. I brought her into my house and she was really tame, she just seemed hungry. At first I was going to take her to a shelter the next morning. There's a animal shelter right near my house so I thought it would be better if I just took her there. Then I thought about all of the animals that are already in the shelter. I thought they might have trouble finding her a home because she was a black cat. The next morning I decided to keep the cat. I went out and bought everything she needed to make her happy. Food, litter box, and toys. I didn't regret the decision and I still don't. She is now a sweet affection cat.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ebcfb5a6718c0-EWR"
+    }
+}

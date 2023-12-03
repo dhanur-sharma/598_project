@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was nominated for a big award for romance writers. It is national and hundreds of people enter and only a few are chosen. It is a huge honor to be chosen. I was so excited. Everyone makes a big deal of it when you go there. It was very exciting because it was one of the first times that an African American won the big award. Everyone was so happy for them. They have been trying to promote more diversity within the group. It was very good for the people who were there. It was very significant to me for several reasons. First because I was part of it, it felt good. I also felt good to see more representation within our group. Everyone was so happy and excited. It was in a big ballroom in New York City. Even the news was there. It was beautiful and everyone dressed up in fancy gowns."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was nominated for a big award for romance writers. It is national and hundreds of people enter and only a few are chosen. It is a huge honor to be chosen. I was so excited. Everyone makes a big deal of it when you go there. It was very exciting because it was one of the first times that an African American won the big award. Everyone was so happy for them. They have been trying to promote more diversity within the group. It was very good for the people who were there. It was very significant to me for several reasons. First because I was part of it, it felt good. I also felt good to see more representation within our group. Everyone was so happy and excited. It was in a big ballroom in New York City. Even the news was there. It was beautiful and everyone dressed up in fancy gowns.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great night.\n\n"
+            }
+        ],
+        "request_id": "811eaa4d0f4f5e7d-EWR"
+    }
+}

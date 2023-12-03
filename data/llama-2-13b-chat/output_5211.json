@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently graduated college. It was the best feeling in the world. I worked so hard and even went an extra year to catch up so I could graduate. I bought my cap and gown and gave all my family members tickets to the graduation. Finally the day was here to graduate. I did my hair and make up, put on my gown, and headed to the park where it was located for graduation. I was so excited and went to sit with my friends. They started calling names and was in abc order from last name. My name was called after ages or so it felt. I walked up to get my diploma so tall and proud. As I reached the top of the stairs heading toward the stage I tripped and fell. I quickly stood up with red cheeks and grabbed my diploma. I smiled at the dean and walked off the stage with my head down. It was so embarrassing that I wish I never invited anyone to this event. It is something I will always remember and a lesson learned to never wear heels again. My parents even have pictures of this event so I can always share the memories."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently graduated college. It was the best feeling in the world. I worked so hard and even went an extra year to catch up so I could graduate. I bought my cap and gown and gave all my family members tickets to the graduation. Finally the day was here to graduate. I did my hair and make up, put on my gown, and headed to the park where it was located for graduation. I was so excited and went to sit with my friends. They started calling names and was in abc order from last name. My name was called after ages or so it felt. I walked up to get my diploma so tall and proud. As I reached the top of the stairs heading toward the stage I tripped and fell. I quickly stood up with red cheeks and grabbed my diploma. I smiled at the dean and walked off the stage with my head down. It was so embarrassing that I wish I never invited anyone to this event. It is something I will always remember and a lesson learned to never wear heels again. My parents even have pictures of this event so I can always share the memories.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be66a4cbf4337-EWR"
+    }
+}

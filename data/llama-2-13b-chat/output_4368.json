@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometime two months back, my brother had a very unexpected wedding. He has always loved fishing. Therefore, he figured he would have his wedding on a boat. This was not as surprising as the wedding itself. We knew about his girlfriend. However, we did not know they were that serious. He informed us one week before the wedding. The whole family was shocked. However, we put on our best attires and attended. It was a fairly nice boat. We had the ceremony successfully. There was a lot to eat and drink. We made merry and went home. Now my brother is married. I am next in line to take my girlfriend to the alter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometime two months back, my brother had a very unexpected wedding. He has always loved fishing. Therefore, he figured he would have his wedding on a boat. This was not as surprising as the wedding itself. We knew about his girlfriend. However, we did not know they were that serious. He informed us one week before the wedding. The whole family was shocked. However, we put on our best attires and attended. It was a fairly nice boat. We had the ceremony successfully. There was a lot to eat and drink. We made merry and went home. Now my brother is married. I am next in line to take my girlfriend to the alter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd571fdf819b6-EWR"
+    }
+}

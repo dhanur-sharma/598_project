@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago I was driving on the thruway on my way to work and my transmission died on my very first car ever.  I was so overwhelmed, I wasn't sure what I was going to do cause rebuilding a transmission is so expensive and I risk more going wrong with the car. My family finally talk me in to financing my first car. I mean if I am going to throw a few thousand towards fixing a transmission I might as well get a new car, it made sense. I go to the dealer ship with the car I had in mind I'd want to finance. The car was sitting on the lot, I was excited, my first ever financed car. I go for a test drive, everything seemed to be perfect. I get the car home after what seemed like an eternity, filling out paper work. I'm excited, I call my friends and we go for a drive to show off my new financed car. It was everything I wanted and more. I figured since this car was new I would not have anymore problems as far as transportation was concerned. Then I get the call that struck my heart in a sad way. I get a call from the dealership telling me he canceled my contract and I must return this car immediately! Turns out, he canceled my contract because he was a crooked dealer who lied to the bank about my income. I was hurt by this. I returned the car and ended up having to refinance a car that was not of my choice and impacted my credit score. Not only has it impacted my credit score but my payments I was making before the refinancing was a lot less than what I am paying now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago I was driving on the thruway on my way to work and my transmission died on my very first car ever.  I was so overwhelmed, I wasn't sure what I was going to do cause rebuilding a transmission is so expensive and I risk more going wrong with the car. My family finally talk me in to financing my first car. I mean if I am going to throw a few thousand towards fixing a transmission I might as well get a new car, it made sense. I go to the dealer ship with the car I had in mind I'd want to finance. The car was sitting on the lot, I was excited, my first ever financed car. I go for a test drive, everything seemed to be perfect. I get the car home after what seemed like an eternity, filling out paper work. I'm excited, I call my friends and we go for a drive to show off my new financed car. It was everything I wanted and more. I figured since this car was new I would not have anymore problems as far as transportation was concerned. Then I get the call that struck my heart in a sad way. I get a call from the dealership telling me he canceled my contract and I must return this car immediately! Turns out, he canceled my contract because he was a crooked dealer who lied to the bank about my income. I was hurt by this. I returned the car and ended up having to refinance a car that was not of my choice and impacted my credit score. Not only has it impacted my credit score but my payments I was making before the refinancing was a lot less than what I am paying now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so frustrated, not only because of the money that was lost but also the fact that this dealer had the audacity to lie to my face. I felt like I was robbed."
+            }
+        ],
+        "request_id": "811ec142dcb44303-EWR"
+    }
+}

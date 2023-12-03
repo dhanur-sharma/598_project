@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last weekend, I attended my nephew's birthday party.  He turned 3 years old.  It was a lovely event with several kids who came to play at the party, and then a small handful of adults.  It was laid back.  They decided to try to get the birthday cake last minute, and it took several hours for them to find a place that could bake a cake last minute.  While we were served dinner, it was quite late by the time we were able to eat because we had to wait until the cake arrived before we could eat.  But, eventually it did arrive and we ate dinner together.  Next, my nephew decided it was time to start opening presents.  He started without telling anyone, and his parents were out of the room when he started.  They were surprised to find that he opened almost all of his presents before they were able to watch him.  We all laughed at his eagerness to open the gifts!  I think he wanted to open the gifts because he was most excited about eating the cake, and wanted to be able to do that as soon as possible.  He blew out his candle and immediately started picking off the cake decorations and icing and eating it.  The cake was quickly pulled away, so he wouldn't eat all of the toppings.  At the end, we were each served a slice of cake.  It was a very enjoyable afternoon/evening."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last weekend, I attended my nephew's birthday party.  He turned 3 years old.  It was a lovely event with several kids who came to play at the party, and then a small handful of adults.  It was laid back.  They decided to try to get the birthday cake last minute, and it took several hours for them to find a place that could bake a cake last minute.  While we were served dinner, it was quite late by the time we were able to eat because we had to wait until the cake arrived before we could eat.  But, eventually it did arrive and we ate dinner together.  Next, my nephew decided it was time to start opening presents.  He started without telling anyone, and his parents were out of the room when he started.  They were surprised to find that he opened almost all of his presents before they were able to watch him.  We all laughed at his eagerness to open the gifts!  I think he wanted to open the gifts because he was most excited about eating the cake, and wanted to be able to do that as soon as possible.  He blew out his candle and immediately started picking off the cake decorations and icing and eating it.  The cake was quickly pulled away, so he wouldn't eat all of the toppings.  At the end, we were each served a slice of cake.  It was a very enjoyable afternoon/evening.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca53cdbb0f3f-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In February I took a trip to Japan with my family to visit some extended family members that I hadn't seen in a long time. We spent most of the trip in Okinawa because that is where my family is from. On the first night my aunt picked us up from the airport in the rental car. We spent the beginning of the trip doing tourist activities. We went to museums, saw the aquarium, and went to the beach as well. We also went out to eat a lot. My favorite part of the trip was when my aunt threw a large party for our family. The party took place at a large community center that my great grandfather had helped build. Our family sung and dance and gave speeches that were very emotional. They talked a lot about my grandmother and how thankful they were for her. My mom also spoke, talking about how much she missed her family. They also provided us a traditional dinner which was very nice. It made me emotionally realizing how much time and effort they had put into the party. My parents also seemed very thankful for the party. Before going back to America, my family also went to Osaka and Tokyo."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In February I took a trip to Japan with my family to visit some extended family members that I hadn't seen in a long time. We spent most of the trip in Okinawa because that is where my family is from. On the first night my aunt picked us up from the airport in the rental car. We spent the beginning of the trip doing tourist activities. We went to museums, saw the aquarium, and went to the beach as well. We also went out to eat a lot. My favorite part of the trip was when my aunt threw a large party for our family. The party took place at a large community center that my great grandfather had helped build. Our family sung and dance and gave speeches that were very emotional. They talked a lot about my grandmother and how thankful they were for her. My mom also spoke, talking about how much she missed her family. They also provided us a traditional dinner which was very nice. It made me emotionally realizing how much time and effort they had put into the party. My parents also seemed very thankful for the party. Before going back to America, my family also went to Osaka and Tokyo.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We saw a lot of famous landmarks like the Osaka castle and Mount Fuji. We also went to the famous Ginza district in Tokyo. Overall, I had a great time on the trip and I'm very glad I got to see my extended family again.\n\n"
+            }
+        ],
+        "request_id": "811eb8d51dcd4322-EWR"
+    }
+}

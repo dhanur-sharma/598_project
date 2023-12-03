@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was 9:30 in the morning. I had left my house on my usual run, about two and a half miles through the woods and hills. I still live not too far from where I grew up, only a few miles from my home. On that particular morning, I wanted to go further, take a longer route. This particular route was about five or six miles, a longer and rockier trail than I had been used to. Part of the trail touches the school yard I remember so well from being a child. I decided to cross the narrow band of woods that separates the yard from the trail and look at what had changed. The forest opens to a groomed field, grass still wet from the morning dew. It had once been a soccer field, now the goal posts fell to rot and ruin. A baseball diamond to the left, rusted chain link fence. Separating the field from the playground was once a row of trees. Only one was left now. I walked towards it, an eery feeling creeping from my stomach into my throat where it stretched and grew and enveloped my good sense. It was a June morning, and the kids had long since left on their vacation. It was absolutely quiet there, serene and haunting. My feet heavy from the trek, my motions were almost lethargic. The one tree that had been left was the one I remembered most, a place of sanctitude that I had gone to be away from the other children at recess. I seated myself in the dirt beneath its branches. I closed my eyes and listened to the sound of silence. I had felt truly alone for the first time in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was 9:30 in the morning. I had left my house on my usual run, about two and a half miles through the woods and hills. I still live not too far from where I grew up, only a few miles from my home. On that particular morning, I wanted to go further, take a longer route. This particular route was about five or six miles, a longer and rockier trail than I had been used to. Part of the trail touches the school yard I remember so well from being a child. I decided to cross the narrow band of woods that separates the yard from the trail and look at what had changed. The forest opens to a groomed field, grass still wet from the morning dew. It had once been a soccer field, now the goal posts fell to rot and ruin. A baseball diamond to the left, rusted chain link fence. Separating the field from the playground was once a row of trees. Only one was left now. I walked towards it, an eery feeling creeping from my stomach into my throat where it stretched and grew and enveloped my good sense. It was a June morning, and the kids had long since left on their vacation. It was absolutely quiet there, serene and haunting. My feet heavy from the trek, my motions were almost lethargic. The one tree that had been left was the one I remembered most, a place of sanctitude that I had gone to be away from the other children at recess. I seated myself in the dirt beneath its branches. I closed my eyes and listened to the sound of silence. I had felt truly alone for the first time in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The silence was a physical thing, it wrapped itself around me and held me. It was as if the world had stopped turning, and all was still. I had never felt so alone in my life.\n\n"
+            }
+        ],
+        "request_id": "811f3787c8d0429e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had just spent time with him two days prior. We went to a fourth of July carnival in town. We met up with some other old friends down there and had a fun time. I dropped him back off at home after. Two days later I hear that he had passed away suddenly. It was such a shock that it didn't really seem real at first. It took a few hours to really set in. I spent that entire day on the phone with friends. Telling them the news and talking to them about it. It was great the way that everyone came together so quickly to support each other. The funeral was tough but it was good to see so many old familiar faces in the same room again after years apart. I think my life has changed significantly since. It has made me more appreciate everyone more and focus more on spending time with the people in my life, even if I'm too tired to want to do anything or any other kind of excuse. It still sucks without him here, sometimes for a second I will forget that he's gone. Sometimes I try not to think about it too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had just spent time with him two days prior. We went to a fourth of July carnival in town. We met up with some other old friends down there and had a fun time. I dropped him back off at home after. Two days later I hear that he had passed away suddenly. It was such a shock that it didn't really seem real at first. It took a few hours to really set in. I spent that entire day on the phone with friends. Telling them the news and talking to them about it. It was great the way that everyone came together so quickly to support each other. The funeral was tough but it was good to see so many old familiar faces in the same room again after years apart. I think my life has changed significantly since. It has made me more appreciate everyone more and focus more on spending time with the people in my life, even if I'm too tired to want to do anything or any other kind of excuse. It still sucks without him here, sometimes for a second I will forget that he's gone. Sometimes I try not to think about it too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I know he will always be with me.\n\n"
+            }
+        ],
+        "request_id": "811eb2b13a488c8f-EWR"
+    }
+}

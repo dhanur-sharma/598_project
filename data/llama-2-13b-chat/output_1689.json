@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently had surgery for my knee injury. Surgery went well, but the doctor found the injury was worse than expected. I had to have addition repairs done to my knee. It also turns out the recovery is way longer than expected. I was told by the doctor I would be walking again a few days after the procedure. However, that wasn't true. It turns out that this will be a 3-6 months recovery process. Right now now I am going on about 2 months. I still can't fully bend my knee back past 90 degrees. And I still experience a lot of pain. The pain usually hurts the most at night and keeps me up sometimes. I am required to wear a knee brace all the time. But the brace is pretty uncomfortable and itchy so I take a break every chance I get. All in all right now this wasn't looking like the best idea. But I guess that's just the process of going through recovery. I am in physical therapy two time a week, and it does help. So hopefully after therapy is completed I will be better off."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently had surgery for my knee injury. Surgery went well, but the doctor found the injury was worse than expected. I had to have addition repairs done to my knee. It also turns out the recovery is way longer than expected. I was told by the doctor I would be walking again a few days after the procedure. However, that wasn't true. It turns out that this will be a 3-6 months recovery process. Right now now I am going on about 2 months. I still can't fully bend my knee back past 90 degrees. And I still experience a lot of pain. The pain usually hurts the most at night and keeps me up sometimes. I am required to wear a knee brace all the time. But the brace is pretty uncomfortable and itchy so I take a break every chance I get. All in all right now this wasn't looking like the best idea. But I guess that's just the process of going through recovery. I am in physical therapy two time a week, and it does help. So hopefully after therapy is completed I will be better off.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea917b97a0f8b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I visited Zion National Part with my parents. It was an exciting trip, since I just graduated from college. It was also the first family trip we took with the three of us in months, so it was fun to be just with them. I really enjoyed the trails and exploring the landscape of the national park. I was a bit out of shape, so some of the trails were difficult, but I felt happy once I completed them. My favorite walks on the trail were the paths that lead to waterfalls and hanging gardens. There were beautiful rock formations, and amazing plant life. Also, the bus ride up to the trails was fascinating, especially seeing the variety of different locations. After our days in the park, we headed into town to check out the shops. A lot of the shops were rock and mineral shops. There were some nice rocks, but I didn't end up purchasing any. There were also lots of outdoor stores that had a wide range of supplies. I got a hat and a water bottle as a souvenir. We also went to some local restaurants and had some snacks and drinks. Overall, the trip was very fun and memorable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I visited Zion National Part with my parents. It was an exciting trip, since I just graduated from college. It was also the first family trip we took with the three of us in months, so it was fun to be just with them. I really enjoyed the trails and exploring the landscape of the national park. I was a bit out of shape, so some of the trails were difficult, but I felt happy once I completed them. My favorite walks on the trail were the paths that lead to waterfalls and hanging gardens. There were beautiful rock formations, and amazing plant life. Also, the bus ride up to the trails was fascinating, especially seeing the variety of different locations. After our days in the park, we headed into town to check out the shops. A lot of the shops were rock and mineral shops. There were some nice rocks, but I didn't end up purchasing any. There were also lots of outdoor stores that had a wide range of supplies. I got a hat and a water bottle as a souvenir. We also went to some local restaurants and had some snacks and drinks. Overall, the trip was very fun and memorable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had a great time with my family, and I'm so glad we got to spend some quality time together. I would definitely go back to Zion National Park again.\n\n"
+            }
+        ],
+        "request_id": "811ed1b68dcd4315-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My Grandma recently has decided to sell her house. This house is far more than a place to live. It has always been my safe space. She raised me from the time I was 3. She has always been my person. The one person who I could call when everything is going wrong and she would say \"come on over!\" Now that she is moving I feel like that is all changing. Heaven forbid I need a place to go her house won't be an option. I have been helping her to clean it out and go through things. I am strong for her but I really could just sit down and cry.    When you are a child you don't ever think that your childhood home will one day be gone. But that is how I feel. My safe space will belong to someone else and never again will I pull into that driveway and walk up to the door. I think that is the hardest part. I wonder how many times I will forget and pull in without even thinking about it.    As I was helping her go through photographs and papers I found so many of my photos that I didn't even realize existed. She has every dance photo I ever took. She has all of my costumes too! I am 33 years old and my grandmother has kept every childhood memory she could of me. It is nice to know that those memories mean just as much to her as they do to me. When it is gone for good I will still have all of those memories. And I can still go visit my grandmother and talk with her. For that I am so thankful. She is my safe space. Not the house. Not the town."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My Grandma recently has decided to sell her house. This house is far more than a place to live. It has always been my safe space. She raised me from the time I was 3. She has always been my person. The one person who I could call when everything is going wrong and she would say \"come on over!\" Now that she is moving I feel like that is all changing. Heaven forbid I need a place to go her house won't be an option. I have been helping her to clean it out and go through things. I am strong for her but I really could just sit down and cry.    When you are a child you don't ever think that your childhood home will one day be gone. But that is how I feel. My safe space will belong to someone else and never again will I pull into that driveway and walk up to the door. I think that is the hardest part. I wonder how many times I will forget and pull in without even thinking about it.    As I was helping her go through photographs and papers I found so many of my photos that I didn't even realize existed. She has every dance photo I ever took. She has all of my costumes too! I am 33 years old and my grandmother has kept every childhood memory she could of me. It is nice to know that those memories mean just as much to her as they do to me. When it is gone for good I will still have all of those memories. And I can still go visit my grandmother and talk with her. For that I am so thankful. She is my safe space. Not the house. Not the town.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My grandmother. "
+            }
+        ],
+        "request_id": "811be2b42b3ac3fa-EWR"
+    }
+}

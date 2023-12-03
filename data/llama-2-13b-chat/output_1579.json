@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One month ago i went to Italy. Me and me wife rented a log cabin. When we got to the cabin we looked at brochures of things to do in the area. at first we went site seeing. after that we saw Dolomite mountain. My wife said we should go hiking on that mountain range. at first i was skeptical. After more research i decided it would be fun for us to do. We gathered some supplies. Then we started at the bottom of the range. the first day we got very far, to the top of the range. then it became nighttime. i set up our tent for the night. the next morning we hiked down the mountain range. it was a very exciting experience. i couldn't believe we went that far along the mountain range."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One month ago i went to Italy. Me and me wife rented a log cabin. When we got to the cabin we looked at brochures of things to do in the area. at first we went site seeing. after that we saw Dolomite mountain. My wife said we should go hiking on that mountain range. at first i was skeptical. After more research i decided it would be fun for us to do. We gathered some supplies. Then we started at the bottom of the range. the first day we got very far, to the top of the range. then it became nighttime. i set up our tent for the night. the next morning we hiked down the mountain range. it was a very exciting experience. i couldn't believe we went that far along the mountain range.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea7260e24440b-EWR"
+    }
+}

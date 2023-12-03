@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On Mother's Day this year I was given the greatest gift of my entire life. My step-daughter Julie and her husband took me and my husband out for lunch at a fancy little restaurant in town. I was excited to try this place out because I had never gone there before. I was so happy to be able to spend the day with my step-daughter, I hadn't seen her in a while. When we got to the restaurant we sat down and ordered drinks and appetizers. I noticed Julie and her husband kept glancing at each other during the meal, I just thought they were being silly. After the food got to the table then both put their forks down and said they had something to tell us. I was nervous because I thought something bad had happened. Julie had cancer several years ago and I always worry that it will come back. Imagine my surprise, and relief, when they told me they were expecting a baby! My first grandchild! I nearly fell out of my chair. I have always wanted a grandchild. Julie was told many years ago that she would most likely struggle with fertility as a result of her cancer treatment, so we never really expected her to be able to have a baby. This was the greatest news that anyone could have ever given me. My husband and I smiled for a week it felt like afterwards."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On Mother's Day this year I was given the greatest gift of my entire life. My step-daughter Julie and her husband took me and my husband out for lunch at a fancy little restaurant in town. I was excited to try this place out because I had never gone there before. I was so happy to be able to spend the day with my step-daughter, I hadn't seen her in a while. When we got to the restaurant we sat down and ordered drinks and appetizers. I noticed Julie and her husband kept glancing at each other during the meal, I just thought they were being silly. After the food got to the table then both put their forks down and said they had something to tell us. I was nervous because I thought something bad had happened. Julie had cancer several years ago and I always worry that it will come back. Imagine my surprise, and relief, when they told me they were expecting a baby! My first grandchild! I nearly fell out of my chair. I have always wanted a grandchild. Julie was told many years ago that she would most likely struggle with fertility as a result of her cancer treatment, so we never really expected her to be able to have a baby. This was the greatest news that anyone could have ever given me. My husband and I smiled for a week it felt like afterwards.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was truly the best Mother's Day gift I have ever received."
+            }
+        ],
+        "request_id": "811ea35e5ede43e9-EWR"
+    }
+}

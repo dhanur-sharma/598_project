@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Jane, was honored for a life service.  She is super smart.  She worked on getting funds and doing fundraising for the university.  She was focused a lot on outside contributors.  Her biggest donation came in the amount of $100,000.  Jane attended this university.  Her degree was in the arts, but raising money was something she always excelled in.  When she was a girl scout, she earned multiple badges related to fundraising.  The honor from the university came with a beautiful letter, which was framed.  She also received a gift certificate to a local diner.  Her friends and family were part of the celebration.  Her boyfriend also attended.  She had many of her fellow students there as well.  It was a wonderful day, full of excitement.  They also served coffee and cake."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Jane, was honored for a life service.  She is super smart.  She worked on getting funds and doing fundraising for the university.  She was focused a lot on outside contributors.  Her biggest donation came in the amount of $100,000.  Jane attended this university.  Her degree was in the arts, but raising money was something she always excelled in.  When she was a girl scout, she earned multiple badges related to fundraising.  The honor from the university came with a beautiful letter, which was framed.  She also received a gift certificate to a local diner.  Her friends and family were part of the celebration.  Her boyfriend also attended.  She had many of her fellow students there as well.  It was a wonderful day, full of excitement.  They also served coffee and cake.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be1a88a1f41fb-EWR"
+    }
+}

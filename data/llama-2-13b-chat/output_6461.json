@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I graduated in 1996 on accounting and Finance. In 2016, I went back to school and finally received my Master's degree which was a goal of mine.  I had been working on the same place for 20 years which was very flexible and allowed me to raise my kids. At the time of graduation, I was ready to move on and start working on a career for myself. Though my background is good, my experience did not align with my Master's therefore it took me a while to find a job. After a year and a half looking I finally found the perfect job for me. My boss was not the easiest and would constantly make my life miserable. Constantly, tricking me and putting me down. Two months ago, after almost one year I was laid off. I came to find out, I was the 5th person in my position in three years. My boss kept feeling threaten by whoever took that position. She is a very smart girl with a great future and it was ridiculous for her to feel threatened. It was very painful and disappointing since I really enjoyed what I was doing and the people I was working with (other than my boss). I was called into the office of my bosses boss and he told me that I was being laid off. I had given my heart to the job and it is going to take time to find another job like that one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I graduated in 1996 on accounting and Finance. In 2016, I went back to school and finally received my Master's degree which was a goal of mine.  I had been working on the same place for 20 years which was very flexible and allowed me to raise my kids. At the time of graduation, I was ready to move on and start working on a career for myself. Though my background is good, my experience did not align with my Master's therefore it took me a while to find a job. After a year and a half looking I finally found the perfect job for me. My boss was not the easiest and would constantly make my life miserable. Constantly, tricking me and putting me down. Two months ago, after almost one year I was laid off. I came to find out, I was the 5th person in my position in three years. My boss kept feeling threaten by whoever took that position. She is a very smart girl with a great future and it was ridiculous for her to feel threatened. It was very painful and disappointing since I really enjoyed what I was doing and the people I was working with (other than my boss). I was called into the office of my bosses boss and he told me that I was being laid off. I had given my heart to the job and it is going to take time to find another job like that one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was given a great severance package so I am grateful for that. I am now in the process of finding another job.\n\n"
+            }
+        ],
+        "request_id": "811f45bb4a440cae-EWR"
+    }
+}

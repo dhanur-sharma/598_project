@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, I went to a restaurant. I had a good time in the restaurant. I started out with a big cola. It was very delicious. I then got some queso to eat. It was pretty good. I then ordered some fajitas. They were beef fajitas. The waiter almost tripped with the fajitas. That would of been disastrous. Gladly, he didn't drop the fajitas. The fajitas turned out decent. They were a little chewy. I got the bill. It was a little pricey. I gave the waiter a decent sized tip of the tragedy that almost fell both of us with the fajitas. I gave a big smile to the waiter after giving the tip. I walked out with some sweat on my forehead."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, I went to a restaurant. I had a good time in the restaurant. I started out with a big cola. It was very delicious. I then got some queso to eat. It was pretty good. I then ordered some fajitas. They were beef fajitas. The waiter almost tripped with the fajitas. That would of been disastrous. Gladly, he didn't drop the fajitas. The fajitas turned out decent. They were a little chewy. I got the bill. It was a little pricey. I gave the waiter a decent sized tip of the tragedy that almost fell both of us with the fajitas. I gave a big smile to the waiter after giving the tip. I walked out with some sweat on my forehead.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3e55d6718b1-EWR"
+    }
+}

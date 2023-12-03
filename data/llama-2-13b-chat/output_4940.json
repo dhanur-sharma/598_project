@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cousin got married in Washington. We enjoy a lot. It makes me very happy. I met many family members in this wedding. I also met my school friends in this wedding function. We take many photos. They are good memories to me. This wedding function is one of the memorable day in my life. Me and my friends are speak with our olden memories. It gives me a wonderful feeling. The happiest moment in our life is met our friends at the unexpected moment. I also feel it. Because i don't know they are come to my cousin wedding. They gives me a very good company. My friends are so lovable. They made my day. I am very lucky to having such a friends. It was the unforgettable day in my life. My cousin also so cute. That wedding is so beautiful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cousin got married in Washington. We enjoy a lot. It makes me very happy. I met many family members in this wedding. I also met my school friends in this wedding function. We take many photos. They are good memories to me. This wedding function is one of the memorable day in my life. Me and my friends are speak with our olden memories. It gives me a wonderful feeling. The happiest moment in our life is met our friends at the unexpected moment. I also feel it. Because i don't know they are come to my cousin wedding. They gives me a very good company. My friends are so lovable. They made my day. I am very lucky to having such a friends. It was the unforgettable day in my life. My cousin also so cute. That wedding is so beautiful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I enjoyed a lot.\n\n"
+            }
+        ],
+        "request_id": "811be123bba71784-EWR"
+    }
+}

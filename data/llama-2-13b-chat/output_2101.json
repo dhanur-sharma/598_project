@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, I was working in the ER. It was a normal, typical day. I was seeing patients, supervising interns and students, and staying vey busy. At one point during the shift, I heard my name called overhead. In our ER, this does not typically happen. Thus, I was very confused. As I walked up to the front desk of the ER, I saw a lady whom I did not know. She was holding a beautiful plant. I was unsure if she had anything to do with the reason I was called to the front of the ER. The woman introduced herself to me and asked if I remembered her. Awkwardly, I told her I did not recall meeting her in the past. She told me that I had saved her life several months ago. She told me that she had come in for an overdose and almost died. I immediately remembered everything about the day I saw her. She was depressed and overdosed on several very toxic medications. She required a breathing tube and mechanical ventilation. She required infusions to artificially increase her blood pressure and another infusion to fix the acid/base balance in her blood. After over a week in the intensive care unit, she was stabilized and successfully discharged. She told me that since then, she has reconnected with her family, gone back to school, and has recently been hired for a new job. She came by to thank me. I was speechless. This brought tears to my eyes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, I was working in the ER. It was a normal, typical day. I was seeing patients, supervising interns and students, and staying vey busy. At one point during the shift, I heard my name called overhead. In our ER, this does not typically happen. Thus, I was very confused. As I walked up to the front desk of the ER, I saw a lady whom I did not know. She was holding a beautiful plant. I was unsure if she had anything to do with the reason I was called to the front of the ER. The woman introduced herself to me and asked if I remembered her. Awkwardly, I told her I did not recall meeting her in the past. She told me that I had saved her life several months ago. She told me that she had come in for an overdose and almost died. I immediately remembered everything about the day I saw her. She was depressed and overdosed on several very toxic medications. She required a breathing tube and mechanical ventilation. She required infusions to artificially increase her blood pressure and another infusion to fix the acid/base balance in her blood. After over a week in the intensive care unit, she was stabilized and successfully discharged. She told me that since then, she has reconnected with her family, gone back to school, and has recently been hired for a new job. She came by to thank me. I was speechless. This brought tears to my eyes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to see her alive and well. She thanked me again and left. I went back to work, but I was left with a newfound appreciation for my job and the impact I can have on others.\n\n"
+            }
+        ],
+        "request_id": "811eb02f681d43a5-EWR"
+    }
+}

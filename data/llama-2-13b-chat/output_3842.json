@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was shocked when I received the invitation in the mail. My cousin Anna, who I hadn't spoken to in years, was getting married. Our families notoriously hated each other, so I guess this was her attempt at an olive branch. At first I wasn't going to go. But then I talked it over with my mother and she thought it would be a good idea to attend. She said when I was younger Anna and I were very close and that Anna probably missed me. I sent the RSVP back saying I would attend with my boyfriend. I was pretty nervous walking into the reception. I hadn't seen many of these relatives in at least 5 years. Some of them had big fights with my mother. I wasn't sure what everyone thought of me. I quickly found my seat and sat down so I could observe the room. I noticed right away that everyone was drinking heavily. I figured it was in my best interest to stay sober. The night proceeded without any issues. I talked to my cousin, it was great to see her. I also talked to a few aunts and uncles that I hadn't seen. No one mentioned my mother, which was great.  At the end as I was walking out I watched as one of my aunts vomited all over the table. I couldn't wait to tell that part to my mom!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was shocked when I received the invitation in the mail. My cousin Anna, who I hadn't spoken to in years, was getting married. Our families notoriously hated each other, so I guess this was her attempt at an olive branch. At first I wasn't going to go. But then I talked it over with my mother and she thought it would be a good idea to attend. She said when I was younger Anna and I were very close and that Anna probably missed me. I sent the RSVP back saying I would attend with my boyfriend. I was pretty nervous walking into the reception. I hadn't seen many of these relatives in at least 5 years. Some of them had big fights with my mother. I wasn't sure what everyone thought of me. I quickly found my seat and sat down so I could observe the room. I noticed right away that everyone was drinking heavily. I figured it was in my best interest to stay sober. The night proceeded without any issues. I talked to my cousin, it was great to see her. I also talked to a few aunts and uncles that I hadn't seen. No one mentioned my mother, which was great.  At the end as I was walking out I watched as one of my aunts vomited all over the table. I couldn't wait to tell that part to my mom!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed2561fa143f8-EWR"
+    }
+}

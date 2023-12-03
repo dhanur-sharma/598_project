@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently took one of the best trips of my life. I went on vacation this summer to NYC. I have always wanted to travel to New York. I have had dreams of going there since I was a little kid. I majored in finance in college so to be able to see the biggest financial district in the world was incredible. I went on a tour of wall street and took a picture with the infamous bull. There are so many things to do in NYC and my best friend and I made the most of our time. We went on a ferry ride to go see the Statue of Liberty. We went and saw the memorial for the twin towers. One of my favorite moments was when we went to a rooftop bar and was hanging out with a perfect view of the sky-line. The only negative thing about NYC is the prices. It was like $15 for a cocktail, I knew it would be expensive there but it was crazy. Another plus about the city is that there is world-class dining pretty much everywhere you go. You could eat world-class dining or you could get a hot dog from a cart and either way the food was delicious. If it wasn't so expensive to live there I would definitely want to move, the city life is for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently took one of the best trips of my life. I went on vacation this summer to NYC. I have always wanted to travel to New York. I have had dreams of going there since I was a little kid. I majored in finance in college so to be able to see the biggest financial district in the world was incredible. I went on a tour of wall street and took a picture with the infamous bull. There are so many things to do in NYC and my best friend and I made the most of our time. We went on a ferry ride to go see the Statue of Liberty. We went and saw the memorial for the twin towers. One of my favorite moments was when we went to a rooftop bar and was hanging out with a perfect view of the sky-line. The only negative thing about NYC is the prices. It was like $15 for a cocktail, I knew it would be expensive there but it was crazy. Another plus about the city is that there is world-class dining pretty much everywhere you go. You could eat world-class dining or you could get a hot dog from a cart and either way the food was delicious. If it wasn't so expensive to live there I would definitely want to move, the city life is for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I loved my time in NYC and I would definitely go back."
+            }
+        ],
+        "request_id": "811ea6de2e7942aa-EWR"
+    }
+}

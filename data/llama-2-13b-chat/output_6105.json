@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My college graduation was months ago, but felt like it was yesterday. I worked very hard to get to that point, and I still have a hard time believing I achieved my goal. My family (my dad and sister) went to my graduation, so it was nice knowing that I had some support in the audience. It was a hot day with a slight breeze. I found myself feeling like I was in a dream, almost wanting to pinch myself to make sure the moment was real. It was a long process; there were a ton of speeches and it was dragging on for a long time. Eventually it was time for my group to get their diploma and I was beyond ready to get it over with. Dont get me wrong, I loved the occasion, but it was taking to long to get to the point. When my name was called, I couldnt be anymore excited. As I walked to the person holding my diploma, I have a giant smile going from ear to ear. Once I had the diploma in my hand, I wanted to leave and get some food, but I had to go back and sit with the group. I can definitely say though, that it was an achievement worth all the hard work. I had my doubts at times, but it paid off. I achieved my goal and got what I wanted. I had times when I wanted to give up, but was glad I didnt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My college graduation was months ago, but felt like it was yesterday. I worked very hard to get to that point, and I still have a hard time believing I achieved my goal. My family (my dad and sister) went to my graduation, so it was nice knowing that I had some support in the audience. It was a hot day with a slight breeze. I found myself feeling like I was in a dream, almost wanting to pinch myself to make sure the moment was real. It was a long process; there were a ton of speeches and it was dragging on for a long time. Eventually it was time for my group to get their diploma and I was beyond ready to get it over with. Dont get me wrong, I loved the occasion, but it was taking to long to get to the point. When my name was called, I couldnt be anymore excited. As I walked to the person holding my diploma, I have a giant smile going from ear to ear. Once I had the diploma in my hand, I wanted to leave and get some food, but I had to go back and sit with the group. I can definitely say though, that it was an achievement worth all the hard work. I had my doubts at times, but it paid off. I achieved my goal and got what I wanted. I had times when I wanted to give up, but was glad I didnt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I learned a lot about myself and what I can accomplish.\n\n"
+            }
+        ],
+        "request_id": "811f3ef2cb1a4370-EWR"
+    }
+}

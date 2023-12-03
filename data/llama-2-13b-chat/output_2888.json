@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was just a normal day that I had to myself. Since I enjoy riding my motorcycle in these off days, I figured today would be a great day. I woke up early so I could get whatever I needed to finished at home. After I was finished I checked the weather and once I say it would be good, got ready to go on my motorcycle ride. My plans were to spend about an hour or two on the normal route I go, but that changed later on. The first half of my trip went as normal. I took in the views and spent most of the time relaxing. I was listening to music during the ride too. The weather was nice and there weren't too many cars on the road. I was starting to think it was time to head back. I figured I would take one last road before heading home. The road was one that I hadn't road on in an of my trips, so I thought it would be nice to check it out. Instead, things went much differently. There was a car coming from the other side of the road, and just as we were both getting close to each other a deer jumped out at us from the woods. I had to quickly steer myself off the road, as to not hit either the door or the other car. I ended up crashing into a tree and the other car made it by fine and the deer jumped away unharmed. The other car stopped and waiting around with me for the police to arrive, and I made it out with only minor injuries."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was just a normal day that I had to myself. Since I enjoy riding my motorcycle in these off days, I figured today would be a great day. I woke up early so I could get whatever I needed to finished at home. After I was finished I checked the weather and once I say it would be good, got ready to go on my motorcycle ride. My plans were to spend about an hour or two on the normal route I go, but that changed later on. The first half of my trip went as normal. I took in the views and spent most of the time relaxing. I was listening to music during the ride too. The weather was nice and there weren't too many cars on the road. I was starting to think it was time to head back. I figured I would take one last road before heading home. The road was one that I hadn't road on in an of my trips, so I thought it would be nice to check it out. Instead, things went much differently. There was a car coming from the other side of the road, and just as we were both getting close to each other a deer jumped out at us from the woods. I had to quickly steer myself off the road, as to not hit either the door or the other car. I ended up crashing into a tree and the other car made it by fine and the deer jumped away unharmed. The other car stopped and waiting around with me for the police to arrive, and I made it out with only minor injuries.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was in shock and couldn't believe what had just happened. I am very lucky that I made it out with only minor injuries. I am also grateful that the other car was able to stop and wait for the police to arrive. I am also grateful that the deer was unharmed and that it didn't cause more damage or injuries."
+            }
+        ],
+        "request_id": "811ec017b9cc5e82-EWR"
+    }
+}

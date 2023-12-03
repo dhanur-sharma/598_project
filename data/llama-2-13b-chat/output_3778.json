@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Nearly a year ago I was asked to dinner by the parents of my now-Godson Herman.  I was very surprised that they asked me to do the honor as I didn't know them very well.  I accepted, of course.  The ceremony was held about two months after his birth.  It's about 9 months ago now.  The rite is beautiful (Orthodox Christian).  It's an immersive baptism, three dunks.  Everything went well.  Except that he peed in the font while being baptized.  Embarrassing, but not unheard of.  There were two babies after him to be baptized, unfortunately, in the same water.  It's been great having a godson.  My wife and I have been unable to have children so it really has been a godsend for us.  We've also grown quite close to his parents.  They're over several times a month."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Nearly a year ago I was asked to dinner by the parents of my now-Godson Herman.  I was very surprised that they asked me to do the honor as I didn't know them very well.  I accepted, of course.  The ceremony was held about two months after his birth.  It's about 9 months ago now.  The rite is beautiful (Orthodox Christian).  It's an immersive baptism, three dunks.  Everything went well.  Except that he peed in the font while being baptized.  Embarrassing, but not unheard of.  There were two babies after him to be baptized, unfortunately, in the same water.  It's been great having a godson.  My wife and I have been unable to have children so it really has been a godsend for us.  We've also grown quite close to his parents.  They're over several times a month.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I've been able to help out with some of the expenses of raising him.  I've become like an uncle to him.  We go on walks together.  I read to him.  It's been great.\n\n"
+            }
+        ],
+        "request_id": "811ed0f0dc8843db-EWR"
+    }
+}

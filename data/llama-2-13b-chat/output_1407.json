@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was an extremely weird day. I don't even recollect what happened and transpired fully. Doctor Mike had always wanted to do this tilt table test for me. I have been having this headaches regularly these days, and he felt this test would give a conclusive diagnosis. I was hesitant but i finally agreed. I remember i was shivering as i walked into the clinic this morning. God, i always hated the smell of hospitals. But i was surprisingly ok today. Doc was kind enough to not keep me waiting for long. He made me lie down on a table and i was tied down on it. Then the table started tilting all the way around. At first it was slow, then it gained speed. I felt anxious. I remember sweat rolling down upon my cheeks. Last thing i remember is a bright light. I had passed out. It was very embarrassing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was an extremely weird day. I don't even recollect what happened and transpired fully. Doctor Mike had always wanted to do this tilt table test for me. I have been having this headaches regularly these days, and he felt this test would give a conclusive diagnosis. I was hesitant but i finally agreed. I remember i was shivering as i walked into the clinic this morning. God, i always hated the smell of hospitals. But i was surprisingly ok today. Doc was kind enough to not keep me waiting for long. He made me lie down on a table and i was tied down on it. Then the table started tilting all the way around. At first it was slow, then it gained speed. I felt anxious. I remember sweat rolling down upon my cheeks. Last thing i remember is a bright light. I had passed out. It was very embarrassing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have no idea how i got back home. I don't even know what time it is. What a weird day!\n\n"
+            }
+        ],
+        "request_id": "811ea42ad9b0c439-EWR"
+    }
+}

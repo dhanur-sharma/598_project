@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went to Target before noon with my mother. I got a Funko Bulbasaur POP. I also got some Pokemon cards and posters about Detective Pikachu for my brother. We watched the movie later that day. It was a fun movie but was very bland. I decided to play with my POP. I made it walk on the ground. I made it fly in the air. I made sure to keep it away from my dog. My dog wanted to chew on it. He thought it was food. That is adorable. I gave the dog a nice pat on the head. I threw a ball to distract him from the POP. I had a fun time with the POP. I hope there are more of these in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went to Target before noon with my mother. I got a Funko Bulbasaur POP. I also got some Pokemon cards and posters about Detective Pikachu for my brother. We watched the movie later that day. It was a fun movie but was very bland. I decided to play with my POP. I made it walk on the ground. I made it fly in the air. I made sure to keep it away from my dog. My dog wanted to chew on it. He thought it was food. That is adorable. I gave the dog a nice pat on the head. I threw a ball to distract him from the POP. I had a fun time with the POP. I hope there are more of these in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd7ab9cf2c3eb-EWR"
+    }
+}

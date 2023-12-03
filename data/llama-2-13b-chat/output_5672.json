@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was 6 months ago when we found out that my father got his cancer diagnosis.  I remember his coughs getting progressively worse and worse.  I was worried at the time.  At first I figured maybe it was just a cold, but it never got better.  I urged him to go to the doctor, but he never listened to me.  I wish I was more assertive about it.  It's bad now though.  Had he got the cancer diagnosis earlier, his treatment would have been manageable and he wouldn't be where he is today. I am going to make sure that I take care of my body.  If something doesn't seem right, I am going to go to the doctor about it.  It's good to catch things early.  I don't want to become like my dad, having to go through cancer treatment, just because I disregarded a cough.  Hopefully I never have to go through this kind of thing, but I realize that sometimes cancer runs in the family.  Cancer really sucks.  I pray that my dad gets better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was 6 months ago when we found out that my father got his cancer diagnosis.  I remember his coughs getting progressively worse and worse.  I was worried at the time.  At first I figured maybe it was just a cold, but it never got better.  I urged him to go to the doctor, but he never listened to me.  I wish I was more assertive about it.  It's bad now though.  Had he got the cancer diagnosis earlier, his treatment would have been manageable and he wouldn't be where he is today. I am going to make sure that I take care of my body.  If something doesn't seem right, I am going to go to the doctor about it.  It's good to catch things early.  I don't want to become like my dad, having to go through cancer treatment, just because I disregarded a cough.  Hopefully I never have to go through this kind of thing, but I realize that sometimes cancer runs in the family.  Cancer really sucks.  I pray that my dad gets better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3614dbb60f80-EWR"
+    }
+}

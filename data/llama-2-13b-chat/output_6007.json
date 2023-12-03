@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I lost a lot of weight. I lost 80 pounds. This was a huge loss in weight. The weird part was that nobody said anything about it. My coworkers just went on there day. My boss always gave me a frown. My wife didn't even notice and that was the strangest part. The only person who noticed was my friend. He gave me a lot of compliments about my weight loss. He also bought some beer to celebrate the occasion. We went to the bar and watched the football game. The cowboys barely won against the giants. This was a great time. I hope I can keep my weight off. This shouldn't be too hard if I just stick to calorie counting."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I lost a lot of weight. I lost 80 pounds. This was a huge loss in weight. The weird part was that nobody said anything about it. My coworkers just went on there day. My boss always gave me a frown. My wife didn't even notice and that was the strangest part. The only person who noticed was my friend. He gave me a lot of compliments about my weight loss. He also bought some beer to celebrate the occasion. We went to the bar and watched the football game. The cowboys barely won against the giants. This was a great time. I hope I can keep my weight off. This shouldn't be too hard if I just stick to calorie counting.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3ce58aab8ca2-EWR"
+    }
+}

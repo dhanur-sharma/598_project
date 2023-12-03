@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Wow, I can't believe it's already been two months. My grand daughter just turned four. This was her first fourth of July celebration. She had never been to a celebration because she was so small. But now, she was ready. We went to a parade first thing in the morning. We watched the fire trucks and band members and horses going by. She was absolutely mesmerized. The backyard picnic was  great. She had a hamburger dowsed in ketchup. She loved the watermelon.  As the sun began to set, we took her to the park. We sat in our lawn chairs with the rest of the town. When the firworks show began , her little face lit up. She just could not stop smiling that day. She is still talking and drawing pictures about that wonderful day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Wow, I can't believe it's already been two months. My grand daughter just turned four. This was her first fourth of July celebration. She had never been to a celebration because she was so small. But now, she was ready. We went to a parade first thing in the morning. We watched the fire trucks and band members and horses going by. She was absolutely mesmerized. The backyard picnic was  great. She had a hamburger dowsed in ketchup. She loved the watermelon.  As the sun began to set, we took her to the park. We sat in our lawn chairs with the rest of the town. When the firworks show began , her little face lit up. She just could not stop smiling that day. She is still talking and drawing pictures about that wonderful day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't wait to see what next year's Fourth of July celebration will bring.\n\n"
+            }
+        ],
+        "request_id": "811e98ebcd9fc448-EWR"
+    }
+}

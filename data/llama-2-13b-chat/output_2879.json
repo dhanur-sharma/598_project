@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, my husband and I took our twin boys to Disneyworld. We had the grand idea of making it a \"super fun road trip\"... you know, for the memories. We got memories, alright. After loading the car down, we discovered a flat. We had to unpack the entire car to get to our spare, and change the tire. That's okay though! Just a flat. We've got this! On the road in just a little under an hour. The boys started squabbling almost immediately, which we expected. I was prepared! I had snacks and activities to distract them!Note to future self - Car rides and cheese cubes are not always a great combo. We had to make a pit stop to clean cheese cube vomit off of our little cherubs, and the entire backseat. That's okay though! Just a little cleaning. Back on the road in just 45 minutes. An hour later, we heard a thumping. What's that? Another flat? Since we just dealt with this earlier, our only spare was gone. Being the rocket scientists that we are, we unpacked the entire car before realizing this.  We called AAA, but since we were in the middle of nowhere, it took forever for them to get there. The snacks, gone... The car, stinky... The boys, frustrated... The mom, regretting all her choices... The dad, total dad mode of trying to rally the troops and get this done. Our arrival was uneventful, as the boys were asleep, but we survived!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, my husband and I took our twin boys to Disneyworld. We had the grand idea of making it a \"super fun road trip\"... you know, for the memories. We got memories, alright. After loading the car down, we discovered a flat. We had to unpack the entire car to get to our spare, and change the tire. That's okay though! Just a flat. We've got this! On the road in just a little under an hour. The boys started squabbling almost immediately, which we expected. I was prepared! I had snacks and activities to distract them!Note to future self - Car rides and cheese cubes are not always a great combo. We had to make a pit stop to clean cheese cube vomit off of our little cherubs, and the entire backseat. That's okay though! Just a little cleaning. Back on the road in just 45 minutes. An hour later, we heard a thumping. What's that? Another flat? Since we just dealt with this earlier, our only spare was gone. Being the rocket scientists that we are, we unpacked the entire car before realizing this.  We called AAA, but since we were in the middle of nowhere, it took forever for them to get there. The snacks, gone... The car, stinky... The boys, frustrated... The mom, regretting all her choices... The dad, total dad mode of trying to rally the troops and get this done. Our arrival was uneventful, as the boys were asleep, but we survived!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And that, my friends, is the story of our super fun road trip to Disneyworld.\n\n"
+            }
+        ],
+        "request_id": "811ebff7399f43f1-EWR"
+    }
+}

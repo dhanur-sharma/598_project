@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I felt myself begin to get light headed. I knew this telltale sign immediately. My blood sugar was low. I knew I had to get something in me before it got worse because I could black out. The meal I had in front of me unfortunately was not high enough on sugar to compensate for this. I had to run to the kitchen to see what I could find. Unfortunately, we had no juice in the house at all that I could drink. I went looking for cookies in the cabinets but once again I could not find any. I was starting to panic at this point. There was no one else in the house that could help me if I blacked out. I could seriously die. I finally remembered that I would occasionally keep a candy bar in my bag just for such an occasion. Rushing to the bedroom, I hoped against hope that I had not eaten it already and it was still there. Luckily, it was. I quickly scarfed down the chocolate bar, savoring every bite as best I could. I waited nervously for it to take a hold in my body. I could feel heart rate slowing down. My head began to clear shortly thereafter. I knew I was out of the woods now but I would have to be more careful in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I felt myself begin to get light headed. I knew this telltale sign immediately. My blood sugar was low. I knew I had to get something in me before it got worse because I could black out. The meal I had in front of me unfortunately was not high enough on sugar to compensate for this. I had to run to the kitchen to see what I could find. Unfortunately, we had no juice in the house at all that I could drink. I went looking for cookies in the cabinets but once again I could not find any. I was starting to panic at this point. There was no one else in the house that could help me if I blacked out. I could seriously die. I finally remembered that I would occasionally keep a candy bar in my bag just for such an occasion. Rushing to the bedroom, I hoped against hope that I had not eaten it already and it was still there. Luckily, it was. I quickly scarfed down the chocolate bar, savoring every bite as best I could. I waited nervously for it to take a hold in my body. I could feel heart rate slowing down. My head began to clear shortly thereafter. I knew I was out of the woods now but I would have to be more careful in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e909449a20f47-EWR"
+    }
+}

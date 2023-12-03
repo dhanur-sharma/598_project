@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently lost my dog Shelby.  It was devastating.  Even though we had her for 14 years, we are still at a  loss.  She lost control of her bladder and kept pooping up blood and foam.  She quit eating.  She did not want to walk.  We had to force her to walk.  She couldn't walk more than 2 or 3 steps at a time.  The vet told us that it was up to us to decide when she should go.  It was a difficult decision.  Was the time right?  I still don't know.  I was so sad about her suffering.  She was a great dog.  I miss her companionship.  I loved her so much. The house is not the same without the pitter patter of her tiny feet."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently lost my dog Shelby.  It was devastating.  Even though we had her for 14 years, we are still at a  loss.  She lost control of her bladder and kept pooping up blood and foam.  She quit eating.  She did not want to walk.  We had to force her to walk.  She couldn't walk more than 2 or 3 steps at a time.  The vet told us that it was up to us to decide when she should go.  It was a difficult decision.  Was the time right?  I still don't know.  I was so sad about her suffering.  She was a great dog.  I miss her companionship.  I loved her so much. The house is not the same without the pitter patter of her tiny feet.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am still grieving.\n\n"
+            }
+        ],
+        "request_id": "811ec9e58c055e62-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe how much I can't do since the surgery. I can't even help my wife Casey do the dishes, or even get dinner ready and set at the table. I can barely even go to the bathroom on my own. I feel so bad for how much I have to lean on her now, just when she was getting busy at work too. I will have to work hard to get myself back on track to become independent again. What I have been doing is not enough. I need to see someone about getting better and fast. This is not something that can go on forever. Especially when she is working as hard as she is, and I'm stuck here doing nothing. Lately I have been in a rut. I have to get myself out of it and just do things I know I can't for the sake of progress. Maybe tomorrow I will make my own meals and see how I handle it. She will appreciate the help. This is the best thing I can do right now. We will see."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe how much I can't do since the surgery. I can't even help my wife Casey do the dishes, or even get dinner ready and set at the table. I can barely even go to the bathroom on my own. I feel so bad for how much I have to lean on her now, just when she was getting busy at work too. I will have to work hard to get myself back on track to become independent again. What I have been doing is not enough. I need to see someone about getting better and fast. This is not something that can go on forever. Especially when she is working as hard as she is, and I'm stuck here doing nothing. Lately I have been in a rut. I have to get myself out of it and just do things I know I can't for the sake of progress. Maybe tomorrow I will make my own meals and see how I handle it. She will appreciate the help. This is the best thing I can do right now. We will see.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb1634eba42b5-EWR"
+    }
+}

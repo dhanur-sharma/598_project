@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I woke up on Thursday morning and went downstairs. I had put on my work clothes and went downstairs to let my dog out to go to the bathroom. Upon walking downstairs, I smell this horrible smell. When I get to my dogs crate I see that she has vomited and has had diarrhea multiple spots throughout her cage. She is also covered in her own vomit and feces. I immediately get her out of her crate and wipe her down while I am trying to figure out how I am going to clean up the mess. As I go to wipe her down, she vomits all over me and the floor again. I put her in a kennel so that I can take care of the mess without her adding to the problem. I clean up her crate and throw everything in the washing machine to be cleaned. Meanwhile, she has thrown up about four more times and, by this point, I am extremely worried for my dog. I call out of work and rush my dog over to the vet hospital to be evaluated. My dog was given IV fluids because she was severely dehydrated from the vomiting and diarrhea. She was also given nausea medications, two different types of antibiotics and medications for her gut, as well as Immodium. In addition to all of this, she was placed on a prescription diet to evaluate if she was allergic to the food that i had been giving her for the past few months. Approximately $500, two days called out of work, and a new pair of scrubs later, I still do not know exactly what happened to my dog to make her so sick."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I woke up on Thursday morning and went downstairs. I had put on my work clothes and went downstairs to let my dog out to go to the bathroom. Upon walking downstairs, I smell this horrible smell. When I get to my dogs crate I see that she has vomited and has had diarrhea multiple spots throughout her cage. She is also covered in her own vomit and feces. I immediately get her out of her crate and wipe her down while I am trying to figure out how I am going to clean up the mess. As I go to wipe her down, she vomits all over me and the floor again. I put her in a kennel so that I can take care of the mess without her adding to the problem. I clean up her crate and throw everything in the washing machine to be cleaned. Meanwhile, she has thrown up about four more times and, by this point, I am extremely worried for my dog. I call out of work and rush my dog over to the vet hospital to be evaluated. My dog was given IV fluids because she was severely dehydrated from the vomiting and diarrhea. She was also given nausea medications, two different types of antibiotics and medications for her gut, as well as Immodium. In addition to all of this, she was placed on a prescription diet to evaluate if she was allergic to the food that i had been giving her for the past few months. Approximately $500, two days called out of work, and a new pair of scrubs later, I still do not know exactly what happened to my dog to make her so sick.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am just grateful that she is home and safe now.\n\n"
+            }
+        ],
+        "request_id": "811bcf35c82a5e6e-EWR"
+    }
+}

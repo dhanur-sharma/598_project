@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went on one of my favorite hikes in a nearby mountain range. It was a beautiful day. This particular trail was rather difficult. Although I had hiked it many times, I felt more physically exhausted than usual. I quickly realized I was going to have a tough day on the trail. There were several points along the hike where I thought about turning around. However, I kept moving forward. When I reached the summit of the mountain I felt a great sense of personal pride and accomplishment. I love hiking and I consider it a big part of who I am as a person. I spent at least two years of my life hiking several times a month. I would mostly go hiking alone. I like hiking alone because I learn something new about myself each time. The time I spend alone with myself in the mountains is very valuable. On this particular hike I realized that the trail does not always just hand you a victory. This is a valuable lesson that I hope to carry with me through other areas of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went on one of my favorite hikes in a nearby mountain range. It was a beautiful day. This particular trail was rather difficult. Although I had hiked it many times, I felt more physically exhausted than usual. I quickly realized I was going to have a tough day on the trail. There were several points along the hike where I thought about turning around. However, I kept moving forward. When I reached the summit of the mountain I felt a great sense of personal pride and accomplishment. I love hiking and I consider it a big part of who I am as a person. I spent at least two years of my life hiking several times a month. I would mostly go hiking alone. I like hiking alone because I learn something new about myself each time. The time I spend alone with myself in the mountains is very valuable. On this particular hike I realized that the trail does not always just hand you a victory. This is a valuable lesson that I hope to carry with me through other areas of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be298192e41b4-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I'm so excited! Yesterday I was promoted to manager at work! I've worked so hard for this position. It finally paid off. I'm so proud of myself for accomplishing this goal after setting my mind to it. I'm excited to tell my family what happened! My manager was very supportive of that work I've been doing. They will be mentoring me in this new position. I know becoming manager will mean a lot more responsibility.  I'm sure I'm ready for it! The store could use some improvements which I hope to accomplish. This is the best achievement in my work life recently and I'm incredibly happy! I don't really know what else to say at this point other than. We'll see what tomorrow brings! Me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I'm so excited! Yesterday I was promoted to manager at work! I've worked so hard for this position. It finally paid off. I'm so proud of myself for accomplishing this goal after setting my mind to it. I'm excited to tell my family what happened! My manager was very supportive of that work I've been doing. They will be mentoring me in this new position. I know becoming manager will mean a lot more responsibility.  I'm sure I'm ready for it! The store could use some improvements which I hope to accomplish. This is the best achievement in my work life recently and I'm incredibly happy! I don't really know what else to say at this point other than. We'll see what tomorrow brings! Me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea9618ea90f42-EWR"
+    }
+}

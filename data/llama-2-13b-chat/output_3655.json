@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I had a car wreck. I was spaced out while driving when I noticed a dead deer in the road. I swerved to miss the deer. I was intending to swerve over to the shoulder, but there was no shoulder. There was just a steep drop. My car rolled over and into a tree. The car was crushed except for a small space in the driver side, where I was. Photos of the car show what looks like an unsurvivable accident. I survived that accident with only a broken ankle, a sprained finger, and an abdominal tear from the seat belt. It was traumatic. I still have dreams about the EMTs pulling me from the car. I am seeing a therapist to work through what happened. We are using a combination of talk therapy and EMDR. It is really helping and I am having fewer dreams. I am very grateful that I survived."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I had a car wreck. I was spaced out while driving when I noticed a dead deer in the road. I swerved to miss the deer. I was intending to swerve over to the shoulder, but there was no shoulder. There was just a steep drop. My car rolled over and into a tree. The car was crushed except for a small space in the driver side, where I was. Photos of the car show what looks like an unsurvivable accident. I survived that accident with only a broken ankle, a sprained finger, and an abdominal tear from the seat belt. It was traumatic. I still have dreams about the EMTs pulling me from the car. I am seeing a therapist to work through what happened. We are using a combination of talk therapy and EMDR. It is really helping and I am having fewer dreams. I am very grateful that I survived.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ece1ec8af0c8e-EWR"
+    }
+}

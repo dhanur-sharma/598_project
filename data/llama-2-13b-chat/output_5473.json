@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last year I took a train from Chicago to Denver by myself. I took the train because I'm not a big fan of flying anymore. And I figured it would give me a chance to see some beautiful landscape on the way. The train ride itself was pretty comfortable. I was lucky not to have to sit next to anyone, so that helped. But I was definitely happy to get off the train in Denver. The whole ride took about a full day. When I got to Denver, I had to kill a little time before I could check into my hotel, so I decided to walk from the train station. There was a bike/walking path going most of the way there. So it was a nice walk. The only downside was that it was a very hot day. So when I got to the hotel I was pretty sweaty. Once I settled into my hotel room and had a nice shower, I found a dispensary nearby that looked good and bought some edibles. It was my first experience with cannabis, so I wasn't quite sure what to expect. The edible was probably too strong for me, and I felt like there was a big heavy blanket around my head. I remember trying to watch the news on TV and not being able to follow what they were talking about. Then I slept like a baby. The rest of the trip was full of typical tourist stuff. Then I took the train back, which was about 5 hours late getting into Chicago (that part sucked.)"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last year I took a train from Chicago to Denver by myself. I took the train because I'm not a big fan of flying anymore. And I figured it would give me a chance to see some beautiful landscape on the way. The train ride itself was pretty comfortable. I was lucky not to have to sit next to anyone, so that helped. But I was definitely happy to get off the train in Denver. The whole ride took about a full day. When I got to Denver, I had to kill a little time before I could check into my hotel, so I decided to walk from the train station. There was a bike/walking path going most of the way there. So it was a nice walk. The only downside was that it was a very hot day. So when I got to the hotel I was pretty sweaty. Once I settled into my hotel room and had a nice shower, I found a dispensary nearby that looked good and bought some edibles. It was my first experience with cannabis, so I wasn't quite sure what to expect. The edible was probably too strong for me, and I felt like there was a big heavy blanket around my head. I remember trying to watch the news on TV and not being able to follow what they were talking about. Then I slept like a baby. The rest of the trip was full of typical tourist stuff. Then I took the train back, which was about 5 hours late getting into Chicago (that part sucked.)",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But overall, it was a good experience.\n\n"
+            }
+        ],
+        "request_id": "811f323909bc0f7c-EWR"
+    }
+}

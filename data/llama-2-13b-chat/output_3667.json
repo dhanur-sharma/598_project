@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter was born on May 15, 2019 at 10:41 a.m.. It wasn't as simple as most births are. I chose to have a home birth with a doula. We had everything set up in our spacious living room. My husband was behind me in the pool hugging me for comfort and helping me do my breathing. I was in labor for 9 1/2 hours. When my daughter was born, she was blue and hadn't pinkened up. The umbilical cord was around her neck, but it didn't tighten until she was coming through the birth canal. There had been no distress in the womb, and the heartbeat had been regular. We had to call an ambulance, which showed up within 10 minutes. They immediately put an oxygen mask on my daughter to help her breathe. My husband accompanied my daughter in the ambulance to the hospital. My doula had to help me deliver the placenta and help me get cleaned up, dressed, and headed to the hospital. When I got to the hospital, I was put in a wheelchair because I still felt very weak, and I was pushed up to the NICU where my daughter and husband were. They had stabilized her and had her on oxygen, and her oxygen level was 82%. My daughter also had pneumonia and was in the hospital for 1 week on antibiotics before being released to go home as a very healthy 9-lb-13-oz baby. She is 5 months old now and looking beautiful and thriving. Anxiety has been replaced with pride, joy, and contentment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter was born on May 15, 2019 at 10:41 a.m.. It wasn't as simple as most births are. I chose to have a home birth with a doula. We had everything set up in our spacious living room. My husband was behind me in the pool hugging me for comfort and helping me do my breathing. I was in labor for 9 1/2 hours. When my daughter was born, she was blue and hadn't pinkened up. The umbilical cord was around her neck, but it didn't tighten until she was coming through the birth canal. There had been no distress in the womb, and the heartbeat had been regular. We had to call an ambulance, which showed up within 10 minutes. They immediately put an oxygen mask on my daughter to help her breathe. My husband accompanied my daughter in the ambulance to the hospital. My doula had to help me deliver the placenta and help me get cleaned up, dressed, and headed to the hospital. When I got to the hospital, I was put in a wheelchair because I still felt very weak, and I was pushed up to the NICU where my daughter and husband were. They had stabilized her and had her on oxygen, and her oxygen level was 82%. My daughter also had pneumonia and was in the hospital for 1 week on antibiotics before being released to go home as a very healthy 9-lb-13-oz baby. She is 5 months old now and looking beautiful and thriving. Anxiety has been replaced with pride, joy, and contentment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ece7d09d42383-EWR"
+    }
+}

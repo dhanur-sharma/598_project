@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Some time ago I had moved into my apartment. I just needed some where to stay I didn't want to live in hotels anymore. It was expensive and I couldn't cook. There was also very bad neighbors or guests going in and out. Some quite some loud I just couldn't deal anymore. So eventually I started looking for an apartment in my city. I was able to find a few but not all of them were great. Overtime after looking for a little while I was able to find something decent enough. I was able to get the apartment on an 12 month lease but things didn't go all the way. the 12th lease turned into an 11 month lease and it was a nightmare. The aparment was filled with lead in the ducts making air unbreathable. The landlord didn't even want to fix even the smallest of problems. My stove even went out so I couldn't cook how I wanted and landlord refused to fix. I contacted the board of health and they cited the landlord. That's how my 12 month lease turned into an 11 month lease because I had gotten evicted from the apartment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Some time ago I had moved into my apartment. I just needed some where to stay I didn't want to live in hotels anymore. It was expensive and I couldn't cook. There was also very bad neighbors or guests going in and out. Some quite some loud I just couldn't deal anymore. So eventually I started looking for an apartment in my city. I was able to find a few but not all of them were great. Overtime after looking for a little while I was able to find something decent enough. I was able to get the apartment on an 12 month lease but things didn't go all the way. the 12th lease turned into an 11 month lease and it was a nightmare. The aparment was filled with lead in the ducts making air unbreathable. The landlord didn't even want to fix even the smallest of problems. My stove even went out so I couldn't cook how I wanted and landlord refused to fix. I contacted the board of health and they cited the landlord. That's how my 12 month lease turned into an 11 month lease because I had gotten evicted from the apartment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had to find a new place to live.\n\n"
+            }
+        ],
+        "request_id": "811ece4a4ee9191e-EWR"
+    }
+}

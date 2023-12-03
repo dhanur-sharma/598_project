@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a wedding down in West Virginia.  It was a wedding for a friend of my girlfriend and it was about seven hours away.  It was that far because we live in Buffalo.  The drive was alright.  Her parents went with us, but they were pretty chill for the most part.  The weather was decent down there.  Surprisingly, it was warmer in Buffalo than it was in West Virginia that week!  We ended up visiting some caves when we were down there, and seeing much of the town that we were in.  The actual wedding was pretty fun.  It was very high class in attire since it was at the Green Briar, but I didn't mind too much. They had really good food, and the music was decent since it was a live band.  Of course, we definitely took advantage of the open bar - haha!  Then, the drive home was pretty average.  It was just like the drive down.  It was long, but it is what it is.  Overall, the trip was a pretty good time!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a wedding down in West Virginia.  It was a wedding for a friend of my girlfriend and it was about seven hours away.  It was that far because we live in Buffalo.  The drive was alright.  Her parents went with us, but they were pretty chill for the most part.  The weather was decent down there.  Surprisingly, it was warmer in Buffalo than it was in West Virginia that week!  We ended up visiting some caves when we were down there, and seeing much of the town that we were in.  The actual wedding was pretty fun.  It was very high class in attire since it was at the Green Briar, but I didn't mind too much. They had really good food, and the music was decent since it was a live band.  Of course, we definitely took advantage of the open bar - haha!  Then, the drive home was pretty average.  It was just like the drive down.  It was long, but it is what it is.  Overall, the trip was a pretty good time!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd6cf893b0f80-EWR"
+    }
+}

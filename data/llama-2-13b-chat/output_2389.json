@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still remember the look on your face when your husband kissed you, you looked so peaceful. I wish I had gotten a photo. The ceremony was beautiful. I really liked the flowers you picked. As you know lilacs are my favorite. Spring weddings are my absolute favorite. I hope my wedding is as beautiful as yours. At the reception, the music was great, I really enjoyed watching you and your new husband take your first dance. You should have seen Grandma, she was looking so proud. Grandpa was tapping his feet to the music, you made the so proud. The food was absolutely amazing and the decorations were splendid. Where did you get such great ideas. I can tell you put much thought into it. I loved the Best Mans Speech to, hes so funny and handsome. Do you know if he is single? Well l my dear sister, I just want to tell you I love you and wish you and your new husband all the best in your new life together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still remember the look on your face when your husband kissed you, you looked so peaceful. I wish I had gotten a photo. The ceremony was beautiful. I really liked the flowers you picked. As you know lilacs are my favorite. Spring weddings are my absolute favorite. I hope my wedding is as beautiful as yours. At the reception, the music was great, I really enjoyed watching you and your new husband take your first dance. You should have seen Grandma, she was looking so proud. Grandpa was tapping his feet to the music, you made the so proud. The food was absolutely amazing and the decorations were splendid. Where did you get such great ideas. I can tell you put much thought into it. I loved the Best Mans Speech to, hes so funny and handsome. Do you know if he is single? Well l my dear sister, I just want to tell you I love you and wish you and your new husband all the best in your new life together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Congratulations again!\n\n"
+            }
+        ],
+        "request_id": "811eb5a729be8c7e-EWR"
+    }
+}

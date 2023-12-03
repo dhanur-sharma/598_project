@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago I went on a vacation to Las Vegas.  I was so excited to go on this trip to meet my friends where we planned to do a little sightseeing and a little gambling.  The computers were down but after my ticket was checked twice I was able to board my plane for my well-deserved girl\u2019s trip.  A few minutes later we started down the tarmac and the pilot started to address the passengers with the typical warnings and information.  As soon as we lifted off the pilot said we would be landing in Los Angeles at about 8:05 pm.  At that moment, my heart sank and I realized I was on the wrong plane.  Once we landed in Los Angeles I went to explain what happened and to catch the next flight to Vegas.  The lady at the desk then told me the next flight was in two hours to Las Vegas and they had two seats available that the cost would be $650. 00.  I finally made it to Vegas and had a good time.  It was a simple misunderstanding that could have been solved quickly but the airline didn\u2019t seem to care that I was late and had less money to spend on my vacation because of their mistake.  Had their computers been working this wouldn't have happened.  I would have arrived in Vegas on time and my friends wouldn't have had to worry.  I found a different airline to fly home.  I didn't feel I could trust the one who put me on the wrong plane. At least my luggage was a carry on and it didn't get lost.  If I am ever in this situation again I will ask more probing questions just as they should have done."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago I went on a vacation to Las Vegas.  I was so excited to go on this trip to meet my friends where we planned to do a little sightseeing and a little gambling.  The computers were down but after my ticket was checked twice I was able to board my plane for my well-deserved girl\u2019s trip.  A few minutes later we started down the tarmac and the pilot started to address the passengers with the typical warnings and information.  As soon as we lifted off the pilot said we would be landing in Los Angeles at about 8:05 pm.  At that moment, my heart sank and I realized I was on the wrong plane.  Once we landed in Los Angeles I went to explain what happened and to catch the next flight to Vegas.  The lady at the desk then told me the next flight was in two hours to Las Vegas and they had two seats available that the cost would be $650. 00.  I finally made it to Vegas and had a good time.  It was a simple misunderstanding that could have been solved quickly but the airline didn\u2019t seem to care that I was late and had less money to spend on my vacation because of their mistake.  Had their computers been working this wouldn't have happened.  I would have arrived in Vegas on time and my friends wouldn't have had to worry.  I found a different airline to fly home.  I didn't feel I could trust the one who put me on the wrong plane. At least my luggage was a carry on and it didn't get lost.  If I am ever in this situation again I will ask more probing questions just as they should have done.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a vacation I will never forget.  My friends and I still talk about it and we will never fly that airline again.\n\n"
+            }
+        ],
+        "request_id": "811ea3384c0b0f9f-EWR"
+    }
+}

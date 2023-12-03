@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For the past 2 months I have been looking for a different job that pays more than my current position. Ideally it would have a shorter commute.  It would be ideal if I did not need to travel in to the city anymore for the new job as well.  I applied to over 10 jobs, and interviewed at 3 of those.  One of the jobs seemed like an ideal fit, no more commute to the large city, great benefits and I really enjoyed the interview.  I had been referred to this one by a friend. I decided to be extra pursuant of that position and requested a follow up interview via phone myself, and I was thrilled when they told me they had planned to call me.  At the second interview I met many more of the staff and they seemed very impressed with my skill set. Today I let my manager and coworkers know that I was resigning, and leaving the company in 2 weeks.  Some of my coworkers where beside themselves.  I found it hard to say goodbye.  A couple of them were very emotional.  Cleaning out my office will be difficult. However, we have scheduled a going away get together at the local pub on my last day and I look forward to that. Cheers!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For the past 2 months I have been looking for a different job that pays more than my current position. Ideally it would have a shorter commute.  It would be ideal if I did not need to travel in to the city anymore for the new job as well.  I applied to over 10 jobs, and interviewed at 3 of those.  One of the jobs seemed like an ideal fit, no more commute to the large city, great benefits and I really enjoyed the interview.  I had been referred to this one by a friend. I decided to be extra pursuant of that position and requested a follow up interview via phone myself, and I was thrilled when they told me they had planned to call me.  At the second interview I met many more of the staff and they seemed very impressed with my skill set. Today I let my manager and coworkers know that I was resigning, and leaving the company in 2 weeks.  Some of my coworkers where beside themselves.  I found it hard to say goodbye.  A couple of them were very emotional.  Cleaning out my office will be difficult. However, we have scheduled a going away get together at the local pub on my last day and I look forward to that. Cheers!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e900a3d2a5e6c-EWR"
+    }
+}

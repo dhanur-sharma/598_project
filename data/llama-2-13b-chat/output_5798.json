@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a cat as my pet. I love it so much and I care for it. One day my cat's walking seemed to be strange because it suffered from eye problem. At first I thought it was usual. But it continued for days. Hence I decided to take it to the veterinary doctor. After taking my cat to him, he examined it carefully. Then from the reports he came to a conclusion that my pet has ocular cancer. I was shocked to hear that. He said that my pet is losing his vision due to this. He gave me two options. One was to force blindness on him, second is to take a chance that the cancer will not spread. Both the options were very difficult and painful for me. I was not in a situation like this before. I left it with the doctor and asked him to move on with the best decision among the both."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a cat as my pet. I love it so much and I care for it. One day my cat's walking seemed to be strange because it suffered from eye problem. At first I thought it was usual. But it continued for days. Hence I decided to take it to the veterinary doctor. After taking my cat to him, he examined it carefully. Then from the reports he came to a conclusion that my pet has ocular cancer. I was shocked to hear that. He said that my pet is losing his vision due to this. He gave me two options. One was to force blindness on him, second is to take a chance that the cancer will not spread. Both the options were very difficult and painful for me. I was not in a situation like this before. I left it with the doctor and asked him to move on with the best decision among the both.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f38874ab04249-EWR"
+    }
+}

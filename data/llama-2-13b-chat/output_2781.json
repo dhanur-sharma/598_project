@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The time has come.  My daughter has turned 15 and she wants to learn how to drive.  I also want her to learn how to drive.  I can't wait until I don't have to be her chauffeur!  We went to the her old elementary school parking lot and I let her drive for the first time.  It was so much fun.  It was also super nerve racking!  I remember when I was learning to drive.  My dad had taken me to the church parking lot and had me learn how to start and stop and make turns.  I was trying so hard to not freak out.  As I watched my daughter drive I could see she was having all of the same emotions.  Her head was flying back and forth as she wanted to see everywhere at once.  It was pretty funny because of course there was no one else or any other cars in the parking lot at all.  After she got a little bored in the parking lot, it was time to head home.  She stopped and thought that I would drive.  But nope - I made her drive on the streets to get home!  My dad did the same thing to me and I survived and so did she!  It was a lot of fun.  She's been driving a few times since and is already getting much better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The time has come.  My daughter has turned 15 and she wants to learn how to drive.  I also want her to learn how to drive.  I can't wait until I don't have to be her chauffeur!  We went to the her old elementary school parking lot and I let her drive for the first time.  It was so much fun.  It was also super nerve racking!  I remember when I was learning to drive.  My dad had taken me to the church parking lot and had me learn how to start and stop and make turns.  I was trying so hard to not freak out.  As I watched my daughter drive I could see she was having all of the same emotions.  Her head was flying back and forth as she wanted to see everywhere at once.  It was pretty funny because of course there was no one else or any other cars in the parking lot at all.  After she got a little bored in the parking lot, it was time to head home.  She stopped and thought that I would drive.  But nope - I made her drive on the streets to get home!  My dad did the same thing to me and I survived and so did she!  It was a lot of fun.  She's been driving a few times since and is already getting much better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so proud of her!\n\n"
+            }
+        ],
+        "request_id": "811ebdf53d29433a-EWR"
+    }
+}

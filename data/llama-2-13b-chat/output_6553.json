@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was a volunteer with Vacation Bible School. This is a church program for children to experience a drama, Bible stories, crafts, games, music and snacks. It is held for a week in July from 9:00 am to noon each day. There is a closing program and a picnic on Friday. My role was to be one of four people leading a group of children. I supervised the children and led them to the different stations. The children seemed to enjoy the program. They were engaged in the activities. They particularly liked the snacks. Some of the snacks were matched with the theme and Bible stories. It was an outer space theme. There were also robots. The church was decorated with this theme in mind. There were displays with planets, stars, and robots. I believe these decorations added to the experience. I enjoyed my experience helping with Vacation Bible School. It was rewarding to get to know the children. I was able to see them learn and participate. I hope to participate again next summer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was a volunteer with Vacation Bible School. This is a church program for children to experience a drama, Bible stories, crafts, games, music and snacks. It is held for a week in July from 9:00 am to noon each day. There is a closing program and a picnic on Friday. My role was to be one of four people leading a group of children. I supervised the children and led them to the different stations. The children seemed to enjoy the program. They were engaged in the activities. They particularly liked the snacks. Some of the snacks were matched with the theme and Bible stories. It was an outer space theme. There were also robots. The church was decorated with this theme in mind. There were displays with planets, stars, and robots. I believe these decorations added to the experience. I enjoyed my experience helping with Vacation Bible School. It was rewarding to get to know the children. I was able to see them learn and participate. I hope to participate again next summer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47c5abe5437a-EWR"
+    }
+}

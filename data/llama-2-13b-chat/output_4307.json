@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was my first at work. I have been unemployed for 5 years due to the fact that I have to take care of my family.  I was quite excited that it was my first work day after years of being idle, but at the same time I was quite nervous because I didn't know what to expect. I went to bed late last night since I could not get my mine off the big day tomorrow. I woke up in the morning feeling a bit tired, and at the same time I was a bit nervous. I was extra careful to select the proper clothing to wear. I made my cup of coffee and headed out the house. I arrived to work about 10 minutes early. I checked in with my supervisor and she was surprise that I showed up to work today. She instructed me to head to the break room to wait for her, and so I did. After sitting there for about 15 minutes, the supervisor came back to the break room and asked if I had received an email couple days before. She then told me that I was actually rescheduled to start tomorrow instead of today. I was quite disappointed and awkward that I actually went to work on the wrong day. I immediately checked my email with my phone and there it was, the email was there unread. The world began to feel it was collapsing on me. How can I make a mistake on my first day of work. I apologized to my supervisor and headed home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was my first at work. I have been unemployed for 5 years due to the fact that I have to take care of my family.  I was quite excited that it was my first work day after years of being idle, but at the same time I was quite nervous because I didn't know what to expect. I went to bed late last night since I could not get my mine off the big day tomorrow. I woke up in the morning feeling a bit tired, and at the same time I was a bit nervous. I was extra careful to select the proper clothing to wear. I made my cup of coffee and headed out the house. I arrived to work about 10 minutes early. I checked in with my supervisor and she was surprise that I showed up to work today. She instructed me to head to the break room to wait for her, and so I did. After sitting there for about 15 minutes, the supervisor came back to the break room and asked if I had received an email couple days before. She then told me that I was actually rescheduled to start tomorrow instead of today. I was quite disappointed and awkward that I actually went to work on the wrong day. I immediately checked my email with my phone and there it was, the email was there unread. The world began to feel it was collapsing on me. How can I make a mistake on my first day of work. I apologized to my supervisor and headed home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was quite disappointed but at the same time I was grateful that I didn't have to face my coworkers.\n\n"
+            }
+        ],
+        "request_id": "811bd43dfaef436d-EWR"
+    }
+}

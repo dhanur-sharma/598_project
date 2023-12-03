@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently celebrated the birthday of a family member. We celebrated it at my house. I (and some of my family members) bought party favors, a birthday cake, and the like. We bought candles, plates, balloons, and other things to decorate the room. The most memorable part of the event was lighting the candles. We had put so many candles on the birthday cake that the flames started to merge into one. The birthday person had to blow out the candles quickly, otherwise the flames might have reached the cake! It took a while for them to blow out all the candles. But after that we sang happy birthday and enjoyed the celebration. We enjoyed eating the cake and talking about things at the party. We had things like champagne and small chocolate morsels. I remember enjoying the party a lot. The cake was big and very flavorful. It was made of chocolate and vanilla. I remember falling asleep happy that night, having enjoyed the event."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently celebrated the birthday of a family member. We celebrated it at my house. I (and some of my family members) bought party favors, a birthday cake, and the like. We bought candles, plates, balloons, and other things to decorate the room. The most memorable part of the event was lighting the candles. We had put so many candles on the birthday cake that the flames started to merge into one. The birthday person had to blow out the candles quickly, otherwise the flames might have reached the cake! It took a while for them to blow out all the candles. But after that we sang happy birthday and enjoyed the celebration. We enjoyed eating the cake and talking about things at the party. We had things like champagne and small chocolate morsels. I remember enjoying the party a lot. The cake was big and very flavorful. It was made of chocolate and vanilla. I remember falling asleep happy that night, having enjoyed the event.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f44e09fcc5e62-EWR"
+    }
+}

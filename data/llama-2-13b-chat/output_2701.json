@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On the day that I won my jiu jitsu competition, I felt very nervous and worried about letting my coaches down, but after the competition was over I felt accomplished and happy with myself. I remember having trouble sleeping the night before because I was so nervous about how I would perform, so when I woke up with only 5 hours of sleep, I felt like I was already setting myself up to fail. I was told over and over by my coaches and parents that this was just a competition and there was no shame in losing because at least I'd be learning something, however it was to no avail. I am very competitive, so it didn't really click in my head. When I got to the venue where it was being held, I felt like time was moving too fast, and soon I'd have to compete. I couldn't stop fidgeting. Eventually, it was finally my turn to compete. When I won my first match, I felt on top of the world. Then, I won another, and it felt even better. The momentum I started to build during my matches that day helped me build the confidence I needed to win my final match for that day. Sure enough, I did it. I was so ecstatic but I tried to remain calm so I didn't disrespect my opponent by celebrating. I hugged my parents and coaches and all of my teammates. It was only a white belt level competition, but I was still proud. It showed how hard I'd been working."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On the day that I won my jiu jitsu competition, I felt very nervous and worried about letting my coaches down, but after the competition was over I felt accomplished and happy with myself. I remember having trouble sleeping the night before because I was so nervous about how I would perform, so when I woke up with only 5 hours of sleep, I felt like I was already setting myself up to fail. I was told over and over by my coaches and parents that this was just a competition and there was no shame in losing because at least I'd be learning something, however it was to no avail. I am very competitive, so it didn't really click in my head. When I got to the venue where it was being held, I felt like time was moving too fast, and soon I'd have to compete. I couldn't stop fidgeting. Eventually, it was finally my turn to compete. When I won my first match, I felt on top of the world. Then, I won another, and it felt even better. The momentum I started to build during my matches that day helped me build the confidence I needed to win my final match for that day. Sure enough, I did it. I was so ecstatic but I tried to remain calm so I didn't disrespect my opponent by celebrating. I hugged my parents and coaches and all of my teammates. It was only a white belt level competition, but I was still proud. It showed how hard I'd been working.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I knew I could do it, and I did.\n\n"
+            }
+        ],
+        "request_id": "811ebbe0cc810ca5-EWR"
+    }
+}

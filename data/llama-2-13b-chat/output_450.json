@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week I attended my niece's birthday party. She was turning and her parent's were having a small get together with family and friends to celebrate her birthday. I arrived a little after five, just in time for her to put on a little show. She was dancing to an Aladdin song if I remember correctly. Afterwards, we went outside where we sat and talked for a while until it was time for dinner, in this case pizza. After pizza me and niece and her little brother started to play catch with a ball. This only lasted for about five minutes until she became distracted with some slime so we played that too. She then convinced me to lay barbies with her, so we went up to her room and got what seemed like all the barbies in the world and a giant barbie bus. When we came back to the party it was cake time. My niece had chosen a giant ice cream cake, but her dad had decided to put those trick candles on it so she was huffing and puffing for what seemed like five minutes, until finally all the candles had been blown out. After cake we had a large dance party. I was swinging her around and throwing her in the air and it was a great time. We probably danced for about ten minutes before it was time to open up some presents. So she opened her presents and super exited with all the unicorns and books about mermaids she received. Afterwards everyone said their goodbyes and I went back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week I attended my niece's birthday party. She was turning and her parent's were having a small get together with family and friends to celebrate her birthday. I arrived a little after five, just in time for her to put on a little show. She was dancing to an Aladdin song if I remember correctly. Afterwards, we went outside where we sat and talked for a while until it was time for dinner, in this case pizza. After pizza me and niece and her little brother started to play catch with a ball. This only lasted for about five minutes until she became distracted with some slime so we played that too. She then convinced me to lay barbies with her, so we went up to her room and got what seemed like all the barbies in the world and a giant barbie bus. When we came back to the party it was cake time. My niece had chosen a giant ice cream cake, but her dad had decided to put those trick candles on it so she was huffing and puffing for what seemed like five minutes, until finally all the candles had been blown out. After cake we had a large dance party. I was swinging her around and throwing her in the air and it was a great time. We probably danced for about ten minutes before it was time to open up some presents. So she opened her presents and super exited with all the unicorns and books about mermaids she received. Afterwards everyone said their goodbyes and I went back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall it was a great time and I'm so glad I was able to be there for my niece's birthday party."
+            }
+        ],
+        "request_id": "811e91f989bd8c8d-EWR"
+    }
+}

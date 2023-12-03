@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am happy when I think about my wonderful experience with a unique park and playground close to my home. It has everything you could want, the soaring heighth of the playground overlooking the splashpad right nearby. We couldn't believe how high the playground was as we all climbed up and up, a three story castle! All sort of interesting things to climb were scattered  about on the lowest level, including a big spiderweb of ropes to climb. This merriment has a backdrop of giant hills, a few peaked by interesting art sculptures. Our family played and played, we climbed those hills with joy. I was so surprised when I found there was a super fun zip line that had me whooping with happiness. My husband had a blast on it too. My kid that was old enough did one slow easy turn, with great encouragement. We picnicked after we had played and played for a while. We had yummy chicken salad sandwiches and cookies. My husband always gets excited when we use his way too pricey YETI cooler and was bragging about how cold it kept the sandwiches.  After a few more trips up and down the hills we grew tired. It was time to go home. We ended our day full of smiles and pleased with our trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am happy when I think about my wonderful experience with a unique park and playground close to my home. It has everything you could want, the soaring heighth of the playground overlooking the splashpad right nearby. We couldn't believe how high the playground was as we all climbed up and up, a three story castle! All sort of interesting things to climb were scattered  about on the lowest level, including a big spiderweb of ropes to climb. This merriment has a backdrop of giant hills, a few peaked by interesting art sculptures. Our family played and played, we climbed those hills with joy. I was so surprised when I found there was a super fun zip line that had me whooping with happiness. My husband had a blast on it too. My kid that was old enough did one slow easy turn, with great encouragement. We picnicked after we had played and played for a while. We had yummy chicken salad sandwiches and cookies. My husband always gets excited when we use his way too pricey YETI cooler and was bragging about how cold it kept the sandwiches.  After a few more trips up and down the hills we grew tired. It was time to go home. We ended our day full of smiles and pleased with our trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e30e83b4314-EWR"
+    }
+}

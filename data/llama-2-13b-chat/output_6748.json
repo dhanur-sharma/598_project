@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This morning I fixed breakfast for my wife and daughter. I made them an English muffins with eggs, cheese and sausage. I decided to cook the sausages in the microwave. I toasted the English muffins in the toaster. I cooked the eggs in my egg cooker. We had an assortment of Grape and Strawberry Jams. Everyone enjoyed the breakfast sandwiches. I also had a cup of coffee.  After breakfast we decided to relax for a moment and catch up. Later that morning we sat down and watched a move. After the movie we will all decide on what to do next. We called my older daughter in California. We spoke to our grand daughter with great enthusiasm. Now I will decide how long to spend om my computer today. After spending some time on MTURK."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This morning I fixed breakfast for my wife and daughter. I made them an English muffins with eggs, cheese and sausage. I decided to cook the sausages in the microwave. I toasted the English muffins in the toaster. I cooked the eggs in my egg cooker. We had an assortment of Grape and Strawberry Jams. Everyone enjoyed the breakfast sandwiches. I also had a cup of coffee.  After breakfast we decided to relax for a moment and catch up. Later that morning we sat down and watched a move. After the movie we will all decide on what to do next. We called my older daughter in California. We spoke to our grand daughter with great enthusiasm. Now I will decide how long to spend om my computer today. After spending some time on MTURK.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will spend the rest of the day doing household chores and working on my car.\n\n"
+            }
+        ],
+        "request_id": "811f4c050b84191e-EWR"
+    }
+}

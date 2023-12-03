@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My grandparents were struggling and still are. We decided to move down there to help them clean and carry out simple chores. Their adopted black daughter is one of the few people who live there capable of doing anything but she doesn't do anything. So we went down there and tried to help but were met with resistance. The resistance was the adopted daughter and her lesbian girlfriend. We were on the phone and talking about how lazy these two were. The lesbian girlfriend pulled out a gun and started waving it around. The cops were called. We cut ties with my grandparents due to them standing idly by and letting these two slackers live in their house for free. We went home the next morning. Cps was called and their home is now under investigation. They have a child living with them that no one has legal custody to. They have several cats no takes care of. No one has a job there and they are living off of my grandfathers, life savings. There are cockroaches all over the place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My grandparents were struggling and still are. We decided to move down there to help them clean and carry out simple chores. Their adopted black daughter is one of the few people who live there capable of doing anything but she doesn't do anything. So we went down there and tried to help but were met with resistance. The resistance was the adopted daughter and her lesbian girlfriend. We were on the phone and talking about how lazy these two were. The lesbian girlfriend pulled out a gun and started waving it around. The cops were called. We cut ties with my grandparents due to them standing idly by and letting these two slackers live in their house for free. We went home the next morning. Cps was called and their home is now under investigation. They have a child living with them that no one has legal custody to. They have several cats no takes care of. No one has a job there and they are living off of my grandfathers, life savings. There are cockroaches all over the place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The cops were called multiple times.\n\n"
+            }
+        ],
+        "request_id": "811bd7bd99101791-EWR"
+    }
+}

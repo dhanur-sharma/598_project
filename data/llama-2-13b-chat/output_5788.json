@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had always wanted to go to England since I was a little girl. My husband knew that about me. So when our seventh anniversary rolled around, you can imagine my excitement when I opened my present. It was a plane ticket to England! We ended up leaving that night and we stayed for a whole week. We stayed at a cute bed n breakfast that made us truly feel at home. We did a couple of walking tours in places that we had really wanted to see. We saw Big Ben and Buckingham Palace. We took a picture with the guards. We tried to get them to laugh or crack a smile, but our attempts were futile. We also went to check out Stonehenge. That was a really cool experience. It reminds you just how small you are not just in a physical sense, but also in a sense of time. I would love to go back again and stay even longer. We had a lovely time, but I just wanted more! My husband and I definitely grew closer on this trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had always wanted to go to England since I was a little girl. My husband knew that about me. So when our seventh anniversary rolled around, you can imagine my excitement when I opened my present. It was a plane ticket to England! We ended up leaving that night and we stayed for a whole week. We stayed at a cute bed n breakfast that made us truly feel at home. We did a couple of walking tours in places that we had really wanted to see. We saw Big Ben and Buckingham Palace. We took a picture with the guards. We tried to get them to laugh or crack a smile, but our attempts were futile. We also went to check out Stonehenge. That was a really cool experience. It reminds you just how small you are not just in a physical sense, but also in a sense of time. I would love to go back again and stay even longer. We had a lovely time, but I just wanted more! My husband and I definitely grew closer on this trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were able to spend some quality time together and make some amazing memories.\n\n"
+            }
+        ],
+        "request_id": "811f385a7b5d8c57-EWR"
+    }
+}

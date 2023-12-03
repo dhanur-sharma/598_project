@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Dallas for a convention with my buddies. We paid for an airbnb to get us there. The six of us met up. We played Madden and FIFA all weekend. One of my buddies was a little quiet. He had just been through a divorce and his ex left him little to nothing. We all felt bad for him so I personally invited him to join us. Spending time with him we were able to get his mind off the divorce. Within a few hours he slowly grew back into his old self. We all had a lot of fun together. I honestly hadn't felt this way since we were kids. With all the work and crap of regular life it's hard to stop and just enjoy life with friends. My friend was suicidal, and I was genuinely worried for his well being. So I got an excuse to look after him as well. After the other four said their goodbyes and left I stayed with him a little while. He thanked me and gave me a hug."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Dallas for a convention with my buddies. We paid for an airbnb to get us there. The six of us met up. We played Madden and FIFA all weekend. One of my buddies was a little quiet. He had just been through a divorce and his ex left him little to nothing. We all felt bad for him so I personally invited him to join us. Spending time with him we were able to get his mind off the divorce. Within a few hours he slowly grew back into his old self. We all had a lot of fun together. I honestly hadn't felt this way since we were kids. With all the work and crap of regular life it's hard to stop and just enjoy life with friends. My friend was suicidal, and I was genuinely worried for his well being. So I got an excuse to look after him as well. After the other four said their goodbyes and left I stayed with him a little while. He thanked me and gave me a hug.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was nice to know I made a difference in his life, even if it was just a little bit.\n\n"
+            }
+        ],
+        "request_id": "811e92dfcccf8ce3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 2 months ago I went to the hospital for an ultrasound.  I was 7 days overdue in my pregnancy and we wanted to see what was going on.  For a while I felt as if I were leaking fluids but the doctors assured me I was not.  We sat in the waiting room of the hospital - my daughter, my fiance, and myself - and waited to be called back.  The waiting room of the ultrasound department was always busy - lots of women and men waiting to be seen and wait times upwards of an hour and a half.  My appointment had been scheduled for 3 but it was nearly 5 pm when I was finally called in.  They dimmed the lights in the exam room and proceeded to take measurements.  The nurse remarked that my amniotic fluids looked a bit low.  Otherwise, the  baby looked well.  She said she would call my midwives and see what they wanted to do.  She was gone for sometime and when she came back she told me that they wanted to induce me and that I was likely not shocked.  She was wrong.  I was not expecting to be induced and I was not expecting to stay at the hospital that very day.  They whisked my away to another room and began to process the admittance forms.  I would deliver my son at 330 am the next day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 2 months ago I went to the hospital for an ultrasound.  I was 7 days overdue in my pregnancy and we wanted to see what was going on.  For a while I felt as if I were leaking fluids but the doctors assured me I was not.  We sat in the waiting room of the hospital - my daughter, my fiance, and myself - and waited to be called back.  The waiting room of the ultrasound department was always busy - lots of women and men waiting to be seen and wait times upwards of an hour and a half.  My appointment had been scheduled for 3 but it was nearly 5 pm when I was finally called in.  They dimmed the lights in the exam room and proceeded to take measurements.  The nurse remarked that my amniotic fluids looked a bit low.  Otherwise, the  baby looked well.  She said she would call my midwives and see what they wanted to do.  She was gone for sometime and when she came back she told me that they wanted to induce me and that I was likely not shocked.  She was wrong.  I was not expecting to be induced and I was not expecting to stay at the hospital that very day.  They whisked my away to another room and began to process the admittance forms.  I would deliver my son at 330 am the next day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was terrified.\n\n"
+            }
+        ],
+        "request_id": "811f37b858518c1b-EWR"
+    }
+}

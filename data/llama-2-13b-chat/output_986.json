@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Seven weeks ago, I watched my daughter at a softball. game. The other team was winning until my daughter came up to the plate. I saw her hit a double and this caused a couple of runners to make it to home plate. This double made my daughter's team win the game. They were jumping up and down in excitement. I was very happy and yelling in this victory. I celebrated by taking her to a pizza place. We ordered a meat lovers to share. She was hungry and ate half of it. I ate the other half the pizza. We both burped at the same time. This made us both have a good chuckle. This day will be remembered forever. We both went home with big smiles."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Seven weeks ago, I watched my daughter at a softball. game. The other team was winning until my daughter came up to the plate. I saw her hit a double and this caused a couple of runners to make it to home plate. This double made my daughter's team win the game. They were jumping up and down in excitement. I was very happy and yelling in this victory. I celebrated by taking her to a pizza place. We ordered a meat lovers to share. She was hungry and ate half of it. I ate the other half the pizza. We both burped at the same time. This made us both have a good chuckle. This day will be remembered forever. We both went home with big smiles.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9bc38a38c454-EWR"
+    }
+}

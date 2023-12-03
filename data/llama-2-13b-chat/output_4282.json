@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is the story about when my wife and I got to ride the new Harry Potter ride at Universal Studios. We decided to spend our anniversary in Orlando. After pending a few days at Disney, we decided to go to universal studios and islands of adventure to check out the new Harry Potter ride. The ride had just come out a couple of weeks prior to us going. There were stories that the ride was randomly open and it was very difficult to ride due to the maintenance concerns. We decided to go early in the day and head straight to the Wizarding world of Harry Potter. After arriving at the ride entrance, we learned that it was closed. I spoke with some employees and they said it opens up at random times of the day with a huge 4 hour estimate. We decided to sit around and wait to see if it would open up in a reasonable amount of time. After about 15 minutes of waiting, we saw people start moving away from the entrance to some other area. We decided to follow and were surprised to see a holding area had opened up. We waited about 40 minutes in this holding area before the line started moving. As we got to the front of the line, they stopped us from continuing on so that cross foot traffic can proceed. We were let through after about 10 minutes of standing in the blistering sun and made our way to the ride. We were among the first 50 people to ride the ride that day and it was incredible. We were incredibly fortunate to be there at that time as we only had to wait about an hour total, where as we heard horror stories of people waiting 10 hours."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is the story about when my wife and I got to ride the new Harry Potter ride at Universal Studios. We decided to spend our anniversary in Orlando. After pending a few days at Disney, we decided to go to universal studios and islands of adventure to check out the new Harry Potter ride. The ride had just come out a couple of weeks prior to us going. There were stories that the ride was randomly open and it was very difficult to ride due to the maintenance concerns. We decided to go early in the day and head straight to the Wizarding world of Harry Potter. After arriving at the ride entrance, we learned that it was closed. I spoke with some employees and they said it opens up at random times of the day with a huge 4 hour estimate. We decided to sit around and wait to see if it would open up in a reasonable amount of time. After about 15 minutes of waiting, we saw people start moving away from the entrance to some other area. We decided to follow and were surprised to see a holding area had opened up. We waited about 40 minutes in this holding area before the line started moving. As we got to the front of the line, they stopped us from continuing on so that cross foot traffic can proceed. We were let through after about 10 minutes of standing in the blistering sun and made our way to the ride. We were among the first 50 people to ride the ride that day and it was incredible. We were incredibly fortunate to be there at that time as we only had to wait about an hour total, where as we heard horror stories of people waiting 10 hours.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was an incredible experience and we were so glad that we were able to ride it.\n\n"
+            }
+        ],
+        "request_id": "811bd3c2bda4430e-EWR"
+    }
+}

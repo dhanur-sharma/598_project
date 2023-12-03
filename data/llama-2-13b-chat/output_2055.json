@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A co-worker friend recently was diagnosed with cancer. He had been undergoing chemo and was nearing time to go home. He suddenly caught an infection and got seriously worse and eventually passed away. He was only 30 years old. His funeral was just two weekends ago and many came to support his wife and children as they move on with life. He worked for several years in multiple departments. His smile and friendly disposition was well known and an great encouragement to many. He was known for greeting many with a smile and a \"Hi Boss,\" which many acknowledged when remembering him.  A very nice tribute to a good man, husband and father as well as a great co-worker. Though the service was for his passing it was also used as a celebration of his life and those in who came where encouraged to where casual clothes to not be so formal. He was a big Tampa Bay Buc fan so many wore their Tampa Bay Buc Jersey's to show their support and love for him. He leaves behind a young wife of whom I worked with in a different department. She was also very well liked. He also leaves behind a teenage son and daughter who must now face life without their dad. He fought a very good fight with his cancer battle, never giving up hope."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A co-worker friend recently was diagnosed with cancer. He had been undergoing chemo and was nearing time to go home. He suddenly caught an infection and got seriously worse and eventually passed away. He was only 30 years old. His funeral was just two weekends ago and many came to support his wife and children as they move on with life. He worked for several years in multiple departments. His smile and friendly disposition was well known and an great encouragement to many. He was known for greeting many with a smile and a \"Hi Boss,\" which many acknowledged when remembering him.  A very nice tribute to a good man, husband and father as well as a great co-worker. Though the service was for his passing it was also used as a celebration of his life and those in who came where encouraged to where casual clothes to not be so formal. He was a big Tampa Bay Buc fan so many wore their Tampa Bay Buc Jersey's to show their support and love for him. He leaves behind a young wife of whom I worked with in a different department. She was also very well liked. He also leaves behind a teenage son and daughter who must now face life without their dad. He fought a very good fight with his cancer battle, never giving up hope.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was a true inspiration to us all."
+            }
+        ],
+        "request_id": "811eaf6a6a3c5e61-EWR"
+    }
+}

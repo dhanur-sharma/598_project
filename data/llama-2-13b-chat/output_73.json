@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I was the Maid of Honor in my best friend's wedding. This was a very important day. I had never been in a wedding, let alone the Maid of Honor. I had a lot of responsibilities and was very nervous about walking down the aisle. I know that everyone is looking at the bride but I was still anxious about having eyes on me even for a few seconds. We started our day early in the morning with coffee and hair and makeup. We got our hair and makeup done by professionals and it felt very special. My best friend and I chatted about how today was going to be life-changing. I was super excited for her and her husband-to-be. The time came for the ceremony and I walked down the aisle before my best friend. I watched her walk down and had to hold back tears and ugly crying. I took her bouquet when she took the hand of her soon to be future husband. I listened to their vows and I remember how happy they both were. The time came to exchange rings and say \"I do.\" I handed her her new husband's wedding band and it was a very special moment for all of us. It was the most beautiful wedding I have ever been to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I was the Maid of Honor in my best friend's wedding. This was a very important day. I had never been in a wedding, let alone the Maid of Honor. I had a lot of responsibilities and was very nervous about walking down the aisle. I know that everyone is looking at the bride but I was still anxious about having eyes on me even for a few seconds. We started our day early in the morning with coffee and hair and makeup. We got our hair and makeup done by professionals and it felt very special. My best friend and I chatted about how today was going to be life-changing. I was super excited for her and her husband-to-be. The time came for the ceremony and I walked down the aisle before my best friend. I watched her walk down and had to hold back tears and ugly crying. I took her bouquet when she took the hand of her soon to be future husband. I listened to their vows and I remember how happy they both were. The time came to exchange rings and say \"I do.\" I handed her her new husband's wedding band and it was a very special moment for all of us. It was the most beautiful wedding I have ever been to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "After the ceremony, we took photos and danced the night away. It was a night to remember."
+            }
+        ],
+        "request_id": "811e8ad94be241b2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, my band was asked to open for one of our favorite bands. They were embarking on a reunion tour and it was the first time they would play America. This band had broken up in the early nineties and no-one thought they would ever play together again. Naturally we were all excited and quite honored to be involved. I had already met the bass player before on a trip abroad. It was great to see him when we arrived for soundcheck, in fact the whole band were friendly and cool. We all had a few drinks downstairs at the bar as people wandered up. Our band, had, in fact broken up many years earlier so it was fantastic to play with my old pals again. One member is in France. One member is in New Mexico. The third member is actually in Greece so it is hard to get together. Rehearsals had gone well and we seemed ready to go. The joint was packed. The clock was ticking. The drinks were on hand. It was time to go. First song was fantastic and that was the last thing I remember. The crowd ate it up. Afterward, I got to kick back with a drink and watch one of my favorite bands play. Favorite bands, and now, friends. We still keep in touch."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, my band was asked to open for one of our favorite bands. They were embarking on a reunion tour and it was the first time they would play America. This band had broken up in the early nineties and no-one thought they would ever play together again. Naturally we were all excited and quite honored to be involved. I had already met the bass player before on a trip abroad. It was great to see him when we arrived for soundcheck, in fact the whole band were friendly and cool. We all had a few drinks downstairs at the bar as people wandered up. Our band, had, in fact broken up many years earlier so it was fantastic to play with my old pals again. One member is in France. One member is in New Mexico. The third member is actually in Greece so it is hard to get together. Rehearsals had gone well and we seemed ready to go. The joint was packed. The clock was ticking. The drinks were on hand. It was time to go. First song was fantastic and that was the last thing I remember. The crowd ate it up. Afterward, I got to kick back with a drink and watch one of my favorite bands play. Favorite bands, and now, friends. We still keep in touch.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed11d588243cd-EWR"
+    }
+}

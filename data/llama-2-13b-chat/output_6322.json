@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My stepfather was 82 when he passed. His health had been failing him for a while. He had Alzheimer's and Parkinson's along with heart trouble.  Over the last few years his health had really declined. Still when he went to the hospital that final time, perhaps we all thought he would pull out of it again.  He did not.  He was in ICU for a few days. The doctor even told my mom he would not come out of it this time, yet we still had hope. My mom called me while I was getting lunch and getting ready to go to work that he was passing.  Turns out he had already just passed away but she couldn't bring herself to actually utter those words yet. I got to the hospital as soon as I could, which was only minutes.  I walked in to see everyone crying.  I still thought he was alive.  Then I looked at the monitors and noticed them all blank.  It hit me he had died already.  It was so very tough to see.  And I felt so bad for my mom and my step brother."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My stepfather was 82 when he passed. His health had been failing him for a while. He had Alzheimer's and Parkinson's along with heart trouble.  Over the last few years his health had really declined. Still when he went to the hospital that final time, perhaps we all thought he would pull out of it again.  He did not.  He was in ICU for a few days. The doctor even told my mom he would not come out of it this time, yet we still had hope. My mom called me while I was getting lunch and getting ready to go to work that he was passing.  Turns out he had already just passed away but she couldn't bring herself to actually utter those words yet. I got to the hospital as soon as I could, which was only minutes.  I walked in to see everyone crying.  I still thought he was alive.  Then I looked at the monitors and noticed them all blank.  It hit me he had died already.  It was so very tough to see.  And I felt so bad for my mom and my step brother.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "  I had to take a few moments to collect myself before I could even talk to them.  It was the most difficult moment of my life.  It was also the first time I had ever experienced the loss of a loved one.  It was something I never want to go through again.  But it did bring our family closer together and I will always cherish the memories of him when he was still with us.\n\n"
+            }
+        ],
+        "request_id": "811f432749954346-EWR"
+    }
+}

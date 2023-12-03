@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went into work fearing the worst. I had already suspected something was going to go wrong. I wasn't sure why. When I went in, my boss asked to speak to me. He told me my performance was below standards and that he was going to need to ask me to take a demotion because of it. I was forced to accept even though I really didn't want to. I didn't feel it was fair. I felt like I needed another chance. On the ride home, I was wondering how my husband would take it. He was taking extra hours at work to pay off the mortgage and was counting on my income to keep the income steady. I was so nervous I just didn't know what to do. When I arrived home, I prepared supper and waited for his arrival. When he finally came home, I left him finish his dinner first before giving him the new. I told him. He stood quiet. Did not say a word for a few minutes. He then said the most comforting words I could have ever hoped for. \"Everything is going to be okay. We will get through this.\" It was all I needed to hear."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went into work fearing the worst. I had already suspected something was going to go wrong. I wasn't sure why. When I went in, my boss asked to speak to me. He told me my performance was below standards and that he was going to need to ask me to take a demotion because of it. I was forced to accept even though I really didn't want to. I didn't feel it was fair. I felt like I needed another chance. On the ride home, I was wondering how my husband would take it. He was taking extra hours at work to pay off the mortgage and was counting on my income to keep the income steady. I was so nervous I just didn't know what to do. When I arrived home, I prepared supper and waited for his arrival. When he finally came home, I left him finish his dinner first before giving him the new. I told him. He stood quiet. Did not say a word for a few minutes. He then said the most comforting words I could have ever hoped for. \"Everything is going to be okay. We will get through this.\" It was all I needed to hear.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt a weight lift off my shoulders.\n\n"
+            }
+        ],
+        "request_id": "811e9d2c0a0ec336-EWR"
+    }
+}

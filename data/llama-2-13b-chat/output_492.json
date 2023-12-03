@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We had a family reunion in Portland Oregon.  A number of family members had traveled some distance to be there.  Our first night out was to be at a large family style Chinese restaurant.  We arrived, and a large round table was set and waiting for us.  My brother sat near me on my left.  My brother is a gentle person, but can sometimes appear to have a gruff, adversarial or judgmental tone.  When the waiter came to speak to us, my brother asked him if the salt and pepper dish (can't recall what it was, beyond the salt and pepper part) was spicy.  The waiter answered that it was not. My brother, in asking for clarification, spoke in a tone that seemed to offend the waiter.  He (my brother), said \"But the menu says it has salt and pepper on it.\" The waiter seemed to jump back, and said (quite haughtily) that he would not be spoken to in that way.  After this exchange, my brother became quiet. I think he had no idea that the waiter had been offended.  I, who am used to my brother's questioning ways, was very surprised to see the waiter act so offended.  But on reflection I do know that the tone which I find to be simply direct, can be interpreted by others as being critical.  The rest of the meal was uneventful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We had a family reunion in Portland Oregon.  A number of family members had traveled some distance to be there.  Our first night out was to be at a large family style Chinese restaurant.  We arrived, and a large round table was set and waiting for us.  My brother sat near me on my left.  My brother is a gentle person, but can sometimes appear to have a gruff, adversarial or judgmental tone.  When the waiter came to speak to us, my brother asked him if the salt and pepper dish (can't recall what it was, beyond the salt and pepper part) was spicy.  The waiter answered that it was not. My brother, in asking for clarification, spoke in a tone that seemed to offend the waiter.  He (my brother), said \"But the menu says it has salt and pepper on it.\" The waiter seemed to jump back, and said (quite haughtily) that he would not be spoken to in that way.  After this exchange, my brother became quiet. I think he had no idea that the waiter had been offended.  I, who am used to my brother's questioning ways, was very surprised to see the waiter act so offended.  But on reflection I do know that the tone which I find to be simply direct, can be interpreted by others as being critical.  The rest of the meal was uneventful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But I did notice that the waiter was less attentive to our table after that.  I also noticed that the menu had a disclaimer that the salt and pepper on the dish was for decoration only, and not for consumption.\n\n"
+            }
+        ],
+        "request_id": "811e92c158058cd6-EWR"
+    }
+}

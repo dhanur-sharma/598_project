@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 2 weeks ago me and my dog were on a stroll. We happily walk every day. This day was different.  Two strangers approach me and start yelling in my face. I'm in shock at this point. I do not know what to do. I do not know how to react. Do I run? Do I stand there? I decided to stand there in hopes they'de go away. One of the men decide to push me with his elbow. I'm now starting to shake. My heart is beating with fear. I didn't respond to the man so he pushes me harder. I then proceed to get beat by the two men. I called the police after the altercation, described the men and they were apprehended."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 2 weeks ago me and my dog were on a stroll. We happily walk every day. This day was different.  Two strangers approach me and start yelling in my face. I'm in shock at this point. I do not know what to do. I do not know how to react. Do I run? Do I stand there? I decided to stand there in hopes they'de go away. One of the men decide to push me with his elbow. I'm now starting to shake. My heart is beating with fear. I didn't respond to the man so he pushes me harder. I then proceed to get beat by the two men. I called the police after the altercation, described the men and they were apprehended.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3939bff5434c-EWR"
+    }
+}

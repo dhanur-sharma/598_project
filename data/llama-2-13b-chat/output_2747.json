@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: There was this little black cat that was in my neighbors yard meowing at her door. As I was walking up my steps to go into my house my neighbor asked if I could please take the cat in. I didn't really want to but I wanted to help my neighbor. The plan in the beginning was to just put the cat into my backyard. But she was way too cute for me to just leave her. My second plan was to try to find a shelter that would take her. By the next morning I was still sticking to my original plan. By the time I came home that day the cat was just too cute. I couldn't give her to a shelter because I knew they would most likely kill her. So I went out and got all the supplies I needed to begin to take care of this cat. Litter box, food, some toys. I took her to the vet and found out she was only 6 months. She had worms and fleas too. Within a couple of weeks all her ailments were cleared up. 5 months later and here we are, she's still with me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: There was this little black cat that was in my neighbors yard meowing at her door. As I was walking up my steps to go into my house my neighbor asked if I could please take the cat in. I didn't really want to but I wanted to help my neighbor. The plan in the beginning was to just put the cat into my backyard. But she was way too cute for me to just leave her. My second plan was to try to find a shelter that would take her. By the next morning I was still sticking to my original plan. By the time I came home that day the cat was just too cute. I couldn't give her to a shelter because I knew they would most likely kill her. So I went out and got all the supplies I needed to begin to take care of this cat. Litter box, food, some toys. I took her to the vet and found out she was only 6 months. She had worms and fleas too. Within a couple of weeks all her ailments were cleared up. 5 months later and here we are, she's still with me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My neighbor is so happy that I decided to keep her. And I'm happy to have her too.\n\n"
+            }
+        ],
+        "request_id": "811ebcfdfed30ce9-EWR"
+    }
+}

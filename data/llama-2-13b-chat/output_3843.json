@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past spring, we attended the wedding of my cousin and her fiance. My immediate family lives out of town, so we all flew in for the occasion. After arriving to the wedding, we were seated at our table and the ceremony itself got underway. The main of honor was the bride's sister and the best man was the groom's brother. My cousin looked absolutely amazing in her dress and she seemed to really feel comfortable in it. The ceremony was short and sweet and then the party got started. We enjoyed a delicious dinner that was served family style at out table.  After dinner, the open bar really got going and people were ready to party and dance the night away. There was the standard father-daughter dance and the groom-mother dance. While I myself refrained from drinking too much, my aunt did not follow the same game plan. I looked over a one point and she was dancing with a glass of tequila in her hand. After a few hours of repeating this behavior, she got really sick and threw up all over the table. It was embarrassing, but in our family embarrassing is the norm. Overall, minus the vomit, everyone had a great time. It was such a treat to spend time with some family member and celebrate a new party of life beginning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past spring, we attended the wedding of my cousin and her fiance. My immediate family lives out of town, so we all flew in for the occasion. After arriving to the wedding, we were seated at our table and the ceremony itself got underway. The main of honor was the bride's sister and the best man was the groom's brother. My cousin looked absolutely amazing in her dress and she seemed to really feel comfortable in it. The ceremony was short and sweet and then the party got started. We enjoyed a delicious dinner that was served family style at out table.  After dinner, the open bar really got going and people were ready to party and dance the night away. There was the standard father-daughter dance and the groom-mother dance. While I myself refrained from drinking too much, my aunt did not follow the same game plan. I looked over a one point and she was dancing with a glass of tequila in her hand. After a few hours of repeating this behavior, she got really sick and threw up all over the table. It was embarrassing, but in our family embarrassing is the norm. Overall, minus the vomit, everyone had a great time. It was such a treat to spend time with some family member and celebrate a new party of life beginning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed259f8820f7f-EWR"
+    }
+}

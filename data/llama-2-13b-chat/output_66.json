@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The call came at 3 AM. Knew it wasn't a good sign. Mom fell and dislocated her shoulder and tore an artery. I have a sick feeling in my stomach that this is not going to end well. Made the reservations to fly out tomorrow. On my way to the airport I got a call from my daughter that she had also torn an artery and was not acting like herself. By the time I reached home my mother had been sent home to hospice care because she had a stroke during the night(nobody noticed) I stepped into a bad dream when I finally got to my childhood home. She was in a hospital bed, hooked up to oxygen and barely alert. Alert enough to know it was me, her oldest, her favorite everyone's always told. me. She even said my name and that she loved me.  I swear I spent five days awake, sitting in the rocking chair next to her bed, singing in her ear, saying prayers, talking to her, telling her dad was waiting for her. She died when I was holding her, just mom and I alone in her room,  my mouth pressed up against her good ear. I felt her heart stop. The aftermath was a blur. Spoke at the memorial service. My mother is gone and it will be 3 months in a few days and I cry when Ieast expect to and reach for the phone to call her as I did so often, but my mother is gone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The call came at 3 AM. Knew it wasn't a good sign. Mom fell and dislocated her shoulder and tore an artery. I have a sick feeling in my stomach that this is not going to end well. Made the reservations to fly out tomorrow. On my way to the airport I got a call from my daughter that she had also torn an artery and was not acting like herself. By the time I reached home my mother had been sent home to hospice care because she had a stroke during the night(nobody noticed) I stepped into a bad dream when I finally got to my childhood home. She was in a hospital bed, hooked up to oxygen and barely alert. Alert enough to know it was me, her oldest, her favorite everyone's always told. me. She even said my name and that she loved me.  I swear I spent five days awake, sitting in the rocking chair next to her bed, singing in her ear, saying prayers, talking to her, telling her dad was waiting for her. She died when I was holding her, just mom and I alone in her room,  my mouth pressed up against her good ear. I felt her heart stop. The aftermath was a blur. Spoke at the memorial service. My mother is gone and it will be 3 months in a few days and I cry when Ieast expect to and reach for the phone to call her as I did so often, but my mother is gone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8ac46973c402-EWR"
+    }
+}

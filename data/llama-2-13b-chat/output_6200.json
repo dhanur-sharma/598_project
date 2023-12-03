@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A memorable event that happened to me in the last few months was that I got a raise out of the blue in the past two weeks. I was given the raise because I had been accountable to two donors at the private school I work at. These donors reached out to administration to offer me a ten percent raise. I was not expecting this and was not only flattered but completely surprised. It made me feel proud of my accomplishment of reaching out to these donors to let them know where and how the money they donated to the library I manage was being spent. I plan on using the money to pay off a car loan I recently got. What I did to get the raise was to write monthly reports. In the reports I put what we spent the money on. I also put what student engagement was happening because of the monetary gift. Student engagement is very important to these donors. They liked hearing that students used their gift appropriately. They also liked seeing images of the students using items bought with the gift. At the end of the year I sent the donors a comprehensive report. In the report were statistics about student engagement. I also had photos in the report. The report also contained information on how we will be using the items bought with the donation. I think the donors were pleased with the way I reported on their monetary gift."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A memorable event that happened to me in the last few months was that I got a raise out of the blue in the past two weeks. I was given the raise because I had been accountable to two donors at the private school I work at. These donors reached out to administration to offer me a ten percent raise. I was not expecting this and was not only flattered but completely surprised. It made me feel proud of my accomplishment of reaching out to these donors to let them know where and how the money they donated to the library I manage was being spent. I plan on using the money to pay off a car loan I recently got. What I did to get the raise was to write monthly reports. In the reports I put what we spent the money on. I also put what student engagement was happening because of the monetary gift. Student engagement is very important to these donors. They liked hearing that students used their gift appropriately. They also liked seeing images of the students using items bought with the gift. At the end of the year I sent the donors a comprehensive report. In the report were statistics about student engagement. I also had photos in the report. The report also contained information on how we will be using the items bought with the donation. I think the donors were pleased with the way I reported on their monetary gift.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "This is why they reached out to administration to offer me a raise.\n\n"
+            }
+        ],
+        "request_id": "811f40e239470f6f-EWR"
+    }
+}

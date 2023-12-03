@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: There were times when I felt the pile of assignments were not going to get done. There were times when I didn't sleep for days and days. The dreams felt like they blended in with the days. My college experience was a confusing time, filled with sadness, heartbreak, loss. I know for a fact however that my experience was felt by many others too. I found solace in that at times. But at the time I felt like the world was going to come crashing down. It was such a memorable experience but I am happy it is over. There was one time when I felt I couldn't finish it. I felt like running away from all of my responsibilities but I didn't. I pushed through, I passed in all of assignments on time. I aced all of my finals. I asked for recommendation letters from all of my professors. It was a great experience, and worth every penny. I wouldn't change anything if I had the chance to do so."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: There were times when I felt the pile of assignments were not going to get done. There were times when I didn't sleep for days and days. The dreams felt like they blended in with the days. My college experience was a confusing time, filled with sadness, heartbreak, loss. I know for a fact however that my experience was felt by many others too. I found solace in that at times. But at the time I felt like the world was going to come crashing down. It was such a memorable experience but I am happy it is over. There was one time when I felt I couldn't finish it. I felt like running away from all of my responsibilities but I didn't. I pushed through, I passed in all of assignments on time. I aced all of my finals. I asked for recommendation letters from all of my professors. It was a great experience, and worth every penny. I wouldn't change anything if I had the chance to do so.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am proud of myself for pushing through, for persevering.\n\n"
+            }
+        ],
+        "request_id": "811f3eee79af42be-EWR"
+    }
+}

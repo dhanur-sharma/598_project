@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm finished with the Microbiology part of the program now. In fact, I just started back after a two week break from school. Now, I'm starting the Hematology part of the program. Anyway, on the point of Microbiology, I did learn a lot about the subject. It kind of turns out that it is, more or less, just a desk job. Albeit, a very stinky desk job. The workers come in, have a stack of work in front of them for the day, and pretty much just work on that at their desk. Because of this, it is kind of my least favorite part of the lab. The other departments involve quite a bit more moving around and multitasking. I have worked plenty of desk jobs in the past, and don't have much desire to continue to do so any more. I'd rather have a job that's a little more fast paced and active. Luckily, it looks like the profession that I'm choosing has a little bit of both. I wouldn't want to stay too active all the time, either. Having a good balance will make for a better experience. I think I'm going to dig it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm finished with the Microbiology part of the program now. In fact, I just started back after a two week break from school. Now, I'm starting the Hematology part of the program. Anyway, on the point of Microbiology, I did learn a lot about the subject. It kind of turns out that it is, more or less, just a desk job. Albeit, a very stinky desk job. The workers come in, have a stack of work in front of them for the day, and pretty much just work on that at their desk. Because of this, it is kind of my least favorite part of the lab. The other departments involve quite a bit more moving around and multitasking. I have worked plenty of desk jobs in the past, and don't have much desire to continue to do so any more. I'd rather have a job that's a little more fast paced and active. Luckily, it looks like the profession that I'm choosing has a little bit of both. I wouldn't want to stay too active all the time, either. Having a good balance will make for a better experience. I think I'm going to dig it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, now I'm on to the next part of the program. It's called Hematology. I'm a little excited to see what this next part will bring."
+            }
+        ],
+        "request_id": "811f4029dfe30c8a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I traveled to Bellevue, Washington, for a little reunion with my brother, sister and other family members.  We hadn't gotten together in a very long time.  The trip up was very scenic and beautiful.  I drove up with my sister.  When we arrived everyone else was already there.  My sister in law had a beautiful table set with meats, cheeses and wine.  It was surprising to me that we all seemed to pick up where we left off, so to speak.  We hadn't seen each other in a long time and it felt like yesterday.   I was shocked to see how my brother's two sons had grown so much!  They are now mature young, handsome men with great personalities.  What a joy they were to interact with!  We had planned to go on a little trip to do some wine tasting, so we did that.  We had to take two cars.  The city we went to was Woodinville.  It is a quaint little town with tons of wineries to visit.  We were a big group, so we went to wineries that could accommodate all of us.  The tasting was very enjoyable with good wine and lots of conversation.  After that, we investigated online where we should go out to dinner.  We found a well reviewed Italian restaurant and decided to go to it.  The ambiance was nice and we were very pleased.  Unfortunately, the reviews were terribly wrong!  The food was horrible and the service worse.  Oh well, we made the best of it.  My sister and I spent the night and left early in the morning.  It was a memorable time for all of us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I traveled to Bellevue, Washington, for a little reunion with my brother, sister and other family members.  We hadn't gotten together in a very long time.  The trip up was very scenic and beautiful.  I drove up with my sister.  When we arrived everyone else was already there.  My sister in law had a beautiful table set with meats, cheeses and wine.  It was surprising to me that we all seemed to pick up where we left off, so to speak.  We hadn't seen each other in a long time and it felt like yesterday.   I was shocked to see how my brother's two sons had grown so much!  They are now mature young, handsome men with great personalities.  What a joy they were to interact with!  We had planned to go on a little trip to do some wine tasting, so we did that.  We had to take two cars.  The city we went to was Woodinville.  It is a quaint little town with tons of wineries to visit.  We were a big group, so we went to wineries that could accommodate all of us.  The tasting was very enjoyable with good wine and lots of conversation.  After that, we investigated online where we should go out to dinner.  We found a well reviewed Italian restaurant and decided to go to it.  The ambiance was nice and we were very pleased.  Unfortunately, the reviews were terribly wrong!  The food was horrible and the service worse.  Oh well, we made the best of it.  My sister and I spent the night and left early in the morning.  It was a memorable time for all of us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We are planning to do it again next year. "
+            }
+        ],
+        "request_id": "811ebf631ce41780-EWR"
+    }
+}

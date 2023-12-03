@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago I was involved in a car accident.   The accident happened on the Highway as I was getting onto the entering ramp.  It happened as I got off work.  My shift was late at night.  I worked late that night and I was exhausted and very tired.  It seemed like a normal work night as I cloaked out and proceeded to my truck.  The only thing that was different that night is that I was very tired from working.  Sometimes I take a nap before I drive home.  For some reason I did not take a nap to rest up before I started my trip home.  As I was driving to get on the ramp to the Highway I started to go around the curve of the ramp.  Halfway around the ramp I soon lost control of the truck.  I did not realize the the road was wet.  While I was working it rained a little but I did not noticed.  As I accelerated up the ramp I lost control of the truck.  My steering wheel locked.  My front truck tires locked as well.  As I lost control of my truck it seemed like my entire life flashed before me i those few seconds.  I was really scared.  I hit the guard rail and crashed my back bumper.  I got out of the truck and realized that I was not hurt.  I walked away from the accident unharmed and I am very grateful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago I was involved in a car accident.   The accident happened on the Highway as I was getting onto the entering ramp.  It happened as I got off work.  My shift was late at night.  I worked late that night and I was exhausted and very tired.  It seemed like a normal work night as I cloaked out and proceeded to my truck.  The only thing that was different that night is that I was very tired from working.  Sometimes I take a nap before I drive home.  For some reason I did not take a nap to rest up before I started my trip home.  As I was driving to get on the ramp to the Highway I started to go around the curve of the ramp.  Halfway around the ramp I soon lost control of the truck.  I did not realize the the road was wet.  While I was working it rained a little but I did not noticed.  As I accelerated up the ramp I lost control of the truck.  My steering wheel locked.  My front truck tires locked as well.  As I lost control of my truck it seemed like my entire life flashed before me i those few seconds.  I was really scared.  I hit the guard rail and crashed my back bumper.  I got out of the truck and realized that I was not hurt.  I walked away from the accident unharmed and I am very grateful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9264dec141db-EWR"
+    }
+}

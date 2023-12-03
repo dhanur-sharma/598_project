@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One week ago, my nephew was having his fifth birthday party. My aunt and uncle forgot until the last minute to buy a cake because they had been so busy. They only realized this during the party, so they rushed out to buy a cake. When they finally had time to get to the bakery, they bought the first cake they could find without checking what kind it was. While they were gone, my nephew was opening his presents as fast as he could, because he was more interested in eating his cake than his actual presents. We watched as he opened many presents with new toys, without caring because he was so excited for his cake. When my aunt and uncle returned, he just about leapt out of his seat and ran to them. He couldn't wait to have a piece of his birthday cake. They sliced the cake with a knife, and gave him the first piece. When he tasted the cake, he immediately spat it out. It was carrot cake! He was so upset. He wasn't even interested in playing with his new toys because his birthday was ruined by the last-minute carrot cake his parents had bought. None of the adults thought the cake was terrible, we all enjoyed it. When we think back to my nephew's fifth birthday party, this is what we all remember and laugh about."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One week ago, my nephew was having his fifth birthday party. My aunt and uncle forgot until the last minute to buy a cake because they had been so busy. They only realized this during the party, so they rushed out to buy a cake. When they finally had time to get to the bakery, they bought the first cake they could find without checking what kind it was. While they were gone, my nephew was opening his presents as fast as he could, because he was more interested in eating his cake than his actual presents. We watched as he opened many presents with new toys, without caring because he was so excited for his cake. When my aunt and uncle returned, he just about leapt out of his seat and ran to them. He couldn't wait to have a piece of his birthday cake. They sliced the cake with a knife, and gave him the first piece. When he tasted the cake, he immediately spat it out. It was carrot cake! He was so upset. He wasn't even interested in playing with his new toys because his birthday was ruined by the last-minute carrot cake his parents had bought. None of the adults thought the cake was terrible, we all enjoyed it. When we think back to my nephew's fifth birthday party, this is what we all remember and laugh about.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca518d9a333c-EWR"
+    }
+}

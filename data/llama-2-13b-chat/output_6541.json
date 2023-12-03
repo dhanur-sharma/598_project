@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was my son's first birthday.  I planned his birthday party and invited some relatives over.  I made his cake for him to smash.  He made such a mess! He was so cute I didn't mind cleaning it up though.  Plus the dog came in and cleaned up the spots I missed on the chair.  We took a lot of cute photos. I can't wait to have them printed.  It was very touching because I can't believe how fast a year went by!  It seems like only yesterday we brought him home from the hospital.  And now he is walking everywhere!  He has said his first word. And has so much personality! He is very obsessed with the dog. It was great to think about all the fun we have had over the past year.  I'm sure the next year will be even more fun!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was my son's first birthday.  I planned his birthday party and invited some relatives over.  I made his cake for him to smash.  He made such a mess! He was so cute I didn't mind cleaning it up though.  Plus the dog came in and cleaned up the spots I missed on the chair.  We took a lot of cute photos. I can't wait to have them printed.  It was very touching because I can't believe how fast a year went by!  It seems like only yesterday we brought him home from the hospital.  And now he is walking everywhere!  He has said his first word. And has so much personality! He is very obsessed with the dog. It was great to think about all the fun we have had over the past year.  I'm sure the next year will be even more fun!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f478a4f604291-EWR"
+    }
+}

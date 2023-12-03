@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I moved from midtown out to the suburbs. I've been avoiding the suburbs for most of my life. But I think that was an attitude more of my youth. And as I've gotten older, I've let go of a lot of that rebelliousness. I don't mind \"fitting in\" nowadays. The move was the best decision I ever made. Now I've cut my rent in half, and prices for groceries and gas are considerably cheaper outside the city. The greatest result of the move is that I've been able to start making hefty payments on my student loans. I've been waiting to do that for about 10 years. In addition to paying less for rent, I've also become more financially responsible. I even cut coupons. There was a time I would have died to hear myself say that! But it feels good to be getting out debt and to be saving money. It feels good being a smart shopper. I'm just a little mad that it took me so long to realize all this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I moved from midtown out to the suburbs. I've been avoiding the suburbs for most of my life. But I think that was an attitude more of my youth. And as I've gotten older, I've let go of a lot of that rebelliousness. I don't mind \"fitting in\" nowadays. The move was the best decision I ever made. Now I've cut my rent in half, and prices for groceries and gas are considerably cheaper outside the city. The greatest result of the move is that I've been able to start making hefty payments on my student loans. I've been waiting to do that for about 10 years. In addition to paying less for rent, I've also become more financially responsible. I even cut coupons. There was a time I would have died to hear myself say that! But it feels good to be getting out debt and to be saving money. It feels good being a smart shopper. I'm just a little mad that it took me so long to realize all this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But at least I've come to it now.\n\n"
+            }
+        ],
+        "request_id": "811e9c96dac8236b-EWR"
+    }
+}

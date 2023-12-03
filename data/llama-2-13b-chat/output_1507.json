@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last March I went to a tax accountant. I needed to file amended returns for the Patreon income from four previous years. I'd been under the impression since I set up my Patreon account that it was gift income, and therefore non-taxable. But gradually it became my primary source of income and I shifted to self-employment as a freelance writer. And the more I looked into it the more I began to suspect it was taxable after all. I feared getting into serious trouble. In July of last year I concluded that it was indeed taxable. So I made plans to see an accountant and file for back taxes. According to my research on Google the IRS was required to allow installment payments I could afford, but I was still quite apprehensive in the months leading up to the meeting. In March I met with the accountant, gave him documentation of the additional income, and paid him $400 for preparing four years' amended returns. This was considerably cheaper than my worst-case estimate, and was in itself a significant relief. And he confirmed my information about making installment payments. In the months since, the IRS sent me a bill for back taxes and I arranged a modest $64/month installment payment. I also subtract 15% self-employment tax. It's a total tax burden I'm able to bear relatively easily, and a great load off my mind."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last March I went to a tax accountant. I needed to file amended returns for the Patreon income from four previous years. I'd been under the impression since I set up my Patreon account that it was gift income, and therefore non-taxable. But gradually it became my primary source of income and I shifted to self-employment as a freelance writer. And the more I looked into it the more I began to suspect it was taxable after all. I feared getting into serious trouble. In July of last year I concluded that it was indeed taxable. So I made plans to see an accountant and file for back taxes. According to my research on Google the IRS was required to allow installment payments I could afford, but I was still quite apprehensive in the months leading up to the meeting. In March I met with the accountant, gave him documentation of the additional income, and paid him $400 for preparing four years' amended returns. This was considerably cheaper than my worst-case estimate, and was in itself a significant relief. And he confirmed my information about making installment payments. In the months since, the IRS sent me a bill for back taxes and I arranged a modest $64/month installment payment. I also subtract 15% self-employment tax. It's a total tax burden I'm able to bear relatively easily, and a great load off my mind.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea620d97743d5-EWR"
+    }
+}

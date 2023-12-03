@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a destination bachelor party about two months ago. It was for three days in Nashville, Tennessee. I was the best man in the wedding so it was important that I attend. I was surprised that the city was always full of life. They say it's the city that never sleeps and they aren't exaggerating! I was also surprised how friendly everyone was. I had no trouble striking up conversations with strangers wherever we went. We had a lot of things planned for each day so we were very busy all the time. It was night to get away and just let loose with some great friends. The trip really strengthened the bond between everyone who attended. I remember feeling very accepted and glad that I went. It can be difficult for everyone to get together these days. Between jobs, partners and just life in general, finding time is not always as easy as it was. I'll always remember this trip and the fun we all had. It was not only a great change of pace, but a great way to reconnect. I would go again anytime."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a destination bachelor party about two months ago. It was for three days in Nashville, Tennessee. I was the best man in the wedding so it was important that I attend. I was surprised that the city was always full of life. They say it's the city that never sleeps and they aren't exaggerating! I was also surprised how friendly everyone was. I had no trouble striking up conversations with strangers wherever we went. We had a lot of things planned for each day so we were very busy all the time. It was night to get away and just let loose with some great friends. The trip really strengthened the bond between everyone who attended. I remember feeling very accepted and glad that I went. It can be difficult for everyone to get together these days. Between jobs, partners and just life in general, finding time is not always as easy as it was. I'll always remember this trip and the fun we all had. It was not only a great change of pace, but a great way to reconnect. I would go again anytime.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3aa28b817e9-EWR"
+    }
+}

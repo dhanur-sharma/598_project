@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just got married to the girl of my dream. It was great. The wedding was great. The food was great. Everything was just perfect. I can't believe I'm finally a married man now! I'm married! I want to yell it to the sky at the top of my voice. But that would be somewhat embarrassing. So I didn't do it. Anyways, it was a great wedding, and I'm sure that I will always remember it. I will be telling my children about this great wedding when they are older. The food was fantastic, even though it cost a lot to hire the cooks. But it was worth it. I just know it because the food taste so good even though it costed so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just got married to the girl of my dream. It was great. The wedding was great. The food was great. Everything was just perfect. I can't believe I'm finally a married man now! I'm married! I want to yell it to the sky at the top of my voice. But that would be somewhat embarrassing. So I didn't do it. Anyways, it was a great wedding, and I'm sure that I will always remember it. I will be telling my children about this great wedding when they are older. The food was fantastic, even though it cost a lot to hire the cooks. But it was worth it. I just know it because the food taste so good even though it costed so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The wedding was in a beautiful outdoor garden, and the weather was just perfect. It was a warm sunny day with just the right amount of clouds to make it interesting. And I was happy to see that all of our friends and family were there to celebrate with us. It was a great day.\n\n"
+            }
+        ],
+        "request_id": "811ece971ede1906-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I went to Virginia to visit my family. I go at least once every summer. I've been doing this since I graduated school and moved to South Carolina for work. This year was different though. You see my grandma has been quite ill lately. She's been in and out of the hospital a few times. At her age I fear she doesn't have the strength to keep fighting her condition. I don't really think she will make it to next summer when I visit again. She has been struggling with pneumonia and breathing problems for many years. Grandmother spent her whole adult life working in the fabric mills. I really think that's the reason for her breathing problems. All the fine fibers of the cotton and other materials floating around the factory. She worked in a era when not as much was known about safety. There were no breathing masks back in her day. Of course no doctor will sign off on anything like that, but it seems the most likely cause as she's never smoked. She's always eaten healthy and had a big garden as far back as I can remember. I really hope I'm wrong and she's around for many years to come. But I spent every minute she was awake with her on this trip on the off chance it might be our last time together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I went to Virginia to visit my family. I go at least once every summer. I've been doing this since I graduated school and moved to South Carolina for work. This year was different though. You see my grandma has been quite ill lately. She's been in and out of the hospital a few times. At her age I fear she doesn't have the strength to keep fighting her condition. I don't really think she will make it to next summer when I visit again. She has been struggling with pneumonia and breathing problems for many years. Grandmother spent her whole adult life working in the fabric mills. I really think that's the reason for her breathing problems. All the fine fibers of the cotton and other materials floating around the factory. She worked in a era when not as much was known about safety. There were no breathing masks back in her day. Of course no doctor will sign off on anything like that, but it seems the most likely cause as she's never smoked. She's always eaten healthy and had a big garden as far back as I can remember. I really hope I'm wrong and she's around for many years to come. But I spent every minute she was awake with her on this trip on the off chance it might be our last time together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I even took some time off work so I could spend the entire week with her. I miss her dearly already and I'm not even home yet."
+            }
+        ],
+        "request_id": "811f45527ded427f-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: THis incident occured two weeks ago at my grandmother's home. We had been asked to come and help clean out the house now that my grandfather is in the hospital and my grandmother is chair bound. My uncle also recently passed away and his girlfriend was kicked out of the home because she had been stealing my grandparents pills. My grandparents adopted daughter is an 18 black girl known as C. She has been recently seeing another black girl who has a criminal history. Anyway, as my immediate family had come to help clean and care for our grandparents, C's girlfriend J and begun shouting at us, telling us to get out of our family home. She came in bearing a gun and started waving it around. Just as she pointed it toward my grand mother, my sister grabbed her and I moved in to take the gun away. It fired once, hitting their large screen tv and the cops were called. They took J and we decided to head back home. It was no longer our problem and C can stay there, because even family isn't worth risking your life. Once we got back home we contacted my grandmother and discussed the matter with her. We decided that having her put into an elderly home was the best idea. C is now homeless. My Gradfather got out of the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: THis incident occured two weeks ago at my grandmother's home. We had been asked to come and help clean out the house now that my grandfather is in the hospital and my grandmother is chair bound. My uncle also recently passed away and his girlfriend was kicked out of the home because she had been stealing my grandparents pills. My grandparents adopted daughter is an 18 black girl known as C. She has been recently seeing another black girl who has a criminal history. Anyway, as my immediate family had come to help clean and care for our grandparents, C's girlfriend J and begun shouting at us, telling us to get out of our family home. She came in bearing a gun and started waving it around. Just as she pointed it toward my grand mother, my sister grabbed her and I moved in to take the gun away. It fired once, hitting their large screen tv and the cops were called. They took J and we decided to head back home. It was no longer our problem and C can stay there, because even family isn't worth risking your life. Once we got back home we contacted my grandmother and discussed the matter with her. We decided that having her put into an elderly home was the best idea. C is now homeless. My Gradfather got out of the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was happy to see my grandmother and the house was clean and organized.\n\n"
+            }
+        ],
+        "request_id": "811bd7c0afcac34d-EWR"
+    }
+}

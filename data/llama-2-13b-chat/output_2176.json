@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We recently attended our annual family reunion in North Carolina.  My family have been going on this annual trek for the last 20 years.  It is an eagerly anticipated yearly trip.  I rent a large 15 capacity van.  My sister and I both take our families.  I offer to give rides to the more elderly family members.  We usually hit the road around 6AM.  I have completed the pick-up of the other occupants by 9AM.  We head on down the Turnpike for the long drive down.  We always have a goal to try to beat the prior year's time.  It should take around 8-9 hours to get to our hotel.  However, no matter how hard we try, we are usually the last family members from our area to check in.  The difficulty is that there are only 2 drivers.  My sister and I take turns drive around 3 hour stretches.  And inevitably, we just end up stopping incessantly for many rest room breaks.  The hotel is usually all filled with family members and it has an indoor pool.  All of the planned activities is at the hotel so inclement weather will not ruin the events.  It is a 3 day event.  On Friday evening, there is a meet and greet social.  The reunion dinner and memorials is held on Saturday.  This is a formal event.  The dinner iis catered with formal service.  Each year we have a memorial service to honor members that have passed during the year.  Immediately after dinner, we have an awards ceremony for recent college graduates and members who will be entering college.  The highlight of the weekend is the talent show."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We recently attended our annual family reunion in North Carolina.  My family have been going on this annual trek for the last 20 years.  It is an eagerly anticipated yearly trip.  I rent a large 15 capacity van.  My sister and I both take our families.  I offer to give rides to the more elderly family members.  We usually hit the road around 6AM.  I have completed the pick-up of the other occupants by 9AM.  We head on down the Turnpike for the long drive down.  We always have a goal to try to beat the prior year's time.  It should take around 8-9 hours to get to our hotel.  However, no matter how hard we try, we are usually the last family members from our area to check in.  The difficulty is that there are only 2 drivers.  My sister and I take turns drive around 3 hour stretches.  And inevitably, we just end up stopping incessantly for many rest room breaks.  The hotel is usually all filled with family members and it has an indoor pool.  All of the planned activities is at the hotel so inclement weather will not ruin the events.  It is a 3 day event.  On Friday evening, there is a meet and greet social.  The reunion dinner and memorials is held on Saturday.  This is a formal event.  The dinner iis catered with formal service.  Each year we have a memorial service to honor members that have passed during the year.  Immediately after dinner, we have an awards ceremony for recent college graduates and members who will be entering college.  The highlight of the weekend is the talent show.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We have had some amazing performances over the years.  This year was no exception.  There was a sing-along with karaoke.  We had a family member who won a Grammy award and sang for us.  There were some really good performances.  The weekend ended with a family picnic on Sunday.  We always have a great time and make many memories.  It is an exhausting but fulfilling weekend.\n\n"
+            }
+        ],
+        "request_id": "811eb1c0dfd241e0-EWR"
+    }
+}

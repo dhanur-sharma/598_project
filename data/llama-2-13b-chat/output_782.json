@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was August 15th and I was scheduled to come in for an induction. I arrived at the hospital early, around 6am. I got checked in and got my bed. Around 8am I was visited by my OB and given pitocin to start labor. I couldn't feel it for a while. Around noon, my OB came back in and we discussed how things were progressing. It was going pretty slowly so we thought it would be a good idea to break my water. I decided to get my epidural first, since I wanted a relatively pain free birth. After the epidural was placed, I felt pretty sick. I had to be given some medicine to help raise my blood pressure and to help reduce the nausea. After a while I started to feel better. My water was broken and labor started to progress, though things were still slow. I spend most of the afternoon dozing off in between commercial breaks. I managed to watch some of The Force Awakens and one of the Avengers movies. Around 8pm I was ready to start pushing. I was worried about this part because it was where I had trouble with my first child. I was already tired from laboring all day and from not having any food to eat. I pushed for a couple hours and was so close but was having the same problem that I had the first time. Baby's heart rate was starting to drop with each push so about 20 minutes before 11pm my doctor decided to use the vacuum to extract my daughter. With one push, she was out. The delivery went better than my first. I was able to hold my daughter right after the delivery. She was much bigger than the scanning ultrasound said she would be. She had a great apgar score and cried for about half an hour straight after the delivery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was August 15th and I was scheduled to come in for an induction. I arrived at the hospital early, around 6am. I got checked in and got my bed. Around 8am I was visited by my OB and given pitocin to start labor. I couldn't feel it for a while. Around noon, my OB came back in and we discussed how things were progressing. It was going pretty slowly so we thought it would be a good idea to break my water. I decided to get my epidural first, since I wanted a relatively pain free birth. After the epidural was placed, I felt pretty sick. I had to be given some medicine to help raise my blood pressure and to help reduce the nausea. After a while I started to feel better. My water was broken and labor started to progress, though things were still slow. I spend most of the afternoon dozing off in between commercial breaks. I managed to watch some of The Force Awakens and one of the Avengers movies. Around 8pm I was ready to start pushing. I was worried about this part because it was where I had trouble with my first child. I was already tired from laboring all day and from not having any food to eat. I pushed for a couple hours and was so close but was having the same problem that I had the first time. Baby's heart rate was starting to drop with each push so about 20 minutes before 11pm my doctor decided to use the vacuum to extract my daughter. With one push, she was out. The delivery went better than my first. I was able to hold my daughter right after the delivery. She was much bigger than the scanning ultrasound said she would be. She had a great apgar score and cried for about half an hour straight after the delivery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so relieved and happy to have my baby finally in my arms."
+            }
+        ],
+        "request_id": "811e98773b421768-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the last three months lots have happened. I moved to a new house. I found a girl I liked. I also was fired from my job. That was emotional for me. I wanted that bartender position. Unfortunately, they didn't like me. They thought that I didn't do a good enough job. Luckily, that day the girl I liked told me she liked me too. It made everything turn upside down. I have been seeing her since then, and we are happy. We spend a lot of time together. I even found another job. That means that I didn't lose what I thought I lost. Instead, I found a new life. I am planning on moving again. I think that we all need to smell the roses. We shouldn't be so upset about things. Things go wrong. Things don't happen the way we want them to. But if we don't see the silver lining, we are dumb. I hope I stay with her. She seems to like me. I need to be more positive. And this experience has shown me that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the last three months lots have happened. I moved to a new house. I found a girl I liked. I also was fired from my job. That was emotional for me. I wanted that bartender position. Unfortunately, they didn't like me. They thought that I didn't do a good enough job. Luckily, that day the girl I liked told me she liked me too. It made everything turn upside down. I have been seeing her since then, and we are happy. We spend a lot of time together. I even found another job. That means that I didn't lose what I thought I lost. Instead, I found a new life. I am planning on moving again. I think that we all need to smell the roses. We shouldn't be so upset about things. Things go wrong. Things don't happen the way we want them to. But if we don't see the silver lining, we are dumb. I hope I stay with her. She seems to like me. I need to be more positive. And this experience has shown me that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e92995ae4434c-EWR"
+    }
+}

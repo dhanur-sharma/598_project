@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was working for a while now, and I'm so sick and tired of my job. It's such a thankless job, and no one appreciates what I do. Not to mention, that the job doesn't even pay much. I just want something different in life. I want something better. Something good. So I decided to apply for grad school. And guess what? I was accepted! I'm so glad that I got accepted because I really didn't expect to get accepted. But I got accepted anyways. So yeah, life is good and I will work hard to make sure that this pays off. I know it will. I will get the highest grade, and comes out on top. When I graduate I will get a better, easier, and highest paying job. Life will be good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was working for a while now, and I'm so sick and tired of my job. It's such a thankless job, and no one appreciates what I do. Not to mention, that the job doesn't even pay much. I just want something different in life. I want something better. Something good. So I decided to apply for grad school. And guess what? I was accepted! I'm so glad that I got accepted because I really didn't expect to get accepted. But I got accepted anyways. So yeah, life is good and I will work hard to make sure that this pays off. I know it will. I will get the highest grade, and comes out on top. When I graduate I will get a better, easier, and highest paying job. Life will be good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e97960d7d0c94-EWR"
+    }
+}

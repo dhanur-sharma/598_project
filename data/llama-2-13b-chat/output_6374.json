@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had an idea that there might be something coming up jeopardizing my position at my former employer.  One morning I received a note from my manager advising me that she was flying into town to meet with me.  I of course was nervous and feared for the worst.  Unfortunately I was correct.  When my manager arrived she already had a conference reserved for us to meet in private.  She told me that there was a new CEO in the company and he was evaluating all of the current programs.  He determined that the program that I managed was going to be eliminated, and along with it my job as well.  I was given three months to find another position within the company, or else I would be offered a severance package.  I opted to leave and take the company buy out.  It was a traumatizing and demeaning experience for me to go through, especially after having nearly 20 highly rated years with the company.  I will probably never fully understand how the company could callously eliminate my position, without even speaking to me to obtain the necessary metrics to justify the program's existence.  Some time has passed, but I still feel bitter and resentful to this day.  I now hesitate to do business with the company.  I certainly no longer recommend it's products.  One day I might be able to get over it, but until that day comes I remain bitter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had an idea that there might be something coming up jeopardizing my position at my former employer.  One morning I received a note from my manager advising me that she was flying into town to meet with me.  I of course was nervous and feared for the worst.  Unfortunately I was correct.  When my manager arrived she already had a conference reserved for us to meet in private.  She told me that there was a new CEO in the company and he was evaluating all of the current programs.  He determined that the program that I managed was going to be eliminated, and along with it my job as well.  I was given three months to find another position within the company, or else I would be offered a severance package.  I opted to leave and take the company buy out.  It was a traumatizing and demeaning experience for me to go through, especially after having nearly 20 highly rated years with the company.  I will probably never fully understand how the company could callously eliminate my position, without even speaking to me to obtain the necessary metrics to justify the program's existence.  Some time has passed, but I still feel bitter and resentful to this day.  I now hesitate to do business with the company.  I certainly no longer recommend it's products.  One day I might be able to get over it, but until that day comes I remain bitter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am currently looking for a new position and I hope that it will be with a company that values its employees."
+            }
+        ],
+        "request_id": "811f4418cb8a4399-EWR"
+    }
+}

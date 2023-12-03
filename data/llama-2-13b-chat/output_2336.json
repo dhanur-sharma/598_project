@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's always so wonderful to meet back up with your high school friends. For me, it was even more wonderful because two of my best friends were getting married to one another. Honestly, none of us would have ever guessed that either of them were gay, but I'm just so incredibly happy that they have found happiness together. It's a big event, all of our old friend group is getting together for this. Everyone has been extremely nice and extremely supportive. Even both of their families are really supportive. I think it's so great that they can marry and be happy together. Before the wedding, we all went on a night on the town just like we used to do back in high school. We did some driving around, we stopped at a bar or two, and we also stopped to eat somewhere. It felt like we were all back in high school again. It was up to me to give the wedding speech. I felt nervous, but was mostly among friends so it wasn't too bad. After the speech, I gave them a photo from when they first met. They both cried and hugged me. I love my friends so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's always so wonderful to meet back up with your high school friends. For me, it was even more wonderful because two of my best friends were getting married to one another. Honestly, none of us would have ever guessed that either of them were gay, but I'm just so incredibly happy that they have found happiness together. It's a big event, all of our old friend group is getting together for this. Everyone has been extremely nice and extremely supportive. Even both of their families are really supportive. I think it's so great that they can marry and be happy together. Before the wedding, we all went on a night on the town just like we used to do back in high school. We did some driving around, we stopped at a bar or two, and we also stopped to eat somewhere. It felt like we were all back in high school again. It was up to me to give the wedding speech. I felt nervous, but was mostly among friends so it wasn't too bad. After the speech, I gave them a photo from when they first met. They both cried and hugged me. I love my friends so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so happy that they are happy.\n\n"
+            }
+        ],
+        "request_id": "811eb4ba4a98c413-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My grandfather recently passed away. I miss him so much. I still can't believe he's gone. I wish I could change this. I wish I could bring him back. I always dreaded this day coming. My grandfather had always been my closest family member and the person I looked up to and rely on the most. His death was unexpected. He had been doing fine but then all of sudden he got really sick and was in the hospital. He just kept getting worse and worse and he ended up dying at the hospital. It still doesn't seem real to me. I keep hoping it's all just a bad nightmare and that I will wake up soon. I miss him so much every day. It's so sad and weird suddenly having someone who's been in your life your whole life, suddenly gone forever. It just doesn't seem real to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My grandfather recently passed away. I miss him so much. I still can't believe he's gone. I wish I could change this. I wish I could bring him back. I always dreaded this day coming. My grandfather had always been my closest family member and the person I looked up to and rely on the most. His death was unexpected. He had been doing fine but then all of sudden he got really sick and was in the hospital. He just kept getting worse and worse and he ended up dying at the hospital. It still doesn't seem real to me. I keep hoping it's all just a bad nightmare and that I will wake up soon. I miss him so much every day. It's so sad and weird suddenly having someone who's been in your life your whole life, suddenly gone forever. It just doesn't seem real to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I keep wishing and hoping that he's still out there somewhere and that I'll see him again someday."
+            }
+        ],
+        "request_id": "811f3b382b8b42e8-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In July I left the United States for the first time in over 10 years. I went first to the UK but that was just a layover. I was leaving the US to move to Morocco so that I could meet a man I had met online and get to know him with the intent of working together and starting a relationship. This was so important to me because I was starting a new life. I remember getting off the plane. The Agadir airport is so small. I think only about 6 people work there. 2 immigration people, 1 customs person, 2 guys on baggage and 1 information person. I mean it's one of the smallest airports I have ever seen that accept international flights. It's so small they don't even charge you for a baggage cart. I remember getting my bags and heading out the door. I could see A from the foyer. It was the first time I have seen him in person. I was so terrified that he might not like me. I almost went back inside. However I walked outside and met him and it was amazing. Now I have been here for 2 months and I have never been happier."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In July I left the United States for the first time in over 10 years. I went first to the UK but that was just a layover. I was leaving the US to move to Morocco so that I could meet a man I had met online and get to know him with the intent of working together and starting a relationship. This was so important to me because I was starting a new life. I remember getting off the plane. The Agadir airport is so small. I think only about 6 people work there. 2 immigration people, 1 customs person, 2 guys on baggage and 1 information person. I mean it's one of the smallest airports I have ever seen that accept international flights. It's so small they don't even charge you for a baggage cart. I remember getting my bags and heading out the door. I could see A from the foyer. It was the first time I have seen him in person. I was so terrified that he might not like me. I almost went back inside. However I walked outside and met him and it was amazing. Now I have been here for 2 months and I have never been happier.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f35d95ed278e2-EWR"
+    }
+}

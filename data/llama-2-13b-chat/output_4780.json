@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had focused upon attending this one school that I had wanted to attend from Sophomore year.  It was a good fit, my high school used to be a division of the University at one point, and was a sound option for my next four years.  However, finances were the primary decision maker or what would force my hand.  This university was almost $50,000 a year.  I had received a lot of aid, but not quite enough to be able to attend.  I requested more aid but was basically side-walled by their financial aid officer who insisted their offer was already beyond what they normally do.  I thought for giggles I would submit a similar request to the other universities I had applied to as I realized that I would have to go elsewhere.  One school, which I had ruled out as being too expensive came back with an amazing offer, they recognized my immense need and gave me even more money.   This was even weirder considering that the second university was actually significantly more selective.  All in all, it would be much cheaper with the out of pocket being less than 10% of the other college I had so dearly wanted to attend.  I realized from this experience that the other school who responded to my plea cared more about me than the school that did not answer my plea.  For that reason, I decided that while the second school was not (in my opinion) as great a fit, I would go there, as they believed in me and wanted to help me.  Further, I realized that the first school was not concerned about my ability to attend, but themselves.  The second school has locked tuition, and cares about the affordability of their degrees.  Which to someone like me that comes from my background, is a major issue."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had focused upon attending this one school that I had wanted to attend from Sophomore year.  It was a good fit, my high school used to be a division of the University at one point, and was a sound option for my next four years.  However, finances were the primary decision maker or what would force my hand.  This university was almost $50,000 a year.  I had received a lot of aid, but not quite enough to be able to attend.  I requested more aid but was basically side-walled by their financial aid officer who insisted their offer was already beyond what they normally do.  I thought for giggles I would submit a similar request to the other universities I had applied to as I realized that I would have to go elsewhere.  One school, which I had ruled out as being too expensive came back with an amazing offer, they recognized my immense need and gave me even more money.   This was even weirder considering that the second university was actually significantly more selective.  All in all, it would be much cheaper with the out of pocket being less than 10% of the other college I had so dearly wanted to attend.  I realized from this experience that the other school who responded to my plea cared more about me than the school that did not answer my plea.  For that reason, I decided that while the second school was not (in my opinion) as great a fit, I would go there, as they believed in me and wanted to help me.  Further, I realized that the first school was not concerned about my ability to attend, but themselves.  The second school has locked tuition, and cares about the affordability of their degrees.  Which to someone like me that comes from my background, is a major issue.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will be able to graduate with little to no debt.  I am so thankful for this opportunity.\n\n"
+            }
+        ],
+        "request_id": "811bddb30d948c4b-EWR"
+    }
+}

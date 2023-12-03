@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I told this guy that I was unable to help him at the moment. The guy lost his cool immediately. I was willing to help but he decided to come at the last minute. I alsready had other obligations that I had to tend to those are just as important if not more important. He just had to understand that. However, he was not taking that answer. Not one bit.  i tried to explain to him that i could see him first thing tomorrow. Not hearing it of course. I called a friend and he was out of town. i tried to go above and beyond. It just was not his timing I guess. I think he should plan better for these thing. It wont be a problem next time. I am pretty sure of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I told this guy that I was unable to help him at the moment. The guy lost his cool immediately. I was willing to help but he decided to come at the last minute. I alsready had other obligations that I had to tend to those are just as important if not more important. He just had to understand that. However, he was not taking that answer. Not one bit.  i tried to explain to him that i could see him first thing tomorrow. Not hearing it of course. I called a friend and he was out of town. i tried to go above and beyond. It just was not his timing I guess. I think he should plan better for these thing. It wont be a problem next time. I am pretty sure of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb047aeb718c8-EWR"
+    }
+}

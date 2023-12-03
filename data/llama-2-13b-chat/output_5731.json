@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went over the parents house to celebrate the 4th of July. I had not been over there for a while. It took longer then I remember. It could have been because of the thought I talking about the same things over and over like always. While everyone in our family loves one another, it often turns into the same type of thing. Every get together seems to be the same. The parents try to get to know what going on. One parent or both try to offer advice or directly tell what should have been done instead. Disagreements on what happened in the past often occur between siblings. Sometimes we fight over the same things since last time we met. But in this case, none of that really happened. The parents asked what was going on in our lives overall and left it at that. All the siblings remember the good memories and didn't disagree on anything. It was kept civil and fun. We enjoyed all the food and had a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went over the parents house to celebrate the 4th of July. I had not been over there for a while. It took longer then I remember. It could have been because of the thought I talking about the same things over and over like always. While everyone in our family loves one another, it often turns into the same type of thing. Every get together seems to be the same. The parents try to get to know what going on. One parent or both try to offer advice or directly tell what should have been done instead. Disagreements on what happened in the past often occur between siblings. Sometimes we fight over the same things since last time we met. But in this case, none of that really happened. The parents asked what was going on in our lives overall and left it at that. All the siblings remember the good memories and didn't disagree on anything. It was kept civil and fun. We enjoyed all the food and had a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f37531fb14234-EWR"
+    }
+}

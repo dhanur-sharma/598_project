@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up today wanting to go camping for the first time. I did not know if I would enjoy it, I had never done it before. I thought how bad could it be? Being one with nature, enjoying the cool breeze and hiking around wherever we end up. I spent about an hour driving to the camp site, even the drive was fun. I was happy at this point and looked forward to the camp to come. I arrived and set up my tent, this was really difficult and I was already getting frustrated. I could tell that I might not enjoy this after all. I looked to the left and saw a mouse. The mouse was odd looking, I wasn't sure what was wrong with it but I was a little creeped out. It started circling me and I was really regretting doing any of this. I wanted to just leave, but the mouse had me trapped! I threw a rock at it and grabbed all my things and ran back to the car. I got in the car and wondered what the hell just happened. I started the car and drove home, never again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up today wanting to go camping for the first time. I did not know if I would enjoy it, I had never done it before. I thought how bad could it be? Being one with nature, enjoying the cool breeze and hiking around wherever we end up. I spent about an hour driving to the camp site, even the drive was fun. I was happy at this point and looked forward to the camp to come. I arrived and set up my tent, this was really difficult and I was already getting frustrated. I could tell that I might not enjoy this after all. I looked to the left and saw a mouse. The mouse was odd looking, I wasn't sure what was wrong with it but I was a little creeped out. It started circling me and I was really regretting doing any of this. I wanted to just leave, but the mouse had me trapped! I threw a rock at it and grabbed all my things and ran back to the car. I got in the car and wondered what the hell just happened. I started the car and drove home, never again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3574be030ca4-EWR"
+    }
+}

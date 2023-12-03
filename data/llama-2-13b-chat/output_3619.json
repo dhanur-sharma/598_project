@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I adopted a dog a few months ago. We first saw him when she saw a post on Facebook from the local animal shelter. She sent me a picture of the dog. He was very thin and looked very sad. We both felt very sorry for the dog. My wife saw the dog a week after we had moved into a new house. We had talked about getting another dog after we moved but ultimately decided against it. Our older dog is jealous of attention given to other dogs. We thought that he would be happier as an only dog. So when we first saw the dog at the shelter we talked about donating money to his care if he was picked up by a rescue group. However a few hours later neither of us could stop thinking about him. We called the shelter and were told that the dog needed more care than they could provide and that he wouldn't be kept there any longer. We decided that we had to go pick him up. We took the dog to a vet. They determined that he would need a blood transfusion but that it should wait until the following morning as the vet wasn't sure if he would survive the night. The next day the dog was given a blood transfusion. We were then able to take him home a few days later. We named him Pablo. Several months later he has gained weight and is more than twice the weight he was when we got him. He rather quickly adjusted to living with humans and has learned to use the bathroom outside. He is friendly and loving. Though he does still bite occasionally and is scared of strangers."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I adopted a dog a few months ago. We first saw him when she saw a post on Facebook from the local animal shelter. She sent me a picture of the dog. He was very thin and looked very sad. We both felt very sorry for the dog. My wife saw the dog a week after we had moved into a new house. We had talked about getting another dog after we moved but ultimately decided against it. Our older dog is jealous of attention given to other dogs. We thought that he would be happier as an only dog. So when we first saw the dog at the shelter we talked about donating money to his care if he was picked up by a rescue group. However a few hours later neither of us could stop thinking about him. We called the shelter and were told that the dog needed more care than they could provide and that he wouldn't be kept there any longer. We decided that we had to go pick him up. We took the dog to a vet. They determined that he would need a blood transfusion but that it should wait until the following morning as the vet wasn't sure if he would survive the night. The next day the dog was given a blood transfusion. We were then able to take him home a few days later. We named him Pablo. Several months later he has gained weight and is more than twice the weight he was when we got him. He rather quickly adjusted to living with humans and has learned to use the bathroom outside. He is friendly and loving. Though he does still bite occasionally and is scared of strangers.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He has been a great addition to our family."
+            }
+        ],
+        "request_id": "811ecd3e290cc40c-EWR"
+    }
+}

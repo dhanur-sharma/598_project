@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister passed away after a long battle with cancer.  I am glad she is now at peace.  I miss her so much.  Watching her slowly wither away was the worst of it all.  I watched her go from a beautiful flower, so full of life, to a wilted plant close to death.  At her funeral they made her up to look beautiful.  When they placed her in the ground, she looked just as beautiful as I wanted to remember her.  I hope this is the way she feels now that she is in heaven.  Every day is a battle.  I miss her so much.  I know she is at peace now, but I can't help to be angry.  Why would God take her away at such a young age??  Why is someone as sweet at her dead, while so many others who are terrible people are still alive?? My heart is broken.  I don't know what I am going to do.  I feel like part of me died with her.  I try to think that she is in a better place.  She is free from pain.  But how do I know for sure??"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister passed away after a long battle with cancer.  I am glad she is now at peace.  I miss her so much.  Watching her slowly wither away was the worst of it all.  I watched her go from a beautiful flower, so full of life, to a wilted plant close to death.  At her funeral they made her up to look beautiful.  When they placed her in the ground, she looked just as beautiful as I wanted to remember her.  I hope this is the way she feels now that she is in heaven.  Every day is a battle.  I miss her so much.  I know she is at peace now, but I can't help to be angry.  Why would God take her away at such a young age??  Why is someone as sweet at her dead, while so many others who are terrible people are still alive?? My heart is broken.  I don't know what I am going to do.  I feel like part of me died with her.  I try to think that she is in a better place.  She is free from pain.  But how do I know for sure??",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I wish I could see her again.  I wish I could talk to her again.  I wish I could tell her how much I love her.  I wish I could tell her how much I miss her.  I will never forget her.  She will always be in my heart."
+            }
+        ],
+        "request_id": "811f42627e354289-EWR"
+    }
+}

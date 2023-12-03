@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a friend's bachelor party in Canada. I remember answering questions when crossing the border. I remember we went to a museum of natural history. I had not visited such a museum since I was a child. We looked at fossilized remains and taxidermist's specimens. We ate at a restaurant with foie gras; that was the most memorable restaurant. I remember the foie gras was so rich that despite its small portion, I felt full before finishing it. On the last day, we ate at a Middle Eastern restaurant. For sightseeing, we visited a geodesic dome with metallic lattice structure enclosing a park. I never felt so inspired while behind bars. The transportation in the city was convenient and Uber was no different than in the United States. The trip was in May, so the weather was fine with no rain during our outings and no excessive heat or humidity. The AirBnb we stayed in was less new than it seemed featured in the pictures. The trip was a success and did not cost much money. I will remember the trip once and a while when I think of that group of friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a friend's bachelor party in Canada. I remember answering questions when crossing the border. I remember we went to a museum of natural history. I had not visited such a museum since I was a child. We looked at fossilized remains and taxidermist's specimens. We ate at a restaurant with foie gras; that was the most memorable restaurant. I remember the foie gras was so rich that despite its small portion, I felt full before finishing it. On the last day, we ate at a Middle Eastern restaurant. For sightseeing, we visited a geodesic dome with metallic lattice structure enclosing a park. I never felt so inspired while behind bars. The transportation in the city was convenient and Uber was no different than in the United States. The trip was in May, so the weather was fine with no rain during our outings and no excessive heat or humidity. The AirBnb we stayed in was less new than it seemed featured in the pictures. The trip was a success and did not cost much money. I will remember the trip once and a while when I think of that group of friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea2ccac154263-EWR"
+    }
+}

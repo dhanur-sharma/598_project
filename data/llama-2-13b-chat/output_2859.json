@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have lived in one state my entire life, never been far from my sisters. In 2014 my father passed away. The parents are the glue that holds the family together. After his death things just changed a little. I have three kids and grandparents are important. My husband is from a different state from me, so that's where his parent's live. At the beginning of this year, the company my husband works for had openings at the plant in another state. I told him to apply for it. Moving to this other state would put us closer to his parents making visiting them easier. So he got the position and we moved in June. It was hard moving so far from my sisters for both my kids and I. It was harder for my kids than it was for me really. My sisters and I just weren't as close as we use to be. Also my son's father lives in the state I'm from and it meant taking my son away from him, even though he only spent one day a week with him. I feel bad taking him from all his school friends though and making him start new in the sixth grade. I'm happy with the decision though. I love the town we live in and the state we moved to is just beautiful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have lived in one state my entire life, never been far from my sisters. In 2014 my father passed away. The parents are the glue that holds the family together. After his death things just changed a little. I have three kids and grandparents are important. My husband is from a different state from me, so that's where his parent's live. At the beginning of this year, the company my husband works for had openings at the plant in another state. I told him to apply for it. Moving to this other state would put us closer to his parents making visiting them easier. So he got the position and we moved in June. It was hard moving so far from my sisters for both my kids and I. It was harder for my kids than it was for me really. My sisters and I just weren't as close as we use to be. Also my son's father lives in the state I'm from and it meant taking my son away from him, even though he only spent one day a week with him. I feel bad taking him from all his school friends though and making him start new in the sixth grade. I'm happy with the decision though. I love the town we live in and the state we moved to is just beautiful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My kids are adjusting well and so am I. It's been a positive experience so far.\n\n"
+            }
+        ],
+        "request_id": "811ebf9ea9d4421f-EWR"
+    }
+}

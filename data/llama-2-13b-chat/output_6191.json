@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: While we were on our cruise my husband had booked a few special things for us. He first had our room decorated for when we got there. He then had a cake in the room when we arrived. The night of arrival he had book a specialty steakhouse for our first nights dinner. Later that week we took a great trip at one of the ports to a beach club. We enjoyed the relaxing day at the beach. We then got to your the island. Back on the ship we got dressed up for special photos. We took our pictures and then went to dinner. He surprised me with dinner at the Chefs Table. We were served an 8 course meal. That night we went to a show. To close out the cruise he had booked me a message. I got to have an hour long deep tissue message. I felt like a new woman after the massage."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: While we were on our cruise my husband had booked a few special things for us. He first had our room decorated for when we got there. He then had a cake in the room when we arrived. The night of arrival he had book a specialty steakhouse for our first nights dinner. Later that week we took a great trip at one of the ports to a beach club. We enjoyed the relaxing day at the beach. We then got to your the island. Back on the ship we got dressed up for special photos. We took our pictures and then went to dinner. He surprised me with dinner at the Chefs Table. We were served an 8 course meal. That night we went to a show. To close out the cruise he had booked me a message. I got to have an hour long deep tissue message. I felt like a new woman after the massage.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f40bfcb958c83-EWR"
+    }
+}

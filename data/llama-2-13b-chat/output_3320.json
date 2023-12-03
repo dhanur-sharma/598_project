@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, my second baby boy was brought into this world. My mother cried about having another grandson. My father wept about how the baby has her mother's eyes. I introduced the child to his older brother. The older brother gave a big smile and patted the baby on the head. It will be hard sharing a room with the younger brother. The older brother will get used to it. He will have to defend the little brother now. The little one looked nice in his new baby outfit. It was a blue shirt and green pants. It looked great. There wasn't a tear on the outfit. The youngest one did puke at the first taste of baby food. He cried for a bit. He got over it. He will have a happy life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, my second baby boy was brought into this world. My mother cried about having another grandson. My father wept about how the baby has her mother's eyes. I introduced the child to his older brother. The older brother gave a big smile and patted the baby on the head. It will be hard sharing a room with the younger brother. The older brother will get used to it. He will have to defend the little brother now. The little one looked nice in his new baby outfit. It was a blue shirt and green pants. It looked great. There wasn't a tear on the outfit. The youngest one did puke at the first taste of baby food. He cried for a bit. He got over it. He will have a happy life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec8c97ca2c436-EWR"
+    }
+}

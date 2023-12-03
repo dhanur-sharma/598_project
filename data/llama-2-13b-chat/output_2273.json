@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a ten mile day hike in the Pictured Rocks National Lakeshore on the shore of The Superior in the Upper Peninsula of Michigan. Pictured Rocks is a beautiful location. The sights are amazing. From starting in the woods, to crisscrossing rivers, to spotting waterfalls, all the way to the Pictured Rocks themselves. The titular Pictured rocks are sheer cliffs on the shore of Lake Superior. They have great coloring that gives them their name. Gazing over them is a memorable experience. Looking hundreds of feet down into the clear and turquoise waters is stunning. Lake Superior is always a sight to behold, but here is where she shines best. I really do love it there. The hike itself is fairly easy even despite a bump or two. Though, it was a bit muddy being spring. There were moments of tiptoeing and leaping around mucky mud. But it just added to the adventure. Rain was a possibility throughout the morning but it held off and the temperatures were cool and perfect. Just an all around great experience that I won't soon forget. I highly recommend the area."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a ten mile day hike in the Pictured Rocks National Lakeshore on the shore of The Superior in the Upper Peninsula of Michigan. Pictured Rocks is a beautiful location. The sights are amazing. From starting in the woods, to crisscrossing rivers, to spotting waterfalls, all the way to the Pictured Rocks themselves. The titular Pictured rocks are sheer cliffs on the shore of Lake Superior. They have great coloring that gives them their name. Gazing over them is a memorable experience. Looking hundreds of feet down into the clear and turquoise waters is stunning. Lake Superior is always a sight to behold, but here is where she shines best. I really do love it there. The hike itself is fairly easy even despite a bump or two. Though, it was a bit muddy being spring. There were moments of tiptoeing and leaping around mucky mud. But it just added to the adventure. Rain was a possibility throughout the morning but it held off and the temperatures were cool and perfect. Just an all around great experience that I won't soon forget. I highly recommend the area.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb3906d49427c-EWR"
+    }
+}

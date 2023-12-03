@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended San Diego State University but still lived at home, so I felt like I was missing out on the full college experience. A lot of my close friends were from San Diego as well, so we all enjoyed going on little adventures out of town on the weekends and during school breaks. It was the start of Spring Break at San Diego State University. My college buddies and I were at a party in Los Angeles with some friends who went to school there. Drinks were flowing and everybody was having a good time. When it got late, my friend Alan rounded everybody up to drive my car back to San Diego. He had work in the morning, so he was the designated driver. While driving back, my car suddenly swerved to the side of the freeway, scraping against the center divider. An incoming car slammed into mine \u2014 and then my car catapulted my friend and me through the air. Our bodies were launched across the freeway like slung dolls. I was later told that I flew 20 feet, my body pounding on the concrete and smashing my nose, jaw and collarbone. My friend flew 30 feet, shattering the bones in his face and mangling his spinal cord. My friend who escaped our fate ran to my body to see if I was okay. He told me later that he thought I was going to die. I was painted red with blood, and my body appeared to be disfigured. My friend was holding me in his arms when he looked up and his eyes widened, blinded by bright lights. Another car was heading toward our bodies at full speed. My friend quickly scrambled, dropping my body and jumping to the side in a last-ditch effort to avoid getting hit. At that moment the incoming driver saw him and attempted to swerve, but he still ran over his legs. That driver just missed crushing my unconscious body."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended San Diego State University but still lived at home, so I felt like I was missing out on the full college experience. A lot of my close friends were from San Diego as well, so we all enjoyed going on little adventures out of town on the weekends and during school breaks. It was the start of Spring Break at San Diego State University. My college buddies and I were at a party in Los Angeles with some friends who went to school there. Drinks were flowing and everybody was having a good time. When it got late, my friend Alan rounded everybody up to drive my car back to San Diego. He had work in the morning, so he was the designated driver. While driving back, my car suddenly swerved to the side of the freeway, scraping against the center divider. An incoming car slammed into mine \u2014 and then my car catapulted my friend and me through the air. Our bodies were launched across the freeway like slung dolls. I was later told that I flew 20 feet, my body pounding on the concrete and smashing my nose, jaw and collarbone. My friend flew 30 feet, shattering the bones in his face and mangling his spinal cord. My friend who escaped our fate ran to my body to see if I was okay. He told me later that he thought I was going to die. I was painted red with blood, and my body appeared to be disfigured. My friend was holding me in his arms when he looked up and his eyes widened, blinded by bright lights. Another car was heading toward our bodies at full speed. My friend quickly scrambled, dropping my body and jumping to the side in a last-ditch effort to avoid getting hit. At that moment the incoming driver saw him and attempted to swerve, but he still ran over his legs. That driver just missed crushing my unconscious body.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The police and ambulance arrived soon after. We were rushed to the hospital, and I spent the next several weeks in a coma. My friend remained in the hospital for months, undergoing multiple surgeries to repair his shattered face and spinal cord. The doctors told my parents that I had suffered severe brain damage and might never fully recover. They said my friend would never walk again. The driver who hit us was drunk, and he was arrested on the scene. After my long recovery, I eventually returned to San Diego State University. I was determined to make the most of my time there, even though I was still dealing with the aftermath of the accident. I started taking classes again, but I had to drop out after a semester because my grades were suffering. I felt like I was missing out on the full college experience, just like I had before the accident. I had to take a break from school and focus on my health and well-being. It was a tough road to recovery, but I was determined to get my life back on track."
+            }
+        ],
+        "request_id": "811ebb13fce98cb3-EWR"
+    }
+}

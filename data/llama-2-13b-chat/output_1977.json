@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May, I was working 3rd shift at a local trauma hospital. I was the only xray tech/ct tech working that shift and it was pretty slow.  Being 8 months pregnant with my first child, I got tired very easily. As I was sitting at my desk, nodding off from boredom, I felt my hospital pager buzz in my pocket.  I was instructed to call the emergency room where they informed me that we had a 'John Doe' coming in and  that they would be wheeling him directly to cat scan from the ambulance.  I ran - more like wobbled - to the cat scan room and prepared for the unidentified man to come in. My heart was beating a bit faster, was it from the run down here or the anticipation of the trauma? The EMS team arrived with the emergency room lead doctor following behind. On the count of three, we pulled Mr. John Doe over to the CT table and I could start my exam. Code stroke - a passerby found him unresponsive for who knows how long. I looked down to exam my patient and I'm sure at that moment my face went white.  My throat instantly felt like there was a ball in it and I wanted to freeze, hug him, and cry. This was life threatening and I needed to move on quickly. \"I know who your John Doe is\" I said to the emergency team. It was a friend of mine, a very close man that I looked up to throughout my life. He was a father of 3, he was an \"uncle al\" to my stepson, he was maple syrup enthusiast, a member of our church, he was a ball player on my husband's baseball team; He was not just a john doe, he was our Al. After 3 days of life-supporting machinery with weeping family members at his bedside, uncle Al passed away. Every morning during that 3 days towards the end of my shift, I would be required to take a bedside chest xray to track his progression. During that time I would reminisce on our memories together. We still don't have answers to why he had a heart attack in the first place. His heart malfunctioned, and then his organs followed behind and shut down as well. At only 46 years old it was a shock to us all. I like to think he had another, more important, place to be."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May, I was working 3rd shift at a local trauma hospital. I was the only xray tech/ct tech working that shift and it was pretty slow.  Being 8 months pregnant with my first child, I got tired very easily. As I was sitting at my desk, nodding off from boredom, I felt my hospital pager buzz in my pocket.  I was instructed to call the emergency room where they informed me that we had a 'John Doe' coming in and  that they would be wheeling him directly to cat scan from the ambulance.  I ran - more like wobbled - to the cat scan room and prepared for the unidentified man to come in. My heart was beating a bit faster, was it from the run down here or the anticipation of the trauma? The EMS team arrived with the emergency room lead doctor following behind. On the count of three, we pulled Mr. John Doe over to the CT table and I could start my exam. Code stroke - a passerby found him unresponsive for who knows how long. I looked down to exam my patient and I'm sure at that moment my face went white.  My throat instantly felt like there was a ball in it and I wanted to freeze, hug him, and cry. This was life threatening and I needed to move on quickly. \"I know who your John Doe is\" I said to the emergency team. It was a friend of mine, a very close man that I looked up to throughout my life. He was a father of 3, he was an \"uncle al\" to my stepson, he was maple syrup enthusiast, a member of our church, he was a ball player on my husband's baseball team; He was not just a john doe, he was our Al. After 3 days of life-supporting machinery with weeping family members at his bedside, uncle Al passed away. Every morning during that 3 days towards the end of my shift, I would be required to take a bedside chest xray to track his progression. During that time I would reminisce on our memories together. We still don't have answers to why he had a heart attack in the first place. His heart malfunctioned, and then his organs followed behind and shut down as well. At only 46 years old it was a shock to us all. I like to think he had another, more important, place to be.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will miss him dearly."
+            }
+        ],
+        "request_id": "811eae185f7b8c7e-EWR"
+    }
+}

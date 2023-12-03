@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I live in a fortunate area. I try not to take it for granted. My friend, who I was reasonably close to, had started getting serious with his girlfriend. I tried my best to make the experience good for them. I invited them up to Martha's Vineyard for a nice little getaway. We coordinated times over the course of a few days. We were able to see some llamas happily grazing in the fields. We also ate some fantastic food, and I was introduced to places I hadn't been to yet. It was hard to take this time to just take a step back and appreciate everything. It was all like a whirlwind. It all was happening so fast. I didn't really want it to end. The best part was that at no point did I ever feel like a third wheel. I felt like it was just three friends hanging out and enjoying each other's company. We ended the little vacation by relaxing on the beach."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I live in a fortunate area. I try not to take it for granted. My friend, who I was reasonably close to, had started getting serious with his girlfriend. I tried my best to make the experience good for them. I invited them up to Martha's Vineyard for a nice little getaway. We coordinated times over the course of a few days. We were able to see some llamas happily grazing in the fields. We also ate some fantastic food, and I was introduced to places I hadn't been to yet. It was hard to take this time to just take a step back and appreciate everything. It was all like a whirlwind. It all was happening so fast. I didn't really want it to end. The best part was that at no point did I ever feel like a third wheel. I felt like it was just three friends hanging out and enjoying each other's company. We ended the little vacation by relaxing on the beach.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great way to end a great trip.\n\n"
+            }
+        ],
+        "request_id": "811f418dea3241ec-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had been telling all my friends that I wanted to have them over for a cook out for quite some time.  And then we bought a pool, and got the yard cleaned up over the spring.  I so I asked my fiance if we could throw a July 4th cookout.  That way everyone can just come over our place, and we can enjoy our yard and our pool.  It was very stressful planning it, and it ended up being much bigger than first planned.  Also the food and drinks got costly.  But on the day of the 4th the weather was beautiful.  And everyone we invited showed up.  We had lots of food and games to play.  People were here for about 6 hours on average.  I felt like it was a hit, and I really enjoyed myself.  I think it helped to make it feel more even with my friends.  I feel like they are always inviting me over, but we never had a party at our house.  So it was a success, and I would consider doing it again.  I think it was the best 4th of July I'd had in a quite a few years.  And it was very memorable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had been telling all my friends that I wanted to have them over for a cook out for quite some time.  And then we bought a pool, and got the yard cleaned up over the spring.  I so I asked my fiance if we could throw a July 4th cookout.  That way everyone can just come over our place, and we can enjoy our yard and our pool.  It was very stressful planning it, and it ended up being much bigger than first planned.  Also the food and drinks got costly.  But on the day of the 4th the weather was beautiful.  And everyone we invited showed up.  We had lots of food and games to play.  People were here for about 6 hours on average.  I felt like it was a hit, and I really enjoyed myself.  I think it helped to make it feel more even with my friends.  I feel like they are always inviting me over, but we never had a party at our house.  So it was a success, and I would consider doing it again.  I think it was the best 4th of July I'd had in a quite a few years.  And it was very memorable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had a lot of fun, and I think my fiance did too.  And I'm so glad that I got to spend time with my friends. \n\n"
+            }
+        ],
+        "request_id": "811ec8ab8849c330-EWR"
+    }
+}

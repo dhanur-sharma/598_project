@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was finally my wife's birthday. I wanted to surprise her and the family with a special trip to a place none of us has been before. We decided to go for the first to an all inclusive resort in order to reduce the stress and burden of paying everything. When we arrived we were greeted by the friendly staff. Once we checked in we decided to go to the lobby bar for a drink. We then took our drinks into the van and the van took us to our rooms. After leaving our bags in our hotel rooms we then went to eat lunch at the buffet. It was the first time that my wife went to an all you can eat buffet. At first she was skeptical but then she said she enjoyed the food and how it was set up. We then went to to the pool area where there was a snack and drink bar with all you can eat snacks as well. We enjoyed our time there and swimming there was a blast. Afterwards we went to the night entertainment. It was there that we saw the different shows for kids and grown ups. I was able to get more drinks from that bar and bring it to her and the family. The next day we had alot of fun doing all the other activities."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was finally my wife's birthday. I wanted to surprise her and the family with a special trip to a place none of us has been before. We decided to go for the first to an all inclusive resort in order to reduce the stress and burden of paying everything. When we arrived we were greeted by the friendly staff. Once we checked in we decided to go to the lobby bar for a drink. We then took our drinks into the van and the van took us to our rooms. After leaving our bags in our hotel rooms we then went to eat lunch at the buffet. It was the first time that my wife went to an all you can eat buffet. At first she was skeptical but then she said she enjoyed the food and how it was set up. We then went to to the pool area where there was a snack and drink bar with all you can eat snacks as well. We enjoyed our time there and swimming there was a blast. Afterwards we went to the night entertainment. It was there that we saw the different shows for kids and grown ups. I was able to get more drinks from that bar and bring it to her and the family. The next day we had alot of fun doing all the other activities.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were able to go horse back riding, water sports and many other things. My wife had a great time and was happy that I was able to surprise her with this trip.\n\n"
+            }
+        ],
+        "request_id": "811e9062fa498cc8-EWR"
+    }
+}

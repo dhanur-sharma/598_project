@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a happy day for the family. My nephew was graduating from high school and we wanted to celebrate. The first thing that we did was take him to his favorite restaurant for lunch. We all sat down and enjoyed a great sushi layout. His favorite fish is yellowtail, so in addition to the variety of different fish, we made sure to get him yellowtail rolls, spicy yellowtail rolls, and yellowtail/salmon rolls, which is his favorite. The restaurant also had cooked food as well so for the ones that didn't want raw fish, they had the chance to order other things. But he really enjoyed the sushi. I, myself, had the spicy roll combination. My wife had the sashami combination. After that we went to the movie theater to watch a movie together. Then we went to the golf course to play some mini golf, which is what his sister likes. We always try to make sure all the family members are involved in some way or another. Then after that he had a graduation party with his friends, where one of the highlights (for them anyway) was to light up a bonfire and burn all their notes from their senior year. It was also a bittersweet time because it was going to be the last time they would all gather together. Most of them were going to different colleges and universities so it would be harder in the future to all get together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a happy day for the family. My nephew was graduating from high school and we wanted to celebrate. The first thing that we did was take him to his favorite restaurant for lunch. We all sat down and enjoyed a great sushi layout. His favorite fish is yellowtail, so in addition to the variety of different fish, we made sure to get him yellowtail rolls, spicy yellowtail rolls, and yellowtail/salmon rolls, which is his favorite. The restaurant also had cooked food as well so for the ones that didn't want raw fish, they had the chance to order other things. But he really enjoyed the sushi. I, myself, had the spicy roll combination. My wife had the sashami combination. After that we went to the movie theater to watch a movie together. Then we went to the golf course to play some mini golf, which is what his sister likes. We always try to make sure all the family members are involved in some way or another. Then after that he had a graduation party with his friends, where one of the highlights (for them anyway) was to light up a bonfire and burn all their notes from their senior year. It was also a bittersweet time because it was going to be the last time they would all gather together. Most of them were going to different colleges and universities so it would be harder in the future to all get together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But we are very proud of him and all his accomplishments and we will continue to support him in the future.\n\n"
+            }
+        ],
+        "request_id": "811e9dde7963c337-EWR"
+    }
+}

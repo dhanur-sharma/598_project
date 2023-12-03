@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I did it; I accomplished one of the hardest things I've ever attempted in my life. Last year I volunteered helping out for the marathon that runs through our city. Watching those runners, I felt inspired. I listened to their stories, and saw the sheer joy on their faces, despite the times they came in or how much their body hurt after. I thought to myself, I want to experience this first hand. However, I knew I'd have a ton of training to do because I hadn't run long distance in twenty years. I trained all year, even through the blistering cold of winter. I was determined and it was extremely difficult to stick with it, but I did manage to get into good enough shape to enter and complete the marathon. I can't say how many times I thought about quitting while I was in the marathon because I lost count. I reminded myself that I had gone all year training and never quit. I reminded myself that I had already did a practice run and did fairly well, without quitting. I knew I had prepared, and hydrated and gave my body its needed nutrition and rest. I was prepared, and there was no need to quit. I reminded myself how great it would feel to cross that finish line. Much to my surprise and my delight, I came in eighth place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I did it; I accomplished one of the hardest things I've ever attempted in my life. Last year I volunteered helping out for the marathon that runs through our city. Watching those runners, I felt inspired. I listened to their stories, and saw the sheer joy on their faces, despite the times they came in or how much their body hurt after. I thought to myself, I want to experience this first hand. However, I knew I'd have a ton of training to do because I hadn't run long distance in twenty years. I trained all year, even through the blistering cold of winter. I was determined and it was extremely difficult to stick with it, but I did manage to get into good enough shape to enter and complete the marathon. I can't say how many times I thought about quitting while I was in the marathon because I lost count. I reminded myself that I had gone all year training and never quit. I reminded myself that I had already did a practice run and did fairly well, without quitting. I knew I had prepared, and hydrated and gave my body its needed nutrition and rest. I was prepared, and there was no need to quit. I reminded myself how great it would feel to cross that finish line. Much to my surprise and my delight, I came in eighth place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't believe it. It was the hardest thing I've ever done, but I did it. I feel amazing.\n\n"
+            }
+        ],
+        "request_id": "811eaeb798b91859-EWR"
+    }
+}

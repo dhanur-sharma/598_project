@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is a story about the fantastic experience I had in Paris. It all started when we got off the plane. The air was cool, I had never been in another country before so it was pretty surreal. We headed to the booked hotel to unpack our stuff. We did that then went out to explore this beautiful country. The first thing we did was meetup and talk with some of the locals, whom of which were very friendly/nice. They showed us around, what the best places to visit were etc. After that, we went to actually visit some of those places! There was this museum (I forgot what it was called) I thought that is was really cool. The next day we went to see what I had been wanting to see from the beginning, the eiffel tower! We got up, headed to it and got to see it finally. It was so amazing to see it, it was bigger in person than I thought it would be. I took as many pictures as I could. I wish I had it to share right now. What an experience it was! To finish off the day we just explored around, nothing in the whole trip was as exciting as seeing that tower. I can't wait to go back again. Hopefully I get too again!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is a story about the fantastic experience I had in Paris. It all started when we got off the plane. The air was cool, I had never been in another country before so it was pretty surreal. We headed to the booked hotel to unpack our stuff. We did that then went out to explore this beautiful country. The first thing we did was meetup and talk with some of the locals, whom of which were very friendly/nice. They showed us around, what the best places to visit were etc. After that, we went to actually visit some of those places! There was this museum (I forgot what it was called) I thought that is was really cool. The next day we went to see what I had been wanting to see from the beginning, the eiffel tower! We got up, headed to it and got to see it finally. It was so amazing to see it, it was bigger in person than I thought it would be. I took as many pictures as I could. I wish I had it to share right now. What an experience it was! To finish off the day we just explored around, nothing in the whole trip was as exciting as seeing that tower. I can't wait to go back again. Hopefully I get too again!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e949be88c5e82-EWR"
+    }
+}

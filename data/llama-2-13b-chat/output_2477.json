@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five months ago, I went on a road trip. The trip was after a particularly bad event happened. I wasn't in the best mental state at first. When I had been gone for several weeks though, I met someone while hiking. This person ended up knowing my grandmother which surprised us both. We talked for a while and had an enjoyable time. I went on with my trip and when I got back, I called them to chat. We talked for several hours and to put a long story short we ended up getting engaged. So this random person I never met just happens to know someone I do and then we just hit it off. I never expected that to happen. My life completely changed. I wasn't down anymore. I finally had something to live for. I am exited for what ever comes next. Life is good again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five months ago, I went on a road trip. The trip was after a particularly bad event happened. I wasn't in the best mental state at first. When I had been gone for several weeks though, I met someone while hiking. This person ended up knowing my grandmother which surprised us both. We talked for a while and had an enjoyable time. I went on with my trip and when I got back, I called them to chat. We talked for several hours and to put a long story short we ended up getting engaged. So this random person I never met just happens to know someone I do and then we just hit it off. I never expected that to happen. My life completely changed. I wasn't down anymore. I finally had something to live for. I am exited for what ever comes next. Life is good again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb794292a0ca1-EWR"
+    }
+}

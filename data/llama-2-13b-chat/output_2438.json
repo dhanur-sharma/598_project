@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe this happened to me. Of all the terrible things I've dealt with in my life, now at the ripe age of 50, I had to deal with more. I was just in my kitchen, baking some cookies for my grandchildren. They were supposed to come over later after their classes. I was so excited to see them, I love them dearly. It was after mixing all the ingredients, that I suddenly felt off. I began to feel some weakness and tingling in my arms, and my vision became a bit blurry. I needed to sit down before I passed out. After some time, I felt a bit better. I knew exactly what was happening to me, though. I had a mini stroke. A couple of years back, I had fallen off of a scooter when I was trying to teach my grandkids. That had led to a subdural hematoma, and I knew the risk of a stroke had increased. I needed to make my way to the hospital to get checked out, and I felt well enough to walk. Why pay for an ambulance ride that would cost me a lot of money? So, I walked to the hospital, which was not too far."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe this happened to me. Of all the terrible things I've dealt with in my life, now at the ripe age of 50, I had to deal with more. I was just in my kitchen, baking some cookies for my grandchildren. They were supposed to come over later after their classes. I was so excited to see them, I love them dearly. It was after mixing all the ingredients, that I suddenly felt off. I began to feel some weakness and tingling in my arms, and my vision became a bit blurry. I needed to sit down before I passed out. After some time, I felt a bit better. I knew exactly what was happening to me, though. I had a mini stroke. A couple of years back, I had fallen off of a scooter when I was trying to teach my grandkids. That had led to a subdural hematoma, and I knew the risk of a stroke had increased. I needed to make my way to the hospital to get checked out, and I felt well enough to walk. Why pay for an ambulance ride that would cost me a lot of money? So, I walked to the hospital, which was not too far.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The doctors confirmed that it was indeed a mini stroke, and I was given some medication to help prevent any future strokes. The scariest part of this all was that I was alone in the house when it happened. What if I had fallen and hit my head? Or what if I had passed out and no one was there to find me? It was a wake-up call for sure. Now, I have to be more careful and make sure someone is always with me. My grandkids will be home soon, and I can't wait to see them. I hope that I'll be okay by then.\n\n"
+            }
+        ],
+        "request_id": "811eb69cfc4c4334-EWR"
+    }
+}

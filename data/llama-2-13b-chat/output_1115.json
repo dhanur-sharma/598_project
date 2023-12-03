@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I went out and did many fun activities about four months ago. I went with my parents, my sister, and my nephew. Specifically, we went and found a place with a playground and a splash pad. We had a great time at the playground. We also had fun getting wet on the splash pad. My nephew particularly enjoyed this. On top of this, there was a play area that had a really exciting zipline. It was exhilarating being able to go down it.  The most surprising part was when my mom went down the zipline and screamed at the top of her lungs the whole time. We all had a good laugh at that, as she usually doesn't go on those. There were also a number of large hills around to climb. We all had a good time doing this, though it was quite tiring. At the top of the hills, we had some great views. We were able to see the city and the surrounding forest. When all was said and done, it was a memorable day, and we went home satisfied."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I went out and did many fun activities about four months ago. I went with my parents, my sister, and my nephew. Specifically, we went and found a place with a playground and a splash pad. We had a great time at the playground. We also had fun getting wet on the splash pad. My nephew particularly enjoyed this. On top of this, there was a play area that had a really exciting zipline. It was exhilarating being able to go down it.  The most surprising part was when my mom went down the zipline and screamed at the top of her lungs the whole time. We all had a good laugh at that, as she usually doesn't go on those. There were also a number of large hills around to climb. We all had a good time doing this, though it was quite tiring. At the top of the hills, we had some great views. We were able to see the city and the surrounding forest. When all was said and done, it was a memorable day, and we went home satisfied.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e2dc934438b-EWR"
+    }
+}

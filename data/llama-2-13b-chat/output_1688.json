@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I was playing in a local basketball tournament with my team. We won the first two games easily without much trouble. Then we faced the toughest team in the city in the finals. Despite having a nice lead at half time, we struggled in the second half. The game came down to the final few minutes, where we led by a mere one point. In an effort to grab a rebound and give us a nice advantage, I was fouled extremely hard and came down badly on my knee. Right away I knew it was bad. I spent a few minutes writhing around in pain before being helped off the court. I was forced to sit on the bench and ice my knee while the final minutes ticked away. Unfortunately we did not have the size on our bench to replace my height, and it cost us the chance for the championship. The final score was 85-84, and we ended up leaving with a second place trophy. After the game I went to the hospital and they immediately told me I had ruptured a ligament, and would not be able to do much of anything for a while. Thankfully I had surgery quickly, but was unable to walk for a few weeks which was quite frustrating. My main goal however, is to get back to full health in time for next year's big tournament. I think we are more than capable of winning next year if we set our minds to it and can stay healthy!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I was playing in a local basketball tournament with my team. We won the first two games easily without much trouble. Then we faced the toughest team in the city in the finals. Despite having a nice lead at half time, we struggled in the second half. The game came down to the final few minutes, where we led by a mere one point. In an effort to grab a rebound and give us a nice advantage, I was fouled extremely hard and came down badly on my knee. Right away I knew it was bad. I spent a few minutes writhing around in pain before being helped off the court. I was forced to sit on the bench and ice my knee while the final minutes ticked away. Unfortunately we did not have the size on our bench to replace my height, and it cost us the chance for the championship. The final score was 85-84, and we ended up leaving with a second place trophy. After the game I went to the hospital and they immediately told me I had ruptured a ligament, and would not be able to do much of anything for a while. Thankfully I had surgery quickly, but was unable to walk for a few weeks which was quite frustrating. My main goal however, is to get back to full health in time for next year's big tournament. I think we are more than capable of winning next year if we set our minds to it and can stay healthy!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea9154eff4210-EWR"
+    }
+}

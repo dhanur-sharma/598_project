@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son was young when he started walking. He was only 9 months old. This was earlier then some of my friends kids. It was something to watch. It was fun and joyful to see him laugh and giggle as he walked around. Many of my family were there, and saw the scene. Some were amazed. They tried to remember when their kids started walking. I think a few were around the same time. Other were amazed because they felt it was quite early. But overall everyone had a great time. They watched him walk, sometimes falling. It was a day full of emotions and fun. It will be something we will remember forever. I am glad he is progressing properly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son was young when he started walking. He was only 9 months old. This was earlier then some of my friends kids. It was something to watch. It was fun and joyful to see him laugh and giggle as he walked around. Many of my family were there, and saw the scene. Some were amazed. They tried to remember when their kids started walking. I think a few were around the same time. Other were amazed because they felt it was quite early. But overall everyone had a great time. They watched him walk, sometimes falling. It was a day full of emotions and fun. It will be something we will remember forever. I am glad he is progressing properly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3054fa9d41d2-EWR"
+    }
+}

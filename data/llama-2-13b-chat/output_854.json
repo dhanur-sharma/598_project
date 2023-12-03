@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm a nurse that has worked in the same doctors office for years. You tend to get close to a lot of your patients, especially the elderly ones that might not have much, or any, family left. There is one patient of mine who has been with us a long time. She's charming, funny, sweet, and just a joy to see every time. Unfortunately she was diagnosed with a terminal illness last year. It really broke my heart. To see this wonderful woman being told that awful news. She's so sweet that she was comforting me! We held hands so tightly and just sat in silence in a back room. I'll never forget that moment. Next time she saw me she brought me a card with a beautiful note inside it. She also brought me a guardian angel and told me that was what I was to her. I cried. I've loved so many patients, but maybe not as much as her. I still go see her every time I'm near and a lot of time when I'm not. I see her a bare minimum of once a week. I never want her to be lonely, and I never want her to forget what she has meant to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm a nurse that has worked in the same doctors office for years. You tend to get close to a lot of your patients, especially the elderly ones that might not have much, or any, family left. There is one patient of mine who has been with us a long time. She's charming, funny, sweet, and just a joy to see every time. Unfortunately she was diagnosed with a terminal illness last year. It really broke my heart. To see this wonderful woman being told that awful news. She's so sweet that she was comforting me! We held hands so tightly and just sat in silence in a back room. I'll never forget that moment. Next time she saw me she brought me a card with a beautiful note inside it. She also brought me a guardian angel and told me that was what I was to her. I cried. I've loved so many patients, but maybe not as much as her. I still go see her every time I'm near and a lot of time when I'm not. I see her a bare minimum of once a week. I never want her to be lonely, and I never want her to forget what she has meant to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I always will cherish the time we had together. She's the first person I think of when I hear the word family. I don't know what I would do without her in my life. She is a gift and I don't want to let her go.\n\n"
+            }
+        ],
+        "request_id": "811e99762d1a2394-EWR"
+    }
+}

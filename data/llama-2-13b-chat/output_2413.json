@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I wanted to provide a better life for my family. I have a husband, a daughter, and a son. They deserve to have everything that I had when I was a kid and more. I wanted to be able to move them to a safer city. We were living in Memphis and it is not a safe place. There is a lot of crime. There is a lot of criminals in general. I talked with my husband and we decided we needed to move slightly out of the city. I decided to start saving money for the move. I did everything I could to get extra money. I decided to sell my hot rod. It was a nice car but the money we could get for it would be enough to get us moved. I put up an ad for it and had people calling really soon. It only took about 2 day to sell it. I got all the money I needed for a down payment on a new house. Everything went smoothly and we got the new house just a month later. We are all much happier now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I wanted to provide a better life for my family. I have a husband, a daughter, and a son. They deserve to have everything that I had when I was a kid and more. I wanted to be able to move them to a safer city. We were living in Memphis and it is not a safe place. There is a lot of crime. There is a lot of criminals in general. I talked with my husband and we decided we needed to move slightly out of the city. I decided to start saving money for the move. I did everything I could to get extra money. I decided to sell my hot rod. It was a nice car but the money we could get for it would be enough to get us moved. I put up an ad for it and had people calling really soon. It only took about 2 day to sell it. I got all the money I needed for a down payment on a new house. Everything went smoothly and we got the new house just a month later. We are all much happier now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb6325ad9434a-EWR"
+    }
+}

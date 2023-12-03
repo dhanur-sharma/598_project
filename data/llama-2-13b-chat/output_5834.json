@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One special moment in my life is the day I got married. It happened six years ago, in April. That was such a magical moment. My husband and I were already engaged and have always decided to get married on the day he asked me to be his girlfriend, which was April 25th. So, that year in February, my husband said get ready we are getting married this year. I only had about two months to plan. We got it done. It was suppose to just be a ceremony at the city hall. But then it turned into a small wedding ceremony and reception. I have a large family and since it was a short amount of time, we made it small. We invited close family and friends only. The food at the reception was the best. We served steak and chicken with asparagus, potatoes, and pasta. So good. We all went back to our home and hung our with family until it was time for us to leave. Then after, my husband and I went to a nearby hotel and that is how we spent our honeymoon. We had family come in from out of town."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One special moment in my life is the day I got married. It happened six years ago, in April. That was such a magical moment. My husband and I were already engaged and have always decided to get married on the day he asked me to be his girlfriend, which was April 25th. So, that year in February, my husband said get ready we are getting married this year. I only had about two months to plan. We got it done. It was suppose to just be a ceremony at the city hall. But then it turned into a small wedding ceremony and reception. I have a large family and since it was a short amount of time, we made it small. We invited close family and friends only. The food at the reception was the best. We served steak and chicken with asparagus, potatoes, and pasta. So good. We all went back to our home and hung our with family until it was time for us to leave. Then after, my husband and I went to a nearby hotel and that is how we spent our honeymoon. We had family come in from out of town.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My husband is the best thing that ever happened to me. I love him so much. He has changed my life in so many ways. He is the best husband and father.\n\n"
+            }
+        ],
+        "request_id": "811f395ebdd28c65-EWR"
+    }
+}

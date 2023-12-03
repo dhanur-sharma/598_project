@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Steve's memorial service about two months ago. I hate going to these things but had to pay my respects. There was a lot more people there than I had expected.  I saw many pictures about him him in his early years that I never saw ever. I saw pictures of him with his brothers and sisters, It also showed him with his parents which i never got to meet. He looked a lot like his father. After checking out all the pics, I paid my respects to Steve. I checked out all the flowers till I saw the ones I had sent . Wanted to make sure they were worth what I paid. Damn , I will miss him a lot . Wish he didn't leave us all so soon.  His passing was quite a surprise to me . He had hid his medical problems from me and I was shocked to hear he died.  Most people there were quite somber.  A few were sniffling and there were tears in many eyes. His siblings in particular were teary eyed. I paid my condolences to each one of them. I did not know them much. Only occasionally, did I meet the sister in passing.  Nice people , all of them. Wish I got to meet them under different circumstances. Afterwards, I signed the signature book . Looked around and found some \"holy pictures\" with his info on the back . Knelt by Steve one last time.  Said my good byes. Hugged the siblings  and gave them my final condolences ."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Steve's memorial service about two months ago. I hate going to these things but had to pay my respects. There was a lot more people there than I had expected.  I saw many pictures about him him in his early years that I never saw ever. I saw pictures of him with his brothers and sisters, It also showed him with his parents which i never got to meet. He looked a lot like his father. After checking out all the pics, I paid my respects to Steve. I checked out all the flowers till I saw the ones I had sent . Wanted to make sure they were worth what I paid. Damn , I will miss him a lot . Wish he didn't leave us all so soon.  His passing was quite a surprise to me . He had hid his medical problems from me and I was shocked to hear he died.  Most people there were quite somber.  A few were sniffling and there were tears in many eyes. His siblings in particular were teary eyed. I paid my condolences to each one of them. I did not know them much. Only occasionally, did I meet the sister in passing.  Nice people , all of them. Wish I got to meet them under different circumstances. Afterwards, I signed the signature book . Looked around and found some \"holy pictures\" with his info on the back . Knelt by Steve one last time.  Said my good byes. Hugged the siblings  and gave them my final condolences .",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will miss Steve. He was a good friend.\n\n"
+            }
+        ],
+        "request_id": "811f3e233fa40f7c-EWR"
+    }
+}

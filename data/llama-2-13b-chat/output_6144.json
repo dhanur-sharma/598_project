@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am still having visions of this as I did after it occured. I can't sleep at night because I see my mothers face and her lips turning blue. I can sometimes feel her clutching my shoulders like she did when I was trying to get her out of the car. I can hear the beeping of the machines. I was in McDonalds and the fryer made me go right back to her coding in the emergency room. I just keep reliving the event over and over again. I don't leave the house often. I lost my dog to a weird emergency just a few weeks after losing mom. I really miss my dog, and I cry about him daily. Sometimes I wonder if I am actually crying about my dog or if I am crying for my mom. I guess it is all subjective. I am just in pain. I hate getting out of bed. I hate going through her room to get to my laundry room. I just want to heal. I sometimes go sit in the car because that is the last place besides the hospital that we were together. it is hard to explain to people, so I don't talk about it. I remember the Dr. just looking so sorry, but why didn't the nurse start CPR, why did no one take her out of the wheelchair? I am angry and I am sad and I am just wanting someone to tell me why they did not respond to the emergency as the emergency that it was."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am still having visions of this as I did after it occured. I can't sleep at night because I see my mothers face and her lips turning blue. I can sometimes feel her clutching my shoulders like she did when I was trying to get her out of the car. I can hear the beeping of the machines. I was in McDonalds and the fryer made me go right back to her coding in the emergency room. I just keep reliving the event over and over again. I don't leave the house often. I lost my dog to a weird emergency just a few weeks after losing mom. I really miss my dog, and I cry about him daily. Sometimes I wonder if I am actually crying about my dog or if I am crying for my mom. I guess it is all subjective. I am just in pain. I hate getting out of bed. I hate going through her room to get to my laundry room. I just want to heal. I sometimes go sit in the car because that is the last place besides the hospital that we were together. it is hard to explain to people, so I don't talk about it. I remember the Dr. just looking so sorry, but why didn't the nurse start CPR, why did no one take her out of the wheelchair? I am angry and I am sad and I am just wanting someone to tell me why they did not respond to the emergency as the emergency that it was.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just want to understand. I just want to heal.\n\n"
+            }
+        ],
+        "request_id": "811f3fc97b93c404-EWR"
+    }
+}

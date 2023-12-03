@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, I got a call that would change my recent life.  It was my husband, one I hadn't heard from in about 8 years.  He was married before me and had two children.  Ten years ago, they had an affair and I kicked him out.  I thought we could still work things out eventually, but he went back to his ex-wife and lived with her.  Due to the complexity of insurance, and our home, we just never got divorced.  Then he calls six months ago.  He misses me and can't stand to live with this woman anymore.  He begged to come home.  I wasn't seeing anyone, and quite frankly, I missed him.  So, I did the unthinkable and said yes.  I can tell he is going to stray.  Maybe he just had a fight with her and will go back.  I just don't know why he's here as we haven't talked much.  I should file for divorce."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, I got a call that would change my recent life.  It was my husband, one I hadn't heard from in about 8 years.  He was married before me and had two children.  Ten years ago, they had an affair and I kicked him out.  I thought we could still work things out eventually, but he went back to his ex-wife and lived with her.  Due to the complexity of insurance, and our home, we just never got divorced.  Then he calls six months ago.  He misses me and can't stand to live with this woman anymore.  He begged to come home.  I wasn't seeing anyone, and quite frankly, I missed him.  So, I did the unthinkable and said yes.  I can tell he is going to stray.  Maybe he just had a fight with her and will go back.  I just don't know why he's here as we haven't talked much.  I should file for divorce.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am scared and nervous.  What do I do?\n\n"
+            }
+        ],
+        "request_id": "811ec78e187c42b5-EWR"
+    }
+}

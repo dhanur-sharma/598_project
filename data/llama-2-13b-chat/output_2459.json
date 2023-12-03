@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I got out of a relationship. We decided to end it on mutual terms. Things had not been going well for quite awhile. My reasoning for wanting to end things was mostly because my partner was not the best at communication. When I would tell him that things were bothering me, he would get upset and refuse to talk to me. He would often ignore me for hours after. I believe that communication is one of the most important things in a relationship, so obviously this was not going to work. We hadn't been in a relationship for all that long. It had been about a year. That did not make it any easier though. I still think about this from time to time. Over than the issues that we had, things had been going well. I was happy. However, I could not deal with not being able to talk to the person that was supposed to care about me. I feel like it was for the best to split up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I got out of a relationship. We decided to end it on mutual terms. Things had not been going well for quite awhile. My reasoning for wanting to end things was mostly because my partner was not the best at communication. When I would tell him that things were bothering me, he would get upset and refuse to talk to me. He would often ignore me for hours after. I believe that communication is one of the most important things in a relationship, so obviously this was not going to work. We hadn't been in a relationship for all that long. It had been about a year. That did not make it any easier though. I still think about this from time to time. Over than the issues that we had, things had been going well. I was happy. However, I could not deal with not being able to talk to the person that was supposed to care about me. I feel like it was for the best to split up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still single and trying to move on.\n\n"
+            }
+        ],
+        "request_id": "811eb73f48804337-EWR"
+    }
+}

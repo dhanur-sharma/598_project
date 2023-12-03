@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son and I were school shopping. It was back to school season and time to go get things for that. When we came out of the store, we heard a whimpering coming from a car. There was a small dog looking back at us. The poor thing was so thin and looked like it hadn't had a good meal in months. We took the dog home with us and cleaned him up. The next day, I took him to the vet to see if he was micro chipped or anything like that. Turns out, someone had brought in the dog's brother. Someone had dumped both of these poor things and left them to starve. You know I hate people like that and it just pissed me off that someone could do that! I ended up asking to adopt them both. I wanted to give them both the best life that I could! Thankfully, I was able to do that since they both were not chipped. Spanky and Muttons are doing really well now. They are happy and never stop wagging their tails!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son and I were school shopping. It was back to school season and time to go get things for that. When we came out of the store, we heard a whimpering coming from a car. There was a small dog looking back at us. The poor thing was so thin and looked like it hadn't had a good meal in months. We took the dog home with us and cleaned him up. The next day, I took him to the vet to see if he was micro chipped or anything like that. Turns out, someone had brought in the dog's brother. Someone had dumped both of these poor things and left them to starve. You know I hate people like that and it just pissed me off that someone could do that! I ended up asking to adopt them both. I wanted to give them both the best life that I could! Thankfully, I was able to do that since they both were not chipped. Spanky and Muttons are doing really well now. They are happy and never stop wagging their tails!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd90e2807423e-EWR"
+    }
+}

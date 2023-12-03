@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up in the morning and picked out a fairly conservative grey pantsuit. Traffic wasn't too bad, and I was able to check in promptly. The conference organizers had prepared a very nice green room for the speakers, with a variety of appetizers and beverages. I was the third speaker, scheduled for 1:00 PM, so I had plenty of time to go over my notes and rehearse a few final times. I'm presenting the work I did for my master's thesis, on how demographic questions on standardized tests can influence student scores. My study's results were fascinating. We had several hundred Asian American female students take the math portion of the SAT. Half of them were asked what race they were before they began, while the other half were asked what gender they were. The students who were reminded they were Asian scored almost a hundred points higher than the ones who were reminded they were women. That's a full standard deviation!  I was able to present these ideas very smoothly and professionally, and the audience seemed totally engaged. At the end, over two dozen people had their hands raised to asked questions. I had to stop for time before I could answer even half of them! I was there for over half an hour after the talk, too, getting business cards and hearing about the work other people are doing in this area. It's so validating to see so many people ready to take action. Overall, a total success."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up in the morning and picked out a fairly conservative grey pantsuit. Traffic wasn't too bad, and I was able to check in promptly. The conference organizers had prepared a very nice green room for the speakers, with a variety of appetizers and beverages. I was the third speaker, scheduled for 1:00 PM, so I had plenty of time to go over my notes and rehearse a few final times. I'm presenting the work I did for my master's thesis, on how demographic questions on standardized tests can influence student scores. My study's results were fascinating. We had several hundred Asian American female students take the math portion of the SAT. Half of them were asked what race they were before they began, while the other half were asked what gender they were. The students who were reminded they were Asian scored almost a hundred points higher than the ones who were reminded they were women. That's a full standard deviation!  I was able to present these ideas very smoothly and professionally, and the audience seemed totally engaged. At the end, over two dozen people had their hands raised to asked questions. I had to stop for time before I could answer even half of them! I was there for over half an hour after the talk, too, getting business cards and hearing about the work other people are doing in this area. It's so validating to see so many people ready to take action. Overall, a total success.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea5bbcbc33300-EWR"
+    }
+}

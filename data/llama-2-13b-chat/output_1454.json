@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I took a hike in Providence State Park.  It was beautiful. The hiking paths were strenuous but we finished and had a nice lunch.  There were so many paths to cover and canyons to explore.  The day was overcast.  A few peaks of sun.  It was around winter time.  Winter time in Georgia is nice and cool.  There were just a few others in the canyons.  They seemed to also be enjoying themselves. There were many look out points and photo ops.  The canyons formed from poor farming techniques.  There are still cars from the 50s parked in the very spots they went out of order.  We look forward to do doing this again.  It was a great family adventure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I took a hike in Providence State Park.  It was beautiful. The hiking paths were strenuous but we finished and had a nice lunch.  There were so many paths to cover and canyons to explore.  The day was overcast.  A few peaks of sun.  It was around winter time.  Winter time in Georgia is nice and cool.  There were just a few others in the canyons.  They seemed to also be enjoying themselves. There were many look out points and photo ops.  The canyons formed from poor farming techniques.  There are still cars from the 50s parked in the very spots they went out of order.  We look forward to do doing this again.  It was a great family adventure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea5076e3042b8-EWR"
+    }
+}

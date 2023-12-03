@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most recent and striking memory I have was when I was in the hospital to receive cycle 2 of chemotherapy for my recurrence of Hodgkin's lymphoma. Initially I was supposed to be in the hospital for only 3 days. This stint in the hospital ended up being for 6 days. The first day I arrived there to stay overnight, the chemo was not ready to be delivered so I had to stay there for the night for really no reason, away from my wife and daughter. The next day I had to get a CT scan that shouldn't have happened and they had initially thought that they found more cancer in my lungs. We now know that this diagnosis is not correct but it added to the trauma of this visit. Several doctors visited us and said that they wanted to potentially open my chest and take a biopsy of my lungs, NOT GOOD! Once my oncologist put the squash on this, they began chemotherapy. As soon as they got me hooked up to the chemo and the pump started moving it into my body, I had a systematic reaction. My throat closed up, my face swelled and went numb and turned purple, and I couldn't breath. They immediately stopped the treatment. Under this terrible stress I no longer wanted to take the treatment. The nurses convinced me otherwise and that I had to take the treatment to fight my cancer so I can still be here for my wife and daughter. So the next morning we tried again with a higher dilution rate and I didn't have a reaction. This was a very emotional moment for me because this chemo was going to keep me alive and kill my cancer. Unfortunately it didn't fully do its job though. I am still fighting cancer because it became resistant to prior treatment methods. We are currently trying MAB treatments to see if we can kill it that way and move onto stem cell transplant. I pray this works. I am 37 and have a wife and daughter that depend on me. I want to be here for them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most recent and striking memory I have was when I was in the hospital to receive cycle 2 of chemotherapy for my recurrence of Hodgkin's lymphoma. Initially I was supposed to be in the hospital for only 3 days. This stint in the hospital ended up being for 6 days. The first day I arrived there to stay overnight, the chemo was not ready to be delivered so I had to stay there for the night for really no reason, away from my wife and daughter. The next day I had to get a CT scan that shouldn't have happened and they had initially thought that they found more cancer in my lungs. We now know that this diagnosis is not correct but it added to the trauma of this visit. Several doctors visited us and said that they wanted to potentially open my chest and take a biopsy of my lungs, NOT GOOD! Once my oncologist put the squash on this, they began chemotherapy. As soon as they got me hooked up to the chemo and the pump started moving it into my body, I had a systematic reaction. My throat closed up, my face swelled and went numb and turned purple, and I couldn't breath. They immediately stopped the treatment. Under this terrible stress I no longer wanted to take the treatment. The nurses convinced me otherwise and that I had to take the treatment to fight my cancer so I can still be here for my wife and daughter. So the next morning we tried again with a higher dilution rate and I didn't have a reaction. This was a very emotional moment for me because this chemo was going to keep me alive and kill my cancer. Unfortunately it didn't fully do its job though. I am still fighting cancer because it became resistant to prior treatment methods. We are currently trying MAB treatments to see if we can kill it that way and move onto stem cell transplant. I pray this works. I am 37 and have a wife and daughter that depend on me. I want to be here for them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9f621c9f179d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometime around two months back, I visited the beautiful state of South Carolina. I wanted to visit the mountains, as it is very beautiful and peaceful. I spent time with family. It was a great trip and I enjoyed it. We had a lot of cookouts, and the neighbors came around. We played music and had a lot of games going. We would go hiking in the morning, and return in the afternoon. We loved doing this. They view from the top of the mountains was stunning. I always looked forward to that first glimpse. It was breathtaking. It was great to be with family. We will do it again. Perhaps next year. I will visit by then."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometime around two months back, I visited the beautiful state of South Carolina. I wanted to visit the mountains, as it is very beautiful and peaceful. I spent time with family. It was a great trip and I enjoyed it. We had a lot of cookouts, and the neighbors came around. We played music and had a lot of games going. We would go hiking in the morning, and return in the afternoon. We loved doing this. They view from the top of the mountains was stunning. I always looked forward to that first glimpse. It was breathtaking. It was great to be with family. We will do it again. Perhaps next year. I will visit by then.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful to have such a wonderful family.\n\n"
+            }
+        ],
+        "request_id": "811ecee53c3d8c96-EWR"
+    }
+}

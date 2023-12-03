@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was just have a normal day at work. Nothing out of the ordinary. I was pretty tired though and was more than ready to head home for the day. I got in to my car and put on my favorite band, Metallica. I headed towards the freeway. I got on the freeway and there didn't look like there was much traffic. I saw someone ahead of me. They were swerving. I didn't want to be behind them so I figured I could get around them and it would be safe. When I tried to go around them they swerved right in to me and I crashed off the road. I was going about 60mph when I crashed. Thankfully my airbag deployed. I was safe but it could have turned out a whole lot worse. I was frightened by this whole thing. I really think it has changed me forever because I struggle with anxiety with driving now. But I'm trying my best to work through it. I've started driving on the freeway again. I think I will be ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was just have a normal day at work. Nothing out of the ordinary. I was pretty tired though and was more than ready to head home for the day. I got in to my car and put on my favorite band, Metallica. I headed towards the freeway. I got on the freeway and there didn't look like there was much traffic. I saw someone ahead of me. They were swerving. I didn't want to be behind them so I figured I could get around them and it would be safe. When I tried to go around them they swerved right in to me and I crashed off the road. I was going about 60mph when I crashed. Thankfully my airbag deployed. I was safe but it could have turned out a whole lot worse. I was frightened by this whole thing. I really think it has changed me forever because I struggle with anxiety with driving now. But I'm trying my best to work through it. I've started driving on the freeway again. I think I will be ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just trying to be more cautious now."
+            }
+        ],
+        "request_id": "811bd7f4792bc343-EWR"
+    }
+}

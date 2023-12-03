@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I never wanted kids. It just never appealed to me. My family and friends might have wanted me to have them but it really wasn't their decision to make. I just didn't see kids in my future. And I was pretty strong on feeling that that wasn't going to change. It's hard for some people to think that I'd be so firm on this, but again, it was my choice. That being said, I did get pregnant not too long ago. It's hard for me to talk about this still but about six weeks ago I had an abortion. I didn't like the idea of going through with it but I was still just as firm on not having kids. I had enough problems focusing on myself. I was confused, and I was saddened by having to go through all of it. But I had to do what was best for me. I had to do what was best for my family too. Those that don't understand will just not be able to understand. I did what I felt was right."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I never wanted kids. It just never appealed to me. My family and friends might have wanted me to have them but it really wasn't their decision to make. I just didn't see kids in my future. And I was pretty strong on feeling that that wasn't going to change. It's hard for some people to think that I'd be so firm on this, but again, it was my choice. That being said, I did get pregnant not too long ago. It's hard for me to talk about this still but about six weeks ago I had an abortion. I didn't like the idea of going through with it but I was still just as firm on not having kids. I had enough problems focusing on myself. I was confused, and I was saddened by having to go through all of it. But I had to do what was best for me. I had to do what was best for my family too. Those that don't understand will just not be able to understand. I did what I felt was right.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was true to myself.\n\n"
+            }
+        ],
+        "request_id": "811f43a878990f7d-EWR"
+    }
+}

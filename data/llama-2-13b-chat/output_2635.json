@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago, a family friend was turning 50, so his family was throwing a surprise party for him. My family was getting ready to go when it started to rain. The clouds were abnormally black, which was a bit scary, but we just thought it was going to be a bad storm. We got in the car and headed off. When we got to the party, it was a full-fledged thunderstorm. There was tons of lightning and thunder that shook the house. We were still having fun, though. The burgers and ribs were cooked inside as opposed to outside on the grill, we watched tv, talked, opened gifts, etc. Then we heard the alarm. At the same time, we all got blaring loud notifications on our phones telling us to seek shelter due to a tornado. We all went into the basement. The kids were crying, and I was terrified. I had never seen a tornado in real life before. Thankfully, it missed our neighborhood by a couple miles. When all was clear, we went back upstairs and continued to enjoy ourselves."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago, a family friend was turning 50, so his family was throwing a surprise party for him. My family was getting ready to go when it started to rain. The clouds were abnormally black, which was a bit scary, but we just thought it was going to be a bad storm. We got in the car and headed off. When we got to the party, it was a full-fledged thunderstorm. There was tons of lightning and thunder that shook the house. We were still having fun, though. The burgers and ribs were cooked inside as opposed to outside on the grill, we watched tv, talked, opened gifts, etc. Then we heard the alarm. At the same time, we all got blaring loud notifications on our phones telling us to seek shelter due to a tornado. We all went into the basement. The kids were crying, and I was terrified. I had never seen a tornado in real life before. Thankfully, it missed our neighborhood by a couple miles. When all was clear, we went back upstairs and continued to enjoy ourselves.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The party went on as planned, and we were all so grateful that we had made it through the storm safely.\n\n"
+            }
+        ],
+        "request_id": "811eba933960433f-EWR"
+    }
+}

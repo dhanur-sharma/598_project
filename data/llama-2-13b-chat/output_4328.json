@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: How weird can life be? Seriously! Dad was paralyzed for over a decade. He had lost all hope and joy in his life. I can't blame him. I can't imagine myself being in that situation. I am quite sure i would have reacted the same way. Four months back his situation worsened. We were all informed that it was going to be over. I still remember the look on his face when he got the news. Lifeless. Motionless. Everything stopped. Doctors say that he was dead for 12 minutes. Is it a medical miracle or was it the power of Mom's prayers? I can't say. But he came back. Mom insisted it was Jesus, and surprisingly Dad agreed. Did he see something while he was dead? I don't know. He passed away a week from then. Hopefully he is at a better place now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: How weird can life be? Seriously! Dad was paralyzed for over a decade. He had lost all hope and joy in his life. I can't blame him. I can't imagine myself being in that situation. I am quite sure i would have reacted the same way. Four months back his situation worsened. We were all informed that it was going to be over. I still remember the look on his face when he got the news. Lifeless. Motionless. Everything stopped. Doctors say that he was dead for 12 minutes. Is it a medical miracle or was it the power of Mom's prayers? I can't say. But he came back. Mom insisted it was Jesus, and surprisingly Dad agreed. Did he see something while he was dead? I don't know. He passed away a week from then. Hopefully he is at a better place now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The power of love and faith can do miracles. But I am still in disbelief. I can't believe my Dad is gone.\n\n"
+            }
+        ],
+        "request_id": "811bd4a3b869430f-EWR"
+    }
+}

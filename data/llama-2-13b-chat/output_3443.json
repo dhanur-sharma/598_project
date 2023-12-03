@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended my oldest sister's wedding. It was a fun ceremony and reception, full of laughter and good times. My whole family attended. I didn't want to originally; I didn't think it would be fun for me. Ultimately my family persuaded me though. While there I met a girl I went to high school with. In high school I thought she was attractive. Nothing came of it however, because she was dating another guy. I was also too preoccupied with my extracurricular activities to really date at the time. I don't think we ever had a meaningful conversation in high school. I started talking to her, for lack of anything else to do during the wedding. To my surprise, it turned out that she was also attracted to me in high school. She never acted on it because she was loyal to her boyfriend at the time. Now though we were both single and the time seemed right. We hit it off smashingly, and even before the wedding ended we had made plans to go away for a trip together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended my oldest sister's wedding. It was a fun ceremony and reception, full of laughter and good times. My whole family attended. I didn't want to originally; I didn't think it would be fun for me. Ultimately my family persuaded me though. While there I met a girl I went to high school with. In high school I thought she was attractive. Nothing came of it however, because she was dating another guy. I was also too preoccupied with my extracurricular activities to really date at the time. I don't think we ever had a meaningful conversation in high school. I started talking to her, for lack of anything else to do during the wedding. To my surprise, it turned out that she was also attracted to me in high school. She never acted on it because she was loyal to her boyfriend at the time. Now though we were both single and the time seemed right. We hit it off smashingly, and even before the wedding ended we had made plans to go away for a trip together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec991df4632f4-EWR"
+    }
+}

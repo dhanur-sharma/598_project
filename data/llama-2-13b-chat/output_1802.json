@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I have only been married 4 years. I love her a lot. We got married at Whitestone. Such a beautiful place. About two months ago. On our 3rd anniversary, we came back and stayed at Whitestone. We have traveled for each of our other anniversaries. This one was particularly special. Special because about three years into marriage you get really relaxed and comfortable. Sometimes the spark dwindles. Just being back where we said our vows was so special. Having dinner with couples of all ages and anniversary ranges was amazing. Plus the icing on the cake was my wife invited my brother that i had not seen in over 6 years. He had been living in Pakistan following him serving in the military. It wasn\u2019t our most extravagant anniversary celebration, but definitely most special and memorable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I have only been married 4 years. I love her a lot. We got married at Whitestone. Such a beautiful place. About two months ago. On our 3rd anniversary, we came back and stayed at Whitestone. We have traveled for each of our other anniversaries. This one was particularly special. Special because about three years into marriage you get really relaxed and comfortable. Sometimes the spark dwindles. Just being back where we said our vows was so special. Having dinner with couples of all ages and anniversary ranges was amazing. Plus the icing on the cake was my wife invited my brother that i had not seen in over 6 years. He had been living in Pakistan following him serving in the military. It wasn\u2019t our most extravagant anniversary celebration, but definitely most special and memorable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We took our time and enjoyed the moment.\n\n"
+            }
+        ],
+        "request_id": "811eab12fdeb0f63-EWR"
+    }
+}

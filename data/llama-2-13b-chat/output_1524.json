@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently got back into play magic. I played the game a lot as a kid, but have not for several years. There had been a recent meta shift with the release of a new set, so I figured now would be a good time. I watched some of the arena streamers to get an idea of what was good now. I ended up settling on Bant Lands. It seemed the most reliable and is a lot of fun to play, even if it is a bit degenerate to the format. That said I went to my local FNM to play last weekend. It was a bit rough getting back into the hang of things. Its also the first time I had gone to one by myself instead of playing with a group of friends. I ended up coming in second out of a group of about 12. The last guy that I played was running a slightly different version then the one that I have. It was a close match, so I cant be to upset on losing. Its nice to be back into one of the hobbies that I used to play. Im hoping to be able to make it a regular thing. Prices seems to have come back down some, so I would be glad to play again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently got back into play magic. I played the game a lot as a kid, but have not for several years. There had been a recent meta shift with the release of a new set, so I figured now would be a good time. I watched some of the arena streamers to get an idea of what was good now. I ended up settling on Bant Lands. It seemed the most reliable and is a lot of fun to play, even if it is a bit degenerate to the format. That said I went to my local FNM to play last weekend. It was a bit rough getting back into the hang of things. Its also the first time I had gone to one by myself instead of playing with a group of friends. I ended up coming in second out of a group of about 12. The last guy that I played was running a slightly different version then the one that I have. It was a close match, so I cant be to upset on losing. Its nice to be back into one of the hobbies that I used to play. Im hoping to be able to make it a regular thing. Prices seems to have come back down some, so I would be glad to play again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea66bfe2a8c4b-EWR"
+    }
+}

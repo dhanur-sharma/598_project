@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son got married today.  He is my only son and my first born.  I am very excited for him to start this new chapter of his life. He is 32 years old and never really dated many people.  It seems as if he was destined to meet his future wife.  Even though theyhave only dated for about six months, they truly seem perfect for each other.  The way he looks at her with such love and respect truly makes me so happy.  It is a beautiful day and the ceremony was perfect.  I couldn't help but cry through most of it.  The best partof the day was my son telling me how much he loved me.  He said I was the reason he was the person he is today!  He is so kind and such a good person.  They wrote their own vows and almost everyone in the church was crying by the time they finished.  I often wondered if he would ever find someone and be happy.  Now I am sure that he has found the perfect person!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son got married today.  He is my only son and my first born.  I am very excited for him to start this new chapter of his life. He is 32 years old and never really dated many people.  It seems as if he was destined to meet his future wife.  Even though theyhave only dated for about six months, they truly seem perfect for each other.  The way he looks at her with such love and respect truly makes me so happy.  It is a beautiful day and the ceremony was perfect.  I couldn't help but cry through most of it.  The best partof the day was my son telling me how much he loved me.  He said I was the reason he was the person he is today!  He is so kind and such a good person.  They wrote their own vows and almost everyone in the church was crying by the time they finished.  I often wondered if he would ever find someone and be happy.  Now I am sure that he has found the perfect person!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I love her so much already and I know she will make him so happy.  "
+            }
+        ],
+        "request_id": "811ec9b80c684252-EWR"
+    }
+}

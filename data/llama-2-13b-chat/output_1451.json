@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 6-7 months ago I brought my dog in for a routine teeth cleaning.  I received a call right away from the vet tech explaining that my dog's lymph nodes were swollen and it could be a sign of something wrong.  She recommended that I have a fine needle test poke done to see what it could be.  After a few days I received the test results.  They seemed unsure as to what it was but there seemed to be some bad cells in her report.  I was advised to do a lymph node biopsy right away.  Once that was complete it was about a 7-10 day sleepless night wait.  I was extremely worried I was going to lose my dog to cancer or some infection. I spent a lot of time with her.  We went on walks and car rides.  I realized that this scare really made me thing how short our pets time is. they really have a short lifespan and it's worth it to spend as much time as you can with your pet.  They deserve it.  just when I couldn't take the worry and anxiety anymore, the vet called.   she said my dog did not have cancer but some rare lymph node issue and there really wasn't much I could do.  It seemed something odd and rare.  She's still doing well after all these months. That was a really big scare for me. I'm glad she is going to live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 6-7 months ago I brought my dog in for a routine teeth cleaning.  I received a call right away from the vet tech explaining that my dog's lymph nodes were swollen and it could be a sign of something wrong.  She recommended that I have a fine needle test poke done to see what it could be.  After a few days I received the test results.  They seemed unsure as to what it was but there seemed to be some bad cells in her report.  I was advised to do a lymph node biopsy right away.  Once that was complete it was about a 7-10 day sleepless night wait.  I was extremely worried I was going to lose my dog to cancer or some infection. I spent a lot of time with her.  We went on walks and car rides.  I realized that this scare really made me thing how short our pets time is. they really have a short lifespan and it's worth it to spend as much time as you can with your pet.  They deserve it.  just when I couldn't take the worry and anxiety anymore, the vet called.   she said my dog did not have cancer but some rare lymph node issue and there really wasn't much I could do.  It seemed something odd and rare.  She's still doing well after all these months. That was a really big scare for me. I'm glad she is going to live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea4feef19437a-EWR"
+    }
+}

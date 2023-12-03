@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A person I know struggles with bipolar disorder but perseveres many times.  He has practiced for many years in music and doesn't give up.  He loves to play with others in band and orchestra.  He is caring and really wants to do his best.  A few years ago he started to not think straight at times.  His mind became foggy and he became more paranoid about life events.  He had to be put on medication because it became so severe.  The medication also had to be extremely strong as episodes lasted several months without respite.  Despite this he recovered and continued with the music.  He went to practice regularly and attended a concert.  I was so proud of him for keeping on going and working hard.  He did something few there even understood because they had been hidden from his reality.  They saw him practice, but didn't know the true events underneath.  Not many could understand the hardships and perseverance.  This was an accomplishment I'll never forget as tears welled in my eyes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A person I know struggles with bipolar disorder but perseveres many times.  He has practiced for many years in music and doesn't give up.  He loves to play with others in band and orchestra.  He is caring and really wants to do his best.  A few years ago he started to not think straight at times.  His mind became foggy and he became more paranoid about life events.  He had to be put on medication because it became so severe.  The medication also had to be extremely strong as episodes lasted several months without respite.  Despite this he recovered and continued with the music.  He went to practice regularly and attended a concert.  I was so proud of him for keeping on going and working hard.  He did something few there even understood because they had been hidden from his reality.  They saw him practice, but didn't know the true events underneath.  Not many could understand the hardships and perseverance.  This was an accomplishment I'll never forget as tears welled in my eyes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a true testament to his strength and courage.\n\n"
+            }
+        ],
+        "request_id": "811ea15658435e7f-EWR"
+    }
+}

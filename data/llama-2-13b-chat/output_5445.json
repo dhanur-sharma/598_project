@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Ugh.. can this day get any more worse? Apparently yes. I was told I was in the second half of the renewal period for my license so I thought I only had to do 2 classes to renew my license. Yesterday I found out that I need the full 24 hours to renew. I couldn't believe it in the beginning. So i went to verify it today. Yes, it is true. I need to go through much more hassle. To add salt to the wound, i found out that my salary would be delayed this month. Really? Come on! How worse can this get! Without the license, my job will go into jeopardy. And now i am facing financial trouble. I don't even have the money to spend on this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Ugh.. can this day get any more worse? Apparently yes. I was told I was in the second half of the renewal period for my license so I thought I only had to do 2 classes to renew my license. Yesterday I found out that I need the full 24 hours to renew. I couldn't believe it in the beginning. So i went to verify it today. Yes, it is true. I need to go through much more hassle. To add salt to the wound, i found out that my salary would be delayed this month. Really? Come on! How worse can this get! Without the license, my job will go into jeopardy. And now i am facing financial trouble. I don't even have the money to spend on this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "What a terrible day!\n\n"
+            }
+        ],
+        "request_id": "811f31961f530fa1-EWR"
+    }
+}

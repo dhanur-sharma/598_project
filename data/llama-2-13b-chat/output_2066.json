@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five months ago I visited my family for the first time in forever. It wasn't because I didn't want to see them, just the times didn't match up. It's hard for me to set up plans because as someone with anxiety, it's a lot of information that is thrown at me at once. My family also isn't the easiest to get along with, so that was a wrench also when it came to setting things up. But now, I had time. I met them where they lived at. It took a while to get passed the initial awkwardness, and to be honest I still felt that for a while. My mind kept telling me to run and to fight another day. But I was determined to see it through. Lots of different emotions were had; joy, sadness, amusement, fun, anger, calm, and anything in between. There were significant stressors, although that doesn't mean it was all bad. Some of the topics were quite good and healthy, and I'll argue that even the touchy subjects made some headway. Overall, I really don't regret the experience. In fact, I look forward to more interactions. We just have to line up on time again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five months ago I visited my family for the first time in forever. It wasn't because I didn't want to see them, just the times didn't match up. It's hard for me to set up plans because as someone with anxiety, it's a lot of information that is thrown at me at once. My family also isn't the easiest to get along with, so that was a wrench also when it came to setting things up. But now, I had time. I met them where they lived at. It took a while to get passed the initial awkwardness, and to be honest I still felt that for a while. My mind kept telling me to run and to fight another day. But I was determined to see it through. Lots of different emotions were had; joy, sadness, amusement, fun, anger, calm, and anything in between. There were significant stressors, although that doesn't mean it was all bad. Some of the topics were quite good and healthy, and I'll argue that even the touchy subjects made some headway. Overall, I really don't regret the experience. In fact, I look forward to more interactions. We just have to line up on time again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaf9fb9a819df-EWR"
+    }
+}

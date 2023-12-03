@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son's first session of individual swim lessons went horribly, well, for me. I introduced him to his instructor, walked away, and he just started crying! I had to physically leave the area because anytime he made eye contact, he would start to silently sob. It was heartbreaking, but I knew it was for the best. He needed to learn that he was safe with other teachers/lifeguard, as long as he followed their instructions and listened. This went on, more or less, for the entire session. I signed him up for session two, and he did so great! I walked him over to the instructor, gave me a kiss, and went with her. I sat across the pool from him, where he could see me, and instead of crying he would wave. He became more comfortable on his back and on his tummy, and is pretty much an expert (for a 2-year-old) at holding his breath. When swim lessons were done he would tell me that Sydney (his teacher) was very nice. When we would get in the car to come back the next day, he would say the same. Instead of being scared of the water, he was becoming a \"big boy\" and going in safely on his own. He was happy and joyful while in the water, and no longer scared at the thought of me not being in there with him. While he still wants me close by, he knows that this is for the best, too. And best of all is he is becoming a more confident person in the water."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son's first session of individual swim lessons went horribly, well, for me. I introduced him to his instructor, walked away, and he just started crying! I had to physically leave the area because anytime he made eye contact, he would start to silently sob. It was heartbreaking, but I knew it was for the best. He needed to learn that he was safe with other teachers/lifeguard, as long as he followed their instructions and listened. This went on, more or less, for the entire session. I signed him up for session two, and he did so great! I walked him over to the instructor, gave me a kiss, and went with her. I sat across the pool from him, where he could see me, and instead of crying he would wave. He became more comfortable on his back and on his tummy, and is pretty much an expert (for a 2-year-old) at holding his breath. When swim lessons were done he would tell me that Sydney (his teacher) was very nice. When we would get in the car to come back the next day, he would say the same. Instead of being scared of the water, he was becoming a \"big boy\" and going in safely on his own. He was happy and joyful while in the water, and no longer scared at the thought of me not being in there with him. While he still wants me close by, he knows that this is for the best, too. And best of all is he is becoming a more confident person in the water.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He still has to work on putting his face in the water, but he's getting there."
+            }
+        ],
+        "request_id": "811ec3392c110f85-EWR"
+    }
+}

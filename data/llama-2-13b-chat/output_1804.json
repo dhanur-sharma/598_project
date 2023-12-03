@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, my dog got some nasty allergies. She won't stop scratching herself because of these allergies. This keeps us up at night. It is really annoying. I decided to give her a message. This made her relax enough to fall asleep. I'm going to have to go to the vet to get this sorted out. I'm hoping it isn't something too serious. It is probably just some fleas she got walking in the park. She will get over this for sure. I hope it isn't too painful for her. I give her a hug every morning to make her feel better about the itching. She is smiling a bit more because of the hugs. She will definitely survive this. I hope for the best."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, my dog got some nasty allergies. She won't stop scratching herself because of these allergies. This keeps us up at night. It is really annoying. I decided to give her a message. This made her relax enough to fall asleep. I'm going to have to go to the vet to get this sorted out. I'm hoping it isn't something too serious. It is probably just some fleas she got walking in the park. She will get over this for sure. I hope it isn't too painful for her. I give her a hug every morning to make her feel better about the itching. She is smiling a bit more because of the hugs. She will definitely survive this. I hope for the best.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab184eba0f53-EWR"
+    }
+}

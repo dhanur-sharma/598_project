@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was feeling sick for about half a year before deciding to do anything about it. I found out 5 months ago that I have MS. It was a shock to be sure. I didnt feel THAT sick. I just felt off. I know what the disease does to people and really couldnt believe it would happen to me. I guess thats what everyone thinks. It was a change to adapt to thats for sure, but has also made me realize how fleeting life is. SO what if I dont make it to 60. 50 years is enough, right? Theres so much good in the world that you start to notice. People offering to help me around the house, drive me to appointments. The church did a benefit for me. I gained a much stronger sense of community after this diagnosis. Yes, some days are hard to perform my basic functions. Sometimes I get frustrated. But that is life. Something will get you some time or another. Im just happy i was able to make such close friends in the time i did have here."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was feeling sick for about half a year before deciding to do anything about it. I found out 5 months ago that I have MS. It was a shock to be sure. I didnt feel THAT sick. I just felt off. I know what the disease does to people and really couldnt believe it would happen to me. I guess thats what everyone thinks. It was a change to adapt to thats for sure, but has also made me realize how fleeting life is. SO what if I dont make it to 60. 50 years is enough, right? Theres so much good in the world that you start to notice. People offering to help me around the house, drive me to appointments. The church did a benefit for me. I gained a much stronger sense of community after this diagnosis. Yes, some days are hard to perform my basic functions. Sometimes I get frustrated. But that is life. Something will get you some time or another. Im just happy i was able to make such close friends in the time i did have here.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f346c0be242ab-EWR"
+    }
+}

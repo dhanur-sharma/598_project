@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over about a week ago I went to go shopping. I went to the local appliance store that's near my home. After arriving at the store I looked around a little bit to see what they had. I went to buy a griddle and there was only one left. I reached to put the last one in my cart. There was another lady there that also wanted a griddle. She stole the griddle from my cart. I was really feeling that move from her so I took it right back. I didn't think things would get that serious over a griddle. After getting the griddle back I browsed around the store a little bit more. I did find a few more things that I ended up grabbing to use. Things that would compliment my new griddle. So finally I went to the cashier to check out. I was finally ready to leave the store. I accomplished what I had came to the store for. I am very happy but also a bit conflicted about the woman who tried to take my griddle."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over about a week ago I went to go shopping. I went to the local appliance store that's near my home. After arriving at the store I looked around a little bit to see what they had. I went to buy a griddle and there was only one left. I reached to put the last one in my cart. There was another lady there that also wanted a griddle. She stole the griddle from my cart. I was really feeling that move from her so I took it right back. I didn't think things would get that serious over a griddle. After getting the griddle back I browsed around the store a little bit more. I did find a few more things that I ended up grabbing to use. Things that would compliment my new griddle. So finally I went to the cashier to check out. I was finally ready to leave the store. I accomplished what I had came to the store for. I am very happy but also a bit conflicted about the woman who tried to take my griddle.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e89f5eb0117f1-EWR"
+    }
+}

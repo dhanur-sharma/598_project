@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently moved back to a big city to look for a job after a few years.  After graduating grad school in this particular city I had moved upstate.  However last month I packed my suitcase and came back to the same city to look for a job.  I came back for a few reasons, one being better career opportunities but also to connect with my friends.  I stayed over at a friends apartment for a few weeks while trying to land job interviews.  There I rediscovered our friendship from years ago.  We both went to college together and it was heart warming that despite years of not really communicating other than facebook messaging we got a long pretty well.  It was almost a comforting sign.  It was like the universe showing me positive signs that I might be on the right path.  For a few years I was unsure of where I should be.  However coming back to the city and meeting with old friends showed me how much I felt at home here.  Right now I am working a temporary job to hold me over.  However I really pray that I will find something stable here and am able to live and work here again.  Although the city has changed I still love it.  Finally I realized this is where I want to be."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently moved back to a big city to look for a job after a few years.  After graduating grad school in this particular city I had moved upstate.  However last month I packed my suitcase and came back to the same city to look for a job.  I came back for a few reasons, one being better career opportunities but also to connect with my friends.  I stayed over at a friends apartment for a few weeks while trying to land job interviews.  There I rediscovered our friendship from years ago.  We both went to college together and it was heart warming that despite years of not really communicating other than facebook messaging we got a long pretty well.  It was almost a comforting sign.  It was like the universe showing me positive signs that I might be on the right path.  For a few years I was unsure of where I should be.  However coming back to the city and meeting with old friends showed me how much I felt at home here.  Right now I am working a temporary job to hold me over.  However I really pray that I will find something stable here and am able to live and work here again.  Although the city has changed I still love it.  Finally I realized this is where I want to be.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It's where I feel the most comfortable and the most at home."
+            }
+        ],
+        "request_id": "811e98dd1a514411-EWR"
+    }
+}

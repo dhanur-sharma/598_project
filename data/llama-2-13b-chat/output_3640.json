@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mom has CLL leukemia and was first diagnosed 6 years ago. This past May she had a routine PET scan done and we were called in within a few days to meet with the doctor. He told us that her PET scan showed she had experienced an aggressive transformation of the leukemia and would have months to live unless she tried a treatment that might give her a little more time. She opted to take the treatment rather than give up and go on a home hospice plan. She has moved in with me and since the last diagnosis has lost her ability to speak for the most part. She can say simple words but will say yes for no and vice versa. She knows she is jumbling her words up but can't help it. Her MRI brain scan shows she has had no strokes at all. The doctor is afraid the CLL has infiltrated her brain. She will have a lumbar puncture this Tuesday to test her spinal fluid. The doctors don't know exactly why she has lost her speech. I am taking her to all doctor appointments and helping her to stay organized. It breaks my heart to see my mom lose her independence and strong mind. She is becoming more confused by the day and now needs help with the simplest things. I lay awake at night sometimes just worrying about everything we have to deal with now. I pray she won't suffer very much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mom has CLL leukemia and was first diagnosed 6 years ago. This past May she had a routine PET scan done and we were called in within a few days to meet with the doctor. He told us that her PET scan showed she had experienced an aggressive transformation of the leukemia and would have months to live unless she tried a treatment that might give her a little more time. She opted to take the treatment rather than give up and go on a home hospice plan. She has moved in with me and since the last diagnosis has lost her ability to speak for the most part. She can say simple words but will say yes for no and vice versa. She knows she is jumbling her words up but can't help it. Her MRI brain scan shows she has had no strokes at all. The doctor is afraid the CLL has infiltrated her brain. She will have a lumbar puncture this Tuesday to test her spinal fluid. The doctors don't know exactly why she has lost her speech. I am taking her to all doctor appointments and helping her to stay organized. It breaks my heart to see my mom lose her independence and strong mind. She is becoming more confused by the day and now needs help with the simplest things. I lay awake at night sometimes just worrying about everything we have to deal with now. I pray she won't suffer very much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecdbfc906434f-EWR"
+    }
+}

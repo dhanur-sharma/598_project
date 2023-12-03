@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a great concert with a close friend of mine. This was almost a month ago. We got to see Young The Giant and Fitz & The Tantrums.  They are two of my favorite bands, and I'd never got to see either of them live before. My friend managed to get tickets for the show from another friend of his who was not able to go. I was the first person he thought of to invite to the concert, which I thought was very nice and sweet of him. The show was amazing, and it a great bonding experience for me and my friend. I felt much closer to him afterwards. It was a very positive emotional experience for me, because I got to experience it with a close friend and because I'm very passionate about music. Both of the bands put on a stellar show. The concert was about 3 hours long all together and we went out to eat afterwards. Overall, it was a great night. I'm so glad that I was the person they thought to invite. I'm very grateful for the experience as well as having a great friend like that. It has really helped our friendship grow."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a great concert with a close friend of mine. This was almost a month ago. We got to see Young The Giant and Fitz & The Tantrums.  They are two of my favorite bands, and I'd never got to see either of them live before. My friend managed to get tickets for the show from another friend of his who was not able to go. I was the first person he thought of to invite to the concert, which I thought was very nice and sweet of him. The show was amazing, and it a great bonding experience for me and my friend. I felt much closer to him afterwards. It was a very positive emotional experience for me, because I got to experience it with a close friend and because I'm very passionate about music. Both of the bands put on a stellar show. The concert was about 3 hours long all together and we went out to eat afterwards. Overall, it was a great night. I'm so glad that I was the person they thought to invite. I'm very grateful for the experience as well as having a great friend like that. It has really helped our friendship grow.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4e80382242d2-EWR"
+    }
+}

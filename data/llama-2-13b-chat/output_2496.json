@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just celebrated my birthday! You know how I usually want to have a day filled with friends and family? Well, not this year! I wanted something special and different. So me and him went to the movies and started the day. He took me to see whatever movie I wanted! I went for the latest comedy and we had a great time. We also went and got a ton of popcorn, candy, and drinks! It was a great time and I really enjoyed it! After that, we went to mall and he let me have a shopping spree and spent 500 bucks on whatever I wanted! I ended up getting a lot of clothes that I had wanted. Then that night, he surprised me with a hotel room in a high rise! It overlooked the city and the lights were so amazing to see! I can't believe how lucky I am! That night we spent the night together and doing a lot of other things. I got chocolate covered strawberries and we fed them to each other before getting a little naughty!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just celebrated my birthday! You know how I usually want to have a day filled with friends and family? Well, not this year! I wanted something special and different. So me and him went to the movies and started the day. He took me to see whatever movie I wanted! I went for the latest comedy and we had a great time. We also went and got a ton of popcorn, candy, and drinks! It was a great time and I really enjoyed it! After that, we went to mall and he let me have a shopping spree and spent 500 bucks on whatever I wanted! I ended up getting a lot of clothes that I had wanted. Then that night, he surprised me with a hotel room in a high rise! It overlooked the city and the lights were so amazing to see! I can't believe how lucky I am! That night we spent the night together and doing a lot of other things. I got chocolate covered strawberries and we fed them to each other before getting a little naughty!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great birthday!\n\n"
+            }
+        ],
+        "request_id": "811eb7ec3dd18c17-EWR"
+    }
+}

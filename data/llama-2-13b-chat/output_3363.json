@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, I got married to my husband. However, the events leading up to the ceremony were pretty stressful. To start, the weather was lousy. We were having an outdoor wedding. It looked like it was going to rain, and it was already very windy. We were worried that some of the setup might just blow over from the wind. Also, we hit a lot of traffic going over to the venue, and I was already very stressed. My wedding dress also felt like it was not fitting right, even though it fit perfectly when I tried it on numerous times before. However, this could have been in my head, as I was already very stressed about the wedding and everything that was going on. It's not like I did not love my soon to be husband. Nor did I have second thoughts about it. On the contrary, I love him very much, and I was just looking forward to getting the ceremony started. When I finally walked down the aisle with my father and I saw my husband to be, I felt way better. Seeing him standing up there just seemed to alleviate all the stress. With that being said, the most surprising thing that happened was when the ring bearer tripped and fell. He quickly got up though, and he acted like nothing happened. It ended up not raining, and the wedding was relatively calm after that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, I got married to my husband. However, the events leading up to the ceremony were pretty stressful. To start, the weather was lousy. We were having an outdoor wedding. It looked like it was going to rain, and it was already very windy. We were worried that some of the setup might just blow over from the wind. Also, we hit a lot of traffic going over to the venue, and I was already very stressed. My wedding dress also felt like it was not fitting right, even though it fit perfectly when I tried it on numerous times before. However, this could have been in my head, as I was already very stressed about the wedding and everything that was going on. It's not like I did not love my soon to be husband. Nor did I have second thoughts about it. On the contrary, I love him very much, and I was just looking forward to getting the ceremony started. When I finally walked down the aisle with my father and I saw my husband to be, I felt way better. Seeing him standing up there just seemed to alleviate all the stress. With that being said, the most surprising thing that happened was when the ring bearer tripped and fell. He quickly got up though, and he acted like nothing happened. It ended up not raining, and the wedding was relatively calm after that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a beautiful wedding, and I loved every moment of it. I was happy to finally be married to my husband."
+            }
+        ],
+        "request_id": "811ec9b7fb1d4282-EWR"
+    }
+}

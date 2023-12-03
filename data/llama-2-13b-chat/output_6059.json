@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One week ago, I encountered something I rarely see in my day to day life anymore. I saw someone act out of pure kindness. I was waiting at the bus stop that morning to head to work. I work at a local coffee shop and choose to take the bus since it is a bit far from where I live and I don't have a car at the moment. It started raining that morning probably because we were under a tropical depression warning. We are so use to these type of storms that people generally go about their day to day lives until the storm turns in a higher category hurricane level. There was a man and woman waiting there with me. I had never seen them before until today. The man looked a bit unkempt and sketchy in my opinion. However, this is the moment I learned never to judge a book by it's cover. I was keeping a close eye on the man because I was worried what he might try to do since it was just me and this other woman there to take care of each other in case he were to try anything. I saw him reach into the inside of his jacket and I immediately felt anxious. He pulled out an umbrella and helped shield the other woman from the rain. I should point out that the other woman was an elderly woman and the bus stop is not covered. It was a simple random act of kindness from a kind soul."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One week ago, I encountered something I rarely see in my day to day life anymore. I saw someone act out of pure kindness. I was waiting at the bus stop that morning to head to work. I work at a local coffee shop and choose to take the bus since it is a bit far from where I live and I don't have a car at the moment. It started raining that morning probably because we were under a tropical depression warning. We are so use to these type of storms that people generally go about their day to day lives until the storm turns in a higher category hurricane level. There was a man and woman waiting there with me. I had never seen them before until today. The man looked a bit unkempt and sketchy in my opinion. However, this is the moment I learned never to judge a book by it's cover. I was keeping a close eye on the man because I was worried what he might try to do since it was just me and this other woman there to take care of each other in case he were to try anything. I saw him reach into the inside of his jacket and I immediately felt anxious. He pulled out an umbrella and helped shield the other woman from the rain. I should point out that the other woman was an elderly woman and the bus stop is not covered. It was a simple random act of kindness from a kind soul.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The man did not say a word, he simply held the umbrella and protected her from the rain. He did not ask for anything in return, nor did he expect anything in return. He just did it because it was the right thing to do. I was so amazed by this act of kindness that I felt guilty for judging him in the first place. I did not get a chance to thank him before he left, but I will never forget this moment."
+            }
+        ],
+        "request_id": "811f3dfd5e090f3a-EWR"
+    }
+}

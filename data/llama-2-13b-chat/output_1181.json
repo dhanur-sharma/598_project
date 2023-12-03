@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Approximately 6 months ago, I started feeling emotionally numb. I did not feel highs or low juts burned out. I tried ignoring it for a while, however it eventually lead to all the emotions coming back all at once. This caused me to hyper ventilate and have a panic attack. I have only had 1 or 2 panic attacks previously in my entire life, so this was very out of the ordinary. I was in my living room when this happened and my wife immediately started helping. She asked me to name 5 objects around, the room, then 5 colors. This helped me focus and get myself back under control. This was a triggering event to make me realize I needed to stop ignoring my mental health issues and seek help. So with the encouragement of my wife, I went to see my family Doctor. I was diagnosed with generalized anxiety disorder. My family doctor recommended medication, which was also a trigger for me, as I had a lot of misconceptions about taking medication for mental health. I felt like it would make me weak. Though I did eventually try the medication and it helped me immensely. All my physiological reactions went away. I also decided that day to seek out therapy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Approximately 6 months ago, I started feeling emotionally numb. I did not feel highs or low juts burned out. I tried ignoring it for a while, however it eventually lead to all the emotions coming back all at once. This caused me to hyper ventilate and have a panic attack. I have only had 1 or 2 panic attacks previously in my entire life, so this was very out of the ordinary. I was in my living room when this happened and my wife immediately started helping. She asked me to name 5 objects around, the room, then 5 colors. This helped me focus and get myself back under control. This was a triggering event to make me realize I needed to stop ignoring my mental health issues and seek help. So with the encouragement of my wife, I went to see my family Doctor. I was diagnosed with generalized anxiety disorder. My family doctor recommended medication, which was also a trigger for me, as I had a lot of misconceptions about taking medication for mental health. I felt like it would make me weak. Though I did eventually try the medication and it helped me immensely. All my physiological reactions went away. I also decided that day to seek out therapy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was worried about the stigma around therapy, but I knew that I needed help. I started seeing a therapist regularly and I have been doing much better since then. I still have days where I feel burnt out, but I know now that it's okay to feel that way. I have learned how to deal with my emotions in a healthy way. I have learned how to take care of myself and prioritize my mental health."
+            }
+        ],
+        "request_id": "811e9f50fd541a07-EWR"
+    }
+}

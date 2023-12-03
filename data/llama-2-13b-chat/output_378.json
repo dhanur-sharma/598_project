@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son's father and I never got along after a while. The honeymoon phase wore off quickly. We tried to be civil for our son but these things don't always work. My son was about to graduate high school, and we told him about the party afterwards. He never said he was going, so we didn't have anything to expect. At the party after his graduation, everyone came near and far. It was a beautiful spread of gifts and love. My son's friends and family brought presents. Except for maybe the one present he wanted. The father never showed up. I never got a reason. But, I wasn't surprised. It's best just to have low expectations. That way, if things work out it's a surprise. I think my boy is doing just fine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son's father and I never got along after a while. The honeymoon phase wore off quickly. We tried to be civil for our son but these things don't always work. My son was about to graduate high school, and we told him about the party afterwards. He never said he was going, so we didn't have anything to expect. At the party after his graduation, everyone came near and far. It was a beautiful spread of gifts and love. My son's friends and family brought presents. Except for maybe the one present he wanted. The father never showed up. I never got a reason. But, I wasn't surprised. It's best just to have low expectations. That way, if things work out it's a surprise. I think my boy is doing just fine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know what the future holds. But, I'm just glad to see him happy and successful.\n\n"
+            }
+        ],
+        "request_id": "811e90a62e620c7a-EWR"
+    }
+}

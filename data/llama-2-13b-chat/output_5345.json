@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in late April I got my first full suspension mountain bike. The bike is a used Schwinn. It's an older model, but in really good shape. I have been used to riding hard tail mountain bikes.  I had heard of and seen full suspension mountain bikes, but the prices were out of my reach. Also, I wasn't expecting much of an improvement. I saw full suspension bikes as a kind of gimmick. I figured the bike would not ride as well. I figured the suspension would not have much of an effect. Well, I was wrong. I fell in love with the bike within 5 minutes of riding it. It wasn't long before I discovered that I could ride it for longer. It was less \"hard\" on me than a traditional bike. You still feel the impacts, but a lot of the force is taken out of them. That makes the ride much more comfortable. It has actually rekindled my interest in cycling to a degree."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in late April I got my first full suspension mountain bike. The bike is a used Schwinn. It's an older model, but in really good shape. I have been used to riding hard tail mountain bikes.  I had heard of and seen full suspension mountain bikes, but the prices were out of my reach. Also, I wasn't expecting much of an improvement. I saw full suspension bikes as a kind of gimmick. I figured the bike would not ride as well. I figured the suspension would not have much of an effect. Well, I was wrong. I fell in love with the bike within 5 minutes of riding it. It wasn't long before I discovered that I could ride it for longer. It was less \"hard\" on me than a traditional bike. You still feel the impacts, but a lot of the force is taken out of them. That makes the ride much more comfortable. It has actually rekindled my interest in cycling to a degree.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I've been riding it a lot since I got it. I'm loving the bike more and more each day.\n\n"
+            }
+        ],
+        "request_id": "811f2f8339c943fb-EWR"
+    }
+}

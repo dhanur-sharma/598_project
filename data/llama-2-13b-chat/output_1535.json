@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago my parent had a Birthday party. They rented a pavilion at one one of the local parks and invited about 50 people. The theme to the party was \"When I'm 64\". This is a tribute to the song of the same name by the Beatles. The had the party catered, which was really nice. There was also a lot of beer and wine. The food was excellent. The bummer was, a lot of people didn't show up. In the end we only had about 25 guest. This made my mum kind of sad. My stepfather got very drunk. This made my mum very mad. I won't call it very successful because not a lot of people showed up but we had fun. We played some bingo and horseshoes. We even had a trivia contest. It went on quite late, until about 9pm. My sister and I were the designated drivers. We also got to take home a lot of the food."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago my parent had a Birthday party. They rented a pavilion at one one of the local parks and invited about 50 people. The theme to the party was \"When I'm 64\". This is a tribute to the song of the same name by the Beatles. The had the party catered, which was really nice. There was also a lot of beer and wine. The food was excellent. The bummer was, a lot of people didn't show up. In the end we only had about 25 guest. This made my mum kind of sad. My stepfather got very drunk. This made my mum very mad. I won't call it very successful because not a lot of people showed up but we had fun. We played some bingo and horseshoes. We even had a trivia contest. It went on quite late, until about 9pm. My sister and I were the designated drivers. We also got to take home a lot of the food.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, it wasn't a total loss.\n\n"
+            }
+        ],
+        "request_id": "811ea6930a994388-EWR"
+    }
+}

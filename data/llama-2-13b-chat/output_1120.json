@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family went to Korea this past summer, and it was an amazing experience. My dad was born and raised in that country, and had not been back in quite some time. It was the first time I had been since I was a little kid. We visited the house he was born in. We met family that still live in the country. We ate a lot of good food. Some of it was spicy!! I really enjoyed staying with relatives. I don't speak the language well, but it was good to practice. My relatives were very patient. We visitied a lot of different places. Since they live there, we were able to visit places off the beaten path. We didn't just go to the touristy places. We enjoyed the nightlife of Seoul. I wish I could live there. It is very expensive though. I could never afford to live there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family went to Korea this past summer, and it was an amazing experience. My dad was born and raised in that country, and had not been back in quite some time. It was the first time I had been since I was a little kid. We visited the house he was born in. We met family that still live in the country. We ate a lot of good food. Some of it was spicy!! I really enjoyed staying with relatives. I don't speak the language well, but it was good to practice. My relatives were very patient. We visitied a lot of different places. Since they live there, we were able to visit places off the beaten path. We didn't just go to the touristy places. We enjoyed the nightlife of Seoul. I wish I could live there. It is very expensive though. I could never afford to live there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e3a8a951902-EWR"
+    }
+}

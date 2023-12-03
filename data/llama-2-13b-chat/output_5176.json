@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a meeting at work. I had recently been promoted to a lead position. It was a meeting about a new ugrade to our electronic medical system. While the meeting was happening I started to feel weird. I started to have tingling and numbness. I had experienced it more and more. I knew it was a hemiplegic migraine. I had had these in the past. They often can mimic strokes. All of the sudden someone commented on how quiet I had been which is not like me, and I started to tear up. I realized I couldn't move. My face drooped, I couldn't stand. THey lowered me to the floor I work at a clinic so a triage team was called. Unfortunately, my coworker who knows best about my issues was not there and my doctor was not either, but another doctor assessed me I had a transient ischemic attack (TIA or small stroke) previously so an ambulance was called. The EMTs and fire department arrived. I was put on a stretcher and put into the elevator the whole time the EMTs told me to stop faking and told me I was having pseudo seizures. I was unable to talk."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a meeting at work. I had recently been promoted to a lead position. It was a meeting about a new ugrade to our electronic medical system. While the meeting was happening I started to feel weird. I started to have tingling and numbness. I had experienced it more and more. I knew it was a hemiplegic migraine. I had had these in the past. They often can mimic strokes. All of the sudden someone commented on how quiet I had been which is not like me, and I started to tear up. I realized I couldn't move. My face drooped, I couldn't stand. THey lowered me to the floor I work at a clinic so a triage team was called. Unfortunately, my coworker who knows best about my issues was not there and my doctor was not either, but another doctor assessed me I had a transient ischemic attack (TIA or small stroke) previously so an ambulance was called. The EMTs and fire department arrived. I was put on a stretcher and put into the elevator the whole time the EMTs told me to stop faking and told me I was having pseudo seizures. I was unable to talk.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was in a full blown hemiplegic migraine. I was taken to the hospital and had an MRI. They found that I had an infarction in my brain. I was diagnosed with a TIA and migraine. I was treated and sent home with a follow up appointment. I was told to avoid triggers and to continue with my medication. I was also told that I should have gone to the emergency room immediately after the first symptoms. I had never had a TIA before and I was lucky that I did not have any lasting damage. I was very scared but I was also relieved to be home and to be able to recover.\n\n"
+            }
+        ],
+        "request_id": "811be5de7aeb4255-EWR"
+    }
+}

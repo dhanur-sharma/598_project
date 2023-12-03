@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: my daughter was born with a congential heart defect. Tetralogy of Fallot to be exact. When she ws 4 months old. her mouth turned blue while she was sleeping. thank god my boyfriend was awake. I was sleeping. he woke me up to take a picture of her lips. In the morning, I took her to the doctors. her doctor said it was starting to happen because the muscle in her heart was squeezing tight and it was cutting off circulation to her lungs. he said to make an appointment or schedule an ER visit. we called up the hospital that we were going to transfer her to. they made us take a cab there with her. when we got to the ER, they took her vitals signs. her oxygen was sitting at a 60 and her pulse was 80. they schedule her open heart for 2 days later. it was the scariest day of my life. she went in"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: my daughter was born with a congential heart defect. Tetralogy of Fallot to be exact. When she ws 4 months old. her mouth turned blue while she was sleeping. thank god my boyfriend was awake. I was sleeping. he woke me up to take a picture of her lips. In the morning, I took her to the doctors. her doctor said it was starting to happen because the muscle in her heart was squeezing tight and it was cutting off circulation to her lungs. he said to make an appointment or schedule an ER visit. we called up the hospital that we were going to transfer her to. they made us take a cab there with her. when we got to the ER, they took her vitals signs. her oxygen was sitting at a 60 and her pulse was 80. they schedule her open heart for 2 days later. it was the scariest day of my life. she went in",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "for surgery and had to stay in the hospital for a week. the recovery was a long one. but we made it through. she's doing great now.\n\n"
+            }
+        ],
+        "request_id": "811eb808296e41c6-EWR"
+    }
+}

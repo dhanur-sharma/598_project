@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got an email from management telling me to meet with others in the auditorium. I was a bit worried at first, thinking I did something wrong.  However I saw others in top management position smiling as I entered the room. I was pleasantly surprised when they announced that I was been promoted. I was applauded and told that I was promoted as a manager. They told me that my performance is top performance. They said that cooperate was extremely pleased with how I do my work.  I would be in charge of 25 people in my group. I must say that I was trying to pinch myself to see if I was dreaming. I was then presented with gifts. I was also given a gift card valuing one thousand dollars. I was also given gift card to eat at Red Lobster. I am happy that I really worked hard and I am very grateful for this position. They told me that there is more room for growth. Eventually I could be an executive, if I continue on the same pace. Members from cooperate gave a lengthy speech about my performance."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got an email from management telling me to meet with others in the auditorium. I was a bit worried at first, thinking I did something wrong.  However I saw others in top management position smiling as I entered the room. I was pleasantly surprised when they announced that I was been promoted. I was applauded and told that I was promoted as a manager. They told me that my performance is top performance. They said that cooperate was extremely pleased with how I do my work.  I would be in charge of 25 people in my group. I must say that I was trying to pinch myself to see if I was dreaming. I was then presented with gifts. I was also given a gift card valuing one thousand dollars. I was also given gift card to eat at Red Lobster. I am happy that I really worked hard and I am very grateful for this position. They told me that there is more room for growth. Eventually I could be an executive, if I continue on the same pace. Members from cooperate gave a lengthy speech about my performance.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They also answered question that I had. I was happy to hear that they are looking forward to seeing me grow. They said that they are looking forward to see me excel.\n\n"
+            }
+        ],
+        "request_id": "811bdbf6783e42ca-EWR"
+    }
+}

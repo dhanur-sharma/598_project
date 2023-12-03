@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past Spring, I lost my dad. My husband and I had been serving as primary caregivers for him in his home. One night very late, we heard him fall. We found him in the bathtub, where he had fallen face down after suffering a heart attack. I immediately called 911. My husband administered CPR while I was on the phone with emergency dispatch. When the paramedics came, they were able to revive Dad before transporting him to the hospital. But they warned us that he likely would not regain consciousness. Dad had an active DNR and we wanted to honor those wishes. Hospital staff advised that we get the family together to say goodbye. I was devastated. Icould not bring myself to go and watch my dad die. I stayed behind and my brother and sister met my husband at the hospital. They said their final goodbyes, though I doubt Dad heard their words. I haven't been able to reconcile the decision to stay home that night in my mind. To this day, it still pains me. I think about Dad often. I dream about him in happier times almost every night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past Spring, I lost my dad. My husband and I had been serving as primary caregivers for him in his home. One night very late, we heard him fall. We found him in the bathtub, where he had fallen face down after suffering a heart attack. I immediately called 911. My husband administered CPR while I was on the phone with emergency dispatch. When the paramedics came, they were able to revive Dad before transporting him to the hospital. But they warned us that he likely would not regain consciousness. Dad had an active DNR and we wanted to honor those wishes. Hospital staff advised that we get the family together to say goodbye. I was devastated. Icould not bring myself to go and watch my dad die. I stayed behind and my brother and sister met my husband at the hospital. They said their final goodbyes, though I doubt Dad heard their words. I haven't been able to reconcile the decision to stay home that night in my mind. To this day, it still pains me. I think about Dad often. I dream about him in happier times almost every night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I had been there for him when he needed me most.\n\n"
+            }
+        ],
+        "request_id": "811ec7a30d8f23a0-EWR"
+    }
+}

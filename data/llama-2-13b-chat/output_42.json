@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I got married on a bright sunny June day. We thought we'd sail off in the sunset together. We thought we'd ride on moonlit canoes. We did not however. We sufferent fertility problems for years. We lost one baby. We lost two babies. We lost several babies. We then decided to give up. We began to enjoy our lives without children. I then become ill and can't explain the symptoms. Turns out, I'm pregnant again. We are both in fear at this moment in time due to all the other losses we've suffered. However, two months ago, we got the best thing that ever happened to us. A brand new, special baby girl!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I got married on a bright sunny June day. We thought we'd sail off in the sunset together. We thought we'd ride on moonlit canoes. We did not however. We sufferent fertility problems for years. We lost one baby. We lost two babies. We lost several babies. We then decided to give up. We began to enjoy our lives without children. I then become ill and can't explain the symptoms. Turns out, I'm pregnant again. We are both in fear at this moment in time due to all the other losses we've suffered. However, two months ago, we got the best thing that ever happened to us. A brand new, special baby girl!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now, I'm sitting here, holding her, crying tears of joy. We are so blessed to have her in our lives."
+            }
+        ],
+        "request_id": "811e8a5aba59c342-EWR"
+    }
+}

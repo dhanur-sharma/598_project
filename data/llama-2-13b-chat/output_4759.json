@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I was visited my parents last month during the summers. My boss had given us 7 days off due to low level of work load to everyone. I decided that I would travel by road and spend sometime with my family. I had been visiting them after an year almost after I had moved out to a different city. When I entered my home, I could not describe the feeling it gave me. The smell of my home is truly unique. I found my mother working in the kitchen, cooking the lunch and expecting me. I hugged her, and went to my room to unload. This time I had money in my pocket and as I laid down on my bed, I realized that how lucky I am. I have a good job, and loving parents. I realized that not many people in this world are truly blessed like that. We could always complain about the luxuries we do not have in life, but at the end of the day, you do not need them anyway because they give just temporary pleasures. I called up my friends in the town to meet-up. We all sat down on the weekend and caught by the latest events happening with everyone of us. There is a lot of joy in little things, and sometimes we should take some time out to appreciate those little things."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I was visited my parents last month during the summers. My boss had given us 7 days off due to low level of work load to everyone. I decided that I would travel by road and spend sometime with my family. I had been visiting them after an year almost after I had moved out to a different city. When I entered my home, I could not describe the feeling it gave me. The smell of my home is truly unique. I found my mother working in the kitchen, cooking the lunch and expecting me. I hugged her, and went to my room to unload. This time I had money in my pocket and as I laid down on my bed, I realized that how lucky I am. I have a good job, and loving parents. I realized that not many people in this world are truly blessed like that. We could always complain about the luxuries we do not have in life, but at the end of the day, you do not need them anyway because they give just temporary pleasures. I called up my friends in the town to meet-up. We all sat down on the weekend and caught by the latest events happening with everyone of us. There is a lot of joy in little things, and sometimes we should take some time out to appreciate those little things.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had a great time with my family and friends and it was a great feeling to be back home.\n\n"
+            }
+        ],
+        "request_id": "811bdd4a6b75c409-EWR"
+    }
+}

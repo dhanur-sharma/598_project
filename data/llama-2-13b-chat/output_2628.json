@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month was Amy's birthday and she had decided to throw herself a party since she was turning 30. She sent out an invitation via email. It said to meet at the Korean BBQ place in town at 8pm. I was anxious because I never had Korean BBQ, but I decided to go anyway. I am so glad I did! The food was amazing. They cook it on the table right in front of you. The sauces were the best part. There was a red bean sauce that I fell in love with. The desserts were even better. They had real vanilla bean ice cream and some amazing cakes. If it wasn't so expensive I would probably eat there every night. Amy had a great time. After the dinner everyone was going home but I was still pretty awake and wasn't looking forward to sitting at home. My other friend James said he was going home to watch Zootopia. He asked if I wanted to join him. It was pretty late but I have known James for a long time so I trusted him to keep me safe late at night. We drove to his house and relaxed on the couch and watched Zootopia until It was time for me to go home. It was a great night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month was Amy's birthday and she had decided to throw herself a party since she was turning 30. She sent out an invitation via email. It said to meet at the Korean BBQ place in town at 8pm. I was anxious because I never had Korean BBQ, but I decided to go anyway. I am so glad I did! The food was amazing. They cook it on the table right in front of you. The sauces were the best part. There was a red bean sauce that I fell in love with. The desserts were even better. They had real vanilla bean ice cream and some amazing cakes. If it wasn't so expensive I would probably eat there every night. Amy had a great time. After the dinner everyone was going home but I was still pretty awake and wasn't looking forward to sitting at home. My other friend James said he was going home to watch Zootopia. He asked if I wanted to join him. It was pretty late but I have known James for a long time so I trusted him to keep me safe late at night. We drove to his house and relaxed on the couch and watched Zootopia until It was time for me to go home. It was a great night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had so much fun at the party and then the relaxing night with James."
+            }
+        ],
+        "request_id": "811eba769805c33e-EWR"
+    }
+}

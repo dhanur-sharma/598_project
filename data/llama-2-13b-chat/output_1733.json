@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It wasn't a good day. A terrible thing happened to a really good friend. Tim died by a car crash. It never seems to be possible until it does happen. I feel that this is more a bad dream then anything else. The memories of him and I go back so long I don't know it happened. How it can happen so soon, so quickly, without warning. I feel regret on not cherishing the moment we had together and making sure they last longer. I plan on going up to his family to join in remembering him, and so we can help each other out during this ordeal. I feel that this is something we can all get through although it may take some time. He went before he should have and everyone close to him feels the same way. I have been remembering the good times, the good memories that we had over the years. He was a kind person with a great family. We had our differences over the years but it was still a great relationship. I feel his memory will travel with many of us into the future, and he will always be a part of our lives in some way."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It wasn't a good day. A terrible thing happened to a really good friend. Tim died by a car crash. It never seems to be possible until it does happen. I feel that this is more a bad dream then anything else. The memories of him and I go back so long I don't know it happened. How it can happen so soon, so quickly, without warning. I feel regret on not cherishing the moment we had together and making sure they last longer. I plan on going up to his family to join in remembering him, and so we can help each other out during this ordeal. I feel that this is something we can all get through although it may take some time. He went before he should have and everyone close to him feels the same way. I have been remembering the good times, the good memories that we had over the years. He was a kind person with a great family. We had our differences over the years but it was still a great relationship. I feel his memory will travel with many of us into the future, and he will always be a part of our lives in some way.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea9cf8e1bb9c5-EWR"
+    }
+}

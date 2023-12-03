@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I drove to a few cities in the east coast for a summer campus visit with my kids. My kids are ready going to their college in next a few year. We scheduled for 9 university information sessions and the corresponding campus tours during this trip. We have greatly enjoyed this impressive and informative trip. We directly contacted with the teachers and students from these universities and learned a lot of new information about our interested university. This was a very important visit for my kids to prepare their university applications later on. As their parents, we also felt this visit was very helpful for us to prepare for the coming important events. We learned how to start the preparations for the promising universities earlier. My son has been aiming on his dream school, MIT, because his friends went to this school. I helped him to sort the candidate majors out and went through the admission pages carefully. After talked with the teachers and students there, my son recognized what were his strengths and weaknesses. He said he would start preparations of his standardized tests more earlier. He have made a detail plan for the next 3 years for this endeavor. I thought that it would be better for a family to arrange this kind of campus visit more earlier, i.e. 3 years prior to the university application. This kind of activities obviously encouraged my kids to be more active on their studies. As parents, we also could help them in more specific manors instead of non-focused ways. Through these visits, my kids had their direct experiences with the university campus life. We learned more detail about their interested majors in the candidate universities instead of just numbers such as accept rate and university ranking. We would narrow down the school list and re-visit some of them in the future. In summary, this trip was a very important for us to help the kids to prepare their college application in the coming years."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I drove to a few cities in the east coast for a summer campus visit with my kids. My kids are ready going to their college in next a few year. We scheduled for 9 university information sessions and the corresponding campus tours during this trip. We have greatly enjoyed this impressive and informative trip. We directly contacted with the teachers and students from these universities and learned a lot of new information about our interested university. This was a very important visit for my kids to prepare their university applications later on. As their parents, we also felt this visit was very helpful for us to prepare for the coming important events. We learned how to start the preparations for the promising universities earlier. My son has been aiming on his dream school, MIT, because his friends went to this school. I helped him to sort the candidate majors out and went through the admission pages carefully. After talked with the teachers and students there, my son recognized what were his strengths and weaknesses. He said he would start preparations of his standardized tests more earlier. He have made a detail plan for the next 3 years for this endeavor. I thought that it would be better for a family to arrange this kind of campus visit more earlier, i.e. 3 years prior to the university application. This kind of activities obviously encouraged my kids to be more active on their studies. As parents, we also could help them in more specific manors instead of non-focused ways. Through these visits, my kids had their direct experiences with the university campus life. We learned more detail about their interested majors in the candidate universities instead of just numbers such as accept rate and university ranking. We would narrow down the school list and re-visit some of them in the future. In summary, this trip was a very important for us to help the kids to prepare their college application in the coming years.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We have learned a lot of new information and gained valuable experiences from these visits.\n\n"
+            }
+        ],
+        "request_id": "811e8b173811c323-EWR"
+    }
+}

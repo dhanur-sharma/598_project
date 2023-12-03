@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a few months ago I was living my life as normal doing the things that I usually do with no problem. Until one day something odd happened. I wasn't feeling all to well that day so I didn't do as much as I normally do. I may have cut my tasks in half that day to the issues I was having. Eventually I had to sit down because I just kept feeling weirder and weirder. Once I sat down things got even more bad for me. I felt like I was losing my breath. Breathing in and out everytime it kept getting shorter. I was almost felt like I was being suffocated. I was under significant amount of pressure and experienced a panic attack. I was breating all crazy then I couldn't really catch my breath. At the time, I thought it might have been a heart attack or a stroke. Those issues don't run in my family so it was new to me. It was a very scary time to go through something like that alone. I used this as a sign to seek therapy from a counselor."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a few months ago I was living my life as normal doing the things that I usually do with no problem. Until one day something odd happened. I wasn't feeling all to well that day so I didn't do as much as I normally do. I may have cut my tasks in half that day to the issues I was having. Eventually I had to sit down because I just kept feeling weirder and weirder. Once I sat down things got even more bad for me. I felt like I was losing my breath. Breathing in and out everytime it kept getting shorter. I was almost felt like I was being suffocated. I was under significant amount of pressure and experienced a panic attack. I was breating all crazy then I couldn't really catch my breath. At the time, I thought it might have been a heart attack or a stroke. Those issues don't run in my family so it was new to me. It was a very scary time to go through something like that alone. I used this as a sign to seek therapy from a counselor.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have been going to counseling ever since."
+            }
+        ],
+        "request_id": "811ea82a494c4294-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been unemployed for approximately 6 months.  I  sprained my ankle at work and I have been laid off from the job. In the spring, April 2019, my unemployment compensation will run out.  I have been applying for jobs and interviewing, but could not find anything.   I was really getting discouraged.  I have health issues and some jobs I just can't do anymore.  I am unable to stand on my feet for long periods of time.  That cut out a lot of jobs. One evening, my son called me and told me he had seen a job in the newspaper and thought I should call.  It was an office manager job at the sewer plant in the small town my parents live in.  I knew the people who worked there and the person doing the hiring.  I called him immediately and he wanted to me to send him my information.  He said he thought I would be perfect for the job.  I met with him the next week and was offered the job.  I was so happy.  The job is only part-time, but that works great for me.  I am able to work in the mornings and go to doctor or physical therapy appointments in the afternoons. I am so excited to start this job.  I will be the office manager.  I know I will have a lot to learn, but I am so looking forward to it.  I hope this is the start for a better future for me.  I will be doing the work I like and I will be able to do it without putting more strain on my body."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been unemployed for approximately 6 months.  I  sprained my ankle at work and I have been laid off from the job. In the spring, April 2019, my unemployment compensation will run out.  I have been applying for jobs and interviewing, but could not find anything.   I was really getting discouraged.  I have health issues and some jobs I just can't do anymore.  I am unable to stand on my feet for long periods of time.  That cut out a lot of jobs. One evening, my son called me and told me he had seen a job in the newspaper and thought I should call.  It was an office manager job at the sewer plant in the small town my parents live in.  I knew the people who worked there and the person doing the hiring.  I called him immediately and he wanted to me to send him my information.  He said he thought I would be perfect for the job.  I met with him the next week and was offered the job.  I was so happy.  The job is only part-time, but that works great for me.  I am able to work in the mornings and go to doctor or physical therapy appointments in the afternoons. I am so excited to start this job.  I will be the office manager.  I know I will have a lot to learn, but I am so looking forward to it.  I hope this is the start for a better future for me.  I will be doing the work I like and I will be able to do it without putting more strain on my body.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am so grateful to my son for finding this job for me.  I will be able to take care of myself and my parents.  Thank you for listening."
+            }
+        ],
+        "request_id": "811e985529064295-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On July 12th, 2019 my aunt passed away. The entire day was pretty terrible. I woke up at 6:30 am when my alarm went off. I looked at my cell phone like I always do. There were 5 missed calls and around 20 text messages waiting for me. Everyone had been trying to reach me, but I guess I fell asleep with the ringer on silent. I read my messages first, the first one said \"Aunt Janet died last night\". I didn't even think, I immediately threw on clothes and sprinted down the stairs. I ran up to my mother and held her. She was hysterical, she had lost her best friend. She tried to talk about what had happened but I couldn't understand anything she said. I just hugged her for a while. After a few minutes we just sat in silence. I started to remember all the great experiences I had with my aunt when I was a child. I was so emotional and so upset for my family. We lost a great person that day. I don't think I will ever forget finding out that my Aunt died."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On July 12th, 2019 my aunt passed away. The entire day was pretty terrible. I woke up at 6:30 am when my alarm went off. I looked at my cell phone like I always do. There were 5 missed calls and around 20 text messages waiting for me. Everyone had been trying to reach me, but I guess I fell asleep with the ringer on silent. I read my messages first, the first one said \"Aunt Janet died last night\". I didn't even think, I immediately threw on clothes and sprinted down the stairs. I ran up to my mother and held her. She was hysterical, she had lost her best friend. She tried to talk about what had happened but I couldn't understand anything she said. I just hugged her for a while. After a few minutes we just sat in silence. I started to remember all the great experiences I had with my aunt when I was a child. I was so emotional and so upset for my family. We lost a great person that day. I don't think I will ever forget finding out that my Aunt died.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a terrible day but I will always remember the good times with my Aunt.\n\n"
+            }
+        ],
+        "request_id": "811eb83e3f5a43f8-EWR"
+    }
+}

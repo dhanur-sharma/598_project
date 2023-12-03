@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A doctor's appointment is something that generally nobody looks forward to. But on this day, I was actually excited. It was my father's birthday, and I would be taking him to his doctor's appointment. He was long past the days of enjoying his birthday. To him this would just be any other day. But for me, I couldn't wait to surprise him. We went through the appointment, and luckily my dad's health was recovering after a recent health scare. This was such great news to start off the day. After the appointment, I took my dad to his favorite restaurant, which he wasn't expecting. He was so happy that he gave me a big hug. My dad isn't the most affectionate guy, so the hug was very much appreciated. I'll never forget that day. My dad was so incredibly happy. I only just wish mom could have came. That would have made it even better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A doctor's appointment is something that generally nobody looks forward to. But on this day, I was actually excited. It was my father's birthday, and I would be taking him to his doctor's appointment. He was long past the days of enjoying his birthday. To him this would just be any other day. But for me, I couldn't wait to surprise him. We went through the appointment, and luckily my dad's health was recovering after a recent health scare. This was such great news to start off the day. After the appointment, I took my dad to his favorite restaurant, which he wasn't expecting. He was so happy that he gave me a big hug. My dad isn't the most affectionate guy, so the hug was very much appreciated. I'll never forget that day. My dad was so incredibly happy. I only just wish mom could have came. That would have made it even better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec82adb634297-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was planning a trip to go back east to see my family. Before I booked the flight, my friend's mom hit me up to let me know that she wanted me to take her son's sentimental belongings out of storage and drive them in his car back to them across the country. Her son, my best friend, has terminal brain cancer. I obliged. I took everything out of storage that they would want. I packed it into his car and drove 2700 miles across the country. When I got there, he was in ICU because he suffered a seizure while I was on the road.  The entire week I spent every day in the hospital with him and his family.  I spent more time there than I did with my own family.  They felt comforted because their other son is living in another country and couldn't be there.  Also, most friends didn't know that he was even sick with cancer.  I was able to inform everyone I knew that he was in the hospital and I got them to come visit. I felt like I was sending out an army to help him and his family.  After the week was over, I flew back across the country to where I live. I continue to check up on them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was planning a trip to go back east to see my family. Before I booked the flight, my friend's mom hit me up to let me know that she wanted me to take her son's sentimental belongings out of storage and drive them in his car back to them across the country. Her son, my best friend, has terminal brain cancer. I obliged. I took everything out of storage that they would want. I packed it into his car and drove 2700 miles across the country. When I got there, he was in ICU because he suffered a seizure while I was on the road.  The entire week I spent every day in the hospital with him and his family.  I spent more time there than I did with my own family.  They felt comforted because their other son is living in another country and couldn't be there.  Also, most friends didn't know that he was even sick with cancer.  I was able to inform everyone I knew that he was in the hospital and I got them to come visit. I felt like I was sending out an army to help him and his family.  After the week was over, I flew back across the country to where I live. I continue to check up on them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a selfless act and I felt good about myself. \n\n"
+            }
+        ],
+        "request_id": "811f48002f66423d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've always had trouble making friends. I have autism, and some people just don't seem to understand me. I met a man and we clicked instantly. We had a lot of the same interests. It seemed like we would be great friends for a long time. Over the months that we knew each other, we had some great conversations. We shared so many jokes and laughed a lot. However, we grew apart as people do. He lacked some basic communication skills. It was often hard to get in touch with him. When I was able to reach him, he seemed distant and uninterested. We drifted further and further apart. He began to feel less like a friend and more like a stranger. Now it's as if he never cared at all. Because of my autism, it makes it extra hard to maintain lines of communication, so when the other person isn't making an effort it's almost impossible. It's something that I continue to work on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've always had trouble making friends. I have autism, and some people just don't seem to understand me. I met a man and we clicked instantly. We had a lot of the same interests. It seemed like we would be great friends for a long time. Over the months that we knew each other, we had some great conversations. We shared so many jokes and laughed a lot. However, we grew apart as people do. He lacked some basic communication skills. It was often hard to get in touch with him. When I was able to reach him, he seemed distant and uninterested. We drifted further and further apart. He began to feel less like a friend and more like a stranger. Now it's as if he never cared at all. Because of my autism, it makes it extra hard to maintain lines of communication, so when the other person isn't making an effort it's almost impossible. It's something that I continue to work on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am still hopeful that someday I'll find someone who understands me and wants to be my friend.\n\n"
+            }
+        ],
+        "request_id": "811f451c18401977-EWR"
+    }
+}

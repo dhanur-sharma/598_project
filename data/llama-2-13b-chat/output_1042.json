@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My baby niece was born a month ago. It was an emotional moment for me and my brother, who was the father. Seeing a new family member brought into the world was very touching and exciting. She is very cute and a calm baby. That is unusual but no one is really complaining. I was the second person to hold her. She was very light and delicate. It was hard not to tear up. I can't believe he's had his first kid! Maybe soon I'll have my first kid and he'll be thinking the same about me. I don't think that'll be anytime soon. I wish I could hold onto that memory of holding her for the first time forever, especially when she's older. After getting home I could barely hold in my excitement. I will be watching her when they need a break so that will be fun. I can't wait."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My baby niece was born a month ago. It was an emotional moment for me and my brother, who was the father. Seeing a new family member brought into the world was very touching and exciting. She is very cute and a calm baby. That is unusual but no one is really complaining. I was the second person to hold her. She was very light and delicate. It was hard not to tear up. I can't believe he's had his first kid! Maybe soon I'll have my first kid and he'll be thinking the same about me. I don't think that'll be anytime soon. I wish I could hold onto that memory of holding her for the first time forever, especially when she's older. After getting home I could barely hold in my excitement. I will be watching her when they need a break so that will be fun. I can't wait.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope I'll be a good aunt."
+            }
+        ],
+        "request_id": "811e9ccbde8442e5-EWR"
+    }
+}

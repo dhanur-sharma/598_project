@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I never wanted kids. I just never saw any interest in them. I wanted to worry about myself. I never wanted to completely shut out the idea because that means walling off a life that could become something I desire at any point. When me and my wife talked about having kids, this was of course with her knowing how I felt, it suddenly started to make sense. It could have been the hormones talking, but all of a sudden with her kids didn't sound so bad. We didn't try very hard, but one day the fateful notice was seen. She was pregnant. I was going to be a father. How did this happen? Well I know how it happened, but I didn't try too hard to stop it. Nine months later, my little girl was born. I honestly couldn't believe it when she was in my arms for the first time. All of a sudden, I realized that in some way I had wanted this secretly my whole life. I felt whole."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I never wanted kids. I just never saw any interest in them. I wanted to worry about myself. I never wanted to completely shut out the idea because that means walling off a life that could become something I desire at any point. When me and my wife talked about having kids, this was of course with her knowing how I felt, it suddenly started to make sense. It could have been the hormones talking, but all of a sudden with her kids didn't sound so bad. We didn't try very hard, but one day the fateful notice was seen. She was pregnant. I was going to be a father. How did this happen? Well I know how it happened, but I didn't try too hard to stop it. Nine months later, my little girl was born. I honestly couldn't believe it when she was in my arms for the first time. All of a sudden, I realized that in some way I had wanted this secretly my whole life. I felt whole.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt like a man. I felt like I had finally found what I was put on this earth to do. \n\n"
+            }
+        ],
+        "request_id": "811bd0f149d34340-EWR"
+    }
+}

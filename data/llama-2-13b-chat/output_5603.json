@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a wedding a few months ago. I remember helping with the setting up. The bachelor was my friend and he invited me to be a groomsman and I accepted. I ended up finding a DJ for their wedding. Other people did their colors and theme. They wanted a pretty big and elaborate wedding. They definitely got it. I remember the wedding being pretty big as we had a couple hundred people attend. It was a pretty fun wedding. The bachelor party was better in my opinion. I won't get into that though. It got me thinking about the future between my girlfriend and I. Where were we going? I wasn't sure how to answer that and over three months later I still don't. I think we need more time to develop our relationship after sitting down with her. I just don't think we're ready."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a wedding a few months ago. I remember helping with the setting up. The bachelor was my friend and he invited me to be a groomsman and I accepted. I ended up finding a DJ for their wedding. Other people did their colors and theme. They wanted a pretty big and elaborate wedding. They definitely got it. I remember the wedding being pretty big as we had a couple hundred people attend. It was a pretty fun wedding. The bachelor party was better in my opinion. I won't get into that though. It got me thinking about the future between my girlfriend and I. Where were we going? I wasn't sure how to answer that and over three months later I still don't. I think we need more time to develop our relationship after sitting down with her. I just don't think we're ready.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f34d45d061768-EWR"
+    }
+}

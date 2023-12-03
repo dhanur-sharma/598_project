@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was night time. I was coming back from grocery shopping. It was a car accident. I was in the car. There were other people in the car besides me. But I was not driving. We got a sudden hit to the side of the car. The impact was quite strong and our car drifted to the line with the opposite traffic coming in. The other vehicle initiated an illegal u turn from where he was parked. The road was two way and there were two lines going each direction with space for street parking on the sides of the road. The other  car his the car I was in just when he was about to cross the solid double yellow line. After speaking with the driver we understood that he is not going to admit his fault, but fortunately there was a dash camera in the first car. Still it was vary stressful situation. Thanks god no one had serious injuries. However the car was damaged substantially. We did not know if we will need medical help later."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was night time. I was coming back from grocery shopping. It was a car accident. I was in the car. There were other people in the car besides me. But I was not driving. We got a sudden hit to the side of the car. The impact was quite strong and our car drifted to the line with the opposite traffic coming in. The other vehicle initiated an illegal u turn from where he was parked. The road was two way and there were two lines going each direction with space for street parking on the sides of the road. The other  car his the car I was in just when he was about to cross the solid double yellow line. After speaking with the driver we understood that he is not going to admit his fault, but fortunately there was a dash camera in the first car. Still it was vary stressful situation. Thanks god no one had serious injuries. However the car was damaged substantially. We did not know if we will need medical help later.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3ac1383d42cf-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had taken weaving lessons for the very first time. I had always wanted to weave. I had wanted to weave for the past 30 years. But I had no idea where to go. Or who to call about learning. I knew no one who wove. So I finally found a business online that gave lessons. It was about 30 minutes from my home. I signed up. I went once a week and the instructor was great.  I like unusual yarns and picked some that were very difficult to weave with. But I did not know, because i had never woven before.  I worked many hours at that place on my weaving. I finally finished several months ago. I then decided to enter it into the state fair. They have ribbons for weaving of different types. I entered in the scarf category. I had no idea what other peoples entries would look like, as I had never looked at weaving before. I was delighted when I went to the fair after it had opened and found a ribbon hanging from my scarf! I had won 4th place, for the very first thing I had ever wove. The other entries were very professional looking, in fact a lot of them were entered by the same people over and over, so I feel good about winning a ribbon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had taken weaving lessons for the very first time. I had always wanted to weave. I had wanted to weave for the past 30 years. But I had no idea where to go. Or who to call about learning. I knew no one who wove. So I finally found a business online that gave lessons. It was about 30 minutes from my home. I signed up. I went once a week and the instructor was great.  I like unusual yarns and picked some that were very difficult to weave with. But I did not know, because i had never woven before.  I worked many hours at that place on my weaving. I finally finished several months ago. I then decided to enter it into the state fair. They have ribbons for weaving of different types. I entered in the scarf category. I had no idea what other peoples entries would look like, as I had never looked at weaving before. I was delighted when I went to the fair after it had opened and found a ribbon hanging from my scarf! I had won 4th place, for the very first thing I had ever wove. The other entries were very professional looking, in fact a lot of them were entered by the same people over and over, so I feel good about winning a ribbon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca102a6b0f95-EWR"
+    }
+}

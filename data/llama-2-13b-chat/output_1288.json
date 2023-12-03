@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am 57 years old. I grew up in Long Island. My parents were not particularly active. We never went biking or hiking or took any type of trip that involved physical activity. In June 2019 I decided for the first time to go hiking. I had been going to the gym in my apartment for quite a number of months walking up to three miles each morning. I decided to hike one of the high peaks in the Adirondacks mountains in New York. It is called Cascade mountain. It is approximately 5000 feet high. I got up at 6 a.m. in the morning I drove from my home in Albany New York to the entrance to the trail. The trip is about 4 hours. I began the height and followed the various trail markers to The summit. Along the way I met quite a lot of people. most were younger than me but there were a few by age. Everyone was extremely friendly. It was a beautiful sunny day. I took the hike slow since it's a steady incline to The summit. I reach the summit after approximately two hours. It was beautiful. There was no commercial property anywhere to be seen. They were other mountains trees and forests all around. I spent about an hour at the summit eating lunch. I then hike back down. I then return to my home. All in all it was an amazing experience"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am 57 years old. I grew up in Long Island. My parents were not particularly active. We never went biking or hiking or took any type of trip that involved physical activity. In June 2019 I decided for the first time to go hiking. I had been going to the gym in my apartment for quite a number of months walking up to three miles each morning. I decided to hike one of the high peaks in the Adirondacks mountains in New York. It is called Cascade mountain. It is approximately 5000 feet high. I got up at 6 a.m. in the morning I drove from my home in Albany New York to the entrance to the trail. The trip is about 4 hours. I began the height and followed the various trail markers to The summit. Along the way I met quite a lot of people. most were younger than me but there were a few by age. Everyone was extremely friendly. It was a beautiful sunny day. I took the hike slow since it's a steady incline to The summit. I reach the summit after approximately two hours. It was beautiful. There was no commercial property anywhere to be seen. They were other mountains trees and forests all around. I spent about an hour at the summit eating lunch. I then hike back down. I then return to my home. All in all it was an amazing experience",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ".\n\n"
+            }
+        ],
+        "request_id": "811ea1c8d86c5e64-EWR"
+    }
+}

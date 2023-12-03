@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't control my tears. I can't even believe it. I called mom today and she broke the news to me. Aunt becky is no more! How can this be? I have very fond memories of her around my childhood. I remember she was really kind to me. She always got me gifts. The purple dress was the most surprising gift of all. I had grown apart from her since my 9th birthday. However, she still held a special place in my heart. It is really hard to believe and digest her absence on this planet. I hope she is at a better place now. She should be, considering how great a person she was. I wish and pray for her soul to rest in peace."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't control my tears. I can't even believe it. I called mom today and she broke the news to me. Aunt becky is no more! How can this be? I have very fond memories of her around my childhood. I remember she was really kind to me. She always got me gifts. The purple dress was the most surprising gift of all. I had grown apart from her since my 9th birthday. However, she still held a special place in my heart. It is really hard to believe and digest her absence on this planet. I hope she is at a better place now. She should be, considering how great a person she was. I wish and pray for her soul to rest in peace.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd9c87fdc8cc0-EWR"
+    }
+}

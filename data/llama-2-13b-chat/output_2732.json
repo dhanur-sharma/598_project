@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was asked to drive across Canada and go to Niagara Falls.  The trip was actually pretty short, it is not that far away.  There are a lot of windmills in Canada.  I saw a factory where they make Ferrero Rocher chocolates and Nutella.  The falls were impressive, the tourist trap around the falls is more impressive.  In the end though, its a lot of water moving fast.  We stayed at one of the many hotels around the falls.  We went and visited many of the historical things.  It makes me wonder what it would have been like to be one of the first people to see such an amazing thing.  Some of the tourist stuff was kind of sad.  Everything is overpriced, then you realize, that is Canadian money.  So, not to expensive after all.  Got there, parked the car and figured out how to use the city bus system.  It was easy, and fast.  To bad all public transport is not like that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was asked to drive across Canada and go to Niagara Falls.  The trip was actually pretty short, it is not that far away.  There are a lot of windmills in Canada.  I saw a factory where they make Ferrero Rocher chocolates and Nutella.  The falls were impressive, the tourist trap around the falls is more impressive.  In the end though, its a lot of water moving fast.  We stayed at one of the many hotels around the falls.  We went and visited many of the historical things.  It makes me wonder what it would have been like to be one of the first people to see such an amazing thing.  Some of the tourist stuff was kind of sad.  Everything is overpriced, then you realize, that is Canadian money.  So, not to expensive after all.  Got there, parked the car and figured out how to use the city bus system.  It was easy, and fast.  To bad all public transport is not like that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We walked around the falls and the surrounding area.  There is a lot of gift shops and places to eat.  We went to the Cave of the Winds.  It was cool, but I would not do it again.  Then we went to the Maid of the Mist.  It was better, but I would not do it again.  Then we went to the Niagara Falls Night Time Spectacular.  It was amazing.  The fireworks were beautiful.  It was the highlight of the trip.  We went back to the hotel and went to sleep.  The next day we went back home.\n\n"
+            }
+        ],
+        "request_id": "811ebc8d8be5425f-EWR"
+    }
+}

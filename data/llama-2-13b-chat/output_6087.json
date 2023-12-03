@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently attended a family gathering in Michigan and got to spend time with many family members.  it was in Michigan, in the northern part of the state.  I drove through Canada and stayed in Niagara Falls on the way.  Niagara Falls was beautiful.  I visited Bird Kingdom and ate poutine.  It took a long time to go through customs though.  In Michigan I went to a winery with my girlfriend, aunt, uncle, mom, and sister and we talked about growing up and got nostalgic.  The next day was my cousin's wedding.  I remember him as a baby so it was strange to see him getting married.  He is all grown up now.  Everyone laughed and drank and had fun.  I got to talk to all my aunts and uncles.  One uncle I had not seen in 10 years so it was nice to catch up.  He has been going through a rough patch.  Seeing everyone made me remember how much I loved them all.  I wished we lived closer.  It was a very memorable event.  I hope there is another wedding or family reunion soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently attended a family gathering in Michigan and got to spend time with many family members.  it was in Michigan, in the northern part of the state.  I drove through Canada and stayed in Niagara Falls on the way.  Niagara Falls was beautiful.  I visited Bird Kingdom and ate poutine.  It took a long time to go through customs though.  In Michigan I went to a winery with my girlfriend, aunt, uncle, mom, and sister and we talked about growing up and got nostalgic.  The next day was my cousin's wedding.  I remember him as a baby so it was strange to see him getting married.  He is all grown up now.  Everyone laughed and drank and had fun.  I got to talk to all my aunts and uncles.  One uncle I had not seen in 10 years so it was nice to catch up.  He has been going through a rough patch.  Seeing everyone made me remember how much I loved them all.  I wished we lived closer.  It was a very memorable event.  I hope there is another wedding or family reunion soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3e91cd55c436-EWR"
+    }
+}

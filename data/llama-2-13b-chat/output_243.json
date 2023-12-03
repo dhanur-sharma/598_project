@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got the worst news of my life 6 months ago. Till today I still do not understand how to go on living life. I mean what do you do when you realize you have no control over the most important things in life. What is next after something that drastic happens to you? is the question I have been asking. It all began with a small illness, until she fainted and I had to rush her to the emergency room. I thought it had to be stress, as we just moved in to our new house and she was the chief decorator. After she regained consciousness, they ran some test. After the test we had a chat with the doctor. The doctor said he could not really tell us what was going on and we were directed to see a specialist. We met with the specialist and he said he would have to run some test. After the test came the news, the doctor said he suspect it might be cancer. I was shocked and said he had to run some more test to confirm. He made us stay over night to carry out the tests. After the test came the confirmation, they discovered a tumor in her breast. I was so lost, still lost, but there is still hope."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got the worst news of my life 6 months ago. Till today I still do not understand how to go on living life. I mean what do you do when you realize you have no control over the most important things in life. What is next after something that drastic happens to you? is the question I have been asking. It all began with a small illness, until she fainted and I had to rush her to the emergency room. I thought it had to be stress, as we just moved in to our new house and she was the chief decorator. After she regained consciousness, they ran some test. After the test we had a chat with the doctor. The doctor said he could not really tell us what was going on and we were directed to see a specialist. We met with the specialist and he said he would have to run some test. After the test came the news, the doctor said he suspect it might be cancer. I was shocked and said he had to run some more test to confirm. He made us stay over night to carry out the tests. After the test came the confirmation, they discovered a tumor in her breast. I was so lost, still lost, but there is still hope.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8e369adb8c39-EWR"
+    }
+}

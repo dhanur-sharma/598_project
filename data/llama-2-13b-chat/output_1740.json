@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been really hard dealing with my mom's death a month ago. It's hard for all of us. I wish I could help my family go through this, but I can barely help myself right now. It was so bad I took a leave of absence from med school today. I am sad I'll be behind my friends and classmates but I know I have to do this for myself, and for mom. She always wanted me to be a doctor and it was my dream too. I won't be able to be a good doctor if I can't focus in class and rotations because I'm depressed. By taking time off, I'm preparing myself to get back to an appropriate mental state. I will have three semesters left to complete when I go back. I hope I can become a good doctor that can help the people who suffer from the same things mom died from. I don't know what I'm going to do during this time. Travel? Find a hobby? Find new friends? Sit at home? I don't know."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been really hard dealing with my mom's death a month ago. It's hard for all of us. I wish I could help my family go through this, but I can barely help myself right now. It was so bad I took a leave of absence from med school today. I am sad I'll be behind my friends and classmates but I know I have to do this for myself, and for mom. She always wanted me to be a doctor and it was my dream too. I won't be able to be a good doctor if I can't focus in class and rotations because I'm depressed. By taking time off, I'm preparing myself to get back to an appropriate mental state. I will have three semesters left to complete when I go back. I hope I can become a good doctor that can help the people who suffer from the same things mom died from. I don't know what I'm going to do during this time. Travel? Find a hobby? Find new friends? Sit at home? I don't know.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just taking it day by day. I do know that I need to take care of myself and my family right now.\n\n"
+            }
+        ],
+        "request_id": "811ea9ef7983187d-EWR"
+    }
+}

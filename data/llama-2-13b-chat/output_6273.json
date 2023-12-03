@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had the time of my life two weeks ago. I had never felt that alive, and weirdly being a father was the reason for that feeling. Being a father at that point felt like the best thing that has ever happened to me. It was my daughter's birthday, she had so much that she could not stop talking about it for days. It was  two weeks ago but I can vividly remember everything that took place. Audrey was so full of joy, seeing her smile and laugh was probably the highlight of the year for me. Though planning and preparations for the birthday party was not an easy one. First I had to deal with the caterer, then there was the clown. The most annoying to deal with was magic-less magician. His magic almost bored kids to sleep. By some act of miracle the event turned out to be better than I expected. Everyone had so much fun, even the adults. All the kids were even reluctant to go home. I was so tired that night i slept for about 9 hours straight. The happiness and joy I saw on Audrey's face that day made it all worth it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had the time of my life two weeks ago. I had never felt that alive, and weirdly being a father was the reason for that feeling. Being a father at that point felt like the best thing that has ever happened to me. It was my daughter's birthday, she had so much that she could not stop talking about it for days. It was  two weeks ago but I can vividly remember everything that took place. Audrey was so full of joy, seeing her smile and laugh was probably the highlight of the year for me. Though planning and preparations for the birthday party was not an easy one. First I had to deal with the caterer, then there was the clown. The most annoying to deal with was magic-less magician. His magic almost bored kids to sleep. By some act of miracle the event turned out to be better than I expected. Everyone had so much fun, even the adults. All the kids were even reluctant to go home. I was so tired that night i slept for about 9 hours straight. The happiness and joy I saw on Audrey's face that day made it all worth it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Being a father was the best thing that has ever happened to me."
+            }
+        ],
+        "request_id": "811f42423bc542bd-EWR"
+    }
+}

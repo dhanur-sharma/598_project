@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently interviewed for an in house position at my company. About 3 weeks ago I was notified of the interview being scheduled. I had interviewed for the same job on but for a different shift. The job was a significant pay increase over what I currently make, and was on a shift that would be more conducive to my sleep habits. I prepared for the interview, and felt with my background and experience I would be selected for the job. I sat through the interview answering all questions posed to me and answering them in detail with complete honesty. The interview seemed to go well, with the interviewer conversing quite a bit with me on a business and personal level. The interview lasted about 45 minutes, which by all accounts from others is a good thing. After about 2 weeks of anxious waiting, I was told I did not get the job. What struck me as memorable about this was the fact that on a previous follow up interview I had been told the decision came down to me and one other candidate, which led me to believe the interviewer had liked my qualifications. Also, the waiting with anticipation was agonizing, everyday walking in hoping to hear one way or the other on their decision.  This really knocked down my confidence level in a number of ways. First, it absolutely destroyed any faith I had in the company and its managers honesty, I did a follow up interview and was told the interview went well, obviously not well enough. Secondly, this really lowered my confidence in myself my abilities and my experience. Lastly the experience soured me on the company as a whole, because it showed me that hiring within is done almost exclusively through the buddy system, and I am on a shift that does not allow you to make good contacts."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently interviewed for an in house position at my company. About 3 weeks ago I was notified of the interview being scheduled. I had interviewed for the same job on but for a different shift. The job was a significant pay increase over what I currently make, and was on a shift that would be more conducive to my sleep habits. I prepared for the interview, and felt with my background and experience I would be selected for the job. I sat through the interview answering all questions posed to me and answering them in detail with complete honesty. The interview seemed to go well, with the interviewer conversing quite a bit with me on a business and personal level. The interview lasted about 45 minutes, which by all accounts from others is a good thing. After about 2 weeks of anxious waiting, I was told I did not get the job. What struck me as memorable about this was the fact that on a previous follow up interview I had been told the decision came down to me and one other candidate, which led me to believe the interviewer had liked my qualifications. Also, the waiting with anticipation was agonizing, everyday walking in hoping to hear one way or the other on their decision.  This really knocked down my confidence level in a number of ways. First, it absolutely destroyed any faith I had in the company and its managers honesty, I did a follow up interview and was told the interview went well, obviously not well enough. Secondly, this really lowered my confidence in myself my abilities and my experience. Lastly the experience soured me on the company as a whole, because it showed me that hiring within is done almost exclusively through the buddy system, and I am on a shift that does not allow you to make good contacts.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was disappointed but also relieved to be out of the running, because I was able to escape the constant anxiety of waiting to hear back. This experience taught me to be more cautious in my future job searching endeavors, and to not rely on the feedback from the company.  \n\n"
+            }
+        ],
+        "request_id": "811eaba00eae431c-EWR"
+    }
+}

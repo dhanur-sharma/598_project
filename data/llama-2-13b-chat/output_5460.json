@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We lost 3 chickens 1 duck the other day. I know this isn't something most people care about, and they wouldn't understand why I care. These animals aren't just a source of food for us though. They are our pets. We care deeply about them. We raised them from just a few days old. Now they're just gone. Without a trace. I think a fox got them. There is a cornfield behind the house, and I just learned that foxes live in cornfields. The night before we locked up the coop and counted our chickens. All chickens were accounted for and ready for sleep. The next day we noticed one missing. She was broody and was attempting to hide a nest from us. This makes it more weird because they usually won't leave the eggs, but she was just gone. We counted our chickens that night, locked them up, and then searched the entire property for her. She was nowhere to be found. The next morning I let the chickens out, but then by 7 am there was two more missing. One of my white silkies and an ISA Brown. I went on an immediate search over the property. I then asked my neighbor for permission and searched her yard. They weren't there, but there was a strange place in the cornfield. So I walked further into the corn and there I found a pile of feathers from our Barred Rock, the first hen that went missing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We lost 3 chickens 1 duck the other day. I know this isn't something most people care about, and they wouldn't understand why I care. These animals aren't just a source of food for us though. They are our pets. We care deeply about them. We raised them from just a few days old. Now they're just gone. Without a trace. I think a fox got them. There is a cornfield behind the house, and I just learned that foxes live in cornfields. The night before we locked up the coop and counted our chickens. All chickens were accounted for and ready for sleep. The next day we noticed one missing. She was broody and was attempting to hide a nest from us. This makes it more weird because they usually won't leave the eggs, but she was just gone. We counted our chickens that night, locked them up, and then searched the entire property for her. She was nowhere to be found. The next morning I let the chickens out, but then by 7 am there was two more missing. One of my white silkies and an ISA Brown. I went on an immediate search over the property. I then asked my neighbor for permission and searched her yard. They weren't there, but there was a strange place in the cornfield. So I walked further into the corn and there I found a pile of feathers from our Barred Rock, the first hen that went missing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "That's when I knew a fox had gotten her. I also found one of the chicken's head with an eye gouged out. I'm just so heartbroken. We've lost 3 chickens and a duck. It's just not the same without them. I'm not sure if we'll ever find out what happened to them. We've checked the coop and the fencing, and everything seems fine. It's just a mystery."
+            }
+        ],
+        "request_id": "811f31e2ac534232-EWR"
+    }
+}

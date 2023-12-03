@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My favorite foods are from my own culture. There was a platter of everything my family holds dear: tamales, tacos, guacamole, horchata, nachos, and enchiladas. An entire feast! My gifts included the following video games: My Time at Portia, Black Closet, Yakuza Kiwami, and more. I love my family so much. My great grandma immigrated here from Mexico and we've been settled in to Los Angeles ever since. Right now we live in Echo Park and love it. It wasn't so good before but now it's getting redone. The parking however, sucks. But that's not something I can fix. Sometimes we go out to Echo Park Lake and walk around. Nearby is a good French restaurant called Taix. It's been there forever! When I had a French club outing we went there for a prix fixe meal. All in all I had a great graduation party."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My favorite foods are from my own culture. There was a platter of everything my family holds dear: tamales, tacos, guacamole, horchata, nachos, and enchiladas. An entire feast! My gifts included the following video games: My Time at Portia, Black Closet, Yakuza Kiwami, and more. I love my family so much. My great grandma immigrated here from Mexico and we've been settled in to Los Angeles ever since. Right now we live in Echo Park and love it. It wasn't so good before but now it's getting redone. The parking however, sucks. But that's not something I can fix. Sometimes we go out to Echo Park Lake and walk around. Nearby is a good French restaurant called Taix. It's been there forever! When I had a French club outing we went there for a prix fixe meal. All in all I had a great graduation party.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea116594c435c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, my brother came to visit me for his birthday. I live in a large city, so I invited him because I thought there would be a lot of fun things to do. The day that he arrived, I went to pick him up from the train station around 9 am. His train was a little late, but luckily it wasn't too long of a delay. After he dropped his stuff off at my apartment, we went to get lunch and went to the ferris wheel that overlooks part of the city. Later that day, we went to China town where we ate dinner. The next day was my brother's actual birthday. We left my apartment around noon and got a quick lunch at a vegetarian restaurant. After that, we got on the bus to go to the planetarium. We had a lot of fun looking around the planetarium and watching the show they had about a possible ninth planet. After we left, we got back on the bus to go back to my apartment. We changed clothes and got ready to go to the restaurant where we made reservations for his birthday dinner. We were going to take the train, but when we got to the station we saw the line we needed wasn't running, so we had to walk. We were almost late, but we power walked so we could make it on time. We had a nice dinner, but when we left it was pouring rain. When we got back to my apartment, we had birthday dessert and went to bed because we were both tired. Overall, it was a really fun weekend and I was glad I could spend it with my brother."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, my brother came to visit me for his birthday. I live in a large city, so I invited him because I thought there would be a lot of fun things to do. The day that he arrived, I went to pick him up from the train station around 9 am. His train was a little late, but luckily it wasn't too long of a delay. After he dropped his stuff off at my apartment, we went to get lunch and went to the ferris wheel that overlooks part of the city. Later that day, we went to China town where we ate dinner. The next day was my brother's actual birthday. We left my apartment around noon and got a quick lunch at a vegetarian restaurant. After that, we got on the bus to go to the planetarium. We had a lot of fun looking around the planetarium and watching the show they had about a possible ninth planet. After we left, we got back on the bus to go back to my apartment. We changed clothes and got ready to go to the restaurant where we made reservations for his birthday dinner. We were going to take the train, but when we got to the station we saw the line we needed wasn't running, so we had to walk. We were almost late, but we power walked so we could make it on time. We had a nice dinner, but when we left it was pouring rain. When we got back to my apartment, we had birthday dessert and went to bed because we were both tired. Overall, it was a really fun weekend and I was glad I could spend it with my brother.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea35c0f1e41d2-EWR"
+    }
+}

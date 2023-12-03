@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was 3 months ago that I ran the race. I had steadily been losing weight for a year and I decided that I should start running again. It was only a 5K but it meant a lot to complete it. Consider that I was very obese a year ago and diabetic. Now my weight was 60 lbs. less. I felt great during training, well maybe not that great at first. But as time went on the feeling of accomplishment was wonderful. The day of the race was perfect. 55 degrees with low humidity. The crowd was larger than I expected. Must have been 5000 people lined up downtown for the beginning. Thankfully the race was chip timed because it took several minutes to get to the start line. I was considerate and lined up near the back because of course I would be in the slowest quartile. My time wasn't all that great but when you consider I am 70 years old, it becomes world class in my mind. My good friend Kay was there and she cheered me on. Drove me there too and of course took me home. We celebrated by going out to eat at a really nice resturaunt that night. Overall, the day was simply wonderful!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was 3 months ago that I ran the race. I had steadily been losing weight for a year and I decided that I should start running again. It was only a 5K but it meant a lot to complete it. Consider that I was very obese a year ago and diabetic. Now my weight was 60 lbs. less. I felt great during training, well maybe not that great at first. But as time went on the feeling of accomplishment was wonderful. The day of the race was perfect. 55 degrees with low humidity. The crowd was larger than I expected. Must have been 5000 people lined up downtown for the beginning. Thankfully the race was chip timed because it took several minutes to get to the start line. I was considerate and lined up near the back because of course I would be in the slowest quartile. My time wasn't all that great but when you consider I am 70 years old, it becomes world class in my mind. My good friend Kay was there and she cheered me on. Drove me there too and of course took me home. We celebrated by going out to eat at a really nice resturaunt that night. Overall, the day was simply wonderful!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4e514ae20fab-EWR"
+    }
+}

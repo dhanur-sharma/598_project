@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son recently had his first birthday. We bought him a chocolate cake and a few toys. When he first saw the cake after we put it on his high chair tray he didn't know what to think. He just stared at it. Then he poked it and licked his finger. After he got a taste of the chocolate, he then picked up the whole slice and looked at it and then took a bite. He took a few nice bites like that and then it was a smash fest! He started smearing and smashing the cake all over his high chair. After a few minutes of that he started to look miserable and full. We tried to clean him up but it was impossible. We had to give him a bath because there was no way to clean him otherwise. After the bath he opened presents. At first he just wanted to play with the wrapped presents and the bows. Once we showed him how to tear the paper, he tore off one little piece and was content to play with that. We had to help him open the presents or he would have never opened them. He liked the wrapping and paper better than the gifts!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son recently had his first birthday. We bought him a chocolate cake and a few toys. When he first saw the cake after we put it on his high chair tray he didn't know what to think. He just stared at it. Then he poked it and licked his finger. After he got a taste of the chocolate, he then picked up the whole slice and looked at it and then took a bite. He took a few nice bites like that and then it was a smash fest! He started smearing and smashing the cake all over his high chair. After a few minutes of that he started to look miserable and full. We tried to clean him up but it was impossible. We had to give him a bath because there was no way to clean him otherwise. After the bath he opened presents. At first he just wanted to play with the wrapped presents and the bows. Once we showed him how to tear the paper, he tore off one little piece and was content to play with that. We had to help him open the presents or he would have never opened them. He liked the wrapping and paper better than the gifts!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f399588c71879-EWR"
+    }
+}

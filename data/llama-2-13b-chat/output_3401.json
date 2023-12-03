@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The perfect summer day with my niece.  The day started out with my niece and I going to IHOP to get breakfast.  She loves pancakes so IHOP was the perfect place for her to eat.  We both had a large stack of pancakes and left the restaurant feeling great.  After breakfast we went to a early movie.  The Lion King was playing and she really wanted to see it.  Since I had seen the original I thought it would be interesting to take her to see the new version.  I bought the tickets and we went in and got popcorn and drinks.  We found some seats in the middle of the theater and sat back to enjoy the movie.  The movie was really good and brought back memories from my childhood.  My niece also loved the movie.  It was now mid afternoon and we decide to go to the skating rink.  Both her and I like to skate so it was a good way to pass the time.  After about a 20 minute drive we arrived at the rink and noticed that the parking lot was not too full.  That was good because it would mean the rink had less people on it and more space to skate.  We went inside and rented our skates.  We spent the next three hours blissfully skating in a nice oval direction.  The music was good and it was not that crowded so the experience was really nice.  When skating I never seem to get tired.  I think it is because I enjoy it so much.  When we left the skating rink it was late afternoon and we were hungry so I took her to Chi Fil A to get some sandwiches.  She loves that restaurant.  We took the food home and waited for her father to get off work.  After eating the food and spending time with her father my niece fell asleep on the couch.  It had been a long fun day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The perfect summer day with my niece.  The day started out with my niece and I going to IHOP to get breakfast.  She loves pancakes so IHOP was the perfect place for her to eat.  We both had a large stack of pancakes and left the restaurant feeling great.  After breakfast we went to a early movie.  The Lion King was playing and she really wanted to see it.  Since I had seen the original I thought it would be interesting to take her to see the new version.  I bought the tickets and we went in and got popcorn and drinks.  We found some seats in the middle of the theater and sat back to enjoy the movie.  The movie was really good and brought back memories from my childhood.  My niece also loved the movie.  It was now mid afternoon and we decide to go to the skating rink.  Both her and I like to skate so it was a good way to pass the time.  After about a 20 minute drive we arrived at the rink and noticed that the parking lot was not too full.  That was good because it would mean the rink had less people on it and more space to skate.  We went inside and rented our skates.  We spent the next three hours blissfully skating in a nice oval direction.  The music was good and it was not that crowded so the experience was really nice.  When skating I never seem to get tired.  I think it is because I enjoy it so much.  When we left the skating rink it was late afternoon and we were hungry so I took her to Chi Fil A to get some sandwiches.  She loves that restaurant.  We took the food home and waited for her father to get off work.  After eating the food and spending time with her father my niece fell asleep on the couch.  It had been a long fun day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I loved spending time with her and making memories that she will always remember.  It was the perfect summer day."
+            }
+        ],
+        "request_id": "811ec8d66c2317c1-EWR"
+    }
+}

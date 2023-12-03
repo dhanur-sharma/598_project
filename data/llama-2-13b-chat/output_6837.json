@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went to the apple orchard and the pumpkin patch the other day.  We had a lot of fun.  One of our kids brought a friend with him, and she was very respectful and engaging with the younger kids.  It's pretty late in the season.  Not many apples were left on the trees.  Most of the Honeycrisps were gone.  We ended up getting mostly Macs and some Cortlands and Empires.  A lot of the apples were high up on the trees.  I lifted up our youngest a couple of times to reach them.  I had to lift up our oldest, too for some of the apples.  We eventually found a ladder.  The kids all climbed up on the ladder and we got a picture of them.  There was also a playground at the apple orchard.  It was a playground made mostly with farm equipment.  There was a fort built around an old tractor.  There were also a bunch of big tractor tires in a sand pit.  The kids really enjoyed that.  The store had apple cider donuts.  Those were delicious.  The boys had a lot of fun at both the apple orchard and the pumpkin patch.  We don't get to go out all together very often, so it was very touching."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went to the apple orchard and the pumpkin patch the other day.  We had a lot of fun.  One of our kids brought a friend with him, and she was very respectful and engaging with the younger kids.  It's pretty late in the season.  Not many apples were left on the trees.  Most of the Honeycrisps were gone.  We ended up getting mostly Macs and some Cortlands and Empires.  A lot of the apples were high up on the trees.  I lifted up our youngest a couple of times to reach them.  I had to lift up our oldest, too for some of the apples.  We eventually found a ladder.  The kids all climbed up on the ladder and we got a picture of them.  There was also a playground at the apple orchard.  It was a playground made mostly with farm equipment.  There was a fort built around an old tractor.  There were also a bunch of big tractor tires in a sand pit.  The kids really enjoyed that.  The store had apple cider donuts.  Those were delicious.  The boys had a lot of fun at both the apple orchard and the pumpkin patch.  We don't get to go out all together very often, so it was very touching.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We took a lot of pictures.  I hope we can go again soon.\n\n"
+            }
+        ],
+        "request_id": "811f4e306f5b78d9-EWR"
+    }
+}

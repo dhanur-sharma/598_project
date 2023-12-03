@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I went to a party celebrating my grandparents 50th anniversary. I was expecting my immediate family, my grandparents, and a few others since not many family members were in town that I was aware of. However, when I reached the location of the party, I came to realize that it was more of a surprise party for them, and all of my aunts and uncles had traveled to attend! I was shocked to see so many family members there, and they were all excited to see me. With the festivities commenced, I went to go talk to some of my cousins that had all traveled a decent distance to be there. I learned that one of my cousins was going to move closer to my grandparents since they needed more immediate help (my grandpa was struggling with Alzheimer's).  He told me that my grandparents had shown lots of signs of needing help and offered to be a help when a family council was called with all my aunts and uncles. That was definitely a surprisingly development! The party itself was great and well planned. There was a slideshow to help everyone remember all the awesome moments of my grandparents lives and what they had done for the world. They showed that my grandpa used to serve in the marines and would have to leave for long stretches of time to fulfill those assignments. Most surprisingly, they had a scavenger hunt prepared that had some of the littler children go around the house and \"discover\" hidden clues that revealed more about my grandparent's lives. They were thrilled to participate and added to the fun of the party. After all was said and done, the family did a great job of preparing the party and showing my grandparents that they care. There was a lot of work that needed to get done with their advancing age, but it was great to participate and see so many familiar faces."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I went to a party celebrating my grandparents 50th anniversary. I was expecting my immediate family, my grandparents, and a few others since not many family members were in town that I was aware of. However, when I reached the location of the party, I came to realize that it was more of a surprise party for them, and all of my aunts and uncles had traveled to attend! I was shocked to see so many family members there, and they were all excited to see me. With the festivities commenced, I went to go talk to some of my cousins that had all traveled a decent distance to be there. I learned that one of my cousins was going to move closer to my grandparents since they needed more immediate help (my grandpa was struggling with Alzheimer's).  He told me that my grandparents had shown lots of signs of needing help and offered to be a help when a family council was called with all my aunts and uncles. That was definitely a surprisingly development! The party itself was great and well planned. There was a slideshow to help everyone remember all the awesome moments of my grandparents lives and what they had done for the world. They showed that my grandpa used to serve in the marines and would have to leave for long stretches of time to fulfill those assignments. Most surprisingly, they had a scavenger hunt prepared that had some of the littler children go around the house and \"discover\" hidden clues that revealed more about my grandparent's lives. They were thrilled to participate and added to the fun of the party. After all was said and done, the family did a great job of preparing the party and showing my grandparents that they care. There was a lot of work that needed to get done with their advancing age, but it was great to participate and see so many familiar faces.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a very heartwarming experience for me."
+            }
+        ],
+        "request_id": "811e8ff6ac1841e6-EWR"
+    }
+}

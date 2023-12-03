@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My dog was diagnosed with lymphoma a year ago and was on chemotherapy. She was responding quite well to it and her lymph nodes reduced greatly in size. But then a few months ago,, overnight the lymph nodes doubled in size and she looked so miserable. I decided that she was not having a good life anymore. It would be selfish for me to hold on. I brought her to the vets where she was euthanized. I remember being in the room and seeing her close hers eyes. I tried so hard not to cry, cause I didn't want her to see me like that as her last memory, but I couldn't help it. I was so devastated knowing that I would never see her again. That day, I went out for a walk because I couldn't stand staying at home. On that walk, my normal path was under construction for some reason. I decided to go down random streets this time. While I was passing a bush, I heard some noises of crunching leaves. When I turned, there was a kitten standing there. I bent down and the kitten cam running into my hands. She was so small and dirty, covered in fleas. I decided to take her home with me. I cleaned her up and fed her. She was so well behaved, I thought she was someones pet. Because I just lost my dog that day, I was very scared that I would lose this kitten too. I put off taking her to the vet, but I eventually did. I needed to see if she belonged to someone. When the searched for the microchip, I was so nervous. But it turned out that she didn't have one. I was so relieved."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My dog was diagnosed with lymphoma a year ago and was on chemotherapy. She was responding quite well to it and her lymph nodes reduced greatly in size. But then a few months ago,, overnight the lymph nodes doubled in size and she looked so miserable. I decided that she was not having a good life anymore. It would be selfish for me to hold on. I brought her to the vets where she was euthanized. I remember being in the room and seeing her close hers eyes. I tried so hard not to cry, cause I didn't want her to see me like that as her last memory, but I couldn't help it. I was so devastated knowing that I would never see her again. That day, I went out for a walk because I couldn't stand staying at home. On that walk, my normal path was under construction for some reason. I decided to go down random streets this time. While I was passing a bush, I heard some noises of crunching leaves. When I turned, there was a kitten standing there. I bent down and the kitten cam running into my hands. She was so small and dirty, covered in fleas. I decided to take her home with me. I cleaned her up and fed her. She was so well behaved, I thought she was someones pet. Because I just lost my dog that day, I was very scared that I would lose this kitten too. I put off taking her to the vet, but I eventually did. I needed to see if she belonged to someone. When the searched for the microchip, I was so nervous. But it turned out that she didn't have one. I was so relieved.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I decided to keep her and give her a home. I named her Luna. She's been with me for 6 months now and she's such a good kitten. She's so playful and loves to cuddle. I'm so grateful to have her in my life.\n\n"
+            }
+        ],
+        "request_id": "811f4e828e3cc47c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago, I was asked by a relative to conduct the service and eulogy for my recently deceased grandfather. I hadn't seen or spent much time with my grandfather in years so I was surprised at this request. Nevertheless, I accepted the responsibility. I spent some time putting together all of the details of the service which only took a few hours. Once I was done with that, I started working on writing his eulogy. For a long time, I was stumped about what to say. I thought about how we hadn't seen each other in a while and I began to think that I shouldn't be the one writing his eulogy in the first place. After a few moments, I remembered a day that my grandfather and I spent together when I was about 10 years old. We were on a boat out on the lake with fishing gear. My grandfather wanted to teach me how to fish but I wasn't really interested at the time. I tried to catch fish but they always escaped. I started getting upset. My grandfather could see this and started to pretend the fish got away every time he caught one. He wanted to make sure I didn't feel alone and laughed at himself to show me that fishing wasn't something to be too serious about. It was about spending time with your family and having fun. I finished writing the eulogy and during the service, I read it out loud while my relatives looked on. After the service, I felt sad but also happy that I got to relive a beautiful moment with my grandfather."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago, I was asked by a relative to conduct the service and eulogy for my recently deceased grandfather. I hadn't seen or spent much time with my grandfather in years so I was surprised at this request. Nevertheless, I accepted the responsibility. I spent some time putting together all of the details of the service which only took a few hours. Once I was done with that, I started working on writing his eulogy. For a long time, I was stumped about what to say. I thought about how we hadn't seen each other in a while and I began to think that I shouldn't be the one writing his eulogy in the first place. After a few moments, I remembered a day that my grandfather and I spent together when I was about 10 years old. We were on a boat out on the lake with fishing gear. My grandfather wanted to teach me how to fish but I wasn't really interested at the time. I tried to catch fish but they always escaped. I started getting upset. My grandfather could see this and started to pretend the fish got away every time he caught one. He wanted to make sure I didn't feel alone and laughed at himself to show me that fishing wasn't something to be too serious about. It was about spending time with your family and having fun. I finished writing the eulogy and during the service, I read it out loud while my relatives looked on. After the service, I felt sad but also happy that I got to relive a beautiful moment with my grandfather.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e8ef76e0f4313-EWR"
+    }
+}

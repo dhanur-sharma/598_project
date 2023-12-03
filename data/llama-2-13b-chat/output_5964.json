@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up this morning dreading the exam today. I knew I wasn't going to do well and I did not even want to go and take it. I finally dragged myself out of bed to go to school, I was not a happy camper. I fed myself because of course that's the right thing to do, just so I would have energy for the day. I got in my car and drove to school slowly, not wanting to get to where I was going. I got to the class to take the test knowing it wasn't going to go well, but I powered through it anyway. I thought oh boy that was horrible, I knew I had failed. So I packed up my things and went home, feeling even worse than before. I got an email regarding my grade, I did not even want to open it. I finally opened it after 30 minutes of just staring at it. I was shocked, I actually passed! I needed to celebrate, so I called my friend. We went to go get coffee and something to eat. I told her how I knew I would fail but somehow I passed. She laughed and said yeah that happens all the time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up this morning dreading the exam today. I knew I wasn't going to do well and I did not even want to go and take it. I finally dragged myself out of bed to go to school, I was not a happy camper. I fed myself because of course that's the right thing to do, just so I would have energy for the day. I got in my car and drove to school slowly, not wanting to get to where I was going. I got to the class to take the test knowing it wasn't going to go well, but I powered through it anyway. I thought oh boy that was horrible, I knew I had failed. So I packed up my things and went home, feeling even worse than before. I got an email regarding my grade, I did not even want to open it. I finally opened it after 30 minutes of just staring at it. I was shocked, I actually passed! I needed to celebrate, so I called my friend. We went to go get coffee and something to eat. I told her how I knew I would fail but somehow I passed. She laughed and said yeah that happens all the time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so relieved and happy that I didn't have to retake the exam."
+            }
+        ],
+        "request_id": "811f3c1baa73437a-EWR"
+    }
+}

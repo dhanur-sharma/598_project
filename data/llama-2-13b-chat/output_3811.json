@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am finally a college graduate! I am so excited to have gotten my degree and now I can go out in the real world and be a real person. But first, it was time to celebrate. After graduation, my family decided to go on a vacation to Zion National Park. I can't believe that in all my years of going to college in Utah, I had never made it to Zion. Well, here was my chance. It was soooo beautiful! We hiked many of the trails, including the \"Narrows\", which was killer, but really awesome. We even saw some wild animals, which was so cool and unexpected! It was so nice to be out in fresh air and to just clear my thoughts. We ate at a few great restaurants too. I love me some good food! And shopping was also fantastic. My parents bought me a couple of graduation gifts, including a beautiful necklace. I love it, and when I wear it I will always remember this trip. It was so inspiring being out in nature and I really appreciate this time I had with my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am finally a college graduate! I am so excited to have gotten my degree and now I can go out in the real world and be a real person. But first, it was time to celebrate. After graduation, my family decided to go on a vacation to Zion National Park. I can't believe that in all my years of going to college in Utah, I had never made it to Zion. Well, here was my chance. It was soooo beautiful! We hiked many of the trails, including the \"Narrows\", which was killer, but really awesome. We even saw some wild animals, which was so cool and unexpected! It was so nice to be out in fresh air and to just clear my thoughts. We ate at a few great restaurants too. I love me some good food! And shopping was also fantastic. My parents bought me a couple of graduation gifts, including a beautiful necklace. I love it, and when I wear it I will always remember this trip. It was so inspiring being out in nature and I really appreciate this time I had with my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the perfect way to start my new life as a college graduate!\n\n"
+            }
+        ],
+        "request_id": "811ed1a50b3b4334-EWR"
+    }
+}

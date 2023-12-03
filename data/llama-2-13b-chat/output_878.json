@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently competed in a Brazilian Jiu Jitsu tournament. It took a lot of discipline to prepare for. I had to diet and lose about 15 pounds. I trained about 6-7 days out of the week. There were at least 4 jiu jitsu training sessions and 1 judo session. In addition to this, I also traveled to other gyms to spar against other jiu jitsu players. It was grueling and I was definitely physically and emotionally exhausted, but I enjoyed every part of it. People were so nice and welcoming, and helped motivate me to push myself to work harder. By the day of the tournament, I was equal parts nervous and excited. There's a change you could lose decisively or win easily - just a matter of who shows up. Luckily, as soon as my first match started I knew I could win. It released all the tension and I performed as I normally would in practice. Afterwards, I won the tournament and felt very happy. It seemed so much easier than I thought it would be. Luckily, I was able to win and will compete again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently competed in a Brazilian Jiu Jitsu tournament. It took a lot of discipline to prepare for. I had to diet and lose about 15 pounds. I trained about 6-7 days out of the week. There were at least 4 jiu jitsu training sessions and 1 judo session. In addition to this, I also traveled to other gyms to spar against other jiu jitsu players. It was grueling and I was definitely physically and emotionally exhausted, but I enjoyed every part of it. People were so nice and welcoming, and helped motivate me to push myself to work harder. By the day of the tournament, I was equal parts nervous and excited. There's a change you could lose decisively or win easily - just a matter of who shows up. Luckily, as soon as my first match started I knew I could win. It released all the tension and I performed as I normally would in practice. Afterwards, I won the tournament and felt very happy. It seemed so much easier than I thought it would be. Luckily, I was able to win and will compete again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e99ca3a7d8c18-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, I learned there is no treatment for secondary progressive MS. My condition will continue to worsen unless I change my lifestyle. I will eat healthier from now on. I will make sure to get the nutrients needed to stave off this disease. It will be tough but I think I can do it. I have been getting a lot of support from the family. My mom said to just do it. My father said to not worry to much. My brothers said it will be alright. My sisters all cried but said I'm tough. I will fight this disease to the bitter end. I hope I can make it. It will be tough but I can get through it. I wish I had a burger. I can't eat those anymore."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, I learned there is no treatment for secondary progressive MS. My condition will continue to worsen unless I change my lifestyle. I will eat healthier from now on. I will make sure to get the nutrients needed to stave off this disease. It will be tough but I think I can do it. I have been getting a lot of support from the family. My mom said to just do it. My father said to not worry to much. My brothers said it will be alright. My sisters all cried but said I'm tough. I will fight this disease to the bitter end. I hope I can make it. It will be tough but I can get through it. I wish I had a burger. I can't eat those anymore.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't eat anything that is fried. I will have to get use to it.\n\n"
+            }
+        ],
+        "request_id": "811ea748fcd44396-EWR"
+    }
+}

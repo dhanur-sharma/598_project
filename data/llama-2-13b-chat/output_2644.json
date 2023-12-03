@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of weeks ago, I found a nice little coffee shop. So, one day, I went inside. I got a coffee and sat down. I look across from me and saw this really cute girl by herself at the counter. For some reason, I decided to head up there. I asked if she was alone and she said yes. I asked if she would mind if I sat next to her and she said no. So, we sat there for a while and talked about life. Turns out, we shared a bunch of things in common. We had fun. We laughed. Afterward, we exchanged phone numbers. It was a really great time. Now, I have a date for this weekend. I'm really looking forward to it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of weeks ago, I found a nice little coffee shop. So, one day, I went inside. I got a coffee and sat down. I look across from me and saw this really cute girl by herself at the counter. For some reason, I decided to head up there. I asked if she was alone and she said yes. I asked if she would mind if I sat next to her and she said no. So, we sat there for a while and talked about life. Turns out, we shared a bunch of things in common. We had fun. We laughed. Afterward, we exchanged phone numbers. It was a really great time. Now, I have a date for this weekend. I'm really looking forward to it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think there might be something special here.\n\n"
+            }
+        ],
+        "request_id": "811ebabb7f0e43df-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My girlfriend and I had decided to break up. We had a rough patch in our relationship and things looked like they couldn't get any better. We had tried to work things out, but in the end it wasn't going to work. I had decided to move out of the apartment a few weeks after we decided to split. She didn't want me to do that since she would have some issues paying for the rent. I told her I had to move for my own sanity. Being in a home with her, especially after how we broke up wasn't healthy for either of us. I started to pack my things and leave. She told me that she'd help me move my things. I was thankful for the help. Until I realized that she was tossing all my things onto the ground outside. I was so upset with her and she didn't care. She wasn't happy with me leaving at all. She kept screaming about how I was doing her wrong in this whole thing. I did her wrong? Was she serious? I guess so. When I finished packing, I told her bye and she cussed me out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My girlfriend and I had decided to break up. We had a rough patch in our relationship and things looked like they couldn't get any better. We had tried to work things out, but in the end it wasn't going to work. I had decided to move out of the apartment a few weeks after we decided to split. She didn't want me to do that since she would have some issues paying for the rent. I told her I had to move for my own sanity. Being in a home with her, especially after how we broke up wasn't healthy for either of us. I started to pack my things and leave. She told me that she'd help me move my things. I was thankful for the help. Until I realized that she was tossing all my things onto the ground outside. I was so upset with her and she didn't care. She wasn't happy with me leaving at all. She kept screaming about how I was doing her wrong in this whole thing. I did her wrong? Was she serious? I guess so. When I finished packing, I told her bye and she cussed me out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I left and never looked back.\n\n"
+            }
+        ],
+        "request_id": "811e8affda8c8cb9-EWR"
+    }
+}

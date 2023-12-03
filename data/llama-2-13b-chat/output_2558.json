@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I got married to Cheryl, the love of my life. I still feel like the luckiest man in the world, having her in my life. The wedding was a tight-knit affair. We had decided early on in the planning that we didn't want to stress our wallets too badly on this wedding, and would rather spend out money on a lavish honeymoon. Still, the venue we found, a vineyard out in the countryside, was stunning. The morning of the wedding I woke up at my brother's. Cheryl thought it would be bad luck to sleep in the same bed the night before the wedding. Despite the wedding not being until that afternoon, I showered and put my tuxedo on right away. My brother was my best man, so he helped keep me calm. In no time at all the wedding time rolled around, and we went to the venue. I will never forget how I felt when I saw Cheryl walking towards me in her beautiful white dress. We said our vows and quickly went to the reception area. We danced and ate late into the night. I was very glad with the wedding we had. If I had to do it over again, I would change nothing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I got married to Cheryl, the love of my life. I still feel like the luckiest man in the world, having her in my life. The wedding was a tight-knit affair. We had decided early on in the planning that we didn't want to stress our wallets too badly on this wedding, and would rather spend out money on a lavish honeymoon. Still, the venue we found, a vineyard out in the countryside, was stunning. The morning of the wedding I woke up at my brother's. Cheryl thought it would be bad luck to sleep in the same bed the night before the wedding. Despite the wedding not being until that afternoon, I showered and put my tuxedo on right away. My brother was my best man, so he helped keep me calm. In no time at all the wedding time rolled around, and we went to the venue. I will never forget how I felt when I saw Cheryl walking towards me in her beautiful white dress. We said our vows and quickly went to the reception area. We danced and ate late into the night. I was very glad with the wedding we had. If I had to do it over again, I would change nothing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb9145eef41b2-EWR"
+    }
+}

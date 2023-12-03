@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I went on a cruise to Alaska to celebrate our wedding anniversary and my retirement.  It was the first time on a plane for both of us.  I was a bit nervous as we were flying in on the day of departure so a plane delay could mean missing the trip, but I did have trip insurance.  Luckily, we did not encounter any delays and we arrived in plenty of time.  I had booked a transfer from the airport to the Pier, and the bus driver gave us a tour on the way.  We passed the Space Needle which was awesome! Once at the Pier, we had to wait a bit to board.  When we got on board, we went directly to wait in line to eat.  It had been hours since we had any real food and we were not able to go to our rooms yet.  We walked around a bit and then finally went to our cabin.   Our vacation was finally starting! The days were filled with food, scenery, movies, casinos, shows and some land excursions.  Exploring different parts of the ship kept us very busy.   The most memorable part of the cruise was when we went into Glacier Bay - the scenery was breathtaking!  We saw the glacier break apart into the water a few times, once was a large break.  I took so many pictures but I couldn't fully capture the beauty and awe of the all of the moments. This trip was a once in a lifetime experience...even if I go back, I could never fully experience the magic of the first time - but it would be fun to try!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I went on a cruise to Alaska to celebrate our wedding anniversary and my retirement.  It was the first time on a plane for both of us.  I was a bit nervous as we were flying in on the day of departure so a plane delay could mean missing the trip, but I did have trip insurance.  Luckily, we did not encounter any delays and we arrived in plenty of time.  I had booked a transfer from the airport to the Pier, and the bus driver gave us a tour on the way.  We passed the Space Needle which was awesome! Once at the Pier, we had to wait a bit to board.  When we got on board, we went directly to wait in line to eat.  It had been hours since we had any real food and we were not able to go to our rooms yet.  We walked around a bit and then finally went to our cabin.   Our vacation was finally starting! The days were filled with food, scenery, movies, casinos, shows and some land excursions.  Exploring different parts of the ship kept us very busy.   The most memorable part of the cruise was when we went into Glacier Bay - the scenery was breathtaking!  We saw the glacier break apart into the water a few times, once was a large break.  I took so many pictures but I couldn't fully capture the beauty and awe of the all of the moments. This trip was a once in a lifetime experience...even if I go back, I could never fully experience the magic of the first time - but it would be fun to try!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8fe9ec84c448-EWR"
+    }
+}

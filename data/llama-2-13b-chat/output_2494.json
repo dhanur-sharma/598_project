@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember the day very clearly, and because it happened right after Thanksgiving I know when it took place. It's been five weeks now but the feeling I had on that day has no diminished, and if anything could be said about it it has grown. It was on that day while I was contemplating lukewarm leftovers on the counter that my mom announced I had received a package from Jonathon. This was unexpected and curious. For the first, I hadn't spoken or written to Jonathon, Jack as I always called him in youth, in several years. To the second, I hadn't lived at home for two years while attending graduate school, and any mail delivered to me there would be odd.  Upon unraveling the package from Jack, my heart rose and sank in varying emotion. The enclosed Frisbee from Vermont College School of Arts was a specific choice by Jack designed to invoke our shared history and demonstrate his love of dog, Charles. Jack had only met Charles on one occasion but my interaction or conversations since must have made an impression as to my feelings for him. I had always thought Jack to be thoughtful and caring, but this was an unexpected surprise. I had not been in the best of moods all day or all month for that matter. The competition in my program was not what I had envisioned when enrolling in the English department nor were the endless days of meetings and workshops. I felt stunted and exhausted with little to show for my effort. Jack's gift and accompanying note was like a tablet of vitamin C that returned some sense of energy and well being to my mood after a fog of despondency. I never thought that another person would show such dedication to a memory and sense of the moment as Jack. His gift exposed a great deal about his character that most would not care to do as it would reveal a vulnerability. To care that much about a person is a fragile thing indeed and to have it demonstrated in public without an idea of the consequence frightens most from such action."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember the day very clearly, and because it happened right after Thanksgiving I know when it took place. It's been five weeks now but the feeling I had on that day has no diminished, and if anything could be said about it it has grown. It was on that day while I was contemplating lukewarm leftovers on the counter that my mom announced I had received a package from Jonathon. This was unexpected and curious. For the first, I hadn't spoken or written to Jonathon, Jack as I always called him in youth, in several years. To the second, I hadn't lived at home for two years while attending graduate school, and any mail delivered to me there would be odd.  Upon unraveling the package from Jack, my heart rose and sank in varying emotion. The enclosed Frisbee from Vermont College School of Arts was a specific choice by Jack designed to invoke our shared history and demonstrate his love of dog, Charles. Jack had only met Charles on one occasion but my interaction or conversations since must have made an impression as to my feelings for him. I had always thought Jack to be thoughtful and caring, but this was an unexpected surprise. I had not been in the best of moods all day or all month for that matter. The competition in my program was not what I had envisioned when enrolling in the English department nor were the endless days of meetings and workshops. I felt stunted and exhausted with little to show for my effort. Jack's gift and accompanying note was like a tablet of vitamin C that returned some sense of energy and well being to my mood after a fog of despondency. I never thought that another person would show such dedication to a memory and sense of the moment as Jack. His gift exposed a great deal about his character that most would not care to do as it would reveal a vulnerability. To care that much about a person is a fragile thing indeed and to have it demonstrated in public without an idea of the consequence frightens most from such action.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is the gift that I will always cherish and the memory of Jack that I will always remember."
+            }
+        ],
+        "request_id": "811eb7e05d3f0f7b-EWR"
+    }
+}

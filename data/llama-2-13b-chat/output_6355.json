@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has always been a family tradition for my parents to host me at their home for Thanksgiving. However last year I did not receive their invitation. I suspect it is because my mother found out that I had decided to quit college to pursue my passion. Since I was lonely, I decided to hang out with friends instead. Mary hosted me in her apartment. She prepared a nice meal and opened a bottle of wine. After a few glasses, I opened up to her about my anxiety. I told her about how I was finding it hard to conform and meet my parents expectations of me.  I found myself breaking down as I explained my problem. She is a very good listener. She was able to offer me advice and comfort. In the evening, she ordered a ride home for me. She even called to check on me when arrived.  In the end, I was glad to have a voided my judgmental parents. The time spent with Mary was meaningful to me.  I forged a strong relationship with Mary."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has always been a family tradition for my parents to host me at their home for Thanksgiving. However last year I did not receive their invitation. I suspect it is because my mother found out that I had decided to quit college to pursue my passion. Since I was lonely, I decided to hang out with friends instead. Mary hosted me in her apartment. She prepared a nice meal and opened a bottle of wine. After a few glasses, I opened up to her about my anxiety. I told her about how I was finding it hard to conform and meet my parents expectations of me.  I found myself breaking down as I explained my problem. She is a very good listener. She was able to offer me advice and comfort. In the evening, she ordered a ride home for me. She even called to check on me when arrived.  In the end, I was glad to have a voided my judgmental parents. The time spent with Mary was meaningful to me.  I forged a strong relationship with Mary.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I also learned to accept myself the way I am.\n\n"
+            }
+        ],
+        "request_id": "811f43c32d6643a7-EWR"
+    }
+}

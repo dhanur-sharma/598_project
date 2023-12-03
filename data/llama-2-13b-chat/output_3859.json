@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My stepfather was struggling with a really bad illness. We went to go see him and he wasn't doing well. We didn't think he had a lot of time left. I knew that he had done this to himself with his drinking. We were all very depressed. It didn't look like he was going to make it. I talked to my wife and told her how things were going. I told her that I may not be home tonight and me and the rest of my family were going to be staying with him. She told me that she understood. In the middle of the night the doctors came to us. Said things were getting worse and we should say our last good byes. I went in sometime after my mom. He told me that he was proud of me. He said that he was happy to see the man I've become. We talked about things. I told him I loved him. He passed away later that night"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My stepfather was struggling with a really bad illness. We went to go see him and he wasn't doing well. We didn't think he had a lot of time left. I knew that he had done this to himself with his drinking. We were all very depressed. It didn't look like he was going to make it. I talked to my wife and told her how things were going. I told her that I may not be home tonight and me and the rest of my family were going to be staying with him. She told me that she understood. In the middle of the night the doctors came to us. Said things were getting worse and we should say our last good byes. I went in sometime after my mom. He told me that he was proud of me. He said that he was happy to see the man I've become. We talked about things. I told him I loved him. He passed away later that night",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "."
+            }
+        ],
+        "request_id": "811ed2be3b41438a-EWR"
+    }
+}

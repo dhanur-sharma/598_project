@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I was struggling to make a enough money to be able to support myself.  I was working a job in a call center as customer service rep.  My shift I worked was at night and I enjoyed it very much.  There were a few drawbacks to the job though.  One was cellphone restrictions due to sensitive data.  I missed being able to listen to music and do work all at the same time.  We were not allowed to use anything wireless like ear buds or anything else that was related to those type of products.  Once I put in enough time at the company I decided to transfer out to another position.  I had to put in about 30 applications but I finally got two interviews lined up.  I was so excited and nervous that I may not get the position but I really needed it.  Luckily I got the call one day and they were asking me if I would accept the welcome letter and I did.  It was the best day In almost two years.  My job has been so rewarding and I love what I am doing now.  I get to learn something new everyday and interact with new people all the time.  No more sitting on the phone all day long now I am able to enjoy my life a little."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I was struggling to make a enough money to be able to support myself.  I was working a job in a call center as customer service rep.  My shift I worked was at night and I enjoyed it very much.  There were a few drawbacks to the job though.  One was cellphone restrictions due to sensitive data.  I missed being able to listen to music and do work all at the same time.  We were not allowed to use anything wireless like ear buds or anything else that was related to those type of products.  Once I put in enough time at the company I decided to transfer out to another position.  I had to put in about 30 applications but I finally got two interviews lined up.  I was so excited and nervous that I may not get the position but I really needed it.  Luckily I got the call one day and they were asking me if I would accept the welcome letter and I did.  It was the best day In almost two years.  My job has been so rewarding and I love what I am doing now.  I get to learn something new everyday and interact with new people all the time.  No more sitting on the phone all day long now I am able to enjoy my life a little.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am so grateful for the opportunity and the people I work with now.\n\n"
+            }
+        ],
+        "request_id": "811f3935698c0f9c-EWR"
+    }
+}

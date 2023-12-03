@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago, I proposed to my girlfriend. We had been dating for about 2 years. We are very happy together. We discussed marriage all the time. It was a no-brainer to ask her to marry me. I did not ask her father for permission first. That is too old school for us. I took her for a walk and proposed at \"our spot\". It was very simple, but it was us. She told me she knew she loved me years ago when I wanted to go for a walk with her. She cried. I cried. They were tears of happiness. The most memorable thing was how simple and right it all felt. We already know that we don't want to have a big wedding. It costs too much money. We would rather spend it on living and traveling. We do want to have a reception."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago, I proposed to my girlfriend. We had been dating for about 2 years. We are very happy together. We discussed marriage all the time. It was a no-brainer to ask her to marry me. I did not ask her father for permission first. That is too old school for us. I took her for a walk and proposed at \"our spot\". It was very simple, but it was us. She told me she knew she loved me years ago when I wanted to go for a walk with her. She cried. I cried. They were tears of happiness. The most memorable thing was how simple and right it all felt. We already know that we don't want to have a big wedding. It costs too much money. We would rather spend it on living and traveling. We do want to have a reception.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We want to invite all of our close friends and family. We want to have fun and celebrate our love.\n\n"
+            }
+        ],
+        "request_id": "811f2f63ab164401-EWR"
+    }
+}

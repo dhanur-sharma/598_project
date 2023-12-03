@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's a cloudy day. The waves are pounding the bottom of the pier, spun up from a faraway storm off the coast of Alaska. It's cold. When was the last time we spoke? It must be years, maybe half a decade. Two homes, two pets, a new child, a wife, so many things have happened since our last conversation. You were supposed to be there, and not be there forever. Some specter from my past who has some claim to me but hurt me every time I got pulled into your orbit. Your absence served me better than your presence, yet now that you are really gone, I don't know how to fill the chasm of my fear and loathing of you. You died like you lived, alone, angry, fragmented, and most importantly, you were right. Everyone would leave you. It will take another decade of therapy to even consider the damage you've done. Now that you're gone you can do no more. The only damage that can be done now is through my own actions, my own behaviors, my own perceptions. I'm free, but you've still got me trapped."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's a cloudy day. The waves are pounding the bottom of the pier, spun up from a faraway storm off the coast of Alaska. It's cold. When was the last time we spoke? It must be years, maybe half a decade. Two homes, two pets, a new child, a wife, so many things have happened since our last conversation. You were supposed to be there, and not be there forever. Some specter from my past who has some claim to me but hurt me every time I got pulled into your orbit. Your absence served me better than your presence, yet now that you are really gone, I don't know how to fill the chasm of my fear and loathing of you. You died like you lived, alone, angry, fragmented, and most importantly, you were right. Everyone would leave you. It will take another decade of therapy to even consider the damage you've done. Now that you're gone you can do no more. The only damage that can be done now is through my own actions, my own behaviors, my own perceptions. I'm free, but you've still got me trapped.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bded0cd2c78e8-EWR"
+    }
+}

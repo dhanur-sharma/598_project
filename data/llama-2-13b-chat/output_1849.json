@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago I had a life changing event happen! I'd been waitlisted when I applied to my school's PhD program, which was an incredible bummer. I was having my usual breakfast-eggs, toast, coffee-and my mom walked in the room. She handed me a letter from the school. I sat it aside because I figured it was something annoying that I could handle later. Turns out I apparently can't help myself so I picked it back up and opened it. I could not believe what I was reading...I HAD GOTTEN INTO THE PHD PROGRAM! I wasn't waitlisted! I was actually going to get the chance to make my dreams come true! I screamed so loud that I scared my mom! She ran into the room yelling \"Are you okay?!? What happened?!?\". By then I was blubbering tears of absolute joy. I said \"Mom I got it! I got into the PhD program!\". She screamed then! She started crying, too. It was the happiest day of my life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago I had a life changing event happen! I'd been waitlisted when I applied to my school's PhD program, which was an incredible bummer. I was having my usual breakfast-eggs, toast, coffee-and my mom walked in the room. She handed me a letter from the school. I sat it aside because I figured it was something annoying that I could handle later. Turns out I apparently can't help myself so I picked it back up and opened it. I could not believe what I was reading...I HAD GOTTEN INTO THE PHD PROGRAM! I wasn't waitlisted! I was actually going to get the chance to make my dreams come true! I screamed so loud that I scared my mom! She ran into the room yelling \"Are you okay?!? What happened?!?\". By then I was blubbering tears of absolute joy. I said \"Mom I got it! I got into the PhD program!\". She screamed then! She started crying, too. It was the happiest day of my life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eabf0dd760f47-EWR"
+    }
+}

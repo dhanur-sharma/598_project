@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, as early as last week, i went on a trip to Austin, Texas. It was a great experience and i really enjoyed it. It was very memorable because it was my first time there. The people there were friendly and calm. I talked to this lady and we had a great conversation even though we never met before. All the Uber drivers that drove me around were nice as well. The food there was top notch. I had Texan barbeque and it was the best meat i've ever tasted. Everyone recommended the brisket which was what i got. The meat was very tender and fell right off the bone. After eating, i spend a lot of time just sight seeing. We went to the capital and it was beautiful inside. I even got to ride a Lime scooter. It was a bit scary though because i was riding without a helmet. I also didn't know the scooter rules so i just rode on the street with the cars which made it even scarier."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, as early as last week, i went on a trip to Austin, Texas. It was a great experience and i really enjoyed it. It was very memorable because it was my first time there. The people there were friendly and calm. I talked to this lady and we had a great conversation even though we never met before. All the Uber drivers that drove me around were nice as well. The food there was top notch. I had Texan barbeque and it was the best meat i've ever tasted. Everyone recommended the brisket which was what i got. The meat was very tender and fell right off the bone. After eating, i spend a lot of time just sight seeing. We went to the capital and it was beautiful inside. I even got to ride a Lime scooter. It was a bit scary though because i was riding without a helmet. I also didn't know the scooter rules so i just rode on the street with the cars which made it even scarier.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would definitely go back to Austin again.\n\n"
+            }
+        ],
+        "request_id": "811ec3b7fdce41c0-EWR"
+    }
+}

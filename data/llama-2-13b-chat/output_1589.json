@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Since I first received the news that I needed to quit my job, which I loved, I have made many changes in my life.  First, I quit my job the day before Thanksgiving break. I cried when I talked with my friend in HR. I FINALLY purchased my rollator. This was a huge act of acceptance, as I had fought doing this. The rollator sat in my truck for 2 weeks, never used. I refused to bring it into my home. I felt I didn't need it inside. I simply did NOT want to use it. One day I fell twice inside my home. That same day I was so out of balance, bouncing around,  hitting walls, etc. So, I asked my husband to go get it.  Eagerly, I began to use it that day. I was okay with it as I definitely needed this aid at the time. A few days later when I wasn't as out of balance I stopped using it. Then my balance went crazy again. I bounced around, not using the rollator. My husband put it in front of me. Now, I can happily say I am using my rollator in my home whenever I need it. I view this aid as my friend now. Once I order a basket for the front, it will be even more useful to me. I have been stubborn about using this, but now I am at peace with it. I've accepted what I need to do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Since I first received the news that I needed to quit my job, which I loved, I have made many changes in my life.  First, I quit my job the day before Thanksgiving break. I cried when I talked with my friend in HR. I FINALLY purchased my rollator. This was a huge act of acceptance, as I had fought doing this. The rollator sat in my truck for 2 weeks, never used. I refused to bring it into my home. I felt I didn't need it inside. I simply did NOT want to use it. One day I fell twice inside my home. That same day I was so out of balance, bouncing around,  hitting walls, etc. So, I asked my husband to go get it.  Eagerly, I began to use it that day. I was okay with it as I definitely needed this aid at the time. A few days later when I wasn't as out of balance I stopped using it. Then my balance went crazy again. I bounced around, not using the rollator. My husband put it in front of me. Now, I can happily say I am using my rollator in my home whenever I need it. I view this aid as my friend now. Once I order a basket for the front, it will be even more useful to me. I have been stubborn about using this, but now I am at peace with it. I've accepted what I need to do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea74d5f4e41c6-EWR"
+    }
+}

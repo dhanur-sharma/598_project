@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to visit my father after a long time. He was sick and not doing to well. I usually don't get along with him very well and he usually tells me about how I make the wrong decisions in life. I tend to tune him out and not pay attention. When I went to go see him I felt different. He did not seem like the same person. It seemed like he was interested in talking to me and seeing how I was doing. He talked to me about our family history and I listened intently. I was very happy to hear him talk about his past. I felt more connected to him and felt like he wasn't trying to tell me what to do. I was pleased to be able to have a relationship with my dad that was less confrontational and more open. After we were done talking we sat at the table and had dinner and I had a good time. My mom was there and I could tell she was happy that we were getting along. When I finally had to go I thanked them and hugged my dad. I felt like we really turned a leaf on how we got along and from then on things would be different."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to visit my father after a long time. He was sick and not doing to well. I usually don't get along with him very well and he usually tells me about how I make the wrong decisions in life. I tend to tune him out and not pay attention. When I went to go see him I felt different. He did not seem like the same person. It seemed like he was interested in talking to me and seeing how I was doing. He talked to me about our family history and I listened intently. I was very happy to hear him talk about his past. I felt more connected to him and felt like he wasn't trying to tell me what to do. I was pleased to be able to have a relationship with my dad that was less confrontational and more open. After we were done talking we sat at the table and had dinner and I had a good time. My mom was there and I could tell she was happy that we were getting along. When I finally had to go I thanked them and hugged my dad. I felt like we really turned a leaf on how we got along and from then on things would be different.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed4bd59c217b9-EWR"
+    }
+}

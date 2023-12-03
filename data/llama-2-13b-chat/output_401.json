@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on vacation to Ireland this summer. I live in Ohio and flew to Ireland via New York City. Around the turn of the century my great grand parents came to America from Ireland. They both came through Ellis Island in New York City. At first they lived in Buffalo, New York. Around 1910 they ended up in Cleveland, Ohio. After my plane landed in New York City from Ireland I decided to take the subway train into New York City. I walked around New York City. I ate some food at Wendys. By Wall Street I got on the Stanton Island Ferry. The Stanton Island ferry goes past Ellis Island where my great grandparents entered America over a century ago! After seeing New York City I had to drive seven hours back to Ohio. It is a seven hour drive. The New York turnpike runs south of Buffalo, New York. I was going to try to find the hotel in Buffalo that my great grandparents meet at. I was not able to do this on this trip because I had to get home. However, the Layette Hotel in Buffalo is still there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on vacation to Ireland this summer. I live in Ohio and flew to Ireland via New York City. Around the turn of the century my great grand parents came to America from Ireland. They both came through Ellis Island in New York City. At first they lived in Buffalo, New York. Around 1910 they ended up in Cleveland, Ohio. After my plane landed in New York City from Ireland I decided to take the subway train into New York City. I walked around New York City. I ate some food at Wendys. By Wall Street I got on the Stanton Island Ferry. The Stanton Island ferry goes past Ellis Island where my great grandparents entered America over a century ago! After seeing New York City I had to drive seven hours back to Ohio. It is a seven hour drive. The New York turnpike runs south of Buffalo, New York. I was going to try to find the hotel in Buffalo that my great grandparents meet at. I was not able to do this on this trip because I had to get home. However, the Layette Hotel in Buffalo is still there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9117f870426d-EWR"
+    }
+}

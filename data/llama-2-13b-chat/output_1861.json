@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I started two weeks ago. It was my first day of my sophomore year of college. I was nervous at first to go back. I wanted to go back but at the same time, I was still nervous to go back. Once I got back, it took what felt like a decade to get everything back into my room. It was not fun at all. My parents and siblings helped me out the whole time. After we finished, we went to get some food. We went to a Mediterranean restaurant that was very good. I ordered fish with vegetables. It was amazing, the best fish that I've had for a long time. Once we were done eating, it was time for me to go back to campus. I said my goodbyes and was off. I was glad to be back at college, however knew I would miss my family and pets back home. The sadness soon went away after I got into classes and such however. At this point in time, I am having a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I started two weeks ago. It was my first day of my sophomore year of college. I was nervous at first to go back. I wanted to go back but at the same time, I was still nervous to go back. Once I got back, it took what felt like a decade to get everything back into my room. It was not fun at all. My parents and siblings helped me out the whole time. After we finished, we went to get some food. We went to a Mediterranean restaurant that was very good. I ordered fish with vegetables. It was amazing, the best fish that I've had for a long time. Once we were done eating, it was time for me to go back to campus. I said my goodbyes and was off. I was glad to be back at college, however knew I would miss my family and pets back home. The sadness soon went away after I got into classes and such however. At this point in time, I am having a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eac33b97e429d-EWR"
+    }
+}

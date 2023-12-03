@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of weeks ago, I went to my cousin's wedding in Maine. The wedding was a great time and I got drunk but didn't puke. I celebrated by myself by going to lighthouses. The first lighthouse was very big and red. It was shining from a few miles away. The second lighthouse was tiny and green. It only had a mile shining radiance. The third lighthouse was giant and blue. It could shine a light for ten miles. I had a fun time in the beaches. I got sand all over my shorts. It took forever to get the sand out. I went surfing but crashed. I got salt water in my mouth. That was nasty. The trip was very nice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of weeks ago, I went to my cousin's wedding in Maine. The wedding was a great time and I got drunk but didn't puke. I celebrated by myself by going to lighthouses. The first lighthouse was very big and red. It was shining from a few miles away. The second lighthouse was tiny and green. It only had a mile shining radiance. The third lighthouse was giant and blue. It could shine a light for ten miles. I had a fun time in the beaches. I got sand all over my shorts. It took forever to get the sand out. I went surfing but crashed. I got salt water in my mouth. That was nasty. The trip was very nice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had fun. I saw many beautiful lighthouses. I will go back to Maine soon.\n\n"
+            }
+        ],
+        "request_id": "811e97680b280f75-EWR"
+    }
+}

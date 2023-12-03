@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a cousin whom I see only a few times a year, but we get along well. About two months ago he had some time away from his military duties. He wanted to enjoy himself. And so we spent the early part of the evening enjoying some alcoholic beverages. Perhaps we had a few too many. The next thing that I remember is that we were in a graveyard. Along the way I heard a coyote's howl. Then in the graveyard, some bats flew by. It was like something out of a cliched horror film. The drinks were messing with me head. I felt freaked out. But in the end, I would say that it helped me build a bond with my cousin. When I was very young, I embarrassed myself in front of him. I'm not sure he ever had real respect for me after that. I worry that it's always in the back of his mind that I was that pathetic little kid."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a cousin whom I see only a few times a year, but we get along well. About two months ago he had some time away from his military duties. He wanted to enjoy himself. And so we spent the early part of the evening enjoying some alcoholic beverages. Perhaps we had a few too many. The next thing that I remember is that we were in a graveyard. Along the way I heard a coyote's howl. Then in the graveyard, some bats flew by. It was like something out of a cliched horror film. The drinks were messing with me head. I felt freaked out. But in the end, I would say that it helped me build a bond with my cousin. When I was very young, I embarrassed myself in front of him. I'm not sure he ever had real respect for me after that. I worry that it's always in the back of his mind that I was that pathetic little kid.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But that night in the graveyard, he took care of me and made sure I was alright. So, I think that incident really helped me earn his respect."
+            }
+        ],
+        "request_id": "811f453f5aaa423d-EWR"
+    }
+}

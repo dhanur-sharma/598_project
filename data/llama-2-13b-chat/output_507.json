@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: dear diary,today I was told that i finally received the promotion. it was a tough interview process, and it has really stressed me out lately. i was legitimately going to quit if i did not get the promotion, i certainly deserved it the most. it means so much to be able to get this job. i can finally be independent if i need to move out. i dont think i will, i want to save pretty much all the money i make from this job, i am very excited. i told my girlfriend and my mom, and i just cannot contain myself. it feels like the first major step of being an adult. i am so ready for that next step and i am taking it day by day. when my boss called me to his office i thought for sure they were going to tell me they went in a different direction. however, he told me that i got the job, and what my new salary would be. i was not expecting it to be so high, i thought it was 5k lower. imagine my elation! i know the job will have stresses, but not making money will not be one of them. in a few years i can and will buy a house in cash. that is the most exciting part, cutting down my time to own a house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: dear diary,today I was told that i finally received the promotion. it was a tough interview process, and it has really stressed me out lately. i was legitimately going to quit if i did not get the promotion, i certainly deserved it the most. it means so much to be able to get this job. i can finally be independent if i need to move out. i dont think i will, i want to save pretty much all the money i make from this job, i am very excited. i told my girlfriend and my mom, and i just cannot contain myself. it feels like the first major step of being an adult. i am so ready for that next step and i am taking it day by day. when my boss called me to his office i thought for sure they were going to tell me they went in a different direction. however, he told me that i got the job, and what my new salary would be. i was not expecting it to be so high, i thought it was 5k lower. imagine my elation! i know the job will have stresses, but not making money will not be one of them. in a few years i can and will buy a house in cash. that is the most exciting part, cutting down my time to own a house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i am so ready to take on this new challenge. i will be the best employee ever!\n\n"
+            }
+        ],
+        "request_id": "811e9300eb0b435e-EWR"
+    }
+}

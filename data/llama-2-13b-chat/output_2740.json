@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple months ago, my child graduated from Kindergarten.  She is autistic and sometimes struggles with school and social events, so it was especially exciting. There was a meal for the families and a presentation by the kids to celebrate the event. The children performed songs that they had learned. They also each gave a little speech about what they had learned in Kindergarten. My daughter talked about the shapes she had learned. She gave a demonstration of each of the shapes she knew. I was impressed with how easily she stepped up to the microphone and talked in front of a crowd. When the children were done performing, we ate dinner. We had hot dogs. There were also lots of sides and desserts. My kids ran around and played with the other kids. I talked to a few of the other moms. I felt emotional about such a big event in my child's life. I felt really proud of her for all that she'd learned and accomplished."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple months ago, my child graduated from Kindergarten.  She is autistic and sometimes struggles with school and social events, so it was especially exciting. There was a meal for the families and a presentation by the kids to celebrate the event. The children performed songs that they had learned. They also each gave a little speech about what they had learned in Kindergarten. My daughter talked about the shapes she had learned. She gave a demonstration of each of the shapes she knew. I was impressed with how easily she stepped up to the microphone and talked in front of a crowd. When the children were done performing, we ate dinner. We had hot dogs. There were also lots of sides and desserts. My kids ran around and played with the other kids. I talked to a few of the other moms. I felt emotional about such a big event in my child's life. I felt really proud of her for all that she'd learned and accomplished.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebcd7096d8c3f-EWR"
+    }
+}

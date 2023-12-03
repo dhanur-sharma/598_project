@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend was turning 50 years old. A group of friends decided to buy her a cruise trip.  To celebrate my friend's 50th birthday 7 of us friends book a cruise. We decided to head to the Caribbean for the cruise. My friend seems a little depressed about turning 50. We wanted to do some really fun to cheer her up. She loved Jamaica, so we made sure that island was on our cruise stops. We planned with the cruise to have a special cake made for her. We also had a singer sings to her Happy Birthday at our table, which was quite the comedic event. We drank frou-frou drinks daily, and ate too much food. We went to nightly entertainment, and an art auction. A few nights we sang karaoke in the bar, and made a fool out of ourselves. We cannot sing but we sure did try. We went to the casino everyday, and a few of us won a couple hundred dollars. We went dancing often, and met some great people. One day the ship really tilted and swayed because of high winds, which was scary."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend was turning 50 years old. A group of friends decided to buy her a cruise trip.  To celebrate my friend's 50th birthday 7 of us friends book a cruise. We decided to head to the Caribbean for the cruise. My friend seems a little depressed about turning 50. We wanted to do some really fun to cheer her up. She loved Jamaica, so we made sure that island was on our cruise stops. We planned with the cruise to have a special cake made for her. We also had a singer sings to her Happy Birthday at our table, which was quite the comedic event. We drank frou-frou drinks daily, and ate too much food. We went to nightly entertainment, and an art auction. A few nights we sang karaoke in the bar, and made a fool out of ourselves. We cannot sing but we sure did try. We went to the casino everyday, and a few of us won a couple hundred dollars. We went dancing often, and met some great people. One day the ship really tilted and swayed because of high winds, which was scary.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time, but I think we all agree we will never cruise again."
+            }
+        ],
+        "request_id": "811f4bfa6abb42c0-EWR"
+    }
+}

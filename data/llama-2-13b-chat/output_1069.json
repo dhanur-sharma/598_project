@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was an honor being named best man. It was held at a beautiful venue with a waterfall as the backdrop. One thing that was very memorable were the vows. The bride's vow was very funny. While the groom's was very serious and emotional. It was kind of surprising because they are the opposite of them in normal life. Another memorable thing was the number of bridesmaids and groomsmen. There were 7 of each.  The reception was also very fun. One disappointing thing was the food. It was somewhat bland. A lot of simple foods. My embarrassing moment was the best man toast, I accidentally did it too hard and broke the glass. I froze for a second in embarrassment. Overall, it was a very fun time. I had a blast dancing that night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was an honor being named best man. It was held at a beautiful venue with a waterfall as the backdrop. One thing that was very memorable were the vows. The bride's vow was very funny. While the groom's was very serious and emotional. It was kind of surprising because they are the opposite of them in normal life. Another memorable thing was the number of bridesmaids and groomsmen. There were 7 of each.  The reception was also very fun. One disappointing thing was the food. It was somewhat bland. A lot of simple foods. My embarrassing moment was the best man toast, I accidentally did it too hard and broke the glass. I froze for a second in embarrassment. Overall, it was a very fun time. I had a blast dancing that night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9d508de68c53-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A memorable thing that happened to me in the past few months was moving to a new apartment. I went to college at NYU and loved the neighborhood it was in, the East Village. Due to financial reasons I moved to Brooklyn after graduation, since that was what I could afford with my job. However, I didn't like how inconvenient that place was, so I started my own consulting business on the side. With the revenue I made from my consulting business, I was able to make a lot of extra money each month. This meant I could comfortably move back to the East Village. I moved back into an amazing apartment and my mental health has already improved. When I go home, I no longer need to spend 35 minutes on the subway. When I go home, I am uplifted walking through my familiar neighborhood. When I go home, I am in a good mood, as opposed to a tired mood. I think the rest of my year will be positively affected in a significant way because I've come back \"home,\" in a sense. Studies show that the most unhappy time of your day is your commute, so anything that cuts down on that is awesome. My friends also love my apartment and come over a lot. They didn't like travelling to Brooklyn. I understand why they didn't want to do that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A memorable thing that happened to me in the past few months was moving to a new apartment. I went to college at NYU and loved the neighborhood it was in, the East Village. Due to financial reasons I moved to Brooklyn after graduation, since that was what I could afford with my job. However, I didn't like how inconvenient that place was, so I started my own consulting business on the side. With the revenue I made from my consulting business, I was able to make a lot of extra money each month. This meant I could comfortably move back to the East Village. I moved back into an amazing apartment and my mental health has already improved. When I go home, I no longer need to spend 35 minutes on the subway. When I go home, I am uplifted walking through my familiar neighborhood. When I go home, I am in a good mood, as opposed to a tired mood. I think the rest of my year will be positively affected in a significant way because I've come back \"home,\" in a sense. Studies show that the most unhappy time of your day is your commute, so anything that cuts down on that is awesome. My friends also love my apartment and come over a lot. They didn't like travelling to Brooklyn. I understand why they didn't want to do that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So now they are happier too. This move was the best decision I made.\n\n"
+            }
+        ],
+        "request_id": "811ed03e8f9e43ac-EWR"
+    }
+}

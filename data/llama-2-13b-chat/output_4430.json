@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was driving on the freeway when I saw a dog trapped by the concrete divider. He looked terrified. I went to the next exit to get off and go back around to see if I could get him. I pulled my car over a little ahead of him. He had a collar on so I knew he was somebody's pet. I was very nervous as it was a busy time on the freeway. Cars kept wizzing by us. I tried to crouch down and slowly walk towards him. I had my hand stretched out as I walked. I could see him visibly shaking. I slowly walked toward him and he made a couple steps towards me. I kept imagining grabbing him by the collar. I wonder if he would bite me. I got closer and closer to him. I was just in reach of him when a huge truck flew by and blared his horn. It was a loud, jarring noise that caused the dog to panic. He turned away from the divider and ran headlong into the traffic where he was hit by a car. He kept getting run over by all the subsequent cars. It was a terrible thing to witness."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was driving on the freeway when I saw a dog trapped by the concrete divider. He looked terrified. I went to the next exit to get off and go back around to see if I could get him. I pulled my car over a little ahead of him. He had a collar on so I knew he was somebody's pet. I was very nervous as it was a busy time on the freeway. Cars kept wizzing by us. I tried to crouch down and slowly walk towards him. I had my hand stretched out as I walked. I could see him visibly shaking. I slowly walked toward him and he made a couple steps towards me. I kept imagining grabbing him by the collar. I wonder if he would bite me. I got closer and closer to him. I was just in reach of him when a huge truck flew by and blared his horn. It was a loud, jarring noise that caused the dog to panic. He turned away from the divider and ran headlong into the traffic where he was hit by a car. He kept getting run over by all the subsequent cars. It was a terrible thing to witness.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was horrified. I couldn't do anything to stop it.\n\n"
+            }
+        ],
+        "request_id": "811bd6b41d238c39-EWR"
+    }
+}

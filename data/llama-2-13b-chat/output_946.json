@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I had been teaching my son how to read his bike for quite a while. He was having trouble learning. We started out with the traditional style of the parent holding the seat and the handlebars while the child pedals. We ran several days of trials this way. It was hard for my son to realize the mechanics. I would hold the seat and he would begin to lean into me. He wouldn't try to adjust himself, but would rely on me to keep him upright. It wasn't working. I looked online for some suggestions. This was a first for both my wife and I. I found one post advising to have the child sit on the seat and walk the bike themselves, then when they have enough momentum, start pedaling. This method made total sense to me. It seemed to teach them the natural motions while still being safe. My son tried this method a few times. He was starting to get the balance down that he needed. He finally walked it out and began to pedal. He went the length of the driveway and now he is a full-fledged bike rider. It was one of the proudest moments of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I had been teaching my son how to read his bike for quite a while. He was having trouble learning. We started out with the traditional style of the parent holding the seat and the handlebars while the child pedals. We ran several days of trials this way. It was hard for my son to realize the mechanics. I would hold the seat and he would begin to lean into me. He wouldn't try to adjust himself, but would rely on me to keep him upright. It wasn't working. I looked online for some suggestions. This was a first for both my wife and I. I found one post advising to have the child sit on the seat and walk the bike themselves, then when they have enough momentum, start pedaling. This method made total sense to me. It seemed to teach them the natural motions while still being safe. My son tried this method a few times. He was starting to get the balance down that he needed. He finally walked it out and began to pedal. He went the length of the driveway and now he is a full-fledged bike rider. It was one of the proudest moments of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9b11dbac78d5-EWR"
+    }
+}

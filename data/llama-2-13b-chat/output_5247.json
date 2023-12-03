@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I adopted Chloe when she was just a puppy. I went to the shelter and instantly fell in love. She was a pit bull and it seemed no one wanted her. The shelter workers said that she was often overlooked. People were afraid that she would grow up to be violent, so they chose other dogs instead. She was the sweetest puppy. She rarely made a mess and was never aggressive. As she got older, she proved to be very smart. She learned tricks easily. She always followed the rules. She was protective of our family, but would never harm anyone. As she got older, her hips started acting up. She had difficulty walking, so I had a special harness I used to help her get around. Even then, she was so full of energy and always on the go. After 15 years of loving her, Chloe passed away peacefully in her sleep. I will always remember the wonderful times we shared together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I adopted Chloe when she was just a puppy. I went to the shelter and instantly fell in love. She was a pit bull and it seemed no one wanted her. The shelter workers said that she was often overlooked. People were afraid that she would grow up to be violent, so they chose other dogs instead. She was the sweetest puppy. She rarely made a mess and was never aggressive. As she got older, she proved to be very smart. She learned tricks easily. She always followed the rules. She was protective of our family, but would never harm anyone. As she got older, her hips started acting up. She had difficulty walking, so I had a special harness I used to help her get around. Even then, she was so full of energy and always on the go. After 15 years of loving her, Chloe passed away peacefully in her sleep. I will always remember the wonderful times we shared together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2d9b098a4273-EWR"
+    }
+}

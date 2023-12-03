@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was two months ago. I was in some sort of predicament. No one thought I was worthy being a newcomer. No one thought I could solve problems even though I was very capable. It took a while for people to notice how intelligent I was. I had to get help from a lot of my friends and even old professors. They were able to vouch for me, and show what I can do. After some time, after the help from friends and professors, I was promoted. The company was finally seeing me for who I truly am. It did take some time. However, I am glad that I am finally in the position where I belong. At this point in time, I am very successful and have had great times with this company. It was only a matter of time for them to realize my true potential. So here I am, living the best life. Making the money I have always dreamed to make, and empowering others to do the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was two months ago. I was in some sort of predicament. No one thought I was worthy being a newcomer. No one thought I could solve problems even though I was very capable. It took a while for people to notice how intelligent I was. I had to get help from a lot of my friends and even old professors. They were able to vouch for me, and show what I can do. After some time, after the help from friends and professors, I was promoted. The company was finally seeing me for who I truly am. It did take some time. However, I am glad that I am finally in the position where I belong. At this point in time, I am very successful and have had great times with this company. It was only a matter of time for them to realize my true potential. So here I am, living the best life. Making the money I have always dreamed to make, and empowering others to do the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec8e77f72c44f-EWR"
+    }
+}

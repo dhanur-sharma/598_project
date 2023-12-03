@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mother recently passed away. It was unexpected and affected me a lot more than I thought. I remember going into her place with my sibling to clear out belongings. We were not as close and I regret not being there for her in her untimely death. I started having anxiety attacks shortly after. I couldn't even be around people talking about her without freaking out. I soon after got help and started processing my grief properly. The main thing I can say is there is always help for whatever you are going through; You have to find the strength to be proactive and find it. This event happened 6 months ago. We always butted heads and didn't see eye to eye. I regret some things I said to her in the past and how I pushed her away. I wish she got to see my son more than what she did. No matter how much I regret certain things I try to remember our good moments together. She meant well at heart and I hope she found peace. It is never easy losing a loved one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mother recently passed away. It was unexpected and affected me a lot more than I thought. I remember going into her place with my sibling to clear out belongings. We were not as close and I regret not being there for her in her untimely death. I started having anxiety attacks shortly after. I couldn't even be around people talking about her without freaking out. I soon after got help and started processing my grief properly. The main thing I can say is there is always help for whatever you are going through; You have to find the strength to be proactive and find it. This event happened 6 months ago. We always butted heads and didn't see eye to eye. I regret some things I said to her in the past and how I pushed her away. I wish she got to see my son more than what she did. No matter how much I regret certain things I try to remember our good moments together. She meant well at heart and I hope she found peace. It is never easy losing a loved one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope my story helps others to find the strength to keep going and find the help they need.\n\n"
+            }
+        ],
+        "request_id": "811bded51e874301-EWR"
+    }
+}

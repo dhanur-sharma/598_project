@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, I was suppose to get together with my siblings. We couldn't agree on anything. We decided to cancel. I decided to have a fun day by myself. I first went bowling. I almost got a 300 but I tripped on the last round. I only got a bruise but had a fun time. I then went to the movies. I saw a blockbuster. It was surprisingly not a remake. It had a great plot with great action scenes. I finished the day at a fancy restaurant. The food was great. I had a nice burger. I had some queso for an appetizer. I had a big beer that was yummy to drink. The whole day was very fun. I hope to do this again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, I was suppose to get together with my siblings. We couldn't agree on anything. We decided to cancel. I decided to have a fun day by myself. I first went bowling. I almost got a 300 but I tripped on the last round. I only got a bruise but had a fun time. I then went to the movies. I saw a blockbuster. It was surprisingly not a remake. It had a great plot with great action scenes. I finished the day at a fancy restaurant. The food was great. I had a nice burger. I had some queso for an appetizer. I had a big beer that was yummy to drink. The whole day was very fun. I hope to do this again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaffc4ea54279-EWR"
+    }
+}

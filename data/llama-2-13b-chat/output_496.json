@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This summer I attended my cousin's convocation. That was a wonderful experience. The main event was in his university stadium. We went there early in the morning. The whole atmosphere was very festive.  It was a nice sunny day. People were very happy. We seated ourselves near the center, and waited for the announcement. We were all very joyful when my cousin's name was announced. Then we took photo with my cousin. The most interesting thing happened just after that. There was a talent show of current students after the ceremony. Some of the students performed brilliantly. I remember one student sang an Elton John song. That was just perfect. I still fondly remember the whole event."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This summer I attended my cousin's convocation. That was a wonderful experience. The main event was in his university stadium. We went there early in the morning. The whole atmosphere was very festive.  It was a nice sunny day. People were very happy. We seated ourselves near the center, and waited for the announcement. We were all very joyful when my cousin's name was announced. Then we took photo with my cousin. The most interesting thing happened just after that. There was a talent show of current students after the ceremony. Some of the students performed brilliantly. I remember one student sang an Elton John song. That was just perfect. I still fondly remember the whole event.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92d549eec33e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of weeks ago, I went to my cousin's wedding. It was such a great event. I got to see her walk down the hall and kiss the bride. Everybody in the church was in tears. The cake was huge. It was a few feet tall. I loved eating the cake. She cried half the time. She was in so much joy and I was happy for her. She married a oil tycoon. She will have it easy and hopefully I'll get some gifts from the husband. I hope her the best. She said she'll have a kid in the next few years. I hope her the best in her family and future family. I went home feeling proud. She will have a great life in this world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of weeks ago, I went to my cousin's wedding. It was such a great event. I got to see her walk down the hall and kiss the bride. Everybody in the church was in tears. The cake was huge. It was a few feet tall. I loved eating the cake. She cried half the time. She was in so much joy and I was happy for her. She married a oil tycoon. She will have it easy and hopefully I'll get some gifts from the husband. I hope her the best. She said she'll have a kid in the next few years. I hope her the best in her family and future family. I went home feeling proud. She will have a great life in this world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'll be there for her no matter what.\n\n"
+            }
+        ],
+        "request_id": "811ea554794c41d9-EWR"
+    }
+}

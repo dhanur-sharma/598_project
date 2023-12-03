@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a great career. I found out about four months ago. I had this five-year old patient who I was tending to. This poor little guy went into cardiac arrest right in front of me. I was the only one in the room. I had to perform CPR for the first time. Knowing that this little tyke's life was in my hands. I had to do everything I could to save him. He pulled through and made it. He survived and went on to recovery and was released from the hospital two short months later. This event lasted in my memory. I can still see his little face as he bagan flatlining in front of me. He was the most precious five year old that I have ever met. I'm so glad that I saved him. That was the day I knew that I would be a nurse forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a great career. I found out about four months ago. I had this five-year old patient who I was tending to. This poor little guy went into cardiac arrest right in front of me. I was the only one in the room. I had to perform CPR for the first time. Knowing that this little tyke's life was in my hands. I had to do everything I could to save him. He pulled through and made it. He survived and went on to recovery and was released from the hospital two short months later. This event lasted in my memory. I can still see his little face as he bagan flatlining in front of me. He was the most precious five year old that I have ever met. I'm so glad that I saved him. That was the day I knew that I would be a nurse forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b3d5c309e04-EWR"
+    }
+}

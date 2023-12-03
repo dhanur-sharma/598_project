@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's never pleasant when friends meet because of another friend's death. It was hard to admit that this one girl was gone, never to be seen again. At least, in the physical form. A month ago, her husband called me with the news that she had passed. I didn't get the details of what happened, but that seemed unimportant in the grand scheme of things. I just wanted to be there for him the best that I could. I couldn't imagine how he felt. He had just lost his soulmate. That being said, the funeral was beautiful. It was wonderfully done, and it was just such a positive vibe given the source material. Her husband and I reminisced about the good times and those memories are never going to fade so long as we can help it. She never wavered, and she was stubborn. Whatever took her, it wasn't easy. She will be missed. I'll see her again at some point."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's never pleasant when friends meet because of another friend's death. It was hard to admit that this one girl was gone, never to be seen again. At least, in the physical form. A month ago, her husband called me with the news that she had passed. I didn't get the details of what happened, but that seemed unimportant in the grand scheme of things. I just wanted to be there for him the best that I could. I couldn't imagine how he felt. He had just lost his soulmate. That being said, the funeral was beautiful. It was wonderfully done, and it was just such a positive vibe given the source material. Her husband and I reminisced about the good times and those memories are never going to fade so long as we can help it. She never wavered, and she was stubborn. Whatever took her, it wasn't easy. She will be missed. I'll see her again at some point.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's just a matter of time before I see her again. I'll never forget her."
+            }
+        ],
+        "request_id": "811eb5dcde778c87-EWR"
+    }
+}

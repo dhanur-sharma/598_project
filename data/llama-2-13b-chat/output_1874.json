@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 weeks ago, I was walking down a busy street. I realized that I soon had to catch the bus, so i stopped and waited at the bus stop. At the bus stop, i met a man named Casey. Casey was a young homeless man. After talking to him, I had great pity on him. Casey lost everything in the financial crisis, and he had no family left. After talking to him for a while, I realized I had to do something. I offered Casey money, but he would not take any. I decided I should invite him back to my place. I live alone after all. I told Casey he could sleep on my couch that night if he would like to. Casey came back to my house, ad we watched Netflix for a good while. As he shared more about his story, I felt my entire life perspective change. I realized that i took so many things for granted. I told Casey that he had changed my life in that moment. To this day, Casey and I are close friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 weeks ago, I was walking down a busy street. I realized that I soon had to catch the bus, so i stopped and waited at the bus stop. At the bus stop, i met a man named Casey. Casey was a young homeless man. After talking to him, I had great pity on him. Casey lost everything in the financial crisis, and he had no family left. After talking to him for a while, I realized I had to do something. I offered Casey money, but he would not take any. I decided I should invite him back to my place. I live alone after all. I told Casey he could sleep on my couch that night if he would like to. Casey came back to my house, ad we watched Netflix for a good while. As he shared more about his story, I felt my entire life perspective change. I realized that i took so many things for granted. I told Casey that he had changed my life in that moment. To this day, Casey and I are close friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eac6a7bed4288-EWR"
+    }
+}

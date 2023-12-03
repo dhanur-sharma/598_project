@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am so excited to be boarding our ship. This is going to be our first cruise together in all the years that we have been married. We are going to stay at a hotel first then travel to the port before we board the ship. We boarded the ship and went right to the bar where we got our first drinks. We had to wait a bit for our room but we started having so much fun it didn't bother us to wait. We also went to get something to eat while we waited. After about two hours we were able to go to our rooms where we changed, unpacked, and rested before other festivities began. The first day was quite a few activities and we went to the big sail away party. It seemed like everyone onboard was there. It was kinda hot but it was still fun. We had drinks out on the deck, listened to the music, and even danced. There were people of all ages there so it was definitely family friendly. After the party, we continued to sit out on the deck enjoying the scenery as the ship sailed out to sea. Next, was the welcoming show that was given by our cruise director. It was so funny and we had more drinks during it. By the time that was over it was time to eat."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am so excited to be boarding our ship. This is going to be our first cruise together in all the years that we have been married. We are going to stay at a hotel first then travel to the port before we board the ship. We boarded the ship and went right to the bar where we got our first drinks. We had to wait a bit for our room but we started having so much fun it didn't bother us to wait. We also went to get something to eat while we waited. After about two hours we were able to go to our rooms where we changed, unpacked, and rested before other festivities began. The first day was quite a few activities and we went to the big sail away party. It seemed like everyone onboard was there. It was kinda hot but it was still fun. We had drinks out on the deck, listened to the music, and even danced. There were people of all ages there so it was definitely family friendly. After the party, we continued to sit out on the deck enjoying the scenery as the ship sailed out to sea. Next, was the welcoming show that was given by our cruise director. It was so funny and we had more drinks during it. By the time that was over it was time to eat.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We went to the dining room for dinner and had an amazing meal. After dinner we went to the casino to play some games. We had a lot of fun but we also lost some money. We ended the night with a drink at the bar and then went back to our room to rest.\n\n"
+            }
+        ],
+        "request_id": "811eb01c2c005e6e-EWR"
+    }
+}

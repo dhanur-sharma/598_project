@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am from Chicago. I have a friend in Denver. He uses cannabis so he invited me over. I boarded a train from Chicago to Denver to try cannabis for the first time. On my way to Denver, i shopped in a dispensary and bought edibles. After i tried the cannabis, i felt good and was ready to go back to Chicago. I boarded another train to Chicago. On my way to Chicago, i was hungry and ate the edibles. Shortly after i ate the edibles, i fell asleep. It took me 6 hours before i woke up. I called my friend to tell him what happened. He laughed and said that was because it was my first time. I was nervous and first but it felt good. I wanted to try again. That was all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am from Chicago. I have a friend in Denver. He uses cannabis so he invited me over. I boarded a train from Chicago to Denver to try cannabis for the first time. On my way to Denver, i shopped in a dispensary and bought edibles. After i tried the cannabis, i felt good and was ready to go back to Chicago. I boarded another train to Chicago. On my way to Chicago, i was hungry and ate the edibles. Shortly after i ate the edibles, i fell asleep. It took me 6 hours before i woke up. I called my friend to tell him what happened. He laughed and said that was because it was my first time. I was nervous and first but it felt good. I wanted to try again. That was all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3236b84c4343-EWR"
+    }
+}

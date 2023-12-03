@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I heard a knock at the door. I wasn't expecting anybody. It was a non-threatening guy with a clipboard holding a fat stack of papers. He asked for my name. Handed me the papers and had me sign off that I received the papers. Glanced at the stack, it's a lawsuit. My ex is taking me to court again. Get inside and look thru the lawsuit. She is fighting again for custody of the kids! A bunch of other stuff mainly about money but I cannot believe she is trying to take the kids away again. I had just left my job of 11 years to start daytrading full time. I took some big hits with the market being crazy and money is really tight. My lawyer said he wants $3500 up front to represent me. Something I definitely can't afford right now. I started looking for another job to get money for this lawsuit. I am so stressed and it is very difficult to not say anything about the lawsuit to the kids."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I heard a knock at the door. I wasn't expecting anybody. It was a non-threatening guy with a clipboard holding a fat stack of papers. He asked for my name. Handed me the papers and had me sign off that I received the papers. Glanced at the stack, it's a lawsuit. My ex is taking me to court again. Get inside and look thru the lawsuit. She is fighting again for custody of the kids! A bunch of other stuff mainly about money but I cannot believe she is trying to take the kids away again. I had just left my job of 11 years to start daytrading full time. I took some big hits with the market being crazy and money is really tight. My lawyer said he wants $3500 up front to represent me. Something I definitely can't afford right now. I started looking for another job to get money for this lawsuit. I am so stressed and it is very difficult to not say anything about the lawsuit to the kids.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaf768d2643d5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Driving into Buffalo, New York having just traveled from Northern Vermont through Canada, I wasn't sure what to expect. I had trouble navigating the signs and kept getting distracted by notifications of wineries coming up on the turnpike. I was headed to Niagara Falls, something I have always wanted to see, but the reason for me going there was complicated. My boyfriend and I had just broken up, he was a brutal dude, I still had fresh bruises and wanted to keep moving while I had the courage - and I currently had all of my belongings in my car. I wasn't sure where I would end up, but couch-surfing a friends place in upstate NY I saw a ridiculous ad on TV for the falls so decided to go. It wasn't a well-thought out or wise decision, but Niagara here I come. Eventually I cut back down from the km loving Canadians to western NY and found the right exit and crossed something called the Rainbow Bridge? (Also distracting!) Border patrol asked me a bunch of questions I couldn't answer (how long will you be here? why are you here?) - but they let me cross anyway. I drove into town, used some of my (not considerable) savings and bought the cheapest room with an all-you-can eat buffet I could find. So about $30 (Canadian). I checked in and then decided to try and find the falls. It was late at night now and walking in a new town full of lights and tourists was disorienting. I followed the mist. And found it. And it was spectacular.  So much water, a louder roar than you would expect and....spectacular. The water was calling to me. Telling me what to do. I had a new direction now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Driving into Buffalo, New York having just traveled from Northern Vermont through Canada, I wasn't sure what to expect. I had trouble navigating the signs and kept getting distracted by notifications of wineries coming up on the turnpike. I was headed to Niagara Falls, something I have always wanted to see, but the reason for me going there was complicated. My boyfriend and I had just broken up, he was a brutal dude, I still had fresh bruises and wanted to keep moving while I had the courage - and I currently had all of my belongings in my car. I wasn't sure where I would end up, but couch-surfing a friends place in upstate NY I saw a ridiculous ad on TV for the falls so decided to go. It wasn't a well-thought out or wise decision, but Niagara here I come. Eventually I cut back down from the km loving Canadians to western NY and found the right exit and crossed something called the Rainbow Bridge? (Also distracting!) Border patrol asked me a bunch of questions I couldn't answer (how long will you be here? why are you here?) - but they let me cross anyway. I drove into town, used some of my (not considerable) savings and bought the cheapest room with an all-you-can eat buffet I could find. So about $30 (Canadian). I checked in and then decided to try and find the falls. It was late at night now and walking in a new town full of lights and tourists was disorienting. I followed the mist. And found it. And it was spectacular.  So much water, a louder roar than you would expect and....spectacular. The water was calling to me. Telling me what to do. I had a new direction now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I went back to my room and packed up my stuff. I decided to stay in Niagara for a while. I would figure it out. I was in no rush. I was done with men and relationships for a long time. And Niagara Falls was a good place to start again.\n\n"
+            }
+        ],
+        "request_id": "811ebc7f7d284331-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I received a message on Facebook from my brother-in-law's girlfriend asking if he could come to our home and stay until he got off drugs. The area where they lived was full of temptations for him. This would make it more difficult to get off the drugs. He has had bad experiences with rehab in the past and didn't want to go back. We agreed to let him stay. Things started out ok, but went downhill quickly. He began to withdraw from the drugs. He felt ill, was irritable and cranky. He wanted my husband to help him get drugs, just enough to ease him through the worst of it, but I didn't want him to. I know my brother-in-law pretty well and I believed that he would go back to his habits if given the chance. He got really upset with me and my husband. He would mope around the house and barely speak to us. My mother-in-law came to visit him once and he got really upset with her because she wouldn't give him any money. He ended up going home without even saying goodbye. He is still upset with both of us and will hardly speak to us if we are all visiting at my husband's mom's house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I received a message on Facebook from my brother-in-law's girlfriend asking if he could come to our home and stay until he got off drugs. The area where they lived was full of temptations for him. This would make it more difficult to get off the drugs. He has had bad experiences with rehab in the past and didn't want to go back. We agreed to let him stay. Things started out ok, but went downhill quickly. He began to withdraw from the drugs. He felt ill, was irritable and cranky. He wanted my husband to help him get drugs, just enough to ease him through the worst of it, but I didn't want him to. I know my brother-in-law pretty well and I believed that he would go back to his habits if given the chance. He got really upset with me and my husband. He would mope around the house and barely speak to us. My mother-in-law came to visit him once and he got really upset with her because she wouldn't give him any money. He ended up going home without even saying goodbye. He is still upset with both of us and will hardly speak to us if we are all visiting at my husband's mom's house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9a3a8c0f5e65-EWR"
+    }
+}

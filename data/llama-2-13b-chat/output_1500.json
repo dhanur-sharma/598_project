@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 5 months ago I was struggling. I wasn't eating well. I wasn't sleeping well. I just couldn't function like I knew I was supposed to. Something had to be done, and I didn't know where to start. My life felt like it was going downhill fast and there was nothing that I could do to stop it. I got help from a friend and he suggested that I really need to just watch what I eat and try to get on a set sleep schedule. I knew that those were some of my problems, and I wanted to fix them all, so if that was the start then I'd try. It went well and I could tell that sleeping better and more regularly was a big help. I started to feel healthier and things became less of a struggle. I started being motivated to live and wake up. I wanted to keep improving. I was trying so hard now because I could see improvements. I could tell I was making progress both physically and mentally. I just kept at it and kept pushing my goal further and further so Id keep at it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 5 months ago I was struggling. I wasn't eating well. I wasn't sleeping well. I just couldn't function like I knew I was supposed to. Something had to be done, and I didn't know where to start. My life felt like it was going downhill fast and there was nothing that I could do to stop it. I got help from a friend and he suggested that I really need to just watch what I eat and try to get on a set sleep schedule. I knew that those were some of my problems, and I wanted to fix them all, so if that was the start then I'd try. It went well and I could tell that sleeping better and more regularly was a big help. I started to feel healthier and things became less of a struggle. I started being motivated to live and wake up. I wanted to keep improving. I was trying so hard now because I could see improvements. I could tell I was making progress both physically and mentally. I just kept at it and kept pushing my goal further and further so Id keep at it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea5e8c921c44f-EWR"
+    }
+}

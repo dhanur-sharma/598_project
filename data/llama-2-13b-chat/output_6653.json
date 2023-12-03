@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In February, I had my annual check-up at the gastroenterologist. I have Crohn's Disease, but it has been in remission for many years now. I have to take a medication, an immuniomodulator, to keep the disease under control. The medication reduces the effectiveness of my immune system and makes inflammation less likely to occur. The medication also can cause unintended side effects: one of which is lymphoma, a type of cancer. I've been taking this medication for 5 years, and I've always felt wary of it because of the possible side effects. The week before the appointment I had an MRI scan to check for any active inflammation. At the appointment, the doctor revealed that my MRI showed that there was no active inflammation and no evidence of inflammation in the past. I was very relieved to have confirmation, but not surprised because I've  felt completely fine recently. Then the doctor said that they would like to try taking me off the medication I had been taking for 5 years. I was super happy about this and immediately agreed. I would no longer have to worry about the potential side-effects. I was a little apprehensive because I was afraid of what would happen if the inflammation came back, but I haven't taken the medication since February. I feel completely fine. I feel like a major burden has been lifted from my shoulders!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In February, I had my annual check-up at the gastroenterologist. I have Crohn's Disease, but it has been in remission for many years now. I have to take a medication, an immuniomodulator, to keep the disease under control. The medication reduces the effectiveness of my immune system and makes inflammation less likely to occur. The medication also can cause unintended side effects: one of which is lymphoma, a type of cancer. I've been taking this medication for 5 years, and I've always felt wary of it because of the possible side effects. The week before the appointment I had an MRI scan to check for any active inflammation. At the appointment, the doctor revealed that my MRI showed that there was no active inflammation and no evidence of inflammation in the past. I was very relieved to have confirmation, but not surprised because I've  felt completely fine recently. Then the doctor said that they would like to try taking me off the medication I had been taking for 5 years. I was super happy about this and immediately agreed. I would no longer have to worry about the potential side-effects. I was a little apprehensive because I was afraid of what would happen if the inflammation came back, but I haven't taken the medication since February. I feel completely fine. I feel like a major burden has been lifted from my shoulders!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4a03fc0a41d3-EWR"
+    }
+}

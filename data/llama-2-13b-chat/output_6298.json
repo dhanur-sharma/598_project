@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am in my 30s. College didn't seem like an option. But I persevered. And I graduated. It was quite fun overall. Some definite stress, but knowing I was working on something with value made it worth it. I felt I got along with the student great. Even with my age. I liked all the instructors. The curriculum was proper and difficult where it needed to be. I felt it was very engaging courses. While I do miss it, I am glad I succeeded and am ready for the next stage in my life. I often joked with others that I was too old for it. But they laughed along with me and we all helped each other. I'll keep in touch with many."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am in my 30s. College didn't seem like an option. But I persevered. And I graduated. It was quite fun overall. Some definite stress, but knowing I was working on something with value made it worth it. I felt I got along with the student great. Even with my age. I liked all the instructors. The curriculum was proper and difficult where it needed to be. I felt it was very engaging courses. While I do miss it, I am glad I succeeded and am ready for the next stage in my life. I often joked with others that I was too old for it. But they laughed along with me and we all helped each other. I'll keep in touch with many.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great experience.\n\n"
+            }
+        ],
+        "request_id": "811f42a79b344376-EWR"
+    }
+}

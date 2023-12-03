@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: She was accepted into Rutgers U. I am relieved I can say the efforts have an endpoint. Can I say that? Every day I still wonder if she will not be able to focus...if she will get stressed and focus too intently to overcompensate and not be aware of her surroundings. It has been hell for her and for me. What is left if you choose not to use medication though I offered to go that route with her many times once she was old enough to understand things like side effects and ineffectiveness.  As I think about all we did I feel sick in my stomach. The constant disciplining to form that necessary structure that her mind couldn't do easily on it's own. OMG all the words! Talking to her until I felt like passing out. \"Now..now you are processing that clearly! Can you feel the reasoning come naturally now?\" Her relief when she could see out of the fog, her despair when she realized she was thinking \"jumbly\" again; my God how we fought against the monster. She is proud of herself; she can even tell when she is \"bouncy\" and needs to regroup. She deserves to be proud; she never, ever gave up.  We never, ever gave up. When people say, \"Your daughter is just so sharp\" I don't feel proud so much as I want to throw up with remembered fear and cry with relief."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: She was accepted into Rutgers U. I am relieved I can say the efforts have an endpoint. Can I say that? Every day I still wonder if she will not be able to focus...if she will get stressed and focus too intently to overcompensate and not be aware of her surroundings. It has been hell for her and for me. What is left if you choose not to use medication though I offered to go that route with her many times once she was old enough to understand things like side effects and ineffectiveness.  As I think about all we did I feel sick in my stomach. The constant disciplining to form that necessary structure that her mind couldn't do easily on it's own. OMG all the words! Talking to her until I felt like passing out. \"Now..now you are processing that clearly! Can you feel the reasoning come naturally now?\" Her relief when she could see out of the fog, her despair when she realized she was thinking \"jumbly\" again; my God how we fought against the monster. She is proud of herself; she can even tell when she is \"bouncy\" and needs to regroup. She deserves to be proud; she never, ever gave up.  We never, ever gave up. When people say, \"Your daughter is just so sharp\" I don't feel proud so much as I want to throw up with remembered fear and cry with relief.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now that she is off to college I can finally breathe again. \n\n"
+            }
+        ],
+        "request_id": "811e933eafe1440c-EWR"
+    }
+}

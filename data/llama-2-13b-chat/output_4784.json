@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five weeks ago, I posted on Facebook asking for help. I had been laid off about 13 years ago. My previous employer has consistently told all of my prospective employers that I have MS. Much to the surprise of me and my husband, our friends and family donated over $100 to us. This has been such a blessing. We were both so surprised. We're going through litigation against my previous employer for disclosing personal information. They continue to do this to me. The $100 will help us out so much. I have been forever grateful. Once we win this case against my old employer, I will be able to pay back everyone who donated to us. I will be able to finally be past this. I will be able to actually get a job without worrying about them retaliating against me. I may not even have to work again. I will personally repay everyone who donated to us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five weeks ago, I posted on Facebook asking for help. I had been laid off about 13 years ago. My previous employer has consistently told all of my prospective employers that I have MS. Much to the surprise of me and my husband, our friends and family donated over $100 to us. This has been such a blessing. We were both so surprised. We're going through litigation against my previous employer for disclosing personal information. They continue to do this to me. The $100 will help us out so much. I have been forever grateful. Once we win this case against my old employer, I will be able to pay back everyone who donated to us. I will be able to finally be past this. I will be able to actually get a job without worrying about them retaliating against me. I may not even have to work again. I will personally repay everyone who donated to us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Thank you so much for your support!\n\n"
+            }
+        ],
+        "request_id": "811bddd78c1232f4-EWR"
+    }
+}

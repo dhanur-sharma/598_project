@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently gave birth to my second child. She was born a few days ago. She was induced at 39 weeks gestation. The induction went very well and I was pretty comfortable during the whole process. I got an epidural early on. I felt no pain until it was time to push. Even then, it wasn't that bad. I was nervous about pushing her out because I had problems with my first child. The same issue happened with my second so she had to be delivered with a vacuum. I was concerned I had to have a C-section but my doctor did a good job to make sure that didn't happen. The most memorable part of the experience is when the nurse held her up for me to see. I was surprised at how big she was since she was supposed to be very small. She handed her to me and she got to lay on my chest. She came out basically perfect with little bruising to her head but she sure cried a lot for the first half hour! It was a very tiring but good experience overall, even though I never want to give birth again. She is a good baby."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently gave birth to my second child. She was born a few days ago. She was induced at 39 weeks gestation. The induction went very well and I was pretty comfortable during the whole process. I got an epidural early on. I felt no pain until it was time to push. Even then, it wasn't that bad. I was nervous about pushing her out because I had problems with my first child. The same issue happened with my second so she had to be delivered with a vacuum. I was concerned I had to have a C-section but my doctor did a good job to make sure that didn't happen. The most memorable part of the experience is when the nurse held her up for me to see. I was surprised at how big she was since she was supposed to be very small. She handed her to me and she got to lay on my chest. She came out basically perfect with little bruising to her head but she sure cried a lot for the first half hour! It was a very tiring but good experience overall, even though I never want to give birth again. She is a good baby.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e987beb9a43a6-EWR"
+    }
+}

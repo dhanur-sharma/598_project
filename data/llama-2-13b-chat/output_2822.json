@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I awoke one Sunday morning this summer to start our day. Our older daughter was staying the night at a friend's house about twelve minutes south of us. The parents said there was no rush to pick her up. It was my daughter's first time staying overnight at a friend's house though, so I was anxious to go and pick her up. My husband, my son, my youngest daughter, and I ate breakfast and then all got dressed to go. It was mid-morning on a Sunday. Most little towns are not busy at this time of day on a Sunday, but our little neck-of-the-woods (populationabout 150) has become very touristy with Texans so we expected traffic. How much traffic was a shock though. We went about a mile and all cars were at a stand-still. It was crazy. We were stuck in that line for 45 minutes until my husband got a text message (he was not driving) from one of his park rangers (my husband is a park manager) and there had been a wreck at the south entrance of the park, just up ahead from us on the highway. Right after the message, we passed the accident scene and it was unbelievable. The park ranger called my husband and explained the details of the accident. A car holding a family of 5 had pulled out in front of an oncoming vehicle, who hit the car. A six year old and another child were killed. It was awful. It made me feel like never leaving our house on the weekends here in this crazy traffic.  Texans, in a generalized Oklahoman's opinion, are crazy drivers. They come up here to enjoy our park, but they drive fast, ignoring traffic signs, pass people on the right on the shoulder, etc... So many wrecks occur here and the number is increasing. Since then, they have lowered the speed limit. I hope this lowers the amount of accidents."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I awoke one Sunday morning this summer to start our day. Our older daughter was staying the night at a friend's house about twelve minutes south of us. The parents said there was no rush to pick her up. It was my daughter's first time staying overnight at a friend's house though, so I was anxious to go and pick her up. My husband, my son, my youngest daughter, and I ate breakfast and then all got dressed to go. It was mid-morning on a Sunday. Most little towns are not busy at this time of day on a Sunday, but our little neck-of-the-woods (populationabout 150) has become very touristy with Texans so we expected traffic. How much traffic was a shock though. We went about a mile and all cars were at a stand-still. It was crazy. We were stuck in that line for 45 minutes until my husband got a text message (he was not driving) from one of his park rangers (my husband is a park manager) and there had been a wreck at the south entrance of the park, just up ahead from us on the highway. Right after the message, we passed the accident scene and it was unbelievable. The park ranger called my husband and explained the details of the accident. A car holding a family of 5 had pulled out in front of an oncoming vehicle, who hit the car. A six year old and another child were killed. It was awful. It made me feel like never leaving our house on the weekends here in this crazy traffic.  Texans, in a generalized Oklahoman's opinion, are crazy drivers. They come up here to enjoy our park, but they drive fast, ignoring traffic signs, pass people on the right on the shoulder, etc... So many wrecks occur here and the number is increasing. Since then, they have lowered the speed limit. I hope this lowers the amount of accidents.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We eventually made it to the friend's house and picked up our daughter. She was having so much fun that she did not want to leave. We were so grateful to get her back home safely. It was a long day, but we were happy to be together."
+            }
+        ],
+        "request_id": "811ebf02f8a14397-EWR"
+    }
+}

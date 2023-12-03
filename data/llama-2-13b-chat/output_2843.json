@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always loved it when i could get to visit my family. It has been getting more and more hard. Everyone is busy these days. Jobs and stuff. Can't blame them though. However, we do try and find time to be together. We got back together last month, around four weeks ago. It was a small family reunion in Bellevue, Washington. Uncle John has a small place there. Mary came, so did Liam and others. It felt like old times. We went on a trip of wine tasting there. It was really fun. It was especially surprising to see Mary enjoy it, as she was never a wine person. We all had such great fun. Hoping to do it soon again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always loved it when i could get to visit my family. It has been getting more and more hard. Everyone is busy these days. Jobs and stuff. Can't blame them though. However, we do try and find time to be together. We got back together last month, around four weeks ago. It was a small family reunion in Bellevue, Washington. Uncle John has a small place there. Mary came, so did Liam and others. It felt like old times. We went on a trip of wine tasting there. It was really fun. It was especially surprising to see Mary enjoy it, as she was never a wine person. We all had such great fun. Hoping to do it soon again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebf5d0b1941f2-EWR"
+    }
+}

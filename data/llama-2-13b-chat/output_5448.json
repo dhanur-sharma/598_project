@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: May 23rd,2019  Tonight was the night I feared for my life. I felt abnormal a way I have never felt before. I looked in the mirror and begin to cry, because I knew something was not right. What is this feeling I am describing? Well, let me tell you a little about myself. I love to exercise so, I work out about 5 to 6 days out of a week. My training sessions are normally 30 minutes to 1 hour long. I suffer from Insomnia, so I don't get adequate amount of rest. Rest is very important when you train, because your muscles need recovery time. Fast forward, today my body had enough. My muscles became extremely inflamed, so my blood was not circulating properly. I lost quite a bit of sensation which scared me. I could still walk, but overall I felt horrible. It was hard for me to explain the way I felt to anyone who tried to help me. Hopefully, I will feel myself soon the only thing that seems to help is rest."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: May 23rd,2019  Tonight was the night I feared for my life. I felt abnormal a way I have never felt before. I looked in the mirror and begin to cry, because I knew something was not right. What is this feeling I am describing? Well, let me tell you a little about myself. I love to exercise so, I work out about 5 to 6 days out of a week. My training sessions are normally 30 minutes to 1 hour long. I suffer from Insomnia, so I don't get adequate amount of rest. Rest is very important when you train, because your muscles need recovery time. Fast forward, today my body had enough. My muscles became extremely inflamed, so my blood was not circulating properly. I lost quite a bit of sensation which scared me. I could still walk, but overall I felt horrible. It was hard for me to explain the way I felt to anyone who tried to help me. Hopefully, I will feel myself soon the only thing that seems to help is rest.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am going to take a break from my workout regimen and take care of my body. I am grateful for my life, but I will not lie, tonight was very scary. I felt as if I was going to die."
+            }
+        ],
+        "request_id": "811f31a2bca1159f-EWR"
+    }
+}

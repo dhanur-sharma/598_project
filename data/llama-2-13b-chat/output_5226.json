@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Not too long ago, I won a contest at this one fitness expo that my friend and I attended for a whole weekend. He surprised me with a birthday ticket to the whole event, which really was a pleasant thing. The whole point of the expo was to promote proper nutrition and training when you adapt it to a full body workout experience. At the very least, I was hoping to get some really good information for future reference! We had to drive over 5 hours to get there by car, but it was not too bad since we split up the drive between us two. Anyways, while there, we also competed in a contest with over one hundred other individuals of varying levels of fitness! It was a crazy experience, and I was very nervous to perform in front of so many people, especially ones that were definitely more fit than me (at least they seemed to be). Some of these guys looked like they were bodybuilders and had been working out like that for many many years! I only happened to start the program just a year ago. I did put a lot of effort into the workouts leading up to this, but I definitely think I had my work cut out for me! Crazy enough though, I actually outperformed them and won first place! I was ecstatic and couldn't believe it. Little old me, who was half the size of most of the people there, on his first try did what seemed like the impossible. My friend told me that it was all the hard work I put in prior to this expo, which really made me feel happy and glad that I agreed to join him on this trip. What a great weekend!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Not too long ago, I won a contest at this one fitness expo that my friend and I attended for a whole weekend. He surprised me with a birthday ticket to the whole event, which really was a pleasant thing. The whole point of the expo was to promote proper nutrition and training when you adapt it to a full body workout experience. At the very least, I was hoping to get some really good information for future reference! We had to drive over 5 hours to get there by car, but it was not too bad since we split up the drive between us two. Anyways, while there, we also competed in a contest with over one hundred other individuals of varying levels of fitness! It was a crazy experience, and I was very nervous to perform in front of so many people, especially ones that were definitely more fit than me (at least they seemed to be). Some of these guys looked like they were bodybuilders and had been working out like that for many many years! I only happened to start the program just a year ago. I did put a lot of effort into the workouts leading up to this, but I definitely think I had my work cut out for me! Crazy enough though, I actually outperformed them and won first place! I was ecstatic and couldn't believe it. Little old me, who was half the size of most of the people there, on his first try did what seemed like the impossible. My friend told me that it was all the hard work I put in prior to this expo, which really made me feel happy and glad that I agreed to join him on this trip. What a great weekend!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The whole experience was incredible, and I really can't wait to do it again next year!\n\n"
+            }
+        ],
+        "request_id": "811f2d30f98817a9-EWR"
+    }
+}

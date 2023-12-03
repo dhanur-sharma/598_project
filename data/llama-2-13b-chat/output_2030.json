@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This event was a new patient doctor's appointment.  I was expecting the worst but was pleasantly surprised by my experience!  I walked into the office, already shaking. I was scared and armed with my folder of medical information. I have two rare conditions, EDS and Dysautonomia. I didn't think she would take me seriously. When she walked in, I was immediately put to ease. It felt like I had known her for a while. She had already gone through my medical information and told me that she believed me. She told me I had likely been mistreated and misdiagnosed before. She told me she wanted to help me and that we would make a plan together. My biggest surprise was that she believed me. I was ready to give up on the medical stuff. She doesn't know it but she saved me in a way.  This meant the world to me. Since then I have been set up with multiple specialists who are actually interested in helping me, too. They believe me, too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This event was a new patient doctor's appointment.  I was expecting the worst but was pleasantly surprised by my experience!  I walked into the office, already shaking. I was scared and armed with my folder of medical information. I have two rare conditions, EDS and Dysautonomia. I didn't think she would take me seriously. When she walked in, I was immediately put to ease. It felt like I had known her for a while. She had already gone through my medical information and told me that she believed me. She told me I had likely been mistreated and misdiagnosed before. She told me she wanted to help me and that we would make a plan together. My biggest surprise was that she believed me. I was ready to give up on the medical stuff. She doesn't know it but she saved me in a way.  This meant the world to me. Since then I have been set up with multiple specialists who are actually interested in helping me, too. They believe me, too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaf046edb23a2-EWR"
+    }
+}

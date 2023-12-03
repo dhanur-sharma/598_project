@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I saw a cat. He had some energy in his cage. I cleaned him. He was at the pet store. I volunteered to clean him up. I eventually adopted the cat. He has a nice coat of orange fur to him. He likes to drink milk whenever he sees it. He loves to eat tuna. That is his favorite meal. I got a big box of kitty litter for him. He always fills up by the end of the week. I guess I need to put the cat on a diet. I will restrict his diet to two cans of tuna a day. I hope he lose weight because of this restriction in the diet. He loves jumping on my lap. He really loves getting petted in the mornings. I hope to have a great life with him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I saw a cat. He had some energy in his cage. I cleaned him. He was at the pet store. I volunteered to clean him up. I eventually adopted the cat. He has a nice coat of orange fur to him. He likes to drink milk whenever he sees it. He loves to eat tuna. That is his favorite meal. I got a big box of kitty litter for him. He always fills up by the end of the week. I guess I need to put the cat on a diet. I will restrict his diet to two cans of tuna a day. I hope he lose weight because of this restriction in the diet. He loves jumping on my lap. He really loves getting petted in the mornings. I hope to have a great life with him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e963d0e404222-EWR"
+    }
+}

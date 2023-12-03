@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In April, i went to my old college roommate's wedding. It was a great time. I knew him and his fiance very well because she was always at our house. I had not seen them in quite some time so I was ecstatic. it was a very nostalgic event. We ate lobster, shrimp, and other seafood. There was also an open bar. Many people were there so the line for the bar was pretty long. However, it was a great time. I got to catch up with old high school and college friends. I went to the same high school and college with the groom so it was a very memorable and nostalgic event. I think the most surprising part for me was near the end. We all got pretty drunk and started dancing. I am not the best dancer but I just did not care. It was nice because we all had rooms in the hotel too. I could not remember how I got to my room. That is how I knew it was a good night. We all woke up and got pho the next morning. Except the bride and groom, they were busy dealing with family and the venue. It was a great time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In April, i went to my old college roommate's wedding. It was a great time. I knew him and his fiance very well because she was always at our house. I had not seen them in quite some time so I was ecstatic. it was a very nostalgic event. We ate lobster, shrimp, and other seafood. There was also an open bar. Many people were there so the line for the bar was pretty long. However, it was a great time. I got to catch up with old high school and college friends. I went to the same high school and college with the groom so it was a very memorable and nostalgic event. I think the most surprising part for me was near the end. We all got pretty drunk and started dancing. I am not the best dancer but I just did not care. It was nice because we all had rooms in the hotel too. I could not remember how I got to my room. That is how I knew it was a good night. We all woke up and got pho the next morning. Except the bride and groom, they were busy dealing with family and the venue. It was a great time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eadb25dc61931-EWR"
+    }
+}

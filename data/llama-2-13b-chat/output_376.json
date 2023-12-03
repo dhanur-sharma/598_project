@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I was really struggling and feeling upset all of the time. I was going through a tough depression and really needed a friend. My friend, Joe, noticed this and really helped to make me feel better. He acted as my shoulder to cry on. It started off with him sending flowers to my job - just because. The card said it was something to brighten my day and make me smile in between the tears (I was crying a lot). Then one afternoon, Joe had mailed me a gift. It was a personalized map that highlighted all of the places we've traveled together. I had just moved so Joe was now about two hours away from me. He drove up one weekend to take me out and make me feel better. We went out to dinner at my favorite restaurant, went to the winery, went to bars at night, and went hiking during the weekend also. It was really nice and really helped lift my spirits. While Joe was visiting me, he paid for everything and never asked for money back or to split the bill or anything like that. Even still to this day, he won't let me pay him back or buy him something in exchange for his kindness. Once a month, he sends flowers to either my job or my apartment as a reminder that he is always there for me. He is a wonderful friend and I am very lucky."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I was really struggling and feeling upset all of the time. I was going through a tough depression and really needed a friend. My friend, Joe, noticed this and really helped to make me feel better. He acted as my shoulder to cry on. It started off with him sending flowers to my job - just because. The card said it was something to brighten my day and make me smile in between the tears (I was crying a lot). Then one afternoon, Joe had mailed me a gift. It was a personalized map that highlighted all of the places we've traveled together. I had just moved so Joe was now about two hours away from me. He drove up one weekend to take me out and make me feel better. We went out to dinner at my favorite restaurant, went to the winery, went to bars at night, and went hiking during the weekend also. It was really nice and really helped lift my spirits. While Joe was visiting me, he paid for everything and never asked for money back or to split the bill or anything like that. Even still to this day, he won't let me pay him back or buy him something in exchange for his kindness. Once a month, he sends flowers to either my job or my apartment as a reminder that he is always there for me. He is a wonderful friend and I am very lucky.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e90a1dc0418ea-EWR"
+    }
+}

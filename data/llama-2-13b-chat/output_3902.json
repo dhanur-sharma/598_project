@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Around two months ago I was hiking with my wife. I don't really remember where we were at this point, my memory isn't as good as it used to be. She knows I'm not much of a hiker but she insisted we go anyways. I was completely out of breath and exhausted but I wanted to look cool in front of her so I didn't say anything. We got to a point on the hike where the trail was extremely narrow and parallel to a cliff side. Me, wanting to look cool, thought it'd be a good idea to attempt to cross while making a very obvious point not to use my hands to hold onto the wall next to the path. Obviously this had the negative effect you would have imagined, and I slipped. I was dangling off the edge of the drop. It wasn't a very big drop, probably like 8 or 10 feet, but definitely high enough that I would have probably broken an ankle if I wasn't prepared. My wife screamed and started panicking which made it quite difficult to concentrate on getting back up the ledge. Luckily I was able to shuffle over to where she was frantically panicking. I reached my arm out for her to help me up and almost took her down with me. After almost pulling her down with me, she managed to pull me back up onto the cliff with her. After that we decided to just go home, as not to risk further potential injury. Definitely not going hiking again anytime soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Around two months ago I was hiking with my wife. I don't really remember where we were at this point, my memory isn't as good as it used to be. She knows I'm not much of a hiker but she insisted we go anyways. I was completely out of breath and exhausted but I wanted to look cool in front of her so I didn't say anything. We got to a point on the hike where the trail was extremely narrow and parallel to a cliff side. Me, wanting to look cool, thought it'd be a good idea to attempt to cross while making a very obvious point not to use my hands to hold onto the wall next to the path. Obviously this had the negative effect you would have imagined, and I slipped. I was dangling off the edge of the drop. It wasn't a very big drop, probably like 8 or 10 feet, but definitely high enough that I would have probably broken an ankle if I wasn't prepared. My wife screamed and started panicking which made it quite difficult to concentrate on getting back up the ledge. Luckily I was able to shuffle over to where she was frantically panicking. I reached my arm out for her to help me up and almost took her down with me. After almost pulling her down with me, she managed to pull me back up onto the cliff with her. After that we decided to just go home, as not to risk further potential injury. Definitely not going hiking again anytime soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed399ca6e4222-EWR"
+    }
+}

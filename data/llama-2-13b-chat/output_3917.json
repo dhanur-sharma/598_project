@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was really surprised when my friends threw me a birthday party. I thought it was so sweet of them. I always think it's nice when people make an effort to remember things that are important to you. For my party, they had all my favorite foods. That was great since I love to snack! The music was good too. I saw a lot of people I knew and that made me happy. I love being surrounded by friends. I'm definitely a \"people person\". Birthdays are important to me since I love celebrating. I don't even mind that I'm celebrating getting older. As long as it's fun, it's good for me. I didn't celebrate my birthday much after I graduated college. Mostly because I worked such demanding jobs. But I have a less stressful job now. And I can celebrate!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was really surprised when my friends threw me a birthday party. I thought it was so sweet of them. I always think it's nice when people make an effort to remember things that are important to you. For my party, they had all my favorite foods. That was great since I love to snack! The music was good too. I saw a lot of people I knew and that made me happy. I love being surrounded by friends. I'm definitely a \"people person\". Birthdays are important to me since I love celebrating. I don't even mind that I'm celebrating getting older. As long as it's fun, it's good for me. I didn't celebrate my birthday much after I graduated college. Mostly because I worked such demanding jobs. But I have a less stressful job now. And I can celebrate!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm really glad I did. It was so much fun!\n\n"
+            }
+        ],
+        "request_id": "811ed3ec58774375-EWR"
+    }
+}

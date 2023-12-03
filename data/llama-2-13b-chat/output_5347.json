@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I recently got back from a trip to visit my recently disabled mother. I'm very pleased to say that it was a good experience. I also want to say that showing up in person can really improve a relationship. Things were getting so weird on the phone with my family that I was half expecting them to be really unhappy to see me when I arrived. I had such misgivings about the trip that I didn't even bother calling them to say that I'd be visiting. And so I was really surprised by how happy they were to see me when we actually met. The way it happened: I drove into town and surprised them just as they happened to be walking out the front door.  I was immediately greeted with happy faces and a big, long hug from my aunt.  Even my mom was glad to see me. I was particularly worried about how she would take my visit. But she was very glad to see me. - Don't get me wrong. - Things were still kind of weird between us. And things remain weird in our family. I've spoken with them on the phone since my return, and I have to say - I don't pretend to understand them very well. But for all I know, showing up in person was something that sort of saved our relationship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I recently got back from a trip to visit my recently disabled mother. I'm very pleased to say that it was a good experience. I also want to say that showing up in person can really improve a relationship. Things were getting so weird on the phone with my family that I was half expecting them to be really unhappy to see me when I arrived. I had such misgivings about the trip that I didn't even bother calling them to say that I'd be visiting. And so I was really surprised by how happy they were to see me when we actually met. The way it happened: I drove into town and surprised them just as they happened to be walking out the front door.  I was immediately greeted with happy faces and a big, long hug from my aunt.  Even my mom was glad to see me. I was particularly worried about how she would take my visit. But she was very glad to see me. - Don't get me wrong. - Things were still kind of weird between us. And things remain weird in our family. I've spoken with them on the phone since my return, and I have to say - I don't pretend to understand them very well. But for all I know, showing up in person was something that sort of saved our relationship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe it's something I should do more often."
+            }
+        ],
+        "request_id": "811f2f8a889219f3-EWR"
+    }
+}

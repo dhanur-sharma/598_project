@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband has been working at his job for twenty years. So when he lost his job two months ago, we were all appalled. His income is now just gone. The gave him a small severence and we have some savings. But for the company to unexpectedly move all of it's west coast operations back to the main office and lay off the entire west coast workforce was a shock to everyone. So now we find ourselves racing to get a new business up and running. He knew his job well. But we need to start bringing money in soon before we run out. Our savings won't last long. His severence wasn't that great. The company didn't even give the union a heads up before the decision came down. Luckily, my husband has kept contact with his direct customers. Many of them are calling him directly here at home. I think we are going to make this work. The customers are on our side and dumping the company for us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband has been working at his job for twenty years. So when he lost his job two months ago, we were all appalled. His income is now just gone. The gave him a small severence and we have some savings. But for the company to unexpectedly move all of it's west coast operations back to the main office and lay off the entire west coast workforce was a shock to everyone. So now we find ourselves racing to get a new business up and running. He knew his job well. But we need to start bringing money in soon before we run out. Our savings won't last long. His severence wasn't that great. The company didn't even give the union a heads up before the decision came down. Luckily, my husband has kept contact with his direct customers. Many of them are calling him directly here at home. I think we are going to make this work. The customers are on our side and dumping the company for us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f48f4dcf6c457-EWR"
+    }
+}

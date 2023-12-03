@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm really sad to write about Kitty. It's been a week and I think I might be able to write about it now.  Kitty really wasnt feeling very well.  He wasn't acting like himself at all.  I mean, he's always been lazy but a few weeks ago he just stopped moving practically at all.  I really got concerned when he wouldn't eat his food anymore.  He has always loved to eat, so I knew that something was wrong.  I called up the vet and took him in.  The vet was pretty concerned, but thought we'd be albe to help Kitty out.  She was thinking that maybe it was just an infection.  So at the office, she gave Kitty some antibiotics and also ran an IV to get some fluids in him.  He really perked up quickly, so I was pretty hopeful.  I brought Kitty home and he acted pretty normal for the rest of that day.  But overnight things got much worse.  Kitty started throwing up.  And even worse was the noises that Kitty was making.  It broke my heart.  I wasn't sure what was going on but I knew it wasn't good.  I called the vet's emergency number and she had me come in super early the next morning.  Unfortunately it was pretty clear that Kitty was in a lot of pain.  The vet offered to run some more tests, but she didn't think there was much left to do to help Kitty out.  We decided the best thing to do was to put Kitty down so that he wouldn't have to be in such pain any longer.  I still miss him so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm really sad to write about Kitty. It's been a week and I think I might be able to write about it now.  Kitty really wasnt feeling very well.  He wasn't acting like himself at all.  I mean, he's always been lazy but a few weeks ago he just stopped moving practically at all.  I really got concerned when he wouldn't eat his food anymore.  He has always loved to eat, so I knew that something was wrong.  I called up the vet and took him in.  The vet was pretty concerned, but thought we'd be albe to help Kitty out.  She was thinking that maybe it was just an infection.  So at the office, she gave Kitty some antibiotics and also ran an IV to get some fluids in him.  He really perked up quickly, so I was pretty hopeful.  I brought Kitty home and he acted pretty normal for the rest of that day.  But overnight things got much worse.  Kitty started throwing up.  And even worse was the noises that Kitty was making.  It broke my heart.  I wasn't sure what was going on but I knew it wasn't good.  I called the vet's emergency number and she had me come in super early the next morning.  Unfortunately it was pretty clear that Kitty was in a lot of pain.  The vet offered to run some more tests, but she didn't think there was much left to do to help Kitty out.  We decided the best thing to do was to put Kitty down so that he wouldn't have to be in such pain any longer.  I still miss him so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I wish I could have done more to help him out."
+            }
+        ],
+        "request_id": "811ed3d18fb40f8b-EWR"
+    }
+}

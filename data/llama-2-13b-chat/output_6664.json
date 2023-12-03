@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I participated in a medical malpractice trial as the second chair.  I was assisting the managing partner of my firm to try the case as a plaintiff against a doctor and a hospital.  The doctor over prescribed our client with opiate medication and nearly killed her on several occasions.  While she never became addicted, the effects of the treatment left her an emotional and physical wreck.  This experience was very fun and stressful at the same time.  I got to learn on the fly trying a very high profile and high dollar case, while at the same time dealing with the stress of trial.  Long nights, working weekends, and the uncertainty of a judge's rulings were all contributing to the stress.  Additionally, defense counsel was very difficult, which the procedure of trying the case nearly impossible.  Our client also had mental problems, which made it tough.  She could be difficult one day, but pleasant the next.  The judge was also very difficult and did not understand the law.  This made her rulings difficult to anticipate, as she did not know what she was doing.  She eventually understood the law, but this made things hard.  She kept pressuring us to settle, which we did not.  However, we were able to persevere and eventually secured a large verdict for our client.  The verdict was featured in the newspaper, which made me proud."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I participated in a medical malpractice trial as the second chair.  I was assisting the managing partner of my firm to try the case as a plaintiff against a doctor and a hospital.  The doctor over prescribed our client with opiate medication and nearly killed her on several occasions.  While she never became addicted, the effects of the treatment left her an emotional and physical wreck.  This experience was very fun and stressful at the same time.  I got to learn on the fly trying a very high profile and high dollar case, while at the same time dealing with the stress of trial.  Long nights, working weekends, and the uncertainty of a judge's rulings were all contributing to the stress.  Additionally, defense counsel was very difficult, which the procedure of trying the case nearly impossible.  Our client also had mental problems, which made it tough.  She could be difficult one day, but pleasant the next.  The judge was also very difficult and did not understand the law.  This made her rulings difficult to anticipate, as she did not know what she was doing.  She eventually understood the law, but this made things hard.  She kept pressuring us to settle, which we did not.  However, we were able to persevere and eventually secured a large verdict for our client.  The verdict was featured in the newspaper, which made me proud.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4a333f63c35b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: For moms birthday me and my cousin decided to do something special for her.  We planned a trip up to the Great Smoky Mountains. We had never been there, but my mom had spoken fondly of them several times. She used to go there with her parents when she was a kid. We planned the trip to be just the three of us. We rented a little cabin in the woods. It looked really relaxing. When we got up to the mountains we were shocked to see how beautiful the area was. The cabin was perfect. It was located right on a lake. There were no neighbors anywhere to be seen. It was absolutely perfect. The first night we made a little fire outside and sat around chatting and eating snacks. The next day we went into town and explored all the little shops they have there. We found this great little boutique that sold hand made glass sculptures. My mom got one for me and my cousin. We also visited some of the local sites, like the scenic overlooks and a small art gallery. We all had a lot of fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: For moms birthday me and my cousin decided to do something special for her.  We planned a trip up to the Great Smoky Mountains. We had never been there, but my mom had spoken fondly of them several times. She used to go there with her parents when she was a kid. We planned the trip to be just the three of us. We rented a little cabin in the woods. It looked really relaxing. When we got up to the mountains we were shocked to see how beautiful the area was. The cabin was perfect. It was located right on a lake. There were no neighbors anywhere to be seen. It was absolutely perfect. The first night we made a little fire outside and sat around chatting and eating snacks. The next day we went into town and explored all the little shops they have there. We found this great little boutique that sold hand made glass sculptures. My mom got one for me and my cousin. We also visited some of the local sites, like the scenic overlooks and a small art gallery. We all had a lot of fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The trip was a great success and we will definitely go back.\n\n"
+            }
+        ],
+        "request_id": "811bd6335d3dc481-EWR"
+    }
+}

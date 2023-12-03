@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This summer I had one of those too strange to be a coincidence moments. Earlier in the year my grandmother passed away. She was supposed to officiate my wedding as she was an ordained minister. Unexpectedly she came down with a fever which she just couldnt beat. This pushed the wedding back until this fall. 2 months ago I went dress shopping with my mom. We went to a few of the normal places but couldn't find anything we liked. We decided to go to a smaller local shop that we hadnt ever seen. When we got there I found the perfect dress right away. After buying it the owner had said they always have the brides name the dresses they buy. My mom and I thought this was strange but cute enough. We couldnt think of  a fitting name so the owner brought us the guest book for the store. She said sometimes you like the name of another shopper and that can be your dress. As we paged through a name caught my eye. It was my grandmother. She had been in the shop 4 months ago looking at dresses that she had wanted to show me. We settled on the name rose as it was only fitting."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This summer I had one of those too strange to be a coincidence moments. Earlier in the year my grandmother passed away. She was supposed to officiate my wedding as she was an ordained minister. Unexpectedly she came down with a fever which she just couldnt beat. This pushed the wedding back until this fall. 2 months ago I went dress shopping with my mom. We went to a few of the normal places but couldn't find anything we liked. We decided to go to a smaller local shop that we hadnt ever seen. When we got there I found the perfect dress right away. After buying it the owner had said they always have the brides name the dresses they buy. My mom and I thought this was strange but cute enough. We couldnt think of  a fitting name so the owner brought us the guest book for the store. She said sometimes you like the name of another shopper and that can be your dress. As we paged through a name caught my eye. It was my grandmother. She had been in the shop 4 months ago looking at dresses that she had wanted to show me. We settled on the name rose as it was only fitting.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I got chills and my mom almost cried. It was like my grandmother was giving her approval for my wedding."
+            }
+        ],
+        "request_id": "811eb2c099b043f9-EWR"
+    }
+}

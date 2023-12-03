@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago I received a call from one of my childhood friends.  I haven't seen him in about 20 years.  He told me that he was going to be coming back to his hometown.  Hes in the military so he bounces around the world and is never really in one place.  He asked if we could meet up and I agreed.  About a week later he called me again and told me he was in town.  So we scheduled up somewhere to meet.  When we finally got together we really hit it off.  It was great to relive our old memories and tell each other where we were in life now.  I didn't even know he had kids and a family.  We promised to keep in contact with each other from here on out.  He even invited me to come out and visit him sometime, as hes a bit more stable now since hes close to retiring from the military.  I'm really looking forward to going out to visit him.  I'm glad that he reached out to me.  I just wish some more of my old friends would do the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago I received a call from one of my childhood friends.  I haven't seen him in about 20 years.  He told me that he was going to be coming back to his hometown.  Hes in the military so he bounces around the world and is never really in one place.  He asked if we could meet up and I agreed.  About a week later he called me again and told me he was in town.  So we scheduled up somewhere to meet.  When we finally got together we really hit it off.  It was great to relive our old memories and tell each other where we were in life now.  I didn't even know he had kids and a family.  We promised to keep in contact with each other from here on out.  He even invited me to come out and visit him sometime, as hes a bit more stable now since hes close to retiring from the military.  I'm really looking forward to going out to visit him.  I'm glad that he reached out to me.  I just wish some more of my old friends would do the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3d2afed34243-EWR"
+    }
+}

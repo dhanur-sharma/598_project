@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been thinking alot about the job at intuit. Its been 5 months already since my internship. I really miss working there. There was so many great people and alot of perks. It really is a great job. I'm just worried that there might be a better job that I'm missing out on. I don't think I'd ever get tired of the work there on one hand but it's the first real career I've been offered. My boss Bruce definitely kept things exciting. I didnt know what to expect when I first started. The actual work was better to do than I had imagined. There was such a great sense of community. They welcomed me though and made me feel like I belonged. I still have to make it to graduation before I can start. The more I think about it the more I want to go back. I guess we'll see if that changes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been thinking alot about the job at intuit. Its been 5 months already since my internship. I really miss working there. There was so many great people and alot of perks. It really is a great job. I'm just worried that there might be a better job that I'm missing out on. I don't think I'd ever get tired of the work there on one hand but it's the first real career I've been offered. My boss Bruce definitely kept things exciting. I didnt know what to expect when I first started. The actual work was better to do than I had imagined. There was such a great sense of community. They welcomed me though and made me feel like I belonged. I still have to make it to graduation before I can start. The more I think about it the more I want to go back. I guess we'll see if that changes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecc541bc278d0-EWR"
+    }
+}

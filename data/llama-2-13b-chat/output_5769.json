@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was the fourth of July weekend. My husband and I had planned on spending the holiday at home. Our youngest son was coming home to stay because he was having nose surgery. It was supposed to be routine surgery. We planned on a quiet weekend. 24 hours post surgery my son developed a fever. We took him to the ER on the advice of the surgeon who had performed the surgery. he was later diagnosed with sepsis. We spent the entire fourth of July holiday in the hospital. It was an absolute nightmare. My son is fine now. They did have to remove stents from his nose too early and as a result the surgery was useless. We spent the entire stay angry and confused. We discussed suing. My son hasn't followed up in a proper way. Now well end up with the bills. He doesn't listen."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was the fourth of July weekend. My husband and I had planned on spending the holiday at home. Our youngest son was coming home to stay because he was having nose surgery. It was supposed to be routine surgery. We planned on a quiet weekend. 24 hours post surgery my son developed a fever. We took him to the ER on the advice of the surgeon who had performed the surgery. he was later diagnosed with sepsis. We spent the entire fourth of July holiday in the hospital. It was an absolute nightmare. My son is fine now. They did have to remove stents from his nose too early and as a result the surgery was useless. We spent the entire stay angry and confused. We discussed suing. My son hasn't followed up in a proper way. Now well end up with the bills. He doesn't listen.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f37f759954406-EWR"
+    }
+}

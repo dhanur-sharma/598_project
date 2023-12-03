@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: when I had chest pains, I often ignored them. One day they became so strong, I knew I'd had better go to the ER. Moms arent suppose to get sick I kept telling myself. The doctor came in and ordered a bunch of tests. I had EKC's, chest xrays, blood, urine..you name it I had it..Now waitng for the results, I wasnt ready to hear the results. The doctor came back in and said not only did I have a slight heart attack, but I have 4 blockages. he explained that I need stents, and I couldnt wait..I said fine. The next day was surgery day. I was scared but knew God was watching over me..I said my prayers, hugged and kissed my family and left. fter what seemed like days, I was in my room, with littlle pain and thankful for God and staff for being their for me. After it was all over, I wanted to see my kids and tell them I loved them. My husband knew I loved him. I just felt the need to remind my kids. They were so happy.. They hugged me so tight. I was blessed to have more years with them. They know we have better days ahead. Make everyday count. We sure did too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: when I had chest pains, I often ignored them. One day they became so strong, I knew I'd had better go to the ER. Moms arent suppose to get sick I kept telling myself. The doctor came in and ordered a bunch of tests. I had EKC's, chest xrays, blood, urine..you name it I had it..Now waitng for the results, I wasnt ready to hear the results. The doctor came back in and said not only did I have a slight heart attack, but I have 4 blockages. he explained that I need stents, and I couldnt wait..I said fine. The next day was surgery day. I was scared but knew God was watching over me..I said my prayers, hugged and kissed my family and left. fter what seemed like days, I was in my room, with littlle pain and thankful for God and staff for being their for me. After it was all over, I wanted to see my kids and tell them I loved them. My husband knew I loved him. I just felt the need to remind my kids. They were so happy.. They hugged me so tight. I was blessed to have more years with them. They know we have better days ahead. Make everyday count. We sure did too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We laughed, talked, ate, and enjoyed each others company.\n\n"
+            }
+        ],
+        "request_id": "811bcf7c3a7342aa-EWR"
+    }
+}

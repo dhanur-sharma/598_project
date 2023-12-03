@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son turned one a few months ago.  We had planned a small party, just ourselves and grandma.  We decided to do a cake smash to get some cute photographs.  I baked a cake and decorated it with cut strawberries.  We tried to take a video of him smashing the cake, but he was too obsessed with the strawberries.  He insisted on picking off and eating each one individually.  Eventually we had to turn off the video and just wait for him to finish eating the strawberries.  When he finally did get to the cake, he jumped right in with both hands and made such a mess.  It was adorable and made for some great pictures. I think I was the only parent who ever wanted their kid to stop eating fruit and eat cake! It was so fun though. He had a great time. We're looking forward to the next one. I enjoy showing the photos to other people. He's one cute kid!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son turned one a few months ago.  We had planned a small party, just ourselves and grandma.  We decided to do a cake smash to get some cute photographs.  I baked a cake and decorated it with cut strawberries.  We tried to take a video of him smashing the cake, but he was too obsessed with the strawberries.  He insisted on picking off and eating each one individually.  Eventually we had to turn off the video and just wait for him to finish eating the strawberries.  When he finally did get to the cake, he jumped right in with both hands and made such a mess.  It was adorable and made for some great pictures. I think I was the only parent who ever wanted their kid to stop eating fruit and eat cake! It was so fun though. He had a great time. We're looking forward to the next one. I enjoy showing the photos to other people. He's one cute kid!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47880d61332c-EWR"
+    }
+}

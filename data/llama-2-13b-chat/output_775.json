@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was feeling very depressed and stressed out about a lot of things going on in my life. It had been going on for a little while. I tried many things to try to make myself feel better. I needed a change to try to make myself feel better. I decided to go get a dog. I knew that growing up I had a dog that I loved and it always made me feel better. I made the decision to go and get a puppy. When I went to adopt a puppy, I saw one that looked very similar to one I had growing up. I knew it was one that I needed to get. On the spot I did the paper work and took that puppy home with me. Almost immediately once I saw the puppy I fell in love with it. The puppy was very cute and happy. Everything in my daily life changed after that moment I got the puppy. A lot of the stress in my life went away because I was a lot happier. It became one of the most important decision in my life thus far."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was feeling very depressed and stressed out about a lot of things going on in my life. It had been going on for a little while. I tried many things to try to make myself feel better. I needed a change to try to make myself feel better. I decided to go get a dog. I knew that growing up I had a dog that I loved and it always made me feel better. I made the decision to go and get a puppy. When I went to adopt a puppy, I saw one that looked very similar to one I had growing up. I knew it was one that I needed to get. On the spot I did the paper work and took that puppy home with me. Almost immediately once I saw the puppy I fell in love with it. The puppy was very cute and happy. Everything in my daily life changed after that moment I got the puppy. A lot of the stress in my life went away because I was a lot happier. It became one of the most important decision in my life thus far.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad I made the decision to get the puppy.\n\n"
+            }
+        ],
+        "request_id": "811e985ae8885e6d-EWR"
+    }
+}

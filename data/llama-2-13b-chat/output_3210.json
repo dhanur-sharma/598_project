@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter had fallen off the top bunk of the bunk beds. Her brother, who has the bottom bunk, said she was scared by something she had seen in the window. I thought for sure he was joking, my daughter is not one to be easily startled. And honestly, it was a Saturday morning, so I really didn't understand why the twins were up this early anyhow. I went over to the window, just to be sure there was nothing there. And good Lord, there was a bobcat in the tree. I have heard on the news that the wildlife is moving into the suburban neighborhoods, mostly from our taking over their natural habitat with building new homes and businesses, but I hadn't really believed it until now. The cat was a pretty good size, about 40 pounds, and solid black. He gave me quite a start too.  I double checked my daughter to be sure she didn't have a concussion, and decided I had to call animal control. It really saddens me that we are pushing out the wildlife with our greed and selfishness and need to keep on building. Especially in Texas, I notice this happening too much. I wish we could live in harmony and build more environmentally by not destroying whole habitats. I made the choice against animal control, and called an animal rescue, relocation unit instead.  This isn't the ideal choice, but it was the best option I had at the time. The unit came and told me the cat would be taken to a state part out west. My daughter was ok, just startled, and this was a great teaching opportunity for us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter had fallen off the top bunk of the bunk beds. Her brother, who has the bottom bunk, said she was scared by something she had seen in the window. I thought for sure he was joking, my daughter is not one to be easily startled. And honestly, it was a Saturday morning, so I really didn't understand why the twins were up this early anyhow. I went over to the window, just to be sure there was nothing there. And good Lord, there was a bobcat in the tree. I have heard on the news that the wildlife is moving into the suburban neighborhoods, mostly from our taking over their natural habitat with building new homes and businesses, but I hadn't really believed it until now. The cat was a pretty good size, about 40 pounds, and solid black. He gave me quite a start too.  I double checked my daughter to be sure she didn't have a concussion, and decided I had to call animal control. It really saddens me that we are pushing out the wildlife with our greed and selfishness and need to keep on building. Especially in Texas, I notice this happening too much. I wish we could live in harmony and build more environmentally by not destroying whole habitats. I made the choice against animal control, and called an animal rescue, relocation unit instead.  This isn't the ideal choice, but it was the best option I had at the time. The unit came and told me the cat would be taken to a state part out west. My daughter was ok, just startled, and this was a great teaching opportunity for us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I made her and her brother watch the unit take the cat away. They were both very somber. My daughter said she felt bad for the cat, and her brother said he felt bad for the cat too, but he was also happy it wasn't him that had to leave. I know this experience will stick with them for a long time.\n\n"
+            }
+        ],
+        "request_id": "811ec66a9c054250-EWR"
+    }
+}

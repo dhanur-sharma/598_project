@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I went to Colorado last summer to do some camping I had in mind that I wanted to climb a 13er or 14er. I eventually I decided on Mt. Ouray because it's one of the less difficult mountains to climb in Colorado and I felt it was suitable for a solo-hike. It took a bit of preparation and the climb was still fairly difficult. But it was an incredible experience and one that I'll remember for a long time. I got up around 5AM and started my climb. It took me around 4 hours to summit and I spent around 45 minutes at the top, taking pictures, listening to music and taking in the view. I really enjoyed being able to see for so far. I was grateful that I was able to enjoy such a special experience. I met a couple of other hikers on my route up and down. People are very nice in the mountains, I enjoy chatting with other hikers in my journeys. It was very enjoyable overall and I hope to train some more and be able to hike more mountains next summer. It's a difficult undertaking and there's an element of danger to it, especially hiking alone. But it's something I take seriously and wouldn't give up. It drives me to make myself better and it helps me appreciate the world I live in."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I went to Colorado last summer to do some camping I had in mind that I wanted to climb a 13er or 14er. I eventually I decided on Mt. Ouray because it's one of the less difficult mountains to climb in Colorado and I felt it was suitable for a solo-hike. It took a bit of preparation and the climb was still fairly difficult. But it was an incredible experience and one that I'll remember for a long time. I got up around 5AM and started my climb. It took me around 4 hours to summit and I spent around 45 minutes at the top, taking pictures, listening to music and taking in the view. I really enjoyed being able to see for so far. I was grateful that I was able to enjoy such a special experience. I met a couple of other hikers on my route up and down. People are very nice in the mountains, I enjoy chatting with other hikers in my journeys. It was very enjoyable overall and I hope to train some more and be able to hike more mountains next summer. It's a difficult undertaking and there's an element of danger to it, especially hiking alone. But it's something I take seriously and wouldn't give up. It drives me to make myself better and it helps me appreciate the world I live in.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead3acb548c84-EWR"
+    }
+}

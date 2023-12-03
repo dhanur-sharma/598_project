@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took a 13 hour drive to South Dakota to visit various landmarks.  I had heard about these only in T.V. shows and was interested to see them for myself.   Most of the landmarks were people-related.   They were related to  figures in the \"Old West\" who were famous and had been written about in U.S. history books.  The most memorable thing that I learned on this trip is after 200 years of being gone,  these people were still being remembered.  I visited Wild Bill Hickok's grave, and people of various walks of life had left fresh mementos on his grave like he died yesterday.   I watched play about how he was shot that occurred in the middle of the street.  Traffic was shut down for the play.   They used a gun shooting blanks to give this event weight, and I got goosebumps from that.  Then I visited the bar where he was actually killed.  The bar is marked as a historical landmark.   This is the first historical landmark I have ever visited.  They have updated the bar, of course, and put slot machines in it for modern-day visitors.   It had an old-time feel though, like they still left a couple original pieces in it from the 1800's."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took a 13 hour drive to South Dakota to visit various landmarks.  I had heard about these only in T.V. shows and was interested to see them for myself.   Most of the landmarks were people-related.   They were related to  figures in the \"Old West\" who were famous and had been written about in U.S. history books.  The most memorable thing that I learned on this trip is after 200 years of being gone,  these people were still being remembered.  I visited Wild Bill Hickok's grave, and people of various walks of life had left fresh mementos on his grave like he died yesterday.   I watched play about how he was shot that occurred in the middle of the street.  Traffic was shut down for the play.   They used a gun shooting blanks to give this event weight, and I got goosebumps from that.  Then I visited the bar where he was actually killed.  The bar is marked as a historical landmark.   This is the first historical landmark I have ever visited.  They have updated the bar, of course, and put slot machines in it for modern-day visitors.   It had an old-time feel though, like they still left a couple original pieces in it from the 1800's.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had a beer and took a picture with the bartender.  I enjoyed this trip to South Dakota and was glad I could learn more about the Old West.  I plan to visit more historical landmarks in the future."
+            }
+        ],
+        "request_id": "811bcf0588570f37-EWR"
+    }
+}

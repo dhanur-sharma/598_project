@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I was homeless. I was going to university while I was homeless. I went to the library to read a book. It had fables of Ancient Persia passed down orally through the generations. These stories were very unique and rich. There was a tell about a boy. He played with his dog everyday. He threw a ball down the road one day. A cart was going to hit the dog but it missed. This taught me to look around for my surroundings. I was sorry for the dog. He was scared in the story. I'm glad that he didn't die. This tell should be taught to everybody at a young age. It teaches them to be careful and thankful about their mortal life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I was homeless. I was going to university while I was homeless. I went to the library to read a book. It had fables of Ancient Persia passed down orally through the generations. These stories were very unique and rich. There was a tell about a boy. He played with his dog everyday. He threw a ball down the road one day. A cart was going to hit the dog but it missed. This taught me to look around for my surroundings. I was sorry for the dog. He was scared in the story. I'm glad that he didn't die. This tell should be taught to everybody at a young age. It teaches them to be careful and thankful about their mortal life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f421e0ea9423b-EWR"
+    }
+}

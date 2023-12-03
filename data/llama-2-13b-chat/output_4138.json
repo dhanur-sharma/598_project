@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I was watching P.S. I Love You. The main character Holly, lost her husband to cancer. She was devastated, young, and angry. She spent a lot of time alone, called off work; stopped living, essentially. A few weeks after her husband's death, while she was grieving alone, her friends and family showed up to her apartment to wish her a happy birthday. Holly had turned 30 years old. It was then I was hit with the idea that the dreaded thirties are coming my way. I ruminated on the years that had passed me already. How I'd never again experienced all the good things I've lived through. I also thought about all the bad things I never have to live through again. Once was enough for me, and in a larger sense, I suppose that's good with both the good things and the bad things. And although devastated in thinking about the past, I was met with a bittersweet overall feeling: I have lived a good life. Thinking about my upcoming birthday, I decided that I wouldn't make a big deal about it because I would just be grateful to be alive another day. When my birthday comes, I would celebrate in silence, in peace. Although, the dreaded thirties are almost here, I have come to peace with it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I was watching P.S. I Love You. The main character Holly, lost her husband to cancer. She was devastated, young, and angry. She spent a lot of time alone, called off work; stopped living, essentially. A few weeks after her husband's death, while she was grieving alone, her friends and family showed up to her apartment to wish her a happy birthday. Holly had turned 30 years old. It was then I was hit with the idea that the dreaded thirties are coming my way. I ruminated on the years that had passed me already. How I'd never again experienced all the good things I've lived through. I also thought about all the bad things I never have to live through again. Once was enough for me, and in a larger sense, I suppose that's good with both the good things and the bad things. And although devastated in thinking about the past, I was met with a bittersweet overall feeling: I have lived a good life. Thinking about my upcoming birthday, I decided that I wouldn't make a big deal about it because I would just be grateful to be alive another day. When my birthday comes, I would celebrate in silence, in peace. Although, the dreaded thirties are almost here, I have come to peace with it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have lived a good life, and I am grateful to be alive.\n\n"
+            }
+        ],
+        "request_id": "811bd0a9397a5e76-EWR"
+    }
+}

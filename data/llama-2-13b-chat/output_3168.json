@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a month since my husband got a new job. He had to move out because of this and we only get to talk over the phone. I am sad about this. I pass the time watching Netflix. Netflix can only keep me distracted for so long. I also play games. This still doesn't fill enough time. I might have to go see a doctor about my depression. I hope it gets better. I should be able to cope with it after a month. He said he'll visit every few months. I hope I can make it in time. This has been a very boring month. I hope something good shows up on Netflix soon. I'll get a pizza to cope with the depression."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a month since my husband got a new job. He had to move out because of this and we only get to talk over the phone. I am sad about this. I pass the time watching Netflix. Netflix can only keep me distracted for so long. I also play games. This still doesn't fill enough time. I might have to go see a doctor about my depression. I hope it gets better. I should be able to cope with it after a month. He said he'll visit every few months. I hope I can make it in time. This has been a very boring month. I hope something good shows up on Netflix soon. I'll get a pizza to cope with the depression.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec55e492b4299-EWR"
+    }
+}

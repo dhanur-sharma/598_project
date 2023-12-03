@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I was named the head of a new project at the work place. The position came with higher pay. This made me pay off my debt. I was so happy because of this. I celebrated by going to a fancy restaurant. I got some queso to start off the meal. The queso was very yummy. I got some beers to drink. They were nice to drink. I got a steak as the main meal. The steak was medium. It was one of the best steaks I have ever eaten. I got a nice chocolate cake for dessert. I gave the waiter a big tip. I can't wait to begin working on the new project. It should be fun. I have a lot of ideas for the project."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I was named the head of a new project at the work place. The position came with higher pay. This made me pay off my debt. I was so happy because of this. I celebrated by going to a fancy restaurant. I got some queso to start off the meal. The queso was very yummy. I got some beers to drink. They were nice to drink. I got a steak as the main meal. The steak was medium. It was one of the best steaks I have ever eaten. I got a nice chocolate cake for dessert. I gave the waiter a big tip. I can't wait to begin working on the new project. It should be fun. I have a lot of ideas for the project.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am ready to make the project a success.\n\n"
+            }
+        ],
+        "request_id": "811e95d448dd4337-EWR"
+    }
+}

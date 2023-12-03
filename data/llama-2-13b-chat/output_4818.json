@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A recent event that occurred and was significant to me was when I went camping last month with two of my siblings. It was the first time I've ever gone camping so I was a bit anxious and excited. The place we were camping was a state park in Texas. When we got there we set up our tents and walked around the park and did some exploring. It was a breath of fresh air to get away from everything and spend some time outside with family. My brothers and I went on a few trails and the scenery was beautiful. At one point, we even saw a few deer running by. Nightfall eventually came and we went back to our campsite. We lit a fire and started cooking some hotdogs while talking about nostalgic memories that happened within our family. When it was time for me to go to bed, I went into my tent and laid down. It was quite hot so it took some time to get relaxed but the sounds of all of the birds and nature helped put me to sleep. The next day is when the most significant event of the trip occurred. We decided to complete the highest and most elevated trail of the park. It was tough and a lot of climbing was involved, but after some struggle and a few hours we finally made it to the top. At the peak of the mountain stood an American flag and a wave of relief went through me when I finally saw it. Looking down you could see all of the rivers and trees, the landscape was incredible. It will definitely be a moment I won't ever forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A recent event that occurred and was significant to me was when I went camping last month with two of my siblings. It was the first time I've ever gone camping so I was a bit anxious and excited. The place we were camping was a state park in Texas. When we got there we set up our tents and walked around the park and did some exploring. It was a breath of fresh air to get away from everything and spend some time outside with family. My brothers and I went on a few trails and the scenery was beautiful. At one point, we even saw a few deer running by. Nightfall eventually came and we went back to our campsite. We lit a fire and started cooking some hotdogs while talking about nostalgic memories that happened within our family. When it was time for me to go to bed, I went into my tent and laid down. It was quite hot so it took some time to get relaxed but the sounds of all of the birds and nature helped put me to sleep. The next day is when the most significant event of the trip occurred. We decided to complete the highest and most elevated trail of the park. It was tough and a lot of climbing was involved, but after some struggle and a few hours we finally made it to the top. At the peak of the mountain stood an American flag and a wave of relief went through me when I finally saw it. Looking down you could see all of the rivers and trees, the landscape was incredible. It will definitely be a moment I won't ever forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, the trip was an incredible experience that I will always remember and I'm so glad that I got to share it with my siblings."
+            }
+        ],
+        "request_id": "811bde62a9054367-EWR"
+    }
+}

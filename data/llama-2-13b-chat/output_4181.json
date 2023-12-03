@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 4 months ago I finally took the test. Honestly, I wasn't sure that I was even going to try. Maybe later when I had trained more, but I wasn't sure now was the time. Dave, the bastard, goaded me into doing and I guess he was right. What did I have to lose except my pride. Something he said I have too much of anyways. But I did take the test. And I passed it. Sure, it took until the last attempt, but they don't track that in your record. There is just a rubber stamp saying passed, and that's all I wanted. It felt so relieving and redeeming to finally pass the test! And a bit surprising. Just goes to show that you never know until you try. And that Dave is actually worth having around. Now on to my career!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 4 months ago I finally took the test. Honestly, I wasn't sure that I was even going to try. Maybe later when I had trained more, but I wasn't sure now was the time. Dave, the bastard, goaded me into doing and I guess he was right. What did I have to lose except my pride. Something he said I have too much of anyways. But I did take the test. And I passed it. Sure, it took until the last attempt, but they don't track that in your record. There is just a rubber stamp saying passed, and that's all I wanted. It felt so relieving and redeeming to finally pass the test! And a bit surprising. Just goes to show that you never know until you try. And that Dave is actually worth having around. Now on to my career!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd1a30c592394-EWR"
+    }
+}

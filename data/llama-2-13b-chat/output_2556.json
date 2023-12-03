@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I don't really know what to say right now. I feel like someone reached into my guts and starting pulling everything out. Three weeks ago my brother passed away suddenly. The shock from receiving the news still hasn't worn off. I still think that the phone is going to ring and my brother will be on the other end, asking if I want to come over to watch the game. What am I supposed to do now? We spent so much time together, almost daily. The void left by his absence makes me feel like I am being pulled out of my own body. I remember a time when we went to the football game together. The tickets were pretty cheap and the weather was bitter cold. We still had a ton of fun. My brother even had an entire beer spilled on him after a touchdown was scored. We both looked at each other and started to laugh. He was a good person. He was my best friend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I don't really know what to say right now. I feel like someone reached into my guts and starting pulling everything out. Three weeks ago my brother passed away suddenly. The shock from receiving the news still hasn't worn off. I still think that the phone is going to ring and my brother will be on the other end, asking if I want to come over to watch the game. What am I supposed to do now? We spent so much time together, almost daily. The void left by his absence makes me feel like I am being pulled out of my own body. I remember a time when we went to the football game together. The tickets were pretty cheap and the weather was bitter cold. We still had a ton of fun. My brother even had an entire beer spilled on him after a touchdown was scored. We both looked at each other and started to laugh. He was a good person. He was my best friend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "What am I supposed to do now?"
+            }
+        ],
+        "request_id": "811eb90b7f60c337-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five months ago, I visited Greece with a good buddy. We took many strolls around town. One day, we chose to go off the beaten path. We started going down all the local alleys. We saw a lot of authentic things. We saw houses in the true local style. We saw a lot of old and forgotten  structures. However, most importantly, we saw a great local band. They were playing in a quiet alley. Perhaps doing a practice run before a local gig. We stood and watched them. It was such great music. They sang and played graciously. I took a video of it, and showed my friends. Everyone agreed it was really good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five months ago, I visited Greece with a good buddy. We took many strolls around town. One day, we chose to go off the beaten path. We started going down all the local alleys. We saw a lot of authentic things. We saw houses in the true local style. We saw a lot of old and forgotten  structures. However, most importantly, we saw a great local band. They were playing in a quiet alley. Perhaps doing a practice run before a local gig. We stood and watched them. It was such great music. They sang and played graciously. I took a video of it, and showed my friends. Everyone agreed it was really good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so glad I got to see it. I'm going to remember this for a long time.\n\n"
+            }
+        ],
+        "request_id": "811f3509efa743b6-EWR"
+    }
+}

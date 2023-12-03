@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The day started off like any other day.  I was going about my business around the house and as was his habit, my brother asked me for a ride to the gym.  His car was in the shop getting fixed and of course I agreed.  The gym is a short distance away and I've been in a position where I didn't have access to my own vehicle before, so I know the feeling.  I had just dropped him off and was headed out to take care of some errands.  As I crossed through an intersection, I heard the screech of tires and caught sight of a vehicle skidding through the red light and into my passenger door.  I composed myself quickly and we both pulled over to assess the damage.  To no one's surprise, a young woman whose phone was glued to her hand had caused the accident.  I was not happy about the time and expense this was going to cause me, but the girl was as helpful as she could be.  It was refreshing to hear her agree that she was 100% at fault.  Her father also had premium insurance, so everything would be taken care of.  As I made a previously-unexpected trip to the body shop, I thought about how the day had started helping my own brother out because of his lack of transportation.  Now I would be without my own car for a time.  It's funny how the opportunity to show kindness to someone down on their luck can flip back on you providing someone else the opportunity to show kindness to you.  I hope my brother isn't too tired from his workout to walk home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The day started off like any other day.  I was going about my business around the house and as was his habit, my brother asked me for a ride to the gym.  His car was in the shop getting fixed and of course I agreed.  The gym is a short distance away and I've been in a position where I didn't have access to my own vehicle before, so I know the feeling.  I had just dropped him off and was headed out to take care of some errands.  As I crossed through an intersection, I heard the screech of tires and caught sight of a vehicle skidding through the red light and into my passenger door.  I composed myself quickly and we both pulled over to assess the damage.  To no one's surprise, a young woman whose phone was glued to her hand had caused the accident.  I was not happy about the time and expense this was going to cause me, but the girl was as helpful as she could be.  It was refreshing to hear her agree that she was 100% at fault.  Her father also had premium insurance, so everything would be taken care of.  As I made a previously-unexpected trip to the body shop, I thought about how the day had started helping my own brother out because of his lack of transportation.  Now I would be without my own car for a time.  It's funny how the opportunity to show kindness to someone down on their luck can flip back on you providing someone else the opportunity to show kindness to you.  I hope my brother isn't too tired from his workout to walk home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will have to tell him the story of the young woman and her premium insurance.  I wonder if he will have a similar experience with his car."
+            }
+        ],
+        "request_id": "811f2ffc3ab243f8-EWR"
+    }
+}

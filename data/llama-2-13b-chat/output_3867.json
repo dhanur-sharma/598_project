@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up and went to get ready for work. As I was finished getting ready I got a text from a girl I had been talking to. She said yes to going on a date tonight. That gave me the boost I needed to start my day off right, since this was going to be my first date in a long time. I finished getting ready and headed to work. Work was the usual it always is. Got finished and headed home so I could get ready for my date. As I finished up I got a text asking if we were still good to go tonight and I said definitely. I headed out to the restaurant that we chose and got there a few minutes before she did. We walked in and got our table and sat down. We started talking just to make sure we were actually as similar as it seemed through texts. I was still a little awkward since it had been a while since I had done this and she could tell. Luckily I didn't trip myself up too much during dinner. It was after the dinner that I did that. As I was getting up to get out of my chair and head outside I tripped and fell right into another table. I got a decent cut on my forehead and spilled the table all over the place. It was super embarrassing and made me feel super dumb since I had to end the date early because of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up and went to get ready for work. As I was finished getting ready I got a text from a girl I had been talking to. She said yes to going on a date tonight. That gave me the boost I needed to start my day off right, since this was going to be my first date in a long time. I finished getting ready and headed to work. Work was the usual it always is. Got finished and headed home so I could get ready for my date. As I finished up I got a text asking if we were still good to go tonight and I said definitely. I headed out to the restaurant that we chose and got there a few minutes before she did. We walked in and got our table and sat down. We started talking just to make sure we were actually as similar as it seemed through texts. I was still a little awkward since it had been a while since I had done this and she could tell. Luckily I didn't trip myself up too much during dinner. It was after the dinner that I did that. As I was getting up to get out of my chair and head outside I tripped and fell right into another table. I got a decent cut on my forehead and spilled the table all over the place. It was super embarrassing and made me feel super dumb since I had to end the date early because of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The girl was super nice about it though and told me that accidents happen and not to worry about it. I apologized and told her I would make it up to her sometime. I headed home after that and cleaned myself up. I was a little bummed but at least I had a good conversation going into it.\n\n"
+            }
+        ],
+        "request_id": "811ed2d6cd1bc359-EWR"
+    }
+}

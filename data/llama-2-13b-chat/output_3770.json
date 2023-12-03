@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So things have been starting to get easier at my new job. Last week I was feeling very overwhelmed. I didn't know if I could handle speaking with a large volume of customers again. It was really embarrassing. We were on the sales floor and my chest started to get tight. I started to hyperventilate, and the room got small. It seems so silly in hindsight. The floor was hectic and people were talking so loud. I had to leave and take a breather in the bathroom. I was worried about the way that everyone would see me afterwards. I didn't want to be so visible to everyone on just my second day back. I had no idea what to expect. Everything has been good though. Luckily everyone still welcomed me back to the team regardless. I now feel like I belong there again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So things have been starting to get easier at my new job. Last week I was feeling very overwhelmed. I didn't know if I could handle speaking with a large volume of customers again. It was really embarrassing. We were on the sales floor and my chest started to get tight. I started to hyperventilate, and the room got small. It seems so silly in hindsight. The floor was hectic and people were talking so loud. I had to leave and take a breather in the bathroom. I was worried about the way that everyone would see me afterwards. I didn't want to be so visible to everyone on just my second day back. I had no idea what to expect. Everything has been good though. Luckily everyone still welcomed me back to the team regardless. I now feel like I belong there again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed0bcff6fc43b-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I couldn't believe Dora had lied to my friend Ben about being pregnant.  Afterall, I set the two of them up for a date.  I didn't realize women still did that kind of thing.  They hadn't been dating that long.  I wonder about her motivation.  Was she trying to get Ben to marry her?  Was she just wanting to see his reaction?  Was it a fluke pregnancy test?  I asked Ben and he was clueless.  I don't know what to think.  In any case, it backfired and it ruined any chance of a lasting relationship between the two of them.  Ben's reaction to the news wasn't good.  His attitude towards Dora only worsened when he found out that she lied about being pregnant.  When Ben asked Dora why she did it, she didn't have a convincing answer.  Ben and I both think that Dora may have a screw loose of something.  I promised myself that I would never play match-maker again.  I also noted to myself that honesty is indeed the best policy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I couldn't believe Dora had lied to my friend Ben about being pregnant.  Afterall, I set the two of them up for a date.  I didn't realize women still did that kind of thing.  They hadn't been dating that long.  I wonder about her motivation.  Was she trying to get Ben to marry her?  Was she just wanting to see his reaction?  Was it a fluke pregnancy test?  I asked Ben and he was clueless.  I don't know what to think.  In any case, it backfired and it ruined any chance of a lasting relationship between the two of them.  Ben's reaction to the news wasn't good.  His attitude towards Dora only worsened when he found out that she lied about being pregnant.  When Ben asked Dora why she did it, she didn't have a convincing answer.  Ben and I both think that Dora may have a screw loose of something.  I promised myself that I would never play match-maker again.  I also noted to myself that honesty is indeed the best policy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bddc2892342eb-EWR"
+    }
+}

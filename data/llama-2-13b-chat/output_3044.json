@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today at work, I went out for a smoke break after lunch. The hospital had been pretty quiet, when all of a sudden a Condition A was called in the main lobby as I was walking through. An older man was turning blue, and had collapsed to the floor. I was terrified to respond to my first major code, particularly that I would do something wrong. A nurse was going to get the crash cart and I had to begin CPR. Thankfully, the man had a button down shirt and I was able to get to his chest quickly. He was a very large man, and I was afraid my chest compressions weren't strong enough. I can still hear the sounds of his rib cage cracking as we quickly worked to resuscitate him. The crash cart arrived, and I was able to switch off with another nurse as I grew exhausted. Fifteen minutes and several shocks later, the man came to. He was wheeled away to the ER with a nurse supplementing his weak breathsusing the ambu-bag. I think about him from time to time--I hope he's doing alright.  I don't like that I get so emotional during serious events, I've always considered myself to be a calm and rational person. I couldn't help but shake and fight back tears as the gravity of the situation settled in. Needless to say, I had taken a little extra time on my smoke break that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today at work, I went out for a smoke break after lunch. The hospital had been pretty quiet, when all of a sudden a Condition A was called in the main lobby as I was walking through. An older man was turning blue, and had collapsed to the floor. I was terrified to respond to my first major code, particularly that I would do something wrong. A nurse was going to get the crash cart and I had to begin CPR. Thankfully, the man had a button down shirt and I was able to get to his chest quickly. He was a very large man, and I was afraid my chest compressions weren't strong enough. I can still hear the sounds of his rib cage cracking as we quickly worked to resuscitate him. The crash cart arrived, and I was able to switch off with another nurse as I grew exhausted. Fifteen minutes and several shocks later, the man came to. He was wheeled away to the ER with a nurse supplementing his weak breathsusing the ambu-bag. I think about him from time to time--I hope he's doing alright.  I don't like that I get so emotional during serious events, I've always considered myself to be a calm and rational person. I couldn't help but shake and fight back tears as the gravity of the situation settled in. Needless to say, I had taken a little extra time on my smoke break that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec307ecfd190e-EWR"
+    }
+}

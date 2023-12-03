@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's our 7 year anniversary. My husband surprised me with a vacation. We went to England. He took me to the Tower of  London, Hampton Court, the Lake District. We went all over the place. It was so wonderful. I've always wanted to travel to England. There's so much interesting history there and the architecture is beautiful. The best part, though, was spending time with my husband. Our relationship is still so loving and passionate. The most memorable thing about the trip was hiking and camping with him. It was magical. I can't believe how lucky I am to have him and to have everything else that I have in my life. I feel very fortunate. I'm a truly happy person."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's our 7 year anniversary. My husband surprised me with a vacation. We went to England. He took me to the Tower of  London, Hampton Court, the Lake District. We went all over the place. It was so wonderful. I've always wanted to travel to England. There's so much interesting history there and the architecture is beautiful. The best part, though, was spending time with my husband. Our relationship is still so loving and passionate. The most memorable thing about the trip was hiking and camping with him. It was magical. I can't believe how lucky I am to have him and to have everything else that I have in my life. I feel very fortunate. I'm a truly happy person.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3860aff243cb-EWR"
+    }
+}

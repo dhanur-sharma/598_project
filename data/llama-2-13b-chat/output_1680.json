@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a 4th of July party at my aunt's house. My sister, parents, and grandparents were also there. We were also celebrating my grandfather's birthday. His birthday happens to fall on the 4th of July. Somehow an argument broke out between my aunt and sister. My aunt is very pro Trump and my sister is very against him. They got into an argument about Trump and it involved several subjects such as socialism and climate change. My sister stated that she would not have children because she believes they would not have a good future under climate change. My aunt stated she believes Trump is a better person than Obama. I wish that the subject of politics had not come up so we could have enjoyed the event, but it seems unavoidable these days. I was dissapointed by the turn of events. I also do not think anything fruitful came out of discussing the subjects. I had warned my sister not to discuss politics, but she did not listen. My grandfather has late stage alzheimer's and he is very easily disturbed by things such as loud talking. By the end of the day many people were talking loudly so I do not think he was happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a 4th of July party at my aunt's house. My sister, parents, and grandparents were also there. We were also celebrating my grandfather's birthday. His birthday happens to fall on the 4th of July. Somehow an argument broke out between my aunt and sister. My aunt is very pro Trump and my sister is very against him. They got into an argument about Trump and it involved several subjects such as socialism and climate change. My sister stated that she would not have children because she believes they would not have a good future under climate change. My aunt stated she believes Trump is a better person than Obama. I wish that the subject of politics had not come up so we could have enjoyed the event, but it seems unavoidable these days. I was dissapointed by the turn of events. I also do not think anything fruitful came out of discussing the subjects. I had warned my sister not to discuss politics, but she did not listen. My grandfather has late stage alzheimer's and he is very easily disturbed by things such as loud talking. By the end of the day many people were talking loudly so I do not think he was happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope that next year the party is more enjoyable and less focused on politics.\n\n"
+            }
+        ],
+        "request_id": "811ea8f15f1842d7-EWR"
+    }
+}

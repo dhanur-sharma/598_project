@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Moved from Boston to Santa Fe. We took our cat. It was 2000 mile or so trip. Drove from boston to Connecticut. From there, we drove to PA, outside of Pittsburg. Then we went to Indianapolis, I think, which sucks. From there we went to Oklahoma. Then from there, finally, to NM, Santa Fe. We mostly ate fast food, and stayed at Motel 6. Drove 8 hours a day most days. It was certainly a journey, but we did it, and now I love where I live, though I'm still me, and struggling with some of the same things as when I lived in Boston, such as money, and being isolated. Still, this city is wonderful, and I love it. I would not ever want to live in Boston again. The people there are very mean. Also, the winter sucks. Yuck."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Moved from Boston to Santa Fe. We took our cat. It was 2000 mile or so trip. Drove from boston to Connecticut. From there, we drove to PA, outside of Pittsburg. Then we went to Indianapolis, I think, which sucks. From there we went to Oklahoma. Then from there, finally, to NM, Santa Fe. We mostly ate fast food, and stayed at Motel 6. Drove 8 hours a day most days. It was certainly a journey, but we did it, and now I love where I live, though I'm still me, and struggling with some of the same things as when I lived in Boston, such as money, and being isolated. Still, this city is wonderful, and I love it. I would not ever want to live in Boston again. The people there are very mean. Also, the winter sucks. Yuck.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec1ffdab7c45e-EWR"
+    }
+}

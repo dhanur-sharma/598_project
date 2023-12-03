@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,It\u2019s been 4 months now since mom had her stroke. I still can\u2019t believe it at times that this happened. She was so healthy before this, no warning signs, no symptoms.. it was shocking to everyone.  I found her in her room one day after school. She was on the ground and having trouble speaking. I called 911 and they arrived quickly. I\u2019m not sure if she would\u2019ve made it if they hadn\u2019t. She spent 3 weeks in the hospital. It was a really rough time for us both. I stayed with her almost every night. I was really scared, and couldn\u2019t leave her side.   I\u2019m happy to say, she\u2019s doing much better now. She is back to living on her own. She\u2019s taking physical therapy for some of the movement she lost in her arm, but otherwise she\u2019s good as new. She survived! I am still scared that this could happen again. I\u2019ve been helping her stay active and eating well, hopefully I\u2019ll never have to go through this again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,It\u2019s been 4 months now since mom had her stroke. I still can\u2019t believe it at times that this happened. She was so healthy before this, no warning signs, no symptoms.. it was shocking to everyone.  I found her in her room one day after school. She was on the ground and having trouble speaking. I called 911 and they arrived quickly. I\u2019m not sure if she would\u2019ve made it if they hadn\u2019t. She spent 3 weeks in the hospital. It was a really rough time for us both. I stayed with her almost every night. I was really scared, and couldn\u2019t leave her side.   I\u2019m happy to say, she\u2019s doing much better now. She is back to living on her own. She\u2019s taking physical therapy for some of the movement she lost in her arm, but otherwise she\u2019s good as new. She survived! I am still scared that this could happen again. I\u2019ve been helping her stay active and eating well, hopefully I\u2019ll never have to go through this again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f3444ee8a0f89-EWR"
+    }
+}

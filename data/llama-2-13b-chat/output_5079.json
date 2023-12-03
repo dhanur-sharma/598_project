@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I experienced a recent health scare involving my elderly stepfather. Lately, he had been acting strange, quiet and absent-minded. At first we were a bit worried but then he started getting headaches and this is a man who never gets headaches. It became apparent something was wrong when he was sitting at the computer complaining that he forgot how to log into Amazon. I looked and saw he wasn't even on the Amazon login page. I told my mother to call his doctor right away. They recommended we take him to the emergency room but he insisted he was fine and didn't want to go. My mother refused to take him so I threatened to call 911 because I felt she wasn't taking it seriously. We had an all-out shout fest over it while she insisted \"people have a right to refuse medical treatment.\" Since he is a disabled veteran and her only source of support, I reminded her of the risks of doing nothing and that I felt personally responsible if nothing was done about it. Fortunately, the next day my mother managed to talk him into going to the VA hospital and get checked out. Sure enough he has a Subdural Hematoma, which could be quite serious. He is now getting treatment and my mother is glad she talked him into going. I'm also greatly relieved that now they understand not to take these types of things too lightly. That was a pretty scary incident. My folks can be pretty stubborn but I hope this incident will ensure they take their health issues more seriously in the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I experienced a recent health scare involving my elderly stepfather. Lately, he had been acting strange, quiet and absent-minded. At first we were a bit worried but then he started getting headaches and this is a man who never gets headaches. It became apparent something was wrong when he was sitting at the computer complaining that he forgot how to log into Amazon. I looked and saw he wasn't even on the Amazon login page. I told my mother to call his doctor right away. They recommended we take him to the emergency room but he insisted he was fine and didn't want to go. My mother refused to take him so I threatened to call 911 because I felt she wasn't taking it seriously. We had an all-out shout fest over it while she insisted \"people have a right to refuse medical treatment.\" Since he is a disabled veteran and her only source of support, I reminded her of the risks of doing nothing and that I felt personally responsible if nothing was done about it. Fortunately, the next day my mother managed to talk him into going to the VA hospital and get checked out. Sure enough he has a Subdural Hematoma, which could be quite serious. He is now getting treatment and my mother is glad she talked him into going. I'm also greatly relieved that now they understand not to take these types of things too lightly. That was a pretty scary incident. My folks can be pretty stubborn but I hope this incident will ensure they take their health issues more seriously in the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3b95b4d4407-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so excited to attend my cousin Jill's wedding this past spring. My entire immediate family flew into town so that we could be there to celebrate with her. While the entire event was amazing, I was so touched that we were finally able to spend time together. There were around 8 years during which we never talked because of an argument within the family. We spent a lot of time wondering if the relationship would ever get better. When Jill came into town two years ago and wanted to me, I was shocked. We reconnected and felt like no time had passed at all. When we received an invitation to her wedding, it felt like the sky had finally cleared. We were all so excited to fly in from out of town and be part of the wedding. Jill looked absolutely beautiful in her dress. It was so touching to see my uncle walk her down the aisle. Her sister was her maid of honor and the love between them was visible. The entire wedding was lovely from start to finish. The only really unexpected part was my aunt getting terribly drunk. She danced like crazy and then threw up on a table. It was a memorable end to a otherwise great experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so excited to attend my cousin Jill's wedding this past spring. My entire immediate family flew into town so that we could be there to celebrate with her. While the entire event was amazing, I was so touched that we were finally able to spend time together. There were around 8 years during which we never talked because of an argument within the family. We spent a lot of time wondering if the relationship would ever get better. When Jill came into town two years ago and wanted to me, I was shocked. We reconnected and felt like no time had passed at all. When we received an invitation to her wedding, it felt like the sky had finally cleared. We were all so excited to fly in from out of town and be part of the wedding. Jill looked absolutely beautiful in her dress. It was so touching to see my uncle walk her down the aisle. Her sister was her maid of honor and the love between them was visible. The entire wedding was lovely from start to finish. The only really unexpected part was my aunt getting terribly drunk. She danced like crazy and then threw up on a table. It was a memorable end to a otherwise great experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed25ddd5442ee-EWR"
+    }
+}

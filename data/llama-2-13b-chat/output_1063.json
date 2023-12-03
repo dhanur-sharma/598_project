@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We go to Disney every year. We always plan a trip for the Halloween party. We always do matching costumes. I tend to make the costumes as it is hard to find all matching for the family. It is a pretty expensive trip. The tickets are not cheap. Then there is the hotel room. Food and parking also add up. Not to mention the costume costs. This year we were threw a curve ball. A hurricane was coming around the time of our trip. I was afraid it would rain or get cancelled. We would not be able to go any other days due to work schedules. Thankfully the hurricane was very slow. The party took place with out a hitch. The nice thing was people were worried about the storm, so crowds were lighter than usual. Disney did close the next day for the storm. We headed home to ride out the storm at home, but it was very minimal as compared to past storms."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We go to Disney every year. We always plan a trip for the Halloween party. We always do matching costumes. I tend to make the costumes as it is hard to find all matching for the family. It is a pretty expensive trip. The tickets are not cheap. Then there is the hotel room. Food and parking also add up. Not to mention the costume costs. This year we were threw a curve ball. A hurricane was coming around the time of our trip. I was afraid it would rain or get cancelled. We would not be able to go any other days due to work schedules. Thankfully the hurricane was very slow. The party took place with out a hitch. The nice thing was people were worried about the storm, so crowds were lighter than usual. Disney did close the next day for the storm. We headed home to ride out the storm at home, but it was very minimal as compared to past storms.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were lucky.\n\n"
+            }
+        ],
+        "request_id": "811e9d37dfcf8c53-EWR"
+    }
+}

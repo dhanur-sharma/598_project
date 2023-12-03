@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a great trip three months ago with my sister.  We decided kind of spur of the moment that we wanted to see the red rocks in Sedona and we had time off so.  I invited my friend to come along since he had never really been out of the city.  It was a great time of year to go because it was just after winter and there weren't a lot of other tourists there yet.  The weather was a little bit chilly in the mornings and at night but we hiked all along Oak Creek which will definitely warm you up. We found a cool place to swim, too. The water was freezing but after exploring all around the rocks and getting all sweaty, it was really refreshing.  My friend was fascinated by everything and took a million pictures.  There are a ton of little trails to explore and we set up a base camp near the creek to come back to after checking things out on a bunch of them.  On the last night we had a little bit of a scare when we were lying in the tent and heard something walking around outside.  My sister stayed with my friend and I got to be the brave one to investigate with the flashlight.  It is really dark out there at night when there isn't much of a moon. I didn't dare go to far from the tent because I had no idea if there might be bears or something.  I was shining the light around and suddenly saw two glowing eyes.  I was about to freak out when the animal moo'd at me.  It was a cow!  There we were out there in what seemed like the wilderness and a domestic cow just ambled on into our campsite.  I went back into the tent to tell the others and the cow just kind of wandered off.  All in all, it was a great four days and we had that added thing to tell people back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a great trip three months ago with my sister.  We decided kind of spur of the moment that we wanted to see the red rocks in Sedona and we had time off so.  I invited my friend to come along since he had never really been out of the city.  It was a great time of year to go because it was just after winter and there weren't a lot of other tourists there yet.  The weather was a little bit chilly in the mornings and at night but we hiked all along Oak Creek which will definitely warm you up. We found a cool place to swim, too. The water was freezing but after exploring all around the rocks and getting all sweaty, it was really refreshing.  My friend was fascinated by everything and took a million pictures.  There are a ton of little trails to explore and we set up a base camp near the creek to come back to after checking things out on a bunch of them.  On the last night we had a little bit of a scare when we were lying in the tent and heard something walking around outside.  My sister stayed with my friend and I got to be the brave one to investigate with the flashlight.  It is really dark out there at night when there isn't much of a moon. I didn't dare go to far from the tent because I had no idea if there might be bears or something.  I was shining the light around and suddenly saw two glowing eyes.  I was about to freak out when the animal moo'd at me.  It was a cow!  There we were out there in what seemed like the wilderness and a domestic cow just ambled on into our campsite.  I went back into the tent to tell the others and the cow just kind of wandered off.  All in all, it was a great four days and we had that added thing to tell people back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm so glad we were able to get away and have some time together.  "
+            }
+        ],
+        "request_id": "811f4a404a418c4e-EWR"
+    }
+}

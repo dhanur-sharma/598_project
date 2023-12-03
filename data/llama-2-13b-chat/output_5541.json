@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I moved in with my girlfriend not too long ago. We both decided to take a step forward in our relationship. It was a pretty big deal for both of us so we took it nice and slow.  We spent a good amount of time looking around for places and found one we loved. It was pretty much just what we wanted.  We made sure to allocate the space fairly and so that we were both happy. This was a huge boost to my life. It made me feel better in almost every aspect. I only had my girlfriend as a roommate, I stopped drinking as much, and had a much better attitude. Before the move I wasn't in the best mindset. I think the move really helped me reset myself as a person.  I couldn't have done it without my girlfriend either. It made me happier at works as well. My boss even noticed and said how much better I look. I am very thankful for this big change in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I moved in with my girlfriend not too long ago. We both decided to take a step forward in our relationship. It was a pretty big deal for both of us so we took it nice and slow.  We spent a good amount of time looking around for places and found one we loved. It was pretty much just what we wanted.  We made sure to allocate the space fairly and so that we were both happy. This was a huge boost to my life. It made me feel better in almost every aspect. I only had my girlfriend as a roommate, I stopped drinking as much, and had a much better attitude. Before the move I wasn't in the best mindset. I think the move really helped me reset myself as a person.  I couldn't have done it without my girlfriend either. It made me happier at works as well. My boss even noticed and said how much better I look. I am very thankful for this big change in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f33965dca4399-EWR"
+    }
+}

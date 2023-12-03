@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Several months ago I thought I was having a heart attack. I was staying at my parents' house because my father was in the hospital, and I was alone. I woke up in the middle of the night with chest pains. The pains went away, so I convinced myself nothing was wrong, but when I woke up in the morning I felt unwell. My father was supposed to come home from the hospital that day, and my mother had spent the night at the hospital with him; I was supposed to drive my mother's car to the hospital. Instead, I called an ambulance for myself and went to the emergency room, unfortunately not in the same hospital where my father was. I called my mother so she knew what was going on, and she tried to hide it from my father, but he somehow figured out something was wrong. Meanwhile, in the emergency room across town I was having wires taped to my chest, answering a lot of questions, and having blood drawn. And then I waited. I was there for a long time, just waiting. My brother came by to stay with me for a while, until he had to go pick up my father at the other hospital. It soon became clear, through the monitoring and the blood work, that I had not had a heart attack. I had to do a stress test, which involved walking on a treadmill to get my heart pounding, and then I went back to waiting. I spent at least three hours after the test sitting in my emergency room cubicle, waiting for the results, or some kind of answer. A nurse came in and did a double-take when she saw me\u2013she had no idea I was still in there. Finally, after about 8 hours in the emergency room, hours that combined terror and boredom in a toxic stew of emotion that ended with anger and frustration, and doctor came in and told me I was fine. Maybe it was just stress. I was given a list of reasons for chest pain, and released to go sit in the waiting room (still in my R2-D2 pajamas, which I had been wearing when I called the ambulance) for my sister-in-law to pick me up. It was a weirdly anticlimactic ending to it all, although preferable to actually having a heart attack, but the fear lingers to this day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Several months ago I thought I was having a heart attack. I was staying at my parents' house because my father was in the hospital, and I was alone. I woke up in the middle of the night with chest pains. The pains went away, so I convinced myself nothing was wrong, but when I woke up in the morning I felt unwell. My father was supposed to come home from the hospital that day, and my mother had spent the night at the hospital with him; I was supposed to drive my mother's car to the hospital. Instead, I called an ambulance for myself and went to the emergency room, unfortunately not in the same hospital where my father was. I called my mother so she knew what was going on, and she tried to hide it from my father, but he somehow figured out something was wrong. Meanwhile, in the emergency room across town I was having wires taped to my chest, answering a lot of questions, and having blood drawn. And then I waited. I was there for a long time, just waiting. My brother came by to stay with me for a while, until he had to go pick up my father at the other hospital. It soon became clear, through the monitoring and the blood work, that I had not had a heart attack. I had to do a stress test, which involved walking on a treadmill to get my heart pounding, and then I went back to waiting. I spent at least three hours after the test sitting in my emergency room cubicle, waiting for the results, or some kind of answer. A nurse came in and did a double-take when she saw me\u2013she had no idea I was still in there. Finally, after about 8 hours in the emergency room, hours that combined terror and boredom in a toxic stew of emotion that ended with anger and frustration, and doctor came in and told me I was fine. Maybe it was just stress. I was given a list of reasons for chest pain, and released to go sit in the waiting room (still in my R2-D2 pajamas, which I had been wearing when I called the ambulance) for my sister-in-law to pick me up. It was a weirdly anticlimactic ending to it all, although preferable to actually having a heart attack, but the fear lingers to this day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb53b794b8c8a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm glad I learned how to kayak three months ago. My local park was offering free kayak lessons and I signed up. It is something I always wanted to learn, so this was a perfect opportunity.  When I got there, a small group was there already. I was nervous but excited. The instructor was friendly and patient.  I learned where to place my feet. I learned how to fasten myself in. He taught us the proper way to use the paddle, how to go forward and how to turn. I climbed into a kayak and he pushed it out into the water. I headed for the middle of the lake.  It was wonderful. It was a clear sunny day. The light was shining off the water and the waves lapping against the kayak and the sound of the paddles dipping in an out the water was soothing.  Maybe too soothing. Because I loosened my grip on the paddle and it slid out of my hand into the water! Fortunately, it fell within arms reach and I was able to get it back, but my heart skipped a beat for a few moments. I continued paddling around the lake for an hour before it was time to head back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm glad I learned how to kayak three months ago. My local park was offering free kayak lessons and I signed up. It is something I always wanted to learn, so this was a perfect opportunity.  When I got there, a small group was there already. I was nervous but excited. The instructor was friendly and patient.  I learned where to place my feet. I learned how to fasten myself in. He taught us the proper way to use the paddle, how to go forward and how to turn. I climbed into a kayak and he pushed it out into the water. I headed for the middle of the lake.  It was wonderful. It was a clear sunny day. The light was shining off the water and the waves lapping against the kayak and the sound of the paddles dipping in an out the water was soothing.  Maybe too soothing. Because I loosened my grip on the paddle and it slid out of my hand into the water! Fortunately, it fell within arms reach and I was able to get it back, but my heart skipped a beat for a few moments. I continued paddling around the lake for an hour before it was time to head back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " "
+            }
+        ],
+        "request_id": "811ecbdc29291902-EWR"
+    }
+}

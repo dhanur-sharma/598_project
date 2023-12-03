@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last weekend was a ton of fun. I went with my husband to Walt Disney World. We rode many rides that weekend. I got to shake hands with Goofy. I hugged Minnie. I gave Mickey a fist bump. The teacup ride was very fun to ride on. Epcot center had a lot of neat cultures to observe. The Star Wars area was neat. I got to hug a stormtrooper. This was a great break from the daily work grind. We got to get a break from the stress of the modern world. This weekend made us relax enough for us to not worry about the daily grind for a few days. Only thing bad about it is that it ended. Normal life will be stressful again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last weekend was a ton of fun. I went with my husband to Walt Disney World. We rode many rides that weekend. I got to shake hands with Goofy. I hugged Minnie. I gave Mickey a fist bump. The teacup ride was very fun to ride on. Epcot center had a lot of neat cultures to observe. The Star Wars area was neat. I got to hug a stormtrooper. This was a great break from the daily work grind. We got to get a break from the stress of the modern world. This weekend made us relax enough for us to not worry about the daily grind for a few days. Only thing bad about it is that it ended. Normal life will be stressful again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9aa2693b0f91-EWR"
+    }
+}

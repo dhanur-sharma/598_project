@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I love that trip to Indonesia. The people there are so beautiful. I love that dark island woman. They are so friendly too. They really like white men because of their being exposed to western media. So it's really cool. The woman all want to jump my bones and it really boost my confidence. Unlike here in America where women are inundated with a different kind of media. But that trip was so fun. I went to the beach a lot. And at the beach it's so nice, it's sunny and warm. Just the relaxing vibe defintiely changed my life forever and I was so happy to be with that place. It was soo nice. I really loved the nightlife too. The clubs are popping. The woman are super cute there and super friendly too. I love going out there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I love that trip to Indonesia. The people there are so beautiful. I love that dark island woman. They are so friendly too. They really like white men because of their being exposed to western media. So it's really cool. The woman all want to jump my bones and it really boost my confidence. Unlike here in America where women are inundated with a different kind of media. But that trip was so fun. I went to the beach a lot. And at the beach it's so nice, it's sunny and warm. Just the relaxing vibe defintiely changed my life forever and I was so happy to be with that place. It was soo nice. I really loved the nightlife too. The clubs are popping. The woman are super cute there and super friendly too. I love going out there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love the island life. It's so relaxing and peaceful. I would definitely go back there again.\n\n"
+            }
+        ],
+        "request_id": "811ebae2cd5f43b5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago while I was at work in the ER, a I was called to the front desk. This is nothing new, as sometimes I need to explain a chart to a nurse. As I walked away from the sterilization room, I tried to think what they may need help with. I was greeted by a lady who was holding a plant. She said her name is Judy. Judy said that I had saved her life several months ago. I performed CPR on her and saved her life. She was grateful for all I had done for her. She said that since then, she has gone on to do amazing things. She has started working helping others. She gave me a big hug and handed the plant to me. She said it represents her life which I had saved. We talked briefly and agreed to keep in contact. We exchanged phone numbers. It felt really good to be appreciated."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago while I was at work in the ER, a I was called to the front desk. This is nothing new, as sometimes I need to explain a chart to a nurse. As I walked away from the sterilization room, I tried to think what they may need help with. I was greeted by a lady who was holding a plant. She said her name is Judy. Judy said that I had saved her life several months ago. I performed CPR on her and saved her life. She was grateful for all I had done for her. She said that since then, she has gone on to do amazing things. She has started working helping others. She gave me a big hug and handed the plant to me. She said it represents her life which I had saved. We talked briefly and agreed to keep in contact. We exchanged phone numbers. It felt really good to be appreciated.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb02c1f3343bd-EWR"
+    }
+}

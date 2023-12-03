@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, we found out that my father needs a kidney transplant due to kidney failure. He is the rock of our family, and the idea that he needs surgery is scary. He will undergo a full transplant on Thursday morning. The surgery begins at 8:00am and ends at 11:00am. He will be in the hospital for about a week before returning home. His long term prognosis is a return to full health. After surgery, his restrictions will include an inability to lift weights. My mother and sister are distraught, but glad he will be home soon. His manager at work has said he will be paid in full during his time away. That takes a lot of stress off the family in general. As for me, I am scared. My father means everything to me, and with his history of medical issues, this is a scary time. That being said, he has amazing doctors who will take care of him. I'm also lucky to have a great girlfriend to support me through all of this. I really hope that my father will be OK after his surgery."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, we found out that my father needs a kidney transplant due to kidney failure. He is the rock of our family, and the idea that he needs surgery is scary. He will undergo a full transplant on Thursday morning. The surgery begins at 8:00am and ends at 11:00am. He will be in the hospital for about a week before returning home. His long term prognosis is a return to full health. After surgery, his restrictions will include an inability to lift weights. My mother and sister are distraught, but glad he will be home soon. His manager at work has said he will be paid in full during his time away. That takes a lot of stress off the family in general. As for me, I am scared. My father means everything to me, and with his history of medical issues, this is a scary time. That being said, he has amazing doctors who will take care of him. I'm also lucky to have a great girlfriend to support me through all of this. I really hope that my father will be OK after his surgery.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec73d1f61430e-EWR"
+    }
+}

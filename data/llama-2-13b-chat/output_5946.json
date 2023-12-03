@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, my best friend got married. She married her high school sweetheart. I was very proud of them. The marriage ceremony was great. She walked down the hall in a white dress. The man had a great tuxedo on. They kissed and were married that day. The party was very cool. There were steaks for everybody. There was also a big cake to eat. It was very good. They told me that they were expecting a child. I wished them the best. They think it will be a girl but I put a bet that it will be a boy. The bet is only a few bucks. I hope they have a happy life. They are a strong and young couple, so they should live long."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, my best friend got married. She married her high school sweetheart. I was very proud of them. The marriage ceremony was great. She walked down the hall in a white dress. The man had a great tuxedo on. They kissed and were married that day. The party was very cool. There were steaks for everybody. There was also a big cake to eat. It was very good. They told me that they were expecting a child. I wished them the best. They think it will be a girl but I put a bet that it will be a boy. The bet is only a few bucks. I hope they have a happy life. They are a strong and young couple, so they should live long.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3bc84bd719ef-EWR"
+    }
+}

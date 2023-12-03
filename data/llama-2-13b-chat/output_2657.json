@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have not been feeling the greatest lately.  I have had periods where I get really bad depression.  Two weeks ago, I had fallen into another deep depression.  I was really down and felt like I had no one for support.  I was sitting in my apartment when I heard my doorbell.  I went to get it and it was my old friend Gary.  I was so shocked to see him  He not only came to visit but he surprised me by bringing me soup he made at home!  He knew I was not doing too good and he came to cheer me up and give me company.  Having him there showed me that I have people that still care about me.  We talked for a long time and it was obvious to me that he wanted nothing in return.  It was nice to be able to open up about myself to someone who I know I can trust.  Greg convinced me to make an appointment to see a doctor.  He wants me to feel better, and I do too!  I am hopeful I will feel better in the future.  I am very thankful for Greg's friendship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have not been feeling the greatest lately.  I have had periods where I get really bad depression.  Two weeks ago, I had fallen into another deep depression.  I was really down and felt like I had no one for support.  I was sitting in my apartment when I heard my doorbell.  I went to get it and it was my old friend Gary.  I was so shocked to see him  He not only came to visit but he surprised me by bringing me soup he made at home!  He knew I was not doing too good and he came to cheer me up and give me company.  Having him there showed me that I have people that still care about me.  We talked for a long time and it was obvious to me that he wanted nothing in return.  It was nice to be able to open up about myself to someone who I know I can trust.  Greg convinced me to make an appointment to see a doctor.  He wants me to feel better, and I do too!  I am hopeful I will feel better in the future.  I am very thankful for Greg's friendship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebaec8baa42fd-EWR"
+    }
+}

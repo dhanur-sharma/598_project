@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I ended up moving in with my mother. I think it's time she has someone living with her in order to help her out. I made the move two months ago, and it's had it's ups and downs. The major up for me is, is that I don't need to worry as much about her anymore. She definitely appreciates having someone around, and since my brother is living out of state at the moment, I'm the smartest, most trustworthy choice. Sure we have other relatives like cousins and what not, but I wouldn't trust any of them to take care of her. The down side so far is, is that I'm obviously living with my mom, and that takes some getting used to. I guess it's not really a down side, but it's definitely an adjustment period for me. My mom has health problems, both physically and mentally. Just the process of getting old, so it's nothing too extreme. She's just a little more forgetful than she used to be, which is dangerous when she needs to be on top of taking medication. As for the physical, she has severe arthritis, and a bad back, so she's very limited with household chores and such. She absolutely will be stubborn as a bull about it, too. My mom's always been a massive cleaner, so she struggles with letting me pick up the responsibility. All in all though, I feel much better not having to worry. I know she enjoys having me around a lot more often, too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I ended up moving in with my mother. I think it's time she has someone living with her in order to help her out. I made the move two months ago, and it's had it's ups and downs. The major up for me is, is that I don't need to worry as much about her anymore. She definitely appreciates having someone around, and since my brother is living out of state at the moment, I'm the smartest, most trustworthy choice. Sure we have other relatives like cousins and what not, but I wouldn't trust any of them to take care of her. The down side so far is, is that I'm obviously living with my mom, and that takes some getting used to. I guess it's not really a down side, but it's definitely an adjustment period for me. My mom has health problems, both physically and mentally. Just the process of getting old, so it's nothing too extreme. She's just a little more forgetful than she used to be, which is dangerous when she needs to be on top of taking medication. As for the physical, she has severe arthritis, and a bad back, so she's very limited with household chores and such. She absolutely will be stubborn as a bull about it, too. My mom's always been a massive cleaner, so she struggles with letting me pick up the responsibility. All in all though, I feel much better not having to worry. I know she enjoys having me around a lot more often, too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She's always asking if I'm hungry, or if I want to watch a movie together. It's nice to feel wanted, even if I'm just helping out.\n\n"
+            }
+        ],
+        "request_id": "811bdce12f098cda-EWR"
+    }
+}

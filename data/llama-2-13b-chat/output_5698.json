@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: From few days i was getting the continual dizziness. and also i want to get new treatment .however it is very important for me.]i want a suggestions from my elders. i must maintain food control. i should keep use of medicine is very important for me. i will use new medical technology. there may be a chance for me to affect this kind of disease. i feel MRI is much better. i want to meet some solutions to my physicist. these type situation is somewhat disturbed for me .difficult to manage. these type of situation is always affects me. i want to use new medical instruments. i want to get advice from my friends. it always affects me in lot. it is very disturbed for me. it always interrupt me in a special situation. doctors are very helpful for me. i specify some specific symptoms. i want to get medical action to my elders. MRI is very new for me. it provides a different feel for me. i want to comeout from my ill ness. i want to suggest my illness to my collegues."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: From few days i was getting the continual dizziness. and also i want to get new treatment .however it is very important for me.]i want a suggestions from my elders. i must maintain food control. i should keep use of medicine is very important for me. i will use new medical technology. there may be a chance for me to affect this kind of disease. i feel MRI is much better. i want to meet some solutions to my physicist. these type situation is somewhat disturbed for me .difficult to manage. these type of situation is always affects me. i want to use new medical instruments. i want to get advice from my friends. it always affects me in lot. it is very disturbed for me. it always interrupt me in a special situation. doctors are very helpful for me. i specify some specific symptoms. i want to get medical action to my elders. MRI is very new for me. it provides a different feel for me. i want to comeout from my ill ness. i want to suggest my illness to my collegues.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i want to get suggestions from my collegues. i want to get some solution to my illness.\n\n"
+            }
+        ],
+        "request_id": "811f36a30d72439f-EWR"
+    }
+}

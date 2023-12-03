@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago in May, my wife and I went to see Cher in concert. This was very meaningful for us because my wife has loved Cher since she was a little girl. We looked forward to the concert for months. I surprised her with 8th row tickets. I have never spent so much money on concert tickets before, but I knew this would be worth the splurge. We live in Chicago but I bought tickets for the concert in Milwaukee because they were slightly cheaper. On the day of the concert, we took the Amtrak train to Milwaukee and checked in to our hotel. Our hotel was very nice and we were happy with our room. Once we got settled, we went to the restaurant located in the hotel and ordered beers and food. Then we walked to the venue. The ticket package included a swag bag and pre-show reception with drinks and food included. I felt really special and I was very happy that I could treat my wife to this experience. The most memorable part of the whole night was when Cher first came out on stage. Her entrance was so powerful. We cried out of happiness, sang along, danced, and had a great time together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago in May, my wife and I went to see Cher in concert. This was very meaningful for us because my wife has loved Cher since she was a little girl. We looked forward to the concert for months. I surprised her with 8th row tickets. I have never spent so much money on concert tickets before, but I knew this would be worth the splurge. We live in Chicago but I bought tickets for the concert in Milwaukee because they were slightly cheaper. On the day of the concert, we took the Amtrak train to Milwaukee and checked in to our hotel. Our hotel was very nice and we were happy with our room. Once we got settled, we went to the restaurant located in the hotel and ordered beers and food. Then we walked to the venue. The ticket package included a swag bag and pre-show reception with drinks and food included. I felt really special and I was very happy that I could treat my wife to this experience. The most memorable part of the whole night was when Cher first came out on stage. Her entrance was so powerful. We cried out of happiness, sang along, danced, and had a great time together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We left the concert feeling elated."
+            }
+        ],
+        "request_id": "811be50fcbaf5e5f-EWR"
+    }
+}

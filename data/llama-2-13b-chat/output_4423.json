@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to take my son to have a hearing test that we have been trying to get done for a while.  He had to be put to sleep because he just turned 3 and they had to have him stay still and quiet for about an hour to be able to get accurate results.  We had to drive about an hour and a half away to have this test done because not just every place does them.  We had to go to a specialty children's hospital.  I was very nervous because he had never been put to sleep before and actually hadn't even ever been in the hospital since he was born.  I was upsetting to me when I walked in the room and it looked just like a regular operating room.  They gave us all the information about the procedure and then it was time to get started.  We laid him on the table and had to hold him down while they put the mask with anesthesia on him.  He was trying to scream but nothing would come out.  It was a horrible experience and he was stating up at as wondering why we were helping them do this to him.  It was absolutely heartbreaking.  After about 30 seconds he was asleep and they put the IV drip in to keep him sleeping while they preformed the test.  We were unable to stay in there for the test but it didn't last as long as they thought it would, only about 40 minutes.  They called us back in and gave us the results that his hearing is fine and then we just had to wait for him to wake up.  That took about 15 minutes for the anesthesia to wear off and him to awaken but once he did they gave him some just and we were able to take him home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to take my son to have a hearing test that we have been trying to get done for a while.  He had to be put to sleep because he just turned 3 and they had to have him stay still and quiet for about an hour to be able to get accurate results.  We had to drive about an hour and a half away to have this test done because not just every place does them.  We had to go to a specialty children's hospital.  I was very nervous because he had never been put to sleep before and actually hadn't even ever been in the hospital since he was born.  I was upsetting to me when I walked in the room and it looked just like a regular operating room.  They gave us all the information about the procedure and then it was time to get started.  We laid him on the table and had to hold him down while they put the mask with anesthesia on him.  He was trying to scream but nothing would come out.  It was a horrible experience and he was stating up at as wondering why we were helping them do this to him.  It was absolutely heartbreaking.  After about 30 seconds he was asleep and they put the IV drip in to keep him sleeping while they preformed the test.  We were unable to stay in there for the test but it didn't last as long as they thought it would, only about 40 minutes.  They called us back in and gave us the results that his hearing is fine and then we just had to wait for him to wake up.  That took about 15 minutes for the anesthesia to wear off and him to awaken but once he did they gave him some just and we were able to take him home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so happy that it was over but also so upset that we had to go through that with him.\n\n"
+            }
+        ],
+        "request_id": "811bd6984b445e82-EWR"
+    }
+}

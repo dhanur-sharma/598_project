@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went for my follow-up appointment in October. I received the best news that I could have hoped for. I am all good and cancer free! This has been a rollercoaster of a year. I have been able to relax and enjoy the holidays with my family knowing that I'm not going to be leaving them any time soon. Well, I know that anything could happen but at least it's not that! I am so glad that I went for that exam last spring. I can't imagine how this would have gone had the cancer not been found when it was. I have so many plans for the future now. I feel like I had been taking so many things for granted. I want to follow through on all those things that I just never made time for. It's amazing how a scare like this can change your perspective. I have two young children and a wonderful life. Sometimes I get really upset thinking what would have happened if my PSA results had not been good. I'm also grateful that I have such great health insurance. It is such a privilege that this scare didn't also bankrupt us. I am relieved that my treatment didn't put us in debt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went for my follow-up appointment in October. I received the best news that I could have hoped for. I am all good and cancer free! This has been a rollercoaster of a year. I have been able to relax and enjoy the holidays with my family knowing that I'm not going to be leaving them any time soon. Well, I know that anything could happen but at least it's not that! I am so glad that I went for that exam last spring. I can't imagine how this would have gone had the cancer not been found when it was. I have so many plans for the future now. I feel like I had been taking so many things for granted. I want to follow through on all those things that I just never made time for. It's amazing how a scare like this can change your perspective. I have two young children and a wonderful life. Sometimes I get really upset thinking what would have happened if my PSA results had not been good. I'm also grateful that I have such great health insurance. It is such a privilege that this scare didn't also bankrupt us. I am relieved that my treatment didn't put us in debt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to say, I am not sure how we would have handled that.\n\n"
+            }
+        ],
+        "request_id": "811ec0edde0c8ccd-EWR"
+    }
+}

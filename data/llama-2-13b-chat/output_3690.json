@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My aunt and uncles 40th anniversary was last weekend. I took the bus up from DC to Boston to attend. It was a long bus ride, but I took the overnight bus so was able to sleep for most of it. When I got in I was exhausted. To get ready I drank some coffee and went to the party. My cousins rented a local Italian restaurant for the party. It was a surprise and they were very shocked to see all of us there for the event. There was a lot of food. Seven courses in all. In the end I wasn't able to complete more than 5. I initially resisted having desert. But the rum cake they got for the party was so good that I was somehow able to finish two servings. I don't get to go home that often. It was nice to see my whole family together. It reminded me of the family get togethers we had when I was a child."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My aunt and uncles 40th anniversary was last weekend. I took the bus up from DC to Boston to attend. It was a long bus ride, but I took the overnight bus so was able to sleep for most of it. When I got in I was exhausted. To get ready I drank some coffee and went to the party. My cousins rented a local Italian restaurant for the party. It was a surprise and they were very shocked to see all of us there for the event. There was a lot of food. Seven courses in all. In the end I wasn't able to complete more than 5. I initially resisted having desert. But the rum cake they got for the party was so good that I was somehow able to finish two servings. I don't get to go home that often. It was nice to see my whole family together. It reminded me of the family get togethers we had when I was a child.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ecef48fa243e2-EWR"
+    }
+}

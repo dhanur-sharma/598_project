@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I went to the River with my family to go kayaking. It was after some heavy rain the the river was up a bit more than normal. After lazing down the river for a good bit. I hit a hard dog leg with some people who were stuck in a raft at the bend. I couldn't really help them so I went to pass em but the current swept we away. I hit a tree branch and turned over. The people in the raft saved my life bu pulling me out of the water. Afterwards they helped me back in my kayak and I went back down the rest of the river and caught up with my family who had no idea what happened to me. They talked to me a bit about what happened but it was already over with and I was safe. That's all that mattered. It impacted me hard that I almost lost my life that day. I thanked the group heavily after I seen them later on. It was a fun rest of the trip. I'll never forget what happened that day. That day changed my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I went to the River with my family to go kayaking. It was after some heavy rain the the river was up a bit more than normal. After lazing down the river for a good bit. I hit a hard dog leg with some people who were stuck in a raft at the bend. I couldn't really help them so I went to pass em but the current swept we away. I hit a tree branch and turned over. The people in the raft saved my life bu pulling me out of the water. Afterwards they helped me back in my kayak and I went back down the rest of the river and caught up with my family who had no idea what happened to me. They talked to me a bit about what happened but it was already over with and I was safe. That's all that mattered. It impacted me hard that I almost lost my life that day. I thanked the group heavily after I seen them later on. It was a fun rest of the trip. I'll never forget what happened that day. That day changed my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaeb55b1ec331-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Journal,Holy crap I'm lucky to be alive. I don't know why I'm only writing about this now, I guess I just needed time to process. About 2 months ago I was driving home from work. I stayed late to help out with some extra work that needed to be done. That jerk Gary called in again and screwed us all over. Anyway by the time I left it was getting dark already and had started to rain. I headed out and was driving carefully because I knew I needed new tires. Once I got out on the highway I was getting maybe a little overconfident and impatient and started speeding up. It didn't help that someone was right on my butt like always! Anyway I kept moving down the highway and was getting into a groove with the flow of traffic around me and started moving faster and faster. Before I knew it I had lost control and the steering wheel wasn't responding! I know now what was happening, I was hydroplaning, but at the time I guess I was panicking and freaked out. I was jamming pedals and jerking the wheel and once the tires got some grip I guess I had the wheel turned the wrong way because my car immediately spun out. I went in circles for what felt like a mile and a half and slid down a hill. For a moment I thought this was the end! But it.....wasn't. By the time I reached the bottom of the hill the car had slowed and I bounced harmlessly off a service van. My car had a dent and the van was scratched, but that's all. Whew. I was shaken up and have thought about what I did wrong over and over again since."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Journal,Holy crap I'm lucky to be alive. I don't know why I'm only writing about this now, I guess I just needed time to process. About 2 months ago I was driving home from work. I stayed late to help out with some extra work that needed to be done. That jerk Gary called in again and screwed us all over. Anyway by the time I left it was getting dark already and had started to rain. I headed out and was driving carefully because I knew I needed new tires. Once I got out on the highway I was getting maybe a little overconfident and impatient and started speeding up. It didn't help that someone was right on my butt like always! Anyway I kept moving down the highway and was getting into a groove with the flow of traffic around me and started moving faster and faster. Before I knew it I had lost control and the steering wheel wasn't responding! I know now what was happening, I was hydroplaning, but at the time I guess I was panicking and freaked out. I was jamming pedals and jerking the wheel and once the tires got some grip I guess I had the wheel turned the wrong way because my car immediately spun out. I went in circles for what felt like a mile and a half and slid down a hill. For a moment I thought this was the end! But it.....wasn't. By the time I reached the bottom of the hill the car had slowed and I bounced harmlessly off a service van. My car had a dent and the van was scratched, but that's all. Whew. I was shaken up and have thought about what I did wrong over and over again since.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think I just got too confident and let my guard down. But I'm alive and I'm so grateful. That could have ended so much worse. I'm gonna take some defensive driving courses and get some winter tires and just be more careful all around."
+            }
+        ],
+        "request_id": "811ec584fd5643a9-EWR"
+    }
+}

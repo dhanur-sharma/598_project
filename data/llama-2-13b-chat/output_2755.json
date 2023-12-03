@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About half a year ago, I left my hometown in Newark, New Jersey to go to Los Angeles and try to advance my music career. I was skeptical and had been pushing it off for a few years. The rent was just so much more in LA which was almost four times more than what I was currently paying. Not to mention the cost of living in general was so much more in California as well. It was also difficult because all of my friends and family were in New Jersey. Although there were a few musicians I was friends with, it would be almost like starting over completely since I wouldn't have my close friends anymore. However, I knew I had to try because there was so much more opportunities in LA. The music scene was much bigger in LA and there are a lot more venues that I could be booked at. My band had similar concerns but everyone except our lead guitar player, Bob, was down to go. Rob, our lead singer, didn't really have any doubts but our drummer John was difficult to convince. Anyways, we eventually got to him and decided to drive all the way from New Jersey to LA in our minivan. It was not a fun experience as everything was cramped because we had to squeeze in all of our gear. When we got to LA, everything seemed fine for the first few months. Our manager already booked us at a few venues prior to getting there and all we had to do was find a replacement for Bob. That seemed easy. Or so we thought. As we auditioned dozens of people, we quickly realized the mistake we made. The chemistry and energy Bob brought to our band was almost irreplaceable. He was an amazing backup singer and lead guitarist and none of the people we tried out came close to his level. We hastily chose someone else because we had a couple of shows coming up in a week. It wasn't a surprise that it turned out to be a disaster and we weren't booked for any more shows after that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About half a year ago, I left my hometown in Newark, New Jersey to go to Los Angeles and try to advance my music career. I was skeptical and had been pushing it off for a few years. The rent was just so much more in LA which was almost four times more than what I was currently paying. Not to mention the cost of living in general was so much more in California as well. It was also difficult because all of my friends and family were in New Jersey. Although there were a few musicians I was friends with, it would be almost like starting over completely since I wouldn't have my close friends anymore. However, I knew I had to try because there was so much more opportunities in LA. The music scene was much bigger in LA and there are a lot more venues that I could be booked at. My band had similar concerns but everyone except our lead guitar player, Bob, was down to go. Rob, our lead singer, didn't really have any doubts but our drummer John was difficult to convince. Anyways, we eventually got to him and decided to drive all the way from New Jersey to LA in our minivan. It was not a fun experience as everything was cramped because we had to squeeze in all of our gear. When we got to LA, everything seemed fine for the first few months. Our manager already booked us at a few venues prior to getting there and all we had to do was find a replacement for Bob. That seemed easy. Or so we thought. As we auditioned dozens of people, we quickly realized the mistake we made. The chemistry and energy Bob brought to our band was almost irreplaceable. He was an amazing backup singer and lead guitarist and none of the people we tried out came close to his level. We hastily chose someone else because we had a couple of shows coming up in a week. It wasn't a surprise that it turned out to be a disaster and we weren't booked for any more shows after that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were all frustrated and disappointed. But, we didn't give up. We kept auditioning and eventually found someone who could live up to Bob's standards. It took us a few months but we were able to get back on track and start playing at venues again. Looking back, it was a huge risk moving to LA but it was worth it in the end. The opportunities we've had here are so much greater than what we would have had back in New Jersey. We're all still living in a small apartment and we're still struggling to make ends meet but we're all happy to be doing what we love."
+            }
+        ],
+        "request_id": "811ebd36a87e19ef-EWR"
+    }
+}

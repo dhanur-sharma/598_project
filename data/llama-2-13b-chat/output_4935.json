@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago, my sister called for a family gathering at her house. She presented me with a card that said \"Aunt\" on the front, but I have no nieces or nephews. I opened up the card and and ultrasound fell out. She told me that she had been visiting the clinic to kickstart a pregnancy. She was told in the past that a pregnancy would never be viable, but she still tried. Her and her husband really wanted this. They were under the impression that it would never be possible for them to procreate. Everyone was so happy for them. Me and my sister both cried with joy. After that, we went to Walmart to buy some baby clothes. We went to the store and cried again when we saw the tiny clothes. It was finally real. I was going to be and aunt, and her, a mother. We cannot wait to welcome baby. The baby is already so loved."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago, my sister called for a family gathering at her house. She presented me with a card that said \"Aunt\" on the front, but I have no nieces or nephews. I opened up the card and and ultrasound fell out. She told me that she had been visiting the clinic to kickstart a pregnancy. She was told in the past that a pregnancy would never be viable, but she still tried. Her and her husband really wanted this. They were under the impression that it would never be possible for them to procreate. Everyone was so happy for them. Me and my sister both cried with joy. After that, we went to Walmart to buy some baby clothes. We went to the store and cried again when we saw the tiny clothes. It was finally real. I was going to be and aunt, and her, a mother. We cannot wait to welcome baby. The baby is already so loved.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful for this blessing.\n\n"
+            }
+        ],
+        "request_id": "811be1109b2942ef-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 5 months ago I went on a trip to another state. I had a complicated and hectic work situation--I needed a job. I felt so alone and hopeless at that point in my life--I didn't have anything or anyone to lean on. Or so I thought. Not many of my friends stuck with me after my move, they just faded out of existence; however, a select few still cared. I remember crying and getting a message from a not-very close friend, but a friend nonetheless asking me if I was ok. I was ecstatic. Someone actually CARED about me, and that was one of the best feelings I had gotten in a while. Of course, I responded in the affirmative and updated them on my situation. I realize that friends dont have to be particularly close to be true friends, they just have to be available and care about you as a person to be a true friend, you know? All that matters is that they care about you. When you're down, you dont even have to ask. They'll be there for you, and that's a lovely feeling. I realized what true friendship was after moving. I'll never forget it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 5 months ago I went on a trip to another state. I had a complicated and hectic work situation--I needed a job. I felt so alone and hopeless at that point in my life--I didn't have anything or anyone to lean on. Or so I thought. Not many of my friends stuck with me after my move, they just faded out of existence; however, a select few still cared. I remember crying and getting a message from a not-very close friend, but a friend nonetheless asking me if I was ok. I was ecstatic. Someone actually CARED about me, and that was one of the best feelings I had gotten in a while. Of course, I responded in the affirmative and updated them on my situation. I realize that friends dont have to be particularly close to be true friends, they just have to be available and care about you as a person to be a true friend, you know? All that matters is that they care about you. When you're down, you dont even have to ask. They'll be there for you, and that's a lovely feeling. I realized what true friendship was after moving. I'll never forget it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bda9c0ba04263-EWR"
+    }
+}

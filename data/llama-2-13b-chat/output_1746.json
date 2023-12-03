@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My story is one of frustration, sadness and ultimately triumph. About six months ago I noticed that my hand was shaking. I didn't give much consideration to it. It only seemed to happen when I was relaxing or at rest. I put it out of my mind. I ride a motorcycle and began to notice that my balance was beginning to feel off. Not a sharp decline in balance, but enough for me to know that something didn't feel right. I noticed that riding wasn't as enjoyable or as comforting as it used to be. The next thing I noticed was my balance while walking. I never had great balance to begin with but I typically could walk a straight line without much issue. Now I felt off-kilter and stumbling. I decided I needed to talk to my doctor. My primary care was very close to the vest, no indication on what she thought it might be and I was referred to a neurologist. I had MRI's, CT scans, X-rays and finally arrived at the diagnosis, Early Onset Parkinson's Disease. I am only 43, this doesn't happen to someone my age. Parkinson's is an old persons disease. I have fought with the diagnosis for some time, its not easy to accept that your body no longer wants to cooperate when you go to pick something up or shake at inopportune moments. Through therapy and meditation I am now in place of acceptance for myself and who I am. The disease doesn't change who I am at my core. It only changes what my body will allow me to do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My story is one of frustration, sadness and ultimately triumph. About six months ago I noticed that my hand was shaking. I didn't give much consideration to it. It only seemed to happen when I was relaxing or at rest. I put it out of my mind. I ride a motorcycle and began to notice that my balance was beginning to feel off. Not a sharp decline in balance, but enough for me to know that something didn't feel right. I noticed that riding wasn't as enjoyable or as comforting as it used to be. The next thing I noticed was my balance while walking. I never had great balance to begin with but I typically could walk a straight line without much issue. Now I felt off-kilter and stumbling. I decided I needed to talk to my doctor. My primary care was very close to the vest, no indication on what she thought it might be and I was referred to a neurologist. I had MRI's, CT scans, X-rays and finally arrived at the diagnosis, Early Onset Parkinson's Disease. I am only 43, this doesn't happen to someone my age. Parkinson's is an old persons disease. I have fought with the diagnosis for some time, its not easy to accept that your body no longer wants to cooperate when you go to pick something up or shake at inopportune moments. Through therapy and meditation I am now in place of acceptance for myself and who I am. The disease doesn't change who I am at my core. It only changes what my body will allow me to do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I still have moments of frustration and sadness but I have accepted the hand I was dealt and I will continue to live my life to the fullest.\n\n"
+            }
+        ],
+        "request_id": "811eaa093a575e60-EWR"
+    }
+}

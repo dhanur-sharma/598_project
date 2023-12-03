@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was at home getting ready for work one morning when I received a call.  It was my dad on the other line and he said something had happened to mom.  I wanted to know what had happened so I asked.  He just said we should all come to the hospital as soon as possible.  I gathered up my things because I didn't know how long I would be there.  I had an important business meeting that day as well.  I got to the hospital and asked about my mom and the person directed me to where my family was.  I met my dad and he said my mom had had a stroke.  I asked what happened and he said she just woke up with a headache and then passed out.  He said she was having a brain scan at the moment to assess the damage.  I asked if she had regained consciousness and he said that she hadn't yet.  I was so worried about my mom because she wasn't that old.  I was desperate to find out more information. Finally the doctor came out and he said that the brain scan had revealed she had significant brain damage.  We asked if she would get better or wake up and the doctor said he had no way of knowing.  We all went and gathered around her bed to see her.  She looked the same, just as if she was asleep.  I was very sad at that point."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was at home getting ready for work one morning when I received a call.  It was my dad on the other line and he said something had happened to mom.  I wanted to know what had happened so I asked.  He just said we should all come to the hospital as soon as possible.  I gathered up my things because I didn't know how long I would be there.  I had an important business meeting that day as well.  I got to the hospital and asked about my mom and the person directed me to where my family was.  I met my dad and he said my mom had had a stroke.  I asked what happened and he said she just woke up with a headache and then passed out.  He said she was having a brain scan at the moment to assess the damage.  I asked if she had regained consciousness and he said that she hadn't yet.  I was so worried about my mom because she wasn't that old.  I was desperate to find out more information. Finally the doctor came out and he said that the brain scan had revealed she had significant brain damage.  We asked if she would get better or wake up and the doctor said he had no way of knowing.  We all went and gathered around her bed to see her.  She looked the same, just as if she was asleep.  I was very sad at that point.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I wanted to know more about her condition and the prognosis.  I asked the doctor if he could tell me more.  He said she was stable for now but there was a lot of swelling in her brain.  He said we would just have to wait and see.  I was worried about my mom and I didn't know what to do.  I just wanted her to be okay.  I decided to go back to work because I didn't want to leave my colleagues in the lurch.  I was worried about my mom but I had to go.  I left my dad and my brothers at the hospital with her.  I was so worried about her and I just wanted her to get better.\n\n"
+            }
+        ],
+        "request_id": "811ea98b3e370c84-EWR"
+    }
+}

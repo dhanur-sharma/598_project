@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I met my dream girl. We went on a date to a restaurant. I had a big steak with some coke. She had a salad with some wine. I paid for the meal and we left to her house. We later decided that we were met for each other. She proposed to me and I accepted. I can't wait to get married. I am planning on using a black tuxedo. She will be going in a white dress. We will invite all sorts of people to the wedding. I will invite me parents and brothers. She will invite her parents and sisters. We will have the wedding in a casino. It will be crazy. This will be the funnest wedding of all time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I met my dream girl. We went on a date to a restaurant. I had a big steak with some coke. She had a salad with some wine. I paid for the meal and we left to her house. We later decided that we were met for each other. She proposed to me and I accepted. I can't wait to get married. I am planning on using a black tuxedo. She will be going in a white dress. We will invite all sorts of people to the wedding. I will invite me parents and brothers. She will invite her parents and sisters. We will have the wedding in a casino. It will be crazy. This will be the funnest wedding of all time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't wait.\n\n"
+            }
+        ],
+        "request_id": "811f33530ce441ad-EWR"
+    }
+}

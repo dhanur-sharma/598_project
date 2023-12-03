@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago my whole life was upended. My mom's boyfriend promised her that he could get her a new job in the next state over.  We packed up everything and found a new apartment and got me enrolled in a new school.  Once we got there and were settled my mom's boyfriend suddenly got very busy.  He stopped answering calls and was evasive.  I could see what was coming but my mom was slower to realize it.  Sure enough, there was no new job and we were quickly running out of fund.  I got an after school job and my mom took a temp job at the bank.  I liked out new town and home but worried we wouldn't be able to afford to stay. Then, a miracle happened!  My mom was talking to a bank customer about how we came to town and she was offered a new job.  It paid better and let her  get back into her chosen field.  So now we can stay in town permanently.  I am so happy things worked out this time but i hope my mom has a better radar for idiot boyfriends in the future.  I hate knowing my life can be upended so easily."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago my whole life was upended. My mom's boyfriend promised her that he could get her a new job in the next state over.  We packed up everything and found a new apartment and got me enrolled in a new school.  Once we got there and were settled my mom's boyfriend suddenly got very busy.  He stopped answering calls and was evasive.  I could see what was coming but my mom was slower to realize it.  Sure enough, there was no new job and we were quickly running out of fund.  I got an after school job and my mom took a temp job at the bank.  I liked out new town and home but worried we wouldn't be able to afford to stay. Then, a miracle happened!  My mom was talking to a bank customer about how we came to town and she was offered a new job.  It paid better and let her  get back into her chosen field.  So now we can stay in town permanently.  I am so happy things worked out this time but i hope my mom has a better radar for idiot boyfriends in the future.  I hate knowing my life can be upended so easily.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecc31fbef4382-EWR"
+    }
+}

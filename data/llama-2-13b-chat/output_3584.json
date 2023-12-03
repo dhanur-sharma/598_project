@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event I would like to write about happened last week. It was something I think about a lot and expect to happen, but am always stricken with panic and sadness when it does. I have two aging dogs, Buddy and Peaches, they are both over 10 years old. We got them both when they were just puppies and times were good for our family. Buddy and Peaches are very much part of our family and we treat them as such. Over the years our financial circumstances have really declined and vet care has become a real issue. When they show signs of illness its a scary situation.  Last week, Buddy came in from outside and appeared to be blind. His under eye lids had completely covered his eyes and he could not see. I thought he had a stroke. I called many vets and finally found one that was somewhat affordable and made an appointment. I was distraught and so very worried that he would need care that we would not be able to provide him. The vet looked him over and noticed he had a few fleas on him, he stated Buddy was having an allergic reaction and simply needed to be put on flea medication.  Although we had to use our weekly food money to purchase, we got the medication and within days he was just fine. Although this time it wasnt as serious as I thought initially, I worry about the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event I would like to write about happened last week. It was something I think about a lot and expect to happen, but am always stricken with panic and sadness when it does. I have two aging dogs, Buddy and Peaches, they are both over 10 years old. We got them both when they were just puppies and times were good for our family. Buddy and Peaches are very much part of our family and we treat them as such. Over the years our financial circumstances have really declined and vet care has become a real issue. When they show signs of illness its a scary situation.  Last week, Buddy came in from outside and appeared to be blind. His under eye lids had completely covered his eyes and he could not see. I thought he had a stroke. I called many vets and finally found one that was somewhat affordable and made an appointment. I was distraught and so very worried that he would need care that we would not be able to provide him. The vet looked him over and noticed he had a few fleas on him, he stated Buddy was having an allergic reaction and simply needed to be put on flea medication.  Although we had to use our weekly food money to purchase, we got the medication and within days he was just fine. Although this time it wasnt as serious as I thought initially, I worry about the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are now to the point where we cant afford to give them the care they need. I know we will have to make some tough decisions soon. I am very sad about it and fear the day when we have to let them go. \n\n"
+            }
+        ],
+        "request_id": "811ecc696b490f6b-EWR"
+    }
+}

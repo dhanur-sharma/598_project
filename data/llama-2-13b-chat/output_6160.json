@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I helpedplan a baby shower with two other coworkers for another coworker. We got together and planned the specifics such as the date, food , decorations and budget. I helped collect donations from coworkers. Another coworker ordered the food. The other coworker bought the decorations. On tge day of the event, one coworker picked up the food and i helped bring up the food. I helped decorate the room and prepare tge food on the table. It took two hours to complete but we worked as a team to accomplish this event. After the event, i helped to clean up. I removed the decorations on the walls. I helped pack the remaining food. I also helped move tables. After the event we gave remaining food to our coworker to take home. She in turn passed out candy to show her gratitude. She even gave us pictures of her family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I helpedplan a baby shower with two other coworkers for another coworker. We got together and planned the specifics such as the date, food , decorations and budget. I helped collect donations from coworkers. Another coworker ordered the food. The other coworker bought the decorations. On tge day of the event, one coworker picked up the food and i helped bring up the food. I helped decorate the room and prepare tge food on the table. It took two hours to complete but we worked as a team to accomplish this event. After the event, i helped to clean up. I removed the decorations on the walls. I helped pack the remaining food. I also helped move tables. After the event we gave remaining food to our coworker to take home. She in turn passed out candy to show her gratitude. She even gave us pictures of her family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt a sense of accomplishment after the event.\n\n"
+            }
+        ],
+        "request_id": "811f4016392043ed-EWR"
+    }
+}

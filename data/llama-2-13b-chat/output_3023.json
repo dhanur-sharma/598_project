@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I gave birth to my son. He is my first child. He is everything to me. Everything went smoothly in the hospital. My husband is happy too. We are blessed by God to have our son. My son makes my life complete. He makes all of my days better. It is pure satisfaction being a mommy. I look forward to the milestones that my sons will reach. My boy smiles a lot. My family is proud of us. My son is not a thing; he is a person. I love being a mommy. I want to be the best I can. Things are going well, and I cannot imagine being more happy! It was stressful being pregnant, and we were worried that maybe there would be complications, but it all went smoothly. My son weighed 9 pounds and 15 ounces when he was born; a very big boy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I gave birth to my son. He is my first child. He is everything to me. Everything went smoothly in the hospital. My husband is happy too. We are blessed by God to have our son. My son makes my life complete. He makes all of my days better. It is pure satisfaction being a mommy. I look forward to the milestones that my sons will reach. My boy smiles a lot. My family is proud of us. My son is not a thing; he is a person. I love being a mommy. I want to be the best I can. Things are going well, and I cannot imagine being more happy! It was stressful being pregnant, and we were worried that maybe there would be complications, but it all went smoothly. My son weighed 9 pounds and 15 ounces when he was born; a very big boy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He is perfect and amazing.\n\n"
+            }
+        ],
+        "request_id": "811ec2985edd4304-EWR"
+    }
+}

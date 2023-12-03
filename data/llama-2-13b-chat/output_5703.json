@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met my old classmate. We went to a concert and had an amazing time. I think there was chemistry but he told me he liked me as a friend. He said he had too much going on and didn't want a relationship right now. I was disappointed that he friend zoned me again. I did understand why he said that. We will live four hours away from each other. He also still has feelings for his ex girlfriend who will live 45 minutes from him. They are still friends. I don't really want to get in the middle of that. But for the last few days he has been flirtatious again. I'm not sure why. I am confused. I still have hope that it could turn into something. Guess time will tell."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met my old classmate. We went to a concert and had an amazing time. I think there was chemistry but he told me he liked me as a friend. He said he had too much going on and didn't want a relationship right now. I was disappointed that he friend zoned me again. I did understand why he said that. We will live four hours away from each other. He also still has feelings for his ex girlfriend who will live 45 minutes from him. They are still friends. I don't really want to get in the middle of that. But for the last few days he has been flirtatious again. I'm not sure why. I am confused. I still have hope that it could turn into something. Guess time will tell.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f36c3abd518c4-EWR"
+    }
+}

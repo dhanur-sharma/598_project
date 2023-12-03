@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was thirsty. I ran downstairs to grab a Gatorade. Maybe I needed electrolytes. I was having diarrhea the past couple of days, after all. Maybe it was a mosquito bite that gave me something. I've been trying to get my diet back on point: get lots of fiber, avoid meat, eat veggies, and of course, stay hydrated. That is all easier said than done when you have the sweltering summer heat and humidity pounding on you. I was sweating bullets. There's summer lethargy and then there was this. It was as though I was lacking in all energy. The pain was sharp. I thought electrolytes would help, but it just made me throw it all back up. There goes my lunch, right down the drain. Even walking to the bathroom was tough. I had to admit it was time to go to the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was thirsty. I ran downstairs to grab a Gatorade. Maybe I needed electrolytes. I was having diarrhea the past couple of days, after all. Maybe it was a mosquito bite that gave me something. I've been trying to get my diet back on point: get lots of fiber, avoid meat, eat veggies, and of course, stay hydrated. That is all easier said than done when you have the sweltering summer heat and humidity pounding on you. I was sweating bullets. There's summer lethargy and then there was this. It was as though I was lacking in all energy. The pain was sharp. I thought electrolytes would help, but it just made me throw it all back up. There goes my lunch, right down the drain. Even walking to the bathroom was tough. I had to admit it was time to go to the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I knew it was bad when my body started aching all over. It was like my muscles were on fire. I could barely keep my eyes open. It was getting harder to breathe. I was in and out of consciousness. The pain was excruciating. I had never felt like that before. I knew I needed help.\n\n"
+            }
+        ],
+        "request_id": "811eaaeb9e7642e9-EWR"
+    }
+}

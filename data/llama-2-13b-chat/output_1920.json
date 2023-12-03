@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family and I weren't very close. It was no one's fault. Just, we had never really associated much with one another. My older brother was kind of the golden child of the family. He had a lot of special privileges it felt like. Again, it might have just been my childish hindsight. It was hard to believe that someone can be treated so well while I could be treated so poorly. But, that's how life was for my family. I don't harbor any resentment. These things happen and not every family is perfect. Four months ago my older brother passed away. I didn't really feel too bad, not because I didn't love him (because I did), but we just hadn't talked much recently. Times like these are when I could experience regret. I try to keep my options to myself. I did attend his funeral and my family expressed our condolences and maybe one day, we can reconnect again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family and I weren't very close. It was no one's fault. Just, we had never really associated much with one another. My older brother was kind of the golden child of the family. He had a lot of special privileges it felt like. Again, it might have just been my childish hindsight. It was hard to believe that someone can be treated so well while I could be treated so poorly. But, that's how life was for my family. I don't harbor any resentment. These things happen and not every family is perfect. Four months ago my older brother passed away. I didn't really feel too bad, not because I didn't love him (because I did), but we just hadn't talked much recently. Times like these are when I could experience regret. I try to keep my options to myself. I did attend his funeral and my family expressed our condolences and maybe one day, we can reconnect again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ead2c0cb5438b-EWR"
+    }
+}

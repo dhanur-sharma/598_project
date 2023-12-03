@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother was getting married. I went to attend his wedding. The wedding was being held several hours from where I lived. I carpooled there with the brother of my brother's wife. We arrived at the wedding. It was the day before so I helped set up some things. They had rented out an entire resort with cabins for all the guests. It was in a  beautiful location. The wedding happened the next day and it was lovely. The weather was very nice the whole time. The food was also very good. I served as a best man, so I was involved in the wedding ceremony itself. After the wedding ceremony, there was live music and people danced and drank beer, wine, and other beverages. When it got late, I retired to the cabin I was staying in. The next day I drove back home. It was a lot of fun. I felt very happy for my brother and his wife."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother was getting married. I went to attend his wedding. The wedding was being held several hours from where I lived. I carpooled there with the brother of my brother's wife. We arrived at the wedding. It was the day before so I helped set up some things. They had rented out an entire resort with cabins for all the guests. It was in a  beautiful location. The wedding happened the next day and it was lovely. The weather was very nice the whole time. The food was also very good. I served as a best man, so I was involved in the wedding ceremony itself. After the wedding ceremony, there was live music and people danced and drank beer, wine, and other beverages. When it got late, I retired to the cabin I was staying in. The next day I drove back home. It was a lot of fun. I felt very happy for my brother and his wife.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eace8dbb68c0c-EWR"
+    }
+}

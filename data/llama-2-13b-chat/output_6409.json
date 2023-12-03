@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The situation took place about four months ago. I was promoted from being a regular contributor in my work project group to being the supervisor of the group. I work in software development, so my regular duties include designing and developing software. As an individual contributor I would get a piece of the project and write my code for it. Now as a supervisor I have a lot more influence regarding the direction that work projects go. For example, I get to decide how the team approaches the project. I get to decide how the project is scheduled and broken down. I get to decide which team member is responsible for what part of the project. Of course I consult and deliberate with the various team members. Ultimately though, the decision is left up to me. This was a significant thing for me because it showed management's trust in me. We're a small company with only a couple of work groups, so this is an important position. The group's prior supervisor was high on me, and recommended me to management on his way out to replace him. Management accepted that recommendation and here I am. As someone who doesn't really get emotional about this, I felt like this was a good moment for me. That's why I chose this moment for this entry."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The situation took place about four months ago. I was promoted from being a regular contributor in my work project group to being the supervisor of the group. I work in software development, so my regular duties include designing and developing software. As an individual contributor I would get a piece of the project and write my code for it. Now as a supervisor I have a lot more influence regarding the direction that work projects go. For example, I get to decide how the team approaches the project. I get to decide how the project is scheduled and broken down. I get to decide which team member is responsible for what part of the project. Of course I consult and deliberate with the various team members. Ultimately though, the decision is left up to me. This was a significant thing for me because it showed management's trust in me. We're a small company with only a couple of work groups, so this is an important position. The group's prior supervisor was high on me, and recommended me to management on his way out to replace him. Management accepted that recommendation and here I am. As someone who doesn't really get emotional about this, I felt like this was a good moment for me. That's why I chose this moment for this entry.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f44c0f83a43fd-EWR"
+    }
+}

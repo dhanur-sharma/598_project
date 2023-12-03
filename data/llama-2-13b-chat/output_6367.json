@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I worked my first wrestling show as a booker (match planner). I worked with two new wrestlers who were about to have their first match. It was my job to guide them through it. So we sat down before the match and planned it all out. I worked with both of them, accessing their strengths and characters. We planned move after move and I drilled it into their heads.  We rehearsed for hours. Then when it came for the show, I watched the match transpire. Both of them did great. They had a few moments where they lost their place, but they regrouped quickly and continued on. For me this was probably one of the proudest moments of my life. I have been a wrestling fan my entire life, and though i can't compete physically, I can use my knowledge and expertise to help others. I almost cried. The moment was overwhelming in a good way. I felt truly accomplished and felt as though I was living my dream."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I worked my first wrestling show as a booker (match planner). I worked with two new wrestlers who were about to have their first match. It was my job to guide them through it. So we sat down before the match and planned it all out. I worked with both of them, accessing their strengths and characters. We planned move after move and I drilled it into their heads.  We rehearsed for hours. Then when it came for the show, I watched the match transpire. Both of them did great. They had a few moments where they lost their place, but they regrouped quickly and continued on. For me this was probably one of the proudest moments of my life. I have been a wrestling fan my entire life, and though i can't compete physically, I can use my knowledge and expertise to help others. I almost cried. The moment was overwhelming in a good way. I felt truly accomplished and felt as though I was living my dream.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " \n\n"
+            }
+        ],
+        "request_id": "811f43fadc7c41f5-EWR"
+    }
+}

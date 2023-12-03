@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have great memories of our family trip to Chicago, Illinois. It actually had an odd beginning. My daughter had complained to our mutual employer (in Chicago) that she had never flown in an airplane and that it was the only item on her bucket list. The next week, they offered to fly us out for a meeting and a lunch with them! I decided to take the entire family and make a nice little vacation out of it. We had a fantastic visit with my employers. After a short meeting, they took us to a great Greek restaurant where I tried several new foods. From there, we went to our hotel which was located in the heart of the city. We visited an architecture museum and learned a lot about the origins of the city. We also went to see The Bean, which is a chrome bean that is absolutely enormous and sits in the middle of a park. We went to the Navy Pier and had some great food. The highlight (or perhaps the lowlight) of the trip was our lunch where we ate traditional Chicago deep dish pizza. The pizza was unreal- so thick and cheesy! Even though I was starving I could only eat a single slice. But just as we were eating, the city got hit with a tremendous thunderstorm. I have never encountered anything like it before. It was downright traumatizing though fortunately, it passed quickly. We wrapped up the short trip after another day of museum hopping and shopping. Although I could have spent another week in the city, I feel fortunate to have enjoyed the time I did with my family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have great memories of our family trip to Chicago, Illinois. It actually had an odd beginning. My daughter had complained to our mutual employer (in Chicago) that she had never flown in an airplane and that it was the only item on her bucket list. The next week, they offered to fly us out for a meeting and a lunch with them! I decided to take the entire family and make a nice little vacation out of it. We had a fantastic visit with my employers. After a short meeting, they took us to a great Greek restaurant where I tried several new foods. From there, we went to our hotel which was located in the heart of the city. We visited an architecture museum and learned a lot about the origins of the city. We also went to see The Bean, which is a chrome bean that is absolutely enormous and sits in the middle of a park. We went to the Navy Pier and had some great food. The highlight (or perhaps the lowlight) of the trip was our lunch where we ate traditional Chicago deep dish pizza. The pizza was unreal- so thick and cheesy! Even though I was starving I could only eat a single slice. But just as we were eating, the city got hit with a tremendous thunderstorm. I have never encountered anything like it before. It was downright traumatizing though fortunately, it passed quickly. We wrapped up the short trip after another day of museum hopping and shopping. Although I could have spent another week in the city, I feel fortunate to have enjoyed the time I did with my family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e916a3e2d43da-EWR"
+    }
+}

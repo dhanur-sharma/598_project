@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my cousin's wedding last month. It was important to me because we grew up together in the same house for a period of time and it was a major milestone for her. It was in Toronto, Canada and there were over 100 guests there. I also got to see extended family together for the first time in years. We first went to a wedding rehearsal before the event. It was at a Chinese restaurant and the food was really good.  Then we went to a castle for the actual day of the wedding. First, I got to see them walk down the aisle. Then, I got to see the official formalize the event and watch them dance. Then, we went to a reception. I got to hear speeches from many people that marked what an important event it was. The funniest speech was when they shared each other's many embarrassing secrets. It made the event lighter but also showed how much they knew and cared for each other. It was my first time at a wedding so it was a cool experience. Mostly I was just happy to see my cousin get married and have such a life-changing event."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my cousin's wedding last month. It was important to me because we grew up together in the same house for a period of time and it was a major milestone for her. It was in Toronto, Canada and there were over 100 guests there. I also got to see extended family together for the first time in years. We first went to a wedding rehearsal before the event. It was at a Chinese restaurant and the food was really good.  Then we went to a castle for the actual day of the wedding. First, I got to see them walk down the aisle. Then, I got to see the official formalize the event and watch them dance. Then, we went to a reception. I got to hear speeches from many people that marked what an important event it was. The funniest speech was when they shared each other's many embarrassing secrets. It made the event lighter but also showed how much they knew and cared for each other. It was my first time at a wedding so it was a cool experience. Mostly I was just happy to see my cousin get married and have such a life-changing event.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " \n\n"
+            }
+        ],
+        "request_id": "811ea55879fe1889-EWR"
+    }
+}

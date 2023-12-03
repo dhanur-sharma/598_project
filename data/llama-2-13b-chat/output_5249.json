@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I knew I was getting older.  I was afraid that when I walked the streets at night, I might end up getting attacked.  I was scared.  My family was scared.  I loved to take walks at night because it cleared my mind.  I knew what I had to do.  I decided to take martial arts classes.  I was nervous at first because I was the oldest one there.  But the others were really nice.  They took me in as one of their own.  We all practiced together.  We got to know each other.  Soon we were all like family.  I knew everyone's name.  It got to the point where I didn't feel like the \"old guy\" in the class anymore."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I knew I was getting older.  I was afraid that when I walked the streets at night, I might end up getting attacked.  I was scared.  My family was scared.  I loved to take walks at night because it cleared my mind.  I knew what I had to do.  I decided to take martial arts classes.  I was nervous at first because I was the oldest one there.  But the others were really nice.  They took me in as one of their own.  We all practiced together.  We got to know each other.  Soon we were all like family.  I knew everyone's name.  It got to the point where I didn't feel like the \"old guy\" in the class anymore.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I felt like a part of the group.  And I felt safe.  I was no longer afraid to walk the streets at night.  I had my new family to protect me.\n\n"
+            }
+        ],
+        "request_id": "811f2da13b0e42a6-EWR"
+    }
+}

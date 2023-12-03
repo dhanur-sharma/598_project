@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 5 months ago, I graduated from college. It was a rainy day, but I felt great still. My family and my girlfriend's family came to town for our graduation. I felt okay, but my girlfriend was very nervous. We put our gowns on, and went to the auditorium for graduation. We sat down in our section, and talked a bit with the people around us. I remember a few construction majors I took classes with sitting ahead of me, wearing hard hats. They were asked to remove them, unfortunately. Graduation started from the front, with the school of medicine. There was a famous speaker, a comedian, and he was clearly drunk. I saw a few people I knew from high school, and started feeling a bit nervous. As our turn was approaching, we tried to calm down and prepare. Once it was my turn, I felt fine. I walked across the stage, accepted my diploma, and returned to my seat. Graduation concluded, and we were very happy. Afterwards, we went to a nice restaurant with her family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 5 months ago, I graduated from college. It was a rainy day, but I felt great still. My family and my girlfriend's family came to town for our graduation. I felt okay, but my girlfriend was very nervous. We put our gowns on, and went to the auditorium for graduation. We sat down in our section, and talked a bit with the people around us. I remember a few construction majors I took classes with sitting ahead of me, wearing hard hats. They were asked to remove them, unfortunately. Graduation started from the front, with the school of medicine. There was a famous speaker, a comedian, and he was clearly drunk. I saw a few people I knew from high school, and started feeling a bit nervous. As our turn was approaching, we tried to calm down and prepare. Once it was my turn, I felt fine. I walked across the stage, accepted my diploma, and returned to my seat. Graduation concluded, and we were very happy. Afterwards, we went to a nice restaurant with her family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We talked about our plans, and future endeavors. I'm now working as a software engineer, and my girlfriend is in law school.\n\n"
+            }
+        ],
+        "request_id": "811ebfc3ea4f439f-EWR"
+    }
+}

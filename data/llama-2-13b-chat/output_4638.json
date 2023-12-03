@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a little road trip with my husband and a friend.  We just jumped in the car and drove around for a few days, with no where in particular in mind to go.  We went to a couple waterfalls.  My husband went swimming one time, but it was too cold for our friend and I.  Glad my husband had fun swimming though!  Brr!  My husband got a drone that he brought to record all the scenery.  He lost it twice.  The first time he was able to find it way up in a tree, but it took a lot of time an effort to get it back.  Then later on in the day he lost it at another water area.  This time the wind took it and he had no idea where it went, so we had to accept it as gone for good.  We camped out only one night.  We were planning on camping more, but the boys complained too much the one time saying the ground was too hard and it was too cold out, so we got hotels the other nights.  For dinner when we camped we had veggie hot dogs and baked beans.  We bought some other things to go with the meal at a cute nearby store, but I forgot now what they were.  We ate lots of good food overall.  We had lots of wines and different cheeses and chocolates, and even got tequila one night.  We had pancakes for breakfast several times.  Pancakes are awesome.  We stopped at a few tag sales and got some fun finds.  We went to at least one arcade and we collected a lot of tickets and got some fun prizes.  It was a fun little trip!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a little road trip with my husband and a friend.  We just jumped in the car and drove around for a few days, with no where in particular in mind to go.  We went to a couple waterfalls.  My husband went swimming one time, but it was too cold for our friend and I.  Glad my husband had fun swimming though!  Brr!  My husband got a drone that he brought to record all the scenery.  He lost it twice.  The first time he was able to find it way up in a tree, but it took a lot of time an effort to get it back.  Then later on in the day he lost it at another water area.  This time the wind took it and he had no idea where it went, so we had to accept it as gone for good.  We camped out only one night.  We were planning on camping more, but the boys complained too much the one time saying the ground was too hard and it was too cold out, so we got hotels the other nights.  For dinner when we camped we had veggie hot dogs and baked beans.  We bought some other things to go with the meal at a cute nearby store, but I forgot now what they were.  We ate lots of good food overall.  We had lots of wines and different cheeses and chocolates, and even got tequila one night.  We had pancakes for breakfast several times.  Pancakes are awesome.  We stopped at a few tag sales and got some fun finds.  We went to at least one arcade and we collected a lot of tickets and got some fun prizes.  It was a fun little trip!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had a great time with my husband and our friend, and I'm so glad we got to do something fun together."
+            }
+        ],
+        "request_id": "811bdabe8eab32d9-EWR"
+    }
+}

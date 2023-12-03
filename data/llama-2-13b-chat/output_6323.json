@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My stepfather recently died.  He was 82, and in poor health.  He had Alzheimer's and Parkinson's disease.  Although it wasn't completely unexpected, it kind of was.  He had been in poor health for several years, but seemed to keep trucking along.  He finally got sick and put in the hospital.  The day before he died he was fairly alert and with it.  We kind of thought he may pull through again, although the doctor warned us he wasn't coming out of the hospital alive.  The day he passed I had just picked up lunch and was getting ready to go to work.  My mom called and said they were losing him.  She couldn't bear to tell me he was already gone.  I had never actually witnessed someone who just died minutes before.  I walked in expecting to see that he was still alive and waiting for him to pass.  She still couldn't tell me he died already.  Then I noticed that all of the health monitors were blank.  That is when it hit me that he was dead.  I felt so sad, and so sorry for my mom.  It was a very intense moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My stepfather recently died.  He was 82, and in poor health.  He had Alzheimer's and Parkinson's disease.  Although it wasn't completely unexpected, it kind of was.  He had been in poor health for several years, but seemed to keep trucking along.  He finally got sick and put in the hospital.  The day before he died he was fairly alert and with it.  We kind of thought he may pull through again, although the doctor warned us he wasn't coming out of the hospital alive.  The day he passed I had just picked up lunch and was getting ready to go to work.  My mom called and said they were losing him.  She couldn't bear to tell me he was already gone.  I had never actually witnessed someone who just died minutes before.  I walked in expecting to see that he was still alive and waiting for him to pass.  She still couldn't tell me he died already.  Then I noticed that all of the health monitors were blank.  That is when it hit me that he was dead.  I felt so sad, and so sorry for my mom.  It was a very intense moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f43360e61c40c-EWR"
+    }
+}

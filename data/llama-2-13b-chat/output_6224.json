@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I applied for a Ph. D. position at a major NYC university. I hve worked really hard for the past ten years on my education with the goal of getting a Ph. D. AFter receiving my appliction, the university only granted me a M.A. position. I already have two M.A.'s and do not see the value in another one. Additionally, i cannot afford to spend more on another M.A. and this would be a HUGE strain on me financially. I have to figure out what i want to do. I spoke to a counselor about the idea of reapplying. I have to determine if it is worth re-applying and if i should apply somewhere else. This rejection was incredibly tough on me . I have spent my whole career in education and learning for this point. Not getting into my PH. D program which was my dream was really tough. I am worried that it will knock my confidence too much for reapplying. I am going to try my best not to let my emotional get in the way."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I applied for a Ph. D. position at a major NYC university. I hve worked really hard for the past ten years on my education with the goal of getting a Ph. D. AFter receiving my appliction, the university only granted me a M.A. position. I already have two M.A.'s and do not see the value in another one. Additionally, i cannot afford to spend more on another M.A. and this would be a HUGE strain on me financially. I have to figure out what i want to do. I spoke to a counselor about the idea of reapplying. I have to determine if it is worth re-applying and if i should apply somewhere else. This rejection was incredibly tough on me . I have spent my whole career in education and learning for this point. Not getting into my PH. D program which was my dream was really tough. I am worried that it will knock my confidence too much for reapplying. I am going to try my best not to let my emotional get in the way.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f41405d2919ff-EWR"
+    }
+}

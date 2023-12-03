@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Awhile back my dog started to have some problems with his eyes. He's a boxer, and I guess they are prone to eye problems. One day I noticed that his right eye had some cloudiness about it, and that his left eye had the same issue. I was immediately worried, because he is a part of the family. I took him to a specialist right away. The feeling of anxiety I experienced while in the waiting room was surprising. I've never owned a pet this long before, and I've never stopped to think about how much they start to matter to you. I might as well have been waiting to find out if my own child had cancer. My toe was tapping, and my mind was racing. When we finally got into the exam room I couldn't stop thinking about the worst possible outcomes. Luckily, my fears were unfounded. After running some tests on my pup the doctor told me that there was really nothing to worry about. The cloudiness I saw in my dog's eyes was relatively common in his breed and that it would not affect his health. She said it was a build up of cholesterol in the cornea. Unsightly, but not harmful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Awhile back my dog started to have some problems with his eyes. He's a boxer, and I guess they are prone to eye problems. One day I noticed that his right eye had some cloudiness about it, and that his left eye had the same issue. I was immediately worried, because he is a part of the family. I took him to a specialist right away. The feeling of anxiety I experienced while in the waiting room was surprising. I've never owned a pet this long before, and I've never stopped to think about how much they start to matter to you. I might as well have been waiting to find out if my own child had cancer. My toe was tapping, and my mind was racing. When we finally got into the exam room I couldn't stop thinking about the worst possible outcomes. Luckily, my fears were unfounded. After running some tests on my pup the doctor told me that there was really nothing to worry about. The cloudiness I saw in my dog's eyes was relatively common in his breed and that it would not affect his health. She said it was a build up of cholesterol in the cornea. Unsightly, but not harmful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so relieved, but also felt a little silly for being so worried. After all, it was just a dog. But, I couldn't help but think about how much he really means to me and how much I would miss him if anything were to happen to him. I realized that I have grown to love him as a member of my family."
+            }
+        ],
+        "request_id": "811eac56dae91799-EWR"
+    }
+}

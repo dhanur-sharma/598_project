@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My role as a single parent was tested today. My son became very ill with a stomach flu and he was unable to tolerate the symptoms. He asked me to help because he couldn't keep food or liquid down. He was also experiencing exhaustion because the symptoms were constant throughout the day and into the late evening. It was tough watching him in that condition and despite everything I was able to do to minimize his pain, I still felt helpless and alone. It was situation that I wasn't unfamiliar with--my ex and I handle these things in the past. It was just a different experience when I had to do it alone. I was concerned that there wouldn't be anyone available to help me with my son if things had gotten worse. I had serious moments of doubt and fear. I questioned my abilities every time my son would run to the bathroom. I was scared, frustrated, and determined all at the same time. I knew that I couldn't and wouldn't fail my son. If needed, I would have done the right thing by taking him to the hospital. We came very close to taking a trip to the hospital. Thankfully, his symptoms subsided before midnight."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My role as a single parent was tested today. My son became very ill with a stomach flu and he was unable to tolerate the symptoms. He asked me to help because he couldn't keep food or liquid down. He was also experiencing exhaustion because the symptoms were constant throughout the day and into the late evening. It was tough watching him in that condition and despite everything I was able to do to minimize his pain, I still felt helpless and alone. It was situation that I wasn't unfamiliar with--my ex and I handle these things in the past. It was just a different experience when I had to do it alone. I was concerned that there wouldn't be anyone available to help me with my son if things had gotten worse. I had serious moments of doubt and fear. I questioned my abilities every time my son would run to the bathroom. I was scared, frustrated, and determined all at the same time. I knew that I couldn't and wouldn't fail my son. If needed, I would have done the right thing by taking him to the hospital. We came very close to taking a trip to the hospital. Thankfully, his symptoms subsided before midnight.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a long night, but we made it through. My son is now recovering and I am left feeling grateful and relieved.\n\n"
+            }
+        ],
+        "request_id": "811ebb4f7f970dc7-EWR"
+    }
+}

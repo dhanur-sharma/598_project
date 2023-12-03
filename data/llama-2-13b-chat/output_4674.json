@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The other day, I helped organize a birthday party for my older brother with the help of my family and friends. We didn't have too much time to get things together because my friends gave me really short notice. The birthday party was supposed to be a surprise, and I think we did a good job keeping it that way. His wife might have clued him in on the party, but even if so, he still acted surprised. I got to meet some really interesting people at the party that I had never interacted with before. Most notably was my sister in law's friend, who was full of energy. Even though I was exhausted from working a long shift, his energy was contagious and it really pepped me up and I was able to enjoy myself and have a great time with my loved ones. We had a caterer for the party who did quite a nice spread, with all kinds of food. I was adamant about there being vegetarian options, because I know a lot of people who might attend were vegetarian. Sometimes you go to parties with food and it's all meat, or just really boring stuff. But this caterer was particularly fancy, and we got a great deal because the lady who owns the business is a friend of mine. I overheard a lot of people talking about how great the food was. My brother got some really silly gifts. The most memorable was a teddy bear onesie. His friends made him put it on for the remainder of the party, which was really hilarious."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The other day, I helped organize a birthday party for my older brother with the help of my family and friends. We didn't have too much time to get things together because my friends gave me really short notice. The birthday party was supposed to be a surprise, and I think we did a good job keeping it that way. His wife might have clued him in on the party, but even if so, he still acted surprised. I got to meet some really interesting people at the party that I had never interacted with before. Most notably was my sister in law's friend, who was full of energy. Even though I was exhausted from working a long shift, his energy was contagious and it really pepped me up and I was able to enjoy myself and have a great time with my loved ones. We had a caterer for the party who did quite a nice spread, with all kinds of food. I was adamant about there being vegetarian options, because I know a lot of people who might attend were vegetarian. Sometimes you go to parties with food and it's all meat, or just really boring stuff. But this caterer was particularly fancy, and we got a great deal because the lady who owns the business is a friend of mine. I overheard a lot of people talking about how great the food was. My brother got some really silly gifts. The most memorable was a teddy bear onesie. His friends made him put it on for the remainder of the party, which was really hilarious.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He was a great sport about it, though. The party was a success and we all had a great time."
+            }
+        ],
+        "request_id": "811bdb833bf40f97-EWR"
+    }
+}

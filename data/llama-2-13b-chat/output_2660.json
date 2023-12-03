@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most memorable day of my life. It was my graduation ceremony from the medical school. It happened a month ago. I received all the awards on ground. I'm still basking in the euphoria of the day. My parents were there to share the moment with me. I also had all my siblings around. I was emotional because a lot of memories kept coming to me. I remembered the first day in the college. I promised myself that day that i will give my best always. All my sacrifice paid off. Nights of reading and not sleeping paid off. I'm so proud of my achievement. I think my parents are more proud. This is just the beginning for me. I will always give my best to every task. I want to be the best doctor to my patient."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most memorable day of my life. It was my graduation ceremony from the medical school. It happened a month ago. I received all the awards on ground. I'm still basking in the euphoria of the day. My parents were there to share the moment with me. I also had all my siblings around. I was emotional because a lot of memories kept coming to me. I remembered the first day in the college. I promised myself that day that i will give my best always. All my sacrifice paid off. Nights of reading and not sleeping paid off. I'm so proud of my achievement. I think my parents are more proud. This is just the beginning for me. I will always give my best to every task. I want to be the best doctor to my patient.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I want to be the best doctor to my family.\n\n"
+            }
+        ],
+        "request_id": "811ebaf4cd844411-EWR"
+    }
+}

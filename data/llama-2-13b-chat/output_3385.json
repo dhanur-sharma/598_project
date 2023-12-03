@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I made the dumbest mistake the other day, I really can't believe that I was so foolish. I have been looking for work for the last couple of months and I found an opening at this really amazing company. I put in the application and everything but I was so sure it wasn't going to work out because it was just the best job I could ever dream of. Well to my amazement a few days after applying they actually called me for an interview! The position was basically my dream position, something I couldn't imagine being able to do so early in my career. I prepared for the interview really carefully, and got everything I needed together. I even had my family members sit through mock interviews with me so that I could practice. I was still thinking \"this is a long shot\", but I had the slightest bit of hope that it might really work out. So I got all ready the day of the interview and I was all hyped up. I get to the interview and it's all going well, but when we are finishing up and I am supposed to turn over my credentials I realized I had forgotten them at home! I was so mortified! I mean, of course they told me that it was fine and I could just send them over via email later, but I think it made me look like a flake. I doubt they'll want to hire me now! There were probably plenty of good applicants who didn't forget anything. I just feel so nervous and upset about it. I am hoping for a second chance, but at this point it's not looking good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I made the dumbest mistake the other day, I really can't believe that I was so foolish. I have been looking for work for the last couple of months and I found an opening at this really amazing company. I put in the application and everything but I was so sure it wasn't going to work out because it was just the best job I could ever dream of. Well to my amazement a few days after applying they actually called me for an interview! The position was basically my dream position, something I couldn't imagine being able to do so early in my career. I prepared for the interview really carefully, and got everything I needed together. I even had my family members sit through mock interviews with me so that I could practice. I was still thinking \"this is a long shot\", but I had the slightest bit of hope that it might really work out. So I got all ready the day of the interview and I was all hyped up. I get to the interview and it's all going well, but when we are finishing up and I am supposed to turn over my credentials I realized I had forgotten them at home! I was so mortified! I mean, of course they told me that it was fine and I could just send them over via email later, but I think it made me look like a flake. I doubt they'll want to hire me now! There were probably plenty of good applicants who didn't forget anything. I just feel so nervous and upset about it. I am hoping for a second chance, but at this point it's not looking good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I really can't believe I was so dumb and forgot my credentials.\n\n"
+            }
+        ],
+        "request_id": "811eca25cabe4331-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 6 months ago I was walking up the steps to go to bed. At the top of the steps I felt my feet give out on me.  I fell down the steps and hit my head. My parents tried to help me up after the fall but I felt lightheaded and could not stand up. My parents had to call 911. The ambulance came and took me to the hospital. The doctor did a lot of test on me and thank goodness nothing was broken and I was fine except for a lot of lightheartedness. The doctors wanted to keep me overnight for observation to ensure I was fine. That night I was sore and could not sleep from everyone checking in on me. My mother stayed with me to keep my company and to make sure that I did not need anything. After being released I spent two weeks recovering. My mother took the time off of work to be with me and assist me with anything that I may need. I spent those two weeks down stairs recovering and after that time it was so nice to be able to walk up the steps and sleep in my own bed. I am going to more careful after this happened. This was the first time I ever had to spend time in the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 6 months ago I was walking up the steps to go to bed. At the top of the steps I felt my feet give out on me.  I fell down the steps and hit my head. My parents tried to help me up after the fall but I felt lightheaded and could not stand up. My parents had to call 911. The ambulance came and took me to the hospital. The doctor did a lot of test on me and thank goodness nothing was broken and I was fine except for a lot of lightheartedness. The doctors wanted to keep me overnight for observation to ensure I was fine. That night I was sore and could not sleep from everyone checking in on me. My mother stayed with me to keep my company and to make sure that I did not need anything. After being released I spent two weeks recovering. My mother took the time off of work to be with me and assist me with anything that I may need. I spent those two weeks down stairs recovering and after that time it was so nice to be able to walk up the steps and sleep in my own bed. I am going to more careful after this happened. This was the first time I ever had to spend time in the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bcef42b9243db-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently moved to Houston, TX from Denver, CO to be with my now girlfriend. It was overall a very nerve wracking experience and I was very unsure how everything would play out. Suffice to say, I was taking a big risk. I think that it was a really difficult thing to do, but I wanted to do it because it was something I believed in. I was nervous the entire time. I took an uber to the train station in Downtown Denver and then the train to the airport. I was several hours early, but I had to wait forever because there were so many people flying that day. It took about 2 hours to get through TSA and to my terminal. I then tried everything I could to stay calm until my plane. It was delayed by a couple of hours and we didn't end up flying until around 9PM. I landed at 11AM, and was ecstatic to see my girlfriend. We got my luggage and left. I felt like the journey was finally over and I'm glad I made the decision I did. We drove to her house and on the way got Whataburger, which was delicious. I had never had it before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently moved to Houston, TX from Denver, CO to be with my now girlfriend. It was overall a very nerve wracking experience and I was very unsure how everything would play out. Suffice to say, I was taking a big risk. I think that it was a really difficult thing to do, but I wanted to do it because it was something I believed in. I was nervous the entire time. I took an uber to the train station in Downtown Denver and then the train to the airport. I was several hours early, but I had to wait forever because there were so many people flying that day. It took about 2 hours to get through TSA and to my terminal. I then tried everything I could to stay calm until my plane. It was delayed by a couple of hours and we didn't end up flying until around 9PM. I landed at 11AM, and was ecstatic to see my girlfriend. We got my luggage and left. I felt like the journey was finally over and I'm glad I made the decision I did. We drove to her house and on the way got Whataburger, which was delicious. I had never had it before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great way to end the journey and start my new life in Houston.\n\n"
+            }
+        ],
+        "request_id": "811e8cbb2f0142ad-EWR"
+    }
+}

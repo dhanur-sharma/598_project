@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my older brothers wedding a few months ago! I never thought he'd actually get married--he didn't seem the type to be interested. I bet his girlfriend convinced him, he's just a really passive guy. I don't even think he really cares about this kind of thing, it's all for show. He's very wealthy, so everything looks straight out of Gatsby in the venue. It's beautiful, and I feel a bit of jealousy. But it's my brother! I love him, and I'm his best man! I helped him organize everything, got a wedding planner and all of that. I was probably more excited than him about organizing all of this--I'm a bit of a control freak. The rest is a little bit hazy, I drank a little too much at the start, so the rest was a blur. Apparently I didn't screw anything up, though, so I guess I wasn't as messed up as a I felt. We ended up going to dinner after, his wife was so happy. They announced they would be departing for their honeymoon within the next week, and that his wife was actually pregnant. I was shocked, but that explained a lot in regards to the fact he actually agreed to get married. I was happy, but a little disappointed in him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my older brothers wedding a few months ago! I never thought he'd actually get married--he didn't seem the type to be interested. I bet his girlfriend convinced him, he's just a really passive guy. I don't even think he really cares about this kind of thing, it's all for show. He's very wealthy, so everything looks straight out of Gatsby in the venue. It's beautiful, and I feel a bit of jealousy. But it's my brother! I love him, and I'm his best man! I helped him organize everything, got a wedding planner and all of that. I was probably more excited than him about organizing all of this--I'm a bit of a control freak. The rest is a little bit hazy, I drank a little too much at the start, so the rest was a blur. Apparently I didn't screw anything up, though, so I guess I wasn't as messed up as a I felt. We ended up going to dinner after, his wife was so happy. They announced they would be departing for their honeymoon within the next week, and that his wife was actually pregnant. I was shocked, but that explained a lot in regards to the fact he actually agreed to get married. I was happy, but a little disappointed in him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He's not the type of guy I thought would get married. He's just so... passive. I love him though, and I'm happy for him."
+            }
+        ],
+        "request_id": "811eacdc5d30c3f3-EWR"
+    }
+}

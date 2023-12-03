@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my mother got a blood test. It was positive for stool. We were worried for a week. I gave her a big hug and had a little. My father gave her a hug and said everything will be ok. I was scared. I was sad. We went back next week for another test. The test came back positive. We were so happy of this good news. I gave my father a big hug. I gave my mother a bigger hug. We all gave each other a big bear hug. We were so thrilled that she didn't have to go and get surgery. I am thankful that she is healthy. She is very healthy now and I am great that she isn't in pain. She is smiling everyday now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my mother got a blood test. It was positive for stool. We were worried for a week. I gave her a big hug and had a little. My father gave her a hug and said everything will be ok. I was scared. I was sad. We went back next week for another test. The test came back positive. We were so happy of this good news. I gave my father a big hug. I gave my mother a bigger hug. We all gave each other a big bear hug. We were so thrilled that she didn't have to go and get surgery. I am thankful that she is healthy. She is very healthy now and I am great that she isn't in pain. She is smiling everyday now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love my mom so much. I am so grateful that she is ok.\n\n"
+            }
+        ],
+        "request_id": "811ebbfb9c1a8c72-EWR"
+    }
+}

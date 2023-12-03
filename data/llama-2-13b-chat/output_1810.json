@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On December 18, 2019 my mom told me that her biopsy came back positive. She had cancer. The next few days were an emotional whirlwind, but nothing compared to December 20th. With my dad, her two sisters, and myself, my mom waited in a small office for the radiologist. She had her first PET earlier in the day. Or the day before. Honestly, the whole last couple weeks of 2019 and the first couple of weeks of the New Year are a blur to me now, even though they lasted forever at the time.Finally, the radiologist came in and pulled up her PET scan images.A couple years ago I read \"The Fault in Our Stars\" by John Green. There's a line in there that says something along the lines of \"I lit up like a Christmas tree.\" I thought I knew what that line meant, until I saw the same thing in my mom's images... She really did light up like the Christmas tree in the waiting room. Her neck, her spine, her arm, her lung, her leg. And later, her brain. Everywhere.I've been taking biology courses for a long time and am an avid watcher of many medical professional shows. As soon as the images appeared, before the doctor said anything, I knew what we were looking at. No wonder my mom was in pain. There was a tumor on her spine between her kidneys that was bigger than the kidneys themselves. The tears started flowing. The notes I was planning on taking, stopped. Thank God I decided to record the session.When the doctor started taking questions, someone asked what stage she was. \"Stage IV because it had spread.\"What type is it? \"Lung.\" Lung? How?? She's never smoked.  That is a time when I extremely emotion."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On December 18, 2019 my mom told me that her biopsy came back positive. She had cancer. The next few days were an emotional whirlwind, but nothing compared to December 20th. With my dad, her two sisters, and myself, my mom waited in a small office for the radiologist. She had her first PET earlier in the day. Or the day before. Honestly, the whole last couple weeks of 2019 and the first couple of weeks of the New Year are a blur to me now, even though they lasted forever at the time.Finally, the radiologist came in and pulled up her PET scan images.A couple years ago I read \"The Fault in Our Stars\" by John Green. There's a line in there that says something along the lines of \"I lit up like a Christmas tree.\" I thought I knew what that line meant, until I saw the same thing in my mom's images... She really did light up like the Christmas tree in the waiting room. Her neck, her spine, her arm, her lung, her leg. And later, her brain. Everywhere.I've been taking biology courses for a long time and am an avid watcher of many medical professional shows. As soon as the images appeared, before the doctor said anything, I knew what we were looking at. No wonder my mom was in pain. There was a tumor on her spine between her kidneys that was bigger than the kidneys themselves. The tears started flowing. The notes I was planning on taking, stopped. Thank God I decided to record the session.When the doctor started taking questions, someone asked what stage she was. \"Stage IV because it had spread.\"What type is it? \"Lung.\" Lung? How?? She's never smoked.  That is a time when I extremely emotion.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I couldn't even say anything. It's like my throat just closed up. And I couldn't even see what was happening because my vision was blurry. I remember the sound of my mom's voice. She sounded so defeated. I was defeated. All of us were defeated. But there was also a sense of determination. We are going to do whatever it takes to fight this. And I knew right then and there, that I was going to be there every step of the way for my mom."
+            }
+        ],
+        "request_id": "811eab270bc6c325-EWR"
+    }
+}

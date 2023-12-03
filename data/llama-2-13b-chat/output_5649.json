@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago we had a birthday party for my son--now, being that it was his first birthday, it was less his party and more me and my husband's. Think of it more of like a joint birthday, I suppose? A celebration of my son surviving his first year. He wouldn't remember it, but, hey, adults cant have big birthdays anymore! So, yes, not many people showed up. That was the sad part, I guess? A few family members came, but, like I said, it was like being stood up on YOUR birthday. So, frankly, we were pissed. We had taken the time to set up reservations, and we got jilted. Cool, I guess. So our family showed up, and we did have fun! The girls in the family all took turns on a slide we had decided to rent last minute for the kids. You know, to distract them. But I guess the distraction became ours, too! It was fun. I went down a few times, to be honest with you. It's nice feeling like a kid again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago we had a birthday party for my son--now, being that it was his first birthday, it was less his party and more me and my husband's. Think of it more of like a joint birthday, I suppose? A celebration of my son surviving his first year. He wouldn't remember it, but, hey, adults cant have big birthdays anymore! So, yes, not many people showed up. That was the sad part, I guess? A few family members came, but, like I said, it was like being stood up on YOUR birthday. So, frankly, we were pissed. We had taken the time to set up reservations, and we got jilted. Cool, I guess. So our family showed up, and we did have fun! The girls in the family all took turns on a slide we had decided to rent last minute for the kids. You know, to distract them. But I guess the distraction became ours, too! It was fun. I went down a few times, to be honest with you. It's nice feeling like a kid again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, we had a good time, but, you know, it was a little disappointing. We were all hoping for more people to show up. And we had this HUGE cake that we had ordered for the little guy, but it just sat there. It was like a big, sad, cake. But, we had fun. And that's all that matters, right?\n\n"
+            }
+        ],
+        "request_id": "811f35b988f80cac-EWR"
+    }
+}

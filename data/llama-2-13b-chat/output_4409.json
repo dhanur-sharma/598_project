@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met what I thought was a specatcular guy. He was everything to me. At least that's what I thought. About three weeks ago, I had to break up with him. He just wasn't taking our relationship seriously. I could not see a future with him. I did the regular girl thing and ate my icecream and curled up in a blanket. I watched a lot of movies. I walked into work one day and my desk was filled with flowers and gifts. I was overwhelmed with gratitude and love. I never thought any of my coworkers cared this much about me. As soon as they came over to me, I started to cry. I was so happy that they were so supportive. It's nice to know that so many people care about you. My spirits were lifted and we even went to happy hour that day after work."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met what I thought was a specatcular guy. He was everything to me. At least that's what I thought. About three weeks ago, I had to break up with him. He just wasn't taking our relationship seriously. I could not see a future with him. I did the regular girl thing and ate my icecream and curled up in a blanket. I watched a lot of movies. I walked into work one day and my desk was filled with flowers and gifts. I was overwhelmed with gratitude and love. I never thought any of my coworkers cared this much about me. As soon as they came over to me, I started to cry. I was so happy that they were so supportive. It's nice to know that so many people care about you. My spirits were lifted and we even went to happy hour that day after work.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd647db231885-EWR"
+    }
+}

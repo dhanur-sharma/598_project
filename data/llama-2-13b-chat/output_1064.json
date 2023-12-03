@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I planned a vacation. I didn't have much money. I decided on a trip to disney's halloween party. My kids will enjoy it.  It is a bit of a tradition for us. We have been the last few years. We always dress in matching costumes. I usually make them myself. This year we are being characters from the moview descendants. I am almost done with all of the costumes. I hope it isn't too hot but I am sure it will be really hot being that it is september when we are going. The costumes have long sleeves. I am thinking of cutting them off so that I am not too hot. There will probably be some similar costumes but nothing the same. I have a cat watching me while I type."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I planned a vacation. I didn't have much money. I decided on a trip to disney's halloween party. My kids will enjoy it.  It is a bit of a tradition for us. We have been the last few years. We always dress in matching costumes. I usually make them myself. This year we are being characters from the moview descendants. I am almost done with all of the costumes. I hope it isn't too hot but I am sure it will be really hot being that it is september when we are going. The costumes have long sleeves. I am thinking of cutting them off so that I am not too hot. There will probably be some similar costumes but nothing the same. I have a cat watching me while I type.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "His name is simba. He is black and white. He is very cute."
+            }
+        ],
+        "request_id": "811e9d3a9b2b8c99-EWR"
+    }
+}

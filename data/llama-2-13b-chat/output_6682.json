@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past July, my daughter flew to California to visit friends. She was going to stay for six weeks. We hadn't really ever been apart for over 17 years so I knew this would be difficult for me. This was going to be practice for when she leaves for college next year. The first week I cried every morning and throughout the day. I felt lost not having someone to take care of. I knew that I needed to start looking for some other interest for my time. I tried to stay busy and that helped. To my surprise, she would text me throughout the day and tell me what she was doing. She would ask for my advice and text me about funny things that happened. She sent me videos and tons of pictures. I was so happy to know that she still needed her mom. It made things so much better even though she wasn't here. I wondered about when she went to college i f she would still be keeping in touch so much. I know that time is coming soon and eventually she will get busy with her life. I plan on getting a part-time job to stay busy and pay for all the gifts I will be sending to her to remind her that her mom loves her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past July, my daughter flew to California to visit friends. She was going to stay for six weeks. We hadn't really ever been apart for over 17 years so I knew this would be difficult for me. This was going to be practice for when she leaves for college next year. The first week I cried every morning and throughout the day. I felt lost not having someone to take care of. I knew that I needed to start looking for some other interest for my time. I tried to stay busy and that helped. To my surprise, she would text me throughout the day and tell me what she was doing. She would ask for my advice and text me about funny things that happened. She sent me videos and tons of pictures. I was so happy to know that she still needed her mom. It made things so much better even though she wasn't here. I wondered about when she went to college i f she would still be keeping in touch so much. I know that time is coming soon and eventually she will get busy with her life. I plan on getting a part-time job to stay busy and pay for all the gifts I will be sending to her to remind her that her mom loves her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I also plan on taking a few trips to see her. I know she will be busy but I want her to know that I am always here for her."
+            }
+        ],
+        "request_id": "811f4a91ff6a432c-EWR"
+    }
+}

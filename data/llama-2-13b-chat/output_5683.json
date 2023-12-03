@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Several months ago, I went to the doctor. For this purpose of the doctor, it was to get a physical. They checked my blood sugar. They checked my blood pressure. They checked my weight. They checked my cholesterol levels. They checked to find out how active I was. They checked my flexibility. They checked my physical strength. They checked my hearing and inside my ears. There were other things they checked as well. Afterwards, I was to come in again. For this purpose, it was to receive the results of the physical. I felt, as I often do, okay, but could be better. So much with the body is a science."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Several months ago, I went to the doctor. For this purpose of the doctor, it was to get a physical. They checked my blood sugar. They checked my blood pressure. They checked my weight. They checked my cholesterol levels. They checked to find out how active I was. They checked my flexibility. They checked my physical strength. They checked my hearing and inside my ears. There were other things they checked as well. Afterwards, I was to come in again. For this purpose, it was to receive the results of the physical. I felt, as I often do, okay, but could be better. So much with the body is a science.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am glad to have doctors to help me keep it in check. I am thankful for the care I receive.\n\n"
+            }
+        ],
+        "request_id": "811f365ccf4e4401-EWR"
+    }
+}

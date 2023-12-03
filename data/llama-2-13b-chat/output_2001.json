@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best friend named rob got married.  He was a super cool guy and we were friends all of high school.  He made me his best man.  I was super nervous about this because I do not like speeches.  I got a nice new suit for the wedding.  He was getting married to his high school sweetheart.  Her name was Rachel, and his was Dustin.  His wedding was super fun.  He was super happy and she was even more.  I gave the speech it was awesome.  I killed that shit cause that is how I do.  We danced and got drunk all night.  They got divorced like 3 months ago because life is shit.  This is the great twist.  Was that not fun?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best friend named rob got married.  He was a super cool guy and we were friends all of high school.  He made me his best man.  I was super nervous about this because I do not like speeches.  I got a nice new suit for the wedding.  He was getting married to his high school sweetheart.  Her name was Rachel, and his was Dustin.  His wedding was super fun.  He was super happy and she was even more.  I gave the speech it was awesome.  I killed that shit cause that is how I do.  We danced and got drunk all night.  They got divorced like 3 months ago because life is shit.  This is the great twist.  Was that not fun?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Was that not the best wedding ever?\n\n"
+            }
+        ],
+        "request_id": "811eae991ee74356-EWR"
+    }
+}

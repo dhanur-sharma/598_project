@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Exactly one week ago from today, I won my first match at a Brazilian Jiu Jitsu tournament. Even now, it still feels so surreal to me. Martial Arts was never something I saw myself pursuing professionally. My father owned a dojo, and as a child, I would spend a majority of my weekends training with him. I thought it was a mere hobby to me, more than anything, but my father had always told me that I had the talents to go further. I didn't take his advice, though. The amount of time I spent training, dwindled when I graduated high school and entered college. About a year ago, a friend of mine happened to stumble upon an ad on Facebook about the tournament and brought it to my attention. At that moment, I heard my father's words echo in the back of my head, and I decided to give it a shot! I trained hard for months. It was both the most difficult and rewarding period of my life. There were times where I was on the brink of giving up and dropping out of the tournament completely. At other times, I felt on top of the world and extremely confident. On the days leading up to my first match, I was very nervous. You have no idea how happy I was when I won. Hard work really does pay off! The entire experience was euphoric for me, and I realized that instead of a hobby, Jiu Jitsu, may have been a forgotten passion for me!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Exactly one week ago from today, I won my first match at a Brazilian Jiu Jitsu tournament. Even now, it still feels so surreal to me. Martial Arts was never something I saw myself pursuing professionally. My father owned a dojo, and as a child, I would spend a majority of my weekends training with him. I thought it was a mere hobby to me, more than anything, but my father had always told me that I had the talents to go further. I didn't take his advice, though. The amount of time I spent training, dwindled when I graduated high school and entered college. About a year ago, a friend of mine happened to stumble upon an ad on Facebook about the tournament and brought it to my attention. At that moment, I heard my father's words echo in the back of my head, and I decided to give it a shot! I trained hard for months. It was both the most difficult and rewarding period of my life. There were times where I was on the brink of giving up and dropping out of the tournament completely. At other times, I felt on top of the world and extremely confident. On the days leading up to my first match, I was very nervous. You have no idea how happy I was when I won. Hard work really does pay off! The entire experience was euphoric for me, and I realized that instead of a hobby, Jiu Jitsu, may have been a forgotten passion for me!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still in college, but I'm definitely planning on pursuing Jiu Jitsu more seriously. It was the best feeling in the world to win! I can't wait to see where this journey takes me!"
+            }
+        ],
+        "request_id": "811e99bb8cc88cab-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My Wedding Day Was Fabulous. We were married on a beautiful day surrounded by the love and happiness from our close family and friends. We had a small wedding. It was something that was very easy to plan from the start. No Frills wedding. We arrived and everything just fell into place. We had a live wedding singer who performed at our ceremony. We completed pictures and went into our first dance. Everyone cheered and I cried because you could just feel the love and the room. My 80 year old dad and I dance with each other and it was a very special moment! We sat and that is when the toasts began! We had such a great time listening to everyone recount our love. The evening went fast which was bitter sweet. I did not want it to end. We danced, laughed and had a wonderful time. We drank and partied the night away."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My Wedding Day Was Fabulous. We were married on a beautiful day surrounded by the love and happiness from our close family and friends. We had a small wedding. It was something that was very easy to plan from the start. No Frills wedding. We arrived and everything just fell into place. We had a live wedding singer who performed at our ceremony. We completed pictures and went into our first dance. Everyone cheered and I cried because you could just feel the love and the room. My 80 year old dad and I dance with each other and it was a very special moment! We sat and that is when the toasts began! We had such a great time listening to everyone recount our love. The evening went fast which was bitter sweet. I did not want it to end. We danced, laughed and had a wonderful time. We drank and partied the night away.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The night was filled with joy and happiness.\n\n"
+            }
+        ],
+        "request_id": "811ea2235fc043bf-EWR"
+    }
+}

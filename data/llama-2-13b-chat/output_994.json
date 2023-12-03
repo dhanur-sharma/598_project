@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago I brought my dog to the vet--routine treatment, teeth cleaning. Dog's need that, you know? I like to take care of my little buddy. Unfortunately, things didn't go as planned. I brought her in, left for a little bit to go eat lunch--suddenly, I get a call. Apparently my dog has an issue, I ask what. The vet doesn't sound too optimistic. She tells me about her enlarged Lymph nodes, and my concern suddenly dwarfed any other concern I had in life. I couldn't eat. I talked to the vet and she gave me my options. I wrapped my little buddy up and went home. I couldn't sleep, I was so worried about her. I went to work tired and worried, the stress was immeasurable. I waited two weeks for another call from the vet, and she told me there was nothing to be concerned about, perhaps she was just sick or it was a exceptional mistake or error in judgement. I was happy, but now possible issues are always in the back of my mind when taking my dog anywhere."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago I brought my dog to the vet--routine treatment, teeth cleaning. Dog's need that, you know? I like to take care of my little buddy. Unfortunately, things didn't go as planned. I brought her in, left for a little bit to go eat lunch--suddenly, I get a call. Apparently my dog has an issue, I ask what. The vet doesn't sound too optimistic. She tells me about her enlarged Lymph nodes, and my concern suddenly dwarfed any other concern I had in life. I couldn't eat. I talked to the vet and she gave me my options. I wrapped my little buddy up and went home. I couldn't sleep, I was so worried about her. I went to work tired and worried, the stress was immeasurable. I waited two weeks for another call from the vet, and she told me there was nothing to be concerned about, perhaps she was just sick or it was a exceptional mistake or error in judgement. I was happy, but now possible issues are always in the back of my mind when taking my dog anywhere.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9bdfce180f8f-EWR"
+    }
+}

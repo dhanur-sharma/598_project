@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Growing up, it was me and my sister. I was her big bro and I took care of her. As we got older, she got into a lot of trouble. She stopped wanting me around. Stopped wanting me to look out for her. Eventually I gave up and gave her what she wanted. That is the biggest regret of my life. 3 months ago I found out that she has liver failure. This was due to alcoholism that she has been suffering with for years now. I flew back to see her. She looked weak. In pain. Feeble. Ashamed. I went to her hospital bed and she told me she was dying. She didn't have long. I cried quietly and told her I was sorry. I failed her. She smiled and told me there was nothing I could do. This life is really painful sometimes. It almost makes me wonder why it's even worth it. Then I think of my children and I remember that life doesn't have to be pain. It can be so much more. I love my sister."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Growing up, it was me and my sister. I was her big bro and I took care of her. As we got older, she got into a lot of trouble. She stopped wanting me around. Stopped wanting me to look out for her. Eventually I gave up and gave her what she wanted. That is the biggest regret of my life. 3 months ago I found out that she has liver failure. This was due to alcoholism that she has been suffering with for years now. I flew back to see her. She looked weak. In pain. Feeble. Ashamed. I went to her hospital bed and she told me she was dying. She didn't have long. I cried quietly and told her I was sorry. I failed her. She smiled and told me there was nothing I could do. This life is really painful sometimes. It almost makes me wonder why it's even worth it. Then I think of my children and I remember that life doesn't have to be pain. It can be so much more. I love my sister.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm going to miss her.\n\n"
+            }
+        ],
+        "request_id": "811ece81190e4304-EWR"
+    }
+}

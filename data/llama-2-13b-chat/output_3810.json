@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Things were slow at my place of work.  It had been slow for quite a while.  There was poor leadership and a lack of direction.  I sensed that something would happen, but did not know when.  I was given a heads up that there would be a layoff coming soon.  I was asked to keep quiet about it, so I said nothing to any of my colleagues. A meeting was set to announce the changes.  Upper management arrived in the office late spring this year.  That told everyone about how bad things were financially.  They then started to talk to all the employees one by one.  They laid off 3 people.  2 more quit of frustration.  I was emotionally spent.  I was also angry they upper management let things go for so long.  I had told them about the problems, but my words were ignored. Several people I was close to are no longer here.  It was devastating at first just to come into work.  The few that were left behind are still in shock.  I still can't believe how it was handled and how things turned out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Things were slow at my place of work.  It had been slow for quite a while.  There was poor leadership and a lack of direction.  I sensed that something would happen, but did not know when.  I was given a heads up that there would be a layoff coming soon.  I was asked to keep quiet about it, so I said nothing to any of my colleagues. A meeting was set to announce the changes.  Upper management arrived in the office late spring this year.  That told everyone about how bad things were financially.  They then started to talk to all the employees one by one.  They laid off 3 people.  2 more quit of frustration.  I was emotionally spent.  I was also angry they upper management let things go for so long.  I had told them about the problems, but my words were ignored. Several people I was close to are no longer here.  It was devastating at first just to come into work.  The few that were left behind are still in shock.  I still can't believe how it was handled and how things turned out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed1a12bf74373-EWR"
+    }
+}

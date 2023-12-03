@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I was headed to work and decided to stop by the bank on my way out to deposit a check. As I was standing in line, I felt pains in my chest. Suddenly my arms were tingling. I realized I was having a heart attack. I called out for help as I dropped to the floor, then lost consciousness. As luck would have it, one of the other customers in line at the bank was a doctor. He immediately recognized the emergency and performed CPR. He kept the blood pumping in my heart until the EMTs arrived. Then they continued working on me until we arrived at the hospital. There they performed surgery. I had a STENT placed in my LAD artery. Later when I was at the hospital, they would discover that my main incoming artery - the LAD - was 100% blocked. They call this artery The Widowmaker because it can get blocked quickly and in most cases, the person dies. But since I was lucky and had my heart attack in the presence of a doctor who saw what was happening and performed CPR until the ambulance arrived, my heart never went without blood and oxygen. Luck saved my life and let me with no damage to my heart muscle."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I was headed to work and decided to stop by the bank on my way out to deposit a check. As I was standing in line, I felt pains in my chest. Suddenly my arms were tingling. I realized I was having a heart attack. I called out for help as I dropped to the floor, then lost consciousness. As luck would have it, one of the other customers in line at the bank was a doctor. He immediately recognized the emergency and performed CPR. He kept the blood pumping in my heart until the EMTs arrived. Then they continued working on me until we arrived at the hospital. There they performed surgery. I had a STENT placed in my LAD artery. Later when I was at the hospital, they would discover that my main incoming artery - the LAD - was 100% blocked. They call this artery The Widowmaker because it can get blocked quickly and in most cases, the person dies. But since I was lucky and had my heart attack in the presence of a doctor who saw what was happening and performed CPR until the ambulance arrived, my heart never went without blood and oxygen. Luck saved my life and let me with no damage to my heart muscle.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am now at home recovering and I will be back at work soon.\n\n"
+            }
+        ],
+        "request_id": "811bd14a2ec00f5d-EWR"
+    }
+}

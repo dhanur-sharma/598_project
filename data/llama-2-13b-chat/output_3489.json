@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had to leave me job previously. All my coworkers helped me out by giving me a going away part. It was at a local brewery. There were lots of people there. Almost everyone from work. I got card and gift. And plenty of cake was flowing around. I was glad for all my managers and colleagues that helped me while I was there. They are true friends. My time with the company was great. It was good to have good friends and leaders there to help me when I needed them. I am glad I was a part of the company. It was very nice to see that they are true friends. The party was fun. I felt that everyone there was a true friend to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had to leave me job previously. All my coworkers helped me out by giving me a going away part. It was at a local brewery. There were lots of people there. Almost everyone from work. I got card and gift. And plenty of cake was flowing around. I was glad for all my managers and colleagues that helped me while I was there. They are true friends. My time with the company was great. It was good to have good friends and leaders there to help me when I needed them. I am glad I was a part of the company. It was very nice to see that they are true friends. The party was fun. I felt that everyone there was a true friend to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I enjoyed the party and will always remember it.\n\n"
+            }
+        ],
+        "request_id": "811eca4bdb0b439a-EWR"
+    }
+}

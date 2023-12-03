@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago I got the Head Cashier position. I had applied three other times before and was rejected. I never gave up at it. I kept working hard and applied again each time. I feel like all the effort has paid off. I'm happy that I'm not the Head Cashier. I feel a lot of responsibility and prestige with this position. I want to move up in this company and this is just the first step. I want to be in upper management. If I keep up my hard work and effort I will soon be there. I just have to keep my goal in my mind and apply myself. Soon enough I will be able to move up again. I want to show this company my potential. I'm now in this position and I feel I've accomplished a lot in the short time. I know that I can become anything I want to be now. It's up to me on how far my future goes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago I got the Head Cashier position. I had applied three other times before and was rejected. I never gave up at it. I kept working hard and applied again each time. I feel like all the effort has paid off. I'm happy that I'm not the Head Cashier. I feel a lot of responsibility and prestige with this position. I want to move up in this company and this is just the first step. I want to be in upper management. If I keep up my hard work and effort I will soon be there. I just have to keep my goal in my mind and apply myself. Soon enough I will be able to move up again. I want to show this company my potential. I'm now in this position and I feel I've accomplished a lot in the short time. I know that I can become anything I want to be now. It's up to me on how far my future goes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3c808a4b0f87-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I proposed to Claudette last month. She is my childhood sweetheart. I met her in high school, and it was quite literally love at first sight. I was always told by my friends that sticking to one girl in this day and age is idiotic. But no. She was the one. I always knew it. I took her to Niagara falls. It is one of her favorite spots to be at. She was feeling cold and asked me to hold her close. I took her hands, pulled her to me and held her tight. She felt something in my hand. It was the ring. The look on her face was priceless to say the least. She started tearing up, and i was getting concerned if she would hesitate to say yes. But she did."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I proposed to Claudette last month. She is my childhood sweetheart. I met her in high school, and it was quite literally love at first sight. I was always told by my friends that sticking to one girl in this day and age is idiotic. But no. She was the one. I always knew it. I took her to Niagara falls. It is one of her favorite spots to be at. She was feeling cold and asked me to hold her close. I took her hands, pulled her to me and held her tight. She felt something in my hand. It was the ring. The look on her face was priceless to say the least. She started tearing up, and i was getting concerned if she would hesitate to say yes. But she did.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She said yes. The feeling was indescribable. I had her hand and the ring in my hand, and it felt like the whole world had come to a standstill. I was on cloud nine. She kissed me and said she loved me. I knew I would never let her go. I proposed to her last month, and I am the happiest man alive.\n\n"
+            }
+        ],
+        "request_id": "811f3794e9ca4327-EWR"
+    }
+}

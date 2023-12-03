@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had really been struggling with my faith lately. It just felt like I was going through the motions. Finding the motivation to go to church was a real struggle. In fact, I had missed church multiple times over the summer. But, a couple of weeks ago, I decided it was time to snap out of it. I set my alarm extra early. I prayed that I would feel refreshed. I also prayed that I would stay awake and really absorb the message. And I am glad that I did. It ended up being a very powerful service. The message was all about finding our calling. And they had a volunteer fair after the service. I felt like God was really talking to me. I decided to volunteer to work with one of the youth programs. I started it last week, and am already in love with it. The kids are great and I feel like I am making a difference. I feel like my prayers were really answered."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had really been struggling with my faith lately. It just felt like I was going through the motions. Finding the motivation to go to church was a real struggle. In fact, I had missed church multiple times over the summer. But, a couple of weeks ago, I decided it was time to snap out of it. I set my alarm extra early. I prayed that I would feel refreshed. I also prayed that I would stay awake and really absorb the message. And I am glad that I did. It ended up being a very powerful service. The message was all about finding our calling. And they had a volunteer fair after the service. I felt like God was really talking to me. I decided to volunteer to work with one of the youth programs. I started it last week, and am already in love with it. The kids are great and I feel like I am making a difference. I feel like my prayers were really answered.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel more alive than I have in a long time.\n\n"
+            }
+        ],
+        "request_id": "811bde9ae9864362-EWR"
+    }
+}

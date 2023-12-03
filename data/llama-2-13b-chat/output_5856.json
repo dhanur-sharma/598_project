@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I got to see one of my very favorite bands live in concert. They are an older band (from the 80s) and every time they tour, they never quite make it to my area, so I was quite excited to see them! Unfortunately, I had to go alone, so the build-up to the show was kind of dull/anxiety laced, as I had no one to talk to until they played the show. I was a bit irritated since initially my boyfriend said he would go with me, but ultimately admitted that he didn't want to go due to not really enjoying the kind of music this band plays. I was frustrated because while I didn't want him to go and have a bad time, I also didn't want to be completely alone in a room where everyone has someone else to talk to and be with. I tried my best to get over the feeling of being notable alone as I made my way to the event and stepped inside. As I try to do when I really like a band, I finagled my way as close as I could to the front of the stage, where I eventually got to the very front and held on to the barricade for dear life! The crowd all pushed forward and I watched so many grown adults like myself get way too close to one another, sweating and spewing out face paced lyrics like we wrote them ourselves. It was such a happy experience for me, the connection of strangers through music that we all really love. The bad interacted with the crowd as well and that is always a great thing to be a part of! By the end of the concert, I was very sweaty, dehydrated, my makeup was smeared and my hair was highly questionable. I felt similar to how I felt so long ago as a teenager...Alive, a part of something. Together with others, unified by something greater than us as individuals. A sort of familiarity despite not actually knowing one another. As someone who grew up in a broken home, this kind of feeling is very rare and highly sought after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I got to see one of my very favorite bands live in concert. They are an older band (from the 80s) and every time they tour, they never quite make it to my area, so I was quite excited to see them! Unfortunately, I had to go alone, so the build-up to the show was kind of dull/anxiety laced, as I had no one to talk to until they played the show. I was a bit irritated since initially my boyfriend said he would go with me, but ultimately admitted that he didn't want to go due to not really enjoying the kind of music this band plays. I was frustrated because while I didn't want him to go and have a bad time, I also didn't want to be completely alone in a room where everyone has someone else to talk to and be with. I tried my best to get over the feeling of being notable alone as I made my way to the event and stepped inside. As I try to do when I really like a band, I finagled my way as close as I could to the front of the stage, where I eventually got to the very front and held on to the barricade for dear life! The crowd all pushed forward and I watched so many grown adults like myself get way too close to one another, sweating and spewing out face paced lyrics like we wrote them ourselves. It was such a happy experience for me, the connection of strangers through music that we all really love. The bad interacted with the crowd as well and that is always a great thing to be a part of! By the end of the concert, I was very sweaty, dehydrated, my makeup was smeared and my hair was highly questionable. I felt similar to how I felt so long ago as a teenager...Alive, a part of something. Together with others, unified by something greater than us as individuals. A sort of familiarity despite not actually knowing one another. As someone who grew up in a broken home, this kind of feeling is very rare and highly sought after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's the kind of feeling that reminds me of why I do this, why I keep going back to live shows despite the occasional disappointment."
+            }
+        ],
+        "request_id": "811f39c7fe9043af-EWR"
+    }
+}

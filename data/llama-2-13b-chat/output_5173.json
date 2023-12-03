@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Nick and Terry came over, separately.  Nick brought his own bottle of booze and some weed.  Terry showed up later with weed.  So things never change.  Nick and I share some very personal, painful memories before Terry got there.  It was hard.  Terry was aloof as usual.  The bar we went to for dinner was so filled with basic, boring white people.  It was pathetic.  Back to the condo, and back out to do the gay bars.  We took Uber, because the booze and weed just kept coming.  The bars were fun, the conversation was strange at points and familiar at points.  It was surreal.  I just kept drinking.  After we got home, they spent the night.  I do not know if they finally had sex after 30+ years or not.  I did not ask. I threw up, passed out.  The next morning they left, promising we would do it again in a couple of months.  Of course, I have never heard from either of them since. I am a terrible person."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Nick and Terry came over, separately.  Nick brought his own bottle of booze and some weed.  Terry showed up later with weed.  So things never change.  Nick and I share some very personal, painful memories before Terry got there.  It was hard.  Terry was aloof as usual.  The bar we went to for dinner was so filled with basic, boring white people.  It was pathetic.  Back to the condo, and back out to do the gay bars.  We took Uber, because the booze and weed just kept coming.  The bars were fun, the conversation was strange at points and familiar at points.  It was surreal.  I just kept drinking.  After we got home, they spent the night.  I do not know if they finally had sex after 30+ years or not.  I did not ask. I threw up, passed out.  The next morning they left, promising we would do it again in a couple of months.  Of course, I have never heard from either of them since. I am a terrible person.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be5d4abfc8c84-EWR"
+    }
+}

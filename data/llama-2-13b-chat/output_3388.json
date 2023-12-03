@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went camping recently. We had another group camp with us. We arrived shortly before they did and started getting everything set up. Shortly we finished they pulled up. I had asked if they needed any help setting up since we were finished and they said no. I was okay with this because we had already spent a decent amount of time getting majority of the things set up. We all went on a walk to explore the campground in its entirety and decided to go swimming. When we came back we played a few games of cornhole. After this we started the camp fire and the grill we brought so we could cook dinner. We had a few drinks with dinner and started to settle around the campfire and have a few more drinks. I was drinking cold beer and somebody who we will call \"person B\" for the sake of this entry insisted on having some celebratory shots. I gave in. That was a mistake. By the time the shots caught up with me it was late. I was sitting on the top of a table when I lost my balance and fell to the ground. Everybody thought it was amusing, but it was a clear indication I drank way to much that night. We all went to bed shortly after."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went camping recently. We had another group camp with us. We arrived shortly before they did and started getting everything set up. Shortly we finished they pulled up. I had asked if they needed any help setting up since we were finished and they said no. I was okay with this because we had already spent a decent amount of time getting majority of the things set up. We all went on a walk to explore the campground in its entirety and decided to go swimming. When we came back we played a few games of cornhole. After this we started the camp fire and the grill we brought so we could cook dinner. We had a few drinks with dinner and started to settle around the campfire and have a few more drinks. I was drinking cold beer and somebody who we will call \"person B\" for the sake of this entry insisted on having some celebratory shots. I gave in. That was a mistake. By the time the shots caught up with me it was late. I was sitting on the top of a table when I lost my balance and fell to the ground. Everybody thought it was amusing, but it was a clear indication I drank way to much that night. We all went to bed shortly after.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I woke up the next morning with a bad hangover. I was sore, my head hurt, and I felt like I had the flu.\n\n"
+            }
+        ],
+        "request_id": "811eca31bc4c0ce9-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After we had lunch, we went back to her new school. We parked our car and walked all over the school. The school is in the mountains so the classroom builsings are scattered all over the campus.  Some of the buildings are at a bottom of a hill and some are at the top of the hill. Needless to say, we got quite a workout.  They had a lake in the middle of the campus. There were turtles, ducks and geese in the water. No fishing was allowed though!  It was a beautiful campus and it looked like she would enjoy it there.  It was an enjoyable day. We then went back to her dorm. They were small apartments about 450 square feet with two bedrooms each. Each bedroom had two occupants. If you wanted to pay more, then you could rent the entire bedroom for one person. It was expensive though.  Anyway, it was a cute apartment. Perfect for her first place away from her parents."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After we had lunch, we went back to her new school. We parked our car and walked all over the school. The school is in the mountains so the classroom builsings are scattered all over the campus.  Some of the buildings are at a bottom of a hill and some are at the top of the hill. Needless to say, we got quite a workout.  They had a lake in the middle of the campus. There were turtles, ducks and geese in the water. No fishing was allowed though!  It was a beautiful campus and it looked like she would enjoy it there.  It was an enjoyable day. We then went back to her dorm. They were small apartments about 450 square feet with two bedrooms each. Each bedroom had two occupants. If you wanted to pay more, then you could rent the entire bedroom for one person. It was expensive though.  Anyway, it was a cute apartment. Perfect for her first place away from her parents.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f317cbe280f9b-EWR"
+    }
+}

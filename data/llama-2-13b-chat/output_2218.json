@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took my wife and kids to the funeral. It was such an emotional event. When it was time to give eulogies, his parents were the first ones to speak. They showered him with lots of praises. Then came his siblings who had nothing but love and joy to spread.  When it was my turn to speak  I was worried I could not match what all these people had said. I thought to myself that they had already said everything there was to say about this amazing person.  My mind ran blank, I tried looking at the paper I had written but it was unhelpful. I just decided to step up and give my friend the best eulogy i could imagine. When I held the mike to speak, tears started flowing the same way words were from my mouth. I don't know how long I took but by the time I was done i felt relieved. When I looked at the faces of the people listening, I realized that I had touched some people's hearts. When we left the event it was around 6pm. My mind was bringing me all the memories we shared with my friend. I started to miss him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took my wife and kids to the funeral. It was such an emotional event. When it was time to give eulogies, his parents were the first ones to speak. They showered him with lots of praises. Then came his siblings who had nothing but love and joy to spread.  When it was my turn to speak  I was worried I could not match what all these people had said. I thought to myself that they had already said everything there was to say about this amazing person.  My mind ran blank, I tried looking at the paper I had written but it was unhelpful. I just decided to step up and give my friend the best eulogy i could imagine. When I held the mike to speak, tears started flowing the same way words were from my mouth. I don't know how long I took but by the time I was done i felt relieved. When I looked at the faces of the people listening, I realized that I had touched some people's hearts. When we left the event it was around 6pm. My mind was bringing me all the memories we shared with my friend. I started to miss him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb2ad6ef0179d-EWR"
+    }
+}

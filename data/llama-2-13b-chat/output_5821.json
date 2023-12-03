@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My eldest is slowly opening up to me. It took awhile but, our relationship is healing. She has opened up a bit about what she had gone through, how she handles it, and her goals moving forward. When I told her I regret and cannot forgive myself for not believing her...she just smiles and tells me \"Dad, he had everyone fooled. How were you supposed to know? Besides, if things didn't happen how they did I don't think I would be half the woman I am now.\"I don't understand how she keeps such a positive attitude. Or how she could forgive me so easily. She has a strength that I envy in a lot of ways. She refuses to see herself as a victim but sees everything as something she can learn,grow and gain from. Instead of shutting everyone out she let's them in. Granted, it takes a bit to earn her trust. But, once you do she's loyal to a fault. What she went through didn't make her uncaring or jaded. She wants to help those who have gone through the same things as her. I guess despite how badly I feel I failed as a father....I did something right with raising her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My eldest is slowly opening up to me. It took awhile but, our relationship is healing. She has opened up a bit about what she had gone through, how she handles it, and her goals moving forward. When I told her I regret and cannot forgive myself for not believing her...she just smiles and tells me \"Dad, he had everyone fooled. How were you supposed to know? Besides, if things didn't happen how they did I don't think I would be half the woman I am now.\"I don't understand how she keeps such a positive attitude. Or how she could forgive me so easily. She has a strength that I envy in a lot of ways. She refuses to see herself as a victim but sees everything as something she can learn,grow and gain from. Instead of shutting everyone out she let's them in. Granted, it takes a bit to earn her trust. But, once you do she's loyal to a fault. What she went through didn't make her uncaring or jaded. She wants to help those who have gone through the same things as her. I guess despite how badly I feel I failed as a father....I did something right with raising her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so proud of the woman she is becoming."
+            }
+        ],
+        "request_id": "811f391f9da14234-EWR"
+    }
+}

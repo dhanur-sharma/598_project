@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Approximately four months ago, I attended my annual work conference. However, this conference was unique to the extent that I was actively looking for a new job this year. As a result, my conference was filled with job interviews rather than attending sessions. While this would seem to be a distinct event during the conference, and any one of these interviews would classify as a memorable event, the most memorable event actually came from something other than an interview. That is, I had planned and organized a session for the conference. As part of this session, I had enlisted the help of another person to act as a discussion leader to tie together the other presentations. This person is widely regarded within my field, and would attract a large audience. However, approximately one hour before the session, he emailed me to tell me that he had food poisoning. As a result, he would be unable to attend the session. This left me in a bit of a bind. With approximately one hour to prepare, I was forced to take on the discussant role - having never done so before. In so doing, it would be painfully obvious that I had little time to prepare. However, when it came time for the session, the other presentations went longer than anticipated, fortunately leaving me less time to lead the discussion. This had the effect of masking my lack of preparedness. As such, the discussion went relatively smoothly, even though I had no prior experience doing so in this setting. In sum, this session was memorable due to the late change and excuse from my enlisted discussion leader. However, it was also memorable because it pushed me outside of my comfort zone and helped me grow."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Approximately four months ago, I attended my annual work conference. However, this conference was unique to the extent that I was actively looking for a new job this year. As a result, my conference was filled with job interviews rather than attending sessions. While this would seem to be a distinct event during the conference, and any one of these interviews would classify as a memorable event, the most memorable event actually came from something other than an interview. That is, I had planned and organized a session for the conference. As part of this session, I had enlisted the help of another person to act as a discussion leader to tie together the other presentations. This person is widely regarded within my field, and would attract a large audience. However, approximately one hour before the session, he emailed me to tell me that he had food poisoning. As a result, he would be unable to attend the session. This left me in a bit of a bind. With approximately one hour to prepare, I was forced to take on the discussant role - having never done so before. In so doing, it would be painfully obvious that I had little time to prepare. However, when it came time for the session, the other presentations went longer than anticipated, fortunately leaving me less time to lead the discussion. This had the effect of masking my lack of preparedness. As such, the discussion went relatively smoothly, even though I had no prior experience doing so in this setting. In sum, this session was memorable due to the late change and excuse from my enlisted discussion leader. However, it was also memorable because it pushed me outside of my comfort zone and helped me grow.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would have never had this experience had I not been actively looking for a new job."
+            }
+        ],
+        "request_id": "811f3687dcf05e71-EWR"
+    }
+}

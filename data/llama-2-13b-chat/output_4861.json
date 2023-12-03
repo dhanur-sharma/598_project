@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Roughly three months ago I attended a baby shower for a friend of one my husband's friends. While I already knew the parents to be, I was still rather anxious about it because the overwhelmingly large majority of the guests would be people who I hadn't met before.  I generally get anxious about events since I don't know many people here. After arriving we sat on the roof top deck with a few others. It felt a bit lonely at first but after a while I began to relax. I was able to just hang out with others instead of feeling like an outsider. While there my husband and another guy sparked up a conversation. They found out that they've both worked for the same company. As the conversation progressed, we realized that the other guy and I were from the same city and he and my older brother attended the same high school at the same time. We all had a lot of fun conversing and enjoying the food. Upon leaving we all talked a bit more. I mentioned my high school to which the guy responded his sister went there. I asked for her name and realized she was someone I had known since middle school. It was so crazy to find out all these connections to someone who started off a total stranger. After the shower a few of us walked to the beach to finish a great day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Roughly three months ago I attended a baby shower for a friend of one my husband's friends. While I already knew the parents to be, I was still rather anxious about it because the overwhelmingly large majority of the guests would be people who I hadn't met before.  I generally get anxious about events since I don't know many people here. After arriving we sat on the roof top deck with a few others. It felt a bit lonely at first but after a while I began to relax. I was able to just hang out with others instead of feeling like an outsider. While there my husband and another guy sparked up a conversation. They found out that they've both worked for the same company. As the conversation progressed, we realized that the other guy and I were from the same city and he and my older brother attended the same high school at the same time. We all had a lot of fun conversing and enjoying the food. Upon leaving we all talked a bit more. I mentioned my high school to which the guy responded his sister went there. I asked for her name and realized she was someone I had known since middle school. It was so crazy to find out all these connections to someone who started off a total stranger. After the shower a few of us walked to the beach to finish a great day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdf34cd12433a-EWR"
+    }
+}

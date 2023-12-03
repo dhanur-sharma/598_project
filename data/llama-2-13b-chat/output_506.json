@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: February this year, there was an opening at my place of work. I and several other people applied for it. I used to work as a financial analyst at my office, but this new position was for the assistant financial manager. When I heard of the opening, I applied for it in addition with the accountants and plenty other finance related workers at the office. There were some external people who applied as well. The first thing the company did was to check all applicants to see the people who were qualified for the job. A good number of people were screened out, and there were still a lot of people left. The office organized several sets of interviews for all applicants. It was a really though period. There were weeks of interviews, and a lot of people were rejected based on the interviews. After the series of interviews, we were left with six people. The six of us were asked to rank ourselves based on who we believed was best suited for the job. We were actually told that this does not affect their decision. After this, they finally made their choice. I was promoted to the position of assistant financial manager. Someone else was given my previous position, and two other people from the last six of us were also promoted to similar positions like mine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: February this year, there was an opening at my place of work. I and several other people applied for it. I used to work as a financial analyst at my office, but this new position was for the assistant financial manager. When I heard of the opening, I applied for it in addition with the accountants and plenty other finance related workers at the office. There were some external people who applied as well. The first thing the company did was to check all applicants to see the people who were qualified for the job. A good number of people were screened out, and there were still a lot of people left. The office organized several sets of interviews for all applicants. It was a really though period. There were weeks of interviews, and a lot of people were rejected based on the interviews. After the series of interviews, we were left with six people. The six of us were asked to rank ourselves based on who we believed was best suited for the job. We were actually told that this does not affect their decision. After this, they finally made their choice. I was promoted to the position of assistant financial manager. Someone else was given my previous position, and two other people from the last six of us were also promoted to similar positions like mine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy because I was the only internal candidate that was promoted.\n\n"
+            }
+        ],
+        "request_id": "811e92f9fbe88cdc-EWR"
+    }
+}

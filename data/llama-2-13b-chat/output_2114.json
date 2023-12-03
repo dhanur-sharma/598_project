@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had trained hard for months hoping to be able to finish my first adventure race.  I was so nervous I couldn't eat more than a banana before heading to the start line.  I had all my materials packed in a backpack but I wasn't sure if it would be enough.  I worried I wasn't prepared and didn't have the support I would need to finish the race.  I didn't know if my swim training would get me across the river.  I wasn't sure if the weather would hold up or if I was even wearing the right clothes.  Was I going to freeze out there?  Did I have enough batteries?  What about food?  Everything I planned for the last months was slowly going away.  When the race started I followed the pack in front of me.  I thought if I could just keep up with those people then maybe they could carry me to the end or help me out if something went wrong.  I couldn't keep the pace so I had to back off.  I was out there in silence but I felt like I was doing so good!  I was making all the paces I had planned and was meeting each check point.  My maps were all right and I didn't feel like I was running out of food or water.  Things were going as planned.  My swim went well and I was ready to go to the climb.  I was tired but still feeling strong.  I took my time in the sections that I was unfamiliar with.  The terrain seemed a little shaky but it was stable.  Then I heard something shift and it was almost as if time stood still.  The next thing I knew I was laying on the ground and couldn't move.  I knew at that point the race was done."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had trained hard for months hoping to be able to finish my first adventure race.  I was so nervous I couldn't eat more than a banana before heading to the start line.  I had all my materials packed in a backpack but I wasn't sure if it would be enough.  I worried I wasn't prepared and didn't have the support I would need to finish the race.  I didn't know if my swim training would get me across the river.  I wasn't sure if the weather would hold up or if I was even wearing the right clothes.  Was I going to freeze out there?  Did I have enough batteries?  What about food?  Everything I planned for the last months was slowly going away.  When the race started I followed the pack in front of me.  I thought if I could just keep up with those people then maybe they could carry me to the end or help me out if something went wrong.  I couldn't keep the pace so I had to back off.  I was out there in silence but I felt like I was doing so good!  I was making all the paces I had planned and was meeting each check point.  My maps were all right and I didn't feel like I was running out of food or water.  Things were going as planned.  My swim went well and I was ready to go to the climb.  I was tired but still feeling strong.  I took my time in the sections that I was unfamiliar with.  The terrain seemed a little shaky but it was stable.  Then I heard something shift and it was almost as if time stood still.  The next thing I knew I was laying on the ground and couldn't move.  I knew at that point the race was done.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had fallen and couldn't get up.  The only thing that ran through my head was \"I didn't finish my first adventure race\".  I was devastated and couldn't believe it.  I had come so far and had so much invested in this race.  I was heartbroken."
+            }
+        ],
+        "request_id": "811eb0849d794246-EWR"
+    }
+}

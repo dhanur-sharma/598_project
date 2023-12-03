@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I received a call from Korea that my aunt has died.  My mom was with me and she looked shocked.  I don't know why but I started bawling.  I came to the States when I was eight so it didn't make sense that it was impacting me this much.  It is not like an aunt that I meet regularly or talk to regularly.  For days prior to the event I felt my heart was aching.  I wasn't sleeping well and my heart was literally aching.  Maybe I'm just a sensitive person and can feel other's pain.  If that is the case, I'm not sure if I like it.  I called them back to talk to my cousins in Korea.  I was crying more than them.  It just doesn't make any sense.  They were trying to comfort me rather that the other way around.  I felt embarrassed.  Am I a cry baby?  I'm not always this way...maybe I should got the the doctor...a psychiatrist."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I received a call from Korea that my aunt has died.  My mom was with me and she looked shocked.  I don't know why but I started bawling.  I came to the States when I was eight so it didn't make sense that it was impacting me this much.  It is not like an aunt that I meet regularly or talk to regularly.  For days prior to the event I felt my heart was aching.  I wasn't sleeping well and my heart was literally aching.  Maybe I'm just a sensitive person and can feel other's pain.  If that is the case, I'm not sure if I like it.  I called them back to talk to my cousins in Korea.  I was crying more than them.  It just doesn't make any sense.  They were trying to comfort me rather that the other way around.  I felt embarrassed.  Am I a cry baby?  I'm not always this way...maybe I should got the the doctor...a psychiatrist.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Maybe I should start to take some medicine for it.  Maybe I should try to get some counseling.  Maybe I should just ignore it and not think about it.  I don't know what to do.\n\n"
+            }
+        ],
+        "request_id": "811bd9caaa1143bb-EWR"
+    }
+}

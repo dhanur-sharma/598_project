@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the fall, my husband and I drove our two children to college. The drive takes about 8 hours. When they jokingly asked if we were there yet, I would joke back that if they had picked a college closer to home, we would be. My daughter kept teasing me that I would cry when we left them at their dorms. Both kids agreed they would be very embarrassed if I cried or made a fuss. Moving them into the dorms was a very long day. Their dorm does not have an elevator. No elevator! Not a single one! And of course, my kids are on one of the top floors. We carried mini-fridges, tvs, microwaves, so much stuff up all those stairs. The kids have two of everything because they do not room together. It was a pretty hot day, but it could've been worse so that was good. And at least it wasn't raining. After we move everything in, we helped them get all their stuff put away. My husband fussed that I should leave them alone to put away their clothes and make beds, alone, etc. But I wanted to get them off to a good year and plus, they won't be around all year for me pick up after. Finally at the end of the day, we took and got ready to leave. I did good and held back most of my tears, even though I was a bit choked up. When we got in the car and waved goodbye, I did cry, but I didn't do it in front of the kids or friends, so all was well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the fall, my husband and I drove our two children to college. The drive takes about 8 hours. When they jokingly asked if we were there yet, I would joke back that if they had picked a college closer to home, we would be. My daughter kept teasing me that I would cry when we left them at their dorms. Both kids agreed they would be very embarrassed if I cried or made a fuss. Moving them into the dorms was a very long day. Their dorm does not have an elevator. No elevator! Not a single one! And of course, my kids are on one of the top floors. We carried mini-fridges, tvs, microwaves, so much stuff up all those stairs. The kids have two of everything because they do not room together. It was a pretty hot day, but it could've been worse so that was good. And at least it wasn't raining. After we move everything in, we helped them get all their stuff put away. My husband fussed that I should leave them alone to put away their clothes and make beds, alone, etc. But I wanted to get them off to a good year and plus, they won't be around all year for me pick up after. Finally at the end of the day, we took and got ready to leave. I did good and held back most of my tears, even though I was a bit choked up. When we got in the car and waved goodbye, I did cry, but I didn't do it in front of the kids or friends, so all was well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The kids were happy and excited and my husband and I were happy and sad. The drive home was long and quiet, but that's just how it goes sometimes."
+            }
+        ],
+        "request_id": "811f42c96f4ac477-EWR"
+    }
+}

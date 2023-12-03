@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a beautiful day and I was home with my two sons, ages 5 and 8.  I decided to take them to a nearby nature preserve where we could ride bikes and scooters.  We were having a lot of fun checking out the sites. My kids especially enjoyed going down hills. They fought a little vying to be first but those arguments were thankfully short lived.  At my request, we took a break to see some sights that I had never seen before; 2 old empty fountains, and a really cool Japanese style red bridge.  After playing around by the fountain, we walked over to the bridge.  I quickly noticed that the water below the bridge was completely green from algae. We went onto the bridge and I took a few pictures of the boys.  My younger son walked off the bridge and I took a solo pic of my older son. I was keeping an eye on my younger son but saw him go closer to the water. I called on him to stop.  I saw him get up on a rock right by the water's edge. I started going towards him telling him to stop but he went forward.I was running towards him as he fell in the water. I immediately jumped in to get him. I pulled him up quickly from the water. There were two older gentleman who must have witnessed this. They pulled us both out of the water. I checked my son who was freaked out but seemed ok. I was terrified because I had heard about recent reports of toxic algae blooms in nearby waterways.  I called the main number of the nature preserve and told them what happened. They were able to get someone to drive us back to our car, with the bicycles and scooters. We came home and showered.  I made some calls and got some assurances. The whole event had me very shaken up about the potential dangers and how quickly things can happen."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a beautiful day and I was home with my two sons, ages 5 and 8.  I decided to take them to a nearby nature preserve where we could ride bikes and scooters.  We were having a lot of fun checking out the sites. My kids especially enjoyed going down hills. They fought a little vying to be first but those arguments were thankfully short lived.  At my request, we took a break to see some sights that I had never seen before; 2 old empty fountains, and a really cool Japanese style red bridge.  After playing around by the fountain, we walked over to the bridge.  I quickly noticed that the water below the bridge was completely green from algae. We went onto the bridge and I took a few pictures of the boys.  My younger son walked off the bridge and I took a solo pic of my older son. I was keeping an eye on my younger son but saw him go closer to the water. I called on him to stop.  I saw him get up on a rock right by the water's edge. I started going towards him telling him to stop but he went forward.I was running towards him as he fell in the water. I immediately jumped in to get him. I pulled him up quickly from the water. There were two older gentleman who must have witnessed this. They pulled us both out of the water. I checked my son who was freaked out but seemed ok. I was terrified because I had heard about recent reports of toxic algae blooms in nearby waterways.  I called the main number of the nature preserve and told them what happened. They were able to get someone to drive us back to our car, with the bicycles and scooters. We came home and showered.  I made some calls and got some assurances. The whole event had me very shaken up about the potential dangers and how quickly things can happen.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am so grateful that my son is ok and that the gentlemen were there to help.\n\n"
+            }
+        ],
+        "request_id": "811bd88f88484237-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I was hanging out with my friends at the movies. It was fun. We watched an action movie and it was just great. I loved it so fun. We had so much fun. It was just great. I don't know. When we were watching it we had popcorn. They tasted so good. It was such a nice experience. We loved it so much. At one part of the movie something scary was happening and I had to shut my eyes, because I didn't want to see it. The ghost in the movies was so scary and I didn't want to see it. So I closed my eyes. I'm pretty sure my friends closed their eyes too. It was just weird to see. I don't know why it was scary but it just was."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I was hanging out with my friends at the movies. It was fun. We watched an action movie and it was just great. I loved it so fun. We had so much fun. It was just great. I don't know. When we were watching it we had popcorn. They tasted so good. It was such a nice experience. We loved it so much. At one part of the movie something scary was happening and I had to shut my eyes, because I didn't want to see it. The ghost in the movies was so scary and I didn't want to see it. So I closed my eyes. I'm pretty sure my friends closed their eyes too. It was just weird to see. I don't know why it was scary but it just was.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "After the movie we went to get ice cream and it was so good. We talked about the movie and how it was so scary. We all agreed it was the best movie we had ever seen. It was so much fun."
+            }
+        ],
+        "request_id": "811f332da86d42e0-EWR"
+    }
+}

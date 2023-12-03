@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I knew that my dog was doing worse that morning, but she had come around before. As the day wore on and it got closer to the time to go to the service I knew I couldn't leave her. She was laying on her dog bed and breathing heavily. Just before it was time to go I told my fiance to go without me. There was no way that I was leaving my dog alone. I laid her head on my lap. I played her songs that we had listened to together over the years. She was mostly quiet as I stroked her head. I told her stories about our life together. I told her what a great dog and friend she had been. I told her that it was okay to go. It would hurt me worse than I could imagine but I had to let her go. It was only about a half hour after my fiance left. I knew something was different. My dogs breathing changed and she seemed agitated. She let out a few rattling breathes and then she was gone. I felt like my heart was literally ripped out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I knew that my dog was doing worse that morning, but she had come around before. As the day wore on and it got closer to the time to go to the service I knew I couldn't leave her. She was laying on her dog bed and breathing heavily. Just before it was time to go I told my fiance to go without me. There was no way that I was leaving my dog alone. I laid her head on my lap. I played her songs that we had listened to together over the years. She was mostly quiet as I stroked her head. I told her stories about our life together. I told her what a great dog and friend she had been. I told her that it was okay to go. It would hurt me worse than I could imagine but I had to let her go. It was only about a half hour after my fiance left. I knew something was different. My dogs breathing changed and she seemed agitated. She let out a few rattling breathes and then she was gone. I felt like my heart was literally ripped out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was devastated. I held her in my lap for a while longer before I knew I had to move.\n\n"
+            }
+        ],
+        "request_id": "811e9c361ce14343-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so upset by my landlady! Six weeks ago I went to go to my job. I have a job that requires me to be there 5 days a week. I headed out to my car as always in the early morning. Much to my surprise my car was not there! Can you imagine how my heart sank? I had no idea what happened to my car. Worse of all I had no way to get to my job on time. I came to find out that my landlady did not approve of the way I parked in the lot. Since this upset her she decided to have my car towed! Instead of calling me first she just made a knee jerk decision and called to have my car towed. I had to incur the expenses of the impound yard. To recover these costs I have decided to sue my landlady. There was no reason for her to go to that extreme and I am certain I will recover the costs. I am not someone who is sue happy but since she won't reimburse me I have no other choice. This could have all been avoided had she just kindly called me. We all have our assigned parking spaces and she knew the car was mine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so upset by my landlady! Six weeks ago I went to go to my job. I have a job that requires me to be there 5 days a week. I headed out to my car as always in the early morning. Much to my surprise my car was not there! Can you imagine how my heart sank? I had no idea what happened to my car. Worse of all I had no way to get to my job on time. I came to find out that my landlady did not approve of the way I parked in the lot. Since this upset her she decided to have my car towed! Instead of calling me first she just made a knee jerk decision and called to have my car towed. I had to incur the expenses of the impound yard. To recover these costs I have decided to sue my landlady. There was no reason for her to go to that extreme and I am certain I will recover the costs. I am not someone who is sue happy but since she won't reimburse me I have no other choice. This could have all been avoided had she just kindly called me. We all have our assigned parking spaces and she knew the car was mine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I do not have any other parking options. I am still upset by this whole ordeal and I will not let it go until I get the justice I deserve.\n\n"
+            }
+        ],
+        "request_id": "811e8d8979e5c413-EWR"
+    }
+}

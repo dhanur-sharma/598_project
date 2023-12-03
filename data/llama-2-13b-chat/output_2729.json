@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I always liked driving around. Sometimes, I can drive for two hours and feel good about it. It's nice to quietly explore the scenic highways. Recently, I thought, \"I have never been to Canada before. Should I visit Canada one week?\" Therefore, I planned a trip driving across Canada to Niagara Falls. As I drove to Niagara Falls, the excitement built the more I drove. I stopped to eat, get gas, and sleep. Otherwise, I was on my way to Niagara Falls with no other destination in mind. After a number of hours of driving, I arrived at Niagara Falls. Niagara was an interesting place to visit. As I looked at the Falls themselves, I remember thinking to myself, \"That is a lot of water.\" I can understand why this is such a tourist destination. The amount of water it takes to run these falls is substantial. I'm not sure a lake I live nearby has as much water, and it's considered to be a huge lake. The people here were very nice, and I got to talk to a few of them. Locals tell me that nothing compares to Niagara Falls. I agree with them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I always liked driving around. Sometimes, I can drive for two hours and feel good about it. It's nice to quietly explore the scenic highways. Recently, I thought, \"I have never been to Canada before. Should I visit Canada one week?\" Therefore, I planned a trip driving across Canada to Niagara Falls. As I drove to Niagara Falls, the excitement built the more I drove. I stopped to eat, get gas, and sleep. Otherwise, I was on my way to Niagara Falls with no other destination in mind. After a number of hours of driving, I arrived at Niagara Falls. Niagara was an interesting place to visit. As I looked at the Falls themselves, I remember thinking to myself, \"That is a lot of water.\" I can understand why this is such a tourist destination. The amount of water it takes to run these falls is substantial. I'm not sure a lake I live nearby has as much water, and it's considered to be a huge lake. The people here were very nice, and I got to talk to a few of them. Locals tell me that nothing compares to Niagara Falls. I agree with them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The trip was a success, and I had a great time."
+            }
+        ],
+        "request_id": "811ebc7a1ed10f83-EWR"
+    }
+}

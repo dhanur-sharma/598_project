@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently graduated college after going back as an adult. I took online classes while I worked and it took me about two years to finish. I felt like I had made great sacrifices while I was in classes, missing family events, suffering financial burden, and being generally over worked. It all paid off though when I finally got my degree.  I took on a lot of student debt but feel it was worth it. Not only do I have my degree now, which gives me personal satisfaction, I also am able to get a better job. I  had a small celebration with family after I graduated. My mom gave me a very generous gift which helped with student loans. I was really surprised since I am older now and have kids of my own. I really wasn't expecting any gifts. I was very proud though and pleased with the gift. It helps relieve some of the student debt I incurred. My wife also returned to school around the same time I did. She graduated as well and we both have felt very positive about completing the goal. I am so glad I decided to go back to school. This has been one of the most exciting things that I have done as an adult."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently graduated college after going back as an adult. I took online classes while I worked and it took me about two years to finish. I felt like I had made great sacrifices while I was in classes, missing family events, suffering financial burden, and being generally over worked. It all paid off though when I finally got my degree.  I took on a lot of student debt but feel it was worth it. Not only do I have my degree now, which gives me personal satisfaction, I also am able to get a better job. I  had a small celebration with family after I graduated. My mom gave me a very generous gift which helped with student loans. I was really surprised since I am older now and have kids of my own. I really wasn't expecting any gifts. I was very proud though and pleased with the gift. It helps relieve some of the student debt I incurred. My wife also returned to school around the same time I did. She graduated as well and we both have felt very positive about completing the goal. I am so glad I decided to go back to school. This has been one of the most exciting things that I have done as an adult.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was difficult at times, but I am proud of what I have accomplished.\n\n"
+            }
+        ],
+        "request_id": "811bdc679eb1424c-EWR"
+    }
+}

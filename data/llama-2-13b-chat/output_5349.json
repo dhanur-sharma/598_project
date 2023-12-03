@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I learned that my son has proposed to his girlfriend.   He proposed on the beach.  She said yes.  I'm happy for them.  She would make  a great wife for him, and daughter-in-law to us.  This made me think of my own marriage.  It's been 35 years for us.  Time certainly flies.   I'd like to do something special for our anniversary.   There are many great options to consider.  I've heard of people renewing their vows.  I'm thinking about doing this with my wife.  We could do it the church where we were married.  I'm sure she would love it.  The whole family could be involved.  Now I should think about some gifts for her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I learned that my son has proposed to his girlfriend.   He proposed on the beach.  She said yes.  I'm happy for them.  She would make  a great wife for him, and daughter-in-law to us.  This made me think of my own marriage.  It's been 35 years for us.  Time certainly flies.   I'd like to do something special for our anniversary.   There are many great options to consider.  I've heard of people renewing their vows.  I'm thinking about doing this with my wife.  We could do it the church where we were married.  I'm sure she would love it.  The whole family could be involved.  Now I should think about some gifts for her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm sure she would love something special.   I'll have to think about this and come up with something great."
+            }
+        ],
+        "request_id": "811f2f911d130cc2-EWR"
+    }
+}

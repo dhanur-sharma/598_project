@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a wedding on the beach once, and it was very windy. The wind blew sand everywhere. It was my cousins wedding, and we were in Hawaii. All the dresses and fancy clothes people had on were blown all around. Sand was everywhere. However, buy the end of the vows the wind died down. That was a good thing because it was starting to get ridiculous. I am thankful that the wind died down. It was also a good thing that it did not rain. That would have been bad if it was with the wind. The reception was indoors, so the weather did not affect us there, and everything else when smoothly. I think that as far as weather goes, it was not that bad. I would say that it went well, considering. For a minute, I was worried one of the bridesmaids dresses was going to fly up and expose their underwears. Luckly, it did not happen."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a wedding on the beach once, and it was very windy. The wind blew sand everywhere. It was my cousins wedding, and we were in Hawaii. All the dresses and fancy clothes people had on were blown all around. Sand was everywhere. However, buy the end of the vows the wind died down. That was a good thing because it was starting to get ridiculous. I am thankful that the wind died down. It was also a good thing that it did not rain. That would have been bad if it was with the wind. The reception was indoors, so the weather did not affect us there, and everything else when smoothly. I think that as far as weather goes, it was not that bad. I would say that it went well, considering. For a minute, I was worried one of the bridesmaids dresses was going to fly up and expose their underwears. Luckly, it did not happen.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a fun wedding, and I enjoyed myself.\n\n"
+            }
+        ],
+        "request_id": "811ecd760fcd5e74-EWR"
+    }
+}

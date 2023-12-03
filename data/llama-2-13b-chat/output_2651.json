@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past September, my nephew was born. He is first baby to be born in my family since I was born 25 years ago. He is the first child of my oldest brother and his wife. I drove up from NYC to Boston the day after he was born to meet him. I am very close with my brother, so meeting him was very emotional and sentimental in the hospital room, especially with my parents around. I felt an instant bond and I instantly fell in love with the little guy. He was the first newborn baby I ever got to hold and he was so squirmy! He also had a full head of hair, which was so soft and a gorgeous shade of light brown. His skin was so pink and smooth. I think he was pretty comfortable with me because he pooped while I was holding him. That got a laugh out of everyone, including the nurses. I can't wait to be there with him and watch him grow up. It was also so amazing seeing my brother and sister-in-law take on this new role. I'm sure they'll be great parents to my nephew. We've already joked about which baseball team he will be a fan of considering the rivalry between the NY Yankees and the Boston Red Sox."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past September, my nephew was born. He is first baby to be born in my family since I was born 25 years ago. He is the first child of my oldest brother and his wife. I drove up from NYC to Boston the day after he was born to meet him. I am very close with my brother, so meeting him was very emotional and sentimental in the hospital room, especially with my parents around. I felt an instant bond and I instantly fell in love with the little guy. He was the first newborn baby I ever got to hold and he was so squirmy! He also had a full head of hair, which was so soft and a gorgeous shade of light brown. His skin was so pink and smooth. I think he was pretty comfortable with me because he pooped while I was holding him. That got a laugh out of everyone, including the nurses. I can't wait to be there with him and watch him grow up. It was also so amazing seeing my brother and sister-in-law take on this new role. I'm sure they'll be great parents to my nephew. We've already joked about which baseball team he will be a fan of considering the rivalry between the NY Yankees and the Boston Red Sox.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful to have this little bundle of joy in my life."
+            }
+        ],
+        "request_id": "811ebad53a1243f4-EWR"
+    }
+}

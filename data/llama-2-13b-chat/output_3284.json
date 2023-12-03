@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: the story is about my personal life. i have a very good family. i have one daughter. she is very cute and adorable. she is 3 years old. she is very naughty. i love her a lot. one day she is playing in garden. my daughter have kids bike. she is playing in the garden with the kids bike. me and my partner were busy with our work. we are doing garden cleaning process. my daughter went near to the pool. she nearly went to fell off from the floor to pool. my kind neighbor seen this scene from his house. they came very fast and save my daughter. they helped me to get her to urgent care. i am very much thankful to them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: the story is about my personal life. i have a very good family. i have one daughter. she is very cute and adorable. she is 3 years old. she is very naughty. i love her a lot. one day she is playing in garden. my daughter have kids bike. she is playing in the garden with the kids bike. me and my partner were busy with our work. we are doing garden cleaning process. my daughter went near to the pool. she nearly went to fell off from the floor to pool. my kind neighbor seen this scene from his house. they came very fast and save my daughter. they helped me to get her to urgent care. i am very much thankful to them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec806abe14295-EWR"
+    }
+}

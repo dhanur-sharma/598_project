@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past Summer a good friend of mine named Ted passed away.  We had been friends for over 20 years, and although we lived 1000 miles apart the last few years we still talked very often.  We had similar taste in music and we both loved baseball, so we would always chat about that.  I was out having a nice night with my girlfriend, driving home from a movie, when I saw the news on facebook that Ted had passed.  I was in shock.  At first I thought I must be reading it wrong.  It didn't seem real.  After a few moments it started to set in that this was in fact real.  I had a really rough few days after that.  Thinking of my friend.  Feeling bad over it.  Listening to some of his favorite music.  I still couldn't believe that this was real.   He always had some health issues, but I didn't know it would be enough to take his life.  It was really surprising to me that he went so young.  We had hoped to get together sometime in the near future and go see a band.  I'm sad we didn't' get a chance to do that, but I'm thankful for a lot of the fun memories I have with him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past Summer a good friend of mine named Ted passed away.  We had been friends for over 20 years, and although we lived 1000 miles apart the last few years we still talked very often.  We had similar taste in music and we both loved baseball, so we would always chat about that.  I was out having a nice night with my girlfriend, driving home from a movie, when I saw the news on facebook that Ted had passed.  I was in shock.  At first I thought I must be reading it wrong.  It didn't seem real.  After a few moments it started to set in that this was in fact real.  I had a really rough few days after that.  Thinking of my friend.  Feeling bad over it.  Listening to some of his favorite music.  I still couldn't believe that this was real.   He always had some health issues, but I didn't know it would be enough to take his life.  It was really surprising to me that he went so young.  We had hoped to get together sometime in the near future and go see a band.  I'm sad we didn't' get a chance to do that, but I'm thankful for a lot of the fun memories I have with him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "  I'm sure I will miss him.  I still can't believe he's gone."
+            }
+        ],
+        "request_id": "811eaacfa8c14222-EWR"
+    }
+}

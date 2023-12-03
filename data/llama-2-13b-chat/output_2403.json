@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: i was studying in college. i have a friend who is very close to me. he is my childhood friend. he is very good friend of mine. he have good character. he have very helping mind. he helps to everyone. but he have one bad character which is he is addicted to heroin. he is very much addicted to that. no one can not stop him from using heroin. he was very much addicted to that. later we have lost our contacts. so we are not in contact for long time. i was busy with my life. and i thought he also busy with his life. but after some time i have a message that he was dead. i was shocked when i hear that message. i felt very bad when i hear the message. i felt that if i did something means he will be fine now. i felt i was did mistake."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: i was studying in college. i have a friend who is very close to me. he is my childhood friend. he is very good friend of mine. he have good character. he have very helping mind. he helps to everyone. but he have one bad character which is he is addicted to heroin. he is very much addicted to that. no one can not stop him from using heroin. he was very much addicted to that. later we have lost our contacts. so we are not in contact for long time. i was busy with my life. and i thought he also busy with his life. but after some time i have a message that he was dead. i was shocked when i hear that message. i felt very bad when i hear the message. i felt that if i did something means he will be fine now. i felt i was did mistake.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i was felt very bad. i felt that i should have done something to stop him from using heroin. i felt that i should have helped him. but now he is no more with us.\n\n"
+            }
+        ],
+        "request_id": "811eb5fe1ddd42f6-EWR"
+    }
+}

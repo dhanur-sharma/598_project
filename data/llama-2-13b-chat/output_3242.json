@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a cousin's wedding that was quite memorable. We spent the entire evening listening to music, eating delicious food and celebrating. We took a lot of pictures commemorating the event. It was truly spectacular! I have never seen my cousin happier since she she her husband. Their joy and happiness was truly infectious. Everyone was super excited to attend this wedding. We all made sure that this event would be perfect. My favorite memory of the evening, is when the bride through her bouquet. My Aunt ended up catching the bouquet. There was laughter and tears of joy all around.  My cousin made sure that her wedding would be the best event of the decade. There were beautiful and elaborate flower arrangements everywhere. The designers did a phenomenal job with the decor. The food was superior and aesthetically pleasing to the eye. It was truly an exquisite wedding."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a cousin's wedding that was quite memorable. We spent the entire evening listening to music, eating delicious food and celebrating. We took a lot of pictures commemorating the event. It was truly spectacular! I have never seen my cousin happier since she she her husband. Their joy and happiness was truly infectious. Everyone was super excited to attend this wedding. We all made sure that this event would be perfect. My favorite memory of the evening, is when the bride through her bouquet. My Aunt ended up catching the bouquet. There was laughter and tears of joy all around.  My cousin made sure that her wedding would be the best event of the decade. There were beautiful and elaborate flower arrangements everywhere. The designers did a phenomenal job with the decor. The food was superior and aesthetically pleasing to the eye. It was truly an exquisite wedding.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The music was on point and kept the party going all night long. Everyone had an amazing time. I felt so happy to be there to celebrate this special day with my cousin. It was a night to remember and I will cherish the memories for a long time.\n\n"
+            }
+        ],
+        "request_id": "811ec72509d618ee-EWR"
+    }
+}

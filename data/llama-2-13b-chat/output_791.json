@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been off work for over 6 months.  I really need to find a job.  I need a job I can handle.  With my health issues I just can't stand for long periods of time.  Just a trip to the grocery store is sometimes hard on me.  I have scleroderma and I really need a job that I can sit.  I also have a lot of doctor appointments.  It is only 4 hours a day and it is office work.  It is work I really enjoy.  I know the people I will be working with.  There are only 2 other people there plus the board of directors.  They meet once a month on the 3rd Wednesday.  I know 2 of them.  Working only to noon every day will let me schedule all of my doctor appointments for the afternoon so that I won't have to miss work and the money I would earn.   If I have to adjust my schedule, it is ok to make up the time I miss.  I only live 12 minutes from work.  It is great.  I leave at 7:45 most days and I am at work before 8.  The more I am there the more I meet new people or catch up with people I have not seen in years.  They come in to pay their sewer bills.  I also am in charge of letting people know when they are late and have delinquent accounts.  Sometimes they get very upset with me.  Part of my job is filing liens on the people who do not pay and do not contact us.    It is a lot of work sometimes, but I really enjoy this job and it came at just the right time for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been off work for over 6 months.  I really need to find a job.  I need a job I can handle.  With my health issues I just can't stand for long periods of time.  Just a trip to the grocery store is sometimes hard on me.  I have scleroderma and I really need a job that I can sit.  I also have a lot of doctor appointments.  It is only 4 hours a day and it is office work.  It is work I really enjoy.  I know the people I will be working with.  There are only 2 other people there plus the board of directors.  They meet once a month on the 3rd Wednesday.  I know 2 of them.  Working only to noon every day will let me schedule all of my doctor appointments for the afternoon so that I won't have to miss work and the money I would earn.   If I have to adjust my schedule, it is ok to make up the time I miss.  I only live 12 minutes from work.  It is great.  I leave at 7:45 most days and I am at work before 8.  The more I am there the more I meet new people or catch up with people I have not seen in years.  They come in to pay their sewer bills.  I also am in charge of letting people know when they are late and have delinquent accounts.  Sometimes they get very upset with me.  Part of my job is filing liens on the people who do not pay and do not contact us.    It is a lot of work sometimes, but I really enjoy this job and it came at just the right time for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I have been off work for over 6 months and I really need to find a job.  I need a job I can handle with my health issues.  With scleroderma, I just can't stand for long periods of time.  This job is only 4 hours a day and it is office work.  I really enjoy the work and the people I work with.  It is a great opportunity for me."
+            }
+        ],
+        "request_id": "811e98aada63c44f-EWR"
+    }
+}

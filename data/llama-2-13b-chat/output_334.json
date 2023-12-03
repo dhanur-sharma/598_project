@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago I decided to paint some rooms in my house. I have high ceilings so I have to use a tall ladder. Reaching to get some parts of the room can be tricky on a ladder. My wife was in the kitchen baking cookies. I have painted before so I was not too nervous. I had the paint in the garage. I had to get the paint prepped. I open the paint and one can tipped over. The paint spilled all  over the floor. That mishap took awhile to clean up. I got the paint and ladder to the room. Once I got on the ladder it seemed so far up. I was getting nervous. I  calmed down and got comfortable with painting on the ladder. After an hour I leaned over too far. I flipped off the ladder and my wife called an ambulance to take me to the hospital. I have now basically recovered."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago I decided to paint some rooms in my house. I have high ceilings so I have to use a tall ladder. Reaching to get some parts of the room can be tricky on a ladder. My wife was in the kitchen baking cookies. I have painted before so I was not too nervous. I had the paint in the garage. I had to get the paint prepped. I open the paint and one can tipped over. The paint spilled all  over the floor. That mishap took awhile to clean up. I got the paint and ladder to the room. Once I got on the ladder it seemed so far up. I was getting nervous. I  calmed down and got comfortable with painting on the ladder. After an hour I leaned over too far. I flipped off the ladder and my wife called an ambulance to take me to the hospital. I have now basically recovered.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have a few bumps and bruises. I am lucky to be alive. I learned a valuable lesson about being careful on a ladder.\n\n"
+            }
+        ],
+        "request_id": "811e8fd6daa1c45c-EWR"
+    }
+}

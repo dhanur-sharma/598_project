@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Late Saturday night around midnight, I was driving home from dinner with my friend, on a road that runs parallel to the railroad tracks, when I heard a noise and felt my wheels run over something.  I wasn't sure what it was and it was dark and deserted out.  I didn't feel safe getting out of the car to check.  I kept driving until I got home.  I couldn't sleep that night thinking I might have run over and killed an animal.  In the morning when I checked my wheels, I saw blood stains on the wheel and underneath the car.  I was sure I had killed something on the road.  I felt really guilty about it.  It was an accident but it was still not something I could like with easily.  My psychiatrist has been helping me sort through my feelings and prescribed anti-depressants.  He's afraid I would slip into a deep depression.  I had just gotten off the drugs but he thought I should get back on them, given the accident.  I took the drugs again.  They numbed my feelings.  I could get by with school and work.  It helped to stay busy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Late Saturday night around midnight, I was driving home from dinner with my friend, on a road that runs parallel to the railroad tracks, when I heard a noise and felt my wheels run over something.  I wasn't sure what it was and it was dark and deserted out.  I didn't feel safe getting out of the car to check.  I kept driving until I got home.  I couldn't sleep that night thinking I might have run over and killed an animal.  In the morning when I checked my wheels, I saw blood stains on the wheel and underneath the car.  I was sure I had killed something on the road.  I felt really guilty about it.  It was an accident but it was still not something I could like with easily.  My psychiatrist has been helping me sort through my feelings and prescribed anti-depressants.  He's afraid I would slip into a deep depression.  I had just gotten off the drugs but he thought I should get back on them, given the accident.  I took the drugs again.  They numbed my feelings.  I could get by with school and work.  It helped to stay busy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But I felt dead inside.  I felt like I was going through the motions of living but not really living.  My psychiatrist encouraged me to try to get in touch with my feelings and to not be afraid to express them.  I started talking to a friend about the accident and my feelings and she encouraged me to write about it.  I started writing and I felt like I was finally able to process what had happened.  I was able to see that the accident was an accident and not a reflection of my worth as a person.  I was able to let go of the guilt and move on with my life."
+            }
+        ],
+        "request_id": "811ec245cabb43a0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Memory Entry 312: The craziest thing happened, about 2 months ago.  We felt that, our children haven't been spending a lot of time with their friends. I mean, it was officially summer break. They all had straight A's! We felt the need to reward them for their efforts. We are very proud of them. The setting for the cookout was great. Friends and families getting together to share, and the children got to spend time with their friends. There was plenty of vegan inspired plates and platters! A personal favorite, is the steamed broccoli and tofu platter. Mm. Mm,Mm! The wife had her veggie burger on rye. Pete got him a very well put together platter of carrots and celery with coconut shredding on the side.  Everything was healthy, and, delicious. Until nest time, this Carl C. signing off."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Memory Entry 312: The craziest thing happened, about 2 months ago.  We felt that, our children haven't been spending a lot of time with their friends. I mean, it was officially summer break. They all had straight A's! We felt the need to reward them for their efforts. We are very proud of them. The setting for the cookout was great. Friends and families getting together to share, and the children got to spend time with their friends. There was plenty of vegan inspired plates and platters! A personal favorite, is the steamed broccoli and tofu platter. Mm. Mm,Mm! The wife had her veggie burger on rye. Pete got him a very well put together platter of carrots and celery with coconut shredding on the side.  Everything was healthy, and, delicious. Until nest time, this Carl C. signing off.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a great day."
+            }
+        ],
+        "request_id": "811ea78cabcb41df-EWR"
+    }
+}

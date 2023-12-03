@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had just finished my degree in Character Animation, and I was ready to celebrate with my family. It had been months since I had last seen them, and it was exciting that we were all coming together to celebrate. Before they came down, we settled on visiting Zion National Park as part of a graduation trip. My parents rented a car, and drove out from California to Utah. When we arrived into town, we checked into a hotel located on the river. The hotel was next to a bus system that could take us into town, and then into the national park. The bus was helpful, since the weather was overcast and rainy. Due to the rain, we had less of a selection of trails, but we still made the most of the trip. After we unpacked all of our things, we went into town to shop and explore the area. We ate at one of the restaurants, got a trail guide, and explored a few of the shops. The next day we took the bus to the trails at Zion National park. We hiked along beautiful trails with waterfalls, plant life, and animals. My favorite trails went right up to the waterfalls. We also visited the nature center, and learned about the wildlife and history of the park. After hiking, we went back into town and relaxed. We brought snacks back to our room and talked about our day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had just finished my degree in Character Animation, and I was ready to celebrate with my family. It had been months since I had last seen them, and it was exciting that we were all coming together to celebrate. Before they came down, we settled on visiting Zion National Park as part of a graduation trip. My parents rented a car, and drove out from California to Utah. When we arrived into town, we checked into a hotel located on the river. The hotel was next to a bus system that could take us into town, and then into the national park. The bus was helpful, since the weather was overcast and rainy. Due to the rain, we had less of a selection of trails, but we still made the most of the trip. After we unpacked all of our things, we went into town to shop and explore the area. We ate at one of the restaurants, got a trail guide, and explored a few of the shops. The next day we took the bus to the trails at Zion National park. We hiked along beautiful trails with waterfalls, plant life, and animals. My favorite trails went right up to the waterfalls. We also visited the nature center, and learned about the wildlife and history of the park. After hiking, we went back into town and relaxed. We brought snacks back to our room and talked about our day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "On the last day of our trip, we went back to the park and explored some more. We also visited the emerald pools, which were amazing. I was sad to leave the park, but it was time to go back home. We drove back to California, and I was happy to see my dog and my cat. I had a great time with my family on my graduation trip.\n\n"
+            }
+        ],
+        "request_id": "811ed1a8d8630f9b-EWR"
+    }
+}

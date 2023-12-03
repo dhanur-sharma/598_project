@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One recent memorable event was my release show/birthday party. I had been working on producing an EP as my senior project for months, and it all came together on that night when I performed it for my friends. In a lot of ways, it was very stressful. I tend to put things off until the last minute, but I had been better than usual while working on this project, because I knew I wouldn't be able to throw together a whole EP in just a couple days. Still, I was behind schedule, and still working on the production for my vocals the day of the show. I felt frantic as I spent the whole day getting dressed, doing makeup, finishing up songs, coming up with a setlist, and trying to squeeze in a couple hours of actually practicing. By the time people started arriving, I was definitely nervous but excited to see people actually showing up. I had gotten several other friends to join the show and play before me, so I had fun watching their sets and mentally preparing for mine. The show started a lot later than expected, mostly because the first artist (a duo) didn't show up right on time. Once they arrived, we waited for a decent number of people to show up. In addition to starting late, things started to get slightly more chaotic because we ended up bringing the party-alcohol out a bit earlier than expected. Because the plan was to go straight from release show into birthday party, I had drinks available for the party part of the night. But because things were delayed, and I guess people started to get antsy, it was brought out early when people started asking. It kind of worked out better for me, I think. By the time I was getting up to perform my set, I think a lot of people were not sober. It was probably better that way, because I couldn't remember all of my lyrics! It serves me right for not actually practicing and finishing on the day of the show, but I still had a lot of fun and felt very supported by my friends. After the show, a bunch of people came up to me to compliment me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One recent memorable event was my release show/birthday party. I had been working on producing an EP as my senior project for months, and it all came together on that night when I performed it for my friends. In a lot of ways, it was very stressful. I tend to put things off until the last minute, but I had been better than usual while working on this project, because I knew I wouldn't be able to throw together a whole EP in just a couple days. Still, I was behind schedule, and still working on the production for my vocals the day of the show. I felt frantic as I spent the whole day getting dressed, doing makeup, finishing up songs, coming up with a setlist, and trying to squeeze in a couple hours of actually practicing. By the time people started arriving, I was definitely nervous but excited to see people actually showing up. I had gotten several other friends to join the show and play before me, so I had fun watching their sets and mentally preparing for mine. The show started a lot later than expected, mostly because the first artist (a duo) didn't show up right on time. Once they arrived, we waited for a decent number of people to show up. In addition to starting late, things started to get slightly more chaotic because we ended up bringing the party-alcohol out a bit earlier than expected. Because the plan was to go straight from release show into birthday party, I had drinks available for the party part of the night. But because things were delayed, and I guess people started to get antsy, it was brought out early when people started asking. It kind of worked out better for me, I think. By the time I was getting up to perform my set, I think a lot of people were not sober. It was probably better that way, because I couldn't remember all of my lyrics! It serves me right for not actually practicing and finishing on the day of the show, but I still had a lot of fun and felt very supported by my friends. After the show, a bunch of people came up to me to compliment me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt pretty good about the whole thing.\n\n"
+            }
+        ],
+        "request_id": "811eca904c4441db-EWR"
+    }
+}

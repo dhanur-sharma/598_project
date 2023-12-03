@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went on a trip to New York City with my teenage son three weeks ago. We are from the southern United States and have never been to New York before so it was a new experience for the both of us. We have been to cities like Miami and Atlanta but New York is on a different level. We flew into JFK airport and then caught a cab to our hotel in Manhattan. Our jaws were open for the entire trip to the hotel. We have never seen so many people just walking to and fro, no matter what time of day it was. The energy level of the city is just insane. Once we checked into the hotel, we immediately headed back out to explore the city. Each day we sought to explore a different borough. We checked out Central Park and the zoo. We of course visited Lady Liberty herself and the One World Trade Center. We walked across the Brooklyn Bridge and took pictures of the water. We took the subway to Coney Island and rode on the ferris wheel until sunset. We walked down Wall Street and watched all the bankers and brokers run from office to office. We spent about a week there and we still felt like we hadn't seen half of what the city has to offer but all in all it was still the most amazing trip we've ever taken and we will definitely be heading back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went on a trip to New York City with my teenage son three weeks ago. We are from the southern United States and have never been to New York before so it was a new experience for the both of us. We have been to cities like Miami and Atlanta but New York is on a different level. We flew into JFK airport and then caught a cab to our hotel in Manhattan. Our jaws were open for the entire trip to the hotel. We have never seen so many people just walking to and fro, no matter what time of day it was. The energy level of the city is just insane. Once we checked into the hotel, we immediately headed back out to explore the city. Each day we sought to explore a different borough. We checked out Central Park and the zoo. We of course visited Lady Liberty herself and the One World Trade Center. We walked across the Brooklyn Bridge and took pictures of the water. We took the subway to Coney Island and rode on the ferris wheel until sunset. We walked down Wall Street and watched all the bankers and brokers run from office to office. We spent about a week there and we still felt like we hadn't seen half of what the city has to offer but all in all it was still the most amazing trip we've ever taken and we will definitely be heading back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdfc82c7d1927-EWR"
+    }
+}

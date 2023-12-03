@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My life was very much like other people's. Wake up, shower, coffee, go to work, work, come home from work, maybe order take-out. Routine. I was going through the motions of living but not actually living. Or as that old saying goes I wasn't stopping to smell the roses. That changed one day. Typical day, was driving to work. I didn't see the lights of the train until it was too late. Perhaps this was fates way of saying \"Hey you need to slow down, you need to pay attention\".Sure, recovery was rough. But the more I think about it. The more I realize I wouldn't want to change what happened to me. I feel as though I have a new start. Sure, there's still some routine in my life. But, I also go out to seek new things. I take the time out to appreciate what the world has to offer. And not just big things, small things too. The way the raindrops fall off of leaves, the bee that goes from flower to flower. While I do not suggest getting hit by a train...I do suggest to take time to appreciate this life. You only have one after all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My life was very much like other people's. Wake up, shower, coffee, go to work, work, come home from work, maybe order take-out. Routine. I was going through the motions of living but not actually living. Or as that old saying goes I wasn't stopping to smell the roses. That changed one day. Typical day, was driving to work. I didn't see the lights of the train until it was too late. Perhaps this was fates way of saying \"Hey you need to slow down, you need to pay attention\".Sure, recovery was rough. But the more I think about it. The more I realize I wouldn't want to change what happened to me. I feel as though I have a new start. Sure, there's still some routine in my life. But, I also go out to seek new things. I take the time out to appreciate what the world has to offer. And not just big things, small things too. The way the raindrops fall off of leaves, the bee that goes from flower to flower. While I do not suggest getting hit by a train...I do suggest to take time to appreciate this life. You only have one after all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f37bb391f4307-EWR"
+    }
+}

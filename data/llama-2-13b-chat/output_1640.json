@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, a very traumatizing event happened in my life and to my family.  My cousin was playing football and had a heat stroke.  He was only 25.  We did not know that someone so young was susceptible to such things.  After he was done playing he went to take a shower to cool off.  At that point, it hit him.  Since he was in the shower, he had no way of immediately contacting anyone.  He was finally able to make it to his phone to get help.  At that point damage was done to his brain already.  He was in the hospital for quite some time and this took a toll on our whole family.  The doctors assured us he would come thru but it was still super hard.  My aunt and uncle had to take major time away from their jobs to care for him.  My parents took some time away as well to help out.  Luckily we have a great family and everyone pitched in.  Thank goodness he was able to make it to the phone in time or it could have been worse."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, a very traumatizing event happened in my life and to my family.  My cousin was playing football and had a heat stroke.  He was only 25.  We did not know that someone so young was susceptible to such things.  After he was done playing he went to take a shower to cool off.  At that point, it hit him.  Since he was in the shower, he had no way of immediately contacting anyone.  He was finally able to make it to his phone to get help.  At that point damage was done to his brain already.  He was in the hospital for quite some time and this took a toll on our whole family.  The doctors assured us he would come thru but it was still super hard.  My aunt and uncle had to take major time away from their jobs to care for him.  My parents took some time away as well to help out.  Luckily we have a great family and everyone pitched in.  Thank goodness he was able to make it to the phone in time or it could have been worse.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I do not know how I would have made it without my family.\n\n"
+            }
+        ],
+        "request_id": "811ea81b89b241cd-EWR"
+    }
+}

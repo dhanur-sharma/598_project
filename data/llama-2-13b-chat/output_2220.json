@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I experienced one of the most difficult days of my life. My best friend passed away. His funeral was a few days after. In the days leading up to the funeral, several friends and I kept tabs on each other in a group chat to make sure everyone was doing okay. This morning of the funeral, we all met in the parking lot of the funeral home. Hesitant to go inside, we stayed out in the lot for a while, drinking and sharing memories of our times with Brian. It was great to see so many old friends all in one place again. Unfortunately, the reality of why we were all together again was painful. We continued telling stories and laughing outside until it was time for everyone to go in. I was brought into a different room with the rest of the pallbearers and given our instructions. My good friend gave a really powerful eulogy.  We all carried the casket outside afterward and eventually slid it into its final resting spot in the mausoleum. Afterwards, many hugs and tears between friends and family. A few of us from out close friend group when we were kids decided to go out to a restaurant together afterward in order to spend more time together. This was very helpful in healing. The funeral went as well as could have possibly been expected and I am grateful for everyone that was there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I experienced one of the most difficult days of my life. My best friend passed away. His funeral was a few days after. In the days leading up to the funeral, several friends and I kept tabs on each other in a group chat to make sure everyone was doing okay. This morning of the funeral, we all met in the parking lot of the funeral home. Hesitant to go inside, we stayed out in the lot for a while, drinking and sharing memories of our times with Brian. It was great to see so many old friends all in one place again. Unfortunately, the reality of why we were all together again was painful. We continued telling stories and laughing outside until it was time for everyone to go in. I was brought into a different room with the rest of the pallbearers and given our instructions. My good friend gave a really powerful eulogy.  We all carried the casket outside afterward and eventually slid it into its final resting spot in the mausoleum. Afterwards, many hugs and tears between friends and family. A few of us from out close friend group when we were kids decided to go out to a restaurant together afterward in order to spend more time together. This was very helpful in healing. The funeral went as well as could have possibly been expected and I am grateful for everyone that was there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb2b43abc43bb-EWR"
+    }
+}

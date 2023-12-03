@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took a trip to Minneapolis two months ago.  I flew into MSP early on a Sunday morning via a red-eye flight.  It was nice not to deal with so many people and I was able to sleep through part of it, so the day wasn't ruined.  My friend Mike from college picked me up and we went downtown for breakfast.  He and I chilled at his apartment and caught up for a few hours until the afternoon.  We met up with some of his friends in the city and saw a UFC headline match.  I decided to put money on some of the fights and got lucky.  It was foolish but hey, I was there to have fun and it wouldn't have cost much more to lose anyway.  I ended up winning about $50.  We hit up a couple bars afterward and had a nice time.  I wandered around a bit over the next couple days.  I didn't have much of an itinerary and it was nice not to have anything in particular to do until the weekend.  I spent almost a whole day at The Mall of America - it was huge, even larger than I was expecting it to be.  I went to see The Specials on Thursday as part of their 40th anniversary tour.  I like ska, and I don't listen to it much at home, but the show was fun and the music sounded pretty good in person, so I enjoyed myself.  On Friday and again on Saturday I met up with family outside the city.  It was a reunion party and we were able to spend it outside in the sun both days.  I played a lot of horseshoes and frisbee.  I flew back home Sunday morning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took a trip to Minneapolis two months ago.  I flew into MSP early on a Sunday morning via a red-eye flight.  It was nice not to deal with so many people and I was able to sleep through part of it, so the day wasn't ruined.  My friend Mike from college picked me up and we went downtown for breakfast.  He and I chilled at his apartment and caught up for a few hours until the afternoon.  We met up with some of his friends in the city and saw a UFC headline match.  I decided to put money on some of the fights and got lucky.  It was foolish but hey, I was there to have fun and it wouldn't have cost much more to lose anyway.  I ended up winning about $50.  We hit up a couple bars afterward and had a nice time.  I wandered around a bit over the next couple days.  I didn't have much of an itinerary and it was nice not to have anything in particular to do until the weekend.  I spent almost a whole day at The Mall of America - it was huge, even larger than I was expecting it to be.  I went to see The Specials on Thursday as part of their 40th anniversary tour.  I like ska, and I don't listen to it much at home, but the show was fun and the music sounded pretty good in person, so I enjoyed myself.  On Friday and again on Saturday I met up with family outside the city.  It was a reunion party and we were able to spend it outside in the sun both days.  I played a lot of horseshoes and frisbee.  I flew back home Sunday morning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a good trip, but I'm glad to be home.  I feel like I got a lot out of it, but I also feel like I could have done more.  I'll have to go back again sometime."
+            }
+        ],
+        "request_id": "811be533d84919eb-EWR"
+    }
+}

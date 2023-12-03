@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier today I left work again. Nothing to do. I knew it was about to rain, but I had been smoking cigarettes for the past two hours outside by myself. It was time to go. So I clocked out and, because they still haven't fixed my car yet, tried to walk to my friend's house. Of course I didn't make it; I ended up stranded at a gas station... smoking cigarettes. Again. The rain never really stopped... I just got tired of smoking. I ended up not even bothering to go to her house; I went home. 4.6 miles, but soon I was lost in my head listening to music on my phone. Eventually, though, the rain picked up. Visibility went to nothing. Earbuds flying out of my ears every few seconds. I tried to look around for something to hide under because I was completely soaked, but all I saw was what appeared to be a house next to the graveyard in town. It was actually their office; they were closed. I took my phone out once I was on the porch (I always keep it in a plastic bag ever since the last one got ruined by rain) and tried to get in contact with someone who might pick me up. Nobody could for a long time. But I did manage to get in contact with my friend who I was trying to see at her house before, and she kept me company for at least a half hour while I sat there soaked. It was nice to have company. Sometimes I don't appreciate her that much, and that day was emotional in retrospect because it made me realize I might should be more thankful for her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier today I left work again. Nothing to do. I knew it was about to rain, but I had been smoking cigarettes for the past two hours outside by myself. It was time to go. So I clocked out and, because they still haven't fixed my car yet, tried to walk to my friend's house. Of course I didn't make it; I ended up stranded at a gas station... smoking cigarettes. Again. The rain never really stopped... I just got tired of smoking. I ended up not even bothering to go to her house; I went home. 4.6 miles, but soon I was lost in my head listening to music on my phone. Eventually, though, the rain picked up. Visibility went to nothing. Earbuds flying out of my ears every few seconds. I tried to look around for something to hide under because I was completely soaked, but all I saw was what appeared to be a house next to the graveyard in town. It was actually their office; they were closed. I took my phone out once I was on the porch (I always keep it in a plastic bag ever since the last one got ruined by rain) and tried to get in contact with someone who might pick me up. Nobody could for a long time. But I did manage to get in contact with my friend who I was trying to see at her house before, and she kept me company for at least a half hour while I sat there soaked. It was nice to have company. Sometimes I don't appreciate her that much, and that day was emotional in retrospect because it made me realize I might should be more thankful for her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Eventually, my parents picked me up, and I was able to get home. It was a long day. I was very cold and wet, but I had good company. \n\n"
+            }
+        ],
+        "request_id": "811e9d067ec2c34d-EWR"
+    }
+}

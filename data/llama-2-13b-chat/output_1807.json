@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the hospital back in August of what is now last year for chest pain. I had a heart attack previously, so it was disconcerting when the pain didn't go away. In the ambulance my blood pressure was really high, something like 200 over something over 100. After spending a few hours in the hospital I felt ok, but they wanted to do a stress test. So I waited around for that. They almost were going to do it, but my troponin levels were more elevated so ... you know, no one was really clear about things. They thought maybe they'd do a heart cath. It wasn't clear to me what exactly they wanted to do. None of the doctors actually spoke to me personally. I waited around the rest of the day and throughout the night for a doctor to come and tell me what was going on, but no one ever came. By the time morning came around I was still getting the run around from the nurses and I had enough, was feeling ok and decided to leave. I waited for a nurse to come and remove my IV and I wish I had just done it myself because she pulled it out the wrong way. I guess she was annoyed I was leaving without being properly discharged. Anyways, I checked on my medical records a couple of weeks after this visit only to find that I had had an actual heart attack which came as a bit of surprise. You'd have thought someone would have told me that while I was there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the hospital back in August of what is now last year for chest pain. I had a heart attack previously, so it was disconcerting when the pain didn't go away. In the ambulance my blood pressure was really high, something like 200 over something over 100. After spending a few hours in the hospital I felt ok, but they wanted to do a stress test. So I waited around for that. They almost were going to do it, but my troponin levels were more elevated so ... you know, no one was really clear about things. They thought maybe they'd do a heart cath. It wasn't clear to me what exactly they wanted to do. None of the doctors actually spoke to me personally. I waited around the rest of the day and throughout the night for a doctor to come and tell me what was going on, but no one ever came. By the time morning came around I was still getting the run around from the nurses and I had enough, was feeling ok and decided to leave. I waited for a nurse to come and remove my IV and I wish I had just done it myself because she pulled it out the wrong way. I guess she was annoyed I was leaving without being properly discharged. Anyways, I checked on my medical records a couple of weeks after this visit only to find that I had had an actual heart attack which came as a bit of surprise. You'd have thought someone would have told me that while I was there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eab1eed1d0f41-EWR"
+    }
+}

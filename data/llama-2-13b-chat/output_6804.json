@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event that happened in my life was receiving a great promotion at my job. I have worked with this company for almost 19 years now. I have always been a very loyal and dedicated employee. I have put forth a lot of time and effort in everything that I have done there. I kept the same position for many years and never complained. About three months ago, I was called into my managers office for a meeting. My manager was there as well as a HR representative. I was told that I was going to be promoted to a much higher position in the company. This job would come with a huge pay increase and I would now be in charge of a team of people. It would also come with added responsibilities but I was fine with that. I was extremely happy and felt very proud of myself for finally achieving the job that I wanted. After I immediately accepted the job offer and promotion, I was congratulated by the two other people in the room. I left the meeting and went straight to the phone to message my partner the great news. After work I went out to celebrate with my family. The next day the announcement was made to the rest of my coworkers of my new position in the company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event that happened in my life was receiving a great promotion at my job. I have worked with this company for almost 19 years now. I have always been a very loyal and dedicated employee. I have put forth a lot of time and effort in everything that I have done there. I kept the same position for many years and never complained. About three months ago, I was called into my managers office for a meeting. My manager was there as well as a HR representative. I was told that I was going to be promoted to a much higher position in the company. This job would come with a huge pay increase and I would now be in charge of a team of people. It would also come with added responsibilities but I was fine with that. I was extremely happy and felt very proud of myself for finally achieving the job that I wanted. After I immediately accepted the job offer and promotion, I was congratulated by the two other people in the room. I left the meeting and went straight to the phone to message my partner the great news. After work I went out to celebrate with my family. The next day the announcement was made to the rest of my coworkers of my new position in the company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f4d94df819e17-EWR"
+    }
+}

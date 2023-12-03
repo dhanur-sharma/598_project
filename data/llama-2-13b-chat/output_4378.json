@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,  I am still so excited over what happened.  It was really surprising.  I had no idea he was going to do it.  A few weeks ago, Tim and I decided that we were sick of winter already and wanted to go somewhere warm.  We decided to book a trip to Florida to go spend some time at the beach.  We got a pretty good deal on tickets and a resort.  So the second night, we were walking on the beach around sunset.  It was perfect.  The weather was awesome, there was hardly anyone on the beach.  Just as the sun was hitting the horizon, Tim got down on one knee and proposed!  I couldnt believe it.  I was so happy.  I started crying and obviously said yes!  Oh my god, I just can't believe it.   I called Mom the next day and told her.   I texted all my friends.  I wish we had a picture but I'll never forget that moment.  We will probably get married on the beach."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,  I am still so excited over what happened.  It was really surprising.  I had no idea he was going to do it.  A few weeks ago, Tim and I decided that we were sick of winter already and wanted to go somewhere warm.  We decided to book a trip to Florida to go spend some time at the beach.  We got a pretty good deal on tickets and a resort.  So the second night, we were walking on the beach around sunset.  It was perfect.  The weather was awesome, there was hardly anyone on the beach.  Just as the sun was hitting the horizon, Tim got down on one knee and proposed!  I couldnt believe it.  I was so happy.  I started crying and obviously said yes!  Oh my god, I just can't believe it.   I called Mom the next day and told her.   I texted all my friends.  I wish we had a picture but I'll never forget that moment.  We will probably get married on the beach.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I love him so much.  I am the luckiest girl in the world.\n\n"
+            }
+        ],
+        "request_id": "811bd5c22f3941f8-EWR"
+    }
+}

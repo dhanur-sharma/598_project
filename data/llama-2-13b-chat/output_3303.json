@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son used to live a wild life. He dated several girls. He was out on the party track. He drank a lot of alcohol. I thought he'd never change.  He then met this nice person who changed him for the better. I was extremely excited for this girl to stay. To my gratitude, about one week ago my son finally married her. They had been dating for about 4 years. It was a bit rocky. My son had a hard time settling down with just one girl. This one girl is the best girl i've ever met. I'm glad he saw her the same. I'm glad he stuck it out and stayed. May they live happily ever after. Now I may need to have some grandchildren."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son used to live a wild life. He dated several girls. He was out on the party track. He drank a lot of alcohol. I thought he'd never change.  He then met this nice person who changed him for the better. I was extremely excited for this girl to stay. To my gratitude, about one week ago my son finally married her. They had been dating for about 4 years. It was a bit rocky. My son had a hard time settling down with just one girl. This one girl is the best girl i've ever met. I'm glad he saw her the same. I'm glad he stuck it out and stayed. May they live happily ever after. Now I may need to have some grandchildren.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec85b4b420c7c-EWR"
+    }
+}

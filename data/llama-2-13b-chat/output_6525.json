@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most memorable day was when I was diagnosed with breast cancer.  I found out by accident. I felt a lump in my breast and decided to call my doctor and have it checked out. My OBGYN had me come in right away. She felt it as well. She then ordered a mammogram and ultrasound. I went in and had the mamogram and then went to have my ultrasound. They found a suspicious area in my left breast and had my ultrasound and right then the doctor did a biopsy and he said he was very sure it was cancer. I was shocked and scared. Sure enough the results came back and it was. I then saw a surgeon and about 2 weeks after that had a mastectomy. I have been very busy with appointments and it has been a rollercoaster of emotions. I am now on a anti harmone therapy for at least 8 years. I also just had a CT scan and found that I have a lung nodule that they will be keeping an eye on.  I will find out my gene testing results at the end of the month. This has been scary to my family as well. but, we have faith in God."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most memorable day was when I was diagnosed with breast cancer.  I found out by accident. I felt a lump in my breast and decided to call my doctor and have it checked out. My OBGYN had me come in right away. She felt it as well. She then ordered a mammogram and ultrasound. I went in and had the mamogram and then went to have my ultrasound. They found a suspicious area in my left breast and had my ultrasound and right then the doctor did a biopsy and he said he was very sure it was cancer. I was shocked and scared. Sure enough the results came back and it was. I then saw a surgeon and about 2 weeks after that had a mastectomy. I have been very busy with appointments and it has been a rollercoaster of emotions. I am now on a anti harmone therapy for at least 8 years. I also just had a CT scan and found that I have a lung nodule that they will be keeping an eye on.  I will find out my gene testing results at the end of the month. This has been scary to my family as well. but, we have faith in God.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47421a5b4313-EWR"
+    }
+}

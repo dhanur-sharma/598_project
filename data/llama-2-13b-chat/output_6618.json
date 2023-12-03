@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago we moved our daughter to college.  She moved into an apartment.  I know this means she won't come home during the summers anymore.  It is odd to me to see her room empty here at the house and know that she won't live here with us again.  I am so happy and excited she is growing up and living her life.  But, still it is hard.  I know she will come and visit us, but the house feels so empty.  I understand it's only been a month, so it is difficult.  Knowing that in a few months this will feel like normal helps get me through this hard time.  Everything changes.  But, I am so glad she is becoming an adult.  She will enjoy college.  She will also enjoy being independent.  Our relationship will change as she becomes more of an adult.  I look forward to that too.  I look forwards to her visiting the house from her apartment.  And she is always welcome to stay in her old room."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago we moved our daughter to college.  She moved into an apartment.  I know this means she won't come home during the summers anymore.  It is odd to me to see her room empty here at the house and know that she won't live here with us again.  I am so happy and excited she is growing up and living her life.  But, still it is hard.  I know she will come and visit us, but the house feels so empty.  I understand it's only been a month, so it is difficult.  Knowing that in a few months this will feel like normal helps get me through this hard time.  Everything changes.  But, I am so glad she is becoming an adult.  She will enjoy college.  She will also enjoy being independent.  Our relationship will change as she becomes more of an adult.  I look forward to that too.  I look forwards to her visiting the house from her apartment.  And she is always welcome to stay in her old room.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It's okay to feel sad about the change, but I am so proud of her for taking this step.\n\n"
+            }
+        ],
+        "request_id": "811f49275e7032fc-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, I was going to play golf with several of my friends. The course we chose to play was about 30 minutes from my house, and we took two or three cars to get there. Within the first 30 minutes after we arrived, on the first or second hole, I received a text message from my sister stating that my dad was being taken to the hospital by ambulance with what was thought to be a heart issue. I continued to play, while waiting for further updates. Around the fourth or fifth hole, my wife called to make sure that I had heard the news. I told her that I had, but I didn't know any more information. Since I had ridden with other guys, I struggled with what to do. If I was at a course near my house, I would've just stopped playing. My parents live about an hour away from my house. If I chose to leave, that meant that I would need to convince two or three other guys to stop playing as well. I decided to stay at the course, and wait for further updates. About halfway through the day, I received word that he had been admitted to the hospital for observation. I let my mom know the situation, and that I would be there as soon as I could. She understood my dilemma. When I got returned home, I immediately left for the hospital, and was able to hang around until he was released from the hospital the next day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, I was going to play golf with several of my friends. The course we chose to play was about 30 minutes from my house, and we took two or three cars to get there. Within the first 30 minutes after we arrived, on the first or second hole, I received a text message from my sister stating that my dad was being taken to the hospital by ambulance with what was thought to be a heart issue. I continued to play, while waiting for further updates. Around the fourth or fifth hole, my wife called to make sure that I had heard the news. I told her that I had, but I didn't know any more information. Since I had ridden with other guys, I struggled with what to do. If I was at a course near my house, I would've just stopped playing. My parents live about an hour away from my house. If I chose to leave, that meant that I would need to convince two or three other guys to stop playing as well. I decided to stay at the course, and wait for further updates. About halfway through the day, I received word that he had been admitted to the hospital for observation. I let my mom know the situation, and that I would be there as soon as I could. She understood my dilemma. When I got returned home, I immediately left for the hospital, and was able to hang around until he was released from the hospital the next day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec1ea9a09c32c-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got a text from James today. I hadn't heard from him for about six months, ever since he lost at Monopoly during game night. I mean, I guess I should have realized that playing Monopoly could lead to hurt feelings, but I didn't think it would strain our friendship so badly. He was mad that I bought a lot of cheap properties and filled them up with houses, leaving no houses for the rest of the players to use. I just thought it was good strategy, but he threw the dice across the room and stormed out. Ever since, hardly anyone will come to game night anymore. James said he was sorry for overreacting. I was still a little mad that everyone took his side, but after thinking about it for a little while, I told him I was sorry he didn't have a good time. I also promised never to bring out Monopoly at a game night again. I think we're OK now. He's planning a big game night at his place on Friday so that everyone can see that we're friends again. He says that everything will be great. I guess I will go. I just hope that he doesn't pull out Risk. I don't think our friendship would survive that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got a text from James today. I hadn't heard from him for about six months, ever since he lost at Monopoly during game night. I mean, I guess I should have realized that playing Monopoly could lead to hurt feelings, but I didn't think it would strain our friendship so badly. He was mad that I bought a lot of cheap properties and filled them up with houses, leaving no houses for the rest of the players to use. I just thought it was good strategy, but he threw the dice across the room and stormed out. Ever since, hardly anyone will come to game night anymore. James said he was sorry for overreacting. I was still a little mad that everyone took his side, but after thinking about it for a little while, I told him I was sorry he didn't have a good time. I also promised never to bring out Monopoly at a game night again. I think we're OK now. He's planning a big game night at his place on Friday so that everyone can see that we're friends again. He says that everything will be great. I guess I will go. I just hope that he doesn't pull out Risk. I don't think our friendship would survive that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ebf2f39e442b7-EWR"
+    }
+}

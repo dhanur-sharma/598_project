@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My most recent memorable event was when I went to Rye Beach in Rye, New Hampshire. I was with my mother and her partner that day. When I arrived at the beach it was very hot and humid outside but when I walked out on the beach it cooled down because of the ocean breeze. The beach was clean but very crowded. I found a spot and laid out a towel on the sand. There were many broken seashells on the beach. There were several tide pools on the shore. When I walked along the beach I looked in the tide pools and noticed baby crabs. There was also an adult crab I tried to catch it but it ran away.  This is memorable because I rarely ever get to go to the ocean and I always enjoy the time I spend there.  I remember walking along the beach and seeing dolphins far out in the ocean.  I remember getting in the water and feeling how cold it was. I spent about two hours there before going home. The most memorable part of my trip was seeing the dolphins from afar. It is rare that I ever see dolphins in the ocean at New England because I don't usually see much sea life at this particular beach."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My most recent memorable event was when I went to Rye Beach in Rye, New Hampshire. I was with my mother and her partner that day. When I arrived at the beach it was very hot and humid outside but when I walked out on the beach it cooled down because of the ocean breeze. The beach was clean but very crowded. I found a spot and laid out a towel on the sand. There were many broken seashells on the beach. There were several tide pools on the shore. When I walked along the beach I looked in the tide pools and noticed baby crabs. There was also an adult crab I tried to catch it but it ran away.  This is memorable because I rarely ever get to go to the ocean and I always enjoy the time I spend there.  I remember walking along the beach and seeing dolphins far out in the ocean.  I remember getting in the water and feeling how cold it was. I spent about two hours there before going home. The most memorable part of my trip was seeing the dolphins from afar. It is rare that I ever see dolphins in the ocean at New England because I don't usually see much sea life at this particular beach.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9d9728328c96-EWR"
+    }
+}

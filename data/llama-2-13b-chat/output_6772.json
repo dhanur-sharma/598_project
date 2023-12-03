@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago I had my first singing recital. It was an exciting experience that I will always remember. I sang 4 song to a crowd of about 200. When I first stepped on stage I was sweating profusely. My teacher( who was playing the piano) smiled at me and reassured me that it would be fine. I started singing an impossible dream and the crowed was stunned at the was I sang the song. I was quite surprised myself. When I sing I take the song into myself and make it a part of me. When I was done singing there were people in the audience who openly wept. My teacher was crying and I found I was crying myself. It took me awhile to regain my composure, but when I did I was in the middle of a standing ovation. I sang many more song that day, but the memory of my first one will always be the best. This will always be my best memory because of the joy I felt at not only being the center of attention but the star of the show. I wonder if people who sing professionally feel like this every time they step on stage. I guess I will find out soon since because of that recital I have had interviews with several opera houses."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago I had my first singing recital. It was an exciting experience that I will always remember. I sang 4 song to a crowd of about 200. When I first stepped on stage I was sweating profusely. My teacher( who was playing the piano) smiled at me and reassured me that it would be fine. I started singing an impossible dream and the crowed was stunned at the was I sang the song. I was quite surprised myself. When I sing I take the song into myself and make it a part of me. When I was done singing there were people in the audience who openly wept. My teacher was crying and I found I was crying myself. It took me awhile to regain my composure, but when I did I was in the middle of a standing ovation. I sang many more song that day, but the memory of my first one will always be the best. This will always be my best memory because of the joy I felt at not only being the center of attention but the star of the show. I wonder if people who sing professionally feel like this every time they step on stage. I guess I will find out soon since because of that recital I have had interviews with several opera houses.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4ca21f91c44f-EWR"
+    }
+}

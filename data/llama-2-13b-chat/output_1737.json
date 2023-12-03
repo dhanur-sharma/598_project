@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I few months ago I was living my life normally. I had no problems at the time so I was happy. Then 10 weeks ago I got into a car accident and broke my hip and other areas. I needed to stay in the hospital. The hostpital bill and unpaid bills overwhelmed me. I couldn't afford them even if they were made into payment plans. It was just too much money for someone like me. I had pretty decent friends at work that wanted to help me. So I did listen to what they had to say. I really didn't get much advice that could help out. I did have a coworker that said a donation drive may be able to help out with bills. I thought that was a good idea as well but who would donate. It turns out almost everyone donated. People i knew and people I didn't know. Random people came up to help me in my need. They were also able to help me pay my bills."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I few months ago I was living my life normally. I had no problems at the time so I was happy. Then 10 weeks ago I got into a car accident and broke my hip and other areas. I needed to stay in the hospital. The hostpital bill and unpaid bills overwhelmed me. I couldn't afford them even if they were made into payment plans. It was just too much money for someone like me. I had pretty decent friends at work that wanted to help me. So I did listen to what they had to say. I really didn't get much advice that could help out. I did have a coworker that said a donation drive may be able to help out with bills. I thought that was a good idea as well but who would donate. It turns out almost everyone donated. People i knew and people I didn't know. Random people came up to help me in my need. They were also able to help me pay my bills.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So even though I was down and had no hope they were able to give me hope again."
+            }
+        ],
+        "request_id": "811ea9e108c919c7-EWR"
+    }
+}

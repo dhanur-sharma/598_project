@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event I attended was beautiful. It was magical, like something out of a fairy tale. I was half-expecting unicorns to arrive in droves. I wanted this event to be incredibly special, and to my excitement it was special, emotional, and fun. It was a time for us to just be us. It was a time for us to just be with each other and enjoy each other's company. This took place about three months ago. It was emotional, because this had been in the plans for a long time. This had been on the back burner and finally everyone was able to make time for this. I was incredibly thankful. Admittedly, it wasn't perfect. There was a pretty embarrassing moment that in a vacuum was really dumb of me, but that just added to the story. I'm honestly glad it happened. It just means that we're human. Events aren't meant to be perfect."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event I attended was beautiful. It was magical, like something out of a fairy tale. I was half-expecting unicorns to arrive in droves. I wanted this event to be incredibly special, and to my excitement it was special, emotional, and fun. It was a time for us to just be us. It was a time for us to just be with each other and enjoy each other's company. This took place about three months ago. It was emotional, because this had been in the plans for a long time. This had been on the back burner and finally everyone was able to make time for this. I was incredibly thankful. Admittedly, it wasn't perfect. There was a pretty embarrassing moment that in a vacuum was really dumb of me, but that just added to the story. I'm honestly glad it happened. It just means that we're human. Events aren't meant to be perfect.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They're meant to be memorable. And this event certainly was.\n\n"
+            }
+        ],
+        "request_id": "811e9d43bba243cb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well today I received an anniversary gift for my 20th year of employment. My company awarded me and my family with a trip to Universal Studios in Florida. I was very shocked. My wife knew about it before I did. We waited until I got home to tell the kids. The kids were very excited. The vacation was at a Universal Studios resort for 6 nights. It included a meal package as well to all of the amusement parks. We had to decide on an exact date so we started getting everyone's schedules together. It was going to be hot but August was the choice! It was too expensive to fly so we chose to drive. Took us 10 hours to get there. Weather was very nice. We went to the big water park first, Volcano Bay. The kids loved it. The next day we stayed and hung out at the resort and swam in the pool mostly. We played some games and went bowling. Next two days we went to Universal Studios park and then Adventure Island. Adventure Island was my favorite. THey had a bunch of Marvel themed restaurants and rides. The vacation was awesome. Ended too early. Food and entertainment were great and kids had a blast."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well today I received an anniversary gift for my 20th year of employment. My company awarded me and my family with a trip to Universal Studios in Florida. I was very shocked. My wife knew about it before I did. We waited until I got home to tell the kids. The kids were very excited. The vacation was at a Universal Studios resort for 6 nights. It included a meal package as well to all of the amusement parks. We had to decide on an exact date so we started getting everyone's schedules together. It was going to be hot but August was the choice! It was too expensive to fly so we chose to drive. Took us 10 hours to get there. Weather was very nice. We went to the big water park first, Volcano Bay. The kids loved it. The next day we stayed and hung out at the resort and swam in the pool mostly. We played some games and went bowling. Next two days we went to Universal Studios park and then Adventure Island. Adventure Island was my favorite. THey had a bunch of Marvel themed restaurants and rides. The vacation was awesome. Ended too early. Food and entertainment were great and kids had a blast.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f347a3d704235-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a shocking time for me when my father fell ill. He is 85 and getting frail so any small illness or virus could really be a problem. We ended up taking him to the emergency room. He had to have a procedure to clear his lungs. He was in the hospital for a few days. During this time I was checking on him and staying with him as much as could. I also had to care for my elderly mother during this time. It is a challenge to have aging parents and have to help care for them while also keeping up with your own responsibilities. I work full time and I have young children so this was really a challenge. I had a lot of work duties during this week and I had to ask for extra help. I am lucky that I have very nice neighbors whose daughters helped me watch my children. Unfortunately my spouse does not really step up to help in times like these. I was just relieved he took care of himself. I was considering hiring outside help for my parents but I wanted to be the one there for them. I did hire some help for housekeeping at my home and my parents' home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a shocking time for me when my father fell ill. He is 85 and getting frail so any small illness or virus could really be a problem. We ended up taking him to the emergency room. He had to have a procedure to clear his lungs. He was in the hospital for a few days. During this time I was checking on him and staying with him as much as could. I also had to care for my elderly mother during this time. It is a challenge to have aging parents and have to help care for them while also keeping up with your own responsibilities. I work full time and I have young children so this was really a challenge. I had a lot of work duties during this week and I had to ask for extra help. I am lucky that I have very nice neighbors whose daughters helped me watch my children. Unfortunately my spouse does not really step up to help in times like these. I was just relieved he took care of himself. I was considering hiring outside help for my parents but I wanted to be the one there for them. I did hire some help for housekeeping at my home and my parents' home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was also lucky to have a flexible job and a supportive manager. I am glad to have my parents back home now and recovering. It was a stressful and tiring time but I am glad I could be there for them.\n\n"
+            }
+        ],
+        "request_id": "811bd7d56dd61988-EWR"
+    }
+}

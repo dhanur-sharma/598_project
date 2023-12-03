@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I finally got it! Today I met with Ted, the guy who was selling the camaro I was looking for, and we finally came to a negotiation on the price. I met Ted about 4 months ago, I was sure he'd reject my offer, but now that I have the money from the bank loan, I'm planning on sending him the payment tomorrow. Well, let me go back a bit, it's been about 6 months since I've written anything and I didn't want to write about the disappointment of not getting the car, so I'll start with the craigslist ad. I've had some money set aside for some time now, and thought that it might be a fun project to get an older car and fix it up on the side. So, I checked out craigslist and found this camaro with a beautiful body, but it needed a bit of engine work. The funny thing is, it didn't really have high miles, it just sat in someone's garage for a long time. Ted was the man who posted the listing, so I contacted him and set up a date to check out the car. He wasn't able to meet me that day, but told me to meet him the next day at his mom's house. Apparently, the car was Ted's dad's car and when his dad passed away, his mom couldn't get rid of it. But she also couldn't bear to drive it either so it sat neglected for nearly 40 years without anyone even turning it on. So, when I met Ted, the car was pushed out into the driveway, and it was amazing. It was in pristine condition other than the engine neglect, so I made my offer. Ted said he couldn't go any lower than $15k though and I only had about $9000 in my account. I ended up meeting with a bank to take out a small loan for the remaining amount but only offered him $12k. He agreed and we went down to the notary to sign the paperwork. I had a towing company bring it to my house, and pushed it into the garage to start working on it. The car still needs a bit of work, but it'll be a really fun project so I'm looking forward to learning something new. I feel pretty empowered."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I finally got it! Today I met with Ted, the guy who was selling the camaro I was looking for, and we finally came to a negotiation on the price. I met Ted about 4 months ago, I was sure he'd reject my offer, but now that I have the money from the bank loan, I'm planning on sending him the payment tomorrow. Well, let me go back a bit, it's been about 6 months since I've written anything and I didn't want to write about the disappointment of not getting the car, so I'll start with the craigslist ad. I've had some money set aside for some time now, and thought that it might be a fun project to get an older car and fix it up on the side. So, I checked out craigslist and found this camaro with a beautiful body, but it needed a bit of engine work. The funny thing is, it didn't really have high miles, it just sat in someone's garage for a long time. Ted was the man who posted the listing, so I contacted him and set up a date to check out the car. He wasn't able to meet me that day, but told me to meet him the next day at his mom's house. Apparently, the car was Ted's dad's car and when his dad passed away, his mom couldn't get rid of it. But she also couldn't bear to drive it either so it sat neglected for nearly 40 years without anyone even turning it on. So, when I met Ted, the car was pushed out into the driveway, and it was amazing. It was in pristine condition other than the engine neglect, so I made my offer. Ted said he couldn't go any lower than $15k though and I only had about $9000 in my account. I ended up meeting with a bank to take out a small loan for the remaining amount but only offered him $12k. He agreed and we went down to the notary to sign the paperwork. I had a towing company bring it to my house, and pushed it into the garage to start working on it. The car still needs a bit of work, but it'll be a really fun project so I'm looking forward to learning something new. I feel pretty empowered.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now, I just have to make sure to save up for the rest of the repairs and take care of the car. I'm so excited to have this car, it's a real beauty!"
+            }
+        ],
+        "request_id": "811eb4551c719e05-EWR"
+    }
+}

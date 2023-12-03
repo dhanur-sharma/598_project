@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My mom has always been the type of person who is very delicate to interact with and very unpredictable. Indeed, she has been suffering from severe depression and bipolar disorder for as long as I could remember. This makes it very hard for her to be reliable and dependable and it makes it even harder to keep a close relationship with her. I was trying so hard for 5 years to get a hold of her. I tried almost everyday. Her phone would ring but she would just let it ring and sometimes she would get so tired of me that she would just turn it off and it would just go directly to voicemail. I was going to give up but June 1st was her birthday and I had something important to tell her. I had to announce that my wife and I were expecting a child and that she was going to become a grandmother. Luckily, she answered, which was a miracle to me. She was ecstatic and could not believe it. I was so happy because I knew that it was something that she had always hoped for. She sounded a little bit upset though and I think that it is because she is so far away and it will be so hard for her to see her grandson. I thought that telling her the good news would make her happy and make her keep in touch with me. Unfortunately, as unpredictable as she is, I should have known better. I have not been able to get a hold of her again. It is sad but I am not giving up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My mom has always been the type of person who is very delicate to interact with and very unpredictable. Indeed, she has been suffering from severe depression and bipolar disorder for as long as I could remember. This makes it very hard for her to be reliable and dependable and it makes it even harder to keep a close relationship with her. I was trying so hard for 5 years to get a hold of her. I tried almost everyday. Her phone would ring but she would just let it ring and sometimes she would get so tired of me that she would just turn it off and it would just go directly to voicemail. I was going to give up but June 1st was her birthday and I had something important to tell her. I had to announce that my wife and I were expecting a child and that she was going to become a grandmother. Luckily, she answered, which was a miracle to me. She was ecstatic and could not believe it. I was so happy because I knew that it was something that she had always hoped for. She sounded a little bit upset though and I think that it is because she is so far away and it will be so hard for her to see her grandson. I thought that telling her the good news would make her happy and make her keep in touch with me. Unfortunately, as unpredictable as she is, I should have known better. I have not been able to get a hold of her again. It is sad but I am not giving up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know that I have to keep trying to get a hold of her and to let her know that I love her."
+            }
+        ],
+        "request_id": "811eaf2c69450ca1-EWR"
+    }
+}

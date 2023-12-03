@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother came to visit me for his birthday. He came over on the train and I went to the train station to pick him up. After he dropped his stuff off at my apartment, I let him plan some activities that he wanted to do. First we got lunch at a place just down the street. We went to Navy pier and walked around. We also rode the ferris wheel. He also decided he wanted to go to the planetarium. We went there on his actual birthday for a couple hours and saw a cool show. The night of his birthday we had reservations at a nice restaurant. We had a great meal. On the way back it was raining and we didn't have an umbrella. We were running to the train and trying not to get wet. When we got back to my apartment we had his birthday dessert. He left at the end of the weekend to go back home. Overall it was a fun weekend. I'm glad I got to celebrate with him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother came to visit me for his birthday. He came over on the train and I went to the train station to pick him up. After he dropped his stuff off at my apartment, I let him plan some activities that he wanted to do. First we got lunch at a place just down the street. We went to Navy pier and walked around. We also rode the ferris wheel. He also decided he wanted to go to the planetarium. We went there on his actual birthday for a couple hours and saw a cool show. The night of his birthday we had reservations at a nice restaurant. We had a great meal. On the way back it was raining and we didn't have an umbrella. We were running to the train and trying not to get wet. When we got back to my apartment we had his birthday dessert. He left at the end of the weekend to go back home. Overall it was a fun weekend. I'm glad I got to celebrate with him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea359f9390f37-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago my day had started out pretty normally at first. Though after receiving some bad news and going to work I found that I was in a rather bad mood. I tried to change my mood, but nothing was working. I spent the rest of the work day away from other people so I wouldn't get angry at them. After work I returned home to find that I needed some food. I thought that I could hop over to the nearby grocery store for some dinner. I drove over to the grocery store and found a parking spot in-between two other cars. I noticed the person to the left of me was also getting out of their car. We made involuntary eye contact, but we lingered longer than normal. That's when it hit both of us that we knew each other. We slowly both realized we were friends in high school who hadn't spoken in years. We started chatting on our way into the grocery store and soon found ourselves laughing at old memories. After each getting our different items at the store we left together. As we were in the process of getting into our cars we exchanged phone numbers. We promised to get in contact and have dinner or something. By the time that I was on my way home I was in a much better mood than before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago my day had started out pretty normally at first. Though after receiving some bad news and going to work I found that I was in a rather bad mood. I tried to change my mood, but nothing was working. I spent the rest of the work day away from other people so I wouldn't get angry at them. After work I returned home to find that I needed some food. I thought that I could hop over to the nearby grocery store for some dinner. I drove over to the grocery store and found a parking spot in-between two other cars. I noticed the person to the left of me was also getting out of their car. We made involuntary eye contact, but we lingered longer than normal. That's when it hit both of us that we knew each other. We slowly both realized we were friends in high school who hadn't spoken in years. We started chatting on our way into the grocery store and soon found ourselves laughing at old memories. After each getting our different items at the store we left together. As we were in the process of getting into our cars we exchanged phone numbers. We promised to get in contact and have dinner or something. By the time that I was on my way home I was in a much better mood than before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eccbd781718a1-EWR"
+    }
+}

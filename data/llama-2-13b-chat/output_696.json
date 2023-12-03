@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Just got back from my trip to Canada. It was an interesting experience to say the least! I'm glad it's over -- the important meeting to discuss expansion plans went really well. My presentation was well received and I feel like all the long nights put into preparing it paid off. Fortunately I had enough down time while I was there to do some sightseeing. The Notre Dame and St. Peter's Basilicas were just beautiful. Who knew Montreal had so many churches?  What was really interesting was touring the Olympic Park. 43 years too late -- I was just a little kid when they took place - but still worth it! The guide was so knowledgeable! What I'd absolutely recommend is taking a ride on the huge Ferris Wheel. It gives you a fabulous view of downtown Montreal. It seems like so many cities have a huge Ferris Wheel nowadays. I've ridden on the London Eye, and Niagara Skywheel, and now the Montreal Grande Roue. There was one crazy thing that happened while I was on the train. An older gentleman sitting across from me went into cardiac arrest! He actually fell over onto the floor onto my feet. I was stunned. He was wheezing and gasping and clutching at his chest and I totally panicked and freaked out. I am not prepared to deal with such a situation. Fortunately there was a paramedic on board and also a defibrillator and I watched as they pulled him into the aisle, did chest compressions, attached the pads and shocked him. Some rude people even took videos. There was a boy on board who started singing Staying Alive while the paramedic was working. I thought this was really rude and disrespectful but then I was told that this is the rhythm and speed of chest compressions and the kid learned this in Cub Scouts!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Just got back from my trip to Canada. It was an interesting experience to say the least! I'm glad it's over -- the important meeting to discuss expansion plans went really well. My presentation was well received and I feel like all the long nights put into preparing it paid off. Fortunately I had enough down time while I was there to do some sightseeing. The Notre Dame and St. Peter's Basilicas were just beautiful. Who knew Montreal had so many churches?  What was really interesting was touring the Olympic Park. 43 years too late -- I was just a little kid when they took place - but still worth it! The guide was so knowledgeable! What I'd absolutely recommend is taking a ride on the huge Ferris Wheel. It gives you a fabulous view of downtown Montreal. It seems like so many cities have a huge Ferris Wheel nowadays. I've ridden on the London Eye, and Niagara Skywheel, and now the Montreal Grande Roue. There was one crazy thing that happened while I was on the train. An older gentleman sitting across from me went into cardiac arrest! He actually fell over onto the floor onto my feet. I was stunned. He was wheezing and gasping and clutching at his chest and I totally panicked and freaked out. I am not prepared to deal with such a situation. Fortunately there was a paramedic on board and also a defibrillator and I watched as they pulled him into the aisle, did chest compressions, attached the pads and shocked him. Some rude people even took videos. There was a boy on board who started singing Staying Alive while the paramedic was working. I thought this was really rude and disrespectful but then I was told that this is the rhythm and speed of chest compressions and the kid learned this in Cub Scouts!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was actually a very useful skill. The man survived but I was so shaken up that I didn't sleep for the rest of the trip. It was a real eye opener. I'm so grateful to be back home. The trip was an incredible experience but it was also very draining. I need some downtime."
+            }
+        ],
+        "request_id": "811e968c1ce24289-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,We moved two weeks ago and today was the day - we got our new dog. We both agreed that we did not want to get a brand-new puppy but go check out the shelter first. My husband went over at lunch and there he was - Max. My husband fell in love with him right away. He called me and told me i need to meet him. Later that day we went there again with the baby to see how the dog would be around the baby. It worked out great.  We made arrangements the same day to pick him up within a few days after he got snipped. So far so good we took him home only to find out he never seemed to have had any proper training. Now - about 10 Weeks later. He listens to us a lot better already but there is still so much to learn for him. He is a really good dog tho and i wouldn't want to miss him. At least we didn't have an incident of him jumping over the fence anymore like the first few weeks we had him.  He is really good with our Baby. And seems to be protective when visitors are coming to the door and that's a very good thing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,We moved two weeks ago and today was the day - we got our new dog. We both agreed that we did not want to get a brand-new puppy but go check out the shelter first. My husband went over at lunch and there he was - Max. My husband fell in love with him right away. He called me and told me i need to meet him. Later that day we went there again with the baby to see how the dog would be around the baby. It worked out great.  We made arrangements the same day to pick him up within a few days after he got snipped. So far so good we took him home only to find out he never seemed to have had any proper training. Now - about 10 Weeks later. He listens to us a lot better already but there is still so much to learn for him. He is a really good dog tho and i wouldn't want to miss him. At least we didn't have an incident of him jumping over the fence anymore like the first few weeks we had him.  He is really good with our Baby. And seems to be protective when visitors are coming to the door and that's a very good thing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so glad we found Max. I love him already. Sincerely yours, Me.\n\n"
+            }
+        ],
+        "request_id": "811f3162bdcb43fa-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the summer in july my family and I decided to go on a vacation. We really like florida so it was a no brainer on where we were going. I booked the airfare and the hotel. We were so excited to go. The trip was to celebrate different birthdays. we had two connecting flights that we had to catch. The first leg was awesome. As we got on to board the second leg we removed from the plane because the flight attendant said my husband had an extra carry on. He was carrying the bag for an elderly member of our family and he tried to explain that but they didn't care. We had to get off the plane and take a later flight.  It put a horrible taste in out mouth for the beginning of our trip. We put so much money into this trip that it really made me so angry with the airlines. We missed scheduled activities because of the delay. The part that stuck with me was how we were treated by the airline. It will probably be our last rip for awhile simply because of how we were treated."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the summer in july my family and I decided to go on a vacation. We really like florida so it was a no brainer on where we were going. I booked the airfare and the hotel. We were so excited to go. The trip was to celebrate different birthdays. we had two connecting flights that we had to catch. The first leg was awesome. As we got on to board the second leg we removed from the plane because the flight attendant said my husband had an extra carry on. He was carrying the bag for an elderly member of our family and he tried to explain that but they didn't care. We had to get off the plane and take a later flight.  It put a horrible taste in out mouth for the beginning of our trip. We put so much money into this trip that it really made me so angry with the airlines. We missed scheduled activities because of the delay. The part that stuck with me was how we were treated by the airline. It will probably be our last rip for awhile simply because of how we were treated.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time once we got to florida but the experience with the airline was horrible.\n\n"
+            }
+        ],
+        "request_id": "811ea33dbe2a8c9b-EWR"
+    }
+}

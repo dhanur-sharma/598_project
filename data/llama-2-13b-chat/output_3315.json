@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I invited all my friends and family for a pool party on the fourth of July.  We had just bought and set up a pool.  And we also bought some yard games.  Then we went and bought lots of the usual cookout foods.  And also bought a keg and some alcohol.  Everyone showed up that we had invited.  I was all dressed up and acted as the hostess.  It was a lot of fun.  People ate and played games all afternoon.  It was one of the best days of the summer for me.  People even brought their dogs so they all could play together in our dog pen.  It was stressful setting up but after that it was a fun and relaxing way to spend the holiday.  I liked it much more than I do when we go out on the Fourth.  I would like to do it again next year.  And maybe just make it more like a potluck, rather than us worrying about all the food."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I invited all my friends and family for a pool party on the fourth of July.  We had just bought and set up a pool.  And we also bought some yard games.  Then we went and bought lots of the usual cookout foods.  And also bought a keg and some alcohol.  Everyone showed up that we had invited.  I was all dressed up and acted as the hostess.  It was a lot of fun.  People ate and played games all afternoon.  It was one of the best days of the summer for me.  People even brought their dogs so they all could play together in our dog pen.  It was stressful setting up but after that it was a fun and relaxing way to spend the holiday.  I liked it much more than I do when we go out on the Fourth.  I would like to do it again next year.  And maybe just make it more like a potluck, rather than us worrying about all the food.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We'll have to see.\n\n"
+            }
+        ],
+        "request_id": "811ec8a868d60f39-EWR"
+    }
+}

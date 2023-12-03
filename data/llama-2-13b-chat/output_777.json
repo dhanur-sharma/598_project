@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It happened so fast. 12 weeks ago, I was eating normal and working out everyday. I started feeling chest pains daily but never really paid any attention to it. I would come home and eat dinner with my family and talk to them about it. I went to a doctor but they didn't see anything. I went out running one day, and my chest started hurting really bad. I started grasping it onto my chest and I called 911. They reported to my location almost immediately. I was able to call my family, but I couldn't speak so they couldn't get told til a paramedic arrived. They hauled me to the hospital where they luckily got me taken care of. My whole family was there which made the process a lot better. I wasn't able to go to work and help my family out with that, but thankfully we had savings. It was a terrible feeling. I will always get myself checked by multiple doctors now. Thank you God for being alive still."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It happened so fast. 12 weeks ago, I was eating normal and working out everyday. I started feeling chest pains daily but never really paid any attention to it. I would come home and eat dinner with my family and talk to them about it. I went to a doctor but they didn't see anything. I went out running one day, and my chest started hurting really bad. I started grasping it onto my chest and I called 911. They reported to my location almost immediately. I was able to call my family, but I couldn't speak so they couldn't get told til a paramedic arrived. They hauled me to the hospital where they luckily got me taken care of. My whole family was there which made the process a lot better. I wasn't able to go to work and help my family out with that, but thankfully we had savings. It was a terrible feeling. I will always get myself checked by multiple doctors now. Thank you God for being alive still.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e986308ed42c4-EWR"
+    }
+}

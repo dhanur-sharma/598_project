@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I made the decision to take better care of myself and myself. So, I decided to start exercising. It was really hard for the first few weeks, but eventually I started a rhythm. To boost my weight loss, I also changed what I was eating in my diet. After 6 months, I really started to see a difference in my body. I had more energy, my clothes were fitting, I felt pretty good! Because of that, I decided to start training for a 5k. I would start off running every morning and day after day I would go a mile further. This was hard on my body. My feet started to hurt and swell. My knees killed me and my legs felt like jelly. I didn't think I could do it. Then, at the fourth month, I caught my stride. Adding an extra mile everyday didn't seem so bad on my body anymore. My lungs didn't burn and I wasn't huffing and puffing. The day finally arrived for the race. It was a chilly morning, but enough to get me energized and to wake up. More people were at the race than I thought there was going to be. However, even though I didn't get first place, I won something for myself. The ability to finish something that I set out to do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I made the decision to take better care of myself and myself. So, I decided to start exercising. It was really hard for the first few weeks, but eventually I started a rhythm. To boost my weight loss, I also changed what I was eating in my diet. After 6 months, I really started to see a difference in my body. I had more energy, my clothes were fitting, I felt pretty good! Because of that, I decided to start training for a 5k. I would start off running every morning and day after day I would go a mile further. This was hard on my body. My feet started to hurt and swell. My knees killed me and my legs felt like jelly. I didn't think I could do it. Then, at the fourth month, I caught my stride. Adding an extra mile everyday didn't seem so bad on my body anymore. My lungs didn't burn and I wasn't huffing and puffing. The day finally arrived for the race. It was a chilly morning, but enough to get me energized and to wake up. More people were at the race than I thought there was going to be. However, even though I didn't get first place, I won something for myself. The ability to finish something that I set out to do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt proud of myself and I was happy.\n\n"
+            }
+        ],
+        "request_id": "811f34a97b98c440-EWR"
+    }
+}

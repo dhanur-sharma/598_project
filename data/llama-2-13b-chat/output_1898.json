@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The greatest thing I've ever done happened a few months ago with my family. I had just turned 25 and it was the 4th of July. My family and I went to Montauk state park for the weekend. We rented a big camper and filled it with everything we needed. We took the long drive out to Montauk together. We even brought our dog. We parked the RV at our campsite and spent the next 2 days totally disconnected from life. No one was allowed to use their cell phone. Everyone just sat around talking. It was amazing. We cooked every meal on the grill. We swam in the ocean all day. I wish I could live there for the rest of my life. I honestly think that was the most fun I had ever had. I was shocked to feel that way about time with my family. I was devastated to come back to regular life. I didn't even look forward to using my cell phone!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The greatest thing I've ever done happened a few months ago with my family. I had just turned 25 and it was the 4th of July. My family and I went to Montauk state park for the weekend. We rented a big camper and filled it with everything we needed. We took the long drive out to Montauk together. We even brought our dog. We parked the RV at our campsite and spent the next 2 days totally disconnected from life. No one was allowed to use their cell phone. Everyone just sat around talking. It was amazing. We cooked every meal on the grill. We swam in the ocean all day. I wish I could live there for the rest of my life. I honestly think that was the most fun I had ever had. I was shocked to feel that way about time with my family. I was devastated to come back to regular life. I didn't even look forward to using my cell phone!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could go back to Montauk right now.\n\n"
+            }
+        ],
+        "request_id": "811eacd4fc7019cb-EWR"
+    }
+}

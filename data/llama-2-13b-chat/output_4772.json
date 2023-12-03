@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was with a group of friends and we were playing music.  One of the musicians has a cognitive disorder.  However, she is really a good musician and knows a lot.  She just has no boundaries with her personality.  Most of us avoid her because she talks on and on even if no one is listening.  But there is one man in our group who is very kind.  He has a background in special education.  He decided to be very affirming of her one night.  He told her when she played something well, and he listened when she talked. He encouraged her where her talents lay.  His kindness helped her to blossom that night and I watched with interest.  It reminded me to be a better person and pay some attention to this often clueless musician even when I don't want to.  I think about this from time to time when I am in contact with people who are difficult to be around.  I do not have to get lost in their mental problems but I can be more empathetic with them and become more compassionate toward them.  I do not always have to protect myself by avoiding such people."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was with a group of friends and we were playing music.  One of the musicians has a cognitive disorder.  However, she is really a good musician and knows a lot.  She just has no boundaries with her personality.  Most of us avoid her because she talks on and on even if no one is listening.  But there is one man in our group who is very kind.  He has a background in special education.  He decided to be very affirming of her one night.  He told her when she played something well, and he listened when she talked. He encouraged her where her talents lay.  His kindness helped her to blossom that night and I watched with interest.  It reminded me to be a better person and pay some attention to this often clueless musician even when I don't want to.  I think about this from time to time when I am in contact with people who are difficult to be around.  I do not have to get lost in their mental problems but I can be more empathetic with them and become more compassionate toward them.  I do not always have to protect myself by avoiding such people.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can be more aware of them and help them to blossom. \n\n"
+            }
+        ],
+        "request_id": "811bdd9608a38cb9-EWR"
+    }
+}

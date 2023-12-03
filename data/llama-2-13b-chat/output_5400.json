@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: June 22, Saturday, 7:00 PMDear Diary, My day was difficult. It seems as time goes on my mind gets foggier, I'm forgetting more and more. Trying to do my job is nearly impossible these days. There's a real possibility I may be fired after some of the mistakes I've made this week, if I can't figure out what's going on and correct it. My day got even worse when I tried to take my evening medications. I found that I was out of one of my meds. I can't recall if I ordered a refill. As bad as my memory is getting, I could have ordered it and not picked it up, or even picked it up and lost it. Searching the house reveals no sign of it. My memory has never been this bad. This is a risk to my life and well being. I have to figure out why this is happening, and do something about it. Something that really scares me is that this is the kind of medication you do not miss without suffering for it, and the pharmacy won't be open again until Monday. What if I picked it up already and can't get more? What if this medication is what's making me feel this way? I have to see my doctor next week and try to figure this out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: June 22, Saturday, 7:00 PMDear Diary, My day was difficult. It seems as time goes on my mind gets foggier, I'm forgetting more and more. Trying to do my job is nearly impossible these days. There's a real possibility I may be fired after some of the mistakes I've made this week, if I can't figure out what's going on and correct it. My day got even worse when I tried to take my evening medications. I found that I was out of one of my meds. I can't recall if I ordered a refill. As bad as my memory is getting, I could have ordered it and not picked it up, or even picked it up and lost it. Searching the house reveals no sign of it. My memory has never been this bad. This is a risk to my life and well being. I have to figure out why this is happening, and do something about it. Something that really scares me is that this is the kind of medication you do not miss without suffering for it, and the pharmacy won't be open again until Monday. What if I picked it up already and can't get more? What if this medication is what's making me feel this way? I have to see my doctor next week and try to figure this out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's so frustrating to not be able to trust my own mind. I'm so worried about this. I'm scared to death. Love,Me."
+            }
+        ],
+        "request_id": "811f30a28d0642eb-EWR"
+    }
+}

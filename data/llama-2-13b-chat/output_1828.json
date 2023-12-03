@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember it like yesterday. They aren't as frequent, but I still have flashbacks. Brutally visual. Can hear the birds chirping as the cold, calloused hand slapped the hell out of me in front of our child. No. MY child. He's no man, he's a monster. But it was at that moment I knew if I stayed with him another moment he gunna kill me. First me then my baby. And I wasn't gunna allow that. My baby is my world. So I packed my bags, went to my mama's two states over. It was a rocky start but mama did what mama's do best. Helped get me back on my feet, find God, and find the strength within myself to take it one day at a time. Now I'm a part time college student with a full scholarship and grants paying for it. They have an amazing nursery and headstart program. I'm a strong independent woman and I will never need to man again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember it like yesterday. They aren't as frequent, but I still have flashbacks. Brutally visual. Can hear the birds chirping as the cold, calloused hand slapped the hell out of me in front of our child. No. MY child. He's no man, he's a monster. But it was at that moment I knew if I stayed with him another moment he gunna kill me. First me then my baby. And I wasn't gunna allow that. My baby is my world. So I packed my bags, went to my mama's two states over. It was a rocky start but mama did what mama's do best. Helped get me back on my feet, find God, and find the strength within myself to take it one day at a time. Now I'm a part time college student with a full scholarship and grants paying for it. They have an amazing nursery and headstart program. I'm a strong independent woman and I will never need to man again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm gunna make it. I'm gunna make a better life for my baby."
+            }
+        ],
+        "request_id": "811eab88ec01c484-EWR"
+    }
+}

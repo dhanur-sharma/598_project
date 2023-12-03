@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was my first day at sea on my Alaskan cruise.  I woke up to our view of the ocean and mountains out our window.  We sat and admired how awesome the snow capped mountains looked in the distance as we went by.  We got up and ate breakfast in the main dining room.  I forgot how awesome it was to be served food at every meal and ordered a full breakfast.  We then ventured out looking around the ship.  My son wanted to first play putt putt which ended up being a very windy ordeal causing the ball to move every once in a while either by the wind or the rocking of the boat.  I couldn't help but admire the amazing landscape that could be seen on the horizon.  We checked out the casino and ended up losing money on slots which was normal.  We ate a hardy lunch in the cafe spot and decided we wanted to try the swimming pool.  My son and I braved the slightly chilly temps and swam for a bit in the pool that was rocking back and forth with the waves.  Afterwards, we both had some much needed hot cocoa.  We went back to our room, got cleaned up and got ready for dinner.  I had a great cool fruity soup and then halibut for dinner.  Afterwards, we went to a dance party and my son had a great time.  We finished the night off by going to the balcony and watching the mountains go by.  It was a relaxing fun day to start our trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was my first day at sea on my Alaskan cruise.  I woke up to our view of the ocean and mountains out our window.  We sat and admired how awesome the snow capped mountains looked in the distance as we went by.  We got up and ate breakfast in the main dining room.  I forgot how awesome it was to be served food at every meal and ordered a full breakfast.  We then ventured out looking around the ship.  My son wanted to first play putt putt which ended up being a very windy ordeal causing the ball to move every once in a while either by the wind or the rocking of the boat.  I couldn't help but admire the amazing landscape that could be seen on the horizon.  We checked out the casino and ended up losing money on slots which was normal.  We ate a hardy lunch in the cafe spot and decided we wanted to try the swimming pool.  My son and I braved the slightly chilly temps and swam for a bit in the pool that was rocking back and forth with the waves.  Afterwards, we both had some much needed hot cocoa.  We went back to our room, got cleaned up and got ready for dinner.  I had a great cool fruity soup and then halibut for dinner.  Afterwards, we went to a dance party and my son had a great time.  We finished the night off by going to the balcony and watching the mountains go by.  It was a relaxing fun day to start our trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed42f590e4367-EWR"
+    }
+}

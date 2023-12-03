@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The event I am thinking about happened in July. On the 2nd day of the month I found and removed two ticks from my back. Not thinking much about it I never really considered that they might have infected me. About four days later I started feeling bad and within a day had a raging fever. Great I thought, I've probably got the flu although it seemed a rather odd time of year to get the flu. I was very sick for 3 days and finally decided to go see a doctor. The diagnosis, a virus. Wait a couple days and if the fever doesn't get better, call them back. In two days I felt much better. Another week passes and suddenly I started getting this strange rash all over my body with a bulls-eye rash on my back at the tick bite site. I refused to believe it was serious and waited. Several more days passed and one night I developed a raging fever. This began to worry me and my wife was beside herself, emphatically trying to get me to see the doctor again. Finally I relented and made the call. The diagnosis this time was Lyme disease. My joints swelled, my head hurt and I was sick with a fever for several more days. The doctor prescribed antibiotics and in a couple days I began to improve. The process is slow though and I still have residual symptoms. Some people have these for months or even years. Only time will tell how my case proceeds."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The event I am thinking about happened in July. On the 2nd day of the month I found and removed two ticks from my back. Not thinking much about it I never really considered that they might have infected me. About four days later I started feeling bad and within a day had a raging fever. Great I thought, I've probably got the flu although it seemed a rather odd time of year to get the flu. I was very sick for 3 days and finally decided to go see a doctor. The diagnosis, a virus. Wait a couple days and if the fever doesn't get better, call them back. In two days I felt much better. Another week passes and suddenly I started getting this strange rash all over my body with a bulls-eye rash on my back at the tick bite site. I refused to believe it was serious and waited. Several more days passed and one night I developed a raging fever. This began to worry me and my wife was beside herself, emphatically trying to get me to see the doctor again. Finally I relented and made the call. The diagnosis this time was Lyme disease. My joints swelled, my head hurt and I was sick with a fever for several more days. The doctor prescribed antibiotics and in a couple days I began to improve. The process is slow though and I still have residual symptoms. Some people have these for months or even years. Only time will tell how my case proceeds.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm grateful to be alive and will be sure to be more vigilant in the future about removing ticks when I find them.\n\n"
+            }
+        ],
+        "request_id": "811ed403fe3642e3-EWR"
+    }
+}

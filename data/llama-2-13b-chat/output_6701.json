@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, I was given a discount. After the air conditioner man worked, he tried to take the discount back. I said no and you should agree to your business practices. They had the nerve to sue us. They almost sued us, but I threatened them to post this on social media. They backed down and went on their business. I hope they go under because of this. This is very deceitful practices and they should be ashamed because of it. The price was barely worth it with the discount. The cool air will help me cool off because of this. I hope it won't break again. I won't call them again. I will get somebody better. I will get somebody cheaper. I hope my conditioner doesn't go out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, I was given a discount. After the air conditioner man worked, he tried to take the discount back. I said no and you should agree to your business practices. They had the nerve to sue us. They almost sued us, but I threatened them to post this on social media. They backed down and went on their business. I hope they go under because of this. This is very deceitful practices and they should be ashamed because of it. The price was barely worth it with the discount. The cool air will help me cool off because of this. I hope it won't break again. I won't call them again. I will get somebody better. I will get somebody cheaper. I hope my conditioner doesn't go out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will go to Sears. I will get one that is better. I will get one that is cheaper.\n\n"
+            }
+        ],
+        "request_id": "811f4aec89e119c7-EWR"
+    }
+}

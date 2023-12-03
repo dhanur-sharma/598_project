@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a typical day, I got up around 6:30 am, stumbled into the shower and shaved while I showered.  It was a typical day, I got up around 6:30 am, stumbled into the shower and shaved while I showered.  I brushed my teeth and did other normal stuff.  Once dressed, I fixed a cup of coffee for the road and drove to work.  I did the usual things at work when it happened.  I ran into a old girlfriend that I hadn't seen in over 20 years.  It was at a convenience store.  At first I wasn't sure so I asked if he name was Cindy.  She immediately recognized me and said my name. We made the typical remarks and I asked he if she would like to get a coffee.  We ended up at a bar we used to frequent in college.  We sat and talked for a while, finally establishing that we were both single again via divorce.  She was seeing someone but didn't know if it was going to lead anywhere.  I was sort of in the same boat.  We agreed to keep in touch and exchanged phone numbers and email addresses.  That was about 3 weeks ago and we have talked 2-3 times since then.  I'm not sure where it's going but at a minimum, it was nice to see her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a typical day, I got up around 6:30 am, stumbled into the shower and shaved while I showered.  It was a typical day, I got up around 6:30 am, stumbled into the shower and shaved while I showered.  I brushed my teeth and did other normal stuff.  Once dressed, I fixed a cup of coffee for the road and drove to work.  I did the usual things at work when it happened.  I ran into a old girlfriend that I hadn't seen in over 20 years.  It was at a convenience store.  At first I wasn't sure so I asked if he name was Cindy.  She immediately recognized me and said my name. We made the typical remarks and I asked he if she would like to get a coffee.  We ended up at a bar we used to frequent in college.  We sat and talked for a while, finally establishing that we were both single again via divorce.  She was seeing someone but didn't know if it was going to lead anywhere.  I was sort of in the same boat.  We agreed to keep in touch and exchanged phone numbers and email addresses.  That was about 3 weeks ago and we have talked 2-3 times since then.  I'm not sure where it's going but at a minimum, it was nice to see her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The end."
+            }
+        ],
+        "request_id": "811eb424afe64285-EWR"
+    }
+}

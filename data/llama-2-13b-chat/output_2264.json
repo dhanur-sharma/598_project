@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We don't always get to see close friends and family members, so getting together with everyone at my cousin's wedding was a very memorable event. Weddings are exciting enough especially when you are in the wedding party. This on top of seeing friends and family members that I hadn't seen in years left me with some amazing memories. Everything about the wedding was perfect. The wedding was on the beach and the weather couldn't be any more perfect. The food and decorations were perfect and the music kept us all dancing all night long. We had a lot of laughs. I think the funniest moment was when she went to smash some cake in the groom's face, but missed when he ducked and threw it on the floor.  She gave the entire place a good laugh. There were many candid photos taken and shared between all of us. We are still reliving the day as we look through the pictures. I know my cousin had an amazing wedding and I'm so happy that we could all help share in her special day.  The bride looked beautiful and her wedding party complimented her perfectly.  I never thought my cousin would get married. She really surprised us all in the end."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We don't always get to see close friends and family members, so getting together with everyone at my cousin's wedding was a very memorable event. Weddings are exciting enough especially when you are in the wedding party. This on top of seeing friends and family members that I hadn't seen in years left me with some amazing memories. Everything about the wedding was perfect. The wedding was on the beach and the weather couldn't be any more perfect. The food and decorations were perfect and the music kept us all dancing all night long. We had a lot of laughs. I think the funniest moment was when she went to smash some cake in the groom's face, but missed when he ducked and threw it on the floor.  She gave the entire place a good laugh. There were many candid photos taken and shared between all of us. We are still reliving the day as we look through the pictures. I know my cousin had an amazing wedding and I'm so happy that we could all help share in her special day.  The bride looked beautiful and her wedding party complimented her perfectly.  I never thought my cousin would get married. She really surprised us all in the end.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy for her.  I know she is going to be very happy with her new husband.  \n\n"
+            }
+        ],
+        "request_id": "811eb365f9221993-EWR"
+    }
+}

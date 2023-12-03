@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son just returned from a military deployment. I was so excited to finally see him again in so many years of not seeing him. When he came home the first thing I did was giving him a hug hug. He blushed and told me that he's too old for hugs. But as a parent, I say that you're never too old for hugs. After that we sat down and talked about his life at the military. He told me that life was hard and challenging there, but he say it was fine and came out stronger because of it. I was so proud of him. He looked so different. When he went there he was so short, and skinny, but when he came home he was so tall and full of muscle.  I knew he worked hard for those. After we exchange many stories, we got drunk from the beer we were drinking while we were talking. And what happened after that no one can really remember clearly, but some of us woke up with bruises. Someone must have started a fight somewhere in the night, but no one remembers anything. Oh well. It happened, it happened."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son just returned from a military deployment. I was so excited to finally see him again in so many years of not seeing him. When he came home the first thing I did was giving him a hug hug. He blushed and told me that he's too old for hugs. But as a parent, I say that you're never too old for hugs. After that we sat down and talked about his life at the military. He told me that life was hard and challenging there, but he say it was fine and came out stronger because of it. I was so proud of him. He looked so different. When he went there he was so short, and skinny, but when he came home he was so tall and full of muscle.  I knew he worked hard for those. After we exchange many stories, we got drunk from the beer we were drinking while we were talking. And what happened after that no one can really remember clearly, but some of us woke up with bruises. Someone must have started a fight somewhere in the night, but no one remembers anything. Oh well. It happened, it happened.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8cd56fb432f4-EWR"
+    }
+}

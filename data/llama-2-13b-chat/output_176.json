@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a business trip to Albany, New York. It was the 4th year in a row that I went on this business trip. The core group of 5 people is the same, with 4-5 new people each year. There's a particular coworker that's also gone every year and this year we spent some time together, alone, doing activities and sightseeing outside of the work day. I've always felt an attraction to this coworker, but never acted on it. When we got back from NY, we continued to hang out, go out to eat, etc. Then we started a romantic relationship. I really enjoy his company and I think he feels the same. I was pleasantly surprised at how things evolved. I hope the relationship continues. I also hope that if it doesn't, our working relationship won't be affected. He's 22 years younger than me, yet there doesn't seem to be a problem with the age difference. We have a lot in common. He seems older than his age, and I feel younger than my age. I'm divorced and he's never been married. We both LOVE dogs and animals."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a business trip to Albany, New York. It was the 4th year in a row that I went on this business trip. The core group of 5 people is the same, with 4-5 new people each year. There's a particular coworker that's also gone every year and this year we spent some time together, alone, doing activities and sightseeing outside of the work day. I've always felt an attraction to this coworker, but never acted on it. When we got back from NY, we continued to hang out, go out to eat, etc. Then we started a romantic relationship. I really enjoy his company and I think he feels the same. I was pleasantly surprised at how things evolved. I hope the relationship continues. I also hope that if it doesn't, our working relationship won't be affected. He's 22 years younger than me, yet there doesn't seem to be a problem with the age difference. We have a lot in common. He seems older than his age, and I feel younger than my age. I'm divorced and he's never been married. We both LOVE dogs and animals.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm excited to see where this relationship goes.\n\n"
+            }
+        ],
+        "request_id": "811e8d0b1dbf41de-EWR"
+    }
+}

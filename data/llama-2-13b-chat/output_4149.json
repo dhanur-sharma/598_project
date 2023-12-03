@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was so excited for my dear cousin Emily.   She had met the love of her life and they were getting married!   It was a beautiful spring day and I was ready to go celebrate this wonderful event.  I didn't know that my life would change as well as I got ready.   I drove to the event, an outdoor affair in a park.  The weather was perfect and the crowd was small and intimate.   I spotted someone interesting during the ceremony.  He had kind eyes and a great smile.  After the ceremony, the gentleman approached me at the bar and introuced himself.  He was the groom's cousin, Otto.    We spent the rest of the reception laughing, talking and getting to know each other.   We had so much in common!  Fate intervened by introducing us that day, and I was so glad.    We have been enjoying each other's company for this past month and I think I am in love.   What a wonderful twist of fate!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was so excited for my dear cousin Emily.   She had met the love of her life and they were getting married!   It was a beautiful spring day and I was ready to go celebrate this wonderful event.  I didn't know that my life would change as well as I got ready.   I drove to the event, an outdoor affair in a park.  The weather was perfect and the crowd was small and intimate.   I spotted someone interesting during the ceremony.  He had kind eyes and a great smile.  After the ceremony, the gentleman approached me at the bar and introuced himself.  He was the groom's cousin, Otto.    We spent the rest of the reception laughing, talking and getting to know each other.   We had so much in common!  Fate intervened by introducing us that day, and I was so glad.    We have been enjoying each other's company for this past month and I think I am in love.   What a wonderful twist of fate!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd0de2ce94322-EWR"
+    }
+}

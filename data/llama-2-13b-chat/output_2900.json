@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My girlfriend broke up with me. We had been dating two months. She was someone that I had known most of my life, but had never thought about an intimate relationship with her.  Everything was beautiful at first. Then late one night after we had gone to bed, the phone rang. Suddenly, she became extremely nervous as she spoke in a low voice into the phone.  She then ended the Phone call very quickly. I asked her who it was. It was one of her ex boyfriends she replied. She then added that he would call every few months just to talk. So, he calls you this late? I asked. Was he planning to come over? I snapped. She then asked me if I wanted her to tell him to stop calling. This is your house, do as you wish I replied. We begin to argue, and I left. I called her every day for a week, but she did not answer or return my calls. I finally just dropped by and she told me we were done. She said that she had wanted to be with that guy again. I walked out without saying a word. I never did find out how long they had been sleeping together behind my back."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My girlfriend broke up with me. We had been dating two months. She was someone that I had known most of my life, but had never thought about an intimate relationship with her.  Everything was beautiful at first. Then late one night after we had gone to bed, the phone rang. Suddenly, she became extremely nervous as she spoke in a low voice into the phone.  She then ended the Phone call very quickly. I asked her who it was. It was one of her ex boyfriends she replied. She then added that he would call every few months just to talk. So, he calls you this late? I asked. Was he planning to come over? I snapped. She then asked me if I wanted her to tell him to stop calling. This is your house, do as you wish I replied. We begin to argue, and I left. I called her every day for a week, but she did not answer or return my calls. I finally just dropped by and she told me we were done. She said that she had wanted to be with that guy again. I walked out without saying a word. I never did find out how long they had been sleeping together behind my back.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec04fea165e82-EWR"
+    }
+}

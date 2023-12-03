@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I took a trip to Florida to celebrate the end of school.  I packed my kids in the car, and off we went on a road trip.  I never drove much farther than an hour away before, so going for nearly a day driving was a challenge.  We stopped the first day at a motel to recharge.  The kids had fun and thought this was an adventure.  We got back on the road the next day and made it to my father's house later that afternoon.  My stepmother took us to the beaches and her favorite restaurants while my dad had to work during the day.  One night, they surprised us with tickets to Disney World.  I had never been there before, so I was very excited to experience this with my kids.  It was hot out, but worth every second.  My children were so happy to see all of the characters and the castle that is always shown on television.  That last couple of days during our vacation, we visited other family members nearby.  Then we packed up and prepared to come home.  We missed my husband, who had to work and couldn't get the vacation time off.  It was a longer trip back than it seemed to come there, but we made it home safe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I took a trip to Florida to celebrate the end of school.  I packed my kids in the car, and off we went on a road trip.  I never drove much farther than an hour away before, so going for nearly a day driving was a challenge.  We stopped the first day at a motel to recharge.  The kids had fun and thought this was an adventure.  We got back on the road the next day and made it to my father's house later that afternoon.  My stepmother took us to the beaches and her favorite restaurants while my dad had to work during the day.  One night, they surprised us with tickets to Disney World.  I had never been there before, so I was very excited to experience this with my kids.  It was hot out, but worth every second.  My children were so happy to see all of the characters and the castle that is always shown on television.  That last couple of days during our vacation, we visited other family members nearby.  Then we packed up and prepared to come home.  We missed my husband, who had to work and couldn't get the vacation time off.  It was a longer trip back than it seemed to come there, but we made it home safe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The kids were exhausted from all of the activities, but they had a great time and so did I.  It was a good bonding experience for all of us.\n\n"
+            }
+        ],
+        "request_id": "811ec526786042b0-EWR"
+    }
+}

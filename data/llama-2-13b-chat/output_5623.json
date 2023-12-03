@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After many years working in one field, a field I thought I would retire in, I decided it was not for me anymore. It would be better for my family and for myself to chance to course of my life. Going back to school would be the best way to achieve something better. I started back at school earlier this year. Going back was very nerve wracking. Just getting all my old transcripts collected and sent to the right place was hard enough. But the staff at the school were helpful and patient. Once I got into my classes I was very surprised and very happy to find out how easily I got back into the school work. A lot has changed since I was in school but I managed to catch up quickly. Balancing the work load with my family life has been hard but it's been worth it, especially now that I can see some of my progress. The classes have even gotten more interesting since I have gotten into more of what I am interested in. It has made me feel very good about myself. I feel like I am accomplishing something I can be proud of. I get excited about things and bore my children to death talking about it. In a couple more years I will be able to look back at what I've done and feel proud of myself for the decision."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After many years working in one field, a field I thought I would retire in, I decided it was not for me anymore. It would be better for my family and for myself to chance to course of my life. Going back to school would be the best way to achieve something better. I started back at school earlier this year. Going back was very nerve wracking. Just getting all my old transcripts collected and sent to the right place was hard enough. But the staff at the school were helpful and patient. Once I got into my classes I was very surprised and very happy to find out how easily I got back into the school work. A lot has changed since I was in school but I managed to catch up quickly. Balancing the work load with my family life has been hard but it's been worth it, especially now that I can see some of my progress. The classes have even gotten more interesting since I have gotten into more of what I am interested in. It has made me feel very good about myself. I feel like I am accomplishing something I can be proud of. I get excited about things and bore my children to death talking about it. In a couple more years I will be able to look back at what I've done and feel proud of myself for the decision.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3524fd900cb2-EWR"
+    }
+}

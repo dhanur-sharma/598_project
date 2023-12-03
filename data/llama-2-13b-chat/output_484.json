@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I was the victim of my former company downsizing. It was very unexpected. I was caught off guard , totally unprepared. A few days later, my partner left me too because I was struggling to provide basic needs for us. I was in dire straits. I decided to pick up the broken pieces and try to rebuild my life. I worked odd jobs, clocking extra hours to earn extra money. I moved to a small apartment that I could afford. After a few weeks of casual labor, I received a call from a company I had sent an application to. They invited me to an interview for my dream job. After acing the interview, I received a two year contract to work at the company. As I settled down in my office, I remembered how terrible the last month had been. I smiled gratefully, knwing that I turned out fine. As an icing on the cake, I recently met a beautiful woman and fell in love with her. I am now moving forward with my life, knowing that nothing is impossible."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I was the victim of my former company downsizing. It was very unexpected. I was caught off guard , totally unprepared. A few days later, my partner left me too because I was struggling to provide basic needs for us. I was in dire straits. I decided to pick up the broken pieces and try to rebuild my life. I worked odd jobs, clocking extra hours to earn extra money. I moved to a small apartment that I could afford. After a few weeks of casual labor, I received a call from a company I had sent an application to. They invited me to an interview for my dream job. After acing the interview, I received a two year contract to work at the company. As I settled down in my office, I remembered how terrible the last month had been. I smiled gratefully, knwing that I turned out fine. As an icing on the cake, I recently met a beautiful woman and fell in love with her. I am now moving forward with my life, knowing that nothing is impossible.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92972f7c19c7-EWR"
+    }
+}

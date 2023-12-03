@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I returned to school after not being there for a while. I studied real hard at the college. I met some new friends. We always went partying on the weekend. I always got blasted and puke a lot of the times. It was worth it. I studied to become an engineer. It was tough. The material was very challenging. I had a hard time getting the instructions right for the problems. I studied hard and I graduated. I had a fun time at the graduation. There were many people in the crowd. I waved to all of them. I threw my cap in the air and got my diploma. I hope to get a good job in the coming months."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I returned to school after not being there for a while. I studied real hard at the college. I met some new friends. We always went partying on the weekend. I always got blasted and puke a lot of the times. It was worth it. I studied to become an engineer. It was tough. The material was very challenging. I had a hard time getting the instructions right for the problems. I studied hard and I graduated. I had a fun time at the graduation. There were many people in the crowd. I waved to all of them. I threw my cap in the air and got my diploma. I hope to get a good job in the coming months.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92ecfb7c43e7-EWR"
+    }
+}

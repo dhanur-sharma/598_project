@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I woke up to the phone call telling me that my father-in-law had died. I had to remember to call people at work and other family members. I tried to makes sure to pack everything that I needed. I almost forgot to take my purse. I road with my spouse north. I did not talk to him much. He did not talk to me. We were focused on getting there. I know he was thinking about the last time he had seen him and if he could have done more to take care of his father. I tried to just get him there in one piece and be there for him. We worried about his mother. I knew his father had been ailing, but they had said he was getting better. I was tired and he was tired. The road was busy because rather than waiting for the best time when there would be less traffic, we had set out immediately. His parents had taken care of all the arrangements before hand. They had bought a policy ten years before. However, the funeral home still made a play for more money. It was really upsetting to everyone. It was the first time I had heard his mother curse. There was a wrangle over writing the obituary. The funeral home included basically and advertisement for themselves by adding information about them. Of course my mother-in-law had to pay it, but by then it was too late. I sat next to my mother in law and held her hand. She was stoic the entire time. Afterward, she tried to take care of us and we had to let her, because I knew it was a welcome distraction."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I woke up to the phone call telling me that my father-in-law had died. I had to remember to call people at work and other family members. I tried to makes sure to pack everything that I needed. I almost forgot to take my purse. I road with my spouse north. I did not talk to him much. He did not talk to me. We were focused on getting there. I know he was thinking about the last time he had seen him and if he could have done more to take care of his father. I tried to just get him there in one piece and be there for him. We worried about his mother. I knew his father had been ailing, but they had said he was getting better. I was tired and he was tired. The road was busy because rather than waiting for the best time when there would be less traffic, we had set out immediately. His parents had taken care of all the arrangements before hand. They had bought a policy ten years before. However, the funeral home still made a play for more money. It was really upsetting to everyone. It was the first time I had heard his mother curse. There was a wrangle over writing the obituary. The funeral home included basically and advertisement for themselves by adding information about them. Of course my mother-in-law had to pay it, but by then it was too late. I sat next to my mother in law and held her hand. She was stoic the entire time. Afterward, she tried to take care of us and we had to let her, because I knew it was a welcome distraction.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We drove back home the next day. My husband and I barely spoke to each other. We both just needed to be alone."
+            }
+        ],
+        "request_id": "811f476d2a70c436-EWR"
+    }
+}

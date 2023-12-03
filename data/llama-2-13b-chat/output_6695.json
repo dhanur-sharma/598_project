@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember a time when my mother-in-law stayed with me when I had surgery after a c-section. The most important thing was that she took care of my 2 year old and my newborn baby while I was recovering. I had a painful and long recovery. I couldn't get off the bed and lift things. That meant there was no way I could take care of my kids for awhile. My mother-in-law was working at the time when I had my second baby.  When she heard that I had a c-section, she took some time off from work to come and help out. She was so supportive throughout my recovery. She cooked and cleaned for me. She also bathed, changed and fed the kids in my place. For that I will be forever thankful to her. Because of her, my recovery took shorter than it did with my other c-section that I had before. I was able to resume my daily duties as a mother much quicker than I expected.  I think that if I wouldn't have had help from my mom-in-law, then my health was probably going to take a turn for the worse. I feel that all mothers should have the help of their mothers-in-law or mothers in hard times."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember a time when my mother-in-law stayed with me when I had surgery after a c-section. The most important thing was that she took care of my 2 year old and my newborn baby while I was recovering. I had a painful and long recovery. I couldn't get off the bed and lift things. That meant there was no way I could take care of my kids for awhile. My mother-in-law was working at the time when I had my second baby.  When she heard that I had a c-section, she took some time off from work to come and help out. She was so supportive throughout my recovery. She cooked and cleaned for me. She also bathed, changed and fed the kids in my place. For that I will be forever thankful to her. Because of her, my recovery took shorter than it did with my other c-section that I had before. I was able to resume my daily duties as a mother much quicker than I expected.  I think that if I wouldn't have had help from my mom-in-law, then my health was probably going to take a turn for the worse. I feel that all mothers should have the help of their mothers-in-law or mothers in hard times.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's a great feeling to know that someone is there to support you when you need it the most."
+            }
+        ],
+        "request_id": "811f4ad5fee74361-EWR"
+    }
+}

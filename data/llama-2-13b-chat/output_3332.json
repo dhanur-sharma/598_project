@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I was able to attend my big sisters wedding. I'm not the kind of person that likes big events, and usually avoid large crowds. For my sister, I was more than willing to put aside my own anxiety. My sister is a very special person to me. I was always close to her, and being able to see her that happy made me feel full of joy. Unfortunately, the wedding didn't go off without a hitch. There was one embarrassing moment when the ring boy was walking down the aisle. I felt so bed for him because he turned to smile as he walked by his mom and tripped over his own feet. He went down pretty hard and then there was a scramble to find the ring. My sister, being the gentle and caring person she is, went up to the boy and told his it was alright. The rest of the wedding went smoothly. There were a lot of tears, and even more smiles. Seeing my sister say \"I do\" was a very memorable moment to me. She looked so happy in that moment. I felt a little sad, knowing that my sister would be around less, but that was quickly replaced by my elation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I was able to attend my big sisters wedding. I'm not the kind of person that likes big events, and usually avoid large crowds. For my sister, I was more than willing to put aside my own anxiety. My sister is a very special person to me. I was always close to her, and being able to see her that happy made me feel full of joy. Unfortunately, the wedding didn't go off without a hitch. There was one embarrassing moment when the ring boy was walking down the aisle. I felt so bed for him because he turned to smile as he walked by his mom and tripped over his own feet. He went down pretty hard and then there was a scramble to find the ring. My sister, being the gentle and caring person she is, went up to the boy and told his it was alright. The rest of the wedding went smoothly. There were a lot of tears, and even more smiles. Seeing my sister say \"I do\" was a very memorable moment to me. She looked so happy in that moment. I felt a little sad, knowing that my sister would be around less, but that was quickly replaced by my elation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The rest of the night was a blur of food, drinks, and dancing. I was able to enjoy myself, despite my anxiety. I was able to put aside my own fears and just enjoy the moment with my sister. I'm so glad I was able to be a part of her special day."
+            }
+        ],
+        "request_id": "811ec8f2ed9c4375-EWR"
+    }
+}

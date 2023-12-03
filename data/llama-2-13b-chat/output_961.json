@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a early morning and I was doing my normal routine. My normal routine of eating breakfast and then taking my dog out for a walk. My dog Molly seemed really tired. She is usually in a very good mood but for some reason she seemed off today. Anyways, I did not make a big deal out of it. I come home after the walk, and start getting for ready to work. I was running late. I couldn't keep the patients waiting. I say bye to my dog and head out. My day at work was busy. I come home around 3 pm. I call out for Molly but she wasn't there. I must have left the door open. I start freaking out and worrying. I went around walking looking for her but she wasn't there. Thankfully she came back home to me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a early morning and I was doing my normal routine. My normal routine of eating breakfast and then taking my dog out for a walk. My dog Molly seemed really tired. She is usually in a very good mood but for some reason she seemed off today. Anyways, I did not make a big deal out of it. I come home after the walk, and start getting for ready to work. I was running late. I couldn't keep the patients waiting. I say bye to my dog and head out. My day at work was busy. I come home around 3 pm. I call out for Molly but she wasn't there. I must have left the door open. I start freaking out and worrying. I went around walking looking for her but she wasn't there. Thankfully she came back home to me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so happy to see her. I was so worried. I will be keeping a closer eye on her from now on.\n\n"
+            }
+        ],
+        "request_id": "811e9b536e58438c-EWR"
+    }
+}

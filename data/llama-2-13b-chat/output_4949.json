@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I first had anxiety, I started having a lot of panic attacks. It was in my last year of college and at the time I was considering changing my major. I was a psychology major, but I wasn't able to pass my math class so I had to switch to sociology. Before the change, I was really nervous and unsure of myself. I tried to find comfort in the familiar stuff in order to cope. When I would get anxious, I was lucky to be surrounded by people that were supportive. My fiance would often play board games with me and that helped a lot. I found that petting my guinea pigs really helped me out too. In the moment, the anxiety felt very intense but I was able to overcome it for the most part. Although it never fully went away, I got better with dealing with it as time went on.  After switching to my sociology major, I found that a lot of my teachers were very nice. The homework got easier for me, and it felt like it was a major that I belonged in. Although I initially wanted to study psychology, sociology was a good compromise. They are two related fields that are similar in some regards. Being in a new and better environment really helped my anxiety too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I first had anxiety, I started having a lot of panic attacks. It was in my last year of college and at the time I was considering changing my major. I was a psychology major, but I wasn't able to pass my math class so I had to switch to sociology. Before the change, I was really nervous and unsure of myself. I tried to find comfort in the familiar stuff in order to cope. When I would get anxious, I was lucky to be surrounded by people that were supportive. My fiance would often play board games with me and that helped a lot. I found that petting my guinea pigs really helped me out too. In the moment, the anxiety felt very intense but I was able to overcome it for the most part. Although it never fully went away, I got better with dealing with it as time went on.  After switching to my sociology major, I found that a lot of my teachers were very nice. The homework got easier for me, and it felt like it was a major that I belonged in. Although I initially wanted to study psychology, sociology was a good compromise. They are two related fields that are similar in some regards. Being in a new and better environment really helped my anxiety too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I started to feel more comfortable and confident. I still have my bad days, but for the most part, I am doing much better."
+            }
+        ],
+        "request_id": "811be169291f3320-EWR"
+    }
+}

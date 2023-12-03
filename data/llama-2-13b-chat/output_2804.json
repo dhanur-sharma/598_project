@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today, I woke up kinda sad. I had had a bad dream, where despite being across the country, and otherwise completely out of my life, Emma broke up with me a second time. It's really been draining me today, the depression. The lack of sleep from that pointless dream doesn't help, and neither does finding mold on my blueberry English muffin from the cafeteria. I ranted about it a bit to the workers, detailing how I told them about it last week. It really upset me, as mold is very much a dangerous thing to ingest. Finding the mold for the first time was just disconcerting, but finding it again less than a week later is just downright disgusting, how little do you have to care as a provider to possibly kill someone? Slowly, I feel more and more like my past regrets and overall despair are beginning to catch up to me, and beginning to tie me down. It really almost feels hellish, and a deep guilt builds up on top of me. Honestly, in relation to the mold event, it caused me to lash out a bit. I kinda wanted to start throwing the bread from the drawer onto the ground, calling out to all the people in the cafeteria to inform them. I think I may just do that if I see it again. I feel bad because it seems heavily childish. Given the amount I am spending for food service though, I don't see it as unreasonable. Hell, I'd do it at a restaurant even. It's not that I don't feel bad or lack empathy for the workers, but that sort of thing simply CANNOT fly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today, I woke up kinda sad. I had had a bad dream, where despite being across the country, and otherwise completely out of my life, Emma broke up with me a second time. It's really been draining me today, the depression. The lack of sleep from that pointless dream doesn't help, and neither does finding mold on my blueberry English muffin from the cafeteria. I ranted about it a bit to the workers, detailing how I told them about it last week. It really upset me, as mold is very much a dangerous thing to ingest. Finding the mold for the first time was just disconcerting, but finding it again less than a week later is just downright disgusting, how little do you have to care as a provider to possibly kill someone? Slowly, I feel more and more like my past regrets and overall despair are beginning to catch up to me, and beginning to tie me down. It really almost feels hellish, and a deep guilt builds up on top of me. Honestly, in relation to the mold event, it caused me to lash out a bit. I kinda wanted to start throwing the bread from the drawer onto the ground, calling out to all the people in the cafeteria to inform them. I think I may just do that if I see it again. I feel bad because it seems heavily childish. Given the amount I am spending for food service though, I don't see it as unreasonable. Hell, I'd do it at a restaurant even. It's not that I don't feel bad or lack empathy for the workers, but that sort of thing simply CANNOT fly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "At the end of the day, I'm just so exhausted and saddened by the whole thing. It really feels like I'm losing myself to my own regrets and despair, and I don't know what to do to stop it."
+            }
+        ],
+        "request_id": "811ebea4cc8842a3-EWR"
+    }
+}

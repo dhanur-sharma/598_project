@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago my youngest son learned he was going to his first choice university. He had been wanted to get into Princeton for a long time. I had told him I would cover the cost if he could get in. He has been working very hard to keep his grades up. He has studied extra after school and on the weekends. He has a good work ethic. When I helped him put in the application Princeton I was not expecting he would be accepted to go to go Princeton. Getting into Princeton is not easy. Princeton is a highly selective university. He did well on the SAT. I read his essay and thought it was well done. I planned a nice day for his birthday.  I made a cake. On his birthday, I went to get the mail and notice Princeton University on one envelope. I took it to my son. I watch as he opened it. It read he was accepted to both our surprises."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago my youngest son learned he was going to his first choice university. He had been wanted to get into Princeton for a long time. I had told him I would cover the cost if he could get in. He has been working very hard to keep his grades up. He has studied extra after school and on the weekends. He has a good work ethic. When I helped him put in the application Princeton I was not expecting he would be accepted to go to go Princeton. Getting into Princeton is not easy. Princeton is a highly selective university. He did well on the SAT. I read his essay and thought it was well done. I planned a nice day for his birthday.  I made a cake. On his birthday, I went to get the mail and notice Princeton University on one envelope. I took it to my son. I watch as he opened it. It read he was accepted to both our surprises.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were both so happy.\n\n"
+            }
+        ],
+        "request_id": "811eb0deeae65e66-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago I had my 31st Birthday and I was thrown a surprise party for the first time in my life. I had no idea that I was going to be thrown this party and I had no idea who was going to be there. The party was thrown by my Aunt with the help of two of my close friends. I usually don't like surprises and this is well known among my friends and family. Despite not liking surprises the perfect planning and inclusion of the correct people made the night a real success. I was really touched by the fact that people were willing to do so much for me. I didn't realize how special of a gesture it was to plan a party for someone without their input. The most memorable part of the evening was when I came up to the balcony and saw all of my friends. I knew they were going to be afraid of my reaction, but I think I was able to act happy enough to convince them I wanted the party. This was also very significant to me because it was a birthday that I was planning on doing nothing for. If my friends asked me to have a party before this event I would definitely have turned down the idea. Another thing that made the even very special were the choices of food and drinks. My friends chose to have Mexican food, and also chose to drink tequila. Mexican food is my favorite type of food and I love when it is paired with Tequila. I think the choices of food and the choices of guests are what made the night so successful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago I had my 31st Birthday and I was thrown a surprise party for the first time in my life. I had no idea that I was going to be thrown this party and I had no idea who was going to be there. The party was thrown by my Aunt with the help of two of my close friends. I usually don't like surprises and this is well known among my friends and family. Despite not liking surprises the perfect planning and inclusion of the correct people made the night a real success. I was really touched by the fact that people were willing to do so much for me. I didn't realize how special of a gesture it was to plan a party for someone without their input. The most memorable part of the evening was when I came up to the balcony and saw all of my friends. I knew they were going to be afraid of my reaction, but I think I was able to act happy enough to convince them I wanted the party. This was also very significant to me because it was a birthday that I was planning on doing nothing for. If my friends asked me to have a party before this event I would definitely have turned down the idea. Another thing that made the even very special were the choices of food and drinks. My friends chose to have Mexican food, and also chose to drink tequila. Mexican food is my favorite type of food and I love when it is paired with Tequila. I think the choices of food and the choices of guests are what made the night so successful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The night ended with a night of dancing and laughing with my closest friends.\n\n"
+            }
+        ],
+        "request_id": "811f2d63fae242d5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Janet was my friend through high school and college. We did everything together! We dated twin brothers, we went to the same college. We were so close, we even moved into the same house together. As soon as I got a boyfriend after college, we started to fade away from each other's lives. I wish that we had kept in contact, but people drift away. I was shocked when my now husband asked me \"Didn't you know Janet?\" and I said \"Man, Janet! Yes! Why?\" and he told me that she had passed away. I was shocked! I went to her funeral and talked to old friends of ours. They started talking about how we all went for coffee and donuts before it became a huge fad with teens. After the funeral, I went to Dunkin Donuts and got a dozen donuts and a large coffee. I sat in the parking lot eating and crying. I wish I could say that that was the only time I did that. It wasn't. I did this every week for months. Sometimes, when I got really sad, I'd do it multiple times. In 3 months, I gained 25 pounds. I knew I had to get a hold of myself. I ended up just getting a donut and a small coffee and eventually cut it down to none of them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Janet was my friend through high school and college. We did everything together! We dated twin brothers, we went to the same college. We were so close, we even moved into the same house together. As soon as I got a boyfriend after college, we started to fade away from each other's lives. I wish that we had kept in contact, but people drift away. I was shocked when my now husband asked me \"Didn't you know Janet?\" and I said \"Man, Janet! Yes! Why?\" and he told me that she had passed away. I was shocked! I went to her funeral and talked to old friends of ours. They started talking about how we all went for coffee and donuts before it became a huge fad with teens. After the funeral, I went to Dunkin Donuts and got a dozen donuts and a large coffee. I sat in the parking lot eating and crying. I wish I could say that that was the only time I did that. It wasn't. I did this every week for months. Sometimes, when I got really sad, I'd do it multiple times. In 3 months, I gained 25 pounds. I knew I had to get a hold of myself. I ended up just getting a donut and a small coffee and eventually cut it down to none of them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so glad that I have my husband and my son now, but I still miss my friend Janet.\n\n"
+            }
+        ],
+        "request_id": "811e8ece28524269-EWR"
+    }
+}

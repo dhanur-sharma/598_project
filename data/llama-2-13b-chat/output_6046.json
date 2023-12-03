@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I fell in love. She always gave me a hug in the morning. It was the best part of the morning. I was always happy to see her. We went to many restaurants. We went one time to a steakhouse. We both got steaks that night. I got a giant ribeye with some mashed potatoes. She got a small sirloin with some green beans. I had beer with my steak. She had wine with her sirloin. The bill was expensive. Another restaurant we went to was a chicken place. I got a full chicken to eat. She got a half chicken to eat. It was pretty good and juicy. The sad part is is that we broke apart. I miss her. I wish I could see her again and be together once more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I fell in love. She always gave me a hug in the morning. It was the best part of the morning. I was always happy to see her. We went to many restaurants. We went one time to a steakhouse. We both got steaks that night. I got a giant ribeye with some mashed potatoes. She got a small sirloin with some green beans. I had beer with my steak. She had wine with her sirloin. The bill was expensive. Another restaurant we went to was a chicken place. I got a full chicken to eat. She got a half chicken to eat. It was pretty good and juicy. The sad part is is that we broke apart. I miss her. I wish I could see her again and be together once more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3dbc5bac0f7c-EWR"
+    }
+}

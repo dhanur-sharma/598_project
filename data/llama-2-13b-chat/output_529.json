@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently got a promotion at the company I've been with for four years. It was completely unexpected as I was told the previous year that my company was unable to give anyone a raise due to financial circumstances. I felt like I had worked very hard and deserved a raise, but when I was told they couldn't afford it, I tried to be understanding. I later found out that the managers and supervisors were all invited by the vice president of the company to go on a nice family vacation, as well as earned an increase in their salaries. Which, made me realize they were full of it when they told us, there employees, that they couldn't afford to give us a raise. They were just keeping the money for themselves. At this point I was ready to look for a job elsewhere. However, I really didn't want to leave my job because I liked the people I work with. And the hours are flexible. Anyway, I found out that a few of my co-workers actually complained to the president of the company, who just so happens to be the vise preseidents father. This is a family run business. And needless to say, his father told his son, the vice president, that he needed to find work elsewhere. Which was a complete shock to all of us. I guess his father was fed up with him too. In the end we all got the raises we should have earned, plus more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently got a promotion at the company I've been with for four years. It was completely unexpected as I was told the previous year that my company was unable to give anyone a raise due to financial circumstances. I felt like I had worked very hard and deserved a raise, but when I was told they couldn't afford it, I tried to be understanding. I later found out that the managers and supervisors were all invited by the vice president of the company to go on a nice family vacation, as well as earned an increase in their salaries. Which, made me realize they were full of it when they told us, there employees, that they couldn't afford to give us a raise. They were just keeping the money for themselves. At this point I was ready to look for a job elsewhere. However, I really didn't want to leave my job because I liked the people I work with. And the hours are flexible. Anyway, I found out that a few of my co-workers actually complained to the president of the company, who just so happens to be the vise preseidents father. This is a family run business. And needless to say, his father told his son, the vice president, that he needed to find work elsewhere. Which was a complete shock to all of us. I guess his father was fed up with him too. In the end we all got the raises we should have earned, plus more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And the vice president was let go. It just goes to show you that if you work hard and stand up for yourself, you can achieve great things.\n\n"
+            }
+        ],
+        "request_id": "811e9369ad52c33a-EWR"
+    }
+}

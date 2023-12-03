@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I hadn't been on a vacation in way too long. I was so thankful when my family invited me to go to Disneyland. I had never been there before. I had always wanted to go but never had the money. I packed my suitcase and headed off to go on the trip. I was so excited. When I got there I couldn't believe it. It was like being taken to a different world. Everything was so amazing there. The castle looked so beautiful. The rides were so amazing. The food was quite expensive but it was still very good. I had a great time. I now see why they refer to this as the happiest place on earth. I can't remember the last time I was so happy in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I hadn't been on a vacation in way too long. I was so thankful when my family invited me to go to Disneyland. I had never been there before. I had always wanted to go but never had the money. I packed my suitcase and headed off to go on the trip. I was so excited. When I got there I couldn't believe it. It was like being taken to a different world. Everything was so amazing there. The castle looked so beautiful. The rides were so amazing. The food was quite expensive but it was still very good. I had a great time. I now see why they refer to this as the happiest place on earth. I can't remember the last time I was so happy in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3f78cbf219f7-EWR"
+    }
+}

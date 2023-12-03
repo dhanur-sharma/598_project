@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My Mom in law was my best friend. We were very close. She was diagnosed with cancer in Febuary and passed April 5, 2019. I miss her so much. The funeral was very nice. So many people there, many I didn't even know.  She looked beautiful and peaceful dressed in her full western gear...Many friends she danced with came to pay their respects. Her children were there and they looked lost. So many people all sad and missing her. My children wanting to see her again one more time, I wanting to talk to heer one last time, my friend. It was a nice service, nice weather but a really sad day for us as a family having to say goodbye. We all will miss her everyday. She was the head of our family. She will be missed. I cannot believe she is gone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My Mom in law was my best friend. We were very close. She was diagnosed with cancer in Febuary and passed April 5, 2019. I miss her so much. The funeral was very nice. So many people there, many I didn't even know.  She looked beautiful and peaceful dressed in her full western gear...Many friends she danced with came to pay their respects. Her children were there and they looked lost. So many people all sad and missing her. My children wanting to see her again one more time, I wanting to talk to heer one last time, my friend. It was a nice service, nice weather but a really sad day for us as a family having to say goodbye. We all will miss her everyday. She was the head of our family. She will be missed. I cannot believe she is gone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8b23ef00182d-EWR"
+    }
+}

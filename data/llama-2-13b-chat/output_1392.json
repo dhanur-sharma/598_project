@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember waking up in the morning soaking wet. I couldn't see anything because it was still before the sun came up, so I had to walk slowly and feel my way over to the bathroom. When I finally got there, I turned the light on and saw that the wetness was from blood dripping down my legs. I shouted for my husband and we immediately drove to the hospital. I was 8 months pregnant so, I was worried that I had possibly lost the baby, and the blood was the sign. As soon as we got to the hospital, I was checked to see if I was dilated at all. They immediately informed me I was 8 centimeters dilated and needed to be admitted to give birth. I immediately was given the epidural, so after a while I didn't feel any pain, thank goodness. Little by little my family started trickling into the room to be there for the delivery. I was only there for about ten minutes before my doctor showed up. She walked out of the room for a second and then came back to pop my water. As soon as that was done, the contractions sped up, and I was ready to start pushing within the next twenty minutes. I started pushing once I was told to. The pushing only lasted about ten minutes before my son was born. It was such an incredible experience that I will never forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember waking up in the morning soaking wet. I couldn't see anything because it was still before the sun came up, so I had to walk slowly and feel my way over to the bathroom. When I finally got there, I turned the light on and saw that the wetness was from blood dripping down my legs. I shouted for my husband and we immediately drove to the hospital. I was 8 months pregnant so, I was worried that I had possibly lost the baby, and the blood was the sign. As soon as we got to the hospital, I was checked to see if I was dilated at all. They immediately informed me I was 8 centimeters dilated and needed to be admitted to give birth. I immediately was given the epidural, so after a while I didn't feel any pain, thank goodness. Little by little my family started trickling into the room to be there for the delivery. I was only there for about ten minutes before my doctor showed up. She walked out of the room for a second and then came back to pop my water. As soon as that was done, the contractions sped up, and I was ready to start pushing within the next twenty minutes. I started pushing once I was told to. The pushing only lasted about ten minutes before my son was born. It was such an incredible experience that I will never forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The look on my husband's face was priceless.\n\n"
+            }
+        ],
+        "request_id": "811ea3e27ca217fd-EWR"
+    }
+}

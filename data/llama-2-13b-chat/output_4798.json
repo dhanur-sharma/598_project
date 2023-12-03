@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Around the beginning of summer, 3 months ago, my girlfriend asked if we could go to the beach for the weekend.  Our son just turned one, so this would be our official first family vacation. I told her yes, and we packed for a weekend of fun.  Mutual friends of ours owned a beach house that was on a fairly private part of the beach.  We had most of the sand to ourselves.  Our friends wouldn't be there that weekend, but they gave us the keys to the house to use.  It was such a relaxing time and really brought my girlfriend and I closer as we watched our toddler fumble in the sand.  He enjoyed building castles.  When the waves would crash on shore, he would giggle in delight.  In the evenings, we would walk along the shoreline.  Our son would gather seashells in his little plastic bucket.  On our last evening there, our friends surprised us with their own toddler in tow.  We had an amazing night sitting outside and telling stories.  When morning came, we did one more walk along the shore before packing up to go home.  I can't wait to take my little family back next summer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Around the beginning of summer, 3 months ago, my girlfriend asked if we could go to the beach for the weekend.  Our son just turned one, so this would be our official first family vacation. I told her yes, and we packed for a weekend of fun.  Mutual friends of ours owned a beach house that was on a fairly private part of the beach.  We had most of the sand to ourselves.  Our friends wouldn't be there that weekend, but they gave us the keys to the house to use.  It was such a relaxing time and really brought my girlfriend and I closer as we watched our toddler fumble in the sand.  He enjoyed building castles.  When the waves would crash on shore, he would giggle in delight.  In the evenings, we would walk along the shoreline.  Our son would gather seashells in his little plastic bucket.  On our last evening there, our friends surprised us with their own toddler in tow.  We had an amazing night sitting outside and telling stories.  When morning came, we did one more walk along the shore before packing up to go home.  I can't wait to take my little family back next summer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bde1f688c43c7-EWR"
+    }
+}

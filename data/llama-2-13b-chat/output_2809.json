@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Earlier this year I went to a family reunion. I flew to the family reunion to SC. SC is my home state but I live in CA now. I was very happy to see family. The event was hosted at a family member's home. He has a pool and a nice area in his backyard to host. There were maybe 30 people or so present. It was nice as I hadn't seen many since the last reunion. We met and talked on what was a Saturday, around noon. A little after noon the food was ready. We mainly had grilled burgers and dogs. We played games such cornhole and threw the football around. We talked about what was going on in our lives. We also talked a lot about days in the past. We joked around a lot. We very much enjoyed each other's company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Earlier this year I went to a family reunion. I flew to the family reunion to SC. SC is my home state but I live in CA now. I was very happy to see family. The event was hosted at a family member's home. He has a pool and a nice area in his backyard to host. There were maybe 30 people or so present. It was nice as I hadn't seen many since the last reunion. We met and talked on what was a Saturday, around noon. A little after noon the food was ready. We mainly had grilled burgers and dogs. We played games such cornhole and threw the football around. We talked about what was going on in our lives. We also talked a lot about days in the past. We joked around a lot. We very much enjoyed each other's company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were happy to be together and catch up. After eating and playing we spent some time just talking. It was a great day."
+            }
+        ],
+        "request_id": "811ebec06b065e80-EWR"
+    }
+}

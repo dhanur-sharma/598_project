@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was biking with my usual group of friends. We go mountain biking every week. I was having a good time when my bike went out from under me and I slammed down onto my collar bone, breaking it and also some ribs. I was overcome with pain at the time, and just lay there helpless and really afraid of what damage I'd just done to my body. When the shock of the fall wore off and I became aware of my surroundings, I saw my circle of friends around me, busily assessing the situation and arranging for help, calling 911, asking if I was OK, etc. The ambulance ride was a blur, and I was taken to the hospital 30 minutes away. Later my family and some friends all came to the hospital, surrounding my with smiles and concern, and trying to make me smile and laugh. I was in so much physical pain when the fall happened, and whenever the pain meds would wear off at the hospital. But the support of everyone, my friends and family, was so great it just felt like my heart was full of good feelings and love for these people. I really felt so supported and cared for. It was weird to be the center of all that attention. I felt surprised at all the concern being shown for me. I guess in retrospect it's silly to be surprised by that. Of course I would have done the same for any of them. Yet still I was so touched that they all cared about me and showed so much concern."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was biking with my usual group of friends. We go mountain biking every week. I was having a good time when my bike went out from under me and I slammed down onto my collar bone, breaking it and also some ribs. I was overcome with pain at the time, and just lay there helpless and really afraid of what damage I'd just done to my body. When the shock of the fall wore off and I became aware of my surroundings, I saw my circle of friends around me, busily assessing the situation and arranging for help, calling 911, asking if I was OK, etc. The ambulance ride was a blur, and I was taken to the hospital 30 minutes away. Later my family and some friends all came to the hospital, surrounding my with smiles and concern, and trying to make me smile and laugh. I was in so much physical pain when the fall happened, and whenever the pain meds would wear off at the hospital. But the support of everyone, my friends and family, was so great it just felt like my heart was full of good feelings and love for these people. I really felt so supported and cared for. It was weird to be the center of all that attention. I felt surprised at all the concern being shown for me. I guess in retrospect it's silly to be surprised by that. Of course I would have done the same for any of them. Yet still I was so touched that they all cared about me and showed so much concern.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know it's a biking accident, but I feel so lucky to have such a supportive community of friends and family.\n\n"
+            }
+        ],
+        "request_id": "811ed079fbcc32e8-EWR"
+    }
+}

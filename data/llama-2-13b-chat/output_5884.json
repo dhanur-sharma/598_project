@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 weeks ago my son and I went on a trip to see my sister in law and his cousins. We stayed for four nights and did a lot of stuff. When we got there everyone was hugging and having a good time seeing each other. We had some plans to go camping, and had some plans to have a few bone fires. When we got there on the first night we didn't really do much. But the following day we decided to go fishing, things were really fun. My son caught a few big fish, and myself and my sister in law had a few beers, overall it was a good first day. Everyone enjoyed the first night. On the second night we ended up just making a big dinner and that night we did the bonefire thing. The third night we did mostly the same thing, but we ended up going swimming. The last night was a sad one saying goodbye to everyone, but it was a good time for everyone. Nothing was too different from every other trip. But things were a little different this time. All in a good way. We all enjoyed each other. And I want to do it again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 weeks ago my son and I went on a trip to see my sister in law and his cousins. We stayed for four nights and did a lot of stuff. When we got there everyone was hugging and having a good time seeing each other. We had some plans to go camping, and had some plans to have a few bone fires. When we got there on the first night we didn't really do much. But the following day we decided to go fishing, things were really fun. My son caught a few big fish, and myself and my sister in law had a few beers, overall it was a good first day. Everyone enjoyed the first night. On the second night we ended up just making a big dinner and that night we did the bonefire thing. The third night we did mostly the same thing, but we ended up going swimming. The last night was a sad one saying goodbye to everyone, but it was a good time for everyone. Nothing was too different from every other trip. But things were a little different this time. All in a good way. We all enjoyed each other. And I want to do it again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f3a64d9b2421c-EWR"
+    }
+}

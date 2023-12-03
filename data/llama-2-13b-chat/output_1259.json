@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: January 9, 2020Two weeks ago, I spotted a cat at the store. It was December 26, 2019. Last year! The cat stayed outside. It was very wary about being approached. I felt a lot of pity and compassion for the poor thing. It was afraid of me and became nervous whenever I approached. I decided to leave the cat alone, but she stayed in my thoughts. The next two times I went to the store, I saw the cat again. Each time she seemed to be warming up to me a little bit. The next time I visited the store, I brought Len with me. He became very attached to the cat, and the cat responded very affectionately towards him (maybe she doesn't like women?). We agreed to adopt the cat. We have named him Sam, because he turned out to be male. He is very happy with us so far."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: January 9, 2020Two weeks ago, I spotted a cat at the store. It was December 26, 2019. Last year! The cat stayed outside. It was very wary about being approached. I felt a lot of pity and compassion for the poor thing. It was afraid of me and became nervous whenever I approached. I decided to leave the cat alone, but she stayed in my thoughts. The next two times I went to the store, I saw the cat again. Each time she seemed to be warming up to me a little bit. The next time I visited the store, I brought Len with me. He became very attached to the cat, and the cat responded very affectionately towards him (maybe she doesn't like women?). We agreed to adopt the cat. We have named him Sam, because he turned out to be male. He is very happy with us so far.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We have had him for a week now, and he has adjusted well. He has already started to play with toys and is quite the cuddler. I'm so glad we decided to adopt him."
+            }
+        ],
+        "request_id": "811ea13bed018c93-EWR"
+    }
+}

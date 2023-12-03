@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One month ago I was in a local coffee shop I go to many days during the week. I was doing my usual routine of getting coffee. I went to the bathroom and left my laptop on the table where I was sitting. When I came back my laptop was gone. At first I thought I forgot where I was sitting. I got very nervous when I realized my laptop was gone. I asked the employee if they saw anyone take my laptop. They said they did notice anything. I was upset. I know I do not have the money to replace the laptop. I called mom when I got home to tell her what happened. She knows my financial situation. Later that same day mom made a visit to my apartment. She was carrying a box that looked like the box my old laptop came in. Mom had gone to the store and bought me a new laptop exactly like the one stolen earlier today. I was surprised she would buy me a new laptop. Her financial situation is not that good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One month ago I was in a local coffee shop I go to many days during the week. I was doing my usual routine of getting coffee. I went to the bathroom and left my laptop on the table where I was sitting. When I came back my laptop was gone. At first I thought I forgot where I was sitting. I got very nervous when I realized my laptop was gone. I asked the employee if they saw anyone take my laptop. They said they did notice anything. I was upset. I know I do not have the money to replace the laptop. I called mom when I got home to tell her what happened. She knows my financial situation. Later that same day mom made a visit to my apartment. She was carrying a box that looked like the box my old laptop came in. Mom had gone to the store and bought me a new laptop exactly like the one stolen earlier today. I was surprised she would buy me a new laptop. Her financial situation is not that good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She said she wanted to help me out and that she knew how important my laptop was to me. I was very grateful.\n\n"
+            }
+        ],
+        "request_id": "811bd184fcb343f1-EWR"
+    }
+}

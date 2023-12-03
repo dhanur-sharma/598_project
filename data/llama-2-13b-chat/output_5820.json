@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been a little over 2 years since my daughter Jane's hospitalization. She is doing much better. Her last surgery for her facial reconstruction was last month. We are praying that is truly the last surgery she needs. Her face is looking back to normal finally. I will never forget the day I got that phone call. Jane was in the hospital. She had been badly beaten by her boyfriend. He had gotten drunk and started accusing her of cheating on him, and then he just snapped and beat the life out of her. When I got to the hospital I lost it. Seeing my baby in that hospital bed. Her entire face was one giant bruise. She was so swollen she couldn't open her eyes or talk. They had her sedated to relieve the pain and give her a chance to heal. I sat by her bedside for days crying. She had told me several times that her boyfriend was abusive. I never took it seriously. I don't know why. I thought she was being dramatic. Her boyfriend always seemed so sweet and respectful. Now I sat here thanking God that she was still alive, but knowing it was partially my fault. I should have told her to move back in with me. I should have done something. I still can't forgive myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been a little over 2 years since my daughter Jane's hospitalization. She is doing much better. Her last surgery for her facial reconstruction was last month. We are praying that is truly the last surgery she needs. Her face is looking back to normal finally. I will never forget the day I got that phone call. Jane was in the hospital. She had been badly beaten by her boyfriend. He had gotten drunk and started accusing her of cheating on him, and then he just snapped and beat the life out of her. When I got to the hospital I lost it. Seeing my baby in that hospital bed. Her entire face was one giant bruise. She was so swollen she couldn't open her eyes or talk. They had her sedated to relieve the pain and give her a chance to heal. I sat by her bedside for days crying. She had told me several times that her boyfriend was abusive. I never took it seriously. I don't know why. I thought she was being dramatic. Her boyfriend always seemed so sweet and respectful. Now I sat here thanking God that she was still alive, but knowing it was partially my fault. I should have told her to move back in with me. I should have done something. I still can't forgive myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But Jane is strong. She is a fighter. She is doing so much better now. She is still in pain but she is determined to move on and make a good life for herself. She has even started dating again. I am so proud of her."
+            }
+        ],
+        "request_id": "811f39174dd2184d-EWR"
+    }
+}

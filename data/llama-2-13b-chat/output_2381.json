@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: While camping this summer, I was scalded by boiling water. I was boiling water with my hiking stove to prepare oatmeal for breakfast. A gust of wind blew over the windscreen set up around the stove and toppled the pot of water off of the stove. The water was forced out of the pot and onto my abdomen. Fortunately, I had cell service and called 911. I was instructed to put cold water on the burn while I waited for the ambulance to arrive, but the only thing I had available was a cold bottle of Gatorade. I held the cold bottle to my abdomen while the dispatcher was trying to figure out exactly where I was located. My call had hit a cell tower in a different county. It took the ambulance 30 minutes to get to me and another 30 minutes to get me to the hospital. The wait seemed like an eternity, and I was feeling the worst pain I ever felt in my life. The emergency department doctor told me I had second and third degree burns over 45 percent of my abdomen. I passed out immediately after they gave me a shot of morphine. When I woke up, I no longer felt pain. They put a special ointment on my burn that totally relieved the pain. I needed to get back to my campsite, where my vehicle was located. The hospital called a taxi for me, and I was sent back to my primitive campsite. I felt very weak and could not pack my camping gear into my vehicle, so I ended up sleeping in my hammock. I spent two days in that hammock, trying to get the strength for the two and a half hour drive home. When I finally arrived home, I had to go to another emergency room to have my burn cleaned. It was one of the scariest experiences of my life, and I am still recovering from my burn both physically and emotionally."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: While camping this summer, I was scalded by boiling water. I was boiling water with my hiking stove to prepare oatmeal for breakfast. A gust of wind blew over the windscreen set up around the stove and toppled the pot of water off of the stove. The water was forced out of the pot and onto my abdomen. Fortunately, I had cell service and called 911. I was instructed to put cold water on the burn while I waited for the ambulance to arrive, but the only thing I had available was a cold bottle of Gatorade. I held the cold bottle to my abdomen while the dispatcher was trying to figure out exactly where I was located. My call had hit a cell tower in a different county. It took the ambulance 30 minutes to get to me and another 30 minutes to get me to the hospital. The wait seemed like an eternity, and I was feeling the worst pain I ever felt in my life. The emergency department doctor told me I had second and third degree burns over 45 percent of my abdomen. I passed out immediately after they gave me a shot of morphine. When I woke up, I no longer felt pain. They put a special ointment on my burn that totally relieved the pain. I needed to get back to my campsite, where my vehicle was located. The hospital called a taxi for me, and I was sent back to my primitive campsite. I felt very weak and could not pack my camping gear into my vehicle, so I ended up sleeping in my hammock. I spent two days in that hammock, trying to get the strength for the two and a half hour drive home. When I finally arrived home, I had to go to another emergency room to have my burn cleaned. It was one of the scariest experiences of my life, and I am still recovering from my burn both physically and emotionally.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb5932ed43308-EWR"
+    }
+}

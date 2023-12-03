@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago my cousin came to visit us. He came down from his military base up north. We have a tradition of drinking a bottle of wine each every time he comes to visit. This time we decided to hike to the nearest graveyard soon after he got here. This time after we both drank our wine bottles. So around 2am or so, we both sneak out of the house and start walking towards the graveyard. The graveyard was pretty far, around a mile or so away. There is a shortcut through a wooded section that saves a little bit of time, and we decided to use that. It was very dark and quiet in the woods. About half way through the shortcut, we heard a coyote howl that sounded pretty close. Needless to say, it made us both jump and we picked up speed to be out of the woods quicker. After getting outside the woods we slowed down again. When we got to the graveyard, there was several bats flying around making chirping noises. It was really cool seeing them out like that. I remember we both enjoyed it a lot."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago my cousin came to visit us. He came down from his military base up north. We have a tradition of drinking a bottle of wine each every time he comes to visit. This time we decided to hike to the nearest graveyard soon after he got here. This time after we both drank our wine bottles. So around 2am or so, we both sneak out of the house and start walking towards the graveyard. The graveyard was pretty far, around a mile or so away. There is a shortcut through a wooded section that saves a little bit of time, and we decided to use that. It was very dark and quiet in the woods. About half way through the shortcut, we heard a coyote howl that sounded pretty close. Needless to say, it made us both jump and we picked up speed to be out of the woods quicker. After getting outside the woods we slowed down again. When we got to the graveyard, there was several bats flying around making chirping noises. It was really cool seeing them out like that. I remember we both enjoyed it a lot.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We spent some time walking around the graveyard, taking it all in. Then we headed back home. I remember feeling pretty good and content after the hike.\n\n"
+            }
+        ],
+        "request_id": "811f454a98f14386-EWR"
+    }
+}

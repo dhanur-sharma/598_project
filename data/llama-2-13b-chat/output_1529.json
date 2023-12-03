@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went on our first date to the movie theater. I was very nervous about it. I live in a small town so this was one of only a few options for our date. It turned out to be perfect though because we focused on the movie once it started. Then during the movie his mom showed up. She sat in the row right behind us. This made us even more nervous than we already were. The movie we were watching was Toy Story Four. The movie was really good. We both enjoyed it. We did not do much talking once the movie started. I think this made things easier for us in the long run. This was because this was the first time we met in person. He was from a town right outside of mine. Overall we had a very good time together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went on our first date to the movie theater. I was very nervous about it. I live in a small town so this was one of only a few options for our date. It turned out to be perfect though because we focused on the movie once it started. Then during the movie his mom showed up. She sat in the row right behind us. This made us even more nervous than we already were. The movie we were watching was Toy Story Four. The movie was really good. We both enjoyed it. We did not do much talking once the movie started. I think this made things easier for us in the long run. This was because this was the first time we met in person. He was from a town right outside of mine. Overall we had a very good time together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We will go on another date soon. I hope that the next date goes just as well.\n\n"
+            }
+        ],
+        "request_id": "811ea67818744399-EWR"
+    }
+}

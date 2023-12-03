@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: yes,i was involved in a prejudice act by my head of department. i am a medical surgeon. i was posted to a new health centre. But the professor in charge hated me. this event is awful for me. i am always in thought. he sends me out of the operating room. during any operation i watch from the stand. he wants to destroy my dream. he wants me to quit my profession. i am disturb with this act. i feel like commiting suicide most time. i feel rejected. i feel useful. i feel like i am not successful yet. he has been awful to me and my dream at large,but i will not call it quit on my dream. i will keep pushing hard for the opportunity with the surgical team."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: yes,i was involved in a prejudice act by my head of department. i am a medical surgeon. i was posted to a new health centre. But the professor in charge hated me. this event is awful for me. i am always in thought. he sends me out of the operating room. during any operation i watch from the stand. he wants to destroy my dream. he wants me to quit my profession. i am disturb with this act. i feel like commiting suicide most time. i feel rejected. i feel useful. i feel like i am not successful yet. he has been awful to me and my dream at large,but i will not call it quit on my dream. i will keep pushing hard for the opportunity with the surgical team.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "i will keep pushing for my dream. i will not let him win.\n\n"
+            }
+        ],
+        "request_id": "811f3a1deb178c8a-EWR"
+    }
+}

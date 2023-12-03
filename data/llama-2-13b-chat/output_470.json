@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After my accident I became more cautious about the way I drive.  On that raining faithful night I survived unharmed.    Days after I became more aware of my driving habits.  I soon became more aware of my surroundings while driving.  If I was in traffic I slowed down.  If I was near other cars I really became more aware of my speed.  I also payed more attention to the position of my truck related to the other cars.  I noticed if I was in the center of the lane.  I noticed if I was too far right or too far left.  I tried to stay in the middle of the traveling lane as much as possible.  I noticed other changes as well.  I seem to enjoy my drive even more reflecting on how I should enjoy life. I noticed how good each day and complained less.  My drive home after work did not seem that bad any more.  I appreciate the small joys in life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After my accident I became more cautious about the way I drive.  On that raining faithful night I survived unharmed.    Days after I became more aware of my driving habits.  I soon became more aware of my surroundings while driving.  If I was in traffic I slowed down.  If I was near other cars I really became more aware of my speed.  I also payed more attention to the position of my truck related to the other cars.  I noticed if I was in the center of the lane.  I noticed if I was too far right or too far left.  I tried to stay in the middle of the traveling lane as much as possible.  I noticed other changes as well.  I seem to enjoy my drive even more reflecting on how I should enjoy life. I noticed how good each day and complained less.  My drive home after work did not seem that bad any more.  I appreciate the small joys in life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "  I also noticed I have a new appreciation for the road and my vehicle.  I notice the road conditions and how the car reacts to them.  I am grateful that I am still here to experience all of this.  I also noticed I have a new appreciation for the road and my vehicle.  I notice the road conditions and how the car reacts to them.  I am grateful that I am still here to experience all of this.\n\n"
+            }
+        ],
+        "request_id": "811e924dab675e80-EWR"
+    }
+}

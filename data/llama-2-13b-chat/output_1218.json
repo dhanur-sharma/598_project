@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I was in a wreck.  Thankfully, no one was seriously injured, but I was very frightened and upset.  Actually, I was in shock.  This was the first time I had ever been in an accident and I really hope it's the last time.  A man freaked out because he was surrounded by a motorcycle on each side of him and that caused the accident. My perspectiveAuto accidents can be very distressing.  When I was in my teens, my car was hit by a drunk driver while I was driving to a friend's house.  I was alone in the car.  It happened so quickly and so unexpectedly, I didn't have time to react or try to avoid being hit. He knocked my vehicle off the road and into a wooded area.  The windshield shattered, and several pieces of glass fell onto my lap.  I remember feeling stunned when it was over.  My hands were trembling and I couldn't open my car door - it had been pushed in too hard.  Several cars that witnessed the accident stopped to check on me, for which I was very grateful. The police arrived on the scene quickly.  They had to pry the driver side door off my car to get me out.  I still can't believe I wasn't seriously injured.  The police were rather aggressive with the other drive as it became very apparent that he was drunk.  They arrested him and took him away and then another officer very kindly drove me home, since my car was un-driveable. Writing the short summary about someone else's accident brought this memory rather vividly back to life for me.  Not the most pleasant experience of my life, but again, I was thankful neither I, nor the other driver, was seriously hurt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I was in a wreck.  Thankfully, no one was seriously injured, but I was very frightened and upset.  Actually, I was in shock.  This was the first time I had ever been in an accident and I really hope it's the last time.  A man freaked out because he was surrounded by a motorcycle on each side of him and that caused the accident. My perspectiveAuto accidents can be very distressing.  When I was in my teens, my car was hit by a drunk driver while I was driving to a friend's house.  I was alone in the car.  It happened so quickly and so unexpectedly, I didn't have time to react or try to avoid being hit. He knocked my vehicle off the road and into a wooded area.  The windshield shattered, and several pieces of glass fell onto my lap.  I remember feeling stunned when it was over.  My hands were trembling and I couldn't open my car door - it had been pushed in too hard.  Several cars that witnessed the accident stopped to check on me, for which I was very grateful. The police arrived on the scene quickly.  They had to pry the driver side door off my car to get me out.  I still can't believe I wasn't seriously injured.  The police were rather aggressive with the other drive as it became very apparent that he was drunk.  They arrested him and took him away and then another officer very kindly drove me home, since my car was un-driveable. Writing the short summary about someone else's accident brought this memory rather vividly back to life for me.  Not the most pleasant experience of my life, but again, I was thankful neither I, nor the other driver, was seriously hurt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It's not fun to be in a car accident."
+            }
+        ],
+        "request_id": "811e9ff46cf4c425-EWR"
+    }
+}

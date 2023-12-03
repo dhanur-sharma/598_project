@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had gone grocery shopping that day, but it was raining when I got home so I only brought the groceries inside and I left my school bag with my computer in the car. I forgot to go back out to get my school bag, and left it in my car over night. However, during the night someone came and stole my laptop out of my car! I freaked out and called my mom to ask her what to do. She said to call the cops, so that's exactly what I did. The officer was very nice, but I could tell he thought I was stupid for having left my car unlocked. I asked him what I could do to try to get my computer back, and he said I would need the product ID number. I tried everything I could think of but I could not find that number. I will likely never see that computer again, but I got a new laptop that is serving me fine. The worst part of the whole situation was that my school flash drive was in the laptop case and thus was stolen, too. I still find files that I no longer have because of this event. I think the most memorable part was the act of calling my mom and waiting for the police officers to arrive. To me this was a pretty major learning experience that taught me to be careful when living in a big city. I am definitely more careful about making sure my car is locked. I think overall, though this experience was negative, I learned from it and also got a new computer from my insurance money."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had gone grocery shopping that day, but it was raining when I got home so I only brought the groceries inside and I left my school bag with my computer in the car. I forgot to go back out to get my school bag, and left it in my car over night. However, during the night someone came and stole my laptop out of my car! I freaked out and called my mom to ask her what to do. She said to call the cops, so that's exactly what I did. The officer was very nice, but I could tell he thought I was stupid for having left my car unlocked. I asked him what I could do to try to get my computer back, and he said I would need the product ID number. I tried everything I could think of but I could not find that number. I will likely never see that computer again, but I got a new laptop that is serving me fine. The worst part of the whole situation was that my school flash drive was in the laptop case and thus was stolen, too. I still find files that I no longer have because of this event. I think the most memorable part was the act of calling my mom and waiting for the police officers to arrive. To me this was a pretty major learning experience that taught me to be careful when living in a big city. I am definitely more careful about making sure my car is locked. I think overall, though this experience was negative, I learned from it and also got a new computer from my insurance money.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd19a3d3932fc-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago I get a call from my daughter saying that she saw Peanut in a yard. Peanut is our dog and he had been missing for quite some time. I quickly hurried home to grab her and then we headed over to where she thought she saw him. He's a rotty without the tail docked so he's pretty unique to his breed. We get there and I start investigating. I don't see Peanut and I start to think my daughter is just going through the grieving stage when I hear a cry. All of a sudden Peanut comes running to the fence, crying and wagging his tail in joy. I greet him with all the affection in the world as he had been gone for three months already. The man who owns the house hears the fuss and comes outside. I thank him for finding my dog and taking good care of him but he insists that he had the dog for years and that I can't have him. I tell him that this is none other than my dog and all we have to do is check the chip to verify. He is having none of it and calls the police. I tell him that he is more than welcome and that will help solve the situation sooner. The police arrive and hear the story for themselves. They then check the chip and sure enough my story checks out. They let me take Peanut home and I scoop him up and put him in the car so he can get back to his true home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago I get a call from my daughter saying that she saw Peanut in a yard. Peanut is our dog and he had been missing for quite some time. I quickly hurried home to grab her and then we headed over to where she thought she saw him. He's a rotty without the tail docked so he's pretty unique to his breed. We get there and I start investigating. I don't see Peanut and I start to think my daughter is just going through the grieving stage when I hear a cry. All of a sudden Peanut comes running to the fence, crying and wagging his tail in joy. I greet him with all the affection in the world as he had been gone for three months already. The man who owns the house hears the fuss and comes outside. I thank him for finding my dog and taking good care of him but he insists that he had the dog for years and that I can't have him. I tell him that this is none other than my dog and all we have to do is check the chip to verify. He is having none of it and calls the police. I tell him that he is more than welcome and that will help solve the situation sooner. The police arrive and hear the story for themselves. They then check the chip and sure enough my story checks out. They let me take Peanut home and I scoop him up and put him in the car so he can get back to his true home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I can't thank the man enough for taking care of him for so long but I'm just glad I get to keep my furry little friend."
+            }
+        ],
+        "request_id": "811e98bd9d2cc32c-EWR"
+    }
+}

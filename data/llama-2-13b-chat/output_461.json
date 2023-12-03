@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my best friend's daughter's first birthday party. It was at her new house. Only family was invited. I felt very happy, excited, and grateful to be invited. It was very significant to me to be asked to come. It is her first baby and we have known each other for 20 years now.  She has known all three of my kids since birth, so I would have felt bad to be excluded. What was surprising was how much the baby was able to interact with us. It was the first time I heard her talking. She absolutely loved my 6 year old daughter there to play with her. I also got to catch up with another old friend who has a toddler now too. The cake was made by my friend and was beautiful. It was rainbow layers with marshmallows on top for clouds and candy rainbows on those. It was fun to see the baby have her \"smash cake.\" It brought back memories of my kids first birthday. The party filled me with warmth and nostalgia."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my best friend's daughter's first birthday party. It was at her new house. Only family was invited. I felt very happy, excited, and grateful to be invited. It was very significant to me to be asked to come. It is her first baby and we have known each other for 20 years now.  She has known all three of my kids since birth, so I would have felt bad to be excluded. What was surprising was how much the baby was able to interact with us. It was the first time I heard her talking. She absolutely loved my 6 year old daughter there to play with her. I also got to catch up with another old friend who has a toddler now too. The cake was made by my friend and was beautiful. It was rainbow layers with marshmallows on top for clouds and candy rainbows on those. It was fun to see the baby have her \"smash cake.\" It brought back memories of my kids first birthday. The party filled me with warmth and nostalgia.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e92228b2a1902-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The trip to the hospital seemed to take forever. I struggled because of my weight and because there was no one there to help me. I had called my husband on the phone but he did not pick up. I called my mother as well,  but it made more sense for her to meet me at the hospital. My best friend lived next door and was on her way over. Once my friend got there everything seemed to go a lot easier. She put me in her car and we were on our way. The pain was intermittent but intense. I could not really believe the day had finally arrived. Where was my husband? Why hadn't he picked up? Didn't we agree to be on high alert? My friend pulled into the emergency entrance and they wheeled me into the hospital room. They told me my doctor was on her way. I couldn't find my phone. What had they done with it. It felt like I would be having this baby any second. But it was actually still a few hours away. My husband got to the hospital; so did my mom. Giving birth seemed a lot easier to me than being pregnant. It went by very quickly. Holding my son was the best thing that ever happened to me. I was a mother. Life was good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The trip to the hospital seemed to take forever. I struggled because of my weight and because there was no one there to help me. I had called my husband on the phone but he did not pick up. I called my mother as well,  but it made more sense for her to meet me at the hospital. My best friend lived next door and was on her way over. Once my friend got there everything seemed to go a lot easier. She put me in her car and we were on our way. The pain was intermittent but intense. I could not really believe the day had finally arrived. Where was my husband? Why hadn't he picked up? Didn't we agree to be on high alert? My friend pulled into the emergency entrance and they wheeled me into the hospital room. They told me my doctor was on her way. I couldn't find my phone. What had they done with it. It felt like I would be having this baby any second. But it was actually still a few hours away. My husband got to the hospital; so did my mom. Giving birth seemed a lot easier to me than being pregnant. It went by very quickly. Holding my son was the best thing that ever happened to me. I was a mother. Life was good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec274fe1541ec-EWR"
+    }
+}

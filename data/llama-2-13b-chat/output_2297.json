@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This year was my 50th birthday.  To celebrate, I thought of a number of possible things to do.  I thought about having a party.  I thought about a small, intimate dinner with close friends.  But at the end of the day, I just thought I wanted to relax.  I went to the spa and felt extremely relaxed afterwards.  So in my mind, that was enough of a celebration for me -- I was able to have 'me' time and relax.  At the last minutes, my husband asked if I wanted to go to Las Vegas.  Of course I said yes!  My husband made the arrangements so I did not know where we would be staying.  When we arrived at the hotel, my husband took forever checking us into our room.  To my surprise, we stayed on a premier level of the hotel that had limited access.  The room was very spacious and had a really nice view of the Las Vegas strip.  Throughout our stay, we went to several restaurants that we had never been to before for dinner.  We usually do not spend a lot of money on dinner but since it was my birthday, we did something different.  Each restaurant was nice and I really enjoyed the food.  When I look back at this trip and my birthday, I don't think I would change anything about it!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This year was my 50th birthday.  To celebrate, I thought of a number of possible things to do.  I thought about having a party.  I thought about a small, intimate dinner with close friends.  But at the end of the day, I just thought I wanted to relax.  I went to the spa and felt extremely relaxed afterwards.  So in my mind, that was enough of a celebration for me -- I was able to have 'me' time and relax.  At the last minutes, my husband asked if I wanted to go to Las Vegas.  Of course I said yes!  My husband made the arrangements so I did not know where we would be staying.  When we arrived at the hotel, my husband took forever checking us into our room.  To my surprise, we stayed on a premier level of the hotel that had limited access.  The room was very spacious and had a really nice view of the Las Vegas strip.  Throughout our stay, we went to several restaurants that we had never been to before for dinner.  We usually do not spend a lot of money on dinner but since it was my birthday, we did something different.  Each restaurant was nice and I really enjoyed the food.  When I look back at this trip and my birthday, I don't think I would change anything about it!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb403f81d4297-EWR"
+    }
+}

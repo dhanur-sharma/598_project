@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last summer I and my extended family members were in my cousin's graduation ceremony. We were very excited about it. It was one of the most fun experiences I ever had. We were there from the morning till late afternoon. I remember it was all exciting and lively. Everyone was very happy and proud about the graduating students. We all congratulated the graduates and walked around the campus. At the university stadium, where the graduation ceremony was conducted, we had a chance to watch a talent show. The talent show was at the end of the graduation ceremony. All the participants were current students. I couldn't believe some of them were performing as good as professional artists. Some of them sang some popular songs and the guests were really excited about it. In his address the university president thanked us all. I believe all the guests had a very high impression of my cousin's university. The entire event was a once-in-a-lifetime experience for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last summer I and my extended family members were in my cousin's graduation ceremony. We were very excited about it. It was one of the most fun experiences I ever had. We were there from the morning till late afternoon. I remember it was all exciting and lively. Everyone was very happy and proud about the graduating students. We all congratulated the graduates and walked around the campus. At the university stadium, where the graduation ceremony was conducted, we had a chance to watch a talent show. The talent show was at the end of the graduation ceremony. All the participants were current students. I couldn't believe some of them were performing as good as professional artists. Some of them sang some popular songs and the guests were really excited about it. In his address the university president thanked us all. I believe all the guests had a very high impression of my cousin's university. The entire event was a once-in-a-lifetime experience for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92d31e2143c4-EWR"
+    }
+}

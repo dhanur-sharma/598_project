@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Wow today was a pretty huge day for me! I am pretty wiped out after all of the activity. I had to wake up early this morning to get onto a plane to fly across the country where I met Celia, my girlfriend. The moving truck was there waiting for me so we went straight to the apartment and got to work unloading boxes. As we worked to unpack and put things away, Celia gave me an unofficial tour of the place. It was the least of my concerns of course but I have to say, it was nice to see that the apartment is cute and comfy. I am honestly looking forward to living here full time, its a really nice place. Celia is the best, too. She made space for all of my belongings and has been being so kind and welcoming. We luckily got finished moving things in pretty fast so after a shower and a little bit of time to relax, Celia offered to take me out around the neighborhood. It was so new and different but I love how everything felt. We stopped in at some cool shops and then went for an early dinner at a nice restaurant that's just down the street from our place. I can't believe that its really \"our place\" now! Its so exciting. I just can't wait to see where our future is headed from here. After such a busy day though right now its just time to get some rest."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Wow today was a pretty huge day for me! I am pretty wiped out after all of the activity. I had to wake up early this morning to get onto a plane to fly across the country where I met Celia, my girlfriend. The moving truck was there waiting for me so we went straight to the apartment and got to work unloading boxes. As we worked to unpack and put things away, Celia gave me an unofficial tour of the place. It was the least of my concerns of course but I have to say, it was nice to see that the apartment is cute and comfy. I am honestly looking forward to living here full time, its a really nice place. Celia is the best, too. She made space for all of my belongings and has been being so kind and welcoming. We luckily got finished moving things in pretty fast so after a shower and a little bit of time to relax, Celia offered to take me out around the neighborhood. It was so new and different but I love how everything felt. We stopped in at some cool shops and then went for an early dinner at a nice restaurant that's just down the street from our place. I can't believe that its really \"our place\" now! Its so exciting. I just can't wait to see where our future is headed from here. After such a busy day though right now its just time to get some rest.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Goodnight, journal!"
+            }
+        ],
+        "request_id": "811e8bd28bcb8cba-EWR"
+    }
+}

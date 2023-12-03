@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six weeks ago, I attended my son's middle school graduation ceremony. I was very proud of my son. I has grown up a lot since he was a baby. There was a slideshow of all the kids from the past eight years of school life. I saw the little squirt sliding down the slide in kindergarten. I saw him get his first A in the first grade on a big math test. I saw him get into a fight in second grade over a girl. In third grade, I saw him make a fun science experiment. It was a volcano. This was very impressive and I was proud. After the slideshow, there was a pizza party. Everybody was excited and I had a lot of slices. Everybody was full from the pizza. There was some soda and I drank some. I went home after the ceremony feeling proud."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six weeks ago, I attended my son's middle school graduation ceremony. I was very proud of my son. I has grown up a lot since he was a baby. There was a slideshow of all the kids from the past eight years of school life. I saw the little squirt sliding down the slide in kindergarten. I saw him get his first A in the first grade on a big math test. I saw him get into a fight in second grade over a girl. In third grade, I saw him make a fun science experiment. It was a volcano. This was very impressive and I was proud. After the slideshow, there was a pizza party. Everybody was excited and I had a lot of slices. Everybody was full from the pizza. There was some soda and I drank some. I went home after the ceremony feeling proud.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdf3ad8a243c2-EWR"
+    }
+}

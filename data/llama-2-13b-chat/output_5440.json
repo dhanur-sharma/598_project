@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Imagine high school graduation going off without a hitch. That's a wild concept. My niece's high school graduation was coming up and on the eve of it, a large thunderstorm ravaged the city. I didn't think much of it, until it started to take out power lines and left the city without most of its power and seemingly underwater. It's an event that I certainly can't forget. This thunderstorm shackled a lot of our plans. In a way, however, it made it more memorable. A lot of graduation ceremonies are standard fare, with not a lot of variety between them. This, however, was special. It took creativity. It took some outside the box thinking. And we were all on board as far as I can recall. We had to make due with what was around us that night. I think that made the night more special. Nothing is ever going to be perfect, but that was close."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Imagine high school graduation going off without a hitch. That's a wild concept. My niece's high school graduation was coming up and on the eve of it, a large thunderstorm ravaged the city. I didn't think much of it, until it started to take out power lines and left the city without most of its power and seemingly underwater. It's an event that I certainly can't forget. This thunderstorm shackled a lot of our plans. In a way, however, it made it more memorable. A lot of graduation ceremonies are standard fare, with not a lot of variety between them. This, however, was special. It took creativity. It took some outside the box thinking. And we were all on board as far as I can recall. We had to make due with what was around us that night. I think that made the night more special. Nothing is ever going to be perfect, but that was close.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a night that will be forever etched in my mind as one of the most memorable nights of my life.\n\n"
+            }
+        ],
+        "request_id": "811f318139a8332c-EWR"
+    }
+}

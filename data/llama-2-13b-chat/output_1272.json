@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, I gave birth for the first time.  As pregnancy and birth is memorable in itself, I remember this day vividly.  I had been growing a human inside of my body for the past nine months.  I was so excited to have my girl become a part of our lives. The day started off normally by going into the hospital. We checked in and met the staff.  We got settled in our room.  The drugs were administered.  My daughter's body was unable to take the drugs, so the most surprising element of the day was the emergency C-section.  While I was being induced on the scheduled day, the C-section was unplanned.  That was also the scariest part of the day.  I wasn't expecting it, and I didn't feel prepared to be cut open. Even after the emergency surgery, there was nothing like holding my baby for the first time.  Being able to see what my body had done for the past 9 month was both surreal and amazing.  The next few days were constant snuggles and nursing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, I gave birth for the first time.  As pregnancy and birth is memorable in itself, I remember this day vividly.  I had been growing a human inside of my body for the past nine months.  I was so excited to have my girl become a part of our lives. The day started off normally by going into the hospital. We checked in and met the staff.  We got settled in our room.  The drugs were administered.  My daughter's body was unable to take the drugs, so the most surprising element of the day was the emergency C-section.  While I was being induced on the scheduled day, the C-section was unplanned.  That was also the scariest part of the day.  I wasn't expecting it, and I didn't feel prepared to be cut open. Even after the emergency surgery, there was nothing like holding my baby for the first time.  Being able to see what my body had done for the past 9 month was both surreal and amazing.  The next few days were constant snuggles and nursing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was the most beautiful and challenging time of my life."
+            }
+        ],
+        "request_id": "811ea1832a834246-EWR"
+    }
+}

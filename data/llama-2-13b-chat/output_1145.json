@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The weekend of my birthday we took family pictures. I had just turned 30; what a milestone. By \u201cfamily\u201d I mean, all 15 of us. Immediate family. Sisters, brothers, nieces, parents, significant others. Well, everyone\u2019s significant others except mine... on my birthday. He has a habit of not wanting to be around the crazies. Who could blame him? What was to be a 30 minute session turned into an hour and a half. Three crying kids later, a dinner that wasn\u2019t planned was supposed to happen. Which gave me a bout of anxiety and I didn\u2019t even go. The dinner was for my birthday. Nice.  Two weeks later we received the album of pictures taken. All of which you wouldn\u2019t even know that in over half of them at least one child was crying. As my grandparents always say, \u201cWe put the fun in dysfunctional.\u201d"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The weekend of my birthday we took family pictures. I had just turned 30; what a milestone. By \u201cfamily\u201d I mean, all 15 of us. Immediate family. Sisters, brothers, nieces, parents, significant others. Well, everyone\u2019s significant others except mine... on my birthday. He has a habit of not wanting to be around the crazies. Who could blame him? What was to be a 30 minute session turned into an hour and a half. Three crying kids later, a dinner that wasn\u2019t planned was supposed to happen. Which gave me a bout of anxiety and I didn\u2019t even go. The dinner was for my birthday. Nice.  Two weeks later we received the album of pictures taken. All of which you wouldn\u2019t even know that in over half of them at least one child was crying. As my grandparents always say, \u201cWe put the fun in dysfunctional.\u201d",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9e9c08418ce0-EWR"
+    }
+}

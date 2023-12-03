@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,It has been almost 4 months since I've started my new job. I couldn't be any happier. Since graduating from college last year, job searching had been extremely difficult for me. I am painfully introverted with social anxiety, so finding a job that I was both comfortable with  and suited my degree had been a daunting task. Before landing my current job, I had two other jobs in the past year. I ended up quitting both of them in less than a month, unfortunately. My previous position was a warehouse associate. I quit in January. The period of unemployment between then and July was extremely stressful for me. I had student loans that I'd been putting off, and I felt incredibly guilty living that I was home doing nothing, while my parents were working. I'm sure that had I send in hundred of applications through Indeed, Linkedin, and Glassdoor, but I just wasn't getting any responses. I finally received a callback in July, and luckily, I got the job! I love it here, my hours are great, and even though I have coworkers, most of the time I am working on my own! I'm hoping to buy a car by the end of this year, and move into my own apartment by the fall of next year. I guess, the moral of the story here is to never give up hope, no matter what!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,It has been almost 4 months since I've started my new job. I couldn't be any happier. Since graduating from college last year, job searching had been extremely difficult for me. I am painfully introverted with social anxiety, so finding a job that I was both comfortable with  and suited my degree had been a daunting task. Before landing my current job, I had two other jobs in the past year. I ended up quitting both of them in less than a month, unfortunately. My previous position was a warehouse associate. I quit in January. The period of unemployment between then and July was extremely stressful for me. I had student loans that I'd been putting off, and I felt incredibly guilty living that I was home doing nothing, while my parents were working. I'm sure that had I send in hundred of applications through Indeed, Linkedin, and Glassdoor, but I just wasn't getting any responses. I finally received a callback in July, and luckily, I got the job! I love it here, my hours are great, and even though I have coworkers, most of the time I am working on my own! I'm hoping to buy a car by the end of this year, and move into my own apartment by the fall of next year. I guess, the moral of the story here is to never give up hope, no matter what!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eab86b8c4c358-EWR"
+    }
+}

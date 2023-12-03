@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were in the room for the past 14 months. It was an ideal location. It was a peaceful area. Nearby we have a very good coffee shop. There is a 24 hours open ATM near my ROOM. From the balcony we had a good view of a nearby children park. The neighboring balcony there was a good view of Ladies Gym. We had a very good time for spending peacefully. Suddenly my roommate lost his job. After that she just be at home idle for three months. She is not going anywhere. She is not doing anything at home. Not at all helping at home. Simply irritating for spending more money to her. She is not cleaning the home properly. So decided to move out of our apartment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were in the room for the past 14 months. It was an ideal location. It was a peaceful area. Nearby we have a very good coffee shop. There is a 24 hours open ATM near my ROOM. From the balcony we had a good view of a nearby children park. The neighboring balcony there was a good view of Ladies Gym. We had a very good time for spending peacefully. Suddenly my roommate lost his job. After that she just be at home idle for three months. She is not going anywhere. She is not doing anything at home. Not at all helping at home. Simply irritating for spending more money to her. She is not cleaning the home properly. So decided to move out of our apartment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e94faef5d4261-EWR"
+    }
+}

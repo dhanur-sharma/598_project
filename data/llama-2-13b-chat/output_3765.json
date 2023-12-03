@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On June 20th of this year, I woke up and had a hard time getting out of bed, but I forced myself to. I hadn't eaten in about six days--I just had *no* appetite at all. As a result, I was very, VERY  dizzy and felt like ... garbage. I called my best friend in New Mexico and  she told me I  should call 911.  So I did. Then I  sat outside my place on the  stoop and waited for the fire department to arrive. They arrived about 15 minutes later (although it felt like much longer).  They immediately started checking my pulse,  my blood pressure, and all that stuff. They also hooked me  up to a drip-bag of saline solution. About half an hour after that an ambulance arrived. The ambulance took me to the nearest hospital--fifty miles away because I live in the middle of the Mojave desert--and the hospital admitted me  after checking me out. I was in the hospital three days. I felt better but was worried that what just happed to me would happen again. The last two days at the hospital, the doctor's gave me 20 millimeters of a medicine that give me my appetite back. The medicine worked: on the hour drive back home, I stopped at an AM/PM and bought--and devoured--two cheeseburgers. And that night at about 10pm, at home, I ate an entire can of chili. So I'm much happier now. I'm still taking the medicine every day, and I'm happy to tell you ... I'm eating regularly now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On June 20th of this year, I woke up and had a hard time getting out of bed, but I forced myself to. I hadn't eaten in about six days--I just had *no* appetite at all. As a result, I was very, VERY  dizzy and felt like ... garbage. I called my best friend in New Mexico and  she told me I  should call 911.  So I did. Then I  sat outside my place on the  stoop and waited for the fire department to arrive. They arrived about 15 minutes later (although it felt like much longer).  They immediately started checking my pulse,  my blood pressure, and all that stuff. They also hooked me  up to a drip-bag of saline solution. About half an hour after that an ambulance arrived. The ambulance took me to the nearest hospital--fifty miles away because I live in the middle of the Mojave desert--and the hospital admitted me  after checking me out. I was in the hospital three days. I felt better but was worried that what just happed to me would happen again. The last two days at the hospital, the doctor's gave me 20 millimeters of a medicine that give me my appetite back. The medicine worked: on the hour drive back home, I stopped at an AM/PM and bought--and devoured--two cheeseburgers. And that night at about 10pm, at home, I ate an entire can of chili. So I'm much happier now. I'm still taking the medicine every day, and I'm happy to tell you ... I'm eating regularly now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed0993d0c0fa7-EWR"
+    }
+}

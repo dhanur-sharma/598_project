@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have really been thinking about life and death over these last few months. Never in my entire life have I been this introspective, so it's a very interesting phenomenon. Two months ago my dog passed away suddenly in the night. It was terrible. He was my first ever pet, and there was no indication that anything was wrong with him. I cried for so many days after it happened. I had lost one of my best friends. It ultimately made me realize how old my dog had gotten, and how time really does fly. He was the only loved one I have ever lost in my life, so this was a very tough experience on me. Thinking about time also made me more motivated to work harder to spend time with other people in my life. It's funny how that works. I know I have been slacking on seeing certain family members over the last few years, and this experience with my dog makes me want to change that. It stinks that I had to lose someone close to me to realize this, but I guess that's the price you pay for learning things in life. One day soon I will get a new dog and spend all the time with him that I can. I now have a deeper meaning of what is important in life and how I'd like to spend my time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have really been thinking about life and death over these last few months. Never in my entire life have I been this introspective, so it's a very interesting phenomenon. Two months ago my dog passed away suddenly in the night. It was terrible. He was my first ever pet, and there was no indication that anything was wrong with him. I cried for so many days after it happened. I had lost one of my best friends. It ultimately made me realize how old my dog had gotten, and how time really does fly. He was the only loved one I have ever lost in my life, so this was a very tough experience on me. Thinking about time also made me more motivated to work harder to spend time with other people in my life. It's funny how that works. I know I have been slacking on seeing certain family members over the last few years, and this experience with my dog makes me want to change that. It stinks that I had to lose someone close to me to realize this, but I guess that's the price you pay for learning things in life. One day soon I will get a new dog and spend all the time with him that I can. I now have a deeper meaning of what is important in life and how I'd like to spend my time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9f1a0fe98c84-EWR"
+    }
+}

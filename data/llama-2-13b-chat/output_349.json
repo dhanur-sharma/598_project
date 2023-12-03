@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, my wife and I headed to Washington state to go hiking in the mountains. As we had never been there before, we were both very excited about the vacation. We packed up the car with our camping gear, put the dog in a kennel and we were off. We arrived in Washington after about 15 hours of non-stop driving. When we arrived in Seattle, the first thing we saw was Mt. Rainier. My wife and I laughed because it reminded us of our first date together in college. We ended up going to a frat party, where they were drinking Rainier beer. It had a drawing of Rainier on the logo. Anyway, when we arrived at the campground, we were absolutely struck by how beautiful the national park was. We were going to be hiking a very long trail the next day, so we quickly set up the tent and got our campsite squared away. My wife, who hadn't been camping very often, was a little bit skittish about the signs we had seen warning of bears. Every time a twig snapped or the wind blew our tent flaps against the tent walls, she started in fright. Eventually, we both drifted off to sleep after the long drive. The next morning, we secured our campsite and headed off to begin our 5 mile hike. We packed food and water and started up the trail. There were dark clouds in the horizon, and I commented that we might be in for rain. But my wife thought it'd be okay to continue. It never did rain and we had a wonderful hike. Overall, our first vacation to Washington state was a huge success and we look forward to returning some day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, my wife and I headed to Washington state to go hiking in the mountains. As we had never been there before, we were both very excited about the vacation. We packed up the car with our camping gear, put the dog in a kennel and we were off. We arrived in Washington after about 15 hours of non-stop driving. When we arrived in Seattle, the first thing we saw was Mt. Rainier. My wife and I laughed because it reminded us of our first date together in college. We ended up going to a frat party, where they were drinking Rainier beer. It had a drawing of Rainier on the logo. Anyway, when we arrived at the campground, we were absolutely struck by how beautiful the national park was. We were going to be hiking a very long trail the next day, so we quickly set up the tent and got our campsite squared away. My wife, who hadn't been camping very often, was a little bit skittish about the signs we had seen warning of bears. Every time a twig snapped or the wind blew our tent flaps against the tent walls, she started in fright. Eventually, we both drifted off to sleep after the long drive. The next morning, we secured our campsite and headed off to begin our 5 mile hike. We packed food and water and started up the trail. There were dark clouds in the horizon, and I commented that we might be in for rain. But my wife thought it'd be okay to continue. It never did rain and we had a wonderful hike. Overall, our first vacation to Washington state was a huge success and we look forward to returning some day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9012dd3a0f4a-EWR"
+    }
+}

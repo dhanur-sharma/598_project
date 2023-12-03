@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,Today was Gabby's surgery. We drove up to the children's hospital and checked in at 7am - thank goodness our appointment was in the morning, otherwise I don't know how we would have kept her happy without eating! She wasn't even awake enough to realize she hadn't eaten since the night before. And by the time we got to the hospital, well there were things to see so that kept her distracted enough. We met up with the surgeon and went in the operating waiting room which is where things got iffy. First, Gabby realized this was a doctor's office, and she didn't like that. Doctors = shots. Then, they put her in the operating robe, which was cold. And then, she got bored with the few rattles and toys we brought. Eventually they took her for surgery and that's when she (and I!) broke down. She started screaming hysterically, and I couldn't stop myself from sobbing. She's just so tiny. Like, I know she in the 95th percentile for height within other one-year-olds but still that's tiny. Brandon took good care of me and we waited it out in the coffee shop. We eventually got a phone call that she was coming out. She made it out fine, but she was really miserable, and snuggled up with us in front of Teletubbies for the next 5+ hours? She's alright, that's all that matters. Glad we got that cyst out of her and glad we found out about it before it cause issues, but still intestine surgery is pretty major surgery for a toddler."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,Today was Gabby's surgery. We drove up to the children's hospital and checked in at 7am - thank goodness our appointment was in the morning, otherwise I don't know how we would have kept her happy without eating! She wasn't even awake enough to realize she hadn't eaten since the night before. And by the time we got to the hospital, well there were things to see so that kept her distracted enough. We met up with the surgeon and went in the operating waiting room which is where things got iffy. First, Gabby realized this was a doctor's office, and she didn't like that. Doctors = shots. Then, they put her in the operating robe, which was cold. And then, she got bored with the few rattles and toys we brought. Eventually they took her for surgery and that's when she (and I!) broke down. She started screaming hysterically, and I couldn't stop myself from sobbing. She's just so tiny. Like, I know she in the 95th percentile for height within other one-year-olds but still that's tiny. Brandon took good care of me and we waited it out in the coffee shop. We eventually got a phone call that she was coming out. She made it out fine, but she was really miserable, and snuggled up with us in front of Teletubbies for the next 5+ hours? She's alright, that's all that matters. Glad we got that cyst out of her and glad we found out about it before it cause issues, but still intestine surgery is pretty major surgery for a toddler.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are exhausted. I know she'll be up for a feeding in a few hours, but for now, I think we're all going to sleep. Love, Mom."
+            }
+        ],
+        "request_id": "811eaf990fa20f3e-EWR"
+    }
+}

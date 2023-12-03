@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a strong emotional moment six months ago. My dad, who was very close to me died from diabetes. He was just 47 years young. He had been suffering from the disease for a long time. I knew of the serious nature of illness but never crossed my mind of untimely demise at such an young age. He was doing everything as suggested by the doctors but maybe one mistake caused this serious mishap. One week before my father passed away, we had gathered to celebrate the grand success of my cousin in his business. He threw a party for all of us. It was extravagant. My father got carried away and had a bit more of sweets. The next day, he was on the bed with complications. We had many doctor visits. But nothing would help. In a few days, he passed away after quite a struggle to keep himself alive if not for himself but for his family.  It was the saddest day for me. Tears rolled down my eyes and I felt this world was fake. One moment you are with your loved one and the next moment they are gone. It can't be real. I was motionless. My relatives were holding me and comforting me. It took a few weeks for me to completely get back to my life. But still, the memories remain instilled in my mind."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a strong emotional moment six months ago. My dad, who was very close to me died from diabetes. He was just 47 years young. He had been suffering from the disease for a long time. I knew of the serious nature of illness but never crossed my mind of untimely demise at such an young age. He was doing everything as suggested by the doctors but maybe one mistake caused this serious mishap. One week before my father passed away, we had gathered to celebrate the grand success of my cousin in his business. He threw a party for all of us. It was extravagant. My father got carried away and had a bit more of sweets. The next day, he was on the bed with complications. We had many doctor visits. But nothing would help. In a few days, he passed away after quite a struggle to keep himself alive if not for himself but for his family.  It was the saddest day for me. Tears rolled down my eyes and I felt this world was fake. One moment you are with your loved one and the next moment they are gone. It can't be real. I was motionless. My relatives were holding me and comforting me. It took a few weeks for me to completely get back to my life. But still, the memories remain instilled in my mind.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I lost my best friend. We used to share everything. I have to move on but it's hard.\n\n"
+            }
+        ],
+        "request_id": "811e948cccd3c47a-EWR"
+    }
+}

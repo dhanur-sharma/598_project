@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We had such a great time with our cousins.  Now that we are growing up we can do so many more things.  We were able to go kayaking and canoeing!  We cooked food on the grill for every meal.  We got up when we wanted to and did everything we wanted to.  My cousin Lisa always wants to ride bikes.  We rode all the way down to the creek and then played in the water.  We were skipping rocks like Pappy taught us when we were little.  We went up to my aunt's cottage and she made us a peach pie.  We were going to go hiking but it rained and it was too muddy.  Mom was afraid we would slide all the way down the hill.  We also went to the ice cream place.  It has a giant cow out in front of it.  We used to call it the cow store.  I had a chocolate shake.  It is my favorite as usual.  Everyone else had shakes too.  We became sad knowing it was our last day at the cottage.  We would go to school soon.  We all agreed to meet back there next summer for more adventures.  I love my cousins!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We had such a great time with our cousins.  Now that we are growing up we can do so many more things.  We were able to go kayaking and canoeing!  We cooked food on the grill for every meal.  We got up when we wanted to and did everything we wanted to.  My cousin Lisa always wants to ride bikes.  We rode all the way down to the creek and then played in the water.  We were skipping rocks like Pappy taught us when we were little.  We went up to my aunt's cottage and she made us a peach pie.  We were going to go hiking but it rained and it was too muddy.  Mom was afraid we would slide all the way down the hill.  We also went to the ice cream place.  It has a giant cow out in front of it.  We used to call it the cow store.  I had a chocolate shake.  It is my favorite as usual.  Everyone else had shakes too.  We became sad knowing it was our last day at the cottage.  We would go to school soon.  We all agreed to meet back there next summer for more adventures.  I love my cousins!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaa64681e1861-EWR"
+    }
+}

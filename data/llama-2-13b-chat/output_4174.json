@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Being medically retired has affected my emotional stability. Although I am grateful to be able to have an income, it saddens me to know that my physical condition will only decline from here on out. While going through the process, I was dedicated to meeting all the requirements necessary to comply with the documentation needed for my case evaluation. Now that the process has finished, I strive to work not only with my physical limitations but my emotion needs as well. Many people stop the process in the middle because of the time it takes for evaluations and constantly being turned down. Most people give up. Those of us who stay in the fight for our rights do so at many risks. We may not have the funds to wait out the decision or the time frame to live while we wait. It is a nerve racking process to say the least. I was told about a lady who lost her house while waiting for a decision. She was so distraught. Just before she was about to receive her disability, she died. This happens more often than not. Although seeing a judge via video can help with the time frame, there is still more that needs to be done to help people in need. It's hard for people to understand unless they or a loved one is going through it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Being medically retired has affected my emotional stability. Although I am grateful to be able to have an income, it saddens me to know that my physical condition will only decline from here on out. While going through the process, I was dedicated to meeting all the requirements necessary to comply with the documentation needed for my case evaluation. Now that the process has finished, I strive to work not only with my physical limitations but my emotion needs as well. Many people stop the process in the middle because of the time it takes for evaluations and constantly being turned down. Most people give up. Those of us who stay in the fight for our rights do so at many risks. We may not have the funds to wait out the decision or the time frame to live while we wait. It is a nerve racking process to say the least. I was told about a lady who lost her house while waiting for a decision. She was so distraught. Just before she was about to receive her disability, she died. This happens more often than not. Although seeing a judge via video can help with the time frame, there is still more that needs to be done to help people in need. It's hard for people to understand unless they or a loved one is going through it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am grateful for the fight I have left in me to push through this process.\n\n"
+            }
+        ],
+        "request_id": "811bd17b3e1f4349-EWR"
+    }
+}

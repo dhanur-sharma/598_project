@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So we were running low on drinks at the house. I suggested to my roommate that we should head to the store and he obliged. We get in the car and head to the store. As soon as we get to the store he starts swatting down by his legs. I go to get out of the car and he stops me. \"You see any spider webs down there?\" He asks. I turn the flashlight on my phone on and look, not really seeing anything. \"No.\" I said. Suddenly we see a small white spider crawl from behind his steering column and back under the steering column. He starts freaking out asking me what we're gonna do about it. The whole time I'm just cracking up. Finally after a few minutes we head inside. When we get back to the car after putting the groceries in the trunk, he just stands by his open driver door. I get in the passenger seat and try to coax him in for at least 5 minutes. He was not having it so i offered to drive home. The next morning he refused to drive his car to work and called an uber."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So we were running low on drinks at the house. I suggested to my roommate that we should head to the store and he obliged. We get in the car and head to the store. As soon as we get to the store he starts swatting down by his legs. I go to get out of the car and he stops me. \"You see any spider webs down there?\" He asks. I turn the flashlight on my phone on and look, not really seeing anything. \"No.\" I said. Suddenly we see a small white spider crawl from behind his steering column and back under the steering column. He starts freaking out asking me what we're gonna do about it. The whole time I'm just cracking up. Finally after a few minutes we head inside. When we get back to the car after putting the groceries in the trunk, he just stands by his open driver door. I get in the passenger seat and try to coax him in for at least 5 minutes. He was not having it so i offered to drive home. The next morning he refused to drive his car to work and called an uber.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The end.\n\n"
+            }
+        ],
+        "request_id": "811bdc410d3d4232-EWR"
+    }
+}

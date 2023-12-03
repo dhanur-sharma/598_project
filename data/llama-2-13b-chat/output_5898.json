@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I grew up in a small but quaint home here in town. It was only about 1200 square feet and three bedrooms. We were very close. But about three years ago, my parents took out a second mortgage on the home. They had been nearly done paying for the house. The original monthly payment was just $600 a month. Unheard of anymore. But with the second mortgage, it quickly ballooned to $2000 a month. My parents tried, but they just could not keep up. The house went into foreclosure and about three months ago, we were evicted. At 18 years old, I'd lost everything I ever knew. My brother and sister, just 17 and 19 respectively, also lost everything.  We were all now homeless. We went our own separate ways. I found a place to stay with some friends. As did my brother. My sister moved in with her boyfriend. Mom and dad disappeared on us. It was the darkest period of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I grew up in a small but quaint home here in town. It was only about 1200 square feet and three bedrooms. We were very close. But about three years ago, my parents took out a second mortgage on the home. They had been nearly done paying for the house. The original monthly payment was just $600 a month. Unheard of anymore. But with the second mortgage, it quickly ballooned to $2000 a month. My parents tried, but they just could not keep up. The house went into foreclosure and about three months ago, we were evicted. At 18 years old, I'd lost everything I ever knew. My brother and sister, just 17 and 19 respectively, also lost everything.  We were all now homeless. We went our own separate ways. I found a place to stay with some friends. As did my brother. My sister moved in with her boyfriend. Mom and dad disappeared on us. It was the darkest period of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I thought that was the end of it. But now, three months later, I received a letter from the bank. They had sold the house at auction for $120,000. I was shocked. How could that be? The house was worth so much more. How could they sell it for so little? I was angry. I felt like they had stolen from us.\n\n"
+            }
+        ],
+        "request_id": "811f3aa81c528cba-EWR"
+    }
+}

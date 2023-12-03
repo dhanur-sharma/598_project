@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One night about four months ago, I went out with a group of friends. We had many drinks and partied the night away. At an after party, we hooked up with many people. At some point I was talking with a guy. We started to make out, and it was great. I enjoyed it very much. It was so good, I had to reconsider my life choices. Especially my relationship with my boyfriend. Was it really worth it? Perhaps I could do better, I thought. However, I quickly cam back to my senses. I got myself together and left. I went back home to my boyfriend. I did not tell him. However, I was happy to be back home in bed."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One night about four months ago, I went out with a group of friends. We had many drinks and partied the night away. At an after party, we hooked up with many people. At some point I was talking with a guy. We started to make out, and it was great. I enjoyed it very much. It was so good, I had to reconsider my life choices. Especially my relationship with my boyfriend. Was it really worth it? Perhaps I could do better, I thought. However, I quickly cam back to my senses. I got myself together and left. I went back home to my boyfriend. I did not tell him. However, I was happy to be back home in bed.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was happy to be with him. I was happy to be in a relationship with him.\n\n"
+            }
+        ],
+        "request_id": "811ec4d108f3c46b-EWR"
+    }
+}

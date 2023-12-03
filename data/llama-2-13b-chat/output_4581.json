@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe i missed the All-star game. It was Josh's dream for a long time. Ever since our engagement, i knew that i had to gift him something special. And what more special gift is there for Josh than the All-star game? It was months in planning, and we got to New York 7 weeks ago, the day before the game. I was feeling a bit low through the flight. I kinda felt something was wrong with me. But i couldn't disappoint Josh. I garnered all my strength and went to the game with him. And then i puked, right as we entered the stadium. Josh insisted to come back with me to the hotel. I couldn't let him. I knew how much he wanted to see the game. It was such a shame to miss the game. However, i did manage to get some memorabilia from the game for Josh. I didn't know it had logo for the all-star game, that was a pleasant surprise. Josh was over the moon over it!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe i missed the All-star game. It was Josh's dream for a long time. Ever since our engagement, i knew that i had to gift him something special. And what more special gift is there for Josh than the All-star game? It was months in planning, and we got to New York 7 weeks ago, the day before the game. I was feeling a bit low through the flight. I kinda felt something was wrong with me. But i couldn't disappoint Josh. I garnered all my strength and went to the game with him. And then i puked, right as we entered the stadium. Josh insisted to come back with me to the hotel. I couldn't let him. I knew how much he wanted to see the game. It was such a shame to miss the game. However, i did manage to get some memorabilia from the game for Josh. I didn't know it had logo for the all-star game, that was a pleasant surprise. Josh was over the moon over it!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd9980bd5428b-EWR"
+    }
+}

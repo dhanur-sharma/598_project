@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: As a Type 1 Diabetic, I have to constantly monitor my blood sugar to ensure it doesn't get to high or low.  If my blood sugar is too high, I will need to take insulin to bring it down.  Otherwise, I can get extremely sick.  If my blood sugar is too low, I need to eat food and drink with carbohydrates in order to raise my blood sugar.  If I don't treat my low blood sugar quickly, I can have a seizure which can lead to my death.  One Saturday afternoon several months ago, I began to prepare my dinner.  I was going to eat two chickens breasts and a cup of brown rice.  In order to prevent blood sugar spikes, I need to take my insulin around 30 minutes before I eat.  On this day, I took around 10 units of insulin in order to cover my rice.  The food took around 30 minutes to prepare and it smelled delicious.  I was very eager to eat try out the chicken breasts due to a new recipe I used so I ate both of the chicken breasts first.  The chicken was absolutely delicious.  However, I had become uncomfortably full.  I was full to the point where I felt like I needed to vomit.  Unfortunately, at this time my insulin was starting to kick in which dragged my blood sugars down to dangerously low levels.  Chicken doesn't have any carbohydrates in them so they wouldn't have prevented my blood sugars from dropping.  I needed to eat the rice, but I couldn't because I felt like I was going to vomit.  My strength started to go and my body started to spasm.  It was harder for me to think clearly due to my low blood sugar.  I knew I needed something light that had a lot of carbohydrates to bring up my sugar quick.  Through my haze, I remember I had Gatorade Energy Gels.  I typically used these gels when I exercise because they have a lot of carbohydrates in them.  I tore the gels out of their packets and let them sit under my tongue to dissolve.  After sitting and eating the gels, it took about 25 minutes for my blood sugar to get back up to a safe level.  I remember sitting on the floor of my living room, drenched in sweat, and feeling relief that I made it through the ordeal."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: As a Type 1 Diabetic, I have to constantly monitor my blood sugar to ensure it doesn't get to high or low.  If my blood sugar is too high, I will need to take insulin to bring it down.  Otherwise, I can get extremely sick.  If my blood sugar is too low, I need to eat food and drink with carbohydrates in order to raise my blood sugar.  If I don't treat my low blood sugar quickly, I can have a seizure which can lead to my death.  One Saturday afternoon several months ago, I began to prepare my dinner.  I was going to eat two chickens breasts and a cup of brown rice.  In order to prevent blood sugar spikes, I need to take my insulin around 30 minutes before I eat.  On this day, I took around 10 units of insulin in order to cover my rice.  The food took around 30 minutes to prepare and it smelled delicious.  I was very eager to eat try out the chicken breasts due to a new recipe I used so I ate both of the chicken breasts first.  The chicken was absolutely delicious.  However, I had become uncomfortably full.  I was full to the point where I felt like I needed to vomit.  Unfortunately, at this time my insulin was starting to kick in which dragged my blood sugars down to dangerously low levels.  Chicken doesn't have any carbohydrates in them so they wouldn't have prevented my blood sugars from dropping.  I needed to eat the rice, but I couldn't because I felt like I was going to vomit.  My strength started to go and my body started to spasm.  It was harder for me to think clearly due to my low blood sugar.  I knew I needed something light that had a lot of carbohydrates to bring up my sugar quick.  Through my haze, I remember I had Gatorade Energy Gels.  I typically used these gels when I exercise because they have a lot of carbohydrates in them.  I tore the gels out of their packets and let them sit under my tongue to dissolve.  After sitting and eating the gels, it took about 25 minutes for my blood sugar to get back up to a safe level.  I remember sitting on the floor of my living room, drenched in sweat, and feeling relief that I made it through the ordeal.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " My blood sugar was back to normal and I was able to continue my evening.  After this event, I realized I needed to be more mindful of my insulin doses and to only eat foods that are safe for my body when my blood sugar is low.  "
+            }
+        ],
+        "request_id": "811e90968d228c54-EWR"
+    }
+}

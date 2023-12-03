@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Italy for 3 years. It was amazing. I explored all of Rome, Naples and small towns people never hear of. I was driving through the towns of Bari, Santi Cosma E damiano and castle forte. I visited the beach of Gaeta and just had a wonderful time meeting wonderful people. Me and my family had a great time visiting ancient sites and castles and having great pizza. I would venture out with the new friends that I met in Italy and go to bars and clubs an have a blast. Everyone I met was very friendly for the most part. Also, don't get me started on the wine over there. While I was there I lived in a 3 story villa and had a wonderful landlord as well. He was always courteous friendly, and helpful. The landlord was one of the best landlords I ever had. He was always available and he loved playing with my son. I can not wait to return to Italy and meet with all my friends again. Driving through the country sides of Italy is one of the most relaxing things you can do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Italy for 3 years. It was amazing. I explored all of Rome, Naples and small towns people never hear of. I was driving through the towns of Bari, Santi Cosma E damiano and castle forte. I visited the beach of Gaeta and just had a wonderful time meeting wonderful people. Me and my family had a great time visiting ancient sites and castles and having great pizza. I would venture out with the new friends that I met in Italy and go to bars and clubs an have a blast. Everyone I met was very friendly for the most part. Also, don't get me started on the wine over there. While I was there I lived in a 3 story villa and had a wonderful landlord as well. He was always courteous friendly, and helpful. The landlord was one of the best landlords I ever had. He was always available and he loved playing with my son. I can not wait to return to Italy and meet with all my friends again. Driving through the country sides of Italy is one of the most relaxing things you can do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "You will see beautiful scenery and just have a great time.\n\n"
+            }
+        ],
+        "request_id": "811e9b143acb420d-EWR"
+    }
+}

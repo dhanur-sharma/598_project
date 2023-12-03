@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A family member needed help doing a birthday party. I ended up helping. The decor was already bought. Mainly, the help needed was to just put up all the decor. It involved many ladders and tape. We got it done in time and it looked good. Many of us didn't like the chosen decor but it wasn't our call. Overall everyone helped a lot and we had a blast. When the cake was brought out, everyone noticed the crazy candles and how the flame was quite big. The candles needed to be blown out quickly so they wouldn't burn the cake. All of them were melting quite fast. I think is was because they were so close together. The candles were luckily blown out in time. Nothing bad happened. Good food and friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A family member needed help doing a birthday party. I ended up helping. The decor was already bought. Mainly, the help needed was to just put up all the decor. It involved many ladders and tape. We got it done in time and it looked good. Many of us didn't like the chosen decor but it wasn't our call. Overall everyone helped a lot and we had a blast. When the cake was brought out, everyone noticed the crazy candles and how the flame was quite big. The candles needed to be blown out quickly so they wouldn't burn the cake. All of them were melting quite fast. I think is was because they were so close together. The candles were luckily blown out in time. Nothing bad happened. Good food and friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "That's what mattered.\n\n"
+            }
+        ],
+        "request_id": "811f44d5ee4ec407-EWR"
+    }
+}

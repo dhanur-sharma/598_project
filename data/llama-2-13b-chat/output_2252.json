@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was involved in planning a social gathering for some friends.  I did the legwork for the place we were going to.  I contacted each person and gave them the name of the restaurant and how to get there.   I even sent them a link to the restaurants website so that they could look at the menu.   For those out of town, I sent them a link to a hotel site so that they could find lodging.  For some I helped them with directions on how to get to the restaurant.  I answered any and all questions that I could.   The day of the event, I was at the restaurant early to get the seating in a oval so that we could all talk to each other.   I also had name tags for everyone to wear so that we would know who was who.   23 had signed up, but only 15 actually came, which was disappointing.   One couple got lost and she didn't have my phone number with her to call.   Nor did she think of calling the restaurant and asking for me or for directions.   The group that was there had a very nice time chatting and eating.  I think everyone enjoyed themselves and would want to do the same thing next year.  I will certainly do this again next year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was involved in planning a social gathering for some friends.  I did the legwork for the place we were going to.  I contacted each person and gave them the name of the restaurant and how to get there.   I even sent them a link to the restaurants website so that they could look at the menu.   For those out of town, I sent them a link to a hotel site so that they could find lodging.  For some I helped them with directions on how to get to the restaurant.  I answered any and all questions that I could.   The day of the event, I was at the restaurant early to get the seating in a oval so that we could all talk to each other.   I also had name tags for everyone to wear so that we would know who was who.   23 had signed up, but only 15 actually came, which was disappointing.   One couple got lost and she didn't have my phone number with her to call.   Nor did she think of calling the restaurant and asking for me or for directions.   The group that was there had a very nice time chatting and eating.  I think everyone enjoyed themselves and would want to do the same thing next year.  I will certainly do this again next year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb33e5f3b42c7-EWR"
+    }
+}

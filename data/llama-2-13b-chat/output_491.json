@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Our end of summer family reunion came around and we decided to have it hosted at a restaurant.  It was beautiful, as we had it in a tent overlooking the lake.  My brother had maybe one too many drinks that day.  A waiter came over and asked if he would like a water.  My brother looked at him and told him that he knows when it's okay to quit drinking.  I know he didn't mean anything by it, but the waiter was horrified.  He thought he insulted my brother, when he was simply offering water to everyone on a tray.  My brother didn't mean to be mean.  Several people had already come up to him offering water, so he simply thought it was  hint to quit drinking.  It kind of set the tone for me for the rest of the day though.  I mean, it's been three weeks and I still get embarrassed thinking about that one moment.  One that the waiter has probably forgotten all about.  I won't go back to that restaurant though for a bit.  I wouldn't risk getting the same waiter just in case he would remember.  I don't want anyone to spit in my food if he still holds a grudge."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Our end of summer family reunion came around and we decided to have it hosted at a restaurant.  It was beautiful, as we had it in a tent overlooking the lake.  My brother had maybe one too many drinks that day.  A waiter came over and asked if he would like a water.  My brother looked at him and told him that he knows when it's okay to quit drinking.  I know he didn't mean anything by it, but the waiter was horrified.  He thought he insulted my brother, when he was simply offering water to everyone on a tray.  My brother didn't mean to be mean.  Several people had already come up to him offering water, so he simply thought it was  hint to quit drinking.  It kind of set the tone for me for the rest of the day though.  I mean, it's been three weeks and I still get embarrassed thinking about that one moment.  One that the waiter has probably forgotten all about.  I won't go back to that restaurant though for a bit.  I wouldn't risk getting the same waiter just in case he would remember.  I don't want anyone to spit in my food if he still holds a grudge.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I know, I know, I'm a little paranoid, but it's just a little embarrassing.  I'll get over it eventually, but it's still fresh in my mind.  My brother and I had a good laugh about it afterward though.  I just hope the waiter doesn't think I'm a snobby person because of one little incident.  I know my brother didn't mean anything by it, but I still feel bad.\n\n"
+            }
+        ],
+        "request_id": "811e92b3e9a543b9-EWR"
+    }
+}

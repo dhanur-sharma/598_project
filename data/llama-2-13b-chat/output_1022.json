@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took a train down to california. This was with my daughter too. We had not been getting together lately. We had been annoyed with each other. It had not bee long since our last fight. I thought it would be good to take a trip. The strain we have been having might need some mending. We told each other stories of odd people we had met in the past. And also the stories of new stranger people we met on the train. It was revealing to us that most of the problems that we had were so minor compared to others. I felt like we were being petty, picky, and weak. Compared to other peoples stories, we were. So it was good to know we had other things to worry about. Just not at the moment. We felt relieved."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took a train down to california. This was with my daughter too. We had not been getting together lately. We had been annoyed with each other. It had not bee long since our last fight. I thought it would be good to take a trip. The strain we have been having might need some mending. We told each other stories of odd people we had met in the past. And also the stories of new stranger people we met on the train. It was revealing to us that most of the problems that we had were so minor compared to others. I felt like we were being petty, picky, and weak. Compared to other peoples stories, we were. So it was good to know we had other things to worry about. Just not at the moment. We felt relieved.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9c676b2441d3-EWR"
+    }
+}

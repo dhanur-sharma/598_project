@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, I met a friend online for the first time. We decided to go on a vacation together. We did a lot of exciting things together. We went ren fest, rock hounding, dave and busters, and had some bonfires. This was a great time. I had the best time at dave and busters. We got lunch at first. I got a big burger to eat. She got a salad. I had some beers. She was the driver that night. We then played some arcade games. I played the basketball game. I almost got the high score. I then played some ski ball. I had a blast getting some 100 point rounds. It was a great day that day and hope to have many more."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, I met a friend online for the first time. We decided to go on a vacation together. We did a lot of exciting things together. We went ren fest, rock hounding, dave and busters, and had some bonfires. This was a great time. I had the best time at dave and busters. We got lunch at first. I got a big burger to eat. She got a salad. I had some beers. She was the driver that night. We then played some arcade games. I played the basketball game. I almost got the high score. I then played some ski ball. I had a blast getting some 100 point rounds. It was a great day that day and hope to have many more.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec897df578c30-EWR"
+    }
+}

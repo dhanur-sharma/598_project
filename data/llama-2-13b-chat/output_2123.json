@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After me and Frank got engaged, we knew where we wanted to get married! There was a location that is near and dear to us since we went there around the time we first met and started dating. It was a nice garden homestead with so many photo ready spaces. It was beautiful! About a month ago, me and Frank went to the location to tour it for the wedding. We had had a meeting with them and this was the final run through the location to make sure it was perfect. I already knew it would be, but Frank pushed me to have another walk through to make sure everything we needed for our guests would be there. I still had no doubts that this was the perfect location! We were getting ready to leave and Frank asked about the restrooms and where they were located. The guide showed us the bathrooms and me and Frank looked at each other. This wasn't enough for our guests! I asked if there was anymore bathrooms and the guide said \"Not for public access.\" It wasn't enough for us! So we asked to see the living quarters one more time. This was where we'd be getting ready for the wedding. We found some bathrooms there that lead out to the main courtyard and Frank asked if guests could use those. The guide said if they were a part of the wedding ceremony, they could. We decided they were just as good and we'd just tell the guests to use the public ones, the wedding party to use the private ones."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After me and Frank got engaged, we knew where we wanted to get married! There was a location that is near and dear to us since we went there around the time we first met and started dating. It was a nice garden homestead with so many photo ready spaces. It was beautiful! About a month ago, me and Frank went to the location to tour it for the wedding. We had had a meeting with them and this was the final run through the location to make sure it was perfect. I already knew it would be, but Frank pushed me to have another walk through to make sure everything we needed for our guests would be there. I still had no doubts that this was the perfect location! We were getting ready to leave and Frank asked about the restrooms and where they were located. The guide showed us the bathrooms and me and Frank looked at each other. This wasn't enough for our guests! I asked if there was anymore bathrooms and the guide said \"Not for public access.\" It wasn't enough for us! So we asked to see the living quarters one more time. This was where we'd be getting ready for the wedding. We found some bathrooms there that lead out to the main courtyard and Frank asked if guests could use those. The guide said if they were a part of the wedding ceremony, they could. We decided they were just as good and we'd just tell the guests to use the public ones, the wedding party to use the private ones.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was a little hesitant at first, but it all worked out.\n\n"
+            }
+        ],
+        "request_id": "811eb0bbfbec5e70-EWR"
+    }
+}

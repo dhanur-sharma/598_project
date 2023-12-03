@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,It has been a crazy few days! I met up with Elizabeth here in France of all places.  We grew up together in Chicago, and it's been eight years since I last saw her.  Despite that chasm of time between us, it's like we had just talked yesterday.  We still have so much in common, and I realized how much I missed her over these past few years.  She's just finished school and is engaged to be married. I told her all about Mike, and how we were planning our wedding. I think we talked for hours in the cafe today about our plans for our weddings.  She hasn't been back home to Chicago for 3 years, but plans to visit her family soon. So hopefully we can go visit some of our old haunts together when she gets back. I'm so happy to have reconnected with her. It was like a part of me was missing these last eight years, and now that piece was put back.  Tomorrow we're going to visit the Eiffel Tower together in Paris.  I can't wait!  This is going to be a blast!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,It has been a crazy few days! I met up with Elizabeth here in France of all places.  We grew up together in Chicago, and it's been eight years since I last saw her.  Despite that chasm of time between us, it's like we had just talked yesterday.  We still have so much in common, and I realized how much I missed her over these past few years.  She's just finished school and is engaged to be married. I told her all about Mike, and how we were planning our wedding. I think we talked for hours in the cafe today about our plans for our weddings.  She hasn't been back home to Chicago for 3 years, but plans to visit her family soon. So hopefully we can go visit some of our old haunts together when she gets back. I'm so happy to have reconnected with her. It was like a part of me was missing these last eight years, and now that piece was put back.  Tomorrow we're going to visit the Eiffel Tower together in Paris.  I can't wait!  This is going to be a blast!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Love, [Your Name]"
+            }
+        ],
+        "request_id": "811bcf868d6143fb-EWR"
+    }
+}

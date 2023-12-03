@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My team and I arrived at the event ready and prepared. Gaming was our world at the time. Each of us felt we had practiced our strategies enough that nobody could rival us in the field. We were cocksure to say the least. Unfortunately this turned out to be our downfall. For whatever reason we never stopped to acknowledge that this meant just as much to all the other competitors and teams as it did for us. We weren't ready for the long grudge matches. We had expected to run through the competition. That isn't what happened though. Our very first match we overlooked the team we were set to face. It was a huge wake up call. They countered our strategies and we failed to adapt. We had stuck so hard to our game plan that it became a detriment. We though we had the ultimate strategies and that there was no way they would be countered. To further compound the issue we failed to reflect on the opening loss in a real way. We were too angry. And we promptly lost our second match as well. And with the double elimination rules we were out. 0 and 2 and done. The prestige, the money, the bragging rights... They would not be ours that night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My team and I arrived at the event ready and prepared. Gaming was our world at the time. Each of us felt we had practiced our strategies enough that nobody could rival us in the field. We were cocksure to say the least. Unfortunately this turned out to be our downfall. For whatever reason we never stopped to acknowledge that this meant just as much to all the other competitors and teams as it did for us. We weren't ready for the long grudge matches. We had expected to run through the competition. That isn't what happened though. Our very first match we overlooked the team we were set to face. It was a huge wake up call. They countered our strategies and we failed to adapt. We had stuck so hard to our game plan that it became a detriment. We though we had the ultimate strategies and that there was no way they would be countered. To further compound the issue we failed to reflect on the opening loss in a real way. We were too angry. And we promptly lost our second match as well. And with the double elimination rules we were out. 0 and 2 and done. The prestige, the money, the bragging rights... They would not be ours that night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We left the venue stunned, defeated, and humbled.\n\n"
+            }
+        ],
+        "request_id": "811e98728cff5e84-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago my anxiety was really getting the best of my way. I wasn't in the best shape mentally. I just thought I could bide my time and hope for things to get better on their own. That's what I kept telling myself every time it got bad. Ultimately though, it started to come to a head where either I was going to improve myself, or it was going to consume me and make it even worse. I told my friends I needed a day away, and even that was tough. I hated disappointing anyone. That is probably one of my worst features. I try so hard to please everybody, at the expense of myself sometimes. I just want everyone to feel happy and pleased. But, that's not realistic. I need to take care of myself, at least more than what I have been doing. I wanted to use that day as a means of resetting. I needed to just recharge and keep to myself. That whole day was hard because I wanted to give into my compulsions but I tried desperately not to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago my anxiety was really getting the best of my way. I wasn't in the best shape mentally. I just thought I could bide my time and hope for things to get better on their own. That's what I kept telling myself every time it got bad. Ultimately though, it started to come to a head where either I was going to improve myself, or it was going to consume me and make it even worse. I told my friends I needed a day away, and even that was tough. I hated disappointing anyone. That is probably one of my worst features. I try so hard to please everybody, at the expense of myself sometimes. I just want everyone to feel happy and pleased. But, that's not realistic. I need to take care of myself, at least more than what I have been doing. I wanted to use that day as a means of resetting. I needed to just recharge and keep to myself. That whole day was hard because I wanted to give into my compulsions but I tried desperately not to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just wanted to stay in bed and hide, but I didn't. I did what I needed to do. I took that day to recharge and reset. It was a turning point for me.\n\n"
+            }
+        ],
+        "request_id": "811f4b6cddd242ab-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a party with my friend, Jennifer about 3 months ago. We were invited by our boss and his wife. She was throwing our boss a surprise birthday party and we didn't really want to go, but we thought our jobs would be in jeopardy if we didn't, so we went. Jennifer picked me up and we made the trip to our boss' house, where several other guests and co workers had already arrived. It was a huge house, bigger than either of us had ever seen. Jennifer mentioned when we pulled up that is was bigger than a decent walmart. We arrived, place our presents down, mingled with people we knew, and all of sudden, an hour into the party, we hear yelling. Our boss comes running down the stairs, asking someone to call the police. This sent everybody, including us into a panic. Apparently, someone had went into his study and stole some important business documents from the company. It was a very shocking and emotional event, because it lasted days after the party. Our co workers, and Jennifer and I were interrogated by our boss and police on the who and what of this theft. They eventually found out it was one of our guys in IT. We never knew why he stole the documents. He must have been looking for a way to get money from the company secretly. Nevertheless, it was a memorable party for everyone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a party with my friend, Jennifer about 3 months ago. We were invited by our boss and his wife. She was throwing our boss a surprise birthday party and we didn't really want to go, but we thought our jobs would be in jeopardy if we didn't, so we went. Jennifer picked me up and we made the trip to our boss' house, where several other guests and co workers had already arrived. It was a huge house, bigger than either of us had ever seen. Jennifer mentioned when we pulled up that is was bigger than a decent walmart. We arrived, place our presents down, mingled with people we knew, and all of sudden, an hour into the party, we hear yelling. Our boss comes running down the stairs, asking someone to call the police. This sent everybody, including us into a panic. Apparently, someone had went into his study and stole some important business documents from the company. It was a very shocking and emotional event, because it lasted days after the party. Our co workers, and Jennifer and I were interrogated by our boss and police on the who and what of this theft. They eventually found out it was one of our guys in IT. We never knew why he stole the documents. He must have been looking for a way to get money from the company secretly. Nevertheless, it was a memorable party for everyone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had never experienced anything like that before."
+            }
+        ],
+        "request_id": "811be3d01ff441f5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I also remembered doing a lot of site seeing after this event. I traveled with my kids; We crossed the river at Stefanikuv Most and immediately began walking up a pathway into the park. The park is a big hill, so all paths into the park go upwards, but they generally aren\u2019t too steep. Once you get to the top of the park, it becomes a long flat path popular with joggers and off-leash dog walkers. The park is well-treed with lots of grass and is home to lot of birds and funny little squirrels with spiky head hair. The park has at least two playgrounds in it and tons of park benches to stop for snacks, enjoying the view, changing diapers etc. One of the main attractions of the park is the 75\u2032 tall working metronome, which is a wonderful replacement for the Joseph Stalin statue which used to sit there (it was the largest Stalin statue in the world, but it was destroyed by Krushchev in 1962). The metronome symbolizes the long struggle of the Czech Republic against Soviet control. It\u2019s located in a plaza with nice views of the city below. The kids had a lot of fun running and climbing stuff all around the plaza. After our little guy\u2019s nap, we went for a stroll on the promenade along the banks of the Vltava River, from Stefanikuv most bridge to the Manvesuv most bridge. The pathway is pretty clean for a big city, although it wasn\u2019t spotless \u2013 it seems like a popular drinking spot at night. There are dedicated bike lanes in some portions and where there were not the bikers who used the path seemed careful and courteous. Outside of the odd taxi, there were no cars so your kids can run wild and enjoy themselves, chasing pigeons and looking at ducks and swans. If you so choose, you can board one of the many tourist boats that offer sightseeing trips along the river."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I also remembered doing a lot of site seeing after this event. I traveled with my kids; We crossed the river at Stefanikuv Most and immediately began walking up a pathway into the park. The park is a big hill, so all paths into the park go upwards, but they generally aren\u2019t too steep. Once you get to the top of the park, it becomes a long flat path popular with joggers and off-leash dog walkers. The park is well-treed with lots of grass and is home to lot of birds and funny little squirrels with spiky head hair. The park has at least two playgrounds in it and tons of park benches to stop for snacks, enjoying the view, changing diapers etc. One of the main attractions of the park is the 75\u2032 tall working metronome, which is a wonderful replacement for the Joseph Stalin statue which used to sit there (it was the largest Stalin statue in the world, but it was destroyed by Krushchev in 1962). The metronome symbolizes the long struggle of the Czech Republic against Soviet control. It\u2019s located in a plaza with nice views of the city below. The kids had a lot of fun running and climbing stuff all around the plaza. After our little guy\u2019s nap, we went for a stroll on the promenade along the banks of the Vltava River, from Stefanikuv most bridge to the Manvesuv most bridge. The pathway is pretty clean for a big city, although it wasn\u2019t spotless \u2013 it seems like a popular drinking spot at night. There are dedicated bike lanes in some portions and where there were not the bikers who used the path seemed careful and courteous. Outside of the odd taxi, there were no cars so your kids can run wild and enjoy themselves, chasing pigeons and looking at ducks and swans. If you so choose, you can board one of the many tourist boats that offer sightseeing trips along the river.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We stopped at a caf\u00e9 along the way and had a nice coffee and snack while enjoying the view. We had a great time on our outing to Petrin Hill and the Charles Bridge area.\n\n"
+            }
+        ],
+        "request_id": "811f4101fcb242ec-EWR"
+    }
+}

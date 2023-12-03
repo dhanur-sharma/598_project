@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary, a month ago i learned how to do a reverse rain dance. now I'm sure your wondering why i would bother. boredom is a powerful motivator. i was browsing youtube at the time when i saw the video on  how to do a reverse rain dance to stop clouds from making rain show up in my feed. So i thought to myself ill give it a shot and maybe throw it up on social media for a few likes. so i wait for a rainy day. fast forward a few days later it starts raining. in my infinite genius i decide to record my foolishness, i may have also had a beer, or three. now its poring down raining and i'm out there shaking it like its going out of style wondering what will hit me first, sobriety or a cold. when the rain stops. a few minutes later i'm just looking up at the cloudy sky just kinda looking stunned when the clouds start swirling. so im just sitting there when i notice the wind start picking up and im just thinking no way. but then it REALLY started picking up and i dashed into my house. the wind lasted a good hour and absolutely wrecked my backyard. when i looked at the news later that today apparently a land hurricane has spontaneously formed over my house. i suppose what im trying to say diary is that ill try to use my newfound superpowers responsibly and that rain dances are no joke."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary, a month ago i learned how to do a reverse rain dance. now I'm sure your wondering why i would bother. boredom is a powerful motivator. i was browsing youtube at the time when i saw the video on  how to do a reverse rain dance to stop clouds from making rain show up in my feed. So i thought to myself ill give it a shot and maybe throw it up on social media for a few likes. so i wait for a rainy day. fast forward a few days later it starts raining. in my infinite genius i decide to record my foolishness, i may have also had a beer, or three. now its poring down raining and i'm out there shaking it like its going out of style wondering what will hit me first, sobriety or a cold. when the rain stops. a few minutes later i'm just looking up at the cloudy sky just kinda looking stunned when the clouds start swirling. so im just sitting there when i notice the wind start picking up and im just thinking no way. but then it REALLY started picking up and i dashed into my house. the wind lasted a good hour and absolutely wrecked my backyard. when i looked at the news later that today apparently a land hurricane has spontaneously formed over my house. i suppose what im trying to say diary is that ill try to use my newfound superpowers responsibly and that rain dances are no joke.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "sincerely yours, the rain dancer."
+            }
+        ],
+        "request_id": "811e940dad47c411-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One of the worst days of my life, my beloved Border Terrier, Mr. Pip has passed away.  He has been suffering from Cushings disease for the past 2 years, but his quality of life over the past 6 months has gone down.  He has had frequent accidents in the house and appears to have some type of demential.  Also, he cannot seem to get enough water.  We have resisted putting him on meds because of the potential side effects, but finally it seemed there was no other alternative.  We put him on the meds and for the 1st couple of weeks, things seemed to get better.  Then, in a matter of 24 hours, all of his organs started to shut down.  I brought the kids to school and something told me I should go home to check on him.  I will never forget that image.  He was lying down and foaming at the mouth, he looked terrified.  I am so upset that I ever put him on those meds.  I carried him to our van and brought him to the vet.  He was put to sleep and died in my arms.  I will hold the guilt for a long time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One of the worst days of my life, my beloved Border Terrier, Mr. Pip has passed away.  He has been suffering from Cushings disease for the past 2 years, but his quality of life over the past 6 months has gone down.  He has had frequent accidents in the house and appears to have some type of demential.  Also, he cannot seem to get enough water.  We have resisted putting him on meds because of the potential side effects, but finally it seemed there was no other alternative.  We put him on the meds and for the 1st couple of weeks, things seemed to get better.  Then, in a matter of 24 hours, all of his organs started to shut down.  I brought the kids to school and something told me I should go home to check on him.  I will never forget that image.  He was lying down and foaming at the mouth, he looked terrified.  I am so upset that I ever put him on those meds.  I carried him to our van and brought him to the vet.  He was put to sleep and died in my arms.  I will hold the guilt for a long time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea505284342cd-EWR"
+    }
+}

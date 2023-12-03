@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family of five and three fur babies moved 1,100 miles from Southwest Florida to Southwest Pennsylvania. The only people that we knew in Southwest PA is my in-laws. They live about 30 minutes away from us. It was a huge change to say the least! I figured that being a stay at home mom in a new spot would be just the same as it always was.  Man, was I wrong. In Florida my family was there so my sister came over almost everyday. My sister is my best friend. Plus she has a son six months older than my middle son. My husband got his license back before we left Florida so he now drives himself to work with our only car. In Florida I dropped him off at work so i had the car all day with the kids. My oldest was homeschooling in Florida but has now went back to public school. Since my husband has the car, my oldest now rides the bus. The cool thing is that we lived in the country so the bus stop is our front door. Overall the moved has been such a blessing to our family even with all the changes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family of five and three fur babies moved 1,100 miles from Southwest Florida to Southwest Pennsylvania. The only people that we knew in Southwest PA is my in-laws. They live about 30 minutes away from us. It was a huge change to say the least! I figured that being a stay at home mom in a new spot would be just the same as it always was.  Man, was I wrong. In Florida my family was there so my sister came over almost everyday. My sister is my best friend. Plus she has a son six months older than my middle son. My husband got his license back before we left Florida so he now drives himself to work with our only car. In Florida I dropped him off at work so i had the car all day with the kids. My oldest was homeschooling in Florida but has now went back to public school. Since my husband has the car, my oldest now rides the bus. The cool thing is that we lived in the country so the bus stop is our front door. Overall the moved has been such a blessing to our family even with all the changes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are all learning to adapt and adjusting to our new life here.\n\n"
+            }
+        ],
+        "request_id": "811eb3c73bc0c404-EWR"
+    }
+}

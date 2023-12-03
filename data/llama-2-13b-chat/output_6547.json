@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, my aunt died. It had taken a toll on the family. My mother cried for a few hours. My father had to get some drinks. My sisters had a giant cry. My brothers had to drink to forget the pain. I had to drink and cry. I was close to my aunt. I remember going out to eat at a fancy restaurant. I had a big steak to eat. She had a giant salad to eat. We both shared some wine and I had beer. The dessert was very good. It was a cookie sandwich. I hope I can get over the pain of her loss now. I hope she is resting in heaven. She was the life of the party and will be remembered by a lot of people."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, my aunt died. It had taken a toll on the family. My mother cried for a few hours. My father had to get some drinks. My sisters had a giant cry. My brothers had to drink to forget the pain. I had to drink and cry. I was close to my aunt. I remember going out to eat at a fancy restaurant. I had a big steak to eat. She had a giant salad to eat. We both shared some wine and I had beer. The dessert was very good. It was a cookie sandwich. I hope I can get over the pain of her loss now. I hope she is resting in heaven. She was the life of the party and will be remembered by a lot of people.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will miss her.\n\n"
+            }
+        ],
+        "request_id": "811f47adda1c43ad-EWR"
+    }
+}

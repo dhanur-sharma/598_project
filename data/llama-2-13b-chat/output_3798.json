@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At first I didn't want to go.  It was a family outing and it sounded boring.  I hadn't been to the zoo in ages and there was a reason for that.  It was hot outside and I wasn't in the mood to sweat.  They brought out the fishing gear and my heart sank.  I hate fishing.  Sitting there waiting for some dumb critter it impale itself on a hook isn't my idea of fun.  Against my will I went.  It was hot but I dressed for the occasion.  I go a lot of sun and managed to stroll through the zoo without a problem.  Later, at the part, a couple of fish fell for the bait and we caught them.  I couldn't believe it.  Once we caught them, we didn't know what to do with them and it was funny turning them back into the pond.  They slashed and got a few of us wet.  In the end, we had fun and I was glad I went.  Everyone was very tired after we got home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At first I didn't want to go.  It was a family outing and it sounded boring.  I hadn't been to the zoo in ages and there was a reason for that.  It was hot outside and I wasn't in the mood to sweat.  They brought out the fishing gear and my heart sank.  I hate fishing.  Sitting there waiting for some dumb critter it impale itself on a hook isn't my idea of fun.  Against my will I went.  It was hot but I dressed for the occasion.  I go a lot of sun and managed to stroll through the zoo without a problem.  Later, at the part, a couple of fish fell for the bait and we caught them.  I couldn't believe it.  Once we caught them, we didn't know what to do with them and it was funny turning them back into the pond.  They slashed and got a few of us wet.  In the end, we had fun and I was glad I went.  Everyone was very tired after we got home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a long day and I slept well that night.\n\n"
+            }
+        ],
+        "request_id": "811ed1734b3b4349-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 3 months ago I went to my cousin's wedding--we were really close as kids, and she was marrying one of our childhood friends. I felt a bit empty, having just gone through a divorce. Seeing them together made me depressed, because I remembered our childhoods and how we used to be so close, and how we slowly drifted apart over time. life just takes you in different directions, I guess? It's funny, I actually dated her fiance in highschool. It wasn't too serious, but I never thought they'd end up getting together. They just didn't seem to have that type of chemistry--they were just friends. But I guess they were best friends, in a sense? And I guess that's the type of person you'd marry. I don't know. I just, I feel happy for them. I just feel so sad about my personal life and all that. Like what if I had married him? What if I had chosen a guy who wasn't just, terrible? It just filled my head with horrible thoughts. I tried to be happy for her, I really did, but I just couldn't get over my own personal baggage, I guess."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 3 months ago I went to my cousin's wedding--we were really close as kids, and she was marrying one of our childhood friends. I felt a bit empty, having just gone through a divorce. Seeing them together made me depressed, because I remembered our childhoods and how we used to be so close, and how we slowly drifted apart over time. life just takes you in different directions, I guess? It's funny, I actually dated her fiance in highschool. It wasn't too serious, but I never thought they'd end up getting together. They just didn't seem to have that type of chemistry--they were just friends. But I guess they were best friends, in a sense? And I guess that's the type of person you'd marry. I don't know. I just, I feel happy for them. I just feel so sad about my personal life and all that. Like what if I had married him? What if I had chosen a guy who wasn't just, terrible? It just filled my head with horrible thoughts. I tried to be happy for her, I really did, but I just couldn't get over my own personal baggage, I guess.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I do love her, and I want her to be happy. And I know she is, with him. And that's all that matters, right?\n\n"
+            }
+        ],
+        "request_id": "811eaaa3088541b2-EWR"
+    }
+}

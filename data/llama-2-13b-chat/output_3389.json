@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I consider myself very fortunate. I had to work hard to get to where I was. I had to slog through a lot of long nights just to be in the position that I'm in. I was fortunate enough to have a partner that was there through all of it. What an actual sweetheart this person was. Seven months ago, we finally tied the knot in front of an intimate setting. The young person in me always wanted this to happen. I just couldn't believe that day was finally upon me. But here I was, staring at my fiance. We got married, and afterwards we immediately left town for our honeymoon. I can't really repeat what happened, most of it anyway, because I want to keep that private, but it was well-deserved. We worked our butts off to be successful. We didn't have a lot of time to just take things as they come. But that honeymoon was that chance. I have no regrets."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I consider myself very fortunate. I had to work hard to get to where I was. I had to slog through a lot of long nights just to be in the position that I'm in. I was fortunate enough to have a partner that was there through all of it. What an actual sweetheart this person was. Seven months ago, we finally tied the knot in front of an intimate setting. The young person in me always wanted this to happen. I just couldn't believe that day was finally upon me. But here I was, staring at my fiance. We got married, and afterwards we immediately left town for our honeymoon. I can't really repeat what happened, most of it anyway, because I want to keep that private, but it was well-deserved. We worked our butts off to be successful. We didn't have a lot of time to just take things as they come. But that honeymoon was that chance. I have no regrets.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was everything I wanted it to be and more. I can't thank my partner enough for being there for me and making it all possible. I can't wait to see what the future holds for us."
+            }
+        ],
+        "request_id": "811eca36e99d8ccc-EWR"
+    }
+}

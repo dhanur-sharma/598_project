@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was mid-April of this year.  My family and I were on a road trip.  Our goal was to make it to our sons graduation for special training to be a Navy Corpsman.  We were on our way and couldn't wait to see him.   We checked in to our hotel the afternoon before and took the rest of that day to relax and unwind from the long drive.  The event was in the morning and we wanted to be rested for the event.   Morning came very fast, the alarm went off and I hit snooze a couple of times before actually getting up.  We all got up and ready.  We were all excited, especially me being a mom.  Once ready we headed over to the base.  Once in we had a hard time finding the building where the ceremony was going to be held.  I did ask a few people I saw, but they were civilians and only worked there and didn't know anything about the a graduation.  The place was so big.  We spotted a car with dressed up people drive by and I said to follow them.  I figured they were going to the same place.  I was right and we finally got to the right area.  Then we tried to find parking.  This was a tough task.  We should of left earlier.  The parking area was full and we were running out of time before the event started.   Next to the parking lot was a grassy hill and we ended up parking on it.  We had to run down the sidewalk to get to the building.  The only seating was spread out so we couldn't sit together.   We just made it in time for the event to start.  I was out of breath but excited to be there."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was mid-April of this year.  My family and I were on a road trip.  Our goal was to make it to our sons graduation for special training to be a Navy Corpsman.  We were on our way and couldn't wait to see him.   We checked in to our hotel the afternoon before and took the rest of that day to relax and unwind from the long drive.  The event was in the morning and we wanted to be rested for the event.   Morning came very fast, the alarm went off and I hit snooze a couple of times before actually getting up.  We all got up and ready.  We were all excited, especially me being a mom.  Once ready we headed over to the base.  Once in we had a hard time finding the building where the ceremony was going to be held.  I did ask a few people I saw, but they were civilians and only worked there and didn't know anything about the a graduation.  The place was so big.  We spotted a car with dressed up people drive by and I said to follow them.  I figured they were going to the same place.  I was right and we finally got to the right area.  Then we tried to find parking.  This was a tough task.  We should of left earlier.  The parking area was full and we were running out of time before the event started.   Next to the parking lot was a grassy hill and we ended up parking on it.  We had to run down the sidewalk to get to the building.  The only seating was spread out so we couldn't sit together.   We just made it in time for the event to start.  I was out of breath but excited to be there.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was so proud of my son for making it this far.  The event started and we all enjoyed the ceremony.  After the event we took a family photo with our son.  It was a great day and a memory that will last a lifetime.\n\n"
+            }
+        ],
+        "request_id": "811ea3965af118fa-EWR"
+    }
+}

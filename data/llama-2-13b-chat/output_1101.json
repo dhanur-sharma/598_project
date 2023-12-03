@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I went to my nephew's graduation from high school. He got on stage to get his diploma. A ton of people cheered. We did some things to celebrate. We first went to a nice burger place to eat. I got a double burger with lots of cheese. It was very greasy and delicious. He got a triple burger with a ton of cheese. He enjoyed it. We then went to the movies. We saw the latest blockbuster. It was a blast but it was a remake. The last thing we did was to go the park with the whole family. We played a game of football. My team won. I had a great time that day. My nephew said it was a ton of fun and would hope to do it again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I went to my nephew's graduation from high school. He got on stage to get his diploma. A ton of people cheered. We did some things to celebrate. We first went to a nice burger place to eat. I got a double burger with lots of cheese. It was very greasy and delicious. He got a triple burger with a ton of cheese. He enjoyed it. We then went to the movies. We saw the latest blockbuster. It was a blast but it was a remake. The last thing we did was to go the park with the whole family. We played a game of football. My team won. I had a great time that day. My nephew said it was a ton of fun and would hope to do it again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9dd97e74438b-EWR"
+    }
+}

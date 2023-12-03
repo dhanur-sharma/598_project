@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I adopted Chloe when she was just a little puppy. She was a pit bull, and no one at the shelter wanted to adopt her. They were afraid she would grow up and be dangerous. The moment I heard this, I knew I had to bring her home with me. We bonded immediately. It was so great watching her grow up. I loved teaching her things and she learned very quickly. She was very protective of me, but was never aggressive unless provoked. As the years went by, her muzzle started to gray. Her joints started to ache and she couldn't play the way she used to. She tried, though. She started sleeping more. She started having accidents in the house. One day I woke up to find that Chloe had passed in her sleep. I am beyond grateful for all of the love she showed me and fun times we had. I miss her terribly every day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I adopted Chloe when she was just a little puppy. She was a pit bull, and no one at the shelter wanted to adopt her. They were afraid she would grow up and be dangerous. The moment I heard this, I knew I had to bring her home with me. We bonded immediately. It was so great watching her grow up. I loved teaching her things and she learned very quickly. She was very protective of me, but was never aggressive unless provoked. As the years went by, her muzzle started to gray. Her joints started to ache and she couldn't play the way she used to. She tried, though. She started sleeping more. She started having accidents in the house. One day I woke up to find that Chloe had passed in her sleep. I am beyond grateful for all of the love she showed me and fun times we had. I miss her terribly every day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2d9d68250fa1-EWR"
+    }
+}

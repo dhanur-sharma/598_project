@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son was graduating last Saturday from his Masters in Landscape Architecture. He has been hard working on this degree for the past three years. He really wanted his family to be there to see him walk across the stage and receive his diploma and celebrate with him. We all woke up pretty early that morning, around 6am, so that we could all go to his graduation. My son had to go ahead of us to prepare for the graduation with his classmates. So he got his robe, hat and tassel, and drove to the school ahead of us around 7am because the school was about 2 hours away. Me and my husband wanted to leave at 8am to make it to the 10am graduation. However, because of a \"bathroom incident\", we didn't end up leaving until 8:30am. On the way to the graduation, the traffic was okay and smooth. My husband drove a bit over the speed limit, but luckily there was no issue. We actually got to the school with 10 minutes to spare, but there was no more parking in the school's lot. We searched around for about 5 minutes and found a spot a couple blocks away. I grabbed my purse with the tickets and ended up having to run all the way to the school. We got there just in time to hear my son's name being called, and told my husband to quickly take out his camera so we could record the moment. I'm so happy we made it just in the nick of time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son was graduating last Saturday from his Masters in Landscape Architecture. He has been hard working on this degree for the past three years. He really wanted his family to be there to see him walk across the stage and receive his diploma and celebrate with him. We all woke up pretty early that morning, around 6am, so that we could all go to his graduation. My son had to go ahead of us to prepare for the graduation with his classmates. So he got his robe, hat and tassel, and drove to the school ahead of us around 7am because the school was about 2 hours away. Me and my husband wanted to leave at 8am to make it to the 10am graduation. However, because of a \"bathroom incident\", we didn't end up leaving until 8:30am. On the way to the graduation, the traffic was okay and smooth. My husband drove a bit over the speed limit, but luckily there was no issue. We actually got to the school with 10 minutes to spare, but there was no more parking in the school's lot. We searched around for about 5 minutes and found a spot a couple blocks away. I grabbed my purse with the tickets and ended up having to run all the way to the school. We got there just in time to hear my son's name being called, and told my husband to quickly take out his camera so we could record the moment. I'm so happy we made it just in the nick of time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd294bc0a0cb4-EWR"
+    }
+}

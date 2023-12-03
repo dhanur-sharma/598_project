@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a nearby city to meet up with family members for a very memorable family reunion.  There were about 12 of us in all. We went out to dinner at a very nice Chinese restaurant. My brother, who is a math professor, is very precise in his language.  He requires precision from everyone around him.  He started asking a lot of questions about the food options. The waiter became offended, even though there was nothing offensive about the questions. But the waiter didn't like my brother's tone of voice.  At one point he stepped back and said \"I don't need to be talked to like that.\"  It was kind of sad. I realized that my brother has no idea how he comes off when he's in professorial mode.  My brother ended up getting something he didn't really love, because he felt bad about what happened, and had decided to stop asking questions.  In the end, the food was good, the company was good, the moment was forgotten, and the waiter got a pretty nice tip.  And it was good to see my brother. We had an excellent rest of the reunion.  I'm probably the only one who still recalls the moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a nearby city to meet up with family members for a very memorable family reunion.  There were about 12 of us in all. We went out to dinner at a very nice Chinese restaurant. My brother, who is a math professor, is very precise in his language.  He requires precision from everyone around him.  He started asking a lot of questions about the food options. The waiter became offended, even though there was nothing offensive about the questions. But the waiter didn't like my brother's tone of voice.  At one point he stepped back and said \"I don't need to be talked to like that.\"  It was kind of sad. I realized that my brother has no idea how he comes off when he's in professorial mode.  My brother ended up getting something he didn't really love, because he felt bad about what happened, and had decided to stop asking questions.  In the end, the food was good, the company was good, the moment was forgotten, and the waiter got a pretty nice tip.  And it was good to see my brother. We had an excellent rest of the reunion.  I'm probably the only one who still recalls the moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92cebe66c477-EWR"
+    }
+}

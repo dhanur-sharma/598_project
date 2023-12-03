@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This year I traveled to Colorado in my campervan to do some exploring and hiking in the national forests. I decided I want to go on a big hike this year and conquer a 13er. So I chose to hike Mt. Ouray which is almost a 14er, 13,960ft+. It was a long drive up to around 11,000ft and then I got up early in the morning and hiked the rest. It was a very difficult hike. It took me several hours and I was by myself during this so I had to be very careful. Eventually after around 4 hours I made it to the summit. I almost thought that I was going to have to turn back. The view opened up in all directions to incredible vistas and vastness surpassing anything I had seen before. I was all alone on the summit miles away from any other human beings. It was quite special and I was very proud of myself for my accomplishment. The hike down was also quite difficult. It took me longer to descend and my legs were very tired. I brought just enough gear and water for the trip, just light enough to make it easy for me to carry. I planned it well on a perfectly clear day and got back to my camper around 3pm. It was an incredible experience and not one that I'll ever forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This year I traveled to Colorado in my campervan to do some exploring and hiking in the national forests. I decided I want to go on a big hike this year and conquer a 13er. So I chose to hike Mt. Ouray which is almost a 14er, 13,960ft+. It was a long drive up to around 11,000ft and then I got up early in the morning and hiked the rest. It was a very difficult hike. It took me several hours and I was by myself during this so I had to be very careful. Eventually after around 4 hours I made it to the summit. I almost thought that I was going to have to turn back. The view opened up in all directions to incredible vistas and vastness surpassing anything I had seen before. I was all alone on the summit miles away from any other human beings. It was quite special and I was very proud of myself for my accomplishment. The hike down was also quite difficult. It took me longer to descend and my legs were very tired. I brought just enough gear and water for the trip, just light enough to make it easy for me to carry. I planned it well on a perfectly clear day and got back to my camper around 3pm. It was an incredible experience and not one that I'll ever forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead3dc89d8c45-EWR"
+    }
+}

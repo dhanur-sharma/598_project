@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I believe the story I wrote was about my project with the well.  There were a few different things that went wrong with the project, but ultimately the project was accomplished completely.  We initially thought the well was not producing the right amount of water.  We checked the water flow meter regularly, and saw it was only pumping about 100 gallons each week.  I emailed the team who installed the pump to ask about this.  We were supposed to be pumping upwards of 10,000 gallons each week, so this was very low.  I also emailed the consultant to confirm his projections were still accurate.  The two were able to meet on site together, and I learned that we had been reading the wrong meter the whole time.  The meter we had been reading was the water we were using from the local water source, not our pump.  Our pump meter was somewhere else on site, and it turned out we were pumping almost the exact amount.  I was able to relay this information to my boss all throughout so everyone was kept informed and didn't stress.  The important lesson here was to keep everyone updated and stay organized, and always move things forward.  I can see how something like this could cause stress in someone's life.  It's never easy to feel like you failed at work.  Fortunately, my past work experiences had prepared me to prepare."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I believe the story I wrote was about my project with the well.  There were a few different things that went wrong with the project, but ultimately the project was accomplished completely.  We initially thought the well was not producing the right amount of water.  We checked the water flow meter regularly, and saw it was only pumping about 100 gallons each week.  I emailed the team who installed the pump to ask about this.  We were supposed to be pumping upwards of 10,000 gallons each week, so this was very low.  I also emailed the consultant to confirm his projections were still accurate.  The two were able to meet on site together, and I learned that we had been reading the wrong meter the whole time.  The meter we had been reading was the water we were using from the local water source, not our pump.  Our pump meter was somewhere else on site, and it turned out we were pumping almost the exact amount.  I was able to relay this information to my boss all throughout so everyone was kept informed and didn't stress.  The important lesson here was to keep everyone updated and stay organized, and always move things forward.  I can see how something like this could cause stress in someone's life.  It's never easy to feel like you failed at work.  Fortunately, my past work experiences had prepared me to prepare.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was able to use the skills I learned in my previous positions to resolve the issue.  I had to be persistent, and have a good understanding of the project.  I had to also be able to communicate effectively with the team, and the consultant.  I believe this experience will make me a better project manager in the future."
+            }
+        ],
+        "request_id": "811e9d609c1a8c45-EWR"
+    }
+}

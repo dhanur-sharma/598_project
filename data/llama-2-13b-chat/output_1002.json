@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was quite depressed for the past couple weeks. Doc says that it is normal. Seems like my hormones are acting up. Hormones or not, i was feeling depressed and blue all this time. The doubt and fear in me kept creeping up. I was unsure about everything. However, today that all changed. Brandon felt our baby's movement for the first time today. He felt a movement in my tummy as he was kissing it. I was unsure if i felt that. But then that happened! A kick from him. Or her? I don't know if it is a him or her, as long as my baby is happy and healthy. We went to the church earlier today to say out thanks."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was quite depressed for the past couple weeks. Doc says that it is normal. Seems like my hormones are acting up. Hormones or not, i was feeling depressed and blue all this time. The doubt and fear in me kept creeping up. I was unsure about everything. However, today that all changed. Brandon felt our baby's movement for the first time today. He felt a movement in my tummy as he was kissing it. I was unsure if i felt that. But then that happened! A kick from him. Or her? I don't know if it is a him or her, as long as my baby is happy and healthy. We went to the church earlier today to say out thanks.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are so grateful for this little gift. We are excited to meet him or her soon. I know that this little one will bring us so much joy. We will love him or her with all our hearts. I am so happy today. No more doubts. No more fears.\n\n"
+            }
+        ],
+        "request_id": "811e9c069ace0ca6-EWR"
+    }
+}

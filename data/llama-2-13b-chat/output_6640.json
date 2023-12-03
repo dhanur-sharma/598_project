@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last weekend we packed my son up for college.  It was a very proud moment in my life but also I was sad because he was no longer a child and was leaving home.  We had steaks for lunch and then I kept adding up to his things to pack.  I had been buying stuff for him for months that he would need to be starting out.  It was a happy yet sad time and very moving as he drove away.  He had promised to call as soon as he got to the dorm.  I figured he would probably forget in all the excitement.  I waited until an hour past the time I thought he would call and I texted him.  He was happy and having a good time with his dorm mates.  There are four of them in the dorm apartment.  He is off to a new beginning and again I am very proud and sad to have an empty nest.  The program will not let me end it yet.  So I have to add three more sentences.  I hope this works. I more than met the character count."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last weekend we packed my son up for college.  It was a very proud moment in my life but also I was sad because he was no longer a child and was leaving home.  We had steaks for lunch and then I kept adding up to his things to pack.  I had been buying stuff for him for months that he would need to be starting out.  It was a happy yet sad time and very moving as he drove away.  He had promised to call as soon as he got to the dorm.  I figured he would probably forget in all the excitement.  I waited until an hour past the time I thought he would call and I texted him.  He was happy and having a good time with his dorm mates.  There are four of them in the dorm apartment.  He is off to a new beginning and again I am very proud and sad to have an empty nest.  The program will not let me end it yet.  So I have to add three more sentences.  I hope this works. I more than met the character count.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " My son will be a junior next year.  I hope he stays on the dean's list.  He has already made a lot of new friends.  I can't wait to see how he does in the fall.\n\n"
+            }
+        ],
+        "request_id": "811f49b9f8140f84-EWR"
+    }
+}

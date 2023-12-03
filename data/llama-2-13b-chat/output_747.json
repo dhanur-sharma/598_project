@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have never been to Hawaii. But I have some friends from Hawaii and the Polynesian islands. When I turned 40 last year, 3 months ago, my friends and family decided to throw me a surprise party. And the theme they chose for the party was Hawaiian. The party happened in our back yard. They bought leis for everyone and served tropical drinks. There were decorations and cheesy images of hula dancers distributed over the yard. In all about 60 people came to the party. They stayed all afternoon as we did a \"pig roast\" on the large rented barbecue. Then, as the sun set, people settled in for a long night of partying. The party didn't let up as we sipped rum, coconut, and pineapple drinks. Pina Colada was the main drink, and we had many blenders going at once for people who wanted them with crushed ice. There was cheesy Hawaiian music playing all night, Don Ho and the like, interspersed with music most people liked much better. I was so glad and grateful that my friends and family threw this party for me. It was a 40th birthday I will never forget."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have never been to Hawaii. But I have some friends from Hawaii and the Polynesian islands. When I turned 40 last year, 3 months ago, my friends and family decided to throw me a surprise party. And the theme they chose for the party was Hawaiian. The party happened in our back yard. They bought leis for everyone and served tropical drinks. There were decorations and cheesy images of hula dancers distributed over the yard. In all about 60 people came to the party. They stayed all afternoon as we did a \"pig roast\" on the large rented barbecue. Then, as the sun set, people settled in for a long night of partying. The party didn't let up as we sipped rum, coconut, and pineapple drinks. Pina Colada was the main drink, and we had many blenders going at once for people who wanted them with crushed ice. There was cheesy Hawaiian music playing all night, Don Ho and the like, interspersed with music most people liked much better. I was so glad and grateful that my friends and family threw this party for me. It was a 40th birthday I will never forget.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e97cbe8370ca6-EWR"
+    }
+}

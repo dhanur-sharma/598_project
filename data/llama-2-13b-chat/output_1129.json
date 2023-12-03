@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two month ago me and my family went to New York. It was my cousins wedding. I've never been IN NY before so I was looking forward to visit this amazing city. We stayed in a very nice hotel in Manhattan. The weather was very nice during our stay. We got there couple of days early to see the city. We took a bus tour around Manhattan and saw all the famous buildings. I was very excited to see the place where the twin towers used to be. The best part of the tour was going to the Central Park, located between the Upper West Side and the Upper East Side. Now I understand why it is the most visited park in US. It was gorgeous. It was just like I imagined it to be. I think that it was better in real life than in movies. I also really enjoyed shopping in NY. We went to the Fifth Ave and saw all of those amazing boutiques. I cannot wait to go back to visit my cousin again. I think next trip should be longer thou."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two month ago me and my family went to New York. It was my cousins wedding. I've never been IN NY before so I was looking forward to visit this amazing city. We stayed in a very nice hotel in Manhattan. The weather was very nice during our stay. We got there couple of days early to see the city. We took a bus tour around Manhattan and saw all the famous buildings. I was very excited to see the place where the twin towers used to be. The best part of the tour was going to the Central Park, located between the Upper West Side and the Upper East Side. Now I understand why it is the most visited park in US. It was gorgeous. It was just like I imagined it to be. I think that it was better in real life than in movies. I also really enjoyed shopping in NY. We went to the Fifth Ave and saw all of those amazing boutiques. I cannot wait to go back to visit my cousin again. I think next trip should be longer thou.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9e5b0eff4414-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I was involved in a car accident. I was driving on the highway, with my daughter in the back seat. Suddenly, a car cut in front of me and caused me to drive onto the shoulder off of the road. The car that hit me kept driving, though I was able to get part of the license plate and identifiable features of the car. My daughter started screaming like I had never heard her scream before. Though neither of us were hurt, it was very scary. It took a long time for me to get her to calm down. The police were eventually able to track down the driver, who claimed that they did not hit me. Luckily, the police were able to match the damage on their vehicle to the damage on my vehicle. Despite this proof, the other driver is claiming they did not do it and it was not their fault. The whole criminal case and insurance claim is ongoing and very tedious. However, I am grateful that my daughter and I are still alive. The accident made me realize how important time with family is. It can be taken away so quickly and without warning. I now try to live each day to the fullest and appreciate how lucky we were that the accident wasn't worse. It was traumatizing, but the event has shown me what's really important in life: happiness and family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I was involved in a car accident. I was driving on the highway, with my daughter in the back seat. Suddenly, a car cut in front of me and caused me to drive onto the shoulder off of the road. The car that hit me kept driving, though I was able to get part of the license plate and identifiable features of the car. My daughter started screaming like I had never heard her scream before. Though neither of us were hurt, it was very scary. It took a long time for me to get her to calm down. The police were eventually able to track down the driver, who claimed that they did not hit me. Luckily, the police were able to match the damage on their vehicle to the damage on my vehicle. Despite this proof, the other driver is claiming they did not do it and it was not their fault. The whole criminal case and insurance claim is ongoing and very tedious. However, I am grateful that my daughter and I are still alive. The accident made me realize how important time with family is. It can be taken away so quickly and without warning. I now try to live each day to the fullest and appreciate how lucky we were that the accident wasn't worse. It was traumatizing, but the event has shown me what's really important in life: happiness and family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ead6919958cc0-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a miscarriage 8 months ago. It happened on February 12th 2019. I was eight weeks pregnant, so barely there, but enough to know and to feel some symptoms. I found out really early (5 weeks) because my period is like clockwork. Well...used to be. It was at the time. The craziest part of the whole experience was actually passing the fetus. The pain was some of the worst in my life, and i've been though some other shit in the past. I felt and saw it - it was kinda like something big going through me and then it was all over me. The size of my hand, literally. I was able to pick it up, move it, etc. Once the fetus came out, the pain reduced a lot, although it was still painful. It's crazy to think about even now. It still feels like yesterday sometimes. My life will never be the same."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a miscarriage 8 months ago. It happened on February 12th 2019. I was eight weeks pregnant, so barely there, but enough to know and to feel some symptoms. I found out really early (5 weeks) because my period is like clockwork. Well...used to be. It was at the time. The craziest part of the whole experience was actually passing the fetus. The pain was some of the worst in my life, and i've been though some other shit in the past. I felt and saw it - it was kinda like something big going through me and then it was all over me. The size of my hand, literally. I was able to pick it up, move it, etc. Once the fetus came out, the pain reduced a lot, although it was still painful. It's crazy to think about even now. It still feels like yesterday sometimes. My life will never be the same.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3a7f5ea5420d-EWR"
+    }
+}

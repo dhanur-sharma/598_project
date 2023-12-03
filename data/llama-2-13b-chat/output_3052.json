@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I went to a job interview in San Francisco. I had been applying for jobs and really wanted this one. The most significant part of this event was meeting with the team. Everyone was really nice.  We seemed to really click. However, I came back home and waited and waited to hear from them. I was excited about moving there and had been looking at a rental properties. I checked the different neighborhoods and found the best places to live.  I was excited about the job. But the days turned into weeks and I heard nothing back from them. I sent an email and they said they were still in the recruitment process.  They relisted the job ad. This made me very sad, because it meant I didn't get the job I wanted. However, I tried to focus on the positive. I realized they thought I was good enough to at least give me an interview. I also realized that they had likely interviewed 5 - 6 people and none of them were what they wanted, so it was a high bar to clear anyways.  And I had been really nervous, so I am proud of myself for landing the interview and going at all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I went to a job interview in San Francisco. I had been applying for jobs and really wanted this one. The most significant part of this event was meeting with the team. Everyone was really nice.  We seemed to really click. However, I came back home and waited and waited to hear from them. I was excited about moving there and had been looking at a rental properties. I checked the different neighborhoods and found the best places to live.  I was excited about the job. But the days turned into weeks and I heard nothing back from them. I sent an email and they said they were still in the recruitment process.  They relisted the job ad. This made me very sad, because it meant I didn't get the job I wanted. However, I tried to focus on the positive. I realized they thought I was good enough to at least give me an interview. I also realized that they had likely interviewed 5 - 6 people and none of them were what they wanted, so it was a high bar to clear anyways.  And I had been really nervous, so I am proud of myself for landing the interview and going at all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I realized that I am a strong candidate and that this rejection will not define me. \n\n"
+            }
+        ],
+        "request_id": "811ec32a4d26424f-EWR"
+    }
+}

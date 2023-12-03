@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A most memorable event happened last week. I received my completed patent. I have been working on a novel method for reclaiming wastewaters. There have been many struggles along the way. Anything from machine failures to group infighting which led to project disbandment. It was surprising that after all this time, the technology would end up belonging to me. This makes me happy and proud as an inventor and developer. The technology has been used successfully in mining applications. It cleans AMD to potable levels. It uses no chemicals and is low power. System can be used at any altitude. Power requirements are now low enough for offgrid power. As the inventor and lead developer I am more than proud of this accomplishment. It took so long to complete. I felt like giving up many times along the way. So glad I didn't."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A most memorable event happened last week. I received my completed patent. I have been working on a novel method for reclaiming wastewaters. There have been many struggles along the way. Anything from machine failures to group infighting which led to project disbandment. It was surprising that after all this time, the technology would end up belonging to me. This makes me happy and proud as an inventor and developer. The technology has been used successfully in mining applications. It cleans AMD to potable levels. It uses no chemicals and is low power. System can be used at any altitude. Power requirements are now low enough for offgrid power. As the inventor and lead developer I am more than proud of this accomplishment. It took so long to complete. I felt like giving up many times along the way. So glad I didn't.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e98d89a94c3eb-EWR"
+    }
+}

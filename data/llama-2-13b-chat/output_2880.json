@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A  few weeks ago my family went on vacation. The trip was a 16-hour drive one way. I have two children. Having children cooped up in a car for such a long was stressful. During the drive, we had to make a lot of stops for potty breaks and diaper changes. The car we rented was uncomfortable and a gas guzzler. The car was a far cry from the modern SUV we had reserved on the company's website. Midway through the trip, I was frazzled. I felt like I had made the biggest mistake of my life. There was no time to sight-see because I was to busy soothing a crying baby. My curious toddler was asking me a million questions a minute. On top of that my fiance needed me to stay awake so that I could keep him engaged in conversation so that he would not get sleepy. I wanted to turn the car around and go home. I wanted to scrap the entire vacation. I was fed up I had enough. We eventually made it to our destination. We were able to enjoy our trip and we made some good memories. The drive back was just as miserable. We made it home with our sanity barely intact but we made it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A  few weeks ago my family went on vacation. The trip was a 16-hour drive one way. I have two children. Having children cooped up in a car for such a long was stressful. During the drive, we had to make a lot of stops for potty breaks and diaper changes. The car we rented was uncomfortable and a gas guzzler. The car was a far cry from the modern SUV we had reserved on the company's website. Midway through the trip, I was frazzled. I felt like I had made the biggest mistake of my life. There was no time to sight-see because I was to busy soothing a crying baby. My curious toddler was asking me a million questions a minute. On top of that my fiance needed me to stay awake so that I could keep him engaged in conversation so that he would not get sleepy. I wanted to turn the car around and go home. I wanted to scrap the entire vacation. I was fed up I had enough. We eventually made it to our destination. We were able to enjoy our trip and we made some good memories. The drive back was just as miserable. We made it home with our sanity barely intact but we made it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ebffd2ace4340-EWR"
+    }
+}

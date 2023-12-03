@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister had invited my family to a party at the beach. More often than not, her idea of fun varied from what we find appealing. She is a wildcard and a little too much at times, as are her friends. But once we got to the beach our attitudes changed. The night itself was perfect. The sun was just setting and cast an orange and red light over the water and horizon. There were more people than expected, but it was different than what I was prepared for. Instead of drinking heavily and listening to loud music the crowd was casually conversing with each other. Eventually a bonfire was started. Having grown up making bonfires with our family, it brought back so many good memories. My Father showed us how to roast the perfect marshmallow. My mother joked about \"cheating on her diet\". And my sister for once didn't present herself as the party girl. Instead she was a mature, happy version. An improved version. A version we could all relate to. In a way it was a grown up version of who we were as children. We ended the night laughing while make smores and listening to the waves. It was a perfect family evening."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister had invited my family to a party at the beach. More often than not, her idea of fun varied from what we find appealing. She is a wildcard and a little too much at times, as are her friends. But once we got to the beach our attitudes changed. The night itself was perfect. The sun was just setting and cast an orange and red light over the water and horizon. There were more people than expected, but it was different than what I was prepared for. Instead of drinking heavily and listening to loud music the crowd was casually conversing with each other. Eventually a bonfire was started. Having grown up making bonfires with our family, it brought back so many good memories. My Father showed us how to roast the perfect marshmallow. My mother joked about \"cheating on her diet\". And my sister for once didn't present herself as the party girl. Instead she was a mature, happy version. An improved version. A version we could all relate to. In a way it was a grown up version of who we were as children. We ended the night laughing while make smores and listening to the waves. It was a perfect family evening.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f39a0aa19c338-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got a facebook message unexpectedly five months ago.  A friend I hadn't seen in about 20 years asked if I would like to get a personal tour of my favorite movie's film stage.  I couldn't believe he remembered how much I loved the movie Scream.  After consulting my schedule, I flew out there and we had an amazing time.  He took me on tours through Hollywood, seeing things I'd only dreamed about before.  It was so much fun to catch up on life and find out what we did in our adult lives.  I met his family and his beautiful two boys.  His wife was so nice and shared my love of 80s movies.  On my last day visiting, we went to the Scream set, which was actually set in a real town.  He showed me the different places, and even one of the houses which is now an Airbnb.  Thanks to his connections, we were able to tour that house.  It was so amazing and I had the best time.  We stay in touch more on facebook now, and I made sure to friend his wife on there too.  Since he is from our hometown, he promised they would let me know the next time he came this way to visit his family.  I can't wait to see them all again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got a facebook message unexpectedly five months ago.  A friend I hadn't seen in about 20 years asked if I would like to get a personal tour of my favorite movie's film stage.  I couldn't believe he remembered how much I loved the movie Scream.  After consulting my schedule, I flew out there and we had an amazing time.  He took me on tours through Hollywood, seeing things I'd only dreamed about before.  It was so much fun to catch up on life and find out what we did in our adult lives.  I met his family and his beautiful two boys.  His wife was so nice and shared my love of 80s movies.  On my last day visiting, we went to the Scream set, which was actually set in a real town.  He showed me the different places, and even one of the houses which is now an Airbnb.  Thanks to his connections, we were able to tour that house.  It was so amazing and I had the best time.  We stay in touch more on facebook now, and I made sure to friend his wife on there too.  Since he is from our hometown, he promised they would let me know the next time he came this way to visit his family.  I can't wait to see them all again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2f69dd864381-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On June 22nd I heard my mother calling me from her bedroom door. She was having trouble breathing. I wanted to call an ambulance but she said to just take her to the hospital. The hospital is only 4 minutes from our home. My husband called the ER ahead of time to tell them to be ready for us. On the way my mother was saying she felt ill. I told her that was okay. When we pulled up to the hospital, no one was waiting. I ran to the ER door and it was locked, I had to push a button and wait. They immediately began asking insurance information for her. I yelled that she needed help NOW. They finally got a wheelchair to her and we took her in. One nurse was asking me questions, another was asking mom to walk to the bed. I looked down and mom was no longer breathing, I asked that they help her. The nurse slowly walked to the phone and said she had an unresponsive female. They left mom sitting in the wheelchair. After 4 minutes the doctor arrived, and it took another 3 to begin CPR. They attempted to revive her for over an hour. She was pronounced dead at 10:56 pm. This event was traumatic and shocking, and all I think about daily."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On June 22nd I heard my mother calling me from her bedroom door. She was having trouble breathing. I wanted to call an ambulance but she said to just take her to the hospital. The hospital is only 4 minutes from our home. My husband called the ER ahead of time to tell them to be ready for us. On the way my mother was saying she felt ill. I told her that was okay. When we pulled up to the hospital, no one was waiting. I ran to the ER door and it was locked, I had to push a button and wait. They immediately began asking insurance information for her. I yelled that she needed help NOW. They finally got a wheelchair to her and we took her in. One nurse was asking me questions, another was asking mom to walk to the bed. I looked down and mom was no longer breathing, I asked that they help her. The nurse slowly walked to the phone and said she had an unresponsive female. They left mom sitting in the wheelchair. After 4 minutes the doctor arrived, and it took another 3 to begin CPR. They attempted to revive her for over an hour. She was pronounced dead at 10:56 pm. This event was traumatic and shocking, and all I think about daily.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3fce99c4199d-EWR"
+    }
+}

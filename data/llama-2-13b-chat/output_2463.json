@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My depression recently grabbed hold of my life again. All summer I felt like a new woman. I was eating healthier, doing lots of fun things and feeling more like myself than I had in two years. My husband and closest friends noticed a change in me, so I knew it was real. Then suddenly, about 2 or 3 weeks ago, I had a really bad day. More awful than bad. I was sobbing and felt absolutely miserable. I told my husband I didn't want to be me anymore. I didn't want to be a wife or a mom, I wanted to be alone or dead. I've had quite a few scary days since that one breaking point and i realize now that I'm still not in the clear. I have good days, but i know that i can't fight this on my own. I have to find help. It's hard enough to talk to my family and friends about all the irrational feelings I'm having. I can't imagine talking to a complete stranger about how hurt and alone I feel inside. I know that I have way more support than a check of a lot of other people with this disorder but it truly makes you feel alone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My depression recently grabbed hold of my life again. All summer I felt like a new woman. I was eating healthier, doing lots of fun things and feeling more like myself than I had in two years. My husband and closest friends noticed a change in me, so I knew it was real. Then suddenly, about 2 or 3 weeks ago, I had a really bad day. More awful than bad. I was sobbing and felt absolutely miserable. I told my husband I didn't want to be me anymore. I didn't want to be a wife or a mom, I wanted to be alone or dead. I've had quite a few scary days since that one breaking point and i realize now that I'm still not in the clear. I have good days, but i know that i can't fight this on my own. I have to find help. It's hard enough to talk to my family and friends about all the irrational feelings I'm having. I can't imagine talking to a complete stranger about how hurt and alone I feel inside. I know that I have way more support than a check of a lot of other people with this disorder but it truly makes you feel alone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm scared to death to reach out for help.\n\n"
+            }
+        ],
+        "request_id": "811eb7540b4ac346-EWR"
+    }
+}

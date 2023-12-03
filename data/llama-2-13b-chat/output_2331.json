@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One of my family members passed away about four months ago. It still is a shock to me. I mean, they lived a full and long life, but there was something about them that was different. They were important to me growing up. I had hoped they would reach the age of one-hundred, but that was not to be. It sounded like when they died it was peaceful, but that only mildly softens the blow. It's still tough to imagine they're gone. We didn't talk much recently, but that doesn't make it sting any less. There really was no way to plan for it. As far as I know, they were doing well. They were taking care of themselves. But sometimes all it takes is that one mix-up. That one thing to go wrong. That one thing that can cause a chain reaction. I will dearly miss them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One of my family members passed away about four months ago. It still is a shock to me. I mean, they lived a full and long life, but there was something about them that was different. They were important to me growing up. I had hoped they would reach the age of one-hundred, but that was not to be. It sounded like when they died it was peaceful, but that only mildly softens the blow. It's still tough to imagine they're gone. We didn't talk much recently, but that doesn't make it sting any less. There really was no way to plan for it. As far as I know, they were doing well. They were taking care of themselves. But sometimes all it takes is that one mix-up. That one thing to go wrong. That one thing that can cause a chain reaction. I will dearly miss them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb48a7e1bc402-EWR"
+    }
+}

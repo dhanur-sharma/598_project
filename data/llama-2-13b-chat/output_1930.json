@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My event of choice happened a few months ago.  My wife had been having back spasm issues from time to time.  We tried to get state medicaid to cover home care for the problem, but they required her to go to a doctor, which she was not able to do with her condition.  Finally, the problem got so severe that she had a major back spasm that would not relent.  As we had no car, I had to call 911 to get an ambulance to take her to the ER.  There, they verified it was a back spasm related to her herniated disc.  It was an emotionally difficult time for us all.  She was under great pain, so much that she could not speak.  I had to maintain my stress level, as I have high blood pressure, and call to get her treated.  Then, we were told that she would STILL have to go to her PCP to get treatment, but at least they gave her enough pain meds to get her there.  Over the weeks that would follow, there would be many, many consultation visits, scans, and lab works.  It was not easy, but they did finally get her on good meds, a back shot, and therapy...back at the ER that would not allowed to treat us at the start without all of this run around.  The event and following weeks put much financial and emotional strain on us.  It disrupted our ability to earn money, as we had increased bills.  However, it is good to know what the problem was.  Only recently have things approximated the old days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My event of choice happened a few months ago.  My wife had been having back spasm issues from time to time.  We tried to get state medicaid to cover home care for the problem, but they required her to go to a doctor, which she was not able to do with her condition.  Finally, the problem got so severe that she had a major back spasm that would not relent.  As we had no car, I had to call 911 to get an ambulance to take her to the ER.  There, they verified it was a back spasm related to her herniated disc.  It was an emotionally difficult time for us all.  She was under great pain, so much that she could not speak.  I had to maintain my stress level, as I have high blood pressure, and call to get her treated.  Then, we were told that she would STILL have to go to her PCP to get treatment, but at least they gave her enough pain meds to get her there.  Over the weeks that would follow, there would be many, many consultation visits, scans, and lab works.  It was not easy, but they did finally get her on good meds, a back shot, and therapy...back at the ER that would not allowed to treat us at the start without all of this run around.  The event and following weeks put much financial and emotional strain on us.  It disrupted our ability to earn money, as we had increased bills.  However, it is good to know what the problem was.  Only recently have things approximated the old days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We are grateful to have such a good healthcare system, and our insurance has been good to us.  We are just glad that we have been able to get through it all.\n\n"
+            }
+        ],
+        "request_id": "811ead53d89a42f7-EWR"
+    }
+}

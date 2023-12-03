@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 10/21/19  (Monday)Dear diary,Today was a great day. This morning I took my dad to his doctors appointment and it went really good. I couldn't sleep all night thinking about today's appointment. The night before my dads appointments is always stressful. I often lay in my bed and think the worse. The doctor told him his blood pressure was looking good and she was decreasing some of his medication. I hate going to the doctors appointments because I never know what to expect. I always think about that Veterans appointment where they revealed his pressure was dangerously high. I wish my dad would get out more often. He really needs a companion. I truly think the war messed him up. I try to do the best I can but sometimes I think its not enough. Even though he is doing good right know, I still worry. The man is 76. God continue to watch over him please."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 10/21/19  (Monday)Dear diary,Today was a great day. This morning I took my dad to his doctors appointment and it went really good. I couldn't sleep all night thinking about today's appointment. The night before my dads appointments is always stressful. I often lay in my bed and think the worse. The doctor told him his blood pressure was looking good and she was decreasing some of his medication. I hate going to the doctors appointments because I never know what to expect. I always think about that Veterans appointment where they revealed his pressure was dangerously high. I wish my dad would get out more often. He really needs a companion. I truly think the war messed him up. I try to do the best I can but sometimes I think its not enough. Even though he is doing good right know, I still worry. The man is 76. God continue to watch over him please.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Amen."
+            }
+        ],
+        "request_id": "811be58c8b284364-EWR"
+    }
+}

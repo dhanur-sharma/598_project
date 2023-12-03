@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went with a hike with my boyfriend. It was a fun hike. I set up a tent at the entrance of the woods. We both went fishing. I got a big fish. He got a little fish. We both hiked up a hill. We saw the lovely sunset on the hill. He decided to do something unexpected. He proposed to me while the sun was setting. It was very romantic. I said yes and we will get married in December. It will take some time planning the wedding. I hope to look my best when the occasion arises. I hope we both look good at the wedding. I will definitely be sending wedding cards to everybody who is invited."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went with a hike with my boyfriend. It was a fun hike. I set up a tent at the entrance of the woods. We both went fishing. I got a big fish. He got a little fish. We both hiked up a hill. We saw the lovely sunset on the hill. He decided to do something unexpected. He proposed to me while the sun was setting. It was very romantic. I said yes and we will get married in December. It will take some time planning the wedding. I hope to look my best when the occasion arises. I hope we both look good at the wedding. I will definitely be sending wedding cards to everybody who is invited.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I want to make sure that everyone knows that we are getting married.\n\n"
+            }
+        ],
+        "request_id": "811f3c74df1a3348-EWR"
+    }
+}

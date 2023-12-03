@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have four boys. Growing up, I grew up with four sisters. Suffice to say, the experiences between myself and my sons are vastly different. Yesterday, I went to the doctor because I haven't had my period in weeks. Lo and behold, he confirmed I was pregnant. This is my fifth time getting pregnant, and as exciting as it is, it's still nerve wracking. I remember being nervous when my fourth son was born. I was the mother of four boys. In eight months time, I'll be the mom to five children. I am definitely as nervous or more nervous than I was when my fourth son was born. I'm going to get a sonogram to find out the gender. After having four boys, I'm not sure if I want a fifth boy or my first girl. As nice as it would be to have a daughter, I feel that having a fifth son would be an easier transition. None of the boys know how to operate with a female sibling around. My biggest concern is that if I have a daughter, she will feel isolated and alone. However, and as selfish as this sounds, if I do have a daughter, I finally have someone I can share girl things with."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have four boys. Growing up, I grew up with four sisters. Suffice to say, the experiences between myself and my sons are vastly different. Yesterday, I went to the doctor because I haven't had my period in weeks. Lo and behold, he confirmed I was pregnant. This is my fifth time getting pregnant, and as exciting as it is, it's still nerve wracking. I remember being nervous when my fourth son was born. I was the mother of four boys. In eight months time, I'll be the mom to five children. I am definitely as nervous or more nervous than I was when my fourth son was born. I'm going to get a sonogram to find out the gender. After having four boys, I'm not sure if I want a fifth boy or my first girl. As nice as it would be to have a daughter, I feel that having a fifth son would be an easier transition. None of the boys know how to operate with a female sibling around. My biggest concern is that if I have a daughter, she will feel isolated and alone. However, and as selfish as this sounds, if I do have a daughter, I finally have someone I can share girl things with.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would love to have a girl and raise her to be a strong and independent woman. I do know that if I have a daughter, my boys will finally have to learn how to share and take turns."
+            }
+        ],
+        "request_id": "811eb895d9871831-EWR"
+    }
+}

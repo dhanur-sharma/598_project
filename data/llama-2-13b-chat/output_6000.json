@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week we had a major storm come through our area.  The storm escalated pretty quickly and before we knew it the electricity had cone out.  In the house were me, my husband, our teen daughter and her friend that was spending the night.  At first it was kind of adventurous.  We set up candles and used flashlights and just pretty much played games on our phones or whatever we could find in the dark to keep us occupied.  About two hours into this, we decided to go to the grocery store and we bought a lot of snacks.  After six hours it was late night and we were wondering if the power would ever come back on.  We called the power company and they said it could be awhile.  We went to bed and hoped for the best.  We woke up the next morning to no power still.  The power company was now telling us the outages were so bad it could be up to a week for us to regain power.  We were new to the neighborhood and didnt really know anyone.  We were worried about hot water, food going bad, etc.  We went out for the say to forget about things.  When we returned there was a generator sitting on our driveway with a note attached.  It was from our nextdoor neighbors who are in their mid to late sixties.  The note read \"you can use this generator to keep your refrigerator running so your food doesnt spoil.  it should last for several days\"  I was so amazed and thankful.  I could not believe the kindness of people we didnt even know, that were in the same situation as us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week we had a major storm come through our area.  The storm escalated pretty quickly and before we knew it the electricity had cone out.  In the house were me, my husband, our teen daughter and her friend that was spending the night.  At first it was kind of adventurous.  We set up candles and used flashlights and just pretty much played games on our phones or whatever we could find in the dark to keep us occupied.  About two hours into this, we decided to go to the grocery store and we bought a lot of snacks.  After six hours it was late night and we were wondering if the power would ever come back on.  We called the power company and they said it could be awhile.  We went to bed and hoped for the best.  We woke up the next morning to no power still.  The power company was now telling us the outages were so bad it could be up to a week for us to regain power.  We were new to the neighborhood and didnt really know anyone.  We were worried about hot water, food going bad, etc.  We went out for the say to forget about things.  When we returned there was a generator sitting on our driveway with a note attached.  It was from our nextdoor neighbors who are in their mid to late sixties.  The note read \"you can use this generator to keep your refrigerator running so your food doesnt spoil.  it should last for several days\"  I was so amazed and thankful.  I could not believe the kindness of people we didnt even know, that were in the same situation as us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We were able to keep our refrigerator running and food fresh.  We finally got our power back on after a week but I will never forget the kindness of our neighbors.\n\n"
+            }
+        ],
+        "request_id": "811f3cc6ace58c41-EWR"
+    }
+}

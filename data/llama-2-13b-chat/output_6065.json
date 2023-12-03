@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I don't remember the exact date when this happened, but it was within the last couple weeks. For the past year I've been trying out various Buddhist practices - particularly a lot of different meditation techniques. Sitting meditation can cause a lot of pain to arise in the body for me, and instead of working through that like I should, I've started to do a lot of walking meditation instead. This of course leads to its own types of pain, but they're more manageable. Anyway, recently I had been doing my walking meditation as usual. I like to do an hour a day whenever I can since I work from home and can leave my computer for short times here and there. I usually break this down into 10-15 minute sessions just to make it easier to get the practice in without disturbing my work day too much. One late afternoon/early evening I was doing my walking and reached a very peaceful and tranquil state. My mind was significantly more quiet than it usually is, although there were still thoughts bubbling up here and there. I also realized at the time that the movement in my mind was starting to slow down. My mind was no longer jumping from one thought to another endlessly. This mental state continued for a few minutes as I continued to pace back and forth on my walking path and just observed it. After I finished that feeling of peace and tranquility lingered for a while before fading away. I've had some pretty strange and interesting experiences so far while exploring these different techniques. The stillness I felt during this particular session really stood out to me though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I don't remember the exact date when this happened, but it was within the last couple weeks. For the past year I've been trying out various Buddhist practices - particularly a lot of different meditation techniques. Sitting meditation can cause a lot of pain to arise in the body for me, and instead of working through that like I should, I've started to do a lot of walking meditation instead. This of course leads to its own types of pain, but they're more manageable. Anyway, recently I had been doing my walking meditation as usual. I like to do an hour a day whenever I can since I work from home and can leave my computer for short times here and there. I usually break this down into 10-15 minute sessions just to make it easier to get the practice in without disturbing my work day too much. One late afternoon/early evening I was doing my walking and reached a very peaceful and tranquil state. My mind was significantly more quiet than it usually is, although there were still thoughts bubbling up here and there. I also realized at the time that the movement in my mind was starting to slow down. My mind was no longer jumping from one thought to another endlessly. This mental state continued for a few minutes as I continued to pace back and forth on my walking path and just observed it. After I finished that feeling of peace and tranquility lingered for a while before fading away. I've had some pretty strange and interesting experiences so far while exploring these different techniques. The stillness I felt during this particular session really stood out to me though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wonder if this is a sign that I'm making progress with my practice or if it was just a fluke. I hope that this feeling returns and becomes more regular."
+            }
+        ],
+        "request_id": "811f3e1d188342cb-EWR"
+    }
+}

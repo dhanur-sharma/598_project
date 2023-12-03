@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had wanted to go on vacation for a while. It had been quite a bit of time since I had gone anywhere. I ended up trying to decide where I wanted to go. Colorado sounded nice. I had never been there before. I booked a trip to Rocky Mountain National Park. It was a quick plane flight there but the drive to the actual park took quite a while. When I got there I couldn't believe how beautiful it was. Majestic was the only way to describe the land in this area. So many beautiful sights to see. After spending sometime there I decided to go white water rafting. I packed up my gear. We headed over to the nearby town of Idaho Spring, Colorado. It is a great place. I loved riding the rapids there. I had so much fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had wanted to go on vacation for a while. It had been quite a bit of time since I had gone anywhere. I ended up trying to decide where I wanted to go. Colorado sounded nice. I had never been there before. I booked a trip to Rocky Mountain National Park. It was a quick plane flight there but the drive to the actual park took quite a while. When I got there I couldn't believe how beautiful it was. Majestic was the only way to describe the land in this area. So many beautiful sights to see. After spending sometime there I decided to go white water rafting. I packed up my gear. We headed over to the nearby town of Idaho Spring, Colorado. It is a great place. I loved riding the rapids there. I had so much fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the perfect vacation. I would definitely go back.\n\n"
+            }
+        ],
+        "request_id": "811e98e1ae5cc35f-EWR"
+    }
+}

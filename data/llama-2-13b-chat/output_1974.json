@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 9 months ago was a very traumatizing day for me. I was on my way to a friends house for dinner when I got into an accident. A car accident isn't rare, but this one was. I was driving in my friend's neighborhood, almost at her house, when a kid ran out into the street chasing his soccer ball. I had absolutely no time to react fast enough to miss him. I hit him right when I saw him. When it happened, I of course braked, put the car in park, and froze. I couldn't believe it. It took me like 10 seconds before I got out. I was praying he wasn't dead. 3 people can running over. 1 was yelling at me, which honestly pissed me off. Turns out it was his mom. After making sure the kid was fine, she yelled at me more. I told her I have a dash cam and can show her it was her negligence and letting her kid run out in the street that caused this. She got even angrier, and then one of her neighbors said she saw the whole thing and confirmed I had no time to react. The cops were called, they watched the video, and I was not in trouble. I still felt awful, though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 9 months ago was a very traumatizing day for me. I was on my way to a friends house for dinner when I got into an accident. A car accident isn't rare, but this one was. I was driving in my friend's neighborhood, almost at her house, when a kid ran out into the street chasing his soccer ball. I had absolutely no time to react fast enough to miss him. I hit him right when I saw him. When it happened, I of course braked, put the car in park, and froze. I couldn't believe it. It took me like 10 seconds before I got out. I was praying he wasn't dead. 3 people can running over. 1 was yelling at me, which honestly pissed me off. Turns out it was his mom. After making sure the kid was fine, she yelled at me more. I told her I have a dash cam and can show her it was her negligence and letting her kid run out in the street that caused this. She got even angrier, and then one of her neighbors said she saw the whole thing and confirmed I had no time to react. The cops were called, they watched the video, and I was not in trouble. I still felt awful, though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I ended up going to dinner at my friends house after the cops left. She was very understanding and didn't blame me. We talked about how it could have been any of us. Now it's been 9 months and I still think about that day all the time.\n\n"
+            }
+        ],
+        "request_id": "811eadf4ea2832d9-EWR"
+    }
+}

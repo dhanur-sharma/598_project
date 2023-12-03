@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Jane came to visit last month. Well, she didn't come to visit me. Jason turned 8 and the party turned into a bit of a family reunion. It was strange to see her after all of these years. Strange in a good way. We decided to bury the hatchet about our old fight. She claims she does not even remember what it was about. I have to be honest, neither do I.  It was very good to see her again. It was good to be surrounded by the children of the family. They are not children anymore, and they have their own families now. It is a beautiful thing to see. I love my family. We agreed to meet up again for Christmas in a few months. I cannot wait."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Jane came to visit last month. Well, she didn't come to visit me. Jason turned 8 and the party turned into a bit of a family reunion. It was strange to see her after all of these years. Strange in a good way. We decided to bury the hatchet about our old fight. She claims she does not even remember what it was about. I have to be honest, neither do I.  It was very good to see her again. It was good to be surrounded by the children of the family. They are not children anymore, and they have their own families now. It is a beautiful thing to see. I love my family. We agreed to meet up again for Christmas in a few months. I cannot wait.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb3511c71436d-EWR"
+    }
+}

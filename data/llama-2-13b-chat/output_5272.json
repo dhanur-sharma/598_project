@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: She and I had never been away together before, and this would be a big step for us.  A romantic getaway to the Bahamas was just the ticket.  When we arrived in the Bahamas, though, much to our surprise, our luggage was not at the airport.  We waited and waited, eager for our vacation to begin, but our bags never showed up.  Eventually the conveyor belt was empty, without our bags.  We went to the customer service desk, and they told us our bags had been taken to Chicago instead.  Everything was in those bags...clothes, toothbrushes, etc.   We had nothing! We were told our bags would arrive in two days, so we unfortunately spent our first night of vacation going shopping for necessities to hold us over until our bags arrived.  What was even worse was I had an engagement ring in my suitcase.  I was planning to propose to my girlfriend over dinner at this ritzy restaurant on the island the next night.  Needless to say...it was not the start to my birthday vacation that I was hoping for.  Four months later, we are now engaged.  It didn't happen at the restaurant that second night as I had hoped, but I was able to do it on our last night there because our suitcases DID eventually arrive.  I took her for a walk on the beach and proposed there in the moonlight, which was equally great.  So it all worked out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: She and I had never been away together before, and this would be a big step for us.  A romantic getaway to the Bahamas was just the ticket.  When we arrived in the Bahamas, though, much to our surprise, our luggage was not at the airport.  We waited and waited, eager for our vacation to begin, but our bags never showed up.  Eventually the conveyor belt was empty, without our bags.  We went to the customer service desk, and they told us our bags had been taken to Chicago instead.  Everything was in those bags...clothes, toothbrushes, etc.   We had nothing! We were told our bags would arrive in two days, so we unfortunately spent our first night of vacation going shopping for necessities to hold us over until our bags arrived.  What was even worse was I had an engagement ring in my suitcase.  I was planning to propose to my girlfriend over dinner at this ritzy restaurant on the island the next night.  Needless to say...it was not the start to my birthday vacation that I was hoping for.  Four months later, we are now engaged.  It didn't happen at the restaurant that second night as I had hoped, but I was able to do it on our last night there because our suitcases DID eventually arrive.  I took her for a walk on the beach and proposed there in the moonlight, which was equally great.  So it all worked out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was a very memorable vacation, and not just for the engagement!\n\n"
+            }
+        ],
+        "request_id": "811f2e1acc5c43b9-EWR"
+    }
+}

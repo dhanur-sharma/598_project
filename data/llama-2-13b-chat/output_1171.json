@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was a horrible day. Out of nowhere, sweet girl passed away. Everything was going as usual, when mom called and told me the devastating news that my baby had to be put down. Apparently, she was walking into the kitchen when she saw her going in circles and then lay down. She rushed her to the vet. She kept repeating that the poor baby just wasn't there anymore and she hoped she made the right choice. I got angry. Of course she didn't make the right choice! How could she not try to go to the specialist! Why wouldn't she let me take her? I can't believe I didn't even get to say goodbye one last time. My girl wasn't supposed to go yet. I am so mad that I didn't take her on that walk when I last visited. She always loved walks and I was to selfish to spare the 15 minutes. That was always her favorite. I am so sorry boo-bug. I love you, always. I know mom just wanted you to be at peace."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was a horrible day. Out of nowhere, sweet girl passed away. Everything was going as usual, when mom called and told me the devastating news that my baby had to be put down. Apparently, she was walking into the kitchen when she saw her going in circles and then lay down. She rushed her to the vet. She kept repeating that the poor baby just wasn't there anymore and she hoped she made the right choice. I got angry. Of course she didn't make the right choice! How could she not try to go to the specialist! Why wouldn't she let me take her? I can't believe I didn't even get to say goodbye one last time. My girl wasn't supposed to go yet. I am so mad that I didn't take her on that walk when I last visited. She always loved walks and I was to selfish to spare the 15 minutes. That was always her favorite. I am so sorry boo-bug. I love you, always. I know mom just wanted you to be at peace.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But how can I be at peace when you're gone? You were the best thing that ever happened to me. I wish I could turn back time and do things differently."
+            }
+        ],
+        "request_id": "811e9f1ded9842e4-EWR"
+    }
+}

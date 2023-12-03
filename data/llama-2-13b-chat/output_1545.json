@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to Mexico for my 25th birthday. It was exciting because I haven't been there before, and it was a chance to get a group of my friends together. We spent 4 days over there, and we had events planned everyday. It was busy but definitely a lot of fun. The first night, we just relaxed at the resort. The second day we went ziplining, which was extremely fun. We also went to a cenote. The last day, we went on a catamaran to Isla Mujeres, which was breathtaking. Being on that boat and looking at the view was incredible. My most memorable moment was definitely when the tour guide danced around the catamaran and poured us drinks. It was a lot of fun and I felt relaxed. The view was phenomenal, and just being with my friends was great. The sea was super blue, and it was breathtaking. The whole trip we ate to our heart's content. It was great food, and all of the drinks we could have. It was one of my best trips, and I will definitely remember it for a while."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to Mexico for my 25th birthday. It was exciting because I haven't been there before, and it was a chance to get a group of my friends together. We spent 4 days over there, and we had events planned everyday. It was busy but definitely a lot of fun. The first night, we just relaxed at the resort. The second day we went ziplining, which was extremely fun. We also went to a cenote. The last day, we went on a catamaran to Isla Mujeres, which was breathtaking. Being on that boat and looking at the view was incredible. My most memorable moment was definitely when the tour guide danced around the catamaran and poured us drinks. It was a lot of fun and I felt relaxed. The view was phenomenal, and just being with my friends was great. The sea was super blue, and it was breathtaking. The whole trip we ate to our heart's content. It was great food, and all of the drinks we could have. It was one of my best trips, and I will definitely remember it for a while.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea6ae5f6bc3fd-EWR"
+    }
+}

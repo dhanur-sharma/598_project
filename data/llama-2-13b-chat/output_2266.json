@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago, I got too drunk one day. I was kicked out of the house for it. It was really cold that night and I got pneumonia. I had to go to the hospital. The morphine they gave me helped a ton. I was in pain for a week. My family came over to say they were sorry for kicking me out. I forgave them. They all had a big cry together. The food at the hospital wasn't too bad. I got a nice steak one day. I also had some french fries with my steak. They were both decent. They gave me a choice between apple juice or soda. I decided on soda. I left the hospital after two weeks. The bills were paid for by my insurance."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago, I got too drunk one day. I was kicked out of the house for it. It was really cold that night and I got pneumonia. I had to go to the hospital. The morphine they gave me helped a ton. I was in pain for a week. My family came over to say they were sorry for kicking me out. I forgave them. They all had a big cry together. The food at the hospital wasn't too bad. I got a nice steak one day. I also had some french fries with my steak. They were both decent. They gave me a choice between apple juice or soda. I decided on soda. I left the hospital after two weeks. The bills were paid for by my insurance.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was lucky.\n\n"
+            }
+        ],
+        "request_id": "811eb36ddb8441e9-EWR"
+    }
+}

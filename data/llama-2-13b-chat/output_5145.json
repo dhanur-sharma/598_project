@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After years of saving and waiting I was finally ready to buy my first home. This was a long and sometimes painful process but a good experience nonetheless. I viewed tons of homes and could not find the one for me. I searched and searched and just couldn't find that one that stood out from the rest. Finally, after what felt like an eternity of searching I was ready to give up. I was exhausted from searching and just didn't want to do it anymore. The last house on my viewing list was the one! It was perfect for me. I ended up putting an offer in on the house and the sellers accepted. There were a few things that needed to be done and a few things that needed updating but the house was exactly what I was looking for. This experience taught me to never give up. I couldn't have been happier. It was a long time coming. Finally, my house hunting journey was over. I have been living in this home ever since and I love it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After years of saving and waiting I was finally ready to buy my first home. This was a long and sometimes painful process but a good experience nonetheless. I viewed tons of homes and could not find the one for me. I searched and searched and just couldn't find that one that stood out from the rest. Finally, after what felt like an eternity of searching I was ready to give up. I was exhausted from searching and just didn't want to do it anymore. The last house on my viewing list was the one! It was perfect for me. I ended up putting an offer in on the house and the sellers accepted. There were a few things that needed to be done and a few things that needed updating but the house was exactly what I was looking for. This experience taught me to never give up. I couldn't have been happier. It was a long time coming. Finally, my house hunting journey was over. I have been living in this home ever since and I love it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's perfect for me.\n\n"
+            }
+        ],
+        "request_id": "811be52bf89e78ed-EWR"
+    }
+}

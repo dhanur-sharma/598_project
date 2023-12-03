@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This is my daughter's story. Though as her father it very much weighs on me even now. At the time my eldest and I were not very close. I can't explain why even to this day. Since as I've gotten to know her these past couple years I can see that she really is a remarkable person.  She's been through so much in her life and yet she didn't let it change her negatively. I think what bothers me the most is how often I let her down. Even when she had to move back home after her engagement ended. Her plan was to move out within a year. But she was in an accident and lost her job, though she recovered it took a bit for her to be able to work. And even longer for her to save enough to move out. It was during this time that she entered into a relationship with someone she had met online and started a relationship with him. He was great. I really thought that she might marry this man. A couple months in I allowed him to move in with us. He lived hours away and was spending most of his time here anyhow. This is when my daughter started changing. She became even more withdrawn and seemed on edge. She tried to tell my wife and I that she was being abused. But, we blew her off. We thought she was lying. After all this man seemed amazing. This went on for two years. Until finally we saw what she was trying to tell us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This is my daughter's story. Though as her father it very much weighs on me even now. At the time my eldest and I were not very close. I can't explain why even to this day. Since as I've gotten to know her these past couple years I can see that she really is a remarkable person.  She's been through so much in her life and yet she didn't let it change her negatively. I think what bothers me the most is how often I let her down. Even when she had to move back home after her engagement ended. Her plan was to move out within a year. But she was in an accident and lost her job, though she recovered it took a bit for her to be able to work. And even longer for her to save enough to move out. It was during this time that she entered into a relationship with someone she had met online and started a relationship with him. He was great. I really thought that she might marry this man. A couple months in I allowed him to move in with us. He lived hours away and was spending most of his time here anyhow. This is when my daughter started changing. She became even more withdrawn and seemed on edge. She tried to tell my wife and I that she was being abused. But, we blew her off. We thought she was lying. After all this man seemed amazing. This went on for two years. Until finally we saw what she was trying to tell us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We kicked him out and helped her get a restraining order. But the damage had already been done. My daughter had been changed. She had been broken. She's still trying to recover. And I can't help but feel like I'm the one who broke her. I feel like I should have seen the signs. I should have listened to her. But I didn't. And now I'm left with the guilt of knowing that I could have done more to protect her."
+            }
+        ],
+        "request_id": "811f39231d181a1f-EWR"
+    }
+}

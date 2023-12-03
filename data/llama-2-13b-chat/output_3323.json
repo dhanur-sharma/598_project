@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last weekend I went shopping with my niece. I had a great day with her as usual . We went out shopping at some different stores around the mall. Then we drove to a town nearby. There was a new ice cream shop there. She was dying to try it out. The most exciting part of the day was that we were able to get discounts at multiple shops. People just loved how cute my niece was! We also stopped at the pet store, and looked around. I have done this a few times with her and it's always a lot of fun and a good time. I enjoyed this diary entry, I like looking back on days I've spent. I can't wait to spend more time with her in the future! We always have a good time. SHe is such a funny, bright child. She spreads joy wherever she goes. It really was a wonderful day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last weekend I went shopping with my niece. I had a great day with her as usual . We went out shopping at some different stores around the mall. Then we drove to a town nearby. There was a new ice cream shop there. She was dying to try it out. The most exciting part of the day was that we were able to get discounts at multiple shops. People just loved how cute my niece was! We also stopped at the pet store, and looked around. I have done this a few times with her and it's always a lot of fun and a good time. I enjoyed this diary entry, I like looking back on days I've spent. I can't wait to spend more time with her in the future! We always have a good time. SHe is such a funny, bright child. She spreads joy wherever she goes. It really was a wonderful day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec8d39fa243a3-EWR"
+    }
+}

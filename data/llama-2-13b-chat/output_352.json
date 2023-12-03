@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At the beginning of June, my wife and I took a vacation to Washington State.  We stayed in Snoqualmie, which is about an hour East of Seattle.  We rented a convertible Mustang, which was really fun because the weather was beautiful and having the top down made it feel like we were more a part of the magnificent scenery.  In fact, we never saw a single drop of Washington's famous rain during the four days we were there.  We even only got clouds for part of one day.  We stayed at a place called Rockwood Farm, which has \"Washington's most liked front gate on Instagram\", which sounds dumb, but the driveway really is something special to see.  The farm isn't really so much a farm as it is a log mansion sitting on several acres of land on the North Fork Snoqualmie river.  There was a playground on the property for kids.  Also, there was a heard of  elk that roamed the grounds and weren't particularly bothered by people.   Mt. Si loomed in the background.  We mostly spent time exploring the Snoqualmie area, but we also spent a little time in Seattle.  One day, we took the ferry from Seattle over to Poulsbo.  Seeing Mt. Rainier from the ferry was like nothing I've ever seen befor."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At the beginning of June, my wife and I took a vacation to Washington State.  We stayed in Snoqualmie, which is about an hour East of Seattle.  We rented a convertible Mustang, which was really fun because the weather was beautiful and having the top down made it feel like we were more a part of the magnificent scenery.  In fact, we never saw a single drop of Washington's famous rain during the four days we were there.  We even only got clouds for part of one day.  We stayed at a place called Rockwood Farm, which has \"Washington's most liked front gate on Instagram\", which sounds dumb, but the driveway really is something special to see.  The farm isn't really so much a farm as it is a log mansion sitting on several acres of land on the North Fork Snoqualmie river.  There was a playground on the property for kids.  Also, there was a heard of  elk that roamed the grounds and weren't particularly bothered by people.   Mt. Si loomed in the background.  We mostly spent time exploring the Snoqualmie area, but we also spent a little time in Seattle.  One day, we took the ferry from Seattle over to Poulsbo.  Seeing Mt. Rainier from the ferry was like nothing I've ever seen befor.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We spent a few hours in Poulsbo, where we walked around and had some great seafood.  We also took a drive to the top of Mt. Si, which was a little nerve-wracking due to the wind and the fact that the road was dirt, but the view from the top was amazing.  All in all, we had a great time in Washington and can't wait to go back.\n\n"
+            }
+        ],
+        "request_id": "811e901b7d0a1978-EWR"
+    }
+}

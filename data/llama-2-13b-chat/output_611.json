@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The last couple of weeks before my store officially closed down was surreal and hectic. I never been through the process of a store closure before. I'll never forget hearing my manager break the news to me and my initial reaction of utter disbelief. I've worked at this store for so long, and became so familiar with my coworkers, the daily routine, the customer's, etc.  My coworkers and I all supported each other through the process since it was new for all of us. We took turns running the registers, helping as many customer's as we could, and trying to get as much merchandise out of the store asap. The most difficult and tiresome part of all of this is dealing with the customer's. Their reactions to hearing about the store's closing ranged from disbelief, confusion, annoyance, anger, and panic. You would think that the world was ending by the way they responded to the news. We tried to explain to them as much as we understood ourselves (we all had little scripts to read to them, disclosing very little information), but they still pressed on wanting to know why. The most memorable experience I had was during the last week of the closing. The store was closed to customers, and we were putting things palettes and wrapping things up. The store was very empty, and we knew our time was winding down together. So we decided to all stop what we were doing, and stood in a circle and played catch with a tennis ball we found on the ground.  We just tossed it among each other, and what seemed like a simple thing was actually the best experience we had throughout the whole treacherous process. It was a time that we actually just stopped and enjoyed each other's company, laughed, and shared stories about the past time's we had in the store. Our manager's didn't yell at us our make us stop. I think we all understood that this experience was special, despite all of the obstacles, difficulties, and challenges we faced."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The last couple of weeks before my store officially closed down was surreal and hectic. I never been through the process of a store closure before. I'll never forget hearing my manager break the news to me and my initial reaction of utter disbelief. I've worked at this store for so long, and became so familiar with my coworkers, the daily routine, the customer's, etc.  My coworkers and I all supported each other through the process since it was new for all of us. We took turns running the registers, helping as many customer's as we could, and trying to get as much merchandise out of the store asap. The most difficult and tiresome part of all of this is dealing with the customer's. Their reactions to hearing about the store's closing ranged from disbelief, confusion, annoyance, anger, and panic. You would think that the world was ending by the way they responded to the news. We tried to explain to them as much as we understood ourselves (we all had little scripts to read to them, disclosing very little information), but they still pressed on wanting to know why. The most memorable experience I had was during the last week of the closing. The store was closed to customers, and we were putting things palettes and wrapping things up. The store was very empty, and we knew our time was winding down together. So we decided to all stop what we were doing, and stood in a circle and played catch with a tennis ball we found on the ground.  We just tossed it among each other, and what seemed like a simple thing was actually the best experience we had throughout the whole treacherous process. It was a time that we actually just stopped and enjoyed each other's company, laughed, and shared stories about the past time's we had in the store. Our manager's didn't yell at us our make us stop. I think we all understood that this experience was special, despite all of the obstacles, difficulties, and challenges we faced.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And even though the store is now closed, and we've all moved on to new things, I'll never forget the memories I have of the time we spent together.\n\n"
+            }
+        ],
+        "request_id": "811e94ea787c1996-EWR"
+    }
+}

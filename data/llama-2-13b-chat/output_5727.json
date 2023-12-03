@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Around six months ago, I was living with my dad. I had quit my job and was driving for Uber. The only goal was to be with my fiance. She lives in Bogota, Colombia. I wanted to visit her for a few months. I bought a ticket and planned a trip to Bogota. I got up early one morning to catch the city bus to the airport. I had purchased a ticket to fly to Bogota and spend three months with my fiance.  The bus trip took about an hour. My flight was not until around twelve, I was a few hours early. I was so excited that I didn't care about the wait. The flight was going to take around four hours to complete. I had packed a lot of snacks to hold me over since I had spent all my money on the ticket.   Arriving at the airport in Bogota, I was greeted by my fiance. It was the happiest moment in my life. It had been almost a year since I last saw her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Around six months ago, I was living with my dad. I had quit my job and was driving for Uber. The only goal was to be with my fiance. She lives in Bogota, Colombia. I wanted to visit her for a few months. I bought a ticket and planned a trip to Bogota. I got up early one morning to catch the city bus to the airport. I had purchased a ticket to fly to Bogota and spend three months with my fiance.  The bus trip took about an hour. My flight was not until around twelve, I was a few hours early. I was so excited that I didn't care about the wait. The flight was going to take around four hours to complete. I had packed a lot of snacks to hold me over since I had spent all my money on the ticket.   Arriving at the airport in Bogota, I was greeted by my fiance. It was the happiest moment in my life. It had been almost a year since I last saw her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We hugged and kissed each other. I could feel the excitement and love in the air. I had missed her so much.  We decided to go to her apartment to drop off my bags. She lived in a small apartment in the city center. When we arrived, I was amazed by the view of the city from the balcony. It was a beautiful sight to see. We spent the rest of the day exploring the city, walking around and holding hands. It felt like a dream come true.  "
+            }
+        ],
+        "request_id": "811f37321b55c33d-EWR"
+    }
+}

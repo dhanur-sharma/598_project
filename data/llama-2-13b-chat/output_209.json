@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back on May 20th while driving home from a night out catching rattlesnakes me and some friends saw a UFO in the sky. We filmed it and posted it online since then I have been interviewed 3 times and will be on tv again for it next week. It has been a really exciting thing to be a part of. No one seems to know what it is and my story has been posted all over the place. We even went to Area 51 Raid and got to tell our story and make some great friends. The UFO I saw was a long bright light. It could be a kite tail but then where was the person holding it? The object has been spotted again in town and all over the country. It would be cool to see it again when we film it next week. The discovery channel is coming out to do one of those corny reenactments. If this was a kite I wonder why the guy did say anything. He would have seen us. I rewatched the video a bunch. At least 11 people stopped to talk about the light. They had seen it from far away and had come to watch. A bunch of people have said it's a balloon but that's not possible."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back on May 20th while driving home from a night out catching rattlesnakes me and some friends saw a UFO in the sky. We filmed it and posted it online since then I have been interviewed 3 times and will be on tv again for it next week. It has been a really exciting thing to be a part of. No one seems to know what it is and my story has been posted all over the place. We even went to Area 51 Raid and got to tell our story and make some great friends. The UFO I saw was a long bright light. It could be a kite tail but then where was the person holding it? The object has been spotted again in town and all over the country. It would be cool to see it again when we film it next week. The discovery channel is coming out to do one of those corny reenactments. If this was a kite I wonder why the guy did say anything. He would have seen us. I rewatched the video a bunch. At least 11 people stopped to talk about the light. They had seen it from far away and had come to watch. A bunch of people have said it's a balloon but that's not possible.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was moving way too fast. It would have to be some kind of aircraft.\n\n"
+            }
+        ],
+        "request_id": "811e8da0e8c60f98-EWR"
+    }
+}

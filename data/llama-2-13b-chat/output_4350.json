@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Ever since I was a little girl I have loved music. My mother joked that it must have been because she was always singing to me while she was pregnant. Around the 5th grade I started playing the guitar and I have never stopped. My all time favorite thing to do is sit alone in my house and play along to my favorite artists. I was thrilled to find out that my granddaughter had picked up a similar passion. She saw my guitar hanging on the wall one day and asked to play with it. I took it down and showed her a few chords. After that she was hooked. She started taking lessons and now she is a very talented guitarist. Even though she is older now she still stops by a few times a month to play music with me. A few months ago I was listening to the radio and I heard them advertise a concert ticket giveaway. The tickets were for one of my favorite musicians, a very talented singer and guitar player. I called into the station and somehow managed to win the tickets. I had never won anything before, and I never expected to be able to see this musician live so I was thrilled. They told me I could bring one other person with me to the concert, so I immediately though of my grand daughter. I called her up and she was very excited and agreed to come with me. I was so excited to be able to not only see my favorite musician but also share it with my granddaughter."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Ever since I was a little girl I have loved music. My mother joked that it must have been because she was always singing to me while she was pregnant. Around the 5th grade I started playing the guitar and I have never stopped. My all time favorite thing to do is sit alone in my house and play along to my favorite artists. I was thrilled to find out that my granddaughter had picked up a similar passion. She saw my guitar hanging on the wall one day and asked to play with it. I took it down and showed her a few chords. After that she was hooked. She started taking lessons and now she is a very talented guitarist. Even though she is older now she still stops by a few times a month to play music with me. A few months ago I was listening to the radio and I heard them advertise a concert ticket giveaway. The tickets were for one of my favorite musicians, a very talented singer and guitar player. I called into the station and somehow managed to win the tickets. I had never won anything before, and I never expected to be able to see this musician live so I was thrilled. They told me I could bring one other person with me to the concert, so I immediately though of my grand daughter. I called her up and she was very excited and agreed to come with me. I was so excited to be able to not only see my favorite musician but also share it with my granddaughter.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The concert was amazing, we had an amazing time. The musician put on an incredible show and my granddaughter was so happy to be there. I was so happy to be able to share this experience with her and to see her so happy."
+            }
+        ],
+        "request_id": "811bd4f82bff437f-EWR"
+    }
+}

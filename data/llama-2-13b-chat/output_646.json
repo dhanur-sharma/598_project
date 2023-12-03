@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was out driving around and heard on the radio that there was a movie coming that related to the Beatles and sounded really good. I checked my phone to see where it was playing and it was playing that same day in a short period of time. So I drove to the movie theater and saw the picture myself. I loved it. I thought it was one of the most clever and sweet movies I had ever seen. So I went home and took my husband to see it. He liked it a lot. Then the next day I took a friend of mine who is around my age. She liked it.  Then the next day I called my oldest son to ask him to go see it with me. It just so happened that he wanted to go see it and he came over to see it with me. He liked it too. I don't think anyone will ever love this movie quite as well as I did. It's just special. The name of it is Yesterday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was out driving around and heard on the radio that there was a movie coming that related to the Beatles and sounded really good. I checked my phone to see where it was playing and it was playing that same day in a short period of time. So I drove to the movie theater and saw the picture myself. I loved it. I thought it was one of the most clever and sweet movies I had ever seen. So I went home and took my husband to see it. He liked it a lot. Then the next day I took a friend of mine who is around my age. She liked it.  Then the next day I called my oldest son to ask him to go see it with me. It just so happened that he wanted to go see it and he came over to see it with me. He liked it too. I don't think anyone will ever love this movie quite as well as I did. It's just special. The name of it is Yesterday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e95c4481c1865-EWR"
+    }
+}

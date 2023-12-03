@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went back to college to get my degree in science. It was hard because of my disabilities but I managed to get through it. I worked hard and studied a lot. I almost gave up in the middle of it but I pushed through remembering why I was doing it in the first place. To be a working member of society instead of feeling sorry for myself with my disabilities. Even if my disabilities become too much of a problem at least I could be proud of finishing college. Finishing college has always been a dream of mine. Even finishing the first semester would have been enough for me a long time ago. However,  after getting high grades the first semester I knew for sure I could pursue this dream entirely. I had understanding professors. Which helped a lot. The subjects weren't too hard. I am now in my second semester and it's become a little harder but a little easier too since I've learned so many studying habits from the previous semester. I think this experience has made me grow as a person very much. I am lookig forward to what happens next."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went back to college to get my degree in science. It was hard because of my disabilities but I managed to get through it. I worked hard and studied a lot. I almost gave up in the middle of it but I pushed through remembering why I was doing it in the first place. To be a working member of society instead of feeling sorry for myself with my disabilities. Even if my disabilities become too much of a problem at least I could be proud of finishing college. Finishing college has always been a dream of mine. Even finishing the first semester would have been enough for me a long time ago. However,  after getting high grades the first semester I knew for sure I could pursue this dream entirely. I had understanding professors. Which helped a lot. The subjects weren't too hard. I am now in my second semester and it's become a little harder but a little easier too since I've learned so many studying habits from the previous semester. I think this experience has made me grow as a person very much. I am lookig forward to what happens next.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8f87bdc30f9d-EWR"
+    }
+}

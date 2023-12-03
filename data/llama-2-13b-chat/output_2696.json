@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I traveled to Japan. I stayed with a family for three months. I visited all of Japan. I had a great time in the great land. I had the best sushi one day. It had crab, shrimp, and lobster meat on it. I hope I can find this type of sushi in the states. I visited many parks. I saw a lot of pretty trees. They were blossom tress and are the most beautiful trees in the world. I also visited some museums. I got to see some great armor and samurai swords. It was neat looking at history. There were some plays I visited. I also visited some sumo matches. I can't believe they can move while being that fat."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I traveled to Japan. I stayed with a family for three months. I visited all of Japan. I had a great time in the great land. I had the best sushi one day. It had crab, shrimp, and lobster meat on it. I hope I can find this type of sushi in the states. I visited many parks. I saw a lot of pretty trees. They were blossom tress and are the most beautiful trees in the world. I also visited some museums. I got to see some great armor and samurai swords. It was neat looking at history. There were some plays I visited. I also visited some sumo matches. I can't believe they can move while being that fat.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebbb2bf104349-EWR"
+    }
+}

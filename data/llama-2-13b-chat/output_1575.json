@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About this time last year I chaperoned the West Cleveland branch of the sewing and knitting club for the annual road trip. We decided to go to West Memphis, Arkansas to take in the sites and namely the dog racing at Southland gaming park. My job was to drive the rented van and to make sure that everyone got to the motel safe. It was me, Darlene M., Trixie S., Stacy R., Leeanna M., Amanda M.; McKayla A., Toya B. and Crystal W.. It was a great trip. Everyone took off work early on Friday. The drive was supposed to be 8 hours but I put the pedal to the metal and made it in 6 and a half. The facilities at the dog park were top notch as well was the motel. Trixie won the most money betting on the dog races and Leeanna won big at the slots. Friday night everyone got really drunk and we had to carry Crystal up the stairs to the motel room that night. Saturday we bet on dog races all day and took a break at the motel pool with cocktails and snacks. Then we cleaned up and went to the all you can eat crab leg buffet. Then it was off to the gaming floor. A few in our group danced and watched the casino house band. Sunday we slept in late, took in the motel continental breakfast and hit the road for a relaxed drive back to West Cleveland. We stopped in Branson, MO for some flying rolls at Lambert's cafe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About this time last year I chaperoned the West Cleveland branch of the sewing and knitting club for the annual road trip. We decided to go to West Memphis, Arkansas to take in the sites and namely the dog racing at Southland gaming park. My job was to drive the rented van and to make sure that everyone got to the motel safe. It was me, Darlene M., Trixie S., Stacy R., Leeanna M., Amanda M.; McKayla A., Toya B. and Crystal W.. It was a great trip. Everyone took off work early on Friday. The drive was supposed to be 8 hours but I put the pedal to the metal and made it in 6 and a half. The facilities at the dog park were top notch as well was the motel. Trixie won the most money betting on the dog races and Leeanna won big at the slots. Friday night everyone got really drunk and we had to carry Crystal up the stairs to the motel room that night. Saturday we bet on dog races all day and took a break at the motel pool with cocktails and snacks. Then we cleaned up and went to the all you can eat crab leg buffet. Then it was off to the gaming floor. A few in our group danced and watched the casino house band. Sunday we slept in late, took in the motel continental breakfast and hit the road for a relaxed drive back to West Cleveland. We stopped in Branson, MO for some flying rolls at Lambert's cafe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great trip and I had a blast."
+            }
+        ],
+        "request_id": "811ea71b383a42fe-EWR"
+    }
+}

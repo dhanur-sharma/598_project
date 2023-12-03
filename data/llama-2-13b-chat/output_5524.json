@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three weeks ago, I was moving into my new house. I hugged my parents goodbye. My mom cried. My father had a few tears as well. I was also going to open a bakery. This will be my first business. I am a little nervous. This business has a high failure rate. I hope I don't go under. I learned a lot of tips on how to have a successful business. The most important part is location. Another important tip is price and quality. I will make the best donuts this world has ever seen. I will also make some delicious bagels. I will have coffee that will rival the giants in the industry. I hope I will be successful in the world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three weeks ago, I was moving into my new house. I hugged my parents goodbye. My mom cried. My father had a few tears as well. I was also going to open a bakery. This will be my first business. I am a little nervous. This business has a high failure rate. I hope I don't go under. I learned a lot of tips on how to have a successful business. The most important part is location. Another important tip is price and quality. I will make the best donuts this world has ever seen. I will also make some delicious bagels. I will have coffee that will rival the giants in the industry. I hope I will be successful in the world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am a little nervous but I will give it my all. I will work hard.\n\n"
+            }
+        ],
+        "request_id": "811f33455998c33e-EWR"
+    }
+}

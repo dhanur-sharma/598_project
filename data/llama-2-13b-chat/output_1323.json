@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This has been some year for me. When I was a teenager I dreamed of my own family one day. The same dream I've had most of my life. But now that dream has died. I have never been someone woman desire or like. I thought I could overcome that obstacle and have my dream family one day. But it all came crashing down this year. I waited to long and gave to little effort to my dream. Now my health is slowly worsening and no one wants to be with me. It hurts so much when I think of all the years wasted instead of following my dream. When I look at the rest of my life. I will spend the rest of my days regretting my choices and the chances not taken. It's hard to believe but my life is a sad country song. All I can do now is get through each day. Try to make what time I have left have some meaning."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This has been some year for me. When I was a teenager I dreamed of my own family one day. The same dream I've had most of my life. But now that dream has died. I have never been someone woman desire or like. I thought I could overcome that obstacle and have my dream family one day. But it all came crashing down this year. I waited to long and gave to little effort to my dream. Now my health is slowly worsening and no one wants to be with me. It hurts so much when I think of all the years wasted instead of following my dream. When I look at the rest of my life. I will spend the rest of my days regretting my choices and the chances not taken. It's hard to believe but my life is a sad country song. All I can do now is get through each day. Try to make what time I have left have some meaning.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But I will never have the family I once dreamed of.\n\n"
+            }
+        ],
+        "request_id": "811ea287282c4387-EWR"
+    }
+}

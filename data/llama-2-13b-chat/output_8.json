@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I wanted to write about one of the best days in the past year. My girlfriend, and I went to the Columbus Zoo about a month ago. It happened to be one of the hottest days recorded in July in the city! We had been planning this trip for weeks, so despite the weather, we decided to stick to our plans. Ashley and I have been working on spending more time together as we both work full-time jobs that prevent us from having date nights. More recently, I have been asked to work overtime on weekends, but this weekend I knew it would be more beneficial to spend time with her. We got to the zoo early before many of the large groups came and grabbed a snack from the snack bar so we could get a head start on seeing our favorite animals. Ashley really enjoyed seeing the elephants and giraffes, while I wanted to see the tigers and lions. The giraffes were running around playing with their young babies who looked as if they had just learned to walk. We were really lucky to see the penguins who were out swimming in the afternoon, but not for very long. It looked like they had gotten full from all of the fish they were being fed and went back into their private area to nap. I couldn't blame them for that! It felt like a much needed day together with my girlfriend. It meant a lot to me personally, as I have been stressed at work and Ashley finds a way to get me talk about some of the things I've been holding in. It was truly a wonderful experience. What was really neat is that the zoo offered free lemonade to their guests once the temperature got above 95 degrees. Ashley must have had a gallon of lemonade that day! I think Ashley had a great time also, as she talked about the animals on the entire drive back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I wanted to write about one of the best days in the past year. My girlfriend, and I went to the Columbus Zoo about a month ago. It happened to be one of the hottest days recorded in July in the city! We had been planning this trip for weeks, so despite the weather, we decided to stick to our plans. Ashley and I have been working on spending more time together as we both work full-time jobs that prevent us from having date nights. More recently, I have been asked to work overtime on weekends, but this weekend I knew it would be more beneficial to spend time with her. We got to the zoo early before many of the large groups came and grabbed a snack from the snack bar so we could get a head start on seeing our favorite animals. Ashley really enjoyed seeing the elephants and giraffes, while I wanted to see the tigers and lions. The giraffes were running around playing with their young babies who looked as if they had just learned to walk. We were really lucky to see the penguins who were out swimming in the afternoon, but not for very long. It looked like they had gotten full from all of the fish they were being fed and went back into their private area to nap. I couldn't blame them for that! It felt like a much needed day together with my girlfriend. It meant a lot to me personally, as I have been stressed at work and Ashley finds a way to get me talk about some of the things I've been holding in. It was truly a wonderful experience. What was really neat is that the zoo offered free lemonade to their guests once the temperature got above 95 degrees. Ashley must have had a gallon of lemonade that day! I think Ashley had a great time also, as she talked about the animals on the entire drive back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was very happy to see that! The weather may have been hot, but it was still one of the best days in the past year for me."
+            }
+        ],
+        "request_id": "811b7cdad88b8c84-EWR"
+    }
+}

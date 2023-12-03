@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to my follow-up appointment with my primary care doctor last week. I was expecting a fairly regular report as I hadn't really been experiencing any particular issues. I was a bit taken aback when she informed me that I was showing red flags for prostate cancer. To get more information, she set up an appointment with a urologist that I will go to later this month after returning from my monthly business meetings. I have been ruminating on the idea and doing some research - my results are not very high, which is good but do bear investigation. I am frankly a bit scared but hopeful that things will work out. My wife is supportive which I appreciate. I have not told anyone besides her and my boss. We had the grandchildren over last Saturday to go to the county fair which was fun but I have had the news hanging in my mind. I do have a co-worker who is a survivor of this cancer. I intend to talk with him when I see him next and see what he can tell me from his experience. I don't want to alarm my friends and family until I know more. It isn't always easy to keep a normal outlook though. There is no close history on cancer in the family that I know of. I find myself worrying about things that I normally wouldn't."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to my follow-up appointment with my primary care doctor last week. I was expecting a fairly regular report as I hadn't really been experiencing any particular issues. I was a bit taken aback when she informed me that I was showing red flags for prostate cancer. To get more information, she set up an appointment with a urologist that I will go to later this month after returning from my monthly business meetings. I have been ruminating on the idea and doing some research - my results are not very high, which is good but do bear investigation. I am frankly a bit scared but hopeful that things will work out. My wife is supportive which I appreciate. I have not told anyone besides her and my boss. We had the grandchildren over last Saturday to go to the county fair which was fun but I have had the news hanging in my mind. I do have a co-worker who is a survivor of this cancer. I intend to talk with him when I see him next and see what he can tell me from his experience. I don't want to alarm my friends and family until I know more. It isn't always easy to keep a normal outlook though. There is no close history on cancer in the family that I know of. I find myself worrying about things that I normally wouldn't.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ecc504e3741ad-EWR"
+    }
+}

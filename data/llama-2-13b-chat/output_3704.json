@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: At this beginning of this year, my dad fell down on some ice outside and injured his hip. The injury was pretty severe and he had to have surgery. He unfortunately lost all of his mobility and independence from the surgery and fall. This resulted in him and my mom moving in with me so that I could help them out. He needed help doing simple tasks, such as going to the bathroom and cooking meals. My mom and dad decided that their home was no longer a good fit for them and they decided to sell it. The house has too many stairs for my dad to navigate and they need a ranch style home on one level. I volunteered to help clean and fix up the house of course. It was a sad and heart wrenching experiencing to get my childhood home ready to sell, but I do understand the necessity. We got things spruced up over a few weeks and finally got it listed on the market. It took a bit of time to find a reliable real estate agent but we got it done. The house sat on the market for about a month, but then they finally got an offer. The feeling was a little bittersweet. I am going to miss my childhood home for sure. But this is definitely what is best for my parents. They finally settled on buying a smaller home in an HOA. They won't have to do any yardwork and the situation is all around better for them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: At this beginning of this year, my dad fell down on some ice outside and injured his hip. The injury was pretty severe and he had to have surgery. He unfortunately lost all of his mobility and independence from the surgery and fall. This resulted in him and my mom moving in with me so that I could help them out. He needed help doing simple tasks, such as going to the bathroom and cooking meals. My mom and dad decided that their home was no longer a good fit for them and they decided to sell it. The house has too many stairs for my dad to navigate and they need a ranch style home on one level. I volunteered to help clean and fix up the house of course. It was a sad and heart wrenching experiencing to get my childhood home ready to sell, but I do understand the necessity. We got things spruced up over a few weeks and finally got it listed on the market. It took a bit of time to find a reliable real estate agent but we got it done. The house sat on the market for about a month, but then they finally got an offer. The feeling was a little bittersweet. I am going to miss my childhood home for sure. But this is definitely what is best for my parents. They finally settled on buying a smaller home in an HOA. They won't have to do any yardwork and the situation is all around better for them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They are happy and that is all that matters."
+            }
+        ],
+        "request_id": "811ecf3d1bdbc484-EWR"
+    }
+}

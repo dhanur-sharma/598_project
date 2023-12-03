@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: An event that was memorable to me was graduating with my masters degree.  Just a few months ago, I did this.  And I felt very proud of myself.  At first, I was very unsure of weather or not I was actually going to go to the graduation ceremony.  However, after thinking about it I decided to go ahead and go.  I am so glad that I did.  It felt really good walking across the stage and accepting a certificate for something that I worked so hard to do.  It made me feel proud and accomplished.  It was also really nice to have the support of my family there as well.  My mother, father, and sister were all in attendance.  Unfortunately, it was an outside ceremony and it was pouring down rain, but that didn't stop the celebration!  Something surprising that happened during this memorable time, was that my family threw me a surprise party directly after the ceremony.  To my surprise, my extended family awaited me at dinner.  It was such a sweet and unexpected surprise.  I know it took a lot of planning on their part and I can only imagine how long my family had been waiting at the restaurant before we had arrived!  I was so appreciative to each and every one of them for coming.  It made the experience all the better!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: An event that was memorable to me was graduating with my masters degree.  Just a few months ago, I did this.  And I felt very proud of myself.  At first, I was very unsure of weather or not I was actually going to go to the graduation ceremony.  However, after thinking about it I decided to go ahead and go.  I am so glad that I did.  It felt really good walking across the stage and accepting a certificate for something that I worked so hard to do.  It made me feel proud and accomplished.  It was also really nice to have the support of my family there as well.  My mother, father, and sister were all in attendance.  Unfortunately, it was an outside ceremony and it was pouring down rain, but that didn't stop the celebration!  Something surprising that happened during this memorable time, was that my family threw me a surprise party directly after the ceremony.  To my surprise, my extended family awaited me at dinner.  It was such a sweet and unexpected surprise.  I know it took a lot of planning on their part and I can only imagine how long my family had been waiting at the restaurant before we had arrived!  I was so appreciative to each and every one of them for coming.  It made the experience all the better!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was truly a special day for me and one that I will never forget.  It is a memory that I will always cherish."
+            }
+        ],
+        "request_id": "811eb0985b4c1895-EWR"
+    }
+}

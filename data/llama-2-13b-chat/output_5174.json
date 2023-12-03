@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I had a terrible migraine while working. The EMTs had to be called. It was a painful experience. I was rushed to the hospital to be treated. At least I got the day off of work. They gave me some drugs to take to prevent migraines. I haven't gotten a migraine ever since. I celebrated a week without a migraine by getting something to eat. I got a big steak at a fancy steakhouse. I had some beer with the steak. They were both delicious. The waitress was very nice. I gave her a big tip for her hospitality. I'm glad that no more migraines are occurring in my head. I hope I will never get one again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I had a terrible migraine while working. The EMTs had to be called. It was a painful experience. I was rushed to the hospital to be treated. At least I got the day off of work. They gave me some drugs to take to prevent migraines. I haven't gotten a migraine ever since. I celebrated a week without a migraine by getting something to eat. I got a big steak at a fancy steakhouse. I had some beer with the steak. They were both delicious. The waitress was very nice. I gave her a big tip for her hospitality. I'm glad that no more migraines are occurring in my head. I hope I will never get one again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be5d88fee1a30-EWR"
+    }
+}

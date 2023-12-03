@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife gave birth to a perfect baby.  I had spent the 9-10 months reading to her belly, painting the nursery, assembling baby things, researching about breast feeding and cloth diapering, which carseat to buy, etc.  It's crazy getting ready for a baby.  We had not found out the sex beforehand, but we were both hoping for a baby girl, and that's what we got!  My wife got induced at 6 a.m. and didn't have the baby until 12:17 the next a.m.  She was a champ the whole time.  When it came time to push, it was all very exciting and happened so quickly.  I cut the umbilical cord which I was hesitant about, but I am so glad I did it.  When the baby came out and they told us it was a girl, pure joy ran across both of our faces.  She was a big, healthy girl.  Almost 9 pounds!  We fell in love in that instant and fall in love more every day.  It was the happiest day of our lives and it has only gotten better.  10/10 would highly recommend."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife gave birth to a perfect baby.  I had spent the 9-10 months reading to her belly, painting the nursery, assembling baby things, researching about breast feeding and cloth diapering, which carseat to buy, etc.  It's crazy getting ready for a baby.  We had not found out the sex beforehand, but we were both hoping for a baby girl, and that's what we got!  My wife got induced at 6 a.m. and didn't have the baby until 12:17 the next a.m.  She was a champ the whole time.  When it came time to push, it was all very exciting and happened so quickly.  I cut the umbilical cord which I was hesitant about, but I am so glad I did it.  When the baby came out and they told us it was a girl, pure joy ran across both of our faces.  She was a big, healthy girl.  Almost 9 pounds!  We fell in love in that instant and fall in love more every day.  It was the happiest day of our lives and it has only gotten better.  10/10 would highly recommend.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f465828e503d5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Man diary, yesterday I wrote about how great my life was going and the unthinkable happened. There was a huge rain storm and my house flooded. This sucks because the insurance is not going to cover it. At least I started my new job for more income and better benefits. That is the one good thing going for me. I am glad that everyone was ok but the money needed will take years to make up. The worst part was it was my birthday when this happened. We had just got done singing happy birthday when the sirens went off. I got the alert on the phone and shrugged it off not thinking about it. I got done opening the last present when the water started rising in the basement. I put some towels down and went to bed thinking it will stop. I wish this is where it ended. I woke up a few hours later to the dog barking.  That is when the trouble happened. There was about 2 feet of water in the basement and continued to rise. A few hours later it was up to the stairs and I had to get everyone else out. Luckily we ran uphill to the neighbors and they were safe. Unforunately I went back and everything was almost underwater. Once again, I am happy we all left, but not the best birthday ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Man diary, yesterday I wrote about how great my life was going and the unthinkable happened. There was a huge rain storm and my house flooded. This sucks because the insurance is not going to cover it. At least I started my new job for more income and better benefits. That is the one good thing going for me. I am glad that everyone was ok but the money needed will take years to make up. The worst part was it was my birthday when this happened. We had just got done singing happy birthday when the sirens went off. I got the alert on the phone and shrugged it off not thinking about it. I got done opening the last present when the water started rising in the basement. I put some towels down and went to bed thinking it will stop. I wish this is where it ended. I woke up a few hours later to the dog barking.  That is when the trouble happened. There was about 2 feet of water in the basement and continued to rise. A few hours later it was up to the stairs and I had to get everyone else out. Luckily we ran uphill to the neighbors and they were safe. Unforunately I went back and everything was almost underwater. Once again, I am happy we all left, but not the best birthday ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad I started that new job. It will take a while to recover from this, but at least I have a steady income. I am trying to stay positive and not let this ruin my life. I will get through this.\n\n"
+            }
+        ],
+        "request_id": "811be69a5b7d421d-EWR"
+    }
+}

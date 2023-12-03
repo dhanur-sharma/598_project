@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a live piano performance and it was honestly one of the greatest experiences I have ever had. I loved attending this event. I loved seeing all the amazing people there, and of course, listening to all the wonderful music that I got to listen to. The music was hands down the best part. The notes were just hit so eloquently. They were such lovely notes and they were being played by lovely hands. It almost felt like a fantasy, or a fairy tale. But it was far from that. It was a magical experience, but even so, was ever so real. I had attended with my brother. It had been a while since I have seen him. I definitely should probably visit him more often. But back on topic, the show was amazing. If given the chance, I would love to go again. I would just love to be back in that magical place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a live piano performance and it was honestly one of the greatest experiences I have ever had. I loved attending this event. I loved seeing all the amazing people there, and of course, listening to all the wonderful music that I got to listen to. The music was hands down the best part. The notes were just hit so eloquently. They were such lovely notes and they were being played by lovely hands. It almost felt like a fantasy, or a fairy tale. But it was far from that. It was a magical experience, but even so, was ever so real. I had attended with my brother. It had been a while since I have seen him. I definitely should probably visit him more often. But back on topic, the show was amazing. If given the chance, I would love to go again. I would just love to be back in that magical place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab997fcb0f53-EWR"
+    }
+}

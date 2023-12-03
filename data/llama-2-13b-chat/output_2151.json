@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May, my brother and I got into a car accident. He had just arrived in town from overseas to visit for the summer. The day after he arrived, we were driving to one of our favorite taco shops to have lunch. On the way there, we were driving through an intersection when another driver ran a red light. We were t-boned. The other driver hit us on the passenger side, where I was sitting.  Fortunately, no one was seriously injured. My brother's car, which he loves dearly and only gets a chance to drive when he comes to visit, had some body damage. The other driver's car took the worst of the damage. Its front end was badly damaged. I had hit my head on the door frame, so I went to the hospital to make sure I was okay. It turned out that I had a minor concussion. There were no complications, aside from a bad headache, some diziness, and a lot of soreness. All things considered, we are lucky that it was not worse. Unfortunately, I have a lot of anxiety about driving and riding in cars from past experiences. This event brought all of that back. I have been especially anxious while traveling in vehicles lately. I hope that sensation improves soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May, my brother and I got into a car accident. He had just arrived in town from overseas to visit for the summer. The day after he arrived, we were driving to one of our favorite taco shops to have lunch. On the way there, we were driving through an intersection when another driver ran a red light. We were t-boned. The other driver hit us on the passenger side, where I was sitting.  Fortunately, no one was seriously injured. My brother's car, which he loves dearly and only gets a chance to drive when he comes to visit, had some body damage. The other driver's car took the worst of the damage. Its front end was badly damaged. I had hit my head on the door frame, so I went to the hospital to make sure I was okay. It turned out that I had a minor concussion. There were no complications, aside from a bad headache, some diziness, and a lot of soreness. All things considered, we are lucky that it was not worse. Unfortunately, I have a lot of anxiety about driving and riding in cars from past experiences. This event brought all of that back. I have been especially anxious while traveling in vehicles lately. I hope that sensation improves soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb154dc9f0c8a-EWR"
+    }
+}

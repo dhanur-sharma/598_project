@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a wedding two months ago. I had a fun time at the wedding. My sister was getting married to a CEO. She will have an easy life from now on. At the wedding party, I had an accident. I tripped and spilt red wine on to my sister's gown. She was a bit mad but got over it soon. She had to change into something else but it wasn't that big of a deal. The party was very fun. I had a great time eating the many food items there. There was steak to eat. There was cake to devour. There was biscuits to eat with my steak. All the food was delicious. We all had a great time at the wedding. Everybody will remember this event forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a wedding two months ago. I had a fun time at the wedding. My sister was getting married to a CEO. She will have an easy life from now on. At the wedding party, I had an accident. I tripped and spilt red wine on to my sister's gown. She was a bit mad but got over it soon. She had to change into something else but it wasn't that big of a deal. The party was very fun. I had a great time eating the many food items there. There was steak to eat. There was cake to devour. There was biscuits to eat with my steak. All the food was delicious. We all had a great time at the wedding. Everybody will remember this event forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed38dbc28c402-EWR"
+    }
+}

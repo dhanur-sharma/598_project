@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been out of work for six months. Earlier this month I was finally able to get an assignment from a temp agency. Getting the job itself took planning and luck. I don't have a car so I had to take four buses and commute five hours to make it to the temp agency. Once there I had to submit my application all over again even though I filled one out online at home. The \"interview\" was rather unprofessional but I needed a job so I wasn't going to complain. I took my drug test and received my orientation date, then left. I made it back to the bus stop in good time so I didn't have to wait another hour. The rest of my commute went smoothly. While I waited on the bus that would begin my trip home, I received a phone call from the temp agency. In my haste, I missed a signature on my drug test paperwork. Without the signature my drug test would be invalid and I couldn't attend orientation. I was asked to come back and finish the paperwork, but I didn't want to risk missing buses back home. Since the orientation was scheduled for a few days later, I asked if I could just retake a drug test before the orientation. The agency would have the documentation they needed and I would have time to get everything done. Thankfully the temp agency obliged and I was able to get everything done and start orientation on time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been out of work for six months. Earlier this month I was finally able to get an assignment from a temp agency. Getting the job itself took planning and luck. I don't have a car so I had to take four buses and commute five hours to make it to the temp agency. Once there I had to submit my application all over again even though I filled one out online at home. The \"interview\" was rather unprofessional but I needed a job so I wasn't going to complain. I took my drug test and received my orientation date, then left. I made it back to the bus stop in good time so I didn't have to wait another hour. The rest of my commute went smoothly. While I waited on the bus that would begin my trip home, I received a phone call from the temp agency. In my haste, I missed a signature on my drug test paperwork. Without the signature my drug test would be invalid and I couldn't attend orientation. I was asked to come back and finish the paperwork, but I didn't want to risk missing buses back home. Since the orientation was scheduled for a few days later, I asked if I could just retake a drug test before the orientation. The agency would have the documentation they needed and I would have time to get everything done. Thankfully the temp agency obliged and I was able to get everything done and start orientation on time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4e20edbec3fd-EWR"
+    }
+}

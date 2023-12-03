@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I graduated with my credential and master's degree it was June. I was hopeful to find a job for the 2019-2020 school year. However, there were not very many teaching jobs available during this time period. This was true for all subjects. This meant that I only had one job interview during that time. Unfortunately, I was the runner up for that position. It was because I did not have experience. While I continue to look for a job, I am substitute teaching. This is not as good of a job due to financial concerns. It also sucks to not have my own classroom. You are not able to establish the same types of relationships with students that you can in your own classroom. It was surprising to me how bad the job market has been considering the news is constantly saying that there is a teacher shortage. Now I am stuck with student loans to pay. My substitute teaching job is not enough to cover these loans. I think that they should be more honest with the state of the teacher job market."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I graduated with my credential and master's degree it was June. I was hopeful to find a job for the 2019-2020 school year. However, there were not very many teaching jobs available during this time period. This was true for all subjects. This meant that I only had one job interview during that time. Unfortunately, I was the runner up for that position. It was because I did not have experience. While I continue to look for a job, I am substitute teaching. This is not as good of a job due to financial concerns. It also sucks to not have my own classroom. You are not able to establish the same types of relationships with students that you can in your own classroom. It was surprising to me how bad the job market has been considering the news is constantly saying that there is a teacher shortage. Now I am stuck with student loans to pay. My substitute teaching job is not enough to cover these loans. I think that they should be more honest with the state of the teacher job market.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think that the news should report on the actual conditions of the job market.\n\n"
+            }
+        ],
+        "request_id": "811ebf3f3a8043e6-EWR"
+    }
+}

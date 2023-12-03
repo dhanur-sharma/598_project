@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took my grandson on a camping trip about three weeks ago. We loaded up the F-150 and headed into the forest. We had a great time. We ate and talked. We ate some more and talked some more. I showed Billy how to fish. He even caught us a nice trout. I showed him how to properly scale it and remove the guts and bones. We cooked it up real good for dinner over the campfire that night. We chopped down some wood to bring back home for the winter. We had such a grat time. The drive up there was so enchanting through the forest. The drive back, watching the city come back before us. Being there with little Billy with nature. With all of the wonderful animals we saw and the quietness."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took my grandson on a camping trip about three weeks ago. We loaded up the F-150 and headed into the forest. We had a great time. We ate and talked. We ate some more and talked some more. I showed Billy how to fish. He even caught us a nice trout. I showed him how to properly scale it and remove the guts and bones. We cooked it up real good for dinner over the campfire that night. We chopped down some wood to bring back home for the winter. We had such a grat time. The drive up there was so enchanting through the forest. The drive back, watching the city come back before us. Being there with little Billy with nature. With all of the wonderful animals we saw and the quietness.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I loved it.\n\n"
+            }
+        ],
+        "request_id": "811f3ca1cf63421b-EWR"
+    }
+}

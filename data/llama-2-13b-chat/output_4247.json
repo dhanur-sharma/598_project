@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, I took a girl's trip to Los Angeles. There was no family with me. I had only my girl friends to join me in the city. I had a fun time at the beach. I made a big castle out of sand. The castle got poured over by a wave of salt water. My friends laughed at me. I got to see many tours of the city. I got to see a tour of some movie sets. My friends and I had a great time with the props. The food in the town was also great. I had a large pizza to share with the girls. We barely finished the pie. The people are a bit rude here but I got over it. The trip was a fun time. I realized I'm my own person and not constrained to a role in life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, I took a girl's trip to Los Angeles. There was no family with me. I had only my girl friends to join me in the city. I had a fun time at the beach. I made a big castle out of sand. The castle got poured over by a wave of salt water. My friends laughed at me. I got to see many tours of the city. I got to see a tour of some movie sets. My friends and I had a great time with the props. The food in the town was also great. I had a large pizza to share with the girls. We barely finished the pie. The people are a bit rude here but I got over it. The trip was a fun time. I realized I'm my own person and not constrained to a role in life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd2e4cce6c32e-EWR"
+    }
+}

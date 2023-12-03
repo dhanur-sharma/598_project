@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the doctor's office to support my mother. She had been diagnosed with thyroid cancer, and she was seeing a team of specialists. The doctors' consensus was that there was little to be done about it. My mother couldn't be saved. All they could do was prolong her death. It was very heart wrenching hearing this. I cannot imagine my life without my mother. My entire life, she has been there for me in good and bad times. But even having to confront that, I had to stay strong. My mother needed me now, and her situation is much worse than mine. I have to move ahead and make sure I do right by her, and help her make the right decisions. She has no one else to do it for her. I can only be the best son possible and help her with this tragic circumstance. Maybe in helping her I can come to terms with my own feelings and soften the blow when she passes. I don't know if it can be done."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the doctor's office to support my mother. She had been diagnosed with thyroid cancer, and she was seeing a team of specialists. The doctors' consensus was that there was little to be done about it. My mother couldn't be saved. All they could do was prolong her death. It was very heart wrenching hearing this. I cannot imagine my life without my mother. My entire life, she has been there for me in good and bad times. But even having to confront that, I had to stay strong. My mother needed me now, and her situation is much worse than mine. I have to move ahead and make sure I do right by her, and help her make the right decisions. She has no one else to do it for her. I can only be the best son possible and help her with this tragic circumstance. Maybe in helping her I can come to terms with my own feelings and soften the blow when she passes. I don't know if it can be done.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3fbd4c5e32e2-EWR"
+    }
+}

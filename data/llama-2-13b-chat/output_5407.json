@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Uggh, when will my life ever get back on track.  First I got fired for working too hard.  I kept coming in to get extra work done, but my boss didn't want to have to pay me overtime.  I actually got fired for working too much.  It's unbelievable. Then I felt so bad I thought I might hurt myself or kill myself.  My parents realized that something was off and took me to the hospital where they realized I was suicidal.  Now that I've been released, I'm moving back in with mom and dad.  I can't believe that I'm living with my parents again at the age of 40.  I feel like a failure.  At least mom and dad still love me and were willing to take me in. I feel bad but I'm hoping to get back on my feet.  If I can beat this depression, I want to go back to school and get training to be a nurse.  That's a job that does pay overtime and can accommodate my hard work.  Maybe they will appreciate me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Uggh, when will my life ever get back on track.  First I got fired for working too hard.  I kept coming in to get extra work done, but my boss didn't want to have to pay me overtime.  I actually got fired for working too much.  It's unbelievable. Then I felt so bad I thought I might hurt myself or kill myself.  My parents realized that something was off and took me to the hospital where they realized I was suicidal.  Now that I've been released, I'm moving back in with mom and dad.  I can't believe that I'm living with my parents again at the age of 40.  I feel like a failure.  At least mom and dad still love me and were willing to take me in. I feel bad but I'm hoping to get back on my feet.  If I can beat this depression, I want to go back to school and get training to be a nurse.  That's a job that does pay overtime and can accommodate my hard work.  Maybe they will appreciate me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Maybe I'll be happy again.\n\n"
+            }
+        ],
+        "request_id": "811f30e868be42d0-EWR"
+    }
+}

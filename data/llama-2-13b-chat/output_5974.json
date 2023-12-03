@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well, I am 34 year old man. I had been in a relationship with a woman for 17 months. I was completely in love with her. Given my age, how long we were together, and how much I enjoyed her, I was thinking about proposing. I've never met anyone else in my life that I wanted to spend the rest of my life with. However, she decided to end our relationship. We were living together for the past 6 months. She came home from work like every other ordinary day and told me she wanted to talk to me. She told me she didn't see a future with me anymore. I was completely blindsided. I initially felt shock then panicked and tried to talk her out of it. I was quite emotional and she remained calm. She left and told me she would come back on the weekend to gather all her things. Not a day has gone by since that I haven't thought about it. It was emotionally devastating when it happened. Nothing much has changed since."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well, I am 34 year old man. I had been in a relationship with a woman for 17 months. I was completely in love with her. Given my age, how long we were together, and how much I enjoyed her, I was thinking about proposing. I've never met anyone else in my life that I wanted to spend the rest of my life with. However, she decided to end our relationship. We were living together for the past 6 months. She came home from work like every other ordinary day and told me she wanted to talk to me. She told me she didn't see a future with me anymore. I was completely blindsided. I initially felt shock then panicked and tried to talk her out of it. I was quite emotional and she remained calm. She left and told me she would come back on the weekend to gather all her things. Not a day has gone by since that I haven't thought about it. It was emotionally devastating when it happened. Nothing much has changed since.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like I am still in love with her.\n\n"
+            }
+        ],
+        "request_id": "811f3c5418e40f59-EWR"
+    }
+}

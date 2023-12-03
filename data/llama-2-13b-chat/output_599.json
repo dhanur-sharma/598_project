@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four weeks ago I went to a NASCAR race for the first time with my family. It was amazing to see all the cars and people that the event drew out. I watched the race and had a good time talking to those around me. I wish I had brought a camera to take pictures of how large the crowd and the race track were. I remember seeing Kevin Harvick pull into the lead at the end of the race. He ended up winning and the crowd cheered. I didn't know a lot about racing but I was so caught up in the environment that I found myself an instant fan. I noticed a group of other kids walking down toward a certain area. It was after Kevin Harvick got his trophy and he was signing autographs.  So I bought a picture for him to sign. I rushed to the front of the line, pushing my way past people. I finally found a small place I at the edge of the fence and waited. He saw me as he was walking by and came over to me. He then signed my picture, gave me his hat and gave me a quick fist bump before continuing with other people. I will never forget my first race or that feeling when I met Kevin Harvick."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four weeks ago I went to a NASCAR race for the first time with my family. It was amazing to see all the cars and people that the event drew out. I watched the race and had a good time talking to those around me. I wish I had brought a camera to take pictures of how large the crowd and the race track were. I remember seeing Kevin Harvick pull into the lead at the end of the race. He ended up winning and the crowd cheered. I didn't know a lot about racing but I was so caught up in the environment that I found myself an instant fan. I noticed a group of other kids walking down toward a certain area. It was after Kevin Harvick got his trophy and he was signing autographs.  So I bought a picture for him to sign. I rushed to the front of the line, pushing my way past people. I finally found a small place I at the edge of the fence and waited. He saw me as he was walking by and came over to me. He then signed my picture, gave me his hat and gave me a quick fist bump before continuing with other people. I will never forget my first race or that feeling when I met Kevin Harvick.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e949e187d19ef-EWR"
+    }
+}

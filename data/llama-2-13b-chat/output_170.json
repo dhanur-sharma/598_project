@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in California for a vacation about 3 months ago with my girlfriend. We had never been to a place with so many people before. We were not looking forward to driving AT ALL. We know that place is notorious for awful traffic and rude people. But we had to rent a car, so we did. We did some sight-seeing first while stopping at some famous little restaurants along the way. We saw the Hollywood sign, the walk of fame or whatever its called, and had In-N-Out burger for the first time. After we ate, we drove to a place that was recommended by the locals to do some clothes shopping. All along the way, there were hoards of homeless people. We knew CA had a homeless crisis, but were not expecting this. Anyway, we ended up having a tire blow out on the way to a mall. Embarrassingly, I had never changed a tire before. I got out to call someone for help when a scruffy, old homeless man stopped to help. He was the nicest man and I felt so bad for him. He changed the tire in just a couple minutes and didn't ask for money. I gave him 20 dollars, though, because who wouldn't? Nobody else stopped and offered assistance before he came. Some even yelled at us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in California for a vacation about 3 months ago with my girlfriend. We had never been to a place with so many people before. We were not looking forward to driving AT ALL. We know that place is notorious for awful traffic and rude people. But we had to rent a car, so we did. We did some sight-seeing first while stopping at some famous little restaurants along the way. We saw the Hollywood sign, the walk of fame or whatever its called, and had In-N-Out burger for the first time. After we ate, we drove to a place that was recommended by the locals to do some clothes shopping. All along the way, there were hoards of homeless people. We knew CA had a homeless crisis, but were not expecting this. Anyway, we ended up having a tire blow out on the way to a mall. Embarrassingly, I had never changed a tire before. I got out to call someone for help when a scruffy, old homeless man stopped to help. He was the nicest man and I felt so bad for him. He changed the tire in just a couple minutes and didn't ask for money. I gave him 20 dollars, though, because who wouldn't? Nobody else stopped and offered assistance before he came. Some even yelled at us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was such a surreal moment. I will never forget the kindness of that man."
+            }
+        ],
+        "request_id": "811e8cdbdb65c343-EWR"
+    }
+}

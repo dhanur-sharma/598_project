@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the beach. Before we left, we loaded all our beach gear into the car. Continuing down the road my sister and two brothers and I sang songs to keep from falling into the depths of boredom. Deciding where to stop for dinner was a real challenge. Everyone wanted to eat at a different restaurant. Finally Dad stopped at Cracker Barrel. I chose green beans, potatoes, and steak for my dinner. We all drank hot cocoa and whipped cream for dessert. Initially we had hoped to reach our destination, Pensacola, before midnight, but it seemed impossible. Just after we crossed the Georgia/Florida border my dad stopped at a hotel. Keeping quiet not to wake the others staying at the hotel, we tiptoed out at 6:00 A.M. Later the next morning, we arrived at the house in Pensacola. My mom\u2019s friend and her family were staying with us. Never is there a dull moment when we are all together. Of course we were very tired from our trip, so we rested all day. Plenty of fun in the sun was in store for us the next day. Ready to get out on the beach I had forgotten something very important. Quite sunburned was I by the end of that day. Sunscreen had not been applied!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the beach. Before we left, we loaded all our beach gear into the car. Continuing down the road my sister and two brothers and I sang songs to keep from falling into the depths of boredom. Deciding where to stop for dinner was a real challenge. Everyone wanted to eat at a different restaurant. Finally Dad stopped at Cracker Barrel. I chose green beans, potatoes, and steak for my dinner. We all drank hot cocoa and whipped cream for dessert. Initially we had hoped to reach our destination, Pensacola, before midnight, but it seemed impossible. Just after we crossed the Georgia/Florida border my dad stopped at a hotel. Keeping quiet not to wake the others staying at the hotel, we tiptoed out at 6:00 A.M. Later the next morning, we arrived at the house in Pensacola. My mom\u2019s friend and her family were staying with us. Never is there a dull moment when we are all together. Of course we were very tired from our trip, so we rested all day. Plenty of fun in the sun was in store for us the next day. Ready to get out on the beach I had forgotten something very important. Quite sunburned was I by the end of that day. Sunscreen had not been applied!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec2349e6a17b1-EWR"
+    }
+}

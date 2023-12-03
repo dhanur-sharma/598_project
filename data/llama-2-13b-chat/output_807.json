@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago, me and my family went to Florida for a nice vacation. It was me, my mother, brother, and my husband. We usually go to Florida every summer. It's just something that we do as a family. Ended up needing to go back home after 3 days into our week long vacation because my friend's husband got sick. She needed someone to stay with the kids and I am the closest to her in terms of friendship so she called to see if I could. I told her that I was in Florida for the next week, but if I could come I would. She broke down and cried and I ended up feeling bad and seeing if everyone was okay with me going home and everyone else staying. Well, no one wanted to stay so we all went and saw if we could get some plane tickets. When I saw the cost of them, I freaked out! Why were tickets so expensive? I can understand it being over priced due to short noticed, but the prices were unreal! I tried to talk my family into staying since we all had tickets for later to go home with, but they insisted on coming and just rescheduling the vacation. I ended up having to whip out my credit card and purchasing tickets for all of us. The price was something that I was not happy about at all! I can't imagine that price and all the way home on the plane I just thought about how much I had to charge on the car for these tickets."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago, me and my family went to Florida for a nice vacation. It was me, my mother, brother, and my husband. We usually go to Florida every summer. It's just something that we do as a family. Ended up needing to go back home after 3 days into our week long vacation because my friend's husband got sick. She needed someone to stay with the kids and I am the closest to her in terms of friendship so she called to see if I could. I told her that I was in Florida for the next week, but if I could come I would. She broke down and cried and I ended up feeling bad and seeing if everyone was okay with me going home and everyone else staying. Well, no one wanted to stay so we all went and saw if we could get some plane tickets. When I saw the cost of them, I freaked out! Why were tickets so expensive? I can understand it being over priced due to short noticed, but the prices were unreal! I tried to talk my family into staying since we all had tickets for later to go home with, but they insisted on coming and just rescheduling the vacation. I ended up having to whip out my credit card and purchasing tickets for all of us. The price was something that I was not happy about at all! I can't imagine that price and all the way home on the plane I just thought about how much I had to charge on the car for these tickets.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was not happy about it at all. I am still recovering from the price of the tickets. It was a good vacation though, but the price of the tickets made it a little less enjoyable."
+            }
+        ],
+        "request_id": "811e98a0da7341ad-EWR"
+    }
+}

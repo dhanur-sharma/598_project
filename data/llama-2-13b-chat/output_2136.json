@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago a very sad event happened that changed my life. For the past six years I was the caretaker for my sick, elderly mother. She had been in and out of various hospitals due to her illnesses. Although I knew it would be a difficult undertaking, because I was really close to her, I decided that I would take care of her full time. We moved in together and I took care of her daily needs. However, I had to watch as her condition started to slowly get worse. She began to lose her ability to walk and was forced to use a wheelchair. And next, her mental capacity began to deteriorate as well. Still, I tried my best to care for her and to give her an enjoyable life, like she deserved. There were ups and downs to the whole situation, but I thought that overall everything was under control. That was until unexpectedly, one day, she needed me to call an ambulance for her. That was the last time I was able to speak to her. She was rushed to the hospital, and had to be put into a medically induced coma, from which she never woke up from. Losing her was such an unexpected event in my life. Suddenly I felt more alone than I had ever been. Nothing could have prepared me for this situation, and even now, I still am feeling the effects. To say that I feel sad about the situation is an understatement. I wish that I could have her back, even for a short while."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago a very sad event happened that changed my life. For the past six years I was the caretaker for my sick, elderly mother. She had been in and out of various hospitals due to her illnesses. Although I knew it would be a difficult undertaking, because I was really close to her, I decided that I would take care of her full time. We moved in together and I took care of her daily needs. However, I had to watch as her condition started to slowly get worse. She began to lose her ability to walk and was forced to use a wheelchair. And next, her mental capacity began to deteriorate as well. Still, I tried my best to care for her and to give her an enjoyable life, like she deserved. There were ups and downs to the whole situation, but I thought that overall everything was under control. That was until unexpectedly, one day, she needed me to call an ambulance for her. That was the last time I was able to speak to her. She was rushed to the hospital, and had to be put into a medically induced coma, from which she never woke up from. Losing her was such an unexpected event in my life. Suddenly I felt more alone than I had ever been. Nothing could have prepared me for this situation, and even now, I still am feeling the effects. To say that I feel sad about the situation is an understatement. I wish that I could have her back, even for a short while.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But, life goes on, and I must move forward."
+            }
+        ],
+        "request_id": "811eb0f26ca443f7-EWR"
+    }
+}

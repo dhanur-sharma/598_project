@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'll never forget today as long as I live.  I knew it would be the last time I would see Martha. We've been friends for so long but with her moving to Germany, I don't know if I'll ever see her again in person.  Writing letters will be nice and email but giving her a hug won't be possible.  We've been best friends for so long that I don't know how I'll adjust to this.  Anyway, we met up at our favorite coffee shop and I brought her a little surprise gift.  She opened it and so happy to find the locket with our pictures in it.  She said she will never forget me.  She wants to come back to visit but knows she doesn't have the money and I sure don't have the money to get to Europe.  We talked about the past and all the good times we've shared. I wish she wasn't moving.  But I know it's the best choice for her.  Plus her husband is the one who really made the decision.  I do resent him a bit for that.  But I will never forget Martha and our special bond."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'll never forget today as long as I live.  I knew it would be the last time I would see Martha. We've been friends for so long but with her moving to Germany, I don't know if I'll ever see her again in person.  Writing letters will be nice and email but giving her a hug won't be possible.  We've been best friends for so long that I don't know how I'll adjust to this.  Anyway, we met up at our favorite coffee shop and I brought her a little surprise gift.  She opened it and so happy to find the locket with our pictures in it.  She said she will never forget me.  She wants to come back to visit but knows she doesn't have the money and I sure don't have the money to get to Europe.  We talked about the past and all the good times we've shared. I wish she wasn't moving.  But I know it's the best choice for her.  Plus her husband is the one who really made the decision.  I do resent him a bit for that.  But I will never forget Martha and our special bond.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will always treasure the memories we've shared.  And who knows, maybe someday she will come back to visit.  Maybe someday we'll be living in the same city again.  But for now, I'll just hold on to the memories and the gift she gave me.  A locket with our pictures in it.  It will remind me of our special friendship forever."
+            }
+        ],
+        "request_id": "811ec6cb7e61438d-EWR"
+    }
+}

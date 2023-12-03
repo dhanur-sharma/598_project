@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A friends birthday party a month ago. It was a big get together with a bunch of friends. We met at one of their houses and had the party in their backyard. It was a standard barbecue in the afternoon next to their pool. One person cooked on the grill, cooking hamburgers, sausage and hot dogs. Then the rest of us brought something, macaroni salad potato salad. Some people brought chips and others brought soda, water, beer and wine coolers. There were a few bottles of vodka and rum as well. One friend wanted to experiment and brought a lot of different things so that they could make mix drinks. They mainly made mojitos since that is what they like the most.  I made a few desserts a cheesecake and a strawberry short cake. We mainly spent most of the time talking and catching up and playing card games or a board game. A few people went swimming. It was most memorable because it was the first time in a while that we were all together. All of our schedules are a bit all over so it is very rare that everyone can be together at the same time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A friends birthday party a month ago. It was a big get together with a bunch of friends. We met at one of their houses and had the party in their backyard. It was a standard barbecue in the afternoon next to their pool. One person cooked on the grill, cooking hamburgers, sausage and hot dogs. Then the rest of us brought something, macaroni salad potato salad. Some people brought chips and others brought soda, water, beer and wine coolers. There were a few bottles of vodka and rum as well. One friend wanted to experiment and brought a lot of different things so that they could make mix drinks. They mainly made mojitos since that is what they like the most.  I made a few desserts a cheesecake and a strawberry short cake. We mainly spent most of the time talking and catching up and playing card games or a board game. A few people went swimming. It was most memorable because it was the first time in a while that we were all together. All of our schedules are a bit all over so it is very rare that everyone can be together at the same time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time and it was so nice to see everyone again."
+            }
+        ],
+        "request_id": "811e960c1c8b8c69-EWR"
+    }
+}

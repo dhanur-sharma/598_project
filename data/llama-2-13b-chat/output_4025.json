@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son moved into his own apartment. It was a big step in both our lives. A room became available at a friend's place, so he decided to take it. It was quite sad for me to help him find his belongings that he wanted to take. That said we had a lot of fun finding old toys and books in his room that he had forgotten about. We talked a lot during that time. Remembering fun times. I was very sad when he left, but he told me he would be back soon. I missed him from the very moment he was gone.  He came back very soon. The washing machine at the new house wasn't working!  He has returned quite a lot since then. Always with his laundry! I miss him a lot but I am glad that he is on a new adventure in his life. Everyone is happy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son moved into his own apartment. It was a big step in both our lives. A room became available at a friend's place, so he decided to take it. It was quite sad for me to help him find his belongings that he wanted to take. That said we had a lot of fun finding old toys and books in his room that he had forgotten about. We talked a lot during that time. Remembering fun times. I was very sad when he left, but he told me he would be back soon. I missed him from the very moment he was gone.  He came back very soon. The washing machine at the new house wasn't working!  He has returned quite a lot since then. Always with his laundry! I miss him a lot but I am glad that he is on a new adventure in his life. Everyone is happy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bce98fd5a18b4-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: An event I remember recently is a family reunion my family had in June. It was awesome because I got to see family members I haven't seen in years. I was responsible for helping set up the food and drinks at the event. Also since I was an older cousin I had to help set up events for the younger children. It was a 3 day event with different events everyday. Overall I loved the experience and can't wait until I get to do it again in a few years. My family from out of town came in. I had family staying at my house. And I had other members of my family staying at hotels. I have a pretty big family so there were a lot of people. The reunion was for the family on my mothers side. She had 8 brothers and sisters. So all of them and there kids came. Which made the reunion really big. We usually do a reunion every 2-3 years. The last time was in the Caribbeans. And this time it was in my hometown where I live."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: An event I remember recently is a family reunion my family had in June. It was awesome because I got to see family members I haven't seen in years. I was responsible for helping set up the food and drinks at the event. Also since I was an older cousin I had to help set up events for the younger children. It was a 3 day event with different events everyday. Overall I loved the experience and can't wait until I get to do it again in a few years. My family from out of town came in. I had family staying at my house. And I had other members of my family staying at hotels. I have a pretty big family so there were a lot of people. The reunion was for the family on my mothers side. She had 8 brothers and sisters. So all of them and there kids came. Which made the reunion really big. We usually do a reunion every 2-3 years. The last time was in the Caribbeans. And this time it was in my hometown where I live.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I remember this event because I got to see all of my family and it was a great experience.\n\n"
+            }
+        ],
+        "request_id": "811eb72a3f890ca6-EWR"
+    }
+}

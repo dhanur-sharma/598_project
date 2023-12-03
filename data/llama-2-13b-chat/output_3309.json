@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a crazy day for baseball! Our team deserves to go to the championship this year. Today was the perfect summer day for a game; it wasn't a scotching hot day. The tournament started at 8 this morning. I met with Conner this morning for breakfast at the cafe, then we headed to the game together. Our boys first game was an easy win and they advanced to the next round. The team they played second put up more of a fight, but we won by 10 points. The third team was tough and played well. We only won by 3 points, but advanced to the final team. The team was tired and we could tell. Clouds began to come out and I hoped it would stay away until the last game was over. We knew this would be a tough game, but agreed that these were to 2 best teams. The game started slow, the players are obviously tired. The score stayed close the entire game. In the eighth inning it began to rain a little. By the ninth inning the rain was more sturdy, but the teams played on since there was no lighting and the rain was not too hard. Our team was down two points and needed 3 runs to win the game. Miller was up to bat and the bases were loaded. Miller steps up and gets a home run and we win the game. Next stop, championships!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a crazy day for baseball! Our team deserves to go to the championship this year. Today was the perfect summer day for a game; it wasn't a scotching hot day. The tournament started at 8 this morning. I met with Conner this morning for breakfast at the cafe, then we headed to the game together. Our boys first game was an easy win and they advanced to the next round. The team they played second put up more of a fight, but we won by 10 points. The third team was tough and played well. We only won by 3 points, but advanced to the final team. The team was tired and we could tell. Clouds began to come out and I hoped it would stay away until the last game was over. We knew this would be a tough game, but agreed that these were to 2 best teams. The game started slow, the players are obviously tired. The score stayed close the entire game. In the eighth inning it began to rain a little. By the ninth inning the rain was more sturdy, but the teams played on since there was no lighting and the rain was not too hard. Our team was down two points and needed 3 runs to win the game. Miller was up to bat and the bases were loaded. Miller steps up and gets a home run and we win the game. Next stop, championships!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "What a day, what a game!\n\n"
+            }
+        ],
+        "request_id": "811ec8908b8c42c6-EWR"
+    }
+}

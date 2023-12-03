@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best friend was having a wedding.  He invited me.  There was only one problem.  He said it was in another country.  It was in Spain.  I had never been to Spain before.  I was a little nervous.  I thought that I wouldn't fit in.  I thought that I would be the only one there who spoke English.  I couldn't believe how wrong I was.  When I got there I had a wonderful time.  The food was absolutely delicious.  The wedding was a beautiful ceremony.  There were plenty of people who spoke English.  These people showed me how amazing Spain was.  After the wedding I was shown the beautiful landmarks of the country."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best friend was having a wedding.  He invited me.  There was only one problem.  He said it was in another country.  It was in Spain.  I had never been to Spain before.  I was a little nervous.  I thought that I wouldn't fit in.  I thought that I would be the only one there who spoke English.  I couldn't believe how wrong I was.  When I got there I had a wonderful time.  The food was absolutely delicious.  The wedding was a beautiful ceremony.  There were plenty of people who spoke English.  These people showed me how amazing Spain was.  After the wedding I was shown the beautiful landmarks of the country.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I had the time of my life.  I can't wait to go back.\n\n"
+            }
+        ],
+        "request_id": "811e97eac829c466-EWR"
+    }
+}

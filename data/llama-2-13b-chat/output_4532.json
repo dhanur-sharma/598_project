@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took my wife to the hospital because she was feeling poorly, and has a history of heart trouble. Her cardiologist came to see her that evening at the hospital and decided to do a heart catherization. As a result of the procedure, the major artery in her leg became blocked, and she lost feeling in her leg as it began turning blue. The cardiologist injected her with a large amount of blood thinner which helped get some circulation to the leg and sent her over to a different hospital which had a vascular surgeon. The surgeon had to do a somewhat radical procedure of cutting deeply down both sides of her lower leg, as well as locating the blockage and removing it. The leg had been without circulation long enough that swelling was going to be severe, and without the cutting, the swelling would have killed the nerve in the leg. It took 4 to 5 months for her to recover enough to walk without aid of a wheelchair or walker. In that time I had to take care of her in between nurse visits, including all home maintenance (cleaning, cooking, laundry, etc). I was confined to home as well as she was because she couldn't be left alone. It was a tragic experience for her, and a shocking one for me to see the extent of the surgical damage and the slow healing process. The process for my wife was excruciating. Nurses came by every day for 2 weeks to change the dressing on her leg. Then for months after, twice per week. Also, once a week for months my wife had to go to a clinic to be evaluated by a wound specialist. At times the treatment was very hard to endure, especially the wound vac which seemed to cause as much damage as it did good."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took my wife to the hospital because she was feeling poorly, and has a history of heart trouble. Her cardiologist came to see her that evening at the hospital and decided to do a heart catherization. As a result of the procedure, the major artery in her leg became blocked, and she lost feeling in her leg as it began turning blue. The cardiologist injected her with a large amount of blood thinner which helped get some circulation to the leg and sent her over to a different hospital which had a vascular surgeon. The surgeon had to do a somewhat radical procedure of cutting deeply down both sides of her lower leg, as well as locating the blockage and removing it. The leg had been without circulation long enough that swelling was going to be severe, and without the cutting, the swelling would have killed the nerve in the leg. It took 4 to 5 months for her to recover enough to walk without aid of a wheelchair or walker. In that time I had to take care of her in between nurse visits, including all home maintenance (cleaning, cooking, laundry, etc). I was confined to home as well as she was because she couldn't be left alone. It was a tragic experience for her, and a shocking one for me to see the extent of the surgical damage and the slow healing process. The process for my wife was excruciating. Nurses came by every day for 2 weeks to change the dressing on her leg. Then for months after, twice per week. Also, once a week for months my wife had to go to a clinic to be evaluated by a wound specialist. At times the treatment was very hard to endure, especially the wound vac which seemed to cause as much damage as it did good.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The vacuum pumped out all the fluid from the wound and caused her a great deal of pain. I also had to help her through the physical therapy which was also painful and exhausting. She is now fully recovered, but it took a long time.\n\n"
+            }
+        ],
+        "request_id": "811bd8d0cde41889-EWR"
+    }
+}

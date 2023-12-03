@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: every time our band gets together there is always drama. We have been together for 10 years as we met in college, but ever since then most of us have gone stable with a 9-5. This is true for everyone except rebecca. Rebecca graduated in our class, but decided to go full anarchy mode and always talk about the man and how were all cogs in the machine. She blogs as a profession however really doesnt make anything more than rent money from it. She also has no filter and doesnt seem to care about our group any more outside of just having something to do. However about 2 months ago we saw a shift. Troy sat down with her and really started asking her questions. Like what her passions were and what she wanted out of life. She admit that she was a bit lost and the idea of a stable job is just overwhelming and thats why she harps on everyone else. It was really cool to see her open up as we all thought she was just stuck in a rebellious phase. Troy had an opening at his company for some manual work and offered to get her set up with an interview. She said she would consider it but was a bit apprehensive. From going to staying at home all day to 8 hours in a warehouse seemed a bit of an abrupt change. overall we gained more respect for troy and rebecca that night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: every time our band gets together there is always drama. We have been together for 10 years as we met in college, but ever since then most of us have gone stable with a 9-5. This is true for everyone except rebecca. Rebecca graduated in our class, but decided to go full anarchy mode and always talk about the man and how were all cogs in the machine. She blogs as a profession however really doesnt make anything more than rent money from it. She also has no filter and doesnt seem to care about our group any more outside of just having something to do. However about 2 months ago we saw a shift. Troy sat down with her and really started asking her questions. Like what her passions were and what she wanted out of life. She admit that she was a bit lost and the idea of a stable job is just overwhelming and thats why she harps on everyone else. It was really cool to see her open up as we all thought she was just stuck in a rebellious phase. Troy had an opening at his company for some manual work and offered to get her set up with an interview. She said she would consider it but was a bit apprehensive. From going to staying at home all day to 8 hours in a warehouse seemed a bit of an abrupt change. overall we gained more respect for troy and rebecca that night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was really cool to see them bond over something other than drama.\n\n"
+            }
+        ],
+        "request_id": "811bdd926da54301-EWR"
+    }
+}

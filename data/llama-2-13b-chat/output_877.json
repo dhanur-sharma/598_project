@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I started preparing in July for this competition. I was inspired by the new coach at our gym to compete much more frequently. I had also lost fairly decisively at a tournament in February - I needed redemption. I prepared in several different ways. First, I needed to lose about 5 pounds. This takes a good amount of self-discipline, as your body has a hard time readjusting to a caloric deficit. I removed carbs and also just ate less in general, eating a minimum of protein and veggies necessary. I lost about 7 pounds total and was in great shape. My cardio was another issue. I needed to boost my stamina, as in my previous competition I had biked vigorously but still fatigued. My new strategy was to spar at other gyms as often as I could. Fighting someone unfamiliar to you will make you more competitive and more uneasy, which is exactly what a tournament is. The tournament itself was almost disappointing, as it seemed my opponents did not provide enough of a challenge. Who you fight on the day of will always be random. But the lessons I learned in preparation were eye-opening. I came out of this experience a stronger person."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I started preparing in July for this competition. I was inspired by the new coach at our gym to compete much more frequently. I had also lost fairly decisively at a tournament in February - I needed redemption. I prepared in several different ways. First, I needed to lose about 5 pounds. This takes a good amount of self-discipline, as your body has a hard time readjusting to a caloric deficit. I removed carbs and also just ate less in general, eating a minimum of protein and veggies necessary. I lost about 7 pounds total and was in great shape. My cardio was another issue. I needed to boost my stamina, as in my previous competition I had biked vigorously but still fatigued. My new strategy was to spar at other gyms as often as I could. Fighting someone unfamiliar to you will make you more competitive and more uneasy, which is exactly what a tournament is. The tournament itself was almost disappointing, as it seemed my opponents did not provide enough of a challenge. Who you fight on the day of will always be random. But the lessons I learned in preparation were eye-opening. I came out of this experience a stronger person.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e99c80d361778-EWR"
+    }
+}

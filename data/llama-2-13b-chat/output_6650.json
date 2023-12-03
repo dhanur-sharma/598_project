@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, my brother on the other side of the country came to visit for a few weeks. It was very exciting because I hadn't seen him for a while. My brother and I used to be very close, but we've grown apart a bit as we got older. Still, we were happy to see each other. He made his typical jokes (he has a very specific style of humor). I tried to find activities for us to do together that he would enjoy. These activities tended to be about doing things that are cheap, because that's what he's into. We traveled around the state and did some cool tourist activities. We went out to eat and he got to try some new foods. We spent time with our brother who lives locally. It was a very fun and rewarding visit. It made me happy to see my brother and reconnect with him. We still have a lot in common after all this time. Even though we're such different people, we will always be family. I'm glad we can continue to be close."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, my brother on the other side of the country came to visit for a few weeks. It was very exciting because I hadn't seen him for a while. My brother and I used to be very close, but we've grown apart a bit as we got older. Still, we were happy to see each other. He made his typical jokes (he has a very specific style of humor). I tried to find activities for us to do together that he would enjoy. These activities tended to be about doing things that are cheap, because that's what he's into. We traveled around the state and did some cool tourist activities. We went out to eat and he got to try some new foods. We spent time with our brother who lives locally. It was a very fun and rewarding visit. It made me happy to see my brother and reconnect with him. We still have a lot in common after all this time. Even though we're such different people, we will always be family. I'm glad we can continue to be close.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f49f7dde8428e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I just stared my job last week. I am not as motivated as my other peers. They can get a crate of cans put up on the shelves in one hour. I can only do half a crate in the same time. I feel lazy because of this. I need to get faster at putting cans up. I asked them for motivation. They said to just keep focused on the task at hand. I will try that next week. I need to get a belt for my back. It has been hurting after putting cans up at the end of the day. I'll ask for a belt next week. The pay is alright. I'm hoping of getting a raise. I doubt I'll get a promotion with this work speed. This will be a hard task to accomplish."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I just stared my job last week. I am not as motivated as my other peers. They can get a crate of cans put up on the shelves in one hour. I can only do half a crate in the same time. I feel lazy because of this. I need to get faster at putting cans up. I asked them for motivation. They said to just keep focused on the task at hand. I will try that next week. I need to get a belt for my back. It has been hurting after putting cans up at the end of the day. I'll ask for a belt next week. The pay is alright. I'm hoping of getting a raise. I doubt I'll get a promotion with this work speed. This will be a hard task to accomplish.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb8e4e9b94301-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cousin from switzerland came to visit. I had not seen him in over 17 years. The last time that I saw him, he was getting married. Now when I saw him, he has 3 kids (2 girls who are twins, and 1 boy). They are 16 and 14.  It was really amazing to see him after all this time, and it was great to catch up with him about what he had been doing since I last saw him.  It was a significant event for me because I was reconnecting with a family member that I hadn't seen in a long time, but was very close to while growing up.  The most surprising thing was getting to meet his kids and seeing how much they had already grown up. He caught me up also on news about his parents. He also told me about what his sister, my other cousin had been up to.  He told me what was going on with his work, and it was good to learn about the success he was having. I felt a little bad seeing him because I hadn't done a good job of staying in touch. We made a point that we wouldn't let that happen again. Going forward we are going to try to catch up at least once a quarter. We don't necessarily have to do it in person, we'll just have a call or something once every few months."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cousin from switzerland came to visit. I had not seen him in over 17 years. The last time that I saw him, he was getting married. Now when I saw him, he has 3 kids (2 girls who are twins, and 1 boy). They are 16 and 14.  It was really amazing to see him after all this time, and it was great to catch up with him about what he had been doing since I last saw him.  It was a significant event for me because I was reconnecting with a family member that I hadn't seen in a long time, but was very close to while growing up.  The most surprising thing was getting to meet his kids and seeing how much they had already grown up. He caught me up also on news about his parents. He also told me about what his sister, my other cousin had been up to.  He told me what was going on with his work, and it was good to learn about the success he was having. I felt a little bad seeing him because I hadn't done a good job of staying in touch. We made a point that we wouldn't let that happen again. Going forward we are going to try to catch up at least once a quarter. We don't necessarily have to do it in person, we'll just have a call or something once every few months.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd49fc86b4362-EWR"
+    }
+}

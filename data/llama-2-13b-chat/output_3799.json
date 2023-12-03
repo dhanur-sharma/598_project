@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had the most fun today. I woke up in a great mood ready to take the day on. I had lot planned for my family today. we were going to the zoo and then out to lunch and then we went to the park, the kids can fish and the puppies could run around. then we went fishing. my baby girl didn't really enjoy the fishing part that much but she loved everything else. the boys loved fishing with their dad. at the zoo she got scared a little at the animals, which gave everybody a laugh until she started crying. then the cutest thing happened her brother comforted her and held her hand the rest of the time we were there. for lunch we went to golden corral, everyone enjoyed the time we spent there and it was great. from there. we drove to the park where my baby girl who is 6 loved running with the puppies and they even got in the water and swam with her. we tried to get her to fish but she didn't like it. my oldest son caught a couple fish and when he showed them to his little sister she had such a cute little freak out at the fish, every time she tried to touch it it kept moving. after that we went home, we stopped at McDonald's and then the kids were to tired to do anything. everyone went to sleep early that day"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had the most fun today. I woke up in a great mood ready to take the day on. I had lot planned for my family today. we were going to the zoo and then out to lunch and then we went to the park, the kids can fish and the puppies could run around. then we went fishing. my baby girl didn't really enjoy the fishing part that much but she loved everything else. the boys loved fishing with their dad. at the zoo she got scared a little at the animals, which gave everybody a laugh until she started crying. then the cutest thing happened her brother comforted her and held her hand the rest of the time we were there. for lunch we went to golden corral, everyone enjoyed the time we spent there and it was great. from there. we drove to the park where my baby girl who is 6 loved running with the puppies and they even got in the water and swam with her. we tried to get her to fish but she didn't like it. my oldest son caught a couple fish and when he showed them to his little sister she had such a cute little freak out at the fish, every time she tried to touch it it kept moving. after that we went home, we stopped at McDonald's and then the kids were to tired to do anything. everyone went to sleep early that day",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ". it was the best day ever!"
+            }
+        ],
+        "request_id": "811ed1772fa218ea-EWR"
+    }
+}

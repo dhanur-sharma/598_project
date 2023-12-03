@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was early may I was in labor with my son. The contractions started the day before while we were out shopping for last minute things. I tried not to let them bother me to much. That night I started getting lower back pain but paid it no mind. I got an ice pack and heating pad but neither relieved the deep pain. By morning I was ready to go to the hospital. when we got there I was already at 6 cm. It just seems like things went faster after that. I got an epidural which took away most of the pain. I felt a little guilty since I said I wanted to do it naturally. When it came time to push it didn't take long. maybe 5 minutes and my son was finally here. We stayed in the hospital 2 days before coming home. He was a good baby didn't cry much. He was fine not being held when I needed a break."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was early may I was in labor with my son. The contractions started the day before while we were out shopping for last minute things. I tried not to let them bother me to much. That night I started getting lower back pain but paid it no mind. I got an ice pack and heating pad but neither relieved the deep pain. By morning I was ready to go to the hospital. when we got there I was already at 6 cm. It just seems like things went faster after that. I got an epidural which took away most of the pain. I felt a little guilty since I said I wanted to do it naturally. When it came time to push it didn't take long. maybe 5 minutes and my son was finally here. We stayed in the hospital 2 days before coming home. He was a good baby didn't cry much. He was fine not being held when I needed a break.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt like I was on top of the world. I knew I could do anything.\n\n"
+            }
+        ],
+        "request_id": "811ec27e587419fb-EWR"
+    }
+}

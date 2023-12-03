@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Approximately one month ago, I had a crazy incident. I and a few friends attended a party. It was a wild party in a field. This field was out in the middle of nowhere. There was no transportation to or from here. Only by driving there. Anyway, as the party progressed, I met a cute girl while dancing. We went off to talk in the woods, and I lost my friends. Later on, she went to catch up with her friends. I and her had taken some substances she had with her. I started feeling weird, and high. I sat there in the woods till morning. I was confused when I woke up. I decided to never take drugs again. This was a learning experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Approximately one month ago, I had a crazy incident. I and a few friends attended a party. It was a wild party in a field. This field was out in the middle of nowhere. There was no transportation to or from here. Only by driving there. Anyway, as the party progressed, I met a cute girl while dancing. We went off to talk in the woods, and I lost my friends. Later on, she went to catch up with her friends. I and her had taken some substances she had with her. I started feeling weird, and high. I sat there in the woods till morning. I was confused when I woke up. I decided to never take drugs again. This was a learning experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be0463b504264-EWR"
+    }
+}

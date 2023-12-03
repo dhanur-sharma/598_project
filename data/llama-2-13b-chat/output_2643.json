@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to a coffee shop a while back. If I recall, I was thirsty for coffee and I kept passing this place on the way to work.  It seemed like a cool little place, so I decided to  go in. While there, I spotted a really cute girl at a counter. It was a bit crowded, she was alone and I kind of needed a place to sit. I hurt my foot a few weeks before and wasn't into standing all that much. So, while each of us were sipping our coffees, we started taking about things. What we were doing in life, what we liked, what we dreaded - that sort of thing.  We shared a sense of humor. We laughed a lot. Under the guise of \"wanting to pick up the conversation later,\" we traded phone numbers. I got a formal date, which also turned out to be pretty great. I had a lot of fun. Long story short, I guess I kind of have a girlfriend now. That's pretty cool, right?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to a coffee shop a while back. If I recall, I was thirsty for coffee and I kept passing this place on the way to work.  It seemed like a cool little place, so I decided to  go in. While there, I spotted a really cute girl at a counter. It was a bit crowded, she was alone and I kind of needed a place to sit. I hurt my foot a few weeks before and wasn't into standing all that much. So, while each of us were sipping our coffees, we started taking about things. What we were doing in life, what we liked, what we dreaded - that sort of thing.  We shared a sense of humor. We laughed a lot. Under the guise of \"wanting to pick up the conversation later,\" we traded phone numbers. I got a formal date, which also turned out to be pretty great. I had a lot of fun. Long story short, I guess I kind of have a girlfriend now. That's pretty cool, right?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebab92d5d43f4-EWR"
+    }
+}

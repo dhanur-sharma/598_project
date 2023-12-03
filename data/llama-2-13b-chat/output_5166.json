@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been sick the past week or two. I went to the doctor and got prescribed an antibiotic for an infection on my legs, but it turns out I'm allergic to the antibiotic. I got very very sick. I had a fever of 102, headaches, nausea. and then the rash started and spread over my entire body. I really felt like I might die, I didn't tell anyone that, but I was in pretty bad shape. Allergic reactions to medication is no joke! I am very lucky to have such a wonderful husband though. He was so helpful and kind while I was sick. He's always been a sweet and helpful guy, but he really went above and beyond to make sure I was comfortable and had what I needed. Everything made me nauseous, so he did research and went to the store and bought several different things for me to eat.  When my mom suggested taking a few various vitamins, he left immediately to get them for me.  He took the day off of work for two days and wouldn't let me get up from my resting spot for any reason. He was truly a lifesaver, I am so grateful for him. I can't imagine having to go through that alone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been sick the past week or two. I went to the doctor and got prescribed an antibiotic for an infection on my legs, but it turns out I'm allergic to the antibiotic. I got very very sick. I had a fever of 102, headaches, nausea. and then the rash started and spread over my entire body. I really felt like I might die, I didn't tell anyone that, but I was in pretty bad shape. Allergic reactions to medication is no joke! I am very lucky to have such a wonderful husband though. He was so helpful and kind while I was sick. He's always been a sweet and helpful guy, but he really went above and beyond to make sure I was comfortable and had what I needed. Everything made me nauseous, so he did research and went to the store and bought several different things for me to eat.  When my mom suggested taking a few various vitamins, he left immediately to get them for me.  He took the day off of work for two days and wouldn't let me get up from my resting spot for any reason. He was truly a lifesaver, I am so grateful for him. I can't imagine having to go through that alone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still recovering, but I'm doing much better now and I'm so grateful to be alive and to have such a wonderful partner."
+            }
+        ],
+        "request_id": "811be5984ed2430e-EWR"
+    }
+}

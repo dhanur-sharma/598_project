@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: it was my sister's birthday party. i spent all morning and afternoon helping my mom make a cake for her. we had all the ingredients and were making a carrot cake. carrot cake is her favorite. People were starting to come over. they were setting presents at the designated table. The cake was almost done in the oven. I took it out and waited for it to cool down. My sister was very excited to open her birthday presents. As more people came to the party it became more and more crowded. when the cake was cooled off i brought it from the kitchen into the hallway. i was on my way to put it on the picnic table outside. as i was in the hallway my friend was running around and ran straight into me while i was holding the cake. the cake ended up smashing into my friend. She was covered in cake. Everyone laughed when it happened. My sister was upset, but we went to the grocery store and bought her an already made cake. So i guess it wasn't that bad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: it was my sister's birthday party. i spent all morning and afternoon helping my mom make a cake for her. we had all the ingredients and were making a carrot cake. carrot cake is her favorite. People were starting to come over. they were setting presents at the designated table. The cake was almost done in the oven. I took it out and waited for it to cool down. My sister was very excited to open her birthday presents. As more people came to the party it became more and more crowded. when the cake was cooled off i brought it from the kitchen into the hallway. i was on my way to put it on the picnic table outside. as i was in the hallway my friend was running around and ran straight into me while i was holding the cake. the cake ended up smashing into my friend. She was covered in cake. Everyone laughed when it happened. My sister was upset, but we went to the grocery store and bought her an already made cake. So i guess it wasn't that bad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e8aba9e21439a-EWR"
+    }
+}

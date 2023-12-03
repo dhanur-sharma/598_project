@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I can't believe what happened 2 weeks ago. My supervisor tested positive for cocaine! I would never have guessed that she used drugs of any kind. I'm really shocked and I feel so disappointed. On top of that, nothing happened to her because of it. Management did nothing. Nothing! Drugs are such a non-starter at work for all of us and it's not tolerated at all and for good reason. Everyone is so angry with management and trying to figure out what is going on and why nothing has happened about this. I mean, it's been 2 whole weeks and it's like it never happened. My supervisor is continuing in all of her supervisory roles right now. She's completely acting like a failed drug test never happened. All of us at work are concerned now because it seems like the rules don't matter (at least to some people?!). I'm wondering if someone needs to go to management or leave some sort of anonymous \"suggestion box\" note for someone in management to figure out what's going on and what the rules are for the rest of us. We all kind of want answers! I love my job but this feels really unfair and makes me feel like I'm working for a sketchy company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I can't believe what happened 2 weeks ago. My supervisor tested positive for cocaine! I would never have guessed that she used drugs of any kind. I'm really shocked and I feel so disappointed. On top of that, nothing happened to her because of it. Management did nothing. Nothing! Drugs are such a non-starter at work for all of us and it's not tolerated at all and for good reason. Everyone is so angry with management and trying to figure out what is going on and why nothing has happened about this. I mean, it's been 2 whole weeks and it's like it never happened. My supervisor is continuing in all of her supervisory roles right now. She's completely acting like a failed drug test never happened. All of us at work are concerned now because it seems like the rules don't matter (at least to some people?!). I'm wondering if someone needs to go to management or leave some sort of anonymous \"suggestion box\" note for someone in management to figure out what's going on and what the rules are for the rest of us. We all kind of want answers! I love my job but this feels really unfair and makes me feel like I'm working for a sketchy company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope that someone will finally do something about this!\n\n"
+            }
+        ],
+        "request_id": "811ed1846ca518f6-EWR"
+    }
+}

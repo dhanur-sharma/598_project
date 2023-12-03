@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm writing about the passing of my grandmother. She passed away in her sleep from a heart attack. It was a shocking and unexpected event for our family. She did not have a will in place so this has made it very difficult on our family to handle all of her business. The morning that it happened my father woke me up and told me that she was gone. At first I didn't understand what he meant by gone. I thought maybe she went shopping or something. When I got out of bed the ambulance was just leaving with her. My family all piled into the car to go down to the hospital where they were taking her. They basically pronounced her dead on arrival at the hospital as the EMT's in the ambulance were unable to revive her. My father was very emotionally upset by this event. We also struggled to handle her funeral arrangements as we did not have access to any of her bank accounts. Funerals are so ridiculously expensive. The social security administration offers a few dollars in death benefits but those can only go to a spouse not to a child to assist in burial. Even the cheapest option being cremation was well over 1,000$. It's difficult because the hospital only gives you 24hours to handle this and have the funeral home pick up the body from the hospital."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm writing about the passing of my grandmother. She passed away in her sleep from a heart attack. It was a shocking and unexpected event for our family. She did not have a will in place so this has made it very difficult on our family to handle all of her business. The morning that it happened my father woke me up and told me that she was gone. At first I didn't understand what he meant by gone. I thought maybe she went shopping or something. When I got out of bed the ambulance was just leaving with her. My family all piled into the car to go down to the hospital where they were taking her. They basically pronounced her dead on arrival at the hospital as the EMT's in the ambulance were unable to revive her. My father was very emotionally upset by this event. We also struggled to handle her funeral arrangements as we did not have access to any of her bank accounts. Funerals are so ridiculously expensive. The social security administration offers a few dollars in death benefits but those can only go to a spouse not to a child to assist in burial. Even the cheapest option being cremation was well over 1,000$. It's difficult because the hospital only gives you 24hours to handle this and have the funeral home pick up the body from the hospital.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a lot to handle and process in such a short amount of time.\n\n"
+            }
+        ],
+        "request_id": "811ea1ba98d70c95-EWR"
+    }
+}

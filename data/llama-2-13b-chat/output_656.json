@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Life has been very interesting since college. I have lost touch with many of my old friends, so it's often weird to hear from them every now and then. A little over a month ago I received a text from V, who graduated the same year and lived in my dorm. I hadn't spoken to him in roughly two years. You could say it was a shock to see his name pop up on my phone. Interestingly enough, V was getting married and wanted to give me a late invite. Despite feeling a little left out about not getting an invite by mail in advance, I decided to accept anyway. In the end I'm super glad that I did. Tons of old friends were there, and V's new wife ended up being the girl that he started to date right at the end of college. I had met her a few times randomly towards the end of our senior year. The ceremony was packed with tons of people, and they spared no expense. Numerous kegs of expensive beer were purchased, in addition to three chocolate fountains. They even hired one of the best underground DJs in the city to do the music. We danced and partied late in the night. It was also great that V could make plenty of time to talk to me, and I definitely feel like we will stay in closer contact going forward. All in all I had a great time at V's wedding and hope to invite him to mine one day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Life has been very interesting since college. I have lost touch with many of my old friends, so it's often weird to hear from them every now and then. A little over a month ago I received a text from V, who graduated the same year and lived in my dorm. I hadn't spoken to him in roughly two years. You could say it was a shock to see his name pop up on my phone. Interestingly enough, V was getting married and wanted to give me a late invite. Despite feeling a little left out about not getting an invite by mail in advance, I decided to accept anyway. In the end I'm super glad that I did. Tons of old friends were there, and V's new wife ended up being the girl that he started to date right at the end of college. I had met her a few times randomly towards the end of our senior year. The ceremony was packed with tons of people, and they spared no expense. Numerous kegs of expensive beer were purchased, in addition to three chocolate fountains. They even hired one of the best underground DJs in the city to do the music. We danced and partied late in the night. It was also great that V could make plenty of time to talk to me, and I definitely feel like we will stay in closer contact going forward. All in all I had a great time at V's wedding and hope to invite him to mine one day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e95e8aa0e4331-EWR"
+    }
+}

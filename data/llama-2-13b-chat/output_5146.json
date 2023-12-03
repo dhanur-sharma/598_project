@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a day! About three months ago something amazing happened to me. I bought my first home! The process was a long and drawn out one but so worth it in the end. I looked at house after house after house and finally settled on the perfect one for me. I started the process months before I actually purchased. It took a long time finding a home because I am so indecisive and I didn't want to make a mistake and buy something I would hate in the future. This caused me to want to see any and everything that was available. Even after I thought I had seen it as I contemplated which house to purchase I couldn't decide. I received a phone call from my realtor a few days after all the showings available to me were over and she communicated to me that there was one brand new listing that we had not seen. This turned out to be the one. It was everything I wanted and dreamed of when I first started the process of buying a home. I was in love with the house and put in an offer immediately. My offer was accepted and sometime later I moved in and have been loving life ever since. I don't want to live anywhere else. Although this was a daunting task, I wouldn't change how it all played out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a day! About three months ago something amazing happened to me. I bought my first home! The process was a long and drawn out one but so worth it in the end. I looked at house after house after house and finally settled on the perfect one for me. I started the process months before I actually purchased. It took a long time finding a home because I am so indecisive and I didn't want to make a mistake and buy something I would hate in the future. This caused me to want to see any and everything that was available. Even after I thought I had seen it as I contemplated which house to purchase I couldn't decide. I received a phone call from my realtor a few days after all the showings available to me were over and she communicated to me that there was one brand new listing that we had not seen. This turned out to be the one. It was everything I wanted and dreamed of when I first started the process of buying a home. I was in love with the house and put in an offer immediately. My offer was accepted and sometime later I moved in and have been loving life ever since. I don't want to live anywhere else. Although this was a daunting task, I wouldn't change how it all played out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so happy I found my dream home!\n\n"
+            }
+        ],
+        "request_id": "811be530888e0cbd-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well, my cat passed away a few months back.  He'd been acting somewhat strangely, loss of appetite and moping around.  So one night he seems even more off than usual and is somewhat short of breath.   I put him in the truck and off we go to the all-night vet.   After a couple hours hanging around in the waiting room the vet summons me into the back to tell me that he had lung cancer.   Christ knows how he got that.   Anyhow, she was of the opinion that maybe we ought to just put him down right then and there, but instead of that she gave me some pain medication for him and home we went.  He lasted a few more weeks, and some of the time he seemed to be doing pretty well.   One morning though it was just time, and we both knew it, so I carried him down to the normal vet and that was that.  His ashes are in a little box now.  On the kitchen table actually.  I suppose I should find somewhere more official for them to go, but he always did like hanging out in the kitchen.   There are worse places to be I guess. It was a rough few months after that.  There's not much to be done about it though.   It's a shame cats don't last longer than that, but such is life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well, my cat passed away a few months back.  He'd been acting somewhat strangely, loss of appetite and moping around.  So one night he seems even more off than usual and is somewhat short of breath.   I put him in the truck and off we go to the all-night vet.   After a couple hours hanging around in the waiting room the vet summons me into the back to tell me that he had lung cancer.   Christ knows how he got that.   Anyhow, she was of the opinion that maybe we ought to just put him down right then and there, but instead of that she gave me some pain medication for him and home we went.  He lasted a few more weeks, and some of the time he seemed to be doing pretty well.   One morning though it was just time, and we both knew it, so I carried him down to the normal vet and that was that.  His ashes are in a little box now.  On the kitchen table actually.  I suppose I should find somewhere more official for them to go, but he always did like hanging out in the kitchen.   There are worse places to be I guess. It was a rough few months after that.  There's not much to be done about it though.   It's a shame cats don't last longer than that, but such is life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I guess.\n\n"
+            }
+        ],
+        "request_id": "811ecf95cd89c3eb-EWR"
+    }
+}

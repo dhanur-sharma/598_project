@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I took my family to a trip this year. We went to Memphis and it was great! The sights were amazing, and the city was alive with sounds, and lights, and it was just beautiful. We also visited our friends there. We talked about many things while we were there, and we found out many new stories about our friends. We haven't seen them in a while. So it was nice catching up. After we talked for a while, we went to the beach to have some fun. We swam in the oceans, and we played in the sand. We had a great time. It was fun, and we loved it a lot. After that, I thought about moving my family here. I mean why not? This city is wonderful, and the people are great. Our friends are also here, so why not? So, that's what we did."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I took my family to a trip this year. We went to Memphis and it was great! The sights were amazing, and the city was alive with sounds, and lights, and it was just beautiful. We also visited our friends there. We talked about many things while we were there, and we found out many new stories about our friends. We haven't seen them in a while. So it was nice catching up. After we talked for a while, we went to the beach to have some fun. We swam in the oceans, and we played in the sand. We had a great time. It was fun, and we loved it a lot. After that, I thought about moving my family here. I mean why not? This city is wonderful, and the people are great. Our friends are also here, so why not? So, that's what we did.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We moved here, and we are so happy here. The kids love it here, and they are doing great in school. We are loving life here, and we are so glad that we made the decision to move here.\n\n"
+            }
+        ],
+        "request_id": "811eb2f8f9890f5f-EWR"
+    }
+}

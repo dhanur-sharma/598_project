@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a beautiful stepdaughter. I often consider her my real daughter. She was geting married in Las Vegas about three mothes ago. I was so happy for her. What a great success. I flew into Vegas to watch her get married. I had to fly because I live all the way in Portland. The Flight was very entertaining. I flew first class all they way. I was looking out the window the whole time and the view was amazing. There was a delightful two year old sitting next to me. He loved to dance and sing while seated. I found this extremely cute and funny. The trip was also very memorable because I got to see a beautiful wedding. I also got to see a beautiful girl."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a beautiful stepdaughter. I often consider her my real daughter. She was geting married in Las Vegas about three mothes ago. I was so happy for her. What a great success. I flew into Vegas to watch her get married. I had to fly because I live all the way in Portland. The Flight was very entertaining. I flew first class all they way. I was looking out the window the whole time and the view was amazing. There was a delightful two year old sitting next to me. He loved to dance and sing while seated. I found this extremely cute and funny. The trip was also very memorable because I got to see a beautiful wedding. I also got to see a beautiful girl.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She was so happy that day. I was so happy to be there to see it.\n\n"
+            }
+        ],
+        "request_id": "811ea5b5c9c542c6-EWR"
+    }
+}

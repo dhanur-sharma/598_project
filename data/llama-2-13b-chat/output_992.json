@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 4 weeks ago I spent time with my mother. We went to a local restaurant to celebrate my birthday. She showed me the card that she had made for me. It was very beautiful looking, and I could tell that she put a lot of effort into it. We ordered a pizza. I talked about how much I enjoyed birthdays and how this one was extra special because it was with my mom. I talked about my future dreams and ambitions now that I had passed yet another milestone in my life. My mom was impressed and happy for me. Later we talked after the meal, which was very enjoyable. The waiter was nice as well. I was able to consume two slices despite the slices being very large. Afterwards the restaurant gave us surprise birthday slices with candles on them. That really brightened my day! I enjoyed the night at the restaurant with my mother. It was a truly unique experience."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 4 weeks ago I spent time with my mother. We went to a local restaurant to celebrate my birthday. She showed me the card that she had made for me. It was very beautiful looking, and I could tell that she put a lot of effort into it. We ordered a pizza. I talked about how much I enjoyed birthdays and how this one was extra special because it was with my mom. I talked about my future dreams and ambitions now that I had passed yet another milestone in my life. My mom was impressed and happy for me. Later we talked after the meal, which was very enjoyable. The waiter was nice as well. I was able to consume two slices despite the slices being very large. Afterwards the restaurant gave us surprise birthday slices with candles on them. That really brightened my day! I enjoyed the night at the restaurant with my mother. It was a truly unique experience.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9bdb6cb342e0-EWR"
+    }
+}

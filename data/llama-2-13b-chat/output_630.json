@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In June, I went to a family reunion. It was held at the home of my cousin's former husband in New Jersey. Last year, he came and picked up me and my partner at our place in New York and drove us there. This time, although one of the cousin's organizing the event said she'd try to arrange transportation, she was unable to do so, so we took the bus. This involved taking the subway to Port Authority in Manhattan, then a bus to New Jersey, then calling my cousin on arrival to have someone pick us up. The whole trip should have take a couple of hours. I looked at Google Maps before leaving the house, and planned our route. We left the house in ample time to catch the bus suggested by the app. On the way to the bus, I called my cousin to confirm that we were on our way. I found out that the host of the party said we should take a different bus, which was a route run by a different bus company. Naturally, this ran on a different schedule. When we arrived at the terminal, we found we'd have to wait an hour for our bus. When we finally got on the bus, we were relieved, and figured we see everyone in about an hour's time. Were we mistaken! We hit one of the worst traffic jams I have ever encountered. The trip took well over two hours. By the time we arrived, some of the guests were already leaving. The best part of the whole party was that one of my cousins had come all the way from Massachusetts. She had told me about a year ago that she loves coconut flan. So, I made it and did not tell her. She was so surprised and pleased that she cried. Her husband, who is Cuban, pronounced it \"Tremendo!\" I felt the long trip had been worth the effort."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In June, I went to a family reunion. It was held at the home of my cousin's former husband in New Jersey. Last year, he came and picked up me and my partner at our place in New York and drove us there. This time, although one of the cousin's organizing the event said she'd try to arrange transportation, she was unable to do so, so we took the bus. This involved taking the subway to Port Authority in Manhattan, then a bus to New Jersey, then calling my cousin on arrival to have someone pick us up. The whole trip should have take a couple of hours. I looked at Google Maps before leaving the house, and planned our route. We left the house in ample time to catch the bus suggested by the app. On the way to the bus, I called my cousin to confirm that we were on our way. I found out that the host of the party said we should take a different bus, which was a route run by a different bus company. Naturally, this ran on a different schedule. When we arrived at the terminal, we found we'd have to wait an hour for our bus. When we finally got on the bus, we were relieved, and figured we see everyone in about an hour's time. Were we mistaken! We hit one of the worst traffic jams I have ever encountered. The trip took well over two hours. By the time we arrived, some of the guests were already leaving. The best part of the whole party was that one of my cousins had come all the way from Massachusetts. She had told me about a year ago that she loves coconut flan. So, I made it and did not tell her. She was so surprised and pleased that she cried. Her husband, who is Cuban, pronounced it \"Tremendo!\" I felt the long trip had been worth the effort.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e956dbe8e0f49-EWR"
+    }
+}

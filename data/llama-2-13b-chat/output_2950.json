@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Eight months ago, I learned to always be calm in situations. I had a few stressful events happen. I was driving and almost got hit. I remained calm during the whole process. The other person ran a red light. I hope he got a ticket because of it. Later that day, I tripped while walking outside. I landed just short of some glass. I was lucky that I didn't get cut. The last stressful event that day was while eating. I choked on some steak. I coughed it up. I was a bit mad but got over it. I learned that you need to be cool during bad times. You will survive if you do this. I hope I don't have to do any of these things again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Eight months ago, I learned to always be calm in situations. I had a few stressful events happen. I was driving and almost got hit. I remained calm during the whole process. The other person ran a red light. I hope he got a ticket because of it. Later that day, I tripped while walking outside. I landed just short of some glass. I was lucky that I didn't get cut. The last stressful event that day was while eating. I choked on some steak. I coughed it up. I was a bit mad but got over it. I learned that you need to be cool during bad times. You will survive if you do this. I hope I don't have to do any of these things again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec12839674332-EWR"
+    }
+}

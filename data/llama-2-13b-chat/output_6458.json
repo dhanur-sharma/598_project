@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My most recent memorable event was when my mother came to visit a month or two ago. I worked so hard to get her travel trailer permanently installed. It was a major process to get it up and running. We had to hook up plumbing and electric which was a major pain. I ended up spilling water in it and had to replace the air conditioner.  She's always judged the cleanliness of my home so I wasn't looking forward to her visiting for that reason. But In ended up being pleasantly surprise. Not only did she love the trailer she was also comfortable staying in my house. She ate the food I cooked and was comfortable tot just hang out. It was the most relaxed I think that I have ever seen her. Now I look forward to her visits and really can't wait for her to come back. She watched the kids so we could go fishing and took them shopping. Now I can spend time with her with zero stress without having to pack the children up onto an airplane which is always a huge event. It feels almost like a life changing event to me because I can look forward to my mom visiting rather than stress it. I feel like a major weight is lifted off of my shoulders."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My most recent memorable event was when my mother came to visit a month or two ago. I worked so hard to get her travel trailer permanently installed. It was a major process to get it up and running. We had to hook up plumbing and electric which was a major pain. I ended up spilling water in it and had to replace the air conditioner.  She's always judged the cleanliness of my home so I wasn't looking forward to her visiting for that reason. But In ended up being pleasantly surprise. Not only did she love the trailer she was also comfortable staying in my house. She ate the food I cooked and was comfortable tot just hang out. It was the most relaxed I think that I have ever seen her. Now I look forward to her visits and really can't wait for her to come back. She watched the kids so we could go fishing and took them shopping. Now I can spend time with her with zero stress without having to pack the children up onto an airplane which is always a huge event. It feels almost like a life changing event to me because I can look forward to my mom visiting rather than stress it. I feel like a major weight is lifted off of my shoulders.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I am excited to have my mom visit again and I look forward to it every time she comes. "
+            }
+        ],
+        "request_id": "811f45adc942c333-EWR"
+    }
+}

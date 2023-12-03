@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I lost a job that paid minimum wage. It was barely enough income to get by on and not enough for my budget to include savings. That's how I found myself homeless. Within a matter of a few months, I was consigned to wander through the streets that used to be mine. I now sleep in the same park where once I stood looking lovingly at the green earth, the trees, the birds sweetly fluttering. That park is now a place to hide away from the rest of the world, so like a leper. It seems just yesterday that I'd belonged with those people who come for the fresh open space.  My eyes now  follow their peaceful smiles, their kids full of crisp laughter as they casually walk about the grounds. They're spending a pleasant holiday hours just seizing a chance to drift and dream. That's very different than being me who is now a drifter who never dreams anymore.  Much of the time I stay huddled far back into the rich foliage, under old blankets and plastic. I've ceased dreaming and now know only the nightmare of little to no food, warmth, or affection, and all I can feel is fear. I don't understand why this happened to me. I didn't do anything wrong; I just lost my job. Several losses followed-- my apartment, belongings, my pets, even my friends. I hold onto my faith fiercely hoping a miracle might come along."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I lost a job that paid minimum wage. It was barely enough income to get by on and not enough for my budget to include savings. That's how I found myself homeless. Within a matter of a few months, I was consigned to wander through the streets that used to be mine. I now sleep in the same park where once I stood looking lovingly at the green earth, the trees, the birds sweetly fluttering. That park is now a place to hide away from the rest of the world, so like a leper. It seems just yesterday that I'd belonged with those people who come for the fresh open space.  My eyes now  follow their peaceful smiles, their kids full of crisp laughter as they casually walk about the grounds. They're spending a pleasant holiday hours just seizing a chance to drift and dream. That's very different than being me who is now a drifter who never dreams anymore.  Much of the time I stay huddled far back into the rich foliage, under old blankets and plastic. I've ceased dreaming and now know only the nightmare of little to no food, warmth, or affection, and all I can feel is fear. I don't understand why this happened to me. I didn't do anything wrong; I just lost my job. Several losses followed-- my apartment, belongings, my pets, even my friends. I hold onto my faith fiercely hoping a miracle might come along.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Maybe there's a kind person who will help me up. I am so lost and alone, but I am still hoping.\n\n"
+            }
+        ],
+        "request_id": "811bce2e79710ca1-EWR"
+    }
+}

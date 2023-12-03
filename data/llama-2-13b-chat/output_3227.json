@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My child broke up with their romantic partner for good. I now have a wonderful relationship with my child. My child came to me when the break up happened and I consoled my child. We really started talking about why my child had abandoned me when the partner was around. We finally figured out the partner was jealous of me. That was the problem with their relationship and why they kept fighting. I am really hoping the breakup will last since the partner was an awful person. My child deserves much better than that. I love my child with all my heart. I think we are both happy that we are talking about what went wrong in our adult relationship. We are continually trying to understand why we became distant. We are working through questions and answers together. My hope is that when we get everything figured out about our relationship my child can find a good partner. I want my child to be happy. I want a good life for myself too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My child broke up with their romantic partner for good. I now have a wonderful relationship with my child. My child came to me when the break up happened and I consoled my child. We really started talking about why my child had abandoned me when the partner was around. We finally figured out the partner was jealous of me. That was the problem with their relationship and why they kept fighting. I am really hoping the breakup will last since the partner was an awful person. My child deserves much better than that. I love my child with all my heart. I think we are both happy that we are talking about what went wrong in our adult relationship. We are continually trying to understand why we became distant. We are working through questions and answers together. My hope is that when we get everything figured out about our relationship my child can find a good partner. I want my child to be happy. I want a good life for myself too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am happy now that my child is back in my life.\n\n"
+            }
+        ],
+        "request_id": "811ec6da6a7c17e1-EWR"
+    }
+}

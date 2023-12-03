@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I went to visit my boyfriend who is away for training. I went with two of my friends on the four hour road trip to visit him. We stayed at a hotel in a very rural town. The only restaurant open past 10 p.m. was a Waffle House. It was so strange to be in a place where there was nothing open at night and it was dark and quiet. It's a totally different type of city than where I am from. The day after arriving, I visited my boyfriend at his training. The drive was so interesting. I drove past expansive farms and green fields. There were so many horses and cows. I finally arrived to his training facility and I spent the day with him which was absolutely amazing. I went back to the hotel after. The next day, I went to see him again. After the visiting period ended, I went back to the hotel and drove back home with my friends. It was so good to see my boyfriend, especially knowing it may be a few more months before I see him again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I went to visit my boyfriend who is away for training. I went with two of my friends on the four hour road trip to visit him. We stayed at a hotel in a very rural town. The only restaurant open past 10 p.m. was a Waffle House. It was so strange to be in a place where there was nothing open at night and it was dark and quiet. It's a totally different type of city than where I am from. The day after arriving, I visited my boyfriend at his training. The drive was so interesting. I drove past expansive farms and green fields. There were so many horses and cows. I finally arrived to his training facility and I spent the day with him which was absolutely amazing. I went back to the hotel after. The next day, I went to see him again. After the visiting period ended, I went back to the hotel and drove back home with my friends. It was so good to see my boyfriend, especially knowing it may be a few more months before I see him again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebc77dece1831-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 weeks ago, I had to do a short introduction ceremony for my RCIA class during Sunday Mass. The ceremony was probably one of the best events last year at church. I met a lot of new people and they were all amazing. They all seemed very nice and friendly, and we even had brunch together afterwards. One of the people I met was Sharon. She recently graduated from college and was super cool. We both have a lot of similar interests and she even likes basket weaving. Definitely have to show her my collection of baskets one day. Another person I met was Byron. He was Jewish and recently converted. Apparently he's also a famous DJ and has the same music taste as me. I'm planning on going to one of his shows next week! I'm not really a fan of clubs but hopefully it will be a fun time. Anyways, brunch was pretty good. We went to a Greek restaurant that I've never been to and had the best gyros. It was so good I wanted to order more but I'm on a diet so I couldn't. However, I'm definitely planning on going there a lot more and trying out some more dishes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 weeks ago, I had to do a short introduction ceremony for my RCIA class during Sunday Mass. The ceremony was probably one of the best events last year at church. I met a lot of new people and they were all amazing. They all seemed very nice and friendly, and we even had brunch together afterwards. One of the people I met was Sharon. She recently graduated from college and was super cool. We both have a lot of similar interests and she even likes basket weaving. Definitely have to show her my collection of baskets one day. Another person I met was Byron. He was Jewish and recently converted. Apparently he's also a famous DJ and has the same music taste as me. I'm planning on going to one of his shows next week! I'm not really a fan of clubs but hopefully it will be a fun time. Anyways, brunch was pretty good. We went to a Greek restaurant that I've never been to and had the best gyros. It was so good I wanted to order more but I'm on a diet so I couldn't. However, I'm definitely planning on going there a lot more and trying out some more dishes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "All in all, the ceremony was a huge success and I'm really glad I got to meet so many new people. I'm super excited to see where our journey takes us.\n\n"
+            }
+        ],
+        "request_id": "811e938c08ba19aa-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My family is going kayaking! We are all very excited and picked the perfect place. We have not all gone kayaking together since the kids were so young. Both my daughter and my son are coming which is going to be great. My son is bringing his girlfriend. He will be proposing to her on the trip!!! He's going to leave with a fiance and we are so excited to be a part of it. He has a whole plan to do it before we take the kayaks out on the seocnd day. It will be so romantinc. Overall, I am most excited about spending time as a family. Everyone is alwyas so busy so it is rare for us to have time together. We have plans for the nighttime to go to different restaurants. We also found a karaoke bar which will be fun! During the day , we will break up into pairs to kayake. We hired an instructor who will lead us around during the day. It will be such a fantastic trip!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My family is going kayaking! We are all very excited and picked the perfect place. We have not all gone kayaking together since the kids were so young. Both my daughter and my son are coming which is going to be great. My son is bringing his girlfriend. He will be proposing to her on the trip!!! He's going to leave with a fiance and we are so excited to be a part of it. He has a whole plan to do it before we take the kayaks out on the seocnd day. It will be so romantinc. Overall, I am most excited about spending time as a family. Everyone is alwyas so busy so it is rare for us to have time together. We have plans for the nighttime to go to different restaurants. We also found a karaoke bar which will be fun! During the day , we will break up into pairs to kayake. We hired an instructor who will lead us around during the day. It will be such a fantastic trip!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd13839be9e05-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,Since moving to San Francisco 12 weeks ago, life has been SOOO busy! It seems like John and I have been busy moving in boxes to the house for weeks! Why do we have sooo much stuff? We didn't even have that much room at our old apartment! It seems like the kids are adjusting to their new school! They have been making lots of friends. They like their teachers too! Starting work has been a bit stressful for me though. It is hard to adjust to the new office, and all the new co-workers. I hope I can make some new friends soon. Even through all the stress of moving to a new place, I know it was a good decision. San Francisco is a gorgeous city. I love to take trips to the beach and watch the seals play together. I can't wait till more good things happen! Talk to you soon! Theresa"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,Since moving to San Francisco 12 weeks ago, life has been SOOO busy! It seems like John and I have been busy moving in boxes to the house for weeks! Why do we have sooo much stuff? We didn't even have that much room at our old apartment! It seems like the kids are adjusting to their new school! They have been making lots of friends. They like their teachers too! Starting work has been a bit stressful for me though. It is hard to adjust to the new office, and all the new co-workers. I hope I can make some new friends soon. Even through all the stress of moving to a new place, I know it was a good decision. San Francisco is a gorgeous city. I love to take trips to the beach and watch the seals play together. I can't wait till more good things happen! Talk to you soon! Theresa",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "."
+            }
+        ],
+        "request_id": "811ecea5e9a04211-EWR"
+    }
+}

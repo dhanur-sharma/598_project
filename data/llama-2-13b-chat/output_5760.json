@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cat Miki was very naughty. He was always curious about everything. In the end his curiosity brought him to his death. My cat was always very bad about what he did. One day I could not find Miki anywhere. He always ran loose in the neighborhood so I never worried too much as he always came home. But this time a whole day had gone by. And no Miki to be found anywhere. I was very worried that he was lost.  So I started to look in the neighborhood. I put up picture posters of my cat everywhere in hopes someone would call me if they found Mike. But 3 days past and still nothing at all. I was sure he was gone forever and maybe passed away in the woods in the area. Cats often that get sick are known to go into the woods when they know they are to die. Some say it is because they do not want their owner to see them die. But I am not sure that is true or not. But then one day I get a call from a local neighbor who saw my poster. I was so hopeful the neighbor had found Mike okay. But the news was bad. Mike was curious as I noted and apparently he had jumped into a neighbors shed window somehow and could not get out. Due to the heat of the shed and the fact he could not get food or water to eat for day, he was found dead. It was a very sad day for me for sure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cat Miki was very naughty. He was always curious about everything. In the end his curiosity brought him to his death. My cat was always very bad about what he did. One day I could not find Miki anywhere. He always ran loose in the neighborhood so I never worried too much as he always came home. But this time a whole day had gone by. And no Miki to be found anywhere. I was very worried that he was lost.  So I started to look in the neighborhood. I put up picture posters of my cat everywhere in hopes someone would call me if they found Mike. But 3 days past and still nothing at all. I was sure he was gone forever and maybe passed away in the woods in the area. Cats often that get sick are known to go into the woods when they know they are to die. Some say it is because they do not want their owner to see them die. But I am not sure that is true or not. But then one day I get a call from a local neighbor who saw my poster. I was so hopeful the neighbor had found Mike okay. But the news was bad. Mike was curious as I noted and apparently he had jumped into a neighbors shed window somehow and could not get out. Due to the heat of the shed and the fact he could not get food or water to eat for day, he was found dead. It was a very sad day for me for sure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could have kept him safe and not let him roam free. But I know he was just being his curious self.  "
+            }
+        ],
+        "request_id": "811f37d3acd2436a-EWR"
+    }
+}

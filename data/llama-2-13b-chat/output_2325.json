@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,I can't sleep tonight. I keep thinking about the concert we played three months ago. I think that was the best night of my life so far. I didn't even think we were going to be able to perform because we accidentally submitted the application a few days late. I was so shocked when they called me in spite of the late application! I was so thankful for the opportunity. We aren't too widely known yet, but we definitely gained some new fans that day. About 400 people heard us play, and we hung around and spoke to a few fans after our set. People were curious about the next gig we would play, so I gave out our instagram and twitter handles so everyone could stay updated. We played about 9 songs. One of the songs tha got the best reeption was one I had written. It was a humbling experience, but at the same time it was very empowering. I really feel like I might have a future in the music business. As anyone who knows me would tell you, that's all I have ever wanted.  I can't wait to see what in store for us next. One thing is for sure; it can only go up from here!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,I can't sleep tonight. I keep thinking about the concert we played three months ago. I think that was the best night of my life so far. I didn't even think we were going to be able to perform because we accidentally submitted the application a few days late. I was so shocked when they called me in spite of the late application! I was so thankful for the opportunity. We aren't too widely known yet, but we definitely gained some new fans that day. About 400 people heard us play, and we hung around and spoke to a few fans after our set. People were curious about the next gig we would play, so I gave out our instagram and twitter handles so everyone could stay updated. We played about 9 songs. One of the songs tha got the best reeption was one I had written. It was a humbling experience, but at the same time it was very empowering. I really feel like I might have a future in the music business. As anyone who knows me would tell you, that's all I have ever wanted.  I can't wait to see what in store for us next. One thing is for sure; it can only go up from here!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb46f5fd85e7c-EWR"
+    }
+}

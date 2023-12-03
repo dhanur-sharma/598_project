@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My most memorable event from the past six months is when I started my fantasy football podcast.  This is something i've been wanting to do for the past several years but I never had the guts to do it.  I finally realized that I need to go ahead and follow my dreams and achieve this goal.  I did tons of research.  I listen to to ther podcasts every day.  I study the great football podcasters.  When it was time to do my own podcast, I knew exactly what to do.  I knew my first post had to be exciting.  I made it about one of my favorite quarterbacks.  The podcast ended up getting a lot of views.  Many people commented on it.  Even professionals commented on it.  I did a great job.  I will keep doing my podcast.  I'll keep getting better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My most memorable event from the past six months is when I started my fantasy football podcast.  This is something i've been wanting to do for the past several years but I never had the guts to do it.  I finally realized that I need to go ahead and follow my dreams and achieve this goal.  I did tons of research.  I listen to to ther podcasts every day.  I study the great football podcasters.  When it was time to do my own podcast, I knew exactly what to do.  I knew my first post had to be exciting.  I made it about one of my favorite quarterbacks.  The podcast ended up getting a lot of views.  Many people commented on it.  Even professionals commented on it.  I did a great job.  I will keep doing my podcast.  I'll keep getting better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eca21fb1ec3fd-EWR"
+    }
+}

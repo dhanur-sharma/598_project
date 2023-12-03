@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past week has been so rough. My beloved uncle died last week. Uncle Ronnie was everyone's favorite. He was the guy who made everybody laugh and brought everyone together. We all went to his funeral together. This was the first I'd ever been to. Seeing him laying there in the casket was heartbreaking. There was not a dry eye in the funeral home. We were all crying so hard. Even in death, Uncle Ronnie brought us all together. We mourned his death together. We will also heal together. After his service, we all met at grandma's house. Everyone came with food. Despite the sadness, we all managed to be together and celebrate his hearty life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past week has been so rough. My beloved uncle died last week. Uncle Ronnie was everyone's favorite. He was the guy who made everybody laugh and brought everyone together. We all went to his funeral together. This was the first I'd ever been to. Seeing him laying there in the casket was heartbreaking. There was not a dry eye in the funeral home. We were all crying so hard. Even in death, Uncle Ronnie brought us all together. We mourned his death together. We will also heal together. After his service, we all met at grandma's house. Everyone came with food. Despite the sadness, we all managed to be together and celebrate his hearty life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea785ce594210-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We had such a great weekend!  My favorite band, Volbeat, was playing a concert with Godsmack.  They weren't going to be in town but they were at a venue only about 4-5 hours away.  So we decided to go for it.  We got up in the morning and headed out.  It was an uneventful drive, aside from a lot of rain.  Our trip took us from Kansas City to Evansville, Indiana.  We stopped for lunch at a diner and had a good salad and some delicious rolls.  We continued on and arrived at our hotel around 4 pm.  We got all checked in and then went to pick up our tickets. It was fun to see all the people who were there for the show.  Finally it was almost time to go in.  We waited in line by the doors until they opened, then rushed in.  We got great spots on the floor - very close to the stage.  Volbeat played an awesome show and we had an amazing time.  The next band, Godsmack, wasn't as good so we left a little early to go back to the hotel.  It was right across the street which was convenient.  We went to bed and slept great.  In the morning, we had breakfast at the buffet and then headed home.  We arrived later that day.  It was a fun trip for me and my husband."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We had such a great weekend!  My favorite band, Volbeat, was playing a concert with Godsmack.  They weren't going to be in town but they were at a venue only about 4-5 hours away.  So we decided to go for it.  We got up in the morning and headed out.  It was an uneventful drive, aside from a lot of rain.  Our trip took us from Kansas City to Evansville, Indiana.  We stopped for lunch at a diner and had a good salad and some delicious rolls.  We continued on and arrived at our hotel around 4 pm.  We got all checked in and then went to pick up our tickets. It was fun to see all the people who were there for the show.  Finally it was almost time to go in.  We waited in line by the doors until they opened, then rushed in.  We got great spots on the floor - very close to the stage.  Volbeat played an awesome show and we had an amazing time.  The next band, Godsmack, wasn't as good so we left a little early to go back to the hotel.  It was right across the street which was convenient.  We went to bed and slept great.  In the morning, we had breakfast at the buffet and then headed home.  We arrived later that day.  It was a fun trip for me and my husband.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f39557d068ccc-EWR"
+    }
+}

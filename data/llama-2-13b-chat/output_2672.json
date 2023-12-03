@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Went and rented a van that could fit 10 people. Picked up my brother, sister in law, his 2 daughters, my mother, sister, and wife. We all went to Boston to the New england aquarium. Dropped everyone off. Then went and parked. Met up with everyone and went inside. Spent a fun filled 3 hrs there.  My nieces had a great time. Really got to enjoy everything the place had to offer. There was no rushing, everyone waited for everyone to get their fill before moving on. I had an amazing time. I love fish and over sized aquariums. I have been a half a dozen times. Most of my enjoyment came from watching them experience it for the first time. Well worth the time and money."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Went and rented a van that could fit 10 people. Picked up my brother, sister in law, his 2 daughters, my mother, sister, and wife. We all went to Boston to the New england aquarium. Dropped everyone off. Then went and parked. Met up with everyone and went inside. Spent a fun filled 3 hrs there.  My nieces had a great time. Really got to enjoy everything the place had to offer. There was no rushing, everyone waited for everyone to get their fill before moving on. I had an amazing time. I love fish and over sized aquariums. I have been a half a dozen times. Most of my enjoyment came from watching them experience it for the first time. Well worth the time and money.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would definitely do it again.\n\n"
+            }
+        ],
+        "request_id": "811ebb3a2bdf1967-EWR"
+    }
+}

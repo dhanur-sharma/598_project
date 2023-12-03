@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had a scheduled C-section for our third and final child.  The plan was to have the baby and then a tubectomy.   The baby was delivered as planned and the tubectomy was performed successfully but the tubectomy took much longer than anticipated.  The 30 minute procedure took close to 2 hours.  It was horrible laying on the operating table awake for that long while the doctor did the procedure.  The anesthesiologist did their best to keep me comfortable but I found them to be very obnoxious and just wanted them to shut up.  After what seemed like eternity I was done and they wheeled me back to my room.  I had never been happier to see my husband and new baby.  I was on a lot of medicine but held and feed the baby while my husband did his best to keep my comfortable.  The first couple days were really rough and painful.  The staff did a great job at staying on top of my meds and helping me shower.  They also took the baby at time at night because my husband could not stay in the room with me.  He was staying at the hotel across the street with the two other kids.  He wanted to stay safe just in case I needed him.  We went home after two nights at the hospital and for the most part everything has gone as planned.  I did pull a few stitches and the doctor yelled at me for doing to much but there was not much they could do about it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had a scheduled C-section for our third and final child.  The plan was to have the baby and then a tubectomy.   The baby was delivered as planned and the tubectomy was performed successfully but the tubectomy took much longer than anticipated.  The 30 minute procedure took close to 2 hours.  It was horrible laying on the operating table awake for that long while the doctor did the procedure.  The anesthesiologist did their best to keep me comfortable but I found them to be very obnoxious and just wanted them to shut up.  After what seemed like eternity I was done and they wheeled me back to my room.  I had never been happier to see my husband and new baby.  I was on a lot of medicine but held and feed the baby while my husband did his best to keep my comfortable.  The first couple days were really rough and painful.  The staff did a great job at staying on top of my meds and helping me shower.  They also took the baby at time at night because my husband could not stay in the room with me.  He was staying at the hotel across the street with the two other kids.  He wanted to stay safe just in case I needed him.  We went home after two nights at the hospital and for the most part everything has gone as planned.  I did pull a few stitches and the doctor yelled at me for doing to much but there was not much they could do about it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " All in all it was a very scary and painful experience.\n\n"
+            }
+        ],
+        "request_id": "811eb9913ea4423e-EWR"
+    }
+}

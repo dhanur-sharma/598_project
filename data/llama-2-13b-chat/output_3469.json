@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On May 1st, 2019, my wife and I adopted our daughter. She had been living with us as a foster child for just over one year. The three of us, my parents, and multiple social workers that were involved in her case joined us at the court house. We had to wait a short time in a foyer with other families who were adopting that day. Our turn was first. The judge called us in and the three of us sat in front of her. She signed the papers. She banged her gavel. Then it was official. Our daughter is ours forever. She has our name. Her birth certificate changed to list us as her parents. This was largely a happy day, though surrounded by sadness. Her mother had just gotten out of the hospital. All three of us were recovering from the flu. And it was the anniversary of my wife's mother's death. We try to see it as a new beginning for all of us."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On May 1st, 2019, my wife and I adopted our daughter. She had been living with us as a foster child for just over one year. The three of us, my parents, and multiple social workers that were involved in her case joined us at the court house. We had to wait a short time in a foyer with other families who were adopting that day. Our turn was first. The judge called us in and the three of us sat in front of her. She signed the papers. She banged her gavel. Then it was official. Our daughter is ours forever. She has our name. Her birth certificate changed to list us as her parents. This was largely a happy day, though surrounded by sadness. Her mother had just gotten out of the hospital. All three of us were recovering from the flu. And it was the anniversary of my wife's mother's death. We try to see it as a new beginning for all of us.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We hope our daughter can find happiness and stability with us.\n\n"
+            }
+        ],
+        "request_id": "811ec9ea49ed5e76-EWR"
+    }
+}

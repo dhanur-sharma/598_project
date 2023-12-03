@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago I was home sick from school, and was on the couch watching tv when the doorbell rang. It was the mailman, who told me that we had gotten a package, but it was so big that he needed help carrying it. I wasn't that old, but I knew right away something was wrong. I asked him where his truck was, because I didn't see it parked out front. He kept telling me it was around the corner. I asked him why the regular mailman (who always brought lollypops) wasn't here, and I was told he was visiting family. He kept telling me to open the front door, but I politely told him that I wasn't feeling well and that I wasn't allowed to leave the house. I told him we would pick up the box from the post office, and he was telling me how much of a hassle that would be, and how my mom would want me to do her this favor. I told him that I would come outside, but that I had to get my shoes from upstairs first. I closed the front door, and locked it. Then I ran through the house and locked the back door and called my neighbor who worked from home. She was a close family friend, and I called her up screaming into the phone that she had to come over right now. Then I stood at the locked front door, and stared at the man through the window in the door. He saw me staring and yelled through the door asking if I found my shoes, so I yelled to him that I called my neighbor to help carry it because she's older and stronger. He just turned around and ran. They never caught him. I always wondered if he ever managed to trick some other kid"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago I was home sick from school, and was on the couch watching tv when the doorbell rang. It was the mailman, who told me that we had gotten a package, but it was so big that he needed help carrying it. I wasn't that old, but I knew right away something was wrong. I asked him where his truck was, because I didn't see it parked out front. He kept telling me it was around the corner. I asked him why the regular mailman (who always brought lollypops) wasn't here, and I was told he was visiting family. He kept telling me to open the front door, but I politely told him that I wasn't feeling well and that I wasn't allowed to leave the house. I told him we would pick up the box from the post office, and he was telling me how much of a hassle that would be, and how my mom would want me to do her this favor. I told him that I would come outside, but that I had to get my shoes from upstairs first. I closed the front door, and locked it. Then I ran through the house and locked the back door and called my neighbor who worked from home. She was a close family friend, and I called her up screaming into the phone that she had to come over right now. Then I stood at the locked front door, and stared at the man through the window in the door. He saw me staring and yelled through the door asking if I found my shoes, so I yelled to him that I called my neighbor to help carry it because she's older and stronger. He just turned around and ran. They never caught him. I always wondered if he ever managed to trick some other kid",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "into opening the door for him.\n\n"
+            }
+        ],
+        "request_id": "811f3ad0c8254338-EWR"
+    }
+}

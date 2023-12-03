@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The most amazing thing happened to me. Today I got promoted to assistant manager. when I went in today I was doing my normal things. I walked to my desk and sat down to start my day. As soon as I turned my computer on my boss came into my office . He looked serious. I was afraid that I was getting fired. Instead he told me that Joan was leaving and I was the best candidate for her replacment! He asked me if I would accept the job. Of course I did.  This is so wonderful! I didn't expect to be doing so well this early on in my career! I've only been working there for almost a  year. This puts me so far ahead of my plans of buying my own house. I think in about six months I will be looking for a house. If I save all of my raise I will have enough for a down payment. Hard work pays off."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The most amazing thing happened to me. Today I got promoted to assistant manager. when I went in today I was doing my normal things. I walked to my desk and sat down to start my day. As soon as I turned my computer on my boss came into my office . He looked serious. I was afraid that I was getting fired. Instead he told me that Joan was leaving and I was the best candidate for her replacment! He asked me if I would accept the job. Of course I did.  This is so wonderful! I didn't expect to be doing so well this early on in my career! I've only been working there for almost a  year. This puts me so far ahead of my plans of buying my own house. I think in about six months I will be looking for a house. If I save all of my raise I will have enough for a down payment. Hard work pays off.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd9034e6319b6-EWR"
+    }
+}

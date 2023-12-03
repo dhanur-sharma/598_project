@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went back to the southwest to visit family for the first time in 10 years. I went with my mom, who had just finished up a year of chemo. She'd visited just the previous year, before getting sick. It was very strange for me seeing relatives after such a long time. Some I had never met, they were kids. It was very stressful dealing with my mom and my grandma at once. They're difficult personalities. I liked getting back in touch with cousins for the most part. One seemed to be avoiding us for some reason and I don't think it was ever sorted out. I'd been caring for my mom alone for the previous year and it took everything out of me. As a result the visit was paid for by relatives which I appreciated. But I really didn't think it made up for them leaving me hanging all that time. They've always been very well off and work in the medical field to boot. I haven't really had any contact with them since. 6 months later I'm still caring for my mom alone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went back to the southwest to visit family for the first time in 10 years. I went with my mom, who had just finished up a year of chemo. She'd visited just the previous year, before getting sick. It was very strange for me seeing relatives after such a long time. Some I had never met, they were kids. It was very stressful dealing with my mom and my grandma at once. They're difficult personalities. I liked getting back in touch with cousins for the most part. One seemed to be avoiding us for some reason and I don't think it was ever sorted out. I'd been caring for my mom alone for the previous year and it took everything out of me. As a result the visit was paid for by relatives which I appreciated. But I really didn't think it made up for them leaving me hanging all that time. They've always been very well off and work in the medical field to boot. I haven't really had any contact with them since. 6 months later I'm still caring for my mom alone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eafa229950ca4-EWR"
+    }
+}

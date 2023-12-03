@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's the day after my 23rd birthday and I can remember just enough to know I had a great time. That's how it should be, in my mind. I wanted to celebrate the 23rd year of my life with a bang. Lucky for me I have a few co workers who are around my age. They knew my birthday was coming up and asked if I was doing anything special. I told them I had some vague plans, nothing specific. One of them made a comment that we should all go out after work to celebrate. He's always telling these elaborate stories about his night time adventures so I thought it might make for a great birthday memory. I agreed and we made plans. The day arrived and I was pretty excited. My colleagues also seemed ready to go. Turns out I was not prepared for what was to come! From what I can remember, there was a lot of drinking, strippers and some unflattering selfies involved. We took an Uber into the city and that's the last of my clear recollection. We definitely went pretty hard, but it was a great time overall."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's the day after my 23rd birthday and I can remember just enough to know I had a great time. That's how it should be, in my mind. I wanted to celebrate the 23rd year of my life with a bang. Lucky for me I have a few co workers who are around my age. They knew my birthday was coming up and asked if I was doing anything special. I told them I had some vague plans, nothing specific. One of them made a comment that we should all go out after work to celebrate. He's always telling these elaborate stories about his night time adventures so I thought it might make for a great birthday memory. I agreed and we made plans. The day arrived and I was pretty excited. My colleagues also seemed ready to go. Turns out I was not prepared for what was to come! From what I can remember, there was a lot of drinking, strippers and some unflattering selfies involved. We took an Uber into the city and that's the last of my clear recollection. We definitely went pretty hard, but it was a great time overall.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I think I'm still recovering from the hangover.\n\n"
+            }
+        ],
+        "request_id": "811eb2b67d530c9c-EWR"
+    }
+}

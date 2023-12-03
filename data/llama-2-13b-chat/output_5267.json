@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, when I was babysitting my grandson, we decided to enjoy the beautiful spring day by taking a walk together.  We walked down a dirt road in my neighborhood where I knew we would see many interesting things including an old cemetery at the end of the road. This cemetery was what I would call a \"farmer's cemetery\" as most of the people listed on the tombstones were related and multi-generational and it was built on some old farmland. My grandson and I read some of the tombstones and discussed some of the ages when people died and were buried there. We came across a tombstone of a boy who died at age 5, the same age as my grandson. My grandson had a difficult time understanding how someone his age could have died. He said he thought only old people, like me!, died. I explained there were lots of reasons why a young person could die, such as an accident, disease, illness, etc.  He seemed to be surprised but also enlightened to his mortality. I was surprised that he believed only old people could die. The only people he knows who have died were all elderly, so it makes sense. It was also surprising that he considers me old. That never came up before. I don't like to think of myself as old, but to a five year old, I guess I am. It made me think about my mortality too."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, when I was babysitting my grandson, we decided to enjoy the beautiful spring day by taking a walk together.  We walked down a dirt road in my neighborhood where I knew we would see many interesting things including an old cemetery at the end of the road. This cemetery was what I would call a \"farmer's cemetery\" as most of the people listed on the tombstones were related and multi-generational and it was built on some old farmland. My grandson and I read some of the tombstones and discussed some of the ages when people died and were buried there. We came across a tombstone of a boy who died at age 5, the same age as my grandson. My grandson had a difficult time understanding how someone his age could have died. He said he thought only old people, like me!, died. I explained there were lots of reasons why a young person could die, such as an accident, disease, illness, etc.  He seemed to be surprised but also enlightened to his mortality. I was surprised that he believed only old people could die. The only people he knows who have died were all elderly, so it makes sense. It was also surprising that he considers me old. That never came up before. I don't like to think of myself as old, but to a five year old, I guess I am. It made me think about my mortality too.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't want to be old and die. I want to be young and live a long time, like my grandson. I also want to be healthy and active like he is, running and playing. I hope I can be like that when I'm his age. I'm glad we had this conversation while walking through the cemetery. It was a good learning experience for both of us.\n\n"
+            }
+        ],
+        "request_id": "811f2e00290b420d-EWR"
+    }
+}

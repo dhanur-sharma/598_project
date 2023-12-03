@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter had her 15th birthday. Because of a fight in the family, my husband's side of the family wasn't there to celebrate with us. We went out to a restaurant she loves for dinner with my parents. We had dinner and then ordered cupcakes for desert. We didn't sing because she would be embarrassed. The most surprising part of it was that my son who was 1.5 slept through the whole thing. He laid on the booth next to my husband. We did have a good time but it was a little sad without my husband's family. The worst part was the my in-laws did not even wish my daughter a happy birthday. They never sent her a card or anything. Luckily my daughter is still happy and okay. We made sure she got everything she asked for as gifts. She was happy with what we did and her gifts. I consider it a success even though my husband's family managed to put a damper on it. My daughter knows we love her."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter had her 15th birthday. Because of a fight in the family, my husband's side of the family wasn't there to celebrate with us. We went out to a restaurant she loves for dinner with my parents. We had dinner and then ordered cupcakes for desert. We didn't sing because she would be embarrassed. The most surprising part of it was that my son who was 1.5 slept through the whole thing. He laid on the booth next to my husband. We did have a good time but it was a little sad without my husband's family. The worst part was the my in-laws did not even wish my daughter a happy birthday. They never sent her a card or anything. Luckily my daughter is still happy and okay. We made sure she got everything she asked for as gifts. She was happy with what we did and her gifts. I consider it a success even though my husband's family managed to put a damper on it. My daughter knows we love her.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb96cb9ce422f-EWR"
+    }
+}

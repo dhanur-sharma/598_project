@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Through these past couple of months, it has been hard on my family with the death of my aunt. It took a toll on us when she realized after going to the hospital that she had developed a stage 4 cancer in her glands. She was very hesitant about it but didn't stop with her life and continued to persevere. Later days, she would still laugh and joke and believe it was all in God's favor. The family believed in healing, as well. Sadly, the doctors told us there was nothing they could do and let her be in piece. Those days counting up to her death were unbearable for the rest of us, but she didn't give in at all and gave it all her fight. There are still most days when I miss my aunt. I sometimes even have trouble focusing on one particular subject. I get comfort from family members here and there. At night, I always pray and sometimes ask God to let me hear my auntie. She was always an inspirational person as I still feel it through her death. Her teachings have stuck with me and I continue to move with her legacy in mind. Another thing that we'll always have in common is the love for food! Can't get enough!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Through these past couple of months, it has been hard on my family with the death of my aunt. It took a toll on us when she realized after going to the hospital that she had developed a stage 4 cancer in her glands. She was very hesitant about it but didn't stop with her life and continued to persevere. Later days, she would still laugh and joke and believe it was all in God's favor. The family believed in healing, as well. Sadly, the doctors told us there was nothing they could do and let her be in piece. Those days counting up to her death were unbearable for the rest of us, but she didn't give in at all and gave it all her fight. There are still most days when I miss my aunt. I sometimes even have trouble focusing on one particular subject. I get comfort from family members here and there. At night, I always pray and sometimes ask God to let me hear my auntie. She was always an inspirational person as I still feel it through her death. Her teachings have stuck with me and I continue to move with her legacy in mind. Another thing that we'll always have in common is the love for food! Can't get enough!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We still make her favorite dishes and laugh and talk about the memories we had with her. It is what I hold onto the most. Even though she is gone, her presence is still with me and I am grateful for the time I had with her."
+            }
+        ],
+        "request_id": "811f47b0fe46c402-EWR"
+    }
+}

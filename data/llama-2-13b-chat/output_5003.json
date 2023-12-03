@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was delighted to find out I was having a baby. I would go to the doctor all the time for regular check-ups. I would try to eat as healthy as possible, not too much junk food. While pregnant we needed to get new clothes to accommodate a growing uterus. Every check-up that we went to brought us closer to the delivery date. As time went on we continued to prepare for the arrival of the baby. We set up a nursery, and got lots of kids books. We prepared our bags to take to the hospital for the delivery. To be on the safe side we packed lots of food and beverages. In order to be ready to go at any moment, we kept a full tank of gas. All of the baby stuff was washed in special detergent for newborns. When we arrived to the hospital we knew exactly where to go for delivery. Everyone at the hospital was helpful and professional. We had great team of doctors and nurses. Our sweet little baby was born healthy and we are now happy parents."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was delighted to find out I was having a baby. I would go to the doctor all the time for regular check-ups. I would try to eat as healthy as possible, not too much junk food. While pregnant we needed to get new clothes to accommodate a growing uterus. Every check-up that we went to brought us closer to the delivery date. As time went on we continued to prepare for the arrival of the baby. We set up a nursery, and got lots of kids books. We prepared our bags to take to the hospital for the delivery. To be on the safe side we packed lots of food and beverages. In order to be ready to go at any moment, we kept a full tank of gas. All of the baby stuff was washed in special detergent for newborns. When we arrived to the hospital we knew exactly where to go for delivery. Everyone at the hospital was helpful and professional. We had great team of doctors and nurses. Our sweet little baby was born healthy and we are now happy parents.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be276ef0f41bb-EWR"
+    }
+}

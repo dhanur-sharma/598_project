@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had met Mr. C. P. a few times just gallery-hopping in Chelsea.  This area of galleries is fairly near me, but sometimes feels like a longish walk.  I routinely go there every few months, but from March to July of this year, I went 3-4 times a week, and saw some 200 shows.  At Mr. P's gallery, where he is now a partner, I discovered some wonderful painters.   I became very friendly with Mr. P.I had also noticed some more abstract paintings by the painter S. C.   Mr. P. emailed me some images of Mr. C's available paintings, which I emailed to my sister in Georgia.  She liked them very much and said she was definitely interested in possibly purchasing one.  However, she would not commit to buying one of these until she came to New York and saw it in the gallery itself.  Mr. P. said he could take her, or have an assistant take her, to Mr. C's studio in Jersey City, just across the river.  I told him that might be just after the new year, but that I'd have to get back to him on that.  It turns out that it cannot be that soon, if ever, because of health problems her husband has.  It's not impossible, because the cardiac treatment has seemed to work thus far."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had met Mr. C. P. a few times just gallery-hopping in Chelsea.  This area of galleries is fairly near me, but sometimes feels like a longish walk.  I routinely go there every few months, but from March to July of this year, I went 3-4 times a week, and saw some 200 shows.  At Mr. P's gallery, where he is now a partner, I discovered some wonderful painters.   I became very friendly with Mr. P.I had also noticed some more abstract paintings by the painter S. C.   Mr. P. emailed me some images of Mr. C's available paintings, which I emailed to my sister in Georgia.  She liked them very much and said she was definitely interested in possibly purchasing one.  However, she would not commit to buying one of these until she came to New York and saw it in the gallery itself.  Mr. P. said he could take her, or have an assistant take her, to Mr. C's studio in Jersey City, just across the river.  I told him that might be just after the new year, but that I'd have to get back to him on that.  It turns out that it cannot be that soon, if ever, because of health problems her husband has.  It's not impossible, because the cardiac treatment has seemed to work thus far.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But the timeline is now much longer than it was.  I do not know if I will be able to bring her to see Mr. C's work.  I am disappointed, but I know that health problems come first.\n\n"
+            }
+        ],
+        "request_id": "811ed28d2af243f7-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Well, I'm still laid off. I'm still actively looking for work, but I'm honestly very frustrated.  Our finances and savings are depleted.  I don't know how we'll make our mortgage payment next month.  I really need to get some employment.  I recently read an article that said applying for jobs through online methods and job boards is very, very ineffective.  While I agree with this statement, I don't know where else to turn in looking for a job.  The article states that the most effective way to search for work is by networking.  That sounds very good and all, but I don't feel like my network really has any leads for me at the moment.  I've been thinking about doing a more in-depth search through my LinkedIn profile.  I'm beginning to feel like a failure as a provider, husband, and father.  I feel ashamed of the example I've set for my family.  Some days it is difficult getting out of bed or being productive.  Other days seem better and I do get some things done. Have I written enough yet?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Well, I'm still laid off. I'm still actively looking for work, but I'm honestly very frustrated.  Our finances and savings are depleted.  I don't know how we'll make our mortgage payment next month.  I really need to get some employment.  I recently read an article that said applying for jobs through online methods and job boards is very, very ineffective.  While I agree with this statement, I don't know where else to turn in looking for a job.  The article states that the most effective way to search for work is by networking.  That sounds very good and all, but I don't feel like my network really has any leads for me at the moment.  I've been thinking about doing a more in-depth search through my LinkedIn profile.  I'm beginning to feel like a failure as a provider, husband, and father.  I feel ashamed of the example I've set for my family.  Some days it is difficult getting out of bed or being productive.  Other days seem better and I do get some things done. Have I written enough yet?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm still laid off and still searching.\n\n"
+            }
+        ],
+        "request_id": "811ea9532dabc329-EWR"
+    }
+}

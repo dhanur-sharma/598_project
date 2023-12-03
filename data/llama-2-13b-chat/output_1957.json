@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago I made the hardest decision of my life. I had been working at Fairfield Properties for 12 years. I started there right out of college. I had made strong friendships with many of my coworkers. I was happy there, I was safe there. I had a great deal of job security. I was making decent money for the job I was doing. The only thing was that I wanted more. I wanted power, I wanted responsibility, I needed more. Fairfield properties couldn't offer that to me no matter how hard I worked. There was absolutely no room for advancement in that company. I had to make a really tough decision. Should I quit my safe and comfortable job and take the chance of finding a new job that I hated? Ultimately I decided I had no choice but to try and find something better. I was so scared, but I started a new job at a new company. Now, 2 months later, I can say it was the best thing I ever did. I love the new job. I have responsibility. I have the possibility of making more. I am so happy!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago I made the hardest decision of my life. I had been working at Fairfield Properties for 12 years. I started there right out of college. I had made strong friendships with many of my coworkers. I was happy there, I was safe there. I had a great deal of job security. I was making decent money for the job I was doing. The only thing was that I wanted more. I wanted power, I wanted responsibility, I needed more. Fairfield properties couldn't offer that to me no matter how hard I worked. There was absolutely no room for advancement in that company. I had to make a really tough decision. Should I quit my safe and comfortable job and take the chance of finding a new job that I hated? Ultimately I decided I had no choice but to try and find something better. I was so scared, but I started a new job at a new company. Now, 2 months later, I can say it was the best thing I ever did. I love the new job. I have responsibility. I have the possibility of making more. I am so happy!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was scared to death to leave my safe job, but now I know it was the right decision. I will never go back to Fairfield Properties. I will never again be that scared to take a chance on something better.\n\n"
+            }
+        ],
+        "request_id": "811eadb64c4643e7-EWR"
+    }
+}

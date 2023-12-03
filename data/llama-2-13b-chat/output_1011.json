@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's a great day, March 12, 2019. I welcome my daughter into the world. My wife and I have decided on the name Merrit Layne. My wife and I do not like typically names so this one fit. She was born 6 pounds 1 ounce. She was very long as a baby, 19 inches. I cried when i had my son and I wondering if I would cry for her. When she came, I could not hold back the emotions and cried like a baby haha, no pun intended. I held her for the first time, and it felt so great. Now I'm the biggest doting dad. I can not go anywhere or do anything with out talking about her. I'm so proud of her and I think she will do big things. I will always be there for her and have her back. She melts my heart when she looks and smiles at me. I have a nick name for her, it's Big Girl, hahaha."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's a great day, March 12, 2019. I welcome my daughter into the world. My wife and I have decided on the name Merrit Layne. My wife and I do not like typically names so this one fit. She was born 6 pounds 1 ounce. She was very long as a baby, 19 inches. I cried when i had my son and I wondering if I would cry for her. When she came, I could not hold back the emotions and cried like a baby haha, no pun intended. I held her for the first time, and it felt so great. Now I'm the biggest doting dad. I can not go anywhere or do anything with out talking about her. I'm so proud of her and I think she will do big things. I will always be there for her and have her back. She melts my heart when she looks and smiles at me. I have a nick name for her, it's Big Girl, hahaha.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love you Merrit Layne."
+            }
+        ],
+        "request_id": "811e9c2e4c764381-EWR"
+    }
+}

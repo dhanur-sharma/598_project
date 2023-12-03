@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago we took a family beach vacation for about a week. We were in Florida, the sun shining above us, the heat of the sun on our backs. It was beautiful. We had a free week of any work and school for the kids between the 16 and 23 of July, and it was an amazing opportunity we couldn't pass up. Our kids were distracted by the sand and the water. Me and my husband were calm and relieved for the first time in God knows how long. We actually enjoyed ourselves. I remember my daughter found a full sand dollar and showed it off to us, and I was shocked. I had never seen a complete one in my life, only pieces. My husband pretended to care, but I knew he was dozing off on his fold out chair while trying to maintain a conversation with out excited daughter. I held up the conversation for him, sparing him it. He deserved to rest. This year had been incredibly busy for him, and he just needed a break. I for one had fun playing with the kids in the water. I was really in touch with my inner child on that vacation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago we took a family beach vacation for about a week. We were in Florida, the sun shining above us, the heat of the sun on our backs. It was beautiful. We had a free week of any work and school for the kids between the 16 and 23 of July, and it was an amazing opportunity we couldn't pass up. Our kids were distracted by the sand and the water. Me and my husband were calm and relieved for the first time in God knows how long. We actually enjoyed ourselves. I remember my daughter found a full sand dollar and showed it off to us, and I was shocked. I had never seen a complete one in my life, only pieces. My husband pretended to care, but I knew he was dozing off on his fold out chair while trying to maintain a conversation with out excited daughter. I held up the conversation for him, sparing him it. He deserved to rest. This year had been incredibly busy for him, and he just needed a break. I for one had fun playing with the kids in the water. I was really in touch with my inner child on that vacation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The kids had a great time and I enjoyed watching them have fun.\n\n"
+            }
+        ],
+        "request_id": "811ec9693df00c82-EWR"
+    }
+}

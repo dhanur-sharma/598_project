@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One week ago, I went to concert given by my very favorite musician. Her music has been incredibly important to me for many years, basically since I was a young teenager. The tickets were a wonderful surprise from my partner. I had told my partner she was coming to a city about an hour away from us, but that I didn't have the money for tickets and that I was gutted that I would miss it.  It was surely going to a memorable tour experience, as she was playing solo in small, intimate venues which is unusual. The day the tickets were released my partner grabbed some before they sold out, took me to dinner that night, and told me there. I was so happy I cried in the restaurant! Anyway, the day of the show my partner was gracious enough to drive over to the venue two hours before the doors opened so we would be sure to get a good seat. We waited in the cold, I was so excited time flew by. The venue was a gorgeous old church, with the audience sitting in pews. We got some drinks and sat around for an hour, and then the lights dimmed. I almost couldn't contain myself, I felt as though I was going to burst. The artist came on, and immediately launched into my very favorite song! Which she never plays live! I was stunned, and immediately began crying. The rest of the show was equally as beautiful and touching. Her voice was transcendent, soaring into the eaves of the church. The experience was absolutely indescribable. I've never been to a concert like this one. I couldn't believe what a great show it was. I cried through most of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One week ago, I went to concert given by my very favorite musician. Her music has been incredibly important to me for many years, basically since I was a young teenager. The tickets were a wonderful surprise from my partner. I had told my partner she was coming to a city about an hour away from us, but that I didn't have the money for tickets and that I was gutted that I would miss it.  It was surely going to a memorable tour experience, as she was playing solo in small, intimate venues which is unusual. The day the tickets were released my partner grabbed some before they sold out, took me to dinner that night, and told me there. I was so happy I cried in the restaurant! Anyway, the day of the show my partner was gracious enough to drive over to the venue two hours before the doors opened so we would be sure to get a good seat. We waited in the cold, I was so excited time flew by. The venue was a gorgeous old church, with the audience sitting in pews. We got some drinks and sat around for an hour, and then the lights dimmed. I almost couldn't contain myself, I felt as though I was going to burst. The artist came on, and immediately launched into my very favorite song! Which she never plays live! I was stunned, and immediately began crying. The rest of the show was equally as beautiful and touching. Her voice was transcendent, soaring into the eaves of the church. The experience was absolutely indescribable. I've never been to a concert like this one. I couldn't believe what a great show it was. I cried through most of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so grateful to have this experience, I will always treasure it."
+            }
+        ],
+        "request_id": "811ec951d902430a-EWR"
+    }
+}

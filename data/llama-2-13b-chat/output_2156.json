@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had initially had a heart attack and open heart surgery at the beginning of the year. My incision site did not close properly and my follow up appointment with the surgeon kept being postponed on their end. About 2 months after the heart surgery, I ended up getting an infection of strep in my bloodstream about , which could be deadly and had to have 2 separate procedures to clean out the infected tissue in my chest. It was a very difficult time in my life, considering I have 2 children, both under the age of 10. I had to take leave from my job and my husband did also to take care of me and our daughters. I remember feeling a lot of guilt. Mainly because it happened in the first place and caused such a huge disruption in our lives and secondly because I almost felt as if I was getting a vacation. I was alone in my hospital room in peace and quiet most of the time since there were flu restrictions in place at the hospital. That meant my kid's weren't able to visit and my husband was too busy taking care of them. I recall lying in the hospital bed on the good meds they give you there, watching Netflix and napping most of the time. It was rather pleasant, all things considered. Coming home from the hospital was the hard part. I had a wound vac attached to the center of my chest and a PICC line inserted in my arm, running IV antibiotics 24 hours a day for about 2 months. That part sucked. It was hard to move around with all the stuff I had to carry around with me. It was hard to sleep without worrying I'd pull the tubing out of my arm. I got pretty depressed about all of it. I don't want to sound self centered, but my looks matter to me. Having that done and the equipment attached to my body made me feel very insecure and unattractive. But when it was all over, I realized I am a lot tougher than I think I am. It made me stronger and now I have more confidence than ever before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had initially had a heart attack and open heart surgery at the beginning of the year. My incision site did not close properly and my follow up appointment with the surgeon kept being postponed on their end. About 2 months after the heart surgery, I ended up getting an infection of strep in my bloodstream about , which could be deadly and had to have 2 separate procedures to clean out the infected tissue in my chest. It was a very difficult time in my life, considering I have 2 children, both under the age of 10. I had to take leave from my job and my husband did also to take care of me and our daughters. I remember feeling a lot of guilt. Mainly because it happened in the first place and caused such a huge disruption in our lives and secondly because I almost felt as if I was getting a vacation. I was alone in my hospital room in peace and quiet most of the time since there were flu restrictions in place at the hospital. That meant my kid's weren't able to visit and my husband was too busy taking care of them. I recall lying in the hospital bed on the good meds they give you there, watching Netflix and napping most of the time. It was rather pleasant, all things considered. Coming home from the hospital was the hard part. I had a wound vac attached to the center of my chest and a PICC line inserted in my arm, running IV antibiotics 24 hours a day for about 2 months. That part sucked. It was hard to move around with all the stuff I had to carry around with me. It was hard to sleep without worrying I'd pull the tubing out of my arm. I got pretty depressed about all of it. I don't want to sound self centered, but my looks matter to me. Having that done and the equipment attached to my body made me feel very insecure and unattractive. But when it was all over, I realized I am a lot tougher than I think I am. It made me stronger and now I have more confidence than ever before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am grateful for my husband and kids and our close friends who helped me through that difficult time. I learned to cherish the time I have with them and not take anything for granted."
+            }
+        ],
+        "request_id": "811eb165ae4d15bb-EWR"
+    }
+}

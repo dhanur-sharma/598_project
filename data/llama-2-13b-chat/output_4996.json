@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was feeling anxious that day. I went for a bike ride to the place I usually go. When I got to the park, I looked over at the bench next to the parking garage; it was empty. I decided to go there. The bridge across the creek to that place had children on it though, with their mother. They weren't really paying attention. I rang my bike bell to let them know I had to get through, the mother seemed concerned. The children got out of the way but to opposite sides of the bridge. I carefully biked past them very slowly. Simultaneously there was a group of bikers coming in the other direction. They slowed down to stop, and I crossed past them. The intersection was right after the bridge, and required a left turn from me to get where I was going, so I had to go in front of them. I went slightly before they came to a total stop, and didn't signal, because to signal I would have to take a hand off the handlebars and I was worried about losing control with so many people in all directions. The bikers were upset, because they seemed to think I should have signalled, or waited for them to pass. I honestly hadn't considered it, even though I didn't have right of way, I always make that turn without stopping, and having just navigated the bridge with all those children on it I was distracted. I ignored them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was feeling anxious that day. I went for a bike ride to the place I usually go. When I got to the park, I looked over at the bench next to the parking garage; it was empty. I decided to go there. The bridge across the creek to that place had children on it though, with their mother. They weren't really paying attention. I rang my bike bell to let them know I had to get through, the mother seemed concerned. The children got out of the way but to opposite sides of the bridge. I carefully biked past them very slowly. Simultaneously there was a group of bikers coming in the other direction. They slowed down to stop, and I crossed past them. The intersection was right after the bridge, and required a left turn from me to get where I was going, so I had to go in front of them. I went slightly before they came to a total stop, and didn't signal, because to signal I would have to take a hand off the handlebars and I was worried about losing control with so many people in all directions. The bikers were upset, because they seemed to think I should have signalled, or waited for them to pass. I honestly hadn't considered it, even though I didn't have right of way, I always make that turn without stopping, and having just navigated the bridge with all those children on it I was distracted. I ignored them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The mother of the children who were on the bridge called out to me \"you should have waited for us!\" I just ignored her too. I got to my destination and parked my bike. I was feeling relieved to be out of the situation and went into the store to do my shopping.\n\n"
+            }
+        ],
+        "request_id": "811be23f3f1a4343-EWR"
+    }
+}

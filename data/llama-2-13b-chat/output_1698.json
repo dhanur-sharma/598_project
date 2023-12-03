@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past summer, I got married. It was such a wonderful event. We were married in Vegas at the Luxor. The ceremony was so beautiful. Everyone showed to support us. All of my friends and family knew that this special even three months ago was paved in heartache and pain. My divorce several years ago from my ex wife was miserable. We were both so young when we married. Just 18 and fresh out of high school. But a few short years later, we were divorcing. We both lost everything. Including our cool. At one point during the divorce, we were both removed from the courtroom by the bailifs. But this time, things are different. Sally and I are both grown. We are both on the positive side of a bitter divorce. We are excited for the future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past summer, I got married. It was such a wonderful event. We were married in Vegas at the Luxor. The ceremony was so beautiful. Everyone showed to support us. All of my friends and family knew that this special even three months ago was paved in heartache and pain. My divorce several years ago from my ex wife was miserable. We were both so young when we married. Just 18 and fresh out of high school. But a few short years later, we were divorcing. We both lost everything. Including our cool. At one point during the divorce, we were both removed from the courtroom by the bailifs. But this time, things are different. Sally and I are both grown. We are both on the positive side of a bitter divorce. We are excited for the future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy to have found someone who truly understands me. Someone who truly gets me. Someone who truly loves me.\n\n"
+            }
+        ],
+        "request_id": "811ea9330bae4288-EWR"
+    }
+}

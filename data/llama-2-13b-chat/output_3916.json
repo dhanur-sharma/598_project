@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Feb, 2019. I had the great opportunity to travel overseas and meet the woman of my life. I had been chatting with her online for several years now, we met through an online video game. As time went on, we found that we had alot in common. It started out that we just happened to be in the same guild for an MMO, called World of Warcraft. As a healer in my guild, she healed me when we did raid dungeons, because she was assigned to my group. There were times that we would privately whisper to each other and talk about various things in life during these gaming events, and we found that were very interested in what we had to say, and listen. It was then we I made the decision to ask her out online, not knowing to where it would lead later. We \"online dated\" for a good while, until she asked me to come see her in her country. It is very far away, but I thought, yes, I need to meet this person, so I decided to do it! Afterwards we set a date, budget, flight plans, etc. Then, I embarked on a 30 hour trip to see this person. It was a pretty good trip overall, but when I landed the airport was very packed and I felt overwhelmed how many people were there. I ended up getting lost there in the sea of people. I did meet her and her brother there, but then I had to go back into the airport to use the restroom since our plane was flying over the airport for some time. When I got back out, I couldn't remember where their car was, so I got lost until her brother found me again lol."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Feb, 2019. I had the great opportunity to travel overseas and meet the woman of my life. I had been chatting with her online for several years now, we met through an online video game. As time went on, we found that we had alot in common. It started out that we just happened to be in the same guild for an MMO, called World of Warcraft. As a healer in my guild, she healed me when we did raid dungeons, because she was assigned to my group. There were times that we would privately whisper to each other and talk about various things in life during these gaming events, and we found that were very interested in what we had to say, and listen. It was then we I made the decision to ask her out online, not knowing to where it would lead later. We \"online dated\" for a good while, until she asked me to come see her in her country. It is very far away, but I thought, yes, I need to meet this person, so I decided to do it! Afterwards we set a date, budget, flight plans, etc. Then, I embarked on a 30 hour trip to see this person. It was a pretty good trip overall, but when I landed the airport was very packed and I felt overwhelmed how many people were there. I ended up getting lost there in the sea of people. I did meet her and her brother there, but then I had to go back into the airport to use the restroom since our plane was flying over the airport for some time. When I got back out, I couldn't remember where their car was, so I got lost until her brother found me again lol.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "When we finally got to her place, we talked for a long time, got to know each other better, and just had a good time in general. Overall, it was a great experience for me, and I am very happy that I was able to go meet her in person. We are still together today and we are very happy with each other.\n\n"
+            }
+        ],
+        "request_id": "811ed3e0ed3b8c8f-EWR"
+    }
+}

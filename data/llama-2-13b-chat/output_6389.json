@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I went to my brothers wedding. It was a great time for everybody. The beginning ceremonies were great. There was a bunch of trumpet players playing a nice song. My brother walked down the aisle first. He had a black suit on and looked great. The future wife walked down the aisle second. She had a white dress and a rose in her hair. She looked beautiful. They kissed and were officially married. The party afterwards was great. I had a lot of beer that night. I think everybody had at least 5 drinks because everybody was smashed. It was a fun time seeing people trying to talk. They all slurred their words."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I went to my brothers wedding. It was a great time for everybody. The beginning ceremonies were great. There was a bunch of trumpet players playing a nice song. My brother walked down the aisle first. He had a black suit on and looked great. The future wife walked down the aisle second. She had a white dress and a rose in her hair. She looked beautiful. They kissed and were officially married. The party afterwards was great. I had a lot of beer that night. I think everybody had at least 5 drinks because everybody was smashed. It was a fun time seeing people trying to talk. They all slurred their words.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the best night of my life.\n\n"
+            }
+        ],
+        "request_id": "811f445a5fc3422e-EWR"
+    }
+}

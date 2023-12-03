@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: What a night this was. Five months ago some drunk guy breaks into my house, without me really realizing what in the world is going on. The man didn't steal anything. I just think he was profoundly lost or so drunk to the point he has no idea what's going on. My roommate messages me in the morning asking who the drunk snoring guy was. I thought they were just playing me for a fool. I didn't really understand what was meant by all that. I was so confused and lost, until I went downstairs. I head downstairs and notices shoes on the couch. Wow, my roommate wasn't lying. I don't really see a lot of damage aside from the shock. I wonder how he got in here. I just think he was lost. Doesn't seem like he was trying to do it on purpose. That's a story to remember, for sure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: What a night this was. Five months ago some drunk guy breaks into my house, without me really realizing what in the world is going on. The man didn't steal anything. I just think he was profoundly lost or so drunk to the point he has no idea what's going on. My roommate messages me in the morning asking who the drunk snoring guy was. I thought they were just playing me for a fool. I didn't really understand what was meant by all that. I was so confused and lost, until I went downstairs. I head downstairs and notices shoes on the couch. Wow, my roommate wasn't lying. I don't really see a lot of damage aside from the shock. I wonder how he got in here. I just think he was lost. Doesn't seem like he was trying to do it on purpose. That's a story to remember, for sure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea5fd6c9b4402-EWR"
+    }
+}

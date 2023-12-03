@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Today was a great day!  I am always nervous when I get reviewed at work.  Today was no exception.  I knew everyone was getting their projects reviewed.  The best one would be selected to be implemented by the boss.  That meant that the winner would be in charge of a team leading the project.  I wanted this very badly.  I have been working  here for 6 months and wanted a chance to show my leadership ability as well as my creativity.  The boss brought everyone in the conference room to announce the results.  There were many amazing project ideas. I was so excited when I found out that mine had won!  It was very rewarding after all the hard work that I put into it.  I am happy to be able to be noticed for my hard work.  Hopefully, this will only propel me forward at work.  I can't wait to share the news with my family!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Today was a great day!  I am always nervous when I get reviewed at work.  Today was no exception.  I knew everyone was getting their projects reviewed.  The best one would be selected to be implemented by the boss.  That meant that the winner would be in charge of a team leading the project.  I wanted this very badly.  I have been working  here for 6 months and wanted a chance to show my leadership ability as well as my creativity.  The boss brought everyone in the conference room to announce the results.  There were many amazing project ideas. I was so excited when I found out that mine had won!  It was very rewarding after all the hard work that I put into it.  I am happy to be able to be noticed for my hard work.  Hopefully, this will only propel me forward at work.  I can't wait to share the news with my family!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eac3f2c04431b-EWR"
+    }
+}

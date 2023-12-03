@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 3 months ago, my brother was in town for his birthday.  We were all very happy to see him again.  We don't get to see him often because of his demanding job out of state.  During his visit, I decided we should do something together.  We always wanted to try indoor axe throwing so I arranged it.  My brother thought he should drive because he enjoys driving more than I do.  We started down the highway and noticed that some spots on the road were a bit icy.  It had snowed the night before so it wasn't anything unusual.  Being careful, we continued down the highway.  We came to a red light and stopped to wait for the light to turn green.  The car behind us hit a patch of ice and ran right into our car.  We got hit from behind and my head flew forward and hit the windshield.  No one in the collision was seriously hurt, thankfully.  My head was pretty sore, so I went to the hospital just to get checked out.  After some testing, they found that I had a mild concussion.  I had to be very careful over the next few days after the crash.  I also had to later follow up with my personal doctor to make sure I recovered without incident."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 3 months ago, my brother was in town for his birthday.  We were all very happy to see him again.  We don't get to see him often because of his demanding job out of state.  During his visit, I decided we should do something together.  We always wanted to try indoor axe throwing so I arranged it.  My brother thought he should drive because he enjoys driving more than I do.  We started down the highway and noticed that some spots on the road were a bit icy.  It had snowed the night before so it wasn't anything unusual.  Being careful, we continued down the highway.  We came to a red light and stopped to wait for the light to turn green.  The car behind us hit a patch of ice and ran right into our car.  We got hit from behind and my head flew forward and hit the windshield.  No one in the collision was seriously hurt, thankfully.  My head was pretty sore, so I went to the hospital just to get checked out.  After some testing, they found that I had a mild concussion.  I had to be very careful over the next few days after the crash.  I also had to later follow up with my personal doctor to make sure I recovered without incident.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " Overall, the experience was scary, but we were all very lucky that no one was seriously hurt.  I was also lucky that the concussion was mild and I recovered quickly.  It was a good reminder to always be careful on the road, especially during winter months.\n\n"
+            }
+        ],
+        "request_id": "811eb14c0f8715c7-EWR"
+    }
+}

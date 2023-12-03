@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in a wedding for my friend who I have known since kindergarten. We are still very close and have kept in touch. Her first husband died. I was so happy she found another great guy. When she asked me to be a bridesmaid I was so excited! I spent the whole weekend with her getting ready. We had such a good time! We went to get our nails done and have massages. We went out to eat with her family and the rest of the bridal party. I met some new friends and had a great time. The day of the wedding was actually a lot of fun. The pictures were beautiful and we had fun doing them. It was pretty relaxed getting ready. The wedding itself was beautiful. I read some scripture at the wedding. Afterwards the reception was so much fun! The food was wonderful. We had a lot of fun at a photo booth as well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in a wedding for my friend who I have known since kindergarten. We are still very close and have kept in touch. Her first husband died. I was so happy she found another great guy. When she asked me to be a bridesmaid I was so excited! I spent the whole weekend with her getting ready. We had such a good time! We went to get our nails done and have massages. We went out to eat with her family and the rest of the bridal party. I met some new friends and had a great time. The day of the wedding was actually a lot of fun. The pictures were beautiful and we had fun doing them. It was pretty relaxed getting ready. The wedding itself was beautiful. I read some scripture at the wedding. Afterwards the reception was so much fun! The food was wonderful. We had a lot of fun at a photo booth as well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had such a great time! I was so happy for my friend and her new husband. I was so glad I could be a part of her special day.\n\n"
+            }
+        ],
+        "request_id": "811bd96f0e7643eb-EWR"
+    }
+}

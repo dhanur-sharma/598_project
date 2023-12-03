@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I went hiking for our anniversary in July. It was a fun day that really cost us nothing as we also had a picnic after our hike. We walked for hours in the slightly hilly area of our local state park. We saw turtles, frogs, and bunnies. We each almost slipped a few times. But we were wearing shoes with traction, so that helped prevent any falls. There was a spot at which I felt we were walking in an enchanted forest. There was a tiny cabin in the distance, a wooden bridge over a small creek, and very high trees. I could almost imagine the smell of pies being baked and the story of Hansel and Gretel in the forest. I got some bug bites but had a balm that helped prevent the bites from getting irritated. My husband was got bitten more than me, but he didn't complain. My husband is funny as he tried to scare me for fun. He said stuff like, \"I saw someone stare at us and hide.\" Or, \"What was that? There's a Sasquatch over there. Careful!\" Then he would tap one of my shoulders and made me jump. When we were done hiking we had a picnic. We brought sandwiches, water, celery sticks, trail mix, and fig cookies. It all tasted very good and we went home feeling refreshed from our time in nature. We also ended the day feeling grateful for having each other on our anniversary."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I went hiking for our anniversary in July. It was a fun day that really cost us nothing as we also had a picnic after our hike. We walked for hours in the slightly hilly area of our local state park. We saw turtles, frogs, and bunnies. We each almost slipped a few times. But we were wearing shoes with traction, so that helped prevent any falls. There was a spot at which I felt we were walking in an enchanted forest. There was a tiny cabin in the distance, a wooden bridge over a small creek, and very high trees. I could almost imagine the smell of pies being baked and the story of Hansel and Gretel in the forest. I got some bug bites but had a balm that helped prevent the bites from getting irritated. My husband was got bitten more than me, but he didn't complain. My husband is funny as he tried to scare me for fun. He said stuff like, \"I saw someone stare at us and hide.\" Or, \"What was that? There's a Sasquatch over there. Careful!\" Then he would tap one of my shoulders and made me jump. When we were done hiking we had a picnic. We brought sandwiches, water, celery sticks, trail mix, and fig cookies. It all tasted very good and we went home feeling refreshed from our time in nature. We also ended the day feeling grateful for having each other on our anniversary.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bcef208ca1811-EWR"
+    }
+}

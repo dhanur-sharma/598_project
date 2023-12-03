@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month I ordered and received a new Dell PC desktop. I installed it and within an hour I had big red warning boxes popping up all over the screen saying my Windows 10 was compromised. There was a telephone number which I thought was microsoft so I called it. A guy with an Indian accent (naturally) answered and I told him my problem. Unfortunately, I could barely understand him so I asked to speak to an american-accented person. He hooked me up with another Indian person. By then, I was getting frustrated because I couldn't understand anybody but they seemed to understand what my problem was. So somebody else  came on online and gave me a quote for $225 to fix it and wanted my credit card number. At that point, I stopped and asked to make sure they were Microsoft but they never confirmed it in so many words (I thought about this afterwards). So I gave them my credit card number and they took over my computer and tried to fix the problem. The next day, I got the red error boxes again. I called them and wanted my money back and they said the charge was already gone through. I asked to speak to a manager, but nope, never got anybody else. I argued for a while with them and got nowhere. I hung up crying and called my bank and told them I was scammed. It took 2 days to get my money back from the bank. I can't believe this happened to me. I continually warn my friends about stuff like this. But now I know how scammers work. They scam you when you're vulnerable and have no other place to turn in the middle of your emotions! I swear, this will never happen to me again (I hope). I hope my bank is doing something about them - I got a letter afterwards explaining that it \"was\" a scamming company."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month I ordered and received a new Dell PC desktop. I installed it and within an hour I had big red warning boxes popping up all over the screen saying my Windows 10 was compromised. There was a telephone number which I thought was microsoft so I called it. A guy with an Indian accent (naturally) answered and I told him my problem. Unfortunately, I could barely understand him so I asked to speak to an american-accented person. He hooked me up with another Indian person. By then, I was getting frustrated because I couldn't understand anybody but they seemed to understand what my problem was. So somebody else  came on online and gave me a quote for $225 to fix it and wanted my credit card number. At that point, I stopped and asked to make sure they were Microsoft but they never confirmed it in so many words (I thought about this afterwards). So I gave them my credit card number and they took over my computer and tried to fix the problem. The next day, I got the red error boxes again. I called them and wanted my money back and they said the charge was already gone through. I asked to speak to a manager, but nope, never got anybody else. I argued for a while with them and got nowhere. I hung up crying and called my bank and told them I was scammed. It took 2 days to get my money back from the bank. I can't believe this happened to me. I continually warn my friends about stuff like this. But now I know how scammers work. They scam you when you're vulnerable and have no other place to turn in the middle of your emotions! I swear, this will never happen to me again (I hope). I hope my bank is doing something about them - I got a letter afterwards explaining that it \"was\" a scamming company.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was told to be careful about giving out my credit card information. But I did and it was a nightmare to get my money back. I will never buy anything online again! \n\n"
+            }
+        ],
+        "request_id": "811bd5db6d534301-EWR"
+    }
+}

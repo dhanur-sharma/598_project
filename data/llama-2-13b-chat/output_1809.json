@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: it has been a horrible past week. my mom s still very sick. she had her positron emission tomography scan  to look for the disease. i thought i knew everything and it was all going to be ok, when it all hit me it was intense. the doctor came in and i could tell something was off. i felt like the room at the doctors office got a little darker when he walked in. he came in and said that all the test results were in. the doctor then said if anyone wanted to ask any question he'd be happy to answer them. everyone was reluctant to ask a question. i heard my uncle finally speak up. he asked what stage my mother was in.  i could see the doctor look down to avoid eye contact. the doctors face got flushed as he stammered for a second. he told us that my mother was sage 4 and then went on to explain that it has spread. the room went silent for a few seconds. i wanted to cry and run out of there. i hope i can remain strong for my family and most of all my mother."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: it has been a horrible past week. my mom s still very sick. she had her positron emission tomography scan  to look for the disease. i thought i knew everything and it was all going to be ok, when it all hit me it was intense. the doctor came in and i could tell something was off. i felt like the room at the doctors office got a little darker when he walked in. he came in and said that all the test results were in. the doctor then said if anyone wanted to ask any question he'd be happy to answer them. everyone was reluctant to ask a question. i heard my uncle finally speak up. he asked what stage my mother was in.  i could see the doctor look down to avoid eye contact. the doctors face got flushed as he stammered for a second. he told us that my mother was sage 4 and then went on to explain that it has spread. the room went silent for a few seconds. i wanted to cry and run out of there. i hope i can remain strong for my family and most of all my mother.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab24dfd10f67-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 weeks ago, I went to the park.  I decided to take my foster kitten with me because I thought it might be fun for him since he never gets to leave my house.  I wasn't sure how to play with him, though, because cats don't like to be on leashes.  I thought maybe I could find some kind of enclosed area.  When we got to the park, there was a fenced-in playground.  I thought that might be the perfect place to let him out to play.  I got a big surprise, though.  When I let him out, he climbed right over the fence.  He was just a little kitten, so I didn't think he'd be able to do that.  He just jumped right over it as though he was a full-grown cat.  I tried to chase him down but he was gone.  I didn't realize how attached I had gotten to this kitten in such a short time.  It really broke my heart.  I hope he's okay.  Maybe someone will find him and give him a good home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 weeks ago, I went to the park.  I decided to take my foster kitten with me because I thought it might be fun for him since he never gets to leave my house.  I wasn't sure how to play with him, though, because cats don't like to be on leashes.  I thought maybe I could find some kind of enclosed area.  When we got to the park, there was a fenced-in playground.  I thought that might be the perfect place to let him out to play.  I got a big surprise, though.  When I let him out, he climbed right over the fence.  He was just a little kitten, so I didn't think he'd be able to do that.  He just jumped right over it as though he was a full-grown cat.  I tried to chase him down but he was gone.  I didn't realize how attached I had gotten to this kitten in such a short time.  It really broke my heart.  I hope he's okay.  Maybe someone will find him and give him a good home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I'm going to miss him."
+            }
+        ],
+        "request_id": "811f3bfad97b5e73-EWR"
+    }
+}

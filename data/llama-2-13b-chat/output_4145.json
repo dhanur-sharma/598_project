@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still can't believe it has been a month since I was promoted.  When I took the lead on a presentation, I didn't realize it would change my career.  I've been used to taking charge in group tasks as I need control.  I like to know when things will be done and when.  Uncertainty eats at me, so it's just easier to lead.  As a result, the presentation was put together in detail, and I went over everything with a fine toothed comb.  Upper management noticed and called me into their office the next day.  They had talked with my co-worker and teammates.  They all agreed that I showed initiative a desire to lead.  With the success of the presentation, which brought a high-end client to our company, they promoted me to supervisor.  Our next presentation is next week and things have been going great.  I'm very nervous, but I'm sure it's just because this is my first task as supervisor.  I'm still going over everything just as carefully as before.  My co-workers have really stepped up for me.  Their honesty to tell management who led the project means everything."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still can't believe it has been a month since I was promoted.  When I took the lead on a presentation, I didn't realize it would change my career.  I've been used to taking charge in group tasks as I need control.  I like to know when things will be done and when.  Uncertainty eats at me, so it's just easier to lead.  As a result, the presentation was put together in detail, and I went over everything with a fine toothed comb.  Upper management noticed and called me into their office the next day.  They had talked with my co-worker and teammates.  They all agreed that I showed initiative a desire to lead.  With the success of the presentation, which brought a high-end client to our company, they promoted me to supervisor.  Our next presentation is next week and things have been going great.  I'm very nervous, but I'm sure it's just because this is my first task as supervisor.  I'm still going over everything just as carefully as before.  My co-workers have really stepped up for me.  Their honesty to tell management who led the project means everything.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I feel so grateful for my team and the recognition.\n\n"
+            }
+        ],
+        "request_id": "811bd0ce59780f43-EWR"
+    }
+}

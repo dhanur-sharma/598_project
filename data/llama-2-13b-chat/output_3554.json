@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently hosted a bridal shower for my best friend. The shower was at her mom's house. I arrived early to set up decorations. The caterer showed up and set up the food also. Once the guests arrived, everyone ate first. After everyone had a chance to enjoy their food, I began the games. There were three games in total. Each game winner received a prize. After the games were done, the bride-to-be opened her gifts. She received a lot of gifts. The most memorable gift was a gag gift from her coworkers. The bride-to-be did not realize it was a gag at the time, which made her reaction to opening the gift even funnier, because she was trying to maintain a serious face. After the gifts, guests socialized for a little long, took pictures, and said their goodbyes. I stayed after the guests had left to clean up. Once the shower was over, we got ready for the bachelorette party that was later that night. We went out to eat and then went to several bars."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently hosted a bridal shower for my best friend. The shower was at her mom's house. I arrived early to set up decorations. The caterer showed up and set up the food also. Once the guests arrived, everyone ate first. After everyone had a chance to enjoy their food, I began the games. There were three games in total. Each game winner received a prize. After the games were done, the bride-to-be opened her gifts. She received a lot of gifts. The most memorable gift was a gag gift from her coworkers. The bride-to-be did not realize it was a gag at the time, which made her reaction to opening the gift even funnier, because she was trying to maintain a serious face. After the gifts, guests socialized for a little long, took pictures, and said their goodbyes. I stayed after the guests had left to clean up. Once the shower was over, we got ready for the bachelorette party that was later that night. We went out to eat and then went to several bars.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great time.\n\n"
+            }
+        ],
+        "request_id": "811ecbbf7bdf4243-EWR"
+    }
+}

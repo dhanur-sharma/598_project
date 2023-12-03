@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently, I went to my very first baseball game. Since I didn't grow up in the US, baseball was not a big part of my childhood. I went with by boyfriend and 3 of our friends. Since we wanted to see the Chicago Cubs vs the San Francisco Giants, we had to drive to Chicago to go to Wrigley field. It took us about 2 and a half hours to get there but it didn't feel like a long drive at all. We had rented out an Airbnb which was really comfortable. Once we got there, we ordered some Chicago deep-dish pizza at Lou Malnati's before heading to the game. We took a Lyft to the game and walking up to the field was very exciting. I didn't know that Wrigley Field is a historic baseball field but it is. Once inside, it was exactly like the movies show it to be. All the concessions and vendors and seating looked familiar because of the American media. We got there after the game had already started and the Cubs had the lead. I am not very proficient at baseball rules so I had a tough time fully following the game but it was fun regardless. There were some traditions I didn't know about, like the 7th inning stretch when everyone sang 'Take Me Out to the Ball Game'. The Cubs won and all of the locals were very excited. We ended the night by going out to a bar across the street and dancing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently, I went to my very first baseball game. Since I didn't grow up in the US, baseball was not a big part of my childhood. I went with by boyfriend and 3 of our friends. Since we wanted to see the Chicago Cubs vs the San Francisco Giants, we had to drive to Chicago to go to Wrigley field. It took us about 2 and a half hours to get there but it didn't feel like a long drive at all. We had rented out an Airbnb which was really comfortable. Once we got there, we ordered some Chicago deep-dish pizza at Lou Malnati's before heading to the game. We took a Lyft to the game and walking up to the field was very exciting. I didn't know that Wrigley Field is a historic baseball field but it is. Once inside, it was exactly like the movies show it to be. All the concessions and vendors and seating looked familiar because of the American media. We got there after the game had already started and the Cubs had the lead. I am not very proficient at baseball rules so I had a tough time fully following the game but it was fun regardless. There were some traditions I didn't know about, like the 7th inning stretch when everyone sang 'Take Me Out to the Ball Game'. The Cubs won and all of the locals were very excited. We ended the night by going out to a bar across the street and dancing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a great first baseball experience.\n\n"
+            }
+        ],
+        "request_id": "811e8fa6193d2361-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: it has been one check of a day, today was mom's funeral. me and my sister were in charge of everything about her funeral. I had been worried how it was going to turn out because the funeral director was not the most enjoyable person to interact with. for a little bit it seemed like it was not going to be a good service like we wanted to have for her. it seemed like he was being difficult to spite me and my sister, it was like everything we wanted he had some kind of disagreement with it. finally though we all came to a agreement on the funeral. it was a beautiful service, all of the family and friends showed up right on time. the service ran smoothly. I never knew that it would take so much to make a funeral service to go perfect. I always thought it all just pretty much just went how you wanted it to go. I think my mom would have loved to see just how well we did. all in all the service was beautiful, it was a sad day but at the same time a great day because we had a great service and everything ran smoothly and was in order. I miss my mom but I know she is in heaven happy. I hope that she loved the service. my father was pleased with the service also. me and my sister did a pretty good job handling everything."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: it has been one check of a day, today was mom's funeral. me and my sister were in charge of everything about her funeral. I had been worried how it was going to turn out because the funeral director was not the most enjoyable person to interact with. for a little bit it seemed like it was not going to be a good service like we wanted to have for her. it seemed like he was being difficult to spite me and my sister, it was like everything we wanted he had some kind of disagreement with it. finally though we all came to a agreement on the funeral. it was a beautiful service, all of the family and friends showed up right on time. the service ran smoothly. I never knew that it would take so much to make a funeral service to go perfect. I always thought it all just pretty much just went how you wanted it to go. I think my mom would have loved to see just how well we did. all in all the service was beautiful, it was a sad day but at the same time a great day because we had a great service and everything ran smoothly and was in order. I miss my mom but I know she is in heaven happy. I hope that she loved the service. my father was pleased with the service also. me and my sister did a pretty good job handling everything.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "we all did a great job. I'm proud of myself and my sister for how well we did."
+            }
+        ],
+        "request_id": "811e92a82ec34302-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I was in college my dad was diagnosed with colon cancer. As a college student I was depressed and had a lot of anxiety. That was 15 years ago. So much has changed since then. I am now married with a child. I am an elementary teacher. In May my mom had her yearly mammogram. She received a call that she needed to have a biopsy. She had the biopsy and was told that it was not cancer. Two days later she received a call that it was indeed breast cancer. The following three to four weeks were emotionally draining. There were so many worries, questions, and unknowns. A plan was made and she had a lumpectomy followed by radiation and currently is taking chemotherapy.     My mom has always been the backbone of our family. She took care of me when I was diagnosed with depression and each of the episodes I've had. She spent four week living with me when I had a difficult pregnancy and delivery. Anytime I need to know something I always call her. I was devastated and couldn't imagine what I would do without my mother. I developed high anxiety but I stayed strong and didn't let my family see me struggle. This even has been significant to me because I know that you can't take anyone or any time for grated. I now try to live in the moment and always put family first."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I was in college my dad was diagnosed with colon cancer. As a college student I was depressed and had a lot of anxiety. That was 15 years ago. So much has changed since then. I am now married with a child. I am an elementary teacher. In May my mom had her yearly mammogram. She received a call that she needed to have a biopsy. She had the biopsy and was told that it was not cancer. Two days later she received a call that it was indeed breast cancer. The following three to four weeks were emotionally draining. There were so many worries, questions, and unknowns. A plan was made and she had a lumpectomy followed by radiation and currently is taking chemotherapy.     My mom has always been the backbone of our family. She took care of me when I was diagnosed with depression and each of the episodes I've had. She spent four week living with me when I had a difficult pregnancy and delivery. Anytime I need to know something I always call her. I was devastated and couldn't imagine what I would do without my mother. I developed high anxiety but I stayed strong and didn't let my family see me struggle. This even has been significant to me because I know that you can't take anyone or any time for grated. I now try to live in the moment and always put family first.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am grateful that my mom is doing well and I am hopeful for the future.\n\n"
+            }
+        ],
+        "request_id": "811eba884c334407-EWR"
+    }
+}

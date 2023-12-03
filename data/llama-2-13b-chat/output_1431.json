@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I took a trip to Houston, Texas a few weeks back. Went with the same group, plus another. We booked a hotel by a lake. Had a small pool to hang out at too. The hotel was located very close to a few restaurants as well, which was perfect. On the first day we had a really chill time. Drank a little bit, then headed to a BBQ restaurant. On the second day, we decided to hangout at the lake, but it was tough trying to find a spot. We drove around forever looking, even witnessing a major car crash. Finally found a spot, and let the dogs out. We all jumped in rather quickly and relaxed a bit in the water. Everyone at our spot was paddleboarding, which looked really fun. I had been wanting to rent a Jet ski ever since an earlier trip where we rode some on the lake, so we decided to pack up and see what was available. We finally found a place that was renting them for $80 an hour, after calling 4 or 5 places. We rented 2 for 2 hours, but had to wait for a group to comeback since they were short one Jetski. When we finally got in, we rode for about 10 minutes before it started raining pretty heavily. We stayed in for another 5 minutes before heading back to the rental place. I almost crashed into the dock because the waves carried me into it, but luckily I put my foot against it to stop the jet ski from hitting it. We got a raincheck refund, and returned the next day when it cleared up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I took a trip to Houston, Texas a few weeks back. Went with the same group, plus another. We booked a hotel by a lake. Had a small pool to hang out at too. The hotel was located very close to a few restaurants as well, which was perfect. On the first day we had a really chill time. Drank a little bit, then headed to a BBQ restaurant. On the second day, we decided to hangout at the lake, but it was tough trying to find a spot. We drove around forever looking, even witnessing a major car crash. Finally found a spot, and let the dogs out. We all jumped in rather quickly and relaxed a bit in the water. Everyone at our spot was paddleboarding, which looked really fun. I had been wanting to rent a Jet ski ever since an earlier trip where we rode some on the lake, so we decided to pack up and see what was available. We finally found a place that was renting them for $80 an hour, after calling 4 or 5 places. We rented 2 for 2 hours, but had to wait for a group to comeback since they were short one Jetski. When we finally got in, we rode for about 10 minutes before it started raining pretty heavily. We stayed in for another 5 minutes before heading back to the rental place. I almost crashed into the dock because the waves carried me into it, but luckily I put my foot against it to stop the jet ski from hitting it. We got a raincheck refund, and returned the next day when it cleared up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We ended up riding for 2 hours in the clear water, and had a blast. The rest of the trip was pretty low key, we just hung out at the hotel and explored the area. Overall, it was a really fun trip and I would definitely go back to Houston.\n\n"
+            }
+        ],
+        "request_id": "811ea4a07d339e17-EWR"
+    }
+}

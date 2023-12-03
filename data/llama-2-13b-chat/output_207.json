@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have never been one to believe in aliens. Every time classmates talked about it in school, I would laugh at them. I would laugh very loud. Suffice to say, no one told me that they believed in aliens because I would laugh in their face about it. One day, we were driving home, and my friends and I saw something in the sky. Could it be? My friend had binoculars, and when I looked through them, it wasn't shaped like an airplane or a drone. It really looked like a saucer was flying through the sky. We pulled over, stopped, and filmed it before we lost sight of it. Since we had some clear video of this potential UFO, my friend uploaded it on YouTube. Within a day, news stations were getting in contact with him to see if they can use his footage in their news broadcast. He was taken back. His video went viral and thousands of people saw it. Talk about sheer luck. That day, I became a believer in aliens and UFO."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have never been one to believe in aliens. Every time classmates talked about it in school, I would laugh at them. I would laugh very loud. Suffice to say, no one told me that they believed in aliens because I would laugh in their face about it. One day, we were driving home, and my friends and I saw something in the sky. Could it be? My friend had binoculars, and when I looked through them, it wasn't shaped like an airplane or a drone. It really looked like a saucer was flying through the sky. We pulled over, stopped, and filmed it before we lost sight of it. Since we had some clear video of this potential UFO, my friend uploaded it on YouTube. Within a day, news stations were getting in contact with him to see if they can use his footage in their news broadcast. He was taken back. His video went viral and thousands of people saw it. Talk about sheer luck. That day, I became a believer in aliens and UFO.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's crazy to think about how much we don't know about the universe."
+            }
+        ],
+        "request_id": "811e8d9aaf4a1a24-EWR"
+    }
+}

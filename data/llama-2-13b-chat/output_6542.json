@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been feeling lonely since I moved here. I'm usually a very sociable person, but I haven't had a chance to meet too many people. I've been working a lot. So I downloaded an app to see if I could meet some new people for friends. And I met her. We started talking back and forth on the app and then exchanged numbers and started texting. We agreed to meet up after a few days at a coffee shop. She was looking for new friends as well, so it sounded perfect. Doesn't mean it wasn't completely awkward. We met at the shop and got our drinks. We didn't really say much at first, just smiled as we waited in line. She intimidated me a bit. She was gorgeous, and that always makes me feel on edge. Gorgeous women usually don't talk to me. So it was nice being with her but a little unnerving as well. We made small talk for a bit, but I ran out of things to say quicker than I would've liked. That led to some awkward silences. But she seemed to understand it. We both knew that making new friends would be hard. We agreed to hang out again in a few days. Hopefully it goes better this time. All I know is I won't be using that app again to make even more new friends."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been feeling lonely since I moved here. I'm usually a very sociable person, but I haven't had a chance to meet too many people. I've been working a lot. So I downloaded an app to see if I could meet some new people for friends. And I met her. We started talking back and forth on the app and then exchanged numbers and started texting. We agreed to meet up after a few days at a coffee shop. She was looking for new friends as well, so it sounded perfect. Doesn't mean it wasn't completely awkward. We met at the shop and got our drinks. We didn't really say much at first, just smiled as we waited in line. She intimidated me a bit. She was gorgeous, and that always makes me feel on edge. Gorgeous women usually don't talk to me. So it was nice being with her but a little unnerving as well. We made small talk for a bit, but I ran out of things to say quicker than I would've liked. That led to some awkward silences. But she seemed to understand it. We both knew that making new friends would be hard. We agreed to hang out again in a few days. Hopefully it goes better this time. All I know is I won't be using that app again to make even more new friends.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was too nerve-wracking. But at least I met someone.\n\n"
+            }
+        ],
+        "request_id": "811f478c8eb44407-EWR"
+    }
+}

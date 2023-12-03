@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter is a very special person to me. She means the world to me and will do anything for me. About ten years ago I bought her this cute little dog. At first the dog was barking and annoying. She would bring this dog everywhere with us. Through the years the dog got slower and older. We eventually stoped taking him everywhere we went. About a week ago the dog got sick. We tryed everything we could do to help him .Unfortunately the dog has passed away due to the sickness. After ten years of haveing this dog, we all suffered a huge loss. My daughter took it the hardest. She has been laying in bed since. I am trying to comfort her the best I can. I don't know of much more I could do. I hope that she feels better soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter is a very special person to me. She means the world to me and will do anything for me. About ten years ago I bought her this cute little dog. At first the dog was barking and annoying. She would bring this dog everywhere with us. Through the years the dog got slower and older. We eventually stoped taking him everywhere we went. About a week ago the dog got sick. We tryed everything we could do to help him .Unfortunately the dog has passed away due to the sickness. After ten years of haveing this dog, we all suffered a huge loss. My daughter took it the hardest. She has been laying in bed since. I am trying to comfort her the best I can. I don't know of much more I could do. I hope that she feels better soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec3f01b7d5e77-EWR"
+    }
+}

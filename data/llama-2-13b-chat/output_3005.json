@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I handed in my project, I felt incredibly guilty.  Even if I wasn't found out, I would know forever what I did to earn my grade.  I pride myself on having integrity, and this was a black mark on my soul.  I ended up passing the college class with the project earning an A.  The footage was obscure enough not to be noticed as unoriginal and it wasn't something I had submitted in this class before.  When I am feeling good about myself, this memory keeps leaking back into my thoughts.  It won't let me fully rest and be at peace.  I'm not sure what to do to erase the negativity.  Maybe mentor someone who needs help passing a college course.  I'm thinking of signing up to volunteer and give some time back for free.  I think this will help me clear my conscience.  If nothing else, that project has taught me not to procrastinate anymore.  I get started on deadlines right away for fear of doing less than superior work.  So at least my work ethic has improved.  I learned a valuable lesson after all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I handed in my project, I felt incredibly guilty.  Even if I wasn't found out, I would know forever what I did to earn my grade.  I pride myself on having integrity, and this was a black mark on my soul.  I ended up passing the college class with the project earning an A.  The footage was obscure enough not to be noticed as unoriginal and it wasn't something I had submitted in this class before.  When I am feeling good about myself, this memory keeps leaking back into my thoughts.  It won't let me fully rest and be at peace.  I'm not sure what to do to erase the negativity.  Maybe mentor someone who needs help passing a college course.  I'm thinking of signing up to volunteer and give some time back for free.  I think this will help me clear my conscience.  If nothing else, that project has taught me not to procrastinate anymore.  I get started on deadlines right away for fear of doing less than superior work.  So at least my work ethic has improved.  I learned a valuable lesson after all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I just wish I could erase the guilt.\n\n"
+            }
+        ],
+        "request_id": "811ec23a9cfe41bd-EWR"
+    }
+}

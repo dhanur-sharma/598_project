@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother came to visit me last month. We live in the same state, but hours away from each other so we don't get to see each other as often as we'd like. Life just gets in the way sometimes, especially as an adult. We planned a really fun weekend with my other brother. We all like beer so we decided to visit a few local breweries. He's also very big on craft beer so it seemed like a great plan. He arrived early and we started at a brewery near my house. The atmosphere was great. I was surprised how crowded the place was. We started with some flights because he wanted to try everything. After that, we went to another brewery not too far from there. We had some more to drink and a lot of laughs. Everytime we get together laughs are guaranteed. After that we took an Uber to a local restaurant. By this point we were very hungry. At the end of the day, we felt kind of tired so we decided to just hang out at my place. Overall it was a great weekend and I hope we can do it again sometime soon."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother came to visit me last month. We live in the same state, but hours away from each other so we don't get to see each other as often as we'd like. Life just gets in the way sometimes, especially as an adult. We planned a really fun weekend with my other brother. We all like beer so we decided to visit a few local breweries. He's also very big on craft beer so it seemed like a great plan. He arrived early and we started at a brewery near my house. The atmosphere was great. I was surprised how crowded the place was. We started with some flights because he wanted to try everything. After that, we went to another brewery not too far from there. We had some more to drink and a lot of laughs. Everytime we get together laughs are guaranteed. After that we took an Uber to a local restaurant. By this point we were very hungry. At the end of the day, we felt kind of tired so we decided to just hang out at my place. Overall it was a great weekend and I hope we can do it again sometime soon.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea3562aea0c9e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This story took place about a week ago.  The sun was shining and the weather beautiful.  My daughter, who's aspiring to become the female version of Tony Hawk.  She was having a lot of difficulty reaching one of her skateboarding goals.  Her goal was to learn how to drop in on a large quarter pipe.  In one of her attempts, she fell pretty hard.  Her knees were bruised.  I was afraid she broke one of her arms but luckily that was not the case.  She got up and recollected herself.  We made sure she wasn't hurt too badly.  She got back up on the ramp.  She made many more attempts and finally nails the drop after a dozen or so attempts.  As a proud father, my daughter earned my admiration.  She worked through the pain and did not give up.  Stood up from where she fell and persevered."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This story took place about a week ago.  The sun was shining and the weather beautiful.  My daughter, who's aspiring to become the female version of Tony Hawk.  She was having a lot of difficulty reaching one of her skateboarding goals.  Her goal was to learn how to drop in on a large quarter pipe.  In one of her attempts, she fell pretty hard.  Her knees were bruised.  I was afraid she broke one of her arms but luckily that was not the case.  She got up and recollected herself.  We made sure she wasn't hurt too badly.  She got back up on the ramp.  She made many more attempts and finally nails the drop after a dozen or so attempts.  As a proud father, my daughter earned my admiration.  She worked through the pain and did not give up.  Stood up from where she fell and persevered.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f47cd6b3d43d4-EWR"
+    }
+}

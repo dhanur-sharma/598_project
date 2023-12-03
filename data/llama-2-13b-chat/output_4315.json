@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a very particularly well planned out trip my partner and I took to Portland, Maine. We were really thrilled to head, earlier this year. We planned ahead, had everything booked and then set off. The weather was good, no snow was forecast which made for a pretty simple and direct trip. I really loved the drive heading to the apartment we were staying at. It was clean and pretty and had a lovely view. I guess what made the trip so special was celebrating being together, and living this life side by side, mutually. After a lot of moving around and seeing things we went on a nice hike. We saw some moose, and that was really special. They were enormous and they moved slowly and gracefully. We kept our distance of course! We went to a really awesome brewery, with a tour and we ended up winning a prize for knowing the answer to some question they had. After that we had arguably the best dinner we've ever had at a really beautiful, wood fired restaurant. Sleeping together as the snow came down outside made everything so special. Returning home wasn't all that bad because we had these huge, gorgeous memories to ourselves. It was a great experience and one I won't soon forget simply because of how it impacted me, how it drew us closer and made us happy to be together and to be able to share memories only the two of us have. The rivers we saw, the woods, everything was spectacular and beautiful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a very particularly well planned out trip my partner and I took to Portland, Maine. We were really thrilled to head, earlier this year. We planned ahead, had everything booked and then set off. The weather was good, no snow was forecast which made for a pretty simple and direct trip. I really loved the drive heading to the apartment we were staying at. It was clean and pretty and had a lovely view. I guess what made the trip so special was celebrating being together, and living this life side by side, mutually. After a lot of moving around and seeing things we went on a nice hike. We saw some moose, and that was really special. They were enormous and they moved slowly and gracefully. We kept our distance of course! We went to a really awesome brewery, with a tour and we ended up winning a prize for knowing the answer to some question they had. After that we had arguably the best dinner we've ever had at a really beautiful, wood fired restaurant. Sleeping together as the snow came down outside made everything so special. Returning home wasn't all that bad because we had these huge, gorgeous memories to ourselves. It was a great experience and one I won't soon forget simply because of how it impacted me, how it drew us closer and made us happy to be together and to be able to share memories only the two of us have. The rivers we saw, the woods, everything was spectacular and beautiful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The trip was just so special and I'm so glad we went."
+            }
+        ],
+        "request_id": "811bd4611af143b7-EWR"
+    }
+}

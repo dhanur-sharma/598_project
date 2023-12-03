@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'd like to document the most memorable thing that has ever happened to me before I forget the details. Four months ago, I gave birth to my first child. I had a baby boy on June 5th. My husband and I decided to keep the sex a surprise, so we didn't find out that it was a boy until the birth. My husband thought it would be a boy, and I thought it would be a girl, so I was very surprised! The labor was extremely fast for being a first child and I almost didn't make it to the hospital in time. I started having contractions at home and my husband rushed me to the hospital. Unfortunately there was no time for an epidural so I felt everything! My sweet baby boy arrived a couple of hours after labor started. I will never forget the moment when they put him on my chest and I got to hold him for the first time. It transforms you. I have never felt that much love in my life. All in all it was a positive experience. Even though he came so quickly and I was in a lot of pain. The recovery went pretty well, and we were released from the hospital the next day. I love my baby boy so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'd like to document the most memorable thing that has ever happened to me before I forget the details. Four months ago, I gave birth to my first child. I had a baby boy on June 5th. My husband and I decided to keep the sex a surprise, so we didn't find out that it was a boy until the birth. My husband thought it would be a boy, and I thought it would be a girl, so I was very surprised! The labor was extremely fast for being a first child and I almost didn't make it to the hospital in time. I started having contractions at home and my husband rushed me to the hospital. Unfortunately there was no time for an epidural so I felt everything! My sweet baby boy arrived a couple of hours after labor started. I will never forget the moment when they put him on my chest and I got to hold him for the first time. It transforms you. I have never felt that much love in my life. All in all it was a positive experience. Even though he came so quickly and I was in a lot of pain. The recovery went pretty well, and we were released from the hospital the next day. I love my baby boy so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He is the best thing that has ever happened to me."
+            }
+        ],
+        "request_id": "811f309ad98f0cb1-EWR"
+    }
+}

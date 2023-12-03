@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I\u2019m so happy my two favorite bands came to town. They came 5 months ago. I called John and we made plans to go see them. We decided to go to dinner first. We went to our favorite pizza restaurant. The food was awesome as usual. The venue of the concert was outdoors and BYOB. So we stopped and got some beers and other drinks and snacks. We partied for hours during both concerts. The weather was perfect. The music was great as expected. We even ran into some old friends. We hung out with them for part of the concert. After the concert we all went out. We hit a local diner. We had coffee and pastries."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I\u2019m so happy my two favorite bands came to town. They came 5 months ago. I called John and we made plans to go see them. We decided to go to dinner first. We went to our favorite pizza restaurant. The food was awesome as usual. The venue of the concert was outdoors and BYOB. So we stopped and got some beers and other drinks and snacks. We partied for hours during both concerts. The weather was perfect. The music was great as expected. We even ran into some old friends. We hung out with them for part of the concert. After the concert we all went out. We hit a local diner. We had coffee and pastries.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We talked about the concert and the bands. We had a great time. It was a night to remember.\n\n"
+            }
+        ],
+        "request_id": "811ea59ffb4415d7-EWR"
+    }
+}

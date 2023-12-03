@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago, I was taking a walk. It was a very nice, sunny day. I saw a little dog wandering around. He looked like he was lost. He also seemed very hungry. I happened to have a cracker in my pocket, so I gave it to him.  He seemed so appreciative of it, licking and kissing me. I let him follow me home so I could feed him. I already had a dog at home, so I had some food there. My dog and the lost dog were instantly friends. The new dog made himself right at home, and he has been there ever since. I did post an ad online about the dog in case someone was missing him. I was happy to be able to keep him after no one claimed him. I could not imagine life without him. He was the piece we never knew was missing from our family until we found him that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago, I was taking a walk. It was a very nice, sunny day. I saw a little dog wandering around. He looked like he was lost. He also seemed very hungry. I happened to have a cracker in my pocket, so I gave it to him.  He seemed so appreciative of it, licking and kissing me. I let him follow me home so I could feed him. I already had a dog at home, so I had some food there. My dog and the lost dog were instantly friends. The new dog made himself right at home, and he has been there ever since. I did post an ad online about the dog in case someone was missing him. I was happy to be able to keep him after no one claimed him. I could not imagine life without him. He was the piece we never knew was missing from our family until we found him that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed261ca6f0f8f-EWR"
+    }
+}

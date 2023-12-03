@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am going to write today about the experience I had helping my sister with her kittens. My sister discovered that a feral cat had broken into her garage and raised a litter of kittens! When she found them they were WILD, and she had to wear oven mitts to catch them. She slowly socialized the group and worked with local agencies to trap/nueter/return (TNR) the parents. I helped in the process of finding the babies homes, and it was way more than I ever bargained for! I created an online adoption application form for potential adopters to fill out, and then we started advertising! I made cute little kitty picture collages and wrote nice ads. It was all looking very good. Then, the applications started POURING in. The problem: everyone wanted the same kitten. It was such a circus! 99% of the people applying were not fit pet parents! Some were downright disturbing: weird animal collectors, people who wanted a kitten to basically be a toy for a toddler, so much bad stuff. After putting so much love and effort into these vulnerable little babies, it broke our hearts and gave us terrible anxiety. Something HAD to give. In the end, I reached out to a woman I bought some ice skates from on craigslist this winter, who used to work in cat rescue. She connected us with a good rescue organization that helped find a home for two of the five kittens, which was all we needed!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am going to write today about the experience I had helping my sister with her kittens. My sister discovered that a feral cat had broken into her garage and raised a litter of kittens! When she found them they were WILD, and she had to wear oven mitts to catch them. She slowly socialized the group and worked with local agencies to trap/nueter/return (TNR) the parents. I helped in the process of finding the babies homes, and it was way more than I ever bargained for! I created an online adoption application form for potential adopters to fill out, and then we started advertising! I made cute little kitty picture collages and wrote nice ads. It was all looking very good. Then, the applications started POURING in. The problem: everyone wanted the same kitten. It was such a circus! 99% of the people applying were not fit pet parents! Some were downright disturbing: weird animal collectors, people who wanted a kitten to basically be a toy for a toddler, so much bad stuff. After putting so much love and effort into these vulnerable little babies, it broke our hearts and gave us terrible anxiety. Something HAD to give. In the end, I reached out to a woman I bought some ice skates from on craigslist this winter, who used to work in cat rescue. She connected us with a good rescue organization that helped find a home for two of the five kittens, which was all we needed!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The rest were adopted by a kind woman who had a big heart and knew how to care for them. The experience was tough but we learned a lot, and the kittens are now all happy and healthy in their new homes.\n\n"
+            }
+        ],
+        "request_id": "811ebce76def4213-EWR"
+    }
+}

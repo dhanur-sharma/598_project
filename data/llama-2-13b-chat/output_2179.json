@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: after years of contemplation we decided to move from new york  (where we lived most of our lives) to california.  The reason for this was twofold. Number one was to be closer to family already settled in california. Number two was a sense of needed change in our lives. We are seniors and the whole experience was very daunting. Selling our house that we lived in over 40 years was a struggle. Then we had the issue of what to do with our to beloved dogs.  This caused internal family problems that still haven't been totally resolved as of this date. Finding a new place to live remotely was an issue that was helped somewhat by the help from our family and by extensive use of the internet. As it turned out, we ended up with a home that someone off offhandedly remarked was available and it turned out to be just right for us. Next objective was to buy a car. Very little funds were available. The car shopping took time. Many hours spent shopping around. Finally the right car at the right price was found. The purchase transaction went smoothly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: after years of contemplation we decided to move from new york  (where we lived most of our lives) to california.  The reason for this was twofold. Number one was to be closer to family already settled in california. Number two was a sense of needed change in our lives. We are seniors and the whole experience was very daunting. Selling our house that we lived in over 40 years was a struggle. Then we had the issue of what to do with our to beloved dogs.  This caused internal family problems that still haven't been totally resolved as of this date. Finding a new place to live remotely was an issue that was helped somewhat by the help from our family and by extensive use of the internet. As it turned out, we ended up with a home that someone off offhandedly remarked was available and it turned out to be just right for us. Next objective was to buy a car. Very little funds were available. The car shopping took time. Many hours spent shopping around. Finally the right car at the right price was found. The purchase transaction went smoothly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We have been in our new home now for about six months and we are still in the process of getting settled. We have made some new friends and we are slowly adjusting to the california lifestyle. The move was difficult but it was necessary and we are glad we did it.\n\n"
+            }
+        ],
+        "request_id": "811eb1e34f384207-EWR"
+    }
+}

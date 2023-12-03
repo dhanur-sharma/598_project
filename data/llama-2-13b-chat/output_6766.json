@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Thanks to my pals constantly remonding me to show up, I gave in and drove out to the game. The weather was lovely. I found out, suddenly that the traffic was being rerouted and I was forced to park far away. I walked to the north entrance.  Walking felt awful because the sun was bright and was getting hot. there were cops everywhere. One policeman was very kind to a couple of ladies. I asked him about the north entrance to the game. He gave me directions. the he did something unexpected. Cops dot do that. He told me how to get there, he told me that the game would start a little later because they knew about teh detour. He also pointed to some other pedestrians who were walking. He motioned them to come over. He told them that I was going to the game too.  I thanked him so mnay times that he started giggling. and blushing. I walked to the stadium with my new found guides and was teher before long.  Then my friends found me. We all sat close to each other, after exchanging seats. We rooted for the same team. I expected to be miserable, but that was so fun that I am looking to another game again. I keep thinking of how kind the cop was."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Thanks to my pals constantly remonding me to show up, I gave in and drove out to the game. The weather was lovely. I found out, suddenly that the traffic was being rerouted and I was forced to park far away. I walked to the north entrance.  Walking felt awful because the sun was bright and was getting hot. there were cops everywhere. One policeman was very kind to a couple of ladies. I asked him about the north entrance to the game. He gave me directions. the he did something unexpected. Cops dot do that. He told me how to get there, he told me that the game would start a little later because they knew about teh detour. He also pointed to some other pedestrians who were walking. He motioned them to come over. He told them that I was going to the game too.  I thanked him so mnay times that he started giggling. and blushing. I walked to the stadium with my new found guides and was teher before long.  Then my friends found me. We all sat close to each other, after exchanging seats. We rooted for the same team. I expected to be miserable, but that was so fun that I am looking to another game again. I keep thinking of how kind the cop was.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so happy I went.\n\n"
+            }
+        ],
+        "request_id": "811f4c639e135e80-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I hadn't seen my sister in a while. I wanted to do something together with her. She told me she needed to go get the gender reveal from her doctor about her baby. I was excited to go with her. We arrived early because we were so excited. She got the information but she kept it secret from me. When we were done I asked if it was ok to go visit my best friend. I hadn't seen her in long time either. And I know her and my sister get along pretty well so I thought it would be fun for all of us. We all decided to go out for coffee. We all havea great time. It was nice to just sit around and talk. We talked about life. We talked about the things that have been getting us down. IT was quite a full day but I enjoyed it a lot."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I hadn't seen my sister in a while. I wanted to do something together with her. She told me she needed to go get the gender reveal from her doctor about her baby. I was excited to go with her. We arrived early because we were so excited. She got the information but she kept it secret from me. When we were done I asked if it was ok to go visit my best friend. I hadn't seen her in long time either. And I know her and my sister get along pretty well so I thought it would be fun for all of us. We all decided to go out for coffee. We all havea great time. It was nice to just sit around and talk. We talked about life. We talked about the things that have been getting us down. IT was quite a full day but I enjoyed it a lot.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was great to catch up with my sister and spend some time with her. I'm so excited for her and her new baby.\n\n"
+            }
+        ],
+        "request_id": "811f3b05bdde429a-EWR"
+    }
+}

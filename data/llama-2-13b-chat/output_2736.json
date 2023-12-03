@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was stressed out again, i had a million and one things to do, and not enough help to do it. This new event has put so many things on my plate, i dont know how to handle it. My company employee's more then enough able working people, but i can never get the help that i need. I have this weeks event, next weeks, next months, and 20 more on the list. When things get tough, i get tougher. I dont know how i can keep getting more to do, when i have not even cleared last weeks agenda off my calendar. I dont think things will change, we are trying to grow our team, but even that is stressful. Hiring new people can be a frustration. The candidates on paper and in interview are sometimes absolutely perfect. Then, they get on the payroll, and everything falls apart. They pull the good workers away from their tasks to help out with the mundane stuff that they should be able to cover. The people i could be using, are stuck aiding them, and i am stuck falling further, and further behind. There are only so many things one person can do, even if they can normally accomplish so much more. One day i will be the head of this company, and i will hire the right people. I will make sure my staff gets the time they need, to do the job i am paying them for."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was stressed out again, i had a million and one things to do, and not enough help to do it. This new event has put so many things on my plate, i dont know how to handle it. My company employee's more then enough able working people, but i can never get the help that i need. I have this weeks event, next weeks, next months, and 20 more on the list. When things get tough, i get tougher. I dont know how i can keep getting more to do, when i have not even cleared last weeks agenda off my calendar. I dont think things will change, we are trying to grow our team, but even that is stressful. Hiring new people can be a frustration. The candidates on paper and in interview are sometimes absolutely perfect. Then, they get on the payroll, and everything falls apart. They pull the good workers away from their tasks to help out with the mundane stuff that they should be able to cover. The people i could be using, are stuck aiding them, and i am stuck falling further, and further behind. There are only so many things one person can do, even if they can normally accomplish so much more. One day i will be the head of this company, and i will hire the right people. I will make sure my staff gets the time they need, to do the job i am paying them for.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My company is amazing, but i need the right people in the right places. I am so stressed out.\n\n"
+            }
+        ],
+        "request_id": "811ebcc548fe5e7f-EWR"
+    }
+}

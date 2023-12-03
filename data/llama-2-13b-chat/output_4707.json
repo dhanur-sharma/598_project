@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was doing some work in my room when I get a video call from my roommate. I answer and he asks me if I want to go to the store. I agree, throw a shirt on and we head out. As we are parking, he says he fees something on his leg. We get out and look by the pedals to see if we see anything. As I turn my flashlight on, we see a bunch of spider-webs and a small spider crawling under the steering wheel.     My roommate starts freaking out and telling me to get it, but by the time I grabbed something, the spider was gone under the steering column. We proceed inside the store and come back in about 15 minutes. Now my roommate waits outside the car for about 5 minutes scared to get back in because the spider might still be there. Finally I just offer to drive because I'm hungry and I want to get back home. I wipe away all the webs and get in the car. We didn't see any other signs of the spider.  The next morning when my roommate was on his way to work, he opens his car door to find more spider webs. He called an uber and told me to have a car cleaning service come clean his car out while he was at work. This is the furthest I have ever seen anybody go for a tiny spider."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was doing some work in my room when I get a video call from my roommate. I answer and he asks me if I want to go to the store. I agree, throw a shirt on and we head out. As we are parking, he says he fees something on his leg. We get out and look by the pedals to see if we see anything. As I turn my flashlight on, we see a bunch of spider-webs and a small spider crawling under the steering wheel.     My roommate starts freaking out and telling me to get it, but by the time I grabbed something, the spider was gone under the steering column. We proceed inside the store and come back in about 15 minutes. Now my roommate waits outside the car for about 5 minutes scared to get back in because the spider might still be there. Finally I just offer to drive because I'm hungry and I want to get back home. I wipe away all the webs and get in the car. We didn't see any other signs of the spider.  The next morning when my roommate was on his way to work, he opens his car door to find more spider webs. He called an uber and told me to have a car cleaning service come clean his car out while he was at work. This is the furthest I have ever seen anybody go for a tiny spider.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bdc468e754304-EWR"
+    }
+}

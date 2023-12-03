@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still have the same new crappy neighbors. I have noticed they do not hang their flag every day. The church signs are gone since the neighborhood put up the, 'all are welcome in our USA.' signs. And not many on our quiet street stop and talk to them. The kid still practices his asian weapons in the driveway. He's mid twenties, dressed in all black and practicing weapons in his driveway with friends every night is intimidating. This is a generally liberal university town with huge marches since the tRump misAdministration began. Marches against jailing migrant children, removing rights from LGBTIA community, slashing the Affordable Care Act, states virtually illegalizing abortion, climate/environmental policy have all happeneds here. I guess they figured they don't fit in. Figured out many of their religious values of intolerance and judgment are rare in this town. I feel supported by neighbors. They still cost me $600 a month. I can't rent my spare room. No one wants to live by weapons practice. Or can sleep through their A/C running 24/7 when 55 degrees out. It's the same situation."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still have the same new crappy neighbors. I have noticed they do not hang their flag every day. The church signs are gone since the neighborhood put up the, 'all are welcome in our USA.' signs. And not many on our quiet street stop and talk to them. The kid still practices his asian weapons in the driveway. He's mid twenties, dressed in all black and practicing weapons in his driveway with friends every night is intimidating. This is a generally liberal university town with huge marches since the tRump misAdministration began. Marches against jailing migrant children, removing rights from LGBTIA community, slashing the Affordable Care Act, states virtually illegalizing abortion, climate/environmental policy have all happeneds here. I guess they figured they don't fit in. Figured out many of their religious values of intolerance and judgment are rare in this town. I feel supported by neighbors. They still cost me $600 a month. I can't rent my spare room. No one wants to live by weapons practice. Or can sleep through their A/C running 24/7 when 55 degrees out. It's the same situation.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just have a flag now.\"\n\n"
+            }
+        ],
+        "request_id": "811e9b5f1aec428f-EWR"
+    }
+}

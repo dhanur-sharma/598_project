@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was getting burnt out at my job of many years and was looking for a change.  On a whim I decided to apply for a job that was related to my field but that I had no experience or expertise in.  The job was far above what I currently had in terms of position, responsibility, and salary.  The job was also half way across the country.  To my surprise I was called for an interview and made it past the first round.  I was called back to go onsite to do a formal interview and they loved me.  I was so surprised to get offered the job because I was not a perfect fit for it by any means.  I would have to learn a lot and pursue an additional degree.  My wife and daughter were excited about what lay ahead for us and the prospect of moving.  We relocated from NJ to TN and it was culture shock.  But exactly what we needed at that time.   We were all happy with the decision and the opportunity.  I was nervous about the pressure to do well in an unfamiliar role.  I was concerned about the learning curve and if I would catch on quick.  I was elated to find out that I did just fine.  Everything turned out great."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was getting burnt out at my job of many years and was looking for a change.  On a whim I decided to apply for a job that was related to my field but that I had no experience or expertise in.  The job was far above what I currently had in terms of position, responsibility, and salary.  The job was also half way across the country.  To my surprise I was called for an interview and made it past the first round.  I was called back to go onsite to do a formal interview and they loved me.  I was so surprised to get offered the job because I was not a perfect fit for it by any means.  I would have to learn a lot and pursue an additional degree.  My wife and daughter were excited about what lay ahead for us and the prospect of moving.  We relocated from NJ to TN and it was culture shock.  But exactly what we needed at that time.   We were all happy with the decision and the opportunity.  I was nervous about the pressure to do well in an unfamiliar role.  I was concerned about the learning curve and if I would catch on quick.  I was elated to find out that I did just fine.  Everything turned out great.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I learned a lot and was able to excel in the new role.\n\n"
+            }
+        ],
+        "request_id": "811eac1638fc0cb0-EWR"
+    }
+}

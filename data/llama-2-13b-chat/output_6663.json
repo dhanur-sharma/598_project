@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Wow,  we did it. The Law Office of Hamlin Hamlin and McGill gave me a shot as a junior attorney to try one of the biggest medical malpractice cases the office had ever seen. Mr McGill himself  worked closely with me on this case. We worked so hard, it was so stressful. At times, I thought we were going to lose. Mr McGill told me to just keep my cool and don't worry about those little pitfalls in the case. He told me, just keep your eye on the finish line. Keep delivering the facts to the jury and the facts will speak for themselves. And boy was he right! Even through all the stress, this was such an amazing and fun experience. I learned so much from this. And we won the largest verdict the firm has ever seen. We won $65 million dollars! At our firm, we are not greedy like many other law firms out there, so our client was stunned to find out that they will be taking home $40 million of that! My cut of that is a cool $1 million! Wow, I'm so glad I volunteered for this trial and that Mr McGill actually let me participate."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Wow,  we did it. The Law Office of Hamlin Hamlin and McGill gave me a shot as a junior attorney to try one of the biggest medical malpractice cases the office had ever seen. Mr McGill himself  worked closely with me on this case. We worked so hard, it was so stressful. At times, I thought we were going to lose. Mr McGill told me to just keep my cool and don't worry about those little pitfalls in the case. He told me, just keep your eye on the finish line. Keep delivering the facts to the jury and the facts will speak for themselves. And boy was he right! Even through all the stress, this was such an amazing and fun experience. I learned so much from this. And we won the largest verdict the firm has ever seen. We won $65 million dollars! At our firm, we are not greedy like many other law firms out there, so our client was stunned to find out that they will be taking home $40 million of that! My cut of that is a cool $1 million! Wow, I'm so glad I volunteered for this trial and that Mr McGill actually let me participate.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I learned so much and got to take home a nice paycheck for my hard work.\n\n"
+            }
+        ],
+        "request_id": "811f4a2d89720c96-EWR"
+    }
+}

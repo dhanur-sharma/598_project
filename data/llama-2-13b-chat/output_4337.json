@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a rough two weeks, since the passing of our beloved dog Spot. We knew he was sick - he had been sick for about five months, diagnosed with a rare case of bladder cancer. However, we didn't know how bad it was. On that dreadful morning, two weeks ago, his passing took us completely by surprise. Spot was acting his usual self, other than a lack of appetite and energy. He was still happy, friendly, and full of life. The doctor told us he had about a year to live, if he didn't make a full recovery. Our hopes were high, and we were hoping for the best. So was Spot. He knew he could over come it. But then the worst happened. Spot threw up about 3 or 4 times that morning. We knew something was up, so we took him to the vet. He spent his last waking moments on the vet bed. The doctor examined Spot, and told us that the cancer had spread throughout his body. Spot would not make it much longer. With heavy hearts, we decided to put Spot out of his misery, and let him go on to a better place. The doctor put Spot down, with all of us surrounding him for his last moments."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a rough two weeks, since the passing of our beloved dog Spot. We knew he was sick - he had been sick for about five months, diagnosed with a rare case of bladder cancer. However, we didn't know how bad it was. On that dreadful morning, two weeks ago, his passing took us completely by surprise. Spot was acting his usual self, other than a lack of appetite and energy. He was still happy, friendly, and full of life. The doctor told us he had about a year to live, if he didn't make a full recovery. Our hopes were high, and we were hoping for the best. So was Spot. He knew he could over come it. But then the worst happened. Spot threw up about 3 or 4 times that morning. We knew something was up, so we took him to the vet. He spent his last waking moments on the vet bed. The doctor examined Spot, and told us that the cancer had spread throughout his body. Spot would not make it much longer. With heavy hearts, we decided to put Spot out of his misery, and let him go on to a better place. The doctor put Spot down, with all of us surrounding him for his last moments.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a very sad day, but we are glad we could be there for him in his final moments.\n\n"
+            }
+        ],
+        "request_id": "811bd4c77a038cee-EWR"
+    }
+}

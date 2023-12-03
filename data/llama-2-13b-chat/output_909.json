@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's been over six months since I crashed my bike. I remember it like it was yesterday. The pain was unreal. I was riding through the neighborhood to work at my part time pizza job. No, I don't deliver on the bike, I just make the pizzas inside the store. Well, I'm really not sure what happened. I live in a rough neighborhood, so I think my wheel hit a piece of broken concrete. Next thing I knew, I was face first into cement. The way I landed, I actually broke my ankle. It swelled up immediately, and the pain was unreal. A nice old lady sat with me while the ambulance came. I didn't have health insurance, and still don't,  so I sobbed from both pain and stress. Hospital  visit was frustrating. I was there almost five hours and all they did was give me crutches and a cast. Not being able to get around was really the worst part. I got behind on bills and paid my credit card a couple months late. That was fun. Being a part time employee meant no benefits of course. I actually had to move back in with my mom after that. But it's okay, I was able to get healthy and I actually ended up enrolling in online classes. It's going pretty well. Hopefully I will get a better job soon. My life was really going no where so maybe the bike crash was a blessing in disguise."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's been over six months since I crashed my bike. I remember it like it was yesterday. The pain was unreal. I was riding through the neighborhood to work at my part time pizza job. No, I don't deliver on the bike, I just make the pizzas inside the store. Well, I'm really not sure what happened. I live in a rough neighborhood, so I think my wheel hit a piece of broken concrete. Next thing I knew, I was face first into cement. The way I landed, I actually broke my ankle. It swelled up immediately, and the pain was unreal. A nice old lady sat with me while the ambulance came. I didn't have health insurance, and still don't,  so I sobbed from both pain and stress. Hospital  visit was frustrating. I was there almost five hours and all they did was give me crutches and a cast. Not being able to get around was really the worst part. I got behind on bills and paid my credit card a couple months late. That was fun. Being a part time employee meant no benefits of course. I actually had to move back in with my mom after that. But it's okay, I was able to get healthy and I actually ended up enrolling in online classes. It's going pretty well. Hopefully I will get a better job soon. My life was really going no where so maybe the bike crash was a blessing in disguise.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9a442fa10ca8-EWR"
+    }
+}

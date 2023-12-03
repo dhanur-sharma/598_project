@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I went out with my wife. We like to get out now and then, when our schedules cooperate together. After walking around some shops, we ended up bumping into a couple of our friends. At first, I wasn't too interesting on hanging out with them, but their moods were infectious. My wife had a hard time saying no as well, so it wasn't just me. Apparently they were all going to the state fair, and wanted us to go along. They made their cases about how we never see each other, and we agreed it had been quite some time since we had done something together. I kept double checking on the sly with my wife to make sure she was okay with it. Thankfully, she was. The fair turned out to be a lot of fun, and we all had a lovely time. We rode some rides, my wife won me a prize, which was funny. Afterwards, we decided to go to a local pub and have a few drinks. I just had a beer, and my wife had some wine. Then the karaoke happened, which I got out of. My wife, however, was a karaoke nut with one of our friends, and they sang a bunch of Taylor Swift songs. The bar was pretty slow, surprisingly, so we had the karaoke to ourselves. It was a blast."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I went out with my wife. We like to get out now and then, when our schedules cooperate together. After walking around some shops, we ended up bumping into a couple of our friends. At first, I wasn't too interesting on hanging out with them, but their moods were infectious. My wife had a hard time saying no as well, so it wasn't just me. Apparently they were all going to the state fair, and wanted us to go along. They made their cases about how we never see each other, and we agreed it had been quite some time since we had done something together. I kept double checking on the sly with my wife to make sure she was okay with it. Thankfully, she was. The fair turned out to be a lot of fun, and we all had a lovely time. We rode some rides, my wife won me a prize, which was funny. Afterwards, we decided to go to a local pub and have a few drinks. I just had a beer, and my wife had some wine. Then the karaoke happened, which I got out of. My wife, however, was a karaoke nut with one of our friends, and they sang a bunch of Taylor Swift songs. The bar was pretty slow, surprisingly, so we had the karaoke to ourselves. It was a blast.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just sat back and watched my wife and our friends have a great time. All in all, it was a fantastic night out. I'm glad I went, and I'm glad my wife had fun too."
+            }
+        ],
+        "request_id": "811e9966ada118fa-EWR"
+    }
+}

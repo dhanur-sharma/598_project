@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: She is my oldest \"stepdaughter\"; my wife's daughter from her first marriage. He died in a tragic car accident. Now I'm facing cancer. I know she is terrified. We have our own daughter together and she is just 13. If I die, they'll be left all alone. The well being of the entire family  is why I encouraged Lily's sister, Jill, to move in to help out the family. Lily loves her older sister; Jill is 21. She will feel safer with her around. I had not imagined this for our family. We have to face life as it comes to us and family matters the most. Friends are fair weather and some may even be there for the hard times, but family understands and loves the deepest. My sister was there for my mother when she was dying after a severe stroke. I know that my mother so appreciated it. I was not in France when my mother suddenly became ill as my wife was pregnant here in the USA and I had to be with her. My sister was able to be with my mother and it meant the world to the entire family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: She is my oldest \"stepdaughter\"; my wife's daughter from her first marriage. He died in a tragic car accident. Now I'm facing cancer. I know she is terrified. We have our own daughter together and she is just 13. If I die, they'll be left all alone. The well being of the entire family  is why I encouraged Lily's sister, Jill, to move in to help out the family. Lily loves her older sister; Jill is 21. She will feel safer with her around. I had not imagined this for our family. We have to face life as it comes to us and family matters the most. Friends are fair weather and some may even be there for the hard times, but family understands and loves the deepest. My sister was there for my mother when she was dying after a severe stroke. I know that my mother so appreciated it. I was not in France when my mother suddenly became ill as my wife was pregnant here in the USA and I had to be with her. My sister was able to be with my mother and it meant the world to the entire family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will have to write a will, but I will not name any of my friends. My wife and our two daughters will be the only ones named in the will. I know that they will be okay no matter what happens. I am scared, but I know that they will be okay.\n\n"
+            }
+        ],
+        "request_id": "811e8e13ce74c3f3-EWR"
+    }
+}

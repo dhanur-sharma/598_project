@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My fiancee, Rebecca, revealed to me that she's pregnant. I can't get over how excited she is. Though I have to admit I'm not as excited. We spent a lot of time looking over baby books and looking over our finances. She doesn't make very much and we rely heavily on my income to pay for most things. She didn't seem too worried. I think she should be. Babies cost a fortune to raise, or so I've been told.  I don't think she has any idea. There are a lot of things she has no idea about, things I haven't told her. I've been holding on to a secret for years now. I have been too afraid to tell her because I wasn't sure how she would react. Now I have no choice. I've been reading baby books and planning with her just to buy time. Now I have to tell her the truth, that I'm infertile. My world has fallen apart."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My fiancee, Rebecca, revealed to me that she's pregnant. I can't get over how excited she is. Though I have to admit I'm not as excited. We spent a lot of time looking over baby books and looking over our finances. She doesn't make very much and we rely heavily on my income to pay for most things. She didn't seem too worried. I think she should be. Babies cost a fortune to raise, or so I've been told.  I don't think she has any idea. There are a lot of things she has no idea about, things I haven't told her. I've been holding on to a secret for years now. I have been too afraid to tell her because I wasn't sure how she would react. Now I have no choice. I've been reading baby books and planning with her just to buy time. Now I have to tell her the truth, that I'm infertile. My world has fallen apart.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have no idea how I'm going to tell her.  \n\n"
+            }
+        ],
+        "request_id": "811e8e213e920f84-EWR"
+    }
+}

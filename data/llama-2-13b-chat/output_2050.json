@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently I went on a trip with some friends to Wilmington, an area in NC near a beach. I spent my first weekend away since giving birth to my son and I really needed it. He is 18 months and was with my boyfriend, his father the whole weekend. When I came back Sunday afternoon, I saw that my son's toe was really red. I was worried about it and he kept pointing to it, even though he could not talk, I could tell it was bothering him. We called the doctor on the video call to try and see if they would give us some advice and ultimately we had to go into urgent care. We only had 20 minutes before the urgent care would stop taking patients so by that time I rushed over and got him checked in. I was so worried it would be something bad. Since it was his big toe, worst case scenario, he would lose it and never be able to walk right again. Turns out it was just cellulitis which is an infection but nothing severe. We were given antibiotics for my little man and went on our way. A few days later our son wakes up from his nap with a hot of red bumps and spots all over his body. We rush to the doctor because we are so worried about what it might be, bug bites, measels, etc. But we find out it was just a delayed reaction to the antibiotics. I am personally allergic to penicillin and turns out my son was allergic as well and I didn't realize amoxicillin was a type of penicillin. We stopped the antibiotics because he was all better anyway and gave him an antihistimine and now he is 100% better now"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently I went on a trip with some friends to Wilmington, an area in NC near a beach. I spent my first weekend away since giving birth to my son and I really needed it. He is 18 months and was with my boyfriend, his father the whole weekend. When I came back Sunday afternoon, I saw that my son's toe was really red. I was worried about it and he kept pointing to it, even though he could not talk, I could tell it was bothering him. We called the doctor on the video call to try and see if they would give us some advice and ultimately we had to go into urgent care. We only had 20 minutes before the urgent care would stop taking patients so by that time I rushed over and got him checked in. I was so worried it would be something bad. Since it was his big toe, worst case scenario, he would lose it and never be able to walk right again. Turns out it was just cellulitis which is an infection but nothing severe. We were given antibiotics for my little man and went on our way. A few days later our son wakes up from his nap with a hot of red bumps and spots all over his body. We rush to the doctor because we are so worried about what it might be, bug bites, measels, etc. But we find out it was just a delayed reaction to the antibiotics. I am personally allergic to penicillin and turns out my son was allergic as well and I didn't realize amoxicillin was a type of penicillin. We stopped the antibiotics because he was all better anyway and gave him an antihistimine and now he is 100% better now",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ". This was a scary experience but I learned to always be aware of what medication I am giving my child and to always double check the ingredients before giving it to them.\n\n"
+            }
+        ],
+        "request_id": "811eaf4ac8578c8a-EWR"
+    }
+}

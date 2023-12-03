@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago, I lost one of my best friends. Buddy, my German shepherd that I've had since I was 10, died after 15 years. I was lucky he lived so long, but still. 15 years is so short. Why do they only live so little? We deserve more time with them right? They deserve longer lives, but that's not what they get. I'm glad for the time I had with him. He made me really happy. During the times that I struggled the most at school and home, he was there. He always climbed up in bed to comfort me when I would cry. He would jump on the side of the bed to wake me up and then pull me outside once I got the leash on him. He always wanted to go for walks and play. I loved that dog. He was my first dog. I chose him myself. I also named him. At least he died of old age. At least we didn't have to put him down. I'm going to miss him. He was such a good boy."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago, I lost one of my best friends. Buddy, my German shepherd that I've had since I was 10, died after 15 years. I was lucky he lived so long, but still. 15 years is so short. Why do they only live so little? We deserve more time with them right? They deserve longer lives, but that's not what they get. I'm glad for the time I had with him. He made me really happy. During the times that I struggled the most at school and home, he was there. He always climbed up in bed to comfort me when I would cry. He would jump on the side of the bed to wake me up and then pull me outside once I got the leash on him. He always wanted to go for walks and play. I loved that dog. He was my first dog. I chose him myself. I also named him. At least he died of old age. At least we didn't have to put him down. I'm going to miss him. He was such a good boy.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish he could be here.\n\n"
+            }
+        ],
+        "request_id": "811eb0d64fbf8c2a-EWR"
+    }
+}

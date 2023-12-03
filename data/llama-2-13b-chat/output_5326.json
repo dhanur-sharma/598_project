@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went on a vacation to my cousin's house in Tennessee. This trip was meant to celebrate the 4th of July. They had a very large house and we played a lot of games and it was a fun time. We spent a lot of time in the yard playing. After that we had a big family dinner with all of family. After that we all went to bed. In the morning we had a large breakfast. After that we played for a little while longer and then said good byes. Overall I think the trip was a very fun time. I got more of a chance to play outside than I normally do. We had all different kinds of games and it felt like there was a never ending list of things to do. It's always very fun to be able to catch up with them. I don't get to see this part of my family very often so it was a very fond memory and I was surprised how much everyone had grown. I really enjoy being out there because there is house is further away from the city than mine is. I always enjoy going out there because my aunt is a very good cook. I hope I can start taking these trips more regularly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went on a vacation to my cousin's house in Tennessee. This trip was meant to celebrate the 4th of July. They had a very large house and we played a lot of games and it was a fun time. We spent a lot of time in the yard playing. After that we had a big family dinner with all of family. After that we all went to bed. In the morning we had a large breakfast. After that we played for a little while longer and then said good byes. Overall I think the trip was a very fun time. I got more of a chance to play outside than I normally do. We had all different kinds of games and it felt like there was a never ending list of things to do. It's always very fun to be able to catch up with them. I don't get to see this part of my family very often so it was a very fond memory and I was surprised how much everyone had grown. I really enjoy being out there because there is house is further away from the city than mine is. I always enjoy going out there because my aunt is a very good cook. I hope I can start taking these trips more regularly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2f1cdc4a4378-EWR"
+    }
+}

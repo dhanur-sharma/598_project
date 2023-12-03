@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I had given my final exams. Vacations were coming up, and I had nothing much to do. I talked to my mother, who lives away, and I told her that I am coming over for my vacations. She told me that my grandmother has not been feeling very well lately, and I should see her. It sounded like a good idea, and I changed my plan. Instead, I visited my grandmother in the hospital, and decided that I would stay there for a week. Doctors told me that due to her diabetes, she has been feeling very unwell. However, I thought it was because of loneliness, since she also used to live alone. She was very happy to see me, and even happier when she got to know that I am there to stay with her. I brought over some books, which I used to read it to her. She had been showing a tremendous positive progress since I had went to her. After a week, I had to go back to my home to meet my family. I felt really upset on leaving her alone like that. After some days, the doctors told that her health is declining again, and it would be very difficult for her to survive. The news was indeed very saddening, however I was thankful that I got to spend her last days together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I had given my final exams. Vacations were coming up, and I had nothing much to do. I talked to my mother, who lives away, and I told her that I am coming over for my vacations. She told me that my grandmother has not been feeling very well lately, and I should see her. It sounded like a good idea, and I changed my plan. Instead, I visited my grandmother in the hospital, and decided that I would stay there for a week. Doctors told me that due to her diabetes, she has been feeling very unwell. However, I thought it was because of loneliness, since she also used to live alone. She was very happy to see me, and even happier when she got to know that I am there to stay with her. I brought over some books, which I used to read it to her. She had been showing a tremendous positive progress since I had went to her. After a week, I had to go back to my home to meet my family. I felt really upset on leaving her alone like that. After some days, the doctors told that her health is declining again, and it would be very difficult for her to survive. The news was indeed very saddening, however I was thankful that I got to spend her last days together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811f40efff0842cb-EWR"
+    }
+}

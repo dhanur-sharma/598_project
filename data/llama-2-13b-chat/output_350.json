@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 6 Weeks ago me and my wife were leaving to go on a fun trip to Washington state. We weren't going to stay in Seattle, but really get out in the wilderness for this vacation. So we drove out to Washington and made our way out into the back country. We wanted to first go hiking and camping at Olympic National park. We were hoping the weather would be nice and that we wouldn't have any trouble. The weather did turn out nice and we made our way hiking into the park. There were many interesting paths around the park and we got to see many amazing sites. The mountains, forests, streams and odd bit of wildlife all added to how awed we were by it all. We were having such a good time, instead of moving off toward other parks, we spent an extra day at the park. Once we had packed up our camping gear we went on with the rest of the trip. We left to do the other half of our trip plan, which was mostly driving and exploring. We drive around the state seeing all that we could see and remaining floored by the beauty. Unfortunately the weather turned to rain during this part of our trip, but we powered through. We wish that we could have had more time out there, but we had to come home. It ended up being one of our best trips."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 6 Weeks ago me and my wife were leaving to go on a fun trip to Washington state. We weren't going to stay in Seattle, but really get out in the wilderness for this vacation. So we drove out to Washington and made our way out into the back country. We wanted to first go hiking and camping at Olympic National park. We were hoping the weather would be nice and that we wouldn't have any trouble. The weather did turn out nice and we made our way hiking into the park. There were many interesting paths around the park and we got to see many amazing sites. The mountains, forests, streams and odd bit of wildlife all added to how awed we were by it all. We were having such a good time, instead of moving off toward other parks, we spent an extra day at the park. Once we had packed up our camping gear we went on with the rest of the trip. We left to do the other half of our trip plan, which was mostly driving and exploring. We drive around the state seeing all that we could see and remaining floored by the beauty. Unfortunately the weather turned to rain during this part of our trip, but we powered through. We wish that we could have had more time out there, but we had to come home. It ended up being one of our best trips.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e90156954427c-EWR"
+    }
+}

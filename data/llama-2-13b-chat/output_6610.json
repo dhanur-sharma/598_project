@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I had trying to get pregnant again for almost a year. We were starting to get frustrated but where doing ok. Well, it finally happened but that's just were the story begins. We were super excited that it finally happened but both of us kept having this nagging feeling that maybe we were getting more than we bargained for. After a few weeks we went in for a preliminary ultrasound just to make sure that everything was alright. As soon as the tech brought up the image our intuition was proven correct. We were having twins. Everyone was crazy excited and it's been a lot of fun but also a lot of worry. I never realized how much more involved a twin pregnancy is compared to a singleton. We have had to go get ultrasounds every other week and we still don't know if there are problems with one of the babies. We know that his umbilical cord is missing an artery so he is on the small side. By itself that's a not a big issue. However, he might have a problem with how his internal organs are developing as well. It might require surgery after birth. That's a little stressful but I believe things will work out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I had trying to get pregnant again for almost a year. We were starting to get frustrated but where doing ok. Well, it finally happened but that's just were the story begins. We were super excited that it finally happened but both of us kept having this nagging feeling that maybe we were getting more than we bargained for. After a few weeks we went in for a preliminary ultrasound just to make sure that everything was alright. As soon as the tech brought up the image our intuition was proven correct. We were having twins. Everyone was crazy excited and it's been a lot of fun but also a lot of worry. I never realized how much more involved a twin pregnancy is compared to a singleton. We have had to go get ultrasounds every other week and we still don't know if there are problems with one of the babies. We know that his umbilical cord is missing an artery so he is on the small side. By itself that's a not a big issue. However, he might have a problem with how his internal organs are developing as well. It might require surgery after birth. That's a little stressful but I believe things will work out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We are just trying to stay positive and enjoy the journey.\n\n"
+            }
+        ],
+        "request_id": "811f4904cf4c43c8-EWR"
+    }
+}

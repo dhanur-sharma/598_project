@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, I lost my favorite aunt. It happened all of a sudden and the family is still in shock. What happened was, she had been complaining of back and hip pain. The doctors were not able to help or correctly diagnose her. A day before she passed away, she had fallen in her home. We had been trying to call her with no luck. My cousin (her son) went to find out what was wrong and found her on the floor. She had fallen and was unable to get up. He rushed her to the hospital. Once there, the emergency staff did several tests on her. She was severely dehydrated and they found that her kidneys were not working properly. The hospital decided that she would have to go on dialysis temporarily. They also found that she had a urinary tract infection and they began giving her antibiotics. However, the infection had spread and she went into cardiac arrest. Later, we were told that she passed away from a staph infection. It all happened so quickly and we are still dealing with the pain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, I lost my favorite aunt. It happened all of a sudden and the family is still in shock. What happened was, she had been complaining of back and hip pain. The doctors were not able to help or correctly diagnose her. A day before she passed away, she had fallen in her home. We had been trying to call her with no luck. My cousin (her son) went to find out what was wrong and found her on the floor. She had fallen and was unable to get up. He rushed her to the hospital. Once there, the emergency staff did several tests on her. She was severely dehydrated and they found that her kidneys were not working properly. The hospital decided that she would have to go on dialysis temporarily. They also found that she had a urinary tract infection and they began giving her antibiotics. However, the infection had spread and she went into cardiac arrest. Later, we were told that she passed away from a staph infection. It all happened so quickly and we are still dealing with the pain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I miss her dearly and wish she was still here.\n\n"
+            }
+        ],
+        "request_id": "811eab5dfcb6c43e-EWR"
+    }
+}

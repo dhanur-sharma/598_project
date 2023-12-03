@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: As a new police officer, I didn't have time to get acclimated. I just dove head first into the deep side of the pool. There was a call to go visit a church late at night, around 11:00 PM, to scout the area. It was exciting, nervewracking, and whatever superlative you feel like adding there. Upon approaching the church, the door was unlocked. This was certainly a sign that someone was in there. At least, we were erring on the side of caution. My partner and I were approaching the situation closely. We didn't know really what to expect. Nobody should have been at this church this late at night. The entire situation was just eerie. But there was a primal excitement that can't be explained. I hadn't been so aware in my life. This was about three weeks ago. I don't know if I've fully come down from that high."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: As a new police officer, I didn't have time to get acclimated. I just dove head first into the deep side of the pool. There was a call to go visit a church late at night, around 11:00 PM, to scout the area. It was exciting, nervewracking, and whatever superlative you feel like adding there. Upon approaching the church, the door was unlocked. This was certainly a sign that someone was in there. At least, we were erring on the side of caution. My partner and I were approaching the situation closely. We didn't know really what to expect. Nobody should have been at this church this late at night. The entire situation was just eerie. But there was a primal excitement that can't be explained. I hadn't been so aware in my life. This was about three weeks ago. I don't know if I've fully come down from that high.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "As a new police officer, I didn't have time to get acclimated. I just dove head first into the deep side of the pool."
+            }
+        ],
+        "request_id": "811f4184ba890c7a-EWR"
+    }
+}

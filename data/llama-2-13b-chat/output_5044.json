@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago I was struggling with a drug I was given for a substance abuse problem. This drug was supposed to be helping to control my cravings for alcohol and heroin.  These had been my drugs of choice for several years now. I had continued to struggle with despite multiple stints attempts at detox and six months at an inpatient rehab. During my latest latest relapse I had entered detox again at my local hospital.  During a little over a week there, I was given several drugs that were supposed to help prevent further relapse from occurring.  It seemed to be working at first. Especially while still in the hospital.  But I quickly became convinced something was wrong. It seemed to be helping immensely with the alcohol cravings, but my cravings for heroin had increased tenfold.  I reentered the detox facility and questioned the doctors.  I was told it was all in my head and to keep it and quickly released.  The cravings worsened. The cravings worsened and I relapsed on heroin.  The relapse worsened and I OD'd.  Fortunately, my boyfriend discovered me and called 911. I was taken by ambulance to the emergency room and revived.  Upon recovery it was discovered that one of the drugs given to me was in fact an opiate derivative and had not only not reduced my cravings but caused my relapse."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago I was struggling with a drug I was given for a substance abuse problem. This drug was supposed to be helping to control my cravings for alcohol and heroin.  These had been my drugs of choice for several years now. I had continued to struggle with despite multiple stints attempts at detox and six months at an inpatient rehab. During my latest latest relapse I had entered detox again at my local hospital.  During a little over a week there, I was given several drugs that were supposed to help prevent further relapse from occurring.  It seemed to be working at first. Especially while still in the hospital.  But I quickly became convinced something was wrong. It seemed to be helping immensely with the alcohol cravings, but my cravings for heroin had increased tenfold.  I reentered the detox facility and questioned the doctors.  I was told it was all in my head and to keep it and quickly released.  The cravings worsened. The cravings worsened and I relapsed on heroin.  The relapse worsened and I OD'd.  Fortunately, my boyfriend discovered me and called 911. I was taken by ambulance to the emergency room and revived.  Upon recovery it was discovered that one of the drugs given to me was in fact an opiate derivative and had not only not reduced my cravings but caused my relapse.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am now suing the hospital for medical malpractice.\n\n"
+            }
+        ],
+        "request_id": "811be32d6a28c3ee-EWR"
+    }
+}

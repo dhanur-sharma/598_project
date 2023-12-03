@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have an uncle I was really close to, he was my dad's youngest brother. When I was a kid he wasn't married and he would take my brother and I to do all kinds of fun stuff, and he was kind of like a big brother and a second father in one. I remember playing monopoly with him, going to the park, he even took us on dates with him and the woman he would marry. Last year I was told via facebook that he went to the hospital with pneumonia. I was worried but I assumed he'd be ok, because it's not like that's uncommon, and if he's at the hospital he'd be fine. But then my dad called the next day and told me they found spots in his lungs. Then they said it was cancer. Apparently it started in his kidney and had already spread all over his body. It was also in his brain and some other places. Then I was really terrified. I bought a plane ticket home but when I landed I checked my phone and my dad had called. I listened to the message and he said my uncle had had cardiac arrest and died. I didn't even make it to the hospital to say goodbye. Everyone was heartbroken. I felt like it was so unfair because people should have a chance to say goodbye. And it was terrifying to think how suddenly it can happen. I had just seen him at Christmas. I miss him so much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have an uncle I was really close to, he was my dad's youngest brother. When I was a kid he wasn't married and he would take my brother and I to do all kinds of fun stuff, and he was kind of like a big brother and a second father in one. I remember playing monopoly with him, going to the park, he even took us on dates with him and the woman he would marry. Last year I was told via facebook that he went to the hospital with pneumonia. I was worried but I assumed he'd be ok, because it's not like that's uncommon, and if he's at the hospital he'd be fine. But then my dad called the next day and told me they found spots in his lungs. Then they said it was cancer. Apparently it started in his kidney and had already spread all over his body. It was also in his brain and some other places. Then I was really terrified. I bought a plane ticket home but when I landed I checked my phone and my dad had called. I listened to the message and he said my uncle had had cardiac arrest and died. I didn't even make it to the hospital to say goodbye. Everyone was heartbroken. I felt like it was so unfair because people should have a chance to say goodbye. And it was terrifying to think how suddenly it can happen. I had just seen him at Christmas. I miss him so much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea3f66ae60f74-EWR"
+    }
+}

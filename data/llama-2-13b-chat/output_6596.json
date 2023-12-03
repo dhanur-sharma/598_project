@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I finally stopped drinking and using drugs. I decided this after almost dying from taking drugs. I was puking from taking too much cocaine. It was a scary trip. I decided to never drink or use drugs as long as I lived. It was tough at first. I had to punch walls to stave off the craving. I decided to go cold turkey. I somehow got over my addiction. I'm glad I stopped taking the drugs and drinking. I feel a lot better now. I got a better job because of it. I look better as well. My family is so proud of me. I will visit them soon. I will talk to them all about my ordeals in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I finally stopped drinking and using drugs. I decided this after almost dying from taking drugs. I was puking from taking too much cocaine. It was a scary trip. I decided to never drink or use drugs as long as I lived. It was tough at first. I had to punch walls to stave off the craving. I decided to go cold turkey. I somehow got over my addiction. I'm glad I stopped taking the drugs and drinking. I feel a lot better now. I got a better job because of it. I look better as well. My family is so proud of me. I will visit them soon. I will talk to them all about my ordeals in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f48a8de981927-EWR"
+    }
+}

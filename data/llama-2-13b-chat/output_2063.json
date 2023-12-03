@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, I got married. It was a homemade backyard wedding. We had spent a year preparing for it. The day was very stressful with all of us running around, trying to make sure everything would be perfect for our special day. When it was finally time for the ceremony, I held my father's arm and we walked down the aisle together. I stood in front of my wife and vowed to be with her and to love her for all my days. It was very warm and peaceful and I was so happy to be where I was in that moment. I looked in my wife's eyes and stroked her hand as she tried not to cry. Her best man was behind her and he wiggled his eyebrows at me which was really funny and I had to try not to laugh. Then my wife messed up her vows and it was so wholesome and sweet and it made me laugh. I felt really warm and fuzzy inside at that moment. The ceremony was fairly short and at the end, my wife grabbed my hand and dragged me down the aisle at a run. It was hilarious and cute. I've thought about that evening every day since it happened. My wife and family and I are still laughing about some of the more memorable moments in the ceremony."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, I got married. It was a homemade backyard wedding. We had spent a year preparing for it. The day was very stressful with all of us running around, trying to make sure everything would be perfect for our special day. When it was finally time for the ceremony, I held my father's arm and we walked down the aisle together. I stood in front of my wife and vowed to be with her and to love her for all my days. It was very warm and peaceful and I was so happy to be where I was in that moment. I looked in my wife's eyes and stroked her hand as she tried not to cry. Her best man was behind her and he wiggled his eyebrows at me which was really funny and I had to try not to laugh. Then my wife messed up her vows and it was so wholesome and sweet and it made me laugh. I felt really warm and fuzzy inside at that moment. The ceremony was fairly short and at the end, my wife grabbed my hand and dragged me down the aisle at a run. It was hilarious and cute. I've thought about that evening every day since it happened. My wife and family and I are still laughing about some of the more memorable moments in the ceremony.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaf89c9b08c0c-EWR"
+    }
+}

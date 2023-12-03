@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was involved in my best friends wedding. First it started the weekend with his bachelor party which was incredible and I put it together. We had old friends we hadnt seen in a while other friends that live further away come for the weekend. We spent the entire night well into the next morning just having fun.  The Saturday was the wedding but since it was later in the afternoon we were able to get ourselves together and get ready. The limo came right on time and amazingly we were all ready to go on time. I could not believe it. The wedding was incredible I was so proud and happy to be there for him. His wife looked amazing and everyone had a great time at the church.  After that we went to the after party and we got there a little later then we thought. We all stopped at a nearby park to take pictures and that took longer then expected and they took a ton of photos. The day was beautiful and the weather was perfect.  The party was great and I thought my speech was not bad either even though I was rather nervous I had been writing the speech for a few days. I am not one to spend a lot of time with it and once I started I basically went off script and spoke from the heart which I knew would happen. The night was great and we all had tons of fun."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was involved in my best friends wedding. First it started the weekend with his bachelor party which was incredible and I put it together. We had old friends we hadnt seen in a while other friends that live further away come for the weekend. We spent the entire night well into the next morning just having fun.  The Saturday was the wedding but since it was later in the afternoon we were able to get ourselves together and get ready. The limo came right on time and amazingly we were all ready to go on time. I could not believe it. The wedding was incredible I was so proud and happy to be there for him. His wife looked amazing and everyone had a great time at the church.  After that we went to the after party and we got there a little later then we thought. We all stopped at a nearby park to take pictures and that took longer then expected and they took a ton of photos. The day was beautiful and the weather was perfect.  The party was great and I thought my speech was not bad either even though I was rather nervous I had been writing the speech for a few days. I am not one to spend a lot of time with it and once I started I basically went off script and spoke from the heart which I knew would happen. The night was great and we all had tons of fun.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad I was a part of my best friends wedding and I will always treasure this memory.\n\n"
+            }
+        ],
+        "request_id": "811ec91e4c464414-EWR"
+    }
+}

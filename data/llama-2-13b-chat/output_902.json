@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have chrones disease. Since my last journal entry I have been to the hospital twice, had two flare-ups, and multiple bouts of pain in the abdomen. Life changing? Yes,. Fun? No, not at all. Since I have last written my journal entry I have had panic attacks. Many panic attacks.  I know this sounds trivial but they start when a flare-up starts and it tunes me into a cycle of throwing up and pain. Thats the worst part of it all is the pain that follows and although I use medical marijuana for PTSD, I am beginning to see that it isnt quite strong enough to stop the pain. I go to the hospital when it gets bad and they have to give me strong stuff to stop it. The thing is, I honestly think I am going to need prescription pain medicine to actually keep around in these events and nowadays you have to be close to dead to get that kind of medicine. I know people abuse it, but people abuse everything and its really just, unfair? In PA, if you have a medical marijuana card, you cant get pain medicine and if I stop using the dispensaries there is no guarantee my doctor will give me pain medicine. It feels like a big mess and thinking about it stresses me even more. Why do we even regulate it?"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have chrones disease. Since my last journal entry I have been to the hospital twice, had two flare-ups, and multiple bouts of pain in the abdomen. Life changing? Yes,. Fun? No, not at all. Since I have last written my journal entry I have had panic attacks. Many panic attacks.  I know this sounds trivial but they start when a flare-up starts and it tunes me into a cycle of throwing up and pain. Thats the worst part of it all is the pain that follows and although I use medical marijuana for PTSD, I am beginning to see that it isnt quite strong enough to stop the pain. I go to the hospital when it gets bad and they have to give me strong stuff to stop it. The thing is, I honestly think I am going to need prescription pain medicine to actually keep around in these events and nowadays you have to be close to dead to get that kind of medicine. I know people abuse it, but people abuse everything and its really just, unfair? In PA, if you have a medical marijuana card, you cant get pain medicine and if I stop using the dispensaries there is no guarantee my doctor will give me pain medicine. It feels like a big mess and thinking about it stresses me even more. Why do we even regulate it?",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Is it really that bad? What do you think? \n\n"
+            }
+        ],
+        "request_id": "811e9a2f7d281801-EWR"
+    }
+}

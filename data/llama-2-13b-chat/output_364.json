@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had decided to go spend my wife's birthday at an all inclusive resort. It was a great time to go because it was the dry season in Central America. We went with her family. I enjoyed going there because it was the first time that I went to one. What I enjoyed the most was that I could go to the buffet line and get all the food that I wanted. I didn't have to worry about tipping or ordering something off the menu. I also enjoyed the open bars. I had alot of different cocktails that I didn't know about before. I got to fill my satisfaction in that area. I also enjoyed the pool area where the entertainment possibilities were endless.  Later at night we went to the night entertainment. There were several dance routines and comedy routines. There was a cocktail bar there as well so that I could enjoy my drinks in different areas. I didn't get to go to the night party but my wife did. The rest of the time there was spent doing the same things for the next couple of days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had decided to go spend my wife's birthday at an all inclusive resort. It was a great time to go because it was the dry season in Central America. We went with her family. I enjoyed going there because it was the first time that I went to one. What I enjoyed the most was that I could go to the buffet line and get all the food that I wanted. I didn't have to worry about tipping or ordering something off the menu. I also enjoyed the open bars. I had alot of different cocktails that I didn't know about before. I got to fill my satisfaction in that area. I also enjoyed the pool area where the entertainment possibilities were endless.  Later at night we went to the night entertainment. There were several dance routines and comedy routines. There was a cocktail bar there as well so that I could enjoy my drinks in different areas. I didn't get to go to the night party but my wife did. The rest of the time there was spent doing the same things for the next couple of days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e906bc9028c27-EWR"
+    }
+}

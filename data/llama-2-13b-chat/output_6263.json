@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been dating my boyfriend for about three years. I'm not pregnant. Our baby has a genetic condition. About four months ago, we went out on a nice date. We ate and talked in the fabulous restaurant. At the end, I got the surprise of my life. The desert was brought out to us. On my plate was written \"Will you marry me?\" in chocolate! Oh my goodness, I was so surprised. This was so unexpected. Tears welled up in my eyes as I gleamed yes to him. Everyone in the restaurant was watching with anticipation and begin clapping and chearing. We hugged and kissed to a round of applause from the staff and other customers. We are beginning our new lives together. We are planning to be married just before the baby is due."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been dating my boyfriend for about three years. I'm not pregnant. Our baby has a genetic condition. About four months ago, we went out on a nice date. We ate and talked in the fabulous restaurant. At the end, I got the surprise of my life. The desert was brought out to us. On my plate was written \"Will you marry me?\" in chocolate! Oh my goodness, I was so surprised. This was so unexpected. Tears welled up in my eyes as I gleamed yes to him. Everyone in the restaurant was watching with anticipation and begin clapping and chearing. We hugged and kissed to a round of applause from the staff and other customers. We are beginning our new lives together. We are planning to be married just before the baby is due.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f421898e532d3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today my dog died. I was running with him in the front yard and he suddenly dropped. His breathing was labored for a few moments and I was foolishly thinking he would catch his breath. He didn't. After a few seconds of not breathing I tried and tried to get him to start again. I did compressions on his side and even tried mouth to mouth and no matter how hard I tried nothing would work. I scooped him up in my arms and ran him to the vet as fast as I could but they were closed. I walked home carrying him, tears streaming down my face hoping for a miracle. One never came. I knew he was old. I'd had him since I was a kid. But I still just was not ready. My mom says that he lived a good life. I know that he was happy. He would meet me at the door every time I got off the school bus. He would eat my scraps at dinner when mom wasn't looking. He'd lay on my feet as I slept, keeping me warm. And now I have to figure out how to live without those things. I know it's not like I lost a parent or sibling, but it hurts because I was responsible for him. It hurts that he died running and exhausted when he should have died just laying down in his bed or something. I just hope that he knew how much he was loved. I buried him in the back yard with his favorite chew toys. My dad went and got a beautiful wooden plaque made for his headstone. I thought that was beautiful. I just hope he knows how loved he was and how much I'll miss him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today my dog died. I was running with him in the front yard and he suddenly dropped. His breathing was labored for a few moments and I was foolishly thinking he would catch his breath. He didn't. After a few seconds of not breathing I tried and tried to get him to start again. I did compressions on his side and even tried mouth to mouth and no matter how hard I tried nothing would work. I scooped him up in my arms and ran him to the vet as fast as I could but they were closed. I walked home carrying him, tears streaming down my face hoping for a miracle. One never came. I knew he was old. I'd had him since I was a kid. But I still just was not ready. My mom says that he lived a good life. I know that he was happy. He would meet me at the door every time I got off the school bus. He would eat my scraps at dinner when mom wasn't looking. He'd lay on my feet as I slept, keeping me warm. And now I have to figure out how to live without those things. I know it's not like I lost a parent or sibling, but it hurts because I was responsible for him. It hurts that he died running and exhausted when he should have died just laying down in his bed or something. I just hope that he knew how much he was loved. I buried him in the back yard with his favorite chew toys. My dad went and got a beautiful wooden plaque made for his headstone. I thought that was beautiful. I just hope he knows how loved he was and how much I'll miss him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3de69ce443e9-EWR"
+    }
+}

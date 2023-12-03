@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So anyway, about 6 months ago, as I was driving down the street. I noticed I had no idea where I was, or where the location I had to go was. I was basically driving in circles. I found myself driving around in circles for about 30 minutes before I said it was enough, as my phone was dead, and had no idea how to read a map. I ended up pulling up to a rundown business, in the middle of no where, as I had no idea where I was. As I proceeded to enter, I got looks from all around the room, turns out it was a bar. I asked if anyone could help me with directions, most of which all the people were sitting down. I asked the group of people by the front door, and they said sure we can help. He proceeded to give me step by step directions in order to reach the hotel. After he gave me those directions, I said thanks for the help, but i'm not really good at remembering stuff like that, I have been driving around in circles for almost an hour. I asked him if he could write it down on a piece of paper, but it turns out they didn't have a pen. The guy turned to me and said, I haven't been drinking, I have just been giving these guys company. I would be able to take you to the hotel, if you would like. I remember wearing some poor clothing that day, so I looked sort of homeless. Even that It was dark outside, so I asked if he could just write the directions down on a piece of paper. We found someone who carried a pen around, and he jotted down the directions, and thanked him, and I was on my way out."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So anyway, about 6 months ago, as I was driving down the street. I noticed I had no idea where I was, or where the location I had to go was. I was basically driving in circles. I found myself driving around in circles for about 30 minutes before I said it was enough, as my phone was dead, and had no idea how to read a map. I ended up pulling up to a rundown business, in the middle of no where, as I had no idea where I was. As I proceeded to enter, I got looks from all around the room, turns out it was a bar. I asked if anyone could help me with directions, most of which all the people were sitting down. I asked the group of people by the front door, and they said sure we can help. He proceeded to give me step by step directions in order to reach the hotel. After he gave me those directions, I said thanks for the help, but i'm not really good at remembering stuff like that, I have been driving around in circles for almost an hour. I asked him if he could write it down on a piece of paper, but it turns out they didn't have a pen. The guy turned to me and said, I haven't been drinking, I have just been giving these guys company. I would be able to take you to the hotel, if you would like. I remember wearing some poor clothing that day, so I looked sort of homeless. Even that It was dark outside, so I asked if he could just write the directions down on a piece of paper. We found someone who carried a pen around, and he jotted down the directions, and thanked him, and I was on my way out.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so grateful that he was willing to give me a ride, since I was lost and had no idea where I was. As I entered the car, I realized that the guy was actually the owner of the bar, and I felt really bad that I had assumed he was just a patron. As we drove off, I apologized for my mistake, and he told me it was okay, and that he was happy to help. I ended up getting to my hotel safely, and I was really grateful for the kindness of the stranger.\n\n"
+            }
+        ],
+        "request_id": "811bdfa1d8688c6b-EWR"
+    }
+}

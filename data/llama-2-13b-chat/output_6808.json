@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: July 2nd.  I tripped on that broken basement step that I keep forgetting to fix.   I was carrying a jar of  pickles at the time, and when I fell, the jar broke and badly cut my hand and wrist.  I couldn't get the bleeding to stop, so I called an ambulance.  It was embarrassing to have to call them, but I was losing a lot of blood.  They put a tourniquet on it and took me to the emergency room which was less than 5 minutes.  The damage was pretty bad and the cuts were jagged so they had a lot of trouble getting it sewn together.  They used a lot of glue on top of the stitches as well.  It didn't hurt very much, but I wouldn't realize until the next day that that was a bad sign.  They wrapped the whole thing in a large bandage and I went home.  It wasn't for another hour or more before I realized I couldn't feel anything in my last two fingers.  I thought maybe the bandage was wrapped too tight and ignored it, but the next day I took some of the wrapping off and realized that I didn't have feeling in the fingers or that part of  my palm below them either.  I also couldn't spread my fingers or move them much.  I was still hoping a lot of this would heal, but I looked online and saw that I might have some permanent damage.  It was  depressing news, and I was pretty upset about possibly not being able to use the hand again, but since I don't have insurance, there wasn't much I could do except to hope that when the swelling came down some, it would improve.  Unfortunately, I found over the next week that the hand would never come back to the way it was before.  Fortunately it was my left hand and I was able to compensate for it pretty well, but there are some things I can't do and if people look at it closely, they could see that the two smaller fingers are permanently bent in a weird way.  I did fix that basement step, though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: July 2nd.  I tripped on that broken basement step that I keep forgetting to fix.   I was carrying a jar of  pickles at the time, and when I fell, the jar broke and badly cut my hand and wrist.  I couldn't get the bleeding to stop, so I called an ambulance.  It was embarrassing to have to call them, but I was losing a lot of blood.  They put a tourniquet on it and took me to the emergency room which was less than 5 minutes.  The damage was pretty bad and the cuts were jagged so they had a lot of trouble getting it sewn together.  They used a lot of glue on top of the stitches as well.  It didn't hurt very much, but I wouldn't realize until the next day that that was a bad sign.  They wrapped the whole thing in a large bandage and I went home.  It wasn't for another hour or more before I realized I couldn't feel anything in my last two fingers.  I thought maybe the bandage was wrapped too tight and ignored it, but the next day I took some of the wrapping off and realized that I didn't have feeling in the fingers or that part of  my palm below them either.  I also couldn't spread my fingers or move them much.  I was still hoping a lot of this would heal, but I looked online and saw that I might have some permanent damage.  It was  depressing news, and I was pretty upset about possibly not being able to use the hand again, but since I don't have insurance, there wasn't much I could do except to hope that when the swelling came down some, it would improve.  Unfortunately, I found over the next week that the hand would never come back to the way it was before.  Fortunately it was my left hand and I was able to compensate for it pretty well, but there are some things I can't do and if people look at it closely, they could see that the two smaller fingers are permanently bent in a weird way.  I did fix that basement step, though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I can't believe I let it go on so long. \n\n"
+            }
+        ],
+        "request_id": "811f4da48acc5e79-EWR"
+    }
+}

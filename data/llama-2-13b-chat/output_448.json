@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to mary's birthday party today. I can't believe my niece is already 4. I can still remember the day she was born. She was like this tiny bundle of joy. And she just turned four! We had a blast at the party. We danced all night. I knew mary loved barbies. So i bought her a barbie as a gift. We played with it at the party. I was so glad to see that she loved it. Everyone burst into laughter as mary tried hard to blow the candles. She had to try thrice. But she did it. So proud of her and what she is growing into.. I can't wait to see her again. I want to buy her a whole bunch of dolls. I am going to pay her a visit very soon. I want to see that joy on her face."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to mary's birthday party today. I can't believe my niece is already 4. I can still remember the day she was born. She was like this tiny bundle of joy. And she just turned four! We had a blast at the party. We danced all night. I knew mary loved barbies. So i bought her a barbie as a gift. We played with it at the party. I was so glad to see that she loved it. Everyone burst into laughter as mary tried hard to blow the candles. She had to try thrice. But she did it. So proud of her and what she is growing into.. I can't wait to see her again. I want to buy her a whole bunch of dolls. I am going to pay her a visit very soon. I want to see that joy on her face.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e91f36b9dc33a-EWR"
+    }
+}

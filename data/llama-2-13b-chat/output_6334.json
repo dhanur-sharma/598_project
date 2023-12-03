@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was driving one night, and I was pulled over by the police. The police had me breathe into a breathalyzer. I was disappointed that I was above the legal limit.  I shouldn't have been drinking, but I felt I didn't drink enough to be above the legal limit. As a result, I was detained and put in jail for a night. I was sad, mad, depressed, and disappointed. I now have a DUI on my record for life. After a few hours, I realized how fortunate I was. If I hadn't been caught, this behavior was likely to escalate. If it did escalate, I would have been well above the legal limit in the future. Moreover, I could have killed someone tonight with my irresponsible behavior. Therefore, I am thankful that the outcome was not worse. I was released from jail the following morning, with a new lease on life. However, when I came home, my parents were disappointed in me. Instead of talking to me, they put me down. They told me I was nothing, and that I couldn't drive a car because I would amount to nothing. How disappointing. My optimism toward life has turned into pessimism."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was driving one night, and I was pulled over by the police. The police had me breathe into a breathalyzer. I was disappointed that I was above the legal limit.  I shouldn't have been drinking, but I felt I didn't drink enough to be above the legal limit. As a result, I was detained and put in jail for a night. I was sad, mad, depressed, and disappointed. I now have a DUI on my record for life. After a few hours, I realized how fortunate I was. If I hadn't been caught, this behavior was likely to escalate. If it did escalate, I would have been well above the legal limit in the future. Moreover, I could have killed someone tonight with my irresponsible behavior. Therefore, I am thankful that the outcome was not worse. I was released from jail the following morning, with a new lease on life. However, when I came home, my parents were disappointed in me. Instead of talking to me, they put me down. They told me I was nothing, and that I couldn't drive a car because I would amount to nothing. How disappointing. My optimism toward life has turned into pessimism.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f436baa8717bd-EWR"
+    }
+}

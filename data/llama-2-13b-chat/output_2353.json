@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been five months since I went to the emergency room with chest pains and I still don't have any answers. It's hard to believe that the pain that I felt couldn't have been a heart attack. I'm still not sure that I believe the doctors. After hours and hours of medical tests and waiting for answers they came back in, just to tell me my heart was fine and that I could go. Well then, what was it? Why did I feel so much pain? Why aren't they helping me? I don't think any of the doctors there really know what they are doing. Obviously, something happened to me. I wasn't making it up. The pain that I felt was real. The whole time I was there, I felt like they were just trying to get me to leave. How could they really not have any answers? The entire thing is just so frustrating. If it happened to them, I bet they would stop at nothing to find out what it was, but because it wasn't they really just don't care."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been five months since I went to the emergency room with chest pains and I still don't have any answers. It's hard to believe that the pain that I felt couldn't have been a heart attack. I'm still not sure that I believe the doctors. After hours and hours of medical tests and waiting for answers they came back in, just to tell me my heart was fine and that I could go. Well then, what was it? Why did I feel so much pain? Why aren't they helping me? I don't think any of the doctors there really know what they are doing. Obviously, something happened to me. I wasn't making it up. The pain that I felt was real. The whole time I was there, I felt like they were just trying to get me to leave. How could they really not have any answers? The entire thing is just so frustrating. If it happened to them, I bet they would stop at nothing to find out what it was, but because it wasn't they really just don't care.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still suffering and no one seems to care.\n\n"
+            }
+        ],
+        "request_id": "811eb53428c715d3-EWR"
+    }
+}

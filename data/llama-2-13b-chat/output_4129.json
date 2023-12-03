@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five years ago I was treated for cancer. It was a grueling process and I came out of it a much changed person. Something like this really gives a person new perspective. It's been an emotional journey for me as well as for my loved ones. Well, two weeks ago I reached the five year mark! I have been in remission for five years now. This feels like such an accomplishment. Even though I haven't 'done' anything, I feel like a Badass! I have beaten this thing. I have beaten the odds. Of course the cancer can still return. But anyone can get cancer at any time. So, for the time being, I'm counting this a victory. No more check ups every three months. No more frequent reminders. No more results to fear. For now. I move forward. I live. I watch my children grow. Who knows... maybe I will even live to watch my grandchildren grow. I'm just like everyone else now. My future is uncertain, it's true. But so is everyone else's. And better an uncertain future than one in which cancer IS certain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five years ago I was treated for cancer. It was a grueling process and I came out of it a much changed person. Something like this really gives a person new perspective. It's been an emotional journey for me as well as for my loved ones. Well, two weeks ago I reached the five year mark! I have been in remission for five years now. This feels like such an accomplishment. Even though I haven't 'done' anything, I feel like a Badass! I have beaten this thing. I have beaten the odds. Of course the cancer can still return. But anyone can get cancer at any time. So, for the time being, I'm counting this a victory. No more check ups every three months. No more frequent reminders. No more results to fear. For now. I move forward. I live. I watch my children grow. Who knows... maybe I will even live to watch my grandchildren grow. I'm just like everyone else now. My future is uncertain, it's true. But so is everyone else's. And better an uncertain future than one in which cancer IS certain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel like a Badass! I've beaten this thing and I'm ready to move on.\n\n"
+            }
+        ],
+        "request_id": "811bd07f89f7435d-EWR"
+    }
+}

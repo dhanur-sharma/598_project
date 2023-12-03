@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, I am stressed out over Auntie's diagnosis. Who took me by surprise was the stroke she had during treatment. I could not believe that I had deal with this at this time. I was not ready to handle this level of stress. Just when things seems to be going right for once in my life. Here this comes. I am completely mentally and emotionally drained of the situation. I thought I would have a grip. i was wrong. This is something that would never happen like this. It was like she was almost destined to die this way. THe hope that she would live was bad enough. Now to cement this made this even more worst than it really was.  Hard to breathe right now. I am going to go cry now."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, I am stressed out over Auntie's diagnosis. Who took me by surprise was the stroke she had during treatment. I could not believe that I had deal with this at this time. I was not ready to handle this level of stress. Just when things seems to be going right for once in my life. Here this comes. I am completely mentally and emotionally drained of the situation. I thought I would have a grip. i was wrong. This is something that would never happen like this. It was like she was almost destined to die this way. THe hope that she would live was bad enough. Now to cement this made this even more worst than it really was.  Hard to breathe right now. I am going to go cry now.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Love you diary."
+            }
+        ],
+        "request_id": "811ebf73b9250f77-EWR"
+    }
+}

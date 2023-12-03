@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband got a huge bonus sent to him in the mail as a check. We both look at each other and smile. We both knew, we'd be off to Vegas for some fun! We packed up our clothing. We packed up our kids. We head to the local grocery store. Off we go to Las Vegas Nevada. Right away walking in the door, I stick a dollar in the slot. I win a few bucks. I eventually would win $1,800. The casino takes my picture and I was extremely elated with that. We end up staying an extra day. We had too much fun to head home so quickly. All in all, I do not recommend going to Vegas on a whim. In my situation it was well worth it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband got a huge bonus sent to him in the mail as a check. We both look at each other and smile. We both knew, we'd be off to Vegas for some fun! We packed up our clothing. We packed up our kids. We head to the local grocery store. Off we go to Las Vegas Nevada. Right away walking in the door, I stick a dollar in the slot. I win a few bucks. I eventually would win $1,800. The casino takes my picture and I was extremely elated with that. We end up staying an extra day. We had too much fun to head home so quickly. All in all, I do not recommend going to Vegas on a whim. In my situation it was well worth it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But, if you're not careful, you could end up losing a lot of money and leaving with a huge debt.\n\n"
+            }
+        ],
+        "request_id": "811eb8bc6958c332-EWR"
+    }
+}

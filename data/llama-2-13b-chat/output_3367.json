@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I had something scary happen. The gas company detected a leak. It took them three weeks to notify us. We could of all burned to death because of this. They told us it would take another three weeks to get it repaired. This is very sad because the business will have to be shutdown. I will lose profit and people might lose their homes because they won't be able to pay rent. I am very troubled by this event. I hope I can get through this ordeal. I decided to have some drinks because of this. I had two beers and a few shots of whiskey. I puked because I drank too much. I'm hoping this leak will get done faster than they said. I doubt it. I hope for the best for my employees."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I had something scary happen. The gas company detected a leak. It took them three weeks to notify us. We could of all burned to death because of this. They told us it would take another three weeks to get it repaired. This is very sad because the business will have to be shutdown. I will lose profit and people might lose their homes because they won't be able to pay rent. I am very troubled by this event. I hope I can get through this ordeal. I decided to have some drinks because of this. I had two beers and a few shots of whiskey. I puked because I drank too much. I'm hoping this leak will get done faster than they said. I doubt it. I hope for the best for my employees.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec9d82efd437e-EWR"
+    }
+}

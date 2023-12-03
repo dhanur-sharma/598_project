@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After find him on a dating app, we started to talk quickly. Even on the phone, which I normally hate. We agreed to go out for dinner, already 2 days after starting to talk. He wanted to show me his house, so I drove to his place. After talking for a bit, I drove us to the restaurant. We had a lovely italian dinner in a nice setting. We shared a bottle of wine. There was a piano player which I enjoyed. When we got back to his house, he asked if I wanted to come in. I was a little hesitant, but agreed as I didn't want the night to end yet. We started to watch a movie, and he fell asleep. We cuddled for a while, but I decided to leave as I didn't want him to want to hook up with me. Later on he told me that he never expected to hook up with me that night. I was really impressed with how the date went. He was a great guy and we met again 2 days later."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After find him on a dating app, we started to talk quickly. Even on the phone, which I normally hate. We agreed to go out for dinner, already 2 days after starting to talk. He wanted to show me his house, so I drove to his place. After talking for a bit, I drove us to the restaurant. We had a lovely italian dinner in a nice setting. We shared a bottle of wine. There was a piano player which I enjoyed. When we got back to his house, he asked if I wanted to come in. I was a little hesitant, but agreed as I didn't want the night to end yet. We started to watch a movie, and he fell asleep. We cuddled for a while, but I decided to leave as I didn't want him to want to hook up with me. Later on he told me that he never expected to hook up with me that night. I was really impressed with how the date went. He was a great guy and we met again 2 days later.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9294fc7542d5-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been 3 months since I finally went back to college. So much has happened already! So many new friends and teachers. I moved into the dorms with a roommate. She is really nice and we have become best friends!! She has the same major as me so we are in most of the same classes together. We haven't been roommates for very long and I was alone for the first month. It was so fun when she moved in and we immediately were friends! She has also introduced me to a lot of people since I am not from here. One of the people will be getting me a job soon. College is a lot more expensive then I thought so I NEED a job right now! I haven't felt homesick yet! Last year I was for months and months. Maybe having a best friend as a roommate helps. She keeps me busy! We do have a break coming up soon so I get to go home to see my family for a couple weeks. I really should start saving up for that. Time to get back to studying. Until tomorrow."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been 3 months since I finally went back to college. So much has happened already! So many new friends and teachers. I moved into the dorms with a roommate. She is really nice and we have become best friends!! She has the same major as me so we are in most of the same classes together. We haven't been roommates for very long and I was alone for the first month. It was so fun when she moved in and we immediately were friends! She has also introduced me to a lot of people since I am not from here. One of the people will be getting me a job soon. College is a lot more expensive then I thought so I NEED a job right now! I haven't felt homesick yet! Last year I was for months and months. Maybe having a best friend as a roommate helps. She keeps me busy! We do have a break coming up soon so I get to go home to see my family for a couple weeks. I really should start saving up for that. Time to get back to studying. Until tomorrow.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e8f81de700f98-EWR"
+    }
+}

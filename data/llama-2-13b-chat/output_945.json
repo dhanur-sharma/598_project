@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This summer I finally sat down with my son and told him \"it is about time you learned to ride your bike without training wheels.\" He was 6, and most of his friends already knew how. I knew it wouldn't be easy, but I told him we would get it done by the time he went back to school. It started very rough. He was having the hardest time balancing. He would favor one side or another. I finally read some tips online, and saw one that said to have your child walk the bike while sitting on the seat, and to let them initiate everything. We tried this for about two weeks, and it finally clicked. I was so incredibly proud of him. It was the first time in his life that he really set a goal, set the actions to obtain that goal, and then actually ended up obtaining the goal. It was awesome to see him connect with his bike, and to really embrace the freedom that it gave him to learn. It reminded me of myself when I was around his age. I loved riding my bike. It was a central part to my childhood. I wanted that for my son. I am so happy he can experience that as well."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This summer I finally sat down with my son and told him \"it is about time you learned to ride your bike without training wheels.\" He was 6, and most of his friends already knew how. I knew it wouldn't be easy, but I told him we would get it done by the time he went back to school. It started very rough. He was having the hardest time balancing. He would favor one side or another. I finally read some tips online, and saw one that said to have your child walk the bike while sitting on the seat, and to let them initiate everything. We tried this for about two weeks, and it finally clicked. I was so incredibly proud of him. It was the first time in his life that he really set a goal, set the actions to obtain that goal, and then actually ended up obtaining the goal. It was awesome to see him connect with his bike, and to really embrace the freedom that it gave him to learn. It reminded me of myself when I was around his age. I loved riding my bike. It was a central part to my childhood. I wanted that for my son. I am so happy he can experience that as well.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9b0fabad8c2d-EWR"
+    }
+}

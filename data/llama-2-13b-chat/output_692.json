@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's weird being a streamer. Its not at all where I thought my life would end up. Sure, I play games but nothing major nor things that younger people would consider a \"game\". But I like to talk and think I am fairly friendly. My wife was the one who brought up the idea. I honestly think that she was just tired of hearing me go on and on and wanted a break. So I signed up. My first stream no one showed up. It was discouraging for sure. But I decided to try again. My next stream had a title that I thought would work. Before I knew it I started getting people in my chat. I was able to talk while they asked questions or just made comments. My biggest surprise came though when I got my first donation. It was small but...It felt really good. I felt appreciated for my views and personality."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's weird being a streamer. Its not at all where I thought my life would end up. Sure, I play games but nothing major nor things that younger people would consider a \"game\". But I like to talk and think I am fairly friendly. My wife was the one who brought up the idea. I honestly think that she was just tired of hearing me go on and on and wanted a break. So I signed up. My first stream no one showed up. It was discouraging for sure. But I decided to try again. My next stream had a title that I thought would work. Before I knew it I started getting people in my chat. I was able to talk while they asked questions or just made comments. My biggest surprise came though when I got my first donation. It was small but...It felt really good. I felt appreciated for my views and personality.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So here I am, still streaming and still talking. Its been a wild ride but I would not change a thing.\n\n"
+            }
+        ],
+        "request_id": "811e967b8bcc0c9c-EWR"
+    }
+}

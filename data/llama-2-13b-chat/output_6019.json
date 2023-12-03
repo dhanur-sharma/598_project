@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my family went on vacation to San Diego for 4 days.  The first day we visited out uncle at his ranch where we had a barbecue and I played with my cousins I hadn't seen since I was a baby. The second day we went to the San Diego zoo and looked at the different animals. My favorite were the tigers. The most memorable moment is when one of the tigers walked up to the glass enclosure and tried to pounce on my little sister who was wearing a hat with cat ears on. We laughed while it pawed at the glass to reach her. We took pictures of the tropical birds. Mom bought a stuffed bird from the shop. The third day, we went to the beach. We went on the different rides. My sister ate funnel cake for the first time, and at night they had fireworks. The fourth day, we went shopping and had lunch. I bought a sundress and shades.  My dad bought t-shirts with San Diego for everyone, and my mom bought a coffee mug. We ate at an outdoor cafe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my family went on vacation to San Diego for 4 days.  The first day we visited out uncle at his ranch where we had a barbecue and I played with my cousins I hadn't seen since I was a baby. The second day we went to the San Diego zoo and looked at the different animals. My favorite were the tigers. The most memorable moment is when one of the tigers walked up to the glass enclosure and tried to pounce on my little sister who was wearing a hat with cat ears on. We laughed while it pawed at the glass to reach her. We took pictures of the tropical birds. Mom bought a stuffed bird from the shop. The third day, we went to the beach. We went on the different rides. My sister ate funnel cake for the first time, and at night they had fireworks. The fourth day, we went shopping and had lunch. I bought a sundress and shades.  My dad bought t-shirts with San Diego for everyone, and my mom bought a coffee mug. We ate at an outdoor cafe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "On the way home, we stopped at a roadside diner for lunch. I had a burger and fries. We stopped at the outlet mall to buy some souvenirs. I got a new swimsuit and a beach ball.\n\n"
+            }
+        ],
+        "request_id": "811f3d2d1ea919f3-EWR"
+    }
+}

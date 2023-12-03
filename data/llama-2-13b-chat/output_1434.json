@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had never been there before. Did you know that there was an arch from the subway station right in the middle of town? Or that you could see the baseball field when you went downtown? It was a great day for just walking around and seeing the sights. And the people! I saw so many people just out walking for lunch. Tall and short. Thin and fat. I saw the most interesting billboard to. It was about gay acceptance. I have never seen anything like that! Right out in public. I am so proud of the direction our society has come. I packed my lunch and went to a playground to eat. They had computer games there for kids to play! Right outside! I couldn't believe how much there was to see and do. In some of those building people were working out, eating and singing to just name a few. It was all so interesting."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had never been there before. Did you know that there was an arch from the subway station right in the middle of town? Or that you could see the baseball field when you went downtown? It was a great day for just walking around and seeing the sights. And the people! I saw so many people just out walking for lunch. Tall and short. Thin and fat. I saw the most interesting billboard to. It was about gay acceptance. I have never seen anything like that! Right out in public. I am so proud of the direction our society has come. I packed my lunch and went to a playground to eat. They had computer games there for kids to play! Right outside! I couldn't believe how much there was to see and do. In some of those building people were working out, eating and singing to just name a few. It was all so interesting.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so glad I went!"
+            }
+        ],
+        "request_id": "811ea4b3ebff429b-EWR"
+    }
+}

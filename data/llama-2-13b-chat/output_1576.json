@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Our moms group went to a regional luncheon in Sacramento. It was an amazing trip like no other I had been on before. We piled 8 moms into a Suburban and spent 48 hours together. We had so much fun. We told stories about our childhood, how we met our husbands, and our lives now as mothers. We ate ridiculous amounts of junk food, and drank plenty of alcohol. It was fantastic. We traveled around Sacramento, taking in all the sights. We stayed up late at night, eating and drinking. We giggled like teenagers again. The luncheon was fabulous. We won an award for our service project. We also filled an entire table with participants. Lots of people told us we looked wonderful, all dressed up. It was a time I will never forget. I'm so glad we had this opportunity to travel together."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Our moms group went to a regional luncheon in Sacramento. It was an amazing trip like no other I had been on before. We piled 8 moms into a Suburban and spent 48 hours together. We had so much fun. We told stories about our childhood, how we met our husbands, and our lives now as mothers. We ate ridiculous amounts of junk food, and drank plenty of alcohol. It was fantastic. We traveled around Sacramento, taking in all the sights. We stayed up late at night, eating and drinking. We giggled like teenagers again. The luncheon was fabulous. We won an award for our service project. We also filled an entire table with participants. Lots of people told us we looked wonderful, all dressed up. It was a time I will never forget. I'm so glad we had this opportunity to travel together.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea71ee8574235-EWR"
+    }
+}

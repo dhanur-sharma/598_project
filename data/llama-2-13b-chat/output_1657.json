@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been so hectic at work. Even since i was asked to head our Kansas city office, time is a scarce resource. It has helped me take my mind off Lilly though. Its been hard since our divorce. It has been particularly hard on Ben, not seeing his mom anymore. My parents try their best to take care of him well. I know. But i also know he misses me. Which is why i decided to fly them to Missouri over the weekend four months back. I booked rooms at a local casino. I just had an hour break from work though. I had to rush with the gifts i had bought for ben. Surprisingly, he was more thrilled to see me than the gifts. We had a wonderful time. The rooms were good and we ordered room service."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been so hectic at work. Even since i was asked to head our Kansas city office, time is a scarce resource. It has helped me take my mind off Lilly though. Its been hard since our divorce. It has been particularly hard on Ben, not seeing his mom anymore. My parents try their best to take care of him well. I know. But i also know he misses me. Which is why i decided to fly them to Missouri over the weekend four months back. I booked rooms at a local casino. I just had an hour break from work though. I had to rush with the gifts i had bought for ben. Surprisingly, he was more thrilled to see me than the gifts. We had a wonderful time. The rooms were good and we ordered room service.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Ben and i talked a lot. It was good to see him happy. I wish i could spend more time with him. My mind keeps wandering off to how great it would be if i could spend more time with him. I know i have to keep working hard to make ends meet. I wish there was a way to balance work and personal life.\n\n"
+            }
+        ],
+        "request_id": "811ea87ecdfdc3fa-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the past few months, my husband and I have been talking about if living where we live is the best for us and our children. We have had long discussions, weighed our pros and cons, and made a decision. We have decided to move out of state. This has been an emotional discussion because my family currently lives within an mile of my house. When we told my family, the reaction was not good. Some people cried and others became angry. They do not think that it is best for us. They feel that we are taking away our children from them. However, my husband and I feel that this is the best decision for our family. There is lots of family drama that takes away from our  happiness here. Where we are going, there will be no drama and lots of options for our children. They will be able to engage in any activities or sports that they want. Also, the school system is supposed to be better in our new location. We will still be near some family, but within a few hours rather than a few minutes. The weather is also supposed to be better in our new place."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the past few months, my husband and I have been talking about if living where we live is the best for us and our children. We have had long discussions, weighed our pros and cons, and made a decision. We have decided to move out of state. This has been an emotional discussion because my family currently lives within an mile of my house. When we told my family, the reaction was not good. Some people cried and others became angry. They do not think that it is best for us. They feel that we are taking away our children from them. However, my husband and I feel that this is the best decision for our family. There is lots of family drama that takes away from our  happiness here. Where we are going, there will be no drama and lots of options for our children. They will be able to engage in any activities or sports that they want. Also, the school system is supposed to be better in our new location. We will still be near some family, but within a few hours rather than a few minutes. The weather is also supposed to be better in our new place.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am sad about leaving my family, but I know that this is what is best for us.\n\n"
+            }
+        ],
+        "request_id": "811bda51dcfb4222-EWR"
+    }
+}

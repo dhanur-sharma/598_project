@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had just started a business. I've always been a baker. I wanted to take what was my hobby of baking and turn it in to a profitable business. I decided to start being a cake maker. I had been contacted by a couple who were having a wedding. They wanted a cake from me. I was more than happy to start working on it for them. Even though it was my first wedding cake I think I did a great job on it. It was the big day and I was on my way to take it over to their wedding chapel and get it set up. When I was about 5 minutes away from the chapel I got a phone call. It was my husband and he was saying that my son had broken his arm. I had to hurry and get the cake set up as fast as I could so I could deal with my son. I got the cake set up in 5 minutes flat and then rushed over to the hospital. My son was there and crying. I couldn't believe this happened on such a day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had just started a business. I've always been a baker. I wanted to take what was my hobby of baking and turn it in to a profitable business. I decided to start being a cake maker. I had been contacted by a couple who were having a wedding. They wanted a cake from me. I was more than happy to start working on it for them. Even though it was my first wedding cake I think I did a great job on it. It was the big day and I was on my way to take it over to their wedding chapel and get it set up. When I was about 5 minutes away from the chapel I got a phone call. It was my husband and he was saying that my son had broken his arm. I had to hurry and get the cake set up as fast as I could so I could deal with my son. I got the cake set up in 5 minutes flat and then rushed over to the hospital. My son was there and crying. I couldn't believe this happened on such a day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My first wedding cake and my son broke his arm. I was so worried about my son and my cake. I knew that my cake was important to the couple but my son's health was more important. I was able to get him fixed up and then headed back to the chapel. I arrived just in time to see the couple say their vows and cut the cake. It was a wonderful wedding and I was so happy that everything turned out okay.\n\n"
+            }
+        ],
+        "request_id": "811bdbfd0b988ce3-EWR"
+    }
+}

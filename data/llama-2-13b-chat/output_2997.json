@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I was nine years old, my uncle unexpectedly passed away. My parents and I were out of the country on vacation. My uncle was fine when we left a few days prior to that. Suddenly, we got a call that he passed away. We were very shocked and sad. My dad almost passed out. We called my uncle's son to find out what happened. He was barely able to talk. His voice was gone and all we could hear was crying. We understood that my uncle had a chest infection that developed into sepsis. His son rushed him to the hospital. My uncles wasn't insured. The hospital refused to offer him treatment until the fees are paid in advance. My cousin tried to gather enough cash to pay the hospital. However, he was running against the clock and he lost the battle unfortunately. It was very sad for us and we regretted not being by his side when he passed away and not being able to help him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I was nine years old, my uncle unexpectedly passed away. My parents and I were out of the country on vacation. My uncle was fine when we left a few days prior to that. Suddenly, we got a call that he passed away. We were very shocked and sad. My dad almost passed out. We called my uncle's son to find out what happened. He was barely able to talk. His voice was gone and all we could hear was crying. We understood that my uncle had a chest infection that developed into sepsis. His son rushed him to the hospital. My uncles wasn't insured. The hospital refused to offer him treatment until the fees are paid in advance. My cousin tried to gather enough cash to pay the hospital. However, he was running against the clock and he lost the battle unfortunately. It was very sad for us and we regretted not being by his side when he passed away and not being able to help him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec20f1e68c32e-EWR"
+    }
+}

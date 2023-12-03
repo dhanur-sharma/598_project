@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week, my family  and I took a last minute trip to Six Flags Magic Mountain. We were just sitting around on a Sunday morning when I just told everyone to get dressed. We got in the car and I started driving. Van Buren to the 60 to the 210 to the 5. The kids had no idea where we were going until I was getting off the freeway at Magic Mountain Pkwy. Theire eyes lit up as we pulled into the nearly empty parking lot. We had so much fun! We rode X2 and Viper and Batman The Ride. We ate some burgers for lunch in the park and continued riding as much as we could. We stayed until the park closed just after dark and rode a couple of the rides in the dark. Before we left, we made sure to get some funnel cake in one of the shops by the main gate. On the way home, it was burgers from Wendy's and a long, exhausting drive. The boys had so much fun, it was their first time at Magic Mountain. Next time, we definitely will plan it out a little more. That way, we've got even more time and more fun. We're thinking of getting season passes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week, my family  and I took a last minute trip to Six Flags Magic Mountain. We were just sitting around on a Sunday morning when I just told everyone to get dressed. We got in the car and I started driving. Van Buren to the 60 to the 210 to the 5. The kids had no idea where we were going until I was getting off the freeway at Magic Mountain Pkwy. Theire eyes lit up as we pulled into the nearly empty parking lot. We had so much fun! We rode X2 and Viper and Batman The Ride. We ate some burgers for lunch in the park and continued riding as much as we could. We stayed until the park closed just after dark and rode a couple of the rides in the dark. Before we left, we made sure to get some funnel cake in one of the shops by the main gate. On the way home, it was burgers from Wendy's and a long, exhausting drive. The boys had so much fun, it was their first time at Magic Mountain. Next time, we definitely will plan it out a little more. That way, we've got even more time and more fun. We're thinking of getting season passes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb1595a5d4247-EWR"
+    }
+}

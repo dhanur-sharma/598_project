@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a little over ten months since I gave birth to my beautiful daughter, Lilian.  She has become an integral part of our family and is becoming a little bit more of a little human every day.  She started crawling at seven months and got her front teeth at eight months.  She's been teething a grumpy recently, but is still as cute as a button no matter how hard she cries.  We typically go out to eat with my parents and sister on Saturdays.  We bring her daughter, Dalyla, and Lily's big sister, Evelyn.  They're typically little terrors as they're age three and four; still adorable though.  I can't imagine life without these little brats.  On this particular Saturday, we chose to go to the park after we ate at a local Italian restaurant.  There is a splash pad at this park and it's a hot day so the cold water is very welcome.  Lilian is wearing her cute little pink, flowery bikini and is standing next to grandpa.  She looks me directly in the face and takes three deliberate steps toward me.  I scream in delight and scare the begeezus out of her uncle, who also came with us to the park today.  My father and I are laughing and declaring our pride.  She took her first steps!  We witnessed her first steps!  No one could be prouder at that moment.  No matter how many children I choose to have, there will never be a prouder moment than when one of them completes a milestone for the first time.  I am the proudest momma alive."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a little over ten months since I gave birth to my beautiful daughter, Lilian.  She has become an integral part of our family and is becoming a little bit more of a little human every day.  She started crawling at seven months and got her front teeth at eight months.  She's been teething a grumpy recently, but is still as cute as a button no matter how hard she cries.  We typically go out to eat with my parents and sister on Saturdays.  We bring her daughter, Dalyla, and Lily's big sister, Evelyn.  They're typically little terrors as they're age three and four; still adorable though.  I can't imagine life without these little brats.  On this particular Saturday, we chose to go to the park after we ate at a local Italian restaurant.  There is a splash pad at this park and it's a hot day so the cold water is very welcome.  Lilian is wearing her cute little pink, flowery bikini and is standing next to grandpa.  She looks me directly in the face and takes three deliberate steps toward me.  I scream in delight and scare the begeezus out of her uncle, who also came with us to the park today.  My father and I are laughing and declaring our pride.  She took her first steps!  We witnessed her first steps!  No one could be prouder at that moment.  No matter how many children I choose to have, there will never be a prouder moment than when one of them completes a milestone for the first time.  I am the proudest momma alive.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " My daughter took her first steps today and I am the luckiest momma alive to witness it."
+            }
+        ],
+        "request_id": "811f3ff07fe20cb1-EWR"
+    }
+}

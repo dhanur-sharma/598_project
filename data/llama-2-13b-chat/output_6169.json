@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So it happened. After years of hard work and dreams, I graduated college 2 months ago. This is suppose to be an exciting and monumental moment in my life. Unfortunately, it\u2019s been anything but. I have not been able to get a job lined up. No one tells you that when you get out into the real world, there aren\u2019t as many jobs available for someone like me with a business degree. No one tells you that even without a job, you still have bills to keep up with and student loans to pay off. No one tells you that falling for your best friend could end up torturing every fiber of your soul. I try to suppress these feelings. I mean after all, he has a girlfriend. And as much as I hate to say this, I kind of like her. If I express how I truly feel, it will only make things awkward between us. Then, not only will I be a broke, unemployed, but educated college graduate, I will also be without my best friend. Why is everything so difficult and stressful now? I thought the stress would ease up after graduation. It\u2019s actually worse."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So it happened. After years of hard work and dreams, I graduated college 2 months ago. This is suppose to be an exciting and monumental moment in my life. Unfortunately, it\u2019s been anything but. I have not been able to get a job lined up. No one tells you that when you get out into the real world, there aren\u2019t as many jobs available for someone like me with a business degree. No one tells you that even without a job, you still have bills to keep up with and student loans to pay off. No one tells you that falling for your best friend could end up torturing every fiber of your soul. I try to suppress these feelings. I mean after all, he has a girlfriend. And as much as I hate to say this, I kind of like her. If I express how I truly feel, it will only make things awkward between us. Then, not only will I be a broke, unemployed, but educated college graduate, I will also be without my best friend. Why is everything so difficult and stressful now? I thought the stress would ease up after graduation. It\u2019s actually worse.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just want to get a job, have a place to call my own, and be with the one I truly love. Is that too much to ask for?"
+            }
+        ],
+        "request_id": "811f403e2d8f4361-EWR"
+    }
+}

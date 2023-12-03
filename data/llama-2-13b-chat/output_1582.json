@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I found myself homeless and living in the streets. Some days were better than others. My daily routine was to stand at my favorite spots and ask for money or food. This cannot be my future I keep telling myself. I have to find a way to get out of this. I ignore the shameful looks and mocking insults. I made some bad decisions but it wasn't all my fault. I stay mobile as I can and find shelter on rainy and very hot days. Always keep moving. I try to take advantage of any work or job opportunities but it is hard to find anything that would help. I think I may try and get a janitorial position at a local fast food restaurant. They have been nice to me and have helped me at times with free samples. I just want to work and be able to take care of myself. Nothing makes me happy and I'm on the verge of giving up but I still have this determination to succeed. Tomorrow I will go to my local shelter and find some newer clothes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I found myself homeless and living in the streets. Some days were better than others. My daily routine was to stand at my favorite spots and ask for money or food. This cannot be my future I keep telling myself. I have to find a way to get out of this. I ignore the shameful looks and mocking insults. I made some bad decisions but it wasn't all my fault. I stay mobile as I can and find shelter on rainy and very hot days. Always keep moving. I try to take advantage of any work or job opportunities but it is hard to find anything that would help. I think I may try and get a janitorial position at a local fast food restaurant. They have been nice to me and have helped me at times with free samples. I just want to work and be able to take care of myself. Nothing makes me happy and I'm on the verge of giving up but I still have this determination to succeed. Tomorrow I will go to my local shelter and find some newer clothes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will also ask for any help or resources they can offer me.\n\n"
+            }
+        ],
+        "request_id": "811ea72e6a6e42ac-EWR"
+    }
+}

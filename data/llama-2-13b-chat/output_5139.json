@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Back in the early 70-80s I was a big fan of cher. I wasn't one of those uncontrollable fans but I did really like cher. She is one of my favoritve artists to ever listen to and see perform. I've been to a few of her concerts from back then. Reecently about 3 months ago I had received word that cher would be in town to perform this weekened. I thought to myself that it would be fun to go see her again. So I had a conversation with my wife about it and she thought it was a good idea too. So we made the date and went ahead and purchased our tickets. The date had finally arrived but we still had to wait until later to go. Most of the day we spent our time doing random things and listening to her music all day. Before we knew it the time had come to go to the concert. we had splurged on great tickets so we had good seats. It was a very special night for us because we grew on this music. Loving the artist and getting to see here live in person was a good experience. we really enjoyed seeing cher in concert again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Back in the early 70-80s I was a big fan of cher. I wasn't one of those uncontrollable fans but I did really like cher. She is one of my favoritve artists to ever listen to and see perform. I've been to a few of her concerts from back then. Reecently about 3 months ago I had received word that cher would be in town to perform this weekened. I thought to myself that it would be fun to go see her again. So I had a conversation with my wife about it and she thought it was a good idea too. So we made the date and went ahead and purchased our tickets. The date had finally arrived but we still had to wait until later to go. Most of the day we spent our time doing random things and listening to her music all day. Before we knew it the time had come to go to the concert. we had splurged on great tickets so we had good seats. It was a very special night for us because we grew on this music. Loving the artist and getting to see here live in person was a good experience. we really enjoyed seeing cher in concert again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be50d9ff8c431-EWR"
+    }
+}

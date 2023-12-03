@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, my family came to a standstill in life. My mom received the worst news that any woman could receive from a doctor. Breast cancer. She was sick and could potentially die. I sat in the waiting room as my dad and mom sat in the doctor's office, hearing the news for the first time. Even two months later, I'm still processing it. Thankfully, from what I understand and my parents explained to me that night after returning home, it's in the early stages. There's a good possibility she could survive. That makes me happy. I don't know what I would do without her. They told me and my siblings that she would be starting chemotherapy, whatever that is, in about a week. They warned us that mommy may not look the same for a while, may not smile as much, may not play with us as much. Dad told us her long hair would probably fall out. I don't fully understand what all this means, but they've tried explaining it to me. I don't want my mom to die. This isn't really fair, is it? Why her? But I'll stay strong for my siblings, for my dad, and for my mom. I won't cry. She'll get better. You'll see."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, my family came to a standstill in life. My mom received the worst news that any woman could receive from a doctor. Breast cancer. She was sick and could potentially die. I sat in the waiting room as my dad and mom sat in the doctor's office, hearing the news for the first time. Even two months later, I'm still processing it. Thankfully, from what I understand and my parents explained to me that night after returning home, it's in the early stages. There's a good possibility she could survive. That makes me happy. I don't know what I would do without her. They told me and my siblings that she would be starting chemotherapy, whatever that is, in about a week. They warned us that mommy may not look the same for a while, may not smile as much, may not play with us as much. Dad told us her long hair would probably fall out. I don't fully understand what all this means, but they've tried explaining it to me. I don't want my mom to die. This isn't really fair, is it? Why her? But I'll stay strong for my siblings, for my dad, and for my mom. I won't cry. She'll get better. You'll see.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have to believe that."
+            }
+        ],
+        "request_id": "811f31ff8cc7c331-EWR"
+    }
+}

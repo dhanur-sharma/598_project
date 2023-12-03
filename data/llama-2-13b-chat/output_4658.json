@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: When I was subbing at one of my regular schools, I got the news that my friend, who had been battling brain cancer had died. I  found out when I was teaching a 5th grade math class, that was pretty out of control.  The kids were throwing books around and running around screaming. Not all of them, but with 40 kids and half with behavior issues, it's hard to keep them safe. I sat down and checked my phone. I saw a message from my partner that said  our friend had died. I knew it was coming, but it was still hard. I had hoped maybe things would turn around and get better. I don't really remember what happened for the next couple of minutes. I know I sat down and was just lost in my own thoughts and grief.  I expected the kids to just take advantage of this and get even more out of control. That's not what happened. Instead the students were very nice. They went and found someone who could cover the class, so I could leave the room for a few minutes. Of course, the next time I subbed, they acted like nothing had happened."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: When I was subbing at one of my regular schools, I got the news that my friend, who had been battling brain cancer had died. I  found out when I was teaching a 5th grade math class, that was pretty out of control.  The kids were throwing books around and running around screaming. Not all of them, but with 40 kids and half with behavior issues, it's hard to keep them safe. I sat down and checked my phone. I saw a message from my partner that said  our friend had died. I knew it was coming, but it was still hard. I had hoped maybe things would turn around and get better. I don't really remember what happened for the next couple of minutes. I know I sat down and was just lost in my own thoughts and grief.  I expected the kids to just take advantage of this and get even more out of control. That's not what happened. Instead the students were very nice. They went and found someone who could cover the class, so I could leave the room for a few minutes. Of course, the next time I subbed, they acted like nothing had happened.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "But for that short time, they showed me a side of humanity that I will always remember.\n\n"
+            }
+        ],
+        "request_id": "811bdb386c550f5d-EWR"
+    }
+}

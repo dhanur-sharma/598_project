@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I sat in the hospital waiting for good news. My brother was in tears sitting next to me. These past few months have been a living hell for him. I can't believe how strong he has been up until now. His wife, Crystal stopped taking her cancer treatments. She wants to die with \"dignity\" as she puts it. The chemo wasn't working and she has given up. Their sons are too young to understand why their mother can't play with them and why their father has been distant. I feel horrible for the kids who will grow without their mother, similar to me and my brother. History has a way of repeating itself it seems. The doctors rush out and pull my brother to the room. Crystal is dying, in her final moments. I don't know what she told my brother, but he drank that whole night while I comforted the children. I can't believe she is gone. I always wanted the love they had. Now my brother wallows in alcohol while I ponder why life can be so cruel."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I sat in the hospital waiting for good news. My brother was in tears sitting next to me. These past few months have been a living hell for him. I can't believe how strong he has been up until now. His wife, Crystal stopped taking her cancer treatments. She wants to die with \"dignity\" as she puts it. The chemo wasn't working and she has given up. Their sons are too young to understand why their mother can't play with them and why their father has been distant. I feel horrible for the kids who will grow without their mother, similar to me and my brother. History has a way of repeating itself it seems. The doctors rush out and pull my brother to the room. Crystal is dying, in her final moments. I don't know what she told my brother, but he drank that whole night while I comforted the children. I can't believe she is gone. I always wanted the love they had. Now my brother wallows in alcohol while I ponder why life can be so cruel.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec4292d8741fe-EWR"
+    }
+}

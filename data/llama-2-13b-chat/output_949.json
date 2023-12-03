@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to Punta Cana in June 2019. I went with my husband for our 10 year anniversary. It was the first time we had ever visited the country. Leading up to the trip, there was news breaking about tourists dying and getting sick. The news continued into our visit. We were a little concerned by it and it was hard to stop thinking about it. Ultimately we were just fine though. We went snorkeling for the first time and had a wonderful time. The people were so friendly and the beaches were beautiful. We became very friendly with a few of the employees and were sad to leave. We would totally go back some day. The food was great and it was very relaxing. The tourist deaths have dropped of the the media. It seems like it was just sensationalized by the media. It was concerning at the time though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to Punta Cana in June 2019. I went with my husband for our 10 year anniversary. It was the first time we had ever visited the country. Leading up to the trip, there was news breaking about tourists dying and getting sick. The news continued into our visit. We were a little concerned by it and it was hard to stop thinking about it. Ultimately we were just fine though. We went snorkeling for the first time and had a wonderful time. The people were so friendly and the beaches were beautiful. We became very friendly with a few of the employees and were sad to leave. We would totally go back some day. The food was great and it was very relaxing. The tourist deaths have dropped of the the media. It seems like it was just sensationalized by the media. It was concerning at the time though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9b1a1c2742e4-EWR"
+    }
+}

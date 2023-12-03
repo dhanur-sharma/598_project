@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I like to think of myself as an outdoors kind of guy. I'm very athletic and like to take part in activities such as hiking and mountain climbing.  I have a favorite mountain of mine. It is a steep mountain and it is often quite the tough climb. Today was no different. I started out early. I knew it would take me a good part of the day to get to the top. I had packed myself with supplies to make sure I was ready. I set out on my journey to climb to the top. I was full of energy at first. At about the halfway point I was getting very very tired. I decided to stop and take a break. I was really tired and it was nice to sit there and just enjoy nature for a bit. I decided to get up and finish it out. It was tough but I did it. I made it to the top of the mountain."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I like to think of myself as an outdoors kind of guy. I'm very athletic and like to take part in activities such as hiking and mountain climbing.  I have a favorite mountain of mine. It is a steep mountain and it is often quite the tough climb. Today was no different. I started out early. I knew it would take me a good part of the day to get to the top. I had packed myself with supplies to make sure I was ready. I set out on my journey to climb to the top. I was full of energy at first. At about the halfway point I was getting very very tired. I decided to stop and take a break. I was really tired and it was nice to sit there and just enjoy nature for a bit. I decided to get up and finish it out. It was tough but I did it. I made it to the top of the mountain.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I felt very accomplished and it was a great view from the top.\n\n"
+            }
+        ],
+        "request_id": "811be2908b5a1815-EWR"
+    }
+}

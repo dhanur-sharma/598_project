@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I work for a non profit organization.  We often partner with local charities to raise money in the community.  Six weeks ago, we held an event to raise money for two charities in my hometown.  One of the charities provides food for homeless people in my community.  The other charity provides school supplies for children whose parents do not have the money to provide them.  Both of these charities are special to me.  The event was very successful.  One of the donors was extremely generous!  He donated enough money to keep both charities running for the next six months.  I couldn't believe how generous his donation was.  It was so unexpected and greatly appreciated.  I think my favorite part of the event was the food.  The vendors we selected did a fantastic job.  I especially loved the street tacos and mixed drinks.  I hope the organization will make this an annual event.  I think it helped a lot of people in my community."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I work for a non profit organization.  We often partner with local charities to raise money in the community.  Six weeks ago, we held an event to raise money for two charities in my hometown.  One of the charities provides food for homeless people in my community.  The other charity provides school supplies for children whose parents do not have the money to provide them.  Both of these charities are special to me.  The event was very successful.  One of the donors was extremely generous!  He donated enough money to keep both charities running for the next six months.  I couldn't believe how generous his donation was.  It was so unexpected and greatly appreciated.  I think my favorite part of the event was the food.  The vendors we selected did a fantastic job.  I especially loved the street tacos and mixed drinks.  I hope the organization will make this an annual event.  I think it helped a lot of people in my community.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdb142f4b43d6-EWR"
+    }
+}

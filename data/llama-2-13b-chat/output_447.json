@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I want to summarize when I received my PhD. I had been working toward this goal for eight years specifically, and 14 years overall. I had spent an enormous amount of time and effort finishing this project. The most memorable part was the submission of my dissertation for graduation. I had spent so much time away from my family, and I had spent a lot of money trying to accomplish this goal. I spent a lot of time avoiding friends, avoiding exercise, and avoiding family in order to finish this project. It was trying because I missed my family and friends. I also had a very trpubling experience with my adviser, who tried to fail me twice and required me to do extra work. But it was an emotional moment, too. Overall, I was moved because so many people supported me and my goals. By the end of the project, my friends and family had helped me through the hardest time of my life. This was a significant moment because my family had very little education. My mom died when I was young, so I had a lot of difficulty achieving this goal. Therefore, this moment was very important and moving to me, as it was the culmination of my life's dreams. I couldn't have done it without the support of my friends and family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I want to summarize when I received my PhD. I had been working toward this goal for eight years specifically, and 14 years overall. I had spent an enormous amount of time and effort finishing this project. The most memorable part was the submission of my dissertation for graduation. I had spent so much time away from my family, and I had spent a lot of money trying to accomplish this goal. I spent a lot of time avoiding friends, avoiding exercise, and avoiding family in order to finish this project. It was trying because I missed my family and friends. I also had a very trpubling experience with my adviser, who tried to fail me twice and required me to do extra work. But it was an emotional moment, too. Overall, I was moved because so many people supported me and my goals. By the end of the project, my friends and family had helped me through the hardest time of my life. This was a significant moment because my family had very little education. My mom died when I was young, so I had a lot of difficulty achieving this goal. Therefore, this moment was very important and moving to me, as it was the culmination of my life's dreams. I couldn't have done it without the support of my friends and family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e91ef9b9d8c4d-EWR"
+    }
+}

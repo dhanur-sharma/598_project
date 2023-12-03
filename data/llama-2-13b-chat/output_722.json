@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My partner was diagnosed with Type 2 diabetes towards the end of May 2019. He has so far, lost almost 80 lbs. of weight and continues to lose. All of his bloodwork from the doctors comes back in healthy range numbers now. He has reduced his sugar and carb intake. Now down to less than 20 carbs per day. I have also lost 40 pounds. Since we both eat so much healthier now and a lot of junk food isn't around in the house to snack on.  I never would have thought that he could be so stern with himself and stay on track with what he ate before. I am glad that he has surprised me with sticking to it.  We no longer spend near the amount of money on groceries and he has stopped eating out where he doesn't know the nutritional count of the food. He looks a lot better as well. He has some loose skin, but that is to be expected. He's lost almost a whole person. He had to buy all new clothes. He didn't get to eat much for Thanksgiving dinner though. Since all of that food has high carb counts."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My partner was diagnosed with Type 2 diabetes towards the end of May 2019. He has so far, lost almost 80 lbs. of weight and continues to lose. All of his bloodwork from the doctors comes back in healthy range numbers now. He has reduced his sugar and carb intake. Now down to less than 20 carbs per day. I have also lost 40 pounds. Since we both eat so much healthier now and a lot of junk food isn't around in the house to snack on.  I never would have thought that he could be so stern with himself and stay on track with what he ate before. I am glad that he has surprised me with sticking to it.  We no longer spend near the amount of money on groceries and he has stopped eating out where he doesn't know the nutritional count of the food. He looks a lot better as well. He has some loose skin, but that is to be expected. He's lost almost a whole person. He had to buy all new clothes. He didn't get to eat much for Thanksgiving dinner though. Since all of that food has high carb counts.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He just had some turkey and vegetables. He does not miss the old way of eating. He doesn't want to go back to that lifestyle. He says it is hard work to eat this way, but it is worth it. I am proud of him. He is proud of himself too.\n\n"
+            }
+        ],
+        "request_id": "811e9733aa178cba-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago I was diagnosed with Early Onset Parkinson's Disease. This is my story of diagnosis to acceptance. I had been bothered by tremors for a long time, but when they told me it was Parkinson's, I couldn't believe it. That's a disease that old people get (or so I thought), and I'm only 38. Once it sank in, I felt scared. Scared of losing my independence and my life. I had hoped to live a long time. There was so much I wanted to do, and I wouldn't get the chance to do it. Thinking of everything I would miss out on made me depressed. I tried to fight it - I didn't have time to be depressed anymore. But I spent several days in bed, brooding over my fate. Finally, I decided to reach out. I contacted my church first, and then a trusted group of friends. I was amazed at how many people offered their support. People I didn't know or hadn't spoken to for a long time asked if they could give me a ride somewhere, help me around the house, or just listen to me. It took a while, but I eventually started to accept the offers. And I eventually started to accept what was happening to me. I have trials ahead of me, but I also have people who will help me face them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago I was diagnosed with Early Onset Parkinson's Disease. This is my story of diagnosis to acceptance. I had been bothered by tremors for a long time, but when they told me it was Parkinson's, I couldn't believe it. That's a disease that old people get (or so I thought), and I'm only 38. Once it sank in, I felt scared. Scared of losing my independence and my life. I had hoped to live a long time. There was so much I wanted to do, and I wouldn't get the chance to do it. Thinking of everything I would miss out on made me depressed. I tried to fight it - I didn't have time to be depressed anymore. But I spent several days in bed, brooding over my fate. Finally, I decided to reach out. I contacted my church first, and then a trusted group of friends. I was amazed at how many people offered their support. People I didn't know or hadn't spoken to for a long time asked if they could give me a ride somewhere, help me around the house, or just listen to me. It took a while, but I eventually started to accept the offers. And I eventually started to accept what was happening to me. I have trials ahead of me, but I also have people who will help me face them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am determined to live life to the fullest and not let Parkinson's take over my life."
+            }
+        ],
+        "request_id": "811eaa02bf104406-EWR"
+    }
+}

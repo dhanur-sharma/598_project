@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I lost my grandmother earlier this year. She was 94 years old. She passed away on Memorial Day weekend. She had said she was ready to go, but it was still, of course, a sad moment in my life. She had gotten really frail overall and was in a nursing home the last few weeks of her life. The last time I saw her, she was asleep, and didn't wake up while I was there, but I was able to tell her that I loved her and that I hoped she had sweet dreams. It felt good to be able to do that. When we got the call, I wasn't surprised. But I still miss her, of course. She was a really interesting person. She was born to Belgian immigrants. She grew up on a farm with no electricity or running water. She had a really happy life though, and did more than she ever expected. Her funeral was really nice. A lot of people came. It was really nice to hear how many lives she touched."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I lost my grandmother earlier this year. She was 94 years old. She passed away on Memorial Day weekend. She had said she was ready to go, but it was still, of course, a sad moment in my life. She had gotten really frail overall and was in a nursing home the last few weeks of her life. The last time I saw her, she was asleep, and didn't wake up while I was there, but I was able to tell her that I loved her and that I hoped she had sweet dreams. It felt good to be able to do that. When we got the call, I wasn't surprised. But I still miss her, of course. She was a really interesting person. She was born to Belgian immigrants. She grew up on a farm with no electricity or running water. She had a really happy life though, and did more than she ever expected. Her funeral was really nice. A lot of people came. It was really nice to hear how many lives she touched.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811be5520d5a3354-EWR"
+    }
+}

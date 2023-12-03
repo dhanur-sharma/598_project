@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was a fun and sad day at the beach. I went with my mom and sister. This was my first vacation since my parents got divorced. We had a bad time at some point when I had an argument with my Mom. I said this would be funner with my Dad. She cried and yelled about it. My sister stopped the argument. My sister and I made a sand castle. My Mom made a bigger sand castle. A tidal wave came by and knocked down both of our castles. We laughed about it. We rented some surfboards. We rode on some waves. My sister crashed and got salt water in her mouth. She said it was nasty. We left the beach with good memories and a bad one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was a fun and sad day at the beach. I went with my mom and sister. This was my first vacation since my parents got divorced. We had a bad time at some point when I had an argument with my Mom. I said this would be funner with my Dad. She cried and yelled about it. My sister stopped the argument. My sister and I made a sand castle. My Mom made a bigger sand castle. A tidal wave came by and knocked down both of our castles. We laughed about it. We rented some surfboards. We rode on some waves. My sister crashed and got salt water in her mouth. She said it was nasty. We left the beach with good memories and a bad one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could have my Dad here to enjoy this with me.\n\n"
+            }
+        ],
+        "request_id": "811eca33e9dec328-EWR"
+    }
+}

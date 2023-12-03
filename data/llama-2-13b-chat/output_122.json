@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sharing a museum exhibit with my daughter. The artist is someone that I also shared an experience with my mom.  To share an artist experience with my daughter that holds a special meaning to me was emotional.  We had a great afternoon together admiring Chihuly glass. It brought back memories of sharing his work with my mom. She is now deceased. To share this with my daughter brought back good memories of time with my mom. Sharing the arts with my daughter was meaningful. To do something together that brings together my daughter, mom and myself was rewarding. His exhibits are limited and  only in a few locations. Just happened to have one where my mom lived and then one where my daughter lived. We were very fortunate to have him in our locations. Also to be available to go. Quite memorable and beautiful art to share together.  Something we can think back on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sharing a museum exhibit with my daughter. The artist is someone that I also shared an experience with my mom.  To share an artist experience with my daughter that holds a special meaning to me was emotional.  We had a great afternoon together admiring Chihuly glass. It brought back memories of sharing his work with my mom. She is now deceased. To share this with my daughter brought back good memories of time with my mom. Sharing the arts with my daughter was meaningful. To do something together that brings together my daughter, mom and myself was rewarding. His exhibits are limited and  only in a few locations. Just happened to have one where my mom lived and then one where my daughter lived. We were very fortunate to have him in our locations. Also to be available to go. Quite memorable and beautiful art to share together.  Something we can think back on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " The exhibit was beautiful and we had a great time together.  I'm grateful for the memories.\n\n"
+            }
+        ],
+        "request_id": "811e8bec0fe44263-EWR"
+    }
+}

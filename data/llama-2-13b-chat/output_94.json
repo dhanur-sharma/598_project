@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I almost killed someone last month. I was on the phone, helping a patient, and also filling prescriptions as fast as I could. The pharmacist in charge (PIC) was picking her nose while telling me to go faster, faster, faster. I felt so angry that she wouldn't even pick up the phone and put someone on hold while us techs were working at such dangerous paces. And then it happened. A customer asked me to count their pills again so they knew they were receiving the right amount. I understood why, we were visibly overworked and understaffed, but was also very irritated at having yet another task added to my plate. I grabbed the vial, dumped it out, and then my blood ran cold. The PIC stopped digging in her nose and looked down at the same time I did--she lead by micromanaging us right down to how many times a day we urinated, and she started whisper yelling at me. There was a very dangerous drug mixed in with the blood pressure pills. How it happened, who initially put the wrong drug in the wrong bottle, who verified it at the final check, it didn't matter. This was not a failure of the multi-step process or the team in her eyes. No, the fault was mine and mine alone. My bladder was strained, my feet hurt, and I could not safely multitask another day. I went home and thought about it, obsessed over it, dreamed about it. I showed up for work the next day and worried over every patient. I worried that the other techs were not able to work safely either, that the other pharmacists were so worried about whether patients were coming in for vaccinations to meet a goal that I was actually going to kill someone next time. I worried that someone was sitting down to take the wrong medicine right that moment and there was nothing I could do.  The next day was my day off and I felt dread, crippling dread. And then I woke up at 3 in the morning and realized I didn't have to go in the next day. I didn't have to go back ever again. So without warning, without thought I quit. Just like that. My family is broke but I didn't kill someone that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I almost killed someone last month. I was on the phone, helping a patient, and also filling prescriptions as fast as I could. The pharmacist in charge (PIC) was picking her nose while telling me to go faster, faster, faster. I felt so angry that she wouldn't even pick up the phone and put someone on hold while us techs were working at such dangerous paces. And then it happened. A customer asked me to count their pills again so they knew they were receiving the right amount. I understood why, we were visibly overworked and understaffed, but was also very irritated at having yet another task added to my plate. I grabbed the vial, dumped it out, and then my blood ran cold. The PIC stopped digging in her nose and looked down at the same time I did--she lead by micromanaging us right down to how many times a day we urinated, and she started whisper yelling at me. There was a very dangerous drug mixed in with the blood pressure pills. How it happened, who initially put the wrong drug in the wrong bottle, who verified it at the final check, it didn't matter. This was not a failure of the multi-step process or the team in her eyes. No, the fault was mine and mine alone. My bladder was strained, my feet hurt, and I could not safely multitask another day. I went home and thought about it, obsessed over it, dreamed about it. I showed up for work the next day and worried over every patient. I worried that the other techs were not able to work safely either, that the other pharmacists were so worried about whether patients were coming in for vaccinations to meet a goal that I was actually going to kill someone next time. I worried that someone was sitting down to take the wrong medicine right that moment and there was nothing I could do.  The next day was my day off and I felt dread, crippling dread. And then I woke up at 3 in the morning and realized I didn't have to go in the next day. I didn't have to go back ever again. So without warning, without thought I quit. Just like that. My family is broke but I didn't kill someone that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And I won't ever again. "
+            }
+        ],
+        "request_id": "811e8b41f95441f3-EWR"
+    }
+}

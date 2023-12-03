@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: There's an island near where I live that is a great place for dog walking. It has lots of attractions and food stands there, as well as a baseball stadium, but from what I see, most people just go there to dog walk. Anyway, 3 weeks ago, I put my dog in the car and headed off to go meet my friend to walk our dogs. It wasn't until I got there that I realized I was almost out of gas. There is no gas station on the island.  We were there when it was getting dark out, so we walked our dogs and said we'd figure out what to do with the gas situation afterwards. My friend told me he'd follow me to the closest gas station off the island just in case I ran out. He didn't want me to run out of gas in the dark with no station around. I thought that was very nice of him. I got in my car, and we drove off. I was praying I wouldn't run out. I wasn't scared of being alone in the dark because I had my dog and I could always call my insurance company to bring me gas. I just didn't want to deal with all that. We got to about 300 feet away from the station when I ran out. We had to push the car there. I had seen that in movies before, but this is the first time I had to do it. It was kind of fun. It could have been much worse, though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: There's an island near where I live that is a great place for dog walking. It has lots of attractions and food stands there, as well as a baseball stadium, but from what I see, most people just go there to dog walk. Anyway, 3 weeks ago, I put my dog in the car and headed off to go meet my friend to walk our dogs. It wasn't until I got there that I realized I was almost out of gas. There is no gas station on the island.  We were there when it was getting dark out, so we walked our dogs and said we'd figure out what to do with the gas situation afterwards. My friend told me he'd follow me to the closest gas station off the island just in case I ran out. He didn't want me to run out of gas in the dark with no station around. I thought that was very nice of him. I got in my car, and we drove off. I was praying I wouldn't run out. I wasn't scared of being alone in the dark because I had my dog and I could always call my insurance company to bring me gas. I just didn't want to deal with all that. We got to about 300 feet away from the station when I ran out. We had to push the car there. I had seen that in movies before, but this is the first time I had to do it. It was kind of fun. It could have been much worse, though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We made it to the gas station and filled up. We were both relieved. We then went back to the island and walked our dogs. We had a great time.\n\n"
+            }
+        ],
+        "request_id": "811f328c2dda439a-EWR"
+    }
+}

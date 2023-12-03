@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still remember the day I was spending time with Saffron. I was in Times Square, New York.  It was raining really really bad. I was experiencing such a bad day. She cheered me up such big time. I feel that I am very kind and can make great things happen. IT was raining and when the ball drop happened I could definitely see the world falling through different skies. We were standing for 7 hours in a row. I feel that life was just passing by me. We became best friends very soon. We were playing a movie game. We were doing things that was impressing us. We are very glad that we met. We also shared food. I don't think I would ever forget saffron."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still remember the day I was spending time with Saffron. I was in Times Square, New York.  It was raining really really bad. I was experiencing such a bad day. She cheered me up such big time. I feel that I am very kind and can make great things happen. IT was raining and when the ball drop happened I could definitely see the world falling through different skies. We were standing for 7 hours in a row. I feel that life was just passing by me. We became best friends very soon. We were playing a movie game. We were doing things that was impressing us. We are very glad that we met. We also shared food. I don't think I would ever forget saffron.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel that she is a great person. I am so glad that I met her. I am so glad that she cheered me up.\n\n"
+            }
+        ],
+        "request_id": "811e957beaaa2365-EWR"
+    }
+}

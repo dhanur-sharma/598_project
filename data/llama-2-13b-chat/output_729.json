@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to the grocery store a week ago and had my cart piled full of groceries. I had at least three hundred dollars in groceries. After the checker rang everything up I went to pay. My card got declined! I didn't know what to do! I had my baby in the cart and he was starting to get fussy. I tried the card again, and it was declined again. I was seriously close to crying. Then the nice older man behind me offered to pay. I refused at first. I don't feel right having people give me things. Especially not stranger. He insisted and the people behind up in line were looking impatient and my baby was really starting to cry now. I accepted finally. He swiped his card and the transaction finished. I thanked him over and over but I needed to get out of the was so that other shoppers could check out. I pushed my cart and baby outside. As I load up my baby and my groceries in the car I was in a daze. It was unbelievable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to the grocery store a week ago and had my cart piled full of groceries. I had at least three hundred dollars in groceries. After the checker rang everything up I went to pay. My card got declined! I didn't know what to do! I had my baby in the cart and he was starting to get fussy. I tried the card again, and it was declined again. I was seriously close to crying. Then the nice older man behind me offered to pay. I refused at first. I don't feel right having people give me things. Especially not stranger. He insisted and the people behind up in line were looking impatient and my baby was really starting to cry now. I accepted finally. He swiped his card and the transaction finished. I thanked him over and over but I needed to get out of the was so that other shoppers could check out. I pushed my cart and baby outside. As I load up my baby and my groceries in the car I was in a daze. It was unbelievable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don't know how to repay him.\n\n"
+            }
+        ],
+        "request_id": "811e975e19a817f5-EWR"
+    }
+}

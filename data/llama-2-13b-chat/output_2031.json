@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently had an appointment with a new doctor. I was terrified as all the doctors blow me off. I have rare conditions and now suffer from medical PTSD from all of the horrible things that have happened to me at the hands of medical \"professionals.\" My heart was racing, my blood pressure was up and I was a mess in the waiting room. I nervously answered all of the nurse's questions. Several minutes later, a young female doctor walked in. I liked her right away. She told me that she believed me, knew about what I have, and guessed that I had been mistreated in the past. I could have cried. I had waited years for someone to understand me and actually want to help me. I felt such a flood of emotions. I now have hope for the medical journey going forward. I could have screamed from the rooftops after my appointment. It felt like a weight had been lifted off of my shoulders. I know that some people go through horrible doctors for years as well. That fact makes me angry but I can't help but be thankful that the search might be over for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently had an appointment with a new doctor. I was terrified as all the doctors blow me off. I have rare conditions and now suffer from medical PTSD from all of the horrible things that have happened to me at the hands of medical \"professionals.\" My heart was racing, my blood pressure was up and I was a mess in the waiting room. I nervously answered all of the nurse's questions. Several minutes later, a young female doctor walked in. I liked her right away. She told me that she believed me, knew about what I have, and guessed that I had been mistreated in the past. I could have cried. I had waited years for someone to understand me and actually want to help me. I felt such a flood of emotions. I now have hope for the medical journey going forward. I could have screamed from the rooftops after my appointment. It felt like a weight had been lifted off of my shoulders. I know that some people go through horrible doctors for years as well. That fact makes me angry but I can't help but be thankful that the search might be over for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaf068c250fa1-EWR"
+    }
+}

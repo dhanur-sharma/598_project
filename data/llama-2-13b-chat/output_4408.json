@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A manuscript that I worked was accepted 4 months ago. I started working on it since 2015. It was very memorable because I have worked on it for so long that the acceptance for publication after rounds of rejections and resubmission was very emotion-inducing. We started out with a very high impact journal and went our way down. We added new data throughout the years. In addition, we also slightly changed the direction of the manuscript. We resubmitted the paper to a second high impact journal. Unfortunately, it was rejected as well. Eventually, everyone agreed that the manuscript has been improved a lot since the beginning. It was then accepted by a decent journal. Everyone who worked on the paper together went out for a celebration. We went to get Indian food. We had a great time! All our hard work paid off. It felt great because that was my first first-author paper. Since then, I've had 3 more and it felt great"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A manuscript that I worked was accepted 4 months ago. I started working on it since 2015. It was very memorable because I have worked on it for so long that the acceptance for publication after rounds of rejections and resubmission was very emotion-inducing. We started out with a very high impact journal and went our way down. We added new data throughout the years. In addition, we also slightly changed the direction of the manuscript. We resubmitted the paper to a second high impact journal. Unfortunately, it was rejected as well. Eventually, everyone agreed that the manuscript has been improved a lot since the beginning. It was then accepted by a decent journal. Everyone who worked on the paper together went out for a celebration. We went to get Indian food. We had a great time! All our hard work paid off. It felt great because that was my first first-author paper. Since then, I've had 3 more and it felt great",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "that my first one was a success.\n\n"
+            }
+        ],
+        "request_id": "811bd644eec91a24-EWR"
+    }
+}

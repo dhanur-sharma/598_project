@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been at my job for many years. They have treated me very well. However, they laid me off two weeks ago. I feel very betrayed that they treated me so well only to lay me off. I thought this company was better than that. I have a family and other responsibilities to tend to. For many years, they stressed family first, but they no longer live by that. It must be the new management that came in a few years ago. Right now, I'm living off my credit card hoping to make ends meet. It's going to be very hard to pay off the credit card. That said, I'm hopeful to find something soon. We have been struggling, but we cannot struggle forever. That saying, \"When one door closes, another door opens\" applies here. My family knows I'm diligently looking for another job. They are my encouragement during this period of dearth."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been at my job for many years. They have treated me very well. However, they laid me off two weeks ago. I feel very betrayed that they treated me so well only to lay me off. I thought this company was better than that. I have a family and other responsibilities to tend to. For many years, they stressed family first, but they no longer live by that. It must be the new management that came in a few years ago. Right now, I'm living off my credit card hoping to make ends meet. It's going to be very hard to pay off the credit card. That said, I'm hopeful to find something soon. We have been struggling, but we cannot struggle forever. That saying, \"When one door closes, another door opens\" applies here. My family knows I'm diligently looking for another job. They are my encouragement during this period of dearth.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea950d954440b-EWR"
+    }
+}

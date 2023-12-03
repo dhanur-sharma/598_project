@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had my birthday party not too long ago. I distinctly remember my best friend Steven in the party. He organized the entire event with some help from my other friends and family. I suspected something was up when a few of my friends texted me around the same time span. I usually don't get texted at that high of a frequency. My suspicions were confirmed when I got home. My friends and family were all there with some gifts. There was also some decorations here and there. They all wished me a happy birthday. I was a bit flustered about all of it. I was also a bit tired from work. It was still quite enjoyable. I chatted with my friends and family. We had some cake and drinks. I liked the thoughtful gifts as well. Overall, it was a good time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had my birthday party not too long ago. I distinctly remember my best friend Steven in the party. He organized the entire event with some help from my other friends and family. I suspected something was up when a few of my friends texted me around the same time span. I usually don't get texted at that high of a frequency. My suspicions were confirmed when I got home. My friends and family were all there with some gifts. There was also some decorations here and there. They all wished me a happy birthday. I was a bit flustered about all of it. I was also a bit tired from work. It was still quite enjoyable. I chatted with my friends and family. We had some cake and drinks. I liked the thoughtful gifts as well. Overall, it was a good time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdb914a980f7c-EWR"
+    }
+}

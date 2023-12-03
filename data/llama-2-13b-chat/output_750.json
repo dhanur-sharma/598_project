@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I think i am ready now. I have been avoiding thinking about Jane and what happened for 4 months now. May be it was regret? Shame? Guilt? I don't know. But it is important i reflect back on it. I think i owe it to myself, and more importantly my future self. I knew that l was attracted to Sharon right after the day i met her. But i was in love with Jane. God, i loved her so much. But as they say, they heart wants what the heart wants, right?  That awful night when i decided to have a few too many drinks and go to Sharon's apartment. May be i wouldn't have done it had i been sober. I had to come clean, so i confessed to Jane.  I knew she could never forgive. She deserves much better than me. I truly wish her well.."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I think i am ready now. I have been avoiding thinking about Jane and what happened for 4 months now. May be it was regret? Shame? Guilt? I don't know. But it is important i reflect back on it. I think i owe it to myself, and more importantly my future self. I knew that l was attracted to Sharon right after the day i met her. But i was in love with Jane. God, i loved her so much. But as they say, they heart wants what the heart wants, right?  That awful night when i decided to have a few too many drinks and go to Sharon's apartment. May be i wouldn't have done it had i been sober. I had to come clean, so i confessed to Jane.  I knew she could never forgive. She deserves much better than me. I truly wish her well..",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The pain i caused her, i can never undo. But i have to move on. I have to start the healing process. It is not easy, but i am ready."
+            }
+        ],
+        "request_id": "811e97d40ffc4259-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A year ago, last September, I was lucky enough to marry the love of my life. It was a beautiful wedding. Our venue was on a winery in Napa Valley, California and we had guests come from all over. It honestly felt like a fairy tale. We had twinkle lights set up everywhere and our ceremony overlooked the gorgeous property during sunset. I am going to be honest, my wife did most of the planning. I feel like that is always how it goes. But I said I wanted a live band. We got a bluegrass group to play and everyone really enjoyed dancing to the music. It is funny how most of the planning lands on the woman. The night is really about the bride. I kind of feel I just need to show up and have a good time. She was so worried about what she looked like and I tried to tell her she was beautiful no matter what, but of course she never believes that. She had a great time too though, I just think there was more stress for her leading up to the wedding than for me. All the wine we drank was from the winery we were at and it was great! My wife has great taste and everyone let her know she did a wonderful job- as did I choosing her. I can't believe it has only been a year since the wedding. Time has flown by. We've moved in together, starting creating a home and are talking about having kids. For our honeymoon we went to southern Italy and that was amazing. We went to historical sites for me and beach and wineries for her. It was a wonderful experience. I look back at our wedding fondly."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A year ago, last September, I was lucky enough to marry the love of my life. It was a beautiful wedding. Our venue was on a winery in Napa Valley, California and we had guests come from all over. It honestly felt like a fairy tale. We had twinkle lights set up everywhere and our ceremony overlooked the gorgeous property during sunset. I am going to be honest, my wife did most of the planning. I feel like that is always how it goes. But I said I wanted a live band. We got a bluegrass group to play and everyone really enjoyed dancing to the music. It is funny how most of the planning lands on the woman. The night is really about the bride. I kind of feel I just need to show up and have a good time. She was so worried about what she looked like and I tried to tell her she was beautiful no matter what, but of course she never believes that. She had a great time too though, I just think there was more stress for her leading up to the wedding than for me. All the wine we drank was from the winery we were at and it was great! My wife has great taste and everyone let her know she did a wonderful job- as did I choosing her. I can't believe it has only been a year since the wedding. Time has flown by. We've moved in together, starting creating a home and are talking about having kids. For our honeymoon we went to southern Italy and that was amazing. We went to historical sites for me and beach and wineries for her. It was a wonderful experience. I look back at our wedding fondly.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was the best day of my life.\n\n"
+            }
+        ],
+        "request_id": "811eb246cf7e5e5f-EWR"
+    }
+}

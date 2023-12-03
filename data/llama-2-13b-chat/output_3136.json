@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a sobering reminder that I had to take care of myself. My doctor who thought my A1c level was too high instructed me to increase one of my medications. I hadn't been feeling well the last week but I hadn't thought that it was increasing one of my pills daily that was making me sick. I had been taking this prescribed medicine for 13 years. I had gotten up to go to work and I know my sugar was running low. I tested and it was indeed low, but was still really tired. I decided to go back to bed since it was July 4th and I did not have to go to work. I didn't take any precautions like eating a carb or two to bring my sugar up. I went to bed and that was about the last thing that I remember. The next thing I do remember I woke up in the hospital in a bed with an IV in my arm. My sugar had been 33 when I had been brought in, which was almost coma level. I guess from what my husband said, I got up a while later and was acting screwy-if a person hasn't seen a hypoglycemic episode they might think the person was drunk. I guess I got up then fell in the bathroom, my husband came in and talked to me and said I wasn't making any sense. He finally got me up and then I walked to the living room and passed out on the floor. He finally got me up and dressed. Then he rushed me to the hospital because he was not sure of what to do."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a sobering reminder that I had to take care of myself. My doctor who thought my A1c level was too high instructed me to increase one of my medications. I hadn't been feeling well the last week but I hadn't thought that it was increasing one of my pills daily that was making me sick. I had been taking this prescribed medicine for 13 years. I had gotten up to go to work and I know my sugar was running low. I tested and it was indeed low, but was still really tired. I decided to go back to bed since it was July 4th and I did not have to go to work. I didn't take any precautions like eating a carb or two to bring my sugar up. I went to bed and that was about the last thing that I remember. The next thing I do remember I woke up in the hospital in a bed with an IV in my arm. My sugar had been 33 when I had been brought in, which was almost coma level. I guess from what my husband said, I got up a while later and was acting screwy-if a person hasn't seen a hypoglycemic episode they might think the person was drunk. I guess I got up then fell in the bathroom, my husband came in and talked to me and said I wasn't making any sense. He finally got me up and then I walked to the living room and passed out on the floor. He finally got me up and dressed. Then he rushed me to the hospital because he was not sure of what to do.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The doctors and nurses were very kind and caring. They gave me IV glucose and they did an IV dye test to see if my insulin was working properly. The test showed that my insulin was not working correctly and that was why my sugar was so low. I was in the hospital for about 5 hours. When I got home I was very tired and weak. I realized that I had been taking too much insulin and that was why my sugar had been so low. It was a good lesson to learn. I will have to pay closer attention to my sugar levels and take better care of myself. I am very lucky to be alive.\n\n"
+            }
+        ],
+        "request_id": "811ec4847f3943d3-EWR"
+    }
+}

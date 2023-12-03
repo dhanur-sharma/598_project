@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My father went to the doctor one day for a check-up. The doctor scheduled a follow up appointment. I didn't think it was a big deal and neither did my father. When my father went to his follow up appointment he was diagnosed with lung cancer. He has not smoked in over 15 years so I was really shocked. His doctor scheduled a surgery in hopes of removing the cancer. Before going in for surgery my father gave my mother some money. The following day some drug addicts went into her purse and stole all of her money. I was mad and wanted to see blood. My dad gave me the combination to his safe and had me give my mom some more money. Then it happened again, they stole her whole wallet this time.  A church located in the hood mailed my mom her license back after finding it in their parking lot. I was extremely mad and needed to see blood. These losers robbed my father while he was on his deathbed. I could not do anything about it because my father needed me. My father passed away shortly after. I am now free to find the couple that robbed my dying father. I pray for them every night."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My father went to the doctor one day for a check-up. The doctor scheduled a follow up appointment. I didn't think it was a big deal and neither did my father. When my father went to his follow up appointment he was diagnosed with lung cancer. He has not smoked in over 15 years so I was really shocked. His doctor scheduled a surgery in hopes of removing the cancer. Before going in for surgery my father gave my mother some money. The following day some drug addicts went into her purse and stole all of her money. I was mad and wanted to see blood. My dad gave me the combination to his safe and had me give my mom some more money. Then it happened again, they stole her whole wallet this time.  A church located in the hood mailed my mom her license back after finding it in their parking lot. I was extremely mad and needed to see blood. These losers robbed my father while he was on his deathbed. I could not do anything about it because my father needed me. My father passed away shortly after. I am now free to find the couple that robbed my dying father. I pray for them every night.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea6ee2e0c1967-EWR"
+    }
+}

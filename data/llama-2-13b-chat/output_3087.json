@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About five weeks ago I went on a long-awaited vacation with my best friend. It was a 7-days Caribbean cruise. I was so excited to go! The only thing I was worried about was leaving my cat Cornelius at home. I have made arrangements for my neighbor Mary to check on him every day. She is such a sweet lady and she agreed to do it right away. She promised she would make sure that Cornelius has fresh water and food and she told me there was nothing for me to worry about. So, I went on the cruise and it was amazing. I didn't have internet access nor phone service, which was great, but I was a little nervous, because I couldn't check on Cornelius. I had the feeling that something bad might happen to him, but my friend kept telling me that I shouldn't worry that much. But I was right. Something did happen while I was away. Apparently, there was a leak under my bathroom sink and Mary reported it to the landlord. He stopped by my apartment later that day and repaired the leak, but left a hole under the bathroom sink. After he left, Cornelius, being the curious kitty he is, went into the hole to investigate it and got stuck in it. I don't know how much time he spent in that dirty dark hole, but Mary realized that he must've went inside when she didn't find him in my apartment the next day. Long story short, Mary had to call the landlord and her nephew and it took them the whole afternoon to rescue Cornelius, but thankfully they did it and he is ok."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About five weeks ago I went on a long-awaited vacation with my best friend. It was a 7-days Caribbean cruise. I was so excited to go! The only thing I was worried about was leaving my cat Cornelius at home. I have made arrangements for my neighbor Mary to check on him every day. She is such a sweet lady and she agreed to do it right away. She promised she would make sure that Cornelius has fresh water and food and she told me there was nothing for me to worry about. So, I went on the cruise and it was amazing. I didn't have internet access nor phone service, which was great, but I was a little nervous, because I couldn't check on Cornelius. I had the feeling that something bad might happen to him, but my friend kept telling me that I shouldn't worry that much. But I was right. Something did happen while I was away. Apparently, there was a leak under my bathroom sink and Mary reported it to the landlord. He stopped by my apartment later that day and repaired the leak, but left a hole under the bathroom sink. After he left, Cornelius, being the curious kitty he is, went into the hole to investigate it and got stuck in it. I don't know how much time he spent in that dirty dark hole, but Mary realized that he must've went inside when she didn't find him in my apartment the next day. Long story short, Mary had to call the landlord and her nephew and it took them the whole afternoon to rescue Cornelius, but thankfully they did it and he is ok.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was so relieved to hear that he is safe and sound. I was so worried about him the whole time I was away."
+            }
+        ],
+        "request_id": "811ec3bb1ad418cc-EWR"
+    }
+}

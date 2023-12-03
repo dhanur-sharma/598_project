@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember last month I received my first job promotion. It was an emotional experience because it is my first real job in my career path. It was a difficult journey. I started as an intern where I had to get coffee, then I was finally offered a job at the entry level. I worked with my manager who mentored me and showed me the ropes. I've always been a good worker, I've had many personal issues with my family that sort of made it difficult to work consistently. When I finally got into the finance department, I felt very proud of myself and I shed a few tears. For some reason it just felt like this weight was lifted from my shoulders. I've been working so hard as an intern, doing trivial work and trying to learn everything I can, I've also had many problems with my personal life. When I finally signed a contract, I just felt so emotional. My father has been ill for a while and he has always pushed me to work harder and not to help him so much. My father needs a lot of help and psychological support. He is currently at a nursing home, he's worked to put me through school and through college. He became ill right before I graduated. Getting this job and this promotion makes me feel like I validated his hard work."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember last month I received my first job promotion. It was an emotional experience because it is my first real job in my career path. It was a difficult journey. I started as an intern where I had to get coffee, then I was finally offered a job at the entry level. I worked with my manager who mentored me and showed me the ropes. I've always been a good worker, I've had many personal issues with my family that sort of made it difficult to work consistently. When I finally got into the finance department, I felt very proud of myself and I shed a few tears. For some reason it just felt like this weight was lifted from my shoulders. I've been working so hard as an intern, doing trivial work and trying to learn everything I can, I've also had many problems with my personal life. When I finally signed a contract, I just felt so emotional. My father has been ill for a while and he has always pushed me to work harder and not to help him so much. My father needs a lot of help and psychological support. He is currently at a nursing home, he's worked to put me through school and through college. He became ill right before I graduated. Getting this job and this promotion makes me feel like I validated his hard work.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful to him for all he has done for me. I just wish he could be here to see it. I feel like this is just the beginning of my career and I'm so excited to see where it takes me."
+            }
+        ],
+        "request_id": "811eca2a6efb0f9c-EWR"
+    }
+}

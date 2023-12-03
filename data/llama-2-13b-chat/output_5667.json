@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been meaning to write this for a while now. The life changing experience i had in Africa. the entire trip of self-discovery! It has been a long time dream for me, to visit africa. Afterall, it is where mankind began its journey. I finally got to it around april, 4 months ago. It was a short trip, just around a week long. However, it was magical. I got to see the wilderness and the beauty of it. The animals..wow! I still can't believe i was a couple feet away from a lion! It was wonderful, the entire safari. The locals were friendly. The food was quite delicious as well. I'm quite sure that i came back a changed man."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been meaning to write this for a while now. The life changing experience i had in Africa. the entire trip of self-discovery! It has been a long time dream for me, to visit africa. Afterall, it is where mankind began its journey. I finally got to it around april, 4 months ago. It was a short trip, just around a week long. However, it was magical. I got to see the wilderness and the beauty of it. The animals..wow! I still can't believe i was a couple feet away from a lion! It was wonderful, the entire safari. The locals were friendly. The food was quite delicious as well. I'm quite sure that i came back a changed man.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I learned so much about myself and the world around me. I will definitely be going back. I have already been telling everyone about my experience. I will never forget it.\n\n"
+            }
+        ],
+        "request_id": "811f36021e4a0c8e-EWR"
+    }
+}

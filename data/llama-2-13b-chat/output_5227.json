@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometime around ten months back, my dad fell sick. My elder sister was planning her wedding around this time. We hoped that he would recover soon enough. He made strides and took his medication. His symptoms improved. He was getting stronger. We were happy for him. He always dreamed about walking his daughter down the aisle to her husband. When the wedding day came around, he was able to do this. We were happy. He was excited too. He did the honors, and my sister was happy. She is now happily married. My father is healthy and strong. The family is happy and can move forward with our happy lives."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometime around ten months back, my dad fell sick. My elder sister was planning her wedding around this time. We hoped that he would recover soon enough. He made strides and took his medication. His symptoms improved. He was getting stronger. We were happy for him. He always dreamed about walking his daughter down the aisle to her husband. When the wedding day came around, he was able to do this. We were happy. He was excited too. He did the honors, and my sister was happy. She is now happily married. My father is healthy and strong. The family is happy and can move forward with our happy lives.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f2d37b94419cb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,The events leading up to my eye problems have been stressful. I thought I was going in for a routine eye exam, but that was not the case. I knew I would develop cataracts at some point. I did not think that time was now. I so wanted to just get new glasses. However, my optometrist said I needed to go to a retina specialist before surgery could be approved. I made the appointment for the specialist. I am so nervous as to what he will find. All the patients at the office kept asking me what I was there for. It was a little strange to have strangers ask detailed questions. I mostly just listened to what they had wrong with their eyes. My exam involved getting my eyes dilated which I don't like. It doesn't hurt, but distorted vision is very unsettling. The doctor examined my eyes and did numerous tests. Some of the tests were painful. This doctor did not have a good bedside manner. He did clear me for surgery which was good. Now I will need to see a cataract specialist for the surgery. I am very nervous about having that surgery even though I know it is mostly commonplace these days."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,The events leading up to my eye problems have been stressful. I thought I was going in for a routine eye exam, but that was not the case. I knew I would develop cataracts at some point. I did not think that time was now. I so wanted to just get new glasses. However, my optometrist said I needed to go to a retina specialist before surgery could be approved. I made the appointment for the specialist. I am so nervous as to what he will find. All the patients at the office kept asking me what I was there for. It was a little strange to have strangers ask detailed questions. I mostly just listened to what they had wrong with their eyes. My exam involved getting my eyes dilated which I don't like. It doesn't hurt, but distorted vision is very unsettling. The doctor examined my eyes and did numerous tests. Some of the tests were painful. This doctor did not have a good bedside manner. He did clear me for surgery which was good. Now I will need to see a cataract specialist for the surgery. I am very nervous about having that surgery even though I know it is mostly commonplace these days.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I guess I just have to trust the doctors.\n\n"
+            }
+        ],
+        "request_id": "811ed31cfacb4243-EWR"
+    }
+}

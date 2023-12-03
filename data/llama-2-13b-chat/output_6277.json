@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago was my sisters wedding. It was a small, outdoor wedding on a small farm. She was getting married to a guy she had been dating for a couple of years. I was looking forward to it because in general weddings are fun. Also, it has been awhile since I had seen some in my family. The fact that I had fun at the wedding made it memorable. Also catching up with some family members made it memorable. The wedding was significant to everyone in my family. Especially to my sister of course. This significance was also something that made it more memorable. The reception was of course more memorable then the ceremony. This is because the ceremony was pretty standard. Therefore it was easy to forget. The reception however was fun and unique. This made it quite memorable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago was my sisters wedding. It was a small, outdoor wedding on a small farm. She was getting married to a guy she had been dating for a couple of years. I was looking forward to it because in general weddings are fun. Also, it has been awhile since I had seen some in my family. The fact that I had fun at the wedding made it memorable. Also catching up with some family members made it memorable. The wedding was significant to everyone in my family. Especially to my sister of course. This significance was also something that made it more memorable. The reception was of course more memorable then the ceremony. This is because the ceremony was pretty standard. Therefore it was easy to forget. The reception however was fun and unique. This made it quite memorable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, my sisters wedding was a memorable experience for me.\n\n"
+            }
+        ],
+        "request_id": "811f424ecb8b43df-EWR"
+    }
+}

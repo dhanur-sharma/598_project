@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago, I visited a facility. There was a child in the facility. He had autism. The facility doesn't meet the needs of this child. I complained to management. They changed it. The child is getting the best care now. I hope he has a good life. I decided to get lunch to celebrate the change. I went to a nice steakhouse. I got some onion rings as an appetizer. They were very nice. I got a giant steak as the main meal. It was medium. I got a beer to drink with my steak. They were both to die for. I gave the waitress a big tip. She was very good at serving my meal. I went home to sleep thinking that I did good in this world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago, I visited a facility. There was a child in the facility. He had autism. The facility doesn't meet the needs of this child. I complained to management. They changed it. The child is getting the best care now. I hope he has a good life. I decided to get lunch to celebrate the change. I went to a nice steakhouse. I got some onion rings as an appetizer. They were very nice. I got a giant steak as the main meal. It was medium. I got a beer to drink with my steak. They were both to die for. I gave the waitress a big tip. She was very good at serving my meal. I went home to sleep thinking that I did good in this world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea7625d5c41ec-EWR"
+    }
+}

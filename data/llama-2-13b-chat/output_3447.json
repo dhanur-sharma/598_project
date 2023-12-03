@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six months ago, my dream came true. I was able to marry someone I consider my best friend. We have known each other since our college days. So we have been close for a long time. I always dreamed of marrying my best friend, and this came to pass, as I married my husband. He is my best friend, and this is all I wanted. The event was great. A lot of family and friends and well wishers came around. We had a great reception, and it was awesome. We went ahead to a great honeymoon in the tropics. We loved every moment of it. We returned to a great life. We have made it work up to this point. It has been fulfilling. I hope it lasts forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six months ago, my dream came true. I was able to marry someone I consider my best friend. We have known each other since our college days. So we have been close for a long time. I always dreamed of marrying my best friend, and this came to pass, as I married my husband. He is my best friend, and this is all I wanted. The event was great. A lot of family and friends and well wishers came around. We had a great reception, and it was awesome. We went ahead to a great honeymoon in the tropics. We loved every moment of it. We returned to a great life. We have made it work up to this point. It has been fulfilling. I hope it lasts forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec99cfea043c5-EWR"
+    }
+}

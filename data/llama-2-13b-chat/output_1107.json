@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, the family and I went up north, to go kayaking. My girlfriend and I loaded up her car with all the items we needed and our two inflatable kayaks. We made sure the kids were ready and the four of us took our awesome road trip to this cool place that we found a month prior. When we arrived, it took a few minutes to get the kayaks inflated and we had to carry everything to the water. We had the boys in one kayak and the girls in another. The trip down the river was fun; we took lots of pictures and raced a bit. Our son copped out and didn't row too much, so I did a bulk of the work. When we got to the picnic spot, we got out and set up to eat. We ate and then spent some time fishing. We saw a few fish, but did not have any luck. The kids explored the area and found a cave that was pretty empty. After that, we packed up and kayaked back to the car to load up. When everyone was ready, we began the drive home. It was dark at this point, so I reminded my girlfriend to use her brights, as we were in the mountains and visibility was lower. Soon after, we spotted a bunch of deer right by and in the road. If we didn't have the brights on, we probably would have hit them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, the family and I went up north, to go kayaking. My girlfriend and I loaded up her car with all the items we needed and our two inflatable kayaks. We made sure the kids were ready and the four of us took our awesome road trip to this cool place that we found a month prior. When we arrived, it took a few minutes to get the kayaks inflated and we had to carry everything to the water. We had the boys in one kayak and the girls in another. The trip down the river was fun; we took lots of pictures and raced a bit. Our son copped out and didn't row too much, so I did a bulk of the work. When we got to the picnic spot, we got out and set up to eat. We ate and then spent some time fishing. We saw a few fish, but did not have any luck. The kids explored the area and found a cave that was pretty empty. After that, we packed up and kayaked back to the car to load up. When everyone was ready, we began the drive home. It was dark at this point, so I reminded my girlfriend to use her brights, as we were in the mountains and visibility was lower. Soon after, we spotted a bunch of deer right by and in the road. If we didn't have the brights on, we probably would have hit them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were lucky and got out of there with no issues. When we got home, we were all exhausted from the trip, but we had a great time and will definitely do it again.\n\n"
+            }
+        ],
+        "request_id": "811e9dfc49ed41fb-EWR"
+    }
+}

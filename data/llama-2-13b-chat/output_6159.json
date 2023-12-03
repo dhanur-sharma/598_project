@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I found out Jenny wasn't going to have a baby shower. So I asked Megan and Brian if they would help put something together at work. In one week we were able to plan the whole thing. Megan baked and we had so much food, cookies, pie, and a little cake for the baby. Brian asked everyone for donations. (Cuz everyone likes Brian and it's hard to say no to him!) We decorated the break room with yellow streamers because we all agreed that pink/blue thing is stupid. The look on Jenny's face when she saw everything was all the reward we needed for the extra time we took to put everything together. Everyone came, even the CEO. And someone put on a playlist of songs that have \"Baby\" in the name. Anyway, Jenny's been a good friend, and I'm glad I was able to put something together that she loved. Baby Dylan (they're going to use the same name if it's a boy or a girl) got a ton of presents. Mostly onesies and diapers. But isn't that what Moms need? And the cake was the best. I really do have some great co-workers.(P.S. Sorry about that summary at the top. I must have been really drunk or tired or something when I wrote it--so many mistakes. Yikes!)"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I found out Jenny wasn't going to have a baby shower. So I asked Megan and Brian if they would help put something together at work. In one week we were able to plan the whole thing. Megan baked and we had so much food, cookies, pie, and a little cake for the baby. Brian asked everyone for donations. (Cuz everyone likes Brian and it's hard to say no to him!) We decorated the break room with yellow streamers because we all agreed that pink/blue thing is stupid. The look on Jenny's face when she saw everything was all the reward we needed for the extra time we took to put everything together. Everyone came, even the CEO. And someone put on a playlist of songs that have \"Baby\" in the name. Anyway, Jenny's been a good friend, and I'm glad I was able to put something together that she loved. Baby Dylan (they're going to use the same name if it's a boy or a girl) got a ton of presents. Mostly onesies and diapers. But isn't that what Moms need? And the cake was the best. I really do have some great co-workers.(P.S. Sorry about that summary at the top. I must have been really drunk or tired or something when I wrote it--so many mistakes. Yikes!)",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4013eebd41cd-EWR"
+    }
+}

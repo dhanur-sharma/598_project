@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I got up early today, I had to go and visit my grandmother at the retirement home today. The bus ride there always takes about 45 min, Today there was a lady riding the whole way there with me. I wonder who she was going to see. The weather today was a bit cold and clammy and I should have worn my boots over shoes. I got there around 10am, which is right after breakfast which is always a good time to go a visit as everyone is wide awake. The most interesting woman was sitting and talking to my grandmother when I arrived. My grandmother introduce her as Edith and she moved here from Estonia shortly after the war.  She told me about how she been in some of the pride rallies back then. That she had seen Hitler speak before he came to power and liked him. It was interesting to listen to someone who was welcoming of the Nazi party when they invaded her country. But after learning of the crimes the Nazi's did feels sad about ever liking Hitler. We spoke for about an hour and she told me all about her family life during the war. I stayed until after lunch and took the same bus home. The lady from earlier wasn't on the bus again, I wonder if she left already? Got home and made dinner for myself. I'm tired today and plan to get to sleep early."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I got up early today, I had to go and visit my grandmother at the retirement home today. The bus ride there always takes about 45 min, Today there was a lady riding the whole way there with me. I wonder who she was going to see. The weather today was a bit cold and clammy and I should have worn my boots over shoes. I got there around 10am, which is right after breakfast which is always a good time to go a visit as everyone is wide awake. The most interesting woman was sitting and talking to my grandmother when I arrived. My grandmother introduce her as Edith and she moved here from Estonia shortly after the war.  She told me about how she been in some of the pride rallies back then. That she had seen Hitler speak before he came to power and liked him. It was interesting to listen to someone who was welcoming of the Nazi party when they invaded her country. But after learning of the crimes the Nazi's did feels sad about ever liking Hitler. We spoke for about an hour and she told me all about her family life during the war. I stayed until after lunch and took the same bus home. The lady from earlier wasn't on the bus again, I wonder if she left already? Got home and made dinner for myself. I'm tired today and plan to get to sleep early.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd608bf353342-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My cousin got married about three months ago. Her husband's father owns a farm up in the country, and that's where they had the wedding. It was a beautiful view of the fields at the ceremony, but it was way too hot for an outdoor wedding. The reception was inside one of the storage facilities, so that didn't help. They were having issues with the food too, as there wasn't enough of it and they had to order pizza. It was nice going and seeing family members I hadn't seen in a long time. We got a big picture with all the cousins together. Some of my cousins live in England, so it was great to see them and catch up. The most memorable thing about the wedding was the video they played about my cousin and her husband's history. It was well put together and emotional. Once it got dark the heat wasn't so bad, and at least the portable bathrooms they provided were air conditioned. It was only an hour away from where I live too so it was an easy drive back and forth. They offered hotels for any guests who wanted to stay the night, but I'd rather sleep in my own bed. It was definitely a memorable night. I don't get out to the country often."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My cousin got married about three months ago. Her husband's father owns a farm up in the country, and that's where they had the wedding. It was a beautiful view of the fields at the ceremony, but it was way too hot for an outdoor wedding. The reception was inside one of the storage facilities, so that didn't help. They were having issues with the food too, as there wasn't enough of it and they had to order pizza. It was nice going and seeing family members I hadn't seen in a long time. We got a big picture with all the cousins together. Some of my cousins live in England, so it was great to see them and catch up. The most memorable thing about the wedding was the video they played about my cousin and her husband's history. It was well put together and emotional. Once it got dark the heat wasn't so bad, and at least the portable bathrooms they provided were air conditioned. It was only an hour away from where I live too so it was an easy drive back and forth. They offered hotels for any guests who wanted to stay the night, but I'd rather sleep in my own bed. It was definitely a memorable night. I don't get out to the country often.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm really looking forward to seeing them again soon.\n\n"
+            }
+        ],
+        "request_id": "811f36e9cbb7c324-EWR"
+    }
+}

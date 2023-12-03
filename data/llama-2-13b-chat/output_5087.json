@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My daughter just graduated from high school a couple months ago. She was up in Colorado with my brother to finish her senior year of high school. The schools are spectacular there, they are A rated schools. My husband and I were not able to go out there to see her walk across the stage. However, they were live streaming it so we could see it from home while she walked across the stage. At first I didn't even notice her, it was a very long ceremony as they had over 500 seniors that graduated. When I graduated we only had 94 students, so it was a very different and much short ceremony. My brother, his best friend and two of my daughter's friends were there with her. She graduated at the very famous Red Rocks.   She graduated on a very special day that was significant to my mother who passed away about 8 years ago. I am sure she was watching over her. She flew back home that night and arrived at 3:30 in the morning. We were so happy to have her home. She slept for almost 2 days. She was so happy to be home with us. We missed her very much."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My daughter just graduated from high school a couple months ago. She was up in Colorado with my brother to finish her senior year of high school. The schools are spectacular there, they are A rated schools. My husband and I were not able to go out there to see her walk across the stage. However, they were live streaming it so we could see it from home while she walked across the stage. At first I didn't even notice her, it was a very long ceremony as they had over 500 seniors that graduated. When I graduated we only had 94 students, so it was a very different and much short ceremony. My brother, his best friend and two of my daughter's friends were there with her. She graduated at the very famous Red Rocks.   She graduated on a very special day that was significant to my mother who passed away about 8 years ago. I am sure she was watching over her. She flew back home that night and arrived at 3:30 in the morning. We were so happy to have her home. She slept for almost 2 days. She was so happy to be home with us. We missed her very much.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be3d63fe7c404-EWR"
+    }
+}

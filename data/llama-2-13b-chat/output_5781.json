@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago I returned from hotel with my wife and kids. We turned off the highway and entered a country road. We were driving at the speed of 40km/hr. The road was narrowed under the small bridge by  driver didn't notice car from the opposite direction. But surely it is not it wasn't my driver's fault. As the car we saw approaching us in the opposite direction in high speed. We abruptly slammed on the brakes. My driver turned the steering to the right. But our car got hit by the lane in the opposite direction. Unfortunately we were forced off the road by the aggressive driver. Luckily we didn't collide head on with the car. But car rim was dented. However  ,there was a car service center nearby they helped us to repair the car. We safely moved on from there without any injury. After passing few kilometers i saw that car driver caught by the highway patrol officer because of the rash driving."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago I returned from hotel with my wife and kids. We turned off the highway and entered a country road. We were driving at the speed of 40km/hr. The road was narrowed under the small bridge by  driver didn't notice car from the opposite direction. But surely it is not it wasn't my driver's fault. As the car we saw approaching us in the opposite direction in high speed. We abruptly slammed on the brakes. My driver turned the steering to the right. But our car got hit by the lane in the opposite direction. Unfortunately we were forced off the road by the aggressive driver. Luckily we didn't collide head on with the car. But car rim was dented. However  ,there was a car service center nearby they helped us to repair the car. We safely moved on from there without any injury. After passing few kilometers i saw that car driver caught by the highway patrol officer because of the rash driving.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f384878b6c43e-EWR"
+    }
+}

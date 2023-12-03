@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My first day of work was about 6 months ago. I was so stressed. I was over dressed. I didn't pay enought attention when walking through after my interview. I was wearing a full suit when everyone else was wearing shorts and t-shirts. That's ok though. I was happy to be part of the new team and get started. This was a new beginning. Everyone was so helpful and willing to help me. We joked about the nervousnes of the first day of work. My supervisor led us through some team building excersizes that really help me to break out of my shell and be a part of the team. By the end of the day, I was just one of the members of the team. I took off my sports coat and rolled up my sleaves. Luckily, I had a pair of sneakers in the car. I was able to relax a bit and just be happy to work alongside such a great team."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My first day of work was about 6 months ago. I was so stressed. I was over dressed. I didn't pay enought attention when walking through after my interview. I was wearing a full suit when everyone else was wearing shorts and t-shirts. That's ok though. I was happy to be part of the new team and get started. This was a new beginning. Everyone was so helpful and willing to help me. We joked about the nervousnes of the first day of work. My supervisor led us through some team building excersizes that really help me to break out of my shell and be a part of the team. By the end of the day, I was just one of the members of the team. I took off my sports coat and rolled up my sleaves. Luckily, I had a pair of sneakers in the car. I was able to relax a bit and just be happy to work alongside such a great team.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec5140edc180d-EWR"
+    }
+}

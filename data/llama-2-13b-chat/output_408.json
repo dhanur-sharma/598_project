@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My wife and I went on a small, last minute vacation to Gatlinburg, Tennessee.  It was in April of this year.  It was a very memorable trip for me.  I love spending time with my wife, and when we can get away at the last minute that just makes it that much more special.  Gatlinburg is where we spent our honeymoon, and it has special significance to us.  This time was special because we just bonded so much more than we usually do. We got to do more things because the weather was warmer this time around.  We got to stay close to downtown, so we took a lot of walks together to a lot of different places.  The most memorable part was sitting on a balcony at a restaurant overlooking the main road that goes through town.  We spent hours there just talking and people watching.  I still think about that afternoon and how much fun we had together just being together and not really doing anything at all.  Besides that day, we had a couple great meals at some neat places.  We also went to try a new place out that was really bad, and yet we still made the most of it.  Overall, that trip was one of my most favorite times of my life.  It was because I spent it with my favorite person I've ever met.  We still talk about how we can't wait to go back, but I don't think any trip will compare to that one."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My wife and I went on a small, last minute vacation to Gatlinburg, Tennessee.  It was in April of this year.  It was a very memorable trip for me.  I love spending time with my wife, and when we can get away at the last minute that just makes it that much more special.  Gatlinburg is where we spent our honeymoon, and it has special significance to us.  This time was special because we just bonded so much more than we usually do. We got to do more things because the weather was warmer this time around.  We got to stay close to downtown, so we took a lot of walks together to a lot of different places.  The most memorable part was sitting on a balcony at a restaurant overlooking the main road that goes through town.  We spent hours there just talking and people watching.  I still think about that afternoon and how much fun we had together just being together and not really doing anything at all.  Besides that day, we had a couple great meals at some neat places.  We also went to try a new place out that was really bad, and yet we still made the most of it.  Overall, that trip was one of my most favorite times of my life.  It was because I spent it with my favorite person I've ever met.  We still talk about how we can't wait to go back, but I don't think any trip will compare to that one.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " It was perfect."
+            }
+        ],
+        "request_id": "811e912d19a2430e-EWR"
+    }
+}

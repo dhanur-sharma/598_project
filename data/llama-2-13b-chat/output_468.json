@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I reconciled with my mother after being estranged for years. This was at the encouragement of my therapist. I confronted my mother about her past emotional abuse of me, which caused much childhood trauma. She not only acknowledged the abuse for the first time, but she also apologized, and this was very uncharacteristic of her. We spent many hours crying and talking about the past, as well as the future. We learned new things about each other. For the first time, I felt like my mother understood me. I finally felt validated. I felt heard and yes, loved. For years, she had bullied me, denied my feelings and berated me when I tried to express how I felt about her and her behavior. After talking, I realize that she was covering up her own insecurities. Perhaps she was abused herself. She seems guarded about her own childhood. It in no way excuses her behavior. But it makes me see her as more human. I believe she has changed with age and now we are continuing to rebuild our relationship."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I reconciled with my mother after being estranged for years. This was at the encouragement of my therapist. I confronted my mother about her past emotional abuse of me, which caused much childhood trauma. She not only acknowledged the abuse for the first time, but she also apologized, and this was very uncharacteristic of her. We spent many hours crying and talking about the past, as well as the future. We learned new things about each other. For the first time, I felt like my mother understood me. I finally felt validated. I felt heard and yes, loved. For years, she had bullied me, denied my feelings and berated me when I tried to express how I felt about her and her behavior. After talking, I realize that she was covering up her own insecurities. Perhaps she was abused herself. She seems guarded about her own childhood. It in no way excuses her behavior. But it makes me see her as more human. I believe she has changed with age and now we are continuing to rebuild our relationship.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e92452aa68c69-EWR"
+    }
+}

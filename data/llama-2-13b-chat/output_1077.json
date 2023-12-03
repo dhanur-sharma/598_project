@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a crazy few months, and I am sorry I have not updated you in a while. I met a man named Jeffrey. He seems super nice. He took me on a date 3 months ago and that was sweet. We talked about our families, and I got to talk about my girls. He seemed very friendly and open to a family with kids. At one point, he got excited about a story he was telling that he spilled his water all over the table.  It soaked the linen and dripped down onto my lap. We had to call the waitress over to clean up the mess. He was super embarrassed and turned bright red. In a way it was cute. In another way, I had a wet dress. I appreciated him taking me to an italian restaurant, since I am such a picky eater. What I really miss is how simple things were with Dave, though. Beginning to date again is hard."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a crazy few months, and I am sorry I have not updated you in a while. I met a man named Jeffrey. He seems super nice. He took me on a date 3 months ago and that was sweet. We talked about our families, and I got to talk about my girls. He seemed very friendly and open to a family with kids. At one point, he got excited about a story he was telling that he spilled his water all over the table.  It soaked the linen and dripped down onto my lap. We had to call the waitress over to clean up the mess. He was super embarrassed and turned bright red. In a way it was cute. In another way, I had a wet dress. I appreciated him taking me to an italian restaurant, since I am such a picky eater. What I really miss is how simple things were with Dave, though. Beginning to date again is hard.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have been seeing Jeffrey for a few months now, and I am really enjoying his company. I think I might be falling for him. I do not know what the future holds, but I am excited to see where things go.\n\n"
+            }
+        ],
+        "request_id": "811e9d7dbc864337-EWR"
+    }
+}

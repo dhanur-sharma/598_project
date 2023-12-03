@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I visited a foreign country on vacation.  I'd heard that the country has many poor people, but I was staying in a resort area.  Thinking I wanted to immerse myself in the local culture I headed on a long walk.  Walking down a road in a poverty stricken section of town I encountered a small child.  He was probably six years old and very thin and dirty.  He looked sad and run down.  I could tell that he was hungry.  He was begging for food.  I had a sandwich I had brought with me and offered it to him.  He readily took it and smiled and thanked me.  He was so hungry that he immediately devoured the sandwich.  The poor thing had no water, so I gave him mine.  The child hugged me and thanked me again.  I wish I had more food to give him.  I felt very sad not knowing when his next meal would be.   So I went back and brought more food with me.  Unfortunately, I did not find that particular child. But I did find another family in need of the food."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I visited a foreign country on vacation.  I'd heard that the country has many poor people, but I was staying in a resort area.  Thinking I wanted to immerse myself in the local culture I headed on a long walk.  Walking down a road in a poverty stricken section of town I encountered a small child.  He was probably six years old and very thin and dirty.  He looked sad and run down.  I could tell that he was hungry.  He was begging for food.  I had a sandwich I had brought with me and offered it to him.  He readily took it and smiled and thanked me.  He was so hungry that he immediately devoured the sandwich.  The poor thing had no water, so I gave him mine.  The child hugged me and thanked me again.  I wish I had more food to give him.  I felt very sad not knowing when his next meal would be.   So I went back and brought more food with me.  Unfortunately, I did not find that particular child. But I did find another family in need of the food.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I saw that they were very poor and struggling to survive.  They were so thankful for the food that I gave them.  I felt happy knowing that I was able to help them in some way.\n\n"
+            }
+        ],
+        "request_id": "811ec10d0c790c9e-EWR"
+    }
+}

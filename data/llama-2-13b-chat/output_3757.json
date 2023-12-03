@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This day was absolutely hilarious. I haven't had such a day in my life i think. It started out normal. Just like any other day. I went to work and was waiting on the tables as usual. Around evening, this elderly couple walked in. They asked me if they could be seated. This was surprising to begin with- as we do not have a reservation policy. However, i politely informed them that they can take a seat. They seemed to know what they were doing. However, how wrong i was! As i came back from the kitchen, i saw them sitting besides these children. The kids seemed confused, and a bit terrified? The mom was furious for sure. Apparently the elderly couple didn't know our ways it seems."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This day was absolutely hilarious. I haven't had such a day in my life i think. It started out normal. Just like any other day. I went to work and was waiting on the tables as usual. Around evening, this elderly couple walked in. They asked me if they could be seated. This was surprising to begin with- as we do not have a reservation policy. However, i politely informed them that they can take a seat. They seemed to know what they were doing. However, how wrong i was! As i came back from the kitchen, i saw them sitting besides these children. The kids seemed confused, and a bit terrified? The mom was furious for sure. Apparently the elderly couple didn't know our ways it seems.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They thought this was a daycare. Oh my god, it was hilarious! I was laughing so hard! I've never seen anything like this. I couldn't help but take a picture of them with the kids. They seemed to be enjoying themselves though. It was definitely a day to remember.\n\n"
+            }
+        ],
+        "request_id": "811ed062281f42a1-EWR"
+    }
+}

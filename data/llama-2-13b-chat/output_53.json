@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A month ago, I had a tough job. It advanced my career but hurt my health. I had to quit my job to take care of myself. It was a tough decision but it was the best decision of my life. I got a bit healthier after a week. I got a lot healthier after a month. I guess it was the stress of the job that made my sick. I decided to work at a gym. This won't be too stressful and will help me get myself in good shape. I have helped a lot of people get back in shape. I am the talk of the gym. I am happy because of this. I hope they continue to be in good shape. They have made me proud. I have made them proud."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A month ago, I had a tough job. It advanced my career but hurt my health. I had to quit my job to take care of myself. It was a tough decision but it was the best decision of my life. I got a bit healthier after a week. I got a lot healthier after a month. I guess it was the stress of the job that made my sick. I decided to work at a gym. This won't be too stressful and will help me get myself in good shape. I have helped a lot of people get back in shape. I am the talk of the gym. I am happy because of this. I hope they continue to be in good shape. They have made me proud. I have made them proud.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am healthy and happy now.\n\n"
+            }
+        ],
+        "request_id": "811e8a96c9bfc32a-EWR"
+    }
+}

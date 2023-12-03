@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five weeks ago, I came back to Jamaica. I haven't been here in 20 years. As soon as the plane landed I'm immediately flooded with memories. Some I'll cherish forever, and others I wish I could forget. My old house is now an internet cafe. The streets I played in as a child that were once filled with the sweet aromas of home cooked meals, now just stink of petrol. I can no longer see the ocean from every street corner. All I see around me is grey, no more trees, birds or even a sea breeze. Just cement and wires sticking out everything. As much as it make me happy to see my town progress into the future. I wish it could still hold onto some things from the past.  At least a few of the old characters are still around. I see what used to be my closest friend, still at his usual post. Playing cards on a milk crate behind the corner store. He's with some people I've never met. He spots me from across the road, and does a double take. I smile give him a wave, and he does the same. I ran across the street to say hello. He greets me with a big hug and we reminisce about the old days. He introduces me to the folks he's playing cards with and gives me a quick tour of our old neighborhood. I really enjoyed seeing him, my trip home was even better having been able to see him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five weeks ago, I came back to Jamaica. I haven't been here in 20 years. As soon as the plane landed I'm immediately flooded with memories. Some I'll cherish forever, and others I wish I could forget. My old house is now an internet cafe. The streets I played in as a child that were once filled with the sweet aromas of home cooked meals, now just stink of petrol. I can no longer see the ocean from every street corner. All I see around me is grey, no more trees, birds or even a sea breeze. Just cement and wires sticking out everything. As much as it make me happy to see my town progress into the future. I wish it could still hold onto some things from the past.  At least a few of the old characters are still around. I see what used to be my closest friend, still at his usual post. Playing cards on a milk crate behind the corner store. He's with some people I've never met. He spots me from across the road, and does a double take. I smile give him a wave, and he does the same. I ran across the street to say hello. He greets me with a big hug and we reminisce about the old days. He introduces me to the folks he's playing cards with and gives me a quick tour of our old neighborhood. I really enjoyed seeing him, my trip home was even better having been able to see him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecaebfa2742f2-EWR"
+    }
+}

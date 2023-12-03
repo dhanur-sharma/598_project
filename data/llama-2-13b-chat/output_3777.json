@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I baptized my godson and it was a great ceremony. Now he is pure and he is protected by God. I've never feel a more important time in my life. I am proud to have stood by him when he was baptized. It was a great feeling to be there. Now he will grow up to be a great man, I just know. I feel it in my heart. After the ceremony, my family and his talked we got a lot closer. We told each other our problems, and we helped each other solve them. It's always a great feeling to have help from other people, and that's how we get closer to each other. Over the years, we helped each other a lot. We talked a lot. And we got closer a lot. My godson grew up to be a great person. And I'm proud to say that it was party because of me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I baptized my godson and it was a great ceremony. Now he is pure and he is protected by God. I've never feel a more important time in my life. I am proud to have stood by him when he was baptized. It was a great feeling to be there. Now he will grow up to be a great man, I just know. I feel it in my heart. After the ceremony, my family and his talked we got a lot closer. We told each other our problems, and we helped each other solve them. It's always a great feeling to have help from other people, and that's how we get closer to each other. Over the years, we helped each other a lot. We talked a lot. And we got closer a lot. My godson grew up to be a great person. And I'm proud to say that it was party because of me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm glad I was there for him when he needed me the most."
+            }
+        ],
+        "request_id": "811ed0eaddbe0fa8-EWR"
+    }
+}

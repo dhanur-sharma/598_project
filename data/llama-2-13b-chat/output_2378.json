@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had been doing a lot of trail running, so I wanted to challenge myself.  I entered a really hard race.  It is literally a marathon (26. 2 miles) with over a mile of elevation gain and over a mile of elevation descent on steep rugged mountain trails.  It goes over boulder fields too.  I trained really hard for it as I went out running 6 days a week and then lifted legs 2 times a week.  Going in, I was cautiously optimistic, but I was unsure because I had never done this distance before.  I took my time and was making good time.  I was easily beating the cutoff times by hours.  Not even halfway through, I started cramping, along with most everyone else.  Roughly halfway through, my leg went numb.  I couldn't move it any more and I was frozen in place.  I took some salt tablets and got moving again.  I paid better attention to my nutrition at the aid stations and kept going.  I didn't have any problems afterwards and I had a blast.  I completed the race many hours ahead of the final cutoff time and was proud of myself for doing that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had been doing a lot of trail running, so I wanted to challenge myself.  I entered a really hard race.  It is literally a marathon (26. 2 miles) with over a mile of elevation gain and over a mile of elevation descent on steep rugged mountain trails.  It goes over boulder fields too.  I trained really hard for it as I went out running 6 days a week and then lifted legs 2 times a week.  Going in, I was cautiously optimistic, but I was unsure because I had never done this distance before.  I took my time and was making good time.  I was easily beating the cutoff times by hours.  Not even halfway through, I started cramping, along with most everyone else.  Roughly halfway through, my leg went numb.  I couldn't move it any more and I was frozen in place.  I took some salt tablets and got moving again.  I paid better attention to my nutrition at the aid stations and kept going.  I didn't have any problems afterwards and I had a blast.  I completed the race many hours ahead of the final cutoff time and was proud of myself for doing that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb58978b7c34a-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A week ago my husband and I went away for his birthday. It was a blast! The hotel we stayed in was really modern and great, it had a lot of art around the grounds that we went and looked at. Most specifically there was a guitar that used to be owned by Roy Orbison that my husband was super excited about. We spent some time watching his favorite movie in this really crazy state of the art theater. The movie we watched was an Anime film that I didn't like, but wow was it great in that theater! We had a really nice time swimming and really enjoyed it, it was great exercise. The restaurant was fantastic and served us great steak. It was wild because normally he only likes the steak I make for him, but this time he really enjoyed it. It made me feel self conscious and that I had to do better the next time I make steak. The most memorable thing we did was drink a little too much and get into the whirlpool tub. At first it felt really great but after a little while we began to feel woozy. When we got out, we felt very dizzy and sick to our stomachs. We had to go lay down. Neither of us felt that we'd drank that much, but I guess we were wrong! Next time we will be careful not to do such a thing."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A week ago my husband and I went away for his birthday. It was a blast! The hotel we stayed in was really modern and great, it had a lot of art around the grounds that we went and looked at. Most specifically there was a guitar that used to be owned by Roy Orbison that my husband was super excited about. We spent some time watching his favorite movie in this really crazy state of the art theater. The movie we watched was an Anime film that I didn't like, but wow was it great in that theater! We had a really nice time swimming and really enjoyed it, it was great exercise. The restaurant was fantastic and served us great steak. It was wild because normally he only likes the steak I make for him, but this time he really enjoyed it. It made me feel self conscious and that I had to do better the next time I make steak. The most memorable thing we did was drink a little too much and get into the whirlpool tub. At first it felt really great but after a little while we began to feel woozy. When we got out, we felt very dizzy and sick to our stomachs. We had to go lay down. Neither of us felt that we'd drank that much, but I guess we were wrong! Next time we will be careful not to do such a thing.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecb97dbb342bf-EWR"
+    }
+}

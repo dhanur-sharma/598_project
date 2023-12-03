@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today is September 20th, and I had just gotten out of the hospital.  The past 10 days have been absolutely awful.  I was in the hospital and it absolutely sucked.  I was in a lot of pain, but it's slowly getting better.  I fell down the stairs and suffered a broken collarbone, some ribs were broken, and I had what was called a subdural hematoma.  As stupid as it may sound, I'm happy to be alive I suppose.  At least I was able to get to the hospital.  Now that I'm out of the hospital, it's a new journey I'll be going through.  I need to rest, and can't work much.  I can't really take care of myself doing the things I need to do because I need to let my bones heal.  I also have my family that are constantly required to check up on me at constant intervals because my brain was injured quite a bit in the fall.  I feel so helpless.  I feel like such a burden.  It's awful.  I wish I could just take care of myself and heal right away, but I'll need monitoring and help for the next while.  Hopefully my healing goes well and I can get over this, but until then, I'll need a lot of care."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today is September 20th, and I had just gotten out of the hospital.  The past 10 days have been absolutely awful.  I was in the hospital and it absolutely sucked.  I was in a lot of pain, but it's slowly getting better.  I fell down the stairs and suffered a broken collarbone, some ribs were broken, and I had what was called a subdural hematoma.  As stupid as it may sound, I'm happy to be alive I suppose.  At least I was able to get to the hospital.  Now that I'm out of the hospital, it's a new journey I'll be going through.  I need to rest, and can't work much.  I can't really take care of myself doing the things I need to do because I need to let my bones heal.  I also have my family that are constantly required to check up on me at constant intervals because my brain was injured quite a bit in the fall.  I feel so helpless.  I feel like such a burden.  It's awful.  I wish I could just take care of myself and heal right away, but I'll need monitoring and help for the next while.  Hopefully my healing goes well and I can get over this, but until then, I'll need a lot of care.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e89fdc8df41cd-EWR"
+    }
+}

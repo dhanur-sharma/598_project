@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 2 weeks ago I decided to go enjoy a day at the fair. I don't buy much as food and things are exorbitantly priced, even entry and parking are outrageous, but I do like to walk around for hours and just look; watch car races, look at the animals, watch dancers, etc... there's many free things to enjoy. On the way to the event a multiple car accident happened right in front of me. I was blessed with quick reflexes or I may have been caught in the accident myself. All traffic stopped and I was front row. I got out and ran up to the vehicle just in front of me to check on its passengers. The person in this car was a little bloody from hitting their head on the steering wheel, and they were a little shocked, but they were in overall good shape. Two of the other cars, I think 5 or 6 in total, had serious damages and injuries. We had to pull two people out and get them laid on the ground as their car was on fire. It didn't end up exploding but you never know. Anyway, paramedics came and took all the injured away. Bad there were horrible injuries but good there were no deaths. The police came as well. They asked all around what happened. I don't actually know what happened to start the entire pile-up even though it happened right in front of me. I believe it was someone changing lanes quickly and without looking. I'm not sure."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 2 weeks ago I decided to go enjoy a day at the fair. I don't buy much as food and things are exorbitantly priced, even entry and parking are outrageous, but I do like to walk around for hours and just look; watch car races, look at the animals, watch dancers, etc... there's many free things to enjoy. On the way to the event a multiple car accident happened right in front of me. I was blessed with quick reflexes or I may have been caught in the accident myself. All traffic stopped and I was front row. I got out and ran up to the vehicle just in front of me to check on its passengers. The person in this car was a little bloody from hitting their head on the steering wheel, and they were a little shocked, but they were in overall good shape. Two of the other cars, I think 5 or 6 in total, had serious damages and injuries. We had to pull two people out and get them laid on the ground as their car was on fire. It didn't end up exploding but you never know. Anyway, paramedics came and took all the injured away. Bad there were horrible injuries but good there were no deaths. The police came as well. They asked all around what happened. I don't actually know what happened to start the entire pile-up even though it happened right in front of me. I believe it was someone changing lanes quickly and without looking. I'm not sure.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "The police may have more information. After it was all over, I continued on to the fair. I walked around for a while and enjoyed myself. I'm just glad I was able to help in a small way and that no one died.\n\n"
+            }
+        ],
+        "request_id": "811e9b9adacb1993-EWR"
+    }
+}

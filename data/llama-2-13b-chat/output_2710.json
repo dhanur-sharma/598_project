@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been taking care of my elderly mother for many years. In April, she did a stool test and it came back positive for blood. I hate it when they call it \"positive\". What's so positive about it? It's bad news. They should call it \"OMG\" instead. She had had a history of bleeding and polyps. I dreaded the possibility of going through colonoscopy again. She would have to drink GoLightly and sit on the toilet all night long. She was then down to 89 pounds due to eating soft food because of bad teeth. She would be exhausted. I took her to see her doctor, and the doctor was reluctant to put her through all that too. I said a few days prior doing the test, my mother had gone to her dentist for cleaning and her gum bled some. Could that have caused a false positive? Her doctor said yes, it could, and could my mom re-do the test in a month? Sure, I said. So for one month I was worried, a dark cloud formed above our heads as we waited. A month passed by. My mom re-did the stool test. Then we had to wait some more for the result. The result wouldn't show up online, so we made a trip to the doctor's office to get it. IT WAS NEGATIVE! NO BLOOD! Yea! Relief."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been taking care of my elderly mother for many years. In April, she did a stool test and it came back positive for blood. I hate it when they call it \"positive\". What's so positive about it? It's bad news. They should call it \"OMG\" instead. She had had a history of bleeding and polyps. I dreaded the possibility of going through colonoscopy again. She would have to drink GoLightly and sit on the toilet all night long. She was then down to 89 pounds due to eating soft food because of bad teeth. She would be exhausted. I took her to see her doctor, and the doctor was reluctant to put her through all that too. I said a few days prior doing the test, my mother had gone to her dentist for cleaning and her gum bled some. Could that have caused a false positive? Her doctor said yes, it could, and could my mom re-do the test in a month? Sure, I said. So for one month I was worried, a dark cloud formed above our heads as we waited. A month passed by. My mom re-did the stool test. Then we had to wait some more for the result. The result wouldn't show up online, so we made a trip to the doctor's office to get it. IT WAS NEGATIVE! NO BLOOD! Yea! Relief.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "No colonoscopy. No prep. No sedation. No recovery. No worries. We were so happy. I took my mom to get her favorite ice cream for celebration. She's still at 89 pounds, but at least we know she's okay."
+            }
+        ],
+        "request_id": "811ebc03a9ab42ce-EWR"
+    }
+}

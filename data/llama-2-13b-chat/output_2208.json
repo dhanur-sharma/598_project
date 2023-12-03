@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: After mulling things over for a couple years, I finally decided to sell my house. I decided just before Christmas, but I went into action right after Christmas. One option was to sell as is, which would potentially be quicker. I tried listing it on Craigslist and Facebook. No takers, though plenty were interested. I also tried selling it to one of those \"We Buy Houses\" guys. Waste of time. Simultaneously, I was looking at doing repairs and painting for to either sell myself at a higher price or through a realtor. I could do the work myself, with friends, or by hiring contractors. I preferred the latter. The problem was no one seemed to want the work! Two, maybe three contractors I contacted ghosted me by not showing up to give a bid. Was it the address? Holiday mood? I don't know, but it was frustrating. I had two friends who'd potentially help me knock out the work, but they wouldn't be available for a few weeks. It was stressful juggling all those options and not knowing which would pan out. Most would try one at a time, but I really wanted to get this settled and get out of town. Finally, I found some contractors through my neighbor. Those guys showed up the next Monday, knocked the work out for a low price and did very decent work. I was able to list the house and settled on an offer in 1-2 weeks, getting a decent sale price. Managing all that in a compressed time frame wore me out. I think it was about a three-week journey until the house was cleaned up and listed through a realtor -- a very intense three weeks."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: After mulling things over for a couple years, I finally decided to sell my house. I decided just before Christmas, but I went into action right after Christmas. One option was to sell as is, which would potentially be quicker. I tried listing it on Craigslist and Facebook. No takers, though plenty were interested. I also tried selling it to one of those \"We Buy Houses\" guys. Waste of time. Simultaneously, I was looking at doing repairs and painting for to either sell myself at a higher price or through a realtor. I could do the work myself, with friends, or by hiring contractors. I preferred the latter. The problem was no one seemed to want the work! Two, maybe three contractors I contacted ghosted me by not showing up to give a bid. Was it the address? Holiday mood? I don't know, but it was frustrating. I had two friends who'd potentially help me knock out the work, but they wouldn't be available for a few weeks. It was stressful juggling all those options and not knowing which would pan out. Most would try one at a time, but I really wanted to get this settled and get out of town. Finally, I found some contractors through my neighbor. Those guys showed up the next Monday, knocked the work out for a low price and did very decent work. I was able to list the house and settled on an offer in 1-2 weeks, getting a decent sale price. Managing all that in a compressed time frame wore me out. I think it was about a three-week journey until the house was cleaned up and listed through a realtor -- a very intense three weeks.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb253cb8f42f7-EWR"
+    }
+}

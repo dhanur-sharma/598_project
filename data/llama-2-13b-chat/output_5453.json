@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I know my training for the initial marathon will help me a lot in training for the full marathon. I can't wait to get started. My motivation is so high at the moment that I look forward to training. I know I am improving my health on this journey and giving myself mental clarity as well. I'm not sure what got me started on the marathon journey, perhaps I felt something was missing. perhaps I needed inspiration, I just don't know, but I'm so glad that I did it. It gave me a whole new sense of purpose. There is joy in every step I take. I feel the bounce when I walk. I'm more toned all over, I look better, more healthy. My skin looks radiant as well. I noticed that my clothes fit better and I'm more conscious of what I'm eating. I'm choosing healthier meals and snacks. I no longer crave junk food or fast food. I prepare my meals more often now. I've gotten into cooking on Sundays to prep for the week. It helps keep my motivation going. It helps with my training for the up and coming marathon that I want to participate in. Overall, I just feel better both physically and mentally."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I know my training for the initial marathon will help me a lot in training for the full marathon. I can't wait to get started. My motivation is so high at the moment that I look forward to training. I know I am improving my health on this journey and giving myself mental clarity as well. I'm not sure what got me started on the marathon journey, perhaps I felt something was missing. perhaps I needed inspiration, I just don't know, but I'm so glad that I did it. It gave me a whole new sense of purpose. There is joy in every step I take. I feel the bounce when I walk. I'm more toned all over, I look better, more healthy. My skin looks radiant as well. I noticed that my clothes fit better and I'm more conscious of what I'm eating. I'm choosing healthier meals and snacks. I no longer crave junk food or fast food. I prepare my meals more often now. I've gotten into cooking on Sundays to prep for the week. It helps keep my motivation going. It helps with my training for the up and coming marathon that I want to participate in. Overall, I just feel better both physically and mentally.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f31b92d388c75-EWR"
+    }
+}

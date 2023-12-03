@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I'm kind of on the nerdy side. Not only am I nerdy, I'm clumsy. I'm scared to go out sometimes. If a girl would walk up to me I'd be scared to death. Why, would I get scared? Well, I'd never been with a woman in my life. About a month ago I met this nice woman. I thought nothing about speaking to her. I thought we were just friends. Well, I started feeling more warm to her. I thought she felt the same. I expressed a little bit of words explaining that I like her a lot. She actually liked me back. I proceeded to get more comfortable with this woman. I finally got brave, I kissed her! She acted as though she liked the kiss too. I was so excited and will never forget this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I'm kind of on the nerdy side. Not only am I nerdy, I'm clumsy. I'm scared to go out sometimes. If a girl would walk up to me I'd be scared to death. Why, would I get scared? Well, I'd never been with a woman in my life. About a month ago I met this nice woman. I thought nothing about speaking to her. I thought we were just friends. Well, I started feeling more warm to her. I thought she felt the same. I expressed a little bit of words explaining that I like her a lot. She actually liked me back. I proceeded to get more comfortable with this woman. I finally got brave, I kissed her! She acted as though she liked the kiss too. I was so excited and will never forget this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It felt so good to finally experience that. I'm still with this woman and I'm still nerdy and clumsy. I still get scared sometimes but she makes me feel better. I'm happy and so grateful to have her. I can't wait to see what the future holds for us."
+            }
+        ],
+        "request_id": "811ebbb8ba8d1962-EWR"
+    }
+}

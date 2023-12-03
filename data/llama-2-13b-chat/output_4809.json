@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In May my mom, sister, niece and nephew took a wonderful trip to the Oregon Coast. We rented a rustic beach house in Lincoln. The beach house sat high above the ocean with a set of stairs that lead down to the beach. Our mornings were filled with coffee and relaxing on our deck or in the hot tub overlooking the water. Then followed a morning walk along the beach looking for seashells.      In the afternoons we enjoyed playing board games and sometimes took a nap. In the evenings we would make a scrumptious dinner, return to stroll along the water while watching the sunsets, and then again to the hot tub with a glass of wine. We watched movies in the evenings.      The only disappointing part of the trip is how we did not get much sunshine. We had quite a bit of drizzly rain. However you can't expect anything different on the Oregon Coast that time of year.      I really enjoy having a niece and nephew who are twins. They are each other's best friends and are the kindest, most thoughtful kids I know. They have brought much joy to our family. This was a special vacation I will remember for the rest of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In May my mom, sister, niece and nephew took a wonderful trip to the Oregon Coast. We rented a rustic beach house in Lincoln. The beach house sat high above the ocean with a set of stairs that lead down to the beach. Our mornings were filled with coffee and relaxing on our deck or in the hot tub overlooking the water. Then followed a morning walk along the beach looking for seashells.      In the afternoons we enjoyed playing board games and sometimes took a nap. In the evenings we would make a scrumptious dinner, return to stroll along the water while watching the sunsets, and then again to the hot tub with a glass of wine. We watched movies in the evenings.      The only disappointing part of the trip is how we did not get much sunshine. We had quite a bit of drizzly rain. However you can't expect anything different on the Oregon Coast that time of year.      I really enjoy having a niece and nephew who are twins. They are each other's best friends and are the kindest, most thoughtful kids I know. They have brought much joy to our family. This was a special vacation I will remember for the rest of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bde47a909432b-EWR"
+    }
+}

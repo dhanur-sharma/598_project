@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was feeling excited on the morning of Chad's first day all on his own. Michael and I had been looking forward to this day and we were scared because we were not ready in a way. Would I like the teacher? Would they instill confidence in their ability to take care of OUR baby boy with whom I almost trusted no one? Thankfully I have been talking about this with my therapist and support group. I can barely imagine my mom feeling any way similar when I was a child. It was surreal to be in a position to take care of a tiny child for the first time. I want him to be happy. I want him to be healthy. Most importantly I want him to know that he is loved. Michael and I may not be perfect, but we sure try our best. We didn't have the best childhoods so we want him to. I am getting nervous but I think I will be okay. I have my camera ready and I will be documenting this. I hope Chad enjoys it. I hope we are okay. We will be okay."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was feeling excited on the morning of Chad's first day all on his own. Michael and I had been looking forward to this day and we were scared because we were not ready in a way. Would I like the teacher? Would they instill confidence in their ability to take care of OUR baby boy with whom I almost trusted no one? Thankfully I have been talking about this with my therapist and support group. I can barely imagine my mom feeling any way similar when I was a child. It was surreal to be in a position to take care of a tiny child for the first time. I want him to be happy. I want him to be healthy. Most importantly I want him to know that he is loved. Michael and I may not be perfect, but we sure try our best. We didn't have the best childhoods so we want him to. I am getting nervous but I think I will be okay. I have my camera ready and I will be documenting this. I hope Chad enjoys it. I hope we are okay. We will be okay.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb2081f6a430a-EWR"
+    }
+}

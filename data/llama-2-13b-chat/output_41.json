@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I remember a recent event in June 2019.  My Mom and I went on a birthday trip to South Carolina. We stayed at a bed and breakfast for 3 days. The bed and breakfast had a lot of good reviews, but we didn't feel that it was the best one we had been to so far! The service was not what was expected, but we had fun. The first night we ate dinner at a Japanese restaurant. Breakfast was prepared all mornings we were there. The other nights, we had Chinese and also ate in Savannah, GA. For fun, we went to a plantation and traveled to other cities, like Charleston and Savannah, GA.  After our stay at the bed and breakfast, we drove to my uncle's house in Georgia. The trip took about 8 hours from where we stayed in South Carolina. We stayed for a couple of days, then went home. We also ate dinner at a restaurant. Our relative gave us a tour around the city. It was very nice and comfortable there. It was a memorable trip, getting to see other states as we rode along."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I remember a recent event in June 2019.  My Mom and I went on a birthday trip to South Carolina. We stayed at a bed and breakfast for 3 days. The bed and breakfast had a lot of good reviews, but we didn't feel that it was the best one we had been to so far! The service was not what was expected, but we had fun. The first night we ate dinner at a Japanese restaurant. Breakfast was prepared all mornings we were there. The other nights, we had Chinese and also ate in Savannah, GA. For fun, we went to a plantation and traveled to other cities, like Charleston and Savannah, GA.  After our stay at the bed and breakfast, we drove to my uncle's house in Georgia. The trip took about 8 hours from where we stayed in South Carolina. We stayed for a couple of days, then went home. We also ate dinner at a restaurant. Our relative gave us a tour around the city. It was very nice and comfortable there. It was a memorable trip, getting to see other states as we rode along.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e8a56df3a17f9-EWR"
+    }
+}

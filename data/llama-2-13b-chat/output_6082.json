@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had the greatest experience about six months ago. I went two this local, neighborhood bar. It's thought of to be a hole in the wall by many people. Don't judge a book by it's cover, however. They have a mixed crowd there. Not many wealthy individuals, but a few. They have some GREAT food in there. It's home cooking, more or less. The prices are right, too. There are some drawbacks, however. These fools don't have Maker's Mark there. How can you have a bar without Maker's Mark! One lawyer in town said that he would never patronize a bar that didn't have Maker's Mark. And I used to agree. But for this place, I am making an exception. Well, it's sort of economics. I don't have the money to buy Maker's Mark at a bar 99% of the time anyway. The point is moot! In the future, I might even watch some of the football games there. By football games I am talking about my teams. The Cleveland Browns are one team. They are my NFL squad. For life. My team for NCAA Division I or whatever it's called is The Ohio State Buckeyes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had the greatest experience about six months ago. I went two this local, neighborhood bar. It's thought of to be a hole in the wall by many people. Don't judge a book by it's cover, however. They have a mixed crowd there. Not many wealthy individuals, but a few. They have some GREAT food in there. It's home cooking, more or less. The prices are right, too. There are some drawbacks, however. These fools don't have Maker's Mark there. How can you have a bar without Maker's Mark! One lawyer in town said that he would never patronize a bar that didn't have Maker's Mark. And I used to agree. But for this place, I am making an exception. Well, it's sort of economics. I don't have the money to buy Maker's Mark at a bar 99% of the time anyway. The point is moot! In the future, I might even watch some of the football games there. By football games I am talking about my teams. The Cleveland Browns are one team. They are my NFL squad. For life. My team for NCAA Division I or whatever it's called is The Ohio State Buckeyes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So, you see, I am very particular about my teams. I don't watch games at bars that don't have Maker's Mark. This bar, however, is an exception. And I am glad I made it!"
+            }
+        ],
+        "request_id": "811f3e69dd590f3d-EWR"
+    }
+}

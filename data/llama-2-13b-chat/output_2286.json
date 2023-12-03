@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Life has been very interesting over the last few months. That might be the understatement of the year. About six months ago my family of seven did the unthinkable: we moved more than 1,000 miles north to an area we didn't know much about. My dad took a very good job in a new area, and it made the most sense for our big family financially for him to accept. Even though that meant going to new schools and losing friends for my siblings and I, we knew our family needed our dad to take this job. The move itself was pretty crazy, since we needed five large moving trucks to haul our things. We had one truck that was nothing more than our beds and bed frames. Another truck seemingly held all of our clothes, which was very eye opening. We have a lot of clothes! After finally getting settled in however, we really began to love our new surroundings. Moving from the city to a more rural area was perfect for my brothers and sisters and I. We finally had room to play sports and do all sorts of activities outside. Growing up in a downtown situation made it hard for us to experience this type of freedom, and we relished in it right away. I know many of my old friends back home said it was crazy for such a big family to move like we did, but I don't mind the change. Learning a new area and interacting with new people is fun for me, so I really think we made the best move for my family and myself."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Life has been very interesting over the last few months. That might be the understatement of the year. About six months ago my family of seven did the unthinkable: we moved more than 1,000 miles north to an area we didn't know much about. My dad took a very good job in a new area, and it made the most sense for our big family financially for him to accept. Even though that meant going to new schools and losing friends for my siblings and I, we knew our family needed our dad to take this job. The move itself was pretty crazy, since we needed five large moving trucks to haul our things. We had one truck that was nothing more than our beds and bed frames. Another truck seemingly held all of our clothes, which was very eye opening. We have a lot of clothes! After finally getting settled in however, we really began to love our new surroundings. Moving from the city to a more rural area was perfect for my brothers and sisters and I. We finally had room to play sports and do all sorts of activities outside. Growing up in a downtown situation made it hard for us to experience this type of freedom, and we relished in it right away. I know many of my old friends back home said it was crazy for such a big family to move like we did, but I don't mind the change. Learning a new area and interacting with new people is fun for me, so I really think we made the best move for my family and myself.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's been a wild ride, but I'm so glad we made the move."
+            }
+        ],
+        "request_id": "811eb3c2ec094402-EWR"
+    }
+}

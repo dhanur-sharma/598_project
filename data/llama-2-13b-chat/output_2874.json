@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was kind of fun and kind of weird at the same time. I was walking on the street and he seemingly came out of nowhere, almost pounced on me and recognized me instantly, while I was having a hard time figuring out who he was. After I recognized him we started a conversation but it was a bit uneven. While I was somehow guarded, at least at first, he just dived in the conversation like just as if we had already been talking together for hours. He seemed very eager to know about my life, my present circumstances, even my political opinions. So we chatted, although I didn't have that much time and the context was not the most comfortable. He asked me a bunch of questions and several times veered into personal territory, or asked awkward questions. Among other things, at some point he told me something like: \"You didn't look too bad as a teenager but you were so skinny, I see you worked on that. I guess that's why you're married now - you were like a sack of bones.\" So... not the most tactful guy. Of course I made a face when he said that, a somewhat surprised and skeptical face so he realized he had been unpleasant and apologized profusely. He also told me he had not seen his son in many years and knew that his son had had a baby but had never seen the baby. He even implied that it was probably for the best since family is so annoying (his words). But he wanted to know about people we used to know in high school and seemed surprised that I had not kept in touch with any of them. It was pretty clear he was not someone with great social skills, although I had never really noticed it when we were young. I never really hung out with him but we were in the same classes, we had some friends in common etc. He just seemed a bit shy and didn't talk much, but he was quite popular nonetheless - I now wonder why. At the time I thought he was probably really nice once you got to know him better, but now I'm not sure that's what it was. One way or another, we ended up chatting for a rather long time because I felt kind of bad to cut the conversation short - he looked pretty lonely actually, and seemed so thrilled to have someone to talk to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was kind of fun and kind of weird at the same time. I was walking on the street and he seemingly came out of nowhere, almost pounced on me and recognized me instantly, while I was having a hard time figuring out who he was. After I recognized him we started a conversation but it was a bit uneven. While I was somehow guarded, at least at first, he just dived in the conversation like just as if we had already been talking together for hours. He seemed very eager to know about my life, my present circumstances, even my political opinions. So we chatted, although I didn't have that much time and the context was not the most comfortable. He asked me a bunch of questions and several times veered into personal territory, or asked awkward questions. Among other things, at some point he told me something like: \"You didn't look too bad as a teenager but you were so skinny, I see you worked on that. I guess that's why you're married now - you were like a sack of bones.\" So... not the most tactful guy. Of course I made a face when he said that, a somewhat surprised and skeptical face so he realized he had been unpleasant and apologized profusely. He also told me he had not seen his son in many years and knew that his son had had a baby but had never seen the baby. He even implied that it was probably for the best since family is so annoying (his words). But he wanted to know about people we used to know in high school and seemed surprised that I had not kept in touch with any of them. It was pretty clear he was not someone with great social skills, although I had never really noticed it when we were young. I never really hung out with him but we were in the same classes, we had some friends in common etc. He just seemed a bit shy and didn't talk much, but he was quite popular nonetheless - I now wonder why. At the time I thought he was probably really nice once you got to know him better, but now I'm not sure that's what it was. One way or another, we ended up chatting for a rather long time because I felt kind of bad to cut the conversation short - he looked pretty lonely actually, and seemed so thrilled to have someone to talk to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "So I indulged him for a bit, although it was not the most comfortable experience for me. And I'm not sure if he's still the same person I knew in high school, maybe he's changed a lot, but it was a weird experience nonetheless."
+            }
+        ],
+        "request_id": "811ebfdef9689e04-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This such a hard thing to write about. About a year ago, my best friend's son, named James, was hit by a car. He landed on his head and unfortunately, went into a coma. The most horrific thing about this whole event was seeing James in the hospital bed, bruised and swollen. I could barely recognize him. We were told that, in a best case scenario, he would be a quadriplegic with brain damage. We held out hope that he would come out of the coma, but he never did. I felt horrible about the whole situation as this wasn't just my best friend's son, it was also my godson. I was there when he was born and I watched him grow up.  James passed away two weeks ago after being in a coma for about a year. Surprisingly, everyone in the family felt at peace. We believed that James was now more alive than he had ever been over this past year. Shockingly, the funeral was an inspiring event where we celebrated James' life. Although he was taken too soon from us, James still lived a full life that everyone will remember. The funeral conveyed this fact and it ended up being a robust celebration of the life of James."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This such a hard thing to write about. About a year ago, my best friend's son, named James, was hit by a car. He landed on his head and unfortunately, went into a coma. The most horrific thing about this whole event was seeing James in the hospital bed, bruised and swollen. I could barely recognize him. We were told that, in a best case scenario, he would be a quadriplegic with brain damage. We held out hope that he would come out of the coma, but he never did. I felt horrible about the whole situation as this wasn't just my best friend's son, it was also my godson. I was there when he was born and I watched him grow up.  James passed away two weeks ago after being in a coma for about a year. Surprisingly, everyone in the family felt at peace. We believed that James was now more alive than he had ever been over this past year. Shockingly, the funeral was an inspiring event where we celebrated James' life. Although he was taken too soon from us, James still lived a full life that everyone will remember. The funeral conveyed this fact and it ended up being a robust celebration of the life of James.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec3964a434397-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months my husband and I decided to go on vacation. We had a difficult time choosing a country in Europe. We deliberated for months before this, before we finally decided that we should make the vacation more exciting. To this this, we decided to rule out Europe and choose a South American country or an Asian country. At the end, we decided to chose Japan. This is a complete surprise because I never had any intention of going to a country outside of Europe. After making our choice, we did some research, prepared and traveled to Japan. Arriving Japan felt like arriving at a different world or an alternate world. Everything just felt different and strange. I have been to two other countries outside the US, but they were countries that had quiet a similar culture to US so it was easy. Japan was a lovely country, the country felt so organised, maybe a bit too organised. I am someone who loves structure but I was overwhelmed by how structured everything was.  The Japanese people were very polite and friendly, we had bonus points for trying to learn how to speak their language. The Japanese people were neat almost to a fault. All the streets and public places were so clean that it felt like they all had germophobia. They were also incredibly disciplined, they always kept to their words. After three interesting weeks in Japan, my husband and I decided to come back to the US. We felt good coming back, but we couldn't stop ourselves from making a lot of comparisons."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months my husband and I decided to go on vacation. We had a difficult time choosing a country in Europe. We deliberated for months before this, before we finally decided that we should make the vacation more exciting. To this this, we decided to rule out Europe and choose a South American country or an Asian country. At the end, we decided to chose Japan. This is a complete surprise because I never had any intention of going to a country outside of Europe. After making our choice, we did some research, prepared and traveled to Japan. Arriving Japan felt like arriving at a different world or an alternate world. Everything just felt different and strange. I have been to two other countries outside the US, but they were countries that had quiet a similar culture to US so it was easy. Japan was a lovely country, the country felt so organised, maybe a bit too organised. I am someone who loves structure but I was overwhelmed by how structured everything was.  The Japanese people were very polite and friendly, we had bonus points for trying to learn how to speak their language. The Japanese people were neat almost to a fault. All the streets and public places were so clean that it felt like they all had germophobia. They were also incredibly disciplined, they always kept to their words. After three interesting weeks in Japan, my husband and I decided to come back to the US. We felt good coming back, but we couldn't stop ourselves from making a lot of comparisons.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We had a great time in Japan, but we were also happy to be back in the US.  \n\n"
+            }
+        ],
+        "request_id": "811f4cbf3f4a4322-EWR"
+    }
+}

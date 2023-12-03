@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I went to a concert of my one of my favorite artists. I went with my wife and a coworker and her husband. I didn't know the coworkers that well as we work in different departments. I overheard her talking about liking a similar artist and asked if she was going to the concert. She said that it would be fun and then bought tickets. My wife and I met them near the venue and went to dinner before the show. We had a few drinks and had a good time with them. I was surprised how fun and entertaining my coworker is. She is a little older than my wife and I and I misjudged her based on her appearance. We talked a lot about music and I realized that she knew a lot of music and has very similiar musical tastes as me, which is surprising since I like a lot of lesser known bands. We then walked from dinner over to the concert venue, which was outside. I enjoyed the band a lot. I've seen them several times before so that was expected. I was really excited to have met someone to go to other concerts with. A lot of my friends don't like many of the shows that I want to go to. I was also excited to have a new friend at work."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I went to a concert of my one of my favorite artists. I went with my wife and a coworker and her husband. I didn't know the coworkers that well as we work in different departments. I overheard her talking about liking a similar artist and asked if she was going to the concert. She said that it would be fun and then bought tickets. My wife and I met them near the venue and went to dinner before the show. We had a few drinks and had a good time with them. I was surprised how fun and entertaining my coworker is. She is a little older than my wife and I and I misjudged her based on her appearance. We talked a lot about music and I realized that she knew a lot of music and has very similiar musical tastes as me, which is surprising since I like a lot of lesser known bands. We then walked from dinner over to the concert venue, which was outside. I enjoyed the band a lot. I've seen them several times before so that was expected. I was really excited to have met someone to go to other concerts with. A lot of my friends don't like many of the shows that I want to go to. I was also excited to have a new friend at work.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope to hang out with them again soon."
+            }
+        ],
+        "request_id": "811ed1c11b7d4223-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Oh heavens. Back in September I went to the science educators conference down in Long Beach. I was supposed to just be there to observe and maybe pick up some ideas for the group. However, I got sucked into a major presentation! I couldn't believe it. On the second day I ran into Bob from the 8th grade team. He mentioned that their main speaker had caught the measles and was under quarantine and asked would I please step in since he new I have a masters in science education. Well, I was pretty surprised. First of all, I didn't even realize Bob was at the conference - I thought it was just the grade level leads. Secondly, I had no idea what their presentation proposal had been. But, Bob looked pretty upset so I figured I'd give it a shot. I mean, show I'm a team player and all that. Well, then I found out that the presentation was at 4pm that afternoon. Talk about no time to prepare! So I'm madly checking out their presentation outline, their slides, and their purpose and thinking \"I can't believe this.\" I basically gave up a whole day of the conference in order to save Bob's rear. I sure hoped it wouldn't be as bad as I thought. I can't believe I'm going to say this, but the presentation went so well, I was mobbed at the end! So many people came up to chat and exchange cards. I feel like the crazy hours of stress were totally worth it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Oh heavens. Back in September I went to the science educators conference down in Long Beach. I was supposed to just be there to observe and maybe pick up some ideas for the group. However, I got sucked into a major presentation! I couldn't believe it. On the second day I ran into Bob from the 8th grade team. He mentioned that their main speaker had caught the measles and was under quarantine and asked would I please step in since he new I have a masters in science education. Well, I was pretty surprised. First of all, I didn't even realize Bob was at the conference - I thought it was just the grade level leads. Secondly, I had no idea what their presentation proposal had been. But, Bob looked pretty upset so I figured I'd give it a shot. I mean, show I'm a team player and all that. Well, then I found out that the presentation was at 4pm that afternoon. Talk about no time to prepare! So I'm madly checking out their presentation outline, their slides, and their purpose and thinking \"I can't believe this.\" I basically gave up a whole day of the conference in order to save Bob's rear. I sure hoped it wouldn't be as bad as I thought. I can't believe I'm going to say this, but the presentation went so well, I was mobbed at the end! So many people came up to chat and exchange cards. I feel like the crazy hours of stress were totally worth it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3683dbc58cdd-EWR"
+    }
+}

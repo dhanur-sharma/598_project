@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago, I had my first child. I have never had such a great experience before. I was elated, and it was my wife's first child too. I held him in my hands, and cried. I was filled with emotions. I never thought it would be so great. I could not let the child go. It was a boy, and I loved that too. My wife was weak from childbirth. I held her close, and she lit up. WE were the most happy we have ever been. We loved making a child. We can not wait to have another. She is not looking forward to leaving the child. We will be happy to make a girl next time. HOwever, either one is fine."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago, I had my first child. I have never had such a great experience before. I was elated, and it was my wife's first child too. I held him in my hands, and cried. I was filled with emotions. I never thought it would be so great. I could not let the child go. It was a boy, and I loved that too. My wife was weak from childbirth. I held her close, and she lit up. WE were the most happy we have ever been. We loved making a child. We can not wait to have another. She is not looking forward to leaving the child. We will be happy to make a girl next time. HOwever, either one is fine.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9fbf7d8917f9-EWR"
+    }
+}

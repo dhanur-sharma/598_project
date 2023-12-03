@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was young at the time and needed to grab some extra cash out of the bank. This was back when online banking was thing, so I had to drive to the bank. I was having an anxiety attack as I didn't like talking to people. I still had some mary j from when I bought it at the party the weekend before. I had it stashed in the car, so I said I might as well smoke a blunt to calm myself down on the way. Well what do you know? The cops decided to pull me over on the way. I was freaking out. I didn't want to go to jail. I just needed some cash to buy a puppy for my girlfriend. It was her birthday. Well, it turns out after they asked me some questions they told me that my registration expired. My insides immediately cramped and internally I had a giant sigh of relief. I felt like I was left off the hook. I'm so thankful I didn't start smoking that blunt. I got extremely lucky they didn't see it either."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was young at the time and needed to grab some extra cash out of the bank. This was back when online banking was thing, so I had to drive to the bank. I was having an anxiety attack as I didn't like talking to people. I still had some mary j from when I bought it at the party the weekend before. I had it stashed in the car, so I said I might as well smoke a blunt to calm myself down on the way. Well what do you know? The cops decided to pull me over on the way. I was freaking out. I didn't want to go to jail. I just needed some cash to buy a puppy for my girlfriend. It was her birthday. Well, it turns out after they asked me some questions they told me that my registration expired. My insides immediately cramped and internally I had a giant sigh of relief. I felt like I was left off the hook. I'm so thankful I didn't start smoking that blunt. I got extremely lucky they didn't see it either.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was able to get the cash and make it back home."
+            }
+        ],
+        "request_id": "811e96474cac8cc8-EWR"
+    }
+}

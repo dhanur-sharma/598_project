@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,  I went to a restaurant with my family today. We had a great time eating sushi. My brother had got a promotion and we were celebrating this accomplishment. We had all types of different sushi and it was very delicious. We drank beer and had Japanese desserts. They had all types of different variations of sushi and I liked them all. My brother was very happy as well. My mother was proud of him and very happy too. After that we went to the store to get some groceries. My mother decided to make a cake to celebrate this event as well. She made our favorite cake that she makes. She is quite the skilled baker, and she used to make cakes for sale. I am very lucky to her as a mother because of this. I remember being a child and always eating great pastries she would have left over from her sales. I was quite the spoiled child."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,  I went to a restaurant with my family today. We had a great time eating sushi. My brother had got a promotion and we were celebrating this accomplishment. We had all types of different sushi and it was very delicious. We drank beer and had Japanese desserts. They had all types of different variations of sushi and I liked them all. My brother was very happy as well. My mother was proud of him and very happy too. After that we went to the store to get some groceries. My mother decided to make a cake to celebrate this event as well. She made our favorite cake that she makes. She is quite the skilled baker, and she used to make cakes for sale. I am very lucky to her as a mother because of this. I remember being a child and always eating great pastries she would have left over from her sales. I was quite the spoiled child.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am very grateful to her for this. I hope to be able to make cakes like her one day. I am very excited to learn how to make cakes like her.\n\n"
+            }
+        ],
+        "request_id": "811ec4c6f8df43a4-EWR"
+    }
+}

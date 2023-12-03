@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am an emergency medicine resident physician. This event occurred a few days ago. I was called overhead to the front of the Emergency Department. When I arrived there, I was greeted by a woman holding a plant. She then said, \"I don't know if you remember me , but you saved my life.\" She went on to explain that she was seen there several months prior after overdosing on several dangerous medications. Looking back on the case, it was very difficult from both a medical standpoint and an emotional standpoint. She has to have a breathing tube and a large catheter in her neck. She required medciations to artificially raise her blood pressure. She was in the ICU for over a week. She was eventually able to be discharged. I had not seen or heard from her since the event. After explaining who she was, she continued to express her gratitude and informed me that she has since enrolled in college, has regained custody of her children, and has a full time job. This brought me to tears. I have been thinking about it constantly and sharing the story with friends, family, and colleagues. Working in the ER is very difficult, and it's events like these that make it worth it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am an emergency medicine resident physician. This event occurred a few days ago. I was called overhead to the front of the Emergency Department. When I arrived there, I was greeted by a woman holding a plant. She then said, \"I don't know if you remember me , but you saved my life.\" She went on to explain that she was seen there several months prior after overdosing on several dangerous medications. Looking back on the case, it was very difficult from both a medical standpoint and an emotional standpoint. She has to have a breathing tube and a large catheter in her neck. She required medciations to artificially raise her blood pressure. She was in the ICU for over a week. She was eventually able to be discharged. I had not seen or heard from her since the event. After explaining who she was, she continued to express her gratitude and informed me that she has since enrolled in college, has regained custody of her children, and has a full time job. This brought me to tears. I have been thinking about it constantly and sharing the story with friends, family, and colleagues. Working in the ER is very difficult, and it's events like these that make it worth it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb037f98142c1-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Grandma was such a good person. She was always helpful and there for you. She would stop what she was doing to help with anything. Sadly she was lost over the spring. She was pretty up there in age. So it wasn't really a surprise. It was still sad to see her go though. She will be missed. She has a full and happy life though. Don't think she left with any regrets. She loved to travel, had been around the world. So many different places. And she always brought something back for the grand kids. Little trinkets. People she met from everywhere came to her funeral. The room filled with flowers. It was very nice."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Grandma was such a good person. She was always helpful and there for you. She would stop what she was doing to help with anything. Sadly she was lost over the spring. She was pretty up there in age. So it wasn't really a surprise. It was still sad to see her go though. She will be missed. She has a full and happy life though. Don't think she left with any regrets. She loved to travel, had been around the world. So many different places. And she always brought something back for the grand kids. Little trinkets. People she met from everywhere came to her funeral. The room filled with flowers. It was very nice.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She will be missed.\n\n"
+            }
+        ],
+        "request_id": "811be5406f850f98-EWR"
+    }
+}

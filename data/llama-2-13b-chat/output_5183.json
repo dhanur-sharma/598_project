@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a month and I am still sore from all the training I had to do. About a month ago i was testing for my red belt in tae kwon do. In order to achieve it I needed to demonstrate a lot of skills I learned. First I had to show all the forms I know. After this I had to demonstrate that I knew all of the skill. s After my forms I showed punches and kicks. And finally I had to show blocks. The blocks were the hardest part for me. I trained for months leading up to it and the test was over in a bit under an hour. Waiting to be awarded the red belt was the hardest part. I had others testing that same day and had to wait for them all to finish. When all was done I was awarded the belt. I am unsure if I will train much beyond it. I am getting older and my body is taking the brunt of it. I am in awe of those who continue to proceed later in life. For me though, red may be where I end up stopping."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a month and I am still sore from all the training I had to do. About a month ago i was testing for my red belt in tae kwon do. In order to achieve it I needed to demonstrate a lot of skills I learned. First I had to show all the forms I know. After this I had to demonstrate that I knew all of the skill. s After my forms I showed punches and kicks. And finally I had to show blocks. The blocks were the hardest part for me. I trained for months leading up to it and the test was over in a bit under an hour. Waiting to be awarded the red belt was the hardest part. I had others testing that same day and had to wait for them all to finish. When all was done I was awarded the belt. I am unsure if I will train much beyond it. I am getting older and my body is taking the brunt of it. I am in awe of those who continue to proceed later in life. For me though, red may be where I end up stopping.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811be609e8bf18c0-EWR"
+    }
+}

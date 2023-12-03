@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It was a beautiful day one filled with happiness, joy and a touch of sadness. Sad because our friendship was going to change forever. Really happy because its a proud moment in my life and am happy for my friend.  There is a part of me that wonders if it is soon ot be my turn.  It turned out to be a really long day however as I was on my feet for hours. since the day started early in the morning getting ready and getting in the car and getting to the church. He was so nervous. The ceremony seemed to be longer then I remember it being at the rehersal but that could be just me.  The pictures were taken at a local park near the church but far from the reception center. That was also a long reception. I was exhausted by the end of it to be honest.  Once the cake was introduced and passed around everyone in the wedding party was more ready to head home.  I think almost all of us in the party were happy but could not wait for the night to be over. The day was long and we all knew there was a sense of it being a lot longer. Once the groom and bride left the reception lasted another hour or maybe a little longer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It was a beautiful day one filled with happiness, joy and a touch of sadness. Sad because our friendship was going to change forever. Really happy because its a proud moment in my life and am happy for my friend.  There is a part of me that wonders if it is soon ot be my turn.  It turned out to be a really long day however as I was on my feet for hours. since the day started early in the morning getting ready and getting in the car and getting to the church. He was so nervous. The ceremony seemed to be longer then I remember it being at the rehersal but that could be just me.  The pictures were taken at a local park near the church but far from the reception center. That was also a long reception. I was exhausted by the end of it to be honest.  Once the cake was introduced and passed around everyone in the wedding party was more ready to head home.  I think almost all of us in the party were happy but could not wait for the night to be over. The day was long and we all knew there was a sense of it being a lot longer. Once the groom and bride left the reception lasted another hour or maybe a little longer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I could not wait to get home and rest my feet.  I was happy for my friend but I could not help but wonder if it would be my turn next. \n\n"
+            }
+        ],
+        "request_id": "811ec9167b6243b8-EWR"
+    }
+}

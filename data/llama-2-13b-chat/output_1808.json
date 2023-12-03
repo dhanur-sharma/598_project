@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So I ended up having a heart attack at the beginning of this month. I've actually had a heart attack previously. That was a full on STEMI with a complete blockage of my RCA and all the bells and whistles of a typical heart attack - basically a fireball in my chest. This time it was more of a slow crackling fire with a few spurts here and there. Anyways, I really wasn't sure it was a heart attack, but I got a little bag ready and call the ambulance. My blood pressure was 200-something over 108 in the ambulance and they said the EKG looked fine. At the hospital no one actually told me I had a heart attack. After about an hour or two sitting there I felt fine. A little winded, but otherwise no pain. They wanted me to stick around to MAYBE do a heart cath, but that would have been another two days in the hospital and as I said I was feeling fine. So I left. The nurse was a bit annoyed since this was against medical advice and she actually pulled my IV out the wrong way causing my hand to bleed heavier than normal which ticked me off. Otherwise no one came to tell me I had had a heart attack. I found out almost three weeks later when I checked my records online which showed a diagnosis NSTEMI. Needless to say I wish there was a different hospital that was closer."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So I ended up having a heart attack at the beginning of this month. I've actually had a heart attack previously. That was a full on STEMI with a complete blockage of my RCA and all the bells and whistles of a typical heart attack - basically a fireball in my chest. This time it was more of a slow crackling fire with a few spurts here and there. Anyways, I really wasn't sure it was a heart attack, but I got a little bag ready and call the ambulance. My blood pressure was 200-something over 108 in the ambulance and they said the EKG looked fine. At the hospital no one actually told me I had a heart attack. After about an hour or two sitting there I felt fine. A little winded, but otherwise no pain. They wanted me to stick around to MAYBE do a heart cath, but that would have been another two days in the hospital and as I said I was feeling fine. So I left. The nurse was a bit annoyed since this was against medical advice and she actually pulled my IV out the wrong way causing my hand to bleed heavier than normal which ticked me off. Otherwise no one came to tell me I had had a heart attack. I found out almost three weeks later when I checked my records online which showed a diagnosis NSTEMI. Needless to say I wish there was a different hospital that was closer.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eab2299498c1e-EWR"
+    }
+}

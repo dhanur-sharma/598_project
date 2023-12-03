@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The morning after I arrived in Beijing I left our hotel and went for a walk. I went out walking the night before but I went in the direction of the Forbidden City to see how far it was. In the morning I turned east, in the opposite direction. I wanted to see what lay down that direction. The traffic was already loud on the road, a six-laner crowded with trucks and cars. Bicycles too filled the bike lane and some riders came up on the sidewalk so I had to avoid them. I passed a lot of upscale businesses, western clothiers and jewelers. Then I came to an intersection with another wide road. It actually passed overhead in a raised highway. In the shadow of the over pass, at one corner, a police van was parked and some officers were watching the traffic. Quite randomly they waved certain bike riders over to the curb and began questioning them. The police made the riders produce papers, which they examined. They made the bike riders wait quite a while. One older man just sat on the curb and threw up his hands and started smoking a cigarette. I watched this go on quite a while. There seemed no rationale for the riders who were pulled over and those allowed to go past. I walked back to the hotel and began an email to a friend, telling about what I had seen. I also mentioned some other things I had observed. Within 30 seconds of pressing Send, my email program froze. Within another minute, my laptop locked up completely. There was nothing I could do. Even the mouse was stalled. I shut it down and tried later in the day and everything was fine. But now I knew just how closely I was being monitored."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The morning after I arrived in Beijing I left our hotel and went for a walk. I went out walking the night before but I went in the direction of the Forbidden City to see how far it was. In the morning I turned east, in the opposite direction. I wanted to see what lay down that direction. The traffic was already loud on the road, a six-laner crowded with trucks and cars. Bicycles too filled the bike lane and some riders came up on the sidewalk so I had to avoid them. I passed a lot of upscale businesses, western clothiers and jewelers. Then I came to an intersection with another wide road. It actually passed overhead in a raised highway. In the shadow of the over pass, at one corner, a police van was parked and some officers were watching the traffic. Quite randomly they waved certain bike riders over to the curb and began questioning them. The police made the riders produce papers, which they examined. They made the bike riders wait quite a while. One older man just sat on the curb and threw up his hands and started smoking a cigarette. I watched this go on quite a while. There seemed no rationale for the riders who were pulled over and those allowed to go past. I walked back to the hotel and began an email to a friend, telling about what I had seen. I also mentioned some other things I had observed. Within 30 seconds of pressing Send, my email program froze. Within another minute, my laptop locked up completely. There was nothing I could do. Even the mouse was stalled. I shut it down and tried later in the day and everything was fine. But now I knew just how closely I was being monitored.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I had no idea what kind of surveillance was being done in Beijing. I felt a little uneasy, knowing that my email could be intercepted and read. I wondered if I could get away with sending emails from a cafe or other public place. I had a feeling that the authorities knew exactly where I was at all times.\n\n"
+            }
+        ],
+        "request_id": "811e9c559ff443db-EWR"
+    }
+}

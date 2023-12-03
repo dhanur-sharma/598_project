@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have stayed up many nights trying to finish this proposal and keep hitting road blocks.  Every time I seem to feel I had gotten ahead on this project it seems I fell two steps back.  Analyzing the data and inputting it was a lot harder than I originally thought, which then made that part take longer.  I worried I wouldn't finish on-time but I knew I would.  I always have.  I worked tirelessly for my family and tried to make sense of this task.  Mark, my partner at the firm was tasked with a different project section.  He'd been kind enough to help me these last 3 weeks in analyzing the data and finding the best way to project all of our ideas.  I had so many ideas floating in my head, but finally pin pointed the one that makes the most sense yet.  This company needs to grow and to do that we need an excellent strategy and proposal to get this client to trust us. When the day came to present to presentation everything fell into place.  The clients seemed genuinely happy with my proposals and our ideas.  Here we are 3 weeks later and the call comes.  We didn't land the client.  No reason, just went with a better proposal."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have stayed up many nights trying to finish this proposal and keep hitting road blocks.  Every time I seem to feel I had gotten ahead on this project it seems I fell two steps back.  Analyzing the data and inputting it was a lot harder than I originally thought, which then made that part take longer.  I worried I wouldn't finish on-time but I knew I would.  I always have.  I worked tirelessly for my family and tried to make sense of this task.  Mark, my partner at the firm was tasked with a different project section.  He'd been kind enough to help me these last 3 weeks in analyzing the data and finding the best way to project all of our ideas.  I had so many ideas floating in my head, but finally pin pointed the one that makes the most sense yet.  This company needs to grow and to do that we need an excellent strategy and proposal to get this client to trust us. When the day came to present to presentation everything fell into place.  The clients seemed genuinely happy with my proposals and our ideas.  Here we are 3 weeks later and the call comes.  We didn't land the client.  No reason, just went with a better proposal.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was crushed.  I worked so hard and was so close.  I will keep trying.  I always do.  But this one stung.  \n\n"
+            }
+        ],
+        "request_id": "811bd0970ccc23a0-EWR"
+    }
+}

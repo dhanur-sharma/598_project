@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was always kind of scatterbrained and this helped me out in the best possible way. 8 weeks ago i was closing up shop and rushing to the bus stop as I usually do otherwise I have to wait another 40 minutes for the bus. I got there and went to swipe my card but couldnt find it. I left my purse on the counter at work with my wallet in it. I must have set it down when I went to pull the gate and didn't pick it back up. So i ran back to the shop and grabbed my purse and started heading back to the bus stop. On the way I realized I forgot to lock up the shop so I had to head back again and lock up. By this point I had for sure missed the bus and wasnt keen on waiting for 40 minutes. I started walking the other direction to see if I could find a different stop that went to the same transfer. As luck would have it there was one that was 20 minutes away, and went to where I needed to go. I sat down on the bench and started to wait. Around 2 minutes after arriving a guy about my age walked up and smiled and stood by the bench waiting for the bus. I saw he had a shirt on for a band I liked and decided to comment. He was telling me about how he flew out to see them in concert 4 weeks ago in california and it was amazing. We talked about music and life and what we were interested in and he actually asked for my number. I gave it to him and he texted me that night asking if i got home safe and if I wanted to grab coffee in the morning. I Agreed and we really hit it off. We've done many things in these short 2 months but it has been amazing!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was always kind of scatterbrained and this helped me out in the best possible way. 8 weeks ago i was closing up shop and rushing to the bus stop as I usually do otherwise I have to wait another 40 minutes for the bus. I got there and went to swipe my card but couldnt find it. I left my purse on the counter at work with my wallet in it. I must have set it down when I went to pull the gate and didn't pick it back up. So i ran back to the shop and grabbed my purse and started heading back to the bus stop. On the way I realized I forgot to lock up the shop so I had to head back again and lock up. By this point I had for sure missed the bus and wasnt keen on waiting for 40 minutes. I started walking the other direction to see if I could find a different stop that went to the same transfer. As luck would have it there was one that was 20 minutes away, and went to where I needed to go. I sat down on the bench and started to wait. Around 2 minutes after arriving a guy about my age walked up and smiled and stood by the bench waiting for the bus. I saw he had a shirt on for a band I liked and decided to comment. He was telling me about how he flew out to see them in concert 4 weeks ago in california and it was amazing. We talked about music and life and what we were interested in and he actually asked for my number. I gave it to him and he texted me that night asking if i got home safe and if I wanted to grab coffee in the morning. I Agreed and we really hit it off. We've done many things in these short 2 months but it has been amazing!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm so glad I forgot my wallet that day and missed the bus. It was a crazy turn of events but I'm glad it happened."
+            }
+        ],
+        "request_id": "811ea771ae2b8ca2-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I spent the day visiting with my nieces. Watching them with my sister it really hit home. My dream of having my own family will never come true. That day I promised myself that I would do everything I could to be a great uncle to them.  Since I will never be a father. I also came to the realization that I can no longer keep up with my nieces. My health no longer being what it was. When I was younger I was an active person able to do so much. Now I am trying to come to terms with not being able to do the things that I used to. When I realized how much I have physically lost. I came very close to ending my life. Today I am finding new purpose in life. But I am also searching for a new dream to keep me going during the long nights. On a final note while I did contemplate ending my life. My family has helped me to move on and search for meaning in life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I spent the day visiting with my nieces. Watching them with my sister it really hit home. My dream of having my own family will never come true. That day I promised myself that I would do everything I could to be a great uncle to them.  Since I will never be a father. I also came to the realization that I can no longer keep up with my nieces. My health no longer being what it was. When I was younger I was an active person able to do so much. Now I am trying to come to terms with not being able to do the things that I used to. When I realized how much I have physically lost. I came very close to ending my life. Today I am finding new purpose in life. But I am also searching for a new dream to keep me going during the long nights. On a final note while I did contemplate ending my life. My family has helped me to move on and search for meaning in life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have a long road ahead of me. But I am determined to make the most of the time I have left."
+            }
+        ],
+        "request_id": "811ea2821b940f59-EWR"
+    }
+}

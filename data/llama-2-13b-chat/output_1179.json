@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the summer, I helped my mother move into an assisted living facility. She was not happy to go, but at the same time, she knew that she could no longer maintain her own apartment, and needed some help on basic tasks. Moving her out of her home was hard. I was sad as I saw her part with many items that she no longer had room for. I was able to hold onto some items for her, like our family photo albums, which made me feel sentimental about the times when we all lived together and my father was still alive. The assisted living space was nice, but it felt impersonal to me, like moving into a hotel room. I worry that the staff won't take good care of her, that she will be lonely or mistreated. She says she has made some friends, but she still sounds lonely. I can't visit her as often because she doesn't like to sit in the common room and doesn't want me in her room. I take her out to dinner but feel sad when I drop her off.  Seeing her so vulnerable is unusual to me. I have always thought of her as strong. Now it seems I am stronger. Having recently dropped a son at college, I can say this was the opposite experience. In dropping him off, I saw him making his way toward manhood, whereas in moving my mom to the home, I see her becoming more childlike again. This new way of life is difficult for me, though I expect it is more difficult for her, as she has lost her autonomy in many ways."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the summer, I helped my mother move into an assisted living facility. She was not happy to go, but at the same time, she knew that she could no longer maintain her own apartment, and needed some help on basic tasks. Moving her out of her home was hard. I was sad as I saw her part with many items that she no longer had room for. I was able to hold onto some items for her, like our family photo albums, which made me feel sentimental about the times when we all lived together and my father was still alive. The assisted living space was nice, but it felt impersonal to me, like moving into a hotel room. I worry that the staff won't take good care of her, that she will be lonely or mistreated. She says she has made some friends, but she still sounds lonely. I can't visit her as often because she doesn't like to sit in the common room and doesn't want me in her room. I take her out to dinner but feel sad when I drop her off.  Seeing her so vulnerable is unusual to me. I have always thought of her as strong. Now it seems I am stronger. Having recently dropped a son at college, I can say this was the opposite experience. In dropping him off, I saw him making his way toward manhood, whereas in moving my mom to the home, I see her becoming more childlike again. This new way of life is difficult for me, though I expect it is more difficult for her, as she has lost her autonomy in many ways.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I wish I could take away her pain and make her happy again. I feel helpless. I miss the days when she could do everything for herself and didn't need my help.\n\n"
+            }
+        ],
+        "request_id": "811e9f466d244201-EWR"
+    }
+}

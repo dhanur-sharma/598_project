@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A lot of people don't believe this story. I saw a UFO while walking my dog one evening four months ago. It looked like the traditional flying saucer you might be familiar with. The object was spherical in nature and changed colors seamlessly from purple to a deep, full green. I didn't know what it was at first, but ascertained that it wasn't like any flying object I had seen. I didn't think it was of this planet, honestly. It was hard to imagine it being terrestrial. My dog didn't see it, but then again I doubt my dog would care much anyway. I didn't want to share it a lot because people probably would make their own assumptions and not believe this story. But I know what I saw. It was nothing like I had ever seen. I don't remember much of a sound being attached to it. Of course, with these sightings, I wasn't able to grab a picture. It was gone pretty quickly. But it was still an incredible sight while it was here."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A lot of people don't believe this story. I saw a UFO while walking my dog one evening four months ago. It looked like the traditional flying saucer you might be familiar with. The object was spherical in nature and changed colors seamlessly from purple to a deep, full green. I didn't know what it was at first, but ascertained that it wasn't like any flying object I had seen. I didn't think it was of this planet, honestly. It was hard to imagine it being terrestrial. My dog didn't see it, but then again I doubt my dog would care much anyway. I didn't want to share it a lot because people probably would make their own assumptions and not believe this story. But I know what I saw. It was nothing like I had ever seen. I don't remember much of a sound being attached to it. Of course, with these sightings, I wasn't able to grab a picture. It was gone pretty quickly. But it was still an incredible sight while it was here.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed2826b6843a3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I had always dreamed about visiting the south pacific. My wife and I finally got the chance to do that in June. We went to the Cook Islands for a week. It was magical. Being able to see the stars at night is something that you rarely get the opportunity to see in contentinal America. being able to snorkle in crystal clear torqouise waters was incredible. Just the peace was nice. Not having to deal with the hustle and bustle of modern life in America. Being able to sleep in was something that I enjoyed. It was so dark at night, with almost no artificial light present. I was shocked by how peaceful and relaxing my sleep was. The people were also so friendly and accommodating. We stayed on two islands. The main island Rarotonga and a more remote island Atituatki. Aitutaki has a population of less than 2000 people, whereas Rarotonga is closer to 15,000. We preferred Aitutaki because it was more beautiful, clean and peaceful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I had always dreamed about visiting the south pacific. My wife and I finally got the chance to do that in June. We went to the Cook Islands for a week. It was magical. Being able to see the stars at night is something that you rarely get the opportunity to see in contentinal America. being able to snorkle in crystal clear torqouise waters was incredible. Just the peace was nice. Not having to deal with the hustle and bustle of modern life in America. Being able to sleep in was something that I enjoyed. It was so dark at night, with almost no artificial light present. I was shocked by how peaceful and relaxing my sleep was. The people were also so friendly and accommodating. We stayed on two islands. The main island Rarotonga and a more remote island Atituatki. Aitutaki has a population of less than 2000 people, whereas Rarotonga is closer to 15,000. We preferred Aitutaki because it was more beautiful, clean and peaceful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We rented a car on Rarotonga and explored the island. It was so beautiful. We were able to drive around the island, and visit all the beautiful beaches. We also saw many ancient ruins. The food was delicious. I had some of the best seafood of my life. We also ate a lot of fresh fruit. My wife and I both agree that it was the best vacation we have ever taken. We are already planning our next trip back.\n\n"
+            }
+        ],
+        "request_id": "811f33723f6218a1-EWR"
+    }
+}

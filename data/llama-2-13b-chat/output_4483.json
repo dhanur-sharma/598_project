@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son's birthday was a great time. It was about two weeks ago. He had been wanting to go the zoo for a while but we just never had the time or the money to engage in it. It also took a while for him to get ready for this event, but that's alright. I just wanted him to enjoy himself. It's hard seeing him grow up and knowing he might grow out of something at any moment. That being said, the experience was great. He got to say a variety of animals. He loved the pandas, fishes, and he had a great experience with a lion. The lion was surprisingly docile, and let my son pet him on the nose. The purr the lion made could start earthquakes, I tell you what. We spent a couple of hours there and really enjoyed ourselves. Afterwards, we made the trip home. The fun wasn't over, as he still had presents to open. He opened the presents with great velocity and truly appreciated each one. I think I'm raising him right."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son's birthday was a great time. It was about two weeks ago. He had been wanting to go the zoo for a while but we just never had the time or the money to engage in it. It also took a while for him to get ready for this event, but that's alright. I just wanted him to enjoy himself. It's hard seeing him grow up and knowing he might grow out of something at any moment. That being said, the experience was great. He got to say a variety of animals. He loved the pandas, fishes, and he had a great experience with a lion. The lion was surprisingly docile, and let my son pet him on the nose. The purr the lion made could start earthquakes, I tell you what. We spent a couple of hours there and really enjoyed ourselves. Afterwards, we made the trip home. The fun wasn't over, as he still had presents to open. He opened the presents with great velocity and truly appreciated each one. I think I'm raising him right.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bd7c6cc6b78d3-EWR"
+    }
+}

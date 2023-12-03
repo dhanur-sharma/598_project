@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The bird bath turned out to be much more than something to stop my neighbor from parking where I didnt want him to. Even though it did accomplish that extremely well. I get such joy from seeing the birds in it. I laugh at my cats sitting in the window watching the birds also. I am very happy that a bad situation turned into one that brings me joy.  Every time I walk by the window which is several times a day and I see birds or my cats watching the birds, I am glad that what I thought was bad thing turned into a good thing. I am also suprised at how much joy seeing those birds give me. I really never expected to have that reaction. After the birds take their bath, they jump into a little flower bush right up against my window. The dry themselves off. They fluff up. The are so cute and so close to my cats. The cats are so intriqued. The birds do not seem to care that the cats are so close. The are very lucky the screens are there. It turned out to be a good thing getting that birdbath, which I absoluley would not have done if my neighbor wasn't rude and parked on my lawn."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The bird bath turned out to be much more than something to stop my neighbor from parking where I didnt want him to. Even though it did accomplish that extremely well. I get such joy from seeing the birds in it. I laugh at my cats sitting in the window watching the birds also. I am very happy that a bad situation turned into one that brings me joy.  Every time I walk by the window which is several times a day and I see birds or my cats watching the birds, I am glad that what I thought was bad thing turned into a good thing. I am also suprised at how much joy seeing those birds give me. I really never expected to have that reaction. After the birds take their bath, they jump into a little flower bush right up against my window. The dry themselves off. They fluff up. The are so cute and so close to my cats. The cats are so intriqued. The birds do not seem to care that the cats are so close. The are very lucky the screens are there. It turned out to be a good thing getting that birdbath, which I absoluley would not have done if my neighbor wasn't rude and parked on my lawn.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's amazing how things can work out sometimes."
+            }
+        ],
+        "request_id": "811e8dce4b910f3a-EWR"
+    }
+}

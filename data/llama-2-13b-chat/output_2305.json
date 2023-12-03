@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six weeks ago, I went to the supermarket to pick up some groceries.  I was standing in the checkout line behind a woman that somehow looked familiar.  My mind was struggling to figure out who it could be.  I then heard her voice as she said something to the cashier.  I knew that voice.  It was an old girlfriend that I hadn't seen in over twenty years!  I waited for her to turn my way and we met eyes.  She knew me instantly and we smiled at each other.  When she finished paying, she pushed her cart away and waited for me to pay.  As I pushed my cart forward we began to talk.  We exchanged to usual obligatory greetings and began to talk a little about our lives.  I told her that I was married and then divorced after about twenty years.  I mentioned that I had two grown kids.  She shared a similar tale and I was surprised that see that was divorced as well.  We agreed to meet for coffee of drinks later and exchanged phone numbers.  Who knows what will become of it!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six weeks ago, I went to the supermarket to pick up some groceries.  I was standing in the checkout line behind a woman that somehow looked familiar.  My mind was struggling to figure out who it could be.  I then heard her voice as she said something to the cashier.  I knew that voice.  It was an old girlfriend that I hadn't seen in over twenty years!  I waited for her to turn my way and we met eyes.  She knew me instantly and we smiled at each other.  When she finished paying, she pushed her cart away and waited for me to pay.  As I pushed my cart forward we began to talk.  We exchanged to usual obligatory greetings and began to talk a little about our lives.  I told her that I was married and then divorced after about twenty years.  I mentioned that I had two grown kids.  She shared a similar tale and I was surprised that see that was divorced as well.  We agreed to meet for coffee of drinks later and exchanged phone numbers.  Who knows what will become of it!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " But I'm excited to see her again after all these years."
+            }
+        ],
+        "request_id": "811eb420fc975e82-EWR"
+    }
+}

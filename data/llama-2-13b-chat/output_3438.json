@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About three months ago, my eleven month old nephew past away.  My husband and I were at my sister-in-laws house for a family gathering.  My brother and sister-in-law had recently bought a beautiful, large home, with a pool, which now made it the place for parties.  However, they didn't have the pool enclosed with a cage at this time.  My little nephew was, however, enrolled in a swim class to teach infants life saving maneuvers, so it didn't seem like that big of a risk to have the pool open.  At some point during the party, my nephew quietly slipped into the pool without any adult noticing.  His father found him face down in the water and everyone began to panic.  My mother-in-law, a ARNP, began CPR as my husband called 911.  All efforts were pointless.  No one was sure how long he had been face down in the pool, but there was no resuscitating him.  Understandably, my sister-in-law has not been well since.  I, myself, struggle with it daily still.  How could I have not heard or noticed him?  The guilt haunts me and is almost unbearable.  I cannot imagine what my sister-in-laws feels like.  Such a normal thing, to have a pool, and not realize the devastation it can cause so quickly when not respected appropriately."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About three months ago, my eleven month old nephew past away.  My husband and I were at my sister-in-laws house for a family gathering.  My brother and sister-in-law had recently bought a beautiful, large home, with a pool, which now made it the place for parties.  However, they didn't have the pool enclosed with a cage at this time.  My little nephew was, however, enrolled in a swim class to teach infants life saving maneuvers, so it didn't seem like that big of a risk to have the pool open.  At some point during the party, my nephew quietly slipped into the pool without any adult noticing.  His father found him face down in the water and everyone began to panic.  My mother-in-law, a ARNP, began CPR as my husband called 911.  All efforts were pointless.  No one was sure how long he had been face down in the pool, but there was no resuscitating him.  Understandably, my sister-in-law has not been well since.  I, myself, struggle with it daily still.  How could I have not heard or noticed him?  The guilt haunts me and is almost unbearable.  I cannot imagine what my sister-in-laws feels like.  Such a normal thing, to have a pool, and not realize the devastation it can cause so quickly when not respected appropriately.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I fear for the future and how my sister-in-law will cope with the loss of her only child.  The grief is almost too much to handle."
+            }
+        ],
+        "request_id": "811ec981b91a5e78-EWR"
+    }
+}

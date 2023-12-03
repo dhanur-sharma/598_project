@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today I was thinking back to the day Matt proposed. I'm also reflecting on the years we've spent together and how our relationship has progressed. One of the things I love most about him is that he has learned about me. He knows what I like and don't like. He knows the kinds of things that make me happy. Of course, I've learned the same about him! His proposal is an example of him paying attention to the person I am. He knows that I wouldn't like anything showy or public. I wouldn't want him to bury the ring in a cake at a fancy restaurant, for example, or propose on the jumbotron at some sporting event. He knows that I'm private. The important thing is the two of us. He also remembered what kind of ring I wanted. We had done some shopping together and talked about style and practicality The ring was just right! I think of him whenever I see it on my hand. It represents the bond we've developed over time. I love him and he loves me. His proposal affirms that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today I was thinking back to the day Matt proposed. I'm also reflecting on the years we've spent together and how our relationship has progressed. One of the things I love most about him is that he has learned about me. He knows what I like and don't like. He knows the kinds of things that make me happy. Of course, I've learned the same about him! His proposal is an example of him paying attention to the person I am. He knows that I wouldn't like anything showy or public. I wouldn't want him to bury the ring in a cake at a fancy restaurant, for example, or propose on the jumbotron at some sporting event. He knows that I'm private. The important thing is the two of us. He also remembered what kind of ring I wanted. We had done some shopping together and talked about style and practicality The ring was just right! I think of him whenever I see it on my hand. It represents the bond we've developed over time. I love him and he loves me. His proposal affirms that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec1a05fb041e3-EWR"
+    }
+}

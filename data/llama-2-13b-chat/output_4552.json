@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: In the last six months I have lost two dear friends to death. They were the closest friends I had. One was a cousin, neighbor, and friend. We went to church together and were in a Sunday School class together. It is a small class and we are very close. The other was a friend I worked with for many years. We worked together when our children were growing up. We didn't see each other as much as when we worked together. We talked on the phone a lot. I miss those phone calls. She changed jobs several jobs so she would have insurance. The company we worked for decided to drop the insurance. This was a long time before Obama Care. I was fortunate to have my husband's insurance. I will always miss them and think about them almost every day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: In the last six months I have lost two dear friends to death. They were the closest friends I had. One was a cousin, neighbor, and friend. We went to church together and were in a Sunday School class together. It is a small class and we are very close. The other was a friend I worked with for many years. We worked together when our children were growing up. We didn't see each other as much as when we worked together. We talked on the phone a lot. I miss those phone calls. She changed jobs several jobs so she would have insurance. The company we worked for decided to drop the insurance. This was a long time before Obama Care. I was fortunate to have my husband's insurance. I will always miss them and think about them almost every day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "They were both kind and caring.\n\n"
+            }
+        ],
+        "request_id": "811bd925edbac409-EWR"
+    }
+}

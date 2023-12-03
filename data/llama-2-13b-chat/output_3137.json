@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am a type 2 diabetic. When I went in to see my doctor in June she decided that my A1c was not low enough even though it was in the low 7s which I thought was great. My doctor said it should really be around 6 because higher A1c's lead to more problems down the road for diabetics. I take something besides insulin to help regulate diabetes. it's called Metfornin.  Metfornin is very typical and it's commonly used for diabetic patients to help regulate blood sugars. I have been taking Metfornin for 14 years since I had been determined to be a diabetic. The doctor increased my dosage of this drug to 3 daily instead of 2 which I did not think was a very big deal, I mean I had taken them for years with absolutely no problems.  I started getting sick, I thought it was taking blood pressure medicine.  I had ran out of blood pressure medicine about 2 weeks before I went to see my doctor. After I started taking the additional Metfornin I also started taking my blood pressure medicine and started having side effects like nausea and dizziness. I thought I had contracted the flu or blamed it on the blood pressure medicine. I was horribly ill and passed out after waking up on the 4th. I woke up in the hospital on July 4th.  My sugar had crashed from taking too much of this drug and my husband wasn't sure what to do, so he rushed me to the emergency room. I woke up after having been given a glucose drip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am a type 2 diabetic. When I went in to see my doctor in June she decided that my A1c was not low enough even though it was in the low 7s which I thought was great. My doctor said it should really be around 6 because higher A1c's lead to more problems down the road for diabetics. I take something besides insulin to help regulate diabetes. it's called Metfornin.  Metfornin is very typical and it's commonly used for diabetic patients to help regulate blood sugars. I have been taking Metfornin for 14 years since I had been determined to be a diabetic. The doctor increased my dosage of this drug to 3 daily instead of 2 which I did not think was a very big deal, I mean I had taken them for years with absolutely no problems.  I started getting sick, I thought it was taking blood pressure medicine.  I had ran out of blood pressure medicine about 2 weeks before I went to see my doctor. After I started taking the additional Metfornin I also started taking my blood pressure medicine and started having side effects like nausea and dizziness. I thought I had contracted the flu or blamed it on the blood pressure medicine. I was horribly ill and passed out after waking up on the 4th. I woke up in the hospital on July 4th.  My sugar had crashed from taking too much of this drug and my husband wasn't sure what to do, so he rushed me to the emergency room. I woke up after having been given a glucose drip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I was told that my blood sugar was 250 which is extremely high.  My doctor told me that the Metfornin was causing my blood sugar to rise and I was experiencing hypoglycemia. I was shocked and scared. I had been taking this medication for so long and never had any problems.  I am now off of Metfornin and my doctor has put me on a different medication. I am still trying to get my blood sugar under control.  I am scared and worried about my health and I hope that I will be able to get my blood sugar under control and stay healthy.\n\n"
+            }
+        ],
+        "request_id": "811ec4969e7b42cb-EWR"
+    }
+}

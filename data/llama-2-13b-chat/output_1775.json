@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: 2 months ago, one of the worst things I could think of almost happened to me. My mom was going into surgery, she had a weak heart--Pulmonary Edema. I was extremely concerned, but I had assuaged those fears by believing in the skill of the doctors working with her. I guess that wasn't enough, though. People make mistakes. The surgery went wrong, and my mom was put into a coma in order for doctors to go from extending her lifespan to saving her life. She was in it for a few days, and I was in pieces. My mother was dying, and there was nothing I could do about it. I waited by her side for days. I couldn't eat, I couldn't sleep, I just wanted her to be ok. My dad was worse, though. He couldn't even come in without bawling. He was a strong man, and this was the first time I'd ever seen him just lose it. He was crying so much, I just wanted to hug him and tell him everything would be ok. I was more convincing myself though. Eventually she pulled through, and it was the happiest I ever was. I'm going to make sure she knows how much we love her from now on."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: 2 months ago, one of the worst things I could think of almost happened to me. My mom was going into surgery, she had a weak heart--Pulmonary Edema. I was extremely concerned, but I had assuaged those fears by believing in the skill of the doctors working with her. I guess that wasn't enough, though. People make mistakes. The surgery went wrong, and my mom was put into a coma in order for doctors to go from extending her lifespan to saving her life. She was in it for a few days, and I was in pieces. My mother was dying, and there was nothing I could do about it. I waited by her side for days. I couldn't eat, I couldn't sleep, I just wanted her to be ok. My dad was worse, though. He couldn't even come in without bawling. He was a strong man, and this was the first time I'd ever seen him just lose it. He was crying so much, I just wanted to hug him and tell him everything would be ok. I was more convincing myself though. Eventually she pulled through, and it was the happiest I ever was. I'm going to make sure she knows how much we love her from now on.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eaa730e474282-EWR"
+    }
+}

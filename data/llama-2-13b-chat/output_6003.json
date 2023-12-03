@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today was a sunny day. it feel little bit cool as summer almost over. I ride my bike in the path around the river. it is time just pass 9 am. people was jogging and walking on my way. Suddenly, there is big noise from the sky. I looked up to the sky. Seven fright jets flied though the sky. People was taking picture on it. I was too late to take my picture. I wonder if it is preparing an event for Labor day. After that I kept looking at sky,  think it may be had more jets will fly though.  I could have a chance to take a picture. however, it didn't happen.  Sometime, you can't expecting a thing happen twice if you don't know what it from."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today was a sunny day. it feel little bit cool as summer almost over. I ride my bike in the path around the river. it is time just pass 9 am. people was jogging and walking on my way. Suddenly, there is big noise from the sky. I looked up to the sky. Seven fright jets flied though the sky. People was taking picture on it. I was too late to take my picture. I wonder if it is preparing an event for Labor day. After that I kept looking at sky,  think it may be had more jets will fly though.  I could have a chance to take a picture. however, it didn't happen.  Sometime, you can't expecting a thing happen twice if you don't know what it from.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3cd6e878c445-EWR"
+    }
+}

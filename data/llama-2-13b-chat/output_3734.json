@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This past summer, my family consisting of my husband, three or our children (all boys, ages five, nine and thirteen) and myself, took a trip driving in car from North Carolina to visit family in Florida. We drove thirteen hours to get there. We stayed for three days. My nephew was getting married so family from other states was there as well. We were able to see family we rarely get to see, including my father-in-law who lives in Arizona and my sister-in-law and her family who live in Ohio.  We, of course, got to see our family that lives in Florida. It was great seeing everyone all in one place, which has only happened one other time since I've been in my husband's family which has been for 23 years. We all had a great time! The wedding was absolutely beautiful! My nephew and his new wife looked really happy together! After the wedding, everyone went back to my sister-in-laws house, drank some beer, listened to music, danced and just had a really good time. Everyone was happy to be able to spend time together. But, it was a very emotional time for a lot of us, especially the ladies who cried at the thought of everyone going our separate ways again so soon. We don't get to see each other very often so knowing that it would be ending soon was really sad. It was sad to have to leave, knowing that we most-likely wouldn't all be together again like that for a really long time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This past summer, my family consisting of my husband, three or our children (all boys, ages five, nine and thirteen) and myself, took a trip driving in car from North Carolina to visit family in Florida. We drove thirteen hours to get there. We stayed for three days. My nephew was getting married so family from other states was there as well. We were able to see family we rarely get to see, including my father-in-law who lives in Arizona and my sister-in-law and her family who live in Ohio.  We, of course, got to see our family that lives in Florida. It was great seeing everyone all in one place, which has only happened one other time since I've been in my husband's family which has been for 23 years. We all had a great time! The wedding was absolutely beautiful! My nephew and his new wife looked really happy together! After the wedding, everyone went back to my sister-in-laws house, drank some beer, listened to music, danced and just had a really good time. Everyone was happy to be able to spend time together. But, it was a very emotional time for a lot of us, especially the ladies who cried at the thought of everyone going our separate ways again so soon. We don't get to see each other very often so knowing that it would be ending soon was really sad. It was sad to have to leave, knowing that we most-likely wouldn't all be together again like that for a really long time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We spent three days together, but it felt like it was over too soon. We had to say goodbye to family and start our long drive back home. We were all exhausted, but happy with the time we had together.  "
+            }
+        ],
+        "request_id": "811ecfae59f142d3-EWR"
+    }
+}

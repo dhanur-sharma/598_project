@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two weeks ago I hosted a birthday for Khloe. I had planned this event so that I felt that everything should go well. I thought the day would be easy and successful. I got up early to pick up the final things for the party. I needed to pick up some helium filled balloons. I could not do this ahead of time since the helium would leak out. Next I went to pick up the cake. I wanted it to be as fresh as possible. Having done these last two chores, I returned home. When I unpacked my car, I realized that I had lost my wallet. Oh well, I will call these business concerns later and see if I can locate it. Everyone arrived and things seemed to be going well when out of nowhere Autumn puked. What a mess! I had to clean this up as quickly as possible and make the best of a messy situation. At least the cake was okay. Boy was I glad when this day was over. Everyone seemed to have a good time and now on to find my wallet. I made a few calls and was beginning to panic when some wonderful person knocked at my door and returned my wallet. What a day!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two weeks ago I hosted a birthday for Khloe. I had planned this event so that I felt that everything should go well. I thought the day would be easy and successful. I got up early to pick up the final things for the party. I needed to pick up some helium filled balloons. I could not do this ahead of time since the helium would leak out. Next I went to pick up the cake. I wanted it to be as fresh as possible. Having done these last two chores, I returned home. When I unpacked my car, I realized that I had lost my wallet. Oh well, I will call these business concerns later and see if I can locate it. Everyone arrived and things seemed to be going well when out of nowhere Autumn puked. What a mess! I had to clean this up as quickly as possible and make the best of a messy situation. At least the cake was okay. Boy was I glad when this day was over. Everyone seemed to have a good time and now on to find my wallet. I made a few calls and was beginning to panic when some wonderful person knocked at my door and returned my wallet. What a day!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am just so grateful.\n\n"
+            }
+        ],
+        "request_id": "811f428a0d310c7e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last week I drove up to Vermont. I had hoped to catch the peak foliage; it always comes down to a gamble. Luckily this year I managed to catch some peak color, and even the trees that weren't at peak color yet were only a day or two from perfection. I made the decision to travel the back roads, and found a beautiful field, and while driving around trying to find a cell signal I found a beautiful lake. The trees across from it made for a stunning picture. I even stopped at a secluded town and took a stroll. I got breakfast at the local market; some fresh baked donuts and apple cider! Eventually I made my way to a local ski resort, which was holding its annual Columbus Day weekend events. The main event was a gondola ride to the top of the mountain to catch the panoramic view of autumn trees as far as the eye could see! The view from the actual top was slightly hazy, but the view from the gondola ride was picturesque! That was the highlight of my trip, as by the time I got down from the mountain the sky was clouding up, preparing for rain. I stopped at a local country store and a local farmer's market. I bought trinkets, fresh fudge apples and pumpkins. By the time I really started to head home it started to rain out, but I didn't mind. Truly I had an autumn experience to remember."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last week I drove up to Vermont. I had hoped to catch the peak foliage; it always comes down to a gamble. Luckily this year I managed to catch some peak color, and even the trees that weren't at peak color yet were only a day or two from perfection. I made the decision to travel the back roads, and found a beautiful field, and while driving around trying to find a cell signal I found a beautiful lake. The trees across from it made for a stunning picture. I even stopped at a secluded town and took a stroll. I got breakfast at the local market; some fresh baked donuts and apple cider! Eventually I made my way to a local ski resort, which was holding its annual Columbus Day weekend events. The main event was a gondola ride to the top of the mountain to catch the panoramic view of autumn trees as far as the eye could see! The view from the actual top was slightly hazy, but the view from the gondola ride was picturesque! That was the highlight of my trip, as by the time I got down from the mountain the sky was clouding up, preparing for rain. I stopped at a local country store and a local farmer's market. I bought trinkets, fresh fudge apples and pumpkins. By the time I really started to head home it started to rain out, but I didn't mind. Truly I had an autumn experience to remember.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd95e4d1b0f8b-EWR"
+    }
+}

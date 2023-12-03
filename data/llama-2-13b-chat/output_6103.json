@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have a crush on a guy. He works at my agency. I can't stop thinking about him. He is shorter, maybe 5'5\" and has brown hair and a semi goatee(?). He has no clue how to dress, but he is an attorney and is so cute. He has this way of listening where you feel like you are the center of his world. I love that. And he remembers everything which is really great. I have a way of ranting and he listens to my rants and helps as best he can, even if it's just the listening. We met on his first day at my office, and I thought he was cute. Now, we are working closely on a case together and I get to talk to him frequently, as he is the attorney on my case and will be talking to the judge about it. I am really happy to be working with him. I don't know what will happen in the future between us. Hopefully, he will ask me out after this hearing. I think that would be lovely."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have a crush on a guy. He works at my agency. I can't stop thinking about him. He is shorter, maybe 5'5\" and has brown hair and a semi goatee(?). He has no clue how to dress, but he is an attorney and is so cute. He has this way of listening where you feel like you are the center of his world. I love that. And he remembers everything which is really great. I have a way of ranting and he listens to my rants and helps as best he can, even if it's just the listening. We met on his first day at my office, and I thought he was cute. Now, we are working closely on a case together and I get to talk to him frequently, as he is the attorney on my case and will be talking to the judge about it. I am really happy to be working with him. I don't know what will happen in the future between us. Hopefully, he will ask me out after this hearing. I think that would be lovely.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3eec483e0c74-EWR"
+    }
+}

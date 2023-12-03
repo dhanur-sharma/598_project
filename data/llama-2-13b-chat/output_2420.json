@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I witnessed something terrible today. I am in complete disbelief.. I am frankly shaking right now as i write this. I was on my way to office as usual. I did not realize how unusual this day was going to be. I was waiting at the signal, when i heard this loud honking. A car was closing in on our road from the opposite direction. We were on a one way, so i knew right away something was wrong. He was fast. And reckless. He drove into our road as other vehicles were coming in from behind. He drove past me in a second and jammed into a truck waiting at a short distance behind my car. I was terrified. It could have been me. He could have hit my car. I can't believe what i just escaped."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I witnessed something terrible today. I am in complete disbelief.. I am frankly shaking right now as i write this. I was on my way to office as usual. I did not realize how unusual this day was going to be. I was waiting at the signal, when i heard this loud honking. A car was closing in on our road from the opposite direction. We were on a one way, so i knew right away something was wrong. He was fast. And reckless. He drove into our road as other vehicles were coming in from behind. He drove past me in a second and jammed into a truck waiting at a short distance behind my car. I was terrified. It could have been me. He could have hit my car. I can't believe what i just escaped.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My heart is racing and my hands are trembling. I am in shock. I am still standing here, unable to move. I don't know what to do. I am just shaking.\n\n"
+            }
+        ],
+        "request_id": "811eb64ffbcb4288-EWR"
+    }
+}

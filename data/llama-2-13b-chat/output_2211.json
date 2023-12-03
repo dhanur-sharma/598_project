@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We arrived safely in Mexico City about two weeks. The ride here was absolutely grueling. An entire day long drive. He gave me such short notice, so I had to basically tell my work I'm not even coming in. My boss is now angry with me that my work won't be done for a few weeks on this spontaneous trip to Mexico. How am I going to recover from that blow? I was really going for that shiny new promotion to get that corner office with the view, but no. Now half my co-workers are going to hate me, as I'm sure my boss is going to try splitting up all my work among the rest of everyone. Lisa from accounting will be cross with me, and I was really feeling like we were becoming friends. I can't be really too selfish, though. The reason we were called down, which he failed to mention to me on our day-long journey here, is that his dad is sick. One look at him, and I knew it wasn't good. My husband broke down the first night there. Told me he was afraid to lose his dad. I shouldn't be so selfish, and should let him stay with his dad in his final days. I just wish our life didn't have to stop because someone else's is ending."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We arrived safely in Mexico City about two weeks. The ride here was absolutely grueling. An entire day long drive. He gave me such short notice, so I had to basically tell my work I'm not even coming in. My boss is now angry with me that my work won't be done for a few weeks on this spontaneous trip to Mexico. How am I going to recover from that blow? I was really going for that shiny new promotion to get that corner office with the view, but no. Now half my co-workers are going to hate me, as I'm sure my boss is going to try splitting up all my work among the rest of everyone. Lisa from accounting will be cross with me, and I was really feeling like we were becoming friends. I can't be really too selfish, though. The reason we were called down, which he failed to mention to me on our day-long journey here, is that his dad is sick. One look at him, and I knew it wasn't good. My husband broke down the first night there. Told me he was afraid to lose his dad. I shouldn't be so selfish, and should let him stay with his dad in his final days. I just wish our life didn't have to stop because someone else's is ending.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb25d6a89c334-EWR"
+    }
+}

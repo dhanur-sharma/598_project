@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently accepted a job with a call center. I had been looking for something to help put my daughter thru her last year of art school. I had worked for the company before as a home agent and manged all right with the stress of the job because I was also at home and could walk away for a few minutes when I needed to.  This time I was hired for in office work doing social media monitoring. I was ok the first day of training and was handling the stress of a new job ok. I spent 5 hours in training and walked out feeling a little anxiety but not terrible. The second day was a lot different for me. I think this is due to the focus of training moving away from the basic customer service information to client based expectations and company information. I spent 5 hours getting more and more anxious. Everything about the building, the people and what the trainer was discussing felt like it was grating on my nerves. I have had panic/anxiety attacks before and felt that one was coming. I walked out to my car, got in and started wheezing and crying and feeling trapped. I managed to calm down enough to drive a short distance home and then proceeded to have a long attack for almost an hour. It left me feeling discouraged, frustrated and incapable. I have worked several different jobs before and never had this sort of reaction before."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently accepted a job with a call center. I had been looking for something to help put my daughter thru her last year of art school. I had worked for the company before as a home agent and manged all right with the stress of the job because I was also at home and could walk away for a few minutes when I needed to.  This time I was hired for in office work doing social media monitoring. I was ok the first day of training and was handling the stress of a new job ok. I spent 5 hours in training and walked out feeling a little anxiety but not terrible. The second day was a lot different for me. I think this is due to the focus of training moving away from the basic customer service information to client based expectations and company information. I spent 5 hours getting more and more anxious. Everything about the building, the people and what the trainer was discussing felt like it was grating on my nerves. I have had panic/anxiety attacks before and felt that one was coming. I walked out to my car, got in and started wheezing and crying and feeling trapped. I managed to calm down enough to drive a short distance home and then proceeded to have a long attack for almost an hour. It left me feeling discouraged, frustrated and incapable. I have worked several different jobs before and never had this sort of reaction before.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have decided to go back to working at home so that I can have some control over my environment. I will be talking to my boss about this and see what we can come up with. I have no idea if this job will work out for me or not.\n\n"
+            }
+        ],
+        "request_id": "811ed0bf6a5e1921-EWR"
+    }
+}

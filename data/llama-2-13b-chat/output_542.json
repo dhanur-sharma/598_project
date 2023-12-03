@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, I found out I am a diabetic recently. Type 2 and It scared me because my sister died from diabete . Everything in my life has changed since that day. I feel different, not like myself. I'm more cautious about everything , not just my health. I wanted to have another child one day, but now I don't think I should. What if something happens to me and my children are without a mother?  I'm scared and confident at the same time that I will fight this and get better. I have to , my children need their mom. I refuse to let this disease take over my life. It took my sister , but it wont take me. I cried about this the first few nights. My daughter asked me whats wrong mom? I told her I was ill but I am going to be fine. she comforted me and I knew I am going to be fine. I love my children and I love my life with them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, I found out I am a diabetic recently. Type 2 and It scared me because my sister died from diabete . Everything in my life has changed since that day. I feel different, not like myself. I'm more cautious about everything , not just my health. I wanted to have another child one day, but now I don't think I should. What if something happens to me and my children are without a mother?  I'm scared and confident at the same time that I will fight this and get better. I have to , my children need their mom. I refuse to let this disease take over my life. It took my sister , but it wont take me. I cried about this the first few nights. My daughter asked me whats wrong mom? I told her I was ill but I am going to be fine. she comforted me and I knew I am going to be fine. I love my children and I love my life with them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I will do whatever it takes to live a long healthy life for them."
+            }
+        ],
+        "request_id": "811e93b5b8e70f7f-EWR"
+    }
+}

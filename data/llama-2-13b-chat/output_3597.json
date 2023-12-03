@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The day before my birthday my phone started ringing. It was unusual for my mother to be calling that early. Then she started calling my girlfriend. I automatically knew something was wrong. I called her back and she told me that I needed to find a way down to Florida to see my dad because she didn't think he was going to be alive much longer. Right after I got off the phone with her, my brother texts me, yes text, and says our father is in heaven with our sister. I called him up and told him what mom told me. He said she was in denial and that it was just the breathing machine making him looks alive, but that he was dead already. I was so confused. Was he alive or dead? I called my mother and told her what my brother said. She was sounding desperate and hung up the phone. My guess is that she ran to my brother and father. It was so hard to receive that kind of news. It was a roller coaster. First he's alive, then dead, and having to tell my mom. I was crushed. I hadn't seen him in person in so long and now I would never be able to again. I would never be able to hear his voice again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The day before my birthday my phone started ringing. It was unusual for my mother to be calling that early. Then she started calling my girlfriend. I automatically knew something was wrong. I called her back and she told me that I needed to find a way down to Florida to see my dad because she didn't think he was going to be alive much longer. Right after I got off the phone with her, my brother texts me, yes text, and says our father is in heaven with our sister. I called him up and told him what mom told me. He said she was in denial and that it was just the breathing machine making him looks alive, but that he was dead already. I was so confused. Was he alive or dead? I called my mother and told her what my brother said. She was sounding desperate and hung up the phone. My guess is that she ran to my brother and father. It was so hard to receive that kind of news. It was a roller coaster. First he's alive, then dead, and having to tell my mom. I was crushed. I hadn't seen him in person in so long and now I would never be able to again. I would never be able to hear his voice again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would never be able to tell him how much I loved him again. I felt so lost and alone.\n\n"
+            }
+        ],
+        "request_id": "811eccb35939c32e-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My husband and I have lived in our first home for ten years. About two months ago we sold our lovely home. We are both very happy but also sad to leave our nest. The memories we had and the growing we did in that house will never be forgotten. Now it is time to move on to the next chapter in our life. We are looking for a new home. We are even thinking about adding to our family. It may be another dog. Who knows, it maybe a child. We need something bigger and closer to the city. We understand it will be a risk from leaving what we know. We are ready for the adventure. We will need to make sure it's within our budget. We will need an extra room for company. I hate the though of packing and moving though. We will need to hire a mover."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My husband and I have lived in our first home for ten years. About two months ago we sold our lovely home. We are both very happy but also sad to leave our nest. The memories we had and the growing we did in that house will never be forgotten. Now it is time to move on to the next chapter in our life. We are looking for a new home. We are even thinking about adding to our family. It may be another dog. Who knows, it maybe a child. We need something bigger and closer to the city. We understand it will be a risk from leaving what we know. We are ready for the adventure. We will need to make sure it's within our budget. We will need an extra room for company. I hate the though of packing and moving though. We will need to hire a mover.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We will also need to do some renovations.\n\n"
+            }
+        ],
+        "request_id": "811be30cdf9d41f8-EWR"
+    }
+}

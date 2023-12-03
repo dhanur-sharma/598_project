@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It's always nice to spend time with my family. We usually don't all get together often, but I'm glad that we did this time. We ended up going to a water park, which is totally new for me! I've been to regular theme parks, but never a certified water park. I'm glad this is where we went because this day was super fun (even with the perils of summer). As always, the lines to get in were long. It was hot outside. I almost got stung by a bee! It was all well worth it because I got to conquer my fears. Theme park rides scare me. The speed, the slopes, that fluttering feeling in my stomach, the dark tunnels. Getting me on one takes an awful lot of persuasion! However, I faced my fear. I went on one of the most intense rides in the park, and I survived! I was screaming the whole way down, but I did it. I am proud of myself and had so much fun!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It's always nice to spend time with my family. We usually don't all get together often, but I'm glad that we did this time. We ended up going to a water park, which is totally new for me! I've been to regular theme parks, but never a certified water park. I'm glad this is where we went because this day was super fun (even with the perils of summer). As always, the lines to get in were long. It was hot outside. I almost got stung by a bee! It was all well worth it because I got to conquer my fears. Theme park rides scare me. The speed, the slopes, that fluttering feeling in my stomach, the dark tunnels. Getting me on one takes an awful lot of persuasion! However, I faced my fear. I went on one of the most intense rides in the park, and I survived! I was screaming the whole way down, but I did it. I am proud of myself and had so much fun!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope to go again soon."
+            }
+        ],
+        "request_id": "811ea5954a6e4257-EWR"
+    }
+}

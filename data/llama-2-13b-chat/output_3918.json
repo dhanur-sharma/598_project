@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My birthday was last month, and my friends threw me a party. It made me so happy that they remembered and thought it was a special occasion. They told me to come to my friends apartment to celebrate. I showed up and there were all the special people in my life. I was so grateful. It was a special movement for me. They had lots of food set up, including all of my favorites. The music was good. I kept walking around the room hugging everyone. Last year I didn't have a very good birthday. So this meant a lot to me. We were there for a long time. It was dark when we finally went home. I'm grateful to have such good friends. They make my life better."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My birthday was last month, and my friends threw me a party. It made me so happy that they remembered and thought it was a special occasion. They told me to come to my friends apartment to celebrate. I showed up and there were all the special people in my life. I was so grateful. It was a special movement for me. They had lots of food set up, including all of my favorites. The music was good. I kept walking around the room hugging everyone. Last year I didn't have a very good birthday. So this meant a lot to me. We were there for a long time. It was dark when we finally went home. I'm grateful to have such good friends. They make my life better.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed3f04c278cb1-EWR"
+    }
+}

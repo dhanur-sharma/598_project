@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This event was a birthday party for my nephew. He just turned five. It was a gathering with several close family members. The most memorable part of it was when he opened up his presents. He was very excited over all the gifts. It was great to see the joy on his face when he did that. I got him a couple books that he really enjoys reading. This is because he is an avid reader. It was also fun watching him blow on the candles. After we were done unwrapping the presents, we all jumped in the pool. I had a great time swimming with my family during this time, and there were a lot of people swimming.  They enjoyed themselves as well. After we were done swimming, we went inside and chatted. We also played card games with the kids that were there. Overall, my nephew really enjoyed his birthday. I can't wait to see my family again like this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This event was a birthday party for my nephew. He just turned five. It was a gathering with several close family members. The most memorable part of it was when he opened up his presents. He was very excited over all the gifts. It was great to see the joy on his face when he did that. I got him a couple books that he really enjoys reading. This is because he is an avid reader. It was also fun watching him blow on the candles. After we were done unwrapping the presents, we all jumped in the pool. I had a great time swimming with my family during this time, and there were a lot of people swimming.  They enjoyed themselves as well. After we were done swimming, we went inside and chatted. We also played card games with the kids that were there. Overall, my nephew really enjoyed his birthday. I can't wait to see my family again like this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will definitely be at his next birthday party.  "
+            }
+        ],
+        "request_id": "811f4e93fd0e17a1-EWR"
+    }
+}

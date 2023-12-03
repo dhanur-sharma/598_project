@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Six months ago, my wife began to not feel well. She complained of extreme fatigue, nausea, and felt that she was getting bloated. I suggested she go to the doctor, which she was not a fan of, and this went on for three more days. Finally, one snowy Friday evening, she was getting a ride home from a co-worker and called me. She said she was feeling much worse, including dizziness and abdominal pain. I asked her co-worker (who was also a friend of ours) to drive her to the emergency room and I set out to meet her there. It was snowing so hard that I missed the turn to the hospital, so I it took me a while to get there but I got there right before they called her back. She looked terrible, and I instantly regretted not being more adamant with my suggestion that she see a doctor earlier. They did quite a few tests, and we talked to several different doctors and nurses. Eventually they knew that she was having serious kidney problems, but there was more going on as well. After about seven hours, around midnight, they admitted her and we moved up to a room, where she was the only patient. Another hour after that and a different doctor came to tell us that she had cirrhosis, which is eventually fatal without a transplant. She's not much of a drinker, and they said that it's due to what's called a fatty liver. She took the news in stride, asking what she needed to do moving forward, and I was very proud of her strength. I drove home around 3 that morning to try to get some sleep, moving at a crawl on icy roads, knowing that our lives were going to be much different now. It turns out that both of her grandfathers died of the same thing. She is determined not to go that way, and is now in Denver, staying with her parents, about to finally get on the transplant list. I am still in Albuquerque, holding down the fort - they don't do transplants here (for real) so this is the only way we can try get her healthy again."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Six months ago, my wife began to not feel well. She complained of extreme fatigue, nausea, and felt that she was getting bloated. I suggested she go to the doctor, which she was not a fan of, and this went on for three more days. Finally, one snowy Friday evening, she was getting a ride home from a co-worker and called me. She said she was feeling much worse, including dizziness and abdominal pain. I asked her co-worker (who was also a friend of ours) to drive her to the emergency room and I set out to meet her there. It was snowing so hard that I missed the turn to the hospital, so I it took me a while to get there but I got there right before they called her back. She looked terrible, and I instantly regretted not being more adamant with my suggestion that she see a doctor earlier. They did quite a few tests, and we talked to several different doctors and nurses. Eventually they knew that she was having serious kidney problems, but there was more going on as well. After about seven hours, around midnight, they admitted her and we moved up to a room, where she was the only patient. Another hour after that and a different doctor came to tell us that she had cirrhosis, which is eventually fatal without a transplant. She's not much of a drinker, and they said that it's due to what's called a fatty liver. She took the news in stride, asking what she needed to do moving forward, and I was very proud of her strength. I drove home around 3 that morning to try to get some sleep, moving at a crawl on icy roads, knowing that our lives were going to be much different now. It turns out that both of her grandfathers died of the same thing. She is determined not to go that way, and is now in Denver, staying with her parents, about to finally get on the transplant list. I am still in Albuquerque, holding down the fort - they don't do transplants here (for real) so this is the only way we can try get her healthy again.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She is trying to stay positive, but it is very difficult to be away from her family and to be so sick.\n\n"
+            }
+        ],
+        "request_id": "811e8e3a7b48c34a-EWR"
+    }
+}

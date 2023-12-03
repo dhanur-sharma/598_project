@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I once attended a funeral service of old brother in our church several months ago. Actually, I was shocked when I received the sad news, because just one week before, we had picnic together. At that time, he was in very good spirit. On the funeral room, I signed up and went to console his family. They were sorrowful and tearful. I felt so sorry for them. Then I stood with other guests and watched the photos in the screen on the back wall. From the speaker out were the songs he liked. while watching the photos, I thought that we should cherish the current time. We should love our family, and leave some memorable thing in the world. After pastor gave the message, and just before the closure of the service. We all sang one song he liked. The song was a joyful, but when I began to sing, I can not stop crying. We really missed this old brother and old friend. Leaving the funeral service and returning to home, I talked to my family. My 13-years old daughter burst into tears. She said, she don't know why, she just feel sorrowful."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I once attended a funeral service of old brother in our church several months ago. Actually, I was shocked when I received the sad news, because just one week before, we had picnic together. At that time, he was in very good spirit. On the funeral room, I signed up and went to console his family. They were sorrowful and tearful. I felt so sorry for them. Then I stood with other guests and watched the photos in the screen on the back wall. From the speaker out were the songs he liked. while watching the photos, I thought that we should cherish the current time. We should love our family, and leave some memorable thing in the world. After pastor gave the message, and just before the closure of the service. We all sang one song he liked. The song was a joyful, but when I began to sing, I can not stop crying. We really missed this old brother and old friend. Leaving the funeral service and returning to home, I talked to my family. My 13-years old daughter burst into tears. She said, she don't know why, she just feel sorrowful.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My wife said she had the same feeling. My son said he missed his friend. We all missed him, and still missed him now.\n\n"
+            }
+        ],
+        "request_id": "811ead2e1a065e79-EWR"
+    }
+}

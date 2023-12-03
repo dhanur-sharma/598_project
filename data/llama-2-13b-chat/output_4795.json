@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Wow what a fantastic day! This morning we woke up to such a gorgeous sunny day. The family decided to take a day to go and enjoy the beach together. I was really excited as it was to just go swimming and enjoy the sun and sand but the coolest thing happened when we got there. We saw a stand advertising discounted surfboard rentals and everyone decided to give surfing a go. At first no one could figure it out so we were mostly just laughing and falling all over the place. Eventually though some of us figured it out and we enjoyed playing and riding around on the waves. I even managed to catch one really good wave and stay up riding through the whole thing! I was pretty proud and excited about that. Still the coolest part of the day hadn't even happened yet. At one point near dinnertime, as we were talking about heading in for the day, my brother noticed something shiny in the water. We all turned to look just in time to see a dolphin pop out of the water! It was unbelievably cool to see up close. A couple other dolphins joined him, there was even a baby! We kept our distance and just enjoyed the sight until they swam off leaving us mesmerized. I honestly couldn't have imagined such a perfect beach day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Wow what a fantastic day! This morning we woke up to such a gorgeous sunny day. The family decided to take a day to go and enjoy the beach together. I was really excited as it was to just go swimming and enjoy the sun and sand but the coolest thing happened when we got there. We saw a stand advertising discounted surfboard rentals and everyone decided to give surfing a go. At first no one could figure it out so we were mostly just laughing and falling all over the place. Eventually though some of us figured it out and we enjoyed playing and riding around on the waves. I even managed to catch one really good wave and stay up riding through the whole thing! I was pretty proud and excited about that. Still the coolest part of the day hadn't even happened yet. At one point near dinnertime, as we were talking about heading in for the day, my brother noticed something shiny in the water. We all turned to look just in time to see a dolphin pop out of the water! It was unbelievably cool to see up close. A couple other dolphins joined him, there was even a baby! We kept our distance and just enjoyed the sight until they swam off leaving us mesmerized. I honestly couldn't have imagined such a perfect beach day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bde0d9808420a-EWR"
+    }
+}

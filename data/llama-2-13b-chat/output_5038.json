@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a week ago was my bachelor party. I had been planning this trip with the boys for several weeks. I'm getting married next week and this was one last boys weekend of freedom before tying the knot. Sheila and I have been dating for several years. So the boys decided to take me to Niagra Falls for the weekend. From the moment I left my apartment until the moment I left Niagra Falls was an absolute blast. We drove up there togther, all of us piled into the SUV like a bunch of teenagers. We partied like rockstars. Seeing the falls was so awe inspiring too. It really helped sober us up. Just enough to go back to the bar that afternoon and get drunk again. We even smoked a little weed for old times sake. We hot boxed that SUV like we were in high school over again. It felt like the summer of 1995 in Billy's mom's Tahoe. Only this time we were in Billy's Tahoe."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a week ago was my bachelor party. I had been planning this trip with the boys for several weeks. I'm getting married next week and this was one last boys weekend of freedom before tying the knot. Sheila and I have been dating for several years. So the boys decided to take me to Niagra Falls for the weekend. From the moment I left my apartment until the moment I left Niagra Falls was an absolute blast. We drove up there togther, all of us piled into the SUV like a bunch of teenagers. We partied like rockstars. Seeing the falls was so awe inspiring too. It really helped sober us up. Just enough to go back to the bar that afternoon and get drunk again. We even smoked a little weed for old times sake. We hot boxed that SUV like we were in high school over again. It felt like the summer of 1995 in Billy's mom's Tahoe. Only this time we were in Billy's Tahoe.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We all had such a great time, I was so sad to leave the next day. I'm going to miss these guys so much. I'm so grateful for their friendship and the memories we made that weekend."
+            }
+        ],
+        "request_id": "811be3174a0143a1-EWR"
+    }
+}

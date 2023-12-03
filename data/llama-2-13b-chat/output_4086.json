@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We arrived at the hospital on a Tuesday night for my wife to be induced for the birth of our first child.  We did not know the gender of the baby so we were excited for the surprise.  We began in one room where they prepped my wife to begin inducing.  Soon we were moved into our next room where we would wait for our daughter's arrival. My wife progressed slowly throughout labor.  The hospital staff went through their many procedures to induce labor.  By Thursday morning, the hospital staff told us we should expect our baby by noon.  Noon came and went,no baby.  Next we were told by three they would be here.  At three o'clock, still no baby.  After much pushed our lovely daughter finally arrived at 5:48.  It was nearly 48 hours after we arrived in the hospital.  When I finally got to hold her, I was elated.  Tears fell down my face.  She was born healthy and my wife was amazing.  It was the greatest day of my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We arrived at the hospital on a Tuesday night for my wife to be induced for the birth of our first child.  We did not know the gender of the baby so we were excited for the surprise.  We began in one room where they prepped my wife to begin inducing.  Soon we were moved into our next room where we would wait for our daughter's arrival. My wife progressed slowly throughout labor.  The hospital staff went through their many procedures to induce labor.  By Thursday morning, the hospital staff told us we should expect our baby by noon.  Noon came and went,no baby.  Next we were told by three they would be here.  At three o'clock, still no baby.  After much pushed our lovely daughter finally arrived at 5:48.  It was nearly 48 hours after we arrived in the hospital.  When I finally got to hold her, I was elated.  Tears fell down my face.  She was born healthy and my wife was amazing.  It was the greatest day of my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bcfbefc020f83-EWR"
+    }
+}

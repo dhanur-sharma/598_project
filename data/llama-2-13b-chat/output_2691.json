@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: First I went an international trip that included the following. Flying over the coast of Perth on my trip to Australia, and first sight of Oz. Looking out of the plane window and seeing it as we started our descent. It wasn\u2019t my intended destination, it was supposed to be Brisbane. My flight to Bris was cancelled so they gave me a new flight which went to Perth, and then a domestic flight to Bris. Second part of the trip that was memorable. meeting a blonde, true blonde, on a date while I was there. I normally prefer redheads or brunettes. But I was in a new country so I wasn't going to hold it against her. After that getting to see the Great Barrier Reef. Needs no explanation. Finally, going to Italy and Seeing the Rome Colosseum for the first time for real. I could right at length about that. But suffice to say it was glorious. A real since of history. A great trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: First I went an international trip that included the following. Flying over the coast of Perth on my trip to Australia, and first sight of Oz. Looking out of the plane window and seeing it as we started our descent. It wasn\u2019t my intended destination, it was supposed to be Brisbane. My flight to Bris was cancelled so they gave me a new flight which went to Perth, and then a domestic flight to Bris. Second part of the trip that was memorable. meeting a blonde, true blonde, on a date while I was there. I normally prefer redheads or brunettes. But I was in a new country so I wasn't going to hold it against her. After that getting to see the Great Barrier Reef. Needs no explanation. Finally, going to Italy and Seeing the Rome Colosseum for the first time for real. I could right at length about that. But suffice to say it was glorious. A real since of history. A great trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I would go back to any of those places in a heartbeat.\n\n"
+            }
+        ],
+        "request_id": "811ebb9e8f774310-EWR"
+    }
+}

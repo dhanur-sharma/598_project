@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Seemed like a good idea at the time. I've always had a lot of anxiety. And when I went to college, it only got worse. My first roommate was a nightmare which didn't help. Then during my junior year, I actually had a really cool roommate. I sort of came out of my shell. We played D&D and I got to meet a whole new group of people. But even though I was having more social interaction, I was still dealing with a lot of anxiety. Then one of the guys from D&D talked about how smoking week actually helped him with his anxiety. So I decided to give it a try. And it actually helped a little. That is until I got some bad stuff and ended up in the hospital. I mean I was totally freaking out. I don't know what was in it, but my anxiety went from bad to worse. I started having such bad panic attacks that I had to quit school and move back home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Seemed like a good idea at the time. I've always had a lot of anxiety. And when I went to college, it only got worse. My first roommate was a nightmare which didn't help. Then during my junior year, I actually had a really cool roommate. I sort of came out of my shell. We played D&D and I got to meet a whole new group of people. But even though I was having more social interaction, I was still dealing with a lot of anxiety. Then one of the guys from D&D talked about how smoking week actually helped him with his anxiety. So I decided to give it a try. And it actually helped a little. That is until I got some bad stuff and ended up in the hospital. I mean I was totally freaking out. I don't know what was in it, but my anxiety went from bad to worse. I started having such bad panic attacks that I had to quit school and move back home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now I'm just trying to get better and figure out what happened to me.\n\n"
+            }
+        ],
+        "request_id": "811ed4447ed78c77-EWR"
+    }
+}

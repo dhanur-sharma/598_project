@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three days ago my sister emailed me to tell me that our mom passed away from lung cancer. We wasn't close at all. As a matter of fact, I haven't talked to her in about 4 years. I know that's a long time to go without speaking to your mother. But she walked away from me and my sister when we were little. She gave us to our grandmother. Mawmaw raised us since we were little girls. Then as we grew up, we tried to give her another chance to be in our lives but guess what? She blew that too. Initially she was doing good. She called us, we talked about things, enjoyed family time and everything. Then one day, it just stopped. It was like she disappeared. She didn't call us anymore. She didn't answer phone calls. We tried calling her from different numbers, still no answer. We didn't know what to think. Now, to find out that she's dead, my feelings are numb. I don't know what to think. Do I mourn the loss of a mother who was never there for me anyway? I can't cry tears because they aren't there to be cried. I am wondering about how long she had the cancer and did she know about it? I have so many unanswered questions that I guess I'll just have to deal with."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three days ago my sister emailed me to tell me that our mom passed away from lung cancer. We wasn't close at all. As a matter of fact, I haven't talked to her in about 4 years. I know that's a long time to go without speaking to your mother. But she walked away from me and my sister when we were little. She gave us to our grandmother. Mawmaw raised us since we were little girls. Then as we grew up, we tried to give her another chance to be in our lives but guess what? She blew that too. Initially she was doing good. She called us, we talked about things, enjoyed family time and everything. Then one day, it just stopped. It was like she disappeared. She didn't call us anymore. She didn't answer phone calls. We tried calling her from different numbers, still no answer. We didn't know what to think. Now, to find out that she's dead, my feelings are numb. I don't know what to think. Do I mourn the loss of a mother who was never there for me anyway? I can't cry tears because they aren't there to be cried. I am wondering about how long she had the cancer and did she know about it? I have so many unanswered questions that I guess I'll just have to deal with.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I just wish she had tried to reach out to us one last time."
+            }
+        ],
+        "request_id": "811f39873ea6429b-EWR"
+    }
+}

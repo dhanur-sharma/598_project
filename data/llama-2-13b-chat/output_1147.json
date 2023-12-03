@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I work as a child avocatein the court system. I represent children in the foster care system. I had a very difficult case last year, where the parents were addicted to heroine. They ad three children of various ages. Te parents were getting ready to have their rights terminated because they had been cheating on drug tests. The DCS caseworker had been covering it up for them. After a great deal of research I was able to locate evidence of the parents ongoing drug abuse. I worked closely wit them building rapport. They greed to go to in patient treatment were they were hospitalized for 4 months. Afterwards, they went to outpatient treatment. Today, they are clean and sober. I referred them to job placement services. They ave cleaned up their apartment and repainted it. They go on job interviews and are taking care of health issues. They came to me in tears aying tat they thank God I was put into their life and are grateful to me for helping them. Next month, they resume unsupervised visits wit their children for the first time in a year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I work as a child avocatein the court system. I represent children in the foster care system. I had a very difficult case last year, where the parents were addicted to heroine. They ad three children of various ages. Te parents were getting ready to have their rights terminated because they had been cheating on drug tests. The DCS caseworker had been covering it up for them. After a great deal of research I was able to locate evidence of the parents ongoing drug abuse. I worked closely wit them building rapport. They greed to go to in patient treatment were they were hospitalized for 4 months. Afterwards, they went to outpatient treatment. Today, they are clean and sober. I referred them to job placement services. They ave cleaned up their apartment and repainted it. They go on job interviews and are taking care of health issues. They came to me in tears aying tat they thank God I was put into their life and are grateful to me for helping them. Next month, they resume unsupervised visits wit their children for the first time in a year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have no doubt that they will successfully complete their reunification plan.\n\n"
+            }
+        ],
+        "request_id": "811e9ea04fe441a6-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: During my mother's end of life, she made several trips between care facilities and the hospital. One day when I went to the hospital to visit my mother, she was clearly very disoriented. She appeared to have no recognition of my presence and appeared to see something off to her right. She seemed alarmed and frightened. As her health declined, she showed a decline in memory and some personality changes from day to day, however this was the most disconnected I had ever seen her and the seeming fear was new. I could deal with her feisty attitudes, however seeing mom terrified was terribly upsetting.    I went to the nurses' station and they indicated that they would have the doctor come to her room. The doctor, upon her arrival, explained that my mother had experienced difficulty in falling asleep the night before, so they had given her a new medicine. She successfully slept all night and all day, but had awoken not long before my arrival. It seems that hallucinations were a side effect of the medicine. The doctor assured me that they would not give her that medicine again.    One reason that the moment stands out in my recent memory is that I tend to be very stoic. I seldom show emotion in public. I was so distressed over my mother's condition that I could not stop sobbing in front of the doctor. I was embarrassed by my lack of control, but was overwhelmed by seeing my mother appearing to suffer. My mother has since passed away. That was probably the most difficult visit that I paid her during the end of her life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: During my mother's end of life, she made several trips between care facilities and the hospital. One day when I went to the hospital to visit my mother, she was clearly very disoriented. She appeared to have no recognition of my presence and appeared to see something off to her right. She seemed alarmed and frightened. As her health declined, she showed a decline in memory and some personality changes from day to day, however this was the most disconnected I had ever seen her and the seeming fear was new. I could deal with her feisty attitudes, however seeing mom terrified was terribly upsetting.    I went to the nurses' station and they indicated that they would have the doctor come to her room. The doctor, upon her arrival, explained that my mother had experienced difficulty in falling asleep the night before, so they had given her a new medicine. She successfully slept all night and all day, but had awoken not long before my arrival. It seems that hallucinations were a side effect of the medicine. The doctor assured me that they would not give her that medicine again.    One reason that the moment stands out in my recent memory is that I tend to be very stoic. I seldom show emotion in public. I was so distressed over my mother's condition that I could not stop sobbing in front of the doctor. I was embarrassed by my lack of control, but was overwhelmed by seeing my mother appearing to suffer. My mother has since passed away. That was probably the most difficult visit that I paid her during the end of her life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " As I reflect on that moment, I realize that my mother's end of life journey was not just about her physical decline, but also about her mental and emotional struggles. Seeing her so disoriented and frightened was a powerful reminder of the toll that her illness was taking on her, and on our entire family. It was a difficult and emotional experience, but it also brought us closer together and made us more grateful for the time we had with her."
+            }
+        ],
+        "request_id": "811e8c813b3b43be-EWR"
+    }
+}

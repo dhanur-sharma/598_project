@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Our trip to San Francisco was refreshing. It was a great opportunity to spend time with family. Sometimes you don't know how much you've missed someone until you see them again. The reason for this family reunion was the wedding of my beautiful cousin. The wedding was actually quite small. But many of the guests stayed at our cousin's house so the place was cramped. Being the thoughtful person she is, our cousin booked us a stay at a local motel. At first, my family and I were wary of staying at motels. But we soon found out that the motel she booked was more of a family inn \u2014 complete with a wonderful complimentary breakfast. The day of the wedding was hectic, as you could imagine. The bride was running everywhere \u2014 followed by 3 or 4 of her bridesmaids and female relatives. The groom seemed relaxed (maybe he was good at hiding his emotions). The actual ceremony went off without a hitch. And the reception featured a wonderful buffet that I can see and smell. Overall, the trip was an overwhelming success. We got to enjoy the cool weather of San Francisco while bonding with family members we've known for a while. We even met a few of our relatives for the first time! I hope to travel more with my family in the near future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Our trip to San Francisco was refreshing. It was a great opportunity to spend time with family. Sometimes you don't know how much you've missed someone until you see them again. The reason for this family reunion was the wedding of my beautiful cousin. The wedding was actually quite small. But many of the guests stayed at our cousin's house so the place was cramped. Being the thoughtful person she is, our cousin booked us a stay at a local motel. At first, my family and I were wary of staying at motels. But we soon found out that the motel she booked was more of a family inn \u2014 complete with a wonderful complimentary breakfast. The day of the wedding was hectic, as you could imagine. The bride was running everywhere \u2014 followed by 3 or 4 of her bridesmaids and female relatives. The groom seemed relaxed (maybe he was good at hiding his emotions). The actual ceremony went off without a hitch. And the reception featured a wonderful buffet that I can see and smell. Overall, the trip was an overwhelming success. We got to enjoy the cool weather of San Francisco while bonding with family members we've known for a while. We even met a few of our relatives for the first time! I hope to travel more with my family in the near future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ec5bd89c3432b-EWR"
+    }
+}

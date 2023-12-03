@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went out for a night with old high school friends that I had not seen in a long time.  We cruised the local gay bars without the fea we had as underaged kids.  That was odd.  The most memorable thing was when we each revealed to each other that we had experienced abuse as children. (The drugs and alcohol really loosened our tongues.) It was surprising that it was something that had happened to each of us growing up, but we did not even suspect that it had happened to the other two people.  We had all experienced abuse at the hands of our peers.  We knew that about each other.  We witnessed it everyday.   It makes sense now as to our personalities and how we have turned out.  We have all suffered from depression and anxiety, probably PTSD. We have all been in therapy.  We have all had failed relationships, trouble maintaining relationships.  I think that we all have addictions.  We all live on the margins of society and have never felt accepted.  I do not think they want to ever see me again.  They promised me we would get together again in a few months and that was a long time ago."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went out for a night with old high school friends that I had not seen in a long time.  We cruised the local gay bars without the fea we had as underaged kids.  That was odd.  The most memorable thing was when we each revealed to each other that we had experienced abuse as children. (The drugs and alcohol really loosened our tongues.) It was surprising that it was something that had happened to each of us growing up, but we did not even suspect that it had happened to the other two people.  We had all experienced abuse at the hands of our peers.  We knew that about each other.  We witnessed it everyday.   It makes sense now as to our personalities and how we have turned out.  We have all suffered from depression and anxiety, probably PTSD. We have all been in therapy.  We have all had failed relationships, trouble maintaining relationships.  I think that we all have addictions.  We all live on the margins of society and have never felt accepted.  I do not think they want to ever see me again.  They promised me we would get together again in a few months and that was a long time ago.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I think I will never see them again.  It was a wild night.  I never want to go through anything like that again.  It was too much to handle.\n\n"
+            }
+        ],
+        "request_id": "811be5cd0eaf192c-EWR"
+    }
+}

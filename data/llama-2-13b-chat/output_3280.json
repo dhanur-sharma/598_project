@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have missed my family. During the time of writing this diary entry, I had not seen them. Recently, my father and I went on a vacation to his home country. I hadn't seen my father in six months. During this time i was able to visit family and hang out with friends. Visiting my fathers country was very rewarding but also very tiring. We walked for miles an d took public transportation everywhere. We ate a lot of food that was delicious. A downside to the trip was getting sick. I am not quite sure what i had. I suspect it was either food poisoning or sun poisoning. It's hard to pinpoint as we ate at many restaurants that did not have healthy options and I had gotten a severe sunburn. I had a fever for a few days and had stomach issues the days following up to today. It was a great trip to bond with my dad and to explore the area where he grew up. I hope to come back in the near future."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have missed my family. During the time of writing this diary entry, I had not seen them. Recently, my father and I went on a vacation to his home country. I hadn't seen my father in six months. During this time i was able to visit family and hang out with friends. Visiting my fathers country was very rewarding but also very tiring. We walked for miles an d took public transportation everywhere. We ate a lot of food that was delicious. A downside to the trip was getting sick. I am not quite sure what i had. I suspect it was either food poisoning or sun poisoning. It's hard to pinpoint as we ate at many restaurants that did not have healthy options and I had gotten a severe sunburn. I had a fever for a few days and had stomach issues the days following up to today. It was a great trip to bond with my dad and to explore the area where he grew up. I hope to come back in the near future.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec7f47a4643ec-EWR"
+    }
+}

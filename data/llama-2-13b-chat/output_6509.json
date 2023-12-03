@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I felt a huge sense of pride and happiness at my son's Eagle Scout ceremony a few months ago. He has worked so hard, for so long. It was wonderful to see him recognized for all he's put into scouting. Many of our family and friends came which made it even more of an event to remember. He also had a part in the ceremony where he thanked everyone and told about what he'd learned over the years. As he came to each person, he told a little story about them and even came to tears several times. It was very emotional for me. He's 18 years old now so he's been in that period where he doesn't want to show his emotions to anyone, though he let his guard down at the ceremony. Several times I remember taking a look around to see all the people who were there to support him and it warmed my heart. I could not ask for a better kid. I think that was solidified in the way he presented himself at the ceremony. It will definitely be an event I will remember for the rest of my life. I know the ceremony had the same effect on many others there as well. I talked about it with my parents and they were surprised by how emotional my son was and thought it was a breath of fresh air to see a kid express himself openly like that.  It was the same for my wife and many others I spoke to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I felt a huge sense of pride and happiness at my son's Eagle Scout ceremony a few months ago. He has worked so hard, for so long. It was wonderful to see him recognized for all he's put into scouting. Many of our family and friends came which made it even more of an event to remember. He also had a part in the ceremony where he thanked everyone and told about what he'd learned over the years. As he came to each person, he told a little story about them and even came to tears several times. It was very emotional for me. He's 18 years old now so he's been in that period where he doesn't want to show his emotions to anyone, though he let his guard down at the ceremony. Several times I remember taking a look around to see all the people who were there to support him and it warmed my heart. I could not ask for a better kid. I think that was solidified in the way he presented himself at the ceremony. It will definitely be an event I will remember for the rest of my life. I know the ceremony had the same effect on many others there as well. I talked about it with my parents and they were surprised by how emotional my son was and thought it was a breath of fresh air to see a kid express himself openly like that.  It was the same for my wife and many others I spoke to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We were all very proud of him.\n\n"
+            }
+        ],
+        "request_id": "811f46ee6c2443cd-EWR"
+    }
+}

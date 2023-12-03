@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A little over a year ago I put my house on the market to avoid foreclosure.  It was a sudden decision but the only way I could see out of my situation.  I knew I would have to take a loss on it.  This however looked better than risking the foreclosure.  Unfortunately, my house sat on the market for a year.  About a month ago it hit the point where I could no longer afford to sell it.  This was because the lawyer;s fees made the payoff amount to steep.  This was really a blow to me and I am unsure how to go forward from here.  I must remain in the house but also find some way to deal with the payments and avoid foreclosure.  I think I may become a gold-digger and find myself a rich widow.  Perhaps, I'll rob a bank.  I am really not sure what to do at this point.  I am all out of options.  Existence seems bleak and miserable.  I am open to receiving any help."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A little over a year ago I put my house on the market to avoid foreclosure.  It was a sudden decision but the only way I could see out of my situation.  I knew I would have to take a loss on it.  This however looked better than risking the foreclosure.  Unfortunately, my house sat on the market for a year.  About a month ago it hit the point where I could no longer afford to sell it.  This was because the lawyer;s fees made the payoff amount to steep.  This was really a blow to me and I am unsure how to go forward from here.  I must remain in the house but also find some way to deal with the payments and avoid foreclosure.  I think I may become a gold-digger and find myself a rich widow.  Perhaps, I'll rob a bank.  I am really not sure what to do at this point.  I am all out of options.  Existence seems bleak and miserable.  I am open to receiving any help.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd8fc8fab4289-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago, the class that I was TAing over the summer ended. It had been a really great class, and my students were engaged and interested in the topic. When I passed around the final attendance sheet, one of them wrote, \"WE LOVE YOU [NAME]\". Several others had drawn smiley faces and hearts around that message. In addition, several students emailed me after class thanking me. Some of them even thanked me for that class after they see me on campus. That event really cemented in my mind why I want to be an educator. Previously, I had been feeling insecure about why I was in grad school. I wasn't sure that I wanted to continue. But, I hadn't taught any classes over the past year. Seeing those messages reminded me why I was in academia. It was surprising to me that the students were so excited by the class that they wrote that message. It made me feel really appreciated and loved. It reminded me that educating is what I want to do with the rest of my life. I want to make students feel excited."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago, the class that I was TAing over the summer ended. It had been a really great class, and my students were engaged and interested in the topic. When I passed around the final attendance sheet, one of them wrote, \"WE LOVE YOU [NAME]\". Several others had drawn smiley faces and hearts around that message. In addition, several students emailed me after class thanking me. Some of them even thanked me for that class after they see me on campus. That event really cemented in my mind why I want to be an educator. Previously, I had been feeling insecure about why I was in grad school. I wasn't sure that I wanted to continue. But, I hadn't taught any classes over the past year. Seeing those messages reminded me why I was in academia. It was surprising to me that the students were so excited by the class that they wrote that message. It made me feel really appreciated and loved. It reminded me that educating is what I want to do with the rest of my life. I want to make students feel excited.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eabedcd4e8c2a-EWR"
+    }
+}

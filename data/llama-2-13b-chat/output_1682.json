@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: about 3 weeks ago it was time for a big event for someone close to me. One of my least likely friends was about to get married. Some of us have been waiting for the cermony. Some of us have been waiting for the reception and food after. Overall it was an okay event. It was nice seeing my friend finally get married. She was really excited to see how her and her partner would continue life together in marriage. She wanted to own a home and have children. I remember going to the event I wasnt a participant but I did get to experience it with everyone involved. After the ceremony it was time for the reception. It was really enjoyable to interact with everyone, getting to dance and eat food. I had a ball dancing, we all did. I even met someone who I really liked there and we hit it off. When the event was over everyone gave their goodbyes. From there I spoke with my friend one last time and then I went home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: about 3 weeks ago it was time for a big event for someone close to me. One of my least likely friends was about to get married. Some of us have been waiting for the cermony. Some of us have been waiting for the reception and food after. Overall it was an okay event. It was nice seeing my friend finally get married. She was really excited to see how her and her partner would continue life together in marriage. She wanted to own a home and have children. I remember going to the event I wasnt a participant but I did get to experience it with everyone involved. After the ceremony it was time for the reception. It was really enjoyable to interact with everyone, getting to dance and eat food. I had a ball dancing, we all did. I even met someone who I really liked there and we hit it off. When the event was over everyone gave their goodbyes. From there I spoke with my friend one last time and then I went home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea8f90a8042ab-EWR"
+    }
+}

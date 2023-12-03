@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I finally graduated college. After trying more than once! You see I dropped out when I was younger, because of certain reasons, and now I went back to try to get my degree when I'm older now. But the good news is that I finally managed to graduate on my second try. Not too bad, I'll say so myself. It actually took me around 2 years to finish it, and let me tell you how hard it was to do so. The courses was hard. The teacher weren't that great. I basically had to do everything myself. But the good news is that I managed to do it and graduate with a smile on my face. I even got a financial gift from my mom when I did! That really did helped me out. I love you mom! Thanks for the help. I don't know what I would've done if I didn't get the help that I got."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I finally graduated college. After trying more than once! You see I dropped out when I was younger, because of certain reasons, and now I went back to try to get my degree when I'm older now. But the good news is that I finally managed to graduate on my second try. Not too bad, I'll say so myself. It actually took me around 2 years to finish it, and let me tell you how hard it was to do so. The courses was hard. The teacher weren't that great. I basically had to do everything myself. But the good news is that I managed to do it and graduate with a smile on my face. I even got a financial gift from my mom when I did! That really did helped me out. I love you mom! Thanks for the help. I don't know what I would've done if I didn't get the help that I got.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now I can finally start looking for a job in my field and start my life. Yay!"
+            }
+        ],
+        "request_id": "811bdc5eed3442e3-EWR"
+    }
+}

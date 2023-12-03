@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary,This past summer, I had a chance to go on a week-long vacation to Paris and London. I went on this vacation with my girlfriend, and met up with a few of my friends who had already been abroad in Europe for school.  I went on this trip in the middle of August, after my summer internship had ended, and before my university started-up again. We spent the first four days of our trip in Paris. During our days in Paris, my girlfriend and I spent most of our time going sightseeing and eating the delicious food that France had to offer. Some of the notable places that we visited included the Louvre, the Sacre-Cour, and the Eiffel Tower. For me personally, the Eiffel Tower was the best attraction. I actually went to see it twice.  I saw it during the day, majestic against the city skyline. I was also able to see the Eiffel Tower again at night. This was truly an amazing experience as not only is the tower lit with lights in the evening, but also at the beginning of every hour, even more lights begin to flash on the tower, giving it a bright, sparkling glow. After our time in Paris, my girlfriend and I, along with my friends, flew to London. I spent the final three days of my vacation sightseeing in London. I had a chance to ride the London Eye and look at Big Ben (which was unfortunately under renovations). I really enjoyed the food that I was able to try in London. In particular, there was an Indian restaurant called D'Shooms that offered a delightful course of delicious food. My vacation to Europe was short, but the memories I made with the people I was with will always be in my thoughts."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary,This past summer, I had a chance to go on a week-long vacation to Paris and London. I went on this vacation with my girlfriend, and met up with a few of my friends who had already been abroad in Europe for school.  I went on this trip in the middle of August, after my summer internship had ended, and before my university started-up again. We spent the first four days of our trip in Paris. During our days in Paris, my girlfriend and I spent most of our time going sightseeing and eating the delicious food that France had to offer. Some of the notable places that we visited included the Louvre, the Sacre-Cour, and the Eiffel Tower. For me personally, the Eiffel Tower was the best attraction. I actually went to see it twice.  I saw it during the day, majestic against the city skyline. I was also able to see the Eiffel Tower again at night. This was truly an amazing experience as not only is the tower lit with lights in the evening, but also at the beginning of every hour, even more lights begin to flash on the tower, giving it a bright, sparkling glow. After our time in Paris, my girlfriend and I, along with my friends, flew to London. I spent the final three days of my vacation sightseeing in London. I had a chance to ride the London Eye and look at Big Ben (which was unfortunately under renovations). I really enjoyed the food that I was able to try in London. In particular, there was an Indian restaurant called D'Shooms that offered a delightful course of delicious food. My vacation to Europe was short, but the memories I made with the people I was with will always be in my thoughts.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I hope to go back again someday.\n\n"
+            }
+        ],
+        "request_id": "811eb2d52f865e74-EWR"
+    }
+}

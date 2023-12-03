@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Quite a lot has happened since this last event, but I will try to recall it as best as I am able. Leading up to the appointment, my mother had been getting quite a lot of uncertain information. She started out with a soreness in her throat, but the initial tests she went through didn't find anything. Then some nodes started to develop on her neck, and she went in for a biopsy to find out what they were. They found thyroid cancer. So, she was called in for further scans (I apologize, but I can't remember exactly what kind now) and the diagnosis quickly escalated from a fairly treatable version present in her thyroid and surrounding lymph nodes to a rapidly growing tumor that was threatening her airway. That was when the meeting that I described came in. The scans happened on that Monday, and on Friday we were sitting in a doctors' office with so many specialists there that they couldn't all fit into the room. My father and I went with her to the appointment knowing generally what we were going to hear. We had a little trouble finding the right place to go, but we still got there early. A nurse took some readings first while we waited. Then a doctor came in and started going over the past events with her to make sure that they had everything right. My father and I sat off to the side mostly for moral support but also to take notes and chime in with questions, reminders, or clarifications. There was a knock on the door, and quite a few doctors filed in. They milled about a little trying to find places to stand without crowding anyone. Then they introduced themselves and their specialties explaining how they might be involved in the process ahead. They explained what they had seen and what it meant too. One doctor set up a camera to go into her nasal cavity so they could observe the tumor breaking into her airway in real time. They talked amongst themselves and explained to us what they were seeing. Another doctor did a quick swallow study having my mother do some vocal exercises and swallow water and applesauce to see what would happen. Eventually most of the doctors filed out except the radiologist who introduced herself. She explained that she would be leading the radiation treatment which was the first step, and we learned what that would involve. Finally, a different nurse responsible for coordinating the doctors came in and introduced herself. That was it for that day"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Quite a lot has happened since this last event, but I will try to recall it as best as I am able. Leading up to the appointment, my mother had been getting quite a lot of uncertain information. She started out with a soreness in her throat, but the initial tests she went through didn't find anything. Then some nodes started to develop on her neck, and she went in for a biopsy to find out what they were. They found thyroid cancer. So, she was called in for further scans (I apologize, but I can't remember exactly what kind now) and the diagnosis quickly escalated from a fairly treatable version present in her thyroid and surrounding lymph nodes to a rapidly growing tumor that was threatening her airway. That was when the meeting that I described came in. The scans happened on that Monday, and on Friday we were sitting in a doctors' office with so many specialists there that they couldn't all fit into the room. My father and I went with her to the appointment knowing generally what we were going to hear. We had a little trouble finding the right place to go, but we still got there early. A nurse took some readings first while we waited. Then a doctor came in and started going over the past events with her to make sure that they had everything right. My father and I sat off to the side mostly for moral support but also to take notes and chime in with questions, reminders, or clarifications. There was a knock on the door, and quite a few doctors filed in. They milled about a little trying to find places to stand without crowding anyone. Then they introduced themselves and their specialties explaining how they might be involved in the process ahead. They explained what they had seen and what it meant too. One doctor set up a camera to go into her nasal cavity so they could observe the tumor breaking into her airway in real time. They talked amongst themselves and explained to us what they were seeing. Another doctor did a quick swallow study having my mother do some vocal exercises and swallow water and applesauce to see what would happen. Eventually most of the doctors filed out except the radiologist who introduced herself. She explained that she would be leading the radiation treatment which was the first step, and we learned what that would involve. Finally, a different nurse responsible for coordinating the doctors came in and introduced herself. That was it for that day",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ". I'm sure I'm leaving out some details, but that's the general idea of what happened.\n\n"
+            }
+        ],
+        "request_id": "811f3fbf7e9f42a6-EWR"
+    }
+}

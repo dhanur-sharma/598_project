@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I went to one of my best friend's wedding. He got married to a lovely lady that he has been involved with for a long time. I have known him since we were infants and consider him to be a brother. I am good friends with him and his new wife whom I have known since college. He had a small wedding with only close family and friends. It was quite a thing to watch after them being together for so long and finally getting married. I was the best man and had a small role in the wedding. IT was not that traditional with both of them being older. They had a reception and some of our other buddies cooked up a bunch of brisket on the smoker. It was good and everyone had a nice time. We did a few of the traditions that we have come up with as a group since college when anyone gets married. We all were glad to see him married but did not think he would ever commit to it after all this time. He was never big on commitments. He took his sweet time before he decided that he was never going to find someone else. It was a fun day and I will remember it fondly for a long time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I went to one of my best friend's wedding. He got married to a lovely lady that he has been involved with for a long time. I have known him since we were infants and consider him to be a brother. I am good friends with him and his new wife whom I have known since college. He had a small wedding with only close family and friends. It was quite a thing to watch after them being together for so long and finally getting married. I was the best man and had a small role in the wedding. IT was not that traditional with both of them being older. They had a reception and some of our other buddies cooked up a bunch of brisket on the smoker. It was good and everyone had a nice time. We did a few of the traditions that we have come up with as a group since college when anyone gets married. We all were glad to see him married but did not think he would ever commit to it after all this time. He was never big on commitments. He took his sweet time before he decided that he was never going to find someone else. It was a fun day and I will remember it fondly for a long time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be46d882d438c-EWR"
+    }
+}

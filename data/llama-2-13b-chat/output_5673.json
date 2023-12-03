@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We found out that dad had terminal lung cancer around 6 months back.  The entire family was devastated. Mom took it the hardest though. It made the entire situation much worse for me, as i had to somehow find a way to keep mom going while having to deal with such an unexpected shock myself. Dad had been coughing for years now. We have all been telling him to get and consult a doctor for years. He was adamant. No surprise there, old military habits. He always smiled when we brought up the topic. There was so much confidence in that smile that we let it go. Perhaps i shouldn't have. Could i have changed the outcome if i had pushed for a diagnosis with dad back then? I don't know. How could i push dad! He has always been known to be strong and adamant."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We found out that dad had terminal lung cancer around 6 months back.  The entire family was devastated. Mom took it the hardest though. It made the entire situation much worse for me, as i had to somehow find a way to keep mom going while having to deal with such an unexpected shock myself. Dad had been coughing for years now. We have all been telling him to get and consult a doctor for years. He was adamant. No surprise there, old military habits. He always smiled when we brought up the topic. There was so much confidence in that smile that we let it go. Perhaps i shouldn't have. Could i have changed the outcome if i had pushed for a diagnosis with dad back then? I don't know. How could i push dad! He has always been known to be strong and adamant.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It is his nature to push through. He never took any medication for his cough. He just took cough syrup and kept going. He was a chain smoker too. He would always say, \"Oh, i will stop smoking once i retire.\" Retirement never came. He never stopped smoking. He continued to smoke and cough. And now here we are. Six months down the line, and we have to accept the reality. I can't believe it. My dad, my hero, my everything is going to leave us. It's too much to take. I can't bear the thought of life without him. I know i have to be strong for mom and my younger siblings. I am trying my best to be strong, but it's so hard. I feel so lost and alone. I wish there was a way to turn back time and change the outcome. I wish there was a way to make dad see a doctor earlier. I wish there was a way to save him. But there isn't. All i can do now is hold on to the memories of the time we had together and cherish them. And hope that he is at peace wherever he is."
+            }
+        ],
+        "request_id": "811f36175c951a03-EWR"
+    }
+}

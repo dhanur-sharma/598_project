@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We packed all 5 of us, plus our two dogs, into the truck. We threw our luggage and bikes into the bed of the truck, and hit the road. The trip was long, but fairly uneventful. About 12 hours later, we arrived at the lake house. Although the weather wasn't the best the whole time, we had a ton of fun. The rainy or cold days, we sat around the cabin and read books and put together puzzles. On the sunny and warm days, the kids spend the whole day in the lake. We particularly enjoyed riding the jet-ski, and the younger children had a blast getting to drive it for the first time. We took them out on trails on 4-wheelers, and as always, they loved it. We also took the truck to gather firewood, but damaged the tailgate in the process! It was pretty entertaining when our youngest got stuck on the wrong side of the fence at the border crossing, but that was quickly resolved. After a week, we packed everything back up, and began the long trek back home. We chose to make the return trip at night, in order to minimize stops. After driving all night, I was EXHAUSTED when we arrived home at 4am! We're all counting down the weeks until we go again!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We packed all 5 of us, plus our two dogs, into the truck. We threw our luggage and bikes into the bed of the truck, and hit the road. The trip was long, but fairly uneventful. About 12 hours later, we arrived at the lake house. Although the weather wasn't the best the whole time, we had a ton of fun. The rainy or cold days, we sat around the cabin and read books and put together puzzles. On the sunny and warm days, the kids spend the whole day in the lake. We particularly enjoyed riding the jet-ski, and the younger children had a blast getting to drive it for the first time. We took them out on trails on 4-wheelers, and as always, they loved it. We also took the truck to gather firewood, but damaged the tailgate in the process! It was pretty entertaining when our youngest got stuck on the wrong side of the fence at the border crossing, but that was quickly resolved. After a week, we packed everything back up, and began the long trek back home. We chose to make the return trip at night, in order to minimize stops. After driving all night, I was EXHAUSTED when we arrived home at 4am! We're all counting down the weeks until we go again!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e9ab2a8528c48-EWR"
+    }
+}

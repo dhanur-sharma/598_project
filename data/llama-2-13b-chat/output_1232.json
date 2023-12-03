@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A year ago, my dad came to visit.  It would be the last time I saw him before he passed away.   He came to see my family with my step mother as part of an annual trip.  It happened to coincide this time with an annual fair our county holds.  We took the family to the fair and my dad got to see my children ride roller coasters and play games.  I took plenty of photos of him laughing and trying to get in a couple of the rides with them.  I recall giggling at the time when he couldn't quite fit into the seat of a tiny roller coaster car.  After the rides, we went over the petting zoo section.  He talked to my kids all about how to care for the chickens and goats that they encountered.  He purchased a cup of food for them to feed the animals with.  After we were done at the fair, we stopped at a restaurant that serves fun sandwiches.  I felt amused while my husband tried to pay the check.  My dad had already made sure to tell the server to give the whole check to him when we weren't looking.  That evening, after we put the kids to bed, we watched a movie in my living room.  The next day, they took their trip back to Florida, promising to see each other soon.  Unfortunately, that's a promise I can't keep.  I miss my dad."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A year ago, my dad came to visit.  It would be the last time I saw him before he passed away.   He came to see my family with my step mother as part of an annual trip.  It happened to coincide this time with an annual fair our county holds.  We took the family to the fair and my dad got to see my children ride roller coasters and play games.  I took plenty of photos of him laughing and trying to get in a couple of the rides with them.  I recall giggling at the time when he couldn't quite fit into the seat of a tiny roller coaster car.  After the rides, we went over the petting zoo section.  He talked to my kids all about how to care for the chickens and goats that they encountered.  He purchased a cup of food for them to feed the animals with.  After we were done at the fair, we stopped at a restaurant that serves fun sandwiches.  I felt amused while my husband tried to pay the check.  My dad had already made sure to tell the server to give the whole check to him when we weren't looking.  That evening, after we put the kids to bed, we watched a movie in my living room.  The next day, they took their trip back to Florida, promising to see each other soon.  Unfortunately, that's a promise I can't keep.  I miss my dad.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea07ff9898cab-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been around 2 months since my sister Jane moved out. She moved to New Jersey for college. It has been really weird here at home since then. I never realized how loud Jane was, it is unbearably quiet here now. Also, I have no one to talk to about anything. I always went to Jane's room for everything. We talked about boys, my grades, people who were mean to me, work, everything. And now I have no one to talk to, I can't really talk to my parents about these things. My parents are having a really hard time with the change, especially my mom. Mom cried for like 3 weeks after Jane left. Dad misses her too, but he doesn't really show his emotions like that. He has just been very quiet. We were able to all keep busy for the week after the move just cleaning up the mess from the move and doing chores, but now it is just dead and boring here. I am already trying to plan a trip to go see Jane. Unfortunately, New Jersey is pretty far from here so I would have to save up enough for a plane ticket. She will be home in 3 months, I can't wait. At least it gives us all something to look forward to."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been around 2 months since my sister Jane moved out. She moved to New Jersey for college. It has been really weird here at home since then. I never realized how loud Jane was, it is unbearably quiet here now. Also, I have no one to talk to about anything. I always went to Jane's room for everything. We talked about boys, my grades, people who were mean to me, work, everything. And now I have no one to talk to, I can't really talk to my parents about these things. My parents are having a really hard time with the change, especially my mom. Mom cried for like 3 weeks after Jane left. Dad misses her too, but he doesn't really show his emotions like that. He has just been very quiet. We were able to all keep busy for the week after the move just cleaning up the mess from the move and doing chores, but now it is just dead and boring here. I am already trying to plan a trip to go see Jane. Unfortunately, New Jersey is pretty far from here so I would have to save up enough for a plane ticket. She will be home in 3 months, I can't wait. At least it gives us all something to look forward to.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea3662a8a8c30-EWR"
+    }
+}

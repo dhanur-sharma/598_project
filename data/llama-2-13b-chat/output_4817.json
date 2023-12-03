@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A memorable event that occurred in the past few months was when I went camping with my two brothers. I was excited to finally go camping for the first time but also somewhat anxious. The camping site we decided on was at a state park in Texas. The drive there was quite long, but once we found our campsite it was time to start exploring. We walked around the park and admired the scenery. However, some of the most beautiful scenery was while we were hiking down the trails. When the sun went down, we all gathered around a campfire and starting telling stories about the past. At the same time, we were cooking hotdogs and burgers. When it was time to sleep, we went to our respective tents. My tent could have the top removed and I could see all of the stars. There was also the sound of birds and crickets that felt relaxing to listen to. The next day, we climbed the hardest trail at the park. Once making it to the top of the mountain, we saw an American flag waving in the wind. The scenery at the top was one of the most breathtaking things I've seen in my life. It will forever be ingrained in my memories."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A memorable event that occurred in the past few months was when I went camping with my two brothers. I was excited to finally go camping for the first time but also somewhat anxious. The camping site we decided on was at a state park in Texas. The drive there was quite long, but once we found our campsite it was time to start exploring. We walked around the park and admired the scenery. However, some of the most beautiful scenery was while we were hiking down the trails. When the sun went down, we all gathered around a campfire and starting telling stories about the past. At the same time, we were cooking hotdogs and burgers. When it was time to sleep, we went to our respective tents. My tent could have the top removed and I could see all of the stars. There was also the sound of birds and crickets that felt relaxing to listen to. The next day, we climbed the hardest trail at the park. Once making it to the top of the mountain, we saw an American flag waving in the wind. The scenery at the top was one of the most breathtaking things I've seen in my life. It will forever be ingrained in my memories.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Overall, this camping trip was an amazing experience that I will never forget.\n\n"
+            }
+        ],
+        "request_id": "811bde5eceb343ee-EWR"
+    }
+}

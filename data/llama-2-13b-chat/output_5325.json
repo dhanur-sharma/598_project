@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About a month ago I went on a vacation to my cousins house. She lives in Tennessee. Her house is huge! There was a lot to do there but mostly we played games.  I have never had so much fun and I want to go back and see her again. Maybe she will come a visit me too We won't have as much fun at my house because I live in the city and there's not much to do outside. But we could visit some interesting places like museums and parks. Or maybe go to the zoo. One thing I can say is we have a lot of great places to eat here. At her house her mom cooked mostly vegetables grown from the garden.  And eggs from the chickens she raises.  It was fun and sometimes I wish I could just live there with her. Maybe during the summer I could live there. And in the winter I could have her come here. She would like that because she would get a chance to play in the snow. She doesn't get much in Tennessee but I do here!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About a month ago I went on a vacation to my cousins house. She lives in Tennessee. Her house is huge! There was a lot to do there but mostly we played games.  I have never had so much fun and I want to go back and see her again. Maybe she will come a visit me too We won't have as much fun at my house because I live in the city and there's not much to do outside. But we could visit some interesting places like museums and parks. Or maybe go to the zoo. One thing I can say is we have a lot of great places to eat here. At her house her mom cooked mostly vegetables grown from the garden.  And eggs from the chickens she raises.  It was fun and sometimes I wish I could just live there with her. Maybe during the summer I could live there. And in the winter I could have her come here. She would like that because she would get a chance to play in the snow. She doesn't get much in Tennessee but I do here!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I really miss her and hope she comes to visit soon.\n\n"
+            }
+        ],
+        "request_id": "811f2f17bf5bc46b-EWR"
+    }
+}

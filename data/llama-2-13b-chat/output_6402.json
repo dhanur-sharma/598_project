@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My best memory was our summer vacation this year. We went to see a number of family members. Some my kids had never met, some were ill and not going to make it much longer. It was nice for them to get to see family and see where they came from. We also did a number of fun things such as going to see mount rushmore. My sons loved it. We took so many pictures and had so much family time. They got to see there favorite grandma who might not make it much longer. They spent time with her and made lots of memories with her. We had so much fun as a family. We did lots of neat things. We took tons of pictures and made the best 2 month trip we could. We saw lots of neat things we had never seen before. It made my heart happy to see family. I loved seeing my boys smile so big and really enjoy there time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My best memory was our summer vacation this year. We went to see a number of family members. Some my kids had never met, some were ill and not going to make it much longer. It was nice for them to get to see family and see where they came from. We also did a number of fun things such as going to see mount rushmore. My sons loved it. We took so many pictures and had so much family time. They got to see there favorite grandma who might not make it much longer. They spent time with her and made lots of memories with her. We had so much fun as a family. We did lots of neat things. We took tons of pictures and made the best 2 month trip we could. We saw lots of neat things we had never seen before. It made my heart happy to see family. I loved seeing my boys smile so big and really enjoy there time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I loved that we got to see so much of the country and do so many fun things.\n\n"
+            }
+        ],
+        "request_id": "811f44a30b414263-EWR"
+    }
+}

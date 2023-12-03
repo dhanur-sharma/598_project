@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My son found a newborn kitten, abandoned by its mother.  He watched to be certain that the mother didn't come back.  When she didn't, he brought in the kitten.  After a family discussion, we decided to do what we could to save it. We all began to take care of  it.  The kitten was no more than a day old.  I watched as my children fed, cleaned and provided around the clock care for it.  My husband and I did the online research for them and assisted when needed, but my kids did the most of 24/7 the hands-on care.  The most stressful was trying to be patient as the kitten learned to drink from a bottle and not fight.  The most difficult was having to stimulate the kitten to eliminate.  The burping after feeding was probably the cutest! What makes this so memorable, is that it was so moving be a part of this and to watch them save this baby kitten.  My husband and I are so proud of them. It's wonderful to have helped with saving this tiny baby's life.  The kitten is now a member of our family, and is thriving!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My son found a newborn kitten, abandoned by its mother.  He watched to be certain that the mother didn't come back.  When she didn't, he brought in the kitten.  After a family discussion, we decided to do what we could to save it. We all began to take care of  it.  The kitten was no more than a day old.  I watched as my children fed, cleaned and provided around the clock care for it.  My husband and I did the online research for them and assisted when needed, but my kids did the most of 24/7 the hands-on care.  The most stressful was trying to be patient as the kitten learned to drink from a bottle and not fight.  The most difficult was having to stimulate the kitten to eliminate.  The burping after feeding was probably the cutest! What makes this so memorable, is that it was so moving be a part of this and to watch them save this baby kitten.  My husband and I are so proud of them. It's wonderful to have helped with saving this tiny baby's life.  The kitten is now a member of our family, and is thriving!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ebadecfce4362-EWR"
+    }
+}

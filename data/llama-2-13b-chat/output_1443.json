@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: So, 4 months ago, I lost someone very important to me. It was my dear horse, one I had owned since I was a little girl. He had seemed fine--he wasn't irritable or stressed out at all that morning. I remember brushing his mane and going back in for a bit to get a few chores done--a few hours later I came outside and he was failing. It was 10 AM, he was barely holding on, I tried calling the vet and when they came there was nothing they could do. I saw him die in front of me, and I had to bury him that night. I have never felt so devastated. I didn't know what to do, to be honest with you--how do you deal with such a loss? He was my best friend. He was everything to me for so long, I had gotten him from my parents. He's just about as old as I am! Like a little sibling. Or, he was, I guess. He was very kind, but I guess age catches up to us all eventually. I'm in my 30s now, and he was a gift from my parents. They knew how close we were."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: So, 4 months ago, I lost someone very important to me. It was my dear horse, one I had owned since I was a little girl. He had seemed fine--he wasn't irritable or stressed out at all that morning. I remember brushing his mane and going back in for a bit to get a few chores done--a few hours later I came outside and he was failing. It was 10 AM, he was barely holding on, I tried calling the vet and when they came there was nothing they could do. I saw him die in front of me, and I had to bury him that night. I have never felt so devastated. I didn't know what to do, to be honest with you--how do you deal with such a loss? He was my best friend. He was everything to me for so long, I had gotten him from my parents. He's just about as old as I am! Like a little sibling. Or, he was, I guess. He was very kind, but I guess age catches up to us all eventually. I'm in my 30s now, and he was a gift from my parents. They knew how close we were.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I've never felt such grief. I'm still not okay.\n\n"
+            }
+        ],
+        "request_id": "811ea4e3cc47c325-EWR"
+    }
+}

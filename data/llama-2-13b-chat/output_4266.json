@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended one of my closest friend's wedding. It was about 3 hours away so I had to make a small road trip to get there. I got to see a lot of old friends I haven't seen in a while at the wedding. When I saw my friend, I was surprised by how bad his suit looked. It looked like something he found at a thrift store several years ago. It was very worn out and the color was faded. I don't know why he chose that to wear. It was really weird because usually people go out of their way to prepare what they are going to wear at their own wedding. At the very least I would think his future wife would have said something. My friend's not the type of person to care of clothes so maybe he was just being himself. Anyways, it was great to see my friend get married. There were about 200 people there so it wasn't small but not that big of a gathering. I ended up smoking a cigarettes for the first time in a while. I had driven up for the wedding the day of. I planned to drive back that night but I ended up celebrating with friends so I couldn't make it back. I had to get a hotel room and ended up driving back the next day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended one of my closest friend's wedding. It was about 3 hours away so I had to make a small road trip to get there. I got to see a lot of old friends I haven't seen in a while at the wedding. When I saw my friend, I was surprised by how bad his suit looked. It looked like something he found at a thrift store several years ago. It was very worn out and the color was faded. I don't know why he chose that to wear. It was really weird because usually people go out of their way to prepare what they are going to wear at their own wedding. At the very least I would think his future wife would have said something. My friend's not the type of person to care of clothes so maybe he was just being himself. Anyways, it was great to see my friend get married. There were about 200 people there so it wasn't small but not that big of a gathering. I ended up smoking a cigarettes for the first time in a while. I had driven up for the wedding the day of. I planned to drive back that night but I ended up celebrating with friends so I couldn't make it back. I had to get a hotel room and ended up driving back the next day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was a little disappointed that I couldn't make it back that night but it was definitely worth it to celebrate with my friend.\n\n"
+            }
+        ],
+        "request_id": "811bd343bed942e7-EWR"
+    }
+}

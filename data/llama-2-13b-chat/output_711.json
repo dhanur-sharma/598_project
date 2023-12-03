@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister bought a brand new computer. She's had her old computer for some time. It doesn't work very well. We can't even get it to play old games like Diablo 2. It has been frustrating my sister for a long time. She decided to buy a new laptop through a program her work has. The take the payments right out of her paycheck. She likes the new laptop a lot. It has a touch screen and it can play all of the games she likes. It also has a very fast network card so it connects to the internet very fast. This is good for Netflix and Hulu. She watches a lot of that. I'm worried that the laptop is kind of expensive. I think it's ,more than she can afford. It's not my decision , though."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister bought a brand new computer. She's had her old computer for some time. It doesn't work very well. We can't even get it to play old games like Diablo 2. It has been frustrating my sister for a long time. She decided to buy a new laptop through a program her work has. The take the payments right out of her paycheck. She likes the new laptop a lot. It has a touch screen and it can play all of the games she likes. It also has a very fast network card so it connects to the internet very fast. This is good for Netflix and Hulu. She watches a lot of that. I'm worried that the laptop is kind of expensive. I think it's ,more than she can afford. It's not my decision , though.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She's happy with it and that's all that matters."
+            }
+        ],
+        "request_id": "811e9705fa6143cb-EWR"
+    }
+}

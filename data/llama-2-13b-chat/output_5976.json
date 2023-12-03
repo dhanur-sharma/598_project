@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Late that summer of 2019, my wife and daughter and myself went to the local community center. It was early morning and looked like rain. My wife had dressed up my daughter real fancy-like. And my daughter was pretty excited. Kids and parents were there, everywhere. I surprised by the amount of people so interested in the event. This became an interesting part for me. I had already brought my camera. And it was not just a camera but a Nikon D300. Older but sturdy camera with a 35mm lens. I would like to take some pictures of my kid but it turned out more than that really. Unfortunately, I had begun to rain heavily outside. It was the plan of the event coordinators to parade the children around the neighborhood. Kid and their parents had made big signs and event makers had made big signs as well. I could see someone was going to be disappointed. Yet it didn't turn out like that. The event coordinators decided to hold parade in the large gymnasium that was just build over the summer. Big enough for all of us, I think. Kids didn't seem to mind. My daughter saw her teacher from last year and I took pictures of them. I took pictures of kids: happy kids eating, and parents hugging their children. There was quite a variety in this pack of kids. Black, white, Asian, spanish, and  my daughter, biracial juggernaut that lived for selfies and Taylor Swift."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Late that summer of 2019, my wife and daughter and myself went to the local community center. It was early morning and looked like rain. My wife had dressed up my daughter real fancy-like. And my daughter was pretty excited. Kids and parents were there, everywhere. I surprised by the amount of people so interested in the event. This became an interesting part for me. I had already brought my camera. And it was not just a camera but a Nikon D300. Older but sturdy camera with a 35mm lens. I would like to take some pictures of my kid but it turned out more than that really. Unfortunately, I had begun to rain heavily outside. It was the plan of the event coordinators to parade the children around the neighborhood. Kid and their parents had made big signs and event makers had made big signs as well. I could see someone was going to be disappointed. Yet it didn't turn out like that. The event coordinators decided to hold parade in the large gymnasium that was just build over the summer. Big enough for all of us, I think. Kids didn't seem to mind. My daughter saw her teacher from last year and I took pictures of them. I took pictures of kids: happy kids eating, and parents hugging their children. There was quite a variety in this pack of kids. Black, white, Asian, spanish, and  my daughter, biracial juggernaut that lived for selfies and Taylor Swift.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Kids, and their parents were smiling and hugging each other. And I was snapping away, capturing it all. And I was glad I had my Nikon D300."
+            }
+        ],
+        "request_id": "811f3c611d1e43e7-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last month, my daughter turned 15. We threw a little party for her at her favorite restaurant. We only had close family there. My daughter didn't want a big party this year. As she gets older, she is more shy and less uninhibited. She doesn't like to have the spotlight on her any more. I am very proud of the young woman she is becoming and watching her grow so quickly has had a major emotional impact on me. I couldn't believe we were celebrating her 15th birthday already. She is my oldest child and I had her when I was pretty young. Along with her grandparents, her dad and I were there celebrating with her two younger brothers.  The youngest slept the whole time so that was pretty nice. The middle child, my 8 year old son, was his usual antsy self and made it a little bit frustrating by getting up and running all over the place. It was nice to have time together though and she enjoyed herself overall.  I have to admit it made it me a little bit sad because all her grandparents weren't there. Her aunt wasn't there either. We had a falling out in the family so we aren't currently speaking. So while this was a happy time and I was so glad to see my daughter enjoy herself and the gifts she received there was definitely a little sadness in that."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last month, my daughter turned 15. We threw a little party for her at her favorite restaurant. We only had close family there. My daughter didn't want a big party this year. As she gets older, she is more shy and less uninhibited. She doesn't like to have the spotlight on her any more. I am very proud of the young woman she is becoming and watching her grow so quickly has had a major emotional impact on me. I couldn't believe we were celebrating her 15th birthday already. She is my oldest child and I had her when I was pretty young. Along with her grandparents, her dad and I were there celebrating with her two younger brothers.  The youngest slept the whole time so that was pretty nice. The middle child, my 8 year old son, was his usual antsy self and made it a little bit frustrating by getting up and running all over the place. It was nice to have time together though and she enjoyed herself overall.  I have to admit it made it me a little bit sad because all her grandparents weren't there. Her aunt wasn't there either. We had a falling out in the family so we aren't currently speaking. So while this was a happy time and I was so glad to see my daughter enjoy herself and the gifts she received there was definitely a little sadness in that.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I tried to focus on the positive though and just enjoy the time with my family.  "
+            }
+        ],
+        "request_id": "811eb96eda7842af-EWR"
+    }
+}

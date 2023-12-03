@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friends and I went to a local climbing spot that we like to frequent. It was a regular day and everyone seemed to be doing well , and we were having a fun time. I was doing a route, and there was a certain section that I couldn't get past, so my buddy decided to give it a shot. He is one of the better climbers in our group, so we didn't think it would be too hard for him. He started up confidently, and was climbing with ease. Out of the blue he lost grip with one of his hands. This rarely happened to him, and as we were watching it felt like slow motion. He fell about 20 feet off the rock face and hit the ground. We heard a loud crack when he hit the ground , and knew instantly what happened. He broke his leg. We all rushed to his aid, and tried to support the broken leg as best we could. We had no choice but to help him down the hill which was quite a distance. We ended up making it back to the car, and we drove him to the hospital. We were all very worried about him, but the doctor assured us he would be fine. We have all been very careful since that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friends and I went to a local climbing spot that we like to frequent. It was a regular day and everyone seemed to be doing well , and we were having a fun time. I was doing a route, and there was a certain section that I couldn't get past, so my buddy decided to give it a shot. He is one of the better climbers in our group, so we didn't think it would be too hard for him. He started up confidently, and was climbing with ease. Out of the blue he lost grip with one of his hands. This rarely happened to him, and as we were watching it felt like slow motion. He fell about 20 feet off the rock face and hit the ground. We heard a loud crack when he hit the ground , and knew instantly what happened. He broke his leg. We all rushed to his aid, and tried to support the broken leg as best we could. We had no choice but to help him down the hill which was quite a distance. We ended up making it back to the car, and we drove him to the hospital. We were all very worried about him, but the doctor assured us he would be fine. We have all been very careful since that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4b563a8c18bc-EWR"
+    }
+}

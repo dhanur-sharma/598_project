@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I still can't believe it happened to me. I thought I was stronger. It's been six months and I'm still freaking out about it. It was just a simple procedure, I wasn't even going to stay overnight. Just a quick in and out for my hernia. But after I woke up from the procedure the nurse gave me a glass of orange juice and it went down the wrong pipe. I don't remember anything after that until I woke up a few days later. They said it went into my lungs and I stopped breathing. I nearly died. I started going to a therapist a month after the incident, after I threw up trying to drink orange juice. It's so stupid. It was a freak accident but I couldn't even drink a simple cup of juice. The therapist says it's PTSD and at first I couldn't believe it. I thought PTSD only happened to soldiers or cops or something. But apparently it's really common with medical emergencies and often goes untreated? Who knew. The good news is that my therapist thinks I'll get better over time if I keep working at it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I still can't believe it happened to me. I thought I was stronger. It's been six months and I'm still freaking out about it. It was just a simple procedure, I wasn't even going to stay overnight. Just a quick in and out for my hernia. But after I woke up from the procedure the nurse gave me a glass of orange juice and it went down the wrong pipe. I don't remember anything after that until I woke up a few days later. They said it went into my lungs and I stopped breathing. I nearly died. I started going to a therapist a month after the incident, after I threw up trying to drink orange juice. It's so stupid. It was a freak accident but I couldn't even drink a simple cup of juice. The therapist says it's PTSD and at first I couldn't believe it. I thought PTSD only happened to soldiers or cops or something. But apparently it's really common with medical emergencies and often goes untreated? Who knew. The good news is that my therapist thinks I'll get better over time if I keep working at it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm still scared of orange juice but at least I can talk about it now. It's nice to know that I'm not alone and that others have gone through this too."
+            }
+        ],
+        "request_id": "811bd8e528600ca0-EWR"
+    }
+}

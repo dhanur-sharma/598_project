@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Diary Entry,  After a week of anxiety and fear over my recent CT Scan, I was told today that I am Cancer free.  The weight on my shoulders have been lifted, and I can sigh in relive.  It was only a month ago that my surgery took place to remove testicular cancer. This feeling of dread from the scan to see if the cancer had spread has been a awful time. My high fear and stress took over, leaving me worried about the smallest thing. Though my doctors have been a help, I was so nervous to weight for the result. However, that moment haring the words that I'm healthy was one of the best feelings in my life. It makes me feel as if I was given a second chance. The surgery scar is healing and I feel semi normal again.  This whole experience has been life altering, but it's time to get back on track. Though there will still be medical checkups to ensure that the cancer never returns, I feel good and hopeful. My goal is to start being more healthy all the way around. Mentally I am glad to learn how to calm my anxiety. Phonically I'm in good shape, but will work to keep it that way. I'm excited to see what happens next."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Diary Entry,  After a week of anxiety and fear over my recent CT Scan, I was told today that I am Cancer free.  The weight on my shoulders have been lifted, and I can sigh in relive.  It was only a month ago that my surgery took place to remove testicular cancer. This feeling of dread from the scan to see if the cancer had spread has been a awful time. My high fear and stress took over, leaving me worried about the smallest thing. Though my doctors have been a help, I was so nervous to weight for the result. However, that moment haring the words that I'm healthy was one of the best feelings in my life. It makes me feel as if I was given a second chance. The surgery scar is healing and I feel semi normal again.  This whole experience has been life altering, but it's time to get back on track. Though there will still be medical checkups to ensure that the cancer never returns, I feel good and hopeful. My goal is to start being more healthy all the way around. Mentally I am glad to learn how to calm my anxiety. Phonically I'm in good shape, but will work to keep it that way. I'm excited to see what happens next.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3e5d88be42ac-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear Diary, Today is my sisters 20th birthday. My mom actually told me what we were doing earlier this week.  She decided that the whole family is going to go to the local zoo. After the zoo, we are going to go get something to eat at a kind of nice restaurant nearby. This is all going to be a surprise to my sister since it is her birthday. We got a slow start today, as usual. After we finally made it out of the house, we all got into the families minivan. We then began our trip to the zoo. We finally arrived. It was a hot sunny day. It was a perfect day for the zoo. We got to see all cool types of animals. I think my favorite was the monkeys. One of them had a back injury for some reason, so it was secluded from the others while it healed. The penguins were pretty neat too. After we had finished seeing everything the zoo had to offer, we got back into the minivan and departed for the restaurant we were going to. I think everyone was exhausted by time we got to the restaurant from walking around the zoo all day in the hot sun. I didn't really like the place we went to eat, because the music was just a little to loud. The food was pretty decent at least. We paid the bill and headed home to sing happy birthday to my sister and eat cake. This was probably my favorite part, because I could finally sit down and relax."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear Diary, Today is my sisters 20th birthday. My mom actually told me what we were doing earlier this week.  She decided that the whole family is going to go to the local zoo. After the zoo, we are going to go get something to eat at a kind of nice restaurant nearby. This is all going to be a surprise to my sister since it is her birthday. We got a slow start today, as usual. After we finally made it out of the house, we all got into the families minivan. We then began our trip to the zoo. We finally arrived. It was a hot sunny day. It was a perfect day for the zoo. We got to see all cool types of animals. I think my favorite was the monkeys. One of them had a back injury for some reason, so it was secluded from the others while it healed. The penguins were pretty neat too. After we had finished seeing everything the zoo had to offer, we got back into the minivan and departed for the restaurant we were going to. I think everyone was exhausted by time we got to the restaurant from walking around the zoo all day in the hot sun. I didn't really like the place we went to eat, because the music was just a little to loud. The food was pretty decent at least. We paid the bill and headed home to sing happy birthday to my sister and eat cake. This was probably my favorite part, because I could finally sit down and relax.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm pretty sure my sister had a great time today. I'm just glad I could be a part of it. Love, Diary."
+            }
+        ],
+        "request_id": "811e8fcf89a50c84-EWR"
+    }
+}

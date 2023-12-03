@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Your dog really can be the most important family member to you sometimes. I know that for me, my dog Buddy is just that. He's like a young cousin, a son, and a brother all rolled into one. I love my dog Buddy with all of my heart. That's why when I thought he was losing or had already lost his vision, I almost lost it. I was so incredibly distraught. I didn't know what to do. I checked multiple sources online, and I really believed he might be going blind. I knew what I had to do. I loaded up Buddy in the car, and I took him to a proper vet. That was the best decision ever. It had turned out that Buddy wasn't losing his vision. He simply was having an allergic reaction to some fleas. The vet gave us flea medication. Now, Buddy is happier and healthier than ever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Your dog really can be the most important family member to you sometimes. I know that for me, my dog Buddy is just that. He's like a young cousin, a son, and a brother all rolled into one. I love my dog Buddy with all of my heart. That's why when I thought he was losing or had already lost his vision, I almost lost it. I was so incredibly distraught. I didn't know what to do. I checked multiple sources online, and I really believed he might be going blind. I knew what I had to do. I loaded up Buddy in the car, and I took him to a proper vet. That was the best decision ever. It had turned out that Buddy wasn't losing his vision. He simply was having an allergic reaction to some fleas. The vet gave us flea medication. Now, Buddy is happier and healthier than ever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am so grateful for my vet and for Buddy. Buddy is still my best buddy."
+            }
+        ],
+        "request_id": "811ecc5e4f2e41ef-EWR"
+    }
+}

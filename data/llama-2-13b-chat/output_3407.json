@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Over the last few weeks I had the joy of attending a dear friends wedding. I first began my journey by flying to the airport to NYC. Then we got stuck in a lot of traffic at La Guardia Airport. It was truly a nightmare. It made me certainly realize that I will never fly out of this airport again. Next we drove to Long island and met the soon to be bride. She looked so stunning and I was so proud to be her friend. The wedding was phenomenal. I played cello at her ceremony and it was a perfect summer day in New York. The food was amazing. She had spent around $250 per person on food and it was nothing short of spectacular. I had Seafood, Salad, Filet Mignon, Duck, Salmon and eight kinds of desserts. After the wedding, we had a lot of dancing. It was a traditional Jewish Wedding and it was so energetic. It was so much fun. The next day we took a train ride into the City and had some yummy Pizza and bagels. I will cherish this special moment forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Over the last few weeks I had the joy of attending a dear friends wedding. I first began my journey by flying to the airport to NYC. Then we got stuck in a lot of traffic at La Guardia Airport. It was truly a nightmare. It made me certainly realize that I will never fly out of this airport again. Next we drove to Long island and met the soon to be bride. She looked so stunning and I was so proud to be her friend. The wedding was phenomenal. I played cello at her ceremony and it was a perfect summer day in New York. The food was amazing. She had spent around $250 per person on food and it was nothing short of spectacular. I had Seafood, Salad, Filet Mignon, Duck, Salmon and eight kinds of desserts. After the wedding, we had a lot of dancing. It was a traditional Jewish Wedding and it was so energetic. It was so much fun. The next day we took a train ride into the City and had some yummy Pizza and bagels. I will cherish this special moment forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ec8f4faee19cf-EWR"
+    }
+}

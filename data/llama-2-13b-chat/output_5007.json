@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went on a cruise. My sister and her daughter were with me. This was my first cruise and I had to go because my sister paid for it! It started out with a short flight into Texas where we then drove to Galveston to board the ship. We finally did board and went through all the required things that you have to do on a cruise ship. Our room was beautiful but a little cramped with the three of us. But we had a balcony which made it worth the inconvenience. We sailed for two days. Watching the ocean from the balcony was so relaxing and beautiful. We ate meals in the dining room. Fabulous food. On the third day we entered port at Cozumel. There was a lot of touristy stuff to look at, but we were headed to a beach to sit in the sun and swim in the ocean. It was very hot and humid.  We found a beach and spent the day there. We ate at a real Mexican restaurant. While on the ship we got to see some shows for entertainment. Our next stop was at Progresso. Very sad place. We did another beach trip and again laid in the sun and swam in the ocean. Taking the bus back thru town after that was really eye-opening. The poverty of that town was so sad. Little more than hovels and dirty streets. Back on the ship we again dined at the eateries. We spent some time on the way home lounging on deck or by one of the many pools."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went on a cruise. My sister and her daughter were with me. This was my first cruise and I had to go because my sister paid for it! It started out with a short flight into Texas where we then drove to Galveston to board the ship. We finally did board and went through all the required things that you have to do on a cruise ship. Our room was beautiful but a little cramped with the three of us. But we had a balcony which made it worth the inconvenience. We sailed for two days. Watching the ocean from the balcony was so relaxing and beautiful. We ate meals in the dining room. Fabulous food. On the third day we entered port at Cozumel. There was a lot of touristy stuff to look at, but we were headed to a beach to sit in the sun and swim in the ocean. It was very hot and humid.  We found a beach and spent the day there. We ate at a real Mexican restaurant. While on the ship we got to see some shows for entertainment. Our next stop was at Progresso. Very sad place. We did another beach trip and again laid in the sun and swam in the ocean. Taking the bus back thru town after that was really eye-opening. The poverty of that town was so sad. Little more than hovels and dirty streets. Back on the ship we again dined at the eateries. We spent some time on the way home lounging on deck or by one of the many pools.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was a very nice vacation. We disembarked and flew home. I had a great time and will do another cruise. My sister paid for this one, but I think I'll pay for the next one.\n\n"
+            }
+        ],
+        "request_id": "811be28658569e16-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My brother died in March.  I remember the last time I saw him in the hospital and I had no clue it would be the last time.  I mean, he was sick, but his doctor was telling him he would be getting out the next day.  He took a turn for the worse, though.  The last time I saw him alive was on March 17 which was St. Patrick's day.  My 12-year old son came with me and we stopped to get my brother a St. Patrick's day bouquet.  My son wanted this HUGE blow-up hat, too, so I got that as well.  It is hard to describe, but it was so tall, he had to duck to get in some of the doors.  My brother was sitting up in his chair watching a baseball game when I got there, and he was so happy to see us.  My mother was there, also, and they both laughed at my son's hat.  My brother talked with me for awhile and asked me to try to contact his wife who was in the Philippines at the time visiting family, and I tried, but I could not get her on the phone for him.  He then asked me if I had any sugar-free candy as I usually brought him some.  But, I didn't.  I told him I'd run out to the store to get him some.  It was Sunday and the gift shop in the lobby of the hospital was closed, so I went to the Walmart close by.  My brother lived in a town about 50 miles away, so I was surprised that I saw a former co-worker when I went to the Walmart.  We are Facebook friends, but I still had no clue she had moved recently to that city.  Anyway, my brother was so happy to have a little hard candy that was sugar free (I got him some peppermints) and he hugged me tight before I left.  I did not get a chance to come back to see him later that week when he went to ICU due to some heart issues as I came down with the flu and I feel badly about that.  But, I can still see his smile at the little bit of St. Patrick's day stuff I brought, and his happiness with the hard candy I went to get him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My brother died in March.  I remember the last time I saw him in the hospital and I had no clue it would be the last time.  I mean, he was sick, but his doctor was telling him he would be getting out the next day.  He took a turn for the worse, though.  The last time I saw him alive was on March 17 which was St. Patrick's day.  My 12-year old son came with me and we stopped to get my brother a St. Patrick's day bouquet.  My son wanted this HUGE blow-up hat, too, so I got that as well.  It is hard to describe, but it was so tall, he had to duck to get in some of the doors.  My brother was sitting up in his chair watching a baseball game when I got there, and he was so happy to see us.  My mother was there, also, and they both laughed at my son's hat.  My brother talked with me for awhile and asked me to try to contact his wife who was in the Philippines at the time visiting family, and I tried, but I could not get her on the phone for him.  He then asked me if I had any sugar-free candy as I usually brought him some.  But, I didn't.  I told him I'd run out to the store to get him some.  It was Sunday and the gift shop in the lobby of the hospital was closed, so I went to the Walmart close by.  My brother lived in a town about 50 miles away, so I was surprised that I saw a former co-worker when I went to the Walmart.  We are Facebook friends, but I still had no clue she had moved recently to that city.  Anyway, my brother was so happy to have a little hard candy that was sugar free (I got him some peppermints) and he hugged me tight before I left.  I did not get a chance to come back to see him later that week when he went to ICU due to some heart issues as I came down with the flu and I feel badly about that.  But, I can still see his smile at the little bit of St. Patrick's day stuff I brought, and his happiness with the hard candy I went to get him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " He passed away the next day.\n\n"
+            }
+        ],
+        "request_id": "811be0e6392d41df-EWR"
+    }
+}

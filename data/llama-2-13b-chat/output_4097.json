@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Have had type 1 and type 2 diabetes for just under 30 years. I have been diagnosed with end-stage renal disease and have been on dialysis for almost two years. When I look into my mirror, I don\u2019t just see a failing pancreas and two kidneys that have been laid off. I don\u2019t just see a very sickly person who might die. I see a woman and a mother whose life and personality have many different dimensions. A woman with a family that needs her more than ever. It wasn\u2019t always that way. In the beginning, when I was going through hemodialysis and had more than 15 graft surgeries and 17 tunneled catheter procedures, I felt like my illness was stamped across my forehead and imprinted on my heart. End-stage renal disease and hemodialysis seemed to have taken over my whole life. I was a patient. I barely remembered who I was before the disease. Eventually, I\u2019d finally had enough of being defined by my disease. I needed to take charge of my life. The first time I spoke up about what I wanted in regard to my treatment, my doctors were stunned. I took control and it was the best choice I had ever made--I think it may have saved my life. For the first time since I began dialysis, my doctors saw me as a whole person--a mother, an individual--and not just as a patient. Even more importantly, I was seeing myself as more than just my disease. Gaining my voice gave me back the parts of my life that I had missed. I was Cortney again, not just the lady with ESRD on dialysis.  My disease no longer consumed my whole life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Have had type 1 and type 2 diabetes for just under 30 years. I have been diagnosed with end-stage renal disease and have been on dialysis for almost two years. When I look into my mirror, I don\u2019t just see a failing pancreas and two kidneys that have been laid off. I don\u2019t just see a very sickly person who might die. I see a woman and a mother whose life and personality have many different dimensions. A woman with a family that needs her more than ever. It wasn\u2019t always that way. In the beginning, when I was going through hemodialysis and had more than 15 graft surgeries and 17 tunneled catheter procedures, I felt like my illness was stamped across my forehead and imprinted on my heart. End-stage renal disease and hemodialysis seemed to have taken over my whole life. I was a patient. I barely remembered who I was before the disease. Eventually, I\u2019d finally had enough of being defined by my disease. I needed to take charge of my life. The first time I spoke up about what I wanted in regard to my treatment, my doctors were stunned. I took control and it was the best choice I had ever made--I think it may have saved my life. For the first time since I began dialysis, my doctors saw me as a whole person--a mother, an individual--and not just as a patient. Even more importantly, I was seeing myself as more than just my disease. Gaining my voice gave me back the parts of my life that I had missed. I was Cortney again, not just the lady with ESRD on dialysis.  My disease no longer consumed my whole life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was still there, but I had found a way to live with it, to find a new normal. I was still a wife, a mother, a friend, a person with hopes and dreams, a woman who is more than her disease.\n\n"
+            }
+        ],
+        "request_id": "811bcfedaea78c09-EWR"
+    }
+}

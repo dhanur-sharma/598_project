@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, my favorite aunt passed away. It was a shock to the entire family because it happened so suddenly. I think about her constantly and I cannot believe that she is gone. I don't think there has been a single day that something has not reminded me of her. Sometimes when I am even in a store shopping, I see someone who looks similar to her and I am reminded of her. I recently had a birthday and even that brought back memories of her because I could always count on her sending me a card or acknowledging my birthday in some manner.  I am not sure how the family will be able to cope with the upcoming holidays. My aunt came to visit us every Christmas and I know that it will be hard on all of us, especially my mother. My mother and aunt were the closest sisters I have ever seen. They talked on the phone every day. Now, I make sure to call my mother every day in an attempt to fill the void. I am also planning to spend more time with her so that she doesn't get lonely. I also try to call my cousin more often to check on him. He lost his father last year and now his mother was taken so suddenly. We are all still coming to terms with the shock."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, my favorite aunt passed away. It was a shock to the entire family because it happened so suddenly. I think about her constantly and I cannot believe that she is gone. I don't think there has been a single day that something has not reminded me of her. Sometimes when I am even in a store shopping, I see someone who looks similar to her and I am reminded of her. I recently had a birthday and even that brought back memories of her because I could always count on her sending me a card or acknowledging my birthday in some manner.  I am not sure how the family will be able to cope with the upcoming holidays. My aunt came to visit us every Christmas and I know that it will be hard on all of us, especially my mother. My mother and aunt were the closest sisters I have ever seen. They talked on the phone every day. Now, I make sure to call my mother every day in an attempt to fill the void. I am also planning to spend more time with her so that she doesn't get lonely. I also try to call my cousin more often to check on him. He lost his father last year and now his mother was taken so suddenly. We are all still coming to terms with the shock.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eab5a1d842384-EWR"
+    }
+}

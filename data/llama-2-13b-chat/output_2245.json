@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Three months ago, I had a great recovery. I relearned how to walk with my walker. I was in my wheelchair. I'm glad I can somewhat walk now. I hope I can job again one day. I remember jogging in a track team in high school. I was the best at it. I remember at a big race almost breaking my leg. I was on the final lap of the race. I stumbled on the side of the track. This costed me a few seconds but I didn't trip. I kept on running to the finish line. I got the gold medal and the whole team celebrated. We got pizza that night for my big win. I had a blast eating a ton of pizza after being constricted to a diet for the run."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Three months ago, I had a great recovery. I relearned how to walk with my walker. I was in my wheelchair. I'm glad I can somewhat walk now. I hope I can job again one day. I remember jogging in a track team in high school. I was the best at it. I remember at a big race almost breaking my leg. I was on the final lap of the race. I stumbled on the side of the track. This costed me a few seconds but I didn't trip. I kept on running to the finish line. I got the gold medal and the whole team celebrated. We got pizza that night for my big win. I had a blast eating a ton of pizza after being constricted to a diet for the run.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now, I'm back in the wheelchair. I have to learn how to walk again. I'm frustrated. I know I'll get there again.\n\n"
+            }
+        ],
+        "request_id": "811eb31bfb5841ff-EWR"
+    }
+}

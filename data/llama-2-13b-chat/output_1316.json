@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Sometime a week ago, I attended a baseball game with my father. He was in town for the weekend. We decided to go see a baseball game, and have some beers. However, we were  not sure about the weather, as it looked gloomy. We took the chance and went anyway. It turned out to be a pretty beautiful day. The game was exciting, and we got some good beers. Overall, it was a great day out. We watched our favorite team play. We cheered from the bleachers, but were having so much fun. We enjoyed the weather too, as it became nicer as the day went on. We went home happy. It was a great time. We have planned to do it again. Perhaps next month."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Sometime a week ago, I attended a baseball game with my father. He was in town for the weekend. We decided to go see a baseball game, and have some beers. However, we were  not sure about the weather, as it looked gloomy. We took the chance and went anyway. It turned out to be a pretty beautiful day. The game was exciting, and we got some good beers. Overall, it was a great day out. We watched our favorite team play. We cheered from the bleachers, but were having so much fun. We enjoyed the weather too, as it became nicer as the day went on. We went home happy. It was a great time. We have planned to do it again. Perhaps next month.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ea26878ec4390-EWR"
+    }
+}

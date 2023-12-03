@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I never knew this was even possible for me. I am still in doubt. Was this the right thing to do? Would ben be alright? I even don't know if he could take care of himself. My brain says that he could, that he is old enough to be on his own. But my heart, for some reason disagrees. He had asperger's syndrome since he was little. I always felt protective towards him. He always needed me. For everything. And i had always considered a blessing to be there for my child for even the most little of his needs. But i guess the time has come for me to let him go and make him free. To let him live his life the way he sees fit and figure out his destiny. Ben was surprisingly okay with all this. I guess he is ready, afterall."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I never knew this was even possible for me. I am still in doubt. Was this the right thing to do? Would ben be alright? I even don't know if he could take care of himself. My brain says that he could, that he is old enough to be on his own. But my heart, for some reason disagrees. He had asperger's syndrome since he was little. I always felt protective towards him. He always needed me. For everything. And i had always considered a blessing to be there for my child for even the most little of his needs. But i guess the time has come for me to let him go and make him free. To let him live his life the way he sees fit and figure out his destiny. Ben was surprisingly okay with all this. I guess he is ready, afterall.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I am not sure how i feel about it. I don't know if i should be happy or sad. I am somewhere in between. I know that this is a good thing for him, but i am still worried. I hope everything will be alright.\n\n"
+            }
+        ],
+        "request_id": "811f37fb4f271895-EWR"
+    }
+}

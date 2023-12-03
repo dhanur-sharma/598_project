@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Today is the happiest day of my life. I know it is a well-known cleashe to be calling your wedding that. But i do understand why everyone says that now. Brad and i got married today. It has been four years in making and we couldn't have imagined a more perfect wedding. Everyone was there- even uncle larry showed up! It was particularly surprising considering he was combating cancer for a while now. But all those didn't matter today. It was about us, and our new beginning. We had a traditional catholic wedding. Mom insisted on that. Jen was my maid of honor. The catering was fantastic. Everyone seemed to enjoy themselves. It was a happy time with family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Today is the happiest day of my life. I know it is a well-known cleashe to be calling your wedding that. But i do understand why everyone says that now. Brad and i got married today. It has been four years in making and we couldn't have imagined a more perfect wedding. Everyone was there- even uncle larry showed up! It was particularly surprising considering he was combating cancer for a while now. But all those didn't matter today. It was about us, and our new beginning. We had a traditional catholic wedding. Mom insisted on that. Jen was my maid of honor. The catering was fantastic. Everyone seemed to enjoy themselves. It was a happy time with family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f40834a5078df-EWR"
+    }
+}

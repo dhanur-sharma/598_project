@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My grandfather had suddenly gotten sick and was in the hospital. It quickly got really worse and ended up passing away. It was really sudden and unexpected. I couldn't believe he was gone. Someone that had always been a part of my life was suddenly gone forever. I was beyond devastated. I couldn't believe he was gone and I still can't. I miss him so much every day. It doesn't make any sense. He was fine and then a few weeks later he was gone. He's the first person I lost that I was so close to. I've cried so much since then. Every time I think about him I start to cry. It's hard to believe that he is really gone. I've been having dreams about him every night since he died. It makes it so hard because I always wake up thinking about him because of the dream. I've been having a lot of trouble sleeping because of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My grandfather had suddenly gotten sick and was in the hospital. It quickly got really worse and ended up passing away. It was really sudden and unexpected. I couldn't believe he was gone. Someone that had always been a part of my life was suddenly gone forever. I was beyond devastated. I couldn't believe he was gone and I still can't. I miss him so much every day. It doesn't make any sense. He was fine and then a few weeks later he was gone. He's the first person I lost that I was so close to. I've cried so much since then. Every time I think about him I start to cry. It's hard to believe that he is really gone. I've been having dreams about him every night since he died. It makes it so hard because I always wake up thinking about him because of the dream. I've been having a lot of trouble sleeping because of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm just so lost and heartbroken.\n\n"
+            }
+        ],
+        "request_id": "811f3b342cdd8ce9-EWR"
+    }
+}

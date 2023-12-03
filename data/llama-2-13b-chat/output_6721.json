@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was out at brunch and a bar for my friends birthday. I saw a lot of friends I had not seen in a long time, and my brother and sister. The majority of the time we spent at brunch was spent catching up with each other and telling each other jokes. We did not spend that much time eating and drinking. After about 2 or so hours, we left the brunch restaurant and went to a nearby bar. My brother and sister accompanied us. Some of my brothers friends came too. They were not at the brunch earlier because we did not have enough spots for all of them. At the bar, we spent quite more time drinking. There were some games we could play like basketball, cornhole, and jenga. We had a good time at the bar. After that, we went to another bar. We spent quite a lot of time out in the city. Some friends had to leave, but the majority were able to stay out long. I had a really good time. I was surprised at how many people showed up."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was out at brunch and a bar for my friends birthday. I saw a lot of friends I had not seen in a long time, and my brother and sister. The majority of the time we spent at brunch was spent catching up with each other and telling each other jokes. We did not spend that much time eating and drinking. After about 2 or so hours, we left the brunch restaurant and went to a nearby bar. My brother and sister accompanied us. Some of my brothers friends came too. They were not at the brunch earlier because we did not have enough spots for all of them. At the bar, we spent quite more time drinking. There were some games we could play like basketball, cornhole, and jenga. We had a good time at the bar. After that, we went to another bar. We spent quite a lot of time out in the city. Some friends had to leave, but the majority were able to stay out long. I had a really good time. I was surprised at how many people showed up.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4b5f3ebf43c7-EWR"
+    }
+}

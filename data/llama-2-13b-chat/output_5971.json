@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The wiring from my brain to my chest felt like dull razors cutting my insides slowly. It was very uncomfortable. It had been a major surgery. The only other surgery I had before this was a tonsillectomy when I was 15. I got to eat ice cream after that surgery! Much different experiences. I am still feeling pain and my surgery was back in May! I haven\u2019t gone back to school yet but I am hoping to soon. My family has been great but my boyfriend, Chad, has been distant. He looks at me differently now; like he pities me. I don\u2019t like it. I\u2019m pretty sure he wants to break up with me but is afraid it will look bad. I wish he would just go ahead and get it over with. I don\u2019t want to be with someone who pities me. In fact, I\u2019ll just go ahead and break up with him first! I need to beat him to the punch."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The wiring from my brain to my chest felt like dull razors cutting my insides slowly. It was very uncomfortable. It had been a major surgery. The only other surgery I had before this was a tonsillectomy when I was 15. I got to eat ice cream after that surgery! Much different experiences. I am still feeling pain and my surgery was back in May! I haven\u2019t gone back to school yet but I am hoping to soon. My family has been great but my boyfriend, Chad, has been distant. He looks at me differently now; like he pities me. I don\u2019t like it. I\u2019m pretty sure he wants to break up with me but is afraid it will look bad. I wish he would just go ahead and get it over with. I don\u2019t want to be with someone who pities me. In fact, I\u2019ll just go ahead and break up with him first! I need to beat him to the punch.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I don\u2019t want to waste any more of my time on him.\n\n"
+            }
+        ],
+        "request_id": "811f3c3eeec30ca2-EWR"
+    }
+}

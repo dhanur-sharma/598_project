@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A couple of weeks ago we had a family gathering to celebrate the 90th birthday on my uncle.  We booked a large ranch house on Airbnb for most of us.  Others either camped or found other places in the area.  This was special because my dad died young and this uncle helped raise me and my four sisters.  We came together from all over the country to meet up and honor him.  For four days we bonded and reminisced.  We caught up on each other's lives.  We met new members of the family.  We rejoiced in our good times and mourned the sad times.  The best thing was the love we all felt as we reconnected. A surprising event occurred when we were working on family history together.  A cousin's wife wanted me to search for her birth father.  He was last seen about 20 years ago.  He had a stroke and his niece got conservatorship from the court.  He was placed in a nursing home.,  For twenty years, nobody has seen or heard from him.  I searched genealogical records and it's as if he dropped off the face of the earth.  Since there are no death records, we suspect that he died many years ago and the niece has been collecting the automatically deposited monthly Social Security benefits.  She has contacted local police to investigate. Other than that the reunion was loving and emotional."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A couple of weeks ago we had a family gathering to celebrate the 90th birthday on my uncle.  We booked a large ranch house on Airbnb for most of us.  Others either camped or found other places in the area.  This was special because my dad died young and this uncle helped raise me and my four sisters.  We came together from all over the country to meet up and honor him.  For four days we bonded and reminisced.  We caught up on each other's lives.  We met new members of the family.  We rejoiced in our good times and mourned the sad times.  The best thing was the love we all felt as we reconnected. A surprising event occurred when we were working on family history together.  A cousin's wife wanted me to search for her birth father.  He was last seen about 20 years ago.  He had a stroke and his niece got conservatorship from the court.  He was placed in a nursing home.,  For twenty years, nobody has seen or heard from him.  I searched genealogical records and it's as if he dropped off the face of the earth.  Since there are no death records, we suspect that he died many years ago and the niece has been collecting the automatically deposited monthly Social Security benefits.  She has contacted local police to investigate. Other than that the reunion was loving and emotional.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We have been in contact since and are planning another reunion.  We are so grateful for the time we had together.\n\n"
+            }
+        ],
+        "request_id": "811ec6c65b0d43e8-EWR"
+    }
+}

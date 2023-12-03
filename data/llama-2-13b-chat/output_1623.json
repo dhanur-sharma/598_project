@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been working on packing up my apartment. I can;t wait to move into the new home I purchased! I never thought I would be able to say I am a home owner! Well, technically is it a mobile home. It is my home though, I own it. I am very proud of that. After the divorce I never thought I'd be able to own anything of my own ever again. It seemed like fate when I found that trailer. It is a double wide, it looks just like a house. It is brand new. No one has ever even lived in it before. And the best part is that it is in a mobile home community that I love. My best friend lives there with her kids. She says it is a great environment. There are no problems and no fighting neighbors. She says everyone keeps to themselves and is respectful. I have needed a change like this for a long time. Living in this apartment has been torture. I cannot wait to move in next week and start the rest of my life!"
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been working on packing up my apartment. I can;t wait to move into the new home I purchased! I never thought I would be able to say I am a home owner! Well, technically is it a mobile home. It is my home though, I own it. I am very proud of that. After the divorce I never thought I'd be able to own anything of my own ever again. It seemed like fate when I found that trailer. It is a double wide, it looks just like a house. It is brand new. No one has ever even lived in it before. And the best part is that it is in a mobile home community that I love. My best friend lives there with her kids. She says it is a great environment. There are no problems and no fighting neighbors. She says everyone keeps to themselves and is respectful. I have needed a change like this for a long time. Living in this apartment has been torture. I cannot wait to move in next week and start the rest of my life!",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea7e30d0041f5-EWR"
+    }
+}

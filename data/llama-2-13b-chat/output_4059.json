@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: This happened in the beginning of June. My extended family came over from Hawaii to celebrate my younger sister and my cousin's birthdays. They were born on the same day but different years. My family and I haven't seen my aunt and two cousins since we went to visit them in Hawaii back in 2015. It was really great that we were able to spend time together. During one of the days they were here, we decided to go to Knott's Berry Farm. The last time I went to Knott's Berry Farm was 10 years ago. I was very excited. There were a total of 7 of us that went. We had a lot of fun. A lot of things have changed at the amusement park. We rode a lot of rides and enjoyed good food. I was very excited that I got to eat funnel cake. It tasted so good! The most memorable thing that happened that day was when we went on a river rafting ride. I underestimated how wet the ride would be. The whole backside of my pants ended up getting wet. It was very fun. Before closing, we all decided to get matching shirts to commemorate out time there. We rarely have the chance to see each other in person so I'm glad that we were able to make a lot of memories that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: This happened in the beginning of June. My extended family came over from Hawaii to celebrate my younger sister and my cousin's birthdays. They were born on the same day but different years. My family and I haven't seen my aunt and two cousins since we went to visit them in Hawaii back in 2015. It was really great that we were able to spend time together. During one of the days they were here, we decided to go to Knott's Berry Farm. The last time I went to Knott's Berry Farm was 10 years ago. I was very excited. There were a total of 7 of us that went. We had a lot of fun. A lot of things have changed at the amusement park. We rode a lot of rides and enjoyed good food. I was very excited that I got to eat funnel cake. It tasted so good! The most memorable thing that happened that day was when we went on a river rafting ride. I underestimated how wet the ride would be. The whole backside of my pants ended up getting wet. It was very fun. Before closing, we all decided to get matching shirts to commemorate out time there. We rarely have the chance to see each other in person so I'm glad that we were able to make a lot of memories that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bcf282c96c348-EWR"
+    }
+}

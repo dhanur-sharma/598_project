@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I  always  liked following my big sister around. One pleasant summer day I  was playing  outside with my sister. My Mom came outside and said for us to  please stay in the yard.  Well my sister got the bike out as soon as my Mom shut the door. I asked her not to  leave me. She did not like seeing  me cry, so she let me go with her. We rode the bike up the street to our cousins  house. When my cousin and her sister  came out, they wanted to go for a ride.,This bike had a back seat. My cousin took over maneuvering the  bike. I was on the handlebars.  My sister and other cousin was on the back seat. Off we went having fun until we started going downhill too fast. We had a bike accident. My left foot got caught in the front wheel. It broke my foot an leg and I  got scarred up pretty bad . My cousin that was maneuverING lost four front teeth and her sisters right  arm was skinned  really bad . My sister didn't  get hurt at all. She hid in the woods. A neighbor took me to my mom and I  went to the emergency room  for care. My cousins got medical care also. It was really  a tragic  day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I  always  liked following my big sister around. One pleasant summer day I  was playing  outside with my sister. My Mom came outside and said for us to  please stay in the yard.  Well my sister got the bike out as soon as my Mom shut the door. I asked her not to  leave me. She did not like seeing  me cry, so she let me go with her. We rode the bike up the street to our cousins  house. When my cousin and her sister  came out, they wanted to go for a ride.,This bike had a back seat. My cousin took over maneuvering the  bike. I was on the handlebars.  My sister and other cousin was on the back seat. Off we went having fun until we started going downhill too fast. We had a bike accident. My left foot got caught in the front wheel. It broke my foot an leg and I  got scarred up pretty bad . My cousin that was maneuverING lost four front teeth and her sisters right  arm was skinned  really bad . My sister didn't  get hurt at all. She hid in the woods. A neighbor took me to my mom and I  went to the emergency room  for care. My cousins got medical care also. It was really  a tragic  day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811ed41aba134217-EWR"
+    }
+}

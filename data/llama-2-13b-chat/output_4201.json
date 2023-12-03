@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Four months ago, I watched something memorable. I saw my sister give birth. I almost fainted but I powered through it. She was in a lot of pain. The baby was beautiful and had the mother's eyes. I saw her cry for a few minutes. Their was nothing wrong with the baby. I hope they have a great life together. I got some baby clothes to help her out with expenses. I wrote to everybody about the news. The whole family was very proud. The whole family met at her house the next week. They all had a great time playing with the baby. Everybody had a tear in their eyes. I definitely had one. I went home later hoping I will have kids one day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Four months ago, I watched something memorable. I saw my sister give birth. I almost fainted but I powered through it. She was in a lot of pain. The baby was beautiful and had the mother's eyes. I saw her cry for a few minutes. Their was nothing wrong with the baby. I hope they have a great life together. I got some baby clothes to help her out with expenses. I wrote to everybody about the news. The whole family was very proud. The whole family met at her house the next week. They all had a great time playing with the baby. Everybody had a tear in their eyes. I definitely had one. I went home later hoping I will have kids one day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd20afbff4315-EWR"
+    }
+}

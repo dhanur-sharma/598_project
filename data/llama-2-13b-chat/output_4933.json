@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It had been about 3 months since I last saw my sister. We worked and lived in different states, so we couldn't see each other often. For the holidays, she invited me to her home to celebrate. A couple days before Christmas, she spilled the big news. She told me she was pregnant as we were sitting in her couch in her living room. I couldn't believe it. She had been trying to get pregnant for the past two years, and hadn't been able to. It had taken a great toll on both her and her husband. I didn't like seeing her unhappy. Yet here she was, telling me that I would soon be an aunt. We both started crying tears of joy. She had wanted to be a mom for so long and soon it would become a reality. We decided to go to the mall to see what we could buy for the baby. We were both so excited and I wanted to buy my little nephew or niece something. I love my sister a lot and this news was amazing-- not just for her, but for me too. I had always wanted to be an aunt."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It had been about 3 months since I last saw my sister. We worked and lived in different states, so we couldn't see each other often. For the holidays, she invited me to her home to celebrate. A couple days before Christmas, she spilled the big news. She told me she was pregnant as we were sitting in her couch in her living room. I couldn't believe it. She had been trying to get pregnant for the past two years, and hadn't been able to. It had taken a great toll on both her and her husband. I didn't like seeing her unhappy. Yet here she was, telling me that I would soon be an aunt. We both started crying tears of joy. She had wanted to be a mom for so long and soon it would become a reality. We decided to go to the mall to see what we could buy for the baby. We were both so excited and I wanted to buy my little nephew or niece something. I love my sister a lot and this news was amazing-- not just for her, but for me too. I had always wanted to be an aunt.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "Now I could be. I could not wait to see my sister become a mom and raise her child with love.\n\n"
+            }
+        ],
+        "request_id": "811be1078a508cb3-EWR"
+    }
+}

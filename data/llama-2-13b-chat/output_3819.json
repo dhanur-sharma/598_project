@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The feel of the open road passing beneath my feet. The roar of the Harley between my legs. The wind blowing over me. What a rush to finally be out on the road, driving up PCH. I think back to five months ago when I got my motorcycle license.  I was so nervous. They have you drive around a little track at the DMV. This is the hardest part because I had to ride my motorcycle around some obstacles. Getting on and finishing my turn was scary. I was the fifth one out of ten people that Saturday morning. Thanks to Governer Newsom, I was able to complete my test on a Saturday instead of taking time off work. This test looks easy, but getting on the bike and actually doing it is a whole nother story. But I did it! I passed that little DMV obstacle couse, finished my turn and got my motorcycle license! And now here I am, driving from up the coast with no destination in mind other than being on my bike."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The feel of the open road passing beneath my feet. The roar of the Harley between my legs. The wind blowing over me. What a rush to finally be out on the road, driving up PCH. I think back to five months ago when I got my motorcycle license.  I was so nervous. They have you drive around a little track at the DMV. This is the hardest part because I had to ride my motorcycle around some obstacles. Getting on and finishing my turn was scary. I was the fifth one out of ten people that Saturday morning. Thanks to Governer Newsom, I was able to complete my test on a Saturday instead of taking time off work. This test looks easy, but getting on the bike and actually doing it is a whole nother story. But I did it! I passed that little DMV obstacle couse, finished my turn and got my motorcycle license! And now here I am, driving from up the coast with no destination in mind other than being on my bike.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ed1cc9a0e5e71-EWR"
+    }
+}

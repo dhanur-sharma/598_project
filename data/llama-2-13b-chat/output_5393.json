@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few months ago, my husband and I attended the wedding of our friends. It was a beautiful evening full of love, food, and dancing. I'd never seen my husband dance so well! The night flew by, but a few memories from the evening still stand out to me. For one, the best man at our wedding was the officiant at this wedding. He performed a beautiful ceremony. It reminded me how lucky we are to have such good friends in our life. The second thing that stands out to me is watching the bride and groom share their first dance. The look in their eyes was that of pure love. It reminded me of my own wedding day. Specifically, it reminded me of when my husband and I shared our first dance as a married couple. Watching them re-ignited all of the love I felt on my own wedding day. This event as a whole was incredibly beautiful. It reminded me of the amazing, loving people that we are surrounded by. It also reminded me how lucky I am to have found the man of my dreams."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few months ago, my husband and I attended the wedding of our friends. It was a beautiful evening full of love, food, and dancing. I'd never seen my husband dance so well! The night flew by, but a few memories from the evening still stand out to me. For one, the best man at our wedding was the officiant at this wedding. He performed a beautiful ceremony. It reminded me how lucky we are to have such good friends in our life. The second thing that stands out to me is watching the bride and groom share their first dance. The look in their eyes was that of pure love. It reminded me of my own wedding day. Specifically, it reminded me of when my husband and I shared our first dance as a married couple. Watching them re-ignited all of the love I felt on my own wedding day. This event as a whole was incredibly beautiful. It reminded me of the amazing, loving people that we are surrounded by. It also reminded me how lucky I am to have found the man of my dreams.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f30848f55c341-EWR"
+    }
+}

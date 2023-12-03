@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About two months ago I decided to start an exercise routine. I decided to work out for 1 hour a day, 3 days a week. Today I just hit a record! During my work out session I was really feeling it. I have been more motivated during my workouts because I have an event to go to in two months where I have to look good. I usually alternate my work out routines. Today was bench pressing. I always document my work outs and what I have accomplished for the day. I hit a record for personal best! Today I successfully lifted 200 lbs for 5 reps! I couldn't believe it! I am usually only able to do 200 lbs for 2 reps, but I tried my best today and it paid off! I am so proud of myself. I really hope I can continue this streak during my next work out. I think I'll be able to do it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About two months ago I decided to start an exercise routine. I decided to work out for 1 hour a day, 3 days a week. Today I just hit a record! During my work out session I was really feeling it. I have been more motivated during my workouts because I have an event to go to in two months where I have to look good. I usually alternate my work out routines. Today was bench pressing. I always document my work outs and what I have accomplished for the day. I hit a record for personal best! Today I successfully lifted 200 lbs for 5 reps! I couldn't believe it! I am usually only able to do 200 lbs for 2 reps, but I tried my best today and it paid off! I am so proud of myself. I really hope I can continue this streak during my next work out. I think I'll be able to do it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have been feeling really strong and motivated lately. I'm excited to see where my fitness journey takes me!"
+            }
+        ],
+        "request_id": "811f3b2889b70cb2-EWR"
+    }
+}

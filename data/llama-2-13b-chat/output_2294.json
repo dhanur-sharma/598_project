@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We moved into our home about 20 years ago. We have a lot of memories with the house. We raised our kids in this house. They brought their dates to this out. We celebrated in this house.  My husband and my self picked this house very carefully and have great thoughts about the house. About 3 months ago, we decided the house was just a bit too big for the two of us. We decided to sell it. We both had mixed emotions about the house but decided it was best. We sold it quickly to an appreciative couple. That made me very happy. I think they will take good care of the house. We needed a new adventure and quickly found one. We found another home in enough time that we wouldn't be homeless. All in all, things worked out for all. I will surely miss my old house."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We moved into our home about 20 years ago. We have a lot of memories with the house. We raised our kids in this house. They brought their dates to this out. We celebrated in this house.  My husband and my self picked this house very carefully and have great thoughts about the house. About 3 months ago, we decided the house was just a bit too big for the two of us. We decided to sell it. We both had mixed emotions about the house but decided it was best. We sold it quickly to an appreciative couple. That made me very happy. I think they will take good care of the house. We needed a new adventure and quickly found one. We found another home in enough time that we wouldn't be homeless. All in all, things worked out for all. I will surely miss my old house.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have so many memories. It was a great place to raise a family.\n\n"
+            }
+        ],
+        "request_id": "811eb3fa8c9c8c48-EWR"
+    }
+}

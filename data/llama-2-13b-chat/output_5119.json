@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Two months ago, one of my best friends got married. He asked me to be his best man for the wedding. When he asked me I was so excited, but as the wedding got closer, I got a little bit nervous. I had never been the best man for anyone before, and I didn't want to mess it up. I rehearsed my speech for weeks leading up to the wedding. I edited it so many times and had all my friends listen to it and let me know what they thought. Nobody had any corrections for me, so I didn't change anything. Instead, I focused on memorizing it. I had a feeling that when I got up on stage at the wedding to say the speech I would forget everything. On the actual wedding day, I brought a copy of my speech in my pocket, just in case. When it came time for me to read my speech, I decided to try it without using the paper. At least until I needed it. It turns out, I had the whole thing memorized and didn't need to reference my notes at all! I was so thrilled to be able to honor my best friend in this way. It was a beautiful wedding and I was happy to be a part of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Two months ago, one of my best friends got married. He asked me to be his best man for the wedding. When he asked me I was so excited, but as the wedding got closer, I got a little bit nervous. I had never been the best man for anyone before, and I didn't want to mess it up. I rehearsed my speech for weeks leading up to the wedding. I edited it so many times and had all my friends listen to it and let me know what they thought. Nobody had any corrections for me, so I didn't change anything. Instead, I focused on memorizing it. I had a feeling that when I got up on stage at the wedding to say the speech I would forget everything. On the actual wedding day, I brought a copy of my speech in my pocket, just in case. When it came time for me to read my speech, I decided to try it without using the paper. At least until I needed it. It turns out, I had the whole thing memorized and didn't need to reference my notes at all! I was so thrilled to be able to honor my best friend in this way. It was a beautiful wedding and I was happy to be a part of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811be46b6ec2425c-EWR"
+    }
+}

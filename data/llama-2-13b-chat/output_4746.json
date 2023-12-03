@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A memorable event in my life was back in May of 2019.  I have finally graduated from college and received a Bachelors degree in Accounting.  It took me five long years to complete that degree. Two years in community college and another three years in the CSU system. I had to fight hard for all the classes as registration filled out very quickly on enrollment dates.  For the first time I was able to see the light at the end of the tunnel. All my hard work paid off and I can finally say I have a accomplished one of my biggest goal. It was my graduation year and I felt very happy about it. My family and friends showed up to celebrate my big accomplishment. My significant other also came along to celebrate such a big event. They brought me thoughtful gifts and colorful flowers. We went to dinner with the whole family. They showered me with love and appreciation, which is what mattered the most.  From that day, I was ready for the real world. I was happy I concluded an important chapter in my life."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A memorable event in my life was back in May of 2019.  I have finally graduated from college and received a Bachelors degree in Accounting.  It took me five long years to complete that degree. Two years in community college and another three years in the CSU system. I had to fight hard for all the classes as registration filled out very quickly on enrollment dates.  For the first time I was able to see the light at the end of the tunnel. All my hard work paid off and I can finally say I have a accomplished one of my biggest goal. It was my graduation year and I felt very happy about it. My family and friends showed up to celebrate my big accomplishment. My significant other also came along to celebrate such a big event. They brought me thoughtful gifts and colorful flowers. We went to dinner with the whole family. They showered me with love and appreciation, which is what mattered the most.  From that day, I was ready for the real world. I was happy I concluded an important chapter in my life.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I was now ready for a new journey, to start my career in accounting and make a better life for myself.\n\n"
+            }
+        ],
+        "request_id": "811bdd1b78141770-EWR"
+    }
+}

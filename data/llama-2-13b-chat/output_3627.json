@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We were out deep in the woods. It was the best time I can remember. The girls, my granddaughters were having a wonderful time. The made faces at each other while I cooked. We had a great dinner and then we told ghost stories. The girls got a little scared, but they comforted each other and made each other laugh. While they were making each other laugh, they made me laugh too. We all got a good night's sleep and woke up early. We went for a hike and even caught some fish. The girls were tired but were still having a great time. We all went together to a waterfall, walking underneath it as a group. We got soaking wet but it was so great. We just laughed and had a great time. We walked back to camp that night and toasted marshmallows. The girls didn't know it, it was a surprise, but I had brought along chocolate bars to make smores. We stayed up late eating smores and talking and then in the morning drove home."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We were out deep in the woods. It was the best time I can remember. The girls, my granddaughters were having a wonderful time. The made faces at each other while I cooked. We had a great dinner and then we told ghost stories. The girls got a little scared, but they comforted each other and made each other laugh. While they were making each other laugh, they made me laugh too. We all got a good night's sleep and woke up early. We went for a hike and even caught some fish. The girls were tired but were still having a great time. We all went together to a waterfall, walking underneath it as a group. We got soaking wet but it was so great. We just laughed and had a great time. We walked back to camp that night and toasted marshmallows. The girls didn't know it, it was a surprise, but I had brought along chocolate bars to make smores. We stayed up late eating smores and talking and then in the morning drove home.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ecd700c080f68-EWR"
+    }
+}

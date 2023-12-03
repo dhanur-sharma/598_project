@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: It has been a decidedly difficult year for me. At the beginning of the year, my depression crashed into me like waves against an island shore during a storm. Even though mental illness is becoming less of a taboo subject in society, it still remains very stigmatized. In an effort to not scare my loved ones, I kept it mostly hidden from them. It took a large amount of effort to simply maintain my head above the water, and then something happened that would send me plummeting back into that murky, endless darkness. My grandfather died. It wasn't a necessarily unexpected death in the family. He was aging and had a string of visits to the hospital, which I'm sure added to the overwhelming amount of stress onto my mom's plate. Her father was important to her, anyone who saw them interact knew as much. Nonetheless, nothing really prepares you for the death of a loved one. Even more so if you haven't had the opportunity to see them in a very long time. Maybe that is why it hit me so hard, maybe it was the guilt from knowing he desperately wanted to see me and yet I couldn't find the time. It is something I wholly regret, and while everyone around me can tell me that surely he knew I loved him and to not beat myself up, I can't shake the feeling of remorse. I should have made the time, I should have had that one moment with him before I never would be able to again. Now I have only his tombstone to talk to, and as an Atheist, I think it makes it all that much more depressing. If there is no life after death, it means that this is it -- it is all I have left of him: fond memories and a tombstone."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: It has been a decidedly difficult year for me. At the beginning of the year, my depression crashed into me like waves against an island shore during a storm. Even though mental illness is becoming less of a taboo subject in society, it still remains very stigmatized. In an effort to not scare my loved ones, I kept it mostly hidden from them. It took a large amount of effort to simply maintain my head above the water, and then something happened that would send me plummeting back into that murky, endless darkness. My grandfather died. It wasn't a necessarily unexpected death in the family. He was aging and had a string of visits to the hospital, which I'm sure added to the overwhelming amount of stress onto my mom's plate. Her father was important to her, anyone who saw them interact knew as much. Nonetheless, nothing really prepares you for the death of a loved one. Even more so if you haven't had the opportunity to see them in a very long time. Maybe that is why it hit me so hard, maybe it was the guilt from knowing he desperately wanted to see me and yet I couldn't find the time. It is something I wholly regret, and while everyone around me can tell me that surely he knew I loved him and to not beat myself up, I can't shake the feeling of remorse. I should have made the time, I should have had that one moment with him before I never would be able to again. Now I have only his tombstone to talk to, and as an Atheist, I think it makes it all that much more depressing. If there is no life after death, it means that this is it -- it is all I have left of him: fond memories and a tombstone.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I'm not sure if I'll ever be able to forgive myself for not being able to say goodbye."
+            }
+        ],
+        "request_id": "811ec474099ec41d-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was on my way to my uncles wedding.  It was a bit of a road trip that made it a hassle to arrive on time.  Unfortunately, they changed the venue at the last moment and I didn't get the notification.  Now I hadn't seen this uncle for probably approaching 15 years.  So my recollection of him was hazy.  Plus time changes us all.  So we finally arrived after wading through traffic for the last 2 hours.  Somehow, we ended up on time.  We entered the hotel, and refreshed in their restroom quick.  Next we found the conference room that was where the reception should have been in full swing.  As we entered the room I scanned around looking for relatives I would recognize.  I started to get a bit concerned that there weren't any familiar faces.  We slid into some empty seats by the back wall and looked around for a bit.  As I started to explain to my date that something might be sorely wrong, and older fellow sat down next to us.  He stated telling us stories about the groom, his nephew William.  Problem was, my uncles name was Ed.  Wrong wedding.  So we hastily made a exit and a few phone calls later were on our way to the correct venue."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was on my way to my uncles wedding.  It was a bit of a road trip that made it a hassle to arrive on time.  Unfortunately, they changed the venue at the last moment and I didn't get the notification.  Now I hadn't seen this uncle for probably approaching 15 years.  So my recollection of him was hazy.  Plus time changes us all.  So we finally arrived after wading through traffic for the last 2 hours.  Somehow, we ended up on time.  We entered the hotel, and refreshed in their restroom quick.  Next we found the conference room that was where the reception should have been in full swing.  As we entered the room I scanned around looking for relatives I would recognize.  I started to get a bit concerned that there weren't any familiar faces.  We slid into some empty seats by the back wall and looked around for a bit.  As I started to explain to my date that something might be sorely wrong, and older fellow sat down next to us.  He stated telling us stories about the groom, his nephew William.  Problem was, my uncles name was Ed.  Wrong wedding.  So we hastily made a exit and a few phone calls later were on our way to the correct venue.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " We arrived just as the ceremony was finishing up.  My date looked at me and asked \"So, are we going to make it on time?\"  I just smiled and said \"Of course we did, it's all relative.\"\n\n"
+            }
+        ],
+        "request_id": "811f450058fd0f5d-EWR"
+    }
+}

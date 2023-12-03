@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: We went to a picnic near a lake with friends and family. It was sunny and warm. We found a spot kept our things and took our floaties and entered into the lake. I was with my son and my daughter was right with me and my husband. I and my friends were all chatting and meanwhile, I was thinking my husband was taking care of my daughter and my husband thought that I am keeping an eye on her. Just within minutes, I noticed that my daughter was not there. All bad thoughts flashed in front of me. I was shivering. I started shouting and my husband was also panicked. My friends started looking for her in water. Suddenly I noticed on the shore that my daughter was playing in the sand. I took a deep breath and informed everyone. I told her not to leave anywhere without letting me\u00a0know. That was a lesson for me and I promised myself to be more careful hereafter. That's how our picnic trip became a panic trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: We went to a picnic near a lake with friends and family. It was sunny and warm. We found a spot kept our things and took our floaties and entered into the lake. I was with my son and my daughter was right with me and my husband. I and my friends were all chatting and meanwhile, I was thinking my husband was taking care of my daughter and my husband thought that I am keeping an eye on her. Just within minutes, I noticed that my daughter was not there. All bad thoughts flashed in front of me. I was shivering. I started shouting and my husband was also panicked. My friends started looking for her in water. Suddenly I noticed on the shore that my daughter was playing in the sand. I took a deep breath and informed everyone. I told her not to leave anywhere without letting me\u00a0know. That was a lesson for me and I promised myself to be more careful hereafter. That's how our picnic trip became a panic trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bd97d4d4319e3-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My friend and her family was going to the water park and asked me to go. As you know, I am scared to death of water slides. I hate them with a passion. Especially the covered ones that seems like they are miles long. It might be because I don't  like feeling trapped, I don't really know. I did decide to go with her. When we arrived, there was a massive slide that had so many twists and turns in it that it was very intimidating. I was scared of it. However, my friend's fearless daughter looked at it and said \"That's child's play.\" and stood right up to the line for the slide. She went down it a few times before dragging me with her. I didn't want to. I could feel my heart racing and myself getting more nervous. She told me \"Are you a chicken?\" and I told her no. She said \"You look like one.\" and I had to prove to a 5 year old that went down the slide a few times that I can do it one time. It got to be my turn, my palms were sweating and knees were weak. It was so high up and the only way to go down and down the slide. I got in the tunnel, gulped, and went down. It was over before I knew it! I heard \"See, chicken. That wasn't that bad.\" and got dragged a few more times on the slide. The more I did it, the less scared I was of it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My friend and her family was going to the water park and asked me to go. As you know, I am scared to death of water slides. I hate them with a passion. Especially the covered ones that seems like they are miles long. It might be because I don't  like feeling trapped, I don't really know. I did decide to go with her. When we arrived, there was a massive slide that had so many twists and turns in it that it was very intimidating. I was scared of it. However, my friend's fearless daughter looked at it and said \"That's child's play.\" and stood right up to the line for the slide. She went down it a few times before dragging me with her. I didn't want to. I could feel my heart racing and myself getting more nervous. She told me \"Are you a chicken?\" and I told her no. She said \"You look like one.\" and I had to prove to a 5 year old that went down the slide a few times that I can do it one time. It got to be my turn, my palms were sweating and knees were weak. It was so high up and the only way to go down and down the slide. I got in the tunnel, gulped, and went down. It was over before I knew it! I heard \"See, chicken. That wasn't that bad.\" and got dragged a few more times on the slide. The more I did it, the less scared I was of it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It was still scary, but I was not as scared as I was before."
+            }
+        ],
+        "request_id": "811ea58e8aa715cb-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I will always remember where I was when I got the phone call.  It was 2nd period math class and my 4th graders were rowdy as usual.  I could tell their attention was slipping and I was having trouble getting them to pay attention. I was feeling a little miserable and sorry for myself.  One of the administrators poked her head into my classroom and I remember thinking one of the kids was having a family emergency.  I stepped out into the hallway.  My friend's wife Susan was sobbing on the phone as she told me my friend had passed.  I felt all the air go out out of my lungs.  My stomach dropped.  I was in shock.  I  walked back into my classroom, numb.  I started packing my things to go.  The administrator had gone to get a substitute teacher.  The kids could all see that something had happened and settled down.  One of the girls asked if I was OK.  I said \"my friend died\" without even really meaning to.  The kids got me tissues and tried to distract me as we waited for the sub."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I will always remember where I was when I got the phone call.  It was 2nd period math class and my 4th graders were rowdy as usual.  I could tell their attention was slipping and I was having trouble getting them to pay attention. I was feeling a little miserable and sorry for myself.  One of the administrators poked her head into my classroom and I remember thinking one of the kids was having a family emergency.  I stepped out into the hallway.  My friend's wife Susan was sobbing on the phone as she told me my friend had passed.  I felt all the air go out out of my lungs.  My stomach dropped.  I was in shock.  I  walked back into my classroom, numb.  I started packing my things to go.  The administrator had gone to get a substitute teacher.  The kids could all see that something had happened and settled down.  One of the girls asked if I was OK.  I said \"my friend died\" without even really meaning to.  The kids got me tissues and tried to distract me as we waited for the sub.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I will always remember that day, and how those kids showed me so much kindness in my moment of grief.\n\n"
+            }
+        ],
+        "request_id": "811bdb338fd741c6-EWR"
+    }
+}

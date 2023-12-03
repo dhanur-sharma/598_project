@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About 5 months ago, I started Truck Driving school. I've been searching around for what my next career move is and landed on driving since it lets me see the country--something I've always wanted to do. Man, driving school is harder than I thought it would be. Learning all the components of a truck and rig are hard, but I mostly like my instructor, Tammy. My peers are pretty cool, except for this one, John, who is such a teacher's pet. He loves to make sure that everyone knows that he experienced with trucks and a know-it-all. About three weeks into the class, we were learning about inspections and Tammy (and John of course) insisted that there was only one way to learn this certain type of inspection. They kept telling us when we got a piece wrong. I was getting frustrated because I couldn't do it exactly the way they said I had to. So I spent about a week figuring out a way for me to learn it that would work. Finally! I got it. I taught myself a different way that works for ME. In the two weeks leading up to the CDL test, I was nervous but hopeful that my way would work. Luckily, the test inspector gave me a perfect score. I'm really proud of myself. I hope this is a sign that driving is a good next move for me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About 5 months ago, I started Truck Driving school. I've been searching around for what my next career move is and landed on driving since it lets me see the country--something I've always wanted to do. Man, driving school is harder than I thought it would be. Learning all the components of a truck and rig are hard, but I mostly like my instructor, Tammy. My peers are pretty cool, except for this one, John, who is such a teacher's pet. He loves to make sure that everyone knows that he experienced with trucks and a know-it-all. About three weeks into the class, we were learning about inspections and Tammy (and John of course) insisted that there was only one way to learn this certain type of inspection. They kept telling us when we got a piece wrong. I was getting frustrated because I couldn't do it exactly the way they said I had to. So I spent about a week figuring out a way for me to learn it that would work. Finally! I got it. I taught myself a different way that works for ME. In the two weeks leading up to the CDL test, I was nervous but hopeful that my way would work. Luckily, the test inspector gave me a perfect score. I'm really proud of myself. I hope this is a sign that driving is a good next move for me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "#truckdriving #driverslife #careerchange\n\n"
+            }
+        ],
+        "request_id": "811f3f067dbbc416-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My uncle put me into contact with a professor from the medical school that I want to go to. I e-mailed him about my interest in potentially meeting with him to talk about my interest about attending the school and shadowing him during his rounds.  We e-mailed back and forth, and he eventually asked me if I could come in to meet with him that day. I was thrown off because I didn't expect him to have time today, and I wasn't prepared for what I would say and how I would make a good impression. I quickly printed out my personal statement, prior application, and CV, and drove to the school. When I met with him, I walked into his office and was surprised to see another person my age. The professor exclaimed that he managed to get the kid into another medical school not too far away that I had applied to in the past. This definitely seemed like a power move to me, as it showed that he obviously either knew what he was doing regarding admissions or at least had some pull. It made me kind of nervous because I didn't feel super prepared. He pulled me into another room where we talked about my application. He read my application, and said that I was a decent but not great candidate, but definitely had a shot to get into at least some school this cycle. That was a huge relief for me, as this is actually my third cycle applying and my MCAT result was about to expire. However, he read my personal statement and said that it was a bit redundant in themes, but had some parts that he liked. We walked outside into the hallway and into a conference room, where he pulled out two current medical students. He asked them to help me with my application, which was again to me a huge power move.  I was surprised because they both seemed really open to helping me, with my personal statement and the application process in general. This went on for about an hour, and I felt bad that I was keeping them from other things. I eventually left, and was pleasantly surprised about how helpful everyone was."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My uncle put me into contact with a professor from the medical school that I want to go to. I e-mailed him about my interest in potentially meeting with him to talk about my interest about attending the school and shadowing him during his rounds.  We e-mailed back and forth, and he eventually asked me if I could come in to meet with him that day. I was thrown off because I didn't expect him to have time today, and I wasn't prepared for what I would say and how I would make a good impression. I quickly printed out my personal statement, prior application, and CV, and drove to the school. When I met with him, I walked into his office and was surprised to see another person my age. The professor exclaimed that he managed to get the kid into another medical school not too far away that I had applied to in the past. This definitely seemed like a power move to me, as it showed that he obviously either knew what he was doing regarding admissions or at least had some pull. It made me kind of nervous because I didn't feel super prepared. He pulled me into another room where we talked about my application. He read my application, and said that I was a decent but not great candidate, but definitely had a shot to get into at least some school this cycle. That was a huge relief for me, as this is actually my third cycle applying and my MCAT result was about to expire. However, he read my personal statement and said that it was a bit redundant in themes, but had some parts that he liked. We walked outside into the hallway and into a conference room, where he pulled out two current medical students. He asked them to help me with my application, which was again to me a huge power move.  I was surprised because they both seemed really open to helping me, with my personal statement and the application process in general. This went on for about an hour, and I felt bad that I was keeping them from other things. I eventually left, and was pleasantly surprised about how helpful everyone was.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I also felt more confident about my application, knowing that I had some help from some very smart people. I'm really hoping that this will be enough to get me into a school this cycle."
+            }
+        ],
+        "request_id": "811f4538c880334e-EWR"
+    }
+}

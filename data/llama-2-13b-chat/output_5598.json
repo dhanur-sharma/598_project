@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few years ago, my best friend's dad was diagnosed with stage 4 brain cancer. This was after months of being told nothing was wrong at my after he had complained about feeling very ill to his doctor. Lot's of lab tests were performed when he complained, but nothing had been found upon all those lab tests. Most of his symptoms were put down to him being old. After some time, the cancer was finally discovered when he was sent to another doctor. By that time the cancer was in a very advanced stage. Due to this, treatment started almost immediately. Treatment consisted of chemotherapy, radiation therapy and some drugs which were to strengthen the immune system. The treatment lasted for about a year, during which time it took a very heavy toll on him. He became very tired and exhausted during that time. If you saw him, you'd have hardly believed he was that strong man from a few years back. A month ago, he was told by his doctors that the cancer was actually regressing and was actually at stage one for now. He looked far healthier than he did when he was undergoing treatment. His recovery was such a joy and blessing to all. It showed that one can overcome almost every obstacle thrown at them."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few years ago, my best friend's dad was diagnosed with stage 4 brain cancer. This was after months of being told nothing was wrong at my after he had complained about feeling very ill to his doctor. Lot's of lab tests were performed when he complained, but nothing had been found upon all those lab tests. Most of his symptoms were put down to him being old. After some time, the cancer was finally discovered when he was sent to another doctor. By that time the cancer was in a very advanced stage. Due to this, treatment started almost immediately. Treatment consisted of chemotherapy, radiation therapy and some drugs which were to strengthen the immune system. The treatment lasted for about a year, during which time it took a very heavy toll on him. He became very tired and exhausted during that time. If you saw him, you'd have hardly believed he was that strong man from a few years back. A month ago, he was told by his doctors that the cancer was actually regressing and was actually at stage one for now. He looked far healthier than he did when he was undergoing treatment. His recovery was such a joy and blessing to all. It showed that one can overcome almost every obstacle thrown at them.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "He is now back to his old self and living his life to the fullest.\n\n"
+            }
+        ],
+        "request_id": "811f34c2c9425e67-EWR"
+    }
+}

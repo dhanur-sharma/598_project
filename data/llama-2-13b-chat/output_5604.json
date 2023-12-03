@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I attended a wedding for my friend this past month. They needed someone to help set up and also had a groomsman slot open since it was a rather close friend. The bachelor party was pretty fun, but I won't go into detail as it involved bar hopping. Getting ready for the event was cumbersome though. They wanted a pretty crazy elaborate wedding and all of us needed to help them with it. I found a DJ for their reception. I did most of the budgeting for them but allowed them to make the final decisions of course. We had other people decide the colors and layout. The wedding was pretty big--around 150 people showed up, and the reception went rather well. It was exhausting but fun, and I was really happy for my friend and his wife. It made me think about my own life a little and how I should get started with raising a family. I probably need to sit down and have a talk with some close people in my life. My girlfriend and I have only been a couple for a few months. I hope this event will help get the ball rolling in the future for us. I think it will be great."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I attended a wedding for my friend this past month. They needed someone to help set up and also had a groomsman slot open since it was a rather close friend. The bachelor party was pretty fun, but I won't go into detail as it involved bar hopping. Getting ready for the event was cumbersome though. They wanted a pretty crazy elaborate wedding and all of us needed to help them with it. I found a DJ for their reception. I did most of the budgeting for them but allowed them to make the final decisions of course. We had other people decide the colors and layout. The wedding was pretty big--around 150 people showed up, and the reception went rather well. It was exhausting but fun, and I was really happy for my friend and his wife. It made me think about my own life a little and how I should get started with raising a family. I probably need to sit down and have a talk with some close people in my life. My girlfriend and I have only been a couple for a few months. I hope this event will help get the ball rolling in the future for us. I think it will be great.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f34d8c8d48c78-EWR"
+    }
+}

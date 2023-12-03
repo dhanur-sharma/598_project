@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Every year like clockwork, my friends and I head down to the shore for a week at the beach. This year my best friend decided to invite his friend from work. This was the first time I had met him, but we all seemed to get along well. Like usual we rented out the same house we have been coming to for years now. The house is always clean and the owner is great to deal with. In all of the years we have been coming, we have never had an issue with the house. We lucked out this year and got some great weather. Every day was hot and sunny, but not so hot that it was uncomfortable. I was surprised to see how crowded our stretch of the beach was this year. Usually there aren't this many people, but we didn't let it bother us. Every night we hit a different beach bar. The live bands were fantastic this year and we spent almost every night until closing time just enjoying the music and the beer. By the time the week ended, we had all become good friends with the new person. It was like he was a part of our little group now. He had just as much fun as the rest of us and we are all looking forward to coming back again next year."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Every year like clockwork, my friends and I head down to the shore for a week at the beach. This year my best friend decided to invite his friend from work. This was the first time I had met him, but we all seemed to get along well. Like usual we rented out the same house we have been coming to for years now. The house is always clean and the owner is great to deal with. In all of the years we have been coming, we have never had an issue with the house. We lucked out this year and got some great weather. Every day was hot and sunny, but not so hot that it was uncomfortable. I was surprised to see how crowded our stretch of the beach was this year. Usually there aren't this many people, but we didn't let it bother us. Every night we hit a different beach bar. The live bands were fantastic this year and we spent almost every night until closing time just enjoying the music and the beer. By the time the week ended, we had all become good friends with the new person. It was like he was a part of our little group now. He had just as much fun as the rest of us and we are all looking forward to coming back again next year.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811e9e680e3a4255-EWR"
+    }
+}

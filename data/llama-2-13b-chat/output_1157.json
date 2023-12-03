@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I really respect cab drivers. They seem to be able to handle everything and never get stressed out. A few months ago I was scheduled for an important doctors appointment. It was the sonogram where I was supposed to find out if I was having a boy or a girl. I had been waiting weeks for this appointment. I knew if I missed it that would mean waiting at least another week or two for a new appointment. I had to make the appointment. I called for the cab with plenty of time to spare. I figured I would be at least an hour early. Unfortunately, as soon as I stepped into the cab it started snowing. Not just regular fluffy snow. It was pouring snowflakes. I could barely see. The roads seemed to get covered in seconds. And then the traffic started. Everyone slammed on their breaks and caused a mess of crashes and rubbernecking. I had never seen anything like it. I remember staring at the little clock on the cabs dashboard. I had to make this appointment. The cab driver didn't seem too hopeful. He was trying his best. After almost 2 hours of sitting in this horrible snow traffic the driver suddenly turned down a side road. I was going to ask where he was going but I figured who cares at this point. I watched as he wove up and down streets I had never seen. And then, miraculously, he pulled into my doctors parking lot on time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I really respect cab drivers. They seem to be able to handle everything and never get stressed out. A few months ago I was scheduled for an important doctors appointment. It was the sonogram where I was supposed to find out if I was having a boy or a girl. I had been waiting weeks for this appointment. I knew if I missed it that would mean waiting at least another week or two for a new appointment. I had to make the appointment. I called for the cab with plenty of time to spare. I figured I would be at least an hour early. Unfortunately, as soon as I stepped into the cab it started snowing. Not just regular fluffy snow. It was pouring snowflakes. I could barely see. The roads seemed to get covered in seconds. And then the traffic started. Everyone slammed on their breaks and caused a mess of crashes and rubbernecking. I had never seen anything like it. I remember staring at the little clock on the cabs dashboard. I had to make this appointment. The cab driver didn't seem too hopeful. He was trying his best. After almost 2 hours of sitting in this horrible snow traffic the driver suddenly turned down a side road. I was going to ask where he was going but I figured who cares at this point. I watched as he wove up and down streets I had never seen. And then, miraculously, he pulled into my doctors parking lot on time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I could not believe it. The snow was still pouring down but I had made it. I got out of the cab and into the doctors office. And yes, it was a boy.\n\n"
+            }
+        ],
+        "request_id": "811e9ed6f917425e-EWR"
+    }
+}

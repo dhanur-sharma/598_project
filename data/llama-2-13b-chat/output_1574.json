@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always wanted a smart tv. I eventually bought it after saving so much for it. It was a Samsung brand and I felt really happy with the purchase. Before buying it, I checked online for various reviews. It took a while to settle for the desired brand.  I went to the store with my best buddy and started looking around for the type I already settled for. We spotted it and the store attendant was helpful with the necessary information. We eventually paid for it and left the store. We felt really happy on our way back home. We got home and we set up the whole thing. My friends decided we should play a game first. We played while my friends couldn't get enough of the features of the TV. When my wife got back from her outing she was surprised to see the new Tv. She immediately started streaming movies to watch for the weekend. The weekend was fun for us. It was just a movie watching galore for us all."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always wanted a smart tv. I eventually bought it after saving so much for it. It was a Samsung brand and I felt really happy with the purchase. Before buying it, I checked online for various reviews. It took a while to settle for the desired brand.  I went to the store with my best buddy and started looking around for the type I already settled for. We spotted it and the store attendant was helpful with the necessary information. We eventually paid for it and left the store. We felt really happy on our way back home. We got home and we set up the whole thing. My friends decided we should play a game first. We played while my friends couldn't get enough of the features of the TV. When my wife got back from her outing she was surprised to see the new Tv. She immediately started streaming movies to watch for the weekend. The weekend was fun for us. It was just a movie watching galore for us all.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea718fac5c352-EWR"
+    }
+}

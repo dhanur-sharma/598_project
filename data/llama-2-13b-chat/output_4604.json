@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Mothers day was great this year. Usually we cook at home but this year my sister and I decided to take mom out to dinner. We picked a really nice restaurant and made reservations. We decided on Italian food, that's moms favorite. We all dressed up really nice and headed to the restaurant. We were very happy with our choice. The restaurant was beautiful and quiet. The seating was very comfortable and spacious. I hate when you go to restaurants and you're crammed next to a strangers table. The menu had everything we could have imagined. And the wine list was amazing! We ordered 2 bottles of wine and some appetizers to start with. My mom really seemed to be enjoying herself. We all ordered a different pasta dish so that we could share and try each others food. The absolute best part was the desserts! They had the most amazing Tiramisu I've ever tried. We were really happy with our decision to reserve a spot at this restaurant, and we will be going back soon to try and other dishes."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Mothers day was great this year. Usually we cook at home but this year my sister and I decided to take mom out to dinner. We picked a really nice restaurant and made reservations. We decided on Italian food, that's moms favorite. We all dressed up really nice and headed to the restaurant. We were very happy with our choice. The restaurant was beautiful and quiet. The seating was very comfortable and spacious. I hate when you go to restaurants and you're crammed next to a strangers table. The menu had everything we could have imagined. And the wine list was amazing! We ordered 2 bottles of wine and some appetizers to start with. My mom really seemed to be enjoying herself. We all ordered a different pasta dish so that we could share and try each others food. The absolute best part was the desserts! They had the most amazing Tiramisu I've ever tried. We were really happy with our decision to reserve a spot at this restaurant, and we will be going back soon to try and other dishes.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811bda0a681b0cbc-EWR"
+    }
+}

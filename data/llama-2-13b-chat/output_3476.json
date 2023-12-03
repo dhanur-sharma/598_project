@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Last Thursday I attended a memorial service for my mother. She passed away in July after battling breast cancer for 11 years. She was my best friend and losing her was really hard. The memorial service was truly beautiful though. There were so many wonderful people there celebrating her life and embracing her for the wonderful woman she was. People from all over the country showed up, which was really powerful. It was kind of overwhelming for me though, because everyone wanted to talk to me! Thankfully, I had a few of my very close friends there to support me. My coworkers from the farm where I work even showed up. They didn't know my mother, but they wanted to be there to support me. My brother played a piece on the piano that he dedicated to my mom. A lot of extended family members also showed up and they got to meet my boyfriend. Having my boyfriend there was probably the most helpful because he has stood by me though all of this! He never got to meet my mom, which is something I really regret. However, he loves me and will always stand by me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Last Thursday I attended a memorial service for my mother. She passed away in July after battling breast cancer for 11 years. She was my best friend and losing her was really hard. The memorial service was truly beautiful though. There were so many wonderful people there celebrating her life and embracing her for the wonderful woman she was. People from all over the country showed up, which was really powerful. It was kind of overwhelming for me though, because everyone wanted to talk to me! Thankfully, I had a few of my very close friends there to support me. My coworkers from the farm where I work even showed up. They didn't know my mother, but they wanted to be there to support me. My brother played a piece on the piano that he dedicated to my mom. A lot of extended family members also showed up and they got to meet my boyfriend. Having my boyfriend there was probably the most helpful because he has stood by me though all of this! He never got to meet my mom, which is something I really regret. However, he loves me and will always stand by me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I know my mom would have loved him. After the service, we all went to a park nearby and had a picnic. It was a beautiful day and it was nice to be outside and celebrate my mom's life with so many people. Overall, the memorial service was a beautiful tribute to my mom and it was a great comfort to have so many people there to support me."
+            }
+        ],
+        "request_id": "811eca089e0241bb-EWR"
+    }
+}

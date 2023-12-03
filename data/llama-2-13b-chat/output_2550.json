@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: One such event was a surprise birthday party. This happened around two months ago. It was thrown by my friend from work. I wasn't expecting a party, as these usually aren't thrown for me. It happened after work at about 6pm. All of my friends and some of my family were there. We had some drinks, listened to music, and had a good time. I also had some cake. Moreover, I opened presents. Of course, the most surprising thing was the party itself. Besides this, I also got some concert tickets which I was not expecting. The party lasted about three hours, then everyone started trickling out the door. While it was a fun time, by the end I was exhausted. I was very thankful for the party though. With that being said, I definitely would not want one every year. It truly was a memorable birthday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: One such event was a surprise birthday party. This happened around two months ago. It was thrown by my friend from work. I wasn't expecting a party, as these usually aren't thrown for me. It happened after work at about 6pm. All of my friends and some of my family were there. We had some drinks, listened to music, and had a good time. I also had some cake. Moreover, I opened presents. Of course, the most surprising thing was the party itself. Besides this, I also got some concert tickets which I was not expecting. The party lasted about three hours, then everyone started trickling out the door. While it was a fun time, by the end I was exhausted. I was very thankful for the party though. With that being said, I definitely would not want one every year. It truly was a memorable birthday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": ""
+            }
+        ],
+        "request_id": "811eb8fc896f443e-EWR"
+    }
+}

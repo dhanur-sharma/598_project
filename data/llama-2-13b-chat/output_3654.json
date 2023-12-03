@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I swerved to miss a deer and there was no shoulder on the edge of the road. My truck rolled over an embankment. It rolled twice and hit a tree. The truck was crushed except for a small section of the driver's side, where I was. I got a broken ankle and some bruises from the seat belt. That is all. I was in the hospital for four days, mainly because I had surgery on my ankle. Afterwards I focused on physical recovery, then physical therapy. When I began driving again I noticed that I would become anxious when I looked at the edge of the road. I also was having some bad dreams about what happened. When it began to affect my mood and sleep, I went to see a therapist.  We usually talk. Sometimes we do EMDR. EMDR helps me process the accident without having to fully relive it. Therapy is helping and the dreams and anxiety have lessened."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I swerved to miss a deer and there was no shoulder on the edge of the road. My truck rolled over an embankment. It rolled twice and hit a tree. The truck was crushed except for a small section of the driver's side, where I was. I got a broken ankle and some bruises from the seat belt. That is all. I was in the hospital for four days, mainly because I had surgery on my ankle. Afterwards I focused on physical recovery, then physical therapy. When I began driving again I noticed that I would become anxious when I looked at the edge of the road. I also was having some bad dreams about what happened. When it began to affect my mood and sleep, I went to see a therapist.  We usually talk. Sometimes we do EMDR. EMDR helps me process the accident without having to fully relive it. Therapy is helping and the dreams and anxiety have lessened.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ece1ad8488ca1-EWR"
+    }
+}

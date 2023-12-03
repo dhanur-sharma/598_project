@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I met a woman.   It wasn't really that different from any other day,  I was going to work.  I work most every day, and this one is no different.    I usually don't do anything special after work,  but today I decided to socialize.  I went to a bar.  I talked to people.  There was a woman.  We chatted.  It wasn't anything unusual,  just shatting,  but then she asked me if I wanted to take her home.   And I said yes.   There really wasn't anything meaningful there,  just meaningless sex,  but it was a social connection that I had been lacking for a long time.  I enjoyed it a great deal.   It was passionate,  I was able to open up and show a different side of myself.   It was fun.   Unfortunately, she wasn't really interested in a long term relationship, so it didn't go anywhere."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I met a woman.   It wasn't really that different from any other day,  I was going to work.  I work most every day, and this one is no different.    I usually don't do anything special after work,  but today I decided to socialize.  I went to a bar.  I talked to people.  There was a woman.  We chatted.  It wasn't anything unusual,  just shatting,  but then she asked me if I wanted to take her home.   And I said yes.   There really wasn't anything meaningful there,  just meaningless sex,  but it was a social connection that I had been lacking for a long time.  I enjoyed it a great deal.   It was passionate,  I was able to open up and show a different side of myself.   It was fun.   Unfortunately, she wasn't really interested in a long term relationship, so it didn't go anywhere.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "  But it was nice to have something for a little while."
+            }
+        ],
+        "request_id": "811f3be498148c12-EWR"
+    }
+}

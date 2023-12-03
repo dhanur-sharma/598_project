@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: On a cold morning three years ago, I received a call that I knew was not going to end well. I woke up that morning as usual, got dressed and was about going out foe work. I received a call from my sister that my cousin had fainted that morning. We all grew up together, and the said cousin grew up with us in the same house, so I regard her as more of a blood sister than a cousin. Immediately after I received the call, I called into work to tell inform that I would not be coming in that day for family emergency reasons. Shortly after, I drove to the hospital were she was admitted. When I arrived at the hospital, my sister was already there along side with most of the patients family members. We were all worried sick for her because there were no apparent symptoms, and according to her husband she slept very well the previous night. After a while, the test results were in and it was determined that she had brain cancer. We were all scared for her, but it was also our duty to remain strong for her. Over the next couple of weeks and months, we tried to encourage her to fight and remain strong. She first started with chemotherapy, which was not doing her much good. She then opted to have a surgery. The surgery ended up been more complicated than we expected, but after all the surgeries, she continued chemo. At this point we thought she was in a good place, and that she was recovering. A few weeks later she died. It came as a surprise to all her well wishers because we genuinely thought she was getting better. Two days before her death, she went out with her husband and kids, and they had some fun. Her death was really disturbing and unbelievable."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: On a cold morning three years ago, I received a call that I knew was not going to end well. I woke up that morning as usual, got dressed and was about going out foe work. I received a call from my sister that my cousin had fainted that morning. We all grew up together, and the said cousin grew up with us in the same house, so I regard her as more of a blood sister than a cousin. Immediately after I received the call, I called into work to tell inform that I would not be coming in that day for family emergency reasons. Shortly after, I drove to the hospital were she was admitted. When I arrived at the hospital, my sister was already there along side with most of the patients family members. We were all worried sick for her because there were no apparent symptoms, and according to her husband she slept very well the previous night. After a while, the test results were in and it was determined that she had brain cancer. We were all scared for her, but it was also our duty to remain strong for her. Over the next couple of weeks and months, we tried to encourage her to fight and remain strong. She first started with chemotherapy, which was not doing her much good. She then opted to have a surgery. The surgery ended up been more complicated than we expected, but after all the surgeries, she continued chemo. At this point we thought she was in a good place, and that she was recovering. A few weeks later she died. It came as a surprise to all her well wishers because we genuinely thought she was getting better. Two days before her death, she went out with her husband and kids, and they had some fun. Her death was really disturbing and unbelievable.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have had to deal with my own grief and that of my family, and it has been a very difficult process."
+            }
+        ],
+        "request_id": "811e96a2bf5c4411-EWR"
+    }
+}

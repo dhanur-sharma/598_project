@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was having a birthday part for myself and I invited a lot of friends over.  It was a lot of fun. The most memorable event was when my brother came over. I was not expecting him. He lives in a different state and does not have a lot of money. It was a complete surprise. I was very glad to see him. We all played board games and shared stories. It was a very fun night. I got to be with people that mattered to me. Work, or distraction did not get in the way. It was a night I will always remember. There was my best friend there, my wife, my brother and two other close friends. It was an awesome time.  I will cherish it always."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was having a birthday part for myself and I invited a lot of friends over.  It was a lot of fun. The most memorable event was when my brother came over. I was not expecting him. He lives in a different state and does not have a lot of money. It was a complete surprise. I was very glad to see him. We all played board games and shared stories. It was a very fun night. I got to be with people that mattered to me. Work, or distraction did not get in the way. It was a night I will always remember. There was my best friend there, my wife, my brother and two other close friends. It was an awesome time.  I will cherish it always.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eced2e99d5e71-EWR"
+    }
+}

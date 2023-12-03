@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My sister-in-law was diagnosed with diabetes. The health condition became a major concern in her day to day life. She had to adjust her lifestyle in order to manage her condition. Each day was a challenge to keep her blood sugar level under control and at the correct level. Previous to the diagnosis, my sister-in-law was a chef and thoroughly enjoyed preparing food for others and entertaining. As time went on her condition became worse as she was unable to make the appropriate changes for controlling her diabetes. She began to suffer consequences from the condition including having body parts amputated. She became more depressed as the condition became more and more debilitating. One day she was having dinner in a restaurant and began to have stroke like symptoms. She was rushed to the hospital and was diagnosed with two brain tumors. This news was devastating to me and to all of her family members. She only lived a short time after the diagnosis of the tumors. She died within six months of the diagnosis. This was a very emotional event for her two daughters, her husband and her extended family. We all continue to struggle with the fact that she is no longer with us and that she died at such a young age."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My sister-in-law was diagnosed with diabetes. The health condition became a major concern in her day to day life. She had to adjust her lifestyle in order to manage her condition. Each day was a challenge to keep her blood sugar level under control and at the correct level. Previous to the diagnosis, my sister-in-law was a chef and thoroughly enjoyed preparing food for others and entertaining. As time went on her condition became worse as she was unable to make the appropriate changes for controlling her diabetes. She began to suffer consequences from the condition including having body parts amputated. She became more depressed as the condition became more and more debilitating. One day she was having dinner in a restaurant and began to have stroke like symptoms. She was rushed to the hospital and was diagnosed with two brain tumors. This news was devastating to me and to all of her family members. She only lived a short time after the diagnosis of the tumors. She died within six months of the diagnosis. This was a very emotional event for her two daughters, her husband and her extended family. We all continue to struggle with the fact that she is no longer with us and that she died at such a young age.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811e96acbb608c2f-EWR"
+    }
+}

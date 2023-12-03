@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Dear diary,My ex-husband has lost his mind. Our daughter recently got a job where he works and he has demanded that I make her quit or refuse to take her to work. He's being unreasonable. She's eighteen years old and more than capable of handling the job. I don't understand how her having a job can be a problem for him. He's threatened our very tenuous friendship, and has involved his wife who is also my friend. He has begun to refuse to talk to me, instead sending his \"concerns\" through his wife. His wife, meanwhile, is frustrated that he's begun complaining to her. His wife agrees somewhat that our daughter is capable of doing the job, but would prefer to not have to deal with his complaining. She told me that he is convinced that our daughter will do something completely unacceptable. He thinks she will decide to talk about sex, or have an emotional breakdown. He's also concerned he will personally have to become involved. He's also convinced he will be asked to intervene by their managers. It's frustrating and upsetting for all of us for him to be so irrational. But our daughter seems to take this all in stride, and is doing the job."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Dear diary,My ex-husband has lost his mind. Our daughter recently got a job where he works and he has demanded that I make her quit or refuse to take her to work. He's being unreasonable. She's eighteen years old and more than capable of handling the job. I don't understand how her having a job can be a problem for him. He's threatened our very tenuous friendship, and has involved his wife who is also my friend. He has begun to refuse to talk to me, instead sending his \"concerns\" through his wife. His wife, meanwhile, is frustrated that he's begun complaining to her. His wife agrees somewhat that our daughter is capable of doing the job, but would prefer to not have to deal with his complaining. She told me that he is convinced that our daughter will do something completely unacceptable. He thinks she will decide to talk about sex, or have an emotional breakdown. He's also concerned he will personally have to become involved. He's also convinced he will be asked to intervene by their managers. It's frustrating and upsetting for all of us for him to be so irrational. But our daughter seems to take this all in stride, and is doing the job.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "She says she's happy to be working and making money. I'm proud of her for that.\n\n"
+            }
+        ],
+        "request_id": "811f44052d5d8ca5-EWR"
+    }
+}

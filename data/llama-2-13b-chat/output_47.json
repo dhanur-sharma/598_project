@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Our family, consisting of my wife and 8-year old son, recently went on a road trip, driving all the way from Kentucky to Toronto. The plan involved stops in Columbus as well as Niagara Falls, the main attraction of our trip. One day before our trip, my wife found out that her US passport had expired four months ago. Nevertheless, we decided to proceed with our trip and hope for the best. We stayed a night at Columbus, and took the opportunity to visit the Science Museum and also spend some time at TopGolf for a few shots. The next day we drove all the way to Niagara Falls on the US side. It was really fun, and our first time there. We took a tour around Hurricane Deck which put us right next to some falls, and we all enjoyed getting wet. It was especially memorable for me, because I had not felt this much joy and togetherness, due to recent marital problems I had been experiencing. After a brief tour of the Falls, we decided to drive to our hotel on the Canadian side. We were slightly nervous, because of my wife's expired passport. Delightfully, the Canadian border patrol did not even notice. We proceeded to our hotel which had a wonderful view of the Falls. We spent two nights there, exploring every activity we could find time to do. Our next stop was Toronto. WE took the opportunity to try some great Chinese food before checking into our hotel. The highlight was visiting the CN tower and watching the sunset at the top. After a couple of nights, we started our journey back home. Again we became quite nervous at the border crossing. The agent asked me a bunch of questions (as I was the only non-US citizen) before notifying my wife that her passport had expired. We pretended to be shocked, and I offered the agent my wife's drivers license, but the agent said he didn't need it. He just wanted us to know of the expired passport so that we could fix it when we got home. That was a nice way to end our trip."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Our family, consisting of my wife and 8-year old son, recently went on a road trip, driving all the way from Kentucky to Toronto. The plan involved stops in Columbus as well as Niagara Falls, the main attraction of our trip. One day before our trip, my wife found out that her US passport had expired four months ago. Nevertheless, we decided to proceed with our trip and hope for the best. We stayed a night at Columbus, and took the opportunity to visit the Science Museum and also spend some time at TopGolf for a few shots. The next day we drove all the way to Niagara Falls on the US side. It was really fun, and our first time there. We took a tour around Hurricane Deck which put us right next to some falls, and we all enjoyed getting wet. It was especially memorable for me, because I had not felt this much joy and togetherness, due to recent marital problems I had been experiencing. After a brief tour of the Falls, we decided to drive to our hotel on the Canadian side. We were slightly nervous, because of my wife's expired passport. Delightfully, the Canadian border patrol did not even notice. We proceeded to our hotel which had a wonderful view of the Falls. We spent two nights there, exploring every activity we could find time to do. Our next stop was Toronto. WE took the opportunity to try some great Chinese food before checking into our hotel. The highlight was visiting the CN tower and watching the sunset at the top. After a couple of nights, we started our journey back home. Again we became quite nervous at the border crossing. The agent asked me a bunch of questions (as I was the only non-US citizen) before notifying my wife that her passport had expired. We pretended to be shocked, and I offered the agent my wife's drivers license, but the agent said he didn't need it. He just wanted us to know of the expired passport so that we could fix it when we got home. That was a nice way to end our trip.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We learned a valuable lesson, to always double check the expiration date of our passports before embarking on a trip.\n\n"
+            }
+        ],
+        "request_id": "811e8a76de58432b-EWR"
+    }
+}

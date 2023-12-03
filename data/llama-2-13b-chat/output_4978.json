@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: A few weeks ago I went car shopping.  As was the case most of the time, I had no idea what I was truly looking for.  I went to the buy here pay here lot around the corner from my house.  There were the typical little cars like the Versa and Corolla, but I saw the nicest blue Mazda 6 I had seen.  After a brief chat with the salesman he allowed me to take a test drive.  We got about a half mile from the car lot when the car started sputtering.  In a panic I pulled into the Kroger parking lot nearby.  The salesman and I got out and took a look under the hood.  Apparently the car had a fuel leak and we ran out of gas.  We were stuck at the Kroger for about 45 minutes before a tow truck came and took us and the car back to the car lot.  I promptly got back in my car and left, even while the salesman tried to convince me to check out another car.  I decided that I was done looking at cars for the day.  From then on I only went to branded dealerships, as they at least check out their cars before putting them up for sale.  Maybe one day if I see the right car on another small lot I may check it out.  For the time being I think I'll stick with shopping at places with much better quality control."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: A few weeks ago I went car shopping.  As was the case most of the time, I had no idea what I was truly looking for.  I went to the buy here pay here lot around the corner from my house.  There were the typical little cars like the Versa and Corolla, but I saw the nicest blue Mazda 6 I had seen.  After a brief chat with the salesman he allowed me to take a test drive.  We got about a half mile from the car lot when the car started sputtering.  In a panic I pulled into the Kroger parking lot nearby.  The salesman and I got out and took a look under the hood.  Apparently the car had a fuel leak and we ran out of gas.  We were stuck at the Kroger for about 45 minutes before a tow truck came and took us and the car back to the car lot.  I promptly got back in my car and left, even while the salesman tried to convince me to check out another car.  I decided that I was done looking at cars for the day.  From then on I only went to branded dealerships, as they at least check out their cars before putting them up for sale.  Maybe one day if I see the right car on another small lot I may check it out.  For the time being I think I'll stick with shopping at places with much better quality control.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811be1effa5c426a-EWR"
+    }
+}

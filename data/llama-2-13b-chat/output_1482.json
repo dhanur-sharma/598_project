@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Five months ago, one of my favorite bands The Mountain Goats came to town. They played a double show (two shows in two nights.) It was at my favorite venue, Mr. Smalls. My best friend came home from Virginia and saw both of the shows with me. One evening we got balcony seats, and the other we were on the floor. It was a wonderful time. Each set list seemed perfectly curated and the second night they played for an extra hour and a half. We had some beers and sang along to most every song, occasionally glancing at each other to say \"this is awesome.\" We met some people from Canada that were very nice. They invited us to a scavenger hunt the next day, but we were too tired from the show to attend. Each night ended in more drinks and sitting on my deck at my apartment. It is rare to see my friend as we live in different states, so we usually stay up late when we do hang out. I still think back on those shows as two of the best I've ever seen. I love the Mountain Goats. I also love Mr. Smalls. But mostly, I love my best friend and the time that we share."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Five months ago, one of my favorite bands The Mountain Goats came to town. They played a double show (two shows in two nights.) It was at my favorite venue, Mr. Smalls. My best friend came home from Virginia and saw both of the shows with me. One evening we got balcony seats, and the other we were on the floor. It was a wonderful time. Each set list seemed perfectly curated and the second night they played for an extra hour and a half. We had some beers and sang along to most every song, occasionally glancing at each other to say \"this is awesome.\" We met some people from Canada that were very nice. They invited us to a scavenger hunt the next day, but we were too tired from the show to attend. Each night ended in more drinks and sitting on my deck at my apartment. It is rare to see my friend as we live in different states, so we usually stay up late when we do hang out. I still think back on those shows as two of the best I've ever seen. I love the Mountain Goats. I also love Mr. Smalls. But mostly, I love my best friend and the time that we share.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811ea5a46eb14397-EWR"
+    }
+}

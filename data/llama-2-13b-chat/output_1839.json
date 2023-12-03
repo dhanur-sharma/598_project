@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have been with my wife for 10 years. We have a couple kids so we never really have time to relax. Our anniversary was coming up and I suggested to her we get away for the weekend and leave the kids with my parents. She was reluctant at first because she didn't want to leave the kids alone but eventually she agreed. We thought about what we wanted to do. I bounced some ideas off her and she came up with a few ideas of her own. We couldn't decide what to do. Eventually I just said let's go to a concert. We both agreed that would be a fun use of our vacation. We set out on our journey. It was weird having so much peace and quiet at first. Eventually we got to our destination. We were having so much fun being at a music concert alone again. It felt like were young again in our 20s. It was nice to be able to get away like this."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have been with my wife for 10 years. We have a couple kids so we never really have time to relax. Our anniversary was coming up and I suggested to her we get away for the weekend and leave the kids with my parents. She was reluctant at first because she didn't want to leave the kids alone but eventually she agreed. We thought about what we wanted to do. I bounced some ideas off her and she came up with a few ideas of her own. We couldn't decide what to do. Eventually I just said let's go to a concert. We both agreed that would be a fun use of our vacation. We set out on our journey. It was weird having so much peace and quiet at first. Eventually we got to our destination. We were having so much fun being at a music concert alone again. It felt like were young again in our 20s. It was nice to be able to get away like this.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eabc709d4c340-EWR"
+    }
+}

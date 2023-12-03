@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Yesterday I was in the supermarket looking for some dinner.  I was almost done shopping when I heard a very loud crying coming from he next aisle.  I walked over to see what was going on.  There I noticed a young mother trying to deal with her baby.  I usually try to avoid loud children but she seemed so overwhelmed.  I felt like I needed to help.  I offered to hold her baby and she gladly accepted. Surprisingly, the baby stopped crying!  The mom was able to shop in peace finally.  Afterwards, she could not stop thanking me.  This has changed the way I feel about crying children.  In the future I will no longer think of them as an annoyance, but an opportunity for me to try to help someone out.  I wonder how many other things in life I should consider differently.  I never thought I would be the one to approach a crying kid.  Who knows what else I may actually be good at."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Yesterday I was in the supermarket looking for some dinner.  I was almost done shopping when I heard a very loud crying coming from he next aisle.  I walked over to see what was going on.  There I noticed a young mother trying to deal with her baby.  I usually try to avoid loud children but she seemed so overwhelmed.  I felt like I needed to help.  I offered to hold her baby and she gladly accepted. Surprisingly, the baby stopped crying!  The mom was able to shop in peace finally.  Afterwards, she could not stop thanking me.  This has changed the way I feel about crying children.  In the future I will no longer think of them as an annoyance, but an opportunity for me to try to help someone out.  I wonder how many other things in life I should consider differently.  I never thought I would be the one to approach a crying kid.  Who knows what else I may actually be good at.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdffddb8d4228-EWR"
+    }
+}

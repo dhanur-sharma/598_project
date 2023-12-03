@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I've been collecting dolls and toys since I was very small. My favorite is Strawberry Shortcake. I have been searching for these since as far back as I can remember.  About two months ago, I found this niftly little store. It was called Caddy Corner. I thought I'd give it a try and go look. I was extremely busy that day. But I took a little time for myself since I deserve it. I looked around the store. What do I see in the corner? Dolls, everwhere dolls! Right in the mddle of all these dolls was a batch of Strawberry Shortcake dolls. I thought I was going to have a heart attack. I quickly grabbed them and rushed to the counter in disbelief. I bought all of the dolls. This was a once in a lifetime find and I am the most happy woman you will ever see."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I've been collecting dolls and toys since I was very small. My favorite is Strawberry Shortcake. I have been searching for these since as far back as I can remember.  About two months ago, I found this niftly little store. It was called Caddy Corner. I thought I'd give it a try and go look. I was extremely busy that day. But I took a little time for myself since I deserve it. I looked around the store. What do I see in the corner? Dolls, everwhere dolls! Right in the mddle of all these dolls was a batch of Strawberry Shortcake dolls. I thought I was going to have a heart attack. I quickly grabbed them and rushed to the counter in disbelief. I bought all of the dolls. This was a once in a lifetime find and I am the most happy woman you will ever see.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811eb1f0ac76433e-EWR"
+    }
+}

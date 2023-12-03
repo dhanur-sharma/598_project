@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I am a patient care assistant in the pediatric unit of a hospital. Several months ago, a 5-year-old patient came into the unit with some common symptoms - fever, chills, etc. but could not get a specific diagnoses. I was assigned to be the PCA working with this child during their stay. My main duties included parent and child education, what to expect, general bathing/cleaning/feeding, etc. One day, while I was alone in the room with my patient, he suddenly went into cardiac arrest. I immediately buzzed for assistance and began performing CPR. It was the first time in my career that I had done so, and although I had significant and extensive training, I had never performed CPR on a human being. As help arrived, I continued the CPR until the patient regained a normal rhythm. This event was one of the scariest moments of my life. In front of me was a 5-year-old boy whose parents were at work and had no idea that this was happening and his life was essentially in my hands at that moment. Although he survived and was eventually discharged, this event has stuck with me forever. Immediately after, I went to the bathroom and cried. I realized how physically and emotionally demanding and draining this job was. I never realized the lasting impact that a patient can have. Most come in for routine things - asthma, appendicitis, etc. and have a short stay that leads to a happy and healthy discharge. This incident changed my entire mindset on my career and will last with me forever."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I am a patient care assistant in the pediatric unit of a hospital. Several months ago, a 5-year-old patient came into the unit with some common symptoms - fever, chills, etc. but could not get a specific diagnoses. I was assigned to be the PCA working with this child during their stay. My main duties included parent and child education, what to expect, general bathing/cleaning/feeding, etc. One day, while I was alone in the room with my patient, he suddenly went into cardiac arrest. I immediately buzzed for assistance and began performing CPR. It was the first time in my career that I had done so, and although I had significant and extensive training, I had never performed CPR on a human being. As help arrived, I continued the CPR until the patient regained a normal rhythm. This event was one of the scariest moments of my life. In front of me was a 5-year-old boy whose parents were at work and had no idea that this was happening and his life was essentially in my hands at that moment. Although he survived and was eventually discharged, this event has stuck with me forever. Immediately after, I went to the bathroom and cried. I realized how physically and emotionally demanding and draining this job was. I never realized the lasting impact that a patient can have. Most come in for routine things - asthma, appendicitis, etc. and have a short stay that leads to a happy and healthy discharge. This incident changed my entire mindset on my career and will last with me forever.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3b3f7fd342c2-EWR"
+    }
+}

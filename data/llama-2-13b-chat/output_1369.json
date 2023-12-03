@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: All my life I had considered myself pretty lucky since I had never been in any sort of major car accident. I was always really cautious when I drove and kept an eye out for anyone driving recklessly. Everyone always said I was so lucky and that I could never be too careful. No matter how cautious you are there\u2019s always someone out there on the complete other side of the spectrum. It was about three months ago when this finally proved true for me. I was going about my daily business like any other day. I was driving to the grocery store to pick up some pasta sauce and Italian bread to make for dinner that night. I was taking my usual road. I stopped at the red light and waited for it to turn green. Once it did, I inched forward before driving through the intersection. Almost instantly it felt like I had been shot. The sound was deafening as a pickup truck came crashing into the passenger side of my car, causing me to spin around and around. I wasn\u2019t sure what going on, and I thought that maybe I was actually dying. Once the spinning and the ringing in my ears stopped, I opened my eyes and moved around a bit. I was okay somehow. I got out of my car to examine the damage done. My car was not so lucky. The entire passenger side of it was completely caved in and the wheel had come clean off. Apparently, the driver of the pickup truck was texting on his phone and was completely oblivious to his light turning red. He sped right through the light and blind-sided me. My car was totaled completely, and I am now in search of a new car. Since this day, I always wait and look before driving through the intersection, even if my light is green."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: All my life I had considered myself pretty lucky since I had never been in any sort of major car accident. I was always really cautious when I drove and kept an eye out for anyone driving recklessly. Everyone always said I was so lucky and that I could never be too careful. No matter how cautious you are there\u2019s always someone out there on the complete other side of the spectrum. It was about three months ago when this finally proved true for me. I was going about my daily business like any other day. I was driving to the grocery store to pick up some pasta sauce and Italian bread to make for dinner that night. I was taking my usual road. I stopped at the red light and waited for it to turn green. Once it did, I inched forward before driving through the intersection. Almost instantly it felt like I had been shot. The sound was deafening as a pickup truck came crashing into the passenger side of my car, causing me to spin around and around. I wasn\u2019t sure what going on, and I thought that maybe I was actually dying. Once the spinning and the ringing in my ears stopped, I opened my eyes and moved around a bit. I was okay somehow. I got out of my car to examine the damage done. My car was not so lucky. The entire passenger side of it was completely caved in and the wheel had come clean off. Apparently, the driver of the pickup truck was texting on his phone and was completely oblivious to his light turning red. He sped right through the light and blind-sided me. My car was totaled completely, and I am now in search of a new car. Since this day, I always wait and look before driving through the intersection, even if my light is green.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I also try to be more aware of my surroundings and always keep an eye out for anyone driving recklessly. It was a scary experience, but I am glad that I was able to walk away with only minor injuries. I will never forget this day and will always be more cautious on the road."
+            }
+        ],
+        "request_id": "811ea378aab178e7-EWR"
+    }
+}

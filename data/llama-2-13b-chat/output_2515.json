@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My uncle died about three months ago now. It was sudden and unexpected as he hadn't been ill and was quite young. It has been really hard to wrap up the estate. The bank that that held his truck loan refused to do anything with us until we went to probate. We went to the probate process and become executors of the estate. The day before we got the paperwork, the bank repossessed the truck. I was so mad with how they handled it and will never do business with them as a customer. Now, we'll just have to wrap the house. My mother and I own a portion, so we just need to deal with the remaining third he owned. Our lawyer recommends waiting until the state has time to make claims against the state, but frankly, I think he is wrong about the situation. He did not receive state-sponsored health care, so they have nothing to collect on. All in all, I am still stressed and now frustrated more than anything. I do not see why the family of the deceased essentially gets punished by everyone. He didn't have much debt and hardly any assets, but we still have to worry that someone will come out of no where and make claims that we couldn't pay. We don't want to sell the house, so we'd have to get cash somehow. I hope this will be done soon. I hate dealing with it."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My uncle died about three months ago now. It was sudden and unexpected as he hadn't been ill and was quite young. It has been really hard to wrap up the estate. The bank that that held his truck loan refused to do anything with us until we went to probate. We went to the probate process and become executors of the estate. The day before we got the paperwork, the bank repossessed the truck. I was so mad with how they handled it and will never do business with them as a customer. Now, we'll just have to wrap the house. My mother and I own a portion, so we just need to deal with the remaining third he owned. Our lawyer recommends waiting until the state has time to make claims against the state, but frankly, I think he is wrong about the situation. He did not receive state-sponsored health care, so they have nothing to collect on. All in all, I am still stressed and now frustrated more than anything. I do not see why the family of the deceased essentially gets punished by everyone. He didn't have much debt and hardly any assets, but we still have to worry that someone will come out of no where and make claims that we couldn't pay. We don't want to sell the house, so we'd have to get cash somehow. I hope this will be done soon. I hate dealing with it.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "It's been so stressful."
+            }
+        ],
+        "request_id": "811eb847af3c4246-EWR"
+    }
+}

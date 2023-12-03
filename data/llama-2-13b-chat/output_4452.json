@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: this was a very memorable experience. my daughter has worked very hard. she is a founder of her troop because she was one of the first girls to join boy scouts when girls were allowed in. so she has to work to get her ranks and prove herself. as mom has to help along the way and keep her on track. i felt very happy and over joyed at the court of honor. it was a really big deal. she doing good and moving up ranks pretty quick. it has been a lot of work in a short time. thats ok its well worth it. she has also made some life long friends along the way. he boys were very excepting also of the girls coming in. they have been a possitive influence on my daughter to. my daughter before she joined scouts was pretty lazy and didnt do much so this was a really big surprise that we found her calling and she loves the outdoors and competition. im very proud of the young woman my daughter has become and how much she has grown in such short time."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: this was a very memorable experience. my daughter has worked very hard. she is a founder of her troop because she was one of the first girls to join boy scouts when girls were allowed in. so she has to work to get her ranks and prove herself. as mom has to help along the way and keep her on track. i felt very happy and over joyed at the court of honor. it was a really big deal. she doing good and moving up ranks pretty quick. it has been a lot of work in a short time. thats ok its well worth it. she has also made some life long friends along the way. he boys were very excepting also of the girls coming in. they have been a possitive influence on my daughter to. my daughter before she joined scouts was pretty lazy and didnt do much so this was a really big surprise that we found her calling and she loves the outdoors and competition. im very proud of the young woman my daughter has become and how much she has grown in such short time.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "she has also learned a lot of life skills that will be very beneficial to her in the future.\n\n"
+            }
+        ],
+        "request_id": "811bd73178610cba-EWR"
+    }
+}

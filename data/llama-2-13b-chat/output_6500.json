@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I feel so sorry for my aunt. She suffers from breast cancer. She doesn't have the best life. Her ex husband harasses her from jail. He writes her letters in order to gain her back. About a week ago her ex was released from jail. Right away her ex starts calling her. He also comes to her house to harass her. She asked him nicely to please leave her alone. He gained his way into her home. He tricked her and said he just wants to talk. He punched her right in the face. She fought back as best as she could. Through this altercation though she broke some ribs. She reported her ex to the police and he went right back to jail."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I feel so sorry for my aunt. She suffers from breast cancer. She doesn't have the best life. Her ex husband harasses her from jail. He writes her letters in order to gain her back. About a week ago her ex was released from jail. Right away her ex starts calling her. He also comes to her house to harass her. She asked him nicely to please leave her alone. He gained his way into her home. He tricked her and said he just wants to talk. He punched her right in the face. She fought back as best as she could. Through this altercation though she broke some ribs. She reported her ex to the police and he went right back to jail.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I feel so sorry for my aunt. She doesn't deserve to be treated like this. She's a good person and she's been through a lot."
+            }
+        ],
+        "request_id": "811f46a62f57c463-EWR"
+    }
+}

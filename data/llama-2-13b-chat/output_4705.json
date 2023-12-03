@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: My diary is about the day my neighbor gave birth. It was such I day I can never forget. I was in my apartment reading a novel when I heard a scream from close by. I could recognize the voice and the first time I heard it and concluded it was my neighbor. I rushed down to her apartment. I got there and the door was locked. She kept screaming and I realized her husband was not in the house and she was all alone. I had no choice but to break down the door and help her to the car. I immediately contacted the ambulance and decided to drive to the hospital because an ambulance may not be able to make it on time. I instantly get in the car and started driving. We were just few minutes to the hospital when she could not hold the pain no more and started screaming louder. Then I realized she was close to delivering. I instantly pulled over and contacted the ambulance. Fortunately, I passerby that tried to help happened to be a nurse. She helped with the delivery and she gave birth without any problem. It was such a great experience for me and I was glad I could help."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: My diary is about the day my neighbor gave birth. It was such I day I can never forget. I was in my apartment reading a novel when I heard a scream from close by. I could recognize the voice and the first time I heard it and concluded it was my neighbor. I rushed down to her apartment. I got there and the door was locked. She kept screaming and I realized her husband was not in the house and she was all alone. I had no choice but to break down the door and help her to the car. I immediately contacted the ambulance and decided to drive to the hospital because an ambulance may not be able to make it on time. I instantly get in the car and started driving. We were just few minutes to the hospital when she could not hold the pain no more and started screaming louder. Then I realized she was close to delivering. I instantly pulled over and contacted the ambulance. Fortunately, I passerby that tried to help happened to be a nurse. She helped with the delivery and she gave birth without any problem. It was such a great experience for me and I was glad I could help.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811bdc3d3a9c0cb0-EWR"
+    }
+}

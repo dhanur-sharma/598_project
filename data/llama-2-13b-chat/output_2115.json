@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Race day was approaching and I had worked so hard over the past 6 months making sure everything was just right.  I changed my diet, was following a strict training schedule that consisted of cardio and strength, and made sure my equipment was in good working order.  I read books on the course and on the transitions through the course.  This was going to be my first adventure race but I felt prepared.  The morning of the race I arrived at the starting line and stationed my equipment at all the aid stops.  I knew exactly where I should be and was ready to time each move.  I knew when to eat, when and how much to drink and what areas to slow down or avoid.  I felt like I was nervous but on top of the world.  The gun shots rang out and the racers started to move.  I followed the crowd into the woods and watched everyone spread out in different directions.  I grabbed my compass and head for the river crossing.  Everything was going great until I reached the climb I had been so worried about.  It took me almost 2 hours to navigate to the top but it was within my sights.  I rested for a moment and dug in the stake as I went to take another step.  Suddenly the rocks shifted and I could feel my hands let go.  Everything went black as I laid motionless on the ground.  When I came to, I was surrounded by people trying to position me on a gurney.  I cried out as the gurney was jolted but my tears were from the pain of not being able to accomplish the goal I worked so hard to reach.  I had devoted so much time and effort and one small mistake was going to take all that away from me.  The doctor looked at the images and said I will heal in time but my dream of finishing that race may not ever become a reality."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Race day was approaching and I had worked so hard over the past 6 months making sure everything was just right.  I changed my diet, was following a strict training schedule that consisted of cardio and strength, and made sure my equipment was in good working order.  I read books on the course and on the transitions through the course.  This was going to be my first adventure race but I felt prepared.  The morning of the race I arrived at the starting line and stationed my equipment at all the aid stops.  I knew exactly where I should be and was ready to time each move.  I knew when to eat, when and how much to drink and what areas to slow down or avoid.  I felt like I was nervous but on top of the world.  The gun shots rang out and the racers started to move.  I followed the crowd into the woods and watched everyone spread out in different directions.  I grabbed my compass and head for the river crossing.  Everything was going great until I reached the climb I had been so worried about.  It took me almost 2 hours to navigate to the top but it was within my sights.  I rested for a moment and dug in the stake as I went to take another step.  Suddenly the rocks shifted and I could feel my hands let go.  Everything went black as I laid motionless on the ground.  When I came to, I was surrounded by people trying to position me on a gurney.  I cried out as the gurney was jolted but my tears were from the pain of not being able to accomplish the goal I worked so hard to reach.  I had devoted so much time and effort and one small mistake was going to take all that away from me.  The doctor looked at the images and said I will heal in time but my dream of finishing that race may not ever become a reality.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I lay in the hospital bed, broken and defeated.\n\n"
+            }
+        ],
+        "request_id": "811eb091f8d342e6-EWR"
+    }
+}

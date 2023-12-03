@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The wife of my old boss recently passed away after a long illness. I was surprised to find out that I was on a list of people to notify and invite to the funeral. I had worked for him for over 20 years so my history with him was long and complicated. The last 2 years were especially strained and stressful and when I had decided to quit the company, he was very disappointed in me. He also told my coworker that I was disloyal. I felt like I had no choice in leaving though. My other boss was deteriorating mentally and physically and would not admit to his deficiencies. He would not be able to concentrate and was shirking his work. I could not stand by and let him ignore his work. We managed other people's money. Their accounts were being ignored and there was nothing I could do about it. After being notified about the funeral, my old boss and I had a chance to chat and it was really nice. I realized that he only had good feelings toward me. I also would like to visit him soon if I can. He has Parkinsons so I do not know how many years he has left. I do miss him."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The wife of my old boss recently passed away after a long illness. I was surprised to find out that I was on a list of people to notify and invite to the funeral. I had worked for him for over 20 years so my history with him was long and complicated. The last 2 years were especially strained and stressful and when I had decided to quit the company, he was very disappointed in me. He also told my coworker that I was disloyal. I felt like I had no choice in leaving though. My other boss was deteriorating mentally and physically and would not admit to his deficiencies. He would not be able to concentrate and was shirking his work. I could not stand by and let him ignore his work. We managed other people's money. Their accounts were being ignored and there was nothing I could do about it. After being notified about the funeral, my old boss and I had a chance to chat and it was really nice. I realized that he only had good feelings toward me. I also would like to visit him soon if I can. He has Parkinsons so I do not know how many years he has left. I do miss him.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f3caca92f4219-EWR"
+    }
+}

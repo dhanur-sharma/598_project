@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Recently my father and I went shark fishing in the Atlantic ocean. We took off from the port of savannah early in the morning. I was very excited, because I really enjoy fishing, especially with my dad. It was also the first time in several year that we found time to go and the weather cooperated. At first, the fishing was rather slow. We were able to get plenty of bait fish, but no sharks were biting. After about an hour, this changed. Tarpon started swimming all around the boat, and I got very excited. We quickly reeled in all the rods to switch lures to catch these tarpon. About one minute after we casted back out, a tarpon bit the lure and took off. The rod was bent all the way down into the water and the guide grabbed the rod. He set the hook, then passed the rod of to me. Then, another rod bent all the way down. Another fish was on! The guide grabbed that pole and handed it to my dad. I was busy fighting the tarpon, and he was fighting his. After about 10 minutes, the tarpon on my line jumped in the air and snapped the line. I was disappointed, but still excited because I had a lot of fun fighting the fish. I looked over at my dad, and he was still fighting his fish. After several more minutes, we saw it break the surface. It was an 8 foot bull shark! The shark was half the length of the boat! We were very surprised to have caught such a big shark. We took pictures with it, then cut the line and let it swim away. It was a very exciting moment."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Recently my father and I went shark fishing in the Atlantic ocean. We took off from the port of savannah early in the morning. I was very excited, because I really enjoy fishing, especially with my dad. It was also the first time in several year that we found time to go and the weather cooperated. At first, the fishing was rather slow. We were able to get plenty of bait fish, but no sharks were biting. After about an hour, this changed. Tarpon started swimming all around the boat, and I got very excited. We quickly reeled in all the rods to switch lures to catch these tarpon. About one minute after we casted back out, a tarpon bit the lure and took off. The rod was bent all the way down into the water and the guide grabbed the rod. He set the hook, then passed the rod of to me. Then, another rod bent all the way down. Another fish was on! The guide grabbed that pole and handed it to my dad. I was busy fighting the tarpon, and he was fighting his. After about 10 minutes, the tarpon on my line jumped in the air and snapped the line. I was disappointed, but still excited because I had a lot of fun fighting the fish. I looked over at my dad, and he was still fighting his fish. After several more minutes, we saw it break the surface. It was an 8 foot bull shark! The shark was half the length of the boat! We were very surprised to have caught such a big shark. We took pictures with it, then cut the line and let it swim away. It was a very exciting moment.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "We decided to call it a day and head back to shore."
+            }
+        ],
+        "request_id": "811eca0289d643be-EWR"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always been big on horror movies. I also like to go out and have fun at bars from time to time. I ended up going out to a horror movie trivia night one night with friends. I thought it would be fun. We were doing pretty well. There was another group there. It was a group females. They were close to winning. I ended up getting the final question right and my team beat their team. We ended up hanging out after. One of the women in the group and I got along very well. We started dating. We fell in love not very much long after that. We just got married a few months ago. We are starting our life together now and it is so great. I love her with all my heart."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always been big on horror movies. I also like to go out and have fun at bars from time to time. I ended up going out to a horror movie trivia night one night with friends. I thought it would be fun. We were doing pretty well. There was another group there. It was a group females. They were close to winning. I ended up getting the final question right and my team beat their team. We ended up hanging out after. One of the women in the group and I got along very well. We started dating. We fell in love not very much long after that. We just got married a few months ago. We are starting our life together now and it is so great. I love her with all my heart.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I love that we have the same interests. I love that we can have fun together. I love that we can have scary movie marathons and just enjoy each other's company. I am so grateful that I went to that horror movie trivia night. It was the best night of my life.\n\n"
+            }
+        ],
+        "request_id": "811eb0a47a998c29-EWR"
+    }
+}

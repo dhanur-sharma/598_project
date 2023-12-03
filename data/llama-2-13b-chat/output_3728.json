@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: was vacationing with my older sister last month. We had decided to take a beach vacation together. While I do like vacationing with my sister, we have very different sleep schedules. I like to get up early and she likes to stay up late. So, on our first day of vacation, I woke up at about 7AM and decided to take a walk on the beach. While I was walking, I noticed a very handsome man who was walking in my direction. As he got closer, our eyes locked and we passed each other slowly. At about the same time, we both turned around and looked at each other and started laughing. He broke the ice first and said his name was tom and we shook hands. We chatted for a few minutes and he invited me to breakfast. I agreed! There were several restaurants along the beach highway and he said he knew the best one. As we got closer, here said: RIGHT HERE! It was a beautiful condo right on the beach and I was surprised. He invited me in and told me he made the best pancakes in the world. And, he was right! We had a delicious breakfast of pancakes with straw berries and champagne! I was feeling a little woozy and said I had to go, so I ran off and went straight back to our hotel room. My sister was just getting up and asked how my walk was and I said : The early bird gets the worm."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: was vacationing with my older sister last month. We had decided to take a beach vacation together. While I do like vacationing with my sister, we have very different sleep schedules. I like to get up early and she likes to stay up late. So, on our first day of vacation, I woke up at about 7AM and decided to take a walk on the beach. While I was walking, I noticed a very handsome man who was walking in my direction. As he got closer, our eyes locked and we passed each other slowly. At about the same time, we both turned around and looked at each other and started laughing. He broke the ice first and said his name was tom and we shook hands. We chatted for a few minutes and he invited me to breakfast. I agreed! There were several restaurants along the beach highway and he said he knew the best one. As we got closer, here said: RIGHT HERE! It was a beautiful condo right on the beach and I was surprised. He invited me in and told me he made the best pancakes in the world. And, he was right! We had a delicious breakfast of pancakes with straw berries and champagne! I was feeling a little woozy and said I had to go, so I ran off and went straight back to our hotel room. My sister was just getting up and asked how my walk was and I said : The early bird gets the worm.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "And I went back to bed. I hope you enjoy the rest of your vacation!\n\n"
+            }
+        ],
+        "request_id": "811ecf98fc574304-EWR"
+    }
+}

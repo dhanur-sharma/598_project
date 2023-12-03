@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: About six month's ago, I was thrown a surprise birthday party. It was a pretty emotional thing for me because I am in my 20's and I've never had a surprise birthday party before. I still remember arriving at the restaurant, only expecting a dinner between my significant other.  The most memorable party of the whole thing was when I got to our area and saw the decorations and everyone shouting \"Happy Birthday\" as I recognized their faces.  I had a wonderful dinner with 30 friends and family. We ended the evening with drinks and desert, and my significant other ad I headed out for a night on the town. That was definitely one of my most memorable birthdays. I really felt cared for. Before then, I never would have expected that many people to want to show up to my party.  It was endearing to know that my love had gone through all of that to plan something for me. They aren't typically a planner, so that made it even more special. The place at ate was delicious. Our waiter was excellent and he kept everyone happy throughout the meal. I have bee back 4 times since then. I received so many presents that day."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: About six month's ago, I was thrown a surprise birthday party. It was a pretty emotional thing for me because I am in my 20's and I've never had a surprise birthday party before. I still remember arriving at the restaurant, only expecting a dinner between my significant other.  The most memorable party of the whole thing was when I got to our area and saw the decorations and everyone shouting \"Happy Birthday\" as I recognized their faces.  I had a wonderful dinner with 30 friends and family. We ended the evening with drinks and desert, and my significant other ad I headed out for a night on the town. That was definitely one of my most memorable birthdays. I really felt cared for. Before then, I never would have expected that many people to want to show up to my party.  It was endearing to know that my love had gone through all of that to plan something for me. They aren't typically a planner, so that made it even more special. The place at ate was delicious. Our waiter was excellent and he kept everyone happy throughout the meal. I have bee back 4 times since then. I received so many presents that day.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My favorite was a painting from my significant other. They know how much I love art, and they found a local artist to paint something special for me."
+            }
+        ],
+        "request_id": "811ed3b0bdfb0f83-EWR"
+    }
+}

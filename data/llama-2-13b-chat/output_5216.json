@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: The loss of a parent is probably the hardest thing that most people have to deal with at some point in their lives. The death of my father, however, was something I don't think I'll ever be able to fully get over. I love my father so much. He was always there for me, always by my side. He gave me the best advice anyone could ever give. He was there through my first break up, there for my graduation, even there for me when I was going through a rebellious phase in my 20s. Most people rebel in high school, but I was a really good kid. I guess in my early 20s I was tired of being so good, though. I just know that he would always love me. I knew that he would always be there no matter what. To this day, I still feel upset over his death, and the way he died. I will never be able to live the same again. I try not to get so sad, because I know he wouldn't want that for me. But it's so extremely hard not to miss him. I honor him every year on his birthday."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: The loss of a parent is probably the hardest thing that most people have to deal with at some point in their lives. The death of my father, however, was something I don't think I'll ever be able to fully get over. I love my father so much. He was always there for me, always by my side. He gave me the best advice anyone could ever give. He was there through my first break up, there for my graduation, even there for me when I was going through a rebellious phase in my 20s. Most people rebel in high school, but I was a really good kid. I guess in my early 20s I was tired of being so good, though. I just know that he would always love me. I knew that he would always be there no matter what. To this day, I still feel upset over his death, and the way he died. I will never be able to live the same again. I try not to get so sad, because I know he wouldn't want that for me. But it's so extremely hard not to miss him. I honor him every year on his birthday.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I light a candle, and I say a prayer. I think about all the good times we had together, and I try to focus on the memories rather than the pain. It's been 5 years since he passed, and I still miss him every single day.\n\n"
+            }
+        ],
+        "request_id": "811be67b0a8f8c7d-EWR"
+    }
+}

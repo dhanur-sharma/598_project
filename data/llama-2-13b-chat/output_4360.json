@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: Laura Ingalls Wilder is my wife's favorite writer. She grew up reading the Little House on the Prairie books and she absolutely loves watching reruns of the televisions show. Since practically the first day I met my wife, she's talked about hoping to visit Wilder's childhood home one day. So for our second wedding anniversary, I planned a trip to go visit the historic home. We decided to drive out to the home in Missouri because it just didn't feel right to fly. We spent the first night in a small bed and breakfast just a few miles from the Wilder home. I don't think my wife slept more than a few hours she was so excited. The next morning we hit the road very early. She wanted to spend as much time as possible exploring the home so we didn't waste any daylight. The home was everything we'd imagined and more. It felt like we were transplanted back to the late nineteenth century. There were reenactors dressed up like the Wilder family. They had all the old tools and machinery commonly seen around settler homes back then. They were doing ordinary daily chores like scrubbing clothes. We even got to see a settler churning real butter from cream. Then there were the animals. I think this was my favorite part. Seeing how the cows and other animals were kept and maintained was kind of a thrill to me. By the end of the day we were both exhausted. I don't know if we'll ever make it back out to see the home again but it won't be for lack of trying."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: Laura Ingalls Wilder is my wife's favorite writer. She grew up reading the Little House on the Prairie books and she absolutely loves watching reruns of the televisions show. Since practically the first day I met my wife, she's talked about hoping to visit Wilder's childhood home one day. So for our second wedding anniversary, I planned a trip to go visit the historic home. We decided to drive out to the home in Missouri because it just didn't feel right to fly. We spent the first night in a small bed and breakfast just a few miles from the Wilder home. I don't think my wife slept more than a few hours she was so excited. The next morning we hit the road very early. She wanted to spend as much time as possible exploring the home so we didn't waste any daylight. The home was everything we'd imagined and more. It felt like we were transplanted back to the late nineteenth century. There were reenactors dressed up like the Wilder family. They had all the old tools and machinery commonly seen around settler homes back then. They were doing ordinary daily chores like scrubbing clothes. We even got to see a settler churning real butter from cream. Then there were the animals. I think this was my favorite part. Seeing how the cows and other animals were kept and maintained was kind of a thrill to me. By the end of the day we were both exhausted. I don't know if we'll ever make it back out to see the home again but it won't be for lack of trying.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "My wife says she'll be dreaming about this trip for the rest of her life."
+            }
+        ],
+        "request_id": "811bd53eeb2c1a3c-EWR"
+    }
+}

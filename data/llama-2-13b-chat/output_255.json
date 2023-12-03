@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I have always had difficulty dealing with my emotions. For my whole life I dealt with depression and anxiety. High School was not an easy time, having to deal with puberty and emotional instabilities. This all came to a head three months ago. I finally broke down and was unable to function. I stopped talking to people and wasn't able to go into work. I decided to seek out help, and I'm so glad that I did. I never thought that I would be able to feel normal again. I don't know if I will ever be \"normal\", but functioning is good enough for now. If I never sought out help, I don't know what would have happened to me. Best case scenario is that I would have lost my job and a majority of my friends. I don't even want to know what the worst case would have been. Re-acclimating to every day life has been difficult. I take solace in the fact that I actually want to try. I no longer want to curl up in bed and disappear from the world."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I have always had difficulty dealing with my emotions. For my whole life I dealt with depression and anxiety. High School was not an easy time, having to deal with puberty and emotional instabilities. This all came to a head three months ago. I finally broke down and was unable to function. I stopped talking to people and wasn't able to go into work. I decided to seek out help, and I'm so glad that I did. I never thought that I would be able to feel normal again. I don't know if I will ever be \"normal\", but functioning is good enough for now. If I never sought out help, I don't know what would have happened to me. Best case scenario is that I would have lost my job and a majority of my friends. I don't even want to know what the worst case would have been. Re-acclimating to every day life has been difficult. I take solace in the fact that I actually want to try. I no longer want to curl up in bed and disappear from the world.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "I have a long way to go, but I am willing to put in the work to get better.\n\n"
+            }
+        ],
+        "request_id": "811e8e79b9a55e7f-EWR"
+    }
+}

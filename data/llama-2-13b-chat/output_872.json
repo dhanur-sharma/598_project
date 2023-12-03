@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I recently went to my older brothers wedding. I really love my brother and he is younger than me, so I was always a bit protective.  He was always a bit isolated so it felt great to see that he someone for him. The girl he is marrying is really great. She is really nice and has a nice family.  What I really liked was that the wedding was small and intimate. There was no spoiled affairs and it was all about love. The ceremony was really beautiful too. Every little detail was thought of and I could tell everyone in the room felt the same.  It was outdoors which made me want that for myself in the future. The reception was really nice and I enjoyed the food. I could tell that my brother was happy and he had a great dance. Everyone said a few words in which they honored him. I spoke about how much he means to me. I cannot wait to see how my brother starts his own family."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I recently went to my older brothers wedding. I really love my brother and he is younger than me, so I was always a bit protective.  He was always a bit isolated so it felt great to see that he someone for him. The girl he is marrying is really great. She is really nice and has a nice family.  What I really liked was that the wedding was small and intimate. There was no spoiled affairs and it was all about love. The ceremony was really beautiful too. Every little detail was thought of and I could tell everyone in the room felt the same.  It was outdoors which made me want that for myself in the future. The reception was really nice and I enjoyed the food. I could tell that my brother was happy and he had a great dance. Everyone said a few words in which they honored him. I spoke about how much he means to me. I cannot wait to see how my brother starts his own family.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": " I know that he is in good hands.  "
+            }
+        ],
+        "request_id": "811e99b39a038cba-EWR"
+    }
+}

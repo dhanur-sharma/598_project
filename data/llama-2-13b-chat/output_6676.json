@@ -1,0 +1,33 @@
+{
+    "status": "finished",
+    "prompt": [
+        "Summarize the following story in first person: I was in Delhi for the first time and my laptop was stolen out of my backpack. I used my laptop for work so I was very devastated. I called my friend in the US. I asked if they could ship me a replacement. It was going to take several weeks. While I was sulking in my hotel, a complete stranger overheard the problem I was having. He offered to help my find a replacement. He and I spent the entire day wandering the city. We went to different shops all over Delhi. We visited the largest computer center in Delhi. There were people selling all kinds of Electronics. I was able to find a new laptop for a reasonable price. I ended up with one hell of an adventure out of it. I was so happy to have a new laptop. I didnt care that my previous one had been stolen from me."
+    ],
+    "model": "togethercomputer/llama-2-13b-chat",
+    "model_owner": "",
+    "tags": {},
+    "num_returns": 1,
+    "args": {
+        "model": "togethercomputer/llama-2-13b-chat",
+        "prompt": "Summarize the following story in first person: I was in Delhi for the first time and my laptop was stolen out of my backpack. I used my laptop for work so I was very devastated. I called my friend in the US. I asked if they could ship me a replacement. It was going to take several weeks. While I was sulking in my hotel, a complete stranger overheard the problem I was having. He offered to help my find a replacement. He and I spent the entire day wandering the city. We went to different shops all over Delhi. We visited the largest computer center in Delhi. There were people selling all kinds of Electronics. I was able to find a new laptop for a reasonable price. I ended up with one hell of an adventure out of it. I was so happy to have a new laptop. I didnt care that my previous one had been stolen from me.",
+        "top_p": 0.8,
+        "top_k": 60,
+        "temperature": 0.8,
+        "max_tokens": 256,
+        "stop": [
+            "<human>",
+            "\n\n"
+        ],
+        "repetition_penalty": 1,
+        "logprobs": null
+    },
+    "subjobs": [],
+    "output": {
+        "choices": [
+            {
+                "text": "\n\n"
+            }
+        ],
+        "request_id": "811f4a6cfec242ac-EWR"
+    }
+}
